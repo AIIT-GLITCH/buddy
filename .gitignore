@@ -1,0 +1,71 @@
+# Secrets — never track these
+.api_token
+.env
+*.key
+*_secrets.py
+secrets.json
+
+# Model weights, checkpoints, and anything large enough to choke git
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# Virtualenvs
+venv/
+.venv/
+env/
+prometheus_vector/
+
+# Python cache and build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Experiment tracking
+wandb/
+runs/
+tb_logs/
+lightning_logs/
+
+# Logs
+*.log
+logs/
+data/training/*.log
+sft_logs/
+grpo_logs/
+
+# Large datasets — keep locally, decide later what to version
+data/training/*.jsonl
+data/training/*.json
+data/*.jsonl
+data/*.json
+data/corpus_chunks.json
+BUD_TRAIN.jsonl
+
+# Audio and media
+audio/
+*.wav
+*.mp3
+*.flac
+
+# Backup files
+*.bak
+*.bak.*
+*.old
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Claude local
+.claude/
