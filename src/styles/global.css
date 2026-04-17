@@ -131,6 +131,17 @@ section:first-of-type { border-top: none; }
 .paper-card .paper-tag { font-family: 'Courier New', monospace; font-size: 8pt; letter-spacing: 0.2em; color: var(--muted); text-transform: uppercase; margin-top: 16px; }
 .papers-more { margin-top: 48px; text-align: center; font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.28em; text-transform: uppercase; color: var(--muted); }
 
+/* Apps teaser */
+.apps-teaser-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; margin-top: 48px; }
+.app-teaser-card { background: var(--bg-card); border: 1px solid var(--edge); border-radius: 3px; padding: 24px 22px; display: flex; flex-direction: column; gap: 12px; text-decoration: none; color: inherit; position: relative; transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s; border-bottom: 1px solid var(--edge); }
+.app-teaser-card:hover { border-color: var(--edge-hi); transform: translateY(-3px); box-shadow: 0 10px 30px rgba(212,160,96,0.08); border-bottom: 1px solid var(--edge-hi); }
+.atc-badge { position: absolute; top: 16px; right: 16px; font-family: 'Courier New', monospace; font-size: 8pt; letter-spacing: 0.2em; text-transform: uppercase; padding: 3px 10px; border-radius: 40px; border: 1px solid var(--edge); }
+.atc-badge.live { color: var(--teal); border-color: rgba(64,192,176,0.5); background: rgba(64,192,176,0.06); }
+.atc-badge.beta { color: var(--amber); border-color: rgba(212,160,96,0.5); background: rgba(212,160,96,0.06); }
+.atc-icon { font-size: 28px; line-height: 1; margin-top: 4px; }
+.atc-name { font-family: 'Georgia', serif; font-size: 20px; color: var(--ink); line-height: 1.2; }
+.atc-line { font-size: 14px; color: var(--muted-hi); line-height: 1.45; }
+
 /* Paper detail page */
 .paper-page { max-width: 860px; margin: 0 auto; padding: 140px 8vw 120px; }
 .paper-page .back { font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.24em; text-transform: uppercase; color: var(--muted); border-bottom: none; display: inline-block; margin-bottom: 40px; }
