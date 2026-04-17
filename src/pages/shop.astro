@@ -199,6 +199,24 @@ const paid = [
       </p>
     </div>
   </section>
+
+  <script is:inline>
+    // Pin GitHub handle on the Stripe subscribe link so the webhook can pair
+    // the subscription to the right user.
+    (async function () {
+      try {
+        const r = await fetch('/api/auth/me', { credentials: 'same-origin' });
+        if (!r.ok) return;
+        const d = await r.json();
+        if (!d.user) return;
+        document.querySelectorAll('a.sc-btn.primary[href^="https://buy.stripe.com/"]').forEach(a => {
+          const url = new URL(a.href);
+          url.searchParams.set('client_reference_id', d.user.login);
+          a.href = url.toString();
+        });
+      } catch {}
+    })();
+  </script>
 </Layout>
 
 <style>

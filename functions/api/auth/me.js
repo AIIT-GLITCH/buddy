@@ -28,7 +28,15 @@ export async function onRequestGet(context) {
 
   try {
     const user = JSON.parse(raw);
-    return new Response(JSON.stringify({ user }), { status: 200, headers });
+    let tier = 'free';
+    const proRaw = await env.AUTH_KV.get(`pro:${(user.login || '').toLowerCase()}`);
+    if (proRaw) {
+      try {
+        const pro = JSON.parse(proRaw);
+        if (pro.status === 'active' || pro.status === 'trialing') tier = 'pro';
+      } catch {}
+    }
+    return new Response(JSON.stringify({ user, tier }), { status: 200, headers });
   } catch {
     return new Response(JSON.stringify({ user: null }), { status: 200, headers });
   }

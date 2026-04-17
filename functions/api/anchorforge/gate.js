@@ -210,18 +210,33 @@ export async function onRequestPost(context) {
       return new Response(JSON.stringify({ error: 'output_too_long', message: 'Max 80,000 characters.' }), { status: 400, headers });
     }
 
-    // --- rate limit (free: 1/week; pro wiring pending) ---
+    // --- tier lookup: pro if pro:{login} in AUTH_KV and status active ---
+    let tier = 'free';
+    if (env.AUTH_KV) {
+      const proRaw = await env.AUTH_KV.get(`pro:${user.login.toLowerCase()}`);
+      if (proRaw) {
+        try {
+          const pro = JSON.parse(proRaw);
+          if (pro.status === 'active' || pro.status === 'trialing') tier = 'pro';
+        } catch {}
+      }
+    }
+
+    // --- rate limit: free 1/calendar-week, pro 1/calendar-day ---
     if (env.ANCHORFORGE_KV) {
-      const tier = 'free';
       const now = new Date();
-      const key = tier === 'free'
-        ? `use:${user.login}:week:${isoWeekKey(now)}`
-        : `use:${user.login}:day:${now.toISOString().slice(0, 10)}`;
+      const key = tier === 'pro'
+        ? `use:${user.login}:day:${now.toISOString().slice(0, 10)}`
+        : `use:${user.login}:week:${isoWeekKey(now)}`;
       const already = await env.ANCHORFORGE_KV.get(key);
       if (already) {
-        return new Response(JSON.stringify({ error: 'rate_limited', tier, message: 'You already gated a run this period. Free = 1/week.' }), { status: 429, headers });
+        return new Response(JSON.stringify({
+          error: 'rate_limited',
+          tier,
+          message: tier === 'pro' ? 'You already gated today. Pro = 1/day.' : 'You already gated this week. Free = 1/week — upgrade to Pro for 1/day.',
+        }), { status: 429, headers });
       }
-      const ttl = tier === 'free' ? 7 * 86400 : 86400;
+      const ttl = tier === 'pro' ? 86400 : 7 * 86400;
       await env.ANCHORFORGE_KV.put(key, '1', { expirationTtl: ttl });
     }
 

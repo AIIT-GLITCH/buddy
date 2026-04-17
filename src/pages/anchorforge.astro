@@ -122,19 +122,32 @@ import Layout from '../layouts/Layout.astro';
       const freeBtn = document.querySelector('.af-tier.free .af-btn');
 
       let user = null;
+      let tier = 'free';
       try {
         const r = await fetch('/api/auth/me', { credentials: 'same-origin' });
         if (r.ok) {
           const d = await r.json();
           user = d.user || null;
+          tier = d.tier || 'free';
         }
       } catch {}
 
       const loginUrl = '/api/auth/github/login?redirect=/anchorforge';
 
+      // Pin client_reference_id on the Stripe link when logged in, so the webhook
+      // pairs the subscription to the right GitHub handle.
+      const subLink = document.querySelector('.af-tier.pro .af-btn');
+      if (subLink && user) {
+        const base = 'https://buy.stripe.com/14A00l83Ab0t3q2gx7fbq00';
+        subLink.href = base + '?client_reference_id=' + encodeURIComponent(user.login);
+      } else if (subLink && !user) {
+        subLink.href = loginUrl;
+        subLink.textContent = 'Login to subscribe';
+      }
+
       if (user) {
         btn.disabled = false;
-        btn.textContent = 'Gate it · @' + user.login;
+        btn.textContent = tier === 'pro' ? 'Gate it · @' + user.login + ' · Pro' : 'Gate it · @' + user.login;
         if (freeBtn) { freeBtn.disabled = false; freeBtn.textContent = 'Logged in as @' + user.login; freeBtn.classList.remove('ghost'); freeBtn.classList.add('primary'); }
       } else {
         btn.disabled = false;
