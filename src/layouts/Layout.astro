@@ -14,10 +14,22 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
   <meta name="description" content={description}>
   <title>{title}</title>
   <script is:inline>
-    // Let native hash-scroll win on cold load, then opt into smooth scroll for subsequent anchor clicks.
-    window.addEventListener('load', () => {
-      requestAnimationFrame(() => document.documentElement.classList.add('ready'));
-    });
+    // Fix cold-load hash scroll: smooth-scroll races initial paint and loses.
+    // On DOMContentLoaded, if there's a hash, kill smooth-scroll momentarily,
+    // force-jump to target, then restore smooth-scroll for all subsequent clicks.
+    (function () {
+      if (!location.hash) return;
+      document.addEventListener('DOMContentLoaded', function () {
+        var id = location.hash.slice(1);
+        var el = document.getElementById(id);
+        if (!el) return;
+        document.documentElement.style.scrollBehavior = 'auto';
+        el.scrollIntoView();
+        requestAnimationFrame(function () {
+          document.documentElement.style.scrollBehavior = '';
+        });
+      });
+    })();
   </script>
 </head>
 <body>
