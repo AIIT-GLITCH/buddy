@@ -219,6 +219,13 @@ body.nav-locked { overflow: hidden; }
 @media (max-width: 840px) {
   .nav-hamburger { display: flex; }
 
+  /* Brand dot reads washed-out on phone screens — pump it up */
+  .nav-brand .dot {
+    width: 11px; height: 11px;
+    background: radial-gradient(circle at 40% 40%, #fff 0%, #ffe88a 55%, #d4a060 85%, #d4a060 100%);
+    box-shadow: 0 0 12px rgba(255,232,138,1), 0 0 28px rgba(212,160,96,0.8), 0 0 2px #fff inset;
+  }
+
   .nav-links {
     position: fixed;
     top: 64px; left: 0; right: 0;

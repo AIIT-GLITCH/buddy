@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Slide 1 — Planetary Sensor Fusion</title>
+<style>
+  @page { size: 16in 9in; margin: 0; }
+
+  :root {
+    --bg:     #07090f;
+    --ink:    #d0dce8;
+    --muted:  #5a7080;
+    --gold:   #c89040;
+    --amber:  #d4a060;
+    --teal:   #40c0b0;
+    --blue:   #4090d0;
+    --brown:  #8a4a18;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    width: 16in;
+    height: 9in;
+    overflow: hidden;
+    background: var(--bg);
+    font-family: 'Georgia', serif;
+    color: var(--ink);
+  }
+
+  /* Grid */
+  .grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(64,144,208,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(64,144,208,0.025) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+
+  /* Atmosphere glow */
+  .atmos {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 70% 55% at 50% 20%, rgba(64,192,176,0.07) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 40% at 15% 80%, rgba(200,144,64,0.06) 0%, transparent 55%),
+      radial-gradient(ellipse 40% 35% at 85% 75%, rgba(64,144,208,0.06) 0%, transparent 50%);
+  }
+
+  /* ── Layout ── */
+  .slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.55in 0.7in 0.45in;
+  }
+
+  /* ── TOP BAR ── */
+  .top-bar {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg,
+      var(--brown), var(--amber), var(--gold), var(--teal), var(--blue),
+      var(--teal), var(--gold), var(--amber), var(--brown));
+    margin-bottom: 0.3in;
+    border-radius: 2px;
+  }
+
+  /* ── HEADER ROW ── */
+  .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.28in;
+  }
+
+  /* Buddy emblem */
+  .emblem {
+    display: inline-flex;
+    align-items: center;
+    gap: 0;
+  }
+  .beaver { font-size: 36px; line-height: 1; filter: sepia(0.3); }
+  .buddy-text {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: #e8d8c0;
+    margin-left: 8px;
+  }
+  .dot-orbit {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+    flex-shrink: 0;
+  }
+  .dot {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #d4a060, #8a4a18);
+    box-shadow: 0 0 8px rgba(212,160,96,0.9), 0 0 18px rgba(212,160,96,0.35);
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    animation:
+      orbit 2.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite,
+      glow  1.8s ease-in-out infinite alternate;
+  }
+  @keyframes orbit {
+    0%   { transform: translate(-50%,-50%) translate(0px,  0px)  scale(1.0); }
+    8%   { transform: translate(-50%,-50%) translate(3px, -5px)  scale(1.2); }
+    16%  { transform: translate(-50%,-50%) translate(6px, -2px)  scale(1.4); }
+    25%  { transform: translate(-50%,-50%) translate(7px,  3px)  scale(1.3); }
+    33%  { transform: translate(-50%,-50%) translate(3px,  7px)  scale(1.0); }
+    41%  { transform: translate(-50%,-50%) translate(-1px, 5px)  scale(0.7); }
+    50%  { transform: translate(-50%,-50%) translate(-7px, 1px)  scale(0.4); }
+    58%  { transform: translate(-50%,-50%) translate(-6px,-3px)  scale(0.5); }
+    66%  { transform: translate(-50%,-50%) translate(-3px,-6px)  scale(0.7); }
+    75%  { transform: translate(-50%,-50%) translate(1px, -7px)  scale(1.0); }
+    83%  { transform: translate(-50%,-50%) translate(5px, -4px)  scale(1.2); }
+    91%  { transform: translate(-50%,-50%) translate(4px,  0px)  scale(1.1); }
+    100% { transform: translate(-50%,-50%) translate(0px,  0px)  scale(1.0); }
+  }
+  @keyframes glow {
+    from { box-shadow: 0 0 5px rgba(212,160,96,0.6), 0 0 10px rgba(212,160,96,0.2); }
+    to   { box-shadow: 0 0 12px rgba(212,160,96,1.0), 0 0 28px rgba(212,160,96,0.5); }
+  }
+
+  .slide-tag {
+    font-family: 'Courier New', monospace;
+    font-size: 8pt;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .slide-tag span { color: var(--amber); }
+
+  /* ── MAIN TITLE ── */
+  .title-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 8.5in;
+  }
+
+  .eyebrow {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 0.18in;
+  }
+
+  .main-title {
+    font-size: 52pt;
+    font-weight: 400;
+    font-style: italic;
+    color: #f0e8d8;
+    line-height: 1.12;
+    margin-bottom: 0.2in;
+    letter-spacing: -0.01em;
+  }
+  .main-title strong {
+    font-weight: 700;
+    font-style: normal;
+    color: var(--amber);
+  }
+
+  .subtitle {
+    font-family: 'Courier New', monospace;
+    font-size: 11pt;
+    letter-spacing: 0.14em;
+    color: var(--muted);
+    margin-bottom: 0.3in;
+  }
+
+  /* Validation pill */
+  .pill-row {
+    display: flex;
+    gap: 0.18in;
+    flex-wrap: wrap;
+  }
+  .pill {
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 5px 18px;
+    font-family: 'Courier New', monospace;
+    font-size: 8pt;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .pill.g  { border-color: rgba(200,144,64,0.5); color: var(--gold); }
+  .pill.t  { border-color: rgba(64,192,176,0.5); color: var(--teal); }
+  .pill.b  { border-color: rgba(64,144,208,0.5); color: var(--blue); }
+
+  /* ── EARTH VISUAL (right side) ── */
+  .earth-wrap {
+    position: absolute;
+    right: 0.4in;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4.2in;
+    height: 4.2in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .earth {
+    position: relative;
+    width: 3.4in;
+    height: 3.4in;
+  }
+
+  /* Orbital rings */
+  .ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ring:nth-child(1) { width: 3.4in; height: 3.4in; border-color: rgba(64,192,176,0.30); animation: spin 28s linear infinite; }
+  .ring:nth-child(2) { width: 3.0in; height: 3.0in; border-color: rgba(64,144,208,0.22); border-style: dashed; animation: spin 20s linear infinite reverse; }
+  .ring:nth-child(3) { width: 2.5in; height: 2.5in; border-color: rgba(200,144,64,0.22); animation: spin 14s linear infinite; }
+  .ring:nth-child(4) { width: 2.0in; height: 2.0in; border-color: rgba(64,192,176,0.30); border-style: dotted; animation: spin 9s linear infinite reverse; }
+  .ring:nth-child(5) { width: 1.5in; height: 1.5in; border-color: rgba(64,144,208,0.25); animation: spin 6s linear infinite; }
+
+  @keyframes spin {
+    from { transform: translate(-50%,-50%) rotate(0deg); }
+    to   { transform: translate(-50%,-50%) rotate(360deg); }
+  }
+
+  .earth-core {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    line-height: 1;
+    animation: earthspin 40s linear infinite;
+    filter: brightness(0.9) saturate(1.1);
+  }
+
+  @keyframes earthspin {
+    from { transform: translate(-50%,-50%) rotate(0deg); }
+    to   { transform: translate(-50%,-50%) rotate(360deg); }
+  }
+
+  /* Sensor nodes on rings */
+  .node {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--teal);
+    box-shadow: 0 0 10px rgba(64,192,176,0.8);
+    top: 50%; left: 50%;
+  }
+
+  /* ── BOTTOM FOOTER ── */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 1px solid rgba(64,144,208,0.15);
+    padding-top: 10px;
+  }
+
+  .f-left {
+    font-size: 8pt;
+    font-style: italic;
+    color: var(--muted);
+  }
+  .f-left span { color: #e8d8c0; }
+
+  .f-right {
+    font-family: 'Courier New', monospace;
+    font-size: 7pt;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(90,112,128,0.5);
+    text-align: right;
+  }
+
+  /* wAIste Not */
+  .wm {
+    font-family: 'Courier New', monospace;
+    font-size: 6pt;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(64,144,208,0.15);
+  }
+  .wm .ai { color: rgba(200,144,64,0.2); font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="grid"></div>
+<div class="atmos"></div>
+
+<div class="slide">
+
+  <div class="top-bar"></div>
+
+  <!-- Header row -->
+  <div class="header-row">
+    <div class="emblem">
+      <span class="beaver">🦫</span>
+      <span class="buddy-text">Buddy</span>
+      <div class="dot-orbit"><div class="dot"></div></div>
+    </div>
+    <div class="slide-tag">AIIT-THRESI &nbsp;·&nbsp; Slide <span>01</span> of 10 &nbsp;·&nbsp; April 2026</div>
+  </div>
+
+  <!-- Title block -->
+  <div class="title-block">
+    <div class="eyebrow">Planetary Sensor Fusion — Weather Prediction Framework</div>
+    <div class="main-title">
+      The Earth is<br>
+      a <strong>coherence field.</strong><br>
+      We learned to read it.
+    </div>
+    <div class="subtitle">AIIT-THRESI · Global Atmospheric Coherence Model · Patent #1 Filed</div>
+    <div class="pill-row">
+      <div class="pill g">r = 0.706</div>
+      <div class="pill t">p = 1×10⁻⁵</div>
+      <div class="pill b">38 Seasons Validated</div>
+      <div class="pill g">86.8% Accuracy</div>
+      <div class="pill t">Patent Filed</div>
+    </div>
+  </div>
+
+  <!-- Earth visual -->
+  <div class="earth-wrap">
+    <div class="earth">
+      <div class="ring"></div>
+      <div class="ring"></div>
+      <div class="ring"></div>
+      <div class="ring"></div>
+      <div class="ring"></div>
+      <div class="earth-core">🌍</div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="f-left"><span>Rhet Dillard Wike</span> · Bristow, Oklahoma · wikerdw1@gmail.com</div>
+    <div class="wm">w<span class="ai">AI</span>ste&nbsp;Not&nbsp;·&nbsp;Print&nbsp;Verified</div>
+    <div class="f-right">AIIT-THRESI · April 2026<br>Confidential</div>
+  </div>
+
+</div>
+</body>
+</html>

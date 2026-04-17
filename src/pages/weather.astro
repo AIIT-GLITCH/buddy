@@ -1,0 +1,227 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const sensors = [
+  { tag: 'Ocean Thermal',  domain: 'NOAA OISST v2.1',          detail: 'SST anomaly — 26.5 °C cyclogenesis gate' },
+  { tag: 'Geomagnetic',    domain: 'NOAA SWPC · Kp index',     detail: '34,430 daily Kp records, 1932–2024' },
+  { tag: 'Hydrological',   domain: 'USGS Water Services',      detail: 'Streamflow at 13+ major U.S. dams' },
+  { tag: 'Tidal',          domain: 'NOAA CO-OPS',              detail: 'Coastal anomaly at 6+ stations' },
+  { tag: 'Seismic',        domain: 'USGS Earthquake Hazards',  detail: 'Global event catalog, stress proxy' },
+  { tag: 'Atmospheric',    domain: 'NOAA NWS + FAA NOTAM',     detail: 'Pressure + airspace-hold coupling' },
+  { tag: 'Heliospheric',   domain: 'NASA DONKI',               detail: 'CMEs, solar flares, geomagnetic storms' },
+];
+---
+<Layout title="Weather · Multi-Sensor Coherence Prediction — AIIT-THRESI" description="Patent-filed multi-sensor coherence framework for tropical cyclone prediction. 38 seasons validated. Spearman r=0.706, p=1e-5. Raising $400K.">
+
+  <!-- HERO -->
+  <section style="padding-top: 140px;">
+    <div class="container">
+      <div class="eyebrow" style="color: #5ba8d4;">🌀 Patented · Filed Apr 7, 2026</div>
+      <h1 style="font-size: clamp(48px, 8vw, 120px); margin-bottom: 28px; line-height: 1.02;">
+        Weather.<br><span style="color: var(--warm);">Predicted by coherence.</span>
+      </h1>
+      <p style="color: var(--ink-soft); font-size: 21px; max-width: 780px; line-height: 1.55; margin-bottom: 18px;">
+        NHC's 5-day genesis probability sits around <strong>50–60%</strong>. We validated a <strong style="color: var(--warm);">coupling-weighted coherence framework</strong> on 38 Atlantic hurricane seasons and landed at <strong>r = 0.706, p ≈ 10⁻⁵</strong>. Not a curve fit — a physics prediction with a single derived equation.
+      </p>
+      <p style="color: var(--muted-hi); font-size: 16px; max-width: 780px; line-height: 1.55;">
+        Treat the atmosphere as one coupled system with hydrological, geomagnetic, thermal, tidal, seismic, and heliospheric channels. Compute one scalar. Score a season.
+      </p>
+      <div style="display: flex; gap: 14px; flex-wrap: wrap; margin-top: 32px;">
+        <a class="btn" href="#raise">Raising $400K →</a>
+        <a class="btn ghost" href="/weather/PROVISIONAL_PATENT_WEATHER_PREDICTION.pdf" target="_blank" rel="noopener">Open patent (PDF)</a>
+        <a class="btn ghost" href="/weather/WEATHER_DECK_SLIDE1.html" target="_blank" rel="noopener">Deck · slide 1</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALIDATION TAPE -->
+  <section>
+    <div class="section-num">01</div>
+    <div class="container">
+      <div class="eyebrow" style="color: #5ba8d4;">Validation · locked</div>
+      <h2 style="margin-bottom: 32px;">38 seasons. One equation.</h2>
+      <div class="wx-stats">
+        <div class="wx-stat"><div class="n">r = 0.706</div><div class="l">Spearman rank · predicted vs. observed</div></div>
+        <div class="wx-stat"><div class="n">p ≈ 10⁻⁵</div><div class="l">Null-model falsification threshold</div></div>
+        <div class="wx-stat"><div class="n">86.8%</div><div class="l">Within-one-category accuracy</div></div>
+        <div class="wx-stat"><div class="n">49.8%</div><div class="l">Variance explained · vs. 24.7% SST-only</div></div>
+        <div class="wx-stat"><div class="n">38</div><div class="l">Atlantic seasons · 1982–2023</div></div>
+        <div class="wx-stat"><div class="n">384K+</div><div class="l">Historical records · 172 years</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUATION -->
+  <section>
+    <div class="section-num">02</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--amber);">The physics</div>
+      <h2 style="margin-bottom: 28px;">One equation. Seven channels.</h2>
+      <div class="wx-eqn">
+        <div class="wx-eqn-line">C = C<sub>0</sub> · exp(−α · γ<sub>eff</sub>)</div>
+        <div class="wx-eqn-line secondary">γ<sub>eff</sub> = Σᵢ wᵢ · γᵢ</div>
+        <div class="wx-eqn-cap">Planetary coherence C decays against a weighted sum of decoherence channels. Each wᵢ is a physical coupling weight — not a curve fit — derived from domain-specific threshold conditions (SST 26.5 °C, shear magnitude, Saharan dust, atmospheric moisture, Kp coupling). Output: coherence state C, event probability, <em>null-event</em> probability, and the dominant channel driving either formation or suppression.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SENSORS -->
+  <section>
+    <div class="section-num">03</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--teal);">The fusion layer</div>
+      <h2 style="margin-bottom: 32px;">Seven domains · one scalar.</h2>
+      <div class="wx-sensors">
+        {sensors.map((s, i) => (
+          <div class="wx-sensor">
+            <div class="wx-sensor-idx">0{i+1}</div>
+            <div>
+              <div class="wx-sensor-tag">{s.tag}</div>
+              <div class="wx-sensor-domain">{s.domain}</div>
+              <div class="wx-sensor-detail">{s.detail}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- PATENT CARD -->
+  <section>
+    <div class="section-num">04</div>
+    <div class="container">
+      <div class="eyebrow" style="color: #5ba8d4;">Patent</div>
+      <h2 style="margin-bottom: 24px;">The filing.</h2>
+      <div class="wx-patent">
+        <div class="wx-patent-meta">
+          <div class="k">Filing Date</div><div class="v">April 7, 2026</div>
+          <div class="k">Inventor</div><div class="v">Rhet Dillard Wike · Council Hill, Oklahoma</div>
+          <div class="k">Applicant</div><div class="v">AIIT-THRESHOLD LLC</div>
+          <div class="k">Claims</div><div class="v">12 · method, system, null-event, teleconnection, validation</div>
+        </div>
+        <div class="wx-patent-title">
+          <div class="wx-patent-tag">USPTO · Provisional Application for Patent</div>
+          <h3>Method and System for Multi-Sensor Coupling-Weighted Coherence Analysis for Weather Event Prediction</h3>
+          <p style="color: var(--muted-hi); font-size: 14px; margin-top: 16px; line-height: 1.6;">
+            Covers the coherence decay equation, the coupling-weighted decoherence sum, threshold-gated weight derivation, null-event probability computation, cross-system teleconnection detection, and the 38-season validation protocol as a falsifiability gate.
+          </p>
+          <div style="margin-top: 20px; display: flex; gap: 12px; flex-wrap: wrap;">
+            <a class="btn" href="/weather/PROVISIONAL_PATENT_WEATHER_PREDICTION.pdf" target="_blank" rel="noopener">PDF</a>
+            <a class="btn ghost" href="/weather/PROVISIONAL_PATENT_WEATHER_PREDICTION.md" target="_blank" rel="noopener">MD source</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORWARD PREDICTION -->
+  <section>
+    <div class="section-num">05</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--amber);">Forward test · live</div>
+      <h2 style="margin-bottom: 24px;">2026 Atlantic season · prospective.</h2>
+      <p style="color: var(--muted-hi); font-size: 17px; max-width: 720px; line-height: 1.6; margin-bottom: 36px;">
+        The framework committed a published prediction on April 8, 2026 — <em>before</em> the season began. This is how falsifiability works: the gate is set, the number is locked, the season will judge.
+      </p>
+      <div class="wx-forecast">
+        <div class="wx-forecast-label">Classification</div>
+        <div class="wx-forecast-value">HYPERACTIVE</div>
+        <div class="wx-forecast-meta">Formation score 5.65 · baseline scenario · 20+ named storms expected</div>
+        <a class="btn ghost" href="/weather/PREDICTION_2026_HURRICANE_SEASON.md" target="_blank" rel="noopener" style="margin-top: 24px;">Read the prediction</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RAISE -->
+  <section id="raise">
+    <div class="section-num">06</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--warm);">The raise</div>
+      <h2 style="margin-bottom: 24px;">$400,000.</h2>
+      <p style="color: var(--ink-soft); font-size: 18px; max-width: 720px; line-height: 1.6; margin-bottom: 32px;">
+        Seed capital to take the framework from validated-retrospective to <strong style="color: var(--warm);">operational</strong>. Real-time sensor ingest, a production-grade scoring service, published daily genesis-probability feed, and the paper trail required to earn NHC benchmark entry.
+      </p>
+      <div class="wx-raise-grid">
+        <div class="wx-raise-card">
+          <div class="wx-raise-num">1</div>
+          <div class="wx-raise-label">Real-time ingest</div>
+          <div class="wx-raise-detail">Productionize the 7-domain sensor layer. NOAA/USGS/NASA/FAA/EPA feeds with failover and archival.</div>
+        </div>
+        <div class="wx-raise-card">
+          <div class="wx-raise-num">2</div>
+          <div class="wx-raise-label">Scoring service</div>
+          <div class="wx-raise-detail">Hourly γ_eff computation. Daily coherence state. Per-basin genesis probability with dominant channel called out.</div>
+        </div>
+        <div class="wx-raise-card">
+          <div class="wx-raise-num">3</div>
+          <div class="wx-raise-label">Public record</div>
+          <div class="wx-raise-detail">Every prediction committed to a tamper-evident public log <em>before</em> the event window. Win or lose on the record.</div>
+        </div>
+        <div class="wx-raise-card">
+          <div class="wx-raise-num">4</div>
+          <div class="wx-raise-label">Benchmark entry</div>
+          <div class="wx-raise-detail">Peer-reviewed paper. NHC / ECMWF benchmark submission. License negotiations with insurers and emergency-management offices.</div>
+        </div>
+      </div>
+
+      <div style="margin-top: 48px; display: flex; gap: 14px; flex-wrap: wrap;">
+        <a class="btn" href="mailto:reliablerestaurantrepair@gmail.com?subject=Weather%20Coherence%20%E2%80%94%20%24400K%20Raise">Request the full 10-slide deck</a>
+        <a class="btn ghost" href="/weather/WEATHER_DECK_SLIDE1.html" target="_blank" rel="noopener">Preview slide 1</a>
+      </div>
+
+      <p style="color: var(--muted); font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.22em; text-transform: uppercase; line-height: 2; margin-top: 48px;">
+        Inventor · Rhet Dillard Wike<br>
+        Council Hill, Oklahoma · AIIT-THRESHOLD LLC<br>
+        reliablerestaurantrepair@gmail.com
+      </p>
+    </div>
+  </section>
+
+</Layout>
+
+<style>
+/* Stats tape */
+.wx-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 26px; }
+.wx-stat { border-left: 2px solid #5ba8d4; padding-left: 20px; }
+.wx-stat .n { font-family: 'Georgia', serif; font-size: clamp(26px, 3.2vw, 40px); font-weight: 700; color: var(--ink); line-height: 1.1; letter-spacing: -0.01em; }
+.wx-stat .l { font-family: 'Courier New', monospace; font-size: 8pt; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); margin-top: 10px; line-height: 1.55; }
+
+/* Equation block */
+.wx-eqn { background: var(--bg-card); border: 1px solid var(--edge); border-left: 3px solid var(--amber); border-radius: 4px; padding: 40px 36px; max-width: 780px; }
+.wx-eqn-line { font-family: 'Courier New', monospace; font-size: clamp(18px, 2.2vw, 28px); color: var(--warm); text-align: center; margin-bottom: 16px; letter-spacing: 0.04em; }
+.wx-eqn-line.secondary { color: var(--teal); font-size: clamp(14px, 1.6vw, 20px); }
+.wx-eqn-cap { color: var(--muted-hi); font-size: 15px; line-height: 1.6; margin-top: 18px; padding-top: 20px; border-top: 1px solid var(--edge); }
+
+/* Sensors */
+.wx-sensors { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.wx-sensor { display: grid; grid-template-columns: 48px 1fr; gap: 18px; align-items: start; background: var(--bg-card); border: 1px solid var(--edge); border-left: 3px solid var(--teal); border-radius: 3px; padding: 22px 22px; }
+.wx-sensor-idx { font-family: 'Courier New', monospace; font-size: 11pt; letter-spacing: 0.22em; color: var(--teal); }
+.wx-sensor-tag { font-family: 'Georgia', serif; font-size: 18px; color: var(--ink); line-height: 1.25; }
+.wx-sensor-domain { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.2em; color: var(--amber); text-transform: uppercase; margin-top: 6px; }
+.wx-sensor-detail { font-size: 14px; color: var(--muted-hi); line-height: 1.5; margin-top: 10px; }
+
+/* Patent card */
+.wx-patent { display: grid; grid-template-columns: 1fr 2fr; gap: 32px; border: 1px solid rgba(91,168,212,0.35); border-left: 3px solid #5ba8d4; background: linear-gradient(180deg, rgba(91,168,212,0.05) 0%, var(--bg-card) 100%); border-radius: 4px; padding: 32px; }
+.wx-patent-meta { display: grid; grid-template-columns: 1fr; gap: 6px 16px; align-content: start; }
+.wx-patent-meta .k { font-family: 'Courier New', monospace; font-size: 8pt; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); margin-top: 12px; }
+.wx-patent-meta .k:first-child { margin-top: 0; }
+.wx-patent-meta .v { color: var(--ink-soft); font-size: 14px; line-height: 1.5; }
+.wx-patent-tag { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.22em; text-transform: uppercase; color: #5ba8d4; margin-bottom: 14px; }
+.wx-patent-title h3 { font-size: clamp(20px, 2.4vw, 28px); line-height: 1.25; color: var(--ink); }
+@media (max-width: 780px) { .wx-patent { grid-template-columns: 1fr; } }
+
+/* Forecast */
+.wx-forecast { background: var(--bg-card); border: 1px solid var(--edge); border-left: 3px solid var(--warm); border-radius: 4px; padding: 32px 36px; max-width: 640px; }
+.wx-forecast-label { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.24em; text-transform: uppercase; color: var(--muted); }
+.wx-forecast-value { font-family: 'Georgia', serif; font-size: clamp(36px, 5vw, 56px); color: var(--warm); margin-top: 10px; line-height: 1.0; letter-spacing: 0.04em; }
+.wx-forecast-meta { font-size: 15px; color: var(--muted-hi); margin-top: 14px; }
+
+/* Raise grid */
+.wx-raise-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.wx-raise-card { background: var(--bg-card); border: 1px solid var(--edge); border-left: 3px solid var(--amber); border-radius: 3px; padding: 24px 22px; }
+.wx-raise-num { font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.3em; color: var(--amber); }
+.wx-raise-label { font-family: 'Georgia', serif; font-size: 19px; color: var(--ink); margin-top: 10px; line-height: 1.25; }
+.wx-raise-detail { font-size: 14px; color: var(--muted-hi); line-height: 1.55; margin-top: 12px; }
+</style>
+</content>
+</invoke>
