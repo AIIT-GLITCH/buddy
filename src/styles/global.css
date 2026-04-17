@@ -203,6 +203,9 @@ section:first-of-type { border-top: none; }
 /* Footer */
 footer { padding: 60px 8vw 40px; border-top: 1px solid var(--edge); background: #05050a; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 24px; font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); }
 footer .f-brand { color: var(--ink); font-family: 'Georgia', serif; text-transform: none; letter-spacing: 0; font-size: 14px; }
+footer .f-support { font-family: 'Georgia', serif; text-transform: none; letter-spacing: 0; font-size: 13px; color: var(--muted-hi); }
+footer .f-support a { color: var(--amber); text-decoration: none; border-bottom: 1px solid rgba(212,160,96,0.3); }
+footer .f-support a:hover { border-bottom-color: var(--amber); }
 footer .wm { color: rgba(64,144,208,0.3); }
 footer .wm .ai { color: rgba(212,160,96,0.55); font-weight: 700; }
 
