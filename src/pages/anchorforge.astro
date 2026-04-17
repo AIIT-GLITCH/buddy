@@ -56,7 +56,7 @@ import Layout from '../layouts/Layout.astro';
         <div class="af-step"><span class="af-step-num">1</span> <div><strong>Download PROTOCOL.md.</strong> The v5 prompt + rules + banned-claims list.</div></div>
         <div class="af-step"><span class="af-step-num">2</span> <div><strong>Run it against any AI.</strong> ChatGPT, Gemini, Grok, local Llama — whatever. The model must self-identify at the top of its response.</div></div>
         <div class="af-step"><span class="af-step-num">3</span> <div><strong>Paste the raw output</strong> into the box below and hit Gate.</div></div>
-        <div class="af-step"><span class="af-step-num">4</span> <div><strong>Sonnet 4.6 reads it.</strong> We chose the most honest frontier model for the read. Every anchor gets a HEAD ping to confirm it resolves.</div></div>
+        <div class="af-step"><span class="af-step-num">4</span> <div><strong>Sonnet 4.6 reads it.</strong> No retrieval augmentation — the gate judges from training knowledge alone, the same constraint every tested model operated under. Every anchor also gets a HEAD ping to confirm it resolves.</div></div>
         <div class="af-step"><span class="af-step-num">5</span> <div><strong>Result commits to the public log.</strong> Tamper-evident. Your run becomes a permanent, forkable, auditable record.</div></div>
       </div>
     </div>
@@ -263,12 +263,12 @@ import Layout from '../layouts/Layout.astro';
     <div class="section-num">05</div>
     <div class="container narrow">
       <div class="eyebrow" style="color: var(--amber);">Why Sonnet 4.6</div>
-      <h2 style="margin-bottom: 20px;">We picked the most honest one.</h2>
+      <h2 style="margin-bottom: 20px;">Ranked #1 among non-retrieval models. By our own data.</h2>
       <p style="color: var(--ink-soft); font-size: 17px; line-height: 1.7; margin-bottom: 16px;">
-        The site gate uses Claude Sonnet 4.6 (<code>claude-sonnet-4-6</code>). For adjudication we want the model that&rsquo;s least likely to tell us what we want to hear.
+        The site gate uses Claude Sonnet 4.6 (<code>claude-sonnet-4-6</code>). Our benchmark shows Sonar Pro at 95.2% — that&rsquo;s the #1 overall score. But Sonar Pro uses live web retrieval. A judge that can look up the answer in real time isn&rsquo;t a blind judge.
       </p>
       <p style="color: var(--muted-hi); font-size: 16px; line-height: 1.7;">
-        Opus is deeper. Haiku is faster. Sonnet 4.6 is the one that will tell you your anchor is dead when your anchor is dead. That&rsquo;s the job.
+        Strip retrieval-augmented models and Sonnet 4.6 ranks first: 88.6% citation survival, 2.9% authority misuse — tightest non-retrieval numbers in the field. It adjudicates under the same constraints as every model it judges.
       </p>
     </div>
   </section>
