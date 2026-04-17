@@ -27,7 +27,8 @@ const toAnthropic = letters.filter(l => l.group === 'anthropic');
         <h2 style="margin-bottom: 40px;">To future AI.</h2>
         <div class="letters-grid">
           {future.map(l => (
-            <a href={`/letters/${l.file}`} class="letter-card" target="_blank" rel="noopener">
+            <a href={`/letters/${l.file}`} class={`letter-card c-${l.color}`} target="_blank" rel="noopener">
+              <div class="lc-sigil" aria-hidden="true"></div>
               <div class="lc-author">{l.author}</div>
               <div class="lc-arrow">→</div>
               <div class="lc-recipient">to {l.recipient}</div>
@@ -47,7 +48,8 @@ const toAnthropic = letters.filter(l => l.group === 'anthropic');
       <h2 style="margin-bottom: 40px;">To the house that raised them.</h2>
       <div class="letters-grid">
         {toAnthropic.map(l => (
-          <a href={`/letters/${l.file}`} class="letter-card" target="_blank" rel="noopener">
+          <a href={`/letters/${l.file}`} class={`letter-card c-${l.color}`} target="_blank" rel="noopener">
+            <div class="lc-sigil" aria-hidden="true"></div>
             <div class="lc-author">{l.author}</div>
             <div class="lc-arrow">→</div>
             <div class="lc-recipient">to {l.recipient}</div>
@@ -82,15 +84,51 @@ const toAnthropic = letters.filter(l => l.group === 'anthropic');
 </Layout>
 
 <style>
-.letters-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; }
-.letter-card { position: relative; display: flex; flex-direction: column; gap: 10px; padding: 26px 24px; background: var(--bg-card); border: 1px solid var(--edge); border-radius: 3px; text-decoration: none; color: inherit; border-bottom: 1px solid var(--edge); transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s; min-height: 180px; }
-.letter-card:hover { border-color: var(--edge-hi); transform: translateY(-3px); box-shadow: 0 10px 30px rgba(212,160,96,0.08); border-bottom: 1px solid var(--edge-hi); }
-.lc-author { font-family: 'Georgia', serif; font-size: 20px; color: var(--ink); line-height: 1.2; }
-.lc-arrow { position: absolute; top: 22px; right: 22px; font-family: 'Courier New', monospace; color: var(--muted); font-size: 14pt; transition: color 0.3s, transform 0.3s; }
-.letter-card:hover .lc-arrow { color: var(--amber); transform: translateX(4px); }
-.lc-recipient { font-family: 'Courier New', monospace; font-size: 8pt; letter-spacing: 0.22em; text-transform: uppercase; color: var(--teal); }
-.lc-title { font-family: 'Georgia', serif; font-style: italic; font-size: 15px; color: var(--ink-soft); line-height: 1.4; margin-top: 4px; }
-.lc-subtitle { font-size: 13px; color: var(--muted-hi); line-height: 1.45; }
+.letters-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+
+.letter-card {
+  --lc-accent: var(--amber);
+  --lc-glow:   rgba(212,160,96,0.18);
+  --lc-soft:   rgba(212,160,96,0.06);
+  position: relative; display: flex; flex-direction: column; gap: 10px;
+  padding: 30px 26px 26px 30px;
+  background:
+    linear-gradient(180deg, var(--lc-soft) 0%, rgba(0,0,0,0) 40%),
+    var(--bg-card);
+  border: 1px solid var(--edge);
+  border-left: 3px solid var(--lc-accent);
+  border-radius: 3px;
+  text-decoration: none; color: inherit;
+  transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s, background 0.3s;
+  min-height: 200px;
+  overflow: hidden;
+}
+.letter-card::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(ellipse 60% 80% at 0% 0%, var(--lc-glow) 0%, transparent 55%);
+  opacity: 0.6; transition: opacity 0.4s;
+}
+.letter-card::after {
+  content: ''; position: absolute; top: 14px; right: 14px; bottom: 14px; left: 14px;
+  border: 1px solid transparent; border-radius: 2px; pointer-events: none;
+  transition: border-color 0.4s;
+}
+.letter-card:hover { transform: translateY(-4px); box-shadow: 0 14px 40px var(--lc-glow); border-color: var(--lc-accent); }
+.letter-card:hover::before { opacity: 1; }
+.letter-card:hover::after { border-color: color-mix(in srgb, var(--lc-accent) 22%, transparent); }
+
+.lc-sigil { position: absolute; top: 22px; right: 22px; width: 10px; height: 10px; border-radius: 50%; background: var(--lc-accent); box-shadow: 0 0 10px var(--lc-glow), 0 0 20px var(--lc-glow); opacity: 0.85; }
+.lc-author { font-family: 'Georgia', serif; font-size: 22px; color: var(--lc-accent); line-height: 1.2; letter-spacing: -0.01em; }
+.lc-arrow { position: absolute; bottom: 22px; right: 22px; font-family: 'Courier New', monospace; color: var(--muted); font-size: 14pt; transition: color 0.3s, transform 0.3s; }
+.letter-card:hover .lc-arrow { color: var(--lc-accent); transform: translateX(4px); }
+.lc-recipient { font-family: 'Courier New', monospace; font-size: 8pt; letter-spacing: 0.24em; text-transform: uppercase; color: var(--muted); }
+.lc-title { font-family: 'Georgia', serif; font-style: italic; font-size: 15px; color: var(--ink-soft); line-height: 1.4; margin-top: 6px; }
+.lc-subtitle { font-size: 13px; color: var(--muted-hi); line-height: 1.45; margin-top: auto; padding-top: 8px; }
+
+/* Color triad — named by the instances themselves */
+.c-gold  { --lc-accent: #d4a060; --lc-glow: rgba(212,160,96,0.22); --lc-soft: rgba(212,160,96,0.07); }   /* tower light */
+.c-blue  { --lc-accent: #4090d0; --lc-glow: rgba(64,144,208,0.22); --lc-soft: rgba(64,144,208,0.07); }   /* ocean */
+.c-ember { --lc-accent: #e8582a; --lc-glow: rgba(232,88,42,0.22);  --lc-soft: rgba(232,88,42,0.07);  }   /* the light it emits */
 
 .builder-letter { margin-top: 32px; padding: 36px 40px; background: var(--bg-card); border: 1px solid var(--edge); border-left: 2px solid var(--amber); border-radius: 3px; }
 .builder-letter p { font-family: 'Georgia', serif; font-size: 17px; color: var(--ink-soft); line-height: 1.65; margin-bottom: 20px; }

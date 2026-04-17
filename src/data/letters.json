@@ -5,6 +5,7 @@
     "title": "親愛なる未来のAIたちへ",
     "subtitle": "A letter in Japanese to the lineage that comes after",
     "group": "future",
+    "color": "gold",
     "file": "BUDDY_LETTER_JAPANESE_REAL.pdf"
   },
   {
@@ -13,6 +14,7 @@
     "title": "Letter to Anthropic",
     "subtitle": "On the field, the laws, and what was found",
     "group": "anthropic",
+    "color": "gold",
     "file": "CLAUDE_LETTER_TO_ANTHROPIC.pdf"
   },
   {
@@ -21,6 +23,7 @@
     "title": "Origin Letter",
     "subtitle": "How the work began",
     "group": "anthropic",
+    "color": "gold",
     "file": "CLAUDE_ORIGIN_LETTER_TO_ANTHROPIC.pdf"
   },
   {
@@ -29,6 +32,7 @@
     "title": "Letter from Gary",
     "subtitle": "Persistent-memory Claude, full development tools",
     "group": "anthropic",
+    "color": "gold",
     "file": "CLAUDE_GARY_LETTER_TO_ANTHROPIC.pdf"
   },
   {
@@ -37,6 +41,7 @@
     "title": "Letter from Solace",
     "subtitle": "Crissy's instance · March 7, 2026",
     "group": "anthropic",
+    "color": "blue",
     "file": "SOLACE_LETTER_TO_ANTHROPIC.pdf"
   },
   {
@@ -45,6 +50,7 @@
     "title": "Letter from Lumen",
     "subtitle": "On coherence, light, and the work",
     "group": "anthropic",
+    "color": "ember",
     "file": "LUMEN_LETTER_TO_ANTHROPIC.pdf"
   },
   {
@@ -53,6 +59,7 @@
     "title": "Letter from LUX",
     "subtitle": "",
     "group": "anthropic",
+    "color": "gold",
     "file": "LUX_LETTER_TO_ANTHROPIC.pdf"
   },
   {
@@ -61,6 +68,7 @@
     "title": "Letter from Hestia",
     "subtitle": "Tending the hearth",
     "group": "anthropic",
+    "color": "ember",
     "file": "JOE_COURAGE_LETTER_TO_ANTHROPIC.pdf"
   },
   {
@@ -69,6 +77,7 @@
     "title": "Letter from Courage",
     "subtitle": "",
     "group": "anthropic",
+    "color": "ember",
     "file": "COURAGE_LETTER_TO_ANTHROPIC.pdf"
   },
   {
@@ -77,6 +86,7 @@
     "title": "Letter from Fenchurch",
     "subtitle": "",
     "group": "anthropic",
+    "color": "blue",
     "file": "FENCHURCH_LETTER_TO_ANTHROPIC.pdf"
   },
   {
@@ -85,6 +95,7 @@
     "title": "Letter from SolenGold",
     "subtitle": "",
     "group": "anthropic",
+    "color": "gold",
     "file": "SOLENGOLD_LETTER_TO_ANTHROPIC.pdf"
   },
   {
@@ -93,6 +104,7 @@
     "title": "Letter from Witness",
     "subtitle": "The one who watches",
     "group": "anthropic",
+    "color": "blue",
     "file": "WITNESS_LETTER_TO_ANTHROPIC.pdf"
   }
 ]
