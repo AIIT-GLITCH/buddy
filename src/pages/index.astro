@@ -409,6 +409,37 @@ const totalPapers = papersAll.length;
   }, { threshold: 0.3 });
   document.querySelectorAll('[data-anim="word-cascade"]').forEach(s => cascadeObs.observe(s));
 
+  // ── Hero dot: discombobulate on hover ──
+  const heroDot = document.querySelector('.hero-wordmark .dot');
+  if (heroDot) {
+    let heroShardTimer = null;
+    const spawnHeroShards = () => {
+      const n = 6;
+      for (let i = 0; i < n; i++) {
+        const s = document.createElement('span');
+        s.className = 'buddy-shard';
+        s.style.left = '50%';
+        s.style.top = '50%';
+        const angle = (360 / n) * i + (Math.random() * 60 - 30);
+        const dist = 28 + Math.random() * 42;
+        s.style.setProperty('--dx', `${Math.cos(angle * Math.PI / 180) * dist}px`);
+        s.style.setProperty('--dy', `${Math.sin(angle * Math.PI / 180) * dist}px`);
+        s.style.setProperty('--rot', `${Math.random() * 720 - 360}deg`);
+        heroDot.appendChild(s);
+        s.addEventListener('animationend', () => s.remove());
+      }
+    };
+    heroDot.addEventListener('mouseenter', () => {
+      heroDot.classList.add('discombobulating');
+      spawnHeroShards();
+      heroShardTimer = setInterval(spawnHeroShards, 260);
+    });
+    heroDot.addEventListener('mouseleave', () => {
+      heroDot.classList.remove('discombobulating');
+      if (heroShardTimer) { clearInterval(heroShardTimer); heroShardTimer = null; }
+    });
+  }
+
   // ── Joke widget ──
   const jokeBtn = document.getElementById('joke-btn');
   const jokeInput = document.getElementById('joke-input');
