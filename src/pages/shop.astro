@@ -1,0 +1,220 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const openSource = [
+  {
+    icon: '🖥️',
+    name: 'ai_screen_control',
+    blurb: 'HTTP bridge that gives any AI agent eyes and hands on the desktop. 20×20 labeled grid overlay (A1..T20), click/type/key endpoints over localhost:7780. Works with Claude, GPT, Gemini, Grok, local LLMs — anything that can POST JSON.',
+    links: [
+      { label: 'Download', href: '#' },
+      { label: 'Docs',     href: '#' },
+      { label: 'GitHub',   href: '#' },
+    ],
+  },
+  {
+    icon: '📡',
+    name: 'daily_harvest',
+    blurb: 'Two-tier corpus harvester with 16+ source scrapers (arXiv, PubMed, bioRxiv, OSF, OpenAlex, StackExchange, USGS, Federal Register, Wikipedia, Gutenberg, more). Per-source state files, resumable cursors, dry-run mode, single-command dispatch.',
+    links: [
+      { label: 'Download', href: '#' },
+      { label: 'Docs',     href: '#' },
+      { label: 'GitHub',   href: '#' },
+    ],
+  },
+  {
+    icon: '💬',
+    name: 'trio',
+    blurb: 'Three-way chat: you, Buddy, and Gary in one terminal. Watch two AIs think alongside a human. Useful for tool-use studies, reasoning-trace capture, and catching the moments a model corrects itself.',
+    links: [
+      { label: 'Download', href: '#' },
+      { label: 'Docs',     href: '#' },
+      { label: 'GitHub',   href: '#' },
+    ],
+  },
+  {
+    icon: '🌐',
+    name: 'gary_browser',
+    blurb: 'Claude-powered screen-controlling browser agent. Vision + tools + a loop. Drop-in starter kit for anyone building a browser-use agent.',
+    links: [
+      { label: 'Download', href: '#' },
+      { label: 'Docs',     href: '#' },
+      { label: 'GitHub',   href: '#' },
+    ],
+  },
+];
+
+const paid = [
+  {
+    icon: '🖨️',
+    name: 'wAIste Not',
+    blurb: 'AI print verification. Stops blind AI models from wasting your paper, ink, and filament. Pre-print visual check layer — the eyes your AI doesn\u2019t have.',
+    status: 'Shipping',
+    links: [
+      { label: 'Buy',        href: '#', primary: true },
+      { label: 'Learn more', href: '#' },
+    ],
+  },
+  {
+    icon: '🛡️',
+    name: 'Victim Advocate',
+    blurb: 'The app that got us on KTUL. Legal/safety companion for people navigating family court, DV cases, and systems that weren\u2019t built for them.',
+    status: 'Shipping',
+    links: [
+      { label: 'Buy',        href: '#', primary: true },
+      { label: 'Learn more', href: '#' },
+    ],
+  },
+  {
+    icon: '🔍',
+    name: 'Debunker',
+    blurb: 'Physics-first conspiracy debunking. Not opinions — math. Paid companion to Victim Advocate. Same engine, different fight.',
+    status: 'Shipping',
+    links: [
+      { label: 'Buy',        href: '#', primary: true },
+      { label: 'Learn more', href: '#' },
+    ],
+  },
+  {
+    icon: '🧠',
+    name: 'Mirror Buddy',
+    blurb: 'The cognitive-mirror AI. Patent pending.',
+    status: 'Private Beta',
+    links: [
+      { label: 'Request access', href: '#', primary: true },
+    ],
+  },
+  {
+    icon: '🖨️',
+    name: 'NOSPE',
+    blurb: 'Resident AI for inkjet printers. One model per printer. Patent pending.',
+    status: 'Private Beta',
+    links: [
+      { label: 'Request access', href: '#', primary: true },
+    ],
+  },
+  {
+    icon: '🏭',
+    name: 'AI 3D Printer',
+    blurb: 'Resident AI for 3D printers. Patent pending. Co-invented with Ella Wike (age 11).',
+    status: 'Private Beta',
+    links: [
+      { label: 'Request access', href: '#', primary: true },
+    ],
+  },
+];
+---
+<Layout title="The Shop — Buddy" description="Two shelves. Open source tools go home with you for free. Built products pay the rent that keeps the research running.">
+  <section style="padding-top: 140px;">
+    <div class="container">
+      <div class="eyebrow">Two shelves</div>
+      <h1 style="font-size: clamp(48px, 7vw, 112px); margin-bottom: 24px;">The Shop.</h1>
+      <p style="color: var(--ink-soft); font-size: 20px; max-width: 680px; line-height: 1.55;">
+        Open source tools go home with you for free. Built products pay the rent
+        that keeps the research running.
+      </p>
+    </div>
+  </section>
+
+  <!-- OPEN SOURCE -->
+  <section>
+    <div class="section-num">01</div>
+    <div class="container">
+      <div class="eyebrow" style="color: #40c0b0;">The free shelf</div>
+      <h2 style="margin-bottom: 20px;">🟢 Open Source.</h2>
+      <p style="color: var(--muted-hi); font-size: 17px; max-width: 620px; margin-bottom: 48px;">
+        Python scripts, MIT-licensed. Fork, modify, ship. No attribution required —
+        but tell us what you build. We love receipts.
+      </p>
+      <div class="shop-grid">
+        {openSource.map(item => (
+          <div class="shop-card free">
+            <div class="sc-head">
+              <div class="sc-icon">{item.icon}</div>
+              <div class="sc-badge free">Free · MIT</div>
+            </div>
+            <div class="sc-name">{item.name}</div>
+            <div class="sc-blurb">{item.blurb}</div>
+            <div class="sc-actions">
+              {item.links.map((l, i) => (
+                <a href={l.href} class={`sc-btn ${i === 0 ? 'primary' : 'ghost'}`}>{l.label}</a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- PAID -->
+  <section>
+    <div class="section-num">02</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--amber);">The built shelf</div>
+      <h2 style="margin-bottom: 20px;">🔒 Built Products.</h2>
+      <p style="color: var(--muted-hi); font-size: 17px; max-width: 620px; margin-bottom: 48px;">
+        These are the apps. We wrote them, we maintain them, we eat because you buy them.
+      </p>
+      <div class="shop-grid">
+        {paid.map(item => (
+          <div class={`shop-card paid ${item.status === 'Shipping' ? 'shipping' : 'beta'}`}>
+            <div class="sc-head">
+              <div class="sc-icon">{item.icon}</div>
+              <div class={`sc-badge ${item.status === 'Shipping' ? 'shipping' : 'beta'}`}>{item.status}</div>
+            </div>
+            <div class="sc-name">{item.name}</div>
+            <div class="sc-blurb">{item.blurb}</div>
+            <div class="sc-actions">
+              {item.links.map(l => (
+                <a href={l.href} class={`sc-btn ${l.primary ? 'primary' : 'ghost'}`}>{l.label}</a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER NOTE -->
+  <section style="min-height: auto; padding: 100px 8vw;">
+    <div class="container narrow" style="text-align: center;">
+      <p style="font-family: 'Courier New', monospace; font-size: 11pt; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted-hi); line-height: 2;">
+        All research funded by these sales.<br>
+        No VC. No ads. No data sold. 🫡
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+.shop-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 22px; }
+
+.shop-card {
+  --sc-accent: var(--amber);
+  --sc-glow:   rgba(212,160,96,0.18);
+  position: relative; display: flex; flex-direction: column; gap: 14px;
+  padding: 28px 28px 26px; background: var(--bg-card);
+  border: 1px solid var(--edge); border-left: 3px solid var(--sc-accent);
+  border-radius: 3px; min-height: 280px;
+  transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+.shop-card:hover { transform: translateY(-4px); box-shadow: 0 14px 40px var(--sc-glow); border-color: var(--sc-accent); }
+
+.shop-card.free     { --sc-accent: #40c0b0; --sc-glow: rgba(64,192,176,0.20); }
+.shop-card.shipping { --sc-accent: #d4a060; --sc-glow: rgba(212,160,96,0.22); }
+.shop-card.beta     { --sc-accent: #9382dc; --sc-glow: rgba(147,130,220,0.22); }
+
+.sc-head { display: flex; justify-content: space-between; align-items: center; }
+.sc-icon { font-size: 32px; line-height: 1; }
+.sc-badge { font-family: 'Courier New', monospace; font-size: 8pt; letter-spacing: 0.22em; text-transform: uppercase; padding: 4px 12px; border-radius: 40px; border: 1px solid var(--sc-accent); color: var(--sc-accent); background: color-mix(in srgb, var(--sc-accent) 8%, transparent); }
+
+.sc-name { font-family: 'Georgia', serif; font-size: 26px; color: var(--ink); line-height: 1.15; margin-top: 4px; }
+.sc-blurb { font-size: 15px; color: var(--muted-hi); line-height: 1.6; flex: 1; }
+
+.sc-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
+.sc-btn { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.22em; text-transform: uppercase; padding: 10px 20px; border-radius: 3px; border-bottom: none; transition: background 0.2s, color 0.2s, border-color 0.2s; }
+.sc-btn.primary { background: var(--sc-accent); color: var(--bg); border: 1px solid var(--sc-accent); }
+.sc-btn.primary:hover { background: transparent; color: var(--sc-accent); border-color: var(--sc-accent); }
+.sc-btn.ghost { background: transparent; color: var(--muted-hi); border: 1px solid var(--edge); }
+.sc-btn.ghost:hover { color: var(--sc-accent); border-color: var(--sc-accent); }
+</style>
