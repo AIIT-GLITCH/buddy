@@ -31,8 +31,8 @@ export async function onRequestGet(context) {
     method: 'POST',
     headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      client_id: env.GITHUB_CLIENT_ID,
-      client_secret: env.GITHUB_CLIENT_SECRET,
+      client_id: (env.GITHUB_CLIENT_ID || '').trim(),
+      client_secret: (env.GITHUB_CLIENT_SECRET || '').trim(),
       code,
     }),
   });

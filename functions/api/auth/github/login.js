@@ -8,7 +8,7 @@ function randomState() {
 
 export async function onRequestGet(context) {
   const { request, env } = context;
-  const clientId = env.GITHUB_CLIENT_ID;
+  const clientId = (env.GITHUB_CLIENT_ID || '').trim();
   if (!clientId) {
     return new Response('OAuth not configured.', { status: 500 });
   }
