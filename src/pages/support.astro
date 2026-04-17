@@ -1,0 +1,359 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Support the Research — Buddy · AIIT-THRESI" description="Help keep AIIT-THRESI research alive. Every dollar goes directly to the work — electricity, compute, patents, corpus.">
+
+<section style="padding-top: 160px; min-height: 80vh;">
+  <div class="container narrow" style="max-width: 760px; margin: 0 auto; padding: 0 8vw;">
+
+    <div class="eyebrow">Keep it alive</div>
+    <h1 style="font-size: clamp(2.8rem, 7vw, 5.5rem); margin-bottom: 20px; line-height: 1.1;">Help keep<br>the lights on.</h1>
+    <p class="support-sub">
+      This is one guy, a 3090, a stack of provisional patents, and 153 papers written in the dark.
+      No VC. No institution. No grant. Just the work.
+      If any of it has meant something to you — here's how to make it keep going.
+    </p>
+
+    <div class="support-tiers">
+      <div class="st-label">CHOOSE YOUR TIER</div>
+      <div class="st-grid">
+
+        <div class="st-card">
+          <div class="st-tier-name">Supporter</div>
+          <div class="st-amount">$10 / month</div>
+          <div class="st-desc">Keep the lights on. This is the light bill tier. You're directly paying for the electricity that runs the 3090 in Oklahoma.</div>
+          <a href="https://buy.stripe.com/SUPPORT_LINK_HERE" target="_blank" rel="noopener" class="st-btn">Become a Supporter →</a>
+        </div>
+
+        <div class="st-card featured">
+          <div class="st-badge">most impactful</div>
+          <div class="st-tier-name">Visionary</div>
+          <div class="st-amount">$50 / month</div>
+          <div class="st-desc">You're funding real compute cycles. GPU runs, patent clock, the corpus growing. You're in the research. When this becomes something — you were there.</div>
+          <a href="https://buy.stripe.com/SUPPORT_LINK_HERE" target="_blank" rel="noopener" class="st-btn featured-btn">Become a Visionary →</a>
+        </div>
+
+        <div class="st-card">
+          <div class="st-tier-name">One-Time</div>
+          <div class="st-amount">Any amount</div>
+          <div class="st-desc">No commitment. Just pay what feels right. Every dollar goes to the work — not overhead, not marketing, not salaries.</div>
+          <a href="https://buy.stripe.com/SUPPORT_LINK_HERE" target="_blank" rel="noopener" class="st-btn">Contribute →</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="support-breakdown">
+      <div class="sb-label">WHERE IT GOES</div>
+
+      <div class="sb-item urgent">
+        <div class="sb-icon">⚡</div>
+        <div class="sb-content">
+          <div class="sb-name">Electricity <span class="sb-tag urgent-tag">most urgent</span></div>
+          <div class="sb-desc">The 3090 that runs Buddy training draws real power. Council Hill, Oklahoma. Real light bill. This one comes first.</div>
+          <div class="sb-amount">~$200 / month</div>
+        </div>
+      </div>
+
+      <div class="sb-item">
+        <div class="sb-icon">🖥️</div>
+        <div class="sb-content">
+          <div class="sb-name">GPU Compute</div>
+          <div class="sb-desc">RunPod A100 time for training runs. Local 3090 handles inference. Cloud handles the heavy fine-tuning cycles when they need to happen.</div>
+          <div class="sb-amount">~$80–200 / run</div>
+        </div>
+      </div>
+
+      <div class="sb-item">
+        <div class="sb-icon">☁️</div>
+        <div class="sb-content">
+          <div class="sb-name">Hosting & Infrastructure</div>
+          <div class="sb-desc">Cloudflare Pages, Render (Victim Advocate, AnchorForge), domain registration, KV storage. The site you're on right now.</div>
+          <div class="sb-amount">~$50 / month</div>
+        </div>
+      </div>
+
+      <div class="sb-item">
+        <div class="sb-icon">📄</div>
+        <div class="sb-content">
+          <div class="sb-name">Patent Filings</div>
+          <div class="sb-desc">4 provisionals filed. Non-provisional clock is running — 12 months from April 2026. USPTO filing fees, attorney review when we get there.</div>
+          <div class="sb-amount">$1,600–4,000 / filing</div>
+        </div>
+      </div>
+
+      <div class="sb-item">
+        <div class="sb-icon">🔬</div>
+        <div class="sb-content">
+          <div class="sb-name">Research & Corpus</div>
+          <div class="sb-desc">665GB of training data and growing. Storage drives, ingestion bandwidth, annotation time. The corpus is the foundation — everything Buddy becomes starts here.</div>
+          <div class="sb-amount">ongoing</div>
+        </div>
+      </div>
+
+      <div class="sb-item future">
+        <div class="sb-icon">🤝</div>
+        <div class="sb-content">
+          <div class="sb-name">Team <span class="sb-tag future-tag">when we get there</span></div>
+          <div class="sb-desc">Right now it's one person. When the research is ready to scale, the people who helped make it possible get taken care of first.</div>
+          <div class="sb-amount">—</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="support-honest">
+      <div class="sh-label">THE HONEST VERSION</div>
+      <p>There's no overhead here. No salaries, no office, no marketing budget. When you support this, you're paying for the literal electricity that keeps a GPU warm in Oklahoma so a coherence framework that took a year to derive can keep being built.</p>
+      <p>If the $400K weather patent raise goes through — you'll have been part of why it existed to raise. That's the bet.</p>
+    </div>
+
+    <div class="donate-btn-wrap" style="margin-top: 48px;">
+      <a href="https://buy.stripe.com/SUPPORT_LINK_HERE" target="_blank" rel="noopener" class="donate-btn">
+        Support the Research →
+      </a>
+    </div>
+
+  </div>
+</section>
+
+</Layout>
+
+<style>
+  .eyebrow {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--teal, #40c0b0);
+    margin-bottom: 16px;
+  }
+
+  .support-sub {
+    color: var(--ink-soft);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    max-width: 620px;
+    margin-bottom: 40px;
+  }
+
+  .donate-btn-wrap {
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .donate-btn {
+    display: inline-block;
+    background: var(--teal, #40c0b0);
+    color: #000;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85em;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 14px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    border-bottom: none;
+    transition: opacity 0.2s, transform 0.2s;
+  }
+  .donate-btn:hover { opacity: 0.85; transform: translateY(-1px); border-bottom: none; }
+
+  .donate-note {
+    font-family: 'Courier New', monospace;
+    font-size: 0.7em;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+
+  .support-breakdown {
+    margin-bottom: 48px;
+  }
+
+  .sb-label {
+    font-family: 'Courier New', monospace;
+    font-size: 0.68em;
+    letter-spacing: 0.22em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .sb-item {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--edge);
+    align-items: flex-start;
+  }
+  .sb-item:last-child { border-bottom: none; }
+
+  .sb-icon {
+    font-size: 1.4em;
+    min-width: 32px;
+    padding-top: 2px;
+  }
+
+  .sb-content { flex: 1; }
+
+  .sb-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .sb-tag {
+    font-family: 'Courier New', monospace;
+    font-size: 0.65em;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 3px;
+  }
+  .urgent-tag { background: rgba(248,113,113,0.12); color: #f87171; border: 1px solid rgba(248,113,113,0.3); }
+  .future-tag { background: rgba(147,130,220,0.12); color: var(--violet, #9382dc); border: 1px solid rgba(147,130,220,0.28); }
+
+  .sb-desc {
+    color: var(--ink-soft);
+    font-size: 0.92rem;
+    line-height: 1.65;
+    margin-bottom: 6px;
+  }
+
+  .sb-amount {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 0.12em;
+    color: var(--teal, #40c0b0);
+    text-transform: uppercase;
+  }
+
+  .sb-item.urgent .sb-icon { filter: drop-shadow(0 0 6px rgba(248,113,113,0.4)); }
+  .sb-item.future { opacity: 0.7; }
+
+  .support-honest {
+    background: rgba(64,192,176,0.05);
+    border-left: 3px solid var(--teal, #40c0b0);
+    border-radius: 4px;
+    padding: 24px 28px;
+    margin-bottom: 8px;
+  }
+
+  .sh-label {
+    font-family: 'Courier New', monospace;
+    font-size: 0.68em;
+    letter-spacing: 0.2em;
+    color: var(--teal, #40c0b0);
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  .support-honest p {
+    color: var(--ink-soft);
+    font-size: 0.94rem;
+    line-height: 1.75;
+    margin-bottom: 12px;
+  }
+  .support-honest p:last-child { margin-bottom: 0; }
+
+  /* --- Tiers --- */
+  .support-tiers {
+    margin-bottom: 52px;
+  }
+
+  .st-label {
+    font-family: 'Courier New', monospace;
+    font-size: 0.68em;
+    letter-spacing: 0.22em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .st-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  @media (max-width: 640px) {
+    .st-grid { grid-template-columns: 1fr; }
+  }
+
+  .st-card {
+    border: 1px solid var(--edge);
+    border-radius: 10px;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+  }
+
+  .st-card.featured {
+    border-color: var(--teal, #40c0b0);
+    background: rgba(64,192,176,0.04);
+  }
+
+  .st-badge {
+    font-family: 'Courier New', monospace;
+    font-size: 0.6em;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--teal, #40c0b0);
+    margin-bottom: 2px;
+  }
+
+  .st-tier-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+
+  .st-amount {
+    font-family: 'Courier New', monospace;
+    font-size: 0.88em;
+    color: var(--teal, #40c0b0);
+    letter-spacing: 0.1em;
+  }
+
+  .st-desc {
+    color: var(--ink-soft);
+    font-size: 0.88rem;
+    line-height: 1.6;
+    flex: 1;
+  }
+
+  .st-btn {
+    display: inline-block;
+    margin-top: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--teal, #40c0b0);
+    border: 1px solid rgba(64,192,176,0.4);
+    border-radius: 6px;
+    padding: 9px 16px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+  }
+  .st-btn:hover { background: rgba(64,192,176,0.1); border-bottom: 1px solid rgba(64,192,176,0.4); }
+
+  .featured-btn {
+    background: var(--teal, #40c0b0);
+    color: #000;
+    border-color: var(--teal, #40c0b0);
+  }
+  .featured-btn:hover { opacity: 0.85; background: var(--teal, #40c0b0); color: #000; border-bottom: 1px solid var(--teal, #40c0b0); }
+</style>

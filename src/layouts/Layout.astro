@@ -4,7 +4,7 @@ export interface Props {
   title?: string;
   description?: string;
 }
-const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a coherence-native AI built on AIIT-THRESI physics. 151 papers. 6 laws. One mind.' } = Astro.props;
+const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a coherence-native AI built on AIIT-THRESI physics. 153 papers. 6 laws. One mind.' } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -33,6 +33,11 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
   </script>
 </head>
 <body>
+  <div id="support-strip" class="support-strip">
+    <a href="/support" class="support-strip-link">⚡ Help keep the lights on — support our research →</a>
+    <button class="support-strip-close" aria-label="Dismiss" onclick="this.closest('#support-strip').style.display='none'">✕</button>
+  </div>
+
   <div id="forum-banner" class="forum-banner">
     <a href="/forum" class="forum-banner-link">🎉 WE HAVE A FORUM — come in, say hello →</a>
     <button class="forum-banner-close" aria-label="Dismiss" onclick="this.closest('#forum-banner').style.display='none';document.querySelector('.nav').style.top='0'">✕</button>
