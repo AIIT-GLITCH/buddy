@@ -405,7 +405,7 @@ function initGame() {
   frame = 0;
 
   // spawn initial meteors
-  for (let i = 0; i < 5; i++) spawnMeteor(true);
+  for (let i = 0; i < 3; i++) spawnMeteor(true);
 
   state = 'playing';
   updateHUD();
@@ -662,13 +662,13 @@ function loop() {
   // stars
   for (const s of stars) drawStar(s, frame);
 
-  // ring warning countdown (5s before reveal = frame 180)
-  if (frame === 180) showRingWarn('RING IN 5...');
-  if (frame === 240) showRingWarn('RING IN 4...');
-  if (frame === 300) showRingWarn('RING IN 3...');
-  if (frame === 360) showRingWarn('RING IN 2...');
-  if (frame === 420) showRingWarn('RING IN 1...');
-  if (frame === 480) { ring.visible = true; showRingWarn('GET TO THE RING ↑'); }
+  // ring warning countdown — longer playing phase before the ring appears
+  if (frame === 600)  showRingWarn('RING IN 5...');
+  if (frame === 660)  showRingWarn('RING IN 4...');
+  if (frame === 720)  showRingWarn('RING IN 3...');
+  if (frame === 780)  showRingWarn('RING IN 2...');
+  if (frame === 840)  showRingWarn('RING IN 1...');
+  if (frame === 900)  { ring.visible = true; showRingWarn('GET TO THE RING ↑'); }
   if (ring.visible) {
     ring.pulse += 0.025;
     ring.appearing = Math.min(120, ring.appearing + 1);
@@ -678,9 +678,9 @@ function loop() {
   drawRing(ring);
 
   // spawn meteors
-  if (frame % 90 === 0) spawnMeteor(false);
+  if (frame % 130 === 0) spawnMeteor(false);
   // spawn beans
-  if (frame % 120 === 0) spawnBean();
+  if (frame % 100 === 0) spawnBean();
 
   // meteors
   for (let i = meteors.length - 1; i >= 0; i--) {
@@ -696,7 +696,7 @@ function loop() {
     drawMeteor(m);
     // hit player
     if (!player.locked && dist(player, m) < player.r + m.r - 6) {
-      coherence -= 0.28;
+      coherence -= 0.18;
       meteors.splice(i, 1);
       if (coherence <= 0) { coherence = 0; endGame(false); return; }
     }
