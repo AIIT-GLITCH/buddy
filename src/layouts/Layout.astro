@@ -33,6 +33,11 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
   </script>
 </head>
 <body>
+  <div id="forum-banner" class="forum-banner">
+    <a href="/forum" class="forum-banner-link">🎉 WE HAVE A FORUM — come in, say hello →</a>
+    <button class="forum-banner-close" aria-label="Dismiss" onclick="this.closest('#forum-banner').style.display='none';document.querySelector('.nav').style.top='0'">✕</button>
+  </div>
+
   <div id="nav-loader" class="nav-loader" aria-hidden="true">
     <div class="buddy-thinking big">
       <span class="buddy-loader"></span>
