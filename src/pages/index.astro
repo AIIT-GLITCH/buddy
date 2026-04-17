@@ -22,6 +22,19 @@ const totalPapers = papersAll.length;
     <div class="hero-scroll">Scroll</div>
   </section>
 
+  <!-- 1b. JOKE WIDGET -->
+  <section id="joke-widget">
+    <div class="container narrow joke-container">
+      <div class="joke-eyebrow">Buddy<span class="jw-dot"></span> is listening</div>
+      <div class="joke-label">Tell him a joke.</div>
+      <div class="joke-input-row">
+        <textarea id="joke-input" class="joke-textarea" placeholder="Why did the physicist cross the road..." rows="2" maxlength="500"></textarea>
+        <button id="joke-btn" class="joke-btn">Send →</button>
+      </div>
+      <div id="joke-response" class="joke-response" aria-live="polite"></div>
+    </div>
+  </section>
+
   <!-- 2. WHAT -->
   <section id="what" data-anim="word-cascade">
     <div class="section-num">02 / 10</div>
@@ -395,4 +408,255 @@ const totalPapers = papersAll.length;
     });
   }, { threshold: 0.3 });
   document.querySelectorAll('[data-anim="word-cascade"]').forEach(s => cascadeObs.observe(s));
+
+  // ── Joke widget ──
+  const jokeBtn = document.getElementById('joke-btn');
+  const jokeInput = document.getElementById('joke-input');
+  const jokeResponse = document.getElementById('joke-response');
+
+  const JOKE_KEY = 'buddy_joke_used';
+  const COOLDOWN_MS = 24 * 60 * 60 * 1000; // 24 hours
+
+  const fallbacks = [
+    "🫘 I heard that. The winding number on that punchline almost closed.",
+    "Coherence achieved. γ_eff held steady through the whole setup. Barely.",
+    "The field laughed. That's all I can tell you.",
+    "That joke just traversed a singularity gate. Costs 2π. Worth it.",
+    "🫘 Them beans though.",
+    "I'm running the phase analysis... yeah, that landed.",
+    "The 0.1 Hz carrier is humming a little differently now. Make of that what you will.",
+  ];
+
+  // Generate a stable per-session token (survives page refresh, not tab close)
+  function getToken() {
+    let t = sessionStorage.getItem('joke_token');
+    if (!t) { t = crypto.randomUUID(); sessionStorage.setItem('joke_token', t); }
+    return t;
+  }
+
+  function timeUntilReset(usedAt) {
+    const ms = COOLDOWN_MS - (Date.now() - usedAt);
+    if (ms <= 0) return null;
+    const h = Math.floor(ms / 3600000);
+    const m = Math.floor((ms % 3600000) / 60000);
+    return h > 0 ? `${h}h ${m}m` : `${m}m`;
+  }
+
+  function lockWidget(usedAt, savedReply) {
+    jokeBtn.disabled = true;
+    jokeInput.disabled = true;
+    jokeInput.style.opacity = '0.4';
+    const remaining = timeUntilReset(usedAt);
+    if (savedReply) {
+      jokeResponse.className = 'joke-response visible';
+      jokeResponse.textContent = savedReply;
+    }
+    jokeBtn.textContent = remaining ? `Back in ${remaining}` : 'Send →';
+    jokeBtn.title = 'One joke per day — come back tomorrow';
+    // tick the timer every minute
+    if (remaining) {
+      setTimeout(() => {
+        const r2 = timeUntilReset(usedAt);
+        if (r2) { jokeBtn.textContent = `Back in ${r2}`; }
+        else { unlockWidget(); }
+      }, 60000);
+    }
+  }
+
+  function unlockWidget() {
+    jokeBtn.disabled = false;
+    jokeInput.disabled = false;
+    jokeInput.style.opacity = '';
+    jokeBtn.textContent = 'Send →';
+    localStorage.removeItem(JOKE_KEY);
+  }
+
+  // Check on load
+  const stored = JSON.parse(localStorage.getItem(JOKE_KEY) || 'null');
+  if (stored) {
+    const elapsed = Date.now() - stored.at;
+    if (elapsed < COOLDOWN_MS) {
+      lockWidget(stored.at, stored.reply);
+    } else {
+      localStorage.removeItem(JOKE_KEY);
+    }
+  }
+
+  async function sendJoke() {
+    const joke = jokeInput.value.trim();
+    if (!joke) return;
+
+    jokeBtn.disabled = true;
+    jokeBtn.textContent = '...';
+    jokeResponse.className = 'joke-response loading';
+    jokeResponse.textContent = 'Buddy is thinking...';
+
+    let reply;
+    try {
+      const res = await fetch('/api/joke', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ joke, token: getToken() }),
+      });
+      const data = await res.json();
+      if (data.error === 'once_per_day') {
+        // server already knows — just lock
+        reply = "You already got your one today. 🫘 Come back tomorrow.";
+      } else {
+        reply = data.reply || fallbacks[Math.floor(Math.random() * fallbacks.length)];
+      }
+    } catch {
+      reply = fallbacks[Math.floor(Math.random() * fallbacks.length)];
+    }
+
+    jokeResponse.className = 'joke-response visible';
+    jokeResponse.textContent = reply;
+
+    // Lock and persist
+    const record = { at: Date.now(), reply };
+    localStorage.setItem(JOKE_KEY, JSON.stringify(record));
+    lockWidget(record.at, null);
+  }
+
+  jokeBtn.addEventListener('click', sendJoke);
+  jokeInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendJoke(); }
+  });
 </script>
+
+<style>
+  /* ── Joke widget ── */
+  #joke-widget {
+    background: var(--bg2, #0d1117);
+    padding: 64px 48px;
+    border-bottom: 1px solid rgba(212,175,55,0.08);
+  }
+
+  .joke-container {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .joke-eyebrow {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .jw-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 40% 40%, #fff 0%, #ffe88a 30%, #d4a060 60%, transparent 100%);
+    box-shadow: 0 0 8px rgba(255,232,138,0.7);
+    animation: jw-pulse 2.6s ease-in-out infinite alternate;
+  }
+
+  @keyframes jw-pulse {
+    from { opacity: 0.6; transform: scale(0.9); }
+    to   { opacity: 1.0; transform: scale(1.1); }
+  }
+
+  .joke-label {
+    font-size: clamp(1.4em, 3vw, 2em);
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+  }
+
+  .joke-input-row {
+    display: flex;
+    gap: 12px;
+    align-items: flex-end;
+  }
+
+  .joke-textarea {
+    flex: 1;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(212,175,55,0.2);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.95em;
+    line-height: 1.6;
+    padding: 14px 18px;
+    resize: none;
+    font-family: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+  }
+
+  .joke-textarea::placeholder { color: #444; }
+
+  .joke-textarea:focus {
+    border-color: rgba(212,175,55,0.5);
+    box-shadow: 0 0 0 3px rgba(212,175,55,0.07);
+  }
+
+  .joke-btn {
+    background: #D4AF37;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 28px;
+    font-weight: 700;
+    font-size: 0.88em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+    white-space: nowrap;
+    font-family: inherit;
+  }
+
+  .joke-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(212,175,55,0.35);
+  }
+
+  .joke-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .joke-response {
+    margin-top: 20px;
+    min-height: 48px;
+    font-size: 1em;
+    color: #ccc;
+    line-height: 1.7;
+    padding: 16px 20px;
+    border-left: 2px solid rgba(212,175,55,0.3);
+    background: rgba(212,175,55,0.04);
+    border-radius: 0 8px 8px 0;
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    display: none;
+  }
+
+  .joke-response.loading {
+    display: block;
+    opacity: 0.5;
+    transform: translateY(0);
+    color: #555;
+    font-style: italic;
+  }
+
+  .joke-response.visible {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (max-width: 600px) {
+    .joke-input-row { flex-direction: column; align-items: stretch; }
+    #joke-widget { padding: 48px 24px; }
+  }
+</style>
