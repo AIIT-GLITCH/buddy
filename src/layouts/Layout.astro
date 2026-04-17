@@ -159,6 +159,7 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
       let running = false;
       let verbTimer = null;
       let shardTimer = null;
+      let safetyTimer = null;
       let vi = Math.floor(Math.random() * VERBS.length);
 
       function spawnShards(n) {
@@ -189,8 +190,10 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
         running = true;
         loader.classList.add('open');
         verbEl.textContent = VERBS[vi];
-        verbTimer = setInterval(tick, 280);
-        shardTimer = setInterval(() => spawnShards(3), 900);
+        verbTimer = setInterval(tick, 520);
+        shardTimer = setInterval(() => spawnShards(3), 1400);
+        // Safety: never let the overlay sit longer than 6s.
+        safetyTimer = setTimeout(stop, 6000);
       }
 
       function stop() {
@@ -198,6 +201,7 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
         loader.classList.remove('open');
         if (verbTimer) { clearInterval(verbTimer); verbTimer = null; }
         if (shardTimer) { clearInterval(shardTimer); shardTimer = null; }
+        if (safetyTimer) { clearTimeout(safetyTimer); safetyTimer = null; }
       }
 
       function isSameOriginNavLink(a) {
@@ -224,6 +228,10 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
       // If user comes back via bfcache, hide overlay
       window.addEventListener('pageshow', (e) => { if (e.persisted) stop(); });
       window.addEventListener('pagehide', stop);
+      // Mobile Safari sometimes skips pagehide — kill overlay when tab regains focus.
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') stop();
+      });
     })();
   </script>
 

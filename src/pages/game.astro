@@ -284,31 +284,43 @@ import Layout from '../layouts/Layout.astro';
     100% { opacity: 0; transform: translateY(-60px) scale(0.8); }
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 640px) {
+    .game-screen {
+      padding: 20px 18px;
+      justify-content: flex-start;
+      padding-top: 12vh;
+    }
     .gs-label {
       font-size: 0.58em;
       letter-spacing: 3px;
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }
     .game-screen h2 {
       font-size: 1.7em;
-      margin-bottom: 10px;
+      margin-bottom: 14px;
       letter-spacing: 1px;
+      line-height: 1.15;
     }
     .gs-sub {
-      font-size: 0.82em;
-      margin-bottom: 14px;
+      font-size: 0.85em;
+      line-height: 1.55;
+      margin-bottom: 22px;
+      max-width: 320px;
     }
     .gs-controls {
       font-size: 0.62em;
       letter-spacing: 1px;
-      margin-bottom: 18px;
+      margin-bottom: 28px;
+      max-width: 280px;
+      line-height: 1.6;
     }
     .btn-gold-game {
-      padding: 11px 22px;
-      font-size: 0.78em;
+      padding: 14px 28px;
+      font-size: 0.82em;
       letter-spacing: 2px;
-      margin-bottom: 12px;
+      margin-bottom: 16px;
+      min-width: 220px;
+      white-space: nowrap;
     }
     .go-stats {
       gap: 24px;
