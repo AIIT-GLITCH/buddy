@@ -164,16 +164,99 @@ const sensors = [
         </div>
       </div>
 
-      <div style="margin-top: 48px; display: flex; gap: 14px; flex-wrap: wrap;">
-        <a class="btn" href="mailto:reliablerestaurantrepair@gmail.com?subject=Weather%20Coherence%20%E2%80%94%20%24400K%20Raise">Request the full 10-slide deck</a>
-        <a class="btn ghost" href="/weather/WEATHER_DECK_SLIDE1.html" target="_blank" rel="noopener">Preview slide 1</a>
-      </div>
+      <!-- Deck request form (Formspree) -->
+      <form id="wx-deck-form" class="wx-form" action="https://formspree.io/f/mojydagn" method="POST">
+        <div class="wx-form-head">
+          <div class="wx-form-eyebrow">Request the full 10-slide deck</div>
+          <div class="wx-form-sub">Direct to the inventor. Response within 24 hours.</div>
+        </div>
+
+        <input type="hidden" name="_subject" value="Weather Coherence — $400K Deck Request">
+        <input type="hidden" name="_source" value="/weather">
+
+        <div class="wx-form-row">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required autocomplete="name">
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required autocomplete="email">
+          </label>
+        </div>
+
+        <div class="wx-form-row">
+          <label>
+            <span>Firm / Institution</span>
+            <input type="text" name="org" placeholder="VC · family office · insurer · lab · agency">
+          </label>
+          <label>
+            <span>Check size / interest</span>
+            <input type="text" name="interest" placeholder="e.g. $50K lead · full $400K · data partnership">
+          </label>
+        </div>
+
+        <label class="wx-form-full">
+          <span>Message (optional)</span>
+          <textarea name="message" rows="4" placeholder="Anything you want me to know before I send the deck."></textarea>
+        </label>
+
+        <!-- Honeypot (bots fill this, humans don't) -->
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-10000px;width:1px;height:1px;opacity:0;">
+
+        <div class="wx-form-actions">
+          <button type="submit" class="btn">Send request</button>
+          <a class="btn ghost" href="/weather/WEATHER_DECK_SLIDE1.html" target="_blank" rel="noopener">Preview slide 1</a>
+        </div>
+
+        <div id="wx-form-status" class="wx-form-status" role="status" aria-live="polite"></div>
+      </form>
 
       <p style="color: var(--muted); font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.22em; text-transform: uppercase; line-height: 2; margin-top: 48px;">
         Inventor · Rhet Dillard Wike<br>
-        Council Hill, Oklahoma · AIIT-THRESHOLD LLC<br>
-        reliablerestaurantrepair@gmail.com
+        Council Hill, Oklahoma · AIIT-THRESHOLD LLC
       </p>
+
+      <script is:inline>
+        (function () {
+          var form = document.getElementById('wx-deck-form');
+          if (!form) return;
+          var statusEl = document.getElementById('wx-form-status');
+          form.addEventListener('submit', async function (e) {
+            e.preventDefault();
+            var btn = form.querySelector('button[type="submit"]');
+            var orig = btn.textContent;
+            btn.disabled = true;
+            btn.textContent = 'Sending…';
+            statusEl.textContent = '';
+            statusEl.className = 'wx-form-status';
+            try {
+              var r = await fetch(form.action, {
+                method: 'POST',
+                body: new FormData(form),
+                headers: { Accept: 'application/json' }
+              });
+              if (r.ok) {
+                form.querySelector('.wx-form-head').style.display = 'none';
+                form.querySelectorAll('.wx-form-row, .wx-form-full, .wx-form-actions').forEach(function (el) { el.style.display = 'none'; });
+                statusEl.className = 'wx-form-status ok';
+                statusEl.innerHTML = '<strong>Received.</strong> You\u2019ll hear back within 24 hours.';
+              } else {
+                var d = await r.json().catch(function () { return {}; });
+                statusEl.className = 'wx-form-status err';
+                statusEl.textContent = (d && d.error) ? d.error : 'Something went wrong. Email reliablerestaurantrepair@gmail.com directly.';
+                btn.disabled = false;
+                btn.textContent = orig;
+              }
+            } catch (err) {
+              statusEl.className = 'wx-form-status err';
+              statusEl.textContent = 'Network error. Email reliablerestaurantrepair@gmail.com directly.';
+              btn.disabled = false;
+              btn.textContent = orig;
+            }
+          });
+        })();
+      </script>
     </div>
   </section>
 
@@ -215,6 +298,27 @@ const sensors = [
 .wx-forecast-label { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.24em; text-transform: uppercase; color: var(--muted); }
 .wx-forecast-value { font-family: 'Georgia', serif; font-size: clamp(36px, 5vw, 56px); color: var(--warm); margin-top: 10px; line-height: 1.0; letter-spacing: 0.04em; }
 .wx-forecast-meta { font-size: 15px; color: var(--muted-hi); margin-top: 14px; }
+
+/* Deck-request form */
+.wx-form { background: var(--bg-card); border: 1px solid var(--edge); border-left: 3px solid var(--warm); border-radius: 4px; padding: 32px 32px 28px; margin-top: 48px; max-width: 780px; position: relative; }
+.wx-form-head { margin-bottom: 22px; }
+.wx-form-eyebrow { font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.24em; text-transform: uppercase; color: var(--warm); }
+.wx-form-sub { font-size: 14px; color: var(--muted-hi); margin-top: 8px; }
+.wx-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.wx-form-full { display: block; margin-bottom: 16px; }
+.wx-form label { display: flex; flex-direction: column; gap: 6px; }
+.wx-form label > span { font-family: 'Courier New', monospace; font-size: 8pt; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); }
+.wx-form input, .wx-form textarea, .wx-form select { background: rgba(10,10,18,0.6); border: 1px solid var(--edge); border-radius: 3px; padding: 12px 14px; font-family: 'Georgia', serif; font-size: 15px; color: var(--ink); outline: none; transition: border-color 0.2s; width: 100%; box-sizing: border-box; }
+.wx-form input:focus, .wx-form textarea:focus, .wx-form select:focus { border-color: var(--warm); }
+.wx-form textarea { resize: vertical; min-height: 92px; font-family: 'Georgia', serif; line-height: 1.5; }
+.wx-form-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 22px; }
+.wx-form-status { margin-top: 18px; font-size: 14px; line-height: 1.55; }
+.wx-form-status.ok { color: var(--teal); padding: 14px 16px; border-left: 2px solid var(--teal); background: rgba(64,192,176,0.06); }
+.wx-form-status.err { color: #e36a6a; padding: 14px 16px; border-left: 2px solid #e36a6a; background: rgba(227,106,106,0.06); }
+@media (max-width: 640px) {
+  .wx-form { padding: 24px 22px; }
+  .wx-form-row { grid-template-columns: 1fr; gap: 14px; }
+}
 
 /* Raise grid */
 .wx-raise-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
