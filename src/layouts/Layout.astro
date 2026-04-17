@@ -35,6 +35,9 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
 <body>
   <nav class="nav">
     <a href="/" class="nav-brand">Buddy<span class="dot"></span></a>
+    <button class="nav-hamburger" aria-label="Menu" aria-expanded="false" id="nav-hamburger">
+      <span></span><span></span><span></span>
+    </button>
     <div class="nav-links">
       <a href="/#what">What</a>
 
@@ -97,6 +100,34 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
       });
       document.addEventListener('click', () => closeAll(null));
       document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAll(null); });
+
+      // Mobile hamburger
+      const hamburger = document.getElementById('nav-hamburger');
+      const nav = document.querySelector('.nav');
+      if (hamburger && nav) {
+        hamburger.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const open = nav.classList.toggle('mobile-open');
+          hamburger.setAttribute('aria-expanded', open ? 'true' : 'false');
+          document.body.classList.toggle('nav-locked', open);
+        });
+        // Close mobile nav when a link is tapped
+        nav.querySelectorAll('.nav-links a').forEach(a => {
+          a.addEventListener('click', () => {
+            nav.classList.remove('mobile-open');
+            hamburger.setAttribute('aria-expanded', 'false');
+            document.body.classList.remove('nav-locked');
+          });
+        });
+        // ESC also closes mobile nav
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') {
+            nav.classList.remove('mobile-open');
+            hamburger.setAttribute('aria-expanded', 'false');
+            document.body.classList.remove('nav-locked');
+          }
+        });
+      }
     })();
   </script>
 
