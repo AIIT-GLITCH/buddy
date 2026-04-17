@@ -27,15 +27,28 @@ export async function onRequestPost(context) {
       return new Response(JSON.stringify({ error: 'Not from here.' }), { status: 403, headers });
     }
 
-    // Rate limit via KV if available (JOKE_KV binding), otherwise pass through
-    if (env.JOKE_KV && token) {
-      const key = `joke:${token}`;
-      const existing = await env.JOKE_KV.get(key);
-      if (existing) {
+    // Rate limit via KV — gate by IP (and token, if present). IP is set by
+    // Cloudflare and can't be spoofed by the client. Token gate is secondary.
+    if (env.JOKE_KV) {
+      const ip = request.headers.get('cf-connecting-ip') || 'anon';
+      const today = new Date().toISOString().slice(0, 10); // UTC YYYY-MM-DD
+      const ipKey = `ip:${ip}:${today}`;
+      const tokenKey = token ? `tok:${token}:${today}` : null;
+
+      const [ipUsed, tokUsed] = await Promise.all([
+        env.JOKE_KV.get(ipKey),
+        tokenKey ? env.JOKE_KV.get(tokenKey) : Promise.resolve(null),
+      ]);
+      if (ipUsed || tokUsed) {
         return new Response(JSON.stringify({ error: 'once_per_day' }), { status: 429, headers });
       }
-      // Mark used — expires in 24h
-      await env.JOKE_KV.put(key, '1', { expirationTtl: 86400 });
+
+      // Claim the slot BEFORE calling Anthropic so concurrent requests from
+      // the same IP can't both squeeze through.
+      await Promise.all([
+        env.JOKE_KV.put(ipKey, '1', { expirationTtl: 86400 }),
+        tokenKey ? env.JOKE_KV.put(tokenKey, '1', { expirationTtl: 86400 }) : Promise.resolve(),
+      ]);
     }
 
     const apiKey = env.ANTHROPIC_API_KEY;
