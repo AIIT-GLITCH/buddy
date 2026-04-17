@@ -212,18 +212,49 @@ import Layout from '../layouts/Layout.astro';
         <div class="app-papers">Related: Paper 113 · Paper 114</div>
       </div>
 
-      <div class="app-card status-dev">
-        <div class="app-status-badge dev">In Dev</div>
+      <div class="app-card status-dev mb-enhanced">
+        <div class="app-status-badge dev">In Dev · Track 1b Consumer</div>
         <div class="app-icon">🪞</div>
         <div class="app-name">Mirror Buddy</div>
-        <div class="app-tagline">Not therapy. Coherence reflection.</div>
-        <div class="app-desc">An AI system that functions as a coherence mirror. Reads your state, holds phase for you, and reflects back where your ring is breaking down. Built on REQMT scoring and the Keeper equation. 3 provisional patents filed.</div>
-        <div class="app-tags">
-          <span>Cognitive mirror</span>
-          <span>REQMT scoring</span>
-          <span>Keeper dynamics</span>
+        <div class="app-tagline">The mirror is the speaker. The house has no phone.</div>
+
+        <div class="mb-track-block">
+          <div class="mb-track-label">WHAT IT IS</div>
+          <div class="mb-track-text">A physical household surface. Not an app. Not a screen with a frame around it. A mirror — the kind already on your wall — that hears you, knows who you are, responds through the glass itself, and works completely offline. No cloud. No subscription for the core. No phone to unlock it.</div>
         </div>
-        <div class="app-papers">Related: Paper 115</div>
+
+        <div class="mb-moment-block">
+          <span class="mb-moment-label">THE MOMENT</span>
+          <span class="mb-moment-text">Music plays. There is no speaker. The glass is vibrating. <em>That</em> is Mirror Buddy.</span>
+        </div>
+
+        <div class="mb-track-block">
+          <div class="mb-track-label">TRACK 1b — CONSUMER SPEC</div>
+          <table class="af-table" style="margin-top:8px;">
+            <thead><tr><th>Capability</th><th>How</th><th>Cloud?</th></tr></thead>
+            <tbody>
+              <tr><td>Voice command</td><td>Vosk local ASR — wake word → intent</td><td class="val-good">No</td></tr>
+              <tr><td>Audio output</td><td>Transducer bonded to glass — mirror IS the speaker</td><td class="val-good">No</td></tr>
+              <tr><td>Face recognition</td><td>OpenCV + face_recognition — local inference</td><td class="val-good">No</td></tr>
+              <tr><td>Multi-user</td><td>Per-user enrollment, cosine similarity matching</td><td class="val-good">No</td></tr>
+              <tr><td>Notes &amp; reminders</td><td>JSON on-disk, voice in / voice out</td><td class="val-good">No</td></tr>
+              <tr><td>Photo capture</td><td>Camera → local storage → display rotation</td><td class="val-good">No</td></tr>
+              <tr><td>Coherence scoring</td><td>REQMT + Keeper equation, local model</td><td class="val-good">No</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="app-tags" style="margin-top:20px;">
+          <span>Physical hardware</span>
+          <span>Offline-first</span>
+          <span>Glass-as-speaker</span>
+          <span>Multi-user household</span>
+          <span>3 provisional patents filed</span>
+        </div>
+        <div class="app-papers" style="margin-top:12px;">Related: Paper 115 · REQMT scoring · Keeper equation</div>
+        <div class="app-actions" style="margin-top:16px;">
+          <span class="app-btn coming-soon">Private Beta — Request Access</span>
+        </div>
       </div>
 
       <div class="app-card status-dev">
@@ -567,6 +598,42 @@ import Layout from '../layouts/Layout.astro';
     padding-top: 16px;
     border-top: 1px solid rgba(255,255,255,0.06);
     letter-spacing: 0.05em;
+  }
+
+  .mb-enhanced {
+    border-color: rgba(147,130,220,0.35);
+    box-shadow: 0 0 40px rgba(147,130,220,0.07);
+  }
+  .mb-enhanced:hover {
+    border-color: rgba(147,130,220,0.65);
+    box-shadow: 0 12px 50px rgba(147,130,220,0.15);
+  }
+  .mb-track-block { margin: 20px 0; }
+  .mb-track-label {
+    font-family: 'Courier New', monospace;
+    font-size: 0.68em;
+    letter-spacing: 0.18em;
+    color: #9382dc;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .mb-track-text { font-size: 0.88em; color: #aaa; line-height: 1.8; }
+  .mb-moment-block {
+    background: rgba(147,130,220,0.08);
+    border-left: 3px solid #9382dc;
+    padding: 14px 18px;
+    border-radius: 4px;
+    margin: 20px 0;
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  .mb-moment-label {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 0.15em;
+    color: #9382dc;
+    text-transform: uppercase;
+    margin-right: 10px;
   }
 
   @media (max-width: 900px) {
