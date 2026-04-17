@@ -139,9 +139,12 @@ import Layout from '../layouts/Layout.astro';
   .ctrl-mobile { display: none; }
   .ctrl-desktop { display: inline; }
 
-  /* Hide nav entirely on the game page — it's a fullscreen canvas */
-  :global(.nav), :global(#nav-loader), :global(.forum-banner) { display: none !important; }
+  /* Hide chrome entirely on the game page — it's a fullscreen canvas */
+  :global(.nav), :global(#nav-loader), :global(.forum-banner), :global(footer) { display: none !important; }
   :global(body) { padding-top: 0 !important; }
+
+  /* Make the start screen fully opaque so nothing bleeds through */
+  #game-start { background: #0a0a0f !important; backdrop-filter: none !important; }
 
   .btn-gold-game {
     background: #D4AF37;

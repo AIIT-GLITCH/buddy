@@ -225,6 +225,10 @@ body.nav-locked { overflow: hidden; }
 }
 
 @media (max-width: 840px) {
+  /* Forum banner steals space on phones — hide it, reset nav to top */
+  .forum-banner { display: none; }
+  .nav { top: 0 !important; }
+
   .nav-hamburger { display: flex; }
 
   /* Brand dot reads washed-out on phone screens — pump it up */
