@@ -16,21 +16,40 @@ import Layout from '../layouts/Layout.astro';
 
     <!-- ── LIVE ── -->
     <div class="apps-group-label">Live</div>
-    <div class="apps-row">
 
-      <div class="app-card status-live">
-        <div class="app-status-badge live">Live</div>
-        <div class="app-icon">⚓</div>
-        <div class="app-name">AnchorForge</div>
-        <div class="app-tagline">Claim verification through coherence adjudication</div>
-        <div class="app-desc">AnchorForge takes any claim — scientific, political, conspiratorial — and runs it through a structured coherence evaluation. Not fact-checking. Not debunking. Physics-first adjudication: does the claim hold its phase under load, or does it decohere on contact with evidence?</div>
-        <div class="app-tags">
-          <span>Epistemology</span>
-          <span>Coherence scoring</span>
-          <span>Claim adjudication</span>
+    <!-- AnchorForge hero card -->
+    <div class="app-card status-live anchorforge-hero">
+      <div class="app-status-badge live">Live</div>
+      <div class="af-hero-inner">
+        <div class="af-left">
+          <div class="app-icon" style="font-size:3rem; margin-bottom:20px;">⚓</div>
+          <div class="app-name" style="font-size:2.2em; padding-right:0; margin-bottom:10px;">AnchorForge</div>
+          <div class="app-tagline" style="font-size:1em; margin-bottom:20px;">Claim verification through coherence adjudication</div>
+          <div class="app-tags" style="margin-bottom: 20px;">
+            <span>Epistemology</span>
+            <span>Coherence scoring</span>
+            <span>Claim adjudication</span>
+            <span>Provisional patent filed</span>
+          </div>
+          <div class="app-papers" style="margin-bottom:28px;">Related: Paper 029 · Paper 144</div>
+          <div class="app-actions" style="margin-top:0; display:flex; gap:12px; flex-wrap:wrap;">
+            <a href="https://buy.stripe.com/14A00l83Ab0t3q2gx7fbq00" target="_blank" rel="noopener" class="app-btn launch">Subscribe · $4.99/mo →</a>
+            <a href="/anchorforge" class="app-btn ghost-gold">Learn more</a>
+          </div>
         </div>
-        <div class="app-papers">Related: Paper 029 · Paper 144</div>
+        <div class="af-right">
+          <div class="app-desc" style="font-size:0.95em; color:#aaa; line-height:1.9;">
+            AnchorForge takes any claim — scientific, political, conspiratorial — and runs it through a structured coherence evaluation built on the Wike Coherence Law.<br><br>
+            Not fact-checking. Not opinion. Not debunking.<br>
+            <strong style="color:#fff;">Physics-first adjudication.</strong><br><br>
+            Does the claim hold its phase under load? Does it decohere on contact with evidence? Does it require a break in causal continuity to survive? AnchorForge answers those questions with math, not commentary.<br><br>
+            <span style="color:#D4AF37; font-style:italic;">151 papers. 6 laws. One engine.</span>
+          </div>
+        </div>
       </div>
+    </div>
+
+    <div class="apps-row" style="margin-top:24px;">
 
       <div class="app-card status-live">
         <div class="app-status-badge live">Live</div>
@@ -49,7 +68,7 @@ import Layout from '../layouts/Layout.astro';
         </div>
       </div>
 
-    </div>
+    </div> <!-- end apps-row -->
 
     <!-- ── BETA ── -->
     <div class="apps-group-label">Beta</div>
@@ -340,6 +359,36 @@ import Layout from '../layouts/Layout.astro';
     color: #555;
     border: 1px solid rgba(255,255,255,0.08);
     cursor: default;
+  }
+
+  .app-btn.ghost-gold {
+    background: transparent;
+    color: #D4AF37;
+    border: 1px solid rgba(212,175,55,0.4);
+  }
+  .app-btn.ghost-gold:hover {
+    background: rgba(212,175,55,0.08);
+  }
+
+  .anchorforge-hero {
+    padding: 48px 44px;
+    border-color: rgba(212,175,55,0.35);
+    box-shadow: 0 0 60px rgba(212,175,55,0.08);
+    margin-bottom: 0;
+  }
+  .anchorforge-hero:hover {
+    border-color: rgba(212,175,55,0.7);
+    box-shadow: 0 12px 60px rgba(212,175,55,0.18);
+  }
+  .af-hero-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+  @media (max-width: 900px) {
+    .af-hero-inner { grid-template-columns: 1fr; gap: 24px; }
+    .anchorforge-hero { padding: 32px 24px; }
   }
 
   #apps-cta {
