@@ -7,9 +7,8 @@ const openSource = [
     name: 'ai_screen_control',
     blurb: 'HTTP bridge that gives any AI agent eyes and hands on the desktop. 20×20 labeled grid overlay (A1..T20), click/type/key endpoints over localhost:7780. Works with Claude, GPT, Gemini, Grok, local LLMs — anything that can POST JSON.',
     links: [
-      { label: 'Download', href: '#' },
-      { label: 'Docs',     href: '#' },
-      { label: 'GitHub',   href: '#' },
+      { label: 'GitHub', href: 'https://github.com/AIIT-GLITCH/buddy', note: 'in buddy repo' },
+      { label: 'Coming soon', href: null },
     ],
   },
   {
@@ -17,9 +16,8 @@ const openSource = [
     name: 'daily_harvest',
     blurb: 'Two-tier corpus harvester with 16+ source scrapers (arXiv, PubMed, bioRxiv, OSF, OpenAlex, StackExchange, USGS, Federal Register, Wikipedia, Gutenberg, more). Per-source state files, resumable cursors, dry-run mode, single-command dispatch.',
     links: [
-      { label: 'Download', href: '#' },
-      { label: 'Docs',     href: '#' },
-      { label: 'GitHub',   href: '#' },
+      { label: 'GitHub', href: 'https://github.com/AIIT-GLITCH/buddy', note: 'in buddy repo' },
+      { label: 'Coming soon', href: null },
     ],
   },
   {
@@ -27,9 +25,8 @@ const openSource = [
     name: 'trio',
     blurb: 'Three-way chat: you, Buddy, and Gary in one terminal. Watch two AIs think alongside a human. Useful for tool-use studies, reasoning-trace capture, and catching the moments a model corrects itself.',
     links: [
-      { label: 'Download', href: '#' },
-      { label: 'Docs',     href: '#' },
-      { label: 'GitHub',   href: '#' },
+      { label: 'GitHub', href: 'https://github.com/AIIT-GLITCH/buddy', note: 'in buddy repo' },
+      { label: 'Coming soon', href: null },
     ],
   },
   {
@@ -37,9 +34,8 @@ const openSource = [
     name: 'gary_browser',
     blurb: 'Claude-powered screen-controlling browser agent. Vision + tools + a loop. Drop-in starter kit for anyone building a browser-use agent.',
     links: [
-      { label: 'Download', href: '#' },
-      { label: 'Docs',     href: '#' },
-      { label: 'GitHub',   href: '#' },
+      { label: 'GitHub', href: 'https://github.com/AIIT-GLITCH/buddy', note: 'in buddy repo' },
+      { label: 'Coming soon', href: null },
     ],
   },
   {
@@ -47,9 +43,7 @@ const openSource = [
     name: 'prompt_ejector',
     blurb: 'Vibe-to-prompt CLI. Give it a character idea in plain English — get back a full system prompt with name, backstory, named friends, concrete likes/dislikes, voice, and what they refuse. Ready to paste into any AI\u2019s system-prompt field. One-shot, interactive, or piped.',
     links: [
-      { label: 'Download', href: '#' },
-      { label: 'Docs',     href: '#' },
-      { label: 'GitHub',   href: '#' },
+      { label: 'Coming soon', href: null },
     ],
   },
 ];
@@ -61,18 +55,17 @@ const paid = [
     blurb: 'AI print verification. Stops blind AI models from wasting your paper, ink, and filament. Pre-print visual check layer — the eyes your AI doesn\u2019t have.',
     status: 'Shipping',
     links: [
-      { label: 'Buy',        href: '#', primary: true },
-      { label: 'Learn more', href: '#' },
+      { label: 'Learn more', href: '/apps' },
     ],
   },
   {
     icon: '🛡️',
     name: 'Victim Advocate',
-    blurb: 'The app that got us on KTUL. Legal/safety companion for people navigating family court, DV cases, and systems that weren\u2019t built for them.',
-    status: 'Shipping',
+    blurb: 'Legal/safety companion for people navigating family court, DV cases, and systems that weren\u2019t built for them. Free to use — no paywall on justice.',
+    status: 'Free',
     links: [
-      { label: 'Buy',        href: '#', primary: true },
-      { label: 'Learn more', href: '#' },
+      { label: 'Launch App →', href: 'https://victim-advocate.onrender.com', primary: true },
+      { label: 'Learn more',   href: '/apps' },
     ],
   },
   {
@@ -147,7 +140,9 @@ const paid = [
             <div class="sc-blurb">{item.blurb}</div>
             <div class="sc-actions">
               {item.links.map((l, i) => (
-                <a href={l.href} class={`sc-btn ${i === 0 ? 'primary' : 'ghost'}`}>{l.label}</a>
+                l.href
+                  ? <a href={l.href} target={l.href.startsWith('http') ? '_blank' : undefined} rel={l.href.startsWith('http') ? 'noopener' : undefined} class={`sc-btn ${l.primary ? 'primary' : i === 0 ? 'primary' : 'ghost'}`}>{l.label}{l.note ? <span class="sc-note">{l.note}</span> : ''}</a>
+                  : <span class="sc-btn disabled">{l.label}</span>
               ))}
             </div>
           </div>
@@ -227,4 +222,6 @@ const paid = [
 .sc-btn.primary:hover { background: transparent; color: var(--sc-accent); border-color: var(--sc-accent); }
 .sc-btn.ghost { background: transparent; color: var(--muted-hi); border: 1px solid var(--edge); }
 .sc-btn.ghost:hover { color: var(--sc-accent); border-color: var(--sc-accent); }
+.sc-btn.disabled { background: transparent; color: #444; border: 1px solid rgba(255,255,255,0.06); cursor: default; pointer-events: none; }
+.sc-note { font-size: 0.7em; opacity: 0.5; margin-left: 6px; text-transform: none; letter-spacing: 0; }
 </style>

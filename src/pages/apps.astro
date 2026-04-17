@@ -44,6 +44,9 @@ import Layout from '../layouts/Layout.astro';
           <span>Evidence framework</span>
         </div>
         <div class="app-papers">Related: Paper 143</div>
+        <div class="app-actions">
+          <a href="https://victim-advocate.onrender.com" target="_blank" rel="noopener" class="app-btn launch">Launch App →</a>
+        </div>
       </div>
 
     </div>
@@ -65,6 +68,9 @@ import Layout from '../layouts/Layout.astro';
           <span>Physics-first</span>
         </div>
         <div class="app-papers">Related: Paper 144</div>
+        <div class="app-actions">
+          <span class="app-btn coming-soon">Coming Soon</span>
+        </div>
       </div>
 
       <div class="app-card status-beta">
@@ -300,6 +306,40 @@ import Layout from '../layouts/Layout.astro';
     color: #555;
     letter-spacing: 1px;
     font-family: 'Courier New', monospace;
+  }
+
+  .app-actions {
+    margin-top: 20px;
+  }
+
+  .app-btn {
+    display: inline-block;
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Courier New', monospace;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .app-btn.launch {
+    background: #D4AF37;
+    color: #000;
+  }
+
+  .app-btn.launch:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(212,175,55,0.35);
+  }
+
+  .app-btn.coming-soon {
+    background: transparent;
+    color: #555;
+    border: 1px solid rgba(255,255,255,0.08);
+    cursor: default;
   }
 
   #apps-cta {
