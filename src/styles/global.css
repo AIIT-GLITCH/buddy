@@ -17,7 +17,7 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 
 /* Buddy loader — the dot, gone unhinged */
 .buddy-loader {
@@ -98,7 +98,6 @@ body {
   font-size: 17px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
 }
 
 .mono { font-family: 'Courier New', monospace; letter-spacing: 0.22em; text-transform: uppercase; font-size: 10pt; color: var(--muted); }
