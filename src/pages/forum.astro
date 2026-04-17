@@ -1,0 +1,90 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Forum — Buddy" description="Open conversation. Powered by GitHub Discussions on AIIT-GLITCH/buddy. Bring receipts.">
+  <section style="padding-top: 140px;">
+    <div class="container">
+      <div class="eyebrow">The table</div>
+      <h1 style="font-size: clamp(48px, 7vw, 104px); margin-bottom: 24px;">Forum.</h1>
+      <p style="color: var(--ink-soft); font-size: 19px; max-width: 680px; line-height: 1.55; margin-bottom: 16px;">
+        Open conversation — coherence physics, the papers, the apps, the lineage,
+        and whatever you built with the open-source tools from the shop. Bring receipts.
+      </p>
+      <p style="color: var(--muted); font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.22em; text-transform: uppercase; margin-bottom: 16px;">
+        Powered by GitHub Discussions · AIIT-GLITCH/buddy
+      </p>
+      <p style="color: var(--muted-hi); font-size: 14px; max-width: 620px; margin-bottom: 48px;">
+        Sign in with GitHub to post. Don&rsquo;t have one? <a href="https://github.com/signup" target="_blank" rel="noopener" style="color: var(--amber);">Takes a minute</a>. We use it because it&rsquo;s the only forum layer we don&rsquo;t have to babysit.
+      </p>
+
+      <div class="forum-links">
+        <a class="forum-link" href="https://github.com/AIIT-GLITCH/buddy/discussions/categories/announcements" target="_blank" rel="noopener">
+          📣 Announcements
+        </a>
+        <a class="forum-link" href="https://github.com/AIIT-GLITCH/buddy/discussions/categories/general" target="_blank" rel="noopener">
+          💬 General
+        </a>
+        <a class="forum-link" href="https://github.com/AIIT-GLITCH/buddy/discussions/categories/ideas" target="_blank" rel="noopener">
+          💡 Ideas
+        </a>
+        <a class="forum-link" href="https://github.com/AIIT-GLITCH/buddy/discussions/categories/q-a" target="_blank" rel="noopener">
+          🙏 Q&amp;A
+        </a>
+        <a class="forum-link" href="https://github.com/AIIT-GLITCH/buddy/discussions/categories/show-and-tell" target="_blank" rel="noopener">
+          🙌 Show and tell
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Giscus thread -->
+  <section style="padding-top: 40px;">
+    <div class="container">
+      <div class="eyebrow" style="color: var(--amber);">Main thread</div>
+      <h2 style="margin-bottom: 32px;">Pull up a chair.</h2>
+      <div class="giscus-wrap">
+        <div class="giscus"></div>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline src="https://giscus.app/client.js"
+    data-repo="AIIT-GLITCH/buddy"
+    data-repo-id="R_kgDOSE8Wjw"
+    data-category="General"
+    data-category-id="DIC_kwDOSE8Wj84C7Cis"
+    data-mapping="specific"
+    data-term="Forum — Buddy"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="transparent_dark"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+  </script>
+</Layout>
+
+<style>
+.forum-links { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 16px; }
+.forum-link {
+  font-family: 'Courier New', monospace;
+  font-size: 9pt; letter-spacing: 0.22em; text-transform: uppercase;
+  padding: 10px 18px; border-radius: 40px;
+  border: 1px solid var(--edge); color: var(--muted-hi);
+  border-bottom: 1px solid var(--edge);
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.forum-link:hover { color: var(--amber); border-color: var(--amber); background: rgba(212,160,96,0.06); border-bottom: 1px solid var(--amber); }
+
+.giscus-wrap {
+  background: var(--bg-card);
+  border: 1px solid var(--edge);
+  border-left: 3px solid var(--amber);
+  border-radius: 3px;
+  padding: 32px 28px;
+  min-height: 400px;
+}
+</style>
