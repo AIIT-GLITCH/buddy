@@ -5,12 +5,12 @@ import papers from '../../data/papers.json';
 // build unique tag set for filters
 const tags = [...new Set(papers.map(p => p.tag))].sort();
 ---
-<Layout title={`Papers · AIIT-THRESHOLD (${papers.length})`}>
+<Layout title={`Papers · AIIT-THRESI (${papers.length})`}>
   <section style="padding-top: 120px; min-height: auto;">
     <div class="container">
       <div class="eyebrow">The archive</div>
       <h1 style="font-size: clamp(48px, 7vw, 96px); margin-bottom: 8px;">{papers.length} papers.</h1>
-      <p style="color: var(--muted-hi); font-size: 17px; max-width: 640px;">Every paper derived, written, and filed under AIIT-THRESHOLD. Search by title, filter by domain. Each one opens its own page with abstract and download.</p>
+      <p style="color: var(--muted-hi); font-size: 17px; max-width: 640px;">Every paper derived, written, and filed under AIIT-THRESI. Search by title, filter by domain. Each one opens its own page with abstract and download.</p>
 
       <div class="papers-search">
         <input id="paper-search" type="text" placeholder="Search titles, tags, keywords…" autocomplete="off">
