@@ -17,7 +17,11 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; overflow-x: clip; }
+html { overflow-x: clip; }
+@media (prefers-reduced-motion: no-preference) {
+  /* Smooth scroll only after the page has settled — avoids racing initial hash-scroll on cold load */
+  html.ready { scroll-behavior: smooth; }
+}
 
 /* Buddy loader — the dot, gone unhinged */
 .buddy-loader {
