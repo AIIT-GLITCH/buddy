@@ -12,7 +12,8 @@ import Layout from '../layouts/Layout.astro';
       <h2>Them Beans Though</h2>
       <p class="gs-sub">You are a coherence particle.<br>Dodge meteors. Collect beans. Find the ring.</p>
       <div class="gs-controls" id="gs-controls-txt">
-        <span>Touch to move · WASD / arrows on desktop</span>
+        <span class="ctrl-desktop">Touch to move · WASD / arrows on desktop</span>
+        <span class="ctrl-mobile">Drag to move</span>
       </div>
       <button id="btn-start" class="btn-gold-game">ENTER THE FIELD</button>
     </div>
@@ -135,6 +136,8 @@ import Layout from '../layouts/Layout.astro';
     margin-bottom: 32px;
     text-transform: uppercase;
   }
+  .ctrl-mobile { display: none; }
+  .ctrl-desktop { display: inline; }
 
   /* Hide nav entirely on the game page — it's a fullscreen canvas */
   :global(.nav), :global(#nav-loader), :global(.forum-banner) { display: none !important; }
@@ -284,53 +287,61 @@ import Layout from '../layouts/Layout.astro';
     100% { opacity: 0; transform: translateY(-60px) scale(0.8); }
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
+    .ctrl-mobile { display: inline; }
+    .ctrl-desktop { display: none; }
+
     .game-screen {
-      padding: 20px 18px;
-      justify-content: flex-start;
-      padding-top: 12vh;
+      padding: 64px 20px 40px;
+      justify-content: center;
+      gap: 4px;
     }
     .gs-label {
-      font-size: 0.58em;
+      font-size: 11px;
       letter-spacing: 3px;
-      margin-bottom: 10px;
+      margin-bottom: 16px;
     }
     .game-screen h2 {
-      font-size: 1.7em;
-      margin-bottom: 14px;
+      font-size: 36px;
+      margin-bottom: 18px;
       letter-spacing: 1px;
       line-height: 1.15;
     }
     .gs-sub {
-      font-size: 0.85em;
+      font-size: 14px;
       line-height: 1.55;
-      margin-bottom: 22px;
-      max-width: 320px;
+      margin-bottom: 26px;
+      max-width: 300px;
+      color: #999;
     }
     .gs-controls {
-      font-size: 0.62em;
-      letter-spacing: 1px;
-      margin-bottom: 28px;
-      max-width: 280px;
-      line-height: 1.6;
-    }
-    .btn-gold-game {
-      padding: 14px 28px;
-      font-size: 0.82em;
+      font-size: 10px;
       letter-spacing: 2px;
-      margin-bottom: 16px;
-      min-width: 220px;
+      margin-bottom: 32px;
+      color: #666;
       white-space: nowrap;
     }
-    .go-stats {
-      gap: 24px;
+    .btn-gold-game {
+      padding: 16px 44px;
+      font-size: 13px;
+      letter-spacing: 2.5px;
       margin-bottom: 20px;
+      min-width: 200px;
+      white-space: nowrap;
+      text-align: center;
+      display: inline-block;
+      position: relative;
+      z-index: 2;
+    }
+    .go-stats {
+      gap: 28px;
+      margin-bottom: 24px;
     }
     .go-num {
-      font-size: 1.8em;
+      font-size: 32px;
     }
     .go-back {
-      font-size: 0.72em;
+      font-size: 11px;
     }
   }
 </style>
