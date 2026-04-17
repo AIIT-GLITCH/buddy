@@ -218,45 +218,97 @@ import Layout from '../layouts/Layout.astro';
       </div>
 
       <div class="app-card status-dev mb-enhanced">
-        <div class="app-status-badge dev">In Dev · Track 1 of 3</div>
+        <div class="app-status-badge dev">In Dev · 3 Patents Filed</div>
         <div class="app-icon">🪞</div>
         <div class="app-name">Mirror Buddy</div>
-        <div class="app-tagline">The mirror is the speaker. The house has no phone.</div>
+        <div class="app-tagline">System and Method for Integrated Household Interface Mirror With Resident Inference Model, Multimodal Biometric Monitoring, Autonomic Resonance Intervention, and Voice-Activated Communication and Media Services</div>
 
-        <div class="mb-track-block">
-          <div class="mb-track-label">WHAT IT IS</div>
-          <div class="mb-track-text">A physical household surface. Not an app. Not a screen with a frame around it. A mirror — the kind already on your wall — that hears you, knows who you are, responds through the glass itself, and works completely offline. No cloud. No subscription for the core. No phone to unlock it.</div>
+        <!-- TRACK 1 -->
+        <div class="mb-track-block" style="margin-top:24px;">
+          <div class="mb-track-label">TRACK 1 OF 3 — CONSUMER HOUSEHOLD DEVICE</div>
+          <div class="mb-track-text">A mirror-form-factor household appliance. Not an app. The glass IS the speaker — an audio transducer mechanically coupled to the mirror substrate produces sound through the reflective surface itself. Operates fully offline. Replaces the shared household phone, family calendar, message board, and photo wall. All household members including young children can use it without a personal device.</div>
         </div>
-
         <div class="mb-moment-block">
           <span class="mb-moment-label">THE MOMENT</span>
-          <span class="mb-moment-text">Music plays. There is no speaker. The glass is vibrating. <em>That</em> is Mirror Buddy.</span>
+          <span class="mb-moment-text">Music plays. There is no visible speaker. The mirror glass is vibrating. That is the patent claim.</span>
         </div>
+        <table class="af-table" style="margin:12px 0 24px;">
+          <thead><tr><th>Function</th><th>Implementation</th><th>Cloud Required</th></tr></thead>
+          <tbody>
+            <tr><td>Voice commands</td><td>Vosk local ASR — wake word → intent routing</td><td class="val-good">No</td></tr>
+            <tr><td>Audio output</td><td>Bone-conduction transducer bonded to glass substrate</td><td class="val-good">No</td></tr>
+            <tr><td>Household member ID</td><td>ArcFace embeddings — cosine similarity, local only</td><td class="val-good">No</td></tr>
+            <tr><td>Phone / SMS / VoIP</td><td>Shared household terminal — no personal device needed</td><td>Wi-Fi only</td></tr>
+            <tr><td>Notes / reminders / photos</td><td>On-device non-volatile storage, voice in/out</td><td class="val-good">No</td></tr>
+            <tr><td>Biometric data</td><td>Never transmitted — stored on device only</td><td class="val-good">Never</td></tr>
+          </tbody>
+        </table>
 
+        <!-- TRACK 2 -->
         <div class="mb-track-block">
-          <div class="mb-track-label">TRACK 1b — CONSUMER SPEC</div>
-          <table class="af-table" style="margin-top:8px;">
-            <thead><tr><th>Capability</th><th>How</th><th>Cloud?</th></tr></thead>
-            <tbody>
-              <tr><td>Voice command</td><td>Vosk local ASR — wake word → intent</td><td class="val-good">No</td></tr>
-              <tr><td>Audio output</td><td>Transducer bonded to glass — mirror IS the speaker</td><td class="val-good">No</td></tr>
-              <tr><td>Face recognition</td><td>OpenCV + face_recognition — local inference</td><td class="val-good">No</td></tr>
-              <tr><td>Multi-user</td><td>Per-user enrollment, cosine similarity matching</td><td class="val-good">No</td></tr>
-              <tr><td>Notes &amp; reminders</td><td>JSON on-disk, voice in / voice out</td><td class="val-good">No</td></tr>
-              <tr><td>Photo capture</td><td>Camera → local storage → display rotation</td><td class="val-good">No</td></tr>
-              <tr><td>Coherence scoring</td><td>REQMT + Keeper equation, local model</td><td class="val-good">No</td></tr>
-            </tbody>
-          </table>
+          <div class="mb-track-label">TRACK 2 OF 3 — MULTI-MODAL COHERENCE DETECTION AND ADAPTIVE INTERVENTION <span style="font-style:normal; color:#666;">· Patent Filed 2026-04-12</span></div>
+          <div class="mb-track-text">System and Method for Multi-Modal Behavioral Coherence Detection and Adaptive Intervention. Detects recursive instability patterns across sensor modalities, computes a unified γ_eff, classifies system state relative to a critical threshold, and selects adaptive interventions. The first patent claim that detects looping behavior across modalities as a unified coherence signal.</div>
         </div>
 
-        <div class="app-tags" style="margin-top:20px;">
+        <div class="af-table-title" style="margin-top:16px;">Processing Pipeline</div>
+        <div class="mb-pipeline">
+          <span class="mb-pipe-step">Sensors</span>
+          <span class="mb-pipe-arr">→</span>
+          <span class="mb-pipe-step">Channel Scores</span>
+          <span class="mb-pipe-arr">→</span>
+          <span class="mb-pipe-step">Loop Detection</span>
+          <span class="mb-pipe-arr">→</span>
+          <span class="mb-pipe-step">Fusion</span>
+          <span class="mb-pipe-arr">→</span>
+          <span class="mb-pipe-step">γ_eff</span>
+          <span class="mb-pipe-arr">→</span>
+          <span class="mb-pipe-step">C(t)</span>
+          <span class="mb-pipe-arr">→</span>
+          <span class="mb-pipe-step">Decision</span>
+          <span class="mb-pipe-arr">→</span>
+          <span class="mb-pipe-step">Response</span>
+        </div>
+
+        <table class="af-table" style="margin:12px 0 8px;">
+          <thead><tr><th>Equation</th><th>Role</th></tr></thead>
+          <tbody>
+            <tr><td class="mono">y_eff = Σ(wᵢ · channelᵢ)</td><td>Weighted coherence fusion across modalities</td></tr>
+            <tr><td class="mono">y_eff_adj = y_eff · (1 − k · loop_score)</td><td>Instability adjustment — recursive loops penalize coherence</td></tr>
+            <tr><td class="mono">γ_eff = (1 − y_eff_adj) · (2 · γ_c)</td><td>Disorder parameter mapping</td></tr>
+            <tr><td class="mono">C(t) = C₀ · exp(−α · γ_eff · t)</td><td>Coherence decay model</td></tr>
+            <tr><td class="mono">W = γ_c − γ_eff</td><td>Coherence window — distance from critical threshold</td></tr>
+            <tr><td class="mono">V(γ) = C₀ · γ · exp(−α · γ)</td><td>Coherence potential — maximum at γ = 1/α</td></tr>
+          </tbody>
+        </table>
+
+        <table class="af-table" style="margin:8px 0 24px;">
+          <thead><tr><th>State</th><th>Condition</th><th>Intervention</th></tr></thead>
+          <tbody>
+            <tr><td><span class="grade ok">FROZEN</span></td><td class="mono">γ_eff &lt; 0.5 · γ_c</td><td>Gentle check — system underactivated</td></tr>
+            <tr><td><span class="grade strong">EDGE</span></td><td class="mono">0.5 · γ_c ≤ γ_eff &lt; γ_c</td><td>Engage — optimal coherence zone</td></tr>
+            <tr><td><span class="grade liar">COLLAPSED</span></td><td class="mono">γ_eff ≥ γ_c</td><td>Interrupt or silence — threshold breached</td></tr>
+          </tbody>
+        </table>
+
+        <!-- TRACK 3 -->
+        <div class="mb-track-block">
+          <div class="mb-track-label">TRACK 3 OF 3 — HUMANOID ROBOT EMBODIMENT <span style="font-style:normal; color:#666;">· Patent not yet written</span></div>
+          <div class="mb-track-text">The coherence detection and adaptive intervention engine — γ_eff computation, recursive instability regulation, dilemma arbitration — running in a physical humanoid form factor. The Mirror Buddy patent stack (Track 1 + Track 2) provides the full sensor-to-intervention pipeline. Track 3 extends it to an embodied agent. Patent drafting pending.</div>
+        </div>
+        <div class="mb-moment-block" style="border-color: #555; background: rgba(255,255,255,0.02);">
+          <span class="mb-moment-label" style="color:#666;">STATUS</span>
+          <span class="mb-moment-text" style="color:#666;">Track 3 patent not yet written. Conceptual stage. The physics is already claimed in Track 2 — the embodiment claim is what remains.</span>
+        </div>
+
+        <div class="app-tags" style="margin-top:8px;">
           <span>Physical hardware</span>
           <span>Offline-first</span>
           <span>Glass-as-speaker</span>
-          <span>Multi-user household</span>
+          <span>γ_eff biometric monitoring</span>
+          <span>Recursive instability detection</span>
           <span>3 provisional patents filed</span>
         </div>
-        <div class="app-papers" style="margin-top:12px;">Related: Paper 115 · REQMT scoring · Keeper equation</div>
+        <div class="app-papers" style="margin-top:12px;">Patents: Mirror Buddy device (2026-04-10) · Multi-Modal Coherence Detection (2026-04-12) · Behavioral Coherence · Related: Paper 115 · Paper 152 · Paper 153</div>
         <div class="app-actions" style="margin-top:16px;">
           <span class="app-btn coming-soon">Private Beta — Request Access</span>
         </div>
@@ -649,6 +701,24 @@ import Layout from '../layouts/Layout.astro';
     text-transform: uppercase;
     margin-right: 10px;
   }
+  .mb-pipeline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+    margin: 8px 0 4px;
+  }
+  .mb-pipe-step {
+    background: rgba(147,130,220,0.1);
+    border: 1px solid rgba(147,130,220,0.3);
+    color: #9382dc;
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    padding: 4px 10px;
+    border-radius: 4px;
+    letter-spacing: 0.05em;
+  }
+  .mb-pipe-arr { color: #555; font-size: 0.8em; }
 
   @media (max-width: 900px) {
     .anchorforge-hero { padding: 28px 20px; }
