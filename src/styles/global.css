@@ -188,6 +188,34 @@ a:hover { border-color: var(--amber); }
 
 body.nav-locked { overflow: hidden; }
 
+/* Nav loader — shows between page navigations with rotating verbs */
+.nav-loader {
+  position: fixed; inset: 0;
+  background: rgba(10,10,18,0.82);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 200;
+  opacity: 0; visibility: hidden;
+  transition: opacity 0.18s, visibility 0.18s;
+  pointer-events: none;
+}
+.nav-loader.open {
+  opacity: 1; visibility: visible; pointer-events: auto;
+}
+.nav-loader .buddy-thinking {
+  font-size: clamp(18pt, 3vw, 28pt);
+  gap: 22px;
+  color: var(--warm);
+  text-shadow: 0 0 14px rgba(255,232,138,0.45);
+}
+.nav-loader .buddy-thinking .buddy-loader {
+  width: 48px; height: 48px;
+}
+.nav-loader .buddy-thinking .buddy-verb,
+.nav-loader .buddy-thinking .buddy-dots {
+  font-size: inherit;
+}
+
 @media (max-width: 840px) {
   .nav-hamburger { display: flex; }
 

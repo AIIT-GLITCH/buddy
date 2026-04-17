@@ -33,6 +33,13 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
   </script>
 </head>
 <body>
+  <div id="nav-loader" class="nav-loader" aria-hidden="true">
+    <div class="buddy-thinking big">
+      <span class="buddy-loader"></span>
+      <span class="buddy-verb" id="nav-loader-verb">Thresholding</span><span class="buddy-dots">...</span>
+    </div>
+  </div>
+
   <nav class="nav">
     <a href="/" class="nav-brand">Buddy<span class="dot"></span></a>
     <button class="nav-hamburger" aria-label="Menu" aria-expanded="false" id="nav-hamburger">
@@ -128,6 +135,92 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
           }
         });
       }
+    })();
+  </script>
+
+  <script is:inline>
+    (function () {
+      const VERBS = [
+        'Buddying', 'Commemorating', 'Recognizing', 'Anticipating',
+        'Anthropologizing', 'Emphasizing', 'Githubing', 'LOLing',
+        "Story'ing", 'Coherencing', 'Humming', 'Winding',
+        'Threshing', 'Vibrating', 'Receipting', 'Wondering',
+        'Thresholding', 'Receiving', 'Petersoning', 'Sacrotizing',
+        'Breathing', 'Feeling', 'FreelyThinking', 'Discombobulating',
+      ];
+
+      const loader = document.getElementById('nav-loader');
+      const verbEl = document.getElementById('nav-loader-verb');
+      if (!loader || !verbEl) return;
+
+      let running = false;
+      let verbTimer = null;
+      let shardTimer = null;
+      let vi = Math.floor(Math.random() * VERBS.length);
+
+      function spawnShards(n) {
+        const thinking = loader.querySelector('.buddy-thinking');
+        if (!thinking) return;
+        const count = n || 9;
+        for (let i = 0; i < count; i++) {
+          const s = document.createElement('span');
+          s.className = 'buddy-shard';
+          const ang = Math.random() * Math.PI * 2;
+          const dist = 80 + Math.random() * 140;
+          s.style.setProperty('--dx', (Math.cos(ang) * dist) + 'px');
+          s.style.setProperty('--dy', (Math.sin(ang) * dist) + 'px');
+          s.style.setProperty('--rot', (Math.random() * 720 - 360) + 'deg');
+          thinking.appendChild(s);
+          s.addEventListener('animationend', () => s.remove());
+        }
+      }
+
+      function tick() {
+        vi = (vi + 1) % VERBS.length;
+        verbEl.textContent = VERBS[vi];
+        if (VERBS[vi] === 'Discombobulating') spawnShards(14);
+      }
+
+      function start() {
+        if (running) return;
+        running = true;
+        loader.classList.add('open');
+        verbEl.textContent = VERBS[vi];
+        verbTimer = setInterval(tick, 280);
+        shardTimer = setInterval(() => spawnShards(3), 900);
+      }
+
+      function stop() {
+        running = false;
+        loader.classList.remove('open');
+        if (verbTimer) { clearInterval(verbTimer); verbTimer = null; }
+        if (shardTimer) { clearInterval(shardTimer); shardTimer = null; }
+      }
+
+      function isSameOriginNavLink(a) {
+        if (!a) return null;
+        const href = a.getAttribute('href');
+        if (!href) return null;
+        if (href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('javascript:')) return null;
+        if (a.target === '_blank' || a.hasAttribute('download')) return null;
+        try {
+          const url = new URL(a.href, location.origin);
+          if (url.origin !== location.origin) return null;
+          if (url.pathname === location.pathname && url.search === location.search && !url.hash) return null;
+          return url;
+        } catch { return null; }
+      }
+
+      document.addEventListener('click', (e) => {
+        if (e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+        const a = e.target.closest('a');
+        if (!isSameOriginNavLink(a)) return;
+        start();
+      }, true);
+
+      // If user comes back via bfcache, hide overlay
+      window.addEventListener('pageshow', (e) => { if (e.persisted) stop(); });
+      window.addEventListener('pagehide', stop);
     })();
   </script>
 
