@@ -1,0 +1,519 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Flap — Buddy" description="Happy face vs the bad vibes. How far can you go?">
+
+<div id="flap-wrap">
+  <canvas id="flap-canvas"></canvas>
+
+  <div id="flap-ui">
+    <div id="flap-start" class="flap-screen">
+      <div class="fs-label">GOOD VIBES ONLY</div>
+      <h2>Flap.</h2>
+      <p class="fs-sub">You are 😁<br>Dodge the bad vibes.<br>See how far you can go.</p>
+      <div class="fs-controls">
+        <span class="ctrl-desktop">SPACE / click to flap</span>
+        <span class="ctrl-mobile">Tap to flap</span>
+      </div>
+      <button id="flap-btn-start" class="btn-gold-game">START</button>
+      <div class="fs-board-wrap">
+        <div class="fs-board-title">LEADERBOARD</div>
+        <ol id="flap-board-list" class="fs-board">
+          <li class="fs-board-empty">Loading...</li>
+        </ol>
+      </div>
+    </div>
+
+    <div id="flap-hud" class="hidden">
+      <div class="hud-left">
+        <div class="hud-label">SCORE</div>
+        <div id="flap-hud-score" class="hud-score">0</div>
+      </div>
+      <div class="hud-right">
+        <div class="hud-label">BEST</div>
+        <div id="flap-hud-best" class="hud-score">0</div>
+      </div>
+    </div>
+
+    <div id="flap-over" class="flap-screen hidden">
+      <div class="fs-label">BAD VIBES WIN</div>
+      <h2 id="flap-over-title">Got you.</h2>
+      <p class="fs-sub">Score: <span id="flap-final">0</span></p>
+
+      <div id="flap-submit-row" class="fs-submit-row">
+        <input id="flap-name" type="text" maxlength="16" placeholder="YOUR NAME" autocomplete="off">
+        <button id="flap-submit" class="btn-gold-game compact">SUBMIT</button>
+      </div>
+      <div id="flap-rank" class="fs-rank hidden"></div>
+
+      <button id="flap-btn-again" class="btn-gold-game">PLAY AGAIN</button>
+      <a href="/" class="fs-home">← back to Buddy</a>
+    </div>
+  </div>
+</div>
+
+<style>
+  :global(body) { overflow: hidden; background: #05050a; }
+  :global(.nav), :global(#nav-loader), :global(.forum-banner), :global(footer), :global(.mobile-menu) { display: none !important; }
+
+  #flap-wrap { position: fixed; inset: 0; overflow: hidden; background: radial-gradient(circle at 50% 30%, #1a2a3f 0%, #0a0f1a 60%, #05050a 100%); }
+  #flap-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+  #flap-ui { position: absolute; inset: 0; pointer-events: none; }
+  #flap-ui > * { pointer-events: auto; }
+
+  .flap-screen {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 40px 24px;
+    text-align: center;
+    background: rgba(10,10,18,0.88);
+    backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  }
+  .flap-screen.hidden { display: none; }
+
+  .fs-label {
+    font-family: 'Courier New', monospace;
+    font-size: 10pt; letter-spacing: 0.4em; text-transform: uppercase;
+    color: var(--amber); margin-bottom: 16px;
+  }
+  .flap-screen h2 {
+    font-family: 'Georgia', serif;
+    font-size: clamp(48px, 10vw, 96px); color: #ffffff;
+    margin-bottom: 16px; letter-spacing: -0.02em;
+  }
+  .fs-sub { color: var(--ink-soft); font-size: 17px; line-height: 1.6; margin-bottom: 24px; }
+  .fs-controls {
+    font-family: 'Courier New', monospace; font-size: 11pt;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--muted-hi); margin-bottom: 24px;
+  }
+  .ctrl-mobile { display: none; }
+  @media (max-width: 768px) {
+    .ctrl-mobile { display: inline; }
+    .ctrl-desktop { display: none; }
+  }
+
+  .btn-gold-game {
+    font-family: 'Courier New', monospace;
+    font-size: 12pt; letter-spacing: 0.3em; text-transform: uppercase;
+    padding: 18px 52px;
+    border: 1px solid var(--amber);
+    background: transparent; color: var(--amber);
+    cursor: pointer; border-radius: 3px;
+    transition: background 0.25s, color 0.25s, transform 0.1s;
+  }
+  .btn-gold-game:hover { background: var(--amber); color: #0a0a12; }
+  .btn-gold-game:active { transform: scale(0.98); }
+  .btn-gold-game.compact { padding: 14px 28px; font-size: 10pt; }
+
+  .fs-board-wrap { margin-top: 36px; width: 100%; max-width: 400px; }
+  .fs-board-title {
+    font-family: 'Courier New', monospace;
+    font-size: 10pt; letter-spacing: 0.3em; color: var(--amber);
+    margin-bottom: 12px;
+  }
+  .fs-board {
+    list-style: none; padding: 0; margin: 0;
+    font-family: 'Courier New', monospace;
+    font-size: 12pt;
+    border: 1px solid var(--edge);
+    border-radius: 4px;
+    background: rgba(10,10,18,0.5);
+    max-height: 240px; overflow-y: auto;
+  }
+  .fs-board li {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--edge);
+    color: var(--ink-soft);
+  }
+  .fs-board li:last-child { border-bottom: none; }
+  .fs-board li .rank { color: var(--muted); width: 32px; }
+  .fs-board li .name { flex: 1; text-align: left; padding-left: 8px; letter-spacing: 0.08em; }
+  .fs-board li .score { color: var(--amber); font-weight: 700; }
+  .fs-board-empty { justify-content: center !important; color: var(--muted) !important; }
+
+  #flap-hud {
+    position: absolute; top: 20px; left: 0; right: 0;
+    display: flex; justify-content: space-between; align-items: flex-start;
+    padding: 0 24px;
+    pointer-events: none;
+  }
+  #flap-hud.hidden { display: none; }
+  .hud-label { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.3em; color: var(--muted); margin-bottom: 4px; text-transform: uppercase; }
+  .hud-score { font-family: 'Georgia', serif; font-size: 36px; font-weight: 700; color: #ffffff; line-height: 1; }
+  .hud-right { text-align: right; }
+
+  .fs-submit-row { display: flex; gap: 10px; margin-bottom: 20px; width: 100%; max-width: 360px; }
+  .fs-submit-row input {
+    flex: 1;
+    background: rgba(10,10,18,0.7);
+    border: 1px solid var(--edge);
+    color: #ffffff;
+    padding: 12px 16px;
+    font-family: 'Courier New', monospace;
+    font-size: 12pt;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+  }
+  .fs-submit-row input:focus { border-color: var(--amber); }
+  .fs-rank {
+    font-family: 'Courier New', monospace;
+    font-size: 11pt; letter-spacing: 0.2em;
+    color: var(--teal); margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .fs-rank.hidden { display: none; }
+  .fs-home {
+    margin-top: 18px;
+    font-family: 'Courier New', monospace;
+    font-size: 9pt; letter-spacing: 0.28em; color: var(--muted);
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: none;
+  }
+  .fs-home:hover { color: var(--amber); }
+
+  @media (max-width: 640px) {
+    .flap-screen h2 { font-size: 48px; }
+    .fs-sub { font-size: 15px; }
+    .fs-board-wrap { margin-top: 24px; }
+    .fs-board { max-height: 180px; font-size: 11pt; }
+    #flap-hud { padding: 0 16px; }
+    .hud-score { font-size: 28px; }
+  }
+</style>
+
+<script is:inline>
+(function () {
+  const canvas = document.getElementById('flap-canvas');
+  const ctx = canvas.getContext('2d');
+  const startScreen = document.getElementById('flap-start');
+  const overScreen  = document.getElementById('flap-over');
+  const hud         = document.getElementById('flap-hud');
+  const hudScore    = document.getElementById('flap-hud-score');
+  const hudBest     = document.getElementById('flap-hud-best');
+  const finalScore  = document.getElementById('flap-final');
+  const btnStart    = document.getElementById('flap-btn-start');
+  const btnAgain    = document.getElementById('flap-btn-again');
+  const btnSubmit   = document.getElementById('flap-submit');
+  const nameInput   = document.getElementById('flap-name');
+  const submitRow   = document.getElementById('flap-submit-row');
+  const rankEl      = document.getElementById('flap-rank');
+  const boardList   = document.getElementById('flap-board-list');
+
+  // Canvas sizing
+  let W = 0, H = 0, DPR = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
+  function resize() {
+    W = window.innerWidth; H = window.innerHeight;
+    canvas.width = W * DPR; canvas.height = H * DPR;
+    canvas.style.width = W + 'px'; canvas.style.height = H + 'px';
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  const BAD_VIBES = ['😠','😡','😢','😭','🤬','👿','😤','😖'];
+
+  const state = {
+    running: false,
+    over: false,
+    player: { x: 0, y: 0, vy: 0, r: 26 },
+    obstacles: [],
+    particles: [],
+    score: 0,
+    best: Number(localStorage.getItem('flap-best') || 0),
+    frame: 0,
+    speed: 3.5,
+    gravity: 0.5,
+    flapPower: -8.5,
+    spawnEvery: 110,
+    lastSubmittedScore: 0,
+  };
+
+  hudBest.textContent = state.best;
+
+  function reset() {
+    state.player.x = W * 0.28;
+    state.player.y = H * 0.4;
+    state.player.vy = 0;
+    state.obstacles = [];
+    state.particles = [];
+    state.score = 0;
+    state.frame = 0;
+    state.speed = 3.5;
+    state.spawnEvery = 110;
+    state.over = false;
+    state.lastSubmittedScore = 0;
+  }
+
+  function flap() {
+    if (!state.running || state.over) return;
+    state.player.vy = state.flapPower;
+    // little poof particles
+    for (let i = 0; i < 5; i++) {
+      state.particles.push({
+        x: state.player.x - 10,
+        y: state.player.y + 8,
+        vx: -Math.random() * 2 - 1,
+        vy: Math.random() * 2 - 1,
+        life: 22,
+      });
+    }
+  }
+
+  function spawnObstacle() {
+    const emoji = BAD_VIBES[Math.floor(Math.random() * BAD_VIBES.length)];
+    const size = 42 + Math.random() * 14;
+    // Spawn in a "gap" pattern — sometimes lone, sometimes pair with gap
+    const pattern = Math.random();
+    if (pattern < 0.55) {
+      // single
+      state.obstacles.push({
+        x: W + size, y: 80 + Math.random() * (H - 160),
+        vx: -state.speed, r: size / 2, emoji, passed: false,
+      });
+    } else {
+      // top/bottom with gap
+      const gap = 180 + Math.random() * 60;
+      const gapY = 100 + Math.random() * (H - 200 - gap);
+      // top cluster
+      for (let y = 40; y < gapY; y += size) {
+        state.obstacles.push({ x: W + size, y, vx: -state.speed, r: size / 2, emoji, passed: false });
+      }
+      // bottom cluster
+      for (let y = gapY + gap; y < H - 20; y += size) {
+        state.obstacles.push({ x: W + size, y, vx: -state.speed, r: size / 2, emoji, passed: false });
+      }
+    }
+  }
+
+  function circleHit(ax, ay, ar, bx, by, br) {
+    const dx = ax - bx, dy = ay - by;
+    return (dx*dx + dy*dy) < (ar + br) * (ar + br) * 0.75;
+  }
+
+  function update() {
+    if (!state.running || state.over) return;
+    state.frame++;
+
+    // speed ramp
+    if (state.frame % 240 === 0 && state.speed < 7) state.speed += 0.3;
+    if (state.frame % 480 === 0 && state.spawnEvery > 60) state.spawnEvery -= 6;
+
+    // player physics
+    state.player.vy += state.gravity;
+    if (state.player.vy > 12) state.player.vy = 12;
+    state.player.y += state.player.vy;
+
+    // bounds
+    if (state.player.y < state.player.r) { state.player.y = state.player.r; state.player.vy = 0; }
+    if (state.player.y > H - state.player.r) gameOver();
+
+    // spawn
+    if (state.frame % state.spawnEvery === 0) spawnObstacle();
+
+    // update obstacles
+    for (let i = state.obstacles.length - 1; i >= 0; i--) {
+      const o = state.obstacles[i];
+      o.vx = -state.speed;
+      o.x += o.vx;
+      if (o.x < -o.r * 2) {
+        state.obstacles.splice(i, 1);
+        continue;
+      }
+      if (!o.passed && o.x + o.r < state.player.x - state.player.r) {
+        o.passed = true;
+        state.score += 1;
+      }
+      if (circleHit(state.player.x, state.player.y, state.player.r, o.x, o.y, o.r)) {
+        gameOver();
+      }
+    }
+
+    // particles
+    for (let i = state.particles.length - 1; i >= 0; i--) {
+      const p = state.particles[i];
+      p.x += p.vx; p.y += p.vy; p.life--;
+      if (p.life <= 0) state.particles.splice(i, 1);
+    }
+
+    // passive score by frames
+    if (state.frame % 6 === 0) state.score += 1;
+
+    hudScore.textContent = state.score;
+  }
+
+  function drawBackground() {
+    // parallax dots
+    ctx.fillStyle = 'rgba(255,255,255,0.04)';
+    const t = state.frame * 0.5;
+    for (let i = 0; i < 40; i++) {
+      const x = ((i * 137 - t) % W + W) % W;
+      const y = (i * 83) % H;
+      ctx.fillRect(x, y, 2, 2);
+    }
+  }
+
+  function drawPlayer() {
+    const p = state.player;
+    ctx.save();
+    ctx.translate(p.x, p.y);
+    const tilt = Math.max(-0.4, Math.min(0.6, p.vy * 0.04));
+    ctx.rotate(tilt);
+    ctx.font = (p.r * 2) + 'px system-ui, apple-color-emoji, segoe-ui-emoji, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText('😁', 0, 0);
+    ctx.restore();
+  }
+
+  function drawObstacles() {
+    for (const o of state.obstacles) {
+      ctx.font = (o.r * 2) + 'px system-ui, apple-color-emoji, segoe-ui-emoji, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(o.emoji, o.x, o.y);
+    }
+  }
+
+  function drawParticles() {
+    for (const p of state.particles) {
+      ctx.fillStyle = 'rgba(255,232,138,' + (p.life / 22) + ')';
+      ctx.fillRect(p.x, p.y, 3, 3);
+    }
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    drawBackground();
+    drawParticles();
+    drawObstacles();
+    drawPlayer();
+  }
+
+  function loop() {
+    update();
+    draw();
+    requestAnimationFrame(loop);
+  }
+
+  function start() {
+    reset();
+    state.running = true;
+    startScreen.classList.add('hidden');
+    overScreen.classList.add('hidden');
+    hud.classList.remove('hidden');
+  }
+
+  function gameOver() {
+    if (state.over) return;
+    state.over = true;
+    state.running = false;
+    if (state.score > state.best) {
+      state.best = state.score;
+      localStorage.setItem('flap-best', String(state.best));
+      hudBest.textContent = state.best;
+    }
+    finalScore.textContent = state.score;
+    hud.classList.add('hidden');
+    submitRow.style.display = 'flex';
+    rankEl.classList.add('hidden');
+    btnSubmit.disabled = false;
+    btnSubmit.textContent = 'SUBMIT';
+    const savedName = localStorage.getItem('flap-name') || '';
+    if (savedName) nameInput.value = savedName;
+    overScreen.classList.remove('hidden');
+  }
+
+  // Input
+  function onInput(e) {
+    if (e && e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'BUTTON' || e.target.tagName === 'A')) return;
+    flap();
+  }
+  canvas.addEventListener('pointerdown', onInput);
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 'Space' || e.key === ' ') {
+      if (e.target && e.target.tagName === 'INPUT') return;
+      e.preventDefault();
+      if (state.over) return;
+      if (!state.running) start(); else flap();
+    }
+  });
+
+  btnStart.addEventListener('click', start);
+  btnAgain.addEventListener('click', start);
+
+  // Leaderboard
+  async function loadBoard() {
+    try {
+      const r = await fetch('/api/leaderboard/flap');
+      const d = await r.json();
+      renderBoard(d.scores || []);
+    } catch {
+      boardList.innerHTML = '<li class="fs-board-empty">Leaderboard offline</li>';
+    }
+  }
+  function renderBoard(scores) {
+    if (!scores.length) {
+      boardList.innerHTML = '<li class="fs-board-empty">Be the first.</li>';
+      return;
+    }
+    boardList.innerHTML = scores.map((s, i) =>
+      '<li><span class="rank">' + (i + 1) + '.</span><span class="name">' + escapeHtml(s.name) + '</span><span class="score">' + s.score + '</span></li>'
+    ).join('');
+  }
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  btnSubmit.addEventListener('click', async () => {
+    const name = (nameInput.value || '').trim();
+    if (!name) { nameInput.focus(); return; }
+    if (state.lastSubmittedScore === state.score) return;
+    localStorage.setItem('flap-name', name);
+    btnSubmit.disabled = true;
+    btnSubmit.textContent = '...';
+    try {
+      const r = await fetch('/api/leaderboard/flap', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ name, score: state.score }),
+      });
+      const d = await r.json();
+      if (d.ok) {
+        state.lastSubmittedScore = state.score;
+        btnSubmit.textContent = 'SUBMITTED';
+        if (d.rank) {
+          rankEl.textContent = 'Ranked #' + d.rank;
+          rankEl.classList.remove('hidden');
+        }
+        renderBoard(d.scores || []);
+      } else {
+        btnSubmit.disabled = false;
+        btnSubmit.textContent = 'RETRY';
+      }
+    } catch {
+      btnSubmit.disabled = false;
+      btnSubmit.textContent = 'RETRY';
+    }
+  });
+
+  loadBoard();
+  // Pre-game idle loop for background movement
+  (function idleDraw() {
+    if (!state.running) {
+      state.frame++;
+      ctx.clearRect(0, 0, W, H);
+      drawBackground();
+    }
+    requestAnimationFrame(idleDraw);
+  })();
+  loop();
+})();
+</script>
+
+</Layout>
