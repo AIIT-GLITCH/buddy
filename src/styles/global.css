@@ -242,16 +242,25 @@ body.nav-locked { overflow: hidden; }
   .nav.mobile-open .nav-links {
     opacity: 1; visibility: visible; transform: translateY(0);
   }
-  .nav-links > a, .nav-trigger {
+  .nav-links > a, .nav-links .nav-trigger {
+    display: flex;
     padding: 18px 4px;
     border-bottom: 1px solid var(--edge);
     width: 100%;
+    box-sizing: border-box;
     justify-content: space-between;
+    align-items: center;
     text-align: left;
+    flex: 0 0 auto;
   }
   .nav-links > a { color: var(--ink-soft); }
 
-  .nav-group { width: 100%; border-bottom: 1px solid var(--edge); }
+  .nav-group {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid var(--edge);
+    flex: 0 0 auto;
+  }
   .nav-group .nav-trigger { border-bottom: none; }
 
   .nav-menu {
