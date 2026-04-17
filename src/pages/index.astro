@@ -174,11 +174,13 @@ const totalPapers = papersAll.length;
     <div class="container narrow">
       <div class="eyebrow">Join</div>
       <h2>If this is the question<br>you've also been asking,<br>write.</h2>
-      <form class="join-form" onsubmit="event.preventDefault(); alert('Message captured. Rhet will read it.');">
-        <div><label for="jn">Name</label><input id="jn" type="text" required></div>
-        <div><label for="je">Email</label><input id="je" type="email" required></div>
-        <div><label for="jr">Role or interest</label><input id="jr" type="text" placeholder="investor · researcher · kindred"></div>
-        <div><label for="jm">Message</label><textarea id="jm" required></textarea></div>
+      <form class="join-form" action="https://formspree.io/f/JOIN_FORM_ID" method="POST">
+        <div><label for="jn">Name</label><input id="jn" name="name" type="text" required></div>
+        <div><label for="je">Email</label><input id="je" name="email" type="email" required></div>
+        <div><label for="jr">Role or interest</label><input id="jr" name="role" type="text" placeholder="investor · researcher · kindred"></div>
+        <div><label for="jm">Message</label><textarea id="jm" name="message" required></textarea></div>
+        <input type="hidden" name="_subject" value="New AIIT-THRESI inquiry">
+        <input type="hidden" name="_next" value="https://aiit-threshold.com/thanks">
         <button type="submit">Send</button>
       </form>
     </div>
