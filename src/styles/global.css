@@ -508,10 +508,22 @@ footer .f-brand { color: var(--ink); font-family: 'Georgia', serif; text-transfo
 footer .f-support { font-family: 'Georgia', serif; text-transform: none; letter-spacing: 0; font-size: 13px; color: var(--muted-hi); }
 footer .f-support a { color: var(--amber); text-decoration: none; border-bottom: 1px solid rgba(212,160,96,0.3); }
 footer .f-support a:hover { border-bottom-color: var(--amber); }
-footer .f-quote { width: 100%; font-family: 'Georgia', serif; font-style: italic; font-size: 15px; color: var(--amber); text-transform: none; letter-spacing: 0; opacity: 0.85; }
+footer .f-quote { width: 100%; font-family: 'Georgia', serif; font-style: italic; font-size: 15px; color: var(--amber); text-transform: none; letter-spacing: 0; opacity: 0.85; line-height: 1.7; }
 footer .f-quote-sig { display: block; margin-top: 8px; font-style: normal; font-size: 12px; letter-spacing: 2px; color: var(--muted); opacity: 0.7; }
 footer .wm { color: rgba(64,144,208,0.3); }
 footer .wm .ai { color: rgba(212,160,96,0.55); font-weight: 700; }
+
+@media (max-width: 840px) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 22px 36px;
+    gap: 18px;
+  }
+  footer > * { width: 100%; }
+  footer .f-quote { font-size: 14px; line-height: 1.75; }
+  footer .f-quote-sig { margin-top: 12px; }
+}
 
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.8s ease, transform 0.8s ease; }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
