@@ -283,36 +283,42 @@ body.nav-locked { overflow: hidden; }
   .nav-group .nav-trigger { border-bottom: none; }
 
   .nav-menu {
-    position: static;
-    transform: none;
-    background: transparent;
-    backdrop-filter: none; -webkit-backdrop-filter: none;
-    border: none;
-    padding: 0 0 12px 16px;
-    box-shadow: none;
-    min-width: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    opacity: 1; visibility: hidden; pointer-events: none;
-    max-height: 0; overflow: hidden;
-    transition: max-height 0.28s ease, visibility 0.28s, padding 0.28s;
+    position: static !important;
+    transform: none !important;
+    background: rgba(212,160,96,0.04) !important;
+    backdrop-filter: none !important; -webkit-backdrop-filter: none !important;
+    border: none !important;
+    border-left: 2px solid var(--edge-hi) !important;
+    padding: 4px 0 8px 14px !important;
+    margin: 6px 0 10px 8px !important;
+    box-shadow: none !important;
+    min-width: 0 !important;
+    width: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    transition: none !important;
+    opacity: 1 !important;
+    display: none !important;
   }
   .nav-group.open .nav-menu {
-    visibility: visible; pointer-events: auto;
-    max-height: 1200px;
-    transform: none;
+    display: flex !important;
+    flex-direction: column !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
   }
-  .nav-menu::before { display: none; }
+  .nav-menu::before { display: none !important; }
   .nav-menu a {
-    padding: 12px 8px;
-    font-size: 12pt;
-    display: block;
-    width: 100%;
-    white-space: normal;
-    box-sizing: border-box;
+    padding: 14px 10px !important;
+    font-size: 13pt !important;
+    display: block !important;
+    width: 100% !important;
+    min-height: 48px !important;
+    white-space: normal !important;
+    box-sizing: border-box !important;
+    color: var(--ink-soft) !important;
+    border-bottom: 1px solid rgba(64,144,208,0.06) !important;
   }
+  .nav-menu a:last-child { border-bottom: none !important; }
 
   .nav-auth {
     margin: 20px 0 0; padding: 16px 0 0;
