@@ -70,6 +70,7 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
 
       <a href="/#team">Team</a>
       <a href="/#join">Join</a>
+      <span id="nav-auth" class="nav-auth"></span>
     </div>
   </nav>
 
@@ -96,6 +97,29 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
       });
       document.addEventListener('click', () => closeAll(null));
       document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAll(null); });
+    })();
+  </script>
+
+  <script is:inline>
+    (async function () {
+      const slot = document.getElementById('nav-auth');
+      if (!slot) return;
+      try {
+        const r = await fetch('/api/auth/me', { credentials: 'same-origin' });
+        if (!r.ok) return;
+        const d = await r.json();
+        const here = encodeURIComponent(location.pathname + location.search + location.hash || '/');
+        if (d.user) {
+          slot.innerHTML =
+            '<a href="https://github.com/' + d.user.login + '" target="_blank" rel="noopener" class="nav-user" title="@' + d.user.login + '">' +
+              '<img src="' + d.user.avatar_url + '" alt="" width="22" height="22">' +
+              '<span>@' + d.user.login + '</span>' +
+            '</a>' +
+            '<a href="/api/auth/logout" class="nav-logout" title="Log out">↗</a>';
+        } else {
+          slot.innerHTML = '<a href="/api/auth/github/login?redirect=' + here + '" class="nav-login">Login</a>';
+        }
+      } catch {}
     })();
   </script>
 

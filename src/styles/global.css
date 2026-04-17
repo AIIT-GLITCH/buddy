@@ -17,11 +17,7 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { overflow-x: clip; }
-@media (prefers-reduced-motion: no-preference) {
-  /* Smooth scroll only after the page has settled — avoids racing initial hash-scroll on cold load */
-  html.ready { scroll-behavior: smooth; }
-}
+html { overflow-x: clip; scroll-behavior: smooth; }
 
 /* Buddy loader — the dot, gone unhinged */
 .buddy-loader {
@@ -172,6 +168,16 @@ a:hover { border-color: var(--amber); }
   transition: color 0.15s, background 0.15s;
 }
 .nav-menu a:hover { color: var(--amber); background: rgba(212,160,96,0.08); }
+
+.nav-auth { display: inline-flex; align-items: center; gap: 8px; margin-left: 8px; padding-left: 16px; border-left: 1px solid var(--edge); }
+.nav-auth:empty { display: none; }
+.nav-login { color: var(--amber) !important; border-bottom: none !important; }
+.nav-login:hover { color: var(--warm) !important; }
+.nav-user { display: inline-flex; align-items: center; gap: 8px; color: var(--ink-soft) !important; border-bottom: none !important; }
+.nav-user img { border-radius: 50%; display: block; }
+.nav-user:hover { color: var(--amber) !important; }
+.nav-logout { color: var(--muted) !important; border-bottom: none !important; font-size: 13px; }
+.nav-logout:hover { color: var(--amber) !important; }
 
 @media (max-width: 840px) { .nav-links { display: none; } }
 

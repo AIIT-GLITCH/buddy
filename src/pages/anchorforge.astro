@@ -97,9 +97,117 @@ import Layout from '../layouts/Layout.astro';
           <a href="https://github.com/AIIT-GLITCH/anchorforge-site-log" target="_blank" rel="noopener">anchorforge-site-log</a>
           repo, forever, under your GitHub handle.
         </p>
+
+        <div id="af-result" class="af-result" hidden>
+          <div class="af-result-head">
+            <h3>Gate complete.</h3>
+            <a id="af-result-link" href="#" target="_blank" rel="noopener" class="af-link">View commit on GitHub →</a>
+          </div>
+          <div id="af-result-meta" class="af-result-meta"></div>
+          <pre id="af-result-verdict" class="af-result-verdict"></pre>
+        </div>
       </div>
     </div>
   </section>
+
+  <script is:inline>
+    (async function () {
+      const btn = document.getElementById('af-gate-btn');
+      const box = document.getElementById('af-paste');
+      const status = document.getElementById('af-gate-status');
+      const result = document.getElementById('af-result');
+      const resultLink = document.getElementById('af-result-link');
+      const resultMeta = document.getElementById('af-result-meta');
+      const resultVerdict = document.getElementById('af-result-verdict');
+      const freeBtn = document.querySelector('.af-tier.free .af-btn');
+
+      let user = null;
+      try {
+        const r = await fetch('/api/auth/me', { credentials: 'same-origin' });
+        if (r.ok) {
+          const d = await r.json();
+          user = d.user || null;
+        }
+      } catch {}
+
+      const loginUrl = '/api/auth/github/login?redirect=/anchorforge';
+
+      if (user) {
+        btn.disabled = false;
+        btn.textContent = 'Gate it · @' + user.login;
+        if (freeBtn) { freeBtn.disabled = false; freeBtn.textContent = 'Logged in as @' + user.login; freeBtn.classList.remove('ghost'); freeBtn.classList.add('primary'); }
+      } else {
+        btn.disabled = false;
+        btn.textContent = '🔒 Login with GitHub to gate';
+        btn.onclick = () => { window.location.href = loginUrl; };
+        if (freeBtn) {
+          freeBtn.disabled = false;
+          freeBtn.onclick = () => { window.location.href = loginUrl; };
+        }
+      }
+
+      if (user) {
+        btn.addEventListener('click', async () => {
+          const raw = (box.value || '').trim();
+          if (raw.length < 200) {
+            status.textContent = 'Need at least 200 chars of output.';
+            return;
+          }
+          btn.disabled = true;
+          status.textContent = 'Pinging anchors + reading with Sonnet 4.6...';
+          result.hidden = true;
+          try {
+            const r = await fetch('/api/anchorforge/gate', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              credentials: 'same-origin',
+              body: JSON.stringify({ raw_output: raw }),
+            });
+            const data = await r.json();
+            if (!r.ok) {
+              if (data.error === 'login_required') {
+                status.textContent = 'Session expired. Redirecting to login...';
+                setTimeout(() => { window.location.href = loginUrl; }, 900);
+              } else if (data.error === 'rate_limited') {
+                status.textContent = 'Rate limit hit: ' + (data.message || 'try again later');
+                btn.disabled = false;
+              } else {
+                status.textContent = 'Error: ' + (data.message || data.error || 'unknown');
+                btn.disabled = false;
+              }
+              return;
+            }
+            status.textContent = 'Committed to public log.';
+            resultLink.href = data.commit_url;
+            const aliveCount = (data.anchors || []).filter(a => a.alive).length;
+            const deadCount = (data.anchors || []).length - aliveCount;
+            resultMeta.innerHTML =
+              '<div><strong>Model claimed:</strong> <code>' + data.model_claimed + '</code></div>' +
+              '<div><strong>Gate multiplier:</strong> ×' + data.gate_multiplier.toFixed(1) + '</div>' +
+              '<div><strong>Anchors:</strong> ' + aliveCount + ' alive / ' + deadCount + ' dead</div>' +
+              '<div><strong>SHA-256:</strong> <code>' + data.sha256.slice(0, 16) + '...</code></div>';
+            resultVerdict.textContent = data.verdict;
+            result.hidden = false;
+            btn.disabled = false;
+            btn.textContent = 'Gate it · @' + user.login;
+          } catch (e) {
+            status.textContent = 'Request failed: ' + e.message;
+            btn.disabled = false;
+          }
+        });
+      }
+    })();
+  </script>
+
+  <style>
+    .af-result { margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--edge); }
+    .af-result-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; }
+    .af-result-head h3 { color: var(--warm); font-size: 20px; }
+    .af-result-meta { display: flex; flex-wrap: wrap; gap: 20px 32px; margin-bottom: 18px; font-size: 14px; color: var(--ink-soft); }
+    .af-result-meta code { color: var(--amber); font-size: 12px; }
+    .af-result-meta strong { color: var(--muted-hi); font-weight: 400; text-transform: uppercase; letter-spacing: 0.1em; font-size: 10pt; font-family: 'Courier New', monospace; margin-right: 8px; }
+    .af-result-verdict { background: rgba(10,10,18,0.6); border: 1px solid var(--edge); border-radius: 8px; padding: 18px; white-space: pre-wrap; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6; color: var(--ink-soft); max-height: 560px; overflow-y: auto; }
+  </style>
 
   <!-- TIERS -->
   <section>
