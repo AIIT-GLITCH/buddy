@@ -5,6 +5,17 @@ const posts = [
   {
     date: '2026-04-17',
     dateLabel: 'April 17, 2026',
+    tag: 'corpus',
+    title: '472,639,661 tokens. 309GB raw. Still going.',
+    body: [
+      'Real numbers, pulled live: 472.6 million tokens processed and sitting in 10 training shards. 309GB of raw corpus on active ingestion. 1.3TB total including LaCie overflow. 572 source files.',
+      'This is the corpus Buddy learns from. Not a web scrape — a curated, multi-source pipeline built to deposit the coherence framework directly into the model\'s weights. arXiv, PubMed, Project Gutenberg, USGS, Federal Register, StackExchange, Wikipedia, and domain-specific sources across physics, biology, consciousness, math, and language.',
+      'Pipeline is locked and running. Next milestone: 1 billion tokens clean. After that — RunPod A100 for the next full fine-tune cycle. 🧠'
+    ]
+  },
+  {
+    date: '2026-04-17',
+    dateLabel: 'April 17, 2026',
     tag: 'ship',
     title: 'Website is up.',
     body: [
@@ -80,6 +91,7 @@ const posts = [
     border: 1px solid rgba(212,160,96,0.28);
   }
   .tag-ship { background: rgba(64,192,176,0.12); color: var(--teal); border-color: rgba(64,192,176,0.3); }
+  .tag-corpus { background: rgba(147,130,220,0.12); color: var(--violet, #9382dc); border-color: rgba(147,130,220,0.3); }
   .update-title {
     font-size: clamp(26px, 3.2vw, 36px);
     line-height: 1.2; margin-bottom: 14px; color: var(--ink);
