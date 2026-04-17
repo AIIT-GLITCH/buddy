@@ -11,8 +11,8 @@ import Layout from '../layouts/Layout.astro';
       <div class="gs-label">ἓν καὶ πᾶν</div>
       <h2>Them Beans Though</h2>
       <p class="gs-sub">You are a coherence particle.<br>Dodge meteors. Collect beans. Find the ring.</p>
-      <div class="gs-controls">
-        <span>Mouse or WASD / arrows to move</span>
+      <div class="gs-controls" id="gs-controls-txt">
+        <span>Touch to move · WASD / arrows on desktop</span>
       </div>
       <button id="btn-start" class="btn-gold-game">ENTER THE FIELD</button>
     </div>
@@ -93,9 +93,10 @@ import Layout from '../layouts/Layout.astro';
     justify-content: center;
     text-align: center;
     pointer-events: all;
-    padding: 24px;
+    padding: 24px 20px;
     background: rgba(10,10,15,0.75);
     backdrop-filter: blur(8px);
+    overflow-y: auto;
   }
 
   .game-screen.hidden { display: none; }
@@ -134,6 +135,10 @@ import Layout from '../layouts/Layout.astro';
     margin-bottom: 32px;
     text-transform: uppercase;
   }
+
+  /* Hide nav entirely on the game page — it's a fullscreen canvas */
+  :global(.nav), :global(#nav-loader) { display: none !important; }
+  :global(body) { padding-top: 0 !important; }
 
   .btn-gold-game {
     background: #D4AF37;
