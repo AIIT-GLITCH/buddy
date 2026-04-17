@@ -76,6 +76,9 @@ section:first-of-type { border-top: none; }
 .hero-sub { font-family: 'Courier New', monospace; font-size: clamp(11pt, 1.4vw, 14pt); letter-spacing: 0.28em; text-transform: uppercase; color: var(--amber); margin-top: 24px; }
 .hero-tag { font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.32em; text-transform: uppercase; color: var(--muted); margin-top: 14px; }
 .hero-tagline { margin-top: 64px; font-size: clamp(18px, 2vw, 22px); color: var(--ink-soft); opacity: 0; animation: fade-in 1.4s ease 2.8s forwards; font-style: italic; }
+.hero-actions { margin-top: 40px; opacity: 0; animation: fade-in 1.4s ease 3.2s forwards; }
+.btn-play { display: inline-block; background: transparent; color: #D4AF37; border: 1px solid rgba(212,175,55,0.5); padding: 14px 32px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 0.9em; letter-spacing: 0.2em; text-decoration: none; text-transform: uppercase; transition: background 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.2s; }
+.btn-play:hover { background: rgba(212,175,55,0.08); border-color: rgba(212,175,55,0.9); box-shadow: 0 0 32px rgba(212,175,55,0.25); transform: translateY(-2px); }
 @keyframes fade-in { to { opacity: 1; } }
 .hero-scroll { position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%); font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.32em; text-transform: uppercase; color: var(--muted); z-index: 3; opacity: 0; animation: fade-in 1.4s ease 3.4s forwards; }
 .hero-scroll::after { content: ''; display: block; width: 1px; height: 32px; background: linear-gradient(to bottom, var(--amber), transparent); margin: 10px auto 0; animation: scroll-pulse 2.2s ease-in-out infinite; }
