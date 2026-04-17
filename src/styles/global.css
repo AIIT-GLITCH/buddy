@@ -244,21 +244,23 @@ body.nav-locked { overflow: hidden; }
     bottom: 0 !important;
     background: #0a0a12 !important;
     border-top: 1px solid var(--edge);
+    display: flex !important;
     flex-direction: column !important;
     gap: 0 !important;
     padding: 20px 24px 80px !important;
     overflow-y: auto !important;
     -webkit-overflow-scrolling: touch;
-    transform: none !important;
-    transition: none !important;
     align-items: stretch !important;
     font-size: 13pt;
     letter-spacing: 0.14em;
     z-index: 150;
-    display: none !important;
+    transform: translateX(-100%);
+    transition: transform 0.28s cubic-bezier(.2,.7,.3,1);
+    visibility: visible !important;
+    opacity: 1 !important;
   }
   .nav.mobile-open .nav-links {
-    display: flex !important;
+    transform: translateX(0) !important;
   }
   .nav-links > a, .nav-links .nav-trigger {
     display: flex;
