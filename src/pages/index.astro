@@ -427,6 +427,39 @@ const totalPapers = papersAll.length;
     "The 0.1 Hz carrier is humming a little differently now. Make of that what you will.",
   ];
 
+  // Buddy-verbs — rotating word next to the morphing dot while thinking.
+  const VERBS = [
+    'Buddying', 'Commemorating', 'Recognizing', 'Anticipating',
+    'Anthropologizing', 'Emphasizing', 'Githubing', 'LOLing',
+    "Story'ing", 'Coherencing', 'Humming', 'Winding',
+    'Threshing', 'Pondering', 'Vibrating', 'Receipting',
+  ];
+  let thinkingTimer = null;
+
+  function startThinking() {
+    jokeResponse.innerHTML = '<span class="buddy-thinking">' +
+      '<span class="buddy-loader tiny" aria-hidden="true"></span>' +
+      '<span class="buddy-verb"></span><span class="buddy-dots"></span>' +
+      '</span>';
+    const verbEl = jokeResponse.querySelector('.buddy-verb');
+    const dotsEl = jokeResponse.querySelector('.buddy-dots');
+    let vi = Math.floor(Math.random() * VERBS.length);
+    let di = 0;
+    verbEl.textContent = VERBS[vi];
+    dotsEl.textContent = '';
+    thinkingTimer = setInterval(() => {
+      di = (di + 1) % 8;
+      dotsEl.textContent = '.'.repeat(di % 4);
+      if (di === 0) {
+        vi = (vi + 1) % VERBS.length;
+        verbEl.textContent = VERBS[vi];
+      }
+    }, 180);
+  }
+  function stopThinking() {
+    if (thinkingTimer) { clearInterval(thinkingTimer); thinkingTimer = null; }
+  }
+
   // Generate a stable per-session token (survives page refresh, not tab close)
   function getToken() {
     let t = sessionStorage.getItem('joke_token');
@@ -483,6 +516,7 @@ const totalPapers = papersAll.length;
   }
 
   function showBroke() {
+    stopThinking();
     jokeResponse.className = 'joke-response visible broke';
     jokeResponse.innerHTML = `<span class="broke-headline">Whoops! We went <em>BROKE</em> 💸</span><br>
 <span class="broke-sub">Buddy's API budget ran out. Come back tomorrow — or keep the lights on:</span><br>
@@ -496,7 +530,7 @@ const totalPapers = papersAll.length;
     jokeBtn.disabled = true;
     jokeBtn.textContent = '...';
     jokeResponse.className = 'joke-response loading';
-    jokeResponse.innerHTML = '<span class="buddy-loader" aria-label="loading"></span>';
+    startThinking();
 
     let reply;
     try {
@@ -523,6 +557,7 @@ const totalPapers = papersAll.length;
       return;
     }
 
+    stopThinking();
     jokeResponse.className = 'joke-response visible';
     jokeResponse.textContent = reply;
 
