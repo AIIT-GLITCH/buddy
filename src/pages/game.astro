@@ -12,7 +12,7 @@ import Layout from '../layouts/Layout.astro';
       <h2>Them Beans Though</h2>
       <p class="gs-sub">You are a coherence particle.<br>Dodge meteors. Collect beans. Find the ring.</p>
       <div class="gs-controls">
-        <span>← → or mouse to move</span>
+        <span>Mouse or WASD / arrows to move</span>
       </div>
       <button id="btn-start" class="btn-gold-game">ENTER THE FIELD</button>
     </div>
@@ -24,12 +24,14 @@ import Layout from '../layouts/Layout.astro';
       </div>
       <div class="hud-center">
         <div class="hud-beans">🫘 <span id="hud-beans">0</span></div>
+        <div id="hud-ring-warn" class="hud-ring-warn hidden"></div>
       </div>
       <div class="hud-right">
         <div class="hud-label">SCORE</div>
         <div id="hud-score" class="hud-score">0</div>
       </div>
     </div>
+    <div id="score-popups"></div>
 
     <div id="game-over" class="game-screen hidden">
       <div class="gs-label">DECOHERENCE</div>
@@ -237,6 +239,37 @@ import Layout from '../layouts/Layout.astro';
 
   .hud-left, .hud-right, .hud-center { min-width: 140px; }
   .hud-right { text-align: right; }
+
+  .hud-ring-warn {
+    font-size: 0.7em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #D4AF37;
+    margin-top: 4px;
+    animation: warn-pulse 0.6s ease-in-out infinite alternate;
+  }
+  .hud-ring-warn.hidden { display: none; }
+  @keyframes warn-pulse { from { opacity: 0.4; } to { opacity: 1; } }
+
+  #score-popups {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  .score-pop {
+    position: absolute;
+    font-size: 1.1em;
+    font-weight: 800;
+    color: #D4AF37;
+    letter-spacing: 2px;
+    pointer-events: none;
+    animation: pop-up 0.9s ease-out forwards;
+  }
+  @keyframes pop-up {
+    0%   { opacity: 1; transform: translateY(0) scale(1.2); }
+    100% { opacity: 0; transform: translateY(-60px) scale(0.8); }
+  }
 </style>
 
 <script>
@@ -249,7 +282,6 @@ let state = 'start'; // start | playing | dead | win
 let player, meteors, beans, stars, ring;
 let score, beanCount, coherence;
 let frame, animId;
-let mx = 0; // mouse x
 
 // ── RESIZE ──
 function resize() {
@@ -528,6 +560,27 @@ function showScreen(id) {
   if (id) document.getElementById(id).classList.remove('hidden');
 }
 
+// ── SCORE POPUP ──
+function scorePopup(x, y, text) {
+  const el = document.createElement('div');
+  el.className = 'score-pop';
+  el.textContent = text;
+  el.style.left = x + 'px';
+  el.style.top  = y + 'px';
+  document.getElementById('score-popups').appendChild(el);
+  setTimeout(() => el.remove(), 900);
+}
+
+// ── RING WARNING ──
+let warnTimer;
+function showRingWarn(msg) {
+  const el = document.getElementById('hud-ring-warn');
+  el.textContent = msg;
+  el.classList.remove('hidden');
+  clearTimeout(warnTimer);
+  warnTimer = setTimeout(() => { if (msg !== 'GET TO THE RING ↑') el.classList.add('hidden'); }, 900);
+}
+
 // ── GAME LOOP ──
 function loop() {
   animId = requestAnimationFrame(loop);
@@ -540,8 +593,13 @@ function loop() {
   // stars
   for (const s of stars) drawStar(s, frame);
 
-  // ring reveal after 8s
-  if (frame === 480) { ring.visible = true; }
+  // ring warning countdown (5s before reveal = frame 180)
+  if (frame === 180) showRingWarn('RING IN 5...');
+  if (frame === 240) showRingWarn('RING IN 4...');
+  if (frame === 300) showRingWarn('RING IN 3...');
+  if (frame === 360) showRingWarn('RING IN 2...');
+  if (frame === 420) showRingWarn('RING IN 1...');
+  if (frame === 480) { ring.visible = true; showRingWarn('GET TO THE RING ↑'); }
   if (ring.visible) {
     ring.pulse += 0.025;
     ring.appearing = Math.min(120, ring.appearing + 1);
@@ -593,16 +651,30 @@ function loop() {
       beanCount++;
       coherence = Math.min(1, coherence + 0.15);
       score += 100;
+      scorePopup(b.x - 20, b.y - 10, '+100 🫘');
     }
     drawBean(b);
   }
 
-  // player movement
-  const targetX = mx || player.x;
-  player.vx += (targetX - player.x) * 0.06;
-  player.vx *= 0.82;
-  player.x += player.vx;
-  player.x = Math.max(player.r, Math.min(W - player.r, player.x));
+  // player movement — full 2D (mouse, touch, WASD/arrows)
+  if (!player.locked) {
+    const tx = mx !== null ? mx : player.x;
+    const ty = my !== null ? my : player.y;
+    // keyboard overrides
+    if (keys['ArrowLeft']  || keys['a']) player.vx -= 1.2;
+    if (keys['ArrowRight'] || keys['d']) player.vx += 1.2;
+    if (keys['ArrowUp']    || keys['w']) player.vy -= 1.2;
+    if (keys['ArrowDown']  || keys['s']) player.vy += 1.2;
+    // mouse/touch pull
+    player.vx += (tx - player.x) * 0.06;
+    player.vy += (ty - player.y) * 0.06;
+    player.vx *= 0.80;
+    player.vy *= 0.80;
+    player.x += player.vx;
+    player.y += player.vy;
+    player.x = Math.max(player.r, Math.min(W - player.r, player.x));
+    player.y = Math.max(player.r, Math.min(H - player.r, player.y));
+  }
   player.phase += 0.05;
 
   // trail
@@ -610,15 +682,11 @@ function loop() {
   if (player.trail.length > 12) player.trail.shift();
 
   // check ring lock
-  if (ring.visible && !player.locked && dist(player, ring) < ring.r + player.r * 0.5) {
-    // pull toward ring
+  if (ring.visible && !player.locked) {
     const dx = ring.x - player.x;
     const dy = ring.y - player.y;
     const d = Math.sqrt(dx * dx + dy * dy);
-    player.vx += (dx / d) * 0.8;
-    player.vy += (dy / d) * 0.8;
-
-    if (d < ring.r * 0.5) {
+    if (d < ring.r * 0.55) {
       player.locked = true;
       setTimeout(() => endGame(true), 1200);
     }
@@ -629,10 +697,6 @@ function loop() {
     const angle = Math.atan2(player.y - ring.y, player.x - ring.x) + 0.04;
     player.x = ring.x + Math.cos(angle) * ring.r * 0.5;
     player.y = ring.y + Math.sin(angle) * ring.r * 0.5;
-  } else {
-    player.vy *= 0.95;
-    player.y += player.vy;
-    player.y = Math.max(player.r, Math.min(H - player.r, player.y));
   }
 
   drawPlayer(player);
@@ -667,22 +731,17 @@ function endGame(win) {
 }
 
 // ── INPUT ──
-window.addEventListener('mousemove', e => { mx = e.clientX; });
+let mx = null, my = null;
+window.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
 window.addEventListener('touchmove', e => {
   e.preventDefault();
   mx = e.touches[0].clientX;
+  my = e.touches[0].clientY;
 }, { passive: false });
 
 let keys = {};
 window.addEventListener('keydown', e => { keys[e.key] = true; });
 window.addEventListener('keyup', e => { keys[e.key] = false; });
-
-// keyboard movement
-setInterval(() => {
-  if (state !== 'playing' || !player) return;
-  if (keys['ArrowLeft'] || keys['a']) mx = Math.max(0, (mx || player.x) - 12);
-  if (keys['ArrowRight'] || keys['d']) mx = Math.min(W, (mx || player.x) + 12);
-}, 16);
 
 // ── BUTTONS ──
 document.getElementById('btn-start').addEventListener('click', () => {

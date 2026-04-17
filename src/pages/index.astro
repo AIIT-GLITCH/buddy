@@ -482,6 +482,13 @@ const totalPapers = papersAll.length;
     }
   }
 
+  function showBroke() {
+    jokeResponse.className = 'joke-response visible broke';
+    jokeResponse.innerHTML = `<span class="broke-headline">Whoops! We went <em>BROKE</em> 💸</span><br>
+<span class="broke-sub">Buddy's API budget ran out. Come back tomorrow — or keep the lights on:</span><br>
+<a href="/#join" class="broke-donate">Donate here →</a>`;
+  }
+
   async function sendJoke() {
     const joke = jokeInput.value.trim();
     if (!joke) return;
@@ -500,13 +507,20 @@ const totalPapers = papersAll.length;
       });
       const data = await res.json();
       if (data.error === 'once_per_day') {
-        // server already knows — just lock
         reply = "You already got your one today. 🫘 Come back tomorrow.";
+      } else if (!res.ok || data.error) {
+        showBroke();
+        jokeBtn.disabled = false;
+        jokeBtn.textContent = 'Send →';
+        return;
       } else {
         reply = data.reply || fallbacks[Math.floor(Math.random() * fallbacks.length)];
       }
     } catch {
-      reply = fallbacks[Math.floor(Math.random() * fallbacks.length)];
+      showBroke();
+      jokeBtn.disabled = false;
+      jokeBtn.textContent = 'Send →';
+      return;
     }
 
     jokeResponse.className = 'joke-response visible';
@@ -653,6 +667,45 @@ const totalPapers = papersAll.length;
     display: block;
     opacity: 1;
     transform: translateY(0);
+  }
+
+  .joke-response.broke {
+    border-left-color: rgba(248,113,113,0.6);
+    background: rgba(248,113,113,0.05);
+  }
+
+  .broke-headline {
+    font-size: 1.05em;
+    font-weight: 700;
+    color: #f87171;
+  }
+
+  .broke-headline em {
+    font-style: italic;
+    color: #fca5a5;
+  }
+
+  .broke-sub {
+    font-size: 0.85em;
+    color: #888;
+    line-height: 1.7;
+  }
+
+  .broke-donate {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 0.85em;
+    font-weight: 700;
+    color: #D4AF37;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(212,175,55,0.3);
+    transition: border-color 0.2s, color 0.2s;
+  }
+
+  .broke-donate:hover {
+    color: #fff;
+    border-color: rgba(255,255,255,0.4);
   }
 
   @media (max-width: 600px) {
