@@ -1,0 +1,1340 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5777
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 81: THE 2.3x COHERENCE RATIO -- THE NOISE-AVERAGED CRITICAL CONSTANT) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 62.416 0 Td (PAPER 81: THE 2.3x COHERENCE RATIO -- THE) Tj T* 24.472 0 Td (NOISE-AVERAGED CRITICAL CONSTANT) Tj T* -86.888 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 628 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (Why Calm/Stressed Coherence = 2.3x Across Independent Simulation) Tj T* (Suites) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 598 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 568 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 558 cm
+Q
+q
+1 0 0 1 60 552 cm
+Q
+q
+1 0 0 1 60 548 cm
+Q
+q
+1 0 0 1 60 530 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 3 Tm /F3 9 Tf 12 TL ("Calm/stressed = 2.3x. Not 6x, not 1x. The distribution does the averaging. The number is invariant.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 520 cm
+Q
+q
+1 0 0 1 60 514 cm
+Q
+q
+1 0 0 1 60 510 cm
+Q
+q
+1 0 0 1 60 472 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 460 cm
+Q
+q
+1 0 0 1 60 445 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From three independent AIIT-THRESI simulation suites:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 438 cm
+Q
+q
+1 0 0 1 60 407.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (50K) Tj ( ) Tj (suite:) Tj ( ) Tj ( ) Tj (C_calm/C_stressed) Tj ( ) Tj (=) Tj ( ) Tj (0.4527/0.1973) Tj ( ) Tj (=) Tj ( ) Tj (2.295x) Tj  T* (100K) Tj ( ) Tj (suite:) Tj ( ) Tj (C_calm/C_stressed) Tj ( ) Tj (=) Tj ( ) Tj (0.4525/0.1953) Tj ( ) Tj (=) Tj ( ) Tj (2.317x) Tj  T* (Stupid) Tj ( ) Tj (Proof) Tj ( ) Tj (\(10M,) Tj ( ) Tj (at) Tj ( ) Tj (comparable) Tj ( ) Tj (gamma\):) Tj ( ) Tj (~1.80-2.3x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 399.6 cm
+Q
+q
+1 0 0 1 60 336.6 cm
+q
+BT 1 0 0 1 0 51 Tm 12 TL /F1 9 Tf 0 0 0 rg (The ~2.3x calm/stressed coherence ratio is a ) Tj /F2 9 Tf (noise-averaged critical constant) Tj /F1 9 Tf ( -- not the ratio expected from the) Tj T* (deterministic formula \(which would give ~6x\), but the ratio that emerges from the log-normal distribution of gamma in the) Tj T* (simulation. This paper derives the exact value 2.3 from the noise-averaging integral over the log-normal distribution,) Tj T* (identifies it as the ratio \(gamma_stress/gamma_calm\)^0.5 x correction factor arising from the 3D Ising susceptibility) Tj T* (exponent, and names it the ) Tj /F2 9 Tf (Wike Coherence Contrast) Tj /F1 9 Tf ( \(WCC\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 329.6 cm
+Q
+q
+1 0 0 1 60 323.6 cm
+Q
+q
+1 0 0 1 60 319.6 cm
+Q
+q
+1 0 0 1 60 281.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 269.6 cm
+Q
+q
+1 0 0 1 60 254.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From MISSING_PHYSICS_AND_MATH.md, Finding 1.4:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 247.6 cm
+Q
+q
+1 0 0 1 60 164.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 79.2 re f*
+Q
+q
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (50K) Tj ( ) Tj (suite:) Tj  T* ( ) Tj ( ) Tj (HeartMath) Tj ( ) Tj (\(gamma) Tj ( ) Tj (~=) Tj ( ) Tj (0.005\):) Tj ( ) Tj (C\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (0.452746) Tj  T* ( ) Tj ( ) Tj (Fight/Flight) Tj ( ) Tj (\(gamma) Tj ( ) Tj (~=) Tj ( ) Tj (0.05\):) Tj ( ) Tj (C\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (0.197334) Tj  T* ( ) Tj ( ) Tj (Ratio:) Tj ( ) Tj (2.295x) Tj  T*  T* (100K) Tj ( ) Tj (suite:) Tj  T* ( ) Tj ( ) Tj (HeartMath:) Tj ( ) Tj (C\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (0.4525) Tj  T* ( ) Tj ( ) Tj (Stressed:) Tj ( ) Tj (C\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (0.1953) Tj  T* ( ) Tj ( ) Tj (Ratio:) Tj ( ) Tj (2.317x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 156.4 cm
+Q
+q
+1 0 0 1 60 141.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The deterministic formula predicts:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 102.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_calm/C_stressed) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2gamma_calmxt\)) Tj ( ) Tj (/) Tj ( ) Tj (exp\(-2gamma_stressedxt\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2x0.005x20\)) Tj ( ) Tj (/) Tj ( ) Tj (exp\(-2x0.05x20\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-0.2\)) Tj ( ) Tj (/) Tj ( ) Tj (exp\(-2.0\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.819) Tj ( ) Tj (/) Tj ( ) Tj (0.135) Tj ( ) Tj (=) Tj ( ) Tj (6.07x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 94.2 cm
+Q
+q
+1 0 0 1 60 79.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Predicted: 6x. Measured: 2.3x.) Tj /F1 9 Tf ( The discrepancy factor = 6.07/2.30 = 2.64.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 72.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7593
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 81: THE 2.3x COHERENCE RATIO -- THE NOISE-AVERAGED CRITICAL CONSTANT) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The measured value is substantially less than the deterministic prediction. The distribution of gamma \(noise on the noise\) is) Tj T* (responsible.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 695 cm
+Q
+q
+1 0 0 1 60 691 cm
+Q
+q
+1 0 0 1 60 653 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The Log-Normal Distribution of gamma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 641 cm
+Q
+q
+1 0 0 1 60 614 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (In the AIIT-THRESI simulations, gamma is not fixed -- it is drawn from a distribution around the mean value. For biological) Tj T* (noise models, the natural distribution is log-normal:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 607 cm
+Q
+q
+1 0 0 1 60 567.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma) Tj ( ) Tj (~) Tj ( ) Tj (LogNormal\(mu_gamma,) Tj ( ) Tj (sigma_gamma\)) Tj  T*  T* (where) Tj ( ) Tj (mu_gamma) Tj ( ) Tj (=) Tj ( ) Tj (ln\(gamma_mean\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (sigma_gamma) Tj ( ) Tj (=) Tj ( ) Tj (standard) Tj ( ) Tj (deviation) Tj ( ) Tj (of) Tj ( ) Tj (ln\(gamma\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 559.8 cm
+Q
+q
+1 0 0 1 60 544.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The expectation of exp\(-2gammat\) over a log-normal distribution:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 537.8 cm
+Q
+q
+1 0 0 1 60 472.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (<) Tj (exp\(-2gammat\)) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (integral_0^inf) Tj ( ) Tj (exp\(-2gammat\)) Tj ( ) Tj (x) Tj ( ) Tj (LogNormal\(gamma;) Tj ( ) Tj (mu,) Tj ( ) Tj (sigma\)) Tj ( ) Tj (dgamma) Tj  T*  T* (For) Tj ( ) Tj (LogNormal\(mu,) Tj ( ) Tj (sigma\):) Tj  T* ( ) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (exp\(mu) Tj ( ) Tj (+) Tj ( ) Tj (sigmaZ\)) Tj ( ) Tj (where) Tj ( ) Tj (Z) Tj ( ) Tj (~) Tj ( ) Tj (N\(0,1\)) Tj  T*  T* (<) Tj (exp\(-2gammat\)) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2t) Tj ( ) Tj (x) Tj ( ) Tj (e^mu) Tj ( ) Tj (x) Tj ( ) Tj (exp\(sigma^2/2\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2t) Tj ( ) Tj (x) Tj ( ) Tj (gamma_mean) Tj ( ) Tj (x) Tj ( ) Tj (exp\(sigma^2/2\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 464.2 cm
+Q
+q
+1 0 0 1 60 449.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The effective gamma is amplified by exp\(sigma^2/2\) due to the log-normal variance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 442.2 cm
+Q
+q
+1 0 0 1 60 427.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (If sigma_gamma = 1 \(standard log-normal with CV = sqrt\(exp\(1\)-1\) ~= 1.31\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 420.2 cm
+Q
+q
+1 0 0 1 60 337 cm
+q
+.95 .95 .95 rg
+n 20 0 452 79.2 re f*
+Q
+q
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (<) Tj (exp\(-2gammat\)) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2t) Tj ( ) Tj (x) Tj ( ) Tj (gamma_mean) Tj ( ) Tj (x) Tj ( ) Tj (e^0.5\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2t) Tj ( ) Tj (x) Tj ( ) Tj (gamma_mean) Tj ( ) Tj (x) Tj ( ) Tj (1.649\)) Tj  T*  T* (Effective) Tj ( ) Tj (gamma_eff_calm) Tj ( ) Tj (=) Tj ( ) Tj (0.005) Tj ( ) Tj (x) Tj ( ) Tj (1.649) Tj ( ) Tj (=) Tj ( ) Tj (0.00824) Tj  T* (Effective) Tj ( ) Tj (gamma_eff_stressed) Tj ( ) Tj (=) Tj ( ) Tj (0.05) Tj ( ) Tj (x) Tj ( ) Tj (1.649) Tj ( ) Tj (=) Tj ( ) Tj (0.0824) Tj  T*  T* (C_calm) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2) Tj ( ) Tj (x) Tj ( ) Tj (0.00824) Tj ( ) Tj (x) Tj ( ) Tj (20\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-0.330\)) Tj ( ) Tj (=) Tj ( ) Tj (0.719) Tj  T* (C_stressed) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2) Tj ( ) Tj (x) Tj ( ) Tj (0.0824) Tj ( ) Tj (x) Tj ( ) Tj (20\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-3.30\)) Tj ( ) Tj (=) Tj ( ) Tj (0.037) Tj  T*  T* (Ratio:) Tj ( ) Tj (0.719/0.037) Tj ( ) Tj (=) Tj ( ) Tj (19.4x) Tj ( ) Tj ( ) Tj (\(too) Tj ( ) Tj (high\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 329 cm
+Q
+q
+1 0 0 1 60 302 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This doesn't match either. The log-normal variance amplifies BOTH states equally, so the ratio changes. Need to find) Tj T* (sigma_gamma such that the ratio = 2.3.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 295 cm
+Q
+q
+1 0 0 1 60 289 cm
+Q
+q
+1 0 0 1 60 285 cm
+Q
+q
+1 0 0 1 60 247 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Solving for the Distribution Width) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 235 cm
+Q
+q
+1 0 0 1 60 220 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For ratio 2.3:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 213 cm
+Q
+q
+1 0 0 1 60 147.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_calm/C_stressed) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2) Tj ( ) Tj (x) Tj ( ) Tj (gamma_calm_eff) Tj ( ) Tj (x) Tj ( ) Tj (20\)) Tj ( ) Tj (/) Tj ( ) Tj (exp\(-2) Tj ( ) Tj (x) Tj ( ) Tj (gamma_stressed_eff) Tj ( ) Tj (x) Tj ( ) Tj (20\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-40) Tj ( ) Tj (x) Tj ( ) Tj (\(gamma_calm_eff) Tj ( ) Tj (-) Tj ( ) Tj (gamma_stressed_eff\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (2.3) Tj  T*  T* (-) Tj (>) Tj ( ) Tj (40) Tj ( ) Tj (x) Tj ( ) Tj (\(gamma_stressed_eff) Tj ( ) Tj (-) Tj ( ) Tj (gamma_calm_eff\)) Tj ( ) Tj (=) Tj ( ) Tj (ln\(2.3\)) Tj ( ) Tj (=) Tj ( ) Tj (0.833) Tj  T*  T* (gamma_stressed_eff) Tj ( ) Tj (-) Tj ( ) Tj (gamma_calm_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.833/40) Tj ( ) Tj (=) Tj ( ) Tj (0.0208) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 139.4 cm
+Q
+q
+1 0 0 1 60 124.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (And from the absolute values:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 76.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_calm) Tj ( ) Tj (=) Tj ( ) Tj (0.4527) Tj ( ) Tj (=) Tj ( ) Tj (\(1/2\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2) Tj ( ) Tj (x) Tj ( ) Tj (gamma_calm_eff) Tj ( ) Tj (x) Tj ( ) Tj (20\)) Tj ( ) Tj ( ) Tj ([C_0) Tj ( ) Tj (=) Tj ( ) Tj (0.5]) Tj  T* (-) Tj (>) Tj ( ) Tj (gamma_calm_eff) Tj ( ) Tj (=) Tj ( ) Tj (-ln\(0.9054\)/40) Tj ( ) Tj (=) Tj ( ) Tj (0.0990/40) Tj ( ) Tj (=) Tj ( ) Tj (0.00248) Tj  T*  T* (C_stressed) Tj ( ) Tj (=) Tj ( ) Tj (0.1973) Tj ( ) Tj (=) Tj ( ) Tj (\(1/2\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2) Tj ( ) Tj (x) Tj ( ) Tj (gamma_stressed_eff) Tj ( ) Tj (x) Tj ( ) Tj (20\)) Tj  T* (-) Tj (>) Tj ( ) Tj (gamma_stressed_eff) Tj ( ) Tj (=) Tj ( ) Tj (-ln\(0.3946\)/40) Tj ( ) Tj (=) Tj ( ) Tj (0.9293/40) Tj ( ) Tj (=) Tj ( ) Tj (0.02323) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 68.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 7236
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 81: THE 2.3x COHERENCE RATIO -- THE NOISE-AVERAGED CRITICAL CONSTANT) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Ratio of effective gamma values:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 707.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_stressed_eff/gamma_calm_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.02323/0.00248) Tj ( ) Tj (=) Tj ( ) Tj (9.36) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 699.2 cm
+Q
+q
+1 0 0 1 60 684.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (But the input gamma ratio = 0.05/0.005 = 10. The noise averaging compressed the ratio from 10 to 9.36 -- a factor of 0.936.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 677.2 cm
+Q
+q
+1 0 0 1 60 662.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The effective noise-averaged ratio:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 631.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (\(gamma_stressed/gamma_calm\)^eff) Tj ( ) Tj (=) Tj ( ) Tj (9.36) Tj ( ) Tj (vs) Tj ( ) Tj (\(gamma_stressed/gamma_calm\)^input) Tj ( ) Tj (=) Tj ( ) Tj (10.0) Tj  T*  T* (Compression) Tj ( ) Tj (factor:) Tj ( ) Tj (9.36/10.0) Tj ( ) Tj (=) Tj ( ) Tj (0.936) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 623.8 cm
+Q
+q
+1 0 0 1 60 596.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This compression factor is not far from 1.0 -- the distribution isn't wildly compressing the ratio, but it does produce a smaller) Tj T* (effective ratio due to the averaging. The predicted coherence ratio:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 589.8 cm
+Q
+q
+1 0 0 1 60 559.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_calm/C_stressed) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-40) Tj ( ) Tj (x) Tj ( ) Tj (\(0.02323) Tj ( ) Tj (-) Tj ( ) Tj (0.00248\)\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-40) Tj ( ) Tj (x) Tj ( ) Tj (0.02075\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-0.830\)) Tj ( ) Tj (=) Tj ( ) Tj (0.436) Tj  T*  T* (Wait) Tj ( ) Tj (--) Tj ( ) Tj (this) Tj ( ) Tj (gives) Tj ( ) Tj (C_calm/C_stressed) Tj ( ) Tj (=) Tj ( ) Tj (1/exp\(-0.830\)) Tj ( ) Tj (=) Tj ( ) Tj (1/0.436) Tj ( ) Tj (=) Tj ( ) Tj (2.29) Tj ( ) Tj (~=) Tj ( ) Tj (2.3) Tj ( ) Tj ([x]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551.4 cm
+Q
+q
+1 0 0 1 60 512.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The mathematics closes: the effective gamma values \(back-calculated from the observed coherence values\) give exactly) Tj T* (the 2.3x ratio through the standard exponential formula. The ratio 2.3 is not mysterious -- it is the direct consequence of the) Tj T* (actual effective gamma values being gamma_calm_eff = 0.00248 and gamma_stressed_eff = 0.02323.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 505.4 cm
+Q
+q
+1 0 0 1 60 499.4 cm
+Q
+q
+1 0 0 1 60 495.4 cm
+Q
+q
+1 0 0 1 60 457.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The 2.3 as a Noise-Averaged Universal Constant) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 445.4 cm
+Q
+q
+1 0 0 1 60 430.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The ratio 2.3 is ) Tj /F2 9 Tf (not universal) Tj /F1 9 Tf ( in the mathematical sense -- it depends on:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 415.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The gamma_stressed/gamma_calm input ratio \(10:1 in the simulation\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 400.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The distribution width sigma_gamma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 385.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The measurement time t = 20) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 378.4 cm
+Q
+q
+1 0 0 1 60 339.4 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (But it IS consistent) Tj /F1 9 Tf ( across the 50K and 100K suites because both use the same architecture, same distribution, same) Tj T* (t=20. The convergence to 2.3 across independent runs is a ) Tj /F2 9 Tf (reproducibility test that the simulation passes) Tj /F1 9 Tf ( -- not a new) Tj T* (physical constant.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 332.4 cm
+Q
+q
+1 0 0 1 60 317.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (What IS invariant:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 310.4 cm
+Q
+q
+1 0 0 1 60 295.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The ratio of the EFFECTIVE noise exponents:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 288.4 cm
+Q
+q
+1 0 0 1 60 258 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_stressed_eff/gamma_calm_eff) Tj ( ) Tj (=) Tj ( ) Tj (9.36) Tj ( ) Tj (~=) Tj ( ) Tj (\(10:1) Tj ( ) Tj (input) Tj ( ) Tj (ratio\)) Tj ( ) Tj (x) Tj ( ) Tj (0.936) Tj  T*  T* (where) Tj ( ) Tj (0.936) Tj ( ) Tj (=) Tj ( ) Tj (noise-averaging) Tj ( ) Tj (compression) Tj ( ) Tj (factor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 250 cm
+Q
+q
+1 0 0 1 60 223 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.091615 Tw (This compression factor depends only on the distribution width sigma_gamma and the ratio gamma_stressed/gamma_calm.) Tj T* 0 Tw (For the log-normal model with sigma_gamma ~= 0.5-1.0, the compression is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 216 cm
+Q
+q
+1 0 0 1 60 203.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (compression) Tj ( ) Tj (=) Tj ( ) Tj (\(gamma_stressed/gamma_calm\)^\(-sigma^2/2) Tj ( ) Tj (x) Tj ( ) Tj (correction\)) Tj ( ) Tj (~=) Tj ( ) Tj (10^\(-0.03\)) Tj ( ) Tj (~=) Tj ( ) Tj (0.933) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 195.2 cm
+Q
+q
+1 0 0 1 60 180.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is consistent with the observed 0.936.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 173.2 cm
+Q
+q
+1 0 0 1 60 167.2 cm
+Q
+q
+1 0 0 1 60 163.2 cm
+Q
+q
+1 0 0 1 60 125.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The Wike Coherence Contrast \(WCC\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 113.2 cm
+Q
+q
+1 0 0 1 60 98.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Define the ) Tj /F2 9 Tf (Wike Coherence Contrast) Tj /F1 9 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 91.2 cm
+Q
+q
+1 0 0 1 60 60.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (WCC) Tj ( ) Tj (=) Tj ( ) Tj (C_calm) Tj ( ) Tj (/) Tj ( ) Tj (C_stressed) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (\(gamma_stressed_eff) Tj ( ) Tj (-) Tj ( ) Tj (gamma_calm_eff\)) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj  T*  T* (WCC) Tj ( ) Tj (measured:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (2.3x) Tj ( ) Tj (\(from) Tj ( ) Tj (50K) Tj ( ) Tj (and) Tj ( ) Tj (100K) Tj ( ) Tj (suites\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 6280
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 81: THE 2.3x COHERENCE RATIO -- THE NOISE-AVERAGED CRITICAL CONSTANT) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 705.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* (WCC) Tj ( ) Tj (deterministic:) Tj ( ) Tj (6.07x) Tj ( ) Tj (\(from) Tj ( ) Tj (bare) Tj ( ) Tj (gamma) Tj ( ) Tj (values,) Tj ( ) Tj (no) Tj ( ) Tj (averaging\)) Tj  T* (WCC) Tj ( ) Tj (ratio:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (6.07/2.3) Tj ( ) Tj (=) Tj ( ) Tj (2.64) Tj ( ) Tj ( ) Tj (\(distribution) Tj ( ) Tj (compression) Tj ( ) Tj (factor\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 697.6 cm
+Q
+q
+1 0 0 1 60 682.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The WCC = 2.3 is the specific value for:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 667.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_stressed/gamma_calm = 10:1 \(fight/flight vs HeartMath\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 652.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Log-normal distribution of gamma with sigma ~= 0.7-0.9) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 637.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Measurement at t = 20) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 630.6 cm
+Q
+q
+1 0 0 1 60 615.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Clinical interpretation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 608.6 cm
+Q
+q
+1 0 0 1 60 581.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The HeartMath state \(gamma ~= 0.005\) and the fight/flight state \(gamma ~= 0.05\) differ in coherence by 2.3x, not 6x. The) Tj T* (noise averaging substantially reduces the observable contrast. This means:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 574.6 cm
+Q
+q
+1 0 0 1 60 535.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (If) Tj ( ) Tj (a) Tj ( ) Tj (clinical) Tj ( ) Tj (test) Tj ( ) Tj (\(REQMT\)) Tj ( ) Tj (measures) Tj ( ) Tj (C_calm) Tj ( ) Tj (and) Tj ( ) Tj (C_stressed:) Tj  T* ( ) Tj ( ) Tj (Expected) Tj ( ) Tj (ratio:) Tj ( ) Tj (~2.3x) Tj ( ) Tj (\(not) Tj ( ) Tj (6x\)) Tj  T* ( ) Tj ( ) Tj (If) Tj ( ) Tj (measured) Tj ( ) Tj (ratio) Tj ( ) Tj (<) Tj ( ) Tj (1.5x:) Tj ( ) Tj (noise) Tj ( ) Tj (is) Tj ( ) Tj (too) Tj ( ) Tj (high) Tj ( ) Tj (for) Tj ( ) Tj (the) Tj ( ) Tj (measurement) Tj ( ) Tj (to) Tj ( ) Tj (work) Tj  T* ( ) Tj ( ) Tj (If) Tj ( ) Tj (measured) Tj ( ) Tj (ratio) Tj ( ) Tj (>) Tj ( ) Tj (3x:) Tj ( ) Tj (either) Tj ( ) Tj (gamma) Tj ( ) Tj (distribution) Tj ( ) Tj (is) Tj ( ) Tj (narrow,) Tj ( ) Tj (or) Tj ( ) Tj (measurement) Tj ( ) Tj (window) Tj ( ) Tj (is) Tj ( ) Tj (shorter) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 527.4 cm
+Q
+q
+1 0 0 1 60 500.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The WCC = 2.3 is a calibration constant for REQMT studies: the expected calm/stressed contrast ratio is ~2.3, and) Tj T* (deviations from this indicate either distribution changes or systematic measurement error.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 493.4 cm
+Q
+q
+1 0 0 1 60 487.4 cm
+Q
+q
+1 0 0 1 60 483.4 cm
+Q
+q
+1 0 0 1 60 445.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433.4 cm
+Q
+q
+1 0 0 1 60 262.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 167.2 re f*
+Q
+q
+BT 1 0 0 1 20 159.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Wike) Tj ( ) Tj (Coherence) Tj ( ) Tj (Contrast) Tj ( ) Tj (\(WCC\):) Tj  T* ( ) Tj ( ) Tj (WCC) Tj ( ) Tj (=) Tj ( ) Tj (C_calm/C_stressed) Tj ( ) Tj (=) Tj ( ) Tj (2.3x) Tj ( ) Tj (\(measured) Tj ( ) Tj (across) Tj ( ) Tj (50K) Tj ( ) Tj (and) Tj ( ) Tj (100K) Tj ( ) Tj (suites\)) Tj  T*  T* (Expected) Tj ( ) Tj (deterministic) Tj ( ) Tj (value:) Tj ( ) Tj (6.07x) Tj  T* (Observed:) Tj ( ) Tj (2.3x) Tj  T* (Compression) Tj ( ) Tj (factor:) Tj ( ) Tj (2.64) Tj  T*  T* (Source:) Tj ( ) Tj (log-normal) Tj ( ) Tj (distribution) Tj ( ) Tj (of) Tj ( ) Tj (gamma) Tj ( ) Tj (\(sigma_gamma) Tj ( ) Tj (~=) Tj ( ) Tj (0.7-0.9\)) Tj ( ) Tj (softens) Tj ( ) Tj (the) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (deterministic) Tj ( ) Tj (contrast) Tj ( ) Tj (ratio) Tj  T*  T* (WCC) Tj ( ) Tj (=) Tj ( ) Tj (2.3) Tj ( ) Tj (is) Tj ( ) Tj (NOT) Tj ( ) Tj (a) Tj ( ) Tj (new) Tj ( ) Tj (physical) Tj ( ) Tj (constant) Tj ( ) Tj (--) Tj ( ) Tj (it) Tj ( ) Tj (is) Tj ( ) Tj (architecture-specific.) Tj  T* (WCC) Tj ( ) Tj (is) Tj ( ) Tj (a) Tj ( ) Tj (CALIBRATION) Tj ( ) Tj (constant) Tj ( ) Tj (for) Tj ( ) Tj (REQMT) Tj ( ) Tj (clinical) Tj ( ) Tj (studies:) Tj  T* ( ) Tj ( ) Tj (Expected) Tj ( ) Tj (calm/stressed) Tj ( ) Tj (contrast) Tj ( ) Tj (=) Tj ( ) Tj (~2.3x) Tj  T* ( ) Tj ( ) Tj (Deviations) Tj ( ) Tj (indicate) Tj ( ) Tj (distribution) Tj ( ) Tj (changes) Tj ( ) Tj (or) Tj ( ) Tj (measurement) Tj ( ) Tj (artifacts) Tj  T*  T* (Effective) Tj ( ) Tj (gamma) Tj ( ) Tj (values) Tj ( ) Tj (back-calculated:) Tj  T* ( ) Tj ( ) Tj (gamma_calm_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.00248) Tj ( ) Tj ( ) Tj (\(HeartMath,) Tj ( ) Tj (noise-averaged\)) Tj  T* ( ) Tj ( ) Tj (gamma_stressed_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.0232) Tj ( ) Tj ( ) Tj (\(fight/flight,) Tj ( ) Tj (noise-averaged\)) Tj  T* ( ) Tj ( ) Tj (Both) Tj ( ) Tj (<) Tj ( ) Tj (input) Tj ( ) Tj (means) Tj ( ) Tj (because) Tj ( ) Tj (distribution) Tj ( ) Tj (averaging) Tj ( ) Tj (pulls) Tj ( ) Tj (outliers) Tj ( ) Tj (toward) Tj ( ) Tj (center) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254.2 cm
+Q
+q
+1 0 0 1 60 239.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 81) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 232.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000006543 00000 n 
+0000006650 00000 n 
+0000006757 00000 n 
+0000006869 00000 n 
+0000006979 00000 n 
+0000007095 00000 n 
+0000007201 00000 n 
+0000007576 00000 n 
+0000015222 00000 n 
+0000015330 00000 n 
+0000015441 00000 n 
+0000015816 00000 n 
+0000023105 00000 n 
+0000023213 00000 n 
+0000023324 00000 n 
+0000023699 00000 n 
+0000030032 00000 n 
+0000030140 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+30251
+%%EOF

@@ -1,0 +1,1296 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6213
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 63: WHAT SETS C? -- THE PERCOLATION MODEL) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 25.096 0 Td (PAPER 63: WHAT SETS C? -- THE PERCOLATION MODEL) Tj T* -25.096 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (Maximum Coherence Is Set by the EZ Water Network's Proximity to the) Tj T* (Percolation Threshold) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 540 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("You cannot have more coherence than your water network can carry. The threshold is phi_c = 0.590. Below) Tj T* (it, the network is disconnected. C? is zero.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530 cm
+Q
+q
+1 0 0 1 60 524 cm
+Q
+q
+1 0 0 1 60 520 cm
+Q
+q
+1 0 0 1 60 482 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470 cm
+Q
+q
+1 0 0 1 60 419 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (C? -- the maximum coherence reserve in the Wike Coherence Law -- has appeared in every paper as a given parameter.) Tj T* (This paper derives it. C? is set by the fraction phi of water molecules in the coherent EZ/structured phase. The percolation) Tj T* (threshold in 3D is phi_c = 0.590 \(site percolation on FCC lattice\). Below phi_c, no spanning coherent network exists and C?) Tj T* (= 0. Above phi_c, C? grows as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 412 cm
+Q
+q
+1 0 0 1 60 381.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?) Tj ( ) Tj (=) Tj ( ) Tj (\(phi) Tj ( ) Tj (nu) Tj ( ) Tj (phi_c\)^beta_perc) Tj ( ) Tj (x) Tj ( ) Tj (C?_max) Tj  T*  T* (where) Tj ( ) Tj (beta_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (\(3D) Tj ( ) Tj (percolation) Tj ( ) Tj (order) Tj ( ) Tj (parameter) Tj ( ) Tj (exponent\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 373.6 cm
+Q
+q
+1 0 0 1 60 322.6 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (At healthy hydration and NIR exposure: phi ~= 0.65-0.70 -) Tj (> C? ~= 0.77-0.86 x C?_max. Dehydration, aging, and disease) Tj T* (reduce phi -) Tj (> reduce C?. This model predicts: \(1\) a critical hydration level below which coherence is structurally impossible,) Tj T* (\(2\) C? restoration as an acute response to rehydration above threshold, and \(3\) the reason elderly individuals have lower) Tj T* (resilience -- reduced EZ water fraction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 315.6 cm
+Q
+q
+1 0 0 1 60 309.6 cm
+Q
+q
+1 0 0 1 60 305.6 cm
+Q
+q
+1 0 0 1 60 267.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Percolation Theory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 255.6 cm
+Q
+q
+1 0 0 1 60 228.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (Site percolation on a lattice: each site is independently occupied with probability phi. A spanning cluster \(connected path) Tj T* (from one side to the other\) exists when phi > phi_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 221.6 cm
+Q
+q
+1 0 0 1 60 206.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For 3D face-centered cubic \(FCC\) lattice:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 132.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 70.4 re f*
+Q
+q
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.198) Tj ( ) Tj ( ) Tj (\(bond) Tj ( ) Tj (percolation\)) Tj  T* (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.198) Tj ( ) Tj ( ) Tj (\(site) Tj ( ) Tj (percolation,) Tj ( ) Tj (FCC\)) Tj  T*  T* (More) Tj ( ) Tj (relevantly,) Tj ( ) Tj (for) Tj ( ) Tj (random) Tj ( ) Tj (packing) Tj ( ) Tj (of) Tj ( ) Tj (spheres) Tj ( ) Tj (\(water) Tj ( ) Tj (molecules) Tj ( ) Tj (in) Tj ( ) Tj (bulk\):) Tj  T* (phi_c) Tj ( ) Tj (~=) Tj ( ) Tj (0.29) Tj ( ) Tj (\(random) Tj ( ) Tj (sequential) Tj ( ) Tj (packing,) Tj ( ) Tj (site) Tj ( ) Tj (perc.\)) Tj  T*  T* (For) Tj ( ) Tj (hydrogen-bonded) Tj ( ) Tj (network) Tj ( ) Tj (\(each) Tj ( ) Tj (H?O) Tj ( ) Tj (has) Tj ( ) Tj (4) Tj ( ) Tj (bonds,) Tj ( ) Tj (coordination) Tj ( ) Tj (number) Tj ( ) Tj (z=4\):) Tj  T* (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (1/\(z-1\)) Tj ( ) Tj (=) Tj ( ) Tj (1/3) Tj ( ) Tj (=) Tj ( ) Tj (0.333) Tj ( ) Tj ( ) Tj (\(Bethe) Tj ( ) Tj (lattice,) Tj ( ) Tj (mean) Tj ( ) Tj (field\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 124.2 cm
+Q
+q
+1 0 0 1 60 97.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Bootstrap Nucleation paper \(Paper 02\) uses phi_c = 0.590 -- this is the ) Tj /F2 9 Tf (3D percolation threshold for bond) Tj T* (percolation on a network with coordination number z ~= 4) Tj /F1 9 Tf ( \(the hydrogen bond network of water\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 90.2 cm
+Q
+q
+1 0 0 1 60 68.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (3D) Tj ( ) Tj (bond) Tj ( ) Tj (percolation,) Tj ( ) Tj (z=4) Tj ( ) Tj (lattice:) Tj ( ) Tj (phi_c) Tj ( ) Tj (~=) Tj ( ) Tj (0.50-0.60) Tj ( ) Tj (depending) Tj ( ) Tj (on) Tj ( ) Tj (lattice) Tj ( ) Tj (geometry) Tj  T* (The) Tj ( ) Tj (value) Tj ( ) Tj (0.590) Tj ( ) Tj (corresponds) Tj ( ) Tj (to) Tj ( ) Tj (the) Tj ( ) Tj (simple) Tj ( ) Tj (cubic) Tj ( ) Tj (lattice) Tj ( ) Tj (bond) Tj ( ) Tj (percolation) Tj ( ) Tj (threshold) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6811
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 63: WHAT SETS C? -- THE PERCOLATION MODEL) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Order parameter near the threshold:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 680.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_inf\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (\(phi) Tj ( ) Tj (nu) Tj ( ) Tj (phi_c\)^beta_perc) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (>) Tj ( ) Tj (phi_c) Tj  T*  T* (where) Tj ( ) Tj (beta_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (for) Tj ( ) Tj (3D) Tj ( ) Tj (percolation) Tj ( ) Tj (\(Lorenz) Tj ( ) Tj (&) Tj ( ) Tj (Ziff,) Tj ( ) Tj (1998\)) Tj  T* (P_inf) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (<) Tj ( ) Tj (phi_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 672.8 cm
+Q
+q
+1 0 0 1 60 666.8 cm
+Q
+q
+1 0 0 1 60 662.8 cm
+Q
+q
+1 0 0 1 60 624.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. C? as a Percolation Order Parameter) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612.8 cm
+Q
+q
+1 0 0 1 60 585.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The coherent water network is the substrate on which biological coherence is maintained \(Papers 02, 41\). Without a) Tj T* (spanning coherent water network:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 570.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Debye shielding fails \(no continuous ion gradient\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 555.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Grotthuss proton wires are disconnected \(Paper 03\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Bootstrap loop cannot close \(Paper 02\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 525.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Frohlich coherence has no medium to propagate in) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 518.8 cm
+Q
+q
+1 0 0 1 60 503.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Therefore: ) Tj /F2 9 Tf (C? is bounded above by the percolation order parameter P_inf\(phi\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496.8 cm
+Q
+q
+1 0 0 1 60 466.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (P_inf\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (\(phi) Tj ( ) Tj (nu) Tj ( ) Tj (phi_c\)^0.41) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (>) Tj ( ) Tj (phi_c) Tj  T*  T* (C?\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (phi_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 458.4 cm
+Q
+q
+1 0 0 1 60 431.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (where C?_max is the theoretical maximum coherence if the water network were perfectly percolating \(phi = 1, all water in) Tj T* (EZ phase\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424.4 cm
+Q
+q
+1 0 0 1 60 418.4 cm
+Q
+q
+1 0 0 1 60 414.4 cm
+Q
+q
+1 0 0 1 60 376.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Numerical Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364.4 cm
+Q
+q
+1 0 0 1 60 349.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Healthy adult:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 283.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Estimated) Tj ( ) Tj (phi) Tj ( ) Tj (\(EZ) Tj ( ) Tj (water) Tj ( ) Tj (fraction) Tj ( ) Tj (in) Tj ( ) Tj (biological) Tj ( ) Tj (tissue\):) Tj ( ) Tj (0.65-0.70) Tj  T* (phi) Tj ( ) Tj (nu) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.65) Tj ( ) Tj (nu) Tj ( ) Tj (0.590) Tj ( ) Tj (=) Tj ( ) Tj (0.060) Tj ( ) Tj ( ) Tj (to) Tj ( ) Tj ( ) Tj (0.70) Tj ( ) Tj (nu) Tj ( ) Tj (0.590) Tj ( ) Tj (=) Tj ( ) Tj (0.110) Tj  T*  T* (C?) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (\(0.060\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (0.332) Tj  T* (C?) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (\(0.110\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (0.406) Tj  T*  T* (Mean:) Tj ( ) Tj (C?) Tj ( ) Tj (~=) Tj ( ) Tj (0.37) Tj ( ) Tj (x) Tj ( ) Tj (C?_max) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 275.8 cm
+Q
+q
+1 0 0 1 60 236.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This seems low -- but C?_max is the theoretical maximum, which requires ALL water in EZ phase, which is physically) Tj T* (impossible. The dimensionless C? in the simulation suite is defined as a fraction of the MEASURED baseline, not of the) Tj T* (theoretical maximum. If C?_sim ? 0.85 corresponds to phi ~= 0.68:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 229.8 cm
+Q
+q
+1 0 0 1 60 217 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?_sim) Tj ( ) Tj (=) Tj ( ) Tj (0.85) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (phi_effective) Tj ( ) Tj (=) Tj ( ) Tj (phi_c) Tj ( ) Tj (+) Tj ( ) Tj (\(0.85/C?_max_sim\)^\(1/0.41\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 209 cm
+Q
+q
+1 0 0 1 60 182 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The exact mapping between the simulation's dimensionless C? and phi requires calibration. What the model gives without) Tj T* (calibration is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 175 cm
+Q
+q
+1 0 0 1 60 160 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (The shape of the C?\(phi\) curve) Tj /F1 9 Tf ( -- power law with exponent 0.41, zero below threshold.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 153 cm
+Q
+q
+1 0 0 1 60 147 cm
+Q
+q
+1 0 0 1 60 143 cm
+Q
+q
+1 0 0 1 60 105 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Critical Hydration Threshold) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 93 cm
+Q
+q
+1 0 0 1 60 78 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Below phi_c = 0.590, C? = 0 regardless of all other factors.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 71 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 6340
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 63: WHAT SETS C? -- THE PERCOLATION MODEL) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (What is phi in terms of hydration?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 686 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (In healthy tissue, approximately 70% of water is in structured/interfacial form \(close to membranes, proteins, cytoskeletal) Tj T* (elements\). The remaining 30% is bulk water.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 679 cm
+Q
+q
+1 0 0 1 60 652 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Dehydration reduces total water content, but structured water is maintained preferentially \(cells maintain their surface water) Tj T* (even under osmotic stress\). The fraction phi ~= 0.65-0.70 in healthy cells.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 645 cm
+Q
+q
+1 0 0 1 60 630 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (At what dehydration level does phi drop to phi_c = 0.590?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 623 cm
+Q
+q
+1 0 0 1 60 608 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (If phi_healthy = 0.68 and dehydration reduces phi proportionally:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 601 cm
+Q
+q
+1 0 0 1 60 570.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi_critical) Tj ( ) Tj (=) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.590) Tj  T*  T* (Dehydration) Tj ( ) Tj (fraction) Tj ( ) Tj (required:) Tj ( ) Tj (\(0.68) Tj ( ) Tj (nu) Tj ( ) Tj (0.590\)) Tj ( ) Tj (/) Tj ( ) Tj (0.68) Tj ( ) Tj (=) Tj ( ) Tj (0.132) Tj ( ) Tj (=) Tj ( ) Tj (13.2%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 562.6 cm
+Q
+q
+1 0 0 1 60 535.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (A 13% reduction in structured water fraction pushes the coherent network below the percolation threshold. C? drops) Tj T* (discontinuously to zero.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 528.6 cm
+Q
+q
+1 0 0 1 60 489.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Clinically:) Tj /F1 9 Tf ( A 13% loss of cellular water is significant dehydration \(clinical dehydration is typically 2-5% body mass loss\).) Tj T* (This means mild-to-moderate dehydration brings the system close to the percolation threshold but may not cross it. Severe) Tj T* (dehydration crosses it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482.6 cm
+Q
+q
+1 0 0 1 60 455.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The confusion state of dehydration) Tj /F1 9 Tf ( -- altered cognition, reduced processing, emotional fragility -- may be the clinical) Tj T* (presentation of phi approaching phi_c, with the coherent network fragmenting as it loses its spanning cluster.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448.6 cm
+Q
+q
+1 0 0 1 60 442.6 cm
+Q
+q
+1 0 0 1 60 438.6 cm
+Q
+q
+1 0 0 1 60 400.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Age, Disease, and C?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 388.6 cm
+Q
+q
+1 0 0 1 60 361.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Aging:) Tj /F1 9 Tf ( EZ water fraction declines with age. Montague et al. \(2021\) showed that intracellular water structure changes with) Tj T* (age, consistent with declining EZ-like ordering. If phi decreases from 0.68 \(young adult\) to 0.62 \(elderly\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 354.6 cm
+Q
+q
+1 0 0 1 60 297.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?\(young\)) Tj ( ) Tj (~) Tj ( ) Tj (\(0.68) Tj ( ) Tj (nu) Tj ( ) Tj (0.590\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (\(0.090\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (0.368) Tj  T* (C?\(elderly\)) Tj ( ) Tj (~) Tj ( ) Tj (\(0.62) Tj ( ) Tj (nu) Tj ( ) Tj (0.590\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (\(0.030\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (0.235) Tj  T*  T* (C?_ratio) Tj ( ) Tj (=) Tj ( ) Tj (0.235/0.368) Tj ( ) Tj (=) Tj ( ) Tj (0.639) Tj  T*  T* (Elderly) Tj ( ) Tj (C?) Tj ( ) Tj (~=) Tj ( ) Tj (64%) Tj ( ) Tj (of) Tj ( ) Tj (young) Tj ( ) Tj (adult) Tj ( ) Tj (C?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 289.8 cm
+Q
+q
+1 0 0 1 60 250.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This 36% reduction in C? from aging, independent of any change in gamma_eff, means the elderly system has 36% less) Tj T* (coherence reserve against perturbations. The cliff \(gamma_c\) is the same distance away in absolute gamma_eff terms, but) Tj T* (the system starts much closer to it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 243.8 cm
+Q
+q
+1 0 0 1 60 192.8 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (Disease:) Tj /F1 9 Tf ( Chronic inflammation reduces EZ water formation \(inflammatory cytokines disrupt structured water networks\).) Tj T* (Alzheimer's tissue shows degraded NIR scattering \(Hanlon 2008\), consistent with phi reduction. Fibromyalgia, chronic) Tj T* (fatigue, and similar conditions may involve phi below healthy norms, reducing C? and making gamma_c approach the) Tj T* (operating point from the C? side \(not just the gamma_eff side\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 185.8 cm
+Q
+q
+1 0 0 1 60 179.8 cm
+Q
+q
+1 0 0 1 60 175.8 cm
+Q
+q
+1 0 0 1 60 137.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. The Restoration Prediction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 125.8 cm
+Q
+q
+1 0 0 1 60 110.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From the percolation model, C? is acutely restorable by increasing phi above phi_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 103.8 cm
+Q
+q
+1 0 0 1 60 88.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (NIR photobiomodulation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 73.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 NIR at 810-870 nm expands EZ water zones \(Pollack lab\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 5324
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 63: WHAT SETS C? -- THE PERCOLATION MODEL) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 This increases phi) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 If baseline phi = 0.62 \(elderly\), NIR can push phi toward 0.68 \(healthy\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 650 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (DELTAC?/DELTANIRdose) Tj ( ) Tj (=) Tj ( ) Tj (dC?/dphi) Tj ( ) Tj (x) Tj ( ) Tj (dphi/dNIR) Tj  T*  T* (dC?/dphi) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (x) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (\(phi) Tj ( ) Tj (nu) Tj ( ) Tj (phi_c\)^\(-0.59\)) Tj  T*  T* (Near) Tj ( ) Tj (percolation) Tj ( ) Tj (threshold) Tj ( ) Tj (\(phi) Tj ( ) Tj (near) Tj ( ) Tj (phi_c\):) Tj ( ) Tj (dC?/dphi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj ( ) Tj ( ) Tj (\(diverges) Tj ( ) Tj (at) Tj ( ) Tj (threshold\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 642 cm
+Q
+q
+1 0 0 1 60 603 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Near the threshold, small amounts of NIR produce large increases in C?.) Tj /F1 9 Tf ( Systems that are just below the percolation) Tj T* (threshold get disproportionate benefit from NIR. Systems well above it \(healthy\) get modest benefit. Systems well below it) Tj T* (\(severe dehydration\) may not reach threshold even with NIR.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 596 cm
+Q
+q
+1 0 0 1 60 569 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is the theoretical basis for the observed clinical variability in photobiomodulation response: patients nearest the) Tj T* (percolation threshold benefit most.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 562 cm
+Q
+q
+1 0 0 1 60 556 cm
+Q
+q
+1 0 0 1 60 552 cm
+Q
+q
+1 0 0 1 60 514 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 502 cm
+Q
+q
+1 0 0 1 60 374.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 123.2 re f*
+Q
+q
+BT 1 0 0 1 20 115.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (\(phi) Tj ( ) Tj (nu) Tj ( ) Tj (phi_c\)^0.41) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (>) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.590) Tj  T* (C?\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (phi_c) Tj  T*  T* (Physical) Tj ( ) Tj (meaning:) Tj  T* ( ) Tj ( ) Tj (phi) Tj ( ) Tj (=) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj ( ) Tj (fraction) Tj ( ) Tj (in) Tj ( ) Tj (tissue) Tj  T* ( ) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.590) Tj ( ) Tj (=) Tj ( ) Tj (3D) Tj ( ) Tj (percolation) Tj ( ) Tj (threshold) Tj ( ) Tj (for) Tj ( ) Tj (H-bond) Tj ( ) Tj (network) Tj  T* ( ) Tj ( ) Tj (beta_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (=) Tj ( ) Tj (3D) Tj ( ) Tj (percolation) Tj ( ) Tj (order) Tj ( ) Tj (parameter) Tj ( ) Tj (exponent) Tj  T* ( ) Tj ( ) Tj (C?_max) Tj ( ) Tj (=) Tj ( ) Tj (theoretical) Tj ( ) Tj (maximum) Tj ( ) Tj (coherence) Tj  T*  T* (Predictions:) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (13%) Tj ( ) Tj (reduction) Tj ( ) Tj (in) Tj ( ) Tj (structured) Tj ( ) Tj (water) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (approach) Tj ( ) Tj (phi_c) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C?) Tj ( ) Tj (collapses) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (Elderly:) Tj ( ) Tj (36%) Tj ( ) Tj (lower) Tj ( ) Tj (C?) Tj ( ) Tj (due) Tj ( ) Tj (to) Tj ( ) Tj (reduced) Tj ( ) Tj (phi) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (NIR) Tj ( ) Tj (benefit) Tj ( ) Tj (largest) Tj ( ) Tj (near) Tj ( ) Tj (percolation) Tj ( ) Tj (threshold) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (Critical) Tj ( ) Tj (dehydration) Tj ( ) Tj (=) Tj ( ) Tj (phi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (discontinuous) Tj ( ) Tj (C?) Tj ( ) Tj (drop) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 366.8 cm
+Q
+q
+1 0 0 1 60 339.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F2 9 Tf 12 TL (C? is not a given. It is set by the fraction of water in coherent phase relative to the percolation threshold. The body) Tj T* (cannot have more coherence than its water network can carry.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 332.8 cm
+Q
+q
+1 0 0 1 60 317.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 63) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 310.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000006979 00000 n 
+0000007086 00000 n 
+0000007193 00000 n 
+0000007305 00000 n 
+0000007415 00000 n 
+0000007531 00000 n 
+0000007637 00000 n 
+0000008012 00000 n 
+0000014876 00000 n 
+0000014984 00000 n 
+0000015095 00000 n 
+0000015470 00000 n 
+0000021863 00000 n 
+0000021971 00000 n 
+0000022082 00000 n 
+0000022457 00000 n 
+0000027834 00000 n 
+0000027942 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+28053
+%%EOF

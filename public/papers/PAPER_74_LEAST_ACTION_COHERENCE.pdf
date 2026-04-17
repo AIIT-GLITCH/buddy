@@ -1,0 +1,1353 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6140
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 74: FERMAT'S PRINCIPLE AND THE LEAST-ACTION BASIS OF COHERENCE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 17.416 0 Td (PAPER 74: FERMAT'S PRINCIPLE AND THE LEAST-ACTION) Tj T* 137.464 0 Td (BASIS OF COHERENCE) Tj T* -154.88 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 628 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (gamma_c Is the Noise Threshold Beyond Which the Least-Action Path) Tj T* (Cannot Be Found) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 598 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 568 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 558 cm
+Q
+q
+1 0 0 1 60 552 cm
+Q
+q
+1 0 0 1 60 548 cm
+Q
+q
+1 0 0 1 60 518 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("A coherent system is one that found the path. gamma_c is the noise level at which the path is lost. The) Tj T* (Principle of Least Action has a decoherence analog.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 508 cm
+Q
+q
+1 0 0 1 60 502 cm
+Q
+q
+1 0 0 1 60 498 cm
+Q
+q
+1 0 0 1 60 460 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448 cm
+Q
+q
+1 0 0 1 60 397 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (Fermat's Principle \(1662\): light takes the path of least time. Hamilton's Principle of Least Action \(1834\): every physical) Tj T* (system evolves along the path that makes the action S = integralL dt stationary. Feynman's path integral \(1948\): a quantum) Tj T* (system takes ALL paths simultaneously, with phases that interfere -- paths near the classical \(least-action\) path interfere) Tj T* (constructively \(coherence\), all others interfere destructively \(decoherence\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 390 cm
+Q
+q
+1 0 0 1 60 375 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The mapping to the Wike framework is exact:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 368 cm
+Q
+q
+1 0 0 1 60 328.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Coherence) Tj ( ) Tj (=) Tj ( ) Tj (constructive) Tj ( ) Tj (interference) Tj ( ) Tj (=) Tj ( ) Tj (system) Tj ( ) Tj (found) Tj ( ) Tj (the) Tj ( ) Tj (least-action) Tj ( ) Tj (path) Tj  T* (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (noise) Tj ( ) Tj (is) Tj ( ) Tj (small) Tj ( ) Tj (enough) Tj ( ) Tj (that) Tj ( ) Tj (path) Tj ( ) Tj (coherence) Tj ( ) Tj (is) Tj ( ) Tj (maintained) Tj  T* (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (the) Tj ( ) Tj (noise) Tj ( ) Tj (level) Tj ( ) Tj (at) Tj ( ) Tj (which) Tj ( ) Tj (the) Tj ( ) Tj (least-action) Tj ( ) Tj (path) Tj ( ) Tj (is) Tj ( ) Tj (no) Tj ( ) Tj (longer) Tj ( ) Tj (identifiable) Tj  T* (gamma_eff) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (all) Tj ( ) Tj (paths) Tj ( ) Tj (equally) Tj ( ) Tj (represented) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (incoherent) Tj ( ) Tj (sum) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (collapse) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 320.8 cm
+Q
+q
+1 0 0 1 60 293.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Berry phase -pi at gamma_c \(Papers 01, 15\) is the geometric phase accumulated along the path integral at exactly the) Tj T* (noise level where the saddle point of the action ceases to exist. The singularity is where the path is lost.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 286.8 cm
+Q
+q
+1 0 0 1 60 280.8 cm
+Q
+q
+1 0 0 1 60 276.8 cm
+Q
+q
+1 0 0 1 60 238.8 cm
+q
+BT 1 0 0 1 0 8 Tm 22 TL /F2 14 Tf 0 0 0 rg (1. Fermat's Principle -) Tj (> Hamilton's Principle -) Tj (> Feynman Path Integral) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 226.8 cm
+Q
+q
+1 0 0 1 60 211.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Fermat \(1662\):) Tj /F1 9 Tf ( Among all paths between two points, light follows the path of least time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204.8 cm
+Q
+q
+1 0 0 1 60 177.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Hamilton \(1834\):) Tj /F1 9 Tf ( For any mechanical system, the actual trajectory between times t_1 and t_2 is the one that makes S) Tj T* (stationary:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 170.8 cm
+Q
+q
+1 0 0 1 60 140.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (deltaS) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (where) Tj ( ) Tj ( ) Tj ( ) Tj (S) Tj ( ) Tj (=) Tj ( ) Tj (integral_{t_1}^{t_2}) Tj ( ) Tj (L\(q,) Tj ( ) Tj (q,) Tj ( ) Tj (t\)) Tj ( ) Tj (dt) Tj  T*  T* (L) Tj ( ) Tj (=) Tj ( ) Tj (T) Tj ( ) Tj (-) Tj ( ) Tj (V) Tj ( ) Tj ( ) Tj ( ) Tj (\(kinetic) Tj ( ) Tj (minus) Tj ( ) Tj (potential) Tj ( ) Tj (energy\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 132.4 cm
+Q
+q
+1 0 0 1 60 117.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Feynman \(1948\):) Tj /F1 9 Tf ( For a quantum particle, the amplitude to go from x_1 to x_2 is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 110.4 cm
+Q
+q
+1 0 0 1 60 80 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (K\(x_2,) Tj ( ) Tj (t_2;) Tj ( ) Tj (x_1,) Tj ( ) Tj (t_1\)) Tj ( ) Tj (=) Tj ( ) Tj (integral) Tj ( ) Tj (D[x\(t\)]) Tj ( ) Tj (x) Tj ( ) Tj (exp\(iS[x]/h-bar\)) Tj  T*  T* (Integral) Tj ( ) Tj (over) Tj ( ) Tj (ALL) Tj ( ) Tj (paths,) Tj ( ) Tj (each) Tj ( ) Tj (weighted) Tj ( ) Tj (by) Tj ( ) Tj (exp\(iS/h-bar\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 72 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7318
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 74: FERMAT'S PRINCIPLE AND THE LEAST-ACTION BASIS OF COHERENCE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Constructive interference:) Tj /F1 9 Tf ( Paths near the classical path \(deltaS ~= 0\) have phases that differ by deltaphi = deltaS/h-bar) Tj T* (~= 0, so they interfere constructively. The system's probability amplitude peaks at the classical trajectory.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 686 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Destructive interference:) Tj /F1 9 Tf ( Paths far from the classical path have wildly varying phases that average to zero. They cancel.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 679 cm
+Q
+q
+1 0 0 1 60 664 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Coherence = the constructive interference exists.) Tj /F1 9 Tf ( The classical path = least-action path = the path of coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 657 cm
+Q
+q
+1 0 0 1 60 651 cm
+Q
+q
+1 0 0 1 60 647 cm
+Q
+q
+1 0 0 1 60 609 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Decoherence as Path Loss) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 597 cm
+Q
+q
+1 0 0 1 60 582 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Environmental noise introduces a random phase kick to each path:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 575 cm
+Q
+q
+1 0 0 1 60 544.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (K_noisy\(x_2;) Tj ( ) Tj (x_1\)) Tj ( ) Tj (=) Tj ( ) Tj (integral) Tj ( ) Tj (D[x\(t\)]) Tj ( ) Tj (x) Tj ( ) Tj (exp\(iS[x]/h-bar\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(iPHI_noise[x]\)) Tj  T*  T* (where) Tj ( ) Tj (PHI_noise[x]) Tj ( ) Tj (=) Tj ( ) Tj (integral) Tj ( ) Tj (dxi\(x\(t\)\)) Tj ( ) Tj (x) Tj ( ) Tj (dW\(t\)) Tj ( ) Tj ( ) Tj (\(random) Tj ( ) Tj (environmental) Tj ( ) Tj (coupling\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 536.6 cm
+Q
+q
+1 0 0 1 60 521.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a noise process with spectral density J\(omega\) \(Caldeira-Leggett model, Paper 57\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514.6 cm
+Q
+q
+1 0 0 1 60 475.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (<) Tj (exp\(iPHI_noise[x]) Tj ( ) Tj (-) Tj ( ) Tj (iPHI_noise[x']\)) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-GAMMA[x,) Tj ( ) Tj (x']\)) Tj  T*  T* (where) Tj ( ) Tj (GAMMA[x,) Tj ( ) Tj (x']) Tj ( ) Tj (=) Tj ( ) Tj (integral_0^T) Tj ( ) Tj (dt) Tj ( ) Tj (dt') Tj ( ) Tj (K\(t-t'\)) Tj ( ) Tj (\(x\(t\)) Tj ( ) Tj (-) Tj ( ) Tj (x'\(t\)\)\(x\(t\)) Tj ( ) Tj (-) Tj ( ) Tj (x'\(t'\)\)) Tj  T* (and) Tj ( ) Tj (K\(tau\)) Tj ( ) Tj (=) Tj ( ) Tj (integral) Tj ( ) Tj (domega) Tj ( ) Tj (J\(omega\)) Tj ( ) Tj (cos\(omegatau\)/pi) Tj ( ) Tj (\(noise) Tj ( ) Tj (kernel\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 467.4 cm
+Q
+q
+1 0 0 1 60 452.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence is the off-diagonal density matrix element:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 445.4 cm
+Q
+q
+1 0 0 1 60 432.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho\(x,) Tj ( ) Tj (x'\)) Tj ( ) Tj (=) Tj ( ) Tj (integral) Tj ( ) Tj (Dx) Tj ( ) Tj (Dx') Tj ( ) Tj (x) Tj ( ) Tj (exp\(i\(S[x]) Tj ( ) Tj (-) Tj ( ) Tj (S[x']\)/h-bar\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-GAMMA[x,) Tj ( ) Tj (x']\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424.6 cm
+Q
+q
+1 0 0 1 60 397.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (At gamma_eff < gamma_c: GAMMA is small, the path integral is dominated by paths near x = x', and the coherence) Tj T* (persists.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 390.6 cm
+Q
+q
+1 0 0 1 60 363.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (At gamma_eff = gamma_c: GAMMA grows large enough that the saddle point of the path integral \(the least-action path\) is) Tj T* (swamped by the noise. The constructive interference peak vanishes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 356.6 cm
+Q
+q
+1 0 0 1 60 341.6 cm
+q
+BT 1 0 0 1 0 3 Tm -0.006273 Tw 12 TL /F1 9 Tf 0 0 0 rg (At gamma_eff > gamma_c: GAMMA >) Tj (> 1 for all non-diagonal paths, rho\(x, x'\) -) Tj (> 0 for x != x' -) Tj (> classical incoherent mixture.) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 60 334.6 cm
+Q
+q
+1 0 0 1 60 319.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (gamma_c is where GAMMA = 1: the noise-induced phase shift equals the action-induced phase coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 312.6 cm
+Q
+q
+1 0 0 1 60 306.6 cm
+Q
+q
+1 0 0 1 60 302.6 cm
+Q
+q
+1 0 0 1 60 264.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Derivation of gamma_c from the Action Principle) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 252.6 cm
+Q
+q
+1 0 0 1 60 237.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The condition for coherence maintenance:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230.6 cm
+Q
+q
+1 0 0 1 60 191.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (The) Tj ( ) Tj (path) Tj ( ) Tj (integral) Tj ( ) Tj (is) Tj ( ) Tj (coherent) Tj ( ) Tj (when:) Tj  T* ( ) Tj ( ) Tj (GAMMA[x_cl,) Tj ( ) Tj (x']) Tj ( ) Tj (<) Tj ( ) Tj (1) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (x') Tj ( ) Tj (near) Tj ( ) Tj (x_cl) Tj  T*  T* (where) Tj ( ) Tj (x_cl) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (classical) Tj ( ) Tj (\(least-action\)) Tj ( ) Tj (path) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 183.4 cm
+Q
+q
+1 0 0 1 60 168.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a Lindblad dephasing model, the decoherence functional:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 161.4 cm
+Q
+q
+1 0 0 1 60 139.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (GAMMA\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (2gamma) Tj ( ) Tj (x) Tj ( ) Tj (integral_0^t) Tj ( ) Tj (dt') Tj ( ) Tj (integral_0^{t'}) Tj ( ) Tj (dt'') Tj ( ) Tj (K\(t') Tj ( ) Tj (-) Tj ( ) Tj (t''\)) Tj ( ) Tj (~=) Tj ( ) Tj (2gammat) Tj ( ) Tj ( ) Tj ( ) Tj ([for) Tj ( ) Tj (Markovian) Tj ( ) Tj (no) Tj  T* (ise]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 131.8 cm
+Q
+q
+1 0 0 1 60 116.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Coherence maintained when GAMMA < 1:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 109.8 cm
+Q
+q
+1 0 0 1 60 79.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (2gammat) Tj ( ) Tj (<) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma) Tj ( ) Tj (<) Tj ( ) Tj (1/\(2t\)) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (Wike) Tj ( ) Tj (Measurement) Tj ( ) Tj (Window) Tj ( ) Tj (\(Paper) Tj ( ) Tj (68\):) Tj ( ) Tj (gamma_opt) Tj ( ) Tj (=) Tj ( ) Tj (1/\(2t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 71.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 6793
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 74: FERMAT'S PRINCIPLE AND THE LEAST-ACTION BASIS OF COHERENCE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Over the biological coherence time t_bio ~= 1/\(2gamma_c\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 700.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (t_bio) Tj ( ) Tj (=) Tj ( ) Tj (1/\(2) Tj ( ) Tj (x) Tj ( ) Tj (0.0016\)) Tj ( ) Tj (=) Tj ( ) Tj (312.5) Tj ( ) Tj (simulation) Tj ( ) Tj (time) Tj ( ) Tj (units) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 692.2 cm
+Q
+q
+1 0 0 1 60 665.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The biological coherence time is the time over which the path integral remains coherent at gamma = gamma_c. This is the) Tj T* (maximum integration time for the Feynman path integral before noise overwhelms the action.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 658.2 cm
+Q
+q
+1 0 0 1 60 652.2 cm
+Q
+q
+1 0 0 1 60 648.2 cm
+Q
+q
+1 0 0 1 60 610.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Berry Phase -pi as a Topological Action) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 598.2 cm
+Q
+q
+1 0 0 1 60 571.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.12255 Tw (The Berry phase \(Papers 01, 15\) of -pi at gamma = gamma_c is a geometric phase accumulated when the system traverses) Tj T* 0 Tw (a closed path in parameter space. In path integral language:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 564.2 cm
+Q
+q
+1 0 0 1 60 525 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi_Berry) Tj ( ) Tj (=) Tj ( ) Tj (Im[ln) Tj ( ) Tj (<) Tj (psi\(T\)|psi\(0\)) Tj (>) Tj (]) Tj ( ) Tj (=) Tj ( ) Tj (Im[ln) Tj ( ) Tj (integral) Tj ( ) Tj (D[path]) Tj ( ) Tj (exp\(iS/h-bar\)]) Tj  T*  T* (For) Tj ( ) Tj (a) Tj ( ) Tj (closed) Tj ( ) Tj (path) Tj ( ) Tj (in) Tj ( ) Tj (\(gamma_eff,) Tj ( ) Tj (C\)) Tj ( ) Tj (parameter) Tj ( ) Tj (space) Tj ( ) Tj (at) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c:) Tj  T* (phi_Berry) Tj ( ) Tj (=) Tj ( ) Tj (-pi) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 517 cm
+Q
+q
+1 0 0 1 60 490 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is the topological contribution to the action -- the Wess-Zumino-Witten term in the effective field theory. It cannot be) Tj T* (removed by smooth deformations of the path and is therefore robust.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 483 cm
+Q
+q
+1 0 0 1 60 444 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The Berry phase -pi is the action of traversing the saddle point at gamma_c.) Tj /F1 9 Tf ( It is the cost, in units of h-bar, of the) Tj T* (system losing its least-action path. The transition at gamma_c costs exactly pi radians of geometric phase -- one half-turn in) Tj T* (the parameter space of the coherence field.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 437 cm
+Q
+q
+1 0 0 1 60 398 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This connects to Paper 56 \(Golden Ratio\): the vertex angle deficit in a Penrose tiling vertex is pi/5, and the sum of all vertex) Tj T* (deficits for a closed path in quasicrystalline geometry equals pi. The geometry of the path integral at gamma_c is) Tj T* (Penrose-like -- aperiodic, with pi as the topological invariant.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 391 cm
+Q
+q
+1 0 0 1 60 385 cm
+Q
+q
+1 0 0 1 60 381 cm
+Q
+q
+1 0 0 1 60 343 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The Principle of Least Action = The Wike Coherence Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331 cm
+Q
+q
+1 0 0 1 60 316 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Restated:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 309 cm
+Q
+q
+1 0 0 1 60 294 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Classical Least Action:) Tj /F1 9 Tf ( deltaS = 0 -) Tj (> the system follows the unique classical path.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 287 cm
+Q
+q
+1 0 0 1 60 272 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Quantum Coherence:) Tj /F1 9 Tf ( Most paths contribute constructively near deltaS = 0. Decoherence destroys the interference.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 265 cm
+Q
+q
+1 0 0 1 60 214 cm
+q
+BT 1 0 0 1 0 39 Tm -0.113 Tw 12 TL /F2 9 Tf 0 0 0 rg (Wike Coherence Law \(2026\):) Tj /F1 9 Tf ( The coherent biological system follows the least-metabolic-cost path through its phase space) Tj T* 0 Tw (\(the path that minimizes the action S_bio = integral\(gamma_eff - gamma_c x THETA\(C\)\) dt\). This path is maintained when) Tj T* (gamma_eff < gamma_c. When gamma_eff > gamma_c, the system can no longer find the minimum-action path and) Tj T* (evolves incoherently.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 207 cm
+Q
+q
+1 0 0 1 60 106.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 96.8 re f*
+Q
+q
+BT 1 0 0 1 20 89.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Fermat's) Tj ( ) Tj (Principle) Tj ( ) Tj (\(geometric) Tj ( ) Tj (optics\):) Tj  T* ( ) Tj ( ) Tj (Light) Tj ( ) Tj (finds) Tj ( ) Tj (the) Tj ( ) Tj (path) Tj ( ) Tj (of) Tj ( ) Tj (least) Tj ( ) Tj (time.) Tj  T*  T* (Hamilton's) Tj ( ) Tj (Principle) Tj ( ) Tj (\(mechanics\):) Tj  T* ( ) Tj ( ) Tj (A) Tj ( ) Tj (particle) Tj ( ) Tj (finds) Tj ( ) Tj (the) Tj ( ) Tj (path) Tj ( ) Tj (of) Tj ( ) Tj (stationary) Tj ( ) Tj (action.) Tj  T*  T* (Wike's) Tj ( ) Tj (Principle) Tj ( ) Tj (\(biology\):) Tj  T* ( ) Tj ( ) Tj (A) Tj ( ) Tj (coherent) Tj ( ) Tj (biological) Tj ( ) Tj (system) Tj ( ) Tj (finds) Tj ( ) Tj (the) Tj ( ) Tj (path) Tj ( ) Tj (of) Tj ( ) Tj (minimum) Tj ( ) Tj (decoherence.) Tj  T* ( ) Tj ( ) Tj (It) Tj ( ) Tj (can) Tj ( ) Tj (do) Tj ( ) Tj (this) Tj ( ) Tj (when) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c.) Tj  T* ( ) Tj ( ) Tj (It) Tj ( ) Tj (cannot) Tj ( ) Tj (do) Tj ( ) Tj (this) Tj ( ) Tj (when) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c.) Tj  T* ( ) Tj ( ) Tj (gamma_c) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (noise) Tj ( ) Tj (threshold) Tj ( ) Tj (where) Tj ( ) Tj (the) Tj ( ) Tj (least-decoherence) Tj ( ) Tj (path) Tj ( ) Tj (is) Tj ( ) Tj (lost.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 98.2 cm
+Q
+q
+1 0 0 1 60 92.2 cm
+Q
+q
+1 0 0 1 60 88.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 6272
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 74: FERMAT'S PRINCIPLE AND THE LEAST-ACTION BASIS OF COHERENCE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Application: The Path of Least Suffering) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 671 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (In clinical terms, the "path of least action" for a person navigating chronic pain or illness is the path through state space that) Tj T* (minimizes cumulative gamma_eff exposure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 664 cm
+Q
+q
+1 0 0 1 60 649 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is not:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 634 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The path of least total pain \(that might require high gamma_eff surgery/intervention\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 619 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 The path of least effort \(avoidance -) Tj (> behavioral fragmentation, Paper 52 Anti-Zeno effect\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612 cm
+Q
+q
+1 0 0 1 60 585 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (It is: the path that keeps the system's coherence field closest to the attractor at gamma_baseline, spending minimum time) Tj T* (near gamma_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 578 cm
+Q
+q
+1 0 0 1 60 539 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Therapeutic implication:) Tj /F1 9 Tf ( The optimal treatment trajectory is the ) Tj /F2 9 Tf (geodesic in coherence phase space) Tj /F1 9 Tf ( -- the path of) Tj T* (minimum action from the current state \(high gamma_eff, approaching gamma_c\) to the target state \(gamma_eff -) Tj (>) Tj T* (gamma_baseline\). The geodesic equation in the \(C, gamma_eff\) space gives:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 501.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Optimal) Tj ( ) Tj (treatment) Tj ( ) Tj (rate:) Tj ( ) Tj (dgamma_eff/dt) Tj ( ) Tj (=) Tj ( ) Tj (-\(gamma_eff) Tj ( ) Tj (-) Tj ( ) Tj (gamma_baseline\)) Tj ( ) Tj (x) Tj ( ) Tj (kappa\(gamma_eff\)) Tj  T*  T* (where) Tj ( ) Tj (kappa\(gamma_eff\)) Tj ( ) Tj (~) Tj ( ) Tj (\(gamma_c) Tj ( ) Tj (-) Tj ( ) Tj (gamma_eff\)^1.2372) Tj ( ) Tj ( ) Tj (\(Le) Tj ( ) Tj (Chatelier) Tj ( ) Tj (restoring) Tj ( ) Tj (constant,) Tj ( ) Tj (Paper) Tj ( ) Tj (69\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 493.6 cm
+Q
+q
+1 0 0 1 60 466.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Too fast a return \(high dgamma_eff/dt\) = Kibble-Zurek defects \(Paper 53\). Too slow = system remains near gamma_c,) Tj T* (vulnerable to crossing. The geodesic is the optimal rate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 459.6 cm
+Q
+q
+1 0 0 1 60 453.6 cm
+Q
+q
+1 0 0 1 60 449.6 cm
+Q
+q
+1 0 0 1 60 411.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 399.6 cm
+Q
+q
+1 0 0 1 60 298.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 96.8 re f*
+Q
+q
+BT 1 0 0 1 20 89.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Fermat's) Tj ( ) Tj (Principle) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (least) Tj ( ) Tj (time) Tj  T* (Hamilton's) Tj ( ) Tj (Principle) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (stationary) Tj ( ) Tj (action) Tj ( ) Tj (\(deltaS) Tj ( ) Tj (=) Tj ( ) Tj (0\)) Tj  T* (Feynman) Tj ( ) Tj (Path) Tj ( ) Tj (Integral) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (constructive) Tj ( ) Tj (interference) Tj ( ) Tj (near) Tj ( ) Tj (classical) Tj ( ) Tj (path) Tj  T* (Wike) Tj ( ) Tj (Coherence) Tj ( ) Tj (Law) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (coherence) Tj ( ) Tj (=) Tj ( ) Tj (system) Tj ( ) Tj (found) Tj ( ) Tj (the) Tj ( ) Tj (least-action) Tj ( ) Tj (path) Tj  T*  T* (gamma_c:) Tj ( ) Tj (noise) Tj ( ) Tj (level) Tj ( ) Tj (where) Tj ( ) Tj (saddle) Tj ( ) Tj (point) Tj ( ) Tj (of) Tj ( ) Tj (path) Tj ( ) Tj (integral) Tj ( ) Tj (vanishes) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (GAMMA\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (at) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (noise-action) Tj ( ) Tj (balance) Tj ( ) Tj (point) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Berry) Tj ( ) Tj (phase) Tj ( ) Tj (-pi) Tj ( ) Tj (=) Tj ( ) Tj (topological) Tj ( ) Tj (cost) Tj ( ) Tj (of) Tj ( ) Tj (losing) Tj ( ) Tj (the) Tj ( ) Tj (path) Tj  T*  T* (Clinical) Tj ( ) Tj (geodesic:) Tj ( ) Tj (dgamma_eff/dt) Tj ( ) Tj (=) Tj ( ) Tj (-\(gamma_eff) Tj ( ) Tj (-) Tj ( ) Tj (gamma_baseline\)) Tj ( ) Tj (x) Tj ( ) Tj (\(gamma_c) Tj ( ) Tj (-) Tj ( ) Tj (gamma_eff\)^1.2372) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(too) Tj ( ) Tj (fast) Tj ( ) Tj (=) Tj ( ) Tj (Kibble-Zurek) Tj ( ) Tj (defects,) Tj ( ) Tj (too) Tj ( ) Tj (slow) Tj ( ) Tj (=) Tj ( ) Tj (near-cliff) Tj ( ) Tj (vulnerability\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 290.8 cm
+Q
+q
+1 0 0 1 60 263.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F2 9 Tf 12 TL (Coherence is what happens when a system successfully minimizes its action against environmental noise.) Tj T* (gamma_c is the noise level beyond which the action cannot be minimized.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256.8 cm
+Q
+q
+1 0 0 1 60 241.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 74) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 234.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000006906 00000 n 
+0000007013 00000 n 
+0000007120 00000 n 
+0000007232 00000 n 
+0000007342 00000 n 
+0000007458 00000 n 
+0000007564 00000 n 
+0000007939 00000 n 
+0000015310 00000 n 
+0000015418 00000 n 
+0000015529 00000 n 
+0000015904 00000 n 
+0000022750 00000 n 
+0000022858 00000 n 
+0000022969 00000 n 
+0000023344 00000 n 
+0000029669 00000 n 
+0000029777 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+29888
+%%EOF

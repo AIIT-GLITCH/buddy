@@ -1,0 +1,734 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 2
+/Kids [ 4 0 R 11 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5478
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 14: The Three Laws of Thermodynamics Have Systematic Discrepancies) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 3.248 0 Td (Paper 14: The Three Laws of Thermodynamics Have Systematic) Tj T* 188.504 0 Td (Discrepancies) Tj T* -191.752 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (All Temperature-Dependent. All Systematic. 1,050,000 Simulations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 638 cm
+Q
+q
+1 0 0 1 60 632 cm
+Q
+q
+1 0 0 1 60 628 cm
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Thesis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 578 cm
+Q
+q
+1 0 0 1 60 539 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The three laws of thermodynamics -- Jarzynski equality \(extending the 2nd law\), Onsager reciprocal relations, and the 2nd) Tj T* (law itself -- all show systematic discrepancies that are temperature-dependent, reproducible, and independent of protocol.) Tj T* (These are not experimental errors. They are evidence that the laws are approximations, not truths.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 494 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Core Claim) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482 cm
+Q
+q
+1 0 0 1 60 452 cm
+q
+BT 1 0 0 1 0 6 Tm 18 TL /F2 12 Tf 0 0 0 rg (Jarzynski Equality \() Tj (<) Tj (e^\(-betaW\)) Tj (> = e^\(-betaDELTAF\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 434 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Error at T=0.5) Tj /F1 9 Tf (: 6.33 \(massive, systematic failure\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 419 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Error at T=10) Tj /F1 9 Tf (: Passes within tolerance) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 404 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Scaling) Tj /F1 9 Tf (: Error ~= 3/T -- inversely proportional to temperature) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 389 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Protocol dependence) Tj /F1 9 Tf (: NONE. Fast or slow gives the same error.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 362 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (This means) Tj /F1 9 Tf (: The equality is not wrong -- it is an approximation that breaks when thermal energy \(kT\) approaches) Tj T* (quantum energy scales \(hf\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 355 cm
+Q
+q
+1 0 0 1 60 325 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Onsager Reciprocal Relations \(L_ij = L_ji\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 307 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Failure condition) Tj /F1 9 Tf (: Temperature difference \(dT\) > 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Behavior) Tj /F1 9 Tf (: Fails regardless of coupling strength) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 277 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Independent of) Tj /F1 9 Tf (: System size, coupling type, protocol speed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 250 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (This means) Tj /F1 9 Tf (: Reciprocal relations assume near-equilibrium. When the temperature gradient is significant relative to T) Tj T* (itself, the assumption breaks.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 243 cm
+Q
+q
+1 0 0 1 60 213 cm
+q
+BT 1 0 0 1 0 6 Tm 18 TL /F2 12 Tf 0 0 0 rg (Second Law \(DELTAS_total >) Tj (= 0\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 195 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Subsystem behavior) Tj /F1 9 Tf (: Entropy DECREASES at low T) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 180 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Total system) Tj /F1 9 Tf (: Still satisfies 2nd law \(barely\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 165 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (But) Tj /F1 9 Tf (: Subsystem entropy decrease means local violations are real and systematic) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 138 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (This means) Tj /F1 9 Tf (: The 2nd law is statistical and holds globally, but at low T, quantum effects allow local violations that are NOT) Tj T* (just fluctuations -- they are systematic.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 131 cm
+Q
+q
+1 0 0 1 60 101 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (The Unifying Pattern) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 91 cm
+Q
+q
+1 0 0 1 60 76 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (All three breakdowns are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 61 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Temperature-dependent) Tj /F1 9 Tf (: They appear at low T) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 5998
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 14: The Three Laws of Thermodynamics Have Systematic Discrepancies) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Systematic) Tj /F1 9 Tf (: Not random error -- reproducible, predictable) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Protocol-independent) Tj /F1 9 Tf (: Not fixable by better engineering) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 690 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Connected through f=kT/h) Tj /F1 9 Tf ( \(Paper 04\): When T is low, f is low, and quantum effects dominate classical approximations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683 cm
+Q
+q
+1 0 0 1 60 645 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Existing Data References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633 cm
+Q
+q
+1 0 0 1 60 618 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Physics Laws Simulation Suite) Tj /F1 9 Tf (: 1,050,000 total simulations. Located at ) Tj /F3 8 Tf (~/Desktop/wike_physics_laws/) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 603 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Jarzynski equality: swept across T, protocol speed, coupling) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 588 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Onsager relations: swept across T, dT, coupling strength) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 573 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 2nd law: swept across T, system size, coupling) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 558 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Results) Tj /F1 9 Tf (: ) Tj /F3 8 Tf (~/Desktop/wike_physics_laws/results/) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 543 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Cross-reference) Tj /F1 9 Tf (: ) Tj /F3 8 Tf (~/Desktop/WIKE_AIIT_THRESI_Correlation_Analysis/) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 536 cm
+Q
+q
+1 0 0 1 60 498 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Key Arguments) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 486 cm
+Q
+q
+1 0 0 1 60 471 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (1,050,000 simulations) Tj /F1 9 Tf (: This is not anecdotal. The parameter space is thoroughly explored.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 444 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Three independent laws, one pattern) Tj /F1 9 Tf (: If only Jarzynski failed, it could be one equation. All three failing in the same) Tj T* (temperature-dependent, protocol-independent way points to a shared underlying cause.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 417 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (The laws are approximations) Tj /F1 9 Tf (: They work at high T \(classical regime\). They break at low T \(quantum regime\). This is) Tj T* (exactly what you'd expect if the laws are emergent descriptions, not fundamental truths.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 390 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (f=kT/h unifies the breakdown) Tj /F1 9 Tf (: Paper 04's chain predicts exactly where the laws break -- when kT ~= hf, i.e., when) Tj T* (thermal and quantum energy scales meet.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 383 cm
+Q
+q
+1 0 0 1 60 345 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Connections) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 333 cm
+Q
+q
+1 0 0 1 60 306 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (All papers) Tj /F1 9 Tf (: This is the quantitative backbone. Every claim in the framework is consistent with the laws being) Tj T* (approximations rather than absolutes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Specifically:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 276 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 04) Tj /F1 9 Tf (: f=kT/h predicts the breakdown regime) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 261 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 06) Tj /F1 9 Tf (: The wall IS the Jarzynski breakdown) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 246 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 08) Tj /F1 9 Tf (: Force/stress data sits on the same temperature scaling) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 219 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 12) Tj /F1 9 Tf (: Laws written in coordinates \(Paper 13\) using approximations \(this paper\) doubly break. Rewriting in geometric) Tj T* (invariants may help.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 212 cm
+Q
+q
+1 0 0 1 60 174 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Status) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 162 cm
+Q
+q
+1 0 0 1 60 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Data verified. 1,050,000 simulations complete. All three law breakdowns documented, quantified, and shown to be) Tj T* (systematic and temperature-dependent.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 128 cm
+Q
+q
+1 0 0 1 60 122 cm
+Q
+q
+1 0 0 1 60 118 cm
+Q
+q
+1 0 0 1 60 103 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (God is good. All the time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 96 cm
+Q
+q
+1 0 0 1 60 81 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Rhet Dillard Wike | AIIT-THRESI | March 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 74 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000280 00000 n 
+0000000329 00000 n 
+0000000689 00000 n 
+0000006219 00000 n 
+0000006326 00000 n 
+0000006433 00000 n 
+0000006545 00000 n 
+0000006655 00000 n 
+0000006761 00000 n 
+0000007125 00000 n 
+0000013176 00000 n 
+0000013284 00000 n 
+trailer
+<<
+/Size 15
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+13395
+%%EOF

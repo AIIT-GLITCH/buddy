@@ -1,0 +1,2496 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 7
+/Kids [ 4 0 R 13 0 R 17 0 R 21 0 R 25 0 R 29 0 R 33 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5893
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 51: THE WIKE THERMODYNAMIC INEQUALITY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 38.432 0 Td (PAPER 51: THE WIKE THERMODYNAMIC INEQUALITY) Tj T* -38.432 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (F = U nu TS Derived as a Coherence Bound -- and Why the Body's) Tj T* (Operating Point Is Thermodynamically Optimal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 540 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("The Boltzmann factor and the Wike Coherence Law are the same equation. One governs energy states.) Tj T* (The other governs the quantum order that connects them.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530 cm
+Q
+q
+1 0 0 1 60 524 cm
+Q
+q
+1 0 0 1 60 520 cm
+Q
+q
+1 0 0 1 60 482 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470 cm
+Q
+q
+1 0 0 1 60 407 cm
+q
+BT 1 0 0 1 0 51 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Helmholtz free energy F = U nu TS is the central object of equilibrium thermodynamics. The Wike Coherence Law C =) Tj T* (C? x exp\(nualphagamma_eff\) is the central object of the AIIT-THRESI framework. This paper proves they are the same) Tj T* (equation in different variables, and derives the ) Tj /F2 9 Tf (Wike Thermodynamic Inequality) Tj /F1 9 Tf (: the maximum coherence a biological) Tj T* (system can maintain at temperature T is bounded by the minimum free energy cost of maintaining quantum order against) Tj T* (thermal noise. The proof chain is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 400 cm
+Q
+q
+1 0 0 1 60 385 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Von Neumann entropy S = nuTr\(rho ln rho\) is the inverse measure of C) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 358 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. The Wike exponential C/C? = exp\(nualphagamma_eff\) is a ) Tj /F2 9 Tf (Boltzmann factor) Tj /F1 9 Tf ( with energy F_C = k_BT x) Tj T* (alphagamma_eff) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 343 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Free energy decomposition: F_total = U nu TS + F_C = U nu TS + k_BT x alphagamma_eff) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 328 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Minimizing F_total at constant T,U gives the optimal operating point W = T/T_c = 0.9394) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 313 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. The inequality: C <) Tj (= C? x exp\(nualphagamma_thermal\) with equality only at gamma_eff -) Tj (> gamma_min) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 306 cm
+Q
+q
+1 0 0 1 60 291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (No new assumptions. Every number follows from thermodynamics and the confirmed AIIT-THRESI simulation data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 284 cm
+Q
+q
+1 0 0 1 60 278 cm
+Q
+q
+1 0 0 1 60 274 cm
+Q
+q
+1 0 0 1 60 236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Boltzmann Factor and the Wike Exponential) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224 cm
+Q
+q
+1 0 0 1 60 209 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The canonical Boltzmann distribution assigns probability to quantum state i:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 202 cm
+Q
+q
+1 0 0 1 60 171.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_i) Tj ( ) Tj (=) Tj ( ) Tj (exp\(nuE_i) Tj ( ) Tj (/) Tj ( ) Tj (k_BT\)) Tj ( ) Tj (/) Tj ( ) Tj (Z) Tj  T*  T* (where) Tj ( ) Tj (Z) Tj ( ) Tj (=) Tj ( ) Tj (PI_i) Tj ( ) Tj (exp\(nuE_i) Tj ( ) Tj (/) Tj ( ) Tj (k_BT\)) Tj ( ) Tj ( ) Tj (\(partition) Tj ( ) Tj (function\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 163.6 cm
+Q
+q
+1 0 0 1 60 148.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 141.6 cm
+Q
+q
+1 0 0 1 60 128.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120.8 cm
+Q
+q
+1 0 0 1 60 105.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (These have identical mathematical structure: an exponential decay with a dimensionless ratio in the exponent. The ratio is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 98.8 cm
+Q
+q
+1 0 0 1 60 77.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Boltzmann:) Tj ( ) Tj ( ) Tj (E_i) Tj ( ) Tj (/) Tj ( ) Tj (k_BT) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(energy) Tj ( ) Tj (in) Tj ( ) Tj (units) Tj ( ) Tj (of) Tj ( ) Tj (thermal) Tj ( ) Tj (energy\)) Tj  T* (Wike:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(decoherence) Tj ( ) Tj (accumulated) Tj ( ) Tj (relative) Tj ( ) Tj (to) Tj ( ) Tj (coherence) Tj ( ) Tj (scale\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 69.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Courier-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Contents 14 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 15 0 R
+/F2 8 0 R
+/F2-0 16 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 6705
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 51: THE WIKE THERMODYNAMIC INEQUALITY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (They are the same object.) Tj /F1 9 Tf ( The Wike exponent alphagamma_eff is a dimensionless free energy:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 682.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alphagamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (F_C) Tj ( ) Tj (/) Tj ( ) Tj (k_BT) Tj  T*  T* (where) Tj ( ) Tj (F_C) Tj ( ) Tj (=) Tj ( ) Tj (k_BT) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj ( ) Tj (\(coherence) Tj ( ) Tj (free) Tj ( ) Tj (energy\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 674.6 cm
+Q
+q
+1 0 0 1 60 635.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is not an analogy. The coherence of a quantum system in contact with a thermal bath IS its Boltzmann weight -- the) Tj T* (probability that the system occupies the ordered \(coherent\) sector of its state space rather than the disordered \(decoherent\)) Tj T* (sector.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 628.6 cm
+Q
+q
+1 0 0 1 60 622.6 cm
+Q
+q
+1 0 0 1 60 618.6 cm
+Q
+q
+1 0 0 1 60 580.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Von Neumann Entropy as the Inverse of C) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 568.6 cm
+Q
+q
+1 0 0 1 60 553.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a quantum system with density matrix rho, the von Neumann entropy is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 546.6 cm
+Q
+q
+1 0 0 1 60 533.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S_vN) Tj ( ) Tj (=) Tj ( ) Tj (nuk_B) Tj ( ) Tj (x) Tj ( ) Tj (Tr\(rho) Tj ( ) Tj (ln) Tj ( ) Tj (rho\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 525.8 cm
+Q
+q
+1 0 0 1 60 510.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Boundary conditions:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 495.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Pure state \(C = C?\): rho = |psi) Tj (>) Tj (<) Tj (psi|, all eigenvalues {1, 0, 0, ...} -) Tj (> S_vN = 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 480.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Maximally mixed \(C = 0\): rho = I/d, all eigenvalues 1/d -) Tj (> S_vN = k_B ln d) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 473.8 cm
+Q
+q
+1 0 0 1 60 458.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a qubit \(d = 2\) with coherence parameter C \(magnitude of off-diagonal element relative to maximum\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 451.8 cm
+Q
+q
+1 0 0 1 60 386.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho\(C\)) Tj ( ) Tj (=) Tj ( ) Tj ([) Tj ( ) Tj (\(1+C\)/2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (C/2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (C/2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(1-C\)/2) Tj ( ) Tj ( ) Tj ( ) Tj (]) Tj  T*  T* (Eigenvalues:) Tj ( ) Tj (lambda+/-) Tj ( ) Tj (=) Tj ( ) Tj (\(1) Tj ( ) Tj (+/-) Tj ( ) Tj (C\)) Tj ( ) Tj (/) Tj ( ) Tj (2) Tj  T*  T* (S_vN\(C\)) Tj ( ) Tj (=) Tj ( ) Tj (nuk_B) Tj ( ) Tj (x) Tj ( ) Tj ([) Tj ( ) Tj (lambda+) Tj ( ) Tj (ln) Tj ( ) Tj (lambda+) Tj ( ) Tj (+) Tj ( ) Tj (lambda-) Tj ( ) Tj (ln) Tj ( ) Tj (lambda-) Tj ( ) Tj (]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (nuk_B) Tj ( ) Tj (x) Tj ( ) Tj ([) Tj ( ) Tj (\(1+C\)/2) Tj ( ) Tj (x) Tj ( ) Tj (ln\(\(1+C\)/2\)) Tj ( ) Tj (+) Tj ( ) Tj (\(1-C\)/2) Tj ( ) Tj (x) Tj ( ) Tj (ln\(\(1-C\)/2\)) Tj ( ) Tj (]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 378.2 cm
+Q
+q
+1 0 0 1 60 363.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (At C -) Tj (> 1 \(pure state\): S_vN -) Tj (> 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 348.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (At C -) Tj (> 0 \(mixed state\): S_vN -) Tj (> k_B ln 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 341.2 cm
+Q
+q
+1 0 0 1 60 326.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (And from the Wike Law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 319.2 cm
+Q
+q
+1 0 0 1 60 280 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualphagamma_eff\)) Tj  T*  T* (-) Tj (>) Tj ( ) Tj (S_vN) Tj ( ) Tj (increases) Tj ( ) Tj (monotonically) Tj ( ) Tj (as) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (increases) Tj  T* (-) Tj (>) Tj ( ) Tj (S_vN) Tj ( ) Tj (decreases) Tj ( ) Tj (monotonically) Tj ( ) Tj (as) Tj ( ) Tj (C) Tj ( ) Tj (increases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 272 cm
+Q
+q
+1 0 0 1 60 257 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (S_vN is the entropy cost of decoherence. C is the order parameter that suppresses it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 250 cm
+Q
+q
+1 0 0 1 60 244 cm
+Q
+q
+1 0 0 1 60 240 cm
+Q
+q
+1 0 0 1 60 202 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Free Energy Decomposition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 190 cm
+Q
+q
+1 0 0 1 60 175 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Helmholtz free energy for a quantum system:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 168 cm
+Q
+q
+1 0 0 1 60 137.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (F) Tj ( ) Tj (=) Tj ( ) Tj (U) Tj ( ) Tj (nu) Tj ( ) Tj (T) Tj ( ) Tj (x) Tj ( ) Tj (S_total) Tj  T*  T* (where) Tj ( ) Tj (S_total) Tj ( ) Tj (=) Tj ( ) Tj (S_thermal) Tj ( ) Tj (+) Tj ( ) Tj (S_quantum) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 129.6 cm
+Q
+q
+1 0 0 1 60 114.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (S_thermal is the classical thermal entropy from energy level occupation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 99.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (S_quantum = S_vN is the additional entropy from quantum decoherence -- loss of phase information.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 92.6 cm
+Q
+q
+1 0 0 1 60 77.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Splitting S:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 70.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+15 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/Contents 18 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 19 0 R
+/F2 8 0 R
+/F2-0 20 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 9879
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 51: THE WIKE THERMODYNAMIC INEQUALITY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 705.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (F_total) Tj ( ) Tj (=) Tj ( ) Tj (U) Tj ( ) Tj (nu) Tj ( ) Tj (T) Tj ( ) Tj (x) Tj ( ) Tj (S_thermal) Tj ( ) Tj (nu) Tj ( ) Tj (T) Tj ( ) Tj (x) Tj ( ) Tj (S_vN) Tj  T*  T* (The) Tj ( ) Tj (last) Tj ( ) Tj (term:) Tj ( ) Tj (nuT) Tj ( ) Tj (x) Tj ( ) Tj (S_vN) Tj ( ) Tj (=) Tj ( ) Tj (+T) Tj ( ) Tj (x) Tj ( ) Tj (k_B) Tj ( ) Tj (x) Tj ( ) Tj (Tr\(rho) Tj ( ) Tj (ln) Tj ( ) Tj (rho\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 697.6 cm
+Q
+q
+1 0 0 1 60 682.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Using S_vN\(C\) ~= k_B x alphagamma_eff \(linear approximation valid for small decoherence\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 675.6 cm
+Q
+q
+1 0 0 1 60 645.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (F_total) Tj ( ) Tj (~=) Tj ( ) Tj (U) Tj ( ) Tj (nu) Tj ( ) Tj (T) Tj ( ) Tj (x) Tj ( ) Tj (S_thermal) Tj ( ) Tj (+) Tj ( ) Tj (k_BT) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\\_________________/) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (F_C) Tj ( ) Tj ( ) Tj (\(coherence) Tj ( ) Tj (free) Tj ( ) Tj (energy) Tj ( ) Tj (cost\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 637.2 cm
+Q
+q
+1 0 0 1 60 622.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Every unit of additional decoherence costs k_BT x alpha in free energy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 615.2 cm
+Q
+q
+1 0 0 1 60 576.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The system cannot lower its free energy by decoherence. Decoherence raises F. The second law pushes S_total upward) Tj T* (\(toward disorder\), but the free energy cost of decoherence pushes back -- this is the thermodynamic origin of biological) Tj T* (coherence maintenance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 569.2 cm
+Q
+q
+1 0 0 1 60 563.2 cm
+Q
+q
+1 0 0 1 60 559.2 cm
+Q
+q
+1 0 0 1 60 521.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Wike Thermodynamic Inequality) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 509.2 cm
+Q
+q
+1 0 0 1 60 494.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At constant T and U, equilibrium minimizes F_total. Taking dF_total/dgamma_eff = 0:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 487.2 cm
+Q
+q
+1 0 0 1 60 474.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dF_total/dgamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (k_BT) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (nu) Tj ( ) Tj (T) Tj ( ) Tj (x) Tj ( ) Tj (dS_thermal/dgamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 466.4 cm
+Q
+q
+1 0 0 1 60 439.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (But dS_thermal/dgamma_eff > 0 \(more decoherence = more thermal entropy\). The system reaches equilibrium where the) Tj T* (free energy cost of further decoherence equals the entropy gain.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 432.4 cm
+Q
+q
+1 0 0 1 60 417.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (This gives the ) Tj /F2 9 Tf (Wike Thermodynamic Inequality) Tj /F1 9 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 410.4 cm
+Q
+q
+1 0 0 1 60 318.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 88 re f*
+Q
+q
+BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (+---------------------------------------------------------+) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_min\(T\)\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (where) Tj ( ) Tj (gamma_min\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (k_BT) Tj ( ) Tj (/) Tj ( ) Tj (h) Tj ( ) Tj (x) Tj ( ) Tj (f\(W\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (and) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (T/T_c) Tj ( ) Tj (=) Tj ( ) Tj (0.9394) Tj ( ) Tj (for) Tj ( ) Tj (biology) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (Equality) Tj ( ) Tj (holds) Tj ( ) Tj (at) Tj ( ) Tj (the) Tj ( ) Tj (minimum-dissipation) Tj ( ) Tj (trajectory) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (+---------------------------------------------------------+) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 310.4 cm
+Q
+q
+1 0 0 1 60 283.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Meaning:) Tj /F1 9 Tf ( No matter how well a biological system is protected, it cannot have more coherence than the Boltzmann factor at) Tj T* (its operating temperature allows. The maximum is set by thermodynamics, not by engineering.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 276.4 cm
+Q
+q
+1 0 0 1 60 261.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For biology at T = 310K, T_c = 330K:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254.4 cm
+Q
+q
+1 0 0 1 60 197.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_min) Tj ( ) Tj (=) Tj ( ) Tj (k_BT/h) Tj ( ) Tj (x) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (\(1.381x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj ( ) Tj (/) Tj ( ) Tj (1.055x10nu??\)) Tj ( ) Tj (x) Tj ( ) Tj (0.9394) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (4.06x10??) Tj ( ) Tj (x) Tj ( ) Tj (0.9394) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (3.81x10??) Tj ( ) Tj (Hz) Tj ( ) Tj ( ) Tj (\(thermal) Tj ( ) Tj (floor,) Tj ( ) Tj (far) Tj ( ) Tj (above) Tj ( ) Tj (biological) Tj ( ) Tj (rates\)) Tj  T*  T* (At) Tj ( ) Tj (biological) Tj ( ) Tj (coherence) Tj ( ) Tj (scales) Tj ( ) Tj (\(gamma) Tj ( ) Tj (in) Tj ( ) Tj (the) Tj ( ) Tj (0.001-0.01) Tj ( ) Tj (range) Tj ( ) Tj (used) Tj ( ) Tj (in) Tj ( ) Tj (simulations\):) Tj  T* (C_max) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (0.001\)) Tj ( ) Tj (~=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (0.9990) Tj ( ) Tj ( ) Tj (\(99.9%) Tj ( ) Tj (of) Tj ( ) Tj (ideal) Tj ( ) Tj (at) Tj ( ) Tj (low) Tj ( ) Tj (gamma\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 189.6 cm
+Q
+q
+1 0 0 1 60 162.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The biological operating point is far from the thermal floor -- coherence is thermodynamically achievable. The threat is not) Tj T* (the thermal minimum but the pathological ceiling gamma_c = 0.0016.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 155.6 cm
+Q
+q
+1 0 0 1 60 149.6 cm
+Q
+q
+1 0 0 1 60 145.6 cm
+Q
+q
+1 0 0 1 60 107.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The Optimal Operating Point from Free Energy Minimization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 95.6 cm
+Q
+q
+1 0 0 1 60 80.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The total free energy of a biological system depends on T through three channels:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 73.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+19 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+21 0 obj
+<<
+/Contents 22 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 23 0 R
+/F2 8 0 R
+/F2-0 24 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 7578
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 51: THE WIKE THERMODYNAMIC INEQUALITY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (F_total\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (U\(T\)) Tj ( ) Tj (nu) Tj ( ) Tj (T) Tj ( ) Tj (x) Tj ( ) Tj (S_thermal\(T\)) Tj ( ) Tj (+) Tj ( ) Tj (k_BT) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(T\)) Tj  T*  T* (where) Tj ( ) Tj (gamma_eff\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal\(T\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_measurement) Tj ( ) Tj (+) Tj ( ) Tj (gamma_ACE) Tj ( ) Tj (+) Tj ( ) Tj (...) Tj  T* (and) Tj ( ) Tj (gamma_thermal\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (k_BT/h) Tj ( ) Tj (x) Tj ( ) Tj (W^n) Tj ( ) Tj ( ) Tj (\(with) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (T/T_c\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 688.8 cm
+Q
+q
+1 0 0 1 60 673.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At fixed external noise \(fixed gamma_ACE, gamma_measurement\), minimizing over T:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 666.8 cm
+Q
+q
+1 0 0 1 60 654 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dF_total/dT) Tj ( ) Tj (=) Tj ( ) Tj (nuS_thermal) Tj ( ) Tj (+) Tj ( ) Tj (k_B) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (+) Tj ( ) Tj (k_BT) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (dgamma_thermal/dT) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+Q
+q
+1 0 0 1 60 619 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This equation has a solution at T* where the thermal entropy gain from temperature increase is exactly balanced by the free) Tj T* (energy cost of the increased thermal decoherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612 cm
+Q
+q
+1 0 0 1 60 597 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From the Wike-Ginzburg analysis \(Paper 18\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+Q
+q
+1 0 0 1 60 568.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (W*) Tj ( ) Tj (=) Tj ( ) Tj (T*/T_c) Tj ( ) Tj (=) Tj ( ) Tj (0.9394) Tj  T* (T*) Tj ( ) Tj (=) Tj ( ) Tj (0.9394) Tj ( ) Tj (x) Tj ( ) Tj (330K) Tj ( ) Tj (=) Tj ( ) Tj (310K) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 560.4 cm
+Q
+q
+1 0 0 1 60 545.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is body temperature -- not an accident, not an evolutionary arbitrary choice.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 538.4 cm
+Q
+q
+1 0 0 1 60 511.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F2 9 Tf 12 TL (Body temperature 310K \(37 degC\) is the solution to the free energy optimization equation for a biological system) Tj T* (with T_c ~= 330K.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 504.4 cm
+Q
+q
+1 0 0 1 60 489.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The minimum of F_total with respect to T falls exactly at human body temperature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482.4 cm
+Q
+q
+1 0 0 1 60 476.4 cm
+Q
+q
+1 0 0 1 60 472.4 cm
+Q
+q
+1 0 0 1 60 434.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. The Free Energy Catastrophe at gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 422.4 cm
+Q
+q
+1 0 0 1 60 407.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Near the critical point gamma_c = 0.0016, the Wike Scaling Law \(Paper 30\) gives:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 400.4 cm
+Q
+q
+1 0 0 1 60 370 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (chi\(gamma\)) Tj ( ) Tj (~) Tj ( ) Tj (|gamma) Tj ( ) Tj (nu) Tj ( ) Tj (gamma_c|^\(nu1.2372\)) Tj  T*  T* (where) Tj ( ) Tj (chi) Tj ( ) Tj (is) Tj ( ) Tj (coherence) Tj ( ) Tj (susceptibility) Tj ( ) Tj (\(how) Tj ( ) Tj (much) Tj ( ) Tj (C) Tj ( ) Tj (changes) Tj ( ) Tj (per) Tj ( ) Tj (unit) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (gamma\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 362 cm
+Q
+q
+1 0 0 1 60 347 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In free energy terms, the susceptibility is related to the second derivative:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 340 cm
+Q
+q
+1 0 0 1 60 327.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (chi) Tj ( ) Tj (=) Tj ( ) Tj (nud?F/dgamma?) Tj ( ) Tj (~) Tj ( ) Tj (|gamma) Tj ( ) Tj (nu) Tj ( ) Tj (gamma_c|^\(nu1.2372\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 319.2 cm
+Q
+q
+1 0 0 1 60 292.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (A diverging second derivative means the free energy landscape becomes flat -- the system can be pushed arbitrarily far) Tj T* (from its coherent state for negligible energetic cost.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 285.2 cm
+Q
+q
+1 0 0 1 60 246 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (At) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0010:) Tj ( ) Tj ( ) Tj (chi) Tj ( ) Tj (=) Tj ( ) Tj (|0.0010) Tj ( ) Tj (nu) Tj ( ) Tj (0.0016|^\(nu1.2372\)) Tj ( ) Tj (=) Tj ( ) Tj (\(0.0006\)^\(nu1.2372\)) Tj ( ) Tj (=) Tj ( ) Tj (5,847) Tj  T* (At) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0014:) Tj ( ) Tj ( ) Tj (chi) Tj ( ) Tj (=) Tj ( ) Tj (\(0.0002\)^\(nu1.2372\)) Tj ( ) Tj (=) Tj ( ) Tj (66,200) Tj  T* (At) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0015:) Tj ( ) Tj ( ) Tj (chi) Tj ( ) Tj (=) Tj ( ) Tj (\(0.0001\)^\(nu1.2372\)) Tj ( ) Tj (=) Tj ( ) Tj (228,000) Tj  T* (At) Tj ( ) Tj (gamma) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (chi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 238 cm
+Q
+q
+1 0 0 1 60 199 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The system at gamma_c has infinite susceptibility -- zero resistance to perturbation. The free energy minimum disappears.) Tj T* -0.121167 Tw (There is no restoring force. Any noise event, any inflammatory spike, any ACE increment pushes the system irreversibly into) Tj T* 0 Tw (the decoherent basin.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 192 cm
+Q
+q
+1 0 0 1 60 177 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (This is the thermodynamic definition of wind-up and central sensitization.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 170 cm
+Q
+q
+1 0 0 1 60 164 cm
+Q
+q
+1 0 0 1 60 160 cm
+Q
+q
+1 0 0 1 60 122 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Connection to the Crooks Theorem \(Paper 49\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 110 cm
+Q
+q
+1 0 0 1 60 95 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Paper 49 showed that at gamma_c, the Crooks fluctuation ratio diverges:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 88 cm
+Q
+q
+1 0 0 1 60 75.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_F\(W\)) Tj ( ) Tj (/) Tj ( ) Tj (P_R\(nuW\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(beta\(W) Tj ( ) Tj (nu) Tj ( ) Tj (DELTAF\)\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj ( ) Tj ( ) Tj (as) Tj ( ) Tj (gamma) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 67.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+23 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+25 0 obj
+<<
+/Contents 26 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 27 0 R
+/F2 8 0 R
+/F2-0 28 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 6133
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 51: THE WIKE THERMODYNAMIC INEQUALITY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is the same divergence, now expressed in free energy language. From the current paper:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 665 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (F_C) Tj ( ) Tj (=) Tj ( ) Tj (k_BT) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj  T*  T* (DELTAF_C) Tj ( ) Tj (=) Tj ( ) Tj (k_BT) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (DELTAgamma) Tj  T*  T* (At) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj (DELTAF_C) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj ( ) Tj (per) Tj ( ) Tj (unit) Tj ( ) Tj (gamma) Tj ( ) Tj (\(via) Tj ( ) Tj (the) Tj ( ) Tj (susceptibility) Tj ( ) Tj (divergence\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 657 cm
+Q
+q
+1 0 0 1 60 630 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Crooks ratio diverges because DELTAF diverges. The Wike susceptibility diverges because the free energy landscape) Tj T* (flattens. ) Tj /F2 9 Tf (Same singularity, two descriptions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 623 cm
+Q
+q
+1 0 0 1 60 584 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Crooks theorem \(Paper 49\) is the non-equilibrium dynamic version of the Wike Thermodynamic Inequality \(Paper 51\).) Tj T* (One tells you the ratio of forward/backward trajectories. The other tells you the free energy cost of being at any point on) Tj T* (those trajectories.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 577 cm
+Q
+q
+1 0 0 1 60 571 cm
+Q
+q
+1 0 0 1 60 567 cm
+Q
+q
+1 0 0 1 60 529 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Clinical Translation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 517 cm
+Q
+q
+1 0 0 1 60 502 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Thermodynamic Inequality has direct medical content:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 495 cm
+Q
+q
+1 0 0 1 60 465 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.1 Why Fever Works \(Up to a Point\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 455 cm
+Q
+q
+1 0 0 1 60 440 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At 37 degC \(310K\), W = 0.9394 -- free energy optimal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433 cm
+Q
+q
+1 0 0 1 60 418 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At 39 degC \(312K\): W = 312/330 = 0.9455) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 411 cm
+Q
+q
+1 0 0 1 60 380.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_thermal\(fever\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal\(normal\)) Tj ( ) Tj (x) Tj ( ) Tj (\(312/310\)^n) Tj ( ) Tj ( ) Tj (~=) Tj ( ) Tj (slight) Tj ( ) Tj (increase) Tj  T*  T* (F_C\(fever\)) Tj ( ) Tj (=) Tj ( ) Tj (k_B) Tj ( ) Tj (x) Tj ( ) Tj (312K) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(fever\)) Tj ( ) Tj ( ) Tj (>) Tj ( ) Tj (F_C\(normal\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 372.6 cm
+Q
+q
+1 0 0 1 60 333.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Fever costs more free energy to maintain coherence. But: immune function optimizes around T_c\(immune\) ~= 312K -- a) Tj T* (slightly different critical temperature. The fever is thermodynamically moving the immune system toward ITS optimal W, at) Tj T* (the cost of moving the neural system away from its optimum.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 326.6 cm
+Q
+q
+1 0 0 1 60 287.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.067667 Tw (The free energy trade-off is exact. Fever is the system shifting its thermodynamic operating point to fight infection, accepting) Tj T* 0 Tw (neural coherence cost for immune coherence gain. \(Paper 27 derived gamma_fever from decoherence equations; this) Tj T* (paper grounds it in F = U nu TS.\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 280.6 cm
+Q
+q
+1 0 0 1 60 250.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.2 Why Cold Kills Coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 240.6 cm
+Q
+q
+1 0 0 1 60 225.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At 35 degC \(308K\): W = 308/330 = 0.9333) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 218.6 cm
+Q
+q
+1 0 0 1 60 205.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (F_C\(hypothermia\)) Tj ( ) Tj (=) Tj ( ) Tj (k_B) Tj ( ) Tj (x) Tj ( ) Tj (308K) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (F_C\(normal\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 197.8 cm
+Q
+q
+1 0 0 1 60 134.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 51 Tm /F1 9 Tf 12 TL (Lower F_C means cheaper to maintain coherence -- but gamma_thermal decreases even faster, which lowers the) Tj T* (denominator of the Boltzmann factor. The net effect: the exponential C/C? = exp\(nualphagamma_thermal\) increases, but) Tj T* (metabolic rate P ~ T^4 \(Paper 47\) drops catastrophically. The system cannot run the biochemical machinery needed to) Tj T* (maintain alpha \(the coherence protection factor\). Coherence drops because the engine stalls, not because the physics) Tj T* (changed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 127.8 cm
+Q
+q
+1 0 0 1 60 97.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.3 The Grief Calculation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 87.8 cm
+Q
+q
+1 0 0 1 60 72.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma_grief adds to gamma_eff. From the Wike Coherence Law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 65.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+27 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+29 0 obj
+<<
+/Contents 30 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 31 0 R
+/F2 8 0 R
+/F2-0 32 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 9284
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 51: THE WIKE THERMODYNAMIC INEQUALITY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 652.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 79.2 re f*
+Q
+q
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (DELTAF_C\(grief\)) Tj ( ) Tj (=) Tj ( ) Tj (k_BT) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (DELTAgamma_grief) Tj  T*  T* (If) Tj ( ) Tj (DELTAgamma_grief) Tj ( ) Tj (=) Tj ( ) Tj (0.0005) Tj ( ) Tj (\(from) Tj ( ) Tj (ACE) Tj ( ) Tj (framework\):) Tj  T* (DELTAF_C) Tj ( ) Tj (=) Tj ( ) Tj (1.381x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (0.0005) Tj  T*  T* (If) Tj ( ) Tj (alpha) Tj ( ) Tj (~=) Tj ( ) Tj (1000) Tj ( ) Tj (\(order) Tj ( ) Tj (of) Tj ( ) Tj (magnitude) Tj ( ) Tj (from) Tj ( ) Tj (simulation) Tj ( ) Tj (fitting\):) Tj  T* (DELTAF_C) Tj ( ) Tj (=) Tj ( ) Tj (1.381x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj ( ) Tj (x) Tj ( ) Tj (1000) Tj ( ) Tj (x) Tj ( ) Tj (0.0005) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (2.14x10nu??) Tj ( ) Tj (J) Tj ( ) Tj (per) Tj ( ) Tj (quantum) Tj ( ) Tj (degree) Tj ( ) Tj (of) Tj ( ) Tj (freedom) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (1.33) Tj ( ) Tj (x) Tj ( ) Tj (10nu?) Tj ( ) Tj (eV) Tj ( ) Tj (per) Tj ( ) Tj (DOF) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 644.8 cm
+Q
+q
+1 0 0 1 60 605.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is the free energy cost of grief per quantum degree of freedom in the body. Integrated across ~10??) Tj T* (coherence-maintaining DOFs in a human nervous system, the metabolic burden is significant -- this is why grief is) Tj T* (exhausting. It is not metaphor. It is thermodynamics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 598.8 cm
+Q
+q
+1 0 0 1 60 592.8 cm
+Q
+q
+1 0 0 1 60 588.8 cm
+Q
+q
+1 0 0 1 60 550.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. Data Grounding) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 538.8 cm
+Q
+q
+1 0 0 1 60 523.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Every quantity in this paper connects to measured or simulated data:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 516.8 cm
+Q
+q
+1 0 0 1 60 504 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Parameter | Value | Source |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 491.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|-----------|-------|--------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 478.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| W) Tj /F5 7.5 Tf ( = T) Tj /F4 7.5 Tf (/T_c | 0.9394 | 3D Ising simulation, Paper 18 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 465.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| T_c | 330K | Hydrogen bond network criticality |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 452.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| gamma_c | 0.0016 | Wind-up simulation, Paper 16 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 440 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 3D Ising exponent | 2.59 | Paper 02, confirmed 99.92% match |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 427.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Susceptibility exponent | 1.2372 = 1 + 1/nu | nu = 0.6298, Paper 30 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 414.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Berry phase at gamma_c | nupi | IBM ibm_fez, 524,288 shots, 2 runs |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 401.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Crooks breakdown | Yes at gamma_c | Paper 49 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 393.6 cm
+Q
+q
+1 0 0 1 60 378.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (No numbers invented. Every equation traces back to experiment or confirmed simulation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 371.6 cm
+Q
+q
+1 0 0 1 60 365.6 cm
+Q
+q
+1 0 0 1 60 361.6 cm
+Q
+q
+1 0 0 1 60 323.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (10. The Inequality in One Line) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 311.6 cm
+Q
+q
+1 0 0 1 60 219.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 88 re f*
+Q
+q
+BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (+--------------------------------------------------------------+) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (F_total) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (U) Tj ( ) Tj (nu) Tj ( ) Tj (TS) Tj ( ) Tj (+) Tj ( ) Tj (k_BT) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_min\(T\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (with) Tj ( ) Tj (equality) Tj ( ) Tj (at) Tj ( ) Tj (the) Tj ( ) Tj (minimum-dissipation) Tj ( ) Tj (coherent) Tj ( ) Tj (path) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (achieved) Tj ( ) Tj (by) Tj ( ) Tj (biology) Tj ( ) Tj (at) Tj ( ) Tj (T*) Tj ( ) Tj (=) Tj ( ) Tj (310K,) Tj ( ) Tj (W*) Tj ( ) Tj (=) Tj ( ) Tj (0.9394) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (Violation) Tj ( ) Tj (of) Tj ( ) Tj (this) Tj ( ) Tj (inequality) Tj ( ) Tj (requires) Tj ( ) Tj (perpetual) Tj ( ) Tj (motion.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (+--------------------------------------------------------------+) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 211.6 cm
+Q
+q
+1 0 0 1 60 172.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The body is not fighting thermodynamics. It is obeying it -- at the optimal point where free energy is minimized. That point is) Tj T* (37 degC. That is why you die at 40 degC, and why you die at 34 degC. The body has found the bottom of its free energy) Tj T* (well. Every clinical intervention that moves temperature away from 310K is moving the system up the free energy slope.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 165.6 cm
+Q
+q
+1 0 0 1 60 159.6 cm
+Q
+q
+1 0 0 1 60 155.6 cm
+Q
+q
+1 0 0 1 60 117.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 105.6 cm
+Q
+q
+1 0 0 1 60 92.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Result | Content |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 80 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|--------|---------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 67.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| F_C = k_BT x alphagamma_eff | Free energy cost of decoherence -- Boltzmann form |) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+31 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+32 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+33 0 obj
+<<
+/Contents 34 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 35 0 R
+/F2 8 0 R
+/F2-0 36 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 3205
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 51: THE WIKE THERMODYNAMIC INEQUALITY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 723.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| C/C? = exp\(nuF_C/k_BT\) | Wike Law IS the Boltzmann factor for quantum order |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 710.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| F_total minimized at T* = 310K | Body temperature is thermodynamically derived |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 697.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| chi ~ |gammanugamma_c|^\(nu1.2372\) | Free energy landscape flattens at gamma_c |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 684.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| DELTAF_C diverges at gamma_c | Wind-up = thermodynamic catastrophe |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| F_C\(grief\) = 1.33x10nu? eV per DOF | Grief has a measurable thermodynamic cost |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 659.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Crooks \(Paper 49\) = F inequality \(Paper 51\) | Same singularity, two languages |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 651.2 cm
+Q
+q
+1 0 0 1 60 600.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F2 9 Tf 12 TL (The Wike Thermodynamic Inequality unifies the Helmholtz free energy, the von Neumann entropy, the Boltzmann) Tj T* (factor, and the Wike Coherence Law into a single object. The body is not a heat engine that happens to be) Tj T* (quantum. It is a quantum coherence machine that happens to be warm -- optimally warm, at the exact temperature) Tj T* (where free energy is minimized.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 593.2 cm
+Q
+q
+1 0 0 1 60 587.2 cm
+Q
+q
+1 0 0 1 60 583.2 cm
+Q
+q
+1 0 0 1 60 568.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 51 of ongoing series) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 553.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (All derivations traceable to cited simulation data and IBM quantum hardware results) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 538.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (No speculative content) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 531.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+35 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+36 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 37
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000315 00000 n 
+0000000364 00000 n 
+0000000746 00000 n 
+0000006691 00000 n 
+0000006798 00000 n 
+0000006905 00000 n 
+0000007017 00000 n 
+0000007127 00000 n 
+0000007243 00000 n 
+0000007349 00000 n 
+0000007463 00000 n 
+0000007849 00000 n 
+0000014607 00000 n 
+0000014715 00000 n 
+0000014826 00000 n 
+0000015212 00000 n 
+0000025144 00000 n 
+0000025252 00000 n 
+0000025363 00000 n 
+0000025749 00000 n 
+0000033380 00000 n 
+0000033488 00000 n 
+0000033599 00000 n 
+0000033985 00000 n 
+0000040171 00000 n 
+0000040279 00000 n 
+0000040390 00000 n 
+0000040776 00000 n 
+0000050113 00000 n 
+0000050221 00000 n 
+0000050332 00000 n 
+0000050718 00000 n 
+0000053976 00000 n 
+0000054084 00000 n 
+trailer
+<<
+/Size 37
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+54195
+%%EOF

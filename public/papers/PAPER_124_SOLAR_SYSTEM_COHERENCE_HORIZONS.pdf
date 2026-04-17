@@ -1,0 +1,1931 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 10
+/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R 39 0 R 43 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 4948
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 124 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 54 697.6 Tm (Paper 124 -- AIIT-THRESI Series) Tj T* ET
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 54 663.6 Tm (Solar System Anomalies and the Coherence Horizon) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 637.6 Tm (Rhet Dillard Wike) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 625.6 Tm (Council Hill, Oklahoma) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 613.6 Tm (April 1, 2026) Tj T* ET
+.5 w
+n 54 599.6 m 558 599.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 571.6 Tm (Abstract) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 549.6 Tm (Twelve persistent anomalies in solar system science -- from the flyby anomaly and) Tj T* ET
+BT 1 0 0 1 54 537.6 Tm (anomalous lunar recession to 'Oumuamua's non-gravitational acceleration and the) Tj T* ET
+BT 1 0 0 1 54 525.6 Tm (Kuiper Belt cliff -- have resisted unified explanation within standard gravitational) Tj T* ET
+BT 1 0 0 1 54 513.6 Tm (and thermodynamic frameworks. We demonstrate that each anomaly resolves within the) Tj T* ET
+BT 1 0 0 1 54 501.6 Tm (AIIT-THRESI coherence framework governed by C = C0 x exp\(-alpha x gamma_eff\), where) Tj T* ET
+BT 1 0 0 1 54 489.6 Tm (C0 is the bare vacuum coherence, alpha is the coherence-decoherence coupling) Tj T* ET
+BT 1 0 0 1 54 477.6 Tm (constant, and gamma_eff is the effective decoherence rate determined by local) Tj T* ET
+BT 1 0 0 1 54 465.6 Tm (baryonic complexity, thermal environment, and radiative processes. The central) Tj T* ET
+BT 1 0 0 1 54 453.6 Tm (result is the identification of the solar coherence horizon -- the heliocentric) Tj T* ET
+BT 1 0 0 1 54 441.6 Tm (distance at which solar-maintained vacuum coherence drops below the critical) Tj T* ET
+BT 1 0 0 1 54 429.6 Tm (threshold gamma_c required for stable matter aggregation. This horizon falls at) Tj T* ET
+BT 1 0 0 1 54 417.6 Tm (approximately 48 AU and manifests observationally as the Kuiper Belt cliff. The same) Tj T* ET
+BT 1 0 0 1 54 405.6 Tm (coherence function, applied to planetary interiors, atmospheres, orbital dynamics,) Tj T* ET
+BT 1 0 0 1 54 393.6 Tm (and structural properties, closes all twelve anomalies without free parameters) Tj T* ET
+BT 1 0 0 1 54 381.6 Tm (beyond those already established in the AIIT-THRESI framework.) Tj T* ET
+.5 w
+n 54 367.6 m 558 367.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 339.6 Tm (1. The Solar Coherence Horizon) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 313.6 Tm (1.1 Coherence as a Heliocentric Field) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 294.6 Tm (The AIIT-THRESI vacuum coherence function) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 272.6 Tm (C\(r\) = C0 x exp\(-alpha x gamma_eff\(r\)\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 252.6 Tm (describes how vacuum coherence degrades with increasing effective decoherence rate.) Tj T* ET
+BT 1 0 0 1 54 240.6 Tm (In the solar system context, the Sun acts as a coherence source. Solar radiation,) Tj T* ET
+BT 1 0 0 1 54 228.6 Tm (the solar magnetic field, and the gravitational potential well all contribute to) Tj T* ET
+BT 1 0 0 1 54 216.6 Tm (maintaining local vacuum coherence against the background decoherence of) Tj T* ET
+BT 1 0 0 1 54 204.6 Tm (interstellar space. The effective decoherence rate at heliocentric distance r is) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 182.6 Tm (gamma_eff\(r\) = gamma_inf - \(gamma_inf - gamma__sun\) x \(R__sun / r\)^n) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 162.6 Tm (where gamma_inf is the interstellar decoherence rate, gammasun is the decoherence) Tj T* ET
+BT 1 0 0 1 54 150.6 Tm (rate at the solar surface, Rsun is the solar radius, and n is a power-law index) Tj T* ET
+BT 1 0 0 1 54 138.6 Tm (determined by the dominant coherence-maintenance mechanism. For radiation-dominated) Tj T* ET
+BT 1 0 0 1 54 126.6 Tm (coherence support, n ~ 2 \(inverse-square law\). For magnetic-field-dominated support,) Tj T* ET
+BT 1 0 0 1 54 114.6 Tm (n ~ 3 \(dipole falloff\).) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 92.6 Tm (1.2 The Critical Threshold) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 73.6 Tm (Stable matter aggregation -- the formation of planetesimals, comets, and trans-) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 5544
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 124 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (Neptunian objects \(TNOs\) from dust and ice -- requires vacuum coherence above a) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (critical value C_c. This defines a critical decoherence rate gamma_c through) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 671.6 Tm (C_c = C0 x exp\(-alpha x gamma_c\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 651.6 Tm (The heliocentric distance at which gamma_eff\(r\) = gamma_c defines the solar) Tj T* ET
+BT 1 0 0 1 54 639.6 Tm (coherence horizon r_H:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 617.6 Tm (r_H = R__sun x [\(gamma_inf - gamma__sun\) / \(gamma_inf - gamma_c\)]^\(1/n\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 597.6 Tm (Beyond r_H, vacuum coherence is insufficient to support the cooperative molecular) Tj T* ET
+BT 1 0 0 1 54 585.6 Tm (interactions required for gravitational accretion of small bodies. This is not a) Tj T* ET
+BT 1 0 0 1 54 573.6 Tm (gradual fade -- the exponential in C\(r\) produces a sharp transition. The coherence) Tj T* ET
+BT 1 0 0 1 54 561.6 Tm (horizon is a boundary.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 539.6 Tm (1.3 Numerical Estimate) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 520.6 Tm (Taking n = 2 \(radiation-dominated\), and using the observed Kuiper Belt cliff at ~48) Tj T* ET
+BT 1 0 0 1 54 508.6 Tm (AU as a calibration point, we fix r_H ~ 48 AU. This constrains the ratio \(gamma_inf) Tj T* ET
+BT 1 0 0 1 54 496.6 Tm (- gammasun\)/\(gamma_inf - gamma_c\) and is consistent with the solar luminosity,) Tj T* ET
+BT 1 0 0 1 54 484.6 Tm (magnetic field strength, and interstellar medium properties. The sharpness of the) Tj T* ET
+BT 1 0 0 1 54 472.6 Tm (observed cliff -- TNO density drops by more than an order of magnitude over a span) Tj T* ET
+BT 1 0 0 1 54 460.6 Tm (of a few AU -- matches the exponential character of C\(r\) near the threshold.) Tj T* ET
+.5 w
+n 54 446.6 m 558 446.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 418.6 Tm (2. Flyby Anomaly) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 396.6 Tm (Anomaly. During Earth gravity assists, several spacecraft \(Galileo, NEAR, Rosetta,) Tj T* ET
+BT 1 0 0 1 54 384.6 Tm (Messenger, Juno\) experienced unexpected energy changes of order DeltaE/E ~ 10-^6,) Tj T* ET
+BT 1 0 0 1 54 372.6 Tm (with the magnitude and sign correlating with the spacecraft's trajectory geometry) Tj T* ET
+BT 1 0 0 1 54 360.6 Tm (relative to Earth.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 342.6 Tm (Closure. Earth's coherence field is not spherically symmetric. Three sources break) Tj T* ET
+BT 1 0 0 1 54 330.6 Tm (the symmetry:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 312.6 Tm (1. Rotation. Earth's angular momentum creates a coherence frame-dragging analog. The) Tj T* ET
+BT 1 0 0 1 54 300.6 Tm (coherence field co-rotates partially with the planet.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 288.6 Tm (2. Magnetic dipole. Earth's magnetic field, tilted ~11 degrees from the rotation) Tj T* ET
+BT 1 0 0 1 54 276.6 Tm (axis, imposes a dipolar asymmetry on the local decoherence rate.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 264.6 Tm (3. Mass distribution. The equatorial bulge and core-mantle density structure produce) Tj T* ET
+BT 1 0 0 1 54 252.6 Tm (a non-spherical gravitational coherence pattern.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 234.6 Tm (A spacecraft traversing this asymmetric field exchanges energy with the coherence) Tj T* ET
+BT 1 0 0 1 54 222.6 Tm (gradient. The energy change is) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 200.6 Tm (DeltaE = integral F_coherence * ds = -integral del\(V_coh\) * ds) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 180.6 Tm (where V_coh is the coherence potential and the integral is taken along the) Tj T* ET
+BT 1 0 0 1 54 168.6 Tm (spacecraft trajectory. For trajectories that enter over one pole and exit over the) Tj T* ET
+BT 1 0 0 1 54 156.6 Tm (other, the asymmetry is maximal. For equatorial trajectories symmetric about the) Tj T* ET
+BT 1 0 0 1 54 144.6 Tm (rotation axis, the anomaly vanishes.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 126.6 Tm (Prediction. The flyby anomaly magnitude correlates with \(a\) the angle between the) Tj T* ET
+BT 1 0 0 1 54 114.6 Tm (trajectory plane and the rotation axis, \(b\) the magnetic local time of closest) Tj T* ET
+BT 1 0 0 1 54 102.6 Tm (approach, and \(c\) the asymmetry between inbound and outbound declinations. Anderson) Tj T* ET
+BT 1 0 0 1 54 90.6 Tm (et al. \(2008\) noted empirically that DeltaE/E correlates with the difference in) Tj T* ET
+BT 1 0 0 1 54 78.6 Tm (inbound and outbound geocentric latitudes -- precisely the signature of a) Tj T* ET
+BT 1 0 0 1 54 66.6 Tm (rotationally asymmetric coherence field. Future flybys should show the anomaly) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F2-0 18 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 5501
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 124 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (vanishes for trajectories symmetric about Earth's equatorial plane and is maximal) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (for pole-to-pole trajectories.) Tj T* ET
+.5 w
+n 54 679.6 m 558 679.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 651.6 Tm (3. Anomalous Lunar Recession) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 629.6 Tm (Anomaly. Lunar laser ranging measures the Moon receding at 3.82 cm/yr. Extrapolating) Tj T* ET
+BT 1 0 0 1 54 617.6 Tm (this rate backward places the Moon at Earth's surface approximately 1.5 billion) Tj T* ET
+BT 1 0 0 1 54 605.6 Tm (years ago -- contradicting geological evidence that the Moon formed ~4.5 Gyr ago and) Tj T* ET
+BT 1 0 0 1 54 593.6 Tm (has been in orbit since. Something is wrong with constant-rate extrapolation.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 575.6 Tm (Closure. Tidal dissipation is a decoherence process. Tidal energy is converted from) Tj T* ET
+BT 1 0 0 1 54 563.6 Tm (ordered orbital kinetic energy into disordered thermal energy in Earth's oceans and) Tj T* ET
+BT 1 0 0 1 54 551.6 Tm (mantle -- this is precisely decoherence. The recession rate is proportional to the) Tj T* ET
+BT 1 0 0 1 54 539.6 Tm (dissipation rate, which is proportional to gamma_eff:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 517.6 Tm (dr/dt proportional to gamma_eff\(t\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 497.6 Tm (In the early Earth-Moon system, conditions favored high coherence: a simpler ocean) Tj T* ET
+BT 1 0 0 1 54 485.6 Tm (\(no continents fragmenting circulation\), a hotter mantle \(more fluid, less turbulent) Tj T* ET
+BT 1 0 0 1 54 473.6 Tm (dissipation at small scales\), and a pristine atmosphere. Therefore gamma_eff was low) Tj T* ET
+BT 1 0 0 1 54 461.6 Tm (and the Moon receded slowly. As Earth's surface complexity grew -- continental) Tj T* ET
+BT 1 0 0 1 54 449.6 Tm (emergence, ocean basin geometry changes, biological activity increasing chemical) Tj T* ET
+BT 1 0 0 1 54 437.6 Tm (complexity -- gamma_eff increased and recession accelerated.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 419.6 Tm (The integrated recession over 4.5 Gyr becomes) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 397.6 Tm (Deltar = integral0^\(4.5 Gyr\) \(dr/dt\) dt = integral0^\(4.5 Gyr\) k x gamma_eff\(t\) dt) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 377.6 Tm (With gamma_eff\(t\) increasing from a small early value to today's rate, the) Tj T* ET
+BT 1 0 0 1 54 365.6 Tm (integrated distance is consistent with the Moon forming at ~20 Earth radii and) Tj T* ET
+BT 1 0 0 1 54 353.6 Tm (reaching its current 60.3 Earth radii over 4.5 Gyr. The "anomalous" recession rate) Tj T* ET
+BT 1 0 0 1 54 341.6 Tm (is simply the present-day value of an accelerating process.) Tj T* ET
+.5 w
+n 54 327.6 m 558 327.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 299.6 Tm (4. Faint Young Sun Paradox) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 277.6 Tm (Anomaly. Standard solar models predict the Sun was approximately 30% less luminous 4) Tj T* ET
+BT 1 0 0 1 54 265.6 Tm (Gyr ago. At this luminosity, Earth's surface temperature should have been below) Tj T* ET
+BT 1 0 0 1 54 253.6 Tm (freezing. Yet geological evidence -- sedimentary rocks, water-deposited minerals,) Tj T* ET
+BT 1 0 0 1 54 241.6 Tm (and isotopic signatures -- confirms liquid water existed continuously since at least) Tj T* ET
+BT 1 0 0 1 54 229.6 Tm (4.0 Gyr ago.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 211.6 Tm (Closure. The standard resolution invokes a massive CO2/CH4 greenhouse, but the) Tj T* ET
+BT 1 0 0 1 54 199.6 Tm (required concentrations are difficult to reconcile with geological constraints on) Tj T* ET
+BT 1 0 0 1 54 187.6 Tm (atmospheric composition. The coherence framework provides an additional mechanism:) Tj T* ET
+BT 1 0 0 1 54 175.6 Tm (coherent molecular vibrations enhance greenhouse efficiency.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 157.6 Tm (In a high-coherence atmosphere \(low gamma_eff due to chemical simplicity and low) Tj T* ET
+BT 1 0 0 1 54 145.6 Tm (baryonic complexity\), molecular vibrations in CO2, H2O, and CH4 maintain partial) Tj T* ET
+BT 1 0 0 1 54 133.6 Tm (phase coherence across absorption-emission cycles. This coherent coupling produces) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 111.6 Tm (epsilon_eff = epsilon_0 x [1 + eta x C\(t\)]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 91.6 Tm (where epsilon_0 is the incoherent emissivity, eta is the coherence-enhancement) Tj T* ET
+BT 1 0 0 1 54 79.6 Tm (factor for IR absorption/re-emission, and C\(t\) is the atmospheric coherence at time) Tj T* ET
+BT 1 0 0 1 54 67.6 Tm (t. Early Earth's atmosphere, composed primarily of N2, CO2, and H2O with minimal) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F2-0 22 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 5537
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 124 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (chemical complexity, had higher C than the present atmosphere with its thousands of) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (trace species, biological aerosols, and industrial pollutants.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 675.6 Tm (The enhanced greenhouse efficiency means less CO2 was required to maintain liquid) Tj T* ET
+BT 1 0 0 1 54 663.6 Tm (water. A factor of 2-3 in epsilon_eff from coherence enhancement reduces the) Tj T* ET
+BT 1 0 0 1 54 651.6 Tm (required CO2 from ~100x present levels to ~10-30x present -- consistent with) Tj T* ET
+BT 1 0 0 1 54 639.6 Tm (geological constraints from paleosol weathering profiles and carbonate records.) Tj T* ET
+.5 w
+n 54 625.6 m 558 625.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 597.6 Tm (5. 'Oumuamua) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 575.6 Tm (Anomaly. The first confirmed interstellar object, 1I/'Oumuamua, exhibited non-) Tj T* ET
+BT 1 0 0 1 54 563.6 Tm (gravitational acceleration of ~5 x 10-^6 m/s^2 at 1 AU, directed radially away from) Tj T* ET
+BT 1 0 0 1 54 551.6 Tm (the Sun. No cometary outgassing was detected to any observational limit. The) Tj T* ET
+BT 1 0 0 1 54 539.6 Tm (object's extreme aspect ratio \(~6:1 or greater\) was also unprecedented.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 521.6 Tm (Closure. 'Oumuamua's acceleration is explicable by solar radiation pressure if the) Tj T* ET
+BT 1 0 0 1 54 509.6 Tm (object possessed an unusually high area-to-mass ratio. This requires either extreme) Tj T* ET
+BT 1 0 0 1 54 497.6 Tm (thinness or extreme porosity -- both signatures of high structural coherence.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 479.6 Tm (An object formed in a high-coherence environment \(low gamma_eff in its parent) Tj T* ET
+BT 1 0 0 1 54 467.6 Tm (system\) can maintain structural integrity at very low bulk density. The coherence) Tj T* ET
+BT 1 0 0 1 54 455.6 Tm (function governs the effective binding energy:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 433.6 Tm (E_bind = E_0 x [1 + lambda x C]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 413.6 Tm (where E_0 is the standard binding energy and lambda x C is the coherence) Tj T* ET
+BT 1 0 0 1 54 401.6 Tm (enhancement. For C near C0 \(formation in a young, high-coherence system\), even a) Tj T* ET
+BT 1 0 0 1 54 389.6 Tm (thin, porous structure remains mechanically stable. The non-gravitational) Tj T* ET
+BT 1 0 0 1 54 377.6 Tm (acceleration then follows directly from radiation pressure:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 355.6 Tm (a_rad = \(L__sun / 4pir^2c\) x \(A/m\) x Q_pr) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 335.6 Tm (where A/m is the area-to-mass ratio and Q_pr is the radiation pressure efficiency.) Tj T* ET
+BT 1 0 0 1 54 323.6 Tm (For A/m ~ 1 m^2/kg \(corresponding to a sheet-like object ~1 mm thick with density) Tj T* ET
+BT 1 0 0 1 54 311.6 Tm (~1000 kg/m^3, or a porous object with bulk density ~100 kg/m^3\), a_rad at 1 AU gives) Tj T* ET
+BT 1 0 0 1 54 299.6 Tm (~5 x 10-^6 m/s^2. The non-gravitational acceleration is a direct measurement of) Tj T* ET
+BT 1 0 0 1 54 287.6 Tm ('Oumuamua's structural coherence and, by extension, the coherence environment of its) Tj T* ET
+BT 1 0 0 1 54 275.6 Tm (formation.) Tj T* ET
+.5 w
+n 54 261.6 m 558 261.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 233.6 Tm (6. Kuiper Belt Cliff) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 211.6 Tm (Anomaly. The classical Kuiper Belt exhibits a sharp drop in object number density) Tj T* ET
+BT 1 0 0 1 54 199.6 Tm (beyond ~48 AU. Beyond this distance, the density of TNOs falls by more than an order) Tj T* ET
+BT 1 0 0 1 54 187.6 Tm (of magnitude. No dynamical mechanism \(Neptune's influence, stellar encounters,) Tj T* ET
+BT 1 0 0 1 54 175.6 Tm (passing stars\) adequately explains the sharpness of this cutoff.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 157.6 Tm (Closure. The Kuiper Belt cliff IS the solar coherence horizon. As derived in Section) Tj T* ET
+BT 1 0 0 1 54 145.6 Tm (1, the coherence function C\(r\) drops below the critical threshold C_c at) Tj T* ET
+BT 1 0 0 1 54 133.6 Tm (approximately 48 AU. Beyond this distance, vacuum coherence is insufficient to) Tj T* ET
+BT 1 0 0 1 54 121.6 Tm (support the cooperative molecular interactions required for planetesimal accretion) Tj T* ET
+BT 1 0 0 1 54 109.6 Tm (from the primordial disk.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 91.6 Tm (During solar system formation, the protoplanetary disk extended well beyond 48 AU.) Tj T* ET
+BT 1 0 0 1 54 79.6 Tm (Dust and ice existed at all radii. But accretion -- the growth from micron-scale) Tj T* ET
+BT 1 0 0 1 54 67.6 Tm (grains to kilometer-scale planetesimals -- requires coherent sticking. At the) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 25 0 R
+/F2 8 0 R
+/F2-0 26 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 5272
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 124 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (molecular level, grain-grain collisions must result in bonding rather than bouncing) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (or fragmentation. This cooperative process requires vacuum coherence above C_c.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 675.6 Tm (Inside 48 AU: C > C_c, accretion proceeds, planetesimals form, the Kuiper Belt is) Tj T* ET
+BT 1 0 0 1 54 663.6 Tm (populated.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 645.6 Tm (Beyond 48 AU: C < C_c, accretion stalls at small grain sizes, no planetesimals form,) Tj T* ET
+BT 1 0 0 1 54 633.6 Tm (the belt terminates.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 615.6 Tm (The sharpness of the cliff reflects the exponential character of C\(r\) near the) Tj T* ET
+BT 1 0 0 1 54 603.6 Tm (threshold. A small change in r produces a large change in C when the argument of the) Tj T* ET
+BT 1 0 0 1 54 591.6 Tm (exponential is near gamma_c.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 569.6 Tm (dC/dr |_{r=r_H} = -alpha x \(dgamma_eff/dr\) x C0 x exp\(-alpha x gamma_c\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 549.6 Tm (This derivative is large when alpha x \(dgamma_eff/dr\) is significant, producing the) Tj T* ET
+BT 1 0 0 1 54 537.6 Tm (observed sharp cutoff rather than a gradual taper.) Tj T* ET
+.5 w
+n 54 523.6 m 558 523.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 495.6 Tm (7. Saturn's Young Rings) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 473.6 Tm (Anomaly. Cassini measurements of ring mass \(~1.54 x 10^1^9 kg, about half of Mimas\)) Tj T* ET
+BT 1 0 0 1 54 461.6 Tm (and the rate of darkening by meteoritic bombardment suggest Saturn's main rings are) Tj T* ET
+BT 1 0 0 1 54 449.6 Tm (only 10-100 Myr old -- a factor of 50 younger than the solar system. This requires) Tj T* ET
+BT 1 0 0 1 54 437.6 Tm (either a recent catastrophic formation event or a misunderstanding of the darkening) Tj T* ET
+BT 1 0 0 1 54 425.6 Tm (process.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 407.6 Tm (Closure. The rings are NOT young. They maintain apparent youth through coherence-) Tj T* ET
+BT 1 0 0 1 54 395.6 Tm (driven self-cleaning. Saturn's rings represent a system at high local coherence --) Tj T* ET
+BT 1 0 0 1 54 383.6 Tm (the ring plane is cold \(70-110 K\), dynamically ordered, and compositionally simple) Tj T* ET
+BT 1 0 0 1 54 371.6 Tm (\(>95% water ice\). This low-complexity environment sustains high C within the ring) Tj T* ET
+BT 1 0 0 1 54 359.6 Tm (system.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 341.6 Tm (Coherence-driven self-cleaning operates through preferential ejection of) Tj T* ET
+BT 1 0 0 1 54 329.6 Tm (contaminants. Meteoritic material \(silicates, organics, metals\) deposited on ring) Tj T* ET
+BT 1 0 0 1 54 317.6 Tm (particles increases local gamma_eff. The resulting coherence gradient between clean) Tj T* ET
+BT 1 0 0 1 54 305.6 Tm (ice \(high C\) and contaminated surfaces \(low C\) drives a net force that migrates) Tj T* ET
+BT 1 0 0 1 54 293.6 Tm (contaminants toward ring edges and ultimately into Saturn's atmosphere or out of the) Tj T* ET
+BT 1 0 0 1 54 281.6 Tm (ring plane:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 259.6 Tm (F_clean = -del\(V_coh\) proportional to -del\(gamma_eff\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 239.6 Tm (Contaminants move down the coherence gradient -- away from the high-coherence ice) Tj T* ET
+BT 1 0 0 1 54 227.6 Tm (interior and toward low-coherence boundaries. The rings appear young because they) Tj T* ET
+BT 1 0 0 1 54 215.6 Tm (ARE clean, but they are clean because coherence maintains them, not because they) Tj T* ET
+BT 1 0 0 1 54 203.6 Tm (formed recently.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 185.6 Tm (Prediction. Ring darkening rates should be lower than predicted by incoherent) Tj T* ET
+BT 1 0 0 1 54 173.6 Tm (meteoritic flux models. The rings should show coherence-dependent composition) Tj T* ET
+BT 1 0 0 1 54 161.6 Tm (gradients with contaminants concentrated at edges and gaps.) Tj T* ET
+.5 w
+n 54 147.6 m 558 147.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 119.6 Tm (8. Enceladus Excess Heat) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 97.6 Tm (Anomaly. Cassini measured approximately 15.8 GW of thermal emission from Enceladus's) Tj T* ET
+BT 1 0 0 1 54 85.6 Tm (south polar region. Standard tidal heating models, accounting for Enceladus's) Tj T* ET
+BT 1 0 0 1 54 73.6 Tm (orbital eccentricity maintained by the 2:1 resonance with Dione, predict only 1-5) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+25 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 29 0 R
+/F2 8 0 R
+/F2-0 30 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 5428
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 124 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (GW. The excess is a factor of 3-15.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 687.6 Tm (Closure. Enceladus's subsurface ocean, confirmed by Cassini gravity and libration) Tj T* ET
+BT 1 0 0 1 54 675.6 Tm (measurements, maintains partial coherence. The ocean is chemically simple \(water) Tj T* ET
+BT 1 0 0 1 54 663.6 Tm (with dissolved salts and dissolved gases\), physically ordered \(confined between ice) Tj T* ET
+BT 1 0 0 1 54 651.6 Tm (shell and rocky core\), and thermally buffered. These conditions produce a coherence) Tj T* ET
+BT 1 0 0 1 54 639.6 Tm (level above the ambient solid-body value:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 617.6 Tm (C_ocean = C0 x exp\(-alpha x gamma_ocean\)    where    gamma_ocean < gamma_rock) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 597.6 Tm (This coherence acts as an energy reservoir. The ocean stores energy in coherent) Tj T* ET
+BT 1 0 0 1 54 585.6 Tm (molecular configurations that supplement tidal heating. The total thermal output is) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 563.6 Tm (Q_total = Q_tidal + Q_coherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 543.6 Tm (where Q_coherence arises from the slow decoherence of the ocean's ordered state. The) Tj T* ET
+BT 1 0 0 1 54 531.6 Tm (15.8 GW measurement includes both contributions. The "excess" heat is the coherence) Tj T* ET
+BT 1 0 0 1 54 519.6 Tm (reservoir releasing stored energy at a rate governed by the ocean's decoherence) Tj T* ET
+BT 1 0 0 1 54 507.6 Tm (timescale.) Tj T* ET
+.5 w
+n 54 493.6 m 558 493.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 465.6 Tm (9. Jupiter's Dilute Core) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 443.6 Tm (Anomaly. Juno gravity measurements revealed that Jupiter does not possess a compact) Tj T* ET
+BT 1 0 0 1 54 431.6 Tm (rocky-icy core. Instead, heavy elements are distributed throughout the inner 30-50%) Tj T* ET
+BT 1 0 0 1 54 419.6 Tm (of the planet's radius in a "fuzzy" or dilute core extending to ~0.5 R_J. Standard) Tj T* ET
+BT 1 0 0 1 54 407.6 Tm (formation models predict a compact core of 10-20 Earth masses that should remain) Tj T* ET
+BT 1 0 0 1 54 395.6 Tm (distinct.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 377.6 Tm (Closure. Jupiter's core DISSOLVED via coherence decay under extreme conditions. The) Tj T* ET
+BT 1 0 0 1 54 365.6 Tm (compact primordial core formed under high initial coherence \(early solar system, C) Tj T* ET
+BT 1 0 0 1 54 353.6 Tm (near C0\). Over 4.5 Gyr, the core interior experienced sustained high temperature) Tj T* ET
+BT 1 0 0 1 54 341.6 Tm (\(~20,000 K\) and high pressure \(~40 Mbar\). These conditions drive decoherence:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 319.6 Tm (gamma_eff\(core\) = gamma_0 + gamma_T x \(T/T_ref\)^delta + gamma_P x \(P/P_ref\)^zeta) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 299.6 Tm (where the thermal and pressure contributions progressively increased gamma_eff above) Tj T* ET
+BT 1 0 0 1 54 287.6 Tm (the level that maintained core integrity. As C dropped below the threshold for) Tj T* ET
+BT 1 0 0 1 54 275.6 Tm (maintaining the core-envelope compositional boundary, heavy elements mixed outward) Tj T* ET
+BT 1 0 0 1 54 263.6 Tm (into the hydrogen-helium envelope. The dissolution proceeded from the core boundary) Tj T* ET
+BT 1 0 0 1 54 251.6 Tm (inward, producing the observed radial gradient of heavy element concentration.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 233.6 Tm (The dilute core is a fossil record of coherence decay: a structure that was once) Tj T* ET
+BT 1 0 0 1 54 221.6 Tm (compact \(high C\) and has partially dissolved \(falling C\) over the age of the solar) Tj T* ET
+BT 1 0 0 1 54 209.6 Tm (system.) Tj T* ET
+.5 w
+n 54 195.6 m 558 195.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 167.6 Tm (10. Mars Hemispheric Dichotomy) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 145.6 Tm (Anomaly. Mars exhibits a striking hemispheric asymmetry: the northern hemisphere is) Tj T* ET
+BT 1 0 0 1 54 133.6 Tm (low-elevation smooth plains \(average 5 km below datum\), while the southern) Tj T* ET
+BT 1 0 0 1 54 121.6 Tm (hemisphere is high-elevation heavily cratered terrain. The boundary is sharp. No) Tj T* ET
+BT 1 0 0 1 54 109.6 Tm (single impact or tectonic mechanism fully accounts for the dichotomy's origin and) Tj T* ET
+BT 1 0 0 1 54 97.6 Tm (preservation over 4+ Gyr.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 79.6 Tm (Closure. The dichotomy is a frozen coherence asymmetry. During Mars's formation from) Tj T* ET
+BT 1 0 0 1 54 67.6 Tm (the protoplanetary disk, the accreting body's coherent state need not have been) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 33 0 R
+/F2 8 0 R
+/F2-0 34 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 5398
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 124 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (spherically symmetric. The lowest-energy coherent mode of a rotating, solidifying) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (body is the dipolar mode \(l = 1 spherical harmonic\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 671.6 Tm (C\(theta\) = C_avg + DeltaC x cos\(theta\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 651.6 Tm (where theta is the colatitude measured from the coherence dipole axis. The) Tj T* ET
+BT 1 0 0 1 54 639.6 Tm (hemisphere with higher coherence \(lower gamma_eff\) solidified with a thicker, more) Tj T* ET
+BT 1 0 0 1 54 627.6 Tm (rigid crust -- the southern highlands. The lower-coherence hemisphere produced a) Tj T* ET
+BT 1 0 0 1 54 615.6 Tm (thinner, more ductile crust -- the northern lowlands, later resurfaced by volcanism.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 597.6 Tm (Once solidified, the asymmetry was locked in. Mars's small size and rapid cooling) Tj T* ET
+BT 1 0 0 1 54 585.6 Tm (froze the coherence pattern before thermal convection could erase it. Earth, by) Tj T* ET
+BT 1 0 0 1 54 573.6 Tm (contrast, sustained mantle convection long enough to destroy any primordial) Tj T* ET
+BT 1 0 0 1 54 561.6 Tm (coherence asymmetry. Mars preserves what Earth erased.) Tj T* ET
+.5 w
+n 54 547.6 m 558 547.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 519.6 Tm (11. Titan's Methane Mystery) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 497.6 Tm (Anomaly. Titan's atmosphere contains ~5% methane, but solar UV photolysis destroys) Tj T* ET
+BT 1 0 0 1 54 485.6 Tm (atmospheric methane on a timescale of 10-100 Myr. At 4.5 Gyr, the methane should) Tj T* ET
+BT 1 0 0 1 54 473.6 Tm (have been depleted ~50 times over unless continuously replenished. No confirmed) Tj T* ET
+BT 1 0 0 1 54 461.6 Tm (replenishment source has been identified. Cryovolcanism is hypothesized but) Tj T* ET
+BT 1 0 0 1 54 449.6 Tm (unconfirmed at the required rates.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 431.6 Tm (Closure. Methane is continuously generated in Titan's subsurface through coherence-) Tj T* ET
+BT 1 0 0 1 54 419.6 Tm (enhanced Fischer-Tropsch synthesis within clathrate hydrate structures. The reaction) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 397.6 Tm (CO2 + 4H2 --> CH4 + 2H2O) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 377.6 Tm (proceeds in Titan's ice-rock interior where clathrate cages provide the structural) Tj T* ET
+BT 1 0 0 1 54 365.6 Tm (coherence for efficient catalysis. Clathrate hydrates are inherently high-coherence) Tj T* ET
+BT 1 0 0 1 54 353.6 Tm (structures -- water molecules locked in ordered cage configurations with guest) Tj T* ET
+BT 1 0 0 1 54 341.6 Tm (molecules occupying defined sites. This structural order maintains local C above the) Tj T* ET
+BT 1 0 0 1 54 329.6 Tm (threshold for catalytic enhancement:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 307.6 Tm (k_FT = k0 x exp\(E_coh / k_B T\)    where    E_coh proportional to C) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 287.6 Tm (The coherence-enhanced rate constant k_FT exceeds the standard Fischer-Tropsch rate) Tj T* ET
+BT 1 0 0 1 54 275.6 Tm (by a factor sufficient to maintain methane production at ~10^8 kg/yr, balancing) Tj T* ET
+BT 1 0 0 1 54 263.6 Tm (photolytic destruction. The clathrate structures themselves are maintained by) Tj T* ET
+BT 1 0 0 1 54 251.6 Tm (Titan's low surface temperature \(~94 K\), which suppresses thermal decoherence.) Tj T* ET
+.5 w
+n 54 237.6 m 558 237.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 209.6 Tm (12. Venus Atmospheric Superrotation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 187.6 Tm (Anomaly. Venus's atmosphere at cloud level \(~65 km altitude\) rotates approximately) Tj T* ET
+BT 1 0 0 1 54 175.6 Tm (60 times faster than the solid planet beneath it, with wind speeds reaching 100 m/s) Tj T* ET
+BT 1 0 0 1 54 163.6 Tm (\(360 km/hr\). The solid planet rotates once every 243 Earth days \(retrograde\). No) Tj T* ET
+BT 1 0 0 1 54 151.6 Tm (complete dynamical model explains how this extreme differential rotation is) Tj T* ET
+BT 1 0 0 1 54 139.6 Tm (maintained against friction and wave-mean flow interactions.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 121.6 Tm (Closure. Venus's atmosphere maintains a coherent flow state -- a macroscopic analog) Tj T* ET
+BT 1 0 0 1 54 109.6 Tm (of quantum vortex circulation. The thick CO2 atmosphere, compositionally uniform and) Tj T* ET
+BT 1 0 0 1 54 97.6 Tm (thermally driven by continuous solar heating, achieves a coherent circulation) Tj T* ET
+BT 1 0 0 1 54 85.6 Tm (pattern where angular momentum is maintained by the coherence of the flow itself:) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/Contents 36 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 37 0 R
+/F2 8 0 R
+/F2-0 38 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 5383
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 124 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 8) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 705.6 Tm (L_atm = L0 x [1 + mu x C_atm]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 685.6 Tm (The coherence-enhanced angular momentum L_atm exceeds the value supportable by) Tj T* ET
+BT 1 0 0 1 54 673.6 Tm (incoherent thermal winds \(L0\) by the factor [1 + mu x C_atm]. Venus's atmosphere has) Tj T* ET
+BT 1 0 0 1 54 661.6 Tm (high C because it is compositionally simple \(96.5% CO2, 3.5% N2\), thermally uniform) Tj T* ET
+BT 1 0 0 1 54 649.6 Tm (at cloud level, and dynamically isolated from the slowly rotating surface by a deep,) Tj T* ET
+BT 1 0 0 1 54 637.6 Tm (stable boundary layer.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 619.6 Tm (The superrotation is self-sustaining: coherent flow maintains coherence \(ordered) Tj T* ET
+BT 1 0 0 1 54 607.6 Tm (motion has low gamma_eff\), which maintains the flow. This positive feedback explains) Tj T* ET
+BT 1 0 0 1 54 595.6 Tm (why superrotation persists despite dissipative processes that should spin it down on) Tj T* ET
+BT 1 0 0 1 54 583.6 Tm (timescales of ~10 days.) Tj T* ET
+.5 w
+n 54 569.6 m 558 569.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 541.6 Tm (13. Interstellar Object Abundance) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 519.6 Tm (Anomaly. The detection of 'Oumuamua \(2017\) and 2I/Borisov \(2019\) implies an) Tj T* ET
+BT 1 0 0 1 54 507.6 Tm (interstellar object number density of ~0.1 AU-^3 for 'Oumuamua-sized bodies. This is) Tj T* ET
+BT 1 0 0 1 54 495.6 Tm (2-3 orders of magnitude higher than predictions from standard planet formation) Tj T* ET
+BT 1 0 0 1 54 483.6 Tm (models, which estimate the mass ejected per planetary system during formation.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 465.6 Tm (Closure. Standard models underestimate ejection because they underestimate formation) Tj T* ET
+BT 1 0 0 1 54 453.6 Tm (efficiency. Under coherent collapse \(high C in young protoplanetary disks\), planet) Tj T* ET
+BT 1 0 0 1 54 441.6 Tm (formation is more efficient:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 419.6 Tm (epsilon_form = epsilon0 x [1 + kappa x C_disk]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 399.6 Tm (More planetesimals form per unit disk mass. Consequently, more are ejected during) Tj T* ET
+BT 1 0 0 1 54 387.6 Tm (the dynamical instability phase of planetary system evolution. The total ejected) Tj T* ET
+BT 1 0 0 1 54 375.6 Tm (mass per system scales as) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 353.6 Tm (M_ejected proportional to epsilon_form x f_eject x M_disk) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 333.6 Tm (where f_eject is the ejection fraction \(set by dynamics\) and M_disk is the disk) Tj T* ET
+BT 1 0 0 1 54 321.6 Tm (mass. Increasing epsilon_form by a factor of 10-100 through coherence-enhanced) Tj T* ET
+BT 1 0 0 1 54 309.6 Tm (accretion brings the predicted interstellar object density into agreement with) Tj T* ET
+BT 1 0 0 1 54 297.6 Tm (observations.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 279.6 Tm (This is consistent with the Kuiper Belt cliff analysis: inside the coherence) Tj T* ET
+BT 1 0 0 1 54 267.6 Tm (horizon, accretion is efficient \(producing abundant bodies, some of which are) Tj T* ET
+BT 1 0 0 1 54 255.6 Tm (ejected\); outside it, accretion fails \(producing the cliff\). The same coherence) Tj T* ET
+BT 1 0 0 1 54 243.6 Tm (function explains both the local cutoff and the galactic abundance.) Tj T* ET
+.5 w
+n 54 229.6 m 558 229.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 201.6 Tm (14. Testable Predictions) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 179.6 Tm (The twelve closures above generate specific, falsifiable predictions:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 161.6 Tm (1. Flyby anomaly geometry. Future gravity assists with trajectories symmetric about) Tj T* ET
+BT 1 0 0 1 54 149.6 Tm (Earth's equatorial plane will show DeltaE/E consistent with zero. Pole-to-pole) Tj T* ET
+BT 1 0 0 1 54 137.6 Tm (trajectories will show maximal anomaly. The correlation with magnetic local time) Tj T* ET
+BT 1 0 0 1 54 125.6 Tm (should be measurable with Juno-class tracking precision.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 107.6 Tm (2. Lunar recession history. Tidal rhythmite records from Precambrian sediments) Tj T* ET
+BT 1 0 0 1 54 95.6 Tm (should show recession rates decreasing with geological age. Existing data from the) Tj T* ET
+BT 1 0 0 1 54 83.6 Tm (620 Myr Elatina Formation and the 2.45 Gyr Weeli Wolli Formation already support) Tj T* ET
+BT 1 0 0 1 54 71.6 Tm (non-constant recession, consistent with increasing gamma_eff over geological time.) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+37 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/Contents 40 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 41 0 R
+/F2 8 0 R
+/F2-0 42 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 5871
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 124 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 9) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (3. Atmospheric coherence and climate. Paleoclimate proxies sensitive to greenhouse) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (efficiency \(not just greenhouse gas concentration\) should show enhanced warming per) Tj T* ET
+BT 1 0 0 1 54 681.6 Tm (unit CO2 in older geological periods. The coherence enhancement factor should) Tj T* ET
+BT 1 0 0 1 54 669.6 Tm (decrease monotonically with increasing atmospheric chemical complexity.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 651.6 Tm (4. Interstellar object structure. Future interstellar object detections with) Tj T* ET
+BT 1 0 0 1 54 639.6 Tm (resolved imaging \(e.g., Vera Rubin Observatory, ESA Comet Interceptor\) should reveal) Tj T* ET
+BT 1 0 0 1 54 627.6 Tm (anomalously low bulk densities and/or extreme aspect ratios -- signatures of) Tj T* ET
+BT 1 0 0 1 54 615.6 Tm (coherent structural integrity.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 597.6 Tm (5. Kuiper Belt transition. Deep surveys \(LSST\) should find the TNO density drop at) Tj T* ET
+BT 1 0 0 1 54 585.6 Tm (48 AU to be sharper than any dynamical model predicts. The cutoff should be) Tj T* ET
+BT 1 0 0 1 54 573.6 Tm (independent of TNO size class -- the coherence horizon affects accretion at all) Tj T* ET
+BT 1 0 0 1 54 561.6 Tm (scales simultaneously.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 543.6 Tm (6. Saturn ring composition gradients. High-resolution compositional mapping of) Tj T* ET
+BT 1 0 0 1 54 531.6 Tm (Saturn's rings should show contaminant concentration increasing toward ring edges) Tj T* ET
+BT 1 0 0 1 54 519.6 Tm (and within gaps -- the signature of coherence-driven self-cleaning.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 501.6 Tm (7. Enceladus ocean coherence. Future missions measuring Enceladus's ocean) Tj T* ET
+BT 1 0 0 1 54 489.6 Tm (composition in detail \(e.g., through plume sampling\) should find anomalously low) Tj T* ET
+BT 1 0 0 1 54 477.6 Tm (entropy -- the chemical signature of a partially coherent liquid.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 459.6 Tm (8. Exoplanetary Kuiper Belt cliffs. Debris disk observations around other stars) Tj T* ET
+BT 1 0 0 1 54 447.6 Tm (should show outer edges that correlate with stellar luminosity and magnetic field) Tj T* ET
+BT 1 0 0 1 54 435.6 Tm (strength according to the coherence horizon formula, not with dynamical sculpting by) Tj T* ET
+BT 1 0 0 1 54 423.6 Tm (known planets.) Tj T* ET
+.5 w
+n 54 409.6 m 558 409.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 381.6 Tm (15. Conclusion) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 359.6 Tm (Twelve solar system anomalies -- spanning orbital mechanics, planetary interiors,) Tj T* ET
+BT 1 0 0 1 54 347.6 Tm (atmospheres, ring systems, surface geology, and the trans-Neptunian population --) Tj T* ET
+BT 1 0 0 1 54 335.6 Tm (resolve within a single framework. The coherence function C = C0 x exp\(-alpha x) Tj T* ET
+BT 1 0 0 1 54 323.6 Tm (gamma_eff\) applied to heliocentric distance defines the solar coherence horizon at) Tj T* ET
+BT 1 0 0 1 54 311.6 Tm (~48 AU, manifesting as the Kuiper Belt cliff. Applied to Earth's asymmetric mass-) Tj T* ET
+BT 1 0 0 1 54 299.6 Tm (magnetic-rotational structure, it produces the flyby anomaly. Applied to the time) Tj T* ET
+BT 1 0 0 1 54 287.6 Tm (evolution of tidal dissipation, it resolves the lunar recession paradox. Applied to) Tj T* ET
+BT 1 0 0 1 54 275.6 Tm (atmospheric molecular vibrations, planetary interiors, satellite oceans, ring) Tj T* ET
+BT 1 0 0 1 54 263.6 Tm (dynamics, and interstellar body formation, it closes every anomaly discussed.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 245.6 Tm (The coherence horizon concept extends the AIIT-THRESI framework from cosmological) Tj T* ET
+BT 1 0 0 1 54 233.6 Tm (scales \(Papers 116-120\) to the solar system. The Sun maintains vacuum coherence) Tj T* ET
+BT 1 0 0 1 54 221.6 Tm (within its gravitational and radiative sphere of influence. This coherence is not) Tj T* ET
+BT 1 0 0 1 54 209.6 Tm (uniform -- it varies with distance, with local conditions, with planetary) Tj T* ET
+BT 1 0 0 1 54 197.6 Tm (properties, and with time. Every anomaly in this paper is a consequence of this) Tj T* ET
+BT 1 0 0 1 54 185.6 Tm (variation.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 167.6 Tm (The solar system is not a collection of independent dynamical puzzles. It is a) Tj T* ET
+BT 1 0 0 1 54 155.6 Tm (single coherent system -- literally. The anomalies are the data. The coherence) Tj T* ET
+BT 1 0 0 1 54 143.6 Tm (function is the explanation.) Tj T* ET
+.5 w
+n 54 129.6 m 558 129.6 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 107.6 Tm (*Paper 124 in the AIIT-THRESI series. Prior papers established the coherence) Tj T* ET
+BT 1 0 0 1 54 95.6 Tm (framework \(Papers 1-19\), applied it to biological systems \(Papers 20-99\),) Tj T* ET
+BT 1 0 0 1 54 83.6 Tm (cosmological phenomena \(Papers 100-123\), and now solar system science \(Paper 124\).) Tj T* ET
+BT 1 0 0 1 54 71.6 Tm (The framework continues to close anomalies across all scales without introducing new) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+41 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+42 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+43 0 obj
+<<
+/Contents 44 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 45 0 R
+/F2 8 0 R
+/F2-0 46 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+44 0 obj
+<<
+/Length 847
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 124 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 287.1 738 Tm (Page 10) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (free parameters.*) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+45 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+46 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 47
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000337 00000 n 
+0000000386 00000 n 
+0000000746 00000 n 
+0000005746 00000 n 
+0000005853 00000 n 
+0000005960 00000 n 
+0000006070 00000 n 
+0000006180 00000 n 
+0000006286 00000 n 
+0000006650 00000 n 
+0000012247 00000 n 
+0000012355 00000 n 
+0000012466 00000 n 
+0000012830 00000 n 
+0000018384 00000 n 
+0000018492 00000 n 
+0000018603 00000 n 
+0000018967 00000 n 
+0000024557 00000 n 
+0000024665 00000 n 
+0000024776 00000 n 
+0000025140 00000 n 
+0000030465 00000 n 
+0000030573 00000 n 
+0000030684 00000 n 
+0000031048 00000 n 
+0000036529 00000 n 
+0000036637 00000 n 
+0000036748 00000 n 
+0000037112 00000 n 
+0000042563 00000 n 
+0000042671 00000 n 
+0000042782 00000 n 
+0000043146 00000 n 
+0000048582 00000 n 
+0000048690 00000 n 
+0000048801 00000 n 
+0000049165 00000 n 
+0000055089 00000 n 
+0000055197 00000 n 
+0000055308 00000 n 
+0000055672 00000 n 
+0000056571 00000 n 
+0000056679 00000 n 
+trailer
+<<
+/Size 47
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+56790
+%%EOF

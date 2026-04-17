@@ -1,0 +1,1636 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 5
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6135
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 49: THE CROOKS FLUCTUATION THEOREM AND THE WIKE SINGULARITY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 9.992 0 Td (PAPER 49: THE CROOKS FLUCTUATION THEOREM AND THE) Tj T* 158.672 0 Td (WIKE SINGULARITY) Tj T* -168.664 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Where Time-Reversal Symmetry Breaks Down -- and Why It Matters) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 540 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("The Wike Singularity is not a sampling problem. It is a point where micro-reversibility itself fails. The) Tj T* (universe forgets how to run backwards.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530 cm
+Q
+q
+1 0 0 1 60 524 cm
+Q
+q
+1 0 0 1 60 520 cm
+Q
+q
+1 0 0 1 60 482 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470 cm
+Q
+q
+1 0 0 1 60 359 cm
+q
+BT 1 0 0 1 0 99 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Wike Singularity: ERR\(T\) = 1/T + 0.72/T^2.59. The 1/T term is the known Jarzynski sampling catastrophe. The) Tj T* (0.72/T^2.59 term is the anomalous contribution -- identified in Paper 02, derived from 3D Ising universality \(exponent 2.59 =) Tj T* (1 + 1/nu, nu = 0.6298\). This paper connects that anomalous term to the Crooks Fluctuation Theorem \(1999\), which is the) Tj T* (foundation theorem from which the Jarzynski equality derives. The implication: the 0.72/T^2.59 term is not just a sampling) Tj T* (error -- it is the signature of ) Tj /F2 9 Tf (time-reversal symmetry breakdown) Tj /F1 9 Tf ( at the critical point. At gamma_c, the ratio of forward to) Tj T* (reverse work probability distributions diverges. Micro-reversibility -- the assumption that every thermodynamic process is) Tj T* (reversible at the molecular level -- ) Tj /F2 9 Tf (fails at the Wike Singularity) Tj /F1 9 Tf (. This is the deepest statement the AIIT-THRESI data) Tj T* (makes about fundamental physics: not just that measurement gets hard near criticality, but that the microscopic reversibility) Tj T* (assumption of statistical mechanics itself has a boundary condition at gamma_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 352 cm
+Q
+q
+1 0 0 1 60 346 cm
+Q
+q
+1 0 0 1 60 342 cm
+Q
+q
+1 0 0 1 60 304 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Crooks Fluctuation Theorem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292 cm
+Q
+q
+1 0 0 1 60 277 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Gavin Crooks \(1999, Physical Review E\) proved the deepest general theorem in non-equilibrium thermodynamics:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 270 cm
+Q
+q
+1 0 0 1 60 195.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 70.4 re f*
+Q
+q
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_F\(W\)) Tj ( ) Tj (/) Tj ( ) Tj (P_R\(-W\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(beta\(W) Tj ( ) Tj (-) Tj ( ) Tj (DELTAF\)\)) Tj  T*  T* (where:) Tj  T* ( ) Tj ( ) Tj (P_F\(W\)) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (probability) Tj ( ) Tj (of) Tj ( ) Tj (doing) Tj ( ) Tj (work) Tj ( ) Tj (W) Tj ( ) Tj (in) Tj ( ) Tj (the) Tj ( ) Tj (FORWARD) Tj ( ) Tj (process) Tj  T* ( ) Tj ( ) Tj (P_R\(-W\)) Tj ( ) Tj (=) Tj ( ) Tj (probability) Tj ( ) Tj (of) Tj ( ) Tj (extracting) Tj ( ) Tj (work) Tj ( ) Tj (W) Tj ( ) Tj (in) Tj ( ) Tj (the) Tj ( ) Tj (REVERSE) Tj ( ) Tj (process) Tj  T* ( ) Tj ( ) Tj (beta) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (1/\(k_B) Tj ( ) Tj (T\)) Tj  T* ( ) Tj ( ) Tj (DELTAF) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (free) Tj ( ) Tj (energy) Tj ( ) Tj (difference) Tj ( ) Tj (\(the) Tj ( ) Tj (target) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (measurement\)) Tj  T* ( ) Tj ( ) Tj (W) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (work) Tj ( ) Tj (done) Tj ( ) Tj (on) Tj ( ) Tj (the) Tj ( ) Tj (system) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 187.6 cm
+Q
+q
+1 0 0 1 60 172.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is exact. No approximations. It holds for any process, any timescale, arbitrarily far from equilibrium.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 165.6 cm
+Q
+q
+1 0 0 1 60 150.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (The Jarzynski equality derives from Crooks) Tj /F1 9 Tf ( by integrating over all W:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 143.6 cm
+Q
+q
+1 0 0 1 60 122 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (integral) Tj ( ) Tj (P_F\(W\)) Tj ( ) Tj (exp\(-betaW\)) Tj ( ) Tj (dW) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-betaDELTAF\)) Tj  T* (<) Tj (exp\(-betaW\)) Tj (>) Tj (_F) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-betaDELTAF\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 114 cm
+Q
+q
+1 0 0 1 60 75 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (That integral is the Jarzynski equality. If the Crooks theorem holds, Jarzynski holds. The sampling catastrophe \(1/T term in) Tj T* (the Wike Singularity\) is a practical problem -- you need exponentially many samples to estimate <) Tj (exp\(-betaW\)) Tj (> accurately) Tj T* (at low T. But the THEOREM still holds.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 68 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7430
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 49: THE CROOKS FLUCTUATION THEOREM AND THE WIKE SINGULARITY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (The anomalous 0.72/T^2.59 term is different.) Tj /F1 9 Tf ( It indicates something is failing at a deeper level than sampling.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 707 cm
+Q
+q
+1 0 0 1 60 703 cm
+Q
+q
+1 0 0 1 60 665 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. What the Anomalous Exponent Tells Us) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 653 cm
+Q
+q
+1 0 0 1 60 614 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Wike Singularity was derived from QuTiP simulation data \(Paper 02, 11.4M runs\). The 1/T term was expected. The) Tj T* (0.72/T^2.59 term emerged from the data with exponent 2.59 = 1 + 1/nu where nu = 0.6298 is the 3D Ising correlation length) Tj T* (exponent.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 607 cm
+Q
+q
+1 0 0 1 60 592 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At a second-order phase transition \(which gamma_c is\), the free energy landscape changes qualitatively:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 585 cm
+Q
+q
+1 0 0 1 60 545.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Away) Tj ( ) Tj (from) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj (F\(Q\)) Tj ( ) Tj (has) Tj ( ) Tj (a) Tj ( ) Tj (single) Tj ( ) Tj (minimum) Tj ( ) Tj (--) Tj ( ) Tj (one) Tj ( ) Tj (equilibrium) Tj ( ) Tj (state) Tj  T* (At) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (F\(Q\)) Tj ( ) Tj (develops) Tj ( ) Tj (a) Tj ( ) Tj (flat) Tj ( ) Tj (region) Tj ( ) Tj (--) Tj ( ) Tj (infinitely) Tj ( ) Tj (many) Tj ( ) Tj (near-equivalent) Tj ( ) Tj (states) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (The) Tj ( ) Tj (curvature) Tj ( ) Tj (d?F/dQ?) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (\(susceptibility) Tj ( ) Tj (diverges\)) Tj  T* (Above) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (F\(Q\)) Tj ( ) Tj (develops) Tj ( ) Tj (two) Tj ( ) Tj (minima) Tj ( ) Tj (--) Tj ( ) Tj (symmetry-broken) Tj ( ) Tj (states) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 537.8 cm
+Q
+q
+1 0 0 1 60 498.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Crooks theorem ratio P_F\(W\)/P_R\(-W\) depends on how well the forward and reverse processes sample the free) Tj T* (energy landscape. When the landscape has a unique minimum \(away from gamma_c\), forward and reverse processes are) Tj T* (symmetrically related. When the landscape FLATTENS at gamma_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 491.8 cm
+Q
+q
+1 0 0 1 60 461.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Forward) Tj ( ) Tj (process:) Tj ( ) Tj (samples) Tj ( ) Tj (one) Tj ( ) Tj (path) Tj ( ) Tj (through) Tj ( ) Tj (the) Tj ( ) Tj (flat) Tj ( ) Tj (landscape) Tj  T* (Reverse) Tj ( ) Tj (process:) Tj ( ) Tj (samples) Tj ( ) Tj (a) Tj ( ) Tj (DIFFERENT) Tj ( ) Tj (path) Tj ( ) Tj (through) Tj ( ) Tj (the) Tj ( ) Tj (flat) Tj ( ) Tj (landscape) Tj  T* (The) Tj ( ) Tj (paths) Tj ( ) Tj (are) Tj ( ) Tj (not) Tj ( ) Tj (time-reversals) Tj ( ) Tj (of) Tj ( ) Tj (each) Tj ( ) Tj (other) Tj ( ) Tj (--) Tj ( ) Tj (they're) Tj ( ) Tj (different) Tj ( ) Tj (paths) Tj ( ) Tj (through) Tj ( ) Tj (the) Tj ( ) Tj (flat) Tj ( ) Tj (region) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453.4 cm
+Q
+q
+1 0 0 1 60 426.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (This asymmetry is the anomalous 0.72/T^2.59 term. It is not sampling error. It is the ) Tj /F2 9 Tf (breakdown of the assumption) Tj /F1 9 Tf ( that) Tj T* (forward and reverse processes explore the same regions of phase space.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 419.4 cm
+Q
+q
+1 0 0 1 60 413.4 cm
+Q
+q
+1 0 0 1 60 409.4 cm
+Q
+q
+1 0 0 1 60 371.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Micro-Reversibility and Its Failure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 359.4 cm
+Q
+q
+1 0 0 1 60 344.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Micro-reversibility \(detailed balance\) is the assumption underlying the Crooks theorem:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 337.4 cm
+Q
+q
+1 0 0 1 60 298.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (For) Tj ( ) Tj (any) Tj ( ) Tj (microscopic) Tj ( ) Tj (trajectory) Tj ( ) Tj (gamma\(t\):) Tj  T* (p[gamma\(t\)]) Tj ( ) Tj (/) Tj ( ) Tj (p[gamma*\(t\)]) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-beta) Tj ( ) Tj (x) Tj ( ) Tj (W[gamma\(t\)]\)) Tj  T*  T* (where) Tj ( ) Tj (gamma*\(t\)) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (time-reversed) Tj ( ) Tj (trajectory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 290.2 cm
+Q
+q
+1 0 0 1 60 263.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This holds exactly when the system's microscopic dynamics are time-reversal symmetric -- which they are, at the molecular) Tj T* (level \(CPT symmetry of quantum mechanics\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256.2 cm
+Q
+q
+1 0 0 1 60 241.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The failure at gamma_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 234.2 cm
+Q
+q
+1 0 0 1 60 195.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (At the critical point, the correlation length xi -) Tj (> inf. This means the system cannot be divided into independent parts -- every) Tj T* -0.055857 Tw (part is correlated with every other part across all length scales. The time-reversal of a trajectory in a correlated system is not) Tj T* 0 Tw (simply the trajectory run backwards -- it requires flipping the correlations of every part simultaneously.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 188.2 cm
+Q
+q
+1 0 0 1 60 149.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (At gamma_c, these correlations span the entire system. A partial time-reversal \(reversing the local trajectory without) Tj T* (reversing the long-range correlations\) is no longer equivalent to the time-reversed trajectory. The ratio P_F\(W\)/P_R\(-W\)) Tj T* (diverges from its Crooks value.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 142.2 cm
+Q
+q
+1 0 0 1 60 127.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (In the AIIT-THRESI simulation data:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120.2 cm
+Q
+q
+1 0 0 1 60 81.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The 0.72/T^2.59 term grows without bound as T -) Tj (> 0 \(as gamma_eff -) Tj (> gamma_c from the simulation perspective\). This) Tj T* (divergence is the numerical signature of the ratio P_F\(W\)/P_R\(-W\) becoming uncomputable -- the reverse process has) Tj T* (exponentially suppressed probability relative to the forward process.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 74.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 8007
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 49: THE CROOKS FLUCTUATION THEOREM AND THE WIKE SINGULARITY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (T) Tj ( ) Tj (=) Tj ( ) Tj (1.0) Tj ( ) Tj (\(far) Tj ( ) Tj (from) Tj ( ) Tj (critical\):) Tj ( ) Tj (ERR_anomalous) Tj ( ) Tj (=) Tj ( ) Tj (0.72) Tj ( ) Tj (x) Tj ( ) Tj (1.0^\(-2.59\)) Tj ( ) Tj (=) Tj ( ) Tj (0.72) Tj  T* (T) Tj ( ) Tj (=) Tj ( ) Tj (0.5:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (ERR_anomalous) Tj ( ) Tj (=) Tj ( ) Tj (0.72) Tj ( ) Tj (x) Tj ( ) Tj (0.5^\(-2.59\)) Tj ( ) Tj (=) Tj ( ) Tj (0.72) Tj ( ) Tj (x) Tj ( ) Tj (6.00) Tj ( ) Tj (=) Tj ( ) Tj (4.32) Tj  T* (T) Tj ( ) Tj (=) Tj ( ) Tj (0.1:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (ERR_anomalous) Tj ( ) Tj (=) Tj ( ) Tj (0.72) Tj ( ) Tj (x) Tj ( ) Tj (0.1^\(-2.59\)) Tj ( ) Tj (=) Tj ( ) Tj (0.72) Tj ( ) Tj (x) Tj ( ) Tj (389) Tj ( ) Tj (=) Tj ( ) Tj (280) Tj  T* (T) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (ERR_anomalous) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 688.8 cm
+Q
+q
+1 0 0 1 60 673.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The anomalous error DIVERGES faster than the sampling error. It dominates at low T.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 666.8 cm
+Q
+q
+1 0 0 1 60 660.8 cm
+Q
+q
+1 0 0 1 60 656.8 cm
+Q
+q
+1 0 0 1 60 618.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Work Distribution at gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 606.8 cm
+Q
+q
+1 0 0 1 60 591.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Crooks theorem can be visualized by plotting the work distributions P_F\(W\) and P_R\(-W\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 584.8 cm
+Q
+q
+1 0 0 1 60 492.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 88 re f*
+Q
+q
+BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Away) Tj ( ) Tj (from) Tj ( ) Tj (gamma_c:) Tj  T* ( ) Tj ( ) Tj (P_F\(W\)) Tj ( ) Tj (and) Tj ( ) Tj (P_R\(-W\)) Tj ( ) Tj (are) Tj ( ) Tj (both) Tj ( ) Tj (Gaussian) Tj  T* ( ) Tj ( ) Tj (They) Tj ( ) Tj (overlap) Tj ( ) Tj (significantly) Tj ( ) Tj (near) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (DELTAF) Tj  T* ( ) Tj ( ) Tj (Their) Tj ( ) Tj (ratio) Tj ( ) Tj (exp\(beta\(W) Tj ( ) Tj (-) Tj ( ) Tj (DELTAF\)\)) Tj ( ) Tj (is) Tj ( ) Tj (well-sampled) Tj  T*  T* (At) Tj ( ) Tj (gamma_c:) Tj  T* ( ) Tj ( ) Tj (P_F\(W\)) Tj ( ) Tj (develops) Tj ( ) Tj (heavy) Tj ( ) Tj (tails) Tj ( ) Tj (\(power) Tj ( ) Tj (law) Tj ( ) Tj (tails,) Tj ( ) Tj (consistent) Tj ( ) Tj (with) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (criticality\)) Tj  T* ( ) Tj ( ) Tj (P_R\(-W\)) Tj ( ) Tj (also) Tj ( ) Tj (develops) Tj ( ) Tj (heavy) Tj ( ) Tj (tails) Tj ( ) Tj (BUT) Tj ( ) Tj (with) Tj ( ) Tj (different) Tj ( ) Tj (structure) Tj  T* ( ) Tj ( ) Tj (The) Tj ( ) Tj (tails) Tj ( ) Tj (are) Tj ( ) Tj (NOT) Tj ( ) Tj (mirror) Tj ( ) Tj (images) Tj ( ) Tj (of) Tj ( ) Tj (each) Tj ( ) Tj (other) Tj  T* ( ) Tj ( ) Tj (The) Tj ( ) Tj (ratio) Tj ( ) Tj (P_F\(W\)/P_R\(-W\)) Tj ( ) Tj (diverges) Tj ( ) Tj (for) Tj ( ) Tj (large) Tj ( ) Tj (|W|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 484.8 cm
+Q
+q
+1 0 0 1 60 433.8 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (The physical picture:) Tj /F1 9 Tf ( At the critical point, rare large fluctuations become power-law distributed \(this is the Zipf/power law) Tj T* (connection from Paper 48\). Some trajectories do enormous amounts of work \(large W\). The reverse trajectories \(extracting) Tj T* (that same work\) are not simply the time-reversal -- they are qualitatively different paths through a different part of the free) Tj T* (energy landscape. The symmetry is broken.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 426.8 cm
+Q
+q
+1 0 0 1 60 420.8 cm
+Q
+q
+1 0 0 1 60 416.8 cm
+Q
+q
+1 0 0 1 60 378.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Biological Implications: Why Life Runs One Way) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 366.8 cm
+Q
+q
+1 0 0 1 60 327.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Crooks theorem underlies why thermodynamic machines are possible -- why you can extract useful work from) Tj T* (temperature gradients, why chemical reactions can do mechanical work. At gamma_c, this directionality becomes sharply) Tj T* (enhanced:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 320.8 cm
+Q
+q
+1 0 0 1 60 290.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Away) Tj ( ) Tj (from) Tj ( ) Tj (gamma_c:) Tj ( ) Tj (Forward/reverse) Tj ( ) Tj (processes) Tj ( ) Tj (roughly) Tj ( ) Tj (symmetric) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (work) Tj ( ) Tj (extraction) Tj ( ) Tj (moderate) Tj  T* (At) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Forward/reverse) Tj ( ) Tj (ratio) Tj ( ) Tj (diverges) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (work) Tj ( ) Tj (extraction) Tj ( ) Tj (is) Tj ( ) Tj (maximized) Tj ( ) Tj (in) Tj ( ) Tj (one) Tj ( ) Tj (direction) Tj  T* (Above) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (System) Tj ( ) Tj (decoheres) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (no) Tj ( ) Tj (directed) Tj ( ) Tj (work) Tj ( ) Tj (possible) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (heat) Tj ( ) Tj (death) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 282.4 cm
+Q
+q
+1 0 0 1 60 231.4 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (Life operates near gamma_c specifically because) Tj /F1 9 Tf ( that is where the Crooks asymmetry is maximized -- where directed) Tj T* (thermodynamic work is most efficient. The metabolic engines of biology \(ATP synthase, molecular motors, ion pumps\) all) Tj T* (operate near their respective gamma_c values -- the point of maximum forward/reverse asymmetry. This is the) Tj T* (thermodynamic reason biology found the edge.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224.4 cm
+Q
+q
+1 0 0 1 60 209.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (ATP synthase at gamma_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 194.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Rotary motor, 120 deg steps) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 179.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Operates near physiological temperature \(310K = 94% of T_c\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 164.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Efficiency: ~60-80% of Carnot maximum) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 149.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 The Wike Singularity predicts this efficiency peaks NEAR gamma_c, not at T = 0 or T -) Tj (> inf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 142.4 cm
+Q
+q
+1 0 0 1 60 136.4 cm
+Q
+q
+1 0 0 1 60 132.4 cm
+Q
+q
+1 0 0 1 60 94.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. The Time-Reversal Arrow of Life) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 82.4 cm
+Q
+q
+1 0 0 1 60 67.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The anomalous 0.72/T^2.59 term has a direct biological reading:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 6879
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 49: THE CROOKS FLUCTUATION THEOREM AND THE WIKE SINGULARITY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Away from gamma_c \(healthy biology\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Biological processes are locally reversible) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 690 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Cellular repair mechanisms can reverse damage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 675 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Inflammation resolves \(Le Chatelier, Paper 43\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 660 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The system explores phase space reversibly) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 653 cm
+Q
+q
+1 0 0 1 60 638 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (At gamma_c \(critical state\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 623 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Forward/reverse asymmetry maximized) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 608 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Directed biological work is maximized) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 593 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Information processing \(Landauer, Paper 44\) is most efficient) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 578 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 But: rare large fluctuations can trigger irreversible events) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 571 cm
+Q
+q
+1 0 0 1 60 556 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Above gamma_c \(disease/decoherence\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 541 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Reverse process becomes exponentially suppressed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 526 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Biological processes become ONE-WAY in the wrong direction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 511 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Inflammation that cannot resolve \(Crooks ratio -) Tj (> inf for the repair process\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Cell death that cannot be reversed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 481 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Cancer proliferation without apoptotic reversal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 474 cm
+Q
+q
+1 0 0 1 60 435 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The medical translation:) Tj /F1 9 Tf ( Every chronic disease involves biological processes where the Crooks ratio has shifted -- where) Tj T* (the forward cascade \(inflammation, cell death, fibrosis\) proceeds but the reverse process \(resolution, repair, remodeling\) is) Tj T* (exponentially suppressed. The 0.72/T^2.59 anomalous term IS the measure of that irreversibility.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 428 cm
+Q
+q
+1 0 0 1 60 422 cm
+Q
+q
+1 0 0 1 60 418 cm
+Q
+q
+1 0 0 1 60 380 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. The Wike Singularity as a Physical Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 368 cm
+Q
+q
+1 0 0 1 60 353 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Singularity ERR\(T\) = 1/T + 0.72/T^2.59 makes a claim that has never been stated explicitly:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 346 cm
+Q
+q
+1 0 0 1 60 331 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (At gamma_c, statistical mechanics itself has a boundary condition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324 cm
+Q
+q
+1 0 0 1 60 285 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Crooks fluctuation theorem -- one of the deepest results in non-equilibrium thermodynamics, valid for any process far) Tj T* (from equilibrium -- fails at the critical point because the underlying assumption of trajectory reversibility breaks down when) Tj T* (correlations span the entire system.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 278 cm
+Q
+q
+1 0 0 1 60 263 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is not a failure of sampling. It is a failure of the framework.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256 cm
+Q
+q
+1 0 0 1 60 216.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (T) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (T_c:) Tj ( ) Tj ( ) Tj (Jarzynski) Tj ( ) Tj (converges.) Tj ( ) Tj (Crooks) Tj ( ) Tj (symmetric.) Tj ( ) Tj (Statistical) Tj ( ) Tj (mechanics) Tj ( ) Tj (valid.) Tj  T* (T) Tj ( ) Tj (=) Tj ( ) Tj (T_c:) Tj ( ) Tj ( ) Tj ( ) Tj (Jarzynski) Tj ( ) Tj (sampling) Tj ( ) Tj (fails) Tj ( ) Tj (\(1/T\).) Tj ( ) Tj (Crooks) Tj ( ) Tj (symmetry) Tj ( ) Tj (breaks) Tj ( ) Tj (\(0.72/T^2.59\).) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Both) Tj ( ) Tj (terms) Tj ( ) Tj (diverge.) Tj ( ) Tj (The) Tj ( ) Tj (critical) Tj ( ) Tj (point) Tj ( ) Tj (is) Tj ( ) Tj (a) Tj ( ) Tj (double) Tj ( ) Tj (singularity.) Tj  T* (T) Tj ( ) Tj (<) Tj ( ) Tj (T_c:) Tj ( ) Tj ( ) Tj ( ) Tj (System) Tj ( ) Tj (in) Tj ( ) Tj (ordered) Tj ( ) Tj (phase.) Tj ( ) Tj (New) Tj ( ) Tj (ground) Tj ( ) Tj (state.) Tj ( ) Tj (New) Tj ( ) Tj (statistical) Tj ( ) Tj (mechanics) Tj ( ) Tj (needed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 208.8 cm
+Q
+q
+1 0 0 1 60 169.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The 3D Ising exponent in the anomalous term \(2.59 = 1 + 1/nu\) tells us the UNIVERSALITY CLASS of this failure. It is not) Tj T* (arbitrary. It is the same universality class as superconductors, ferromagnets, water near its critical point, and biological) Tj T* (phase transitions. The law breaks the same way at every scale.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 162.8 cm
+Q
+q
+1 0 0 1 60 156.8 cm
+Q
+q
+1 0 0 1 60 152.8 cm
+Q
+q
+1 0 0 1 60 114.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 102.8 cm
+Q
+q
+1 0 0 1 60 63.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Wike Singularity's anomalous 0.72/T^2.59 term is the signature of time-reversal symmetry breakdown at the critical) Tj T* (point -- the Crooks fluctuation theorem's failure mode when long-range correlations make forward and reverse processes) Tj T* (qualitatively different paths through phase space.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F2-0 27 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 3853
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 49: THE CROOKS FLUCTUATION THEOREM AND THE WIKE SINGULARITY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is not a measurement problem. It is a fundamental physics statement: at gamma_c, micro-reversibility fails. The arrow) Tj T* (of time is not just statistical \(as Boltzmann argued\) -- it is also structural, encoded in the critical point's correlation geometry.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 694 cm
+Q
+q
+1 0 0 1 60 643 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (Biology uses this. Life runs forward \(ATP synthesis, directed transport, organized development\) maximally efficiently near) Tj T* (gamma_c because that is where the Crooks ratio is largest -- where the forward process is most favored over its reverse.) Tj T* (Disease is what happens when the reverse process becomes exponentially suppressed for the repair pathways while) Tj T* (remaining accessible for the damage pathways.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 636 cm
+Q
+q
+1 0 0 1 60 621 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The 0.72/T^2.59 term is in every measurement of every biological system near criticality. We just hadn't named it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 614 cm
+Q
+q
+1 0 0 1 60 599 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (God is good. All the time. Them beans though.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 592 cm
+Q
+q
+1 0 0 1 60 586 cm
+Q
+q
+1 0 0 1 60 582 cm
+Q
+q
+1 0 0 1 60 544 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 505 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Crooks, G. E. \(1999\). Entropy production fluctuation theorem and the nonequilibrium work relation for free energy) Tj T* (differences. ) Tj /F3 9 Tf (Physical Review E) Tj /F1 9 Tf (, 60\(3\), 2721-2726.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 490 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Jarzynski, C. \(1997\). Nonequilibrium equality for free energy differences. ) Tj /F3 9 Tf (Physical Review Letters) Tj /F1 9 Tf (, 78\(14\), 2690-2693.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 475 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. Wilson, K. G., & Kogut, J. \(1974\). The renormalization group and the epsilon expansion. ) Tj /F3 9 Tf (Physics Reports) Tj /F1 9 Tf (, 12\(2\), 75-199.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. Seifert, U. \(2012\). Stochastic thermodynamics, fluctuation theorems, and molecular machines. ) Tj /F3 9 Tf (Reports on Progress in) Tj T* (Physics) Tj /F1 9 Tf (, 75\(12\), 126001.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Wike, R. D. \(2026\). AIIT-THRESI Research Papers 01-48. Council Hill, Oklahoma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 426 cm
+Q
+q
+1 0 0 1 60 420 cm
+Q
+q
+1 0 0 1 60 405 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (Rhet Dillard Wike | AIIT-THRESI | Council Hill, Oklahoma | March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 398 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 28
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000301 00000 n 
+0000000350 00000 n 
+0000000721 00000 n 
+0000006908 00000 n 
+0000007015 00000 n 
+0000007122 00000 n 
+0000007234 00000 n 
+0000007344 00000 n 
+0000007460 00000 n 
+0000007566 00000 n 
+0000007941 00000 n 
+0000015424 00000 n 
+0000015532 00000 n 
+0000015643 00000 n 
+0000016018 00000 n 
+0000024078 00000 n 
+0000024186 00000 n 
+0000024297 00000 n 
+0000024672 00000 n 
+0000031604 00000 n 
+0000031712 00000 n 
+0000031823 00000 n 
+0000032198 00000 n 
+0000036104 00000 n 
+0000036212 00000 n 
+trailer
+<<
+/Size 28
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+36323
+%%EOF

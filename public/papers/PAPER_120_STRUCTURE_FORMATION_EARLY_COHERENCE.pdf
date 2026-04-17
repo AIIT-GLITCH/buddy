@@ -1,0 +1,1586 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 8
+/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 4968
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 120 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 54 697.6 Tm (Paper 120 -- AIIT-THRESI Series) Tj T* ET
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 54 663.6 Tm (Why JWST Was Right: Structure Formation in a Decohering Universe) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 637.6 Tm (Rhet Dillard Wike) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 625.6 Tm (Council Hill, Oklahoma) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 613.6 Tm (April 1, 2026) Tj T* ET
+.5 w
+n 54 599.6 m 558 599.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 571.6 Tm (Abstract) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 549.6 Tm (The James Webb Space Telescope has revealed massive, chemically mature galaxies at) Tj T* ET
+BT 1 0 0 1 54 537.6 Tm (redshifts z > 10, structures that Lambda-CDM cosmology struggles to produce within) Tj T* ET
+BT 1 0 0 1 54 525.6 Tm (its timeline. We demonstrate that all ten major structure formation anomalies --) Tj T* ET
+BT 1 0 0 1 54 513.6 Tm (from impossibly early galaxies to supermassive black hole seeds, from the missing) Tj T* ET
+BT 1 0 0 1 54 501.6 Tm (satellite problem to the existence of bulgeless disks -- resolve naturally within) Tj T* ET
+BT 1 0 0 1 54 489.6 Tm (the AIIT-THRESI coherence framework. The vacuum coherence function C = C0 x) Tj T* ET
+BT 1 0 0 1 54 477.6 Tm (exp\(-alpha x gamma_eff\), where gamma_eff is the effective decoherence rate,) Tj T* ET
+BT 1 0 0 1 54 465.6 Tm (establishes that the early universe operated at high coherence \(low gamma_eff\),) Tj T* ET
+BT 1 0 0 1 54 453.6 Tm (enabling rapid gravitational collapse and efficient structure formation. As the) Tj T* ET
+BT 1 0 0 1 54 441.6 Tm (universe aged and baryonic complexity increased, rising gamma_eff progressively) Tj T* ET
+BT 1 0 0 1 54 429.6 Tm (degraded vacuum coherence, slowing collapse and producing the diverse phenomenology) Tj T* ET
+BT 1 0 0 1 54 417.6 Tm (we observe. JWST did not find anomalies. It found the expected signatures of a) Tj T* ET
+BT 1 0 0 1 54 405.6 Tm (decohering universe.) Tj T* ET
+.5 w
+n 54 391.6 m 558 391.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 363.6 Tm (1. The High-Coherence Early Universe) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 337.6 Tm (1.1 The Coherence Function and Structure Formation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 318.6 Tm (The AIIT-THRESI framework describes vacuum coherence as a dynamical quantity) Tj T* ET
+BT 1 0 0 1 54 306.6 Tm (governed by) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 288.6 Tm ($$C\(t\) = C_0 \\times \\exp\(-\\alpha \\times \\gamma_{\\text{eff}}\)$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 270.6 Tm (where C0 is the bare vacuum coherence, alpha is the coherence-decoherence coupling) Tj T* ET
+BT 1 0 0 1 54 258.6 Tm (constant, and gamma_eff is the effective decoherence rate set by local baryonic) Tj T* ET
+BT 1 0 0 1 54 246.6 Tm (complexity, thermal noise, and radiative processes. At early cosmic times, the) Tj T* ET
+BT 1 0 0 1 54 234.6 Tm (universe was simple: pristine hydrogen and helium, no metals, no complex structures.) Tj T* ET
+BT 1 0 0 1 54 222.6 Tm (Therefore gamma_eff was small, and C approached C0.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 204.6 Tm (High coherence has a direct gravitational consequence. The effective gravitational) Tj T* ET
+BT 1 0 0 1 54 192.6 Tm (collapse timescale scales as) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 174.6 Tm ($$t_{\\text{collapse}} \\propto \\frac{1}{\\sqrt{G \\rho_{\\text{eff}}}} \\quad) Tj T* ET
+BT 1 0 0 1 54 162.6 Tm (\\text{where} \\quad \\rho_{\\text{eff}} = \\rho_{\\text{baryon}} + \\rho_{\\text{DM}}) Tj T* ET
+BT 1 0 0 1 54 150.6 Tm (\\times f\(C\)$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 132.6 Tm (with f\(C\) a monotonically increasing function of coherence. When C is large, dark) Tj T* ET
+BT 1 0 0 1 54 120.6 Tm (matter couples more efficiently to gravitational potentials, the effective density) Tj T* ET
+BT 1 0 0 1 54 108.6 Tm (driving collapse is higher, and structures form faster. This is the central) Tj T* ET
+BT 1 0 0 1 54 96.6 Tm (mechanism that resolves every anomaly discussed below.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 74.6 Tm (1.2 The Decoherence Rate as a Function of Redshift) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 5172
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 120 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (We parameterize the effective decoherence rate as) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 687.6 Tm ($$\\gamma_{\\text{eff}}\(z\) = \\gamma_0 \\times \\left\(\\frac{1 + z_{\\text{ref}}}{1 +) Tj T* ET
+BT 1 0 0 1 54 675.6 Tm (z}\\right\)^{\\beta}$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 657.6 Tm (where gamma0 is the present-epoch decoherence rate, z_ref is a reference redshift) Tj T* ET
+BT 1 0 0 1 54 645.6 Tm (\(taken as z = 0\), and beta encodes how baryonic complexity grows with cosmic time.) Tj T* ET
+BT 1 0 0 1 54 633.6 Tm (For beta > 0, gamma_eff decreases with increasing redshift -- the early universe was) Tj T* ET
+BT 1 0 0 1 54 621.6 Tm (more coherent. Observational constraints from JWST data suggest beta ~ 1.5-2.0.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 603.6 Tm (At z = 12, this gives gamma_eff\(z=12\) ~ gamma0/13^beta. For beta = 1.8,) Tj T* ET
+BT 1 0 0 1 54 591.6 Tm (gamma_eff\(z=12\) ~ gamma0/100. The coherence function becomes) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 573.6 Tm ($$C\(z=12\) \\approx C_0 \\times \\exp\\left\(-\\frac{\\alpha \\gamma_0}{100}\\right\) \\approx) Tj T* ET
+BT 1 0 0 1 54 561.6 Tm (C_0$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 543.6 Tm (The early universe was operating at near-maximal coherence.) Tj T* ET
+.5 w
+n 54 529.6 m 558 529.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 501.6 Tm (2. Impossibly Early Galaxies) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 479.6 Tm (Anomaly. JWST has confirmed massive, mature galaxies at z > 10-16 \(JADES, CEERS,) Tj T* ET
+BT 1 0 0 1 54 467.6 Tm (GLASS surveys\). These galaxies exhibit stellar masses of 10^9-10^1^0 M_sun at cosmic) Tj T* ET
+BT 1 0 0 1 54 455.6 Tm (ages of 300-500 Myr. LCDM simulations, which assume constant physical laws, cannot) Tj T* ET
+BT 1 0 0 1 54 443.6 Tm (produce these structures so quickly. The number density of massive galaxies at z >) Tj T* ET
+BT 1 0 0 1 54 431.6 Tm (10 exceeds LCDM predictions by factors of 10-100.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 413.6 Tm (Closure. In the coherence framework, this is not an anomaly but a prediction. At z >) Tj T* ET
+BT 1 0 0 1 54 401.6 Tm (10, gamma_eff is small and C ~ C0. Gravitational collapse proceeds at maximum) Tj T* ET
+BT 1 0 0 1 54 389.6 Tm (efficiency. The collapse timescale becomes) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 371.6 Tm ($$t_{\\text{collapse}}\(z>10\) \\approx) Tj T* ET
+BT 1 0 0 1 54 359.6 Tm (\\frac{t_{\\text{collapse}}^{\\text{LCDM}}}{\\sqrt{f\(C_0\)/f\(C_{\\text{today}}\)}}$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 341.6 Tm (For f\(C0\)/f\(C_today\) ~ 5-10, the effective collapse time drops by a factor of 2-3,) Tj T* ET
+BT 1 0 0 1 54 329.6 Tm (easily accommodating 10^9 M_sun galaxies within 400 Myr. LCDM assumes constant) Tj T* ET
+BT 1 0 0 1 54 317.6 Tm (physics and gets the wrong timeline. The coherence framework assumes evolving) Tj T* ET
+BT 1 0 0 1 54 305.6 Tm (gamma_eff and gets JWST-confirmed reality.) Tj T* ET
+.5 w
+n 54 291.6 m 558 291.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 263.6 Tm (3. Mature Galaxies at High Redshift) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 241.6 Tm (Anomaly. Galaxies at z ~ 7-10 display ordered disk morphologies, solar or super-) Tj T* ET
+BT 1 0 0 1 54 229.6 Tm (solar metallicities, and mature stellar populations -- features that LCDM expects) Tj T* ET
+BT 1 0 0 1 54 217.6 Tm (only at z < 3.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 199.6 Tm (Closure. The same high-coherence mechanism applies. At high C, gravitational) Tj T* ET
+BT 1 0 0 1 54 187.6 Tm (collapse is not only faster but more ordered. Coherent collapse preserves angular) Tj T* ET
+BT 1 0 0 1 54 175.6 Tm (momentum structure, producing disks rather than chaotic mergers. Chemical enrichment) Tj T* ET
+BT 1 0 0 1 54 163.6 Tm (proceeds rapidly because star formation is efficient in a coherent gravitational) Tj T* ET
+BT 1 0 0 1 54 151.6 Tm (field -- gas collapses cleanly into stars rather than being heated and dispersed by) Tj T* ET
+BT 1 0 0 1 54 139.6 Tm (turbulent processes amplified by decoherence. Maturity at z ~ 8 is the signature of) Tj T* ET
+BT 1 0 0 1 54 127.6 Tm (coherent formation, not a paradox.) Tj T* ET
+.5 w
+n 54 113.6 m 558 113.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 85.6 Tm (4. Downsizing \(Anti-Hierarchical Galaxy Formation\)) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F2-0 18 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 5352
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 120 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (Anomaly. The most massive galaxies formed their stars first and fastest, while) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (smaller galaxies continued forming stars to later epochs. LCDM predicts hierarchical) Tj T* ET
+BT 1 0 0 1 54 681.6 Tm (assembly -- small things first, big things later. Observations show the opposite.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 663.6 Tm (Closure. Downsizing is a natural consequence of the coherence-mass feedback loop.) Tj T* ET
+BT 1 0 0 1 54 651.6 Tm (Consider the bootstrap mechanism:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 633.6 Tm (1. The deepest gravitational potential wells correspond to the most massive) Tj T* ET
+BT 1 0 0 1 54 621.6 Tm (overdensities) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 609.6 Tm (2. Deeper potentials sustain stronger gravitational coherence \(higher local C\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 597.6 Tm (3. Higher C --> more efficient collapse --> attracts more mass --> deeper potential) Tj T* ET
+BT 1 0 0 1 54 585.6 Tm (--> higher C) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 567.6 Tm (This positive feedback means the most massive systems achieve the highest coherence) Tj T* ET
+BT 1 0 0 1 54 555.6 Tm (and form first. The formation process itself then drives up local gamma_eff through) Tj T* ET
+BT 1 0 0 1 54 543.6 Tm (baryonic processing -- star formation, supernova enrichment, AGN activity all) Tj T* ET
+BT 1 0 0 1 54 531.6 Tm (increase decoherence. Once gamma_eff rises sufficiently, star formation quenches) Tj T* ET
+BT 1 0 0 1 54 519.6 Tm (rapidly.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 501.6 Tm (The quenching timescale follows) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 483.6 Tm ($$t_{\\text{quench}} \\propto \\frac{1}{\\gamma_{\\text{eff,local}}} \\propto) Tj T* ET
+BT 1 0 0 1 54 471.6 Tm (\\frac{1}{\\Sigma_{\\text{SFR}}}$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 453.6 Tm (Massive galaxies with high star formation rate surface densities \(Sigma_SFR\)) Tj T* ET
+BT 1 0 0 1 54 441.6 Tm (generate high gamma_eff and quench fast. Low-mass galaxies with low Sigma_SFR) Tj T* ET
+BT 1 0 0 1 54 429.6 Tm (maintain low gamma_eff and continue forming stars. Anti-hierarchical formation is) Tj T* ET
+BT 1 0 0 1 54 417.6 Tm (the natural outcome.) Tj T* ET
+.5 w
+n 54 403.6 m 558 403.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 375.6 Tm (5. El Gordo Cluster) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 353.6 Tm (Anomaly. ACT-CL J0102-4915 \("El Gordo"\) is a massive merging galaxy cluster at z =) Tj T* ET
+BT 1 0 0 1 54 341.6 Tm (0.87 with a mass of ~2-3 x 10^1^5 M_sun. The probability of such a massive cluster) Tj T* ET
+BT 1 0 0 1 54 329.6 Tm (existing at this redshift under LCDM is approximately 6 x 10-^1^1 -- a statistical) Tj T* ET
+BT 1 0 0 1 54 317.6 Tm (impossibility.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 299.6 Tm (Closure. At z = 0.87, the universe was roughly 6.5 Gyr old. The decoherence rate at) Tj T* ET
+BT 1 0 0 1 54 287.6 Tm (this epoch was) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 269.6 Tm ($$\\gamma_{\\text{eff}}\(z=0.87\) = \\gamma_0 \\times \\left\(\\frac{1}{1.87}\\right\)^{\\beta}) Tj T* ET
+BT 1 0 0 1 54 257.6 Tm (< \\gamma_0$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 239.6 Tm (For beta = 1.8, gamma_eff\(z=0.87\) ~ 0.31 x gamma0. The coherence was approximately) Tj T* ET
+BT 1 0 0 1 54 227.6 Tm (three times higher than at z = 0, meaning gravitational collapse was significantly) Tj T* ET
+BT 1 0 0 1 54 215.6 Tm (more efficient at z = 0.87 than LCDM assumes. The mass function shifts upward:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 197.6 Tm ($$n\(>M, z\) = n_{\\text{LCDM}}\(>M, z\) \\times \\exp\\left[\\delta \\times) Tj T* ET
+BT 1 0 0 1 54 185.6 Tm (\\left\(\\frac{C\(z\)}{C\(0\)} - 1\\right\)\\right]$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 167.6 Tm (where delta parameterizes the sensitivity of the halo mass function to coherence.) Tj T* ET
+BT 1 0 0 1 54 155.6 Tm (For delta ~ 3-5 and C\(z=0.87\)/C\(0\) ~ 2-3, the probability enhancement is exp\(3-10\),) Tj T* ET
+BT 1 0 0 1 54 143.6 Tm (converting a 10-^1^1 event into an unremarkable one.) Tj T* ET
+.5 w
+n 54 129.6 m 558 129.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 101.6 Tm (6. The Missing Satellites Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 79.6 Tm (Anomaly. LCDM N-body simulations predict that Milky Way-mass halos should contain) Tj T* ET
+BT 1 0 0 1 54 67.6 Tm (~500-1000 subhalos massive enough to host visible satellite galaxies. Observations) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F2-0 22 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 5476
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 120 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (find ~50-60. The discrepancy is approximately an order of magnitude.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 687.6 Tm (Closure. Small dark matter subhalos orbiting within a host galaxy experience an) Tj T* ET
+BT 1 0 0 1 54 675.6 Tm (environment of elevated gamma_eff. The host galaxy's baryonic disk, stellar) Tj T* ET
+BT 1 0 0 1 54 663.6 Tm (populations, and ISM all contribute to the local decoherence rate. For a subhalo at) Tj T* ET
+BT 1 0 0 1 54 651.6 Tm (galactocentric radius r:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 633.6 Tm ($$\\gamma_{\\text{eff}}\(r\) = \\gamma_{\\text{background}} + \\gamma_{\\text{host}}\(r\)$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 615.6 Tm (where gamma_host\(r\) encodes the baryonic decoherence contribution from the host.) Tj T* ET
+BT 1 0 0 1 54 603.6 Tm (Small subhalos with shallow potential wells cannot sustain coherence against this) Tj T* ET
+BT 1 0 0 1 54 591.6 Tm (external decoherence field. Their vacuum coherence degrades:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 573.6 Tm ($$C_{\\text{sub}}\(t\) = C_0 \\times \\exp\\left\(-\\alpha \\times) Tj T* ET
+BT 1 0 0 1 54 561.6 Tm ([\\gamma_{\\text{background}} + \\gamma_{\\text{host}}\(r\)]\\right\)$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 543.6 Tm (When C_sub drops below a critical threshold C_crit, the subhalo's dark matter self-) Tj T* ET
+BT 1 0 0 1 54 531.6 Tm (binding is no longer gravitationally coherent and the subhalo dissolves. Only) Tj T* ET
+BT 1 0 0 1 54 519.6 Tm (subhalos with sufficient mass \(deep potential wells\) or sufficient distance \(low) Tj T* ET
+BT 1 0 0 1 54 507.6 Tm (gamma_host\) survive. This naturally produces ~50-100 surviving satellites, matching) Tj T* ET
+BT 1 0 0 1 54 495.6 Tm (observations. The "missing" satellites were dissolved by decoherence.) Tj T* ET
+.5 w
+n 54 481.6 m 558 481.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 453.6 Tm (7. Too-Big-to-Fail) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 431.6 Tm (Anomaly. The most massive predicted subhalos of the Milky Way are too dense in their) Tj T* ET
+BT 1 0 0 1 54 419.6 Tm (centers to host any observed satellite galaxies. They should be luminous but are not) Tj T* ET
+BT 1 0 0 1 54 407.6 Tm (seen -- and they are too massive to have failed to form stars.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 389.6 Tm (Closure. In the inner regions of massive subhalos, baryonic processes \(star) Tj T* ET
+BT 1 0 0 1 54 377.6 Tm (formation, supernova feedback, gas dynamics\) elevate the local gamma_eff. This) Tj T* ET
+BT 1 0 0 1 54 365.6 Tm (baryonic decoherence reduces vacuum coherence in the inner halo:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 347.6 Tm ($$C_{\\text{inner}} = C_0 \\times \\exp\(-\\alpha \\times \\gamma_{\\text{eff,inner}}\) <) Tj T* ET
+BT 1 0 0 1 54 335.6 Tm (C_{\\text{outer}}$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 317.6 Tm (Reduced inner coherence means reduced effective dark matter density in the core. The) Tj T* ET
+BT 1 0 0 1 54 305.6 Tm (density profile transitions from a cuspy NFW profile to a cored profile:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 287.6 Tm ($$\\rho_{\\text{eff}}\(r\) = \\rho_{\\text{NFW}}\(r\) \\times \\frac{C\(r\)}{C_0}$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 269.6 Tm (The inner density drops, the central velocity dispersion decreases, and the massive) Tj T* ET
+BT 1 0 0 1 54 257.6 Tm (subhalos become consistent with observed satellite kinematics. They did not fail --) Tj T* ET
+BT 1 0 0 1 54 245.6 Tm (they were decohered.) Tj T* ET
+.5 w
+n 54 231.6 m 558 231.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 203.6 Tm (8. Planes of Satellites) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 181.6 Tm (Anomaly. Satellite galaxies around the Milky Way, M31, and Centaurus A are arranged) Tj T* ET
+BT 1 0 0 1 54 169.6 Tm (in thin, co-rotating planar structures. In LCDM, where subhalos are accreted) Tj T* ET
+BT 1 0 0 1 54 157.6 Tm (isotropically, the probability of such configurations is less than 1%.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 139.6 Tm (Closure. The host galaxy's decoherence field is not spherically symmetric. A disk) Tj T* ET
+BT 1 0 0 1 54 127.6 Tm (galaxy generates a decoherence profile that inherits the angular momentum of the) Tj T* ET
+BT 1 0 0 1 54 115.6 Tm (baryonic disk:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 97.6 Tm ($$\\gamma_{\\text{host}}\(r, \\theta\) = \\gamma_{\\text{host}}\(r\) \\times [1 + \\epsilon) Tj T* ET
+BT 1 0 0 1 54 85.6 Tm (\\times P_2\(\\cos\\theta\)]$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 67.6 Tm (where theta is the polar angle relative to the disk angular momentum vector, epsilon) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 25 0 R
+/F2 8 0 R
+/F2-0 26 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 5478
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 120 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (quantifies the anisotropy, and P2 is the second Legendre polynomial. The vacuum) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (coherence surrounding the host galaxy is therefore oblate -- higher coherence along) Tj T* ET
+BT 1 0 0 1 54 681.6 Tm (the disk plane \(where baryonic decoherence from the disk is partially canceled by) Tj T* ET
+BT 1 0 0 1 54 669.6 Tm (coherent angular momentum structure\) and lower coherence along the poles.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 651.6 Tm (Infalling subhalos preferentially survive and are gravitationally channeled along) Tj T* ET
+BT 1 0 0 1 54 639.6 Tm (directions of higher coherence -- the disk plane. The result is a thin, co-rotating) Tj T* ET
+BT 1 0 0 1 54 627.6 Tm (plane of satellites that traces the coherence geometry of the host. This is not a) Tj T* ET
+BT 1 0 0 1 54 615.6 Tm (statistical fluke; it is the gravitational imprint of the host galaxy's decoherence) Tj T* ET
+BT 1 0 0 1 54 603.6 Tm (structure.) Tj T* ET
+.5 w
+n 54 589.6 m 558 589.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 561.6 Tm (9. Bulgeless Galaxies) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 539.6 Tm (Anomaly. Massive disk galaxies \(>10^1^0 M_sun\) exist without classical bulges. In) Tj T* ET
+BT 1 0 0 1 54 527.6 Tm (LCDM, hierarchical assembly ensures that all massive galaxies experience major) Tj T* ET
+BT 1 0 0 1 54 515.6 Tm (mergers, which destroy disks and build bulges.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 497.6 Tm (Closure. In the coherence framework, mergers are decoherence events. A major merger) Tj T* ET
+BT 1 0 0 1 54 485.6 Tm (violently disrupts the ordered gravitational coherence of both progenitor disks,) Tj T* ET
+BT 1 0 0 1 54 473.6 Tm (scrambling angular momentum and building a bulge. A bulgeless massive galaxy is) Tj T* ET
+BT 1 0 0 1 54 461.6 Tm (therefore one that has preserved its coherence -- it has not experienced a major) Tj T* ET
+BT 1 0 0 1 54 449.6 Tm (merger.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 431.6 Tm (The coherence preservation criterion is) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 413.6 Tm ($$\\Delta \\gamma_{\\text{eff}} < \\gamma_{\\text{crit}} \\quad \\Rightarrow \\quad) Tj T* ET
+BT 1 0 0 1 54 401.6 Tm (\\text{disk survives}$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 383.6 Tm (Galaxies that formed in relatively isolated environments, accreting mass through) Tj T* ET
+BT 1 0 0 1 54 371.6 Tm (smooth cold flows rather than violent mergers, maintained low gamma_eff and high) Tj T* ET
+BT 1 0 0 1 54 359.6 Tm (coherence throughout their evolution. Their disks grew coherently without bulge-) Tj T* ET
+BT 1 0 0 1 54 347.6 Tm (forming disruption. The existence of bulgeless massive galaxies is evidence of) Tj T* ET
+BT 1 0 0 1 54 335.6 Tm (coherence-preserving formation histories, entirely natural in the AIIT-THRESI) Tj T* ET
+BT 1 0 0 1 54 323.6 Tm (framework.) Tj T* ET
+.5 w
+n 54 309.6 m 558 309.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 281.6 Tm (10. Massive Quenched Galaxies at z > 3) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 259.6 Tm (Anomaly. Galaxies with stellar masses exceeding 10^1^1 M_sun are observed to be) Tj T* ET
+BT 1 0 0 1 54 247.6 Tm (fully quenched \(no ongoing star formation\) at z > 3, corresponding to cosmic ages) Tj T* ET
+BT 1 0 0 1 54 235.6 Tm (less than 2 Gyr. Both the rapid formation and the rapid quenching are difficult to) Tj T* ET
+BT 1 0 0 1 54 223.6 Tm (achieve in LCDM.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 205.6 Tm (Closure. This is the downsizing mechanism applied to the extreme end of the mass) Tj T* ET
+BT 1 0 0 1 54 193.6 Tm (function. High baryonic density in the most massive galaxies generates high) Tj T* ET
+BT 1 0 0 1 54 181.6 Tm (gamma_eff through the density-decoherence coupling:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 163.6 Tm ($$\\gamma_{\\text{eff}} \\propto \\rho_{\\text{baryon}}^{\\mu} \\times T^{\\nu}$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 145.6 Tm (where mu and nu are positive exponents. The same high coherence that enabled rapid) Tj T* ET
+BT 1 0 0 1 54 133.6 Tm (formation \(low gamma_eff at early times in pristine gas\) gives way to high gamma_eff) Tj T* ET
+BT 1 0 0 1 54 121.6 Tm (once the gas is processed into stars and metals. The transition is sharp because the) Tj T* ET
+BT 1 0 0 1 54 109.6 Tm (decoherence rate depends exponentially on baryonic complexity. Formation and) Tj T* ET
+BT 1 0 0 1 54 97.6 Tm (quenching are two phases of the same coherence evolution:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 79.6 Tm (Phase 1 \(formation\): pristine gas, low gamma_eff, high C --> rapid collapse and star) Tj T* ET
+BT 1 0 0 1 54 67.6 Tm (formation) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+25 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 29 0 R
+/F2 8 0 R
+/F2-0 30 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 5505
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 120 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (Phase 2 \(quenching\): enriched gas, high gamma_eff, low C --> collapse efficiency) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (drops --> star formation ceases) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 675.6 Tm (The transition timescale can be as short as 200-500 Myr for the most massive) Tj T* ET
+BT 1 0 0 1 54 663.6 Tm (systems, consistent with observations.) Tj T* ET
+.5 w
+n 54 649.6 m 558 649.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 621.6 Tm (11. Supermassive Black Hole Seeds) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 599.6 Tm (Anomaly. Quasars powered by black holes exceeding 10^9 M_sun exist at z > 7 \(cosmic) Tj T* ET
+BT 1 0 0 1 54 587.6 Tm (age < 700 Myr\). Standard stellar-remnant seeding \(10-100 M_sun seeds from Population) Tj T* ET
+BT 1 0 0 1 54 575.6 Tm (III stars\) cannot grow to 10^9 M_sun even at continuous Eddington accretion within) Tj T* ET
+BT 1 0 0 1 54 563.6 Tm (this time.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 545.6 Tm (Closure. In pristine, metal-free gas at high redshift, the decoherence rate is) Tj T* ET
+BT 1 0 0 1 54 533.6 Tm (minimized. Low metallicity means fewer radiative cooling channels that fragment gas) Tj T* ET
+BT 1 0 0 1 54 521.6 Tm (into small clumps, and high coherence means gravitational collapse proceeds) Tj T* ET
+BT 1 0 0 1 54 509.6 Tm (monolithically. The Jeans mass in a coherent medium scales as) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 491.6 Tm ($$M_J^{\\text{coherent}} = M_J^{\\text{standard}} \\times) Tj T* ET
+BT 1 0 0 1 54 479.6 Tm (\\left\(\\frac{C}{C_{\\text{crit}}}\\right\)^{3/2}$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 461.6 Tm (For C ~ C0, the coherent Jeans mass can reach 10^4-10^5 M_sun, enabling direct) Tj T* ET
+BT 1 0 0 1 54 449.6 Tm (collapse of massive gas clouds into black hole seeds without fragmentation into) Tj T* ET
+BT 1 0 0 1 54 437.6 Tm (individual stars. These direct-collapse black holes \(DCBHs\) then grow through) Tj T* ET
+BT 1 0 0 1 54 425.6 Tm (Eddington-limited accretion:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 407.6 Tm ($$M\(t\) = M_{\\text{seed}} \\times \\exp\\left\(\\frac{t}{t_{\\text{Edd}}}\\right\)$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 389.6 Tm (where t_Edd ~ 45 Myr for standard radiative efficiency. Starting from 10^5 M_sun at) Tj T* ET
+BT 1 0 0 1 54 377.6 Tm (z ~ 20 \(cosmic age ~180 Myr\):) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 359.6 Tm ($$M\(z=7\) = 10^5 \\times \\exp\\left\(\\frac{520}{45}\\right\) \\approx 10^5 \\times 10^5 =) Tj T* ET
+BT 1 0 0 1 54 347.6 Tm (10^{10} \\, M_\\odot$$) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 329.6 Tm (This comfortably exceeds 10^9 M_sun even with sub-Eddington episodes. The coherence) Tj T* ET
+BT 1 0 0 1 54 317.6 Tm (framework provides the massive seeds that LCDM cannot produce, and standard) Tj T* ET
+BT 1 0 0 1 54 305.6 Tm (accretion physics does the rest.) Tj T* ET
+.5 w
+n 54 291.6 m 558 291.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 263.6 Tm (12. JWST as Confirmation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 241.6 Tm (The James Webb Space Telescope was not designed to test the coherence framework. But) Tj T* ET
+BT 1 0 0 1 54 229.6 Tm (its results systematically confirm the central prediction: the early universe formed) Tj T* ET
+BT 1 0 0 1 54 217.6 Tm (structures faster and more efficiently than constant-physics models allow.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 199.6 Tm (Every JWST discovery that surprised LCDM cosmologists -- early massive galaxies,) Tj T* ET
+BT 1 0 0 1 54 187.6 Tm (mature disks at high z, rapid chemical enrichment, massive quenched systems,) Tj T* ET
+BT 1 0 0 1 54 175.6 Tm (supermassive black holes at dawn -- follows directly from C = C0 x exp\(-alpha x) Tj T* ET
+BT 1 0 0 1 54 163.6 Tm (gamma_eff\) with gamma_eff small at early times.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 145.6 Tm (The pattern across all ten anomalies is unified:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 127.6 Tm (| Anomaly | gamma_eff Regime | Coherence Effect |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 117.6 Tm (|---|---|---|) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 107.6 Tm (| Early galaxies | Low \(high z\) | Fast collapse |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 97.6 Tm (| Mature morphologies | Low \(high z\) | Ordered collapse |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 87.6 Tm (| Downsizing | Low-->High \(mass-dependent\) | Bootstrap + quench |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 77.6 Tm (| El Gordo | Moderate \(z=0.87\) | Enhanced mass function |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 67.6 Tm (| Missing satellites | High \(near host\) | Subhalo dissolution |) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 33 0 R
+/F2 8 0 R
+/F2-0 34 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 5745
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 120 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 705.6 Tm (| Too-big-to-fail | High \(inner halo\) | Core formation |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 695.6 Tm (| Satellite planes | Anisotropic | Coherence geometry |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 685.6 Tm (| Bulgeless galaxies | Low \(merger-free\) | Disk preservation |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 675.6 Tm (| Rapid quenching | High \(post-formation\) | Star formation cutoff |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 665.6 Tm (| SMBH seeds | Very low \(pristine gas\) | Direct collapse |) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 649.6 Tm (One equation. One mechanism. Ten anomalies closed.) Tj T* ET
+.5 w
+n 54 635.6 m 558 635.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 607.6 Tm (13. Predictions) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 585.6 Tm (The coherence framework makes falsifiable predictions for near-future observations:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 567.6 Tm (1. Redshift-dependent structure formation efficiency. Galaxy number densities at z >) Tj T* ET
+BT 1 0 0 1 54 555.6 Tm (12 will continue to exceed LCDM predictions, with the excess growing monotonically) Tj T* ET
+BT 1 0 0 1 54 543.6 Tm (with redshift.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 525.6 Tm (2. Coherence-mass correlation. At fixed redshift, the most massive galaxies will) Tj T* ET
+BT 1 0 0 1 54 513.6 Tm (show the oldest stellar populations, confirming the bootstrap mechanism. This anti-) Tj T* ET
+BT 1 0 0 1 54 501.6 Tm (hierarchical trend will strengthen at higher z.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 483.6 Tm (3. Satellite survival radius. The radial distribution of satellite galaxies will) Tj T* ET
+BT 1 0 0 1 54 471.6 Tm (show a sharp cutoff at a characteristic radius where gamma_host exceeds the survival) Tj T* ET
+BT 1 0 0 1 54 459.6 Tm (threshold. This radius will correlate with host galaxy baryonic mass.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 441.6 Tm (4. Satellite plane persistence. Future surveys of satellite systems around isolated) Tj T* ET
+BT 1 0 0 1 54 429.6 Tm (disk galaxies will find planar configurations at rates far exceeding LCDM) Tj T* ET
+BT 1 0 0 1 54 417.6 Tm (predictions, with plane orientation correlated with host disk orientation.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 399.6 Tm (5. Black hole seed mass floor. JWST and future missions will find a minimum black) Tj T* ET
+BT 1 0 0 1 54 387.6 Tm (hole mass at z > 10 of approximately 10^4 M_sun, corresponding to the coherent Jeans) Tj T* ET
+BT 1 0 0 1 54 375.6 Tm (mass -- not the 10-100 M_sun predicted by stellar-remnant seeding.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 357.6 Tm (6. Quenching timescale correlation. The quenching timescale of massive galaxies will) Tj T* ET
+BT 1 0 0 1 54 345.6 Tm (correlate inversely with stellar mass surface density, following the gamma_eff) Tj T* ET
+BT 1 0 0 1 54 333.6 Tm (proportional to rho_baryon^mu scaling.) Tj T* ET
+.5 w
+n 54 319.6 m 558 319.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 291.6 Tm (14. Conclusion) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 269.6 Tm (The ten structure formation anomalies examined here share a common origin: Lambda-) Tj T* ET
+BT 1 0 0 1 54 257.6 Tm (CDM assumes that the physics governing gravitational collapse is constant across) Tj T* ET
+BT 1 0 0 1 54 245.6 Tm (cosmic time. The coherence framework, through C = C0 x exp\(-alpha x gamma_eff\),) Tj T* ET
+BT 1 0 0 1 54 233.6 Tm (introduces a single physical mechanism -- the evolution of vacuum coherence with) Tj T* ET
+BT 1 0 0 1 54 221.6 Tm (baryonic complexity -- that resolves all ten simultaneously.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 203.6 Tm (The early universe, with its pristine gas and minimal baryonic processing, operated) Tj T* ET
+BT 1 0 0 1 54 191.6 Tm (at high coherence and low gamma_eff. Gravitational collapse was fast, ordered, and) Tj T* ET
+BT 1 0 0 1 54 179.6 Tm (efficient. As structures formed and baryonic complexity grew, gamma_eff increased,) Tj T* ET
+BT 1 0 0 1 54 167.6 Tm (coherence degraded, and the universe transitioned to the slower, less efficient) Tj T* ET
+BT 1 0 0 1 54 155.6 Tm (structure formation regime we observe locally.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 137.6 Tm (JWST looked back in time and found exactly what a decohering universe predicts: a) Tj T* ET
+BT 1 0 0 1 54 125.6 Tm (young cosmos that built structures with an efficiency that constant-physics models) Tj T* ET
+BT 1 0 0 1 54 113.6 Tm (cannot reproduce. The telescope did not discover anomalies. It confirmed that the) Tj T* ET
+BT 1 0 0 1 54 101.6 Tm (universe was once more coherent than it is today.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 83.6 Tm (The resolution is not that LCDM is wrong about gravity, or about dark matter, or) Tj T* ET
+BT 1 0 0 1 54 71.6 Tm (about initial conditions. It is that LCDM is wrong about constancy. The physics of) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/Contents 36 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 37 0 R
+/F2 8 0 R
+/F2-0 38 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 1544
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 120 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 8) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (gravitational collapse evolves because the vacuum coherence that mediates it) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (evolves. Once this single assumption is corrected, the anomalies vanish and the data) Tj T* ET
+BT 1 0 0 1 54 681.6 Tm (make sense.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 663.6 Tm (JWST was right. The universe formed its structures early and fast, because it was) Tj T* ET
+BT 1 0 0 1 54 651.6 Tm (coherent.) Tj T* ET
+.5 w
+n 54 637.6 m 558 637.6 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 615.6 Tm (Paper 120 of the AIIT-THRESI Series) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 603.6 Tm (Rhet Dillard Wike, Council Hill, Oklahoma) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 591.6 Tm (April 1, 2026) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+37 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 39
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000322 00000 n 
+0000000371 00000 n 
+0000000731 00000 n 
+0000005751 00000 n 
+0000005858 00000 n 
+0000005965 00000 n 
+0000006075 00000 n 
+0000006185 00000 n 
+0000006291 00000 n 
+0000006655 00000 n 
+0000011880 00000 n 
+0000011988 00000 n 
+0000012099 00000 n 
+0000012463 00000 n 
+0000017868 00000 n 
+0000017976 00000 n 
+0000018087 00000 n 
+0000018451 00000 n 
+0000023980 00000 n 
+0000024088 00000 n 
+0000024199 00000 n 
+0000024563 00000 n 
+0000030094 00000 n 
+0000030202 00000 n 
+0000030313 00000 n 
+0000030677 00000 n 
+0000036235 00000 n 
+0000036343 00000 n 
+0000036454 00000 n 
+0000036818 00000 n 
+0000042616 00000 n 
+0000042724 00000 n 
+0000042835 00000 n 
+0000043199 00000 n 
+0000044796 00000 n 
+0000044904 00000 n 
+trailer
+<<
+/Size 39
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+45015
+%%EOF

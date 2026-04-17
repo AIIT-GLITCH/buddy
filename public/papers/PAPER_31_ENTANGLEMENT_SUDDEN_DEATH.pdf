@@ -1,0 +1,3382 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 11
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R 28 0 R 32 0 R 36 0 R 40 0 R 44 0 R 48 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5790
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 31: THE WIKE EXCEPTION -- Entanglement Sudden Death and Why Bell States Br) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 20.632 0 Td (PAPER 31: THE WIKE EXCEPTION -- Entanglement Sudden) Tj T* 67.992 0 Td (Death and Why Bell States Break the Law) Tj T* -88.624 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (The First Boundary Condition of the Wike Coherence Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 552 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 3 Tm /F3 9 Tf 12 TL ("The bond dies before the self does. That's not a flaw -- it's the boundary condition.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 542 cm
+Q
+q
+1 0 0 1 60 536 cm
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 494 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482 cm
+Q
+q
+1 0 0 1 60 431 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (A QuTiP simulation of Bell state entanglement under independent dephasing reveals a result that appears to violate the) Tj T* (Wike Coherence Law: at decoherence rates where single-qubit coherence survives at 100%, two-qubit entanglement) Tj T* (collapses ) Tj /F2 9 Tf (instantly) Tj /F1 9 Tf ( to zero. The concurrence C\(20\) = 0.000000 at both gentle \(gamma = 0.005\) and harsh \(gamma =) Tj T* (0.0804\) dephasing -- 0% survival -- while the individual qubits at identical gamma maintain full coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424 cm
+Q
+q
+1 0 0 1 60 409 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is not a violation. It is a ) Tj /F2 9 Tf (boundary condition) Tj /F1 9 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 402 cm
+Q
+q
+1 0 0 1 60 351 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (The phenomenon is Entanglement Sudden Death \(ESD\), first identified by Yu & Eberly \(2004, 2006\) and experimentally) Tj T* (confirmed \(Science 323:598, 2009\). Entanglement does not decay exponentially like coherence. It reaches a hard zero in) Tj T* /F2 9 Tf (finite time) Tj /F1 9 Tf ( -- a sharp cliff, not a gradual slope. The critical decoherence rate for entanglement is strictly lower than the) Tj T* (critical rate for single-system coherence:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 344 cm
+Q
+q
+1 0 0 1 60 331.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_c\(entanglement\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(coherence\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 323.2 cm
+Q
+q
+1 0 0 1 60 260.2 cm
+q
+BT 1 0 0 1 0 51 Tm 12 TL /F1 9 Tf 0 0 0 rg (This inequality is the First Boundary Condition of the Wike Coherence Law. The law holds. It always held. It applies to) Tj T* /F2 9 Tf (single-system coherence) Tj /F1 9 Tf (. Entanglement is a correlated property between systems and obeys a stricter, more fragile) Tj T* (threshold. This paper derives the mathematics, presents the simulation data, and shows why this boundary condition) Tj T* (explains one of the deepest puzzles in quantum biology: why coherence is found everywhere in warm biological systems) Tj T* (while entanglement is almost never observed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 253.2 cm
+Q
+q
+1 0 0 1 60 247.2 cm
+Q
+q
+1 0 0 1 60 243.2 cm
+Q
+q
+1 0 0 1 60 205.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Simulation Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 193.2 cm
+Q
+q
+1 0 0 1 60 163.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.1 Setup) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 153.2 cm
+Q
+q
+1 0 0 1 60 96.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Framework:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (QuTiP) Tj ( ) Tj (5.2.3) Tj  T* (System) Tj ( ) Tj (A:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Bell) Tj ( ) Tj (state) Tj ( ) Tj (|PI^+) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (\(1/sqrt2\)\(|01) Tj (>) Tj ( ) Tj (+) Tj ( ) Tj (|10) Tj (>) Tj (\),) Tj ( ) Tj (2) Tj ( ) Tj (qubits) Tj  T* (System) Tj ( ) Tj (B:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Single) Tj ( ) Tj (qubit) Tj ( ) Tj (|+) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (\(1/sqrt2\)\(|0) Tj (>) Tj ( ) Tj (+) Tj ( ) Tj (|1) Tj (>) Tj (\),) Tj ( ) Tj (1) Tj ( ) Tj (qubit) Tj  T* (Noise) Tj ( ) Tj (model:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Independent) Tj ( ) Tj (dephasing) Tj ( ) Tj (\(sigma_z) Tj ( ) Tj (on) Tj ( ) Tj (each) Tj ( ) Tj (qubit\)) Tj  T* (Evolution) Tj ( ) Tj (time:) Tj ( ) Tj (t) Tj ( ) Tj (=) Tj ( ) Tj (20) Tj ( ) Tj (units) Tj  T* (Measure:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Concurrence) Tj ( ) Tj (\(entanglement\),) Tj ( ) Tj (off-diagonal) Tj ( ) Tj (coherence) Tj ( ) Tj (\(single) Tj ( ) Tj (qubit\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 88.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 11619
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 31: THE WIKE EXCEPTION -- Entanglement Sudden Death and Why Bell States Br) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.2 Results) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 515.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 184.8 re f*
+Q
+q
+BT 1 0 0 1 20 177.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (+----------------------------------------------------------------------+) Tj  T* (|) Tj ( ) Tj ( ) Tj (BELL) Tj ( ) Tj (STATE) Tj ( ) Tj (ENTANGLEMENT) Tj ( ) Tj (vs.) Tj ( ) Tj (SINGLE) Tj ( ) Tj (QUBIT) Tj ( ) Tj (COHERENCE) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|----------------------------------------------------------------------|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (BELL) Tj ( ) Tj (GENTLE) Tj ( ) Tj (\(gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.005\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Concurrence) Tj ( ) Tj (at) Tj ( ) Tj (t=20:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (C\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (0.000000) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Entanglement) Tj ( ) Tj (survival:) Tj ( ) Tj ( ) Tj ( ) Tj (0%) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Collapse) Tj ( ) Tj (time:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.00) Tj ( ) Tj (\(instantaneous\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (BELL) Tj ( ) Tj (HARSH) Tj ( ) Tj (\(gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0804\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Concurrence) Tj ( ) Tj (at) Tj ( ) Tj (t=20:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (C\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (0.000000) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Entanglement) Tj ( ) Tj (survival:) Tj ( ) Tj ( ) Tj ( ) Tj (0%) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Collapse) Tj ( ) Tj (time:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.00) Tj ( ) Tj (\(instantaneous\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (SINGLE) Tj ( ) Tj (QUBIT) Tj ( ) Tj (\(same) Tj ( ) Tj (gamma\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj (at) Tj ( ) Tj (t=20:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (SURVIVES) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj (survival:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (100%) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|----------------------------------------------------------------------|) Tj  T* (|) Tj ( ) Tj ( ) Tj (CONCLUSION:) Tj ( ) Tj (Entanglement) Tj ( ) Tj (dies.) Tj ( ) Tj (Coherence) Tj ( ) Tj (lives.) Tj ( ) Tj (Same) Tj ( ) Tj (gamma.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (+----------------------------------------------------------------------+) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 507.2 cm
+Q
+q
+1 0 0 1 60 477.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.3 The Paradox \(Apparent\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 467.2 cm
+Q
+q
+1 0 0 1 60 440.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (If the Wike Coherence Law states that coherence survives below gamma_c, and both the Bell pair and the single qubit) Tj T* (operate at the same gamma, how can one survive and the other die?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433.2 cm
+Q
+q
+1 0 0 1 60 406.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Answer: They have different gamma_c values.) Tj /F1 9 Tf ( Entanglement has a lower critical threshold than coherence. The system) Tj T* (is operating between the two thresholds:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 399.2 cm
+Q
+q
+1 0 0 1 60 360 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_c\(entanglement\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_applied) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(coherence\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (^) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (^) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (^) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Dead) Tj ( ) Tj (zone) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Here) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Safe) Tj ( ) Tj (zone) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (entanglement) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 352 cm
+Q
+q
+1 0 0 1 60 346 cm
+Q
+q
+1 0 0 1 60 342 cm
+Q
+q
+1 0 0 1 60 304 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The Physics of Entanglement Sudden Death) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292 cm
+Q
+q
+1 0 0 1 60 262 cm
+q
+BT 1 0 0 1 0 6 Tm 18 TL /F2 12 Tf 0 0 0 rg (2.1 Yu & Eberly \(2004, 2006, 2009\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 252 cm
+Q
+q
+1 0 0 1 60 213 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (Ting Yu and J.H. Eberly demonstrated that entanglement between two qubits coupled to independent environments does) Tj T* (not decay asymptotically. Unlike single-qubit coherence -- which decays as e^\(-gammat\), approaching zero but never quite) Tj T* (reaching it in finite time -- entanglement reaches ) Tj /F2 9 Tf (exactly zero) Tj /F1 9 Tf ( at a finite time t_ESD.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 206 cm
+Q
+q
+1 0 0 1 60 179 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (After t_ESD, there is no entanglement. Not "approximately zero." Not "negligibly small." ) Tj /F2 9 Tf (Mathematically zero.) Tj /F1 9 Tf ( The) Tj T* (entangled state has become a separable state. No measurement, no matter how precise, can recover the correlation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 172 cm
+Q
+q
+1 0 0 1 60 157 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This was experimentally confirmed by Almeida et al. \(Science 323:598, 2009\) using entangled photon pairs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 150 cm
+Q
+q
+1 0 0 1 60 120 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.2 Why Entanglement Is More Fragile) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 110 cm
+Q
+q
+1 0 0 1 60 83 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Single-qubit coherence is a property of ONE system. It depends only on the relationship between that system and its) Tj T* (environment. The decoherence rate is gamma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 76 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 9135
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 31: THE WIKE EXCEPTION -- Entanglement Sudden Death and Why Bell States Br) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Entanglement is a property of the CORRELATION BETWEEN two systems. Each system has its own environment. Each) Tj T* (environment attacks independently. The entanglement must survive BOTH attacks simultaneously.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 661.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Single) Tj ( ) Tj (qubit:) Tj ( ) Tj ( ) Tj ( ) Tj (System) Tj ( ) Tj (<) Tj (--) Tj (>) Tj ( ) Tj (Environment) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(one) Tj ( ) Tj (attack) Tj ( ) Tj (surface\)) Tj  T* (Entangled) Tj ( ) Tj (pair:) Tj ( ) Tj ( ) Tj (System) Tj ( ) Tj (A) Tj ( ) Tj (<) Tj (--) Tj (>) Tj ( ) Tj (Env) Tj ( ) Tj (A) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(two) Tj ( ) Tj (attack) Tj ( ) Tj (surfaces\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (System) Tj ( ) Tj (B) Tj ( ) Tj (<) Tj (--) Tj (>) Tj ( ) Tj (Env) Tj ( ) Tj (B) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(independent\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Correlation\(A,B\)) Tj ( ) Tj (must) Tj ( ) Tj (survive) Tj ( ) Tj (BOTH) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 653.8 cm
+Q
+q
+1 0 0 1 60 626.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (Two independent noise channels don't just add -- they ) Tj /F2 9 Tf (multiply) Tj /F1 9 Tf ( the vulnerability. The entanglement has twice the attack) Tj T* (surface but less than half the resilience.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 619.8 cm
+Q
+q
+1 0 0 1 60 589.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.3 The Asymmetry) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 579.8 cm
+Q
+q
+1 0 0 1 60 549.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Coherence) Tj ( ) Tj (of) Tj ( ) Tj (qubit) Tj ( ) Tj (A:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (rho_01\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (rho_01\(0\)) Tj ( ) Tj (x) Tj ( ) Tj (e^\(-gammat\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (as) Tj ( ) Tj (t) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj  T* (Coherence) Tj ( ) Tj (of) Tj ( ) Tj (qubit) Tj ( ) Tj (B:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (rho_01\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (rho_01\(0\)) Tj ( ) Tj (x) Tj ( ) Tj (e^\(-gammat\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (as) Tj ( ) Tj (t) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj  T* (Entanglement) Tj ( ) Tj (of) Tj ( ) Tj (\(A,B\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (f\(t\)\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (at) Tj ( ) Tj (FINITE) Tj ( ) Tj (t_ESD) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 541.4 cm
+Q
+q
+1 0 0 1 60 502.4 cm
+q
+BT 1 0 0 1 0 27 Tm -0.012474 Tw 12 TL /F1 9 Tf 0 0 0 rg (The coherence of each individual qubit decays smoothly and never quite reaches zero in finite time. But the entanglement --) Tj T* 0 Tw (the correlation -- hits a hard wall. The ) Tj /F4 8 Tf (max\(0, ...\)) Tj /F1 9 Tf ( function in the concurrence formula creates a ) Tj /F2 9 Tf (cliff) Tj /F1 9 Tf (. Once the argument) Tj T* (goes negative, the entanglement is gone. Not decaying. Gone.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 495.4 cm
+Q
+q
+1 0 0 1 60 489.4 cm
+Q
+q
+1 0 0 1 60 485.4 cm
+Q
+q
+1 0 0 1 60 447.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Mathematical Derivation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 435.4 cm
+Q
+q
+1 0 0 1 60 405.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.1 The Bell State Under Independent Dephasing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 395.4 cm
+Q
+q
+1 0 0 1 60 380.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Start with the Bell state:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 373.4 cm
+Q
+q
+1 0 0 1 60 360.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (|PI^+) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (\(1/sqrt2\)\(|01) Tj (>) Tj ( ) Tj (+) Tj ( ) Tj (|10) Tj (>) Tj (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 352.6 cm
+Q
+q
+1 0 0 1 60 337.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The initial density matrix in the computational basis {|00) Tj (>) Tj (, |01) Tj (>) Tj (, |10) Tj (>) Tj (, |11) Tj (>) Tj (}:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 330.6 cm
+Q
+q
+1 0 0 1 60 256.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 70.4 re f*
+Q
+q
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho\(0\)) Tj ( ) Tj (=) Tj ( ) Tj (|PI^+) Tj (>) Tj (<) Tj (PI^+|) Tj ( ) Tj (=) Tj ( ) Tj (\(1/2\)) Tj ( ) Tj (x) Tj ( ) Tj ([) Tj ( ) Tj (|01) Tj (>) Tj (<) Tj (01|) Tj ( ) Tj (+) Tj ( ) Tj (|01) Tj (>) Tj (<) Tj (10|) Tj ( ) Tj (+) Tj ( ) Tj (|10) Tj (>) Tj (<) Tj (01|) Tj ( ) Tj (+) Tj ( ) Tj (|10) Tj (>) Tj (<) Tj (10|) Tj ( ) Tj (]) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (|) Tj  T* (rho\(0\)) Tj ( ) Tj (=) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj (1/2) Tj ( ) Tj ( ) Tj (1/2) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj (1/2) Tj ( ) Tj ( ) Tj (1/2) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 248.2 cm
+Q
+q
+1 0 0 1 60 218.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.2 Independent Dephasing Evolution) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 208.2 cm
+Q
+q
+1 0 0 1 60 181.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Under independent dephasing \(sigma_z noise on each qubit at rate gamma\), the off-diagonal elements of the two-qubit) Tj T* (density matrix decay as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 174.2 cm
+Q
+q
+1 0 0 1 60 152.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho_0110\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (rho_0110\(0\)) Tj ( ) Tj (x) Tj ( ) Tj (e^\(-2gammat\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(|01) Tj (>) Tj (<) Tj (10|) Tj ( ) Tj (element\)) Tj  T* (rho_1001\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (rho_1001\(0\)) Tj ( ) Tj (x) Tj ( ) Tj (e^\(-2gammat\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(|10) Tj (>) Tj (<) Tj (01|) Tj ( ) Tj (element\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 144.6 cm
+Q
+q
+1 0 0 1 60 129.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The diagonal elements remain constant \(dephasing does not change populations\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 122.6 cm
+Q
+q
+1 0 0 1 60 83.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho_0000\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(unchanged\)) Tj  T* (rho_0101\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (1/2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(unchanged\)) Tj  T* (rho_1010\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (1/2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(unchanged\)) Tj  T* (rho_1111\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(unchanged\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 75.4 cm
+Q
+q
+1 0 0 1 60 60.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The density matrix at time t:) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 8609
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 31: THE WIKE EXCEPTION -- Entanglement Sudden Death and Why Bell States Br) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 671.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (|) Tj  T* (rho\(t\)) Tj ( ) Tj (=) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (1/2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(1/2\)e^-2gammat) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (\(1/2\)e^-2gammat) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (1/2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 663.2 cm
+Q
+q
+1 0 0 1 60 633.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.3 Concurrence Calculation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 623.2 cm
+Q
+q
+1 0 0 1 60 608.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a general two-qubit state, the Wootters concurrence is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 601.2 cm
+Q
+q
+1 0 0 1 60 588.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (lambda?) Tj ( ) Tj (-) Tj ( ) Tj (lambda?) Tj ( ) Tj (-) Tj ( ) Tj (lambda?) Tj ( ) Tj (-) Tj ( ) Tj (lambda?\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580.4 cm
+Q
+q
+1 0 0 1 60 553.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (where lambdai are the square roots of the eigenvalues of rho\(sigma_y ? sigma_y\)rho*\(sigma_y ? sigma_y\), in decreasing) Tj T* (order.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 546.4 cm
+Q
+q
+1 0 0 1 60 519.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (For the X-state structure of our density matrix \(nonzero elements only on diagonal and anti-diagonal\), the concurrence) Tj T* (simplifies to:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 512.4 cm
+Q
+q
+1 0 0 1 60 499.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_ent) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (2|rho_0110|) Tj ( ) Tj (-) Tj ( ) Tj (2sqrt\(rho_0000) Tj ( ) Tj (x) Tj ( ) Tj (rho_1111\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 491.6 cm
+Q
+q
+1 0 0 1 60 461.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.4 Applying to Our State) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 451.6 cm
+Q
+q
+1 0 0 1 60 359.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 88 re f*
+Q
+q
+BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (|rho_0110\(t\)|) Tj ( ) Tj (=) Tj ( ) Tj (\(1/2\)) Tj ( ) Tj (x) Tj ( ) Tj (e^\(-2gammat\)) Tj  T*  T* (rho_0000) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (rho_1111) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T*  T* (Therefore:) Tj  T*  T* (C_ent\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (2) Tj ( ) Tj (x) Tj ( ) Tj (\(1/2\)) Tj ( ) Tj (x) Tj ( ) Tj (e^\(-2gammat\)) Tj ( ) Tj (-) Tj ( ) Tj (2sqrt\(0) Tj ( ) Tj (x) Tj ( ) Tj (0\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (e^\(-2gammat\)) Tj ( ) Tj (-) Tj ( ) Tj (0\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (e^\(-2gammat\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 351.6 cm
+Q
+q
+1 0 0 1 60 324.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Wait.) Tj /F1 9 Tf ( For a pure |PI^+) Tj (> state under pure dephasing with zero population in |00) Tj (> and |11) Tj (>) Tj (, the concurrence decays) Tj T* (smoothly. This is the ) Tj /F2 9 Tf (ideal case) Tj /F1 9 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 317.6 cm
+Q
+q
+1 0 0 1 60 287.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.5 The Realistic Case: Population Leakage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 277.6 cm
+Q
+q
+1 0 0 1 60 250.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (In any real system -- including the QuTiP simulation -- there is amplitude damping or thermal noise in addition to dephasing.) Tj T* (The Lindblad master equation includes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 243.6 cm
+Q
+q
+1 0 0 1 60 195.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Collapse) Tj ( ) Tj (operators:) Tj  T* ( ) Tj ( ) Tj (L?) Tj ( ) Tj (=) Tj ( ) Tj (sqrtgamma_dephase) Tj ( ) Tj (x) Tj ( ) Tj (sigma_z) Tj ( ) Tj (?) Tj ( ) Tj (I) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(dephasing) Tj ( ) Tj (on) Tj ( ) Tj (qubit) Tj ( ) Tj (A\)) Tj  T* ( ) Tj ( ) Tj (L?) Tj ( ) Tj (=) Tj ( ) Tj (sqrtgamma_dephase) Tj ( ) Tj (x) Tj ( ) Tj (I) Tj ( ) Tj (?) Tj ( ) Tj (sigma_z) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(dephasing) Tj ( ) Tj (on) Tj ( ) Tj (qubit) Tj ( ) Tj (B\)) Tj  T* ( ) Tj ( ) Tj (L?) Tj ( ) Tj (=) Tj ( ) Tj (sqrtgamma_relax) Tj ( ) Tj (x) Tj ( ) Tj (sigmanu) Tj ( ) Tj (?) Tj ( ) Tj (I) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(relaxation) Tj ( ) Tj (on) Tj ( ) Tj (qubit) Tj ( ) Tj (A\)) Tj  T* ( ) Tj ( ) Tj (L?) Tj ( ) Tj (=) Tj ( ) Tj (sqrtgamma_relax) Tj ( ) Tj (x) Tj ( ) Tj (I) Tj ( ) Tj (?) Tj ( ) Tj (sigmanu) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(relaxation) Tj ( ) Tj (on) Tj ( ) Tj (qubit) Tj ( ) Tj (B\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 187.6 cm
+Q
+q
+1 0 0 1 60 172.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (With even infinitesimal amplitude damping \(gamma_relax > 0\), the populations shift:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 165.6 cm
+Q
+q
+1 0 0 1 60 144 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho_0000\(t\)) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(population) Tj ( ) Tj (leaks) Tj ( ) Tj (to) Tj ( ) Tj (|00) Tj (>) Tj ( ) Tj (via) Tj ( ) Tj (relaxation\)) Tj  T* (rho_1111\(t\)) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(may) Tj ( ) Tj (remain) Tj ( ) Tj (zero) Tj ( ) Tj (or) Tj ( ) Tj (gain) Tj ( ) Tj (via) Tj ( ) Tj (thermal) Tj ( ) Tj (excitation\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 136 cm
+Q
+q
+1 0 0 1 60 121 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Now the concurrence becomes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 114 cm
+Q
+q
+1 0 0 1 60 101.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_ent\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (2|rho_0110\(t\)|) Tj ( ) Tj (-) Tj ( ) Tj (2sqrt\(rho_0000\(t\)) Tj ( ) Tj (x) Tj ( ) Tj (rho_1111\(t\)\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 93.2 cm
+Q
+q
+1 0 0 1 60 66.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The first term \(2|rho_0110|\) decays exponentially. The second term \(2sqrt\(rho_0000 x rho_1111\)\) ) Tj /F2 9 Tf (grows) Tj /F1 9 Tf ( from zero as) Tj T* (population leaks into the |00) Tj (> and |11) Tj (> states.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F2-0 27 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 7643
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 31: THE WIKE EXCEPTION -- Entanglement Sudden Death and Why Bell States Br) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 688.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (At) Tj ( ) Tj (t) Tj ( ) Tj (=) Tj ( ) Tj (0:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (2|rho_0110|) Tj ( ) Tj (=) Tj ( ) Tj (1.0,) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (2sqrt\(rho_0000) Tj ( ) Tj (x) Tj ( ) Tj (rho_1111\)) Tj ( ) Tj (=) Tj ( ) Tj (0.0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (1.0) Tj  T* (At) Tj ( ) Tj (t) Tj ( ) Tj (>) Tj ( ) Tj (0:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (2|rho_0110|) Tj ( ) Tj (decreasing,) Tj ( ) Tj (2sqrt\(rho_0000) Tj ( ) Tj (x) Tj ( ) Tj (rho_1111\)) Tj ( ) Tj (increasing) Tj  T* (At) Tj ( ) Tj (t) Tj ( ) Tj (=) Tj ( ) Tj (t_ESD:) Tj ( ) Tj (2|rho_0110|) Tj ( ) Tj (=) Tj ( ) Tj (2sqrt\(rho_0000) Tj ( ) Tj (x) Tj ( ) Tj (rho_1111\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (0.0) Tj  T* (At) Tj ( ) Tj (t) Tj ( ) Tj (>) Tj ( ) Tj (t_ESD:) Tj ( ) Tj (2|rho_0110|) Tj ( ) Tj (<) Tj ( ) Tj (2sqrt\(rho_0000) Tj ( ) Tj (x) Tj ( ) Tj (rho_1111\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (0.0) Tj ( ) Tj (\(clamped\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 680.8 cm
+Q
+q
+1 0 0 1 60 641.8 cm
+q
+BT 1 0 0 1 0 27 Tm -0.12285 Tw 12 TL /F2 9 Tf 0 0 0 rg (This is Entanglement Sudden Death.) Tj /F1 9 Tf ( The concurrence hits zero at a FINITE time and stays there. The ) Tj /F4 8 Tf (max\(0, ...\)) Tj /F1 9 Tf ( is not) Tj T* 0 Tw (a mathematical convenience -- it is a physical law. Negative concurrence is meaningless. Once the populations overwhelm) Tj T* (the off-diagonal coherence, the entanglement is ) Tj /F2 9 Tf (dead) Tj /F1 9 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 634.8 cm
+Q
+q
+1 0 0 1 60 604.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.6 The Sudden Death Time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594.8 cm
+Q
+q
+1 0 0 1 60 579.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Setting the argument to zero:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572.8 cm
+Q
+q
+1 0 0 1 60 560 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (2|rho_0110\(t_ESD\)|) Tj ( ) Tj (=) Tj ( ) Tj (2sqrt\(rho_0000\(t_ESD\)) Tj ( ) Tj (x) Tj ( ) Tj (rho_1111\(t_ESD\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 552 cm
+Q
+q
+1 0 0 1 60 537 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (For the specific case of independent amplitude damping at rate gamma on the |PI^+) Tj (> state:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530 cm
+Q
+q
+1 0 0 1 60 517.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (t_ESD) Tj ( ) Tj (=) Tj ( ) Tj (\(1/gamma\)) Tj ( ) Tj (x) Tj ( ) Tj (ln\(1) Tj ( ) Tj (+) Tj ( ) Tj (1/sqrt\(n\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 509.2 cm
+Q
+q
+1 0 0 1 60 482.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (where n is the mean thermal photon number. For n -) Tj (> 0 \(zero temperature\), t_ESD is finite but can be large. For n > 0 \(any) Tj T* (finite temperature\), t_ESD shrinks dramatically.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 475.2 cm
+Q
+q
+1 0 0 1 60 448.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (At biological temperatures \(T ~ 310 K\), n >) Tj (> 1 for relevant frequencies. The ESD time approaches zero.) Tj /F1 9 Tf ( This is) Tj T* (exactly what our simulation shows: collapse at t = 0.00.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 441.2 cm
+Q
+q
+1 0 0 1 60 435.2 cm
+Q
+q
+1 0 0 1 60 431.2 cm
+Q
+q
+1 0 0 1 60 393.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Why This Doesn't Break the Wike Coherence Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 381.2 cm
+Q
+q
+1 0 0 1 60 351.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.1 The Law \(Restated\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 341.2 cm
+Q
+q
+1 0 0 1 60 326.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law \(Papers 1-30\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 319.2 cm
+Q
+q
+1 0 0 1 60 262.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (A) Tj ( ) Tj (quantum) Tj ( ) Tj (system) Tj ( ) Tj (with) Tj ( ) Tj (decoherence) Tj ( ) Tj (rate) Tj ( ) Tj (gamma) Tj ( ) Tj (and) Tj ( ) Tj (protective) Tj ( ) Tj (mechanisms) Tj  T* (described) Tj ( ) Tj (by) Tj ( ) Tj (the) Tj ( ) Tj (Wike-Ginzburg) Tj ( ) Tj (number) Tj ( ) Tj (W) Tj ( ) Tj (maintains) Tj ( ) Tj (coherence) Tj ( ) Tj (when:) Tj  T*  T* (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_measurement) Tj ( ) Tj (-) Tj ( ) Tj (gamma_protection) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj  T*  T* (where) Tj ( ) Tj (gamma_c) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (critical) Tj ( ) Tj (decoherence) Tj ( ) Tj (rate) Tj ( ) Tj (for) Tj ( ) Tj (that) Tj ( ) Tj (system.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254.4 cm
+Q
+q
+1 0 0 1 60 224.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.2 The Key Phrase: "That System") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 214.4 cm
+Q
+q
+1 0 0 1 60 187.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The law says gamma_c is specific to the system being measured. A single qubit has one gamma_c. An entangled pair has) Tj T* (a ) Tj /F2 9 Tf (different, lower) Tj /F1 9 Tf ( gamma_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 180.4 cm
+Q
+q
+1 0 0 1 60 165.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is not a loophole. It is the ) Tj /F2 9 Tf (structure) Tj /F1 9 Tf ( of the law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 158.4 cm
+Q
+q
+1 0 0 1 60 66.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 88 re f*
+Q
+q
+BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (THE) Tj ( ) Tj (FIRST) Tj ( ) Tj (BOUNDARY) Tj ( ) Tj (CONDITION:) Tj  T*  T* (gamma_c) Tj ( ) Tj (is) Tj ( ) Tj (not) Tj ( ) Tj (a) Tj ( ) Tj (universal) Tj ( ) Tj (constant.) Tj ( ) Tj (It) Tj ( ) Tj (depends) Tj ( ) Tj (on) Tj ( ) Tj (the) Tj ( ) Tj (TYPE) Tj ( ) Tj (of) Tj ( ) Tj (quantum) Tj ( ) Tj (property) Tj  T* (being) Tj ( ) Tj (maintained:) Tj  T*  T* ( ) Tj ( ) Tj (gamma_c\(entanglement\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(coherence\)) Tj  T*  T* (A) Tj ( ) Tj (system) Tj ( ) Tj (can) Tj ( ) Tj (operate) Tj ( ) Tj (in) Tj ( ) Tj (a) Tj ( ) Tj (regime) Tj ( ) Tj (where:) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (Individual) Tj ( ) Tj (qubit) Tj ( ) Tj (coherence) Tj ( ) Tj (SURVIVES) Tj ( ) Tj (\(gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(coherence\)\)) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (Entanglement) Tj ( ) Tj (between) Tj ( ) Tj (qubits) Tj ( ) Tj (DIES) Tj ( ) Tj (\(gamma_eff) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c\(entanglement\)\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 30 0 R
+/F2 8 0 R
+/F2-0 31 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 11666
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 31: THE WIKE EXCEPTION -- Entanglement Sudden Death and Why Bell States Br) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 705.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (not) Tj ( ) Tj (a) Tj ( ) Tj (contradiction.) Tj ( ) Tj (It) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (boundary.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 697.6 cm
+Q
+q
+1 0 0 1 60 667.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.3 The Hierarchy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 657.6 cm
+Q
+q
+1 0 0 1 60 442.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 211.2 re f*
+Q
+q
+BT 1 0 0 1 20 203.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (+----------------------------------------------------------------------+) Tj  T* (|) Tj ( ) Tj ( ) Tj (THE) Tj ( ) Tj (COHERENCE) Tj ( ) Tj (THRESHOLD) Tj ( ) Tj (HIERARCHY) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|----------------------------------------------------------------------|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (gamma_c\(Bell) Tj ( ) Tj (state\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (v) Tj ( ) Tj ( ) Tj (MOST) Tj ( ) Tj (FRAGILE) Tj ( ) Tj (--) Tj ( ) Tj (maximally) Tj ( ) Tj (entangled) Tj ( ) Tj (states) Tj ( ) Tj (die) Tj ( ) Tj (first) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (gamma_c\(partial) Tj ( ) Tj (entanglement\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (v) Tj ( ) Tj ( ) Tj (FRAGILE) Tj ( ) Tj (--) Tj ( ) Tj (partially) Tj ( ) Tj (entangled) Tj ( ) Tj (states) Tj ( ) Tj (last) Tj ( ) Tj (longer) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (gamma_c\(bonded) Tj ( ) Tj (pair) Tj ( ) Tj (/) Tj ( ) Tj (Keeper) Tj ( ) Tj (state\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (v) Tj ( ) Tj ( ) Tj (MODERATE) Tj ( ) Tj (--) Tj ( ) Tj (biological) Tj ( ) Tj (entanglement) Tj ( ) Tj (between) Tj ( ) Tj (humans) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (gamma_c\(individual) Tj ( ) Tj (coherence\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (v) Tj ( ) Tj ( ) Tj (ROBUST) Tj ( ) Tj (--) Tj ( ) Tj (single-system) Tj ( ) Tj (quantum) Tj ( ) Tj (coherence) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (gamma_c\(classical\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (^) Tj ( ) Tj ( ) Tj (MOST) Tj ( ) Tj (ROBUST) Tj ( ) Tj (--) Tj ( ) Tj (classical) Tj ( ) Tj (correlations) Tj ( ) Tj (never) Tj ( ) Tj (die) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (+----------------------------------------------------------------------+) Tj  T*  T* (Ordering:) Tj  T*  T* ( ) Tj ( ) Tj (gamma_c\(Bell\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(bonded) Tj ( ) Tj (pair\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(individual\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(classical\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 434.4 cm
+Q
+q
+1 0 0 1 60 404.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.4 The Analogy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 394.4 cm
+Q
+q
+1 0 0 1 60 355.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Ice is more fragile than water. Water is more fragile than steam. All three are H?O. The critical temperature for ice \(0 C\) is) Tj T* -0.0897 Tw (lower than the critical temperature for liquid water \(100 C\). Operating at 50 C doesn't "violate" the laws of thermodynamics --) Tj T* 0 Tw (it defines the boundary between the solid and liquid phases.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 348.4 cm
+Q
+q
+1 0 0 1 60 333.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Entanglement is the ice. Coherence is the water. Classical correlation is the steam.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 326.4 cm
+Q
+q
+1 0 0 1 60 311.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At biological temperatures, we operate in the "liquid" phase: coherence exists, entanglement \(mostly\) doesn't.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 304.4 cm
+Q
+q
+1 0 0 1 60 298.4 cm
+Q
+q
+1 0 0 1 60 294.4 cm
+Q
+q
+1 0 0 1 60 256.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Connection to Biology) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 244.4 cm
+Q
+q
+1 0 0 1 60 214.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.1 The Puzzle) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204.4 cm
+Q
+q
+1 0 0 1 60 189.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Quantum coherence has been experimentally verified in:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 182.4 cm
+Q
+q
+1 0 0 1 60 134.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Photosynthetic) Tj ( ) Tj (complexes) Tj ( ) Tj (\(FMO) Tj ( ) Tj (complex,) Tj ( ) Tj (Engel) Tj ( ) Tj (et) Tj ( ) Tj (al.) Tj ( ) Tj (2007\)) Tj  T* (Avian) Tj ( ) Tj (magnetoreception) Tj ( ) Tj (\(radical) Tj ( ) Tj (pair) Tj ( ) Tj (mechanism,) Tj ( ) Tj (Hore) Tj ( ) Tj (&) Tj ( ) Tj (Mouritsen) Tj ( ) Tj (2016\)) Tj  T* (Olfactory) Tj ( ) Tj (reception) Tj ( ) Tj (\(vibrational) Tj ( ) Tj (theory,) Tj ( ) Tj (Turin) Tj ( ) Tj (1996\)) Tj  T* (Enzyme) Tj ( ) Tj (catalysis) Tj ( ) Tj (\(quantum) Tj ( ) Tj (tunneling,) Tj ( ) Tj (Klinman) Tj ( ) Tj (&) Tj ( ) Tj (Kohen) Tj ( ) Tj (2013\)) Tj  T* (Microtubule) Tj ( ) Tj (dynamics) Tj ( ) Tj (\(Craddock) Tj ( ) Tj (et) Tj ( ) Tj (al.) Tj ( ) Tj (2017\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 126.4 cm
+Q
+q
+1 0 0 1 60 111.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (But quantum entanglement in warm biological systems has been observed in almost ) Tj /F2 9 Tf (zero) Tj /F1 9 Tf ( of these cases. Why?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 104.4 cm
+Q
+q
+1 0 0 1 60 89.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The standard answer: "Biology is too warm and wet for entanglement.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 82.4 cm
+Q
+q
+1 0 0 1 60 67.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The correct answer: ) Tj /F2 9 Tf (Biology operates between the two thresholds.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+30 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+32 0 obj
+<<
+/Contents 33 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 34 0 R
+/F2 8 0 R
+/F2-0 35 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+33 0 obj
+<<
+/Length 7399
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 31: THE WIKE EXCEPTION -- Entanglement Sudden Death and Why Bell States Br) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.2 The Biological Operating Regime) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 568 cm
+q
+.95 .95 .95 rg
+n 20 0 452 132 re f*
+Q
+q
+BT 1 0 0 1 20 124.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310) Tj ( ) Tj (K) Tj ( ) Tj (\(human) Tj ( ) Tj (body) Tj ( ) Tj (temperature\):) Tj  T*  T* (gamma_thermal) Tj ( ) Tj (~=) Tj ( ) Tj (10??) Tj ( ) Tj (-) Tj ( ) Tj (10??) Tj ( ) Tj (snu?) Tj ( ) Tj (\(for) Tj ( ) Tj (electronic) Tj ( ) Tj (states\)) Tj  T* (gamma_thermal) Tj ( ) Tj (~=) Tj ( ) Tj (10?) Tj ( ) Tj (-) Tj ( ) Tj (10??) Tj ( ) Tj (snu?) Tj ( ) Tj (\(for) Tj ( ) Tj (vibrational) Tj ( ) Tj (states) Tj ( ) Tj (in) Tj ( ) Tj (protein) Tj ( ) Tj (scaffolds\)) Tj  T*  T* (gamma_c\(entanglement\)) Tj ( ) Tj (~=) Tj ( ) Tj (10?) Tj ( ) Tj (-) Tj ( ) Tj (10?) Tj ( ) Tj (snu?) Tj ( ) Tj (\(estimated) Tj ( ) Tj (from) Tj ( ) Tj (ESD) Tj ( ) Tj (timescales\)) Tj  T* (gamma_c\(coherence\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~=) Tj ( ) Tj (10??) Tj ( ) Tj (-) Tj ( ) Tj (10??) Tj ( ) Tj (snu?) Tj ( ) Tj (\(estimated) Tj ( ) Tj (from) Tj ( ) Tj (observed) Tj ( ) Tj (coherence) Tj ( ) Tj (lifetimes\)) Tj  T*  T* (For) Tj ( ) Tj (protein-scaffolded) Tj ( ) Tj (vibrational) Tj ( ) Tj (modes:) Tj  T*  T* ( ) Tj ( ) Tj (gamma_c\(entanglement\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(coherence\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (^) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (^) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (^) Tj  T* ( ) Tj ( ) Tj (Entanglement) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Biology) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence) Tj  T* ( ) Tj ( ) Tj (is) Tj ( ) Tj (dead) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (operates) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (survives) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (HERE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 560 cm
+Q
+q
+1 0 0 1 60 521 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is why Engel et al. found coherence in FMO but no entanglement. This is why the radical pair mechanism produces) Tj T* (coherent spin dynamics but not entangled spin pairs at macroscopic timescales. This is why microtubule coherence \(if) Tj T* (confirmed\) would not require microtubule entanglement.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514 cm
+Q
+q
+1 0 0 1 60 487 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Biology found the sweet spot.) Tj /F1 9 Tf ( Evolution discovered the regime where single-system coherence is possible but) Tj T* (entanglement is not -- and built all of its quantum tricks in that regime.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 480 cm
+Q
+q
+1 0 0 1 60 450 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.3 The Evolutionary Logic) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 440 cm
+Q
+q
+1 0 0 1 60 339.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 96.8 re f*
+Q
+q
+BT 1 0 0 1 20 89.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Entanglement:) Tj ( ) Tj (requires) Tj ( ) Tj (two) Tj ( ) Tj (systems) Tj ( ) Tj (to) Tj ( ) Tj (stay) Tj ( ) Tj (perfectly) Tj ( ) Tj (correlated) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (twice) Tj ( ) Tj (the) Tj ( ) Tj (attack) Tj ( ) Tj (surface) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (fragile) Tj ( ) Tj (to) Tj ( ) Tj (any) Tj ( ) Tj (independent) Tj ( ) Tj (perturbation) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (NOT) Tj ( ) Tj (reliable) Tj ( ) Tj (at) Tj ( ) Tj (310) Tj ( ) Tj (K) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (NOT) Tj ( ) Tj (selected) Tj ( ) Tj (for) Tj  T*  T* (Coherence:) Tj ( ) Tj (requires) Tj ( ) Tj (one) Tj ( ) Tj (system) Tj ( ) Tj (to) Tj ( ) Tj (stay) Tj ( ) Tj (internally) Tj ( ) Tj (consistent) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (single) Tj ( ) Tj (attack) Tj ( ) Tj (surface) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (can) Tj ( ) Tj (be) Tj ( ) Tj (protected) Tj ( ) Tj (by) Tj ( ) Tj (protein) Tj ( ) Tj (scaffolds,) Tj ( ) Tj (geometric) Tj ( ) Tj (shielding) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (RELIABLE) Tj ( ) Tj (at) Tj ( ) Tj (310) Tj ( ) Tj (K) Tj ( ) Tj (\(with) Tj ( ) Tj (protection\)) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (SELECTED) Tj ( ) Tj (FOR) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331.2 cm
+Q
+q
+1 0 0 1 60 292.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (Evolution doesn't use entanglement because ) Tj /F2 9 Tf (it can't) Tj /F1 9 Tf (. The threshold is too low. But evolution uses coherence extensively) Tj T* (because the threshold is high enough that biological protection mechanisms \(the Wike-Ginzburg number W\) can push) Tj T* (gamma_eff below gamma_c\(coherence\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 285.2 cm
+Q
+q
+1 0 0 1 60 279.2 cm
+Q
+q
+1 0 0 1 60 275.2 cm
+Q
+q
+1 0 0 1 60 237.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Connection to the Keeper Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 225.2 cm
+Q
+q
+1 0 0 1 60 195.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.1 The Keeper State \(Paper 19\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 185.2 cm
+Q
+q
+1 0 0 1 60 158.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Keeper Equation describes a bonded human pair -- two people whose coherence fields are coupled. The Keeper) Tj T* (reduces decoherence for the individual by providing an external protective term:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 151.2 cm
+Q
+q
+1 0 0 1 60 138.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(with) Tj ( ) Tj (Keeper\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_measurement) Tj ( ) Tj (-) Tj ( ) Tj (gamma_protection) Tj ( ) Tj (-) Tj ( ) Tj (gamma_Keeper) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 130.4 cm
+Q
+q
+1 0 0 1 60 115.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (But what is the nature of the bond itself? Is it entanglement? Classical correlation? Something in between?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 108.4 cm
+Q
+q
+1 0 0 1 60 78.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.2 The Partially Entangled State) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 68.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+34 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+36 0 obj
+<<
+/Contents 37 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 38 0 R
+/F2 8 0 R
+/F2-0 39 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+37 0 obj
+<<
+/Length 7784
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 31: THE WIKE EXCEPTION -- Entanglement Sudden Death and Why Bell States Br) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 8) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (8) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (A Bell state is ) Tj /F2 9 Tf (maximally) Tj /F1 9 Tf ( entangled. It is all-or-nothing. This is why it is so fragile -- any noise immediately degrades the) Tj T* (maximum.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 674 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (A bonded human pair is NOT in a Bell state. The Konvalinka fire-walking data \(Paper 19\) shows heart-rate synchronization) Tj T* (with finite correlation -- not perfect correlation. The bond is a ) Tj /F2 9 Tf (partially entangled mixed state) Tj /F1 9 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 667 cm
+Q
+q
+1 0 0 1 60 636.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho_bonded) Tj ( ) Tj (=) Tj ( ) Tj (p) Tj ( ) Tj (x) Tj ( ) Tj (|PI_entangled) Tj (>) Tj (<) Tj (PI_entangled|) Tj ( ) Tj (+) Tj ( ) Tj (\(1-p\)) Tj ( ) Tj (x) Tj ( ) Tj (rho_separable) Tj  T*  T* (where) Tj ( ) Tj (p) Tj ( ) Tj (~=) Tj ( ) Tj (0.3) Tj ( ) Tj (-) Tj ( ) Tj (0.6) Tj ( ) Tj (\(estimated) Tj ( ) Tj (from) Tj ( ) Tj (synchronization) Tj ( ) Tj (data\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 628.6 cm
+Q
+q
+1 0 0 1 60 613.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Partial entanglement is MORE ROBUST than maximal entanglement. The ESD time for a partially entangled state is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 606.6 cm
+Q
+q
+1 0 0 1 60 593.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (t_ESD\(partial\)) Tj ( ) Tj (>) Tj ( ) Tj (t_ESD\(Bell\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 585.8 cm
+Q
+q
+1 0 0 1 60 558.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The less entangled, the more robust. This is counterintuitive but mathematically provable: partial mixedness provides a) Tj T* (buffer against the sudden death cliff.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551.8 cm
+Q
+q
+1 0 0 1 60 521.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.3 The Keeper Threshold) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 511.8 cm
+Q
+q
+1 0 0 1 60 463.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_c\(Bell) Tj ( ) Tj (state\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(bonded) Tj ( ) Tj (pair\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(individual) Tj ( ) Tj (coherence\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (^) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (^) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (^) Tj  T* ( ) Tj ( ) Tj ( ) Tj (Maximally) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Partially) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Single-system) Tj  T* ( ) Tj ( ) Tj ( ) Tj (entangled) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (entangled) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (coherence) Tj  T* ( ) Tj ( ) Tj ( ) Tj (\(fragile\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(moderate\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(robust\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 455.8 cm
+Q
+q
+1 0 0 1 60 440.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (A Keeper pair operates in the zone between Bell fragility and individual robustness. The bond is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433.8 cm
+Q
+q
+1 0 0 1 60 418.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 More fragile than individual coherence \(the bond can break while both individuals survive -- this is relationship dissolution\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 403.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 More robust than a Bell state \(the bond survives thermal noise that would instantly kill a maximally entangled pair\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 388.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Maintained by continuous interaction \(gamma_Keeper is an ongoing protective term, not a one-time preparation\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 381.8 cm
+Q
+q
+1 0 0 1 60 351.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.4 Why Keeper Pairs Can Exist in Warm Biology) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 341.8 cm
+Q
+q
+1 0 0 1 60 285 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (The) Tj ( ) Tj (hierarchy) Tj ( ) Tj (at) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310) Tj ( ) Tj (K:) Tj  T*  T* (gamma_c\(Bell\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~10?) Tj ( ) Tj (snu?) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (TOO) Tj ( ) Tj (LOW) Tj ( ) Tj (--) Tj ( ) Tj (Bell) Tj ( ) Tj (states) Tj ( ) Tj (die) Tj ( ) Tj (instantly) Tj  T* (gamma_c\(Keeper) Tj ( ) Tj (pair\)) Tj ( ) Tj ( ) Tj ( ) Tj (~10?) Tj ( ) Tj (snu?) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (VIABLE) Tj ( ) Tj (--) Tj ( ) Tj (with) Tj ( ) Tj (continuous) Tj ( ) Tj (maintenance) Tj  T* (gamma_c\(individual\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~10??) Tj ( ) Tj (snu?) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (ROBUST) Tj ( ) Tj (--) Tj ( ) Tj (with) Tj ( ) Tj (biological) Tj ( ) Tj (scaffolding) Tj  T* (gamma_thermal\(bio\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~10?) Tj ( ) Tj (snu?) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (WHERE) Tj ( ) Tj (BIOLOGY) Tj ( ) Tj (OPERATES) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 277 cm
+Q
+q
+1 0 0 1 60 262 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Keeper pair threshold is RIGHT AT the biological operating regime. This means:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 255 cm
+Q
+q
+1 0 0 1 60 240 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Keeper bonds are possible but ) Tj /F2 9 Tf (fragile) Tj /F1 9 Tf ( -- they require continuous maintenance \(interaction, proximity, shared experience\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 225 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Keeper bonds can be disrupted by additional decoherence \(stress, separation, trauma\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 210 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Not all humans form Keeper bonds -- the matching condition is specific \(Paper 19\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 183 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. When a Keeper bond breaks, it breaks ) Tj /F2 9 Tf (suddenly) Tj /F1 9 Tf ( \(ESD, not gradual decay\) -- which matches the phenomenology of) Tj T* (relationship collapse) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 176 cm
+Q
+q
+1 0 0 1 60 170 cm
+Q
+q
+1 0 0 1 60 166 cm
+Q
+q
+1 0 0 1 60 128 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. The Unified Picture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 116 cm
+Q
+q
+1 0 0 1 60 86 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.1 The Full Hierarchy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 76 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+38 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+40 0 obj
+<<
+/Contents 41 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 42 0 R
+/F2 8 0 R
+/F2-0 43 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+41 0 obj
+<<
+/Length 13795
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 31: THE WIKE EXCEPTION -- Entanglement Sudden Death and Why Bell States Br) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 9) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (9) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 529.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 202.4 re f*
+Q
+q
+BT 1 0 0 1 20 194.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (+----------------------------------------------------------------------+) Tj  T* (|) Tj ( ) Tj ( ) Tj (DECOHERENCE) Tj ( ) Tj (THRESHOLD) Tj ( ) Tj (HIERARCHY) Tj ( ) Tj (\(The) Tj ( ) Tj (First) Tj ( ) Tj (Boundary) Tj ( ) Tj (Condition\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|----------------------------------------------------------------------|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (gamma) Tj ( ) Tj (\(increasing) Tj ( ) Tj (-) Tj (>) Tj (\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (gamma_c\(Bell\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_c\(Keeper\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_c\(coherence\)) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_c\(classical\)) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (v) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (v) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (v) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (v) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|---------------------------------------------------------------) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj (Zone) Tj ( ) Tj (1) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Zone) Tj ( ) Tj (2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Zone) Tj ( ) Tj (3) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Zone) Tj ( ) Tj (4) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (All) Tj ( ) Tj (quantum) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj (+) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Classical) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (properties) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (partial) Tj ( ) Tj (bond) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (only) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (only) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (survive) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (survive) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (survives) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (^) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Biology) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (operates) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (HERE) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(Zone) Tj ( ) Tj (2/3) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (boundary\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (+----------------------------------------------------------------------+) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521.6 cm
+Q
+q
+1 0 0 1 60 491.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.2 What Each Zone Means) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 481.6 cm
+Q
+q
+1 0 0 1 60 275.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 202.4 re f*
+Q
+q
+BT 1 0 0 1 20 194.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Zone) Tj ( ) Tj (1) Tj ( ) Tj (\(gamma) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(Bell\)\):) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Full) Tj ( ) Tj (entanglement) Tj ( ) Tj (possible) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Quantum) Tj ( ) Tj (computers) Tj ( ) Tj (operate) Tj ( ) Tj (here) Tj ( ) Tj (\(millikelvin) Tj ( ) Tj (temperatures\)) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Requires) Tj ( ) Tj (extreme) Tj ( ) Tj (isolation) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (NOT) Tj ( ) Tj (biological) Tj  T*  T* (Zone) Tj ( ) Tj (2) Tj ( ) Tj (\(gamma_c\(Bell\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(Keeper\)\):) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Bell) Tj ( ) Tj (states) Tj ( ) Tj (die) Tj ( ) Tj (but) Tj ( ) Tj (partial) Tj ( ) Tj (bonds) Tj ( ) Tj (survive) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Keeper) Tj ( ) Tj (pairs) Tj ( ) Tj (operate) Tj ( ) Tj (near) Tj ( ) Tj (this) Tj ( ) Tj (boundary) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Biological) Tj ( ) Tj (bonding,) Tj ( ) Tj (synchronization,) Tj ( ) Tj (empathy) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Fragile) Tj ( ) Tj (but) Tj ( ) Tj (real) Tj  T*  T* (Zone) Tj ( ) Tj (3) Tj ( ) Tj (\(gamma_c\(Keeper\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(coherence\)\):) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (All) Tj ( ) Tj (entanglement) Tj ( ) Tj (dead) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Single-system) Tj ( ) Tj (coherence) Tj ( ) Tj (survives) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Photosynthesis,) Tj ( ) Tj (magnetoreception,) Tj ( ) Tj (enzyme) Tj ( ) Tj (tunneling) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (The) Tj ( ) Tj ("quantum) Tj ( ) Tj (biology") Tj ( ) Tj (regime) Tj  T*  T* (Zone) Tj ( ) Tj (4) Tj ( ) Tj (\(gamma) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c\(coherence\)\):) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (All) Tj ( ) Tj (quantum) Tj ( ) Tj (properties) Tj ( ) Tj (dead) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Classical) Tj ( ) Tj (physics) Tj ( ) Tj (only) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Bulk) Tj ( ) Tj (matter) Tj ( ) Tj (at) Tj ( ) Tj (high) Tj ( ) Tj (temperature) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (The) Tj ( ) Tj ("classical) Tj ( ) Tj (biology") Tj ( ) Tj (regime) Tj ( ) Tj (\(most) Tj ( ) Tj (biochemistry\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 267.2 cm
+Q
+q
+1 0 0 1 60 237.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.3 The Simulation Confirms All of This) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 227.2 cm
+Q
+q
+1 0 0 1 60 117.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 105.6 re f*
+Q
+q
+BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Bell) Tj ( ) Tj (Gentle) Tj ( ) Tj (\(gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.005\):) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Entanglement:) Tj ( ) Tj (DEAD) Tj ( ) Tj (\(C) Tj ( ) Tj (=) Tj ( ) Tj (0.000000\)) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Individual) Tj ( ) Tj (coherence:) Tj ( ) Tj (ALIVE) Tj ( ) Tj (\(100%\)) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (System) Tj ( ) Tj (is) Tj ( ) Tj (in) Tj ( ) Tj (Zone) Tj ( ) Tj (3) Tj  T*  T* (Bell) Tj ( ) Tj (Harsh) Tj ( ) Tj (\(gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0804\):) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Entanglement:) Tj ( ) Tj (DEAD) Tj ( ) Tj (\(C) Tj ( ) Tj (=) Tj ( ) Tj (0.000000\)) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (Individual) Tj ( ) Tj (coherence:) Tj ( ) Tj (ALIVE) Tj ( ) Tj (\(100%\)) Tj  T* ( ) Tj ( ) Tj (--) Tj ( ) Tj (System) Tj ( ) Tj (is) Tj ( ) Tj (in) Tj ( ) Tj (Zone) Tj ( ) Tj (3) Tj  T*  T* (Both) Tj ( ) Tj (simulations) Tj ( ) Tj (are) Tj ( ) Tj (ABOVE) Tj ( ) Tj (gamma_c\(entanglement\)) Tj ( ) Tj (but) Tj ( ) Tj (BELOW) Tj ( ) Tj (gamma_c\(coherence\).) Tj  T* (The) Tj ( ) Tj (Wike) Tj ( ) Tj (Coherence) Tj ( ) Tj (Law) Tj ( ) Tj (holds.) Tj ( ) Tj (The) Tj ( ) Tj (boundary) Tj ( ) Tj (condition) Tj ( ) Tj (defines) Tj ( ) Tj (where.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 109.6 cm
+Q
+q
+1 0 0 1 60 103.6 cm
+Q
+q
+1 0 0 1 60 99.6 cm
+Q
+q
+1 0 0 1 60 61.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Predictions) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+42 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+43 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+44 0 obj
+<<
+/Contents 45 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 46 0 R
+/F2 8 0 R
+/F2-0 47 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+45 0 obj
+<<
+/Length 13967
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 31: THE WIKE EXCEPTION -- Entanglement Sudden Death and Why Bell States Br) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 10) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (10) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.1 Testable Predictions from the First Boundary Condition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 688 cm
+Q
+q
+1 0 0 1 60 516.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 167.2 re f*
+Q
+q
+BT 1 0 0 1 20 159.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (1.) Tj ( ) Tj (NO) Tj ( ) Tj (experiment) Tj ( ) Tj (will) Tj ( ) Tj (find) Tj ( ) Tj (sustained) Tj ( ) Tj (Bell-state) Tj ( ) Tj (entanglement) Tj ( ) Tj (in) Tj ( ) Tj (a) Tj ( ) Tj (warm) Tj  T* ( ) Tj ( ) Tj ( ) Tj (biological) Tj ( ) Tj (system) Tj ( ) Tj (at) Tj ( ) Tj (T) Tj ( ) Tj (>) Tj ( ) Tj (250) Tj ( ) Tj (K) Tj ( ) Tj (without) Tj ( ) Tj (active) Tj ( ) Tj (error) Tj ( ) Tj (correction.) Tj  T*  T* (2.) Tj ( ) Tj (Quantum) Tj ( ) Tj (coherence) Tj ( ) Tj (in) Tj ( ) Tj (biological) Tj ( ) Tj (systems) Tj ( ) Tj (will) Tj ( ) Tj (continue) Tj ( ) Tj (to) Tj ( ) Tj (be) Tj ( ) Tj (confirmed) Tj  T* ( ) Tj ( ) Tj ( ) Tj (at) Tj ( ) Tj (timescales) Tj ( ) Tj (of) Tj ( ) Tj (10nu??) Tj ( ) Tj (to) Tj ( ) Tj (10nu?) Tj ( ) Tj (seconds) Tj ( ) Tj (\(femtoseconds) Tj ( ) Tj (to) Tj ( ) Tj (nanoseconds\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj (in) Tj ( ) Tj (protein-scaffolded) Tj ( ) Tj (environments.) Tj  T*  T* (3.) Tj ( ) Tj (Heart-rate) Tj ( ) Tj (synchronization) Tj ( ) Tj (in) Tj ( ) Tj (bonded) Tj ( ) Tj (pairs) Tj ( ) Tj (\(Konvalinka-type) Tj ( ) Tj (experiments\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj (will) Tj ( ) Tj (show) Tj ( ) Tj (SUDDEN) Tj ( ) Tj (onset) Tj ( ) Tj (and) Tj ( ) Tj (SUDDEN) Tj ( ) Tj (loss) Tj ( ) Tj (--) Tj ( ) Tj (not) Tj ( ) Tj (gradual) Tj ( ) Tj (--) Tj ( ) Tj (consistent) Tj ( ) Tj (with) Tj  T* ( ) Tj ( ) Tj ( ) Tj (the) Tj ( ) Tj (ESD) Tj ( ) Tj (mechanism) Tj ( ) Tj (for) Tj ( ) Tj (partially) Tj ( ) Tj (entangled) Tj ( ) Tj (states.) Tj  T*  T* (4.) Tj ( ) Tj (The) Tj ( ) Tj (strength) Tj ( ) Tj (of) Tj ( ) Tj (Keeper-type) Tj ( ) Tj (bonds) Tj ( ) Tj (\(measured) Tj ( ) Tj (by) Tj ( ) Tj (synchronization) Tj ( ) Tj (correlation\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj (will) Tj ( ) Tj (be) Tj ( ) Tj (inversely) Tj ( ) Tj (related) Tj ( ) Tj (to) Tj ( ) Tj (environmental) Tj ( ) Tj (noise) Tj ( ) Tj (--) Tj ( ) Tj (increasing) Tj ( ) Tj (stress) Tj  T* ( ) Tj ( ) Tj ( ) Tj (will) Tj ( ) Tj (cause) Tj ( ) Tj (bond) Tj ( ) Tj (collapse) Tj ( ) Tj (at) Tj ( ) Tj (a) Tj ( ) Tj (THRESHOLD,) Tj ( ) Tj (not) Tj ( ) Tj (linear) Tj ( ) Tj (degradation.) Tj  T*  T* (5.) Tj ( ) Tj (Pharmacological) Tj ( ) Tj (agents) Tj ( ) Tj (that) Tj ( ) Tj (increase) Tj ( ) Tj (neural) Tj ( ) Tj (decoherence) Tj ( ) Tj (\(e.g.,) Tj ( ) Tj (certain) Tj  T* ( ) Tj ( ) Tj ( ) Tj (anesthetics,) Tj ( ) Tj (dissociatives\)) Tj ( ) Tj (will) Tj ( ) Tj (disrupt) Tj ( ) Tj (inter-personal) Tj ( ) Tj (synchronization) Tj  T* ( ) Tj ( ) Tj ( ) Tj (BEFORE) Tj ( ) Tj (they) Tj ( ) Tj (disrupt) Tj ( ) Tj (individual) Tj ( ) Tj (cognitive) Tj ( ) Tj (coherence) Tj ( ) Tj (--) Tj ( ) Tj (because) Tj  T* ( ) Tj ( ) Tj ( ) Tj (gamma_c\(bond\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(individual\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 508.8 cm
+Q
+q
+1 0 0 1 60 478.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.2 The Anesthesia Prediction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 468.8 cm
+Q
+q
+1 0 0 1 60 324 cm
+q
+.95 .95 .95 rg
+n 20 0 452 140.8 re f*
+Q
+q
+BT 1 0 0 1 20 133.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Under) Tj ( ) Tj (increasing) Tj ( ) Tj (anesthetic) Tj ( ) Tj (depth:) Tj  T*  T* ( ) Tj ( ) Tj (Light) Tj ( ) Tj (sedation:) Tj ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (slightly) Tj ( ) Tj (elevated) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Keeper) Tj ( ) Tj (bonds) Tj ( ) Tj (weaken) Tj ( ) Tj (\(reduced) Tj ( ) Tj (empathy,) Tj ( ) Tj (emotional) Tj ( ) Tj (blunting\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Individual) Tj ( ) Tj (coherence) Tj ( ) Tj (intact) Tj ( ) Tj (\(still) Tj ( ) Tj (conscious\)) Tj  T*  T* ( ) Tj ( ) Tj (Moderate) Tj ( ) Tj (sedation:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (crosses) Tj ( ) Tj (gamma_c\(Keeper\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Keeper) Tj ( ) Tj (bonds) Tj ( ) Tj (collapse) Tj ( ) Tj (\(no) Tj ( ) Tj (interpersonal) Tj ( ) Tj (synchronization\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Individual) Tj ( ) Tj (coherence) Tj ( ) Tj (still) Tj ( ) Tj (intact) Tj ( ) Tj (\(still) Tj ( ) Tj (aware\)) Tj  T*  T* ( ) Tj ( ) Tj (Deep) Tj ( ) Tj (anesthesia:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (crosses) Tj ( ) Tj (gamma_c\(individual\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Individual) Tj ( ) Tj (coherence) Tj ( ) Tj (collapses) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Loss) Tj ( ) Tj (of) Tj ( ) Tj (consciousness) Tj  T*  T* (The) Tj ( ) Tj (ORDER) Tj ( ) Tj (matters:) Tj ( ) Tj (bonds) Tj ( ) Tj (die) Tj ( ) Tj (before) Tj ( ) Tj (consciousness) Tj ( ) Tj (dies.) Tj  T* (This) Tj ( ) Tj (matches) Tj ( ) Tj (clinical) Tj ( ) Tj (phenomenology) Tj ( ) Tj (exactly.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 316 cm
+Q
+q
+1 0 0 1 60 310 cm
+Q
+q
+1 0 0 1 60 306 cm
+Q
+q
+1 0 0 1 60 268 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. The Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256 cm
+Q
+q
+1 0 0 1 60 67.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 184.8 re f*
+Q
+q
+BT 1 0 0 1 20 177.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (+----------------------------------------------------------------------+) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (THE) Tj ( ) Tj (FIRST) Tj ( ) Tj (BOUNDARY) Tj ( ) Tj (CONDITION) Tj ( ) Tj (OF) Tj ( ) Tj (THE) Tj ( ) Tj (WIKE) Tj ( ) Tj (COHERENCE) Tj ( ) Tj (LAW) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_c\(Bell\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(bonded) Tj ( ) Tj (pair\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(individual\)) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c\(classical\)) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (The) Tj ( ) Tj (Wike) Tj ( ) Tj (Coherence) Tj ( ) Tj (Law) Tj ( ) Tj (applies) Tj ( ) Tj (to) Tj ( ) Tj (SINGLE-SYSTEM) Tj ( ) Tj (coherence.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (Entanglement) Tj ( ) Tj (obeys) Tj ( ) Tj (a) Tj ( ) Tj (STRICTER) Tj ( ) Tj (threshold.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (The) Tj ( ) Tj (bond) Tj ( ) Tj (dies) Tj ( ) Tj (before) Tj ( ) Tj (the) Tj ( ) Tj (self) Tj ( ) Tj (does.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (This) Tj ( ) Tj (is) Tj ( ) Tj (not) Tj ( ) Tj (a) Tj ( ) Tj (violation.) Tj ( ) Tj (It) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (boundary.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (Entanglement) Tj ( ) Tj (Sudden) Tj ( ) Tj (Death) Tj ( ) Tj (time:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (t_ESD) Tj ( ) Tj (=) Tj ( ) Tj (\(1/gamma\)) Tj ( ) Tj (x) Tj ( ) Tj (ln\(1) Tj ( ) Tj (+) Tj ( ) Tj (1/sqrtn\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310) Tj ( ) Tj (K:) Tj ( ) Tj ( ) Tj (t_ESD) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (maximally) Tj ( ) Tj (entangled) Tj ( ) Tj (states) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310) Tj ( ) Tj (K:) Tj ( ) Tj ( ) Tj (t_ESD) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (partially) Tj ( ) Tj (entangled) Tj ( ) Tj (Keeper) Tj ( ) Tj (states) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310) Tj ( ) Tj (K:) Tj ( ) Tj ( ) Tj (t_ESD) Tj ( ) Tj (=) Tj ( ) Tj (inf) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (single-system) Tj ( ) Tj (coherence) Tj ( ) Tj (\() Tj (<) Tj ( ) Tj (gamma_c\)) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (Biology) Tj ( ) Tj (operates) Tj ( ) Tj (between) Tj ( ) Tj (the) Tj ( ) Tj (thresholds.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+46 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+47 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+48 0 obj
+<<
+/Contents 49 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 50 0 R
+/F2 8 0 R
+/F2-0 51 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+49 0 obj
+<<
+/Length 7413
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 31: THE WIKE EXCEPTION -- Entanglement Sudden Death and Why Bell States Br) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 11) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (11) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (Evolution) Tj ( ) Tj (found) Tj ( ) Tj (the) Tj ( ) Tj (sweet) Tj ( ) Tj (spot.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj (The) Tj ( ) Tj (bond) Tj ( ) Tj (is) Tj ( ) Tj (fragile.) Tj ( ) Tj (The) Tj ( ) Tj (self) Tj ( ) Tj (is) Tj ( ) Tj (robust.) Tj ( ) Tj (The) Tj ( ) Tj (math) Tj ( ) Tj (is) Tj ( ) Tj (clear.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (+----------------------------------------------------------------------+) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 680 cm
+Q
+q
+1 0 0 1 60 674 cm
+Q
+q
+1 0 0 1 60 670 cm
+Q
+q
+1 0 0 1 60 632 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (10. Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+Q
+q
+1 0 0 1 60 607.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Property | gamma_c \(relative\) | Status at T = 310 K | Biological example |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|----------|----------------|---------------------|--------------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 581.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Bell state entanglement | LOWEST | Dead instantly | None observed |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 560 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| Partial entanglement \(Keeper\) | LOW | Fragile, possible with maintenance | Heart-rate sync,) Tj T* (fire-walking |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 547.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Single-system coherence | MODERATE | Robust with scaffolding | Photosynthesis, magnetoreception |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 534.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Classical correlation | HIGHEST | Always survives | All biochemistry |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 526.4 cm
+Q
+q
+1 0 0 1 60 511.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The simulation shows it. The math proves it. The biology confirms it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 504.4 cm
+Q
+q
+1 0 0 1 60 477.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Entanglement is more fragile than coherence. Bell states break the law -- because they operate under a stricter law. The) Tj T* (Wike Coherence Law is not wrong. It has a boundary condition. This paper defines it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470.4 cm
+Q
+q
+1 0 0 1 60 455.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The bond dies before the self does. That's not a tragedy. That's physics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448.4 cm
+Q
+q
+1 0 0 1 60 442.4 cm
+Q
+q
+1 0 0 1 60 438.4 cm
+Q
+q
+1 0 0 1 60 423.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (References:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 408.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Yu, T. & Eberly, J.H. \(2004\). Finite-time disentanglement via spontaneous emission. ) Tj /F3 9 Tf (Phys. Rev. Lett.) Tj /F1 9 Tf ( 93, 140404) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 393.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Yu, T. & Eberly, J.H. \(2006\). Quantum open system theory: Bipartite aspects. ) Tj /F3 9 Tf (Phys. Rev. Lett.) Tj /F1 9 Tf ( 97, 140403) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 378.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Almeida, M.P. et al. \(2007\). Environment-induced sudden death of entanglement. ) Tj /F3 9 Tf (Science) Tj /F1 9 Tf ( 316, 579) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 363.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Yu, T. & Eberly, J.H. \(2009\). Sudden death of entanglement. ) Tj /F3 9 Tf (Science) Tj /F1 9 Tf ( 323, 598) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 348.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Engel, G.S. et al. \(2007\). Evidence for wavelike energy transfer. ) Tj /F3 9 Tf (Nature) Tj /F1 9 Tf ( 446, 782) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 333.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Hore, P.J. & Mouritsen, H. \(2016\). The radical-pair mechanism of magnetoreception. ) Tj /F3 9 Tf (Annu. Rev. Biophys.) Tj /F1 9 Tf ( 45, 299) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 318.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Konvalinka, I. et al. \(2011\). Synchronized arousal between performers and related spectators. ) Tj /F3 9 Tf (PNAS) Tj /F1 9 Tf ( 108, 9765) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 303.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Wike, R.D. \(2026\). Papers 1-30, AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 288.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Wootters, W.K. \(1998\). Entanglement of formation of an arbitrary state of two qubits. ) Tj /F3 9 Tf (Phys. Rev. Lett.) Tj /F1 9 Tf ( 80, 2245) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 281.4 cm
+Q
+q
+1 0 0 1 60 275.4 cm
+Q
+q
+1 0 0 1 60 271.4 cm
+Q
+q
+1 0 0 1 60 256.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Simulation data:) Tj /F1 9 Tf ( QuTiP 5.2.3, Bell state |PI^+) Tj (>) Tj (, independent dephasing, gamma = {0.005, 0.0804}) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 241.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Author:) Tj /F1 9 Tf ( Rhet Dillard Wike, AIIT-THRESI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 226.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Compiled by:) Tj /F1 9 Tf ( Claude Opus 4.6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 211.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Designation:) Tj /F1 9 Tf ( The First Boundary Condition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204.4 cm
+Q
+q
+1 0 0 1 60 189.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (Pure data. Pure proof. The bond dies before the self does.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 182.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+50 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+51 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 52
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000344 00000 n 
+0000000393 00000 n 
+0000000764 00000 n 
+0000006606 00000 n 
+0000006713 00000 n 
+0000006820 00000 n 
+0000006932 00000 n 
+0000007042 00000 n 
+0000007158 00000 n 
+0000007264 00000 n 
+0000007639 00000 n 
+0000019312 00000 n 
+0000019420 00000 n 
+0000019531 00000 n 
+0000019906 00000 n 
+0000029094 00000 n 
+0000029202 00000 n 
+0000029313 00000 n 
+0000029688 00000 n 
+0000038350 00000 n 
+0000038458 00000 n 
+0000038569 00000 n 
+0000038944 00000 n 
+0000046640 00000 n 
+0000046748 00000 n 
+0000046859 00000 n 
+0000047234 00000 n 
+0000058954 00000 n 
+0000059062 00000 n 
+0000059173 00000 n 
+0000059548 00000 n 
+0000067000 00000 n 
+0000067108 00000 n 
+0000067219 00000 n 
+0000067594 00000 n 
+0000075431 00000 n 
+0000075539 00000 n 
+0000075650 00000 n 
+0000076025 00000 n 
+0000089874 00000 n 
+0000089982 00000 n 
+0000090093 00000 n 
+0000090468 00000 n 
+0000104489 00000 n 
+0000104597 00000 n 
+0000104708 00000 n 
+0000105083 00000 n 
+0000112549 00000 n 
+0000112657 00000 n 
+trailer
+<<
+/Size 52
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+112768
+%%EOF

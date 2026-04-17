@@ -3,6 +3,3 @@ dist/
 .astro/
 .DS_Store
 *.log
-public/papers/*.pdf
-!public/papers/.gitkeep
-src/data/papers.json

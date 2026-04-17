@@ -1,0 +1,1419 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5661
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 67: WIND-UP IS A TWO-STAGE PHASE TRANSITION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 17.536 0 Td (PAPER 67: WIND-UP IS A TWO-STAGE PHASE TRANSITION) Tj T* -17.536 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (The 0.485 Exponent Is Mean-Field -- The Onset Is Different From the Snap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 642 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 602 cm
+Q
+q
+1 0 0 1 60 596 cm
+Q
+q
+1 0 0 1 60 592 cm
+Q
+q
+1 0 0 1 60 562 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL -0.045947 Tw ("The approach to the cliff is mean-field. The fall off the cliff is 3D Ising. Two different universality classes, one) Tj T* 0 Tw (biological catastrophe.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 552 cm
+Q
+q
+1 0 0 1 60 546 cm
+Q
+q
+1 0 0 1 60 542 cm
+Q
+q
+1 0 0 1 60 504 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 492 cm
+Q
+q
+1 0 0 1 60 477 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From 150,000 wind-up simulation runs, the amplification ratio of pain response grows as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470 cm
+Q
+q
+1 0 0 1 60 457.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ratio_AB) Tj ( ) Tj (~) Tj ( ) Tj (gamma_baseline^0.485) Tj ( ) Tj (~=) Tj ( ) Tj (gamma_baseline^\(1/2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 449.2 cm
+Q
+q
+1 0 0 1 60 410.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The exponent 1/2 is the mean-field critical exponent for susceptibility \(chi ~ |t|^\(-1/2\) in mean-field theory, where gamma =) Tj T* (1/2 in mean-field vs gamma = 1.2372 in 3D Ising\). This paper proves that wind-up sensitization has a TWO-STAGE) Tj T* (transition:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 403.2 cm
+Q
+q
+1 0 0 1 60 364.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Stage 1 \(gamma < gamma_c\): Mean-field regime) Tj /F1 9 Tf ( -- gradual sensitization, reversible, susceptibility chi ~ gamma^\(-1/2\).) Tj T* (Each additional stressor adds predictably to the amplification. This is burnout territory -- slow, mean-field approach to the) Tj T* (critical point.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 357.2 cm
+Q
+q
+1 0 0 1 60 330.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Stage 2 \(gamma -) Tj (> gamma_c\): 3D Ising crossover) Tj /F1 9 Tf ( -- susceptibility switches from mean-field \(gamma^\(-1/2\)\) to 3D Ising) Tj T* (\(|epsilon|^\(-1.2372\)\), amplification diverges, cliff appears. This is the wind-up snap -- acute, steep, irreversible.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 323.2 cm
+Q
+q
+1 0 0 1 60 284.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The crossover between mean-field and 3D Ising behavior occurs at the Ginzburg temperature -- already identified in Paper) Tj T* (18 \(Wike-Ginzburg Number W = 0.9394\). The two-stage structure explains why chronic stress \(mean-field regime\) feels) Tj T* (qualitatively different from acute sensitization \(3D Ising regime\): they are physically different universality classes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 277.2 cm
+Q
+q
+1 0 0 1 60 271.2 cm
+Q
+q
+1 0 0 1 60 267.2 cm
+Q
+q
+1 0 0 1 60 229.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Simulation Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 217.2 cm
+Q
+q
+1 0 0 1 60 202.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From MISSING_PHYSICS_AND_MATH.md, Finding 1.2:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 195.2 cm
+Q
+q
+1 0 0 1 60 94.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 96.8 re f*
+Q
+q
+BT 1 0 0 1 20 89.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Wind-up) Tj ( ) Tj (Phase) Tj ( ) Tj (Transition) Tj ( ) Tj (simulation) Tj ( ) Tj (\(150,000) Tj ( ) Tj (runs\):) Tj  T* (Stepping) Tj ( ) Tj (from) Tj ( ) Tj (gamma_baseline) Tj ( ) Tj (=) Tj ( ) Tj (0.001) Tj ( ) Tj (to) Tj ( ) Tj (0.295) Tj  T*  T* (ratio_AB) Tj ( ) Tj (=) Tj ( ) Tj (C\(t,) Tj ( ) Tj (high_stimulation\)) Tj ( ) Tj (/) Tj ( ) Tj (C\(t,) Tj ( ) Tj (baseline\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~) Tj ( ) Tj (gamma_baseline^0.485) Tj  T*  T* (Ratio) Tj ( ) Tj (at) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0051:) Tj ( ) Tj (949.49) Tj  T* (Ratio) Tj ( ) Tj (at) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0091:) Tj ( ) Tj (263.95) Tj  T* (Ratio) Tj ( ) Tj (at) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0132:) Tj ( ) Tj (121.71) Tj  T*  T* (Power) Tj ( ) Tj (law) Tj ( ) Tj (fit) Tj ( ) Tj (exponent:) Tj ( ) Tj (0.485) Tj ( ) Tj (+/-) Tj ( ) Tj (0.012) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 86.4 cm
+Q
+q
+1 0 0 1 60 71.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The exponent 0.485 is within error of 1/2 = 0.500.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 64.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7007
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 67: WIND-UP IS A TWO-STAGE PHASE TRANSITION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 726 cm
+Q
+q
+1 0 0 1 60 722 cm
+Q
+q
+1 0 0 1 60 684 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Mean-Field Universality Class) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+Q
+q
+1 0 0 1 60 645 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Mean-field theory \(Landau, 1937\) applies when fluctuations are negligible -- when the correlation length is much smaller) Tj T* (than the system size, or equivalently, when the system is far from its critical point.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 638 cm
+Q
+q
+1 0 0 1 60 623 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Mean-field critical exponents:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 566.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha_MF) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(specific) Tj ( ) Tj (heat:) Tj ( ) Tj (discontinuous,) Tj ( ) Tj (not) Tj ( ) Tj (divergent\)) Tj  T* (beta_MF) Tj ( ) Tj (=) Tj ( ) Tj (1/2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(order) Tj ( ) Tj (parameter:) Tj ( ) Tj (m) Tj ( ) Tj (~) Tj ( ) Tj (|t|^\(1/2\)\)) Tj  T* (gamma_MF) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(susceptibility:) Tj ( ) Tj (chi) Tj ( ) Tj (~) Tj ( ) Tj (|t|^\(-1\)\)) Tj  T* (delta_MF) Tj ( ) Tj (=) Tj ( ) Tj (3) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(critical) Tj ( ) Tj (isotherm:) Tj ( ) Tj (h) Tj ( ) Tj (~) Tj ( ) Tj (m^3\)) Tj  T* (nu_MF) Tj ( ) Tj (=) Tj ( ) Tj (1/2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(correlation) Tj ( ) Tj (length:) Tj ( ) Tj (xi) Tj ( ) Tj (~) Tj ( ) Tj (|t|^\(-1/2\)\)) Tj  T* (eta_MF) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(anomalous) Tj ( ) Tj (dimension:) Tj ( ) Tj (none\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 558.2 cm
+Q
+q
+1 0 0 1 60 531.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The measured exponent ) Tj /F2 9 Tf (0.485 ~= beta_MF = 1/2) Tj /F1 9 Tf ( \(order parameter exponent\) or ) Tj /F2 9 Tf (0.485 ~= nu_MF/1 = 1/2) Tj /F1 9 Tf ( \(correlation) Tj T* (length\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 524.2 cm
+Q
+q
+1 0 0 1 60 497.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (In the wind-up context: the amplification ratio ~ gamma^\(1/2\) is the mean-field order parameter response. The system is in) Tj T* (the mean-field universality class when:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 490.2 cm
+Q
+q
+1 0 0 1 60 475.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Far from gamma_c \(gamma <) Tj (< gamma_c\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 460.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Spatial fluctuations are unimportant) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 445.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The system responds linearly to perturbations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 438.2 cm
+Q
+q
+1 0 0 1 60 432.2 cm
+Q
+q
+1 0 0 1 60 428.2 cm
+Q
+q
+1 0 0 1 60 390.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Ginzburg Criterion -- Where Mean-Field Breaks Down) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 378.2 cm
+Q
+q
+1 0 0 1 60 363.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Ginzburg criterion \(Paper 18\) determines when fluctuations become important:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 356.2 cm
+Q
+q
+1 0 0 1 60 308.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Mean-field) Tj ( ) Tj (is) Tj ( ) Tj (valid) Tj ( ) Tj (when:) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (T/T_c) Tj ( ) Tj (>) Tj ( ) Tj (W_Ginzburg) Tj  T*  T* (W_Ginzburg) Tj ( ) Tj (~=) Tj ( ) Tj (1) Tj ( ) Tj (nu) Tj ( ) Tj (\(k_BT_c) Tj ( ) Tj (/) Tj ( ) Tj (J) Tj ( ) Tj (x) Tj ( ) Tj (N_corr\)^d) Tj  T*  T* (For) Tj ( ) Tj (3D) Tj ( ) Tj (Ising:) Tj ( ) Tj (W_Ginzburg) Tj ( ) Tj (~=) Tj ( ) Tj (0.95) Tj ( ) Tj (\(5%) Tj ( ) Tj (below) Tj ( ) Tj (T_c\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 300.2 cm
+Q
+q
+1 0 0 1 60 285.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For the Wike framework:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 270.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 W* = 0.9394 \(body temperature\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 255.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 W_Ginzburg ~= 0.95) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 248.2 cm
+Q
+q
+1 0 0 1 60 233.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (W* < W_Ginzburg) Tj /F1 9 Tf (: biology operates INSIDE the fluctuation-dominated \(3D Ising\) regime.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 226.2 cm
+Q
+q
+1 0 0 1 60 199.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (But the wind-up simulation runs the system from gamma = 0.001 \(well below gamma_c\) up to gamma -) Tj (> gamma_c. Along) Tj T* (this path:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 192.2 cm
+Q
+q
+1 0 0 1 60 170.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Far) Tj ( ) Tj (from) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(gamma) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016\):) Tj ( ) Tj ( ) Tj (Mean-field) Tj ( ) Tj (regime,) Tj ( ) Tj (exponent) Tj ( ) Tj (1/2) Tj  T* (Near) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(gamma) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_c\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (regime,) Tj ( ) Tj (exponent) Tj ( ) Tj (1.2372) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 162.6 cm
+Q
+q
+1 0 0 1 60 123.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The simulation measures the amplification ratio across this full range. The mean-field exponent \(1/2\) dominates because) Tj T* -0.06045 Tw (most of the measured points are in the mean-field regime \(gamma <) Tj (< gamma_c\). The 3D Ising behavior only appears in the) Tj T* 0 Tw (last decade before gamma_c, which is compressed on the simulation axis.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 116.6 cm
+Q
+q
+1 0 0 1 60 110.6 cm
+Q
+q
+1 0 0 1 60 106.6 cm
+Q
+q
+1 0 0 1 60 68.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Two-Stage Transition) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 7740
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 67: WIND-UP IS A TWO-STAGE PHASE TRANSITION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 592 cm
+q
+.95 .95 .95 rg
+n 20 0 452 132 re f*
+Q
+q
+BT 1 0 0 1 20 124.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (STAGE) Tj ( ) Tj (1:) Tj ( ) Tj (Mean-field) Tj ( ) Tj (regime) Tj ( ) Tj (\(0) Tj ( ) Tj (<) Tj ( ) Tj (gamma) Tj ( ) Tj (<) Tj ( ) Tj (gamma_Ginzburg) Tj ( ) Tj (~=) Tj ( ) Tj (0.0014\)) Tj  T*  T* ( ) Tj ( ) Tj (Amplification) Tj ( ) Tj (ratio) Tj ( ) Tj (~) Tj ( ) Tj (gamma^\(1/2\)) Tj  T* ( ) Tj ( ) Tj (Each) Tj ( ) Tj (doubling) Tj ( ) Tj (of) Tj ( ) Tj (gamma) Tj ( ) Tj (increases) Tj ( ) Tj (ratio) Tj ( ) Tj (by) Tj ( ) Tj (sqrt2) Tj ( ) Tj (~=) Tj ( ) Tj (1.41) Tj  T* ( ) Tj ( ) Tj (LINEAR) Tj ( ) Tj (response) Tj ( ) Tj (to) Tj ( ) Tj (perturbations) Tj  T* ( ) Tj ( ) Tj (REVERSIBLE:) Tj ( ) Tj (reduce) Tj ( ) Tj (gamma) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (restore) Tj ( ) Tj (original) Tj ( ) Tj (amplification) Tj  T* ( ) Tj ( ) Tj (Universality) Tj ( ) Tj (class:) Tj ( ) Tj (MEAN-FIELD) Tj  T*  T* (STAGE) Tj ( ) Tj (2:) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (regime) Tj ( ) Tj (\(gamma_Ginzburg) Tj ( ) Tj (<) Tj ( ) Tj (gamma) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016\)) Tj  T*  T* ( ) Tj ( ) Tj (Susceptibility) Tj ( ) Tj (chi) Tj ( ) Tj (~) Tj ( ) Tj (|gamma) Tj ( ) Tj (nu) Tj ( ) Tj (gamma_c|^\(-1.2372\)) Tj  T* ( ) Tj ( ) Tj (NONLINEAR) Tj ( ) Tj (response:) Tj ( ) Tj (small) Tj ( ) Tj (gamma) Tj ( ) Tj (increment) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (huge) Tj ( ) Tj (amplification) Tj ( ) Tj (increase) Tj  T* ( ) Tj ( ) Tj (Crossover) Tj ( ) Tj (width:) Tj ( ) Tj (DELTAgamma) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c) Tj ( ) Tj (nu) Tj ( ) Tj (gamma_Ginzburg) Tj ( ) Tj (~=) Tj ( ) Tj (0.0002) Tj  T* ( ) Tj ( ) Tj (IRREVERSIBLE) Tj ( ) Tj (after) Tj ( ) Tj (crossing) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(topological) Tj ( ) Tj (transition,) Tj ( ) Tj (Paper) Tj ( ) Tj (01\)) Tj  T* ( ) Tj ( ) Tj (Universality) Tj ( ) Tj (class:) Tj ( ) Tj (3D) Tj ( ) Tj (ISING) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 584 cm
+Q
+q
+1 0 0 1 60 569 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The crossover gamma_Ginzburg ~= 0.0014 is approximately 88% of gamma_c. In terms of W:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 562 cm
+Q
+q
+1 0 0 1 60 549.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (At) Tj ( ) Tj (gamma_Ginzburg:) Tj ( ) Tj (W_Ginzburg) Tj ( ) Tj (=) Tj ( ) Tj (T*\(gamma_Ginzburg\)/T_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 541.2 cm
+Q
+q
+1 0 0 1 60 514.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is the Wike-Ginzburg Number -- the operating point where the system transitions from mean-field to 3D Ising behavior.) Tj T* /F2 9 Tf (W* = 0.9394 ~= 0.94 -- body temperature is right at the Ginzburg crossover.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 507.2 cm
+Q
+q
+1 0 0 1 60 468.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The body operates at the boundary between mean-field and 3D Ising regimes. In the healthy state, it is in the mean-field) Tj T* (regime \(reversible sensitization\). Under chronic stress, it approaches the 3D Ising crossover \(where sensitization becomes) Tj T* (nonlinear\). At gamma_c, it undergoes the 3D Ising transition \(irreversible wind-up\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 461.2 cm
+Q
+q
+1 0 0 1 60 455.2 cm
+Q
+q
+1 0 0 1 60 451.2 cm
+Q
+q
+1 0 0 1 60 413.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Clinical Translation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 401.2 cm
+Q
+q
+1 0 0 1 60 386.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Chronic stress \(mean-field regime\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 347 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Pain) Tj ( ) Tj (amplification) Tj ( ) Tj (~) Tj ( ) Tj (gamma_eff^\(1/2\)) Tj  T* (Response) Tj ( ) Tj (to) Tj ( ) Tj (+10%) Tj ( ) Tj (gamma_eff:) Tj ( ) Tj (+5%) Tj ( ) Tj (amplification) Tj ( ) Tj (\(square) Tj ( ) Tj (root) Tj ( ) Tj (=) Tj ( ) Tj (less) Tj ( ) Tj (than) Tj ( ) Tj (linear\)) Tj  T* (Reversible) Tj ( ) Tj (with) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (reduction) Tj  T* ("I) Tj ( ) Tj (can) Tj ( ) Tj (handle) Tj ( ) Tj (it") Tj ( ) Tj (--) Tj ( ) Tj (correct) Tj ( ) Tj (assessment,) Tj ( ) Tj (mean-field) Tj ( ) Tj (regime) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 339 cm
+Q
+q
+1 0 0 1 60 324 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Approaching gamma_c \(3D Ising crossover\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 284.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Pain) Tj ( ) Tj (amplification) Tj ( ) Tj (~) Tj ( ) Tj (|gamma) Tj ( ) Tj (nu) Tj ( ) Tj (gamma_c|^\(-1.2372\)) Tj  T* (Response) Tj ( ) Tj (to) Tj ( ) Tj (+10%) Tj ( ) Tj (gamma_eff:) Tj ( ) Tj (>) Tj (>) Tj (10%) Tj ( ) Tj (amplification) Tj ( ) Tj (\(power) Tj ( ) Tj (law) Tj ( ) Tj (diverges\)) Tj  T* (NONLINEAR:) Tj ( ) Tj (small) Tj ( ) Tj (additional) Tj ( ) Tj (stressor) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (large) Tj ( ) Tj (response) Tj  T* ("Why) Tj ( ) Tj (am) Tj ( ) Tj (I) Tj ( ) Tj (so) Tj ( ) Tj (reactive?") Tj ( ) Tj (--) Tj ( ) Tj (correct) Tj ( ) Tj (assessment,) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (regime) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 276.8 cm
+Q
+q
+1 0 0 1 60 261.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Wind-up snap \(gamma -) Tj (> gamma_c, 3D Ising transition\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 213.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Amplification) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj ( ) Tj (\(diverges\)) Tj  T* (Berry) Tj ( ) Tj (phase) Tj ( ) Tj (nupi) Tj ( ) Tj (transition) Tj ( ) Tj (\(Paper) Tj ( ) Tj (01\)) Tj  T* (Topological) Tj ( ) Tj (defects) Tj ( ) Tj (\(Paper) Tj ( ) Tj (53\)) Tj  T* (Irreversible) Tj  T* ("Something) Tj ( ) Tj (broke") Tj ( ) Tj (--) Tj ( ) Tj (correct) Tj ( ) Tj (assessment) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 205.8 cm
+Q
+q
+1 0 0 1 60 190.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The clinical progression:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 175.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Burnout: mean-field approach, gradual, proportional response) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 160.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Sensitization onset: Ginzburg crossover, responses becoming disproportionate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 145.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Wind-up: 3D Ising divergence, nonlinear, cliff-like) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 130.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. Central sensitization: gamma > gamma_c, spin glass phase \(Paper 61\), irreversible) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 123.8 cm
+Q
+q
+1 0 0 1 60 108.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Each stage is a different physics. Each stage requires a different intervention.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 101.8 cm
+Q
+q
+1 0 0 1 60 95.8 cm
+Q
+q
+1 0 0 1 60 91.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 5844
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 67: WIND-UP IS A TWO-STAGE PHASE TRANSITION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. The Unnamed Coherence Sensitivity Ratio) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From the simulation data: the ratio of whisper coherence sensitivity to scream coherence sensitivity:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676 cm
+Q
+q
+1 0 0 1 60 663.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (|r_whisper|) Tj ( ) Tj (/) Tj ( ) Tj (|r_scream|) Tj ( ) Tj (=) Tj ( ) Tj (0.898) Tj ( ) Tj (/) Tj ( ) Tj (0.122) Tj ( ) Tj (=) Tj ( ) Tj (7.36x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 655.2 cm
+Q
+q
+1 0 0 1 60 640.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (This is now named: the Wike Sensitivity Ratio \(WSR\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633.2 cm
+Q
+q
+1 0 0 1 60 585.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (WSR) Tj ( ) Tj (=) Tj ( ) Tj (chi\(gamma_whisper\)) Tj ( ) Tj (/) Tj ( ) Tj (chi\(gamma_scream\)) Tj  T*  T* (where) Tj ( ) Tj (chi) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (coherence) Tj ( ) Tj (susceptibility) Tj ( ) Tj (\(dC/dgamma\)) Tj  T*  T* (WSR) Tj ( ) Tj (=) Tj ( ) Tj (7.36) Tj ( ) Tj (in) Tj ( ) Tj (the) Tj ( ) Tj (AIIT-THRESI) Tj ( ) Tj (simulation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 577.2 cm
+Q
+q
+1 0 0 1 60 550.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (WSR measures how much more sensitive the coherent phase is to small perturbations compared to the disordered phase.) Tj T* (For a 3D Ising system:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 543.2 cm
+Q
+q
+1 0 0 1 60 521.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (WSR) Tj ( ) Tj (=) Tj ( ) Tj (chi_+\(gamma_whisper\)) Tj ( ) Tj (/) Tj ( ) Tj (chi_-\(gamma_scream\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (A+) Tj ( ) Tj (/) Tj ( ) Tj (A-) Tj ( ) Tj (x) Tj ( ) Tj (\(|epsilon_whisper|/|epsilon_scream|\)^\(-gamma_Ising\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 513.6 cm
+Q
+q
+1 0 0 1 60 498.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (where A+/A- is the universal amplitude ratio. For 3D Ising: A+/A- = 4.73 \(Pelissetto & Vicari 2002\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 491.6 cm
+Q
+q
+1 0 0 1 60 464.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The measured WSR = 7.36 > 4.73 suggests the simulation includes additional non-universal contributions \(the specific) Tj T* (biological noise model amplifies the asymmetry beyond the universal 3D Ising ratio\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 457.6 cm
+Q
+q
+1 0 0 1 60 418.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (WSR is a diagnostic:) Tj /F1 9 Tf ( A system with WSR > 4.73 is in the 3D Ising regime with additional biological amplification. WSR =) Tj T* (4.73 exactly is the pure 3D Ising prediction. WSR < 4.73 indicates the system has crossed gamma_c \(spin glass phase,) Tj T* (where the symmetry between whisper and scream breaks down differently\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 411.6 cm
+Q
+q
+1 0 0 1 60 405.6 cm
+Q
+q
+1 0 0 1 60 401.6 cm
+Q
+q
+1 0 0 1 60 363.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 351.6 cm
+Q
+q
+1 0 0 1 60 338.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Stage | gamma range | Exponent | Physics | Clinical |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 326 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|-------|---------|----------|---------|---------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 313.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| 1 | 0 < gamma < gamma_G | 1/2 \(mean-field\) | Reversible, proportional | Burnout |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 300.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| 2 | gamma_G < gamma < gamma_c | 1.2372 \(3D Ising\) | Nonlinear, approaching cliff | Sensitization |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 287.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Snap | gamma = gamma_c | inf \(diverges\) | Topological transition | Wind-up |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 274.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| 3 | gamma > gamma_c | Spin glass | Frozen attractor | Central sensitization |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 266.8 cm
+Q
+q
+1 0 0 1 60 251.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma_Ginzburg ~= 0.0014 = crossover from mean-field to 3D Ising) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 244.8 cm
+Q
+q
+1 0 0 1 60 229.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (WSR = Wike Sensitivity Ratio = 7.36 \(simulation\) vs 4.73 \(pure 3D Ising universal\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 222.8 cm
+Q
+q
+1 0 0 1 60 207.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 67) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 200.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000006427 00000 n 
+0000006534 00000 n 
+0000006641 00000 n 
+0000006753 00000 n 
+0000006863 00000 n 
+0000006979 00000 n 
+0000007085 00000 n 
+0000007460 00000 n 
+0000014520 00000 n 
+0000014628 00000 n 
+0000014739 00000 n 
+0000015114 00000 n 
+0000022907 00000 n 
+0000023015 00000 n 
+0000023126 00000 n 
+0000023501 00000 n 
+0000029398 00000 n 
+0000029506 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+29617
+%%EOF

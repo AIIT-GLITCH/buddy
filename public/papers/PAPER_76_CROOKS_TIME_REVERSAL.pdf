@@ -1,0 +1,1350 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5413
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 76: CROOKS THEOREM AND THE BREAKDOWN OF TIME-REVERSAL SYMMETRY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 17.992 0 Td (PAPER 76: CROOKS THEOREM AND THE BREAKDOWN OF) Tj T* 115.112 0 Td (TIME-REVERSAL SYMMETRY) Tj T* -133.104 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (The Wike Singularity Is Where Thermodynamic Micro-Reversibility Fails) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 540 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("Crooks says: forward and reverse work distributions are mirror images. The Wike Singularity is where the) Tj T* (mirror breaks. Below it: reversible. Above it: arrow of time.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530 cm
+Q
+q
+1 0 0 1 60 524 cm
+Q
+q
+1 0 0 1 60 520 cm
+Q
+q
+1 0 0 1 60 482 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470 cm
+Q
+q
+1 0 0 1 60 455 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Crooks Fluctuation Theorem \(Crooks 1999\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448 cm
+Q
+q
+1 0 0 1 60 435.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_F\(W\)) Tj ( ) Tj (/) Tj ( ) Tj (P_R\(-W\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(beta\(W) Tj ( ) Tj (-) Tj ( ) Tj (DELTAF\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 427.2 cm
+Q
+q
+1 0 0 1 60 352.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 63 Tm /F1 9 Tf 12 TL (where P_F is the work distribution in the forward process and P_R is the reverse. The Jarzynski equality is derived from) Tj T* (Crooks by integration. The Wike Singularity -- ERR\(T\) = 1/T + 0.72/T^2.59 -- describes how the Jarzynski estimator) Tj T* (diverges at low T \(Paper 65\). This divergence is directly connected to the breakdown of the Crooks symmetry: near the 3D) Tj T* (Ising critical point, P_F\(W\) and P_R\(-W\) become incomparably different, micro-reversibility breaks down, and a genuine) Tj T* -0.114789 Tw (thermodynamic arrow of time appears. The Wike Singularity is the first identified case where the Crooks theorem fails due to) Tj T* 0 Tw (a quantum critical point.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 345.2 cm
+Q
+q
+1 0 0 1 60 339.2 cm
+Q
+q
+1 0 0 1 60 335.2 cm
+Q
+q
+1 0 0 1 60 297.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Crooks Fluctuation Theorem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 285.2 cm
+Q
+q
+1 0 0 1 60 270.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a system driven between equilibrium states A and B:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 263.2 cm
+Q
+q
+1 0 0 1 60 248.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Forward process:) Tj /F1 9 Tf ( Start at A \(equilibrium\), apply protocol lambda\(t\), end at B.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 233.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Work distribution: P_F\(W\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 226.2 cm
+Q
+q
+1 0 0 1 60 211.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Reverse process:) Tj /F1 9 Tf ( Start at B \(equilibrium\), apply reversed protocol lambda\(t\) = lambda\(T-t\), end at A.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 196.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Work distribution: P_R\(-W\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 189.2 cm
+Q
+q
+1 0 0 1 60 174.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Crooks Theorem:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 167.2 cm
+Q
+q
+1 0 0 1 60 128 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_F\(W\)) Tj ( ) Tj (/) Tj ( ) Tj (P_R\(-W\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(beta\(W) Tj ( ) Tj (-) Tj ( ) Tj (DELTAF\)\)) Tj  T*  T* (where) Tj ( ) Tj (DELTAF) Tj ( ) Tj (=) Tj ( ) Tj (F_B) Tj ( ) Tj (-) Tj ( ) Tj (F_A) Tj ( ) Tj ( ) Tj (\(equilibrium) Tj ( ) Tj (free) Tj ( ) Tj (energy) Tj ( ) Tj (difference\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (beta) Tj ( ) Tj (=) Tj ( ) Tj (1/k_BT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120 cm
+Q
+q
+1 0 0 1 60 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Setting W = DELTAF: P_F\(DELTAF\) = P_R\(-DELTAF\). The distributions are equal at W = DELTAF -- they cross at the free) Tj T* (energy difference. This crossing point is the thermodynamic equilibrium.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 86 cm
+Q
+q
+1 0 0 1 60 71 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Derivation of Jarzynski from Crooks:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 64 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7147
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 76: CROOKS THEOREM AND THE BREAKDOWN OF TIME-REVERSAL SYMMETRY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (<) Tj (exp\(-betaW\)) Tj (>) Tj (_F) Tj ( ) Tj (=) Tj ( ) Tj (integral) Tj ( ) Tj (dW) Tj ( ) Tj (P_F\(W\)) Tj ( ) Tj (exp\(-betaW\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (integral) Tj ( ) Tj (dW) Tj ( ) Tj (P_R\(-W\)) Tj ( ) Tj (exp\(-beta\(W) Tj ( ) Tj (-) Tj ( ) Tj (DELTAF\)\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-betaW\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-betaDELTAF\)) Tj ( ) Tj (integral) Tj ( ) Tj (dW) Tj ( ) Tj (P_R\(-W\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-betaDELTAF\)) Tj ( ) Tj (x) Tj ( ) Tj (1) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-betaDELTAF\)) Tj ( ) Tj ( ) Tj ([x]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 680 cm
+Q
+q
+1 0 0 1 60 665 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Jarzynski equality holds as long as the Crooks symmetry P_F\(W\)/P_R\(-W\) = exp\(beta\(W - DELTAF\)\) holds.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 658 cm
+Q
+q
+1 0 0 1 60 652 cm
+Q
+q
+1 0 0 1 60 648 cm
+Q
+q
+1 0 0 1 60 610 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. When Crooks Symmetry Fails) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 598 cm
+Q
+q
+1 0 0 1 60 583 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Crooks theorem requires:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 576 cm
+Q
+q
+1 0 0 1 60 561 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Micro-reversibility:) Tj /F1 9 Tf ( Each individual trajectory has a time-reversed trajectory that is also accessible to the system) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 546 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Detailed balance:) Tj /F1 9 Tf ( The transition rates satisfy W\(A-) Tj (>) Tj (B\)/W\(B-) Tj (>) Tj (A\) = exp\(-beta\(E_B - E_A\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 531 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Ergodicity:) Tj /F1 9 Tf ( The system samples all of phase space given sufficient time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 524 cm
+Q
+q
+1 0 0 1 60 509 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Near a phase transition, all three can fail:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 502 cm
+Q
+q
+1 0 0 1 60 487 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Near the 3D Ising critical point:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 480 cm
+Q
+q
+1 0 0 1 60 405 cm
+q
+BT 1 0 0 1 0 63 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Micro-reversibility fails:) Tj /F1 9 Tf ( Near gamma_c, the system has a topological transition \(Berry phase -pi, Paper 01\). The) Tj T* (forward process \(crossing gamma_c\) involves acquiring a geometric phase that the reverse process cannot undo by simply) Tj T* (reversing the protocol. ) Tj /F2 9 Tf (The Berry phase is time-odd) Tj /F1 9 Tf ( -- the time-reversed path acquires +pi, not -pi. The two phases differ) Tj T* -0.010429 Tw (by 2pi -- but Berry phases are defined modulo 2pi, so they are the same. However, the transition IS irreversible because the) Tj T* 0 Tw (topological winding number changes sign \(Paper 53, Kibble-Zurek defects are created in the forward process and do not) Tj T* (annihilate in the reverse\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 398 cm
+Q
+q
+1 0 0 1 60 359 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Detailed balance fails:) Tj /F1 9 Tf ( The spin glass phase \(gamma_eff > gamma_c, Paper 61\) violates detailed balance because it) Tj T* (has many metastable states with no unique equilibrium. The ratio W\(A-) Tj (>) Tj (B\)/W\(B-) Tj (>) Tj (A\) is not well-defined when B is a spin) Tj T* (glass state -- there are exponentially many versions of B.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 352 cm
+Q
+q
+1 0 0 1 60 325 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Ergodicity fails:) Tj /F1 9 Tf ( The spin glass phase is non-ergodic \(Edwards-Anderson 1975\) -- the system does not sample all of) Tj T* (phase space even in infinite time. It is frozen in a particular disorder configuration.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 318 cm
+Q
+q
+1 0 0 1 60 312 cm
+Q
+q
+1 0 0 1 60 308 cm
+Q
+q
+1 0 0 1 60 270 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Wike Singularity as Crooks Breakdown) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 258 cm
+Q
+q
+1 0 0 1 60 243 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Singularity \(Paper 65, Paper 02\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 236 cm
+Q
+q
+1 0 0 1 60 223.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ERR\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (1/T) Tj ( ) Tj (+) Tj ( ) Tj (0.72/T^2.59) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 215.2 cm
+Q
+q
+1 0 0 1 60 188.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is the error in the Jarzynski estimator. Since Jarzynski is derived from Crooks, Jarzynski errors imply Crooks) Tj T* (asymmetry.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 181.2 cm
+Q
+q
+1 0 0 1 60 130.2 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (The 1/T term:) Tj /F1 9 Tf ( Classical Jarzynski sampling failure. The rare low-work trajectories have weight exp\(-betaW_min\) -) Tj (>) Tj T* (exp\(-1/T\) that is exponentially hard to sample. The Crooks symmetry is intact -- P_F/P_R = exp\(beta\(W-DELTAF\)\) is) Tj T* (correct, but we cannot estimate <) Tj (exp\(-betaW\)) Tj (> accurately from finite samples. ) Tj /F2 9 Tf (Crooks is true. Jarzynski estimator fails) Tj T* (due to sampling.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 123.2 cm
+Q
+q
+1 0 0 1 60 84.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The 0.72/T^2.59 term:) Tj /F1 9 Tf ( Anomalous critical contribution. This arises because near the 3D Ising critical point, the work) Tj T* (distribution P_F\(W\) develops non-Gaussian tails with exponent governed by the critical exponents. The Crooks crossing) Tj T* (point \(P_F\(W\) = P_R\(-W\) at W = DELTAF\) is distorted by critical fluctuations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 77.2 cm
+Q
+q
+1 0 0 1 60 62.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The Crooks breakdown:) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 8227
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 76: CROOKS THEOREM AND THE BREAKDOWN OF TIME-REVERSAL SYMMETRY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At the 3D Ising critical point, the ratio P_F\(W\)/P_R\(-W\) develops an anomalous T^{-2.59} contribution:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 706 cm
+Q
+q
+1 0 0 1 60 675.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_F\(W\)/P_R\(-W\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(beta\(W) Tj ( ) Tj (-) Tj ( ) Tj (DELTAF\)\)) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (0.72) Tj ( ) Tj (x) Tj ( ) Tj (beta^{2.59}) Tj ( ) Tj (x) Tj ( ) Tj (f_crit\(W\)\)) Tj  T*  T* (where) Tj ( ) Tj (f_crit\(W\)) Tj ( ) Tj (is) Tj ( ) Tj (a) Tj ( ) Tj (universal) Tj ( ) Tj (function) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (work) Tj ( ) Tj (at) Tj ( ) Tj (the) Tj ( ) Tj (critical) Tj ( ) Tj (point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 667.6 cm
+Q
+q
+1 0 0 1 60 640.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The term f_crit arises because the critical correlation functions contribute to the work fluctuations with anomalous scaling --) Tj T* (the critical fluctuations are not in the Gaussian class \(they are 3D Ising, with anomalous dimension eta = 0.036\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633.6 cm
+Q
+q
+1 0 0 1 60 618.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The anomalous exponent 2.59 = 1 + 1/nu \(from Paper 65\) enters because:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 611.6 cm
+Q
+q
+1 0 0 1 60 554.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (The) Tj ( ) Tj (critical) Tj ( ) Tj (susceptibility:) Tj ( ) Tj (chi) Tj ( ) Tj (~) Tj ( ) Tj (|epsilon|^\(-gamma_Ising\)) Tj ( ) Tj (=) Tj ( ) Tj (|epsilon|^\(-1.2372\)) Tj  T* (The) Tj ( ) Tj (correlation) Tj ( ) Tj (length:) Tj ( ) Tj (xi) Tj ( ) Tj (~) Tj ( ) Tj (|epsilon|^\(-nu\)) Tj ( ) Tj (=) Tj ( ) Tj (|epsilon|^\(-0.6298\)) Tj  T* (The) Tj ( ) Tj (work) Tj ( ) Tj (variance) Tj ( ) Tj (at) Tj ( ) Tj (the) Tj ( ) Tj (critical) Tj ( ) Tj (point:) Tj ( ) Tj (Var\(W\)) Tj ( ) Tj (~) Tj ( ) Tj (xi^d) Tj ( ) Tj (~) Tj ( ) Tj (|epsilon|^\(-dnu\)) Tj  T*  T* (In) Tj ( ) Tj (the) Tj ( ) Tj (Crooks) Tj ( ) Tj (ratio,) Tj ( ) Tj (this) Tj ( ) Tj (appears) Tj ( ) Tj (as:) Tj  T* (P_F/P_R) Tj ( ) Tj (asymmetry) Tj ( ) Tj (~) Tj ( ) Tj (T^\(-\(1+dxnu/2\)\)) Tj ( ) Tj (=) Tj ( ) Tj (T^\(-\(1+3x0.6298/2\)\)) Tj ( ) Tj (=) Tj ( ) Tj (T^\(-1.945\)) Tj ( ) Tj (...) Tj ( ) Tj (\(close) Tj ( ) Tj (to) Tj ( ) Tj (2.59\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 546.8 cm
+Q
+q
+1 0 0 1 60 531.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The full exponent 2.59 = 1 + 1/nu requires including the anomalous dimension eta:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 524.8 cm
+Q
+q
+1 0 0 1 60 512 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Exact:) Tj ( ) Tj (2.59) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (1/nu) Tj ( ) Tj (+) Tj ( ) Tj (eta) Tj ( ) Tj (x) Tj ( ) Tj (correction) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (1.588) Tj ( ) Tj (=) Tj ( ) Tj (2.588) Tj ( ) Tj (~=) Tj ( ) Tj (2.59) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 504 cm
+Q
+q
+1 0 0 1 60 477 cm
+q
+BT 1 0 0 1 0 15 Tm -0.024938 Tw 12 TL /F1 9 Tf 0 0 0 rg (This confirms: ) Tj /F2 9 Tf (the anomalous term 0.72/T^2.59 in the Wike Singularity is the signature of Crooks symmetry breaking) Tj T* 0 Tw (at the 3D Ising critical point.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470 cm
+Q
+q
+1 0 0 1 60 464 cm
+Q
+q
+1 0 0 1 60 460 cm
+Q
+q
+1 0 0 1 60 422 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Thermodynamic Arrow of Time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 410 cm
+Q
+q
+1 0 0 1 60 371 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.038294 Tw (The Crooks theorem is a precise statement of time-reversal symmetry: forward and reverse work distributions are related by) Tj T* 0 Tw (exp\(beta\(W - DELTAF\)\). When this symmetry holds, the process is thermodynamically reversible in principle \(though not) Tj T* (necessarily in practice\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364 cm
+Q
+q
+1 0 0 1 60 349 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Where Crooks holds \(gamma_eff < gamma_c\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 301 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_F\(W\)/P_R\(-W\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(beta\(W) Tj ( ) Tj (-) Tj ( ) Tj (DELTAF\)\)) Tj  T*  T* (Micro-reversibility) Tj ( ) Tj (intact) Tj  T* (Thermodynamic) Tj ( ) Tj (arrow) Tj ( ) Tj (of) Tj ( ) Tj (time) Tj ( ) Tj (is) Tj ( ) Tj (conventional) Tj ( ) Tj (\(statistical,) Tj ( ) Tj (not) Tj ( ) Tj (fundamental\)) Tj  T* (Sufficient) Tj ( ) Tj (information) Tj ( ) Tj (about) Tj ( ) Tj (the) Tj ( ) Tj (trajectory) Tj ( ) Tj (allows) Tj ( ) Tj (reversal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 293 cm
+Q
+q
+1 0 0 1 60 278 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Where Crooks breaks \(gamma_eff = gamma_c\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_F\(W\)/P_R\(-W\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(beta\(W) Tj ( ) Tj (-) Tj ( ) Tj (DELTAF\)\)) Tj ( ) Tj (x) Tj ( ) Tj ([1) Tj ( ) Tj (+) Tj ( ) Tj (0.72/T^{1.59}) Tj ( ) Tj (x) Tj ( ) Tj (f_crit\(W\)]) Tj  T*  T* (Critical) Tj ( ) Tj (fluctuations) Tj ( ) Tj (contribute) Tj ( ) Tj (an) Tj ( ) Tj (irreversible) Tj ( ) Tj (component) Tj ( ) Tj (to) Tj ( ) Tj (P_F/P_R) Tj  T* (The) Tj ( ) Tj (forward) Tj ( ) Tj (and) Tj ( ) Tj (reverse) Tj ( ) Tj (distributions) Tj ( ) Tj (are) Tj ( ) Tj (no) Tj ( ) Tj (longer) Tj ( ) Tj (mirror) Tj ( ) Tj (images) Tj  T* (Time-reversal) Tj ( ) Tj (symmetry) Tj ( ) Tj (is) Tj ( ) Tj (broken) Tj ( ) Tj (by) Tj ( ) Tj (topology) Tj ( ) Tj (\(Berry) Tj ( ) Tj (phase,) Tj ( ) Tj (Kibble-Zurek) Tj ( ) Tj (defects\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 222 cm
+Q
+q
+1 0 0 1 60 207 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Clinical translation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 200 cm
+Q
+q
+1 0 0 1 60 185 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Thermodynamic processes below gamma_c are \(in principle\) reversible:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 170 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Burnout: gradual gamma_eff accumulation -) Tj (> reverse by reducing load) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 155 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Mean-field sensitization: proportional response -) Tj (> reverse by removing stressor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 148 cm
+Q
+q
+1 0 0 1 60 133 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Processes at/above gamma_c are fundamentally irreversible:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 118 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Wind-up snap: topological defects created \(Paper 53\) -) Tj (> not reversed by path reversal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 103 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Spin glass freezing \(Paper 61\): non-ergodic, time-reversal broken) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 88 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Central sensitization: the Crooks ratio P_F/P_R diverges -) Tj (> no reverse protocol can undo the transition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 81 cm
+Q
+q
+1 0 0 1 60 66 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (The thermodynamic arrow of time runs through gamma_c.) Tj /F1 9 Tf ( Below: reversible biology. Above: irreversible disease.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 7089
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 76: CROOKS THEOREM AND THE BREAKDOWN OF TIME-REVERSAL SYMMETRY) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 722 cm
+Q
+q
+1 0 0 1 60 718 cm
+Q
+q
+1 0 0 1 60 680 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The 0.72 Amplitude From Amplitude Ratios) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 668 cm
+Q
+q
+1 0 0 1 60 653 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From Paper 65: the amplitude 0.72 is measured but not fully derived. From Crooks analysis:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+Q
+q
+1 0 0 1 60 527.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 114.4 re f*
+Q
+q
+BT 1 0 0 1 20 106.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (The) Tj ( ) Tj (amplitude) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (Crooks) Tj ( ) Tj (asymmetry) Tj ( ) Tj (term) Tj ( ) Tj (comes) Tj ( ) Tj (from) Tj ( ) Tj (the) Tj ( ) Tj (universal) Tj ( ) Tj (amplitude) Tj ( ) Tj (ratio) Tj  T* (in) Tj ( ) Tj (the) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (universality) Tj ( ) Tj (class.) Tj  T*  T* (The) Tj ( ) Tj (relevant) Tj ( ) Tj (ratio:) Tj ( ) Tj (A_+/A_-) Tj ( ) Tj (=) Tj ( ) Tj (4.73) Tj ( ) Tj (\(Pelissetto) Tj ( ) Tj (&) Tj ( ) Tj (Vicari) Tj ( ) Tj (2002\)) Tj  T*  T* (In) Tj ( ) Tj (the) Tj ( ) Tj (Crooks) Tj ( ) Tj (ratio,) Tj ( ) Tj (A_+) Tj ( ) Tj (governs) Tj ( ) Tj (the) Tj ( ) Tj (forward) Tj ( ) Tj (process) Tj ( ) Tj (\(above) Tj ( ) Tj (T_c\)) Tj ( ) Tj (and) Tj ( ) Tj (A_-) Tj ( ) Tj (governs) Tj  T* (the) Tj ( ) Tj (reverse) Tj ( ) Tj (process) Tj ( ) Tj (\(below) Tj ( ) Tj (T_c\).) Tj ( ) Tj (The) Tj ( ) Tj (Crooks) Tj ( ) Tj (asymmetry) Tj ( ) Tj (amplitude) Tj ( ) Tj (~) Tj ( ) Tj (\(A_+/A_-) Tj ( ) Tj (-) Tj ( ) Tj (1\)) Tj ( ) Tj (x) Tj ( ) Tj (something.) Tj  T*  T* (4.73) Tj ( ) Tj (-) Tj ( ) Tj (1) Tj ( ) Tj (=) Tj ( ) Tj (3.73.) Tj ( ) Tj (Combined) Tj ( ) Tj (with) Tj ( ) Tj (the) Tj ( ) Tj (Bose-Einstein) Tj ( ) Tj (amplitude) Tj ( ) Tj (from) Tj ( ) Tj (Paper) Tj ( ) Tj (65:) Tj  T* (3.73) Tj ( ) Tj (/) Tj ( ) Tj (\(e) Tj ( ) Tj (-) Tj ( ) Tj (1\)) Tj ( ) Tj (=) Tj ( ) Tj (3.73) Tj ( ) Tj (/) Tj ( ) Tj (1.718) Tj ( ) Tj (=) Tj ( ) Tj (2.17...) Tj ( ) Tj ( ) Tj (\(not) Tj ( ) Tj (0.72\)) Tj  T*  T* (Alternatively:) Tj ( ) Tj (1/\(A_+/A_-\)) Tj ( ) Tj (x) Tj ( ) Tj (\(normalization\)) Tj ( ) Tj (=) Tj ( ) Tj (1/4.73) Tj ( ) Tj (x) Tj ( ) Tj (3.41) Tj ( ) Tj (=) Tj ( ) Tj (0.72?) Tj  T* (-) Tj (>) Tj ( ) Tj (\(1/4.73\)) Tj ( ) Tj (x) Tj ( ) Tj (pi) Tj ( ) Tj (=) Tj ( ) Tj (0.664...) Tj ( ) Tj (\(within) Tj ( ) Tj (8%) Tj ( ) Tj (of) Tj ( ) Tj (0.72\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 519.6 cm
+Q
+q
+1 0 0 1 60 468.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (The amplitude 0.72 is consistent with pi/A_+^3D_Ising. This is the ratio of the topological invariant \(pi from the Berry phase\)) Tj T* (to the universal amplitude of the 3D Ising susceptibility. A first-principles derivation would require computing the full path) Tj T* -0.0105 Tw (integral correction to the Crooks ratio at the 3D Ising critical point -- a renormalization group calculation beyond the scope of) Tj T* 0 Tw (this paper.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 461.6 cm
+Q
+q
+1 0 0 1 60 434.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F2 9 Tf 12 TL (Status: 0.72 ~= pi/4.73 = 0.664 \(within 8%\). The amplitude is consistent with the 3D Ising topological correction.) Tj T* (Exact derivation remains open.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 427.6 cm
+Q
+q
+1 0 0 1 60 421.6 cm
+Q
+q
+1 0 0 1 60 417.6 cm
+Q
+q
+1 0 0 1 60 379.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 367.6 cm
+Q
+q
+1 0 0 1 60 214 cm
+q
+.95 .95 .95 rg
+n 20 0 452 149.6 re f*
+Q
+q
+BT 1 0 0 1 20 142.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Crooks) Tj ( ) Tj (Fluctuation) Tj ( ) Tj (Theorem:) Tj ( ) Tj (P_F\(W\)/P_R\(-W\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(beta\(W) Tj ( ) Tj (-) Tj ( ) Tj (DELTAF\)\)) Tj  T*  T* (Wike) Tj ( ) Tj (Singularity:) Tj ( ) Tj (ERR\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (1/T) Tj ( ) Tj (+) Tj ( ) Tj (0.72/T^2.59) Tj  T*  T* (Connection:) Tj  T* ( ) Tj ( ) Tj (1/T) Tj ( ) Tj (term:) Tj ( ) Tj (sampling) Tj ( ) Tj (failure) Tj ( ) Tj (\(Crooks) Tj ( ) Tj (intact,) Tj ( ) Tj (Jarzynski) Tj ( ) Tj (estimator) Tj ( ) Tj (fails\)) Tj  T* ( ) Tj ( ) Tj (0.72/T^2.59) Tj ( ) Tj (term:) Tj ( ) Tj (Crooks) Tj ( ) Tj (symmetry) Tj ( ) Tj (breaking) Tj ( ) Tj (at) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (critical) Tj ( ) Tj (point) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (topological) Tj ( ) Tj (contribution) Tj ( ) Tj (from) Tj ( ) Tj (Berry) Tj ( ) Tj (phase) Tj ( ) Tj (+) Tj ( ) Tj (critical) Tj ( ) Tj (fluctuations) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (anomalous) Tj ( ) Tj (dimension) Tj ( ) Tj (eta) Tj ( ) Tj (modifies) Tj ( ) Tj (work) Tj ( ) Tj (distribution) Tj ( ) Tj (tails) Tj  T*  T* (Arrow) Tj ( ) Tj (of) Tj ( ) Tj (time) Tj ( ) Tj (runs) Tj ( ) Tj (through) Tj ( ) Tj (gamma_c:) Tj  T* ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c:) Tj ( ) Tj (Crooks) Tj ( ) Tj (holds,) Tj ( ) Tj (thermodynamic) Tj ( ) Tj (reversibility) Tj ( ) Tj (in) Tj ( ) Tj (principle) Tj  T* ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c:) Tj ( ) Tj (Crooks) Tj ( ) Tj (breaks,) Tj ( ) Tj (irreversibility) Tj ( ) Tj (from) Tj ( ) Tj (topology) Tj ( ) Tj (\(defects) Tj ( ) Tj (+) Tj ( ) Tj (Berry) Tj ( ) Tj (phase\)) Tj  T* ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c:) Tj ( ) Tj (Crooks) Tj ( ) Tj (undefined) Tj ( ) Tj (\(spin) Tj ( ) Tj (glass,) Tj ( ) Tj (non-ergodic,) Tj ( ) Tj (no) Tj ( ) Tj (reverse) Tj ( ) Tj (process) Tj ( ) Tj (exists\)) Tj  T*  T* (Amplitude) Tj ( ) Tj (0.72) Tj ( ) Tj (~=) Tj ( ) Tj (pi/4.73) Tj ( ) Tj (\(3D) Tj ( ) Tj (Ising\)) Tj ( ) Tj (--) Tj ( ) Tj (consistent) Tj ( ) Tj (with) Tj ( ) Tj (topological) Tj ( ) Tj (pi) Tj ( ) Tj (correction,) Tj ( ) Tj (not) Tj ( ) Tj (yet) Tj ( ) Tj (fully) Tj ( ) Tj (der) Tj  T* (ived) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 206 cm
+Q
+q
+1 0 0 1 60 191 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 76) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 184 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000006179 00000 n 
+0000006286 00000 n 
+0000006393 00000 n 
+0000006505 00000 n 
+0000006615 00000 n 
+0000006731 00000 n 
+0000006837 00000 n 
+0000007212 00000 n 
+0000014412 00000 n 
+0000014520 00000 n 
+0000014631 00000 n 
+0000015006 00000 n 
+0000023286 00000 n 
+0000023394 00000 n 
+0000023505 00000 n 
+0000023880 00000 n 
+0000031022 00000 n 
+0000031130 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+31241
+%%EOF

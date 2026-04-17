@@ -1,0 +1,677 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 2
+/Kids [ 4 0 R 10 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5155
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 13: Cartesian Coordinates Are Wrong) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 79.296 0 Td (Paper 13: Cartesian Coordinates Are Wrong) Tj T* -79.296 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Rotation Invariance Failed -- Coherence Depends on Axis Choice) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 660 cm
+Q
+q
+1 0 0 1 60 654 cm
+Q
+q
+1 0 0 1 60 650 cm
+Q
+q
+1 0 0 1 60 612 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Thesis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 600 cm
+Q
+q
+1 0 0 1 60 549 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (The Cartesian coordinate system \(x, y, z\) is a human invention, not a physical reality. When quantum coherence is) Tj T* (measured in rotated coordinate frames, the results change -- a 31% spread in coherence values depending on axis choice.) Tj T* (This means some of what we call "decoherence" is actually a coordinate artifact. Physics needs spherical/geometric) Tj T* (formulations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 542 cm
+Q
+q
+1 0 0 1 60 504 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Core Claim) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 492 cm
+Q
+q
+1 0 0 1 60 477 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Coherence should be a physical property -- it should not depend on which direction you call "x." But it does:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470 cm
+Q
+q
+1 0 0 1 60 455 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Rotation invariance test) Tj /F1 9 Tf (: Measured coherence of the same quantum state in multiple rotated coordinate frames) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 440 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Result) Tj /F1 9 Tf (: 31% spread in coherence values across different axis choices) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Implication) Tj /F1 9 Tf (: Coherence as typically measured \(off-diagonal density matrix elements\) is COORDINATE-DEPENDENT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 418 cm
+Q
+q
+1 0 0 1 60 403 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This means:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 388 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Some measured "decoherence" is not real -- it is an artifact of axis choice) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 373 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Some measured "coherence" is not real -- it is an artifact of axis choice) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 358 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. The Bloch sphere is the right picture \(coordinate-independent\) but we keep collapsing it to coordinates for calculation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (4. We need formulations based on geometric invariants \(Berry phase, purity, von Neumann entropy\) rather than) Tj T* (coordinate-dependent matrix elements) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324 cm
+Q
+q
+1 0 0 1 60 294 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (The Problem with x, y, z) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 284 cm
+Q
+q
+1 0 0 1 60 269 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Cartesian coordinates assume:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Three orthogonal axes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 239 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Fixed orientation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Flat geometry) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 217 cm
+Q
+q
+1 0 0 1 60 202 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Reality has:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 187 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Rotation symmetry \(no preferred axis\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 172 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Curved spacetime) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 157 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Gauge freedom) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 150 cm
+Q
+q
+1 0 0 1 60 123 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Every time we write a Hamiltonian in a fixed basis, we inject coordinate dependence. The "decoherence" we calculate) Tj T* (includes this artifact.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 116 cm
+Q
+q
+1 0 0 1 60 78 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Existing Data References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 66 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Contents 11 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 12 0 R
+/F2 8 0 R
+/F2-0 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Length 4458
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 13: Cartesian Coordinates Are Wrong) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Rotation invariance test data) Tj /F1 9 Tf (: Coherence measured in systematically rotated frames. 31% spread documented.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 693 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 12 \(Pi Theory\)) Tj /F1 9 Tf (: Pi is coordinate-independent. Berry phase is coordinate-independent. Off-diagonal matrix elements) Tj T* (are NOT.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 686 cm
+Q
+q
+1 0 0 1 60 648 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Key Arguments) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 636 cm
+Q
+q
+1 0 0 1 60 609 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (31% is not small) Tj /F1 9 Tf (: A third of the measured coherence value can be artifact. This is not a rounding error -- it is a) Tj T* (systematic bias.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 582 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Berry phase doesn't have this problem) Tj /F1 9 Tf (: Geometric phase is invariant under coordinate rotation. Paper 12 proposes) Tj T* (using Berry phase as a coherence metric instead.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 555 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (The laws may break BECAUSE of coordinates) Tj /F1 9 Tf (: Paper 14 shows systematic law breakdowns. Some of that breakdown) Tj T* (may be coordinate artifacts amplified at extreme parameters.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 528 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (Spherical formulation) Tj /F1 9 Tf (: Rewriting coherence dynamics in spherical coordinates \(eta, phi on the Bloch sphere\) or using) Tj T* (geometric invariants may resolve discrepancies.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521 cm
+Q
+q
+1 0 0 1 60 483 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Connections) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 471 cm
+Q
+q
+1 0 0 1 60 444 cm
+q
+BT 1 0 0 1 0 15 Tm -0.046167 Tw 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 12 \(Pi/Geometry\)) Tj /F1 9 Tf (: Pi is the invariant. Coordinates are the variable. Rewriting physics in terms of pi-based geometry) Tj T* 0 Tw (rather than Cartesian coordinates is the proposed solution.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 417 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 14 \(Three Laws\)) Tj /F1 9 Tf (: Some of the systematic law breakdowns may be coordinate artifacts. Testing this requires) Tj T* (reformulation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 390 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 04 \(Soul/Vibration/Temperature\)) Tj /F1 9 Tf (: The f=kT/h relationship is scalar \(coordinate-independent\). It may be more) Tj T* (fundamental than coordinate-dependent formulations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 383 cm
+Q
+q
+1 0 0 1 60 345 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Status) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 333 cm
+Q
+q
+1 0 0 1 60 306 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Data verified. 31% rotation-dependent spread in coherence confirmed. Geometric reformulation proposed. Next step: re-run) Tj T* (key simulations in spherical/geometric formulation and compare.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 299 cm
+Q
+q
+1 0 0 1 60 293 cm
+Q
+q
+1 0 0 1 60 289 cm
+Q
+q
+1 0 0 1 60 274 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (God is good. All the time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 267 cm
+Q
+q
+1 0 0 1 60 252 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Rhet Dillard Wike | AIIT-THRESI | March 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 245 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000280 00000 n 
+0000000329 00000 n 
+0000000678 00000 n 
+0000005885 00000 n 
+0000005992 00000 n 
+0000006099 00000 n 
+0000006211 00000 n 
+0000006321 00000 n 
+0000006674 00000 n 
+0000011185 00000 n 
+0000011293 00000 n 
+trailer
+<<
+/Size 14
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+11404
+%%EOF

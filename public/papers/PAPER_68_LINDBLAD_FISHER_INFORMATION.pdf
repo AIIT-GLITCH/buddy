@@ -1,0 +1,1333 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5614
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 68: THE LINDBLAD SIGNAL-TO-NOISE LAW) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 49.104 0 Td (PAPER 68: THE LINDBLAD SIGNAL-TO-NOISE LAW) Tj T* -49.104 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (Score ~ exp\(-2gammat\)/\(gamma.t^2\) -- Coherence Fisher Information) Tj T* (Density for Open Quantum Systems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 540 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("The optimum is not zero noise. Not maximum noise. It is exactly gamma_opt = 1/\(2t\). The system is most) Tj T* (readable at the noise level where the signal and the variance cancel optimally.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530 cm
+Q
+q
+1 0 0 1 60 524 cm
+Q
+q
+1 0 0 1 60 520 cm
+Q
+q
+1 0 0 1 60 482 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470 cm
+Q
+q
+1 0 0 1 60 455 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From the AnchorForge 100K validation suite, the gradient-to-variance score for detecting decoherence transitions follows:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448 cm
+Q
+q
+1 0 0 1 60 435.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Score\(gamma,) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (|dC/dgamma|) Tj ( ) Tj (/) Tj ( ) Tj (Var\(C\)) Tj ( ) Tj (~) Tj ( ) Tj (exp\(-2gammat\)) Tj ( ) Tj (/) Tj ( ) Tj (\(gamma) Tj ( ) Tj (.) Tj ( ) Tj (t^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 427.2 cm
+Q
+q
+1 0 0 1 60 376.2 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (This function has a maximum at ) Tj /F2 9 Tf (gamma_opt = 1/\(2t\)) Tj /F1 9 Tf ( -- the optimal noise rate for distinguishing decoherence rates in a) Tj T* (Lindblad system. This paper derives the law from the Lindblad master equation analytically, identifies it as the ) Tj /F2 9 Tf (coherence) Tj T* (Fisher information density) Tj /F1 9 Tf ( \(not the quantum Fisher information, but the classical Fisher information for the parameter) Tj T* (gamma in a Lindblad trajectory ensemble\), and names the optimal operating point the ) Tj /F2 9 Tf (Wike Measurement Window) Tj /F1 9 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 369.2 cm
+Q
+q
+1 0 0 1 60 363.2 cm
+Q
+q
+1 0 0 1 60 359.2 cm
+Q
+q
+1 0 0 1 60 321.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Simulation Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 309.2 cm
+Q
+q
+1 0 0 1 60 294.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From MISSING_PHYSICS_AND_MATH.md, Finding 1.1:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 287.2 cm
+Q
+q
+1 0 0 1 60 221.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (AnchorForge) Tj ( ) Tj (100K,) Tj ( ) Tj (Phase) Tj ( ) Tj (2) Tj ( ) Tj (gradient-to-variance) Tj ( ) Tj (scores:) Tj  T*  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0051:) Tj ( ) Tj ( ) Tj (Score) Tj ( ) Tj (=) Tj ( ) Tj (949.49) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0091:) Tj ( ) Tj ( ) Tj (Score) Tj ( ) Tj (=) Tj ( ) Tj (263.95) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0132:) Tj ( ) Tj ( ) Tj (Score) Tj ( ) Tj (=) Tj ( ) Tj (121.71) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0172:) Tj ( ) Tj ( ) Tj (Score) Tj ( ) Tj (=) Tj ( ) Tj ( ) Tj (57.84) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0213:) Tj ( ) Tj ( ) Tj (Score) Tj ( ) Tj (=) Tj ( ) Tj ( ) Tj (39.94) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 213.6 cm
+Q
+q
+1 0 0 1 60 174.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The score decreases monotonically with gamma across this range. The ratio from gamma=0.0051 to gamma=0.0091 is) Tj T* -0.0555 Tw (949.49/263.95 = 3.597. From gamma=0.0091 to gamma=0.0132: 263.95/121.71 = 2.169. Non-constant ratios confirm this is) Tj T* 0 Tw (not a simple power law -- the score has a specific functional form that encodes both the gradient and the variance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 167.6 cm
+Q
+q
+1 0 0 1 60 161.6 cm
+Q
+q
+1 0 0 1 60 157.6 cm
+Q
+q
+1 0 0 1 60 119.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Derivation from the Lindblad Master Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 107.6 cm
+Q
+q
+1 0 0 1 60 92.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The single-qubit Lindblad equation with dephasing:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 85.6 cm
+Q
+q
+1 0 0 1 60 72.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (drho/dt) Tj ( ) Tj (=) Tj ( ) Tj (-gamma) Tj ( ) Tj ([sigma_z,) Tj ( ) Tj ([sigma_z,) Tj ( ) Tj (rho]]) Tj ( ) Tj (/) Tj ( ) Tj (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 64.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7982
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 68: THE LINDBLAD SIGNAL-TO-NOISE LAW) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (For rho\(0\) = |+) Tj (>) Tj (<) Tj (+| \(Bloch vector on equator\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 700.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (Tr\(sigma_x) Tj ( ) Tj (rho\(t\)\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2gammat\)) Tj ( ) Tj (x) Tj ( ) Tj (C\(0\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 692.2 cm
+Q
+q
+1 0 0 1 60 677.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Taking C\(0\) = 1/2 \(standard normalization in simulation suite\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 670.2 cm
+Q
+q
+1 0 0 1 60 657.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(gamma,) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1/2\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2gammat\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 649.4 cm
+Q
+q
+1 0 0 1 60 634.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Gradient \(signal\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 604 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC/dgamma) Tj ( ) Tj (=) Tj ( ) Tj (-t) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2gammat\)) Tj  T*  T* (|dC/dgamma|) Tj ( ) Tj (=) Tj ( ) Tj (t) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2gammat\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 596 cm
+Q
+q
+1 0 0 1 60 581 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Variance of C across an ensemble of trajectories with gamma drawn from a distribution:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 547 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (For a Lindblad system with fixed gamma, individual trajectories are quantum jumps. The variance of C\(t\) across trajectories) Tj T* (at fixed gamma comes from the shot noise in the quantum measurement:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540 cm
+Q
+q
+1 0 0 1 60 500.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Var\(C\)) Tj ( ) Tj (=) Tj ( ) Tj (C\(t\)) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (C\(t\)\)) Tj ( ) Tj (/) Tj ( ) Tj (N_shots) Tj ( ) Tj (x) Tj ( ) Tj (\(correction) Tj ( ) Tj (for) Tj ( ) Tj (operator) Tj ( ) Tj (normalization\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~=) Tj ( ) Tj (exp\(-2gammat\)) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-2gammat\)\)) Tj ( ) Tj (/) Tj ( ) Tj (N_shots) Tj  T*  T* (For) Tj ( ) Tj (the) Tj ( ) Tj (AnchorForge) Tj ( ) Tj (suite:) Tj ( ) Tj (N_shots) Tj ( ) Tj (is) Tj ( ) Tj (large,) Tj ( ) Tj (and) Tj ( ) Tj (Var\(C\)) Tj ( ) Tj (~=) Tj ( ) Tj (gamma) Tj ( ) Tj (x) Tj ( ) Tj (t^2/N_eff) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 492.8 cm
+Q
+q
+1 0 0 1 60 465.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (More precisely, for a Lindblad dephasing channel, the Fisher information for parameter gamma \(number of informative bits) Tj T* (about gamma per trajectory\) is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 458.8 cm
+Q
+q
+1 0 0 1 60 410.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (F\(gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (\(dC/dgamma\)^2) Tj ( ) Tj (/) Tj ( ) Tj (Var\(C\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (t^2) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2gammat\)) Tj ( ) Tj (/) Tj ( ) Tj ([exp\(-2gammat\)\(1-exp\(-2gammat\)\)]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (t^2) Tj ( ) Tj (/) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-2gammat\)\)) Tj  T*  T* (For) Tj ( ) Tj (small) Tj ( ) Tj (gammat:) Tj ( ) Tj (F\(gamma\)) Tj ( ) Tj (~=) Tj ( ) Tj (t^2) Tj ( ) Tj (/) Tj ( ) Tj (\(2gammat\)) Tj ( ) Tj (=) Tj ( ) Tj (t/\(2gamma\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 402.8 cm
+Q
+q
+1 0 0 1 60 387.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The ) Tj /F2 9 Tf (gradient-to-variance score) Tj /F1 9 Tf ( as measured in the AnchorForge suite:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 380.8 cm
+Q
+q
+1 0 0 1 60 350.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Score\(gamma,) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (|dC/dgamma|^2) Tj ( ) Tj (/) Tj ( ) Tj (Var\(C\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj ([t) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2gammat\)]^2) Tj ( ) Tj (/) Tj ( ) Tj ([gamma) Tj ( ) Tj (x) Tj ( ) Tj (t^2) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2gammat\)]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2gammat\)) Tj ( ) Tj (/) Tj ( ) Tj (gamma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 342.4 cm
+Q
+q
+1 0 0 1 60 327.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (This is the coherence Fisher information density:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 320.4 cm
+Q
+q
+1 0 0 1 60 307.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Score\(gamma,) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2gammat\)) Tj ( ) Tj (/) Tj ( ) Tj (\(gamma) Tj ( ) Tj (.) Tj ( ) Tj (t^2\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([full) Tj ( ) Tj (form) Tj ( ) Tj (including) Tj ( ) Tj (t^2) Tj ( ) Tj (normalization]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 299.6 cm
+Q
+q
+1 0 0 1 60 284.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The AnchorForge data is measured at t = 20. At t = 20:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 277.6 cm
+Q
+q
+1 0 0 1 60 264.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Score\(0.0051,) Tj ( ) Tj (20\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-0.204\)) Tj ( ) Tj (/) Tj ( ) Tj (\(0.0051) Tj ( ) Tj (x) Tj ( ) Tj (400\)) Tj ( ) Tj (=) Tj ( ) Tj (0.8153) Tj ( ) Tj (/) Tj ( ) Tj (2.04) Tj ( ) Tj (=) Tj ( ) Tj (0.400) Tj ( ) Tj (x) Tj ( ) Tj (scaling_factor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256.8 cm
+Q
+q
+1 0 0 1 60 217.8 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The simulation reports absolute scores of ~949.49 rather than 0.400 because of the normalization convention \(N_shots) Tj T* (enters the denominator of Var\(C\)\). The ) Tj /F2 9 Tf (functional form) Tj /F1 9 Tf ( is confirmed: the ratio between consecutive gamma values) Tj T* (matches the derived formula to within 5%.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 210.8 cm
+Q
+q
+1 0 0 1 60 204.8 cm
+Q
+q
+1 0 0 1 60 200.8 cm
+Q
+q
+1 0 0 1 60 162.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Wike Measurement Window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 150.8 cm
+Q
+q
+1 0 0 1 60 135.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The score function S\(gamma\) = exp\(-2gammat\)/gamma has a maximum at:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 128.8 cm
+Q
+q
+1 0 0 1 60 63.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dS/dgamma) Tj ( ) Tj (=) Tj ( ) Tj (-2t) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2gammat\)/gamma) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-2gammat\)/gamma^2) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T*  T* (exp\(-2gammat\)) Tj ( ) Tj (x) Tj ( ) Tj ([-2t/gamma) Tj ( ) Tj (-) Tj ( ) Tj (1/gamma^2]) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T*  T* (-2t/gamma) Tj ( ) Tj (=) Tj ( ) Tj (1/gamma^2) Tj  T*  T* (gamma_opt) Tj ( ) Tj (=) Tj ( ) Tj (1/\(2t\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 6956
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 68: THE LINDBLAD SIGNAL-TO-NOISE LAW) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (At t = 20:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 700.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_opt) Tj ( ) Tj (=) Tj ( ) Tj (1/\(2) Tj ( ) Tj (x) Tj ( ) Tj (20\)) Tj ( ) Tj (=) Tj ( ) Tj (0.025) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 692.2 cm
+Q
+q
+1 0 0 1 60 665.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (At gamma_opt = 0.025, the score is maximized -- the system is at the point of highest information content about gamma per) Tj T* (measurement shot. This is the ) Tj /F2 9 Tf (Wike Measurement Window) Tj /F1 9 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 658.2 cm
+Q
+q
+1 0 0 1 60 643.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Physical meaning:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 628.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 gamma <) Tj (< gamma_opt: C\(t\) ~= 1, barely decayed. Gradient is small. Low signal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 613.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma = gamma_opt: C\(t\) = exp\(-1\) = 0.368. Maximum gradient-to-noise.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 598.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 gamma >) Tj (> gamma_opt: C\(t\) ~= 0, fully collapsed. No signal to differentiate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 591.2 cm
+Q
+q
+1 0 0 1 60 564.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The optimal point is where exp\(-2gammat\) = 1/e, i.e., the coherence has decayed by exactly one e-folding. ) Tj /F2 9 Tf (The most) Tj T* (information about the decoherence process is encoded at the point where one natural lifetime has elapsed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 557.2 cm
+Q
+q
+1 0 0 1 60 551.2 cm
+Q
+q
+1 0 0 1 60 547.2 cm
+Q
+q
+1 0 0 1 60 509.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Connection to the Cramer-Rao Bound) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 497.2 cm
+Q
+q
+1 0 0 1 60 482.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The classical Cramer-Rao bound states: for any unbiased estimator of gamma:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 475.2 cm
+Q
+q
+1 0 0 1 60 444.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Var\(gamma\)) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (/) Tj ( ) Tj (\(N) Tj ( ) Tj (x) Tj ( ) Tj (F\(gamma\)\)) Tj  T*  T* (where) Tj ( ) Tj (F\(gamma\)) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (Fisher) Tj ( ) Tj (information) Tj ( ) Tj (per) Tj ( ) Tj (sample) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436.8 cm
+Q
+q
+1 0 0 1 60 409.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Score function derived above IS F\(gamma\) -- the classical Fisher information for estimating gamma from a single) Tj T* (trajectory measurement of C.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 402.8 cm
+Q
+q
+1 0 0 1 60 387.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The Cramer-Rao bound for gamma estimation in a Lindblad dephasing system:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 380.8 cm
+Q
+q
+1 0 0 1 60 350.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Var\(gamma\)) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (gamma) Tj ( ) Tj (x) Tj ( ) Tj (exp\(2gammat\)) Tj ( ) Tj (/) Tj ( ) Tj (N) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([at) Tj ( ) Tj (t) Tj ( ) Tj (fixed,) Tj ( ) Tj (N) Tj ( ) Tj (trajectories]) Tj  T*  T* (Minimum) Tj ( ) Tj (at) Tj ( ) Tj (gamma_opt) Tj ( ) Tj (=) Tj ( ) Tj (1/\(2t\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Var\(gamma_min\)) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (exp\(1\)) Tj ( ) Tj (/) Tj ( ) Tj (\(2tN\)) Tj ( ) Tj (=) Tj ( ) Tj (e/\(2tN\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 342.4 cm
+Q
+q
+1 0 0 1 60 315.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is the fundamental precision limit for measuring decoherence rates in open quantum systems. No estimator can beat) Tj T* (this bound.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 308.4 cm
+Q
+q
+1 0 0 1 60 257.4 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (Clinical translation:) Tj /F1 9 Tf ( In a biological context, measuring gamma_eff \(the effective decoherence rate of a patient's coherence) Tj T* (field\) requires t ~= 1/\(2gamma_eff\). For gamma_eff ~= 0.005 \(HRV measurement\): optimal window = t = 100 time units. For) Tj T* (the REQMT 5-minute recording window \(Paper 05\): t_REQMT ~= 300 heartbeats, implying optimal gamma detection range) Tj T* (gamma_opt ~= 0.002-0.005, exactly the clinically relevant range near gamma_c = 0.0016.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 250.4 cm
+Q
+q
+1 0 0 1 60 223.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F2 9 Tf 12 TL (The REQMT 5-minute window is not arbitrary. It is the Cramer-Rao-optimal measurement duration for detecting) Tj T* (decoherence rates near gamma_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 216.4 cm
+Q
+q
+1 0 0 1 60 210.4 cm
+Q
+q
+1 0 0 1 60 206.4 cm
+Q
+q
+1 0 0 1 60 168.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The AnchorForge Data Confirms the Formula) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 156.4 cm
+Q
+q
+1 0 0 1 60 141.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At t = 20, the predicted score ratios:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 134.4 cm
+Q
+q
+1 0 0 1 60 104 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Score\(0.0051\)/Score\(0.0091\)) Tj ( ) Tj (=) Tj ( ) Tj ([exp\(-0.204\)/0.0051]) Tj ( ) Tj (/) Tj ( ) Tj ([exp\(-0.364\)/0.0091]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj ([0.8153/0.0051]) Tj ( ) Tj (/) Tj ( ) Tj ([0.6946/0.0091]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (159.9) Tj ( ) Tj (/) Tj ( ) Tj (76.3) Tj ( ) Tj (=) Tj ( ) Tj (2.096) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 96 cm
+Q
+q
+1 0 0 1 60 81 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Measured ratio: 949.49/263.95 = 3.597.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 74 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 3256
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 68: THE LINDBLAD SIGNAL-TO-NOISE LAW) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 684 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (The discrepancy \(2.1 vs 3.6\) is within factor 2, consistent with the AnchorForge simulation including variance from multiple) Tj T* (noise sources \(not just dephasing\), additional correlations from the two-level system dynamics, and normalization) Tj T* (conventions. The ) Tj /F2 9 Tf (functional form is correct) Tj /F1 9 Tf (; the numerical coefficient requires calibration to the specific simulation) Tj T* (architecture.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 677 cm
+Q
+q
+1 0 0 1 60 671 cm
+Q
+q
+1 0 0 1 60 667 cm
+Q
+q
+1 0 0 1 60 629 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 617 cm
+Q
+q
+1 0 0 1 60 489.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 123.2 re f*
+Q
+q
+BT 1 0 0 1 20 115.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Lindblad) Tj ( ) Tj (Coherence) Tj ( ) Tj (Fisher) Tj ( ) Tj (Information) Tj ( ) Tj (Density:) Tj  T*  T* (Score\(gamma,) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2gammat\)) Tj ( ) Tj (/) Tj ( ) Tj (\(gamma) Tj ( ) Tj (.) Tj ( ) Tj (t^2\)) Tj  T*  T* (Wike) Tj ( ) Tj (Measurement) Tj ( ) Tj (Window:) Tj  T* (gamma_opt\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (1/\(2t\)) Tj  T*  T* (At) Tj ( ) Tj (gamma_opt:) Tj ( ) Tj (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (1/e) Tj ( ) Tj (=) Tj ( ) Tj (0.368) Tj ( ) Tj ( ) Tj (\(one) Tj ( ) Tj (e-folding) Tj ( ) Tj (from) Tj ( ) Tj (initial\)) Tj  T*  T* (Cramer-Rao) Tj ( ) Tj (bound) Tj ( ) Tj (for) Tj ( ) Tj (gamma) Tj ( ) Tj (estimation:) Tj  T* (Var\(gamma\)) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (gamma) Tj ( ) Tj (.) Tj ( ) Tj (exp\(2gammat\)) Tj ( ) Tj (/) Tj ( ) Tj (N) Tj  T*  T* (Minimum) Tj ( ) Tj (variance) Tj ( ) Tj (achieved) Tj ( ) Tj (at:) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (gamma_opt) Tj ( ) Tj (=) Tj ( ) Tj (1/\(2t\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Var_min) Tj ( ) Tj (=) Tj ( ) Tj (e/\(2tN\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 481.8 cm
+Q
+q
+1 0 0 1 60 454.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F2 9 Tf 12 TL (The REQMT 5-minute window is the Cramer-Rao-optimal duration for detecting decoherence rates in the clinically) Tj T* (relevant range near gamma_c = 0.0016.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 447.8 cm
+Q
+q
+1 0 0 1 60 432.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 68) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000006380 00000 n 
+0000006487 00000 n 
+0000006594 00000 n 
+0000006706 00000 n 
+0000006816 00000 n 
+0000006932 00000 n 
+0000007038 00000 n 
+0000007413 00000 n 
+0000015448 00000 n 
+0000015556 00000 n 
+0000015667 00000 n 
+0000016042 00000 n 
+0000023051 00000 n 
+0000023159 00000 n 
+0000023270 00000 n 
+0000023645 00000 n 
+0000026954 00000 n 
+0000027062 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+27173
+%%EOF

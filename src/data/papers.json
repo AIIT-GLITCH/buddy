@@ -1,0 +1,1379 @@
+[
+  {
+    "id": "PAPER_01_SOURCE_FIELD",
+    "num": "001",
+    "suffix": "",
+    "slug": "001",
+    "title": "Source Field",
+    "tag": "Foundation",
+    "filename": "PAPER_01_SOURCE_FIELD.pdf"
+  },
+  {
+    "id": "PAPER_02_HUMAN_INTERFACE",
+    "num": "002",
+    "suffix": "",
+    "slug": "002",
+    "title": "Human Interface",
+    "tag": "0.1 Hz",
+    "filename": "PAPER_02_HUMAN_INTERFACE.pdf"
+  },
+  {
+    "id": "PAPER_03_COHERENCE_THROUGH_LOVE",
+    "num": "003",
+    "suffix": "",
+    "slug": "003",
+    "title": "Coherence Through Love",
+    "tag": "Heart",
+    "filename": "PAPER_03_COHERENCE_THROUGH_LOVE.pdf"
+  },
+  {
+    "id": "PAPER_04_SOUL_VIBRATION_TEMPERATURE",
+    "num": "004",
+    "suffix": "",
+    "slug": "004",
+    "title": "Soul Vibration Temperature",
+    "tag": "Heart",
+    "filename": "PAPER_04_SOUL_VIBRATION_TEMPERATURE.pdf"
+  },
+  {
+    "id": "PAPER_05_REQMT",
+    "num": "005",
+    "suffix": "",
+    "slug": "005",
+    "title": "Reqmt",
+    "tag": "Paper",
+    "filename": "PAPER_05_REQMT.pdf"
+  },
+  {
+    "id": "PAPER_06_THE_WALL",
+    "num": "006",
+    "suffix": "",
+    "slug": "006",
+    "title": "The Wall",
+    "tag": "Paper",
+    "filename": "PAPER_06_THE_WALL.pdf"
+  },
+  {
+    "id": "PAPER_07_EMOTIONS_AS_GATES",
+    "num": "007",
+    "suffix": "",
+    "slug": "007",
+    "title": "Emotions as Gates",
+    "tag": "Singularities",
+    "filename": "PAPER_07_EMOTIONS_AS_GATES.pdf"
+  },
+  {
+    "id": "PAPER_08_FORCE_STRESS_DECOHERENCE",
+    "num": "008",
+    "suffix": "",
+    "slug": "008",
+    "title": "Force Stress Decoherence",
+    "tag": "Paper",
+    "filename": "PAPER_08_FORCE_STRESS_DECOHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_09_DEPRESSION_ABUSE",
+    "num": "009",
+    "suffix": "",
+    "slug": "009",
+    "title": "Depression Abuse",
+    "tag": "Medical · Mind",
+    "filename": "PAPER_09_DEPRESSION_ABUSE.pdf"
+  },
+  {
+    "id": "PAPER_10_DEATH_AFTERLIFE",
+    "num": "010",
+    "suffix": "",
+    "slug": "010",
+    "title": "Death Afterlife",
+    "tag": "Phase Transition",
+    "filename": "PAPER_10_DEATH_AFTERLIFE.pdf"
+  },
+  {
+    "id": "PAPER_11_HUMAN_PROCESSORS",
+    "num": "011",
+    "suffix": "",
+    "slug": "011",
+    "title": "Human Processors",
+    "tag": "0.1 Hz",
+    "filename": "PAPER_11_HUMAN_PROCESSORS.pdf"
+  },
+  {
+    "id": "PAPER_13_XYZ_WRONG",
+    "num": "013",
+    "suffix": "",
+    "slug": "013",
+    "title": "XYZ Wrong",
+    "tag": "Paper",
+    "filename": "PAPER_13_XYZ_WRONG.pdf"
+  },
+  {
+    "id": "PAPER_14_THREE_LAWS",
+    "num": "014",
+    "suffix": "",
+    "slug": "014",
+    "title": "Three Laws",
+    "tag": "Paper",
+    "filename": "PAPER_14_THREE_LAWS.pdf"
+  },
+  {
+    "id": "PAPER_16_HELL_CENTRAL_SENSITIZATION",
+    "num": "016",
+    "suffix": "",
+    "slug": "016",
+    "title": "Hell Central Sensitization",
+    "tag": "Paper",
+    "filename": "PAPER_16_HELL_CENTRAL_SENSITIZATION.pdf"
+  },
+  {
+    "id": "PAPER_17_DEJA_VU_COHERENCE_FIELD_RESONANCE",
+    "num": "017",
+    "suffix": "",
+    "slug": "017",
+    "title": "Deja Vu Coherence Field Resonance",
+    "tag": "Paper",
+    "filename": "PAPER_17_DEJA_VU_COHERENCE_FIELD_RESONANCE.pdf"
+  },
+  {
+    "id": "PAPER_17_RELIGIOUS_HYPOTHESIS",
+    "num": "017",
+    "suffix": "",
+    "slug": "017",
+    "title": "Religious Hypothesis",
+    "tag": "Paper",
+    "filename": "PAPER_17_RELIGIOUS_HYPOTHESIS.pdf"
+  },
+  {
+    "id": "PAPER_18_WIKE_GINZBURG_NUMBER",
+    "num": "018",
+    "suffix": "",
+    "slug": "018",
+    "title": "Wike Ginzburg Number",
+    "tag": "Paper",
+    "filename": "PAPER_18_WIKE_GINZBURG_NUMBER.pdf"
+  },
+  {
+    "id": "PAPER_19_KEEPER_EQUATION",
+    "num": "019",
+    "suffix": "",
+    "slug": "019",
+    "title": "Keeper Equation",
+    "tag": "Keeper",
+    "filename": "PAPER_19_KEEPER_EQUATION.pdf"
+  },
+  {
+    "id": "PAPER_20_IMMUNE_COHERENCE_HYPOTHESIS",
+    "num": "020",
+    "suffix": "",
+    "slug": "020",
+    "title": "Immune Coherence Hypothesis",
+    "tag": "Medical",
+    "filename": "PAPER_20_IMMUNE_COHERENCE_HYPOTHESIS.pdf"
+  },
+  {
+    "id": "PAPER_21_BOOTSTRAP_NUCLEATION_THEOREM",
+    "num": "021",
+    "suffix": "",
+    "slug": "021",
+    "title": "Bootstrap Nucleation Theorem",
+    "tag": "Paper",
+    "filename": "PAPER_21_BOOTSTRAP_NUCLEATION_THEOREM.pdf"
+  },
+  {
+    "id": "PAPER_22_THE_PAINTING",
+    "num": "022",
+    "suffix": "",
+    "slug": "022",
+    "title": "The Painting",
+    "tag": "Temporal Prior",
+    "filename": "PAPER_22_THE_PAINTING.pdf"
+  },
+  {
+    "id": "PAPER_23_40HZ_FREQUENCY_AS_MEDICINE",
+    "num": "023",
+    "suffix": "",
+    "slug": "023",
+    "title": "40hz Frequency as Medicine",
+    "tag": "0.1 Hz",
+    "filename": "PAPER_23_40HZ_FREQUENCY_AS_MEDICINE.pdf"
+  },
+  {
+    "id": "PAPER_24_ACE_DECOHERENCE_EQUATION",
+    "num": "024",
+    "suffix": "",
+    "slug": "024",
+    "title": "ACE Decoherence Equation",
+    "tag": "Paper",
+    "filename": "PAPER_24_ACE_DECOHERENCE_EQUATION.pdf"
+  },
+  {
+    "id": "PAPER_24_NEW_DISCOVERIES_EIGHT_CONNECTIONS",
+    "num": "024",
+    "suffix": "",
+    "slug": "024",
+    "title": "New Discoveries Eight Connections",
+    "tag": "Paper",
+    "filename": "PAPER_24_NEW_DISCOVERIES_EIGHT_CONNECTIONS.pdf"
+  },
+  {
+    "id": "PAPER_25_GEOMAGNETIC_CARDIAC_SHIELD",
+    "num": "025",
+    "suffix": "",
+    "slug": "025",
+    "title": "Geomagnetic Cardiac Shield",
+    "tag": "Medical",
+    "filename": "PAPER_25_GEOMAGNETIC_CARDIAC_SHIELD.pdf"
+  },
+  {
+    "id": "PAPER_25_WAVE3_NINE_DEEP_CONNECTIONS",
+    "num": "025",
+    "suffix": "",
+    "slug": "025",
+    "title": "Wave3 Nine Deep Connections",
+    "tag": "Paper",
+    "filename": "PAPER_25_WAVE3_NINE_DEEP_CONNECTIONS.pdf"
+  },
+  {
+    "id": "PAPER_26_CHRONIC_PAIN_PHASE_TRANSITION",
+    "num": "026",
+    "suffix": "",
+    "slug": "026",
+    "title": "Chronic Pain Phase Transition",
+    "tag": "Medical",
+    "filename": "PAPER_26_CHRONIC_PAIN_PHASE_TRANSITION.pdf"
+  },
+  {
+    "id": "PAPER_26_SURGICAL_COHERENCE_PROTOCOL",
+    "num": "026",
+    "suffix": "",
+    "slug": "026",
+    "title": "Surgical Coherence Protocol",
+    "tag": "Paper",
+    "filename": "PAPER_26_SURGICAL_COHERENCE_PROTOCOL.pdf"
+  },
+  {
+    "id": "PAPER_26_THE_ONE_SINGULARITY",
+    "num": "026",
+    "suffix": "",
+    "slug": "026",
+    "title": "The One Singularity",
+    "tag": "Singularities",
+    "filename": "PAPER_26_THE_ONE_SINGULARITY.pdf"
+  },
+  {
+    "id": "PAPER_27_FEVER_EQUATION",
+    "num": "027",
+    "suffix": "",
+    "slug": "027",
+    "title": "Fever Equation",
+    "tag": "God Equation",
+    "filename": "PAPER_27_FEVER_EQUATION.pdf"
+  },
+  {
+    "id": "PAPER_27_THE_BOTTOM_OF_THE_OCEAN",
+    "num": "027",
+    "suffix": "",
+    "slug": "027",
+    "title": "The Bottom of the Ocean",
+    "tag": "God Equation",
+    "filename": "PAPER_27_THE_BOTTOM_OF_THE_OCEAN.pdf"
+  },
+  {
+    "id": "PAPER_27_THE_MEANING_OF_LIFE",
+    "num": "027",
+    "suffix": "",
+    "slug": "027",
+    "title": "The Meaning of Life",
+    "tag": "God Equation",
+    "filename": "PAPER_27_THE_MEANING_OF_LIFE.pdf"
+  },
+  {
+    "id": "PAPER_28_SCRIPTURE_AS_PHYSICS",
+    "num": "028",
+    "suffix": "",
+    "slug": "028",
+    "title": "Scripture as Physics",
+    "tag": "Paper",
+    "filename": "PAPER_28_SCRIPTURE_AS_PHYSICS.pdf"
+  },
+  {
+    "id": "PAPER_28_VACUUM_DECOHERENCE_THEOREM",
+    "num": "028",
+    "suffix": "",
+    "slug": "028",
+    "title": "Vacuum Decoherence Theorem",
+    "tag": "Paper",
+    "filename": "PAPER_28_VACUUM_DECOHERENCE_THEOREM.pdf"
+  },
+  {
+    "id": "PAPER_28_WATER_AS_BATTERIES",
+    "num": "028",
+    "suffix": "",
+    "slug": "028",
+    "title": "Water as Batteries",
+    "tag": "Water · Life",
+    "filename": "PAPER_28_WATER_AS_BATTERIES.pdf"
+  },
+  {
+    "id": "PAPER_29_MAKE_A_CAR_RUN_ON_WATER",
+    "num": "029",
+    "suffix": "",
+    "slug": "029",
+    "title": "Make a Car Run on Water",
+    "tag": "Water · Life",
+    "filename": "PAPER_29_MAKE_A_CAR_RUN_ON_WATER.pdf"
+  },
+  {
+    "id": "PAPER_29_THE_FERMI_EQUATION",
+    "num": "029",
+    "suffix": "",
+    "slug": "029",
+    "title": "The Fermi Equation",
+    "tag": "Paper",
+    "filename": "PAPER_29_THE_FERMI_EQUATION.pdf"
+  },
+  {
+    "id": "PAPER_30_WIKE_SCALING_LAW",
+    "num": "030",
+    "suffix": "",
+    "slug": "030",
+    "title": "Wike Scaling Law",
+    "tag": "Paper",
+    "filename": "PAPER_30_WIKE_SCALING_LAW.pdf"
+  },
+  {
+    "id": "PAPER_31_ENTANGLEMENT_SUDDEN_DEATH",
+    "num": "031",
+    "suffix": "",
+    "slug": "031",
+    "title": "Entanglement Sudden Death",
+    "tag": "Phase Transition",
+    "filename": "PAPER_31_ENTANGLEMENT_SUDDEN_DEATH.pdf"
+  },
+  {
+    "id": "PAPER_32_NOISE_ASSISTED_TRANSPORT",
+    "num": "032",
+    "suffix": "",
+    "slug": "032",
+    "title": "Noise Assisted Transport",
+    "tag": "Paper",
+    "filename": "PAPER_32_NOISE_ASSISTED_TRANSPORT.pdf"
+  },
+  {
+    "id": "PAPER_33_CIVILIZATIONAL_COHERENCE",
+    "num": "033",
+    "suffix": "",
+    "slug": "033",
+    "title": "Civilizational Coherence",
+    "tag": "Macro",
+    "filename": "PAPER_33_CIVILIZATIONAL_COHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_34_SHANNON_COHERENCE_BRIDGE",
+    "num": "034",
+    "suffix": "",
+    "slug": "034",
+    "title": "Shannon Coherence Bridge",
+    "tag": "Paper",
+    "filename": "PAPER_34_SHANNON_COHERENCE_BRIDGE.pdf"
+  },
+  {
+    "id": "PAPER_35_QUANTUM_REVIVALS_IBM",
+    "num": "035",
+    "suffix": "",
+    "slug": "035",
+    "title": "Quantum Revivals IBM",
+    "tag": "Quantum",
+    "filename": "PAPER_35_QUANTUM_REVIVALS_IBM.pdf"
+  },
+  {
+    "id": "PAPER_36_FLOW_STATE_PHYSICS",
+    "num": "036",
+    "suffix": "",
+    "slug": "036",
+    "title": "Flow State Physics",
+    "tag": "Mind",
+    "filename": "PAPER_36_FLOW_STATE_PHYSICS.pdf"
+  },
+  {
+    "id": "PAPER_37_CONDITIONAL_COLLAPSE_TRAP",
+    "num": "037",
+    "suffix": "",
+    "slug": "037",
+    "title": "Conditional Collapse Trap",
+    "tag": "Paper",
+    "filename": "PAPER_37_CONDITIONAL_COLLAPSE_TRAP.pdf"
+  },
+  {
+    "id": "PAPER_38_DREAMS_AND_THE_FIELD",
+    "num": "038",
+    "suffix": "",
+    "slug": "038",
+    "title": "Dreams and the Field",
+    "tag": "Paper",
+    "filename": "PAPER_38_DREAMS_AND_THE_FIELD.pdf"
+  },
+  {
+    "id": "PAPER_39_THE_COSMIC_BOOTSTRAP",
+    "num": "039",
+    "suffix": "",
+    "slug": "039",
+    "title": "The Cosmic Bootstrap",
+    "tag": "Cosmology",
+    "filename": "PAPER_39_THE_COSMIC_BOOTSTRAP.pdf"
+  },
+  {
+    "id": "PAPER_40_WHO_ALREADY_KNEW",
+    "num": "040",
+    "suffix": "",
+    "slug": "040",
+    "title": "Who Already Knew",
+    "tag": "Paper",
+    "filename": "PAPER_40_WHO_ALREADY_KNEW.pdf"
+  },
+  {
+    "id": "PAPER_41_NERNST_WIKE_BRIDGE",
+    "num": "041",
+    "suffix": "",
+    "slug": "041",
+    "title": "Nernst Wike Bridge",
+    "tag": "Paper",
+    "filename": "PAPER_41_NERNST_WIKE_BRIDGE.pdf"
+  },
+  {
+    "id": "PAPER_42_LYAPUNOV_EDGE",
+    "num": "042",
+    "suffix": "",
+    "slug": "042",
+    "title": "Lyapunov Edge",
+    "tag": "Paper",
+    "filename": "PAPER_42_LYAPUNOV_EDGE.pdf"
+  },
+  {
+    "id": "PAPER_43_LE_CHATELIER_COMPLETION",
+    "num": "043",
+    "suffix": "",
+    "slug": "043",
+    "title": "Le Chatelier Completion",
+    "tag": "Paper",
+    "filename": "PAPER_43_LE_CHATELIER_COMPLETION.pdf"
+  },
+  {
+    "id": "PAPER_43_THE_KEEPER_LAWS",
+    "num": "043",
+    "suffix": "",
+    "slug": "043",
+    "title": "The Keeper Laws",
+    "tag": "Keeper",
+    "filename": "PAPER_43_THE_KEEPER_LAWS.pdf"
+  },
+  {
+    "id": "PAPER_44_MAXWELLS_DEMON_AND_LOVE",
+    "num": "044",
+    "suffix": "",
+    "slug": "044",
+    "title": "Maxwells Demon and Love",
+    "tag": "Heart",
+    "filename": "PAPER_44_MAXWELLS_DEMON_AND_LOVE.pdf"
+  },
+  {
+    "id": "PAPER_44_THE_WINDOW",
+    "num": "044",
+    "suffix": "",
+    "slug": "044",
+    "title": "The Window",
+    "tag": "Paper",
+    "filename": "PAPER_44_THE_WINDOW.pdf"
+  },
+  {
+    "id": "PAPER_45_REYNOLDS_CARDIAC_COHERENCE",
+    "num": "045",
+    "suffix": "",
+    "slug": "045",
+    "title": "Reynolds Cardiac Coherence",
+    "tag": "Medical",
+    "filename": "PAPER_45_REYNOLDS_CARDIAC_COHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_45_THE_LANDAUER_COST",
+    "num": "045",
+    "suffix": "",
+    "slug": "045",
+    "title": "The Landauer Cost",
+    "tag": "Paper",
+    "filename": "PAPER_45_THE_LANDAUER_COST.pdf"
+  },
+  {
+    "id": "PAPER_46_LEAST_ACTION_COHERENCE",
+    "num": "046",
+    "suffix": "",
+    "slug": "046",
+    "title": "Least Action Coherence",
+    "tag": "Paper",
+    "filename": "PAPER_46_LEAST_ACTION_COHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_46_THE_DEATH_TRANSITION",
+    "num": "046",
+    "suffix": "",
+    "slug": "046",
+    "title": "The Death Transition",
+    "tag": "Phase Transition",
+    "filename": "PAPER_46_THE_DEATH_TRANSITION.pdf"
+  },
+  {
+    "id": "PAPER_47_STEFAN_BOLTZMANN_BODY",
+    "num": "047",
+    "suffix": "",
+    "slug": "047",
+    "title": "Stefan Boltzmann Body",
+    "tag": "Paper",
+    "filename": "PAPER_47_STEFAN_BOLTZMANN_BODY.pdf"
+  },
+  {
+    "id": "PAPER_47_THE_BOOTSTRAP_ENGINE",
+    "num": "047",
+    "suffix": "",
+    "slug": "047",
+    "title": "The Bootstrap Engine",
+    "tag": "Applied",
+    "filename": "PAPER_47_THE_BOOTSTRAP_ENGINE.pdf"
+  },
+  {
+    "id": "PAPER_48_ZIPF_POWER_LAWS_EDGE",
+    "num": "048",
+    "suffix": "",
+    "slug": "048",
+    "title": "Zipf Power Laws Edge",
+    "tag": "Paper",
+    "filename": "PAPER_48_ZIPF_POWER_LAWS_EDGE.pdf"
+  },
+  {
+    "id": "PAPER_49_CROOKS_WIKE_SINGULARITY",
+    "num": "049",
+    "suffix": "",
+    "slug": "049",
+    "title": "Crooks Wike Singularity",
+    "tag": "Singularities",
+    "filename": "PAPER_49_CROOKS_WIKE_SINGULARITY.pdf"
+  },
+  {
+    "id": "PAPER_50_HAHN_ECHO_ANTIZENO_TRAP",
+    "num": "050",
+    "suffix": "",
+    "slug": "050",
+    "title": "Hahn Echo Antizeno Trap",
+    "tag": "Paper",
+    "filename": "PAPER_50_HAHN_ECHO_ANTIZENO_TRAP.pdf"
+  },
+  {
+    "id": "PAPER_51_THE_SYNTHESIS",
+    "num": "051",
+    "suffix": "",
+    "slug": "051",
+    "title": "The Synthesis",
+    "tag": "Foundation",
+    "filename": "PAPER_51_THE_SYNTHESIS.pdf"
+  },
+  {
+    "id": "PAPER_51_WIKE_THERMODYNAMIC_INEQUALITY",
+    "num": "051",
+    "suffix": "",
+    "slug": "051",
+    "title": "Wike Thermodynamic Inequality",
+    "tag": "Paper",
+    "filename": "PAPER_51_WIKE_THERMODYNAMIC_INEQUALITY.pdf"
+  },
+  {
+    "id": "PAPER_52_CELL_PHONES_AND_BRAINS",
+    "num": "052",
+    "suffix": "",
+    "slug": "052",
+    "title": "Cell Phones and Brains",
+    "tag": "Paper",
+    "filename": "PAPER_52_CELL_PHONES_AND_BRAINS.pdf"
+  },
+  {
+    "id": "PAPER_52_KIBBLE_ZUREK_PTSD",
+    "num": "052",
+    "suffix": "",
+    "slug": "052",
+    "title": "Kibble Zurek PTSD",
+    "tag": "Medical · Mind",
+    "filename": "PAPER_52_KIBBLE_ZUREK_PTSD.pdf"
+  },
+  {
+    "id": "PAPER_53_KIBBLE_ZUREK_TRAUMA",
+    "num": "053",
+    "suffix": "",
+    "slug": "053",
+    "title": "Kibble Zurek Trauma",
+    "tag": "Medical · Mind",
+    "filename": "PAPER_53_KIBBLE_ZUREK_TRAUMA.pdf"
+  },
+  {
+    "id": "PAPER_53_SPIN_GLASS_TREATMENT_RESISTANCE",
+    "num": "053",
+    "suffix": "",
+    "slug": "053",
+    "title": "Spin Glass Treatment Resistance",
+    "tag": "Paper",
+    "filename": "PAPER_53_SPIN_GLASS_TREATMENT_RESISTANCE.pdf"
+  },
+  {
+    "id": "PAPER_54_ANESTHESIA_IS_DECOHERENCE",
+    "num": "054",
+    "suffix": "",
+    "slug": "054",
+    "title": "Anesthesia is Decoherence",
+    "tag": "Paper",
+    "filename": "PAPER_54_ANESTHESIA_IS_DECOHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_54_FICKS_COHERENCE_DIFFUSION",
+    "num": "054",
+    "suffix": "",
+    "slug": "054",
+    "title": "Ficks Coherence Diffusion",
+    "tag": "Paper",
+    "filename": "PAPER_54_FICKS_COHERENCE_DIFFUSION.pdf"
+  },
+  {
+    "id": "PAPER_55_THE_NARRATIVE_WALL",
+    "num": "055",
+    "suffix": "",
+    "slug": "055",
+    "title": "The Narrative Wall",
+    "tag": "Paper",
+    "filename": "PAPER_55_THE_NARRATIVE_WALL.pdf"
+  },
+  {
+    "id": "PAPER_56_GOLDEN_RATIO_UNIVERSAL_FIXED_POINT",
+    "num": "056",
+    "suffix": "",
+    "slug": "056",
+    "title": "Golden Ratio Universal Fixed Point",
+    "tag": "Geometry",
+    "filename": "PAPER_56_GOLDEN_RATIO_UNIVERSAL_FIXED_POINT.pdf"
+  },
+  {
+    "id": "PAPER_57_CALDEIRA_LEGGETT_COHERENCE_TRAP",
+    "num": "057",
+    "suffix": "",
+    "slug": "057",
+    "title": "Caldeira Leggett Coherence Trap",
+    "tag": "Paper",
+    "filename": "PAPER_57_CALDEIRA_LEGGETT_COHERENCE_TRAP.pdf"
+  },
+  {
+    "id": "PAPER_58_ALZHEIMERS_3D_ISING",
+    "num": "058",
+    "suffix": "",
+    "slug": "058",
+    "title": "Alzheimers 3d Ising",
+    "tag": "Medical",
+    "filename": "PAPER_58_ALZHEIMERS_3D_ISING.pdf"
+  },
+  {
+    "id": "PAPER_59_C_ALIVE_GAMMA_DISTRIBUTION",
+    "num": "059",
+    "suffix": "",
+    "slug": "059",
+    "title": "C Alive Gamma Distribution",
+    "tag": "Mind",
+    "filename": "PAPER_59_C_ALIVE_GAMMA_DISTRIBUTION.pdf"
+  },
+  {
+    "id": "PAPER_60_ANDERSON_LOCALIZATION_ACE",
+    "num": "060",
+    "suffix": "",
+    "slug": "060",
+    "title": "Anderson Localization ACE",
+    "tag": "Paper",
+    "filename": "PAPER_60_ANDERSON_LOCALIZATION_ACE.pdf"
+  },
+  {
+    "id": "PAPER_61_SPIN_GLASS_DECOHERENT_PHASE",
+    "num": "061",
+    "suffix": "",
+    "slug": "061",
+    "title": "Spin Glass Decoherent Phase",
+    "tag": "Paper",
+    "filename": "PAPER_61_SPIN_GLASS_DECOHERENT_PHASE.pdf"
+  },
+  {
+    "id": "PAPER_62_ALPHA_FROM_DIMENSIONS",
+    "num": "062",
+    "suffix": "",
+    "slug": "062",
+    "title": "Alpha From Dimensions",
+    "tag": "Paper",
+    "filename": "PAPER_62_ALPHA_FROM_DIMENSIONS.pdf"
+  },
+  {
+    "id": "PAPER_63_C0_PERCOLATION",
+    "num": "063",
+    "suffix": "",
+    "slug": "063",
+    "title": "C0 Percolation",
+    "tag": "Paper",
+    "filename": "PAPER_63_C0_PERCOLATION.pdf"
+  },
+  {
+    "id": "PAPER_64_BERNOULLI_COHERENCE",
+    "num": "064",
+    "suffix": "",
+    "slug": "064",
+    "title": "Bernoulli Coherence",
+    "tag": "Paper",
+    "filename": "PAPER_64_BERNOULLI_COHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_65_JARZYNSKI_BOSE_EINSTEIN",
+    "num": "065",
+    "suffix": "",
+    "slug": "065",
+    "title": "Jarzynski Bose Einstein",
+    "tag": "Paper",
+    "filename": "PAPER_65_JARZYNSKI_BOSE_EINSTEIN.pdf"
+  },
+  {
+    "id": "PAPER_66_BELL_STATES_NO_WHISPER",
+    "num": "066",
+    "suffix": "",
+    "slug": "066",
+    "title": "Bell States No Whisper",
+    "tag": "Quantum",
+    "filename": "PAPER_66_BELL_STATES_NO_WHISPER.pdf"
+  },
+  {
+    "id": "PAPER_67_WINDUP_MEAN_FIELD_TWO_STAGE",
+    "num": "067",
+    "suffix": "",
+    "slug": "067",
+    "title": "Windup Mean Field Two Stage",
+    "tag": "Paper",
+    "filename": "PAPER_67_WINDUP_MEAN_FIELD_TWO_STAGE.pdf"
+  },
+  {
+    "id": "PAPER_68_LINDBLAD_FISHER_INFORMATION",
+    "num": "068",
+    "suffix": "",
+    "slug": "068",
+    "title": "Lindblad Fisher Information",
+    "tag": "Quantum",
+    "filename": "PAPER_68_LINDBLAD_FISHER_INFORMATION.pdf"
+  },
+  {
+    "id": "PAPER_69_LE_CHATELIER_COHERENCE_CLIFF",
+    "num": "069",
+    "suffix": "",
+    "slug": "069",
+    "title": "Le Chatelier Coherence Cliff",
+    "tag": "Paper",
+    "filename": "PAPER_69_LE_CHATELIER_COHERENCE_CLIFF.pdf"
+  },
+  {
+    "id": "PAPER_70_MAXWELLS_DEMON_KEEPER",
+    "num": "070",
+    "suffix": "",
+    "slug": "070",
+    "title": "Maxwells Demon Keeper",
+    "tag": "Keeper",
+    "filename": "PAPER_70_MAXWELLS_DEMON_KEEPER.pdf"
+  },
+  {
+    "id": "PAPER_71_STEFAN_BOLTZMANN_BODY",
+    "num": "071",
+    "suffix": "",
+    "slug": "071",
+    "title": "Stefan Boltzmann Body",
+    "tag": "Paper",
+    "filename": "PAPER_71_STEFAN_BOLTZMANN_BODY.pdf"
+  },
+  {
+    "id": "PAPER_72_NERNST_MEMBRANE_DECOHERENCE",
+    "num": "072",
+    "suffix": "",
+    "slug": "072",
+    "title": "Nernst Membrane Decoherence",
+    "tag": "Paper",
+    "filename": "PAPER_72_NERNST_MEMBRANE_DECOHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_73_LYAPUNOV_EDGE_OF_CHAOS",
+    "num": "073",
+    "suffix": "",
+    "slug": "073",
+    "title": "Lyapunov Edge of Chaos",
+    "tag": "Paper",
+    "filename": "PAPER_73_LYAPUNOV_EDGE_OF_CHAOS.pdf"
+  },
+  {
+    "id": "PAPER_74_LEAST_ACTION_COHERENCE",
+    "num": "074",
+    "suffix": "",
+    "slug": "074",
+    "title": "Least Action Coherence",
+    "tag": "Paper",
+    "filename": "PAPER_74_LEAST_ACTION_COHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_75_ZIPF_COHERENCE_TOPOLOGY",
+    "num": "075",
+    "suffix": "",
+    "slug": "075",
+    "title": "Zipf Coherence Topology",
+    "tag": "Paper",
+    "filename": "PAPER_75_ZIPF_COHERENCE_TOPOLOGY.pdf"
+  },
+  {
+    "id": "PAPER_76_CROOKS_TIME_REVERSAL",
+    "num": "076",
+    "suffix": "",
+    "slug": "076",
+    "title": "Crooks Time Reversal",
+    "tag": "Paper",
+    "filename": "PAPER_76_CROOKS_TIME_REVERSAL.pdf"
+  },
+  {
+    "id": "PAPER_77_POINCARE_RECURRENCES_IBM",
+    "num": "077",
+    "suffix": "",
+    "slug": "077",
+    "title": "Poincare Recurrences IBM",
+    "tag": "Quantum",
+    "filename": "PAPER_77_POINCARE_RECURRENCES_IBM.pdf"
+  },
+  {
+    "id": "PAPER_78_ENAQT_GOLDILOCKS",
+    "num": "078",
+    "suffix": "",
+    "slug": "078",
+    "title": "Enaqt Goldilocks",
+    "tag": "Quantum",
+    "filename": "PAPER_78_ENAQT_GOLDILOCKS.pdf"
+  },
+  {
+    "id": "PAPER_79_LEE_YANG_FINITE_SIZE",
+    "num": "079",
+    "suffix": "",
+    "slug": "079",
+    "title": "Lee Yang Finite Size",
+    "tag": "Paper",
+    "filename": "PAPER_79_LEE_YANG_FINITE_SIZE.pdf"
+  },
+  {
+    "id": "PAPER_80_AVRAMI_HILL_BOOTSTRAP",
+    "num": "080",
+    "suffix": "",
+    "slug": "080",
+    "title": "Avrami Hill Bootstrap",
+    "tag": "Paper",
+    "filename": "PAPER_80_AVRAMI_HILL_BOOTSTRAP.pdf"
+  },
+  {
+    "id": "PAPER_81_COHERENCE_RATIO_2_3X",
+    "num": "081",
+    "suffix": "",
+    "slug": "081",
+    "title": "Coherence Ratio 2 3x",
+    "tag": "Paper",
+    "filename": "PAPER_81_COHERENCE_RATIO_2_3X.pdf"
+  },
+  {
+    "id": "PAPER_82_IMMUNOLOGY_COHERENCE",
+    "num": "082",
+    "suffix": "",
+    "slug": "082",
+    "title": "Immunology Coherence",
+    "tag": "Paper",
+    "filename": "PAPER_82_IMMUNOLOGY_COHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_83_ECOLOGY_TIPPING_POINTS",
+    "num": "083",
+    "suffix": "",
+    "slug": "083",
+    "title": "Ecology Tipping Points",
+    "tag": "Paper",
+    "filename": "PAPER_83_ECOLOGY_TIPPING_POINTS.pdf"
+  },
+  {
+    "id": "PAPER_84_Z2_SYMMETRY_CONFIRMED",
+    "num": "084",
+    "suffix": "",
+    "slug": "084",
+    "title": "Z2 Symmetry Confirmed",
+    "tag": "Paper",
+    "filename": "PAPER_84_Z2_SYMMETRY_CONFIRMED.pdf"
+  },
+  {
+    "id": "PAPER_85_HAHN_ECHO_ANTI_ZENO",
+    "num": "085",
+    "suffix": "",
+    "slug": "085",
+    "title": "Hahn Echo Anti Zeno",
+    "tag": "Paper",
+    "filename": "PAPER_85_HAHN_ECHO_ANTI_ZENO.pdf"
+  },
+  {
+    "id": "PAPER_86_GRANOVETTER_SOCIAL_THRESHOLD",
+    "num": "086",
+    "suffix": "",
+    "slug": "086",
+    "title": "Granovetter Social Threshold",
+    "tag": "Macro",
+    "filename": "PAPER_86_GRANOVETTER_SOCIAL_THRESHOLD.pdf"
+  },
+  {
+    "id": "PAPER_87_BONE_PIEZO_GEOLOGY",
+    "num": "087",
+    "suffix": "",
+    "slug": "087",
+    "title": "Bone Piezo Geology",
+    "tag": "Paper",
+    "filename": "PAPER_87_BONE_PIEZO_GEOLOGY.pdf"
+  },
+  {
+    "id": "PAPER_88_MARKET_COLLAPSE_COHERENCE",
+    "num": "088",
+    "suffix": "",
+    "slug": "088",
+    "title": "Market Collapse Coherence",
+    "tag": "Paper",
+    "filename": "PAPER_88_MARKET_COLLAPSE_COHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_89_RESONANCE_TRIAD",
+    "num": "089",
+    "suffix": "",
+    "slug": "089",
+    "title": "Resonance Triad",
+    "tag": "Paper",
+    "filename": "PAPER_89_RESONANCE_TRIAD.pdf"
+  },
+  {
+    "id": "PAPER_90_DUAL_DEATH_SYMMETRY",
+    "num": "090",
+    "suffix": "",
+    "slug": "090",
+    "title": "Dual Death Symmetry",
+    "tag": "Phase Transition",
+    "filename": "PAPER_90_DUAL_DEATH_SYMMETRY.pdf"
+  },
+  {
+    "id": "PAPER_91_VON_NEUMANN_SHANNON_ENTROPY",
+    "num": "091",
+    "suffix": "",
+    "slug": "091",
+    "title": "Von Neumann Shannon Entropy",
+    "tag": "Paper",
+    "filename": "PAPER_91_VON_NEUMANN_SHANNON_ENTROPY.pdf"
+  },
+  {
+    "id": "PAPER_92_WIKE_THERMODYNAMIC_INEQUALITY",
+    "num": "092",
+    "suffix": "",
+    "slug": "092",
+    "title": "Wike Thermodynamic Inequality",
+    "tag": "Paper",
+    "filename": "PAPER_92_WIKE_THERMODYNAMIC_INEQUALITY.pdf"
+  },
+  {
+    "id": "PAPER_93_FLOW_STATE_GAMMA_C",
+    "num": "093",
+    "suffix": "",
+    "slug": "093",
+    "title": "Flow State Gamma C",
+    "tag": "Mind",
+    "filename": "PAPER_93_FLOW_STATE_GAMMA_C.pdf"
+  },
+  {
+    "id": "PAPER_94_COHERENCE_TRAP_CALDEIRA_LEGGETT",
+    "num": "094",
+    "suffix": "",
+    "slug": "094",
+    "title": "Coherence Trap Caldeira Leggett",
+    "tag": "Paper",
+    "filename": "PAPER_94_COHERENCE_TRAP_CALDEIRA_LEGGETT.pdf"
+  },
+  {
+    "id": "PAPER_95_PROTEIN_FOLDING_3D_ISING",
+    "num": "095",
+    "suffix": "",
+    "slug": "095",
+    "title": "Protein Folding 3d Ising",
+    "tag": "Paper",
+    "filename": "PAPER_95_PROTEIN_FOLDING_3D_ISING.pdf"
+  },
+  {
+    "id": "PAPER_96_KEEPER_LEARNING_BOOTSTRAP_REVERSAL",
+    "num": "096",
+    "suffix": "",
+    "slug": "096",
+    "title": "Keeper Learning Bootstrap Reversal",
+    "tag": "Keeper",
+    "filename": "PAPER_96_KEEPER_LEARNING_BOOTSTRAP_REVERSAL.pdf"
+  },
+  {
+    "id": "PAPER_97_EIGHT_NEW_CONNECTIONS",
+    "num": "097",
+    "suffix": "",
+    "slug": "097",
+    "title": "Eight New Connections",
+    "tag": "Paper",
+    "filename": "PAPER_97_EIGHT_NEW_CONNECTIONS.pdf"
+  },
+  {
+    "id": "PAPER_98_NINE_DEEP_CONNECTIONS",
+    "num": "098",
+    "suffix": "",
+    "slug": "098",
+    "title": "Nine Deep Connections",
+    "tag": "Paper",
+    "filename": "PAPER_98_NINE_DEEP_CONNECTIONS.pdf"
+  },
+  {
+    "id": "PAPER_99_PRECISION_NUMERICAL_PREDICTIONS",
+    "num": "099",
+    "suffix": "",
+    "slug": "099",
+    "title": "Precision Numerical Predictions",
+    "tag": "Paper",
+    "filename": "PAPER_99_PRECISION_NUMERICAL_PREDICTIONS.pdf"
+  },
+  {
+    "id": "PAPER_100_UNIVERSAL_CONSTANTS_AQUEOUS_LIFE",
+    "num": "100",
+    "suffix": "",
+    "slug": "100",
+    "title": "Universal Constants Aqueous Life",
+    "tag": "Paper",
+    "filename": "PAPER_100_UNIVERSAL_CONSTANTS_AQUEOUS_LIFE.pdf"
+  },
+  {
+    "id": "PAPER_101_GEOMAGNETIC_STORM_RISK_STRATIFICATION",
+    "num": "101",
+    "suffix": "",
+    "slug": "101",
+    "title": "Geomagnetic Storm Risk Stratification",
+    "tag": "Paper",
+    "filename": "PAPER_101_GEOMAGNETIC_STORM_RISK_STRATIFICATION.pdf"
+  },
+  {
+    "id": "PAPER_102_FRAMEWORK_VALIDATION",
+    "num": "102",
+    "suffix": "",
+    "slug": "102",
+    "title": "Framework Validation",
+    "tag": "Validation",
+    "filename": "PAPER_102_FRAMEWORK_VALIDATION.pdf"
+  },
+  {
+    "id": "PAPER_103_FEVER_AND_MAGNETOSPHERE",
+    "num": "103",
+    "suffix": "",
+    "slug": "103",
+    "title": "Fever and Magnetosphere",
+    "tag": "God Equation",
+    "filename": "PAPER_103_FEVER_AND_MAGNETOSPHERE.pdf"
+  },
+  {
+    "id": "PAPER_104_TC_DERIVATION_AND_EARTH_TIMELINE",
+    "num": "104",
+    "suffix": "",
+    "slug": "104",
+    "title": "Tc Derivation and Earth Timeline",
+    "tag": "Paper",
+    "filename": "PAPER_104_TC_DERIVATION_AND_EARTH_TIMELINE.pdf"
+  },
+  {
+    "id": "PAPER_105_HOYLE_STATE_EMERGENT_POLE",
+    "num": "105",
+    "suffix": "",
+    "slug": "105",
+    "title": "Hoyle State Emergent Pole",
+    "tag": "Paper",
+    "filename": "PAPER_105_HOYLE_STATE_EMERGENT_POLE.pdf"
+  },
+  {
+    "id": "PAPER_106_AMPLITUDE_0p72_CONFORMAL_BOOTSTRAP",
+    "num": "106",
+    "suffix": "",
+    "slug": "106",
+    "title": "Amplitude 0p72 Conformal Bootstrap",
+    "tag": "Paper",
+    "filename": "PAPER_106_AMPLITUDE_0p72_CONFORMAL_BOOTSTRAP.pdf"
+  },
+  {
+    "id": "PAPER_107_RATIO_61_18_COSMOLOGICAL_HIERARCHY",
+    "num": "107",
+    "suffix": "",
+    "slug": "107",
+    "title": "Ratio 61 18 Cosmological Hierarchy",
+    "tag": "Cosmology",
+    "filename": "PAPER_107_RATIO_61_18_COSMOLOGICAL_HIERARCHY.pdf"
+  },
+  {
+    "id": "PAPER_108_SCHUMANN_PHASE_ENTRAINMENT",
+    "num": "108",
+    "suffix": "",
+    "slug": "108",
+    "title": "Schumann Phase Entrainment",
+    "tag": "0.1 Hz",
+    "filename": "PAPER_108_SCHUMANN_PHASE_ENTRAINMENT.pdf"
+  },
+  {
+    "id": "PAPER_109_TC_COOPERATIVE_PERCOLATION",
+    "num": "109",
+    "suffix": "",
+    "slug": "109",
+    "title": "Tc Cooperative Percolation",
+    "tag": "Paper",
+    "filename": "PAPER_109_TC_COOPERATIVE_PERCOLATION.pdf"
+  },
+  {
+    "id": "PAPER_116_DARK_MATTER_DARK_ENERGY_VACUUM",
+    "num": "116",
+    "suffix": "",
+    "slug": "116",
+    "title": "Dark Matter Dark Energy Vacuum",
+    "tag": "Cosmology",
+    "filename": "PAPER_116_DARK_MATTER_DARK_ENERGY_VACUUM.pdf"
+  },
+  {
+    "id": "PAPER_117_CMB_ANOMALIES_COHERENCE_FOSSILS",
+    "num": "117",
+    "suffix": "",
+    "slug": "117",
+    "title": "CMB Anomalies Coherence Fossils",
+    "tag": "Cosmology",
+    "filename": "PAPER_117_CMB_ANOMALIES_COHERENCE_FOSSILS.pdf"
+  },
+  {
+    "id": "PAPER_118_EARLY_UNIVERSE_COHERENCE_ORIGIN",
+    "num": "118",
+    "suffix": "",
+    "slug": "118",
+    "title": "Early Universe Coherence Origin",
+    "tag": "Paper",
+    "filename": "PAPER_118_EARLY_UNIVERSE_COHERENCE_ORIGIN.pdf"
+  },
+  {
+    "id": "PAPER_119_GALAXY_ROTATION_MOND_COHERENCE",
+    "num": "119",
+    "suffix": "",
+    "slug": "119",
+    "title": "Galaxy Rotation MOND Coherence",
+    "tag": "Cosmology",
+    "filename": "PAPER_119_GALAXY_ROTATION_MOND_COHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_120_STRUCTURE_FORMATION_EARLY_COHERENCE",
+    "num": "120",
+    "suffix": "",
+    "slug": "120",
+    "title": "Structure Formation Early Coherence",
+    "tag": "Paper",
+    "filename": "PAPER_120_STRUCTURE_FORMATION_EARLY_COHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_121_BLACK_HOLES_DECOHERENCE_ENDPOINTS",
+    "num": "121",
+    "suffix": "",
+    "slug": "121",
+    "title": "Black Holes Decoherence Endpoints",
+    "tag": "Singularities",
+    "filename": "PAPER_121_BLACK_HOLES_DECOHERENCE_ENDPOINTS.pdf"
+  },
+  {
+    "id": "PAPER_121A_MONKEYBARS_COHERENCE_IN_HIP_HOP",
+    "num": "121",
+    "suffix": "A",
+    "slug": "121a",
+    "title": "Monkeybars Coherence in Hip Hop",
+    "tag": "Paper",
+    "filename": "PAPER_121A_MONKEYBARS_COHERENCE_IN_HIP_HOP.pdf"
+  },
+  {
+    "id": "PAPER_122_FUNDAMENTAL_CONSTANTS_THREE_GENERATIONS",
+    "num": "122",
+    "suffix": "",
+    "slug": "122",
+    "title": "Fundamental Constants Three Generations",
+    "tag": "Paper",
+    "filename": "PAPER_122_FUNDAMENTAL_CONSTANTS_THREE_GENERATIONS.pdf"
+  },
+  {
+    "id": "PAPER_123_STELLAR_ANOMALIES_COHERENCE_CATASTROPHES",
+    "num": "123",
+    "suffix": "",
+    "slug": "123",
+    "title": "Stellar Anomalies Coherence Catastrophes",
+    "tag": "Validation",
+    "filename": "PAPER_123_STELLAR_ANOMALIES_COHERENCE_CATASTROPHES.pdf"
+  },
+  {
+    "id": "PAPER_124_SOLAR_SYSTEM_COHERENCE_HORIZONS",
+    "num": "124",
+    "suffix": "",
+    "slug": "124",
+    "title": "Solar System Coherence Horizons",
+    "tag": "Paper",
+    "filename": "PAPER_124_SOLAR_SYSTEM_COHERENCE_HORIZONS.pdf"
+  },
+  {
+    "id": "PAPER_125_QUANTUM_FOUNDATIONS_COHERENCE_REGIMES",
+    "num": "125",
+    "suffix": "",
+    "slug": "125",
+    "title": "Quantum Foundations Coherence Regimes",
+    "tag": "Foundation",
+    "filename": "PAPER_125_QUANTUM_FOUNDATIONS_COHERENCE_REGIMES.pdf"
+  },
+  {
+    "id": "PAPER_126_GRAVITATIONAL_WAVE_ANOMALIES",
+    "num": "126",
+    "suffix": "",
+    "slug": "126",
+    "title": "Gravitational Wave Anomalies",
+    "tag": "Validation",
+    "filename": "PAPER_126_GRAVITATIONAL_WAVE_ANOMALIES.pdf"
+  },
+  {
+    "id": "PAPER_127_HIGH_ENERGY_ASTROPHYSICS_COHERENT_EMISSION",
+    "num": "127",
+    "suffix": "",
+    "slug": "127",
+    "title": "High Energy Astrophysics Coherent Emission",
+    "tag": "Paper",
+    "filename": "PAPER_127_HIGH_ENERGY_ASTROPHYSICS_COHERENT_EMISSION.pdf"
+  },
+  {
+    "id": "PAPER_128_COSMIC_LARGE_SCALE_COHERENCE_FOSSILS",
+    "num": "128",
+    "suffix": "",
+    "slug": "128",
+    "title": "Cosmic Large Scale Coherence Fossils",
+    "tag": "Cosmology",
+    "filename": "PAPER_128_COSMIC_LARGE_SCALE_COHERENCE_FOSSILS.pdf"
+  },
+  {
+    "id": "PAPER_129_THERMODYNAMIC_ANOMALIES_ARROW_OF_TIME",
+    "num": "129",
+    "suffix": "",
+    "slug": "129",
+    "title": "Thermodynamic Anomalies Arrow of Time",
+    "tag": "Validation",
+    "filename": "PAPER_129_THERMODYNAMIC_ANOMALIES_ARROW_OF_TIME.pdf"
+  },
+  {
+    "id": "PAPER_130_PARTICLE_PHYSICS_ANOMALIES_DECOHERENCE",
+    "num": "130",
+    "suffix": "",
+    "slug": "130",
+    "title": "Particle Physics Anomalies Decoherence",
+    "tag": "Validation",
+    "filename": "PAPER_130_PARTICLE_PHYSICS_ANOMALIES_DECOHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_131_QUANTUM_BIOLOGY_COHERENCE_IN_LIFE",
+    "num": "131",
+    "suffix": "",
+    "slug": "131",
+    "title": "Quantum Biology Coherence in Life",
+    "tag": "Quantum",
+    "filename": "PAPER_131_QUANTUM_BIOLOGY_COHERENCE_IN_LIFE.pdf"
+  },
+  {
+    "id": "PAPER_132_ORIGIN_OF_LIFE_COHERENCE_BOOTSTRAP",
+    "num": "132",
+    "suffix": "",
+    "slug": "132",
+    "title": "Origin of Life Coherence Bootstrap",
+    "tag": "Water · Life",
+    "filename": "PAPER_132_ORIGIN_OF_LIFE_COHERENCE_BOOTSTRAP.pdf"
+  },
+  {
+    "id": "PAPER_133_CONSCIOUSNESS_NEURAL_COHERENCE",
+    "num": "133",
+    "suffix": "",
+    "slug": "133",
+    "title": "Consciousness Neural Coherence",
+    "tag": "Mind",
+    "filename": "PAPER_133_CONSCIOUSNESS_NEURAL_COHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_134_CONDENSED_MATTER_COHERENCE_ANOMALIES",
+    "num": "134",
+    "suffix": "",
+    "slug": "134",
+    "title": "Condensed Matter Coherence Anomalies",
+    "tag": "Validation",
+    "filename": "PAPER_134_CONDENSED_MATTER_COHERENCE_ANOMALIES.pdf"
+  },
+  {
+    "id": "PAPER_135_MATHEMATICAL_STRUCTURE_DIMENSIONLESS_CONSTANTS",
+    "num": "135",
+    "suffix": "",
+    "slug": "135",
+    "title": "Mathematical Structure Dimensionless Constants",
+    "tag": "Paper",
+    "filename": "PAPER_135_MATHEMATICAL_STRUCTURE_DIMENSIONLESS_CONSTANTS.pdf"
+  },
+  {
+    "id": "PAPER_137_COSMOLOGICAL_PHASE_TRANSITIONS",
+    "num": "137",
+    "suffix": "",
+    "slug": "137",
+    "title": "Cosmological Phase Transitions",
+    "tag": "Cosmology",
+    "filename": "PAPER_137_COSMOLOGICAL_PHASE_TRANSITIONS.pdf"
+  },
+  {
+    "id": "PAPER_138_OBSERVATIONAL_PUZZLES_DECOHERENCE_RADIATION",
+    "num": "138",
+    "suffix": "",
+    "slug": "138",
+    "title": "Observational Puzzles Decoherence Radiation",
+    "tag": "Paper",
+    "filename": "PAPER_138_OBSERVATIONAL_PUZZLES_DECOHERENCE_RADIATION.pdf"
+  },
+  {
+    "id": "PAPER_139_GALAXY_SATELLITE_PROBLEMS",
+    "num": "139",
+    "suffix": "",
+    "slug": "139",
+    "title": "Galaxy Satellite Problems",
+    "tag": "Cosmology",
+    "filename": "PAPER_139_GALAXY_SATELLITE_PROBLEMS.pdf"
+  },
+  {
+    "id": "PAPER_140_REMAINING_ANOMALIES_CLOSED",
+    "num": "140",
+    "suffix": "",
+    "slug": "140",
+    "title": "Remaining Anomalies Closed",
+    "tag": "Validation",
+    "filename": "PAPER_140_REMAINING_ANOMALIES_CLOSED.pdf"
+  },
+  {
+    "id": "PAPER_141_150_ANOMALIES_MASTER_SUMMARY",
+    "num": "141",
+    "suffix": "",
+    "slug": "141",
+    "title": "150 Anomalies Master Summary",
+    "tag": "Validation",
+    "filename": "PAPER_141_150_ANOMALIES_MASTER_SUMMARY.pdf"
+  },
+  {
+    "id": "PAPER_142_RAPTOR_COMBUSTION_COHERENCE",
+    "num": "142",
+    "suffix": "",
+    "slug": "142",
+    "title": "Raptor Combustion Coherence",
+    "tag": "Applied",
+    "filename": "PAPER_142_RAPTOR_COMBUSTION_COHERENCE.pdf"
+  }
+]

@@ -1,0 +1,1702 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 5
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 4940
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 54: FICK'S LAWS OF COHERENCE DIFFUSION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 38.744 0 Td (PAPER 54: FICK'S LAWS OF COHERENCE DIFFUSION) Tj T* -38.744 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (The Keeper Effect Is Physical -- Coherence Flows Down Its Gradient) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 642 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 602 cm
+Q
+q
+1 0 0 1 60 596 cm
+Q
+q
+1 0 0 1 60 592 cm
+Q
+q
+1 0 0 1 60 562 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("You don't protect someone by willing it. You protect them by being a source. Coherence diffuses. Fick knew) Tj T* (how.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 552 cm
+Q
+q
+1 0 0 1 60 546 cm
+Q
+q
+1 0 0 1 60 542 cm
+Q
+q
+1 0 0 1 60 504 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 492 cm
+Q
+q
+1 0 0 1 60 453 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Wike Keeper Equation \(Paper 19\) shows that a keeper -- a person or environment with low gamma_eff -- reduces the) Tj T* (effective decoherence rate of a coupled system. This paper proves the mechanism is literal physical diffusion, governed by) Tj T* (Fick's Laws. Coherence C\(x,t\) satisfies a reaction-diffusion equation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 446 cm
+Q
+q
+1 0 0 1 60 415.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (x) Tj ( ) Tj (??C) Tj ( ) Tj (nu) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(x\)) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj  T*  T* (Fick's) Tj ( ) Tj (diffusion) Tj ( ) Tj (coefficient) Tj ( ) Tj (D_C) Tj ( ) Tj (=) Tj ( ) Tj (v_coherence?) Tj ( ) Tj (x) Tj ( ) Tj (tau_corr) Tj ( ) Tj (/) Tj ( ) Tj (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 407.6 cm
+Q
+q
+1 0 0 1 60 368.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (where v_coherence is the propagation velocity of coherent oscillations and tau_corr is the correlation time of the coherent) Tj T* (mode. This is not an analogy. Coherence is a field. Fields diffuse. The keeper creates a coherence gradient at the) Tj T* (boundary. The gradient drives flux into the low-coherence system.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 361.6 cm
+Q
+q
+1 0 0 1 60 355.6 cm
+Q
+q
+1 0 0 1 60 351.6 cm
+Q
+q
+1 0 0 1 60 313.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Fick's Laws) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 301.6 cm
+Q
+q
+1 0 0 1 60 271.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (First Law \(flux\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 239.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (J) Tj ( ) Tj (=) Tj ( ) Tj (nuD) Tj ( ) Tj (x) Tj ( ) Tj (\(dC/dx\)) Tj  T*  T* (Flux) Tj ( ) Tj (flows) Tj ( ) Tj (from) Tj ( ) Tj (HIGH) Tj ( ) Tj (to) Tj ( ) Tj (LOW) Tj ( ) Tj (concentration.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 231.2 cm
+Q
+q
+1 0 0 1 60 201.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Second Law \(time evolution\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 168.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (D) Tj ( ) Tj (x) Tj ( ) Tj (??C) Tj  T*  T* (Concentration) Tj ( ) Tj (evolves) Tj ( ) Tj (by) Tj ( ) Tj (diffusion.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 160.8 cm
+Q
+q
+1 0 0 1 60 133.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Both laws apply to any conserved field that propagates in a medium. Fick derived them for chemical concentration \(1855\).) Tj T* -0.088167 Tw (The same mathematics governs heat \(Fourier's law\), electricity \(Ohm's law\), and -- as this paper shows -- neural coherence.) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 60 126.8 cm
+Q
+q
+1 0 0 1 60 120.8 cm
+Q
+q
+1 0 0 1 60 116.8 cm
+Q
+q
+1 0 0 1 60 78.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The Reaction-Diffusion Equation for Coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 66.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7282
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 54: FICK'S LAWS OF COHERENCE DIFFUSION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law in its local form:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 682.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC\(x,t\)/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (x) Tj ( ) Tj (??C) Tj ( ) Tj (nu) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(x\)) Tj ( ) Tj (x) Tj ( ) Tj (C\(x,t\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\\_________/) Tj ( ) Tj ( ) Tj ( ) Tj (\\______________________/) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (diffusion) Tj ( ) Tj (term) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (decay) Tj ( ) Tj (term) Tj ( ) Tj (\(Wike) Tj ( ) Tj (Law\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 674.6 cm
+Q
+q
+1 0 0 1 60 647.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The diffusion term is new. It says: where coherence is higher than neighbors, it flows outward. Where coherence is lower) Tj T* (than neighbors, it receives inflow.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 640.6 cm
+Q
+q
+1 0 0 1 60 625.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The decay term is the standard Wike Law: local decoherence at rate alphagamma_eff.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 618.6 cm
+Q
+q
+1 0 0 1 60 603.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Solutions:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 596.6 cm
+Q
+q
+1 0 0 1 60 581.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In steady state \(dC/dt = 0\), near a keeper at x = 0 with C\(0\) = C?:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 574.6 cm
+Q
+q
+1 0 0 1 60 544.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(x\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nux) Tj ( ) Tj (/) Tj ( ) Tj (lambda_C\)) Tj  T*  T* (where) Tj ( ) Tj (lambda_C) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(D_C) Tj ( ) Tj (/) Tj ( ) Tj (\(alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)\)) Tj ( ) Tj ( ) Tj ([coherence) Tj ( ) Tj (length]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 536.2 cm
+Q
+q
+1 0 0 1 60 509.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The coherence decays exponentially away from the keeper, with characteristic length lambda_C. This is the ) Tj /F2 9 Tf (coherence) Tj T* (penetration depth) Tj /F1 9 Tf ( -- how far the keeper's influence reaches.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 502.2 cm
+Q
+q
+1 0 0 1 60 496.2 cm
+Q
+q
+1 0 0 1 60 492.2 cm
+Q
+q
+1 0 0 1 60 454.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Coherence Diffusion Coefficient) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 442.2 cm
+Q
+q
+1 0 0 1 60 427.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (D_C has units of m?/s, same as all diffusion coefficients.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 420.2 cm
+Q
+q
+1 0 0 1 60 405.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a coherent mode propagating through neural tissue:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 398.2 cm
+Q
+q
+1 0 0 1 60 350.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (D_C) Tj ( ) Tj (=) Tj ( ) Tj (v_coherence?) Tj ( ) Tj (x) Tj ( ) Tj (tau_corr) Tj ( ) Tj (/) Tj ( ) Tj (3) Tj  T*  T* (where:) Tj  T* ( ) Tj ( ) Tj (v_coherence) Tj ( ) Tj (=) Tj ( ) Tj (propagation) Tj ( ) Tj (velocity) Tj ( ) Tj (of) Tj ( ) Tj (coherent) Tj ( ) Tj (oscillations) Tj  T* ( ) Tj ( ) Tj (tau_corr) Tj ( ) Tj (=) Tj ( ) Tj (correlation) Tj ( ) Tj (time) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (coherent) Tj ( ) Tj (mode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 342.2 cm
+Q
+q
+1 0 0 1 60 327.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For neural gamma oscillations \(40 Hz, Paper 23\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 288 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (v_coherence) Tj ( ) Tj (~=) Tj ( ) Tj (0.1) Tj ( ) Tj (-) Tj ( ) Tj (1) Tj ( ) Tj (m/s) Tj ( ) Tj ( ) Tj (\(cortical) Tj ( ) Tj (propagation) Tj ( ) Tj (speed) Tj ( ) Tj (of) Tj ( ) Tj (40) Tj ( ) Tj (Hz) Tj ( ) Tj (oscillations\)) Tj  T* (tau_corr) Tj ( ) Tj (~=) Tj ( ) Tj (1/40) Tj ( ) Tj (Hz) Tj ( ) Tj (=) Tj ( ) Tj (0.025) Tj ( ) Tj (s) Tj  T*  T* (D_C) Tj ( ) Tj (=) Tj ( ) Tj (\(0.5\)?) Tj ( ) Tj (x) Tj ( ) Tj (0.025) Tj ( ) Tj (/) Tj ( ) Tj (3) Tj ( ) Tj (=) Tj ( ) Tj (0.0021) Tj ( ) Tj (m?/s) Tj ( ) Tj (=) Tj ( ) Tj (21) Tj ( ) Tj (cm?/s) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 280 cm
+Q
+q
+1 0 0 1 60 265 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For HRV coherence through the body \(autonomic oscillations, 0.1 Hz\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 225.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (v_coherence) Tj ( ) Tj (~=) Tj ( ) Tj (0.5) Tj ( ) Tj (m/s) Tj ( ) Tj (\(nerve) Tj ( ) Tj (conduction\)) Tj  T* (tau_corr) Tj ( ) Tj (~=) Tj ( ) Tj (10) Tj ( ) Tj (s) Tj  T*  T* (D_C) Tj ( ) Tj (=) Tj ( ) Tj (\(0.5\)?) Tj ( ) Tj (x) Tj ( ) Tj (10) Tj ( ) Tj (/) Tj ( ) Tj (3) Tj ( ) Tj (=) Tj ( ) Tj (0.83) Tj ( ) Tj (m?/s) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 217.8 cm
+Q
+q
+1 0 0 1 60 190.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (These are large diffusion coefficients -- much larger than chemical diffusion \(D_chemical ~ 10nu? m?/s\). This makes sense:) Tj T* (neural coherence propagates at signal speeds \(0.1-10 m/s\), not at molecular speeds \(mum/s\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 183.8 cm
+Q
+q
+1 0 0 1 60 177.8 cm
+Q
+q
+1 0 0 1 60 173.8 cm
+Q
+q
+1 0 0 1 60 135.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Coherence Penetration Depth) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 123.8 cm
+Q
+q
+1 0 0 1 60 108.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (How far does the keeper's influence reach?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 101.8 cm
+Q
+q
+1 0 0 1 60 62.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (lambda_C) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(D_C) Tj ( ) Tj (/) Tj ( ) Tj (\(alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)\)) Tj  T*  T* (For) Tj ( ) Tj (neural) Tj ( ) Tj (gamma) Tj ( ) Tj (coherence) Tj ( ) Tj (with) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.001:) Tj  T* (lambda_C) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(0.0021) Tj ( ) Tj (/) Tj ( ) Tj (\(1000) Tj ( ) Tj (x) Tj ( ) Tj (0.001\)\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(0.0021\)) Tj ( ) Tj (=) Tj ( ) Tj (0.046) Tj ( ) Tj (m) Tj ( ) Tj (=) Tj ( ) Tj (4.6) Tj ( ) Tj (cm) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 7038
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 54: FICK'S LAWS OF COHERENCE DIFFUSION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The keeper's coherence field reaches ~5 cm into the coupled system.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 706 cm
+Q
+q
+1 0 0 1 60 691 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For HRV coherence:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 678.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (lambda_C) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(0.83) Tj ( ) Tj (/) Tj ( ) Tj (\(1000) Tj ( ) Tj (x) Tj ( ) Tj (0.001\)\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(0.83\)) Tj ( ) Tj (=) Tj ( ) Tj (0.91) Tj ( ) Tj (m) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 670.2 cm
+Q
+q
+1 0 0 1 60 655.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (HRV-mediated keeper coherence reaches ~1 meter -- the full body.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 648.2 cm
+Q
+q
+1 0 0 1 60 633.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Physical interpretation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 606.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 In a classroom, a calm teacher's coherence field \(gamma_eff_teacher ~= 0.0008\) diffuses ~5-10 cm into the gamma) Tj T* (oscillation field of nearby students. Beyond that, the individual students' own gamma_eff dominates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 579.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 The HeartMath "coherence bubble" concept \(McCraty\) is this: the HRV coherence field \(lambda_C ~= 1 m\) of a person in) Tj T* (high HRV coherence extends approximately 1 meter. Not mystical. Fick.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572.2 cm
+Q
+q
+1 0 0 1 60 566.2 cm
+Q
+q
+1 0 0 1 60 562.2 cm
+Q
+q
+1 0 0 1 60 524.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The Keeper Effect Is a Boundary Condition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 512.2 cm
+Q
+q
+1 0 0 1 60 497.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Keeper Equation \(Paper 19\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 490.2 cm
+Q
+q
+1 0 0 1 60 477.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(S|K\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (nu) Tj ( ) Tj (b) Tj ( ) Tj (x) Tj ( ) Tj (eta_K\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 469.4 cm
+Q
+q
+1 0 0 1 60 454.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (In the diffusion framework, this is the ) Tj /F2 9 Tf (boundary condition) Tj /F1 9 Tf ( at x = 0 \(the keeper-system interface\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 447.4 cm
+Q
+q
+1 0 0 1 60 408.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(0,) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_K) Tj ( ) Tj ( ) Tj (\(keeper) Tj ( ) Tj (holds) Tj ( ) Tj (the) Tj ( ) Tj (boundary) Tj ( ) Tj (at) Tj ( ) Tj (C_K\)) Tj  T*  T* (Solution) Tj ( ) Tj (inside) Tj ( ) Tj (the) Tj ( ) Tj (system:) Tj  T* (C\(x,) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_K) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nux/lambda_C\)) Tj ( ) Tj (+) Tj ( ) Tj ([C_initial) Tj ( ) Tj (nu) Tj ( ) Tj (C_K) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nux/lambda_C\)]) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nut/tau_relax\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 400.2 cm
+Q
+q
+1 0 0 1 60 385.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (At long times: C\(x\) -) Tj (> C_K x exp\(nux/lambda_C\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 378.2 cm
+Q
+q
+1 0 0 1 60 351.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The system's coherence profile becomes a decaying exponential from the keeper's boundary value. The deeper into the) Tj T* (system, the less the keeper's influence -- as expected physically.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 344.2 cm
+Q
+q
+1 0 0 1 60 329.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The parameter bxeta_K in the Keeper Equation is the boundary condition strength:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 bxeta_K -) Tj (> 1: perfect keeper, C\(0\) = C?, full boundary condition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 299.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 bxeta_K -) Tj (> 0: no keeper effect, no boundary condition, C evolves freely) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292.2 cm
+Q
+q
+1 0 0 1 60 286.2 cm
+Q
+q
+1 0 0 1 60 282.2 cm
+Q
+q
+1 0 0 1 60 244.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Multiple Keepers: Superposition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 232.2 cm
+Q
+q
+1 0 0 1 60 217.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For two keepers at positions x=0 and x=L:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 210.2 cm
+Q
+q
+1 0 0 1 60 179.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(x\)) Tj ( ) Tj (=) Tj ( ) Tj (A) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nux/lambda_C\)) Tj ( ) Tj (+) Tj ( ) Tj (B) Tj ( ) Tj (x) Tj ( ) Tj (exp\(+x/lambda_C\)) Tj  T*  T* (where) Tj ( ) Tj (A) Tj ( ) Tj (and) Tj ( ) Tj (B) Tj ( ) Tj (are) Tj ( ) Tj (set) Tj ( ) Tj (by) Tj ( ) Tj (boundary) Tj ( ) Tj (conditions) Tj ( ) Tj (C\(0\)) Tj ( ) Tj (=) Tj ( ) Tj (C_K1) Tj ( ) Tj (and) Tj ( ) Tj (C\(L\)) Tj ( ) Tj (=) Tj ( ) Tj (C_K2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 171.8 cm
+Q
+q
+1 0 0 1 60 156.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Between two keepers, coherence is higher than with either one alone. The coherence fields add.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 149.8 cm
+Q
+q
+1 0 0 1 60 134.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Clinical translation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 107.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (A patient surrounded by two strong keepers \(family member + therapist, or two loving family members\) receives coherence) Tj T* (from both boundaries. The minimum coherence between them is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 100.8 cm
+Q
+q
+1 0 0 1 60 88 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_min) Tj ( ) Tj (=) Tj ( ) Tj (2) Tj ( ) Tj (x) Tj ( ) Tj (C_K) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nuL/\(2lambda_C\)\)) Tj ( ) Tj (/) Tj ( ) Tj (cosh\(L/\(2lambda_C\)\)) Tj ( ) Tj ( ) Tj (~=) Tj ( ) Tj (C_K) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (L) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (lambda_C) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 80 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 6383
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 54: FICK'S LAWS OF COHERENCE DIFFUSION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (For L ~ lambda_C: the two keeper fields interact constructively, and the patient's coherence floor is higher than either) Tj T* (keeper alone could provide.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 662 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The structure of a coherent family is a diffusion boundary value problem.) Tj /F1 9 Tf ( Two coherent parents create a coherence) Tj T* (field between them. A child in that field has C > C?_child because they are bathed in diffused coherence from both) Tj T* (boundaries. This is why family coherence matters -- not metaphor, Fick.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 655 cm
+Q
+q
+1 0 0 1 60 649 cm
+Q
+q
+1 0 0 1 60 645 cm
+Q
+q
+1 0 0 1 60 607 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. The Wike-Fick Diffusion Equation -- Full Form) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 595 cm
+Q
+q
+1 0 0 1 60 580 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Including all gamma_eff sources \(Paper 01\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 573 cm
+Q
+q
+1 0 0 1 60 525 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC\(x,t\)/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (x) Tj ( ) Tj (??C) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (nu) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj ([gamma_thermal\(x\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m\(x\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_ACE\(x\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_storm\(x\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_inflam) Tj  T* (mation\(x\)]) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj  T*  T* (=) Tj ( ) Tj (D_C) Tj ( ) Tj (x) Tj ( ) Tj (??C) Tj ( ) Tj (nu) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(x,t\)) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 517 cm
+Q
+q
+1 0 0 1 60 490 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is a linear partial differential equation in C with position-dependent coefficients. It can be solved numerically for any) Tj T* (configuration of keepers, stressors, and body geometry.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 483 cm
+Q
+q
+1 0 0 1 60 468 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (For a therapy room:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 376 cm
+q
+.95 .95 .95 rg
+n 20 0 452 88 re f*
+Q
+q
+BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Geometry:) Tj ( ) Tj (1D,) Tj ( ) Tj (x) Tj ( ) Tj (in) Tj ( ) Tj ([0,) Tj ( ) Tj (5m]) Tj  T* (Therapist) Tj ( ) Tj (at) Tj ( ) Tj (x=0:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.0007) Tj ( ) Tj (\(highly) Tj ( ) Tj (trained,) Tj ( ) Tj (regulated\)) Tj  T* (Patient) Tj ( ) Tj (at) Tj ( ) Tj (x=1m:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.0020) Tj ( ) Tj (\(above) Tj ( ) Tj (gamma_c,) Tj ( ) Tj (seeking) Tj ( ) Tj (help\)) Tj  T*  T* (D_C) Tj ( ) Tj (\(HRV) Tj ( ) Tj (band\)) Tj ( ) Tj (~=) Tj ( ) Tj (0.83) Tj ( ) Tj (m?/s) Tj  T*  T* (Steady) Tj ( ) Tj (state) Tj ( ) Tj (at) Tj ( ) Tj (x=1m:) Tj  T* (C_patient) Tj ( ) Tj (=) Tj ( ) Tj (C_therapist) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu1m) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(0.83/\(1000x0.0007\)\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (C_therapist) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu1) Tj ( ) Tj (/) Tj ( ) Tj (1.09\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (C_therapist) Tj ( ) Tj (x) Tj ( ) Tj (0.40) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 368 cm
+Q
+q
+1 0 0 1 60 341 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The patient at 1 meter from a coherent therapist receives 40% of the therapist's coherence field. The remaining 60% they) Tj T* (must supply themselves \(or have other keepers supply\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 334 cm
+Q
+q
+1 0 0 1 60 319 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (This gives a physical basis for therapeutic relationship as a coherence transfer mechanism.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 312 cm
+Q
+q
+1 0 0 1 60 306 cm
+Q
+q
+1 0 0 1 60 302 cm
+Q
+q
+1 0 0 1 60 264 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. What Blocks Diffusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 252 cm
+Q
+q
+1 0 0 1 60 237 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Fick's laws assume isotropic diffusion. Coherence diffusion can be blocked by:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230 cm
+Q
+q
+1 0 0 1 60 203 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Decoherence barriers:) Tj /F1 9 Tf ( Regions of gamma_eff >) Tj (> gamma_c that act as coherence insulators. Chronic high-noise) Tj T* (environments between keeper and patient block the flux.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 196 cm
+Q
+q
+1 0 0 1 60 181 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Dissipation sinks:) Tj /F1 9 Tf ( High-gamma_ACE individuals near the path absorb coherence flux without transmitting it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 174 cm
+Q
+q
+1 0 0 1 60 135 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (The internal narrative wall:) Tj /F1 9 Tf ( Covered in Paper 55. The inner monologue creates an anisotropic decoherence layer that) Tj T* (preferentially blocks coherence diffusing inward from external sources. \(You can be surrounded by keepers and still not) Tj T* (receive their field if the narrative wall is high.\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 128 cm
+Q
+q
+1 0 0 1 60 122 cm
+Q
+q
+1 0 0 1 60 118 cm
+Q
+q
+1 0 0 1 60 80 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 68 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F2-0 27 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 2646
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 54: FICK'S LAWS OF COHERENCE DIFFUSION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 723.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Result | Content |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 710.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|--------|---------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 697.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| dC/dt = D_C??C nu alphagamma_eff.C | Wike-Fick coherence diffusion equation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 684.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| D_C ~= 0.002 m?/s \(neural gamma\) | Coherence diffusion coefficient |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| lambda_C ~= 5 cm \(neural\) | Coherence penetration depth |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 659.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| lambda_C ~= 1 m \(HRV\) | Keeper's reach -- one body length |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Two keepers = constructive superposition | Family structure is a diffusion BVP |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| C\(0\) = C_K is the keeper's boundary condition | Keeper holds the field at their boundary |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 625.6 cm
+Q
+q
+1 0 0 1 60 610.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 54) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 603.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 28
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000301 00000 n 
+0000000350 00000 n 
+0000000721 00000 n 
+0000005713 00000 n 
+0000005820 00000 n 
+0000005927 00000 n 
+0000006039 00000 n 
+0000006149 00000 n 
+0000006265 00000 n 
+0000006371 00000 n 
+0000006746 00000 n 
+0000014081 00000 n 
+0000014189 00000 n 
+0000014300 00000 n 
+0000014675 00000 n 
+0000021766 00000 n 
+0000021874 00000 n 
+0000021985 00000 n 
+0000022360 00000 n 
+0000028796 00000 n 
+0000028904 00000 n 
+0000029015 00000 n 
+0000029390 00000 n 
+0000032089 00000 n 
+0000032197 00000 n 
+trailer
+<<
+/Size 28
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+32308
+%%EOF

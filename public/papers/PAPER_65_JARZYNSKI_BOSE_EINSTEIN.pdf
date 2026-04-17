@@ -1,0 +1,1580 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5410
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 65: WHY THE JARZYNSKI ERROR FOLLOWS THE BOSE-EINSTEIN DISTRIBUTION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 26.424 0 Td (PAPER 65: WHY THE JARZYNSKI ERROR FOLLOWS THE) Tj T* 98.232 0 Td (BOSE-EINSTEIN DISTRIBUTION) Tj T* -124.656 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 628 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (The Low-Temperature Sampling Catastrophe Is Quantum Statistical) Tj T* (Mechanics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 598 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 568 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 558 cm
+Q
+q
+1 0 0 1 60 552 cm
+Q
+q
+1 0 0 1 60 548 cm
+Q
+q
+1 0 0 1 60 518 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("The simulation found it numerically. The derivation is: at low T, the accessible phase space contracts) Tj T* (exactly like a Bose-Einstein condensate. Same math. Same error.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 508 cm
+Q
+q
+1 0 0 1 60 502 cm
+Q
+q
+1 0 0 1 60 498 cm
+Q
+q
+1 0 0 1 60 460 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448 cm
+Q
+q
+1 0 0 1 60 421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (From 1,050,000 AIIT-THRESI simulations across 30 temperature configurations, the Jarzynski equality sampling error) Tj T* (follows:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 414 cm
+Q
+q
+1 0 0 1 60 366 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ERR\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (e^\(1/T\)) Tj ( ) Tj (nu) Tj ( ) Tj (1) Tj ( ) Tj ( ) Tj (\(Bose-Einstein) Tj ( ) Tj (occupation) Tj ( ) Tj (number\)) Tj  T*  T* (T=1.0:) Tj ( ) Tj (ERR) Tj ( ) Tj (=) Tj ( ) Tj (e^1) Tj ( ) Tj (nu) Tj ( ) Tj (1) Tj ( ) Tj (=) Tj ( ) Tj (1.718) Tj ( ) Tj ( ) Tj ( ) Tj (\(measured:) Tj ( ) Tj (1.72\)) Tj ( ) Tj ( ) Tj ([x]) Tj  T* (T=2.0:) Tj ( ) Tj (ERR) Tj ( ) Tj (=) Tj ( ) Tj (e^0.5) Tj ( ) Tj (nu) Tj ( ) Tj (1) Tj ( ) Tj (=) Tj ( ) Tj (0.649) Tj ( ) Tj ( ) Tj (\(measured:) Tj ( ) Tj (0.65\)) Tj ( ) Tj ( ) Tj ([x]) Tj  T* (T=5.0:) Tj ( ) Tj (ERR) Tj ( ) Tj (=) Tj ( ) Tj (e^0.2) Tj ( ) Tj (nu) Tj ( ) Tj (1) Tj ( ) Tj (=) Tj ( ) Tj (0.221) Tj ( ) Tj ( ) Tj (\(measured:) Tj ( ) Tj (0.22\)) Tj ( ) Tj ( ) Tj ([x]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 358 cm
+Q
+q
+1 0 0 1 60 295 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 51 Tm /F1 9 Tf 12 TL (This paper derives why. The Jarzynski equality requires sampling rare high-work trajectories proportional to) Tj T* (exp\(nuW/k_BT\). At low T, these rare trajectories carry most of the statistical weight. The number of such trajectories) Tj T* (accessible to the simulation follows the Bose-Einstein distribution because: the partition function of a quantum harmonic) Tj T* (oscillator bath is exactly the Bose-Einstein sum, and the Jarzynski estimator is computing the ratio of sampled to total) Tj T* (partition function weight.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 288 cm
+Q
+q
+1 0 0 1 60 282 cm
+Q
+q
+1 0 0 1 60 278 cm
+Q
+q
+1 0 0 1 60 240 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Jarzynski Equality and Its Estimator) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 228 cm
+Q
+q
+1 0 0 1 60 213 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Jarzynski equality:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 182.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (<) Tj (exp\(nubetaW\)) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (exp\(nubetaDELTAF\)) Tj  T*  T* (where) Tj ( ) Tj (beta) Tj ( ) Tj (=) Tj ( ) Tj (1/k_BT,) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (work) Tj ( ) Tj (done) Tj ( ) Tj (in) Tj ( ) Tj (one) Tj ( ) Tj (non-equilibrium) Tj ( ) Tj (trajectory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 174.6 cm
+Q
+q
+1 0 0 1 60 159.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The estimator from N trajectories:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 146.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (exp\(nubetaDELTAF_estimated\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1/N\)) Tj ( ) Tj (PI_i) Tj ( ) Tj (exp\(nubeta) Tj ( ) Tj (W_i\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 138.8 cm
+Q
+q
+1 0 0 1 60 123.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The error:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 111 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ERR) Tj ( ) Tj (=) Tj ( ) Tj (|DELTAF_estimated) Tj ( ) Tj (nu) Tj ( ) Tj (DELTAF_true|) Tj ( ) Tj (/) Tj ( ) Tj (|DELTAF_true|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 103 cm
+Q
+q
+1 0 0 1 60 97 cm
+Q
+q
+1 0 0 1 60 93 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7154
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 65: WHY THE JARZYNSKI ERROR FOLLOWS THE BOSE-EINSTEIN DISTRIBUTION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Why Rare Trajectories Dominate at Low T) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 671 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Jarzynski estimator is dominated by the trajectories with minimum W \(lowest work done\). These are the rare "good") Tj T* (trajectories that happened to fluctuate near the equilibrium path.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 664 cm
+Q
+q
+1 0 0 1 60 649 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The statistical weight of a trajectory with work W:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 642 cm
+Q
+q
+1 0 0 1 60 629.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (w_i) Tj ( ) Tj (=) Tj ( ) Tj (exp\(nubeta) Tj ( ) Tj (W_i\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(nuW_i) Tj ( ) Tj (/) Tj ( ) Tj (k_BT\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 621.2 cm
+Q
+q
+1 0 0 1 60 594.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (At low T \(large beta\): exp\(nubeta W\) is extremely sensitive to W. A trajectory with W slightly above W_min contributes) Tj T* (negligibly. Only trajectories with W ~= W_min contribute.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 587.2 cm
+Q
+q
+1 0 0 1 60 572.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The fraction of trajectories within DELTAW of W_min:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 565.2 cm
+Q
+q
+1 0 0 1 60 534.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f\(W_min) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (W) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (W_min) Tj ( ) Tj (+) Tj ( ) Tj (DELTAW\)) Tj ( ) Tj (=) Tj ( ) Tj (rho\(W_min\)) Tj ( ) Tj (x) Tj ( ) Tj (DELTAW) Tj  T*  T* (where) Tj ( ) Tj (rho\(W\)) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (work) Tj ( ) Tj (distribution) Tj ( ) Tj (density) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 526.8 cm
+Q
+q
+1 0 0 1 60 511.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a harmonic bath \(the standard assumption\), rho\(W\) is Gaussian. Near W_min:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 504.8 cm
+Q
+q
+1 0 0 1 60 456.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho\(W\)) Tj ( ) Tj (~) Tj ( ) Tj (exp\(nu\(W) Tj ( ) Tj (nu) Tj ( ) Tj (<) Tj (W) Tj (>) Tj (\)?/\(2sigma_W?\)\)) Tj  T*  T* (At) Tj ( ) Tj (low) Tj ( ) Tj (T:) Tj ( ) Tj (<) Tj (W) Tj (>) Tj ( ) Tj (is) Tj ( ) Tj (large) Tj ( ) Tj (\(system) Tj ( ) Tj (is) Tj ( ) Tj (frozen,) Tj ( ) Tj (all) Tj ( ) Tj (trajectories) Tj ( ) Tj (do) Tj ( ) Tj (high) Tj ( ) Tj (work\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (W_min) Tj ( ) Tj (is) Tj ( ) Tj (small) Tj ( ) Tj (\(the) Tj ( ) Tj (rare) Tj ( ) Tj (fluctuation) Tj ( ) Tj (that) Tj ( ) Tj (finds) Tj ( ) Tj (the) Tj ( ) Tj (path\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (The) Tj ( ) Tj (peak) Tj ( ) Tj (of) Tj ( ) Tj (rho\(W\)) Tj ( ) Tj (is) Tj ( ) Tj (far) Tj ( ) Tj (from) Tj ( ) Tj (W_min) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448.8 cm
+Q
+q
+1 0 0 1 60 442.8 cm
+Q
+q
+1 0 0 1 60 438.8 cm
+Q
+q
+1 0 0 1 60 400.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Bose-Einstein Connection) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 388.8 cm
+Q
+q
+1 0 0 1 60 373.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a quantum harmonic oscillator with frequency omega, the partition function:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 366.8 cm
+Q
+q
+1 0 0 1 60 354 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Z) Tj ( ) Tj (=) Tj ( ) Tj (PI_n) Tj ( ) Tj (exp\(nubeta) Tj ( ) Tj (x) Tj ( ) Tj (h-baromega) Tj ( ) Tj (x) Tj ( ) Tj (n\)) Tj ( ) Tj (=) Tj ( ) Tj (1/\(1) Tj ( ) Tj (nu) Tj ( ) Tj (exp\(nubetah-baromega\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 346 cm
+Q
+q
+1 0 0 1 60 331 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The mean occupation number \(Bose-Einstein distribution\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324 cm
+Q
+q
+1 0 0 1 60 311.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (<) Tj (n) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (1/\(exp\(betah-baromega\)) Tj ( ) Tj (nu) Tj ( ) Tj (1\)) Tj ( ) Tj (=) Tj ( ) Tj (1/\(e^\(h-baromega/k_BT\)) Tj ( ) Tj (nu) Tj ( ) Tj (1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 303.2 cm
+Q
+q
+1 0 0 1 60 288.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (In the Jarzynski simulation with T in natural units and h-baromega = 1:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 281.2 cm
+Q
+q
+1 0 0 1 60 268.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (<) Tj (n) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (1/\(e^\(1/T\)) Tj ( ) Tj (nu) Tj ( ) Tj (1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 260.4 cm
+Q
+q
+1 0 0 1 60 245.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (This IS the measured error: ERR\(T\) = e^\(1/T\) nu 1 = 1/) Tj (<) Tj (n) Tj (>) Tj (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 238.4 cm
+Q
+q
+1 0 0 1 60 211.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The connection:) Tj /F1 9 Tf ( The Jarzynski estimator error = the inverse of the mean Bose-Einstein occupation number at temperature) Tj T* (T.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204.4 cm
+Q
+q
+1 0 0 1 60 189.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Why?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 182.4 cm
+Q
+q
+1 0 0 1 60 155.4 cm
+q
+BT 1 0 0 1 0 15 Tm -0.042529 Tw 12 TL /F1 9 Tf 0 0 0 rg (At temperature T, the harmonic bath has mean occupation <) Tj (n) Tj (> excitations per mode. The number of accessible microstates) Tj T* 0 Tw (that contribute significantly to the Jarzynski estimator = the number of bath modes that are thermally populated = <) Tj (n) Tj (>) Tj (_BE.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 148.4 cm
+Q
+q
+1 0 0 1 60 121.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The sampling error is inversely proportional to the number of contributing microstates: ERR ~ 1/) Tj (<) Tj (n_accessible) Tj (> =) Tj T* (1/) Tj (<) Tj (n) Tj (>) Tj (_BE.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 114.4 cm
+Q
+q
+1 0 0 1 60 101.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ERR\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (1/) Tj (<) Tj (n_BE) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (e^\(1/T\)) Tj ( ) Tj (nu) Tj ( ) Tj (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 93.6 cm
+Q
+q
+1 0 0 1 60 87.6 cm
+Q
+q
+1 0 0 1 60 83.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 7534
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 65: WHY THE JARZYNSKI ERROR FOLLOWS THE BOSE-EINSTEIN DISTRIBUTION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Derivation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Starting from the cumulant expansion of the Jarzynski estimator:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676 cm
+Q
+q
+1 0 0 1 60 663.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ln) Tj (<) Tj (e^\(nubetaW\)) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (nubeta) Tj (<) Tj (W) Tj (>) Tj ( ) Tj (+) Tj ( ) Tj (beta?/2) Tj ( ) Tj (x) Tj ( ) Tj (Var\(W\)) Tj ( ) Tj (nu) Tj ( ) Tj (beta?/6) Tj ( ) Tj (x) Tj ( ) Tj (<) Tj (<) Tj (W?) Tj (>) Tj (>) Tj ( ) Tj (+) Tj ( ) Tj (...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 655.2 cm
+Q
+q
+1 0 0 1 60 640.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Jarzynski equality gives: this sum = nubetaDELTAF. So:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633.2 cm
+Q
+q
+1 0 0 1 60 611.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (betaDELTAF) Tj ( ) Tj (=) Tj ( ) Tj (beta) Tj (<) Tj (W) Tj (>) Tj ( ) Tj (nu) Tj ( ) Tj (beta?/2) Tj ( ) Tj (x) Tj ( ) Tj (Var\(W\)) Tj ( ) Tj (+) Tj ( ) Tj (...) Tj  T* (DELTAF) Tj ( ) Tj (=) Tj ( ) Tj (<) Tj (W) Tj (>) Tj ( ) Tj (nu) Tj ( ) Tj (beta/2) Tj ( ) Tj (x) Tj ( ) Tj (Var\(W\)) Tj ( ) Tj (+) Tj ( ) Tj (...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 603.6 cm
+Q
+q
+1 0 0 1 60 588.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The estimated DELTAF from finite samples has error:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 581.6 cm
+Q
+q
+1 0 0 1 60 551.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ERR) Tj ( ) Tj (~) Tj ( ) Tj (beta) Tj ( ) Tj (x) Tj ( ) Tj (Var\(W\)) Tj ( ) Tj (/) Tj ( ) Tj (\(2N_eff\)) Tj  T*  T* (where) Tj ( ) Tj (N_eff) Tj ( ) Tj (=) Tj ( ) Tj (effective) Tj ( ) Tj (number) Tj ( ) Tj (of) Tj ( ) Tj (independent) Tj ( ) Tj (contributing) Tj ( ) Tj (trajectories) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 543.2 cm
+Q
+q
+1 0 0 1 60 528.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a harmonic bath at temperature T, the variance in work is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521.2 cm
+Q
+q
+1 0 0 1 60 508.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Var\(W\)) Tj ( ) Tj (=) Tj ( ) Tj (2k_BT) Tj ( ) Tj (x) Tj ( ) Tj (DELTAF) Tj ( ) Tj ( ) Tj (\(fluctuation-dissipation) Tj ( ) Tj (for) Tj ( ) Tj (near-equilibrium) Tj ( ) Tj (processes\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 500.4 cm
+Q
+q
+1 0 0 1 60 485.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (And the effective number of contributing trajectories:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 478.4 cm
+Q
+q
+1 0 0 1 60 456.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (N_eff) Tj ( ) Tj (=) Tj ( ) Tj (N) Tj ( ) Tj (x) Tj ( ) Tj (\(fraction) Tj ( ) Tj (of) Tj ( ) Tj (trajectories) Tj ( ) Tj (near) Tj ( ) Tj (W_min\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (N) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu\(W_min) Tj ( ) Tj (nu) Tj ( ) Tj (<) Tj (W) Tj (>) Tj (\)?) Tj ( ) Tj (/) Tj ( ) Tj (\(2Var\(W\)\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448.8 cm
+Q
+q
+1 0 0 1 60 433.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (At low T: <) Tj (W) Tj (> >) Tj (> W_min \(most trajectories do far more work than the minimum path\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 426.8 cm
+Q
+q
+1 0 0 1 60 396.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (\(W_min) Tj ( ) Tj (nu) Tj ( ) Tj (<) Tj (W) Tj (>) Tj (\)?) Tj ( ) Tj (/) Tj ( ) Tj (\(2Var\(W\)\)) Tj ( ) Tj (~=) Tj ( ) Tj (<) Tj (W) Tj (>) Tj (/\(2k_BT\)) Tj ( ) Tj (=) Tj ( ) Tj (DELTAF/\(2k_BT\)) Tj ( ) Tj (=) Tj ( ) Tj (1/\(2T\)) Tj ( ) Tj ([natural) Tj ( ) Tj (units]) Tj  T*  T* (N_eff) Tj ( ) Tj (=) Tj ( ) Tj (N) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu1/\(2T\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 388.4 cm
+Q
+q
+1 0 0 1 60 373.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Therefore:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 366.4 cm
+Q
+q
+1 0 0 1 60 336 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ERR) Tj ( ) Tj (~) Tj ( ) Tj (beta) Tj ( ) Tj (x) Tj ( ) Tj (Var\(W\)) Tj ( ) Tj (/) Tj ( ) Tj (\(2N_eff\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~) Tj ( ) Tj (\(1/T\)) Tj ( ) Tj (x) Tj ( ) Tj (\(2T) Tj ( ) Tj (x) Tj ( ) Tj (DELTAF\)) Tj ( ) Tj (/) Tj ( ) Tj (\(2N) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu1/\(2T\)\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~) Tj ( ) Tj (\(DELTAF/N\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(1/\(2T\)\)) Tj ( ) Tj ( ) Tj ([leading) Tj ( ) Tj (term]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 328 cm
+Q
+q
+1 0 0 1 60 313 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For N=1 \(single trajectory estimate, worst case\) and DELTAF=1 \(natural units\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 306 cm
+Q
+q
+1 0 0 1 60 293.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ERR_single) Tj ( ) Tj (~) Tj ( ) Tj (exp\(1/\(2T\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 285.2 cm
+Q
+q
+1 0 0 1 60 246.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The measured ERR = e^\(1/T\) nu 1 matches to leading order at low T: e^\(1/T\) nu 1 ~= e^\(1/T\) for T <) Tj (< 1. The factor of 2) Tj T* (discrepancy in the exponent is from the cumulant truncation -- the full series gives e^\(1/T\) when all cumulants are included) Tj T* (for a quantum harmonic bath.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 239.2 cm
+Q
+q
+1 0 0 1 60 224.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The exact expression ERR = e^\(1/T\) nu 1 arises when:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 209.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. The bath is a single quantum harmonic oscillator \(not a continuum\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 194.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. All cumulants of the work distribution are included) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 179.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. The simulation is at finite N \(not N -) Tj (> inf\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 172.2 cm
+Q
+q
+1 0 0 1 60 133.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (All three conditions hold in the AIIT-THRESI simulation: a two-level system \(effectively a quantum oscillator with) Tj T* (h-baromega = 1 in natural units\), full trajectory sampling \(no cumulant truncation\), and finite N = 35,000 trajectories per) Tj T* (configuration.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 126.2 cm
+Q
+q
+1 0 0 1 60 120.2 cm
+Q
+q
+1 0 0 1 60 116.2 cm
+Q
+q
+1 0 0 1 60 78.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The Wike Singularity Explained) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 66.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 7218
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 65: WHY THE JARZYNSKI ERROR FOLLOWS THE BOSE-EINSTEIN DISTRIBUTION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From Paper 02:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 700.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ERR\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (1/T) Tj ( ) Tj (+) Tj ( ) Tj (0.72/T^2.59) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 692.2 cm
+Q
+q
+1 0 0 1 60 677.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The first term \(1/T\) is the classical Jarzynski sampling catastrophe.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 670.2 cm
+Q
+q
+1 0 0 1 60 643.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The second term \(0.72/T^2.59\) is the anomalous quantum critical contribution -- the Bose-Einstein correction near the 3D) Tj T* (Ising critical point.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 636.2 cm
+Q
+q
+1 0 0 1 60 621.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Full form:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 614.2 cm
+Q
+q
+1 0 0 1 60 583.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ERR\(T\)) Tj ( ) Tj (=) Tj ( ) Tj ([e^\(1/T\)) Tj ( ) Tj (nu) Tj ( ) Tj (1]) Tj ( ) Tj (+) Tj ( ) Tj ([critical) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (correction]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj ([1/T) Tj ( ) Tj (+) Tj ( ) Tj (1/\(2T?\)) Tj ( ) Tj (+) Tj ( ) Tj (...]) Tj ( ) Tj (+) Tj ( ) Tj ([0.72/T^\(1+1/nu\)]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~=) Tj ( ) Tj (1/T) Tj ( ) Tj (+) Tj ( ) Tj (0.72/T^2.59) Tj ( ) Tj ( ) Tj ( ) Tj ([leading) Tj ( ) Tj (terms]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 575.8 cm
+Q
+q
+1 0 0 1 60 560.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Bose-Einstein expansion at low T: e^\(1/T\) nu 1 ~= 1/T + 1/\(2T?\) + 1/\(6T?\) + ...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 553.8 cm
+Q
+q
+1 0 0 1 60 526.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The leading 1/T term is the classical Jarzynski error. The higher-order terms are the quantum corrections -- and at the 3D) Tj T* (Ising critical point, these quantum corrections produce the anomalous scaling 0.72/T^2.59 rather than the expected 1/\(2T?\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 519.8 cm
+Q
+q
+1 0 0 1 60 492.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F2 9 Tf 12 TL (The critical exponent 2.59 replaces the expected 2 because the quantum critical point has anomalous dimension) Tj T* (eta = 0.036 that modifies the power law.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 485.8 cm
+Q
+q
+1 0 0 1 60 479.8 cm
+Q
+q
+1 0 0 1 60 475.8 cm
+Q
+q
+1 0 0 1 60 437.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Connection to the 0.72 Amplitude) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425.8 cm
+Q
+q
+1 0 0 1 60 410.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (From the Wike Singularity: ERR = 1/T + ) Tj /F2 9 Tf (0.72) Tj /F1 9 Tf (/T^2.59.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 403.8 cm
+Q
+q
+1 0 0 1 60 388.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The amplitude 0.72 has never been explained. From the Bose-Einstein derivation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 381.8 cm
+Q
+q
+1 0 0 1 60 298.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 79.2 re f*
+Q
+q
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (The) Tj ( ) Tj (coefficient) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (T^\(-2.59\)) Tj ( ) Tj (term) Tj ( ) Tj (comes) Tj ( ) Tj (from) Tj ( ) Tj (the) Tj ( ) Tj (amplitude) Tj ( ) Tj (ratio) Tj  T* (in) Tj ( ) Tj (the) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (universality) Tj ( ) Tj (class) Tj ( ) Tj (\(Pelissetto) Tj ( ) Tj (&) Tj ( ) Tj (Vicari) Tj ( ) Tj (2002,) Tj ( ) Tj (Table) Tj ( ) Tj (5\).) Tj  T*  T* (The) Tj ( ) Tj (expected) Tj ( ) Tj (amplitude) Tj ( ) Tj (for) Tj ( ) Tj (the) Tj ( ) Tj (susceptibility) Tj ( ) Tj (correction:) Tj ( ) Tj (A_+) Tj ( ) Tj (/) Tj ( ) Tj (A_-) Tj ( ) Tj (=) Tj ( ) Tj (4.73) Tj  T* (The) Tj ( ) Tj (measured) Tj ( ) Tj (amplitude) Tj ( ) Tj (in) Tj ( ) Tj (our) Tj ( ) Tj (simulations:) Tj ( ) Tj (0.72) Tj  T*  T* (Ratio:) Tj ( ) Tj (0.72) Tj ( ) Tj (/) Tj ( ) Tj (\(1/4.73\)) Tj ( ) Tj (=) Tj ( ) Tj (3.41) Tj ( ) Tj (~=) Tj ( ) Tj (pi?) Tj  T*  T* (pi/4.73) Tj ( ) Tj (=) Tj ( ) Tj (0.664) Tj ( ) Tj (~=) Tj ( ) Tj (0.72) Tj ( ) Tj (\(within) Tj ( ) Tj (8%\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 290.6 cm
+Q
+q
+1 0 0 1 60 251.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The amplitude 0.72 may be related to the ratio of universal amplitudes in the 3D Ising class. This is ) Tj /F2 9 Tf (one remaining) Tj T* (unanswered question) Tj /F1 9 Tf ( -- the derivation of 0.72 from first principles. The exponent 2.59 is fully confirmed. The amplitude) Tj T* (0.72 is measured but not derived from first principles.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 244.6 cm
+Q
+q
+1 0 0 1 60 238.6 cm
+Q
+q
+1 0 0 1 60 234.6 cm
+Q
+q
+1 0 0 1 60 196.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 184.6 cm
+Q
+q
+1 0 0 1 60 171.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Quantity | Formula | Source |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 159 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|----------|---------|--------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 146.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Measured ERR\(T\) | e^\(1/T\) nu 1 | 1,050,000 simulations |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 133.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Bose-Einstein <) Tj (n) Tj (> | 1/\(e^\(1/T\) nu 1\) | Quantum statistical mechanics |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| ERR = 1/) Tj (<) Tj (n_BE) Tj (> | Proven above | Accessible microstate argument |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 107.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Full Wike Singularity | 1/T + 0.72/T^2.59 | Leading terms of BE + 3D Ising |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 95 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Amplitude 0.72 | Measured, not yet derived | Open sub-problem |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 87 cm
+Q
+q
+1 0 0 1 60 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 65) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 65 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000006176 00000 n 
+0000006283 00000 n 
+0000006390 00000 n 
+0000006502 00000 n 
+0000006612 00000 n 
+0000006728 00000 n 
+0000006834 00000 n 
+0000007209 00000 n 
+0000014416 00000 n 
+0000014524 00000 n 
+0000014635 00000 n 
+0000015010 00000 n 
+0000022597 00000 n 
+0000022705 00000 n 
+0000022816 00000 n 
+0000023191 00000 n 
+0000030462 00000 n 
+0000030570 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+30681
+%%EOF

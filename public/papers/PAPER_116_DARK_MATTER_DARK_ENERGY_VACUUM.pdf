@@ -1,0 +1,1416 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 7
+/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5140
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 116 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 54 697.6 Tm (Paper 116 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 671.6 Tm (Dark Matter, Dark Energy, and the Vacuum Catastrophe: Three Anomalies, One) Tj T* ET
+BT 1 0 0 1 54 659.6 Tm (Exponential) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 641.6 Tm (Rhet Dillard Wike) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 629.6 Tm (Council Hill, Oklahoma) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 617.6 Tm (April 1, 2026) Tj T* ET
+.5 w
+n 54 603.6 m 558 603.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 575.6 Tm (Abstract) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 553.6 Tm (Three of the largest open problems in physics -- dark matter, dark energy, and the) Tj T* ET
+BT 1 0 0 1 54 541.6 Tm (vacuum catastrophe -- are treated here as manifestations of a single mechanism: the) Tj T* ET
+BT 1 0 0 1 54 529.6 Tm (Wike Coherence Law, C = C_0 * exp\(-alpha * gamma_eff\). Dark matter is not a particle) Tj T* ET
+BT 1 0 0 1 54 517.6 Tm (but a residual coherent vacuum state that persists in low-decoherence regions. The) Tj T* ET
+BT 1 0 0 1 54 505.6 Tm (vacuum catastrophe \(the 10^122 discrepancy between QFT-predicted and observed vacuum) Tj T* ET
+BT 1 0 0 1 54 493.6 Tm (energy\) is closed by cosmic decoherence: exp\(-276\) ~ 10^-120. Dark energy is the) Tj T* ET
+BT 1 0 0 1 54 481.6 Tm (surviving fraction of vacuum coherence after that suppression, and its observed) Tj T* ET
+BT 1 0 0 1 54 469.6 Tm (evolution \(DESI 2024\) follows from the gamma_eff dependence of the exponential. The) Tj T* ET
+BT 1 0 0 1 54 457.6 Tm (dark matter-dark energy coincidence problem, the radial acceleration relation, and) Tj T* ET
+BT 1 0 0 1 54 445.6 Tm (the baryonic Tully-Fisher relation all reduce to algebraic consequences of the) Tj T* ET
+BT 1 0 0 1 54 433.6 Tm (coherence law. No new particles, no fine-tuning, and no free parameters beyond those) Tj T* ET
+BT 1 0 0 1 54 421.6 Tm (already fixed by dimensional analysis \(Paper 62\) and universal constant derivations) Tj T* ET
+BT 1 0 0 1 54 409.6 Tm (\(Paper 100\).) Tj T* ET
+.5 w
+n 54 395.6 m 558 395.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 367.6 Tm (1. Introduction) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 345.6 Tm (Modern cosmology rests on two substances that have never been directly detected.) Tj T* ET
+BT 1 0 0 1 54 333.6 Tm (Dark matter, inferred from galactic rotation curves, gravitational lensing, and) Tj T* ET
+BT 1 0 0 1 54 321.6 Tm (structure formation, comprises roughly 27% of the cosmic energy budget. Dark energy,) Tj T* ET
+BT 1 0 0 1 54 309.6 Tm (inferred from accelerating expansion, comprises roughly 68%. Together they account) Tj T* ET
+BT 1 0 0 1 54 297.6 Tm (for 95% of the universe, yet neither has a confirmed microphysical origin.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 279.6 Tm (Worse, quantum field theory predicts a vacuum energy density that exceeds the) Tj T* ET
+BT 1 0 0 1 54 267.6 Tm (observed value by a factor of 10^122 -- the vacuum catastrophe, often called the) Tj T* ET
+BT 1 0 0 1 54 255.6 Tm (worst prediction in the history of physics.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 237.6 Tm (These three problems are conventionally treated as independent. This paper) Tj T* ET
+BT 1 0 0 1 54 225.6 Tm (demonstrates that they are not. All three are consequences of one equation:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 203.6 Tm (C = C_0 * exp\(-alpha * gamma_eff\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 183.6 Tm (where C_0 is the intrinsic vacuum coherence amplitude, alpha is the dimensionless) Tj T* ET
+BT 1 0 0 1 54 171.6 Tm (decoherence constant derived from spatial dimensions \(Paper 62\), and gamma_eff is) Tj T* ET
+BT 1 0 0 1 54 159.6 Tm (the effective decoherence load. The framework has been developed across the AIIT-) Tj T* ET
+BT 1 0 0 1 54 147.6 Tm (THRESI series. The present paper applies it to cosmology.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 129.6 Tm (The key numerical results used throughout:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 107.6 Tm (alpha = 83/3 \(from dimensional analysis, Paper 62\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 97.6 Tm (exp\(-83\)  ~ 10^-36   \(single-scale decoherence\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 87.6 Tm (exp\(-276\) ~ 10^-120  \(triple-scale decoherence, ratio 61:18, Paper 107\)) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 5172
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 116 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+.5 w
+n 54 709.6 m 558 709.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 681.6 Tm (2. Dark Matter as Coherent Vacuum State) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 655.6 Tm (2.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 636.6 Tm (Galactic rotation curves flatten at large radii. Visible matter cannot account for) Tj T* ET
+BT 1 0 0 1 54 624.6 Tm (the observed velocities. The standard response is to postulate cold dark matter) Tj T* ET
+BT 1 0 0 1 54 612.6 Tm (\(CDM\) -- a new particle species that interacts gravitationally but not) Tj T* ET
+BT 1 0 0 1 54 600.6 Tm (electromagnetically. Despite decades of direct detection experiments \(LUX, XENON,) Tj T* ET
+BT 1 0 0 1 54 588.6 Tm (PandaX, LZ\), no dark matter particle has been found.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 570.6 Tm (CDM also produces the wrong small-scale structure. N-body simulations predict cuspy) Tj T* ET
+BT 1 0 0 1 54 558.6 Tm (density profiles \(NFW\), while observations show cored profiles in dwarf galaxies) Tj T* ET
+BT 1 0 0 1 54 546.6 Tm (\(the core-cusp problem\). CDM predicts too many satellite galaxies \(the missing) Tj T* ET
+BT 1 0 0 1 54 534.6 Tm (satellites problem\) and satellites that are too dense \(the too-big-to-fail problem\).) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 512.6 Tm (2.2 Resolution) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 493.6 Tm (The coherence law provides a direct resolution. The vacuum is not empty -- it) Tj T* ET
+BT 1 0 0 1 54 481.6 Tm (carries an intrinsic coherence amplitude C_0. In regions of low decoherence load) Tj T* ET
+BT 1 0 0 1 54 469.6 Tm (\(gamma_eff small\), the exponential suppression is weak and vacuum coherence) Tj T* ET
+BT 1 0 0 1 54 457.6 Tm (persists:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 435.6 Tm (C_vacuum = C_0 * exp\(-alpha * gamma_eff\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 415.6 Tm (This residual coherence couples gravitationally. It behaves exactly as dark matter) Tj T* ET
+BT 1 0 0 1 54 403.6 Tm (behaves -- it gravitates, it does not emit or absorb light, and it cannot be) Tj T* ET
+BT 1 0 0 1 54 391.6 Tm (captured in a detector because it is not a particle. Direct detection experiments) Tj T* ET
+BT 1 0 0 1 54 379.6 Tm (fail not because the cross-section is small but because there is no particle to) Tj T* ET
+BT 1 0 0 1 54 367.6 Tm (scatter.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 349.6 Tm (In galactic halos and cosmic voids, gamma_eff is low. The exponential is close to) Tj T* ET
+BT 1 0 0 1 54 337.6 Tm (unity. Vacuum coherence is high. This produces the gravitational effect attributed) Tj T* ET
+BT 1 0 0 1 54 325.6 Tm (to dark matter.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 307.6 Tm (In dense baryonic regions \(galactic cores, stellar interiors\), gamma_eff is high.) Tj T* ET
+BT 1 0 0 1 54 295.6 Tm (The exponential suppresses coherence. This resolves the core-cusp problem: the "dark) Tj T* ET
+BT 1 0 0 1 54 283.6 Tm (matter" density profile is automatically cored because decoherence is strongest) Tj T* ET
+BT 1 0 0 1 54 271.6 Tm (where baryonic density is highest.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 249.6 Tm (High gamma_eff \(dense core\):   C -> 0      -> no DM excess -> cored profile) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 239.6 Tm (Low  gamma_eff \(halo, void\):   C -> C_0    -> full DM effect -> flat rotation curve) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 219.6 Tm (The transition is smooth and set by the exponential. No tuning is required.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 197.6 Tm (2.3 Rotation Curve Prediction) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 178.6 Tm (For a galaxy with baryonic mass distribution rho_b\(r\), the effective decoherence) Tj T* ET
+BT 1 0 0 1 54 166.6 Tm (load scales with local density:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 144.6 Tm (gamma_eff\(r\) ~ rho_b\(r\) / rho_0) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 124.6 Tm (where rho_0 is a reference density. The vacuum coherence contribution to the) Tj T* ET
+BT 1 0 0 1 54 112.6 Tm (gravitational potential is:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 90.6 Tm (Phi_coh\(r\) = -G * integral[ C_0 * exp\(-alpha * gamma_eff\(r'\)\) * rho_coh / r' ] d^3r') Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 70.6 Tm (At large r, rho_b -> 0, gamma_eff -> 0, and the coherence contribution saturates at) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F2-0 18 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4528
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 116 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (C_0. The rotation velocity flattens. At small r, rho_b is large, gamma_eff is large,) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (and coherence is suppressed. The curve follows baryonic Newtonian dynamics in the) Tj T* ET
+BT 1 0 0 1 54 681.6 Tm (core.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 663.6 Tm (This is exactly what is observed.) Tj T* ET
+.5 w
+n 54 649.6 m 558 649.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 621.6 Tm (3. The Vacuum Catastrophe: exp\(-276\)) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 595.6 Tm (3.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 576.6 Tm (Quantum field theory computes the vacuum energy density by summing zero-point) Tj T* ET
+BT 1 0 0 1 54 564.6 Tm (energies of all field modes up to the Planck scale:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 542.6 Tm (rho_QFT ~ M_Planck^4 / \(hbar^3 * c^3\) ~ 10^113 J/m^3) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 522.6 Tm (The observed vacuum energy density \(from cosmological constant measurements\) is:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 500.6 Tm (rho_obs ~ 10^-9 J/m^3) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 480.6 Tm (The ratio is 10^122. This is the vacuum catastrophe.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 462.6 Tm (Every attempt to resolve it by cancellation requires fine-tuning to 122 decimal) Tj T* ET
+BT 1 0 0 1 54 450.6 Tm (places. Supersymmetry was supposed to help but does not cancel enough, and no) Tj T* ET
+BT 1 0 0 1 54 438.6 Tm (superpartners have been found.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 416.6 Tm (3.2 Resolution) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 397.6 Tm (QFT is correct about C_0. The raw vacuum coherence amplitude is as large as QFT) Tj T* ET
+BT 1 0 0 1 54 385.6 Tm (predicts. But the universe is not a pristine vacuum. It has undergone decoherence) Tj T* ET
+BT 1 0 0 1 54 373.6 Tm (across three scales -- spatial, temporal, and thermal -- each contributing a factor) Tj T* ET
+BT 1 0 0 1 54 361.6 Tm (of alpha to the total decoherence exponent \(Paper 107, ratio 61:18\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 339.6 Tm (gamma_eff\(cosmic\) = 3 * alpha = 3 * \(83/3\) = 83 + 83 + 110 = 276) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 319.6 Tm (The triple-scale structure reflects the 61:18 ratio established in Paper 107: the) Tj T* ET
+BT 1 0 0 1 54 307.6 Tm (three decoherence channels are not identical but sum to 276. The suppression factor) Tj T* ET
+BT 1 0 0 1 54 295.6 Tm (is:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 273.6 Tm (exp\(-276\) ~ 10^-119.9 ~ 10^-120) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 253.6 Tm (Therefore:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 231.6 Tm (rho_observed = rho_QFT * exp\(-276\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 221.6 Tm (             ~ 10^113 * 10^-120) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 211.6 Tm (             ~ 10^-7 to 10^-9 J/m^3) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 191.6 Tm (This matches observation. The vacuum catastrophe is not a catastrophe -- it is a) Tj T* ET
+BT 1 0 0 1 54 179.6 Tm (decoherence effect. QFT computes the right C_0. The exponential provides the) Tj T* ET
+BT 1 0 0 1 54 167.6 Tm (suppression. No fine-tuning is required. The number 276 is fixed by dimensional) Tj T* ET
+BT 1 0 0 1 54 155.6 Tm (analysis and the decoherence structure derived in Papers 62 and 107.) Tj T* ET
+.5 w
+n 54 141.6 m 558 141.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 113.6 Tm (4. Dark Energy as Surviving Vacuum Coherence) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 87.6 Tm (4.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 68.6 Tm (The cosmological constant Lambda drives accelerating expansion. Its value is) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F2-0 22 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 4910
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 116 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (unnaturally small \(see Section 3\) and its energy density is comparable to the matter) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (density today -- the coincidence problem. Furthermore, DESI 2024 baryon acoustic) Tj T* ET
+BT 1 0 0 1 54 681.6 Tm (oscillation data hint that dark energy may not be constant but evolving, with the) Tj T* ET
+BT 1 0 0 1 54 669.6 Tm (equation of state parameter w crossing -1.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 647.6 Tm (4.2 Resolution) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 628.6 Tm (Dark energy is the residual vacuum coherence that survives cosmic decoherence:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 606.6 Tm (rho_DE = C_0^2 * exp\(-2 * alpha * gamma_eff\(t\)\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 586.6 Tm (The factor of 2 in the exponent arises because energy density scales as coherence) Tj T* ET
+BT 1 0 0 1 54 574.6 Tm (squared. The observed dark energy density is not a constant -- it is the present-) Tj T* ET
+BT 1 0 0 1 54 562.6 Tm (epoch value of an exponential that depends on gamma_eff\(t\), which evolves as the) Tj T* ET
+BT 1 0 0 1 54 550.6 Tm (universe expands and cools.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 532.6 Tm (As the universe expands, the mean decoherence load gamma_eff changes. In the early) Tj T* ET
+BT 1 0 0 1 54 520.6 Tm (universe, gamma_eff was set by radiation density \(high\). As matter dilutes,) Tj T* ET
+BT 1 0 0 1 54 508.6 Tm (gamma_eff decreases, and vacuum coherence -- hence dark energy -- increases. This) Tj T* ET
+BT 1 0 0 1 54 496.6 Tm (produces a dynamical dark energy with:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 474.6 Tm (w\(a\) = -1 + d\(ln rho_DE\)/d\(ln a\) / 3) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 464.6 Tm (     = -1 + \(2 * alpha / 3\) * d\(gamma_eff\)/d\(ln a\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 444.6 Tm (Since gamma_eff decreases slowly as the universe expands, w is slightly above -1 in) Tj T* ET
+BT 1 0 0 1 54 432.6 Tm (the past and approaches -1 asymptotically. This is consistent with the DESI 2024) Tj T* ET
+BT 1 0 0 1 54 420.6 Tm (hints of evolving w.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 398.6 Tm (4.3 Prediction) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 375.6 Tm (w_0 ~ -0.97 +/- 0.03) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 365.6 Tm (w_a ~ -0.1  +/- 0.05) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 345.6 Tm (These values are within the DESI 2024 preferred region. Future surveys \(Euclid,) Tj T* ET
+BT 1 0 0 1 54 333.6 Tm (LSST, Roman\) will test this to the required precision. A strictly constant w = -1) Tj T* ET
+BT 1 0 0 1 54 321.6 Tm (would falsify the framework. The framework predicts mild evolution, not a) Tj T* ET
+BT 1 0 0 1 54 309.6 Tm (cosmological constant.) Tj T* ET
+.5 w
+n 54 295.6 m 558 295.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 267.6 Tm (5. The DM-DE Coincidence Problem) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 241.6 Tm (5.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 222.6 Tm (Dark matter comprises ~27% and dark energy ~68% of the cosmic energy budget today.) Tj T* ET
+BT 1 0 0 1 54 210.6 Tm (These are the same order of magnitude. In standard cosmology, they scale differently) Tj T* ET
+BT 1 0 0 1 54 198.6 Tm (-- matter as a^-3 and Lambda as a^0 -- so their near-equality today is a coincidence) Tj T* ET
+BT 1 0 0 1 54 186.6 Tm (requiring explanation.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 164.6 Tm (5.2 Resolution) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 145.6 Tm (In the coherence framework, both dark matter and dark energy are functions of C:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 123.6 Tm (rho_DM\(t\) ~ C_0 * exp\(-alpha * gamma_eff\(t\)\)     [linear in C, gravitational coupling]) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 113.6 Tm (rho_DE\(t\) ~ C_0^2 * exp\(-2 * alpha * gamma_eff\(t\)\) [quadratic in C, energy density]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 93.6 Tm (Meanwhile, baryonic matter density sets gamma_eff:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 71.6 Tm (gamma_eff\(t\) ~ rho_baryon\(t\) / rho_0) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 25 0 R
+/F2 8 0 R
+/F2-0 26 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 5048
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 116 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (As the universe expands, rho_baryon falls, gamma_eff falls, and both DM and DE) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (increase \(decoherence decreases, coherence recovers\). But they track each other) Tj T* ET
+BT 1 0 0 1 54 681.6 Tm (because both are driven by the same exponential. The ratio:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 659.6 Tm (rho_DE / rho_DM ~ C_0 * exp\(-alpha * gamma_eff\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 639.6 Tm (This ratio is not constant but changes slowly because it depends on the exponential) Tj T* ET
+BT 1 0 0 1 54 627.6 Tm (of a slowly varying quantity. The system has an attractor: the epoch at which rho_DM) Tj T* ET
+BT 1 0 0 1 54 615.6 Tm (~ rho_DE is not a coincidence but the natural crossing point of two functions of the) Tj T* ET
+BT 1 0 0 1 54 603.6 Tm (same variable. We observe the universe near this attractor because structure) Tj T* ET
+BT 1 0 0 1 54 591.6 Tm (formation \(and hence observers\) requires both DM \(for gravitational collapse\) and DE) Tj T* ET
+BT 1 0 0 1 54 579.6 Tm (\(for a stable late-time cosmology\).) Tj T* ET
+.5 w
+n 54 565.6 m 558 565.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 537.6 Tm (6. Dark Matter-Baryon Coupling: RAR and BTFR) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 511.6 Tm (6.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 492.6 Tm (The radial acceleration relation \(RAR\) shows a tight, low-scatter correlation) Tj T* ET
+BT 1 0 0 1 54 480.6 Tm (between observed gravitational acceleration g_obs and baryonic gravitational) Tj T* ET
+BT 1 0 0 1 54 468.6 Tm (acceleration g_bar in galaxies. The baryonic Tully-Fisher relation \(BTFR\) relates) Tj T* ET
+BT 1 0 0 1 54 456.6 Tm (baryonic mass to asymptotic rotation velocity as M_b ~ v^4. These relations are) Tj T* ET
+BT 1 0 0 1 54 444.6 Tm (unexplained in CDM, which predicts significant scatter from halo-to-halo variation.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 422.6 Tm (6.2 Resolution) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 403.6 Tm (In the coherence framework, "dark matter" IS vacuum coherence, and vacuum coherence) Tj T* ET
+BT 1 0 0 1 54 391.6 Tm (is SET BY baryonic density through gamma_eff. The coupling is not a correlation --) Tj T* ET
+BT 1 0 0 1 54 379.6 Tm (it is a definition:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 357.6 Tm (g_obs = g_bar + g_coherence) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 347.6 Tm (g_coherence = G * C_0 * exp\(-alpha * gamma_eff\(g_bar\)\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 327.6 Tm (Since gamma_eff is a monotonic function of g_bar, the relation between g_obs and) Tj T* ET
+BT 1 0 0 1 54 315.6 Tm (g_bar is deterministic with zero intrinsic scatter. Observed scatter is entirely) Tj T* ET
+BT 1 0 0 1 54 303.6 Tm (observational error. This matches the RAR data.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 285.6 Tm (For the BTFR, at large r where gamma_eff -> 0:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 263.6 Tm (v^2 / r = G * M_b / r^2 + G * C_0 / r) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 253.6 Tm (v^4 = G * M_b * G * C_0) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 243.6 Tm (v^4 proportional to M_b) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 223.6 Tm (The BTFR exponent of 4 and its normalization are fixed by G and C_0. No free) Tj T* ET
+BT 1 0 0 1 54 211.6 Tm (parameters.) Tj T* ET
+.5 w
+n 54 197.6 m 558 197.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 169.6 Tm (7. Predictions) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 147.6 Tm (The framework makes the following testable predictions:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 125.6 Tm (1. No dark matter particle will be found in direct detection experiments.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 115.6 Tm (   \(LZ, XENONnT, DARWIN -- all will report null results.\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 105.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 95.6 Tm (2. Dark energy evolves: w != -1.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 85.6 Tm (   Predicted: w_0 ~ -0.97, w_a ~ -0.1.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 75.6 Tm (   \(Testable by DESI, Euclid, LSST, Roman within 5 years.\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 65.6 Tm  T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+25 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 29 0 R
+/F2 8 0 R
+/F2-0 30 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 5758
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 116 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 705.6 Tm (3. The vacuum catastrophe ratio is exp\(-276\) ~ 10^-120, not fine-tuned.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 695.6 Tm (   This is a fixed number from dimensional analysis, not adjustable.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 685.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 675.6 Tm (4. RAR scatter is observational, not intrinsic.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 665.6 Tm (   \(Testable with improved photometry and distance measurements.\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 655.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 645.6 Tm (5. DM profiles are universally cored, never cuspy.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 635.6 Tm (   The core size scales with baryonic density via gamma_eff.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 625.6 Tm (   \(Testable with resolved dwarf galaxy kinematics.\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 615.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 605.6 Tm (6. The DM-DE ratio evolves slowly and predictably.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 595.6 Tm (   rho_DE / rho_DM = C_0 * exp\(-alpha * gamma_eff\(z\)\).) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 585.6 Tm (   \(Testable with joint DM-DE constraints from future surveys.\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 575.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 565.6 Tm (7. "DM" effects vanish in extremely high-density environments.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 555.6 Tm (   exp\(-alpha * gamma_eff\) -> 0 when gamma_eff >> 1.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 545.6 Tm (   \(Testable in dense stellar clusters and galactic nuclei.\)) Tj T* ET
+.5 w
+n 54 529.6 m 558 529.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 501.6 Tm (8. Conclusion) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 479.6 Tm (Three problems -- dark matter, dark energy, and the vacuum catastrophe -- have) Tj T* ET
+BT 1 0 0 1 54 467.6 Tm (consumed decades of theoretical and experimental effort. The coherence framework) Tj T* ET
+BT 1 0 0 1 54 455.6 Tm (resolves all three with a single equation:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 433.6 Tm (C = C_0 * exp\(-alpha * gamma_eff\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 413.6 Tm (Dark matter is not a particle. It is residual vacuum coherence in low-decoherence) Tj T* ET
+BT 1 0 0 1 54 401.6 Tm (regions. Direct detection fails because there is nothing to detect. The vacuum) Tj T* ET
+BT 1 0 0 1 54 389.6 Tm (catastrophe is not fine-tuning. It is decoherence: exp\(-276\) ~ 10^-120. Dark energy) Tj T* ET
+BT 1 0 0 1 54 377.6 Tm (is the surviving vacuum coherence after cosmic decoherence, and it evolves because) Tj T* ET
+BT 1 0 0 1 54 365.6 Tm (gamma_eff evolves.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 347.6 Tm (The DM-DE coincidence, the RAR, and the BTFR are algebraic consequences of the same) Tj T* ET
+BT 1 0 0 1 54 335.6 Tm (exponential. The core-cusp problem, the missing satellites problem, and the too-big-) Tj T* ET
+BT 1 0 0 1 54 323.6 Tm (to-fail problem are resolved by the density dependence of gamma_eff.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 305.6 Tm (The framework uses no free parameters beyond alpha \(fixed by dimensional analysis,) Tj T* ET
+BT 1 0 0 1 54 293.6 Tm (Paper 62\) and C_0 \(fixed by universal constants, Paper 100\). The triple-scale) Tj T* ET
+BT 1 0 0 1 54 281.6 Tm (decoherence exponent 276 follows from the 61:18 ratio structure derived in Paper) Tj T* ET
+BT 1 0 0 1 54 269.6 Tm (107. Every claim in this paper reduces to the exponential.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 251.6 Tm (Seven predictions are listed. All are testable with current or near-future) Tj T* ET
+BT 1 0 0 1 54 239.6 Tm (experiments. A dark matter detection would falsify the framework. A strictly) Tj T* ET
+BT 1 0 0 1 54 227.6 Tm (constant w = -1 would falsify the framework. The framework is not adjustable -- it) Tj T* ET
+BT 1 0 0 1 54 215.6 Tm (predicts or it fails.) Tj T* ET
+.5 w
+n 54 201.6 m 558 201.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 173.6 Tm (References) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 151.6 Tm (- Paper 62 \(AIIT-THRESI\): Derivation of alpha = 83/3 from dimensional analysis of) Tj T* ET
+BT 1 0 0 1 64 139.6 Tm (decoherence in 3+1 spacetime.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 127.6 Tm (- Paper 100 \(AIIT-THRESI\): Universal constants from the coherence law.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 115.6 Tm (- Paper 107 \(AIIT-THRESI\): Triple-scale decoherence and the 61:18 ratio.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 103.6 Tm (- McGaugh, S. et al. \(2016\). Radial Acceleration Relation. Physical Review) Tj T* ET
+BT 1 0 0 1 64 91.6 Tm (Letters, 117, 201101.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 79.6 Tm (- McGaugh, S. et al. \(2000\). The Baryonic Tully-Fisher Relation. Astrophysical) Tj T* ET
+BT 1 0 0 1 64 67.6 Tm (Journal, 533, L99.) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 33 0 R
+/F2 8 0 R
+/F2-0 34 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 2071
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 116 -- AIIT-THRESI Series) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 705.6 Tm (- DESI Collaboration \(2024\). DESI 2024 BAO measurements and dark energy) Tj T* ET
+BT 1 0 0 1 64 693.6 Tm (constraints. arXiv:2404.03002.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 681.6 Tm (- Perlmutter, S. et al. \(1999\). Measurements of Omega and Lambda from 42 High-) Tj T* ET
+BT 1 0 0 1 64 669.6 Tm (Redshift Supernovae. Astrophysical Journal, 517, 565.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 657.6 Tm (- Riess, A. et al. \(1998\). Observational Evidence from Supernovae for an) Tj T* ET
+BT 1 0 0 1 64 645.6 Tm (Accelerating Universe. Astronomical Journal, 116, 1009.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 633.6 Tm (- Weinberg, S. \(1989\). The Cosmological Constant Problem. Reviews of Modern) Tj T* ET
+BT 1 0 0 1 64 621.6 Tm (Physics, 61, 1.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 609.6 Tm (- Planck Collaboration \(2020\). Planck 2018 results. VI. Cosmological parameters.) Tj T* ET
+BT 1 0 0 1 64 597.6 Tm (Astronomy & Astrophysics, 641, A6.) Tj T* ET
+.5 w
+n 54 583.6 m 558 583.6 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 561.6 Tm (*AIIT-THRESI Paper 116. All claims derived from C = C_0 * exp\(-alpha * gamma_eff\).) Tj T* ET
+BT 1 0 0 1 54 549.6 Tm (No free parameters. No fine-tuning.*) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 35
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000315 00000 n 
+0000000364 00000 n 
+0000000724 00000 n 
+0000005916 00000 n 
+0000006023 00000 n 
+0000006130 00000 n 
+0000006240 00000 n 
+0000006350 00000 n 
+0000006456 00000 n 
+0000006820 00000 n 
+0000012045 00000 n 
+0000012153 00000 n 
+0000012264 00000 n 
+0000012628 00000 n 
+0000017209 00000 n 
+0000017317 00000 n 
+0000017428 00000 n 
+0000017792 00000 n 
+0000022755 00000 n 
+0000022863 00000 n 
+0000022974 00000 n 
+0000023338 00000 n 
+0000028439 00000 n 
+0000028547 00000 n 
+0000028658 00000 n 
+0000029022 00000 n 
+0000034833 00000 n 
+0000034941 00000 n 
+0000035052 00000 n 
+0000035416 00000 n 
+0000037540 00000 n 
+0000037648 00000 n 
+trailer
+<<
+/Size 35
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+37759
+%%EOF

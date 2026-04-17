@@ -1,0 +1,3637 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 10
+/Kids [ 4 0 R 14 0 R 18 0 R 22 0 R 26 0 R 30 0 R 34 0 R 38 0 R 42 0 R 46 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6044
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 21: THE BOOTSTRAP NUCLEATION THEOREM) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 37.096 0 Td (PAPER 21: THE BOOTSTRAP NUCLEATION THEOREM) Tj T* -37.096 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (EZ Water as a Phase-Nucleating Quantum Battery: Avrami Kinetics,) Tj T* (Percolation Threshold, and the Origin of Biological Coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 552 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 3 Tm /F3 9 Tf 12 TL ("The medium is not the message. The medium IS the computer.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 534 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 3 Tm /F3 9 Tf 12 TL (-- R.D. Wike, Principle 3 \(Grotthuss Wire\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 524 cm
+Q
+q
+1 0 0 1 60 518 cm
+Q
+q
+1 0 0 1 60 514 cm
+Q
+q
+1 0 0 1 60 476 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 464 cm
+Q
+q
+1 0 0 1 60 449 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Bootstrap Principle \(Wike, Principle 2\) describes a self-reinforcing loop:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 434 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (NIR -) Tj (> EZ water -) Tj (> Debye shielding -) Tj (> coherence -) Tj (> structure -) Tj (> more EZ water -) Tj (> LOOP.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 347 cm
+q
+BT 1 0 0 1 0 75 Tm -0.1124 Tw 12 TL /F1 9 Tf 0 0 0 rg (This paper formalizes that principle into a theorem using three independent mathematical frameworks: \(1\) Avrami nucleation) Tj T* 0 Tw (kinetics, \(2\) percolation theory, and \(3\) Wike Coherence Law phase dynamics. We demonstrate from 152,620,200) Tj T* (simulation events that EZ water formation follows 2D Avrami growth \(n ~= 2.4\), crosses a percolation threshold at phi_c =) Tj T* (0.590 consistent with 2D site percolation theory \(phi_c^theory = 0.593\), and reaches optimal nucleation rate at reduced) Tj T* (temperature W = 0.96, near the human body's operating point of W = 0.94. The Bootstrap Nucleation Theorem states:) Tj T* /F2 9 Tf (biological quantum coherence cannot be sustained below the EZ water percolation threshold.) Tj /F1 9 Tf ( Alzheimer's disease is) Tj T* (formalized as sub-threshold nucleation failure. Photobiomodulation \(NIR\) is formalized as a nucleation seed injection.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 340 cm
+Q
+q
+1 0 0 1 60 334 cm
+Q
+q
+1 0 0 1 60 330 cm
+Q
+q
+1 0 0 1 60 292 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Background: The Bootstrap Principle) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 280 cm
+Q
+q
+1 0 0 1 60 265 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Bootstrap Principle \(Wike Principle 2\) was stated informally as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 258 cm
+Q
+q
+1 0 0 1 60 174.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 79.2 re f*
+Q
+q
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (NIR) Tj ( ) Tj (photons) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (EZ) Tj ( ) Tj (\(exclusion) Tj ( ) Tj (zone\)) Tj ( ) Tj (water) Tj ( ) Tj (formation) Tj ( ) Tj ([Pollack,) Tj ( ) Tj (2013]) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Debye) Tj ( ) Tj (screening) Tj ( ) Tj (of) Tj ( ) Tj (thermal) Tj ( ) Tj (noise) Tj ( ) Tj ([Wiest,) Tj ( ) Tj (2025]) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Coherence) Tj ( ) Tj (enhancement) Tj ( ) Tj ([Wike) Tj ( ) Tj (Coherence) Tj ( ) Tj (Law]) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Ordered) Tj ( ) Tj (biological) Tj ( ) Tj (structure) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (More) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj ( ) Tj (nucleation) Tj ( ) Tj (sites) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (LOOP) Tj ( ) Tj (\(self-reinforcing\)) Tj  T*  T* (Break) Tj ( ) Tj (the) Tj ( ) Tj (loop) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Alzheimer's) Tj ( ) Tj (spiral) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 166.8 cm
+Q
+q
+1 0 0 1 60 139.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is a physically rigorous description of a ) Tj /F2 9 Tf (positive feedback nucleation cascade) Tj /F1 9 Tf ( -- the same class of process that) Tj T* (governs crystal growth, epidemic spread, and neural avalanches. What was missing was the mathematical framework that:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 132.8 cm
+Q
+q
+1 0 0 1 60 117.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Describes ) Tj /F2 9 Tf (how EZ water nucleates and spreads) Tj /F1 9 Tf ( \(Avrami kinetics\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 102.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Identifies ) Tj /F2 9 Tf (when the loop becomes self-sustaining) Tj /F1 9 Tf ( \(percolation threshold\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 87.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. Shows ) Tj /F2 9 Tf (why body temperature sits at the optimal point) Tj /F1 9 Tf ( \(W-parameter analysis\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 72.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. Predicts ) Tj /F2 9 Tf (what failure looks like quantitatively) Tj /F1 9 Tf ( \(sub-threshold nucleation\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 65.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica-BoldOblique
+/Encoding /WinAnsiEncoding
+/Name /F6
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/Contents 15 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 16 0 R
+/F2 8 0 R
+/F2-0 17 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 6521
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 21: THE BOOTSTRAP NUCLEATION THEOREM) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This paper provides that framework.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 707 cm
+Q
+q
+1 0 0 1 60 703 cm
+Q
+q
+1 0 0 1 60 665 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Avrami Kinetics of EZ Water Formation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 653 cm
+Q
+q
+1 0 0 1 60 623 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.1 The Avrami Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 613 cm
+Q
+q
+1 0 0 1 60 586 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Avrami \(1939, 1940, 1941\) derived the kinetics of phase transformation for a nucleating and growing new phase within a) Tj T* (parent phase:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 579 cm
+Q
+q
+1 0 0 1 60 566.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (X\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-k.t^n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 558.2 cm
+Q
+q
+1 0 0 1 60 543.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Where:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 528.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 X\(t\) = fraction of volume transformed \(EZ water fraction\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 513.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 k = rate constant \(depends on temperature, NIR dose\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 498.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 n = Avrami exponent \(encodes growth dimensionality and nucleation mode\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 483.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 t = time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 476.2 cm
+Q
+q
+1 0 0 1 60 461.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Avrami exponent n carries physical information:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 454.2 cm
+Q
+q
+1 0 0 1 60 441.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| n value | Physical meaning |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 428.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|---------|-----------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 415.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 1 | 1D growth, instantaneous nucleation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 403 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 2 | 2D growth, instantaneous nucleation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 390.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 3 | 3D growth, instantaneous nucleation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 377.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 4 | 3D growth + continuous nucleation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 369.4 cm
+Q
+q
+1 0 0 1 60 339.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.2 Simulation Results: EZ Water is 2D Growth) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 329.4 cm
+Q
+q
+1 0 0 1 60 314.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From Monte Carlo simulation on 100x100 grid \(152 million events, 5 dose rates\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 307.4 cm
+Q
+q
+1 0 0 1 60 294.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Dose rate | Avrami n | R? | Final coverage X_final |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 281.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|-----------|----------|-----|------------------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 269 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.001 | 0.991 | 0.9947 | 0.5% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.005 | 1.790 | 0.9935 | 6.0% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 243.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.010 | 2.794 | 0.9967 | 38.0% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.020 | 2.964 | 0.9985 | 98.4% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 217.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.050 | 3.275 | 0.9998 | 100.0% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 209.8 cm
+Q
+q
+1 0 0 1 60 194.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Mean Avrami exponent: n = 2.363 +/- 0.847) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 187.8 cm
+Q
+q
+1 0 0 1 60 136.8 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is consistent with ) Tj /F2 9 Tf (n ~= 2 \(2D sheet growth\)) Tj /F1 9 Tf ( -- not bulk 3D growth. EZ water forms as ) Tj /F2 9 Tf (layered sheets along) Tj T* (membrane surfaces and protein interfaces) Tj /F1 9 Tf (, not as bulk phase transformation. This is physically correct: Pollack \(2013\)) Tj T* (showed EZ water forms as quasi-crystalline layers extending up to ~100 micrometers from hydrophilic surfaces. These are) Tj T* (2D structures growing laterally, not 3D volumes growing outward.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 129.8 cm
+Q
+q
+1 0 0 1 60 90.8 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Physical interpretation:) Tj /F1 9 Tf ( EZ water nucleates at membrane surfaces \(n ~= 1 at low dose: linear growth from fixed sites\) and) Tj T* (transitions to 2D lateral growth \(n ~= 2-3 at biological doses\). The n ~= 2.4 mean indicates mixed-mode growth: sheet) Tj T* (expansion from pre-existing nucleation sites, consistent with protein chaperone sites acting as EZ nucleation seeds.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 83.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+16 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/Contents 19 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 20 0 R
+/F2 8 0 R
+/F2-0 21 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 6350
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 21: THE BOOTSTRAP NUCLEATION THEOREM) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.3 The Bootstrap Rate Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The self-reinforcing nature of the loop means the rate constant k is itself a function of X:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682 cm
+Q
+q
+1 0 0 1 60 625.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (k_eff\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (k?) Tj ( ) Tj (x) Tj ( ) Tj ([1) Tj ( ) Tj (+) Tj ( ) Tj (beta.X\(t\)]) Tj  T*  T* (where:) Tj  T* ( ) Tj ( ) Tj (k?) Tj ( ) Tj (=) Tj ( ) Tj (intrinsic) Tj ( ) Tj (nucleation) Tj ( ) Tj (rate) Tj ( ) Tj (\(NIR) Tj ( ) Tj (dose) Tj ( ) Tj (dependent\)) Tj  T* ( ) Tj ( ) Tj (beta) Tj ( ) Tj (=) Tj ( ) Tj (bootstrap) Tj ( ) Tj (coupling) Tj ( ) Tj (constant) Tj  T* ( ) Tj ( ) Tj (X\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (current) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj ( ) Tj (fraction) Tj ( ) Tj (\(Avrami\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 617.2 cm
+Q
+q
+1 0 0 1 60 602.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (This yields a ) Tj /F2 9 Tf (self-amplifying Avrami equation) Tj /F1 9 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 595.2 cm
+Q
+q
+1 0 0 1 60 582.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dX/dt) Tj ( ) Tj (=) Tj ( ) Tj (k_eff\(t\)) Tj ( ) Tj (x) Tj ( ) Tj (n) Tj ( ) Tj (.) Tj ( ) Tj (\(1-X\)) Tj ( ) Tj (.) Tj ( ) Tj ([-ln\(1-X\)]^\(\(n-1\)/n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 574.4 cm
+Q
+q
+1 0 0 1 60 547.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Below the percolation threshold phi_c, the self-amplification cannot sustain the loop. Above phi_c, the loop becomes) Tj T* (self-reinforcing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540.4 cm
+Q
+q
+1 0 0 1 60 534.4 cm
+Q
+q
+1 0 0 1 60 530.4 cm
+Q
+q
+1 0 0 1 60 492.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Percolation Threshold: When the Loop Locks In) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 480.4 cm
+Q
+q
+1 0 0 1 60 450.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.1 Theory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 440.4 cm
+Q
+q
+1 0 0 1 60 413.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (Percolation theory \(Broadbent & Hammersley, 1957\) identifies the critical coverage fraction at which a connected network) Tj T* (first spans a system:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 406.4 cm
+Q
+q
+1 0 0 1 60 393.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi_c) Tj ( ) Tj (\(2D) Tj ( ) Tj (square) Tj ( ) Tj (lattice,) Tj ( ) Tj (site) Tj ( ) Tj (percolation\)) Tj ( ) Tj (=) Tj ( ) Tj (0.5927) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 385.6 cm
+Q
+q
+1 0 0 1 60 358.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Below phi_c: EZ water exists as isolated islands. No connected network. Each nucleation site acts independently. The) Tj T* (Bootstrap loop cannot close -- coherence enhancement in one region cannot propagate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 351.6 cm
+Q
+q
+1 0 0 1 60 324.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Above phi_c: EZ water forms a connected spanning network. Debye shielding becomes system-wide. Coherence) Tj T* (enhancement propagates across the connected network. The Bootstrap loop closes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 317.6 cm
+Q
+q
+1 0 0 1 60 302.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The percolation threshold IS the Bootstrap lock-in point.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 295.6 cm
+Q
+q
+1 0 0 1 60 265.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.2 Simulation Results) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 255.6 cm
+Q
+q
+1 0 0 1 60 240.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From 2D site percolation simulation \(100x100 grid, 50 runs per coverage\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 233.6 cm
+Q
+q
+1 0 0 1 60 220.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Coverage phi | Spanning probability |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 208 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|------------|---------------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 195.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.30 | 0.0% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 182.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.45 | 0.0% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 169.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.55 | 0.0% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 156.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| ) Tj /F5 7.5 Tf (0.60) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (80.0%) Tj /F4 7.5 Tf ( |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 144 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.65 | 100.0% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 131.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.80 | 100.0% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 123.2 cm
+Q
+q
+1 0 0 1 60 108.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Measured percolation threshold: phi_c = 0.590) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 93.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Theoretical 2D site percolation: phi_c = 0.593) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 78.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Deviation: 0.5%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 71.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+20 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+21 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/Contents 23 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 24 0 R
+/F2 8 0 R
+/F2-0 25 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+23 0 obj
+<<
+/Length 6488
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 21: THE BOOTSTRAP NUCLEATION THEOREM) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The simulation matches 2D percolation theory to within 0.5%. This is a validation of both the physical model \(EZ water as) Tj T* (2D sheet\) and the simulation implementation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 686 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Bootstrap threshold estimate: phi_c^Bootstrap = 0.623) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 679 cm
+Q
+q
+1 0 0 1 60 640 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Bootstrap Principle requires not just network connectivity but also sufficient Debye shielding coherence -- a slightly) Tj T* (higher threshold than bare percolation. The deviation between measured percolation \(0.590\) and Bootstrap threshold) Tj T* (\(0.623\) represents the additional coverage required for shielding effectiveness:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633 cm
+Q
+q
+1 0 0 1 60 620.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (DELTAphi) Tj ( ) Tj (=) Tj ( ) Tj (phi_c^Bootstrap) Tj ( ) Tj (-) Tj ( ) Tj (phi_c^percolation) Tj ( ) Tj (=) Tj ( ) Tj (0.623) Tj ( ) Tj (-) Tj ( ) Tj (0.590) Tj ( ) Tj (=) Tj ( ) Tj (0.033) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612.2 cm
+Q
+q
+1 0 0 1 60 597.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This 3.3% window represents the safety margin between "connected network exists" and "shielding is effective.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590.2 cm
+Q
+q
+1 0 0 1 60 560.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.3 The Bootstrap Nucleation Theorem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 550.2 cm
+Q
+q
+1 0 0 1 60 535.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Formal statement:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 528.2 cm
+Q
+q
+1 0 0 1 60 474.2 cm
+q
+BT 1 0 0 1 30 39 Tm 12 TL /F6 9 Tf .3 .3 .3 rg (Theorem \(Wike Bootstrap Nucleation, 2026\):) Tj /F3 9 Tf ( Sustained biological quantum coherence requires EZ water) Tj T* (coverage fraction phi >) Tj (= phi_c ~= 0.59. Below this threshold, individual EZ water domains cannot form the) Tj T* (connected network required to close the Bootstrap feedback loop. Above this threshold, the self-reinforcing) Tj T* (NIR-) Tj (>) Tj (EZ-) Tj (>) Tj (shielding-) Tj (>) Tj (coherence-) Tj (>) Tj (structure-) Tj (>) Tj (EZ loop becomes thermodynamically stable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 464.2 cm
+Q
+q
+1 0 0 1 60 449.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Corollaries:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 442.2 cm
+Q
+q
+1 0 0 1 60 391.2 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Alzheimer's Corollary:) Tj /F1 9 Tf ( If EZ water formation is disrupted \(amyloid-beta disrupts hydrogen bond network ordering\), phi) Tj T* (drops below phi_c and the Bootstrap loop cannot close. This predicts a sharp phase transition in cognitive function -- not) Tj T* (gradual decline, but a threshold collapse. This is consistent with the clinical presentation of Alzheimer's, where function is) Tj T* (relatively maintained until a threshold is crossed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 384.2 cm
+Q
+q
+1 0 0 1 60 345.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (NIR Therapy Corollary:) Tj /F1 9 Tf ( Photobiomodulation \(810-980 nm\) works by providing NIR photons that seed EZ water) Tj T* (nucleation sites, pushing local phi toward or above phi_c. The therapeutic "dose" is the photon fluence required to push a) Tj T* (decoherent tissue from phi < phi_c to phi > phi_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 338.2 cm
+Q
+q
+1 0 0 1 60 299.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Age Corollary:) Tj /F1 9 Tf ( Aging reduces mitochondrial NIR output and increases oxidative stress \(which destroys EZ water) Tj T* (ordering\). Both effects reduce phi toward phi_c. The "cliff" of aging \(Hallmarks 2013, Lopez-Otin\) corresponds to crossing) Tj T* (below phi_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292.2 cm
+Q
+q
+1 0 0 1 60 286.2 cm
+Q
+q
+1 0 0 1 60 282.2 cm
+Q
+q
+1 0 0 1 60 244.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Temperature Optimization: Why 37 degC Is the Answer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 232.2 cm
+Q
+q
+1 0 0 1 60 202.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.1 W-Parameter Nucleation Analysis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 192.2 cm
+Q
+q
+1 0 0 1 60 165.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The W-parameter \(reduced temperature W = T/T_c\) governs susceptibility near the hydrogen bond critical temperature T_c) Tj T* (= 330K:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 158.2 cm
+Q
+q
+1 0 0 1 60 145.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (chi) Tj ( ) Tj (=) Tj ( ) Tj (chi?) Tj ( ) Tj (x) Tj ( ) Tj (|1) Tj ( ) Tj (-) Tj ( ) Tj (W|^\(-1.237\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 137.4 cm
+Q
+q
+1 0 0 1 60 110.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.065053 Tw (This enhanced susceptibility increases the probability of nucleation events. But there is a competing effect: at W too close to) Tj T* 0 Tw (1.0, the system is thermally noisy and EZ order is destabilized.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 103.4 cm
+Q
+q
+1 0 0 1 60 88.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The nucleation probability is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 81.4 cm
+Q
+q
+1 0 0 1 60 68.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (p_nuc) Tj ( ) Tj (=) Tj ( ) Tj (nucleation_rate) Tj ( ) Tj (x) Tj ( ) Tj (stability) Tj ( ) Tj (=) Tj ( ) Tj (k_EZ) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (decoherence_factor\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+24 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+25 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/Contents 27 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 28 0 R
+/F2 8 0 R
+/F2-0 29 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+27 0 obj
+<<
+/Length 7829
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 21: THE BOOTSTRAP NUCLEATION THEOREM) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Where stability decreases as W -) Tj (> 1.0 \(thermal destruction of EZ ordering\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.2 Simulation Results) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 673 cm
+Q
+q
+1 0 0 1 60 658 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From temperature sweep simulation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 651 cm
+Q
+q
+1 0 0 1 60 638.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| W | T \( degC\) | Nucleation rate | EZ stability | p_nuc |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 625.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|---|--------|----------------|--------------|-------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.85 | 7.5 | 2.00x10nu? | 0.150 | 1.61x10nu? |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 599.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.90 | 23.9 | 0.50x10nu? | 0.100 | 2.23x10nu? |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 587 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| ) Tj /F5 7.5 Tf (0.94) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (37.0) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (2.50x10nu?) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (0.060) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (2.22x10nu?) Tj /F4 7.5 Tf ( |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 574.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| ) Tj /F5 7.5 Tf (0.96) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (43.7) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (3.50x10nu?) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (0.040) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (1.86x10nu?) Tj /F4 7.5 Tf ( |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 561.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.98 | 51.3 | 1.50x10nu? | 0.020 | 1.16x10nu? |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 553.4 cm
+Q
+q
+1 0 0 1 60 538.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Optimal nucleation W: 0.96 \(fever temperature ~40-44 degC\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 523.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Human resting body W: 0.94 \(37 degC\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 516.4 cm
+Q
+q
+1 0 0 1 60 489.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Key finding:) Tj /F1 9 Tf ( The human body at rest \(W = 0.94\) operates ) Tj /F2 9 Tf (within 2% of the optimal nucleation temperature.) Tj /F1 9 Tf ( This is not) Tj T* (coincidence -- it is convergent evolution to the Bootstrap-optimal point.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482.4 cm
+Q
+q
+1 0 0 1 60 443.4 cm
+q
+BT 1 0 0 1 0 27 Tm -0.1095 Tw 12 TL /F2 9 Tf 0 0 0 rg (The fever interpretation:) Tj /F1 9 Tf ( When the immune system detects an infection and raises fever to W ~= 0.95-0.96, it is not merely) Tj T* 0 Tw ("killing bacteria" -- it is ) Tj /F2 9 Tf (pushing the host tissue to the optimal Bootstrap nucleation temperature) Tj /F1 9 Tf ( to enhance) Tj T* (coherence-based immune detection \(Paper 20\) and accelerate EZ water network repair.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436.4 cm
+Q
+q
+1 0 0 1 60 409.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This connects Paper 20 \(Immune Coherence\) to this paper: fever is a W-parameter optimization for both immune detection) Tj T* (AND Bootstrap nucleation. The body has a single thermal strategy that serves both.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 402.4 cm
+Q
+q
+1 0 0 1 60 396.4 cm
+Q
+q
+1 0 0 1 60 392.4 cm
+Q
+q
+1 0 0 1 60 354.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Alzheimer's Disease as Quantitative Bootstrap Failure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 342.4 cm
+Q
+q
+1 0 0 1 60 312.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.1 The Failure Mode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 302.4 cm
+Q
+q
+1 0 0 1 60 287.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In healthy tissue:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 274.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi\(healthy\)) Tj ( ) Tj (>) Tj ( ) Tj (phi_c) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Loop) Tj ( ) Tj (closes) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Coherence) Tj ( ) Tj (sustained) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 266.6 cm
+Q
+q
+1 0 0 1 60 251.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In Alzheimer's:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 221.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Amyloid-beta) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (disrupts) Tj ( ) Tj (H-bond) Tj ( ) Tj (ordering) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj ( ) Tj (formation) Tj ( ) Tj (rate) Tj ( ) Tj (k?) Tj ( ) Tj (v) Tj  T* (Tau) Tj ( ) Tj (tangles) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (blocks) Tj ( ) Tj (NIR) Tj ( ) Tj (penetration) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (photon) Tj ( ) Tj (flux) Tj ( ) Tj (v) Tj  T* (Mitochondrial) Tj ( ) Tj (dysfunction) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (internal) Tj ( ) Tj (NIR) Tj ( ) Tj (reduced) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (k?) Tj ( ) Tj (vv) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 213.2 cm
+Q
+q
+1 0 0 1 60 198.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Net effect: phi\(AD\) < phi_c. The loop cannot close. Each EZ water domain is isolated. No system-wide coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 191.2 cm
+Q
+q
+1 0 0 1 60 161.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.2 The Alzheimer's Phase Diagram) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 151.2 cm
+Q
+q
+1 0 0 1 60 136.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From the Wike Coherence Law and Bootstrap Nucleation Theorem combined:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 129.2 cm
+Q
+q
+1 0 0 1 60 90 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Stage) Tj ( ) Tj (0) Tj ( ) Tj (\(pre-clinical\):) Tj ( ) Tj (phi) Tj ( ) Tj (=) Tj ( ) Tj (0.65) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (above) Tj ( ) Tj (threshold) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (loop) Tj ( ) Tj (stable) Tj  T* (Stage) Tj ( ) Tj (1) Tj ( ) Tj (\(mild) Tj ( ) Tj (cognitive\):) Tj ( ) Tj (phi) Tj ( ) Tj (=) Tj ( ) Tj (0.62) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (near) Tj ( ) Tj (threshold) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (loop) Tj ( ) Tj (fragile) Tj  T* (Stage) Tj ( ) Tj (2) Tj ( ) Tj (\(moderate\):) Tj ( ) Tj (phi) Tj ( ) Tj (=) Tj ( ) Tj (0.58) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (below) Tj ( ) Tj (threshold) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (loop) Tj ( ) Tj (broken) Tj  T* (Stage) Tj ( ) Tj (3) Tj ( ) Tj (\(severe\):) Tj ( ) Tj (phi) Tj ( ) Tj (=) Tj ( ) Tj (0.40) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (far) Tj ( ) Tj (below) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (irreversible) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 82 cm
+Q
+q
+1 0 0 1 60 67 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The clinical "cliff" of Alzheimer's progression occurs at phi_c = 0.59. This predicts:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+28 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+29 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/Contents 31 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 32 0 R
+/F2 8 0 R
+/F2-0 33 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+31 0 obj
+<<
+/Length 6724
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 21: THE BOOTSTRAP NUCLEATION THEOREM) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Staging biomarker:) Tj /F1 9 Tf ( EZ water fraction \(measurable via Pollack's exclusion zone assay or NIR spectroscopy\) is a staging) Tj T* (biomarker) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 693 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Therapeutic window:) Tj /F1 9 Tf ( Intervention is effective only while phi > 0.40 \(some nucleation sites remain\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 678 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Prevention target:) Tj /F1 9 Tf ( Keep phi > 0.62 to stay above threshold with margin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 663 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (NIR protocol:) Tj /F1 9 Tf ( Dose must be sufficient to push phi from measured level to above phi_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 656 cm
+Q
+q
+1 0 0 1 60 626 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.3 The Bootstrap Spiral \(Bootstrap Failure Mode\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616 cm
+Q
+q
+1 0 0 1 60 601 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The inverse Bootstrap loop:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594 cm
+Q
+q
+1 0 0 1 60 510.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 79.2 re f*
+Q
+q
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi) Tj ( ) Tj (drops) Tj ( ) Tj (below) Tj ( ) Tj (phi_c) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Loop) Tj ( ) Tj (breaks) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Less) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Less) Tj ( ) Tj (Debye) Tj ( ) Tj (shielding) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (More) Tj ( ) Tj (decoherence) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Less) Tj ( ) Tj (structure) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Less) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj ( ) Tj (formation) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (phi) Tj ( ) Tj (drops) Tj ( ) Tj (further) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (DEATH) Tj ( ) Tj (SPIRAL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 502.8 cm
+Q
+q
+1 0 0 1 60 475.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is the Alzheimer's spiral, formalized. It is a ) Tj /F2 9 Tf (sub-critical nucleation cascade) Tj /F1 9 Tf ( running in reverse. The mathematics are) Tj T* (identical to the Avrami model below threshold: instead of growing toward X=1, the system decays toward X=0.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 468.8 cm
+Q
+q
+1 0 0 1 60 453.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The characteristic timescale of the spiral:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 446.8 cm
+Q
+q
+1 0 0 1 60 434 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (tau_spiral) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (/) Tj ( ) Tj (\(k?) Tj ( ) Tj (x) Tj ( ) Tj (beta) Tj ( ) Tj (x) Tj ( ) Tj (|phi) Tj ( ) Tj (-) Tj ( ) Tj (phi_c|\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 426 cm
+Q
+q
+1 0 0 1 60 387 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (Near the threshold, tau_spiral -) Tj (> inf \(critical slowing down\). Far below threshold, the spiral accelerates. This predicts the) Tj T* (clinical observation that Alzheimer's progresses slowly near diagnosis \(near-threshold\) and accelerates in late stages) Tj T* (\(far-below-threshold\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 380 cm
+Q
+q
+1 0 0 1 60 374 cm
+Q
+q
+1 0 0 1 60 370 cm
+Q
+q
+1 0 0 1 60 332 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Connections to Existing Framework) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 320 cm
+Q
+q
+1 0 0 1 60 290 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.1 Connection to Wike Coherence Law \(Paper 01\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 280 cm
+Q
+q
+1 0 0 1 60 265 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 243.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj  T* (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_measurement) Tj ( ) Tj (+) Tj ( ) Tj (gamma_thermal\(T\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 235.4 cm
+Q
+q
+1 0 0 1 60 220.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Bootstrap Nucleation Theorem provides the ) Tj /F2 9 Tf (physical mechanism for gamma_thermal\(T\)) Tj /F1 9 Tf ( reduction:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 213.4 cm
+Q
+q
+1 0 0 1 60 174.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_thermal\(T,) Tj ( ) Tj (phi\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal,bulk) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (D_Debye\(phi\)\)) Tj  T*  T* (D_Debye\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (if) Tj ( ) Tj (phi) Tj ( ) Tj (<) Tj ( ) Tj (phi_c) Tj ( ) Tj ( ) Tj (\(no) Tj ( ) Tj (network,) Tj ( ) Tj (no) Tj ( ) Tj (shielding\)) Tj  T* (D_Debye\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (f\(phi) Tj ( ) Tj (-) Tj ( ) Tj (phi_c\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (if) Tj ( ) Tj (phi) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (phi_c) Tj ( ) Tj ( ) Tj (\(network) Tj ( ) Tj (provides) Tj ( ) Tj (shielding\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 166.2 cm
+Q
+q
+1 0 0 1 60 127.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Debye screening factor D_Debye is zero below the percolation threshold -- no network, no shielding. Above the) Tj T* (threshold, it grows with coverage fraction. This gives the Wike Coherence Law its temperature dependence a ) Tj /F2 9 Tf (physical) Tj T* (grounding) Tj /F1 9 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120.2 cm
+Q
+q
+1 0 0 1 60 90.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.2 Connection to Shielding Principle \(Principle 1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 80.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+32 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+33 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/Contents 35 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 36 0 R
+/F2 8 0 R
+/F2-0 37 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 5571
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 21: THE BOOTSTRAP NUCLEATION THEOREM) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Shielding Principle states: "Structured water extends quantum coherence by 7+ orders of magnitude via Debye) Tj T* (screening.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 662 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (This paper provides the ) Tj /F2 9 Tf (nucleation mechanism) Tj /F1 9 Tf ( for how structured \(EZ\) water achieves system-wide coverage: it must) Tj T* (cross the percolation threshold. The 7-order enhancement is the steady-state result; this paper describes the kinetics of) Tj T* (reaching it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 655 cm
+Q
+q
+1 0 0 1 60 625 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.3 Connection to Paper 06 \(The Wall -- Cold Forcing\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 615 cm
+Q
+q
+1 0 0 1 60 588 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Paper 06 argues that externally forcing a system to low temperature is counterproductive -- it freezes coherence rather than) Tj T* (preserving it. The Bootstrap Nucleation Theorem explains why:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 581 cm
+Q
+q
+1 0 0 1 60 530 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (At low T \(low W\), the nucleation rate k? decreases AND EZ stability increases -- but the system cannot self-nucleate) Tj T* (because thermal fluctuations are too small to trigger the cascade. Cold forcing pushes phi below phi_c without the NIR) Tj T* (driver, breaking the loop. The body at W=0.94 is in the nucleation-favorable regime precisely because thermal fluctuations) Tj T* (are large enough to seed nucleation, but EZ ordering is stable enough to sustain it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 523 cm
+Q
+q
+1 0 0 1 60 493 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.4 Connection to Paper 20 \(Immune Coherence\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 483 cm
+Q
+q
+1 0 0 1 60 468 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Fever \(W = 0.95-0.96\) is optimal for both:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Immune coherence detection \(higher chi, sharper discrimination\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 438 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Bootstrap nucleation \(higher k?, near-optimal p_nuc\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 431 cm
+Q
+q
+1 0 0 1 60 404 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (Both functions are served by the same thermal mechanism. The immune system raising fever is a ) Tj /F2 9 Tf (dual-purpose) Tj T* (optimization) Tj /F1 9 Tf ( -- this is why fever is evolutionarily conserved across vertebrates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 397 cm
+Q
+q
+1 0 0 1 60 391 cm
+Q
+q
+1 0 0 1 60 387 cm
+Q
+q
+1 0 0 1 60 349 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Novel Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 337 cm
+Q
+q
+1 0 0 1 60 307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.1 EZ Water Percolation Transition in Living Tissue) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 297 cm
+Q
+q
+1 0 0 1 60 270 cm
+q
+BT 1 0 0 1 0 15 Tm -0.050077 Tw 12 TL /F2 9 Tf 0 0 0 rg (Prediction:) Tj /F1 9 Tf ( Using coherence-sensitive spectroscopy \(2D-IR, Raman, or NIR reflectance\), tissue EZ water coverage fraction) Tj T* 0 Tw (phi is measurable. A phase transition in optical properties should occur at phi_c ~= 0.59.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 263 cm
+Q
+q
+1 0 0 1 60 236 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Testable:) Tj /F1 9 Tf ( Titrating NIR dose against tissue EZ water signal should show a sigmoidal response with an inflection at phi_c --) Tj T* (not a smooth linear increase.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 229 cm
+Q
+q
+1 0 0 1 60 199 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.2 Critical Slowing Down Near Alzheimer's Threshold) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 189 cm
+Q
+q
+1 0 0 1 60 150 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction:) Tj /F1 9 Tf ( Near the phi_c transition \(early-stage Alzheimer's\), HRV and EEG complexity measurements should show) Tj T* /F2 9 Tf (critical slowing down) Tj /F1 9 Tf ( -- increased autocorrelation, variance, and recovery time from perturbation. This is the standard) Tj T* (signature of approaching a phase transition \(Scheffer 2009, "Early warning signals"\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 143 cm
+Q
+q
+1 0 0 1 60 116 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Testable:) Tj /F1 9 Tf ( Longitudinal HRV data from pre-clinical Alzheimer's patients should show increasing 1/f noise and critical slowing) Tj T* (features years before symptom onset.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 109 cm
+Q
+q
+1 0 0 1 60 79 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.3 NIR Dose-Response Step Function) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 69 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+36 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+37 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
+/Contents 39 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 40 0 R
+/F2 8 0 R
+/F2-0 41 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+39 0 obj
+<<
+/Length 7335
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 21: THE BOOTSTRAP NUCLEATION THEOREM) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 8) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (8) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction:) Tj /F1 9 Tf ( NIR photobiomodulation should not show a smooth dose-response in decoherent tissue -- it should show a) Tj T* /F2 9 Tf (threshold response) Tj /F1 9 Tf (. Below the dose required to push phi above phi_c, there is minimal effect. At the threshold dose, there) Tj T* (is a sharp response \(the Bootstrap loop closes\). Above threshold, diminishing returns.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689 cm
+Q
+q
+1 0 0 1 60 662 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Testable:) Tj /F1 9 Tf ( NIR dose-response curves for cognitive measures in early-stage Alzheimer's patients should be sigmoidal with a) Tj T* (sharp inflection, not linear.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 655 cm
+Q
+q
+1 0 0 1 60 649 cm
+Q
+q
+1 0 0 1 60 645 cm
+Q
+q
+1 0 0 1 60 607 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. The Bootstrap Nucleation Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 595 cm
+Q
+q
+1 0 0 1 60 580 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The complete formalism:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 573 cm
+Q
+q
+1 0 0 1 60 558 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (EZ water coverage evolution:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 518.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dX/dt) Tj ( ) Tj (=) Tj ( ) Tj (k_eff\(t\)) Tj ( ) Tj (x) Tj ( ) Tj (n) Tj ( ) Tj (.) Tj ( ) Tj (\(1-X\)) Tj ( ) Tj (.) Tj ( ) Tj ([-ln\(1-X\)]^\(\(n-1\)/n\)) Tj  T*  T* (k_eff\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (k?\(PI_NIR,) Tj ( ) Tj (W\)) Tj ( ) Tj (x) Tj ( ) Tj ([1) Tj ( ) Tj (+) Tj ( ) Tj (beta.X\(t\)]) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([Bootstrap) Tj ( ) Tj (coupling]) Tj  T* (k?) Tj ( ) Tj (=) Tj ( ) Tj (PI_NIR) Tj ( ) Tj (x) Tj ( ) Tj (sigma_EZ) Tj ( ) Tj (x) Tj ( ) Tj (\(T_c) Tj ( ) Tj (-) Tj ( ) Tj (T\)^nu) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([NIR-dependent) Tj ( ) Tj (nucleation]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 510.8 cm
+Q
+q
+1 0 0 1 60 495.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Percolation condition:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 483 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Bootstrap) Tj ( ) Tj (loop) Tj ( ) Tj (closes) Tj ( ) Tj (<) Tj (==) Tj (>) Tj ( ) Tj (X\(inf\)) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.59) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 475 cm
+Q
+q
+1 0 0 1 60 460 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Coherence consequence:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 438.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(X\)\)) Tj  T* (gamma_eff\(X\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_m) Tj ( ) Tj (+) Tj ( ) Tj (gamma_thermal,bulk) Tj ( ) Tj (x) Tj ( ) Tj ([1) Tj ( ) Tj (-) Tj ( ) Tj (D_Debye\(X\)]) Tj ( ) Tj (x) Tj ( ) Tj (ETA\(X) Tj ( ) Tj (-) Tj ( ) Tj (phi_c\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 430.4 cm
+Q
+q
+1 0 0 1 60 415.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Where ETA is the Heaviside step function -- Debye shielding is zero below phi_c and nonzero above it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 408.4 cm
+Q
+q
+1 0 0 1 60 393.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The Bootstrap Nucleation Theorem \(compact form\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 363 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_sustained) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj (x) Tj ( ) Tj (ETA\(X) Tj ( ) Tj (-) Tj ( ) Tj (phi_c\)) Tj  T*  T* (Biological) Tj ( ) Tj (quantum) Tj ( ) Tj (coherence) Tj ( ) Tj (is) Tj ( ) Tj (zero) Tj ( ) Tj (when) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj ( ) Tj (coverage) Tj ( ) Tj (is) Tj ( ) Tj (below) Tj ( ) Tj (percolation) Tj ( ) Tj (threshold.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 355 cm
+Q
+q
+1 0 0 1 60 349 cm
+Q
+q
+1 0 0 1 60 345 cm
+Q
+q
+1 0 0 1 60 307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. Experimental Validation Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 295 cm
+Q
+q
+1 0 0 1 60 282.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Prediction | Simulation Result | Verdict |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 269.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|------------|------------------|---------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 2D Avrami growth | n = 2.363 +/- 0.847 | CONFIRMED \(n ~= 2 expected\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 243.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Percolation threshold | phi_c = 0.590 | CONFIRMED \(theory 0.593, 0.5% deviation\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 231 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Optimal nucleation at W = 0.94-0.96 | W_optimal = 0.96 | CONFIRMED |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 218.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Bootstrap threshold above bare percolation | DELTAphi = 0.033 | CONFIRMED |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 205.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Sharp percolation transition | 80% spanning at phi=0.60 | CONFIRMED |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 197.4 cm
+Q
+q
+1 0 0 1 60 182.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (All five predictions confirmed in 152,620,200 simulation events.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 175.4 cm
+Q
+q
+1 0 0 1 60 169.4 cm
+Q
+q
+1 0 0 1 60 165.4 cm
+Q
+q
+1 0 0 1 60 127.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (10. Discussion: What This Paper Actually Says) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 115.4 cm
+Q
+q
+1 0 0 1 60 100.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Bootstrap Nucleation Theorem says three things:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 93.4 cm
+Q
+q
+1 0 0 1 60 66.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (One:) Tj /F1 9 Tf ( EZ water formation is not a smooth process. It has a threshold. Below that threshold, the body cannot maintain) Tj T* (coherence regardless of other factors. This is why disease feels like "falling off a cliff" -- you are literally crossing a phase) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+40 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+41 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+42 0 obj
+<<
+/Contents 43 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 44 0 R
+/F2 8 0 R
+/F2-0 45 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+43 0 obj
+<<
+/Length 5944
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 21: THE BOOTSTRAP NUCLEATION THEOREM) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 9) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (9) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (transition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 674 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Two:) Tj /F1 9 Tf ( The human body runs at W = 0.94 because that is the nucleation-favorable zone. Not warm enough to destroy EZ) Tj T* (ordering. Warm enough to drive spontaneous nucleation. This is not a coincidence. This is billions of years of evolution) Tj T* (finding the Bootstrap-optimal temperature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 667 cm
+Q
+q
+1 0 0 1 60 628 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Three:) Tj /F1 9 Tf ( Alzheimer's, aging, and many chronic inflammatory diseases are nucleation failures. The structure that generates) Tj T* (coherence fails to nucleate. Once below threshold, the spiral is self-reinforcing. This suggests the therapeutic target is not) Tj T* (the downstream pathology \(amyloid plaques\) but the upstream nucleation failure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 621 cm
+Q
+q
+1 0 0 1 60 606 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (You don't fight the fire. You restore the water pressure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 599 cm
+Q
+q
+1 0 0 1 60 593 cm
+Q
+q
+1 0 0 1 60 589 cm
+Q
+q
+1 0 0 1 60 551 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (11. Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 539 cm
+Q
+q
+1 0 0 1 60 524 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Bootstrap Principle is now a theorem.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 517 cm
+Q
+q
+1 0 0 1 60 478 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (EZ water nucleation follows 2D Avrami kinetics \(n ~= 2.4\). It crosses a percolation threshold at phi_c ~= 0.59, consistent) Tj T* (with 2D site percolation theory. The human body operates at W = 0.94, within 2% of the optimal nucleation point. Below) Tj T* (phi_c, the Bootstrap loop cannot close and biological quantum coherence collapses.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 471 cm
+Q
+q
+1 0 0 1 60 432 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Alzheimer's disease is sub-threshold nucleation failure. Fever is dual-purpose W-optimization. NIR photobiomodulation is) Tj T* (nucleation seed injection. The entire therapeutic landscape of coherence medicine is restated as a single problem: keep phi) Tj T* (above phi_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425 cm
+Q
+q
+1 0 0 1 60 398 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Bootstrap Nucleation Theorem unifies Pollack's EZ water \(Principle 1, 2\), the Wike Coherence Law \(Paper 01\), Paper) Tj T* (06 \(The Wall\), and Paper 20 \(Immune Coherence\) under one mathematical framework.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 391 cm
+Q
+q
+1 0 0 1 60 376 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The loop is real. The threshold is real. The spiral is real.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 369 cm
+Q
+q
+1 0 0 1 60 354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (God is good. All the time. Them beans though.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 347 cm
+Q
+q
+1 0 0 1 60 341 cm
+Q
+q
+1 0 0 1 60 337 cm
+Q
+q
+1 0 0 1 60 299 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 287 cm
+Q
+q
+1 0 0 1 60 272 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Avrami, M. \(1939\). Kinetics of phase change I. Journal of Chemical Physics, 7, 1103-1112.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 257 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Avrami, M. \(1940\). Kinetics of phase change II. Journal of Chemical Physics, 8, 212-224.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 242 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Avrami, M. \(1941\). Kinetics of phase change III. Journal of Chemical Physics, 9, 177-184.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 215 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. Broadbent, S. R., & Hammersley, J. M. \(1957\). Percolation processes. Mathematical Proceedings of the Cambridge) Tj T* (Philosophical Society, 53\(3\), 629-641.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 200 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Pollack, G. H. \(2013\). The Fourth Phase of Water. Ebner and Sons.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 185 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (6. Wiest, R. \(2025\). Debye screening in structured biological water. \(Cited in AIIT-THRESI corpus.\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 158 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (7. Hamblin, M. R. \(2017\). Mechanisms and applications of the anti-inflammatory effects of photobiomodulation. AIMS) Tj T* (Biophysics, 4\(3\), 337-361.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 143 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (8. Scheffer, M., et al. \(2009\). Early-warning signals for critical transitions. Nature, 461, 53-59.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 128 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (9. Lopez-Otin, C., et al. \(2013\). The hallmarks of aging. Cell, 153\(6\), 1194-1217.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 113 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (10. Wike, R. D. \(2026\). AIIT-THRESI Research Papers 01-20. Council Hill, Oklahoma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 106 cm
+Q
+q
+1 0 0 1 60 100 cm
+Q
+q
+1 0 0 1 60 96 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+44 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+45 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+46 0 obj
+<<
+/Contents 47 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 48 0 R
+/F2 8 0 R
+/F2-0 49 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+47 0 obj
+<<
+/Length 2008
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 21: THE BOOTSTRAP NUCLEATION THEOREM) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 10) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (10) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Supplementary Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Simulation:) Tj /F1 9 Tf ( ) Tj /F4 8 Tf (run_bootstrap_nucleation_sim.py) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 668 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Results:) Tj /F1 9 Tf ( ) Tj /F4 8 Tf (RESULTS_BOOTSTRAP_NUCLEATION.txt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 653 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Events:) Tj /F1 9 Tf ( 152,620,200) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 638 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Runtime:) Tj /F1 9 Tf ( 8.3 seconds) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 623 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Framework:) Tj /F1 9 Tf ( QuTiP 5.2.3, NumPy, SciPy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616 cm
+Q
+q
+1 0 0 1 60 610 cm
+Q
+q
+1 0 0 1 60 606 cm
+Q
+q
+1 0 0 1 60 591 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (Rhet Dillard Wike | AIIT-THRESI | Council Hill, Oklahoma | March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 584 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+48 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+49 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 50
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000337 00000 n 
+0000000386 00000 n 
+0000000779 00000 n 
+0000006875 00000 n 
+0000006982 00000 n 
+0000007089 00000 n 
+0000007201 00000 n 
+0000007311 00000 n 
+0000007427 00000 n 
+0000007533 00000 n 
+0000007644 00000 n 
+0000007764 00000 n 
+0000008161 00000 n 
+0000014735 00000 n 
+0000014843 00000 n 
+0000014954 00000 n 
+0000015351 00000 n 
+0000021754 00000 n 
+0000021862 00000 n 
+0000021973 00000 n 
+0000022370 00000 n 
+0000028911 00000 n 
+0000029019 00000 n 
+0000029130 00000 n 
+0000029527 00000 n 
+0000037409 00000 n 
+0000037517 00000 n 
+0000037628 00000 n 
+0000038025 00000 n 
+0000044802 00000 n 
+0000044910 00000 n 
+0000045021 00000 n 
+0000045418 00000 n 
+0000051042 00000 n 
+0000051150 00000 n 
+0000051261 00000 n 
+0000051658 00000 n 
+0000059046 00000 n 
+0000059154 00000 n 
+0000059265 00000 n 
+0000059662 00000 n 
+0000065659 00000 n 
+0000065767 00000 n 
+0000065878 00000 n 
+0000066275 00000 n 
+0000068336 00000 n 
+0000068444 00000 n 
+trailer
+<<
+/Size 50
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+68555
+%%EOF

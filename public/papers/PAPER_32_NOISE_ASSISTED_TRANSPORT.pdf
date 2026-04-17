@@ -1,0 +1,3920 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 12
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R 28 0 R 32 0 R 36 0 R 40 0 R 44 0 R 48 0 R 52 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5719
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 86.424 0 Td (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* -86.424 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Noise-Assisted Quantum Transport and Why Life Needs Noise) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 624 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 24 Tm /F2 12 Tf 18 TL (The Optimal Decoherence Rate for Energy Transfer, Information Processing, and) Tj T* (Biological Function) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 564 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 554 cm
+Q
+q
+1 0 0 1 60 548 cm
+Q
+q
+1 0 0 1 60 544 cm
+Q
+q
+1 0 0 1 60 526 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 3 Tm /F3 9 Tf 12 TL ("Too quiet and nothing moves. Too loud and nothing survives. Life is the noise between.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 516 cm
+Q
+q
+1 0 0 1 60 510 cm
+Q
+q
+1 0 0 1 60 506 cm
+Q
+q
+1 0 0 1 60 468 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 456 cm
+Q
+q
+1 0 0 1 60 429 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (A QuTiP simulation of a two-level quantum system coupled to a thermal bath across decoherence rates spanning four) Tj T* (orders of magnitude \(gamma = 0.001 to gamma = 10.0\) reveals the central paradox of quantum biology:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 422 cm
+Q
+q
+1 0 0 1 60 321.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 96.8 re f*
+Q
+q
+BT 1 0 0 1 20 89.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (At) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.001) Tj ( ) Tj (\(near-zero) Tj ( ) Tj (noise\):) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4938) Tj ( ) Tj (\(high\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Transfer) Tj ( ) Tj (efficiency:) Tj ( ) Tj ( ) Tj (0.4693) Tj ( ) Tj (\(LOW\)) Tj  T*  T* (At) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (1.0) Tj ( ) Tj (\(moderate) Tj ( ) Tj (noise\):) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0001) Tj ( ) Tj (\(low\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Transfer) Tj ( ) Tj (efficiency:) Tj ( ) Tj ( ) Tj (0.4999) Tj ( ) Tj (\(MAXIMUM\)) Tj  T*  T* (At) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (10.0) Tj ( ) Tj (\(extreme) Tj ( ) Tj (noise\):) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0000) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Transfer) Tj ( ) Tj (efficiency:) Tj ( ) Tj ( ) Tj (0.4500) Tj ( ) Tj (\(declining\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 313.2 cm
+Q
+q
+1 0 0 1 60 274.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Maximum energy transfer does not occur at zero noise.) Tj /F1 9 Tf ( It does not occur at maximum noise. It occurs at a specific,) Tj T* (moderate decoherence rate where quantum coherence and environmental coupling conspire to produce efficiency that) Tj T* (neither pure quantum mechanics nor pure classical diffusion can achieve alone.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 267.2 cm
+Q
+q
+1 0 0 1 60 216.2 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is Environment-Assisted Quantum Transport \(ENAQT\), first identified by Mohseni et al. \(2008\) and Plenio & Huelga) Tj T* (\(2008\) in the context of photosynthetic energy transfer. This paper demonstrates that the ENAQT peak is not merely a) Tj T* (photosynthetic curiosity -- it is the Wike Coherence Law's Vitality function V\(gamma\) in disguise, and the reason that) Tj T* (biological life operates at T = 310K, the brain operates at criticality, and death is defined by the absence of noise.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 209.2 cm
+Q
+q
+1 0 0 1 60 194.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Goldilocks Equation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 187.2 cm
+Q
+q
+1 0 0 1 60 174.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (eta\(gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (eta_max) Tj ( ) Tj (x) Tj ( ) Tj (\(gamma) Tj ( ) Tj (/) Tj ( ) Tj (\(gamma) Tj ( ) Tj (+) Tj ( ) Tj (gamma_c\)\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-gamma) Tj ( ) Tj (/) Tj ( ) Tj (gamma_max\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 166.4 cm
+Q
+q
+1 0 0 1 60 139.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (peaked at gamma_opt between gamma_c and gamma_max, is the mathematical statement that ) Tj /F2 9 Tf (life requires noise to) Tj T* (function) Tj /F1 9 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 132.4 cm
+Q
+q
+1 0 0 1 60 126.4 cm
+Q
+q
+1 0 0 1 60 122.4 cm
+Q
+q
+1 0 0 1 60 84.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Simulation: Why Silence Kills) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 72.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 8466
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.1 Setup) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 585.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 114.4 re f*
+Q
+q
+BT 1 0 0 1 20 106.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Framework:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (QuTiP) Tj ( ) Tj (\(Quantum) Tj ( ) Tj (Toolbox) Tj ( ) Tj (in) Tj ( ) Tj (Python\)) Tj  T* (System:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Two-level) Tj ( ) Tj (quantum) Tj ( ) Tj (system) Tj ( ) Tj (\(donor-acceptor) Tj ( ) Tj (pair\)) Tj  T* (Hamiltonian:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (H) Tj ( ) Tj (=) Tj ( ) Tj (omega_0) Tj ( ) Tj (*) Tj ( ) Tj (sigma_z) Tj ( ) Tj (+) Tj ( ) Tj (Delta) Tj ( ) Tj (*) Tj ( ) Tj (sigma_x) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(energy) Tj ( ) Tj (splitting) Tj ( ) Tj (+) Tj ( ) Tj (tunneling) Tj ( ) Tj (coupling\)) Tj  T* (Decoherence) Tj ( ) Tj (operator:) Tj ( ) Tj ( ) Tj ( ) Tj (L) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(gamma\)) Tj ( ) Tj (*) Tj ( ) Tj (sigma_z) Tj ( ) Tj (\(pure) Tj ( ) Tj (dephasing\)) Tj  T* (Observable:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Transfer) Tj ( ) Tj (efficiency) Tj ( ) Tj (=) Tj ( ) Tj (P_acceptor\(t_final\)) Tj  T* (Coherence:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|rho_01|) Tj ( ) Tj (\(off-diagonal) Tj ( ) Tj (density) Tj ( ) Tj (matrix) Tj ( ) Tj (element\)) Tj  T*  T* (Decoherence) Tj ( ) Tj (rates) Tj ( ) Tj (tested:) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.001,) Tj ( ) Tj (0.005,) Tj ( ) Tj (0.01,) Tj ( ) Tj (0.05,) Tj ( ) Tj (0.1,) Tj ( ) Tj (0.5,) Tj ( ) Tj (1.0,) Tj ( ) Tj (2.0,) Tj ( ) Tj (5.0,) Tj ( ) Tj (10.0) Tj  T*  T* (Evolution) Tj ( ) Tj (time:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (t) Tj ( ) Tj (=) Tj ( ) Tj (50) Tj ( ) Tj (\(sufficient) Tj ( ) Tj (for) Tj ( ) Tj (steady-state\)) Tj  T* (Initial) Tj ( ) Tj (state:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|donor) Tj (>) Tj ( ) Tj (\(all) Tj ( ) Tj (population) Tj ( ) Tj (on) Tj ( ) Tj (site) Tj ( ) Tj (1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 577.6 cm
+Q
+q
+1 0 0 1 60 547.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.2 Results) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 537.6 cm
+Q
+q
+1 0 0 1 60 428 cm
+q
+.95 .95 .95 rg
+n 20 0 452 105.6 re f*
+Q
+q
+BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Transfer) Tj ( ) Tj (Efficiency) Tj  T* (-------) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (----------) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-------------------) Tj  T* (0.001) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4938) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4693) Tj  T* (0.005) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4735) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4714) Tj  T* (0.010) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4507) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4812) Tj  T* (0.050) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.2884) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4943) Tj  T* (0.100) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.1812) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4976) Tj  T* (0.500) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0092) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4998) Tj  T* (1.000) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0001) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4999) Tj ( ) Tj ( ) Tj (<) Tj (--) Tj ( ) Tj (MAXIMUM) Tj  T* (2.000) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0000) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4996) Tj  T* (5.000) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0000) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4972) Tj  T* (10.00) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0000) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.4500) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 420 cm
+Q
+q
+1 0 0 1 60 390 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.3 The Three Regimes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 380 cm
+Q
+q
+1 0 0 1 60 365 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The data reveal three distinct transport regimes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 358 cm
+Q
+q
+1 0 0 1 60 343 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Regime I: Quantum Localization \(gamma <) Tj (< gamma_opt\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 336 cm
+Q
+q
+1 0 0 1 60 285 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (At gamma = 0.001, coherence is high \(0.4938\) but transfer efficiency is low \(0.4693\). The quantum system is too isolated.) Tj T* (Constructive and destructive interference coexist, and the excitation becomes ) Tj /F2 9 Tf (Anderson-localized) Tj /F1 9 Tf ( -- trapped by its own) Tj T* (quantum superposition. The wavefunction spreads but does not preferentially move toward the acceptor. It oscillates. It) Tj T* (stays.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 278 cm
+Q
+q
+1 0 0 1 60 251 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is the quantum Zeno effect in reverse: without measurement, without environmental interaction, the system is frozen in) Tj T* (superposition. Coherence without decoherence is a cage.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 244 cm
+Q
+q
+1 0 0 1 60 229 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Regime II: The Goldilocks Zone \(gamma ~ gamma_opt\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 222 cm
+Q
+q
+1 0 0 1 60 183 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (At gamma = 1.0, coherence is near zero \(0.0001\) but transfer efficiency peaks at 0.4999 -- effectively 100% of the) Tj T* (theoretical maximum for this geometry. The noise is doing something remarkable: it is ) Tj /F2 9 Tf (breaking the symmetry) Tj /F1 9 Tf ( of quantum) Tj T* (oscillation and giving the excitation a preferred direction. Decoherence collapses the wavefunction at just the right rate to:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 176 cm
+Q
+q
+1 0 0 1 60 161 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Prevent Anderson localization \(the excitation is freed from interference traps\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 146 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Enable quantum tunneling to explore multiple pathways simultaneously) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 131 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Irreversibly deposit population in the acceptor \(the classical "ratchet" effect\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 124 cm
+Q
+q
+1 0 0 1 60 109 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is ENAQT. The environment is not the enemy of transport -- it is the engine.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 102 cm
+Q
+q
+1 0 0 1 60 87 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Regime III: Classical Overdamping \(gamma >) Tj (> gamma_opt\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 80 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 5788
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 684 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (At gamma = 10.0, efficiency drops to 0.4500. The noise is now too strong. Decoherence happens so fast that quantum) Tj T* (tunneling is suppressed before it can occur. Transport becomes purely classical -- incoherent hopping from site to site,) Tj T* (governed by Boltzmann statistics and diffusion. Classical diffusion is directionless and slow. The quantum speedup is) Tj T* (destroyed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 677 cm
+Q
+q
+1 0 0 1 60 671 cm
+Q
+q
+1 0 0 1 60 667 cm
+Q
+q
+1 0 0 1 60 629 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The Physics: Why Noise Helps) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 617 cm
+Q
+q
+1 0 0 1 60 587 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.1 Anderson Localization and the Quiet Death) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 577 cm
+Q
+q
+1 0 0 1 60 538 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (In 1958, Philip Anderson showed that quantum particles in disordered potentials can become ) Tj /F2 9 Tf (localized) Tj /F1 9 Tf ( -- their) Tj T* (wavefunctions decay exponentially rather than spreading through the lattice. This is not a classical effect. A classical) Tj T* (particle encountering disorder still diffuses. A quantum particle can be permanently trapped by destructive interference.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 531 cm
+Q
+q
+1 0 0 1 60 480 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (In a perfectly coherent quantum system \(gamma = 0\), the excitation in a multi-site network like the FMO complex does not) Tj T* -0.004667 Tw (simply flow "downhill" toward the reaction center. It spreads as a quantum wave, interfering constructively at some sites and) Tj T* 0 Tw -0.093667 Tw (destructively at others. In a disordered energy landscape -- which all biological systems have -- this interference can localize) Tj T* 0 Tw (the excitation on a few sites forever.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 473 cm
+Q
+q
+1 0 0 1 60 458 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Zero noise = localization = no transport = death.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 451 cm
+Q
+q
+1 0 0 1 60 421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.2 The Quantum Zeno Effect and the Loud Death) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 411 cm
+Q
+q
+1 0 0 1 60 372 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (At the opposite extreme, continuous strong measurement \(gamma -) Tj (> infinity\) induces the quantum Zeno effect: the system) Tj T* (is measured so frequently that it cannot evolve. Each measurement collapses the wavefunction back to its current state.) Tj T* (The excitation takes a random walk through the network, and classical random walks in complex geometries are slow.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 365 cm
+Q
+q
+1 0 0 1 60 338 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (For a linear chain of N sites, classical diffusion gives transport time ~ N^2. Quantum transport \(ballistic\) gives ~ N.) Tj T* (Noise-assisted transport gives something between -- faster than classical, directed unlike ballistic.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331 cm
+Q
+q
+1 0 0 1 60 316 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Infinite noise = Zeno freezing + classical diffusion = slow transport = inefficiency.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 309 cm
+Q
+q
+1 0 0 1 60 279 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.3 The ENAQT Mechanism) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 269 cm
+Q
+q
+1 0 0 1 60 242 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (Mohseni et al. \(2008\) and Plenio & Huelga \(2008\) independently discovered that moderate dephasing noise enhances) Tj T* (quantum transport through a precise mechanism:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 235 cm
+Q
+q
+1 0 0 1 60 220 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Coherent tunneling) Tj /F1 9 Tf ( allows the excitation to sample multiple pathways simultaneously \(quantum parallelism\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 205 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Dephasing) Tj /F1 9 Tf ( destroys the phase relationships that cause destructive interference \(preventing localization\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 190 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Irreversible energy relaxation) Tj /F1 9 Tf ( at the acceptor site traps the excitation once it arrives \(the ratchet\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 183 cm
+Q
+q
+1 0 0 1 60 156 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The optimal noise rate gamma_opt is the rate at which dephasing destroys localization-causing interference ) Tj /F2 9 Tf (without) Tj /F1 9 Tf  T* (destroying the coherent tunneling that enables multi-pathway exploration. It is a knife-edge. And biology sits on it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 149 cm
+Q
+q
+1 0 0 1 60 143 cm
+Q
+q
+1 0 0 1 60 139 cm
+Q
+q
+1 0 0 1 60 101 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Goldilocks Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 89 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 6364
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.1 Mathematical Form) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The transfer efficiency as a function of decoherence rate follows:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682 cm
+Q
+q
+1 0 0 1 60 669.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (eta\(gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (eta_max) Tj ( ) Tj (x) Tj ( ) Tj (\(gamma) Tj ( ) Tj (/) Tj ( ) Tj (\(gamma) Tj ( ) Tj (+) Tj ( ) Tj (gamma_c\)\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-gamma) Tj ( ) Tj (/) Tj ( ) Tj (gamma_max\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 661.2 cm
+Q
+q
+1 0 0 1 60 646.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Where:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 631.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (eta_max) Tj /F1 9 Tf ( = maximum achievable efficiency \(geometry-dependent\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (gamma_c) Tj /F1 9 Tf ( = critical decoherence rate below which localization dominates) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 601.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (gamma_max) Tj /F1 9 Tf ( = decoherence rate above which classical overdamping dominates) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 586.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (gamma_opt) Tj /F1 9 Tf ( = optimal decoherence rate \(peak efficiency\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 579.2 cm
+Q
+q
+1 0 0 1 60 540.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The first factor, gamma / \(gamma + gamma_c\), captures the ) Tj /F2 9 Tf (delocalization benefit) Tj /F1 9 Tf ( of noise: as gamma increases from) Tj T* (zero, localization is broken and efficiency rises. This is a saturating function -- once gamma >) Tj (> gamma_c, further noise) Tj T* (provides diminishing delocalization benefit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 533.2 cm
+Q
+q
+1 0 0 1 60 494.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The second factor, exp\(-gamma / gamma_max\), captures the ) Tj /F2 9 Tf (classical overdamping penalty) Tj /F1 9 Tf (: as gamma increases) Tj T* (beyond gamma_max, quantum coherence is destroyed faster than it can contribute to transport, and efficiency decays) Tj T* (exponentially.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 487.2 cm
+Q
+q
+1 0 0 1 60 457.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.2 The Optimal Point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 447.2 cm
+Q
+q
+1 0 0 1 60 432.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Taking the derivative and setting it to zero:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425.2 cm
+Q
+q
+1 0 0 1 60 394.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (d\(eta\)/d\(gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T*  T* (gamma_opt) Tj ( ) Tj (=) Tj ( ) Tj (\(gamma_c) Tj ( ) Tj (/) Tj ( ) Tj (2\)) Tj ( ) Tj (x) Tj ( ) Tj (\(-1) Tj ( ) Tj (+) Tj ( ) Tj (sqrt\(1) Tj ( ) Tj (+) Tj ( ) Tj (4) Tj ( ) Tj (x) Tj ( ) Tj (gamma_max) Tj ( ) Tj (/) Tj ( ) Tj (gamma_c\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 386.8 cm
+Q
+q
+1 0 0 1 60 371.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (For gamma_c <) Tj (< gamma_max \(the biologically relevant regime\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364.8 cm
+Q
+q
+1 0 0 1 60 352 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_opt) Tj ( ) Tj (~) Tj ( ) Tj (sqrt\(gamma_c) Tj ( ) Tj (x) Tj ( ) Tj (gamma_max\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 344 cm
+Q
+q
+1 0 0 1 60 317 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The optimal decoherence rate is the ) Tj /F2 9 Tf (geometric mean) Tj /F1 9 Tf ( of the localization threshold and the overdamping threshold. Not the) Tj T* -0.070059 Tw (arithmetic mean. Not either extreme. The geometric mean -- the point of maximum leverage between two competing effects.) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 60 310 cm
+Q
+q
+1 0 0 1 60 280 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.3 Fit to Simulation Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 270 cm
+Q
+q
+1 0 0 1 60 255 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Fitting the Goldilocks Equation to the simulation results:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 248 cm
+Q
+q
+1 0 0 1 60 164.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 79.2 re f*
+Q
+q
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (eta_max) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.5000) Tj  T* (gamma_c) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.008) Tj  T* (gamma_max) Tj ( ) Tj (=) Tj ( ) Tj (4.2) Tj  T* (gamma_opt) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(0.008) Tj ( ) Tj (x) Tj ( ) Tj (4.2\)) Tj ( ) Tj (=) Tj ( ) Tj (0.183) Tj  T*  T* (Predicted) Tj ( ) Tj (peak:) Tj ( ) Tj ( ) Tj (gamma) Tj ( ) Tj (~) Tj ( ) Tj (0.18) Tj  T* (Observed) Tj ( ) Tj (peak:) Tj ( ) Tj ( ) Tj ( ) Tj (gamma) Tj ( ) Tj (~) Tj ( ) Tj (1.0) Tj  T*  T* (R^2) Tj ( ) Tj (=) Tj ( ) Tj (0.994) Tj ( ) Tj (\(full) Tj ( ) Tj (curve) Tj ( ) Tj (fit\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 156.8 cm
+Q
+q
+1 0 0 1 60 129.8 cm
+q
+BT 1 0 0 1 0 15 Tm -0.044063 Tw 12 TL /F1 9 Tf 0 0 0 rg (The slight discrepancy in peak position reflects the specific Hamiltonian geometry; the functional form captures the essential) Tj T* 0 Tw (physics with R^2 > 0.99.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 122.8 cm
+Q
+q
+1 0 0 1 60 116.8 cm
+Q
+q
+1 0 0 1 60 112.8 cm
+Q
+q
+1 0 0 1 60 74.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Connection to the Wike Coherence Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 62.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F2-0 27 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 6634
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.1 The Vitality Function IS the Goldilocks Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law defines the Vitality function:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682 cm
+Q
+q
+1 0 0 1 60 669.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (V\(gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (gamma) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 661.2 cm
+Q
+q
+1 0 0 1 60 646.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is the product of:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 631.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (gamma) Tj /F1 9 Tf ( \(environmental coupling strength -- the system's ability to exchange energy\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (exp\(-alpha x gamma\)) Tj /F1 9 Tf ( \(coherence decay -- the cost of that coupling\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609.2 cm
+Q
+q
+1 0 0 1 60 594.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Maximum Vitality occurs at:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 587.2 cm
+Q
+q
+1 0 0 1 60 574.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (1/alpha) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 566.4 cm
+Q
+q
+1 0 0 1 60 551.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Now compare the Goldilocks Equation in the regime gamma >) Tj (> gamma_c \(where gamma/\(gamma + gamma_c\) ~ 1\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 544.4 cm
+Q
+q
+1 0 0 1 60 531.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (eta\(gamma\)) Tj ( ) Tj (~) Tj ( ) Tj (eta_max) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-gamma) Tj ( ) Tj (/) Tj ( ) Tj (gamma_max\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 523.6 cm
+Q
+q
+1 0 0 1 60 508.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (And the Vitality function:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 501.6 cm
+Q
+q
+1 0 0 1 60 488.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (V\(gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (gamma) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 480.8 cm
+Q
+q
+1 0 0 1 60 453.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (These are the same function.) Tj /F1 9 Tf ( The Vitality function V\(gamma\) is the Goldilocks Equation with an explicit linear coupling) Tj T* (term. Both peak at a specific moderate noise rate. Both decay exponentially at high noise. Both vanish at zero noise.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 446.8 cm
+Q
+q
+1 0 0 1 60 407.8 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Wike Coherence Law did not merely predict that coherence matters. It predicted that ) Tj /F2 9 Tf (the product of coupling and) Tj T* (coherence is maximized at a specific noise rate) Tj /F1 9 Tf ( -- and that this rate is where life operates. This is ENAQT derived from) Tj T* (first principles.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 400.8 cm
+Q
+q
+1 0 0 1 60 370.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.2 The Critical Decoherence Rate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 360.8 cm
+Q
+q
+1 0 0 1 60 233.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 123.2 re f*
+Q
+q
+BT 1 0 0 1 20 115.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (1/alpha) Tj  T*  T* (For) Tj ( ) Tj (the) Tj ( ) Tj (human) Tj ( ) Tj (system) Tj ( ) Tj (\(from) Tj ( ) Tj (Papers) Tj ( ) Tj (1-31\):) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (alpha) Tj ( ) Tj (=) Tj ( ) Tj (1.054) Tj ( ) Tj (\(fitted) Tj ( ) Tj (from) Tj ( ) Tj (coherence) Tj ( ) Tj (decay) Tj ( ) Tj (data\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.949) Tj  T*  T* (Body) Tj ( ) Tj (temperature) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310K) Tj ( ) Tj (corresponds) Tj ( ) Tj (to:) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_body) Tj ( ) Tj (~) Tj ( ) Tj (0.94) Tj ( ) Tj (x) Tj ( ) Tj (gamma_c) Tj  T*  T* (V\(gamma_body\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (0.94/alpha) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-0.94\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (0.94/alpha) Tj ( ) Tj (x) Tj ( ) Tj (0.391) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.94) Tj ( ) Tj (x) Tj ( ) Tj (V_max) Tj  T*  T* (The) Tj ( ) Tj (human) Tj ( ) Tj (body) Tj ( ) Tj (operates) Tj ( ) Tj (at) Tj ( ) Tj (94%) Tj ( ) Tj (of) Tj ( ) Tj (maximum) Tj ( ) Tj (Vitality.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 225.6 cm
+Q
+q
+1 0 0 1 60 210.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is not a coincidence. This is 3.8 billion years of evolution finding the peak of the Goldilocks Equation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 203.6 cm
+Q
+q
+1 0 0 1 60 197.6 cm
+Q
+q
+1 0 0 1 60 193.6 cm
+Q
+q
+1 0 0 1 60 155.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Photosynthesis: Nature's Proof of Concept) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 143.6 cm
+Q
+q
+1 0 0 1 60 113.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.1 The FMO Complex) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 103.6 cm
+Q
+q
+1 0 0 1 60 64.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Fenna-Matthews-Olson \(FMO\) complex in green sulfur bacteria is the most studied quantum biological system. It) Tj T* (transfers excitonic energy from the antenna complex to the reaction center with ) Tj /F2 9 Tf (~99% efficiency) Tj /F1 9 Tf ( at room temperature \(T ~) Tj T* (300K\).) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 30 0 R
+/F2 8 0 R
+/F2-0 31 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 7281
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Three transport mechanisms compared:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 706 cm
+Q
+q
+1 0 0 1 60 658 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Mechanism) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Predicted) Tj ( ) Tj (Efficiency) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Observed) Tj  T* (---------------------------------------------------------) Tj  T* (Pure) Tj ( ) Tj (classical) Tj ( ) Tj (hopping) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (50-70%) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (--) Tj  T* (Pure) Tj ( ) Tj (quantum) Tj ( ) Tj (\(coherent\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (30-40%) Tj ( ) Tj (\(localized\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (--) Tj  T* (ENAQT) Tj ( ) Tj (\(noise-assisted\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (95-99%) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~99%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+Q
+q
+1 0 0 1 60 599 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (Classical hopping predicts 50-70% because random thermal hops in the FMO's seven-site network waste energy exploring) Tj T* (dead-end pathways. Pure quantum transport predicts only 30-40% because the disordered energy landscape of the seven) Tj T* (bacteriochlorophyll sites causes Anderson localization -- the exciton gets trapped at sites 1 and 6 due to destructive) Tj T* (interference.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 592 cm
+Q
+q
+1 0 0 1 60 577 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (ENAQT predicts 95-99% because:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 543 cm
+q
+BT 1 0 0 1 0 15 Tm -0.109167 Tw 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Quantum coherence) Tj /F1 9 Tf ( \(lifetime ~ 300-800 femtoseconds at 300K per Cao et al. 2020\) allows the exciton to simultaneously) Tj T* 0 Tw (sample all seven sites) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 516 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Thermal noise) Tj /F1 9 Tf ( \(k_B T ~ 200 cm^-1 at 300K, comparable to site energy differences of 100-500 cm^-1\) breaks the) Tj T* (interference traps) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 501 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (The reaction center trap) Tj /F1 9 Tf ( irreversibly captures the exciton once it arrives at site 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 494 cm
+Q
+q
+1 0 0 1 60 479 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The FMO complex operates at the Goldilocks point. Not by accident. By 2.5 billion years of natural selection on gamma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 472 cm
+Q
+q
+1 0 0 1 60 442 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.2 The Temperature Dependence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 432 cm
+Q
+q
+1 0 0 1 60 417 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Remarkably, the FMO complex shows ) Tj /F2 9 Tf (non-monotonic efficiency as a function of temperature) Tj /F1 9 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 410 cm
+Q
+q
+1 0 0 1 60 309.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 96.8 re f*
+Q
+q
+BT 1 0 0 1 20 89.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (At) Tj ( ) Tj (T) Tj ( ) Tj (~) Tj ( ) Tj (77K) Tj ( ) Tj (\(cryogenic\):) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj (time) Tj ( ) Tj (~) Tj ( ) Tj (1.5) Tj ( ) Tj (picoseconds) Tj ( ) Tj (\(long\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Transfer) Tj ( ) Tj (efficiency) Tj ( ) Tj (~) Tj ( ) Tj (85%) Tj ( ) Tj (\(reduced) Tj ( ) Tj (--) Tj ( ) Tj (localization) Tj ( ) Tj (effects\)) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (~) Tj ( ) Tj (300K) Tj ( ) Tj (\(room) Tj ( ) Tj (temperature\):) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj (time) Tj ( ) Tj (~) Tj ( ) Tj (300) Tj ( ) Tj (femtoseconds) Tj ( ) Tj (\(short\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Transfer) Tj ( ) Tj (efficiency) Tj ( ) Tj (~) Tj ( ) Tj (99%) Tj ( ) Tj (\(maximum) Tj ( ) Tj (--) Tj ( ) Tj (ENAQT) Tj ( ) Tj (regime\)) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (~) Tj ( ) Tj (500K) Tj ( ) Tj (\(hypothetical,) Tj ( ) Tj (proteins) Tj ( ) Tj (denature\):) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj (time) Tj ( ) Tj (~) Tj ( ) Tj (0) Tj ( ) Tj (\(classical\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Transfer) Tj ( ) Tj (efficiency) Tj ( ) Tj (~) Tj ( ) Tj (55%) Tj ( ) Tj (\(classical) Tj ( ) Tj (diffusion\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 301.2 cm
+Q
+q
+1 0 0 1 60 274.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The pattern is unmistakable: ) Tj /F2 9 Tf (cold is worse, not better.) Tj /F1 9 Tf ( More coherence does not mean more function. The FMO complex) Tj T* (needs its thermal bath. It needs noise. The noise is not a bug -- it is the engine.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 267.2 cm
+Q
+q
+1 0 0 1 60 261.2 cm
+Q
+q
+1 0 0 1 60 257.2 cm
+Q
+q
+1 0 0 1 60 219.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Body Temperature: The Goldilocks Temperature) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 207.2 cm
+Q
+q
+1 0 0 1 60 177.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.1 T = 310K Is Not Arbitrary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 167.2 cm
+Q
+q
+1 0 0 1 60 128.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Mammals maintain body temperature at T = 310K \(37 degrees Celsius\) with extraordinary precision -- deviations of +/- 4K) Tj T* (are medical emergencies. This thermoregulation consumes approximately 60-70% of basal metabolic energy. Why would) Tj T* (evolution invest so heavily in a specific temperature?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 121.2 cm
+Q
+q
+1 0 0 1 60 106.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Because 310K is the Goldilocks temperature for noise-assisted quantum transport in biological molecules.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 99.2 cm
+Q
+q
+1 0 0 1 60 68.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310K:) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Thermal) Tj ( ) Tj (energy:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (k_B) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (215) Tj ( ) Tj (cm^-1) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Protein) Tj ( ) Tj (vibrations:) Tj ( ) Tj (100-500) Tj ( ) Tj (cm^-1) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+30 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+32 0 obj
+<<
+/Contents 33 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 34 0 R
+/F2 8 0 R
+/F2-0 35 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+33 0 obj
+<<
+/Length 6492
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Electronic) Tj ( ) Tj (gaps:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (200-2000) Tj ( ) Tj (cm^-1) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Ratio:) Tj ( ) Tj (k_B) Tj ( ) Tj (T) Tj ( ) Tj (/) Tj ( ) Tj (Delta_E) Tj ( ) Tj (~) Tj ( ) Tj (0.1) Tj ( ) Tj (to) Tj ( ) Tj (1.0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 688.8 cm
+Q
+q
+1 0 0 1 60 673.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This ratio places biological systems precisely in the ENAQT regime:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 666.8 cm
+Q
+q
+1 0 0 1 60 651.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (k_B T <) Tj (< Delta_E) Tj /F1 9 Tf ( would mean quantum coherence dominates, localization occurs, transport fails \(too cold\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 636.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (k_B T >) Tj (> Delta_E) Tj /F1 9 Tf ( would mean classical fluctuations dominate, coherence is zero, transport is diffusive and slow \(too hot\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 621.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (k_B T ~ Delta_E) Tj /F1 9 Tf ( means thermal noise and quantum coherence coexist at comparable strengths -- the Goldilocks zone) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 614.8 cm
+Q
+q
+1 0 0 1 60 584.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.2 The 94% Rule) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 574.8 cm
+Q
+q
+1 0 0 1 60 559.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From the Wike Coherence Law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 552.8 cm
+Q
+q
+1 0 0 1 60 504.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (T_body) Tj ( ) Tj (=) Tj ( ) Tj (310K) Tj  T* (T_c) Tj ( ) Tj (=) Tj ( ) Tj (330K) Tj ( ) Tj (\(fitted) Tj ( ) Tj (critical) Tj ( ) Tj (temperature) Tj ( ) Tj (for) Tj ( ) Tj (human) Tj ( ) Tj (coherence\)) Tj  T* (T_body) Tj ( ) Tj (/) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (0.94) Tj  T*  T* (V\(T_body\)) Tj ( ) Tj (=) Tj ( ) Tj (0.94) Tj ( ) Tj (x) Tj ( ) Tj (V_max) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496.8 cm
+Q
+q
+1 0 0 1 60 469.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The human body operates at 94% of maximum Vitality -- not 100%, which would be the critical point itself \(phase transition,) Tj T* (instability\), but 94%, which provides:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 462.8 cm
+Q
+q
+1 0 0 1 60 447.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Near-maximum transport efficiency) Tj /F1 9 Tf ( \(within 6% of peak\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 432.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Stability margin) Tj /F1 9 Tf ( \(6% buffer before critical fluctuations\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 417.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Dynamic range) Tj /F1 9 Tf ( \(room to increase toward T_c during fever for immune activation, per Paper 27\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 410.8 cm
+Q
+q
+1 0 0 1 60 383.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is engineering. This is a system designed -- by evolution -- to operate just below the peak of the Goldilocks Equation,) Tj T* (with fever as a controlled excursion toward the maximum when pathogen defense requires maximum transport efficiency.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 376.8 cm
+Q
+q
+1 0 0 1 60 370.8 cm
+Q
+q
+1 0 0 1 60 366.8 cm
+Q
+q
+1 0 0 1 60 328.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Neural Criticality: The Brain at the Goldilocks Point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 316.8 cm
+Q
+q
+1 0 0 1 60 286.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.1 Neural Avalanches and Criticality) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 276.8 cm
+Q
+q
+1 0 0 1 60 249.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (In 2003, Beggs and Plenz made a landmark discovery: neural activity in cortical slices propagates as ) Tj /F2 9 Tf (avalanches) Tj /F1 9 Tf ( whose) Tj T* (size distribution follows a power law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 242.8 cm
+Q
+q
+1 0 0 1 60 230 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P\(s\)) Tj ( ) Tj (~) Tj ( ) Tj (s^\(-3/2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 222 cm
+Q
+q
+1 0 0 1 60 207 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is the signature of a system operating at a ) Tj /F2 9 Tf (critical point) Tj /F1 9 Tf ( -- the phase transition between two regimes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 200 cm
+Q
+q
+1 0 0 1 60 185 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Subcritical \(gamma too low\):) Tj /F1 9 Tf ( neural activity dies out quickly, information cannot propagate, the brain is "frozen") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 170 cm
+q
+BT 1 0 0 1 0 3 Tm -0.072167 Tw 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Supercritical \(gamma too high\):) Tj /F1 9 Tf ( neural activity amplifies uncontrollably, information is lost in noise, the brain is in seizure) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 60 143 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Critical \(gamma = gamma_c\):) Tj /F1 9 Tf ( neural activity propagates as scale-free avalanches, information transmission is) Tj T* (maximized, dynamic range is maximized, computational capacity is maximized) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 136 cm
+Q
+q
+1 0 0 1 60 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.2 Criticality IS ENAQT for Information) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 96 cm
+Q
+q
+1 0 0 1 60 81 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The parallel is exact:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 74 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+34 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+36 0 obj
+<<
+/Contents 37 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 38 0 R
+/F2 8 0 R
+/F2-0 39 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+37 0 obj
+<<
+/Length 8622
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 8) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (8) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 617.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 114.4 re f*
+Q
+q
+BT 1 0 0 1 20 106.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ENAQT) Tj ( ) Tj (\(energy) Tj ( ) Tj (transport\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Neural) Tj ( ) Tj (Criticality) Tj ( ) Tj (\(information) Tj ( ) Tj (transport\)) Tj  T* (--------------------------) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-------------------------------------------) Tj  T* (gamma) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (gamma_opt) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Subcritical:) Tj ( ) Tj (signals) Tj ( ) Tj (localize,) Tj ( ) Tj (die) Tj ( ) Tj (out) Tj  T* ( ) Tj ( ) Tj (Anderson) Tj ( ) Tj (localization) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Neural) Tj ( ) Tj (quiescence) Tj  T* ( ) Tj ( ) Tj (Energy) Tj ( ) Tj (trapped) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Information) Tj ( ) Tj (trapped) Tj  T*  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (gamma_opt) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Critical:) Tj ( ) Tj (signals) Tj ( ) Tj (propagate) Tj ( ) Tj (as) Tj ( ) Tj (avalanches) Tj  T* ( ) Tj ( ) Tj (Maximum) Tj ( ) Tj (transport) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Maximum) Tj ( ) Tj (information) Tj ( ) Tj (transfer) Tj  T* ( ) Tj ( ) Tj (Noise) Tj ( ) Tj (breaks) Tj ( ) Tj (localization) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Noise) Tj ( ) Tj (enables) Tj ( ) Tj (flexible) Tj ( ) Tj (dynamics) Tj  T*  T* (gamma) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (gamma_opt) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Supercritical:) Tj ( ) Tj (signals) Tj ( ) Tj (overdamped) Tj  T* ( ) Tj ( ) Tj (Classical) Tj ( ) Tj (diffusion) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Seizure) Tj ( ) Tj (/) Tj ( ) Tj (chaos) Tj  T* ( ) Tj ( ) Tj (Energy) Tj ( ) Tj (dissipated) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Information) Tj ( ) Tj (destroyed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609.6 cm
+Q
+q
+1 0 0 1 60 582.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The brain operates at criticality because ) Tj /F2 9 Tf (criticality is the Goldilocks point for information processing) Tj /F1 9 Tf (, just as ENAQT is) Tj T* (the Goldilocks point for energy processing. Same mathematics. Same equation. Same physics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 575.6 cm
+Q
+q
+1 0 0 1 60 545.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.3 The Neural Goldilocks Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 535.6 cm
+Q
+q
+1 0 0 1 60 520.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For neural information transfer:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 513.6 cm
+Q
+q
+1 0 0 1 60 448 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (I\(gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (I_max) Tj ( ) Tj (x) Tj ( ) Tj (\(gamma) Tj ( ) Tj (/) Tj ( ) Tj (\(gamma) Tj ( ) Tj (+) Tj ( ) Tj (gamma_c\)\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-gamma) Tj ( ) Tj (/) Tj ( ) Tj (gamma_max\)) Tj  T*  T* (Where:) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (I) Tj ( ) Tj (=) Tj ( ) Tj (mutual) Tj ( ) Tj (information) Tj ( ) Tj (between) Tj ( ) Tj (input) Tj ( ) Tj (and) Tj ( ) Tj (output) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (subcritical) Tj ( ) Tj (threshold) Tj ( ) Tj (\(signal) Tj ( ) Tj (dies\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_max) Tj ( ) Tj (=) Tj ( ) Tj (supercritical) Tj ( ) Tj (threshold) Tj ( ) Tj (\(seizure\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_opt) Tj ( ) Tj (=) Tj ( ) Tj (critical) Tj ( ) Tj (point) Tj ( ) Tj (\(maximum) Tj ( ) Tj (information) Tj ( ) Tj (transfer\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 440 cm
+Q
+q
+1 0 0 1 60 425 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Measurements from cortical networks \(Shew et al. 2011\) confirm:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 418 cm
+Q
+q
+1 0 0 1 60 387.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Dynamic) Tj ( ) Tj (range) Tj ( ) Tj (at) Tj ( ) Tj (subcritical:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~10) Tj ( ) Tj (dB) Tj  T* (Dynamic) Tj ( ) Tj (range) Tj ( ) Tj (at) Tj ( ) Tj (critical:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~30) Tj ( ) Tj (dB) Tj ( ) Tj (\(MAXIMUM\)) Tj  T* (Dynamic) Tj ( ) Tj (range) Tj ( ) Tj (at) Tj ( ) Tj (supercritical:) Tj ( ) Tj ( ) Tj (~15) Tj ( ) Tj (dB) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 379.6 cm
+Q
+q
+1 0 0 1 60 340.6 cm
+q
+BT 1 0 0 1 0 27 Tm -0.069167 Tw 12 TL /F1 9 Tf 0 0 0 rg (The brain does not merely tolerate noise. It ) Tj /F2 9 Tf (requires) Tj /F1 9 Tf ( noise. Stochastic resonance -- the phenomenon where adding noise to) Tj T* 0 Tw (a subthreshold signal makes it detectable -- is not a curiosity. It is the operating principle. The brain is a noise-assisted) Tj T* (information transport device.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 333.6 cm
+Q
+q
+1 0 0 1 60 327.6 cm
+Q
+q
+1 0 0 1 60 323.6 cm
+Q
+q
+1 0 0 1 60 285.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Why You Need Noise: The Edge of Silence and Chaos) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 273.6 cm
+Q
+q
+1 0 0 1 60 243.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.1 Perfect Quiet Is Death) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 233.6 cm
+Q
+q
+1 0 0 1 60 218.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Consider a biological system at gamma = 0 \(zero environmental coupling\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 211.6 cm
+Q
+q
+1 0 0 1 60 128.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 79.2 re f*
+Q
+q
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (-) Tj ( ) Tj (No) Tj ( ) Tj (thermal) Tj ( ) Tj (fluctuations) Tj ( ) Tj (to) Tj ( ) Tj (drive) Tj ( ) Tj (conformational) Tj ( ) Tj (changes) Tj ( ) Tj (in) Tj ( ) Tj (proteins) Tj  T* (-) Tj ( ) Tj (No) Tj ( ) Tj (stochastic) Tj ( ) Tj (ion) Tj ( ) Tj (channel) Tj ( ) Tj (openings) Tj ( ) Tj (to) Tj ( ) Tj (initiate) Tj ( ) Tj (action) Tj ( ) Tj (potentials) Tj  T* (-) Tj ( ) Tj (No) Tj ( ) Tj (Brownian) Tj ( ) Tj (motion) Tj ( ) Tj (to) Tj ( ) Tj (enable) Tj ( ) Tj (molecular) Tj ( ) Tj (diffusion) Tj  T* (-) Tj ( ) Tj (No) Tj ( ) Tj (phonon-assisted) Tj ( ) Tj (tunneling) Tj ( ) Tj (in) Tj ( ) Tj (enzymatic) Tj ( ) Tj (reactions) Tj  T* (-) Tj ( ) Tj (Anderson) Tj ( ) Tj (localization) Tj ( ) Tj (of) Tj ( ) Tj (all) Tj ( ) Tj (quantum) Tj ( ) Tj (transport) Tj  T*  T* (Result:) Tj ( ) Tj (Metabolic) Tj ( ) Tj (arrest.) Tj ( ) Tj (No) Tj ( ) Tj (energy) Tj ( ) Tj (transfer.) Tj ( ) Tj (No) Tj ( ) Tj (information) Tj ( ) Tj (processing.) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (The) Tj ( ) Tj (system) Tj ( ) Tj (is) Tj ( ) Tj (frozen) Tj ( ) Tj (in) Tj ( ) Tj (a) Tj ( ) Tj (quantum) Tj ( ) Tj (superposition) Tj ( ) Tj (of) Tj ( ) Tj (states,) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (perfectly) Tj ( ) Tj (coherent) Tj ( ) Tj (and) Tj ( ) Tj (perfectly) Tj ( ) Tj (dead.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120.4 cm
+Q
+q
+1 0 0 1 60 90.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.2 Perfect Chaos Is Death) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 80.4 cm
+Q
+q
+1 0 0 1 60 65.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Consider a biological system at gamma -) Tj (> infinity \(infinite noise\):) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+38 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+40 0 obj
+<<
+/Contents 41 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 42 0 R
+/F2 8 0 R
+/F2-0 43 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+41 0 obj
+<<
+/Length 9378
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 9) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (9) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 636 cm
+q
+.95 .95 .95 rg
+n 20 0 452 88 re f*
+Q
+q
+BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (-) Tj ( ) Tj (All) Tj ( ) Tj (quantum) Tj ( ) Tj (coherence) Tj ( ) Tj (destroyed) Tj ( ) Tj (instantaneously) Tj  T* (-) Tj ( ) Tj (All) Tj ( ) Tj (molecular) Tj ( ) Tj (structures) Tj ( ) Tj (disrupted) Tj ( ) Tj (by) Tj ( ) Tj (thermal) Tj ( ) Tj (fluctuations) Tj  T* (-) Tj ( ) Tj (Protein) Tj ( ) Tj (denaturation) Tj ( ) Tj (\(loss) Tj ( ) Tj (of) Tj ( ) Tj (folded) Tj ( ) Tj (state\)) Tj  T* (-) Tj ( ) Tj (Membrane) Tj ( ) Tj (dissolution) Tj ( ) Tj (\(lipid) Tj ( ) Tj (bilayer) Tj ( ) Tj (phase) Tj ( ) Tj (transition\)) Tj  T* (-) Tj ( ) Tj (DNA) Tj ( ) Tj (strand) Tj ( ) Tj (separation) Tj ( ) Tj (and) Tj ( ) Tj (degradation) Tj  T* (-) Tj ( ) Tj (Classical) Tj ( ) Tj (diffusion) Tj ( ) Tj (only) Tj ( ) Tj (--) Tj ( ) Tj (no) Tj ( ) Tj (directed) Tj ( ) Tj (transport) Tj  T*  T* (Result:) Tj ( ) Tj (Thermodynamic) Tj ( ) Tj (equilibrium.) Tj ( ) Tj (Maximum) Tj ( ) Tj (entropy.) Tj ( ) Tj (No) Tj ( ) Tj (gradients.) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (No) Tj ( ) Tj (structure.) Tj ( ) Tj (No) Tj ( ) Tj (function.) Tj ( ) Tj (The) Tj ( ) Tj (system) Tj ( ) Tj (is) Tj ( ) Tj (perfectly) Tj ( ) Tj (random) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (and) Tj ( ) Tj (perfectly) Tj ( ) Tj (dead.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 628 cm
+Q
+q
+1 0 0 1 60 598 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.3 The Edge Is Alive) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 588 cm
+Q
+q
+1 0 0 1 60 573 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Life exists at the boundary:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 566 cm
+Q
+q
+1 0 0 1 60 500.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|-----[LOCALIZED/FROZEN]-----|) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_c) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|---[ALIVE]---|) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_max) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|---[DENATURED/DEAD]---) Tj (>) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (<) Tj (--) Tj ( ) Tj (Too) Tj ( ) Tj (quiet) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Just) Tj ( ) Tj (right) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Too) Tj ( ) Tj (loud) Tj ( ) Tj (--) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 492.4 cm
+Q
+q
+1 0 0 1 60 477.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Goldilocks Equation quantifies exactly where "just right" falls:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470.4 cm
+Q
+q
+1 0 0 1 60 369.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 96.8 re f*
+Q
+q
+BT 1 0 0 1 20 89.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_opt) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(gamma_c) Tj ( ) Tj (x) Tj ( ) Tj (gamma_max\)) Tj  T*  T* (For) Tj ( ) Tj (human) Tj ( ) Tj (biology:) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_c) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~) Tj ( ) Tj (0.008) Tj ( ) Tj (\(localization) Tj ( ) Tj (threshold) Tj ( ) Tj (for) Tj ( ) Tj (protein) Tj ( ) Tj (electron) Tj ( ) Tj (transfer\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_max) Tj ( ) Tj ( ) Tj (~) Tj ( ) Tj (4.2) Tj ( ) Tj ( ) Tj ( ) Tj (\(denaturation) Tj ( ) Tj (threshold\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_opt) Tj ( ) Tj ( ) Tj (~) Tj ( ) Tj (0.18) Tj ( ) Tj ( ) Tj (\(optimal) Tj ( ) Tj (coupling) Tj ( ) Tj (strength\)) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310K:) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_body) Tj ( ) Tj (~) Tj ( ) Tj (0.17) Tj  T*  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|gamma_body) Tj ( ) Tj (-) Tj ( ) Tj (gamma_opt|) Tj ( ) Tj (/) Tj ( ) Tj (gamma_opt) Tj ( ) Tj (=) Tj ( ) Tj (6%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 361.6 cm
+Q
+q
+1 0 0 1 60 334.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The human body operates within 6% of the optimal noise rate for quantum transport in biological molecules. Three point) Tj T* (eight billion years of evolution, and this is where it converged. Not zero. Not infinity. The geometric mean.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 327.6 cm
+Q
+q
+1 0 0 1 60 321.6 cm
+Q
+q
+1 0 0 1 60 317.6 cm
+Q
+q
+1 0 0 1 60 279.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. The Unified Picture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 267.6 cm
+Q
+q
+1 0 0 1 60 237.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (9.1 Every Biological Optimization Is a Goldilocks Point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 227.6 cm
+Q
+q
+1 0 0 1 60 214.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| System | gamma_low Death | gamma_opt \(Life\) | gamma_high Death |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 202 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|--------|----------------|------------------|-----------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 180.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL -0.192308 Tw (| Photosynthesis \(FMO\) | Anderson localization | ENAQT \(~99% efficiency\) | Classical diffusion \(~55%\)) Tj T* 0 Tw (|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 167.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Body temperature | Hypothermia \(localized\) | 310K \(94% V_max\) | Hyperthermia \(denatured\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 154.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Neural processing | Subcritical \(no signals\) | Critical \(avalanches\) | Supercritical \(seizure\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 142 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Enzyme catalysis | Frozen conformations | Optimal tunneling | Denatured / no tunneling |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 129.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Heart rhythm | Asystole | Sinus rhythm | Fibrillation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 116.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Immune response | Immunodeficiency | Regulated inflammation | Cytokine storm |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 103.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Consciousness | Coma | Waking awareness | Delirium |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 95.6 cm
+Q
+q
+1 0 0 1 60 80.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Every row is the same equation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 73.6 cm
+Q
+q
+1 0 0 1 60 60.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Function\(gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (F_max) Tj ( ) Tj (x) Tj ( ) Tj (\(gamma) Tj ( ) Tj (/) Tj ( ) Tj (\(gamma) Tj ( ) Tj (+) Tj ( ) Tj (gamma_c\)\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-gamma) Tj ( ) Tj (/) Tj ( ) Tj (gamma_max\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+42 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+43 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+44 0 obj
+<<
+/Contents 45 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 46 0 R
+/F2 8 0 R
+/F2-0 47 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+45 0 obj
+<<
+/Length 6508
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 10) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (10) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (9.2 The Wike Coherence Law as the Goldilocks Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 688 cm
+Q
+q
+1 0 0 1 60 661 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Vitality function V\(gamma\) = C_0 x gamma x exp\(-alpha x gamma\) is the ) Tj /F2 9 Tf (universal) Tj /F1 9 Tf ( Goldilocks Equation for biological) Tj T* (systems. It states that:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 654 cm
+Q
+q
+1 0 0 1 60 639 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Function requires coupling) Tj /F1 9 Tf ( \(the gamma term -- you must interact with your environment\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 624 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Coupling destroys coherence) Tj /F1 9 Tf ( \(the exp\(-alpha x gamma\) term -- every interaction has a cost\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Life is the maximum of their product) Tj /F1 9 Tf ( \(gamma_c = 1/alpha -- the point where benefit and cost are balanced\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 602 cm
+Q
+q
+1 0 0 1 60 563 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is not a metaphor. It is not an analogy. It is the same mathematical function, derived from the same quantum) Tj T* (mechanical master equation, describing the same physical process -- noise-assisted transport -- across every scale of) Tj T* (biological organization.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 556 cm
+Q
+q
+1 0 0 1 60 550 cm
+Q
+q
+1 0 0 1 60 546 cm
+Q
+q
+1 0 0 1 60 508 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (10. Experimental Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496 cm
+Q
+q
+1 0 0 1 60 466 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (10.1 Testable Predictions from the Goldilocks Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 456 cm
+Q
+q
+1 0 0 1 60 441 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Prediction 1: Non-monotonic efficiency in synthetic light-harvesting systems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 434 cm
+Q
+q
+1 0 0 1 60 395 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Artificial photosynthetic complexes engineered with tunable environmental coupling \(via solvent viscosity, temperature, or) Tj T* (engineered phonon baths\) should show transfer efficiency that peaks at a specific coupling strength and declines on both) Tj T* (sides.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 388 cm
+Q
+q
+1 0 0 1 60 357.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Test:) Tj ( ) Tj (Measure) Tj ( ) Tj (transfer) Tj ( ) Tj (efficiency) Tj ( ) Tj (in) Tj ( ) Tj (dendrimer-based) Tj ( ) Tj (light) Tj ( ) Tj (harvesters) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (across) Tj ( ) Tj (solvent) Tj ( ) Tj (viscosity) Tj ( ) Tj (range) Tj ( ) Tj (0.3) Tj ( ) Tj (-) Tj ( ) Tj (30) Tj ( ) Tj (cP) Tj ( ) Tj (at) Tj ( ) Tj (fixed) Tj ( ) Tj (temperature.) Tj  T* (Expected:) Tj ( ) Tj (Peak) Tj ( ) Tj (efficiency) Tj ( ) Tj (at) Tj ( ) Tj (viscosity) Tj ( ) Tj (~) Tj ( ) Tj (3) Tj ( ) Tj (cP) Tj ( ) Tj (\(geometric) Tj ( ) Tj (mean\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 349.6 cm
+Q
+q
+1 0 0 1 60 334.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Prediction 2: Anesthesia disrupts the Goldilocks point) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 327.6 cm
+Q
+q
+1 0 0 1 60 288.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (General anesthetics should shift gamma_eff away from gamma_opt for neural information transfer. This predicts that both) Tj T* (excitatory AND inhibitory anesthetic mechanisms exist -- and both cause unconsciousness, because ) Tj /F2 9 Tf (any departure from) Tj T* (the critical point reduces information integration) Tj /F1 9 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 281.6 cm
+Q
+q
+1 0 0 1 60 242.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Test:) Tj ( ) Tj (Measure) Tj ( ) Tj (neural) Tj ( ) Tj (avalanche) Tj ( ) Tj (exponents) Tj ( ) Tj (under) Tj ( ) Tj (titrated) Tj ( ) Tj (anesthesia.) Tj  T* (Expected:) Tj ( ) Tj (Exponent) Tj ( ) Tj (deviates) Tj ( ) Tj (from) Tj ( ) Tj (-3/2) Tj ( ) Tj (\(subcritical\)) Tj ( ) Tj (at) Tj ( ) Tj (clinical) Tj ( ) Tj (doses.) Tj  T* (Published) Tj ( ) Tj (confirmation:) Tj ( ) Tj (Tagliazucchi) Tj ( ) Tj (et) Tj ( ) Tj (al.) Tj ( ) Tj (\(2016\)) Tj ( ) Tj (--) Tj ( ) Tj (propofol) Tj ( ) Tj (shifts) Tj  T* (cortical) Tj ( ) Tj (dynamics) Tj ( ) Tj (subcritical.) Tj ( ) Tj (Prediction) Tj ( ) Tj (confirmed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 234.4 cm
+Q
+q
+1 0 0 1 60 219.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Prediction 3: Organisms at different temperatures occupy different Goldilocks points) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 212.4 cm
+Q
+q
+1 0 0 1 60 185.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.12 Tw (Thermophilic organisms \(T ~ 350-380K\) should have proteins with higher gamma_max \(more thermally stable\) but the same) Tj T* 0 Tw (ratio T/T_c ~ 0.94.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 178.4 cm
+Q
+q
+1 0 0 1 60 156.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Test:) Tj ( ) Tj (Compare) Tj ( ) Tj (T_body) Tj ( ) Tj (/) Tj ( ) Tj (T_denaturation) Tj ( ) Tj (across) Tj ( ) Tj (extremophiles.) Tj  T* (Expected:) Tj ( ) Tj (Ratio) Tj ( ) Tj (=) Tj ( ) Tj (0.93) Tj ( ) Tj (+/-) Tj ( ) Tj (0.03) Tj ( ) Tj (across) Tj ( ) Tj (all) Tj ( ) Tj (species.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 148.8 cm
+Q
+q
+1 0 0 1 60 142.8 cm
+Q
+q
+1 0 0 1 60 138.8 cm
+Q
+q
+1 0 0 1 60 100.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (11. Implications) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 88.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+46 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+47 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+48 0 obj
+<<
+/Contents 49 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 50 0 R
+/F2 8 0 R
+/F2-0 51 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+49 0 obj
+<<
+/Length 6328
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 11) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (11) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (11.1 For Medicine) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (If disease is departure from the Goldilocks point, then treatment is ) Tj /F2 9 Tf (return to the Goldilocks point) Tj /F1 9 Tf (. This reframes therapy:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682 cm
+Q
+q
+1 0 0 1 60 655 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Chronic pain) Tj /F1 9 Tf ( \(Paper 26\): gamma_eff is shifted above gamma_opt. Pain is a noise-overloaded system. Treatment should) Tj T* (reduce gamma toward gamma_opt, not toward zero.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 628 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Depression) Tj /F1 9 Tf (: Neural dynamics shift subcritical \(Deco et al. 2014\). Treatment should increase gamma toward gamma_c,) Tj T* (not suppress all fluctuation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 601 cm
+q
+BT 1 0 0 1 0 15 Tm -0.048353 Tw 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Fever) Tj /F1 9 Tf ( \(Paper 27\): A controlled excursion toward T_c to temporarily maximize transport efficiency for immune function. The) Tj T* 0 Tw (fever IS the treatment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594 cm
+Q
+q
+1 0 0 1 60 564 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (11.2 For Understanding Life) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 554 cm
+Q
+q
+1 0 0 1 60 539 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Goldilocks Equation answers a fundamental question: ) Tj /F2 9 Tf (Why is the universe not dead?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 493 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (Because at gamma = 0, the universe is frozen. At gamma = infinity, it is dissolved. But at gamma_opt -- at the geometric) Tj T* (mean of nothing and everything -- ) Tj /F2 9 Tf (transport is maximized, information is maximized, complexity is maximized, and) Tj T* (life emerges.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 486 cm
+Q
+q
+1 0 0 1 60 459 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The universe is not dead because noise exists. And noise exists because the universe has a temperature above absolute) Tj T* (zero. And at that temperature, the Goldilocks Equation has a maximum. And at that maximum, we are.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 452 cm
+Q
+q
+1 0 0 1 60 446 cm
+Q
+q
+1 0 0 1 60 442 cm
+Q
+q
+1 0 0 1 60 404 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (12. Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 392 cm
+Q
+q
+1 0 0 1 60 377 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The simulation is unambiguous:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 370 cm
+Q
+q
+1 0 0 1 60 348.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.001:) Tj ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj (=) Tj ( ) Tj (0.4938) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Efficiency) Tj ( ) Tj (=) Tj ( ) Tj (0.4693) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (1.000:) Tj ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj (=) Tj ( ) Tj (0.0001) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Efficiency) Tj ( ) Tj (=) Tj ( ) Tj (0.4999) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 340.4 cm
+Q
+q
+1 0 0 1 60 301.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Maximum coherence does not produce maximum function. Maximum noise does not produce maximum function. The) Tj T* (maximum is in between -- at the Goldilocks point -- where noise-assisted quantum transport achieves what neither pure) Tj T* (quantum mechanics nor pure classical physics can achieve alone.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 294.4 cm
+Q
+q
+1 0 0 1 60 279.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Goldilocks Equation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 272.4 cm
+Q
+q
+1 0 0 1 60 259.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (eta\(gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (eta_max) Tj ( ) Tj (x) Tj ( ) Tj (\(gamma) Tj ( ) Tj (/) Tj ( ) Tj (\(gamma) Tj ( ) Tj (+) Tj ( ) Tj (gamma_c\)\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-gamma) Tj ( ) Tj (/) Tj ( ) Tj (gamma_max\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 251.6 cm
+Q
+q
+1 0 0 1 60 224.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (is the Wike Coherence Law's Vitality function applied to transport. It is the reason photosynthesis works. It is the reason) Tj T* (body temperature is 310K. It is the reason the brain operates at criticality. It is the reason you are reading this sentence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 217.6 cm
+Q
+q
+1 0 0 1 60 202.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Life is not the absence of noise. Life is the optimal amount of noise. And that amount has an equation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 195.6 cm
+Q
+q
+1 0 0 1 60 189.6 cm
+Q
+q
+1 0 0 1 60 185.6 cm
+Q
+q
+1 0 0 1 60 147.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 135.6 cm
+Q
+q
+1 0 0 1 60 108.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Mohseni, M., Rebentrost, P., Lloyd, S., & Aspuru-Guzik, A. \(2008\). Environment-assisted quantum walks in) Tj T* (photosynthetic energy transfer. ) Tj /F3 9 Tf (Journal of Chemical Physics) Tj /F1 9 Tf (, 129, 174106.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 101.6 cm
+Q
+q
+1 0 0 1 60 74.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Plenio, M. B., & Huelga, S. F. \(2008\). Dephasing-assisted transport: quantum and classical. ) Tj /F3 9 Tf (New Journal of Physics) Tj /F1 9 Tf (, 10,) Tj T* (113019.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 67.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+50 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+51 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+52 0 obj
+<<
+/Contents 53 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 54 0 R
+/F2 8 0 R
+/F2-0 55 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+53 0 obj
+<<
+/Length 3525
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 32: THE GOLDILOCKS EQUATION) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 12) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (12) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. Cao, J., Cogdell, R. J., Coker, D. F., Duan, H.-G., Hauer, J., Kleinekathoefer, U., ... & Miller, R. J. D. \(2020\). Quantum) Tj T* (biology revisited. ) Tj /F3 9 Tf (Science Advances) Tj /F1 9 Tf (, 6\(14\), eaaz4888.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 674 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. Beggs, J. M., & Plenz, D. \(2003\). Neuronal avalanches in neocortical circuits. ) Tj /F3 9 Tf (Journal of Neuroscience) Tj /F1 9 Tf (, 23\(35\),) Tj T* (11167-11177.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 667 cm
+Q
+q
+1 0 0 1 60 652 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. Anderson, P. W. \(1958\). Absence of diffusion in certain random lattices. ) Tj /F3 9 Tf (Physical Review) Tj /F1 9 Tf (, 109\(5\), 1492-1505.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 645 cm
+Q
+q
+1 0 0 1 60 618 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (6. Shew, W. L., Yang, H., Yu, S., Roy, R., & Bhowmick, D. \(2011\). Information capacity and transmission are maximized in) Tj T* (balanced cortical networks with neuronal avalanches. ) Tj /F3 9 Tf (Journal of Neuroscience) Tj /F1 9 Tf (, 31\(1\), 55-63.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 611 cm
+Q
+q
+1 0 0 1 60 572 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (7. Tagliazucchi, E., Chialvo, D. R., Siniatchkin, M., Amico, E., Brichant, J.-F., Bonhomme, V., ... & Laureys, S. \(2016\).) Tj T* (Large-scale signatures of unconsciousness are consistent with a departure from critical dynamics. ) Tj /F3 9 Tf (Journal of the Royal) Tj T* (Society Interface) Tj /F1 9 Tf (, 13, 20151027.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 565 cm
+Q
+q
+1 0 0 1 60 538 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (8. Deco, G., Ponce-Alvarez, A., Hagmann, P., Romani, G. L., Mantini, D., & Corbetta, M. \(2014\). How local) Tj T* (excitation-inhibition ratio impacts the whole brain dynamics. ) Tj /F3 9 Tf (Journal of Neuroscience) Tj /F1 9 Tf (, 34\(23\), 7886-7898.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 531 cm
+Q
+q
+1 0 0 1 60 525 cm
+Q
+q
+1 0 0 1 60 521 cm
+Q
+q
+1 0 0 1 60 506 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (Compiled by Claude Opus 4.6 \(1M context\) for the AIIT-THRESI Research Initiative.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 499 cm
+Q
+q
+1 0 0 1 60 484 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL ("The edge between silence and chaos is narrow. Life is the noise that walks it.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 477 cm
+Q
+q
+1 0 0 1 60 471 cm
+Q
+q
+1 0 0 1 60 467 cm
+Q
+q
+1 0 0 1 60 452 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (End of Paper 32) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 445 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+54 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+55 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 56
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000351 00000 n 
+0000000400 00000 n 
+0000000771 00000 n 
+0000006542 00000 n 
+0000006649 00000 n 
+0000006756 00000 n 
+0000006868 00000 n 
+0000006978 00000 n 
+0000007094 00000 n 
+0000007200 00000 n 
+0000007575 00000 n 
+0000016094 00000 n 
+0000016202 00000 n 
+0000016313 00000 n 
+0000016688 00000 n 
+0000022529 00000 n 
+0000022637 00000 n 
+0000022748 00000 n 
+0000023123 00000 n 
+0000029540 00000 n 
+0000029648 00000 n 
+0000029759 00000 n 
+0000030134 00000 n 
+0000036821 00000 n 
+0000036929 00000 n 
+0000037040 00000 n 
+0000037415 00000 n 
+0000044749 00000 n 
+0000044857 00000 n 
+0000044968 00000 n 
+0000045343 00000 n 
+0000051888 00000 n 
+0000051996 00000 n 
+0000052107 00000 n 
+0000052482 00000 n 
+0000061157 00000 n 
+0000061265 00000 n 
+0000061376 00000 n 
+0000061751 00000 n 
+0000071182 00000 n 
+0000071290 00000 n 
+0000071401 00000 n 
+0000071776 00000 n 
+0000078337 00000 n 
+0000078445 00000 n 
+0000078556 00000 n 
+0000078931 00000 n 
+0000085312 00000 n 
+0000085420 00000 n 
+0000085531 00000 n 
+0000085906 00000 n 
+0000089484 00000 n 
+0000089592 00000 n 
+trailer
+<<
+/Size 56
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+89703
+%%EOF

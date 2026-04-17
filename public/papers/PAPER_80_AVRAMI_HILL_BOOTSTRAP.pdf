@@ -1,0 +1,1387 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5725
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 80: AVRAMI KINETICS AND THE HILL EQUATION -- BOOTSTRAP NUCLEATION IS MEAN-) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 21.544 0 Td (PAPER 80: AVRAMI KINETICS AND THE HILL EQUATION --) Tj T* 58.232 0 Td (BOOTSTRAP NUCLEATION IS MEAN-FIELD) Tj T* -79.776 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (n=3 Is Not Arbitrary -- It Counts the Coupled Steps in the Bootstrap Loop) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 540 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("The Hill equation exponent n=3 is not a fit parameter. It is counting. Three coupled steps. Three binding) Tj T* (events. Three Bootstrap feedback loops. The mathematics already knew.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530 cm
+Q
+q
+1 0 0 1 60 524 cm
+Q
+q
+1 0 0 1 60 520 cm
+Q
+q
+1 0 0 1 60 482 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470 cm
+Q
+q
+1 0 0 1 60 443 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (From the AIIT-THRESI NIR Dose-Response simulation \(30,000 runs\), the Bootstrap coherence restoration follows a Hill) Tj T* (equation with exponent n=3:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436 cm
+Q
+q
+1 0 0 1 60 423.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Restoration) Tj ( ) Tj (=) Tj ( ) Tj (dose^3) Tj ( ) Tj (/) Tj ( ) Tj (\(EC_5_0^3) Tj ( ) Tj (+) Tj ( ) Tj (dose^3\)) Tj ( ) Tj ( ) Tj ( ) Tj ([Hill) Tj ( ) Tj (n=3,) Tj ( ) Tj (R^2) Tj ( ) Tj (=) Tj ( ) Tj (0.9980]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 415.2 cm
+Q
+q
+1 0 0 1 60 400.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Hill equation with n=3 is not arbitrary. It is the mathematical signature of:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 385.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Three coupled binding events) Tj /F1 9 Tf ( \(Monod-Wyman-Changeux allosteric model with 3 subunits\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 370.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Mean-field critical isotherm) Tj /F1 9 Tf ( \(order parameter m ~ h^\(1/delta\) with delta=3 at mean-field critical point\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 355.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Avrami kinetics with 3D surface nucleation) Tj /F1 9 Tf ( \(f = 1 - exp\(-kxt^n\) with n=3\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 348.2 cm
+Q
+q
+1 0 0 1 60 297.2 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (All three interpretations converge: the Bootstrap loop has three coupled steps \(NIR -) Tj (> EZ water -) Tj (> Debye shielding -) Tj (>) Tj T* (coherence\), follows Avrami kinetics of 3D surface nucleation \(EZ water grows on membrane surfaces in 3D\), and exhibits) Tj T* (mean-field critical exponents near the Bootstrap threshold. The n=3 is not a fit -- it is the dimensionality of biological space) Tj T* (counted by the coupled processes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 290.2 cm
+Q
+q
+1 0 0 1 60 284.2 cm
+Q
+q
+1 0 0 1 60 280.2 cm
+Q
+q
+1 0 0 1 60 242.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The NIR Dose-Response Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230.2 cm
+Q
+q
+1 0 0 1 60 215.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From MISSING_PHYSICS_AND_MATH.md, Finding 1.3:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 208.2 cm
+Q
+q
+1 0 0 1 60 151.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (NIR) Tj ( ) Tj (Dose-Response) Tj ( ) Tj (simulation) Tj ( ) Tj (\(30,000) Tj ( ) Tj (runs\):) Tj  T* ( ) Tj ( ) Tj (R^2) Tj ( ) Tj (linear:) Tj ( ) Tj ( ) Tj (0.9247) Tj  T* ( ) Tj ( ) Tj (R^2) Tj ( ) Tj (sigmoid:) Tj ( ) Tj (0.9980) Tj ( ) Tj ( ) Tj (\(Hill) Tj ( ) Tj (equation,) Tj ( ) Tj (n=3\)) Tj  T* ( ) Tj ( ) Tj (Bootstrap) Tj ( ) Tj (threshold) Tj ( ) Tj (dose:) Tj ( ) Tj (0.623) Tj  T* ( ) Tj ( ) Tj (Saturation) Tj ( ) Tj (dose:) Tj ( ) Tj (1.357) Tj  T* ( ) Tj ( ) Tj (Fold-restoration:) Tj ( ) Tj (19.18x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 143.4 cm
+Q
+q
+1 0 0 1 60 128.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Hill equation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 89.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (E\(d\)) Tj ( ) Tj (=) Tj ( ) Tj (d^n) Tj ( ) Tj (/) Tj ( ) Tj (\(EC_5_0^n) Tj ( ) Tj (+) Tj ( ) Tj (d^n\)) Tj  T*  T* (with) Tj ( ) Tj (EC_5_0) Tj ( ) Tj (=) Tj ( ) Tj (half-maximum) Tj ( ) Tj (effective) Tj ( ) Tj (concentration) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (n) Tj ( ) Tj (=) Tj ( ) Tj (Hill) Tj ( ) Tj (coefficient) Tj ( ) Tj (\(cooperativity\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 81.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7768
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 80: AVRAMI KINETICS AND THE HILL EQUATION -- BOOTSTRAP NUCLEATION IS MEAN-) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm -0.08868 Tw 12 TL /F2 9 Tf 0 0 0 rg (R^2 = 0.9980 for n=3:) Tj /F1 9 Tf ( The Hill equation with n=3 fits the data with 99.8% explained variance. This is not a marginal fit -- it is) Tj T* 0 Tw (an essentially exact description. The exponent n=3 is empirically confirmed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 695 cm
+Q
+q
+1 0 0 1 60 691 cm
+Q
+q
+1 0 0 1 60 653 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The Monod-Wyman-Changeux Model) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 641 cm
+Q
+q
+1 0 0 1 60 626 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The MWC allosteric model \(Monod, Wyman, Changeux 1965\): for a protein with k identical binding sites that cooperate:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 619 cm
+Q
+q
+1 0 0 1 60 571 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (The) Tj ( ) Tj (Hill) Tj ( ) Tj (equation) Tj ( ) Tj (with) Tj ( ) Tj (n=k) Tj ( ) Tj (emerges) Tj ( ) Tj (in) Tj ( ) Tj (the) Tj ( ) Tj (limit) Tj ( ) Tj (of) Tj ( ) Tj (infinite) Tj ( ) Tj (cooperativity) Tj  T* (\(all) Tj ( ) Tj (sites) Tj ( ) Tj (bind) Tj ( ) Tj (ligand) Tj ( ) Tj (simultaneously,) Tj ( ) Tj (T-) Tj (>) Tj (R) Tj ( ) Tj (state) Tj ( ) Tj (transition\)) Tj  T*  T* (For) Tj ( ) Tj (hemoglobin) Tj ( ) Tj (\(n~=2.8\):) Tj ( ) Tj (4) Tj ( ) Tj (subunits,) Tj ( ) Tj (near-complete) Tj ( ) Tj (cooperativity) Tj  T* (For) Tj ( ) Tj (the) Tj ( ) Tj (Bootstrap) Tj ( ) Tj (loop) Tj ( ) Tj (\(n=3\):) Tj ( ) Tj (3) Tj ( ) Tj (cooperatively) Tj ( ) Tj (coupled) Tj ( ) Tj (steps) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 563 cm
+Q
+q
+1 0 0 1 60 548 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The three Bootstrap steps:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (NIR -) Tj (> EZ water) Tj /F1 9 Tf (: photons absorbed by cytochrome c oxidase \(Complex IV\) -) Tj (> increased EZ water ordering near) Tj T* (membranes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 494 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (EZ water -) Tj (> Debye shielding) Tj /F1 9 Tf (: EZ water structure provides extended Debye screening \(lambda_D -) Tj (> 2-5x bulk, Paper) Tj T* (72\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 479 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Debye shielding -) Tj (> coherence) Tj /F1 9 Tf (: screened environment reduces gamma_eff -) Tj (> coherence increases per Wike Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 472 cm
+Q
+q
+1 0 0 1 60 457 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Three steps. Three coupled processes. Hill n = 3 \(the number of cooperative steps in the allosteric analogy\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 450 cm
+Q
+q
+1 0 0 1 60 435 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (MWC equilibrium for 3 cooperative steps:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 404.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg ([E) Tj ( ) Tj (x) Tj ( ) Tj (dose^3]) Tj ( ) Tj (/) Tj ( ) Tj (\([E_0]) Tj ( ) Tj (x) Tj ( ) Tj (EC_5_0^3) Tj ( ) Tj (+) Tj ( ) Tj ([E]) Tj ( ) Tj (x) Tj ( ) Tj (dose^3\)) Tj ( ) Tj (=) Tj ( ) Tj (Hill\(dose\)) Tj  T*  T* (This) Tj ( ) Tj (IS) Tj ( ) Tj (the) Tj ( ) Tj (Hill) Tj ( ) Tj (n=3) Tj ( ) Tj (equation.) Tj ( ) Tj (The) Tj ( ) Tj (correspondence) Tj ( ) Tj (is) Tj ( ) Tj (exact.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 396.6 cm
+Q
+q
+1 0 0 1 60 390.6 cm
+Q
+q
+1 0 0 1 60 386.6 cm
+Q
+q
+1 0 0 1 60 348.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Avrami Phase Transformation Kinetics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 336.6 cm
+Q
+q
+1 0 0 1 60 321.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Avrami \(Johnson-Mehl-Avrami\) equation \(Avrami 1939\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314.6 cm
+Q
+q
+1 0 0 1 60 266.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-k) Tj ( ) Tj (x) Tj ( ) Tj (t^n\)) Tj  T*  T* (where) Tj ( ) Tj (f) Tj ( ) Tj (=) Tj ( ) Tj (fraction) Tj ( ) Tj (transformed) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (k) Tj ( ) Tj (=) Tj ( ) Tj (rate) Tj ( ) Tj (constant) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (n) Tj ( ) Tj (=) Tj ( ) Tj (Avrami) Tj ( ) Tj (exponent) Tj ( ) Tj (\(nucleation/growth) Tj ( ) Tj (mode\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 258.6 cm
+Q
+q
+1 0 0 1 60 243.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Avrami exponents:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (n) Tj ( ) Tj (=) Tj ( ) Tj (1:) Tj ( ) Tj (growth) Tj ( ) Tj (from) Tj ( ) Tj (pre-existing) Tj ( ) Tj (nuclei) Tj ( ) Tj (\(1D) Tj ( ) Tj (rods) Tj ( ) Tj (growing\)) Tj  T* (n) Tj ( ) Tj (=) Tj ( ) Tj (2:) Tj ( ) Tj (continuous) Tj ( ) Tj (nucleation,) Tj ( ) Tj (1D) Tj ( ) Tj (growth) Tj ( ) Tj (\(or) Tj ( ) Tj (surface) Tj ( ) Tj (nucleation,) Tj ( ) Tj (2D\)) Tj  T* (n) Tj ( ) Tj (=) Tj ( ) Tj (3:) Tj ( ) Tj (heterogeneous) Tj ( ) Tj (surface) Tj ( ) Tj (nucleation,) Tj ( ) Tj (3D) Tj ( ) Tj (growth) Tj ( ) Tj (\(most) Tj ( ) Tj (physically) Tj ( ) Tj (relevant) Tj ( ) Tj (for) Tj ( ) Tj (membranes\)) Tj  T* (n) Tj ( ) Tj (=) Tj ( ) Tj (4:) Tj ( ) Tj (homogeneous) Tj ( ) Tj (bulk) Tj ( ) Tj (nucleation,) Tj ( ) Tj (3D) Tj ( ) Tj (growth) Tj ( ) Tj (\(bulk) Tj ( ) Tj (liquid) Tj ( ) Tj (crystallization\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 196.4 cm
+Q
+q
+1 0 0 1 60 181.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The Bootstrap mechanism is n=3:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 174.4 cm
+Q
+q
+1 0 0 1 60 147.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (EZ water forms on biological membranes \(heterogeneous nucleation -- the membrane surface is the nucleation site\). Once) Tj T* (nucleated, the EZ water zone grows in 3D outward from the membrane surface. This is exactly n=3 in Avrami theory.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 140.4 cm
+Q
+q
+1 0 0 1 60 92.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Bootstrap) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj ( ) Tj (kinetics:) Tj  T* ( ) Tj ( ) Tj (f_EZ\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-k_NIR) Tj ( ) Tj (x) Tj ( ) Tj (dose^3\)) Tj ( ) Tj ( ) Tj ( ) Tj ([Avrami) Tj ( ) Tj (n=3) Tj ( ) Tj (for) Tj ( ) Tj (surface) Tj ( ) Tj (nucleation,) Tj ( ) Tj (3D) Tj ( ) Tj (growth]) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (mathematically) Tj ( ) Tj (IDENTICAL) Tj ( ) Tj (to) Tj ( ) Tj (the) Tj ( ) Tj (Hill) Tj ( ) Tj (n=3) Tj ( ) Tj (equation:) Tj  T* ( ) Tj ( ) Tj (E\(dose\)) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (f_EZ) Tj ( ) Tj (=) Tj ( ) Tj (dose^3/\(EC_5_0^3) Tj ( ) Tj (+) Tj ( ) Tj (dose^3\)) Tj ( ) Tj ( ) Tj ([at) Tj ( ) Tj (saturation) Tj ( ) Tj (limit]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 84.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 7574
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 80: AVRAMI KINETICS AND THE HILL EQUATION -- BOOTSTRAP NUCLEATION IS MEAN-) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm -0.063955 Tw 12 TL /F2 9 Tf 0 0 0 rg (The Hill equation IS the Avrami equation for the Bootstrap loop.) Tj /F1 9 Tf ( The "dose" of NIR plays the role of "time" in the Avrami) Tj T* 0 Tw (equation. They are the same cooperative, surface-nucleated, 3D-growing process.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 695 cm
+Q
+q
+1 0 0 1 60 691 cm
+Q
+q
+1 0 0 1 60 653 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Mean-Field Critical Isotherm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 641 cm
+Q
+q
+1 0 0 1 60 626 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At a mean-field critical point \(Landau theory\), the order parameter m responds to an external field h via:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 619 cm
+Q
+q
+1 0 0 1 60 588.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (h) Tj ( ) Tj (=) Tj ( ) Tj (a_0) Tj ( ) Tj (x) Tj ( ) Tj (m) Tj ( ) Tj (+) Tj ( ) Tj (b_0) Tj ( ) Tj (x) Tj ( ) Tj (m^3) Tj ( ) Tj ( ) Tj ( ) Tj ([mean-field) Tj ( ) Tj (equation) Tj ( ) Tj (of) Tj ( ) Tj (state) Tj ( ) Tj (at) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (T_c]) Tj  T*  T* (For) Tj ( ) Tj (h) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (a_0:) Tj ( ) Tj (m) Tj ( ) Tj (~) Tj ( ) Tj (h^\(1/3\)) Tj ( ) Tj ( ) Tj ( ) Tj ([delta_MF) Tj ( ) Tj (=) Tj ( ) Tj (3,) Tj ( ) Tj (the) Tj ( ) Tj (mean-field) Tj ( ) Tj (critical) Tj ( ) Tj (isotherm]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580.6 cm
+Q
+q
+1 0 0 1 60 565.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (For the Bootstrap dose-response:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 535.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Coherence) Tj ( ) Tj (restoration) Tj ( ) Tj (\(order) Tj ( ) Tj (parameter\)) Tj ( ) Tj (~) Tj ( ) Tj (dose^\(1/3\)) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (small) Tj ( ) Tj (dose) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (mean-field) Tj ( ) Tj (critical) Tj ( ) Tj (isotherm) Tj ( ) Tj (with) Tj ( ) Tj (delta_MF) Tj ( ) Tj (=) Tj ( ) Tj (3.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 527.2 cm
+Q
+q
+1 0 0 1 60 512.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Wait -- the Hill n=3 gives:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 490.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (E\(dose\)) Tj ( ) Tj (~) Tj ( ) Tj (dose^3) Tj ( ) Tj (/) Tj ( ) Tj (EC_5_0^3) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (dose) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (EC_5_0) Tj ( ) Tj (\(small) Tj ( ) Tj (dose) Tj ( ) Tj (limit\)) Tj  T* (E\(dose\)) Tj ( ) Tj (~) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (EC_5_0^3/dose^3) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (dose) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (EC_5_0) Tj ( ) Tj (\(large) Tj ( ) Tj (dose) Tj ( ) Tj (limit\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482.6 cm
+Q
+q
+1 0 0 1 60 455.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is NOT m ~ h^\(1/3\). The Hill equation gives E ~ dose^3 for small dose -- the inverse power law. The mean-field) Tj T* (isotherm gives m ~ h^\(1/3\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448.6 cm
+Q
+q
+1 0 0 1 60 409.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Resolution:) Tj /F1 9 Tf ( The Bootstrap dose-response is measured as the response of coherence RESTORATION, not coherence) Tj T* (itself. The restoration fraction E\(dose\) ~ dose^3 near threshold -- this is the THIRD POWER law in Landau theory at the) Tj T* (critical point for the complementary variable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 402.6 cm
+Q
+q
+1 0 0 1 60 363.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (More precisely: in Landau theory, the susceptibility chi = dm/dh at h=0, T=T_c diverges. The nonlinear response m ~) Tj T* (h^\(1/delta\) with delta=3. The INVERSE relationship -- h ~ m^delta = m^3 -- gives the dose-response as dose ~) Tj T* (restoration^\(1/3\), or equivalently restoration ~ dose^3. ) Tj /F2 9 Tf (The Hill n=3 IS the mean-field isotherm with delta_MF = 3.) Tj /F1 9 Tf ( [x]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 356.6 cm
+Q
+q
+1 0 0 1 60 329.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (This means the Bootstrap threshold is a mean-field critical point, not a 3D Ising critical point \(which would give delta = 4.789) Tj T* (-) Tj (> Hill n ~= 4.8\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 322.6 cm
+Q
+q
+1 0 0 1 60 295.6 cm
+q
+BT 1 0 0 1 0 15 Tm -0.021353 Tw 12 TL /F2 9 Tf 0 0 0 rg (The Bootstrap threshold is mean-field \(n=3\), but the wind-up transition is 3D Ising \(exponent 1.2372, Paper 67\).) Tj /F1 9 Tf ( Two) Tj T* 0 Tw (different critical behaviors:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 280.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Bootstrap restoration: mean-field \(delta=3, below Ginzburg crossover\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 265.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Wind-up collapse: 3D Ising \(above Ginzburg crossover\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 258.6 cm
+Q
+q
+1 0 0 1 60 231.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This matches the two-stage transition of Paper 67: the Bootstrap loop operates in the mean-field regime \(far from) Tj T* (gamma_c\), while wind-up occurs in the 3D Ising fluctuation-dominated regime \(near gamma_c\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224.6 cm
+Q
+q
+1 0 0 1 60 218.6 cm
+Q
+q
+1 0 0 1 60 214.6 cm
+Q
+q
+1 0 0 1 60 176.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Hemoglobin and n=2.8 -- Why Not Exactly 3?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 164.6 cm
+Q
+q
+1 0 0 1 60 125.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Hemoglobin has Hill coefficient n ~= 2.8, not 3, because it has 4 subunits with imperfect cooperativity. The Bootstrap loop) Tj T* (has Hill n=3 \(measured to R^2=0.9980\) because the three coupled steps have closer-to-ideal cooperativity -- each step is) Tj T* (strongly coupled to the next.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 118.6 cm
+Q
+q
+1 0 0 1 60 103.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The slight departure from ideal would be:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 64.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (n_effective) Tj ( ) Tj (=) Tj ( ) Tj (n_ideal) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (epsilon_cooperativity\)) Tj  T*  T* (For) Tj ( ) Tj (Bootstrap:) Tj ( ) Tj (n_effective) Tj ( ) Tj (=) Tj ( ) Tj (3.00) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (epsilon_cooperativity) Tj ( ) Tj (~=) Tj ( ) Tj (0) Tj ( ) Tj (\(ideal) Tj ( ) Tj (cooperativity\)) Tj  T* (For) Tj ( ) Tj (hemoglobin:) Tj ( ) Tj (n_effective) Tj ( ) Tj (=) Tj ( ) Tj (2.8) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (epsilon_cooperativity) Tj ( ) Tj (~=) Tj ( ) Tj (0.07) Tj ( ) Tj (\(7%) Tj ( ) Tj (non-ideal\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 7005
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 80: AVRAMI KINETICS AND THE HILL EQUATION -- BOOTSTRAP NUCLEATION IS MEAN-) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Bootstrap loop has tighter cooperativity than hemoglobin because:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Each step is driven to completion before the next begins \(sequential, not parallel\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The feedback loop ensures each step amplifies rather than moderates the next) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 668 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 There is no competing pathway to dilute the cooperativity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 661 cm
+Q
+q
+1 0 0 1 60 655 cm
+Q
+q
+1 0 0 1 60 651 cm
+Q
+q
+1 0 0 1 60 613 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. The Bootstrap Threshold = Phase Transition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 601 cm
+Q
+q
+1 0 0 1 60 586 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Bootstrap threshold dose \(0.623, where restoration = 50%\) is a critical dose:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 579 cm
+Q
+q
+1 0 0 1 60 522.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dose_c) Tj ( ) Tj (=) Tj ( ) Tj (0.623) Tj ( ) Tj ( ) Tj ( ) Tj (\(Bootstrap) Tj ( ) Tj (threshold\)) Tj  T* (EC_5_0) Tj ( ) Tj (=) Tj ( ) Tj (0.623) Tj  T*  T* (From) Tj ( ) Tj (Avrami:) Tj ( ) Tj (k) Tj ( ) Tj (x) Tj ( ) Tj (dose_c^3) Tj ( ) Tj (=) Tj ( ) Tj (ln\(2\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (k) Tj ( ) Tj (=) Tj ( ) Tj (ln\(2\)/0.623^3) Tj ( ) Tj (=) Tj ( ) Tj (0.693/0.242) Tj ( ) Tj (=) Tj ( ) Tj (2.86) Tj  T*  T* (From) Tj ( ) Tj (mean-field:) Tj ( ) Tj (h_c) Tj ( ) Tj (\(critical) Tj ( ) Tj (field) Tj ( ) Tj (for) Tj ( ) Tj (m) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (dose_c) Tj ( ) Tj (=) Tj ( ) Tj (EC_5_0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514.2 cm
+Q
+q
+1 0 0 1 60 487.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The fold-restoration at saturation \(19.18x\) represents the RATIO of coherence with full Bootstrap activation to coherence) Tj T* (without Bootstrap activation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 480.2 cm
+Q
+q
+1 0 0 1 60 467.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_max/C_min) Tj ( ) Tj (=) Tj ( ) Tj (19.18x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 459.4 cm
+Q
+q
+1 0 0 1 60 432.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This ratio is the gain of the Bootstrap amplification cycle. It corresponds to moving from gamma_eff_high to) Tj T* (gamma_eff_low:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425.4 cm
+Q
+q
+1 0 0 1 60 386.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (19.18) Tj ( ) Tj (=) Tj ( ) Tj (exp\(alpha) Tj ( ) Tj (x) Tj ( ) Tj (\(gamma_high) Tj ( ) Tj (-) Tj ( ) Tj (gamma_low\)) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (exp\(1000) Tj ( ) Tj (x) Tj ( ) Tj (0.004) Tj ( ) Tj (x) Tj ( ) Tj (20/ln\(2\)\)...) Tj ( ) Tj (\(rough) Tj ( ) Tj (estimate\)) Tj  T*  T* (-) Tj (>) Tj ( ) Tj (gamma_high) Tj ( ) Tj (-) Tj ( ) Tj (gamma_low) Tj ( ) Tj (~=) Tj ( ) Tj (0.0030) Tj ( ) Tj ( ) Tj (\(3x) Tj ( ) Tj (gamma_c\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 378.2 cm
+Q
+q
+1 0 0 1 60 351.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Bootstrap loop can move the effective gamma_eff by 3x gamma_c -- exactly the range needed to shift from gamma_eff) Tj T* (~= gamma_baseline \(0.001\) to gamma_eff ~= 0.004 \(stressed state\) and back.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 344.2 cm
+Q
+q
+1 0 0 1 60 338.2 cm
+Q
+q
+1 0 0 1 60 334.2 cm
+Q
+q
+1 0 0 1 60 296.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 284.2 cm
+Q
+q
+1 0 0 1 60 113 cm
+q
+.95 .95 .95 rg
+n 20 0 452 167.2 re f*
+Q
+q
+BT 1 0 0 1 20 159.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Hill) Tj ( ) Tj (equation) Tj ( ) Tj (n=3:) Tj ( ) Tj (Restoration) Tj ( ) Tj (=) Tj ( ) Tj (dose^3/\(EC_5_0^3) Tj ( ) Tj (+) Tj ( ) Tj (dose^3\)) Tj  T* (R^2) Tj ( ) Tj (=) Tj ( ) Tj (0.9980) Tj ( ) Tj (--) Tj ( ) Tj (essentially) Tj ( ) Tj (exact) Tj ( ) Tj (fit) Tj  T*  T* (n=3) Tj ( ) Tj (is) Tj ( ) Tj (not) Tj ( ) Tj (arbitrary.) Tj ( ) Tj (It) Tj ( ) Tj (is:) Tj  T*  T* (1.) Tj ( ) Tj (MWC) Tj ( ) Tj (allosteric) Tj ( ) Tj (model:) Tj  T* ( ) Tj ( ) Tj ( ) Tj (3) Tj ( ) Tj (coupled) Tj ( ) Tj (cooperating) Tj ( ) Tj (steps) Tj ( ) Tj (\(NIR) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Debye) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (coherence\)) Tj  T*  T* (2.) Tj ( ) Tj (Avrami) Tj ( ) Tj (kinetics) Tj ( ) Tj (\(n=3\):) Tj  T* ( ) Tj ( ) Tj ( ) Tj (Heterogeneous) Tj ( ) Tj (surface) Tj ( ) Tj (nucleation) Tj ( ) Tj (\(membrane) Tj ( ) Tj (surface\)) Tj ( ) Tj (+) Tj ( ) Tj (3D) Tj ( ) Tj (growth) Tj  T* ( ) Tj ( ) Tj ( ) Tj (f_EZ\(dose\)) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-k) Tj ( ) Tj (x) Tj ( ) Tj (dose^3\)) Tj ( ) Tj (--) Tj ( ) Tj (same) Tj ( ) Tj (math) Tj ( ) Tj (as) Tj ( ) Tj (Hill) Tj ( ) Tj (equation) Tj  T*  T* (3.) Tj ( ) Tj (Mean-field) Tj ( ) Tj (critical) Tj ( ) Tj (isotherm:) Tj  T* ( ) Tj ( ) Tj ( ) Tj (delta_MF) Tj ( ) Tj (=) Tj ( ) Tj (3) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (E) Tj ( ) Tj (~) Tj ( ) Tj (dose^3) Tj ( ) Tj (for) Tj ( ) Tj (dose) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (EC_5_0) Tj  T* ( ) Tj ( ) Tj ( ) Tj (Bootstrap) Tj ( ) Tj (threshold) Tj ( ) Tj (is) Tj ( ) Tj (mean-field) Tj ( ) Tj (critical) Tj ( ) Tj (point) Tj ( ) Tj (\(not) Tj ( ) Tj (3D) Tj ( ) Tj (Ising\)) Tj  T*  T* (Bootstrap) Tj ( ) Tj (=) Tj ( ) Tj (mean-field) Tj ( ) Tj (\(delta=3\)) Tj  T* (Wind-up) Tj ( ) Tj (=) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (\(delta=4.789\)) Tj  T* (Two) Tj ( ) Tj (different) Tj ( ) Tj (critical) Tj ( ) Tj (behaviors) Tj ( ) Tj (for) Tj ( ) Tj (the) Tj ( ) Tj (approach) Tj ( ) Tj (and) Tj ( ) Tj (the) Tj ( ) Tj (collapse.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 105 cm
+Q
+q
+1 0 0 1 60 90 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 80) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 83 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000006491 00000 n 
+0000006598 00000 n 
+0000006705 00000 n 
+0000006817 00000 n 
+0000006927 00000 n 
+0000007043 00000 n 
+0000007149 00000 n 
+0000007524 00000 n 
+0000015345 00000 n 
+0000015453 00000 n 
+0000015564 00000 n 
+0000015939 00000 n 
+0000023566 00000 n 
+0000023674 00000 n 
+0000023785 00000 n 
+0000024160 00000 n 
+0000031218 00000 n 
+0000031326 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+31437
+%%EOF

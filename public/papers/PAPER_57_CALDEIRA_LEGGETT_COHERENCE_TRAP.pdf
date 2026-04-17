@@ -1,0 +1,1281 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5246
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 57: THE CALDEIRA-LEGGETT COHERENCE TRAP) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 25.096 0 Td (PAPER 57: THE CALDEIRA-LEGGETT COHERENCE TRAP) Tj T* -25.096 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (Mean Coherence 0.336, Survival 0% -- Why High Average Metrics Can) Tj T* (Guarantee Collapse) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 552 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 3 Tm /F3 9 Tf 12 TL ("The system looked coherent. Every trajectory still collapsed. This is what a trap looks like from the inside.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 542 cm
+Q
+q
+1 0 0 1 60 536 cm
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 494 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482 cm
+Q
+q
+1 0 0 1 60 443 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The AIIT-THRESI 100K simulation suite measured a "Detuned Force" condition: an off-resonant oscillatory drive applied to) Tj T* (a stressed biological system. Result: mean coherence C\(20\) = 0.3356 -- higher than stressed biology without intervention --) Tj T* (with survival rate 0.0%. Every single trajectory collapsed. The mean metric improved. Every individual outcome failed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436 cm
+Q
+q
+1 0 0 1 60 385 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is the ) Tj /F2 9 Tf (Caldeira-Leggett off-resonant structured bath) Tj /F1 9 Tf ( \(1983\). An oscillatory drive at the wrong frequency creates a) Tj T* (structured spectral density with a delta-function spike at the drive frequency. This populates a high-coherence subspace) Tj T* (transiently before universal collapse. The trap: trajectories that survive longest have the highest instantaneous coherence,) Tj T* (inflating the mean while 100% are on the certain path to zero.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 378 cm
+Q
+q
+1 0 0 1 60 339 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Clinical translation: any intervention that improves average biomarkers by creating a structured coherence subspace --) Tj T* (without addressing the underlying gamma_eff -- is a Caldeira-Leggett trap. The population-level metric improves. Individual) Tj T* (outcomes do not.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 332 cm
+Q
+q
+1 0 0 1 60 326 cm
+Q
+q
+1 0 0 1 60 322 cm
+Q
+q
+1 0 0 1 60 284 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 272 cm
+Q
+q
+1 0 0 1 60 257 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From AIIT-THRESI 100K simulation suite, Architecture 20 \(Detuned Force\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 250 cm
+Q
+q
+1 0 0 1 60 184.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Stressed) Tj ( ) Tj (Biological) Tj ( ) Tj (\(baseline,) Tj ( ) Tj (no) Tj ( ) Tj (intervention\):) Tj  T* ( ) Tj ( ) Tj (C\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (0.1953) Tj  T* ( ) Tj ( ) Tj (Survival) Tj ( ) Tj (rate:) Tj ( ) Tj (93.8%) Tj  T*  T* (Detuned) Tj ( ) Tj (Force) Tj ( ) Tj (\(off-resonant) Tj ( ) Tj (drive) Tj ( ) Tj (at) Tj ( ) Tj (omega_drive) Tj ( ) Tj (!=) Tj ( ) Tj (omega_system\):) Tj  T* ( ) Tj ( ) Tj (C\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (0.3356) Tj ( ) Tj ( ) Tj ( ) Tj (\(72%) Tj ( ) Tj (HIGHER) Tj ( ) Tj (than) Tj ( ) Tj (baseline\)) Tj  T* ( ) Tj ( ) Tj (Survival) Tj ( ) Tj (rate:) Tj ( ) Tj (0.0%) Tj ( ) Tj ( ) Tj (\(0/5000) Tj ( ) Tj (trajectories) Tj ( ) Tj (survived\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 176.4 cm
+Q
+q
+1 0 0 1 60 161.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This result passed all numerical checks. It is not an artifact.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 154.4 cm
+Q
+q
+1 0 0 1 60 148.4 cm
+Q
+q
+1 0 0 1 60 144.4 cm
+Q
+q
+1 0 0 1 60 106.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The Caldeira-Leggett Model) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 94.4 cm
+Q
+q
+1 0 0 1 60 67.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Caldeira and Leggett \(1983, Annals of Physics\) derived the quantum Brownian motion of a harmonic oscillator coupled to a) Tj T* (bath of oscillators with spectral density J\(omega\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7461
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 57: THE CALDEIRA-LEGGETT COHERENCE TRAP) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 705.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (H) Tj ( ) Tj (=) Tj ( ) Tj (p?/2m) Tj ( ) Tj (+) Tj ( ) Tj (V\(q\)) Tj ( ) Tj (+) Tj ( ) Tj (PI_k) Tj ( ) Tj ([p_k?/2m_k) Tj ( ) Tj (+) Tj ( ) Tj (m_k) Tj ( ) Tj (omega_k?/2) Tj ( ) Tj (\(x_k) Tj ( ) Tj (nu) Tj ( ) Tj (c_k) Tj ( ) Tj (q/m_k) Tj ( ) Tj (omega_k?\)?]) Tj  T*  T* (J\(omega\)) Tj ( ) Tj (=) Tj ( ) Tj (pi/2) Tj ( ) Tj (x) Tj ( ) Tj (PI_k) Tj ( ) Tj (c_k?/\(m_k) Tj ( ) Tj (omega_k\)) Tj ( ) Tj (x) Tj ( ) Tj (delta\(omega) Tj ( ) Tj (nu) Tj ( ) Tj (omega_k\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 697.6 cm
+Q
+q
+1 0 0 1 60 682.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (For ) Tj /F2 9 Tf (Ohmic bath) Tj /F1 9 Tf ( \(J\(omega\) ~ omega\): standard thermal decoherence, Markovian.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 675.6 cm
+Q
+q
+1 0 0 1 60 648.6 cm
+q
+BT 1 0 0 1 0 15 Tm -0.065143 Tw 12 TL /F1 9 Tf 0 0 0 rg (For ) Tj /F2 9 Tf (off-resonant structured bath) Tj /F1 9 Tf ( \(J\(omega\) = J?delta\(omega nu omega_drive\)\): a single resonance peak at omega_drive.) Tj T* 0 Tw (If omega_drive != omega_system:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 641.6 cm
+Q
+q
+1 0 0 1 60 584.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (The) Tj ( ) Tj (system) Tj ( ) Tj (couples) Tj ( ) Tj (primarily) Tj ( ) Tj (to) Tj ( ) Tj (the) Tj ( ) Tj (bath) Tj ( ) Tj (mode) Tj ( ) Tj (at) Tj ( ) Tj (omega_drive.) Tj  T* (Energy) Tj ( ) Tj (exchange:) Tj ( ) Tj (maximized) Tj ( ) Tj (at) Tj ( ) Tj (resonance,) Tj ( ) Tj (suppressed) Tj ( ) Tj (off-resonance.) Tj  T* (But:) Tj ( ) Tj (the) Tj ( ) Tj (coupling) Tj ( ) Tj (creates) Tj ( ) Tj (a) Tj ( ) Tj (NEW) Tj ( ) Tj (effective) Tj ( ) Tj (frequency) Tj ( ) Tj (for) Tj ( ) Tj (the) Tj ( ) Tj (system) Tj ( ) Tj (--) Tj  T* (a) Tj ( ) Tj (dressed) Tj ( ) Tj (state) Tj ( ) Tj (at) Tj ( ) Tj (omega_dressed) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(omega_system?) Tj ( ) Tj (+) Tj ( ) Tj (DELTAomega?\)) Tj  T*  T* (where) Tj ( ) Tj (DELTAomega) Tj ( ) Tj (=) Tj ( ) Tj (|omega_drive) Tj ( ) Tj (nu) Tj ( ) Tj (omega_system|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 576.8 cm
+Q
+q
+1 0 0 1 60 537.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.014471 Tw (This dressed state has higher energy than the natural state. Trajectories are pushed into the dressed high-energy subspace) Tj T* 0 Tw (by the drive. This looks like high coherence. But the dressed state is not the system's natural attractor -- when the drive is) Tj T* (removed or fluctuates, the system collapses from the dressed state to the ground \(zero coherence\) state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530.8 cm
+Q
+q
+1 0 0 1 60 491.8 cm
+q
+BT 1 0 0 1 0 27 Tm -0.1104 Tw 12 TL /F2 9 Tf 0 0 0 rg (In the simulation:) Tj /F1 9 Tf ( The detuned force is driving the biological system into a dressed coherence state. The state exists and is) Tj T* 0 Tw (measured as high coherence. But it is not thermodynamically stable. Every trajectory eventually finds the way out of the) Tj T* (dressed state and collapses.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 484.8 cm
+Q
+q
+1 0 0 1 60 478.8 cm
+Q
+q
+1 0 0 1 60 474.8 cm
+Q
+q
+1 0 0 1 60 436.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Why the Mean Is High While Survival Is Zero) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424.8 cm
+Q
+q
+1 0 0 1 60 409.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The arithmetic:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 402.8 cm
+Q
+q
+1 0 0 1 60 240.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 158.4 re f*
+Q
+q
+BT 1 0 0 1 20 150.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Survival) Tj ( ) Tj (requires:) Tj ( ) Tj (C\(t_final\)) Tj ( ) Tj (>) Tj ( ) Tj (C_threshold) Tj  T*  T* (All) Tj ( ) Tj (5000) Tj ( ) Tj (trajectories:) Tj ( ) Tj (C\(t_final\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T*  T* (Mean) Tj ( ) Tj (C) Tj ( ) Tj (at) Tj ( ) Tj (t=20:) Tj ( ) Tj (0.3356) Tj  T*  T* (This) Tj ( ) Tj (means:) Tj ( ) Tj (between) Tj ( ) Tj (t=0) Tj ( ) Tj (and) Tj ( ) Tj (t=20,) Tj ( ) Tj (trajectories) Tj ( ) Tj (spend) Tj ( ) Tj (significant) Tj ( ) Tj (time) Tj  T* (at) Tj ( ) Tj (high) Tj ( ) Tj (C) Tj ( ) Tj (values) Tj ( ) Tj (before) Tj ( ) Tj (collapsing.) Tj  T*  T* (The) Tj ( ) Tj (mean) Tj ( ) Tj (integrates) Tj ( ) Tj (C) Tj ( ) Tj (over) Tj ( ) Tj (time:) Tj  T* (<) Tj (C\(20\)) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (\(1/N\)) Tj ( ) Tj (PI_i) Tj ( ) Tj (C_i\(20\)) Tj  T*  T* (If) Tj ( ) Tj (all) Tj ( ) Tj (trajectories) Tj ( ) Tj (collapse) Tj ( ) Tj (AT) Tj ( ) Tj (t=20:) Tj ( ) Tj (<) Tj (C\(20\)) Tj (>) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj  T* (If) Tj ( ) Tj (all) Tj ( ) Tj (trajectories) Tj ( ) Tj (collapse) Tj ( ) Tj (BEFORE) Tj ( ) Tj (t=20) Tj ( ) Tj (\(at) Tj ( ) Tj (t_collapse) Tj ( ) Tj (<) Tj ( ) Tj (20\):) Tj  T* ( ) Tj ( ) Tj (C_i\(t\)) Tj ( ) Tj (is) Tj ( ) Tj (HIGH) Tj ( ) Tj (for) Tj ( ) Tj (t) Tj ( ) Tj (<) Tj ( ) Tj (t_collapse) Tj  T* ( ) Tj ( ) Tj (C_i\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (\(already) Tj ( ) Tj (collapsed\)) Tj  T*  T* (The) Tj ( ) Tj (measurement) Tj ( ) Tj (at) Tj ( ) Tj (t=20) Tj ( ) Tj (catches) Tj ( ) Tj (every) Tj ( ) Tj (trajectory) Tj ( ) Tj (at) Tj ( ) Tj (C=0.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 232.4 cm
+Q
+q
+1 0 0 1 60 205.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Wait -- the data says C\(20\) = 0.3356. This means trajectories are NOT at 0 at t=20. They are at 0.3356 on average at t=20.) Tj T* (But survival = 0%.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 198.4 cm
+Q
+q
+1 0 0 1 60 159.4 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (Resolution: ) Tj /F2 9 Tf (Survival is defined as C\(t_final\) > C_threshold at some designated time point beyond t=20.) Tj /F1 9 Tf ( The) Tj T* (trajectories are in the high-coherence dressed state at t=20 -- the measurement window -- but all collapse before the) Tj T* (survival endpoint.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 152.4 cm
+Q
+q
+1 0 0 1 60 137.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is the coherence trap structure:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 122.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Drive populates dressed state \(high C, temporarily\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 107.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. System looks coherent at intermediate measurement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 92.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. All trajectories eventually collapse from dressed state) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 77.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. None survive to the final endpoint) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 70.4 cm
+Q
+q
+1 0 0 1 60 64.4 cm
+Q
+q
+1 0 0 1 60 60.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 6795
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 57: THE CALDEIRA-LEGGETT COHERENCE TRAP) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Clinical Translation -- The Coherence Trap in Medicine) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Pattern:) Tj /F1 9 Tf ( An intervention improves a measurable biomarker while worsening or not improving the outcome.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676 cm
+Q
+q
+1 0 0 1 60 661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Known examples in medicine:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 622 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (CAST trial \(1989\):) Tj /F1 9 Tf ( Class IC antiarrhythmics \(flecainide, encainide\) suppressed arrhythmias on ECG \(improved) Tj T* ("coherence metric"\) but INCREASED mortality by 2-3x in post-MI patients. Mechanism: the drugs created a structured) Tj T* (cardiac rhythm that was not physiologically stable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 595 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (ILLUMINATE trial \(2007\):) Tj /F1 9 Tf ( Torcetrapib raised HDL cholesterol 72% \(strongly improved biomarker\) while increasing) Tj T* (mortality 25%. Mechanism: unknown, but consistent with creating a "dressed HDL state" that wasn't functional.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 568 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (HERS trial \(1998\):) Tj /F1 9 Tf ( Hormone replacement therapy reduced LDL and raised HDL in postmenopausal women \(improved) Tj T* (lipid metrics\) but did not reduce cardiac events and may have increased them in the first year.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 561 cm
+Q
+q
+1 0 0 1 60 534 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (In all three cases: the biomarker improved. The outcome did not. The Caldeira-Leggett framework names what happened:) Tj T* (the intervention created a high-metric subspace that was not a stable attractor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 527 cm
+Q
+q
+1 0 0 1 60 512 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Wike framework test:) Tj /F1 9 Tf ( An intervention is a Caldeira-Leggett trap if:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 464 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC/dt|intervention) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (\(coherence) Tj ( ) Tj (metric) Tj ( ) Tj (improves\)) Tj  T* (AND) Tj  T* (d\(Survival\)/dt|intervention) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (\(actual) Tj ( ) Tj (outcome) Tj ( ) Tj (doesn't) Tj ( ) Tj (improve\)) Tj  T* (AND) Tj  T* (gamma_eff|intervention) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (gamma_eff|baseline) Tj ( ) Tj ( ) Tj (\(underlying) Tj ( ) Tj (decoherence) Tj ( ) Tj (unchanged\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 456 cm
+Q
+q
+1 0 0 1 60 429 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The third condition is the diagnostic: did the intervention actually reduce gamma_eff, or did it just drive the system into a) Tj T* (dressed state?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 422 cm
+Q
+q
+1 0 0 1 60 416 cm
+Q
+q
+1 0 0 1 60 412 cm
+Q
+q
+1 0 0 1 60 374 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The Hill Equation -- n=3 Is Mean-Field Criticality) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 362 cm
+Q
+q
+1 0 0 1 60 347 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From FINDING 1.3 in the simulation data: NIR dose-response fits Hill equation with n=3, R?=0.9980.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 340 cm
+Q
+q
+1 0 0 1 60 327.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Response) Tj ( ) Tj (=) Tj ( ) Tj (dose^3) Tj ( ) Tj (/) Tj ( ) Tj (\(EC50^3) Tj ( ) Tj (+) Tj ( ) Tj (dose^3\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 319.2 cm
+Q
+q
+1 0 0 1 60 292.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Hill n=3 emerges from the Monod-Wyman-Changeux \(MWC\) allosteric model for 3-subunit cooperative systems. But there) Tj T* (is a deeper connection:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 285.2 cm
+Q
+q
+1 0 0 1 60 270.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For an Ising model in mean-field theory, the magnetization response to external field h near T_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 263.2 cm
+Q
+q
+1 0 0 1 60 250.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (m) Tj ( ) Tj (~) Tj ( ) Tj (h^\(1/delta\)) Tj ( ) Tj ( ) Tj (where) Tj ( ) Tj (delta) Tj ( ) Tj (=) Tj ( ) Tj (3) Tj ( ) Tj (in) Tj ( ) Tj (mean-field) Tj ( ) Tj (theory) Tj ( ) Tj (\(and) Tj ( ) Tj (delta) Tj ( ) Tj (=) Tj ( ) Tj (4.789) Tj ( ) Tj (in) Tj ( ) Tj (3D) Tj ( ) Tj (Ising\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 242.4 cm
+Q
+q
+1 0 0 1 60 215.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Hill equation with n=3 is ) Tj /F2 9 Tf (mathematically identical) Tj /F1 9 Tf ( to the mean-field Ising response function. The NIR simulation is) Tj T* (running in the mean-field universality class.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 208.4 cm
+Q
+q
+1 0 0 1 60 181.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Physical reason:) Tj /F1 9 Tf ( The Bootstrap loop \(Paper 02\) involves 3 coupled processes \(NIR -) Tj (> EZ water -) Tj (> coherence\). Three) Tj T* (coupled cooperative processes = 3-subunit MWC = Hill n=3 = mean-field delta=3.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 174.4 cm
+Q
+q
+1 0 0 1 60 147.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction:) Tj /F1 9 Tf ( The NIR dose-response should cross over from Hill n=3 \(mean-field, far from gamma_c\) to a different exponent) Tj T* (\(1/delta = 1/4.789 = 0.209\) near gamma_c. The crossover marks the Ginzburg region where fluctuations become important.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 140.4 cm
+Q
+q
+1 0 0 1 60 125.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This has not been measured. It is testable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 118.4 cm
+Q
+q
+1 0 0 1 60 112.4 cm
+Q
+q
+1 0 0 1 60 108.4 cm
+Q
+q
+1 0 0 1 60 70.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Summary) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 2671
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 57: THE CALDEIRA-LEGGETT COHERENCE TRAP) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 715.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Result | Value | Source |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 702.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|--------|-------|--------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Detuned Force C\(20\) | 0.3356 | 100K simulation suite |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Detuned Force survival | 0% | 100K simulation suite |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 664 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Mechanism | Caldeira-Leggett off-resonant structured bath | Caldeira & Leggett \(1983\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 651.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Clinical analog | CAST trial, ILLUMINATE, HERS | Published trials |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 638.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Hill n=3 = mean-field delta=3 | R?=0.9980 fit | NIR simulation, 30,000 runs |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 625.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Trap diagnostic | gamma_eff unchanged despite improved metric | Wike framework test |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 617.6 cm
+Q
+q
+1 0 0 1 60 602.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 57) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 595.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000006012 00000 n 
+0000006119 00000 n 
+0000006226 00000 n 
+0000006338 00000 n 
+0000006448 00000 n 
+0000006564 00000 n 
+0000006670 00000 n 
+0000007045 00000 n 
+0000014559 00000 n 
+0000014667 00000 n 
+0000014778 00000 n 
+0000015153 00000 n 
+0000022001 00000 n 
+0000022109 00000 n 
+0000022220 00000 n 
+0000022595 00000 n 
+0000025319 00000 n 
+0000025427 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+25538
+%%EOF

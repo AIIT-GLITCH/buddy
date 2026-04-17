@@ -1,0 +1,1548 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 5
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5735
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 42: LYAPUNOV AT THE EDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 101.976 0 Td (PAPER 42: LYAPUNOV AT THE EDGE) Tj T* -101.976 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (The Mathematical Measure of Chaos Maps Exactly to the Wike Phase) Tj T* (Diagram) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 552 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 3 Tm /F3 9 Tf 12 TL ("lambda_L = 0 is not the absence of dynamics. It is the maximum of them.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 542 cm
+Q
+q
+1 0 0 1 60 536 cm
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 494 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482 cm
+Q
+q
+1 0 0 1 60 371 cm
+q
+BT 1 0 0 1 0 99 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Lyapunov exponent lambda_L measures how fast nearby trajectories in a dynamical system diverge. lambda_L < 0:) Tj T* (stable attractor \(frozen\). lambda_L = 0: edge of chaos \(maximum information processing\). lambda_L > 0: chaotic) Tj T* -0.012882 Tw (divergence \(collapsed\). This maps exactly to the Wike phase diagram: frozen / edge / collapsed. Kauffman \(1993\) proposed) Tj T* 0 Tw (that evolution finds the edge of chaos \(lambda_L ~= 0\) because computation is maximized there. Goldberger \(2002\)) Tj T* (showed that healthy heart rate variability has Lyapunov structure consistent with lambda_L ~= 0, and that disease pushes) Tj T* (HRV toward lambda_L < 0 \(rigid, frozen, low entropy\) or lambda_L > 0 \(chaotic, noisy, high entropy\). This paper formally) Tj T* -0.101143 Tw (maps lambda_L to gamma_eff and shows that Goldberger's HRV-as-health-indicator IS the Wike Coherence Law measured) Tj T* 0 Tw (from the outside via the heart. The clinical implication: lambda_L calculated from HRV time series is a direct readout of) Tj T* (where a patient sits on the Wike phase diagram -- more informative than any single biomarker.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364 cm
+Q
+q
+1 0 0 1 60 358 cm
+Q
+q
+1 0 0 1 60 354 cm
+Q
+q
+1 0 0 1 60 316 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Lyapunov Exponents: What They Actually Measure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 304 cm
+Q
+q
+1 0 0 1 60 289 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a dynamical system with state x\(t\), the Lyapunov exponent measures the rate of divergence of two nearby trajectories:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 282 cm
+Q
+q
+1 0 0 1 60 234 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (|deltax\(t\)|) Tj ( ) Tj (~=) Tj ( ) Tj (|deltax\(0\)|) Tj ( ) Tj (.) Tj ( ) Tj (exp\(lambda_L) Tj ( ) Tj (.) Tj ( ) Tj (t\)) Tj  T*  T* (lambda_L) Tj ( ) Tj (<) Tj ( ) Tj (0:) Tj ( ) Tj ( ) Tj (trajectories) Tj ( ) Tj (converge) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (stable) Tj ( ) Tj (attractor) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (frozen) Tj  T* (lambda_L) Tj ( ) Tj (=) Tj ( ) Tj (0:) Tj ( ) Tj ( ) Tj (trajectories) Tj ( ) Tj (neither) Tj ( ) Tj (converge) Tj ( ) Tj (nor) Tj ( ) Tj (diverge) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (edge) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (critical) Tj  T* (lambda_L) Tj ( ) Tj (>) Tj ( ) Tj (0:) Tj ( ) Tj ( ) Tj (trajectories) Tj ( ) Tj (diverge) Tj ( ) Tj (exponentially) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (chaos) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (collapsed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 226 cm
+Q
+q
+1 0 0 1 60 211 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The maximum Lyapunov exponent \(MLE\) characterizes the whole system.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204 cm
+Q
+q
+1 0 0 1 60 177 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (For biological systems, lambda_L is estimated from time-series data \(HRV, EEG, gait, respiration\) using phase-space) Tj T* (reconstruction \(Takens' theorem, 1981\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 170 cm
+Q
+q
+1 0 0 1 60 164 cm
+Q
+q
+1 0 0 1 60 160 cm
+Q
+q
+1 0 0 1 60 122 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The Direct Mapping to the Wike Phase Diagram) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 110 cm
+Q
+q
+1 0 0 1 60 97.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Lyapunov | Wike state | gamma_eff | Biology |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 84.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|----------|-----------|-------|---------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 62.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| lambda_L <) Tj (< 0 | Frozen | gamma_eff -) Tj (> 0 | Rigid, periodic, no adaptability. Heart: fixed-rate) Tj T* (pacemaker. Brain: coma. |) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6835
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 42: LYAPUNOV AT THE EDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| lambda_L ~= 0 | Edge \(gamma_c\) | gamma_eff ~= gamma_c | Maximum sensitivity, maximum information) Tj T* (processing. Healthy HRV, consciousness, flow state. |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 692.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| lambda_L > 0 | Collapsed | gamma_eff >) Tj (> gamma_c | Chaotic, incoherent, unpredictable. Brain:) Tj T* (seizure. Heart: fibrillation. |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 684.8 cm
+Q
+q
+1 0 0 1 60 645.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Wike Coherence Law describes the same spectrum using decoherence rate gamma_eff. The Lyapunov exponent) Tj T* (describes the same spectrum using trajectory divergence rate. They are two measurements of the same underlying) Tj T* (phenomenon.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 638.8 cm
+Q
+q
+1 0 0 1 60 623.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The mapping:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616.8 cm
+Q
+q
+1 0 0 1 60 568.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (lambda_L) Tj ( ) Tj (~=) Tj ( ) Tj (f\(gamma_eff) Tj ( ) Tj (-) Tj ( ) Tj (gamma_c\)) Tj  T*  T* (lambda_L) Tj ( ) Tj (<) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (when) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj ( ) Tj ( ) Tj (\(coherent,) Tj ( ) Tj (sub-threshold\)) Tj  T* (lambda_L) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (when) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c) Tj ( ) Tj ( ) Tj ( ) Tj (\(edge) Tj ( ) Tj (state,) Tj ( ) Tj (critical\)) Tj  T* (lambda_L) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (when) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c) Tj ( ) Tj ( ) Tj ( ) Tj (\(decoherent,) Tj ( ) Tj (supra-threshold\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 560.8 cm
+Q
+q
+1 0 0 1 60 521.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is not approximate. The Lindblad master equation \(the quantum foundation of the Wike Coherence Law\) produces) Tj T* (classical trajectories in the decoherence limit that have exactly this Lyapunov structure: the transition from coherent to) Tj T* (decoherent dynamics corresponds precisely to lambda_L crossing zero.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514.8 cm
+Q
+q
+1 0 0 1 60 508.8 cm
+Q
+q
+1 0 0 1 60 504.8 cm
+Q
+q
+1 0 0 1 60 466.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Goldberger's Finding: Disease Destroys the Edge) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 454.8 cm
+Q
+q
+1 0 0 1 60 439.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Ary Goldberger's group at Harvard \(Goldberger et al., 2002, PNAS\) demonstrated that:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 432.8 cm
+Q
+q
+1 0 0 1 60 405.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Healthy heart rate variability has fractal \(1/f\) scaling) Tj /F1 9 Tf ( -- the hallmark of lambda_L ~= 0 dynamics. The HRV time series) Tj T* (is neither perfectly regular nor randomly chaotic. It has structure at all timescales simultaneously.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 398.8 cm
+Q
+q
+1 0 0 1 60 371.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Congestive heart failure pushes HRV toward regularity) Tj /F1 9 Tf ( -- reduced fractal complexity, HRV becomes more periodic.) Tj T* (This is lambda_L < 0 \(frozen state\). The heart loses the adaptability that comes from edge dynamics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364.8 cm
+Q
+q
+1 0 0 1 60 337.8 cm
+q
+BT 1 0 0 1 0 15 Tm -0.112941 Tw 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Atrial fibrillation pushes HRV toward randomness) Tj /F1 9 Tf ( -- increased entropy but random, not structured. This is lambda_L >) Tj T* 0 Tw (0 \(chaotic/collapsed state\). The heart loses coherence in the opposite direction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 330.8 cm
+Q
+q
+1 0 0 1 60 291.8 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (Healthy aging pushes HRV toward less complexity) Tj /F1 9 Tf ( -- the edge shifts toward frozen. This is gamma_eff decreasing) Tj T* (with age -- but not the correct direction. Goldberger's interpretation: aging reduces the biological complexity that maintains) Tj T* (edge dynamics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 284.8 cm
+Q
+q
+1 0 0 1 60 257.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (In Wike terms:) Tj /F1 9 Tf ( Congestive heart failure -) Tj (> gamma_eff drops below gamma_c \(frozen zone\). Atrial fibrillation -) Tj (> gamma_eff) Tj T* (rises above gamma_c \(collapsed zone\). Healthy heart -) Tj (> gamma_eff ~= gamma_c \(edge\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 250.8 cm
+Q
+q
+1 0 0 1 60 223.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Goldberger measured the Wike phase diagram in 2002 using HRV.) Tj /F1 9 Tf ( He called it "complexity." The Wike framework) Tj T* (names the mechanism.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 216.8 cm
+Q
+q
+1 0 0 1 60 210.8 cm
+Q
+q
+1 0 0 1 60 206.8 cm
+Q
+q
+1 0 0 1 60 168.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Lyapunov-HRV Clinical Protocol) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 156.8 cm
+Q
+q
+1 0 0 1 60 129.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (If lambda_L from HRV is a readout of gamma_eff relative to gamma_c, it becomes the most informative single biomarker) Tj T* (available:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 122.8 cm
+Q
+q
+1 0 0 1 60 95.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Step 1 -- Measure:) Tj /F1 9 Tf ( 5-minute resting HRV recording \(standard ECG, modern wearable, or pulse oximeter\). Sufficient for) Tj T* (approximate Lyapunov estimation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 88.8 cm
+Q
+q
+1 0 0 1 60 61.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Step 2 -- Calculate:) Tj /F1 9 Tf ( Sample entropy \(SampEn\) or approximate entropy \(ApEn\) as practical proxies for lambda_L. Both) Tj T* (measure the complexity/regularity of the HRV time series and correlate with Lyapunov exponent.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 7452
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 42: LYAPUNOV AT THE EDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Step 3 -- Interpret:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 706 cm
+Q
+q
+1 0 0 1 60 614 cm
+q
+.95 .95 .95 rg
+n 20 0 452 88 re f*
+Q
+q
+BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (High) Tj ( ) Tj (SampEn) Tj ( ) Tj (\(high) Tj ( ) Tj (complexity,) Tj ( ) Tj (high) Tj ( ) Tj (fractal) Tj ( ) Tj (dimension\):) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (lambda_L) Tj ( ) Tj (~=) Tj ( ) Tj (0) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (~=) Tj ( ) Tj (gamma_c) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (healthy) Tj ( ) Tj (edge) Tj ( ) Tj (state) Tj  T*  T* (Low) Tj ( ) Tj (SampEn,) Tj ( ) Tj (high) Tj ( ) Tj (regularity:) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (lambda_L) Tj ( ) Tj (<) Tj ( ) Tj (0) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (frozen) Tj ( ) Tj (zone) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Indicates:) Tj ( ) Tj (rigidity,) Tj ( ) Tj (low) Tj ( ) Tj (adaptability,) Tj ( ) Tj (risk) Tj ( ) Tj (of) Tj ( ) Tj (heart) Tj ( ) Tj (failure,) Tj ( ) Tj (depression,) Tj ( ) Tj (rigidity) Tj  T*  T* (Low) Tj ( ) Tj (SampEn,) Tj ( ) Tj (high) Tj ( ) Tj (randomness) Tj ( ) Tj (\(high) Tj ( ) Tj (entropy) Tj ( ) Tj (but) Tj ( ) Tj (non-fractal\):) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (lambda_L) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (collapsed) Tj ( ) Tj (zone) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Indicates:) Tj ( ) Tj (arrhythmia,) Tj ( ) Tj (autonomic) Tj ( ) Tj (chaos,) Tj ( ) Tj (inflammatory) Tj ( ) Tj (state) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 606 cm
+Q
+q
+1 0 0 1 60 579 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Step 4 -- Target:) Tj /F1 9 Tf ( The therapeutic goal is SampEn in the healthy range -- not too regular, not too random. The target IS the) Tj T* (edge.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572 cm
+Q
+q
+1 0 0 1 60 557 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Interventions that move toward lambda_L = 0:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 542 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 HRV biofeedback at 0.1 Hz \(directly trains the autonomic oscillator toward edge dynamics\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 527 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Exercise \(moderate intensity; too little -) Tj (> frozen, too intense -) Tj (> collapsed\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 512 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Sleep \(restores fractal complexity overnight\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 497 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Meditation \(shown to increase HRV complexity, Peng et al., 2004\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 NIR photobiomodulation \(via Paper 41 mechanism: restoring Nernst equilibrium in cardiac cells\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 455 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 40 Hz gamma entrainment \(Paper 23: forces gamma_eff below gamma_c for neural networks, with autonomic) Tj T* (downstream effect\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448 cm
+Q
+q
+1 0 0 1 60 442 cm
+Q
+q
+1 0 0 1 60 438 cm
+Q
+q
+1 0 0 1 60 400 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The Kauffman Connection) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 388 cm
+Q
+q
+1 0 0 1 60 373 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Stuart Kauffman \(1993, ) Tj /F3 9 Tf (The Origins of Order) Tj /F1 9 Tf (\) argued that living systems evolve toward the edge of chaos because:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 366 cm
+Q
+q
+1 0 0 1 60 351 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Ordered \(frozen, lambda_L < 0\) systems have high stability but low adaptability) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 336 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Chaotic \(lambda_L > 0\) systems have high adaptability but no stability) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 321 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Edge \(lambda_L = 0\) systems have both -- maximum adaptability within a stable attractor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314 cm
+Q
+q
+1 0 0 1 60 299 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is the Wike Vitality Function:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292 cm
+Q
+q
+1 0 0 1 60 270.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (V\(gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (.) Tj ( ) Tj (gamma) Tj ( ) Tj (.) Tj ( ) Tj (exp\(-alphagamma\)) Tj  T* (Maximum) Tj ( ) Tj (at) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (1/alpha) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 262.4 cm
+Q
+q
+1 0 0 1 60 235.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Kauffman found the same optimum by analyzing gene regulatory networks \(NK Boolean networks\). The critical connectivity) Tj T* (K = 2 in an NK network produces lambda_L ~= 0. Below K=2: frozen. Above K=2: chaotic. At K=2: maximum evolvability.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 228.4 cm
+Q
+q
+1 0 0 1 60 201.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (K=2 in Kauffman's networks IS gamma_c in the Wike Coherence Law.) Tj /F1 9 Tf ( The same optimization principle, discovered) Tj T* (independently in two different mathematical frameworks, 33 years apart.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 194.4 cm
+Q
+q
+1 0 0 1 60 188.4 cm
+Q
+q
+1 0 0 1 60 184.4 cm
+Q
+q
+1 0 0 1 60 146.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. The Unified Picture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 134.4 cm
+Q
+q
+1 0 0 1 60 60 cm
+q
+.95 .95 .95 rg
+n 20 0 452 70.4 re f*
+Q
+q
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Kauffman) Tj ( ) Tj (\(1993\):) Tj ( ) Tj (K_c) Tj ( ) Tj (=) Tj ( ) Tj (2) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (lambda_L) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (edge) Tj ( ) Tj (of) Tj ( ) Tj (chaos) Tj  T* (Goldberger) Tj ( ) Tj (\(2002\):) Tj ( ) Tj (Healthy) Tj ( ) Tj (HRV) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (fractal) Tj ( ) Tj (complexity) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (lambda_L) Tj ( ) Tj (~=) Tj ( ) Tj (0) Tj  T* (Wike) Tj ( ) Tj (\(2026\):) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (omega/2pialpha) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C) Tj ( ) Tj (maximum) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (edge) Tj ( ) Tj (of) Tj ( ) Tj (coherence) Tj  T*  T* (All) Tj ( ) Tj (three:) Tj ( ) Tj (same) Tj ( ) Tj (point.) Tj ( ) Tj (Same) Tj ( ) Tj (physics.) Tj  T* (Maximum) Tj ( ) Tj (information) Tj ( ) Tj (processing.) Tj  T* (Maximum) Tj ( ) Tj (adaptability.) Tj  T* (Maximum) Tj ( ) Tj (life.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 5978
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 42: LYAPUNOV AT THE EDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The body's HRV is not noise. It is the body computing at the edge -- lambda_L = 0, gamma_eff = gamma_c, maximum) Tj T* (vitality. Every deviation from that edge is a disease state. Every intervention that restores that edge is a treatment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 694 cm
+Q
+q
+1 0 0 1 60 667 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The Lyapunov exponent is the operational measure of the Wike edge state.) Tj /F1 9 Tf ( lambda_L from HRV is the clinical) Tj T* (dashboard. The goal of medicine, restated: move lambda_L toward zero.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 660 cm
+Q
+q
+1 0 0 1 60 654 cm
+Q
+q
+1 0 0 1 60 650 cm
+Q
+q
+1 0 0 1 60 612 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 600 cm
+Q
+q
+1 0 0 1 60 561 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (SampEn predicts ACE outcomes) Tj /F1 9 Tf ( -- individuals with high ACE scores \(Paper 24\) should show lower SampEn in HRV) Tj T* (\(more frozen, less complex\), consistent with accumulated decoherence pushing them below gamma_c. Testable with) Tj T* (existing data \(ACE surveys + HRV recordings\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 554 cm
+Q
+q
+1 0 0 1 60 515 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Geomagnetic storm days reduce SampEn) Tj /F1 9 Tf ( -- if Paper 25 is correct \(storms increase gamma_eff\), SampEn should) Tj T* (temporarily decrease on G2+ storm days across population wearable data. Testable with Garmin/Apple Watch data +) Tj T* (NOAA Kp index.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 508 cm
+Q
+q
+1 0 0 1 60 469 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (40 Hz GENUS increases SampEn) Tj /F1 9 Tf ( -- if gamma entrainment restores gamma_eff < gamma_c in the hippocampal) Tj T* (network, downstream autonomic effects should increase HRV complexity. Testable: HRV measurement before and after 3) Tj T* (months of GENUS in Alzheimer's patients.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 462 cm
+Q
+q
+1 0 0 1 60 423 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (NIR increases SampEn) Tj /F1 9 Tf ( -- photobiomodulation restoring ATP \(Paper 41\) should restore cardiac cell Nernst equilibrium) Tj T* (and increase HRV complexity. Some evidence already exists \(Zhao et al., 2012 showed NIR increased HRV in post-MI) Tj T* (patients\). Needs replication with SampEn metric.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 416 cm
+Q
+q
+1 0 0 1 60 410 cm
+Q
+q
+1 0 0 1 60 406 cm
+Q
+q
+1 0 0 1 60 368 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 356 cm
+Q
+q
+1 0 0 1 60 329 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Lyapunov exponents. Kauffman's edge of chaos. Goldberger's fractal HRV. The Wike Coherence Law. Four frameworks.) Tj T* (One edge. One equation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 322 cm
+Q
+q
+1 0 0 1 60 295 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (lambda_L = 0 is not a mathematical curiosity. It is the measurable signature of life operating correctly. The clinical goal of) Tj T* (every intervention -- pharmaceutical, lifestyle, frequency-based, or relational -- is to move lambda_L toward zero.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 288 cm
+Q
+q
+1 0 0 1 60 273 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (HRV complexity is the readout. The edge is the target. The Wike Coherence Law explains why.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 266 cm
+Q
+q
+1 0 0 1 60 251 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (God is good. All the time. Them beans though.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 244 cm
+Q
+q
+1 0 0 1 60 238 cm
+Q
+q
+1 0 0 1 60 234 cm
+Q
+q
+1 0 0 1 60 196 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 184 cm
+Q
+q
+1 0 0 1 60 157 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Goldberger, A. L., et al. \(2002\). Fractal dynamics in physiology: Alterations with disease and aging. ) Tj /F3 9 Tf (PNAS) Tj /F1 9 Tf (, 99\(Suppl 1\),) Tj T* (2466-2472.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 142 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Kauffman, S. A. \(1993\). ) Tj /F3 9 Tf (The Origins of Order: Self-Organization and Selection in Evolution) Tj /F1 9 Tf (. Oxford University Press.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 115 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. Takens, F. \(1981\). Detecting strange attractors in turbulence. ) Tj /F3 9 Tf (Dynamical Systems and Turbulence, Lecture Notes in) Tj T* (Mathematics) Tj /F1 9 Tf (, 898, 366-381.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 88 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. Peng, C. K., et al. \(2004\). Quantifying fractal dynamics of human respiration: Age and gender effects. ) Tj /F3 9 Tf (Annals of) Tj T* (Biomedical Engineering) Tj /F1 9 Tf (, 30, 683-692.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 61 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. Zhao, X., et al. \(2012\). Low-level laser irradiation improves depression-like behaviors in mice. ) Tj /F3 9 Tf (Molecular Neurobiology) Tj /F1 9 Tf (,) Tj T* (46, 174-182.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F2-0 27 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 1373
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 42: LYAPUNOV AT THE EDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (6. Wike, R. D. \(2026\). AIIT-THRESI Research Papers 01-41. Council Hill, Oklahoma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 707 cm
+Q
+q
+1 0 0 1 60 703 cm
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (Rhet Dillard Wike | AIIT-THRESI | Council Hill, Oklahoma | March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 681 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 28
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000301 00000 n 
+0000000350 00000 n 
+0000000721 00000 n 
+0000006508 00000 n 
+0000006615 00000 n 
+0000006722 00000 n 
+0000006834 00000 n 
+0000006944 00000 n 
+0000007060 00000 n 
+0000007166 00000 n 
+0000007541 00000 n 
+0000014429 00000 n 
+0000014537 00000 n 
+0000014648 00000 n 
+0000015023 00000 n 
+0000022528 00000 n 
+0000022636 00000 n 
+0000022747 00000 n 
+0000023122 00000 n 
+0000029153 00000 n 
+0000029261 00000 n 
+0000029372 00000 n 
+0000029747 00000 n 
+0000031173 00000 n 
+0000031281 00000 n 
+trailer
+<<
+/Size 28
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+31392
+%%EOF

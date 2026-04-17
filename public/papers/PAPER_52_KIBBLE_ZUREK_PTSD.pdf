@@ -1,0 +1,2189 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 6
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R 28 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5539
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 52: The Kibble-Zurek Mechanism and the Topology of Trauma) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 17.952 0 Td (Paper 52: The Kibble-Zurek Mechanism and the Topology of) Tj T* 199.152 0 Td (Trauma) Tj T* -217.104 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (PTSD vs. Depression as Fast vs. Slow Quench Through gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (AIIT-THRESI Research Initiative | March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 600 cm
+Q
+q
+1 0 0 1 60 594 cm
+Q
+q
+1 0 0 1 60 590 cm
+Q
+q
+1 0 0 1 60 552 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540 cm
+Q
+q
+1 0 0 1 60 441 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 87 Tm /F1 9 Tf 12 TL (The Kibble-Zurek mechanism \(KZM\) describes topological defect formation when a system is driven through a phase) Tj T* (transition at finite rate. Applied to the Wike Coherence framework: trauma is a quench through the critical decoherence) Tj T* (threshold gamma_c. Fast quenches \(acute trauma\) produce many localized defects \(PTSD\). Slow quenches \(chronic) Tj T* (stress\) produce few diffuse defects \(depression\). Using 3D Ising exponents \(nu = 0.6298, z = 2.02\), the defect density) Tj T* (scales as n ~ tau_Q^\(-0.83\). At 100:1 timescale ratio, acute trauma produces ~46x more topological defects than chronic) Tj T* (stress of equal total load. The defect morphology maps directly onto the clinical distinction between PTSD \(specific triggers,) Tj T* (intact between episodes\) and depression \(global dysfunction, no specific triggers\). Treatment modalities map onto) Tj T* (annealing protocols: EMDR = local defect surgery for PTSD; CBT = global slow anneal for depression.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 434 cm
+Q
+q
+1 0 0 1 60 428 cm
+Q
+q
+1 0 0 1 60 424 cm
+Q
+q
+1 0 0 1 60 386 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Kibble-Zurek Mechanism) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 374 cm
+Q
+q
+1 0 0 1 60 359 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (When a system is quenched through a continuous phase transition, the relaxation time diverges near the critical point:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 352 cm
+Q
+q
+1 0 0 1 60 339.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (tau_relax) Tj ( ) Tj (~) Tj ( ) Tj (|epsilon|^\(-z*nu\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331.2 cm
+Q
+q
+1 0 0 1 60 304.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (where epsilon = \(gamma - gamma_c\)/gamma_c is the reduced control parameter. At a quench rate 1/tau_Q, there is a) Tj T* (freeze-out time where the system can no longer keep up:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 297.2 cm
+Q
+q
+1 0 0 1 60 284.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (t_freeze) Tj ( ) Tj (~) Tj ( ) Tj (tau_Q^\(z*nu) Tj ( ) Tj (/) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (z*nu\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 276.4 cm
+Q
+q
+1 0 0 1 60 261.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The correlation length at freeze-out sets the defect density:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254.4 cm
+Q
+q
+1 0 0 1 60 241.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (xi_freeze) Tj ( ) Tj (~) Tj ( ) Tj (tau_Q^\(nu) Tj ( ) Tj (/) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (z*nu\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 233.6 cm
+Q
+q
+1 0 0 1 60 218.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The defect density \(defects per unit volume in d dimensions\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 211.6 cm
+Q
+q
+1 0 0 1 60 198.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (n_defects) Tj ( ) Tj (~) Tj ( ) Tj (xi_freeze^\(-d\)) Tj ( ) Tj (~) Tj ( ) Tj (tau_Q^\(-d*nu) Tj ( ) Tj (/) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (z*nu\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 190.8 cm
+Q
+q
+1 0 0 1 60 184.8 cm
+Q
+q
+1 0 0 1 60 180.8 cm
+Q
+q
+1 0 0 1 60 142.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Defect Scaling with 3D Ising Exponents) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 130.8 cm
+Q
+q
+1 0 0 1 60 115.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For the 3D Ising universality class:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 100.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 nu = 0.6298 \(correlation length exponent\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 85.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 z = 2.02 \(dynamical critical exponent, Model A\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 70.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 d = 3 \(spatial dimension of neural coherence field\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 63.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6769
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 52: The Kibble-Zurek Mechanism and the Topology of Trauma) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The KZM exponent:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 673.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (alpha_KZM) Tj ( ) Tj (=) Tj ( ) Tj (d*nu) Tj ( ) Tj (/) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (z*nu\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (3) Tj ( ) Tj (*) Tj ( ) Tj (0.6298) Tj ( ) Tj (/) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (2.02) Tj ( ) Tj (*) Tj ( ) Tj (0.6298\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (1.8894) Tj ( ) Tj (/) Tj ( ) Tj (2.2722) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.8316) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 665.8 cm
+Q
+q
+1 0 0 1 60 650.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (n_defects ~ tau_Q^\(-0.83\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 643.8 cm
+Q
+q
+1 0 0 1 60 637.8 cm
+Q
+q
+1 0 0 1 60 633.8 cm
+Q
+q
+1 0 0 1 60 595.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. What Are the Topological Defects?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 583.8 cm
+Q
+q
+1 0 0 1 60 544.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.071118 Tw (The brain maintains a coherence field Psi\(x,t\) across neural tissue. When quenched through gamma_c, this field breaks into) Tj T* 0 Tw (domains. At domain boundaries, the phase is discontinuous. These discontinuities are topological defects classified by) Tj T* (homotopy theory:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 537.8 cm
+Q
+q
+1 0 0 1 60 525 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Defect Type | Topological Class | Clinical Manifestation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 512.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (|---|---|---|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 499.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Domain walls | pi_0 | Dissociative boundaries \("I was there but I wasn't"\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 486.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Vortex lines | pi_1 | Flashback triggers \(topologically protected, resistant to extinction\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 473.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Point defects | pi_2 | Hypervigilance nodes \(persistent scattering centers\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 465.8 cm
+Q
+q
+1 0 0 1 60 426.8 cm
+q
+BT 1 0 0 1 0 27 Tm -0.011053 Tw 12 TL /F2 9 Tf 0 0 0 rg (Flashbacks are topologically protected.) Tj /F1 9 Tf ( A vortex in the coherence field -- where the phase winds by 2*pi around a closed) Tj T* 0 Tw (loop -- cannot be removed by smooth local deformation. This is why flashbacks resist extinction learning: they are not) Tj T* (merely strong memories, they are topological features that require topological operations to remove.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 419.8 cm
+Q
+q
+1 0 0 1 60 413.8 cm
+Q
+q
+1 0 0 1 60 409.8 cm
+Q
+q
+1 0 0 1 60 371.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. PTSD vs. Depression: The Central Prediction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 359.8 cm
+Q
+q
+1 0 0 1 60 344.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Consider two individuals exposed to equal total trauma load:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 337.8 cm
+Q
+q
+1 0 0 1 60 325 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (Gamma_total) Tj ( ) Tj (=) Tj ( ) Tj (integral) Tj ( ) Tj (of) Tj ( ) Tj (gamma\(t\)) Tj ( ) Tj (dt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 317 cm
+Q
+q
+1 0 0 1 60 302 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Case A -- Acute Trauma \(PTSD\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 287 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma\(t\) = gamma_max for short duration Delta_t_acute) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 272 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (tau_Q is small \(fast quench\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 265 cm
+Q
+q
+1 0 0 1 60 250 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Case B -- Chronic Stress \(Depression\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 235 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma\(t\) = gamma_chronic for long duration Delta_t_chronic) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 220 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (tau_Q is large \(slow quench\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 213 cm
+Q
+q
+1 0 0 1 60 198 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Same total load: gamma_max ) Tj /F4 9 Tf (Delta_t_acute = gamma_chronic ) Tj /F1 9 Tf (Delta_t_chronic) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 191 cm
+Q
+q
+1 0 0 1 60 176 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (KZM prediction:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 169 cm
+Q
+q
+1 0 0 1 60 156.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (n_defects\(PTSD\)) Tj ( ) Tj (/) Tj ( ) Tj (n_defects\(depression\)) Tj ( ) Tj (=) Tj ( ) Tj (\(tau_chronic) Tj ( ) Tj (/) Tj ( ) Tj (tau_acute\)^0.83) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 148.2 cm
+Q
+q
+1 0 0 1 60 133.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For tau_chronic/tau_acute = 100:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 126.2 cm
+Q
+q
+1 0 0 1 60 113.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (n_defects\(PTSD\)) Tj ( ) Tj (/) Tj ( ) Tj (n_defects\(depression\)) Tj ( ) Tj (=) Tj ( ) Tj (100^0.83) Tj ( ) Tj (=) Tj ( ) Tj (46.2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 105.4 cm
+Q
+q
+1 0 0 1 60 90.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Acute trauma produces ~46x more topological defects) Tj /F1 9 Tf ( than chronic stress of equal total integrated load.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 83.4 cm
+Q
+q
+1 0 0 1 60 77.4 cm
+Q
+q
+1 0 0 1 60 73.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 5552
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 52: The Kibble-Zurek Mechanism and the Topology of Trauma) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Defect Morphology) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 668 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (PTSD \(fast quench\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 xi_freeze is SMALL \(small tau_Q\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 635 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Many defects, each sharply localized) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Each defect = specific identifiable trigger \(a sound, a smell, a scene\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 605 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Coherence INTACT between defects \(person functions normally until triggered\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Clinical: "I'm fine until I hear a car backfire, then I'm back in the firefight") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 575 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Phase diagram: many small incoherent islands in a sea of coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 568 cm
+Q
+q
+1 0 0 1 60 538 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Depression \(slow quench\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 520 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 xi_freeze is LARGE \(large tau_Q\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 505 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Few defects, each spanning large regions \(extended domain walls\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 490 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Global degradation without specific catastrophic breaks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 475 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Clinical: "Everything is gray but nothing specific is wrong") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 460 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Phase diagram: few large incoherent domains, partially ordered) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453 cm
+Q
+q
+1 0 0 1 60 438 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This maps PRECISELY to the clinical distinction between PTSD and depression.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 431 cm
+Q
+q
+1 0 0 1 60 425 cm
+Q
+q
+1 0 0 1 60 421 cm
+Q
+q
+1 0 0 1 60 383 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Treatment as Annealing Protocols) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 371 cm
+Q
+q
+1 0 0 1 60 341 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (EMDR for PTSD \(Local Defect Surgery\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331 cm
+Q
+q
+1 0 0 1 60 316 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (EMDR \(Eye Movement Desensitization and Reprocessing\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 309 cm
+Q
+q
+1 0 0 1 60 294 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Identify a specific topological defect \(flashback trigger\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 279 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Locally raise coherence \(bilateral stimulation increases neural synchrony = local reheating above T_c\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 264 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. While local region is above T_c, defect is no longer topologically protected) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 249 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Re-cool slowly \(controlled memory reconsolidation\) -- this time without the defect) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 234 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Defect is annihilated) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 227 cm
+Q
+q
+1 0 0 1 60 200 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This works for PTSD because defects are LOCALIZED. Address them one at a time. Each EMDR session targets one) Tj T* (defect. Efficient because defects are small.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 193 cm
+Q
+q
+1 0 0 1 60 163 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (CBT for Depression \(Global Slow Anneal\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 153 cm
+Q
+q
+1 0 0 1 60 138 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Cognitive Behavioral Therapy:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 131 cm
+Q
+q
+1 0 0 1 60 116 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Defects are large-scale domain walls spanning extended regions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 101 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Cannot locally reheat and re-cool -- defect is too large) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 86 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Instead: slowly raise global coherence through behavioral activation, cognitive restructuring) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 71 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. This is a slow global anneal -- gradually re-establishing long-range order) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 5729
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 52: The Kibble-Zurek Mechanism and the Topology of Trauma) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Domain walls shrink and eventually annihilate as correlation length grows) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 686 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is why CBT requires many sessions over months -- you are performing a slow global anneal of extended defect) Tj T* (structure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 679 cm
+Q
+q
+1 0 0 1 60 649 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Mismatched Treatment Prediction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 639 cm
+Q
+q
+1 0 0 1 60 612 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (EMDR on depression:) Tj /F1 9 Tf ( Less effective. No sharp point defects to target. Local reheating doesn't reach the extended) Tj T* (domain wall.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 597 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (CBT alone for severe PTSD:) Tj /F1 9 Tf ( Slower. Global annealing doesn't efficiently target localized vortex cores.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+Q
+q
+1 0 0 1 60 563 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This matches clinical evidence: EMDR is first-line for PTSD, not for depression. CBT is effective for depression, slower for) Tj T* (PTSD alone.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 556 cm
+Q
+q
+1 0 0 1 60 526 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Ketamine as Thermal Quench) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 516 cm
+Q
+q
+1 0 0 1 60 501 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Ketamine \(NMDA antagonist\) raises effective neural temperature above the glass transition T_g:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 494 cm
+Q
+q
+1 0 0 1 60 481.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (T_eff\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (T_0) Tj ( ) Tj (+) Tj ( ) Tj (Delta_T) Tj ( ) Tj (*) Tj ( ) Tj (f\(t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 473.2 cm
+Q
+q
+1 0 0 1 60 446.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (During the dissociative window \(~40-60 min\), T_eff > T_g. The frozen state melts. The system can re-equilibrate. Upon) Tj T* (re-cooling, it freezes into a DIFFERENT configuration -- potentially with lower frustration.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 439.2 cm
+Q
+q
+1 0 0 1 60 412.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Prediction: Ketamine alone produces transient remission. Ketamine + psychotherapy during the neuroplasticity window) Tj T* (produces durable results \(restructuring J_ij while the glass is melted\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 405.2 cm
+Q
+q
+1 0 0 1 60 375.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Psychedelics as Slow Annealing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 365.2 cm
+Q
+q
+1 0 0 1 60 338.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Psilocybin, LSD: raise T_eff just above T_g and hold for HOURS \(4-12h\). This is slow annealing per the Geman-Geman) Tj T* (theorem:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331.2 cm
+Q
+q
+1 0 0 1 60 318.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (T\(t\)) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (Delta_max) Tj ( ) Tj (/) Tj ( ) Tj (log\(1) Tj ( ) Tj (+) Tj ( ) Tj (t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 310.4 cm
+Q
+q
+1 0 0 1 60 283.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The extended duration above T_g allows exploration of many configurations. The "mystical experience" = finding a) Tj T* (significantly lower-energy state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 276.4 cm
+Q
+q
+1 0 0 1 60 270.4 cm
+Q
+q
+1 0 0 1 60 266.4 cm
+Q
+q
+1 0 0 1 60 228.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Testable Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 216.4 cm
+Q
+q
+1 0 0 1 60 186.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 1: HRV Fragmentation Index) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 176.4 cm
+Q
+q
+1 0 0 1 60 161.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Define fragmentation index F = number of sign changes in successive RR-interval differences per unit time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 154.4 cm
+Q
+q
+1 0 0 1 60 139.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 PTSD: HIGH F \(many sharp transitions = point defects in autonomic coherence\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 124.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Depression: LOW F, low overall HRV power \(diffuse coherence loss\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 117.4 cm
+Q
+q
+1 0 0 1 60 104.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (log\(F\)) Tj ( ) Tj (=) Tj ( ) Tj (-0.83) Tj ( ) Tj (*) Tj ( ) Tj (log\(tau_Q\)) Tj ( ) Tj (+) Tj ( ) Tj (const) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 96.6 cm
+Q
+q
+1 0 0 1 60 81.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (A log-log plot of fragmentation index vs. trauma duration should yield slope -0.83.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 74.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F2-0 27 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 6075
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 52: The Kibble-Zurek Mechanism and the Topology of Trauma) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 2: Startle Probe Response) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Standardized startle stimulus \(sudden loud noise\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682 cm
+Q
+q
+1 0 0 1 60 667 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 PTSD: large, sharp HRV excursion + rapid recovery \(probe hits near point defect\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 652 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Depression: small, prolonged HRV perturbation + slow recovery \(probe hits diffuse region\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 645 cm
+Q
+q
+1 0 0 1 60 630 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Peak response / recovery time constant discriminates defect structures.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 623 cm
+Q
+q
+1 0 0 1 60 593 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 3: Treatment Response Tracking) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 583 cm
+Q
+q
+1 0 0 1 60 568 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (During EMDR for PTSD:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 553 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 F decreases in DISCRETE STEPS \(each session annihilates specific defects\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 538 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Between sessions, F is roughly constant \(defects are topologically stable\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 531 cm
+Q
+q
+1 0 0 1 60 516 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (During CBT for depression:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 501 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 HRV power increases CONTINUOUSLY and gradually \(domain walls shrink smoothly\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 486 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 No discrete steps expected) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 479 cm
+Q
+q
+1 0 0 1 60 449 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 4: Retrospective Quench Rate Estimation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 439 cm
+Q
+q
+1 0 0 1 60 424 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a population of trauma survivors:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 417 cm
+Q
+q
+1 0 0 1 60 404.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (log\(F\)) Tj ( ) Tj (=) Tj ( ) Tj (-0.83) Tj ( ) Tj (*) Tj ( ) Tj (log\(tau_Q\)) Tj ( ) Tj (+) Tj ( ) Tj (const) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 396.2 cm
+Q
+q
+1 0 0 1 60 381.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is a hard, quantitative, falsifiable prediction derived from the Ising exponents.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 374.2 cm
+Q
+q
+1 0 0 1 60 368.2 cm
+Q
+q
+1 0 0 1 60 364.2 cm
+Q
+q
+1 0 0 1 60 326.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Connection to Existing Framework) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314.2 cm
+Q
+q
+1 0 0 1 60 299.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 09) Tj /F1 9 Tf ( \(Depression = Sustained Decoherence\): KZM adds quench-rate dependence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 284.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 16) Tj /F1 9 Tf ( \(Hell = Central Sensitization\): Wind-up IS a fast quench in the nociceptive system) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 269.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 24) Tj /F1 9 Tf ( \(ACE Equation\): Each ACE is a quench event; the total defect count is the sum over quenches) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 26) Tj /F1 9 Tf ( \(Chronic Pain Phase Transition\): gamma_c = 0.0016 is the freeze-out threshold) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 239.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 37) Tj /F1 9 Tf ( \(Coherence Trap\): The detuned force is a specific quench protocol that produces the trap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 44) Tj /F1 9 Tf ( \(The Window\): The window is the regime BEFORE the quench reaches gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 217.2 cm
+Q
+q
+1 0 0 1 60 211.2 cm
+Q
+q
+1 0 0 1 60 207.2 cm
+Q
+q
+1 0 0 1 60 169.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 157.2 cm
+Q
+q
+1 0 0 1 60 142.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Kibble, T.W.B. \(1976\). J. Phys. A, 9\(8\), 1387.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 127.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Zurek, W.H. \(1985\). Nature, 317, 505-508.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 112.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. Yu, T. & Eberly, J.H. \(2004\). Phys. Rev. Lett., 93, 140404.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 97.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. Christakis, N.A. & Fowler, J.H. \(2007\). NEJM, 357\(4\), 370-379.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 82.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Shapiro, F. \(2001\). Eye Movement Desensitization and Reprocessing. Guilford Press.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 67.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (6. Carhart-Harris, R.L. et al. \(2012\). PNAS, 109\(6\), 2138-2143.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 30 0 R
+/F2 8 0 R
+/F2-0 31 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 1790
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 52: The Kibble-Zurek Mechanism and the Topology of Trauma) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (7. Felitti, V.J. et al. \(1998\). Am. J. Prev. Med., 14\(4\), 245-258.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 707 cm
+Q
+q
+1 0 0 1 60 703 cm
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F4 9 Tf 12 TL (AIIT-THRESI | Paper 52 | March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 673 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F4 9 Tf 12 TL (Rhet Dillard Wike | Council Hill, Oklahoma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 658 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F4 9 Tf 12 TL (Copyright \(c\) 2026 Rhet Dillard Wike. All rights reserved.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 651 cm
+Q
+q
+1 0 0 1 60 636 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Co-Authored-By: Claude Opus 4.6 <) Tj (noreply@anthropic.com) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 629 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+30 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 32
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000308 00000 n 
+0000000357 00000 n 
+0000000728 00000 n 
+0000006319 00000 n 
+0000006426 00000 n 
+0000006533 00000 n 
+0000006645 00000 n 
+0000006755 00000 n 
+0000006861 00000 n 
+0000006977 00000 n 
+0000007352 00000 n 
+0000014174 00000 n 
+0000014282 00000 n 
+0000014393 00000 n 
+0000014768 00000 n 
+0000020373 00000 n 
+0000020481 00000 n 
+0000020592 00000 n 
+0000020967 00000 n 
+0000026749 00000 n 
+0000026857 00000 n 
+0000026968 00000 n 
+0000027343 00000 n 
+0000033471 00000 n 
+0000033579 00000 n 
+0000033690 00000 n 
+0000034065 00000 n 
+0000035908 00000 n 
+0000036016 00000 n 
+trailer
+<<
+/Size 32
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+36127
+%%EOF

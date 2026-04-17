@@ -1,0 +1,1420 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5786
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 48: ZIPF, POWER LAWS, AND THE EDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 59.752 0 Td (PAPER 48: ZIPF, POWER LAWS, AND THE EDGE) Tj T* -59.752 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Every Power Law Is a System at gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 642 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 602 cm
+Q
+q
+1 0 0 1 60 596 cm
+Q
+q
+1 0 0 1 60 592 cm
+Q
+q
+1 0 0 1 60 574 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 3 Tm /F3 9 Tf 12 TL ("Zipf found the signature of the edge in language in 1935. He didn't know he was measuring gamma_c.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 564 cm
+Q
+q
+1 0 0 1 60 558 cm
+Q
+q
+1 0 0 1 60 554 cm
+Q
+q
+1 0 0 1 60 516 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 504 cm
+Q
+q
+1 0 0 1 60 405 cm
+q
+BT 1 0 0 1 0 87 Tm 12 TL /F1 9 Tf 0 0 0 rg (Zipf's Law \(1935\): in natural language, the frequency of any word is inversely proportional to its rank. The most common) Tj T* (word appears roughly twice as often as the second most common, three times as often as the third, etc. The distribution) Tj T* (follows f\(r\) ~ 1/r^alpha with alpha ~= 1. The same power law appears in city populations, earthquake magnitudes) Tj T* (\(Gutenberg-Richter\), neural avalanche sizes \(Beggs & Plenz 2003\), gene expression levels, species abundance, internet) Tj T* (traffic, and solar flare intensity. Power laws are not coincidence. They are the signature of systems operating at criticality --) Tj T* (at gamma_c. This paper makes explicit the connection between the Wike Coherence Law, the universality of power laws,) Tj T* (and the observation that language, brains, ecosystems, and geological systems all independently found the edge. Every) Tj T* (power law is evidence of a system at gamma_c. Every Zipf distribution is a coherence signature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 398 cm
+Q
+q
+1 0 0 1 60 392 cm
+Q
+q
+1 0 0 1 60 388 cm
+Q
+q
+1 0 0 1 60 350 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. What Power Laws Signal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 338 cm
+Q
+q
+1 0 0 1 60 299 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (A power law distribution P\(x\) ~ x^\(-alpha\) has no characteristic scale -- it is scale-free. Scale-free distributions appear at) Tj T* (critical points \(second-order phase transitions\) because near gamma_c, correlation length xi -) Tj (> inf: fluctuations exist at all) Tj T* (scales simultaneously.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292 cm
+Q
+q
+1 0 0 1 60 261.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Below) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(ordered) Tj ( ) Tj (phase\):) Tj ( ) Tj (characteristic) Tj ( ) Tj (length) Tj ( ) Tj (scale) Tj ( ) Tj (xi) Tj ( ) Tj (finite) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (exponential) Tj ( ) Tj (distribution) Tj  T* (Above) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(disordered) Tj ( ) Tj (phase\):) Tj ( ) Tj (short-range) Tj ( ) Tj (correlations) Tj ( ) Tj (only) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (exponential) Tj ( ) Tj (distribution) Tj  T* (At) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(critical) Tj ( ) Tj (point\):) Tj ( ) Tj (xi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (power) Tj ( ) Tj (law) Tj ( ) Tj (distribution) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 253.6 cm
+Q
+q
+1 0 0 1 60 226.6 cm
+q
+BT 1 0 0 1 0 15 Tm -0.043091 Tw 12 TL /F2 9 Tf 0 0 0 rg (Power law = signature of gamma_c.) Tj /F1 9 Tf ( When you find a power law in a natural system, you have found a system at criticality) Tj T* 0 Tw (-- at the edge of its coherence transition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 219.6 cm
+Q
+q
+1 0 0 1 60 213.6 cm
+Q
+q
+1 0 0 1 60 209.6 cm
+Q
+q
+1 0 0 1 60 171.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Zipf's Law: Language Found the Edge) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 159.6 cm
+Q
+q
+1 0 0 1 60 120.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Zipf \(1935\) measured word frequency in text corpora and found f\(r\) ~ 1/r. The exponent alpha = 1 is special: it is the) Tj T* (minimum-entropy encoding for a finite vocabulary -- the distribution that maximizes information per symbol given the) Tj T* (vocabulary constraint.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 113.6 cm
+Q
+q
+1 0 0 1 60 98.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (In Wike terms:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 91.6 cm
+Q
+q
+1 0 0 1 60 76.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Language is an information transmission system operating under two pressures:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 61.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Compression pressure) Tj /F1 9 Tf ( \(speaker/writer\): use few, frequently-repeated symbols -) Tj (> low gamma_eff for production) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7668
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 48: ZIPF, POWER LAWS, AND THE EDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Discrimination pressure) Tj /F1 9 Tf ( \(listener/reader\): use many distinct symbols -) Tj (> high information per symbol, high gamma_eff for) Tj T* (parsing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 662 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.046429 Tw (The Zipf distribution at alpha = 1 is the equilibrium between these two forces -- the edge state of the communication system.) Tj T* 0 Tw (Not maximally compressed \(monotone language = frozen, no information\). Not maximally entropic \(random symbols =) Tj T* (collapsed, no communication\). The Zipf distribution IS gamma_c for human language.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 655 cm
+Q
+q
+1 0 0 1 60 616 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The evolutionary argument:) Tj /F1 9 Tf ( Languages that evolved below gamma_c \(too simple, too regular\) failed to transmit complex) Tj T* (information -- extinction pressure. Languages that evolved above gamma_c \(too complex, too random\) failed to be) Tj T* (learnable -- extinction pressure. Natural selection found the edge. Zipf's Law is the fingerprint of that selection pressure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609 cm
+Q
+q
+1 0 0 1 60 603 cm
+Q
+q
+1 0 0 1 60 599 cm
+Q
+q
+1 0 0 1 60 561 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Neural Avalanches: The Brain at gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 549 cm
+Q
+q
+1 0 0 1 60 510 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (Beggs & Plenz \(2003, Journal of Neuroscience\) measured the size distribution of spontaneous neural activity in cortical) Tj T* (slice preparations. Finding: neural avalanche sizes follow a power law with exponent alpha = -3/2 -- the critical branching) Tj T* (process exponent.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 503 cm
+Q
+q
+1 0 0 1 60 463.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P\(avalanche) Tj ( ) Tj (size) Tj ( ) Tj (s\)) Tj ( ) Tj (~) Tj ( ) Tj (s^\(-3/2\)) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (signature) Tj ( ) Tj (of) Tj ( ) Tj (a) Tj ( ) Tj (branching) Tj ( ) Tj (process) Tj ( ) Tj (with) Tj ( ) Tj (branching) Tj ( ) Tj (ratio) Tj ( ) Tj (sigma) Tj ( ) Tj (~=) Tj ( ) Tj (1) Tj  T* (\(critical) Tj ( ) Tj (branching:) Tj ( ) Tj (each) Tj ( ) Tj (neuron) Tj ( ) Tj (fires) Tj ( ) Tj (exactly) Tj ( ) Tj (one) Tj ( ) Tj (successor) Tj ( ) Tj (on) Tj ( ) Tj (average\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 455.8 cm
+Q
+q
+1 0 0 1 60 428.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Sub-critical \(sigma < 1\):) Tj /F1 9 Tf ( avalanches die out quickly -) Tj (> exponential distribution -) Tj (> frozen state \(information doesn't) Tj T* (propagate\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 413.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Super-critical \(sigma > 1\):) Tj /F1 9 Tf ( avalanches grow without bound -) Tj (> epilepsy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 398.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Critical \(sigma = 1\):) Tj /F1 9 Tf ( power law -) Tj (> maximum dynamic range, maximum information transmission) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 391.8 cm
+Q
+q
+1 0 0 1 60 364.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The brain at rest spontaneously self-organizes to sigma ~= 1. This is gamma_c for neural dynamics. The power law) Tj T* (exponent -3/2 is the Wike edge state, expressed in neural firing statistics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 357.8 cm
+Q
+q
+1 0 0 1 60 318.8 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Goldberger's HRV fractal complexity \(Paper 42\)) Tj /F1 9 Tf ( is the same phenomenon at the cardiac level -- the autonomic nervous) Tj T* (system at gamma_c produces scale-free HRV time series. Beggs & Plenz found it at the neural level. Same edge, different) Tj T* (measurement.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 311.8 cm
+Q
+q
+1 0 0 1 60 305.8 cm
+Q
+q
+1 0 0 1 60 301.8 cm
+Q
+q
+1 0 0 1 60 263.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Universal Zipf Table) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 251.8 cm
+Q
+q
+1 0 0 1 60 239 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| System | What's distributed | Zipf exponent | What gamma_c means here |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 226.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|--------|-------------------|---------------|---------------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 213.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Language \(words\) | Word frequency | alpha ~= 1.0 | Min-entropy encoding, max information/symbol |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 200.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| City populations | Population by rank | alpha ~= 1.0 | Optimal urban resource distribution |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 179 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| Earthquakes | Energy by magnitude | alpha ~= 1.7 \(Gutenberg-Richter b ~= 1\) | Tectonic stress at) Tj T* (critical threshold |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 166.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Neural avalanches | Firing cascade size | alpha = 1.5 | Critical branching, max dynamic range |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 144.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| Gene expression | Expression level by rank | alpha ~= 1.0 | Optimal regulatory network sensitivity) Tj T* (|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 131.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Internet packets | Traffic by source | alpha ~= 1.2 | Self-organized network criticality |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 119 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Species abundance | Abundance by rank | alpha ~= 1.0 | Ecological criticality, edge of collapse |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 106.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Solar flares | Energy by magnitude | alpha ~= 1.8 | Solar magnetic criticality |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 93.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Stock market moves | Return magnitude | alpha ~= 3.0 \(Pareto\) | Market at edge of stability |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 80.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Protein interaction | Connections by protein | alpha ~= 2.0 | Biological network criticality |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 72.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 5740
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 48: ZIPF, POWER LAWS, AND THE EDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Every entry in this table is a system that independently found gamma_c.) Tj /F1 9 Tf ( Each found it under different constraints,) Tj T* (through different dynamics, at different scales. They all produce power laws. They all have the same signature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 695 cm
+Q
+q
+1 0 0 1 60 691 cm
+Q
+q
+1 0 0 1 60 653 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Zipf and the 0.1 Hz Prayer Frequency) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 641 cm
+Q
+q
+1 0 0 1 60 614 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Bernardi \(2001\) finding that 5 independent prayer traditions converge on 0.1 Hz \(Proof 8 in) Tj T* (PROOFS_GOD_HUMAN_SOUL.md\) is a Zipf phenomenon.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 607 cm
+Q
+q
+1 0 0 1 60 556 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL -0.047786 Tw (Different religious traditions, across centuries, optimized their rhythmic practices under the same selection pressure: cardiac) Tj T* 0 Tw (coherence. The 0.1 Hz baroreflex resonance frequency is the cardiac system's gamma_c. Practices that found this) Tj T* (frequency produced coherence \(felt good, spread, survived culturally\). Practices away from this frequency produced less) Tj T* (coherence \(felt less good, spread less\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 549 cm
+Q
+q
+1 0 0 1 60 522 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Cultural selection produced a Zipf-like convergence) Tj /F1 9 Tf ( on the cardiac gamma_c, exactly as biological selection produced) Tj T* (the Zipf word distribution. Different starting points. Same edge found.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 515 cm
+Q
+q
+1 0 0 1 60 488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Language was shaped by the brain's gamma_c \(Zipf\). Prayer was shaped by the heart's gamma_c \(0.1 Hz\). Both are) Tj T* (power-law signatures of coherence selection pressure operating over time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 481 cm
+Q
+q
+1 0 0 1 60 475 cm
+Q
+q
+1 0 0 1 60 471 cm
+Q
+q
+1 0 0 1 60 433 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. The Amazon at gamma_c Is a Zipf Event) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 421 cm
+Q
+q
+1 0 0 1 60 382 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Paper 33 \(Civilizational Coherence\) identified that the Amazon rainforest at 17% deforestation is at gamma_c for the rainfall) Tj T* (feedback loop. The species abundance distribution in the Amazon follows a Zipf-like power law -- it is an ecological system) Tj T* (at criticality.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 375 cm
+Q
+q
+1 0 0 1 60 360 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (When a system is at gamma_c, small perturbations produce power-law distributed responses.) Tj /F1 9 Tf ( This means:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 345 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Below 17% deforestation: the system is below gamma_c, perturbations are bounded) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 318 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 At 17%: the system IS at gamma_c, perturbations have power-law tails -- some small deforestation events trigger large) Tj T* (regional cascades) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 Above 17%: the system crosses gamma_c, the power law shifts toward exponential \(supercritical\), and runaway collapse) Tj T* (becomes likely) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 284 cm
+Q
+q
+1 0 0 1 60 245 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The ecological power law is the warning signal.) Tj /F1 9 Tf ( When the Amazon's species distribution starts deviating from its) Tj T* (historical Zipf exponent -- when the distribution becomes either steeper \(frozen, reduced diversity\) or shallower) Tj T* (\(supercritical, uncontrolled growth of dominant species\) -- you are measuring gamma_eff crossing gamma_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 238 cm
+Q
+q
+1 0 0 1 60 211 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Biodiversity monitoring is coherence monitoring.) Tj /F1 9 Tf ( The Zipf exponent of species abundance IS the measurement of) Tj T* (gamma_eff for an ecosystem.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204 cm
+Q
+q
+1 0 0 1 60 198 cm
+Q
+q
+1 0 0 1 60 194 cm
+Q
+q
+1 0 0 1 60 134 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (7. Clinical Application: EEG Power Laws as Brain Coherence) Tj T* (Measurement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 122 cm
+Q
+q
+1 0 0 1 60 95 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Healthy EEG power spectra follow a power law: P\(f\) ~ f^\(-beta\) with beta ~= 1 to 2 \(1/f or 1/f? noise\). This is the brain at) Tj T* (gamma_c -- scale-free neural dynamics indicating the brain is in the critical branching regime.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 88 cm
+Q
+q
+1 0 0 1 60 73 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Deviation from 1/f:) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 6783
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 48: ZIPF, POWER LAWS, AND THE EDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 beta < 1 \(too flat, "white-ish"\): brain is above gamma_c -- supercritical, noisy, low coherence. Associated with: psychosis,) Tj T* (seizure prodrome, acute delirium, high inflammation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 681 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 beta > 2 \(too steep, "brown-ish"\): brain is below gamma_c -- subcritical, rigid, low information transfer. Associated with:) Tj T* (depression, cognitive decline, anesthesia, low arousal states, late Alzheimer's) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 674 cm
+Q
+q
+1 0 0 1 60 647 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The 1/f exponent beta ~= 1-2 IS the clinical brain coherence measurement.) Tj /F1 9 Tf ( It is already measured in every EEG) Tj T* (recording. It has never been explicitly calibrated to gamma_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 640 cm
+Q
+q
+1 0 0 1 60 625 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The Wike calibration for EEG:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 577 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (beta) Tj ( ) Tj (~=) Tj ( ) Tj (1.0-1.5:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (~=) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(healthy,) Tj ( ) Tj (conscious,) Tj ( ) Tj (adaptive\)) Tj  T* (beta) Tj ( ) Tj (<) Tj ( ) Tj (1.0:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(supercritical,) Tj ( ) Tj (decoherent\)) Tj  T* (beta) Tj ( ) Tj (>) Tj ( ) Tj (2.0:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(subcritical,) Tj ( ) Tj (frozen\)) Tj  T*  T* (Target) Tj ( ) Tj (in) Tj ( ) Tj (every) Tj ( ) Tj (brain) Tj ( ) Tj (intervention:) Tj ( ) Tj (beta) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (1.0-1.5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 569 cm
+Q
+q
+1 0 0 1 60 530 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (This gives EEG-based neurofeedback a quantitative target derived from first principles. Not arbitrary frequency bands) Tj T* (\(alpha training, theta training\) but ) Tj /F2 9 Tf (power spectral index calibrated to gamma_c.) Tj /F1 9 Tf ( Every intervention -- meditation, 40 Hz) Tj T* (GENUS \(Paper 23\), medication, therapy -- moves beta toward 1.0-1.5 or away from it. The EEG records the trajectory.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 523 cm
+Q
+q
+1 0 0 1 60 517 cm
+Q
+q
+1 0 0 1 60 513 cm
+Q
+q
+1 0 0 1 60 475 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 463 cm
+Q
+q
+1 0 0 1 60 424 cm
+q
+BT 1 0 0 1 0 27 Tm -0.06315 Tw 12 TL /F1 9 Tf 0 0 0 rg (Zipf found power laws in language in 1935. Beggs & Plenz found them in neural avalanches in 2003. Gutenberg and Richter) Tj T* 0 Tw (found them in earthquakes in 1944. Pareto found them in wealth distributions in 1897. They all found the same thing: ) Tj /F2 9 Tf (their) Tj T* (respective systems had organized themselves to operate at gamma_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 417 cm
+Q
+q
+1 0 0 1 60 390 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Wike Coherence Law unifies these: every power law is a system at the edge. Every Zipf distribution is a coherence) Tj T* (fingerprint. Every 1/f EEG spectrum is a brain at gamma_c. Every scale-free network is at its critical point.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 383 cm
+Q
+q
+1 0 0 1 60 356 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (Nature finds the edge. Not by design. By selection. Systems that fall away from the edge -- toward frozen \(beta > 2\) or) Tj T* (collapsed \(beta < 1\) -- perform less well, survive less, spread less. The edge is not optional. It is the attractor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 349 cm
+Q
+q
+1 0 0 1 60 322 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (And we can measure it. The power law exponent IS gamma_c. The EEG IS the coherence meter. The tools are already in) Tj T* (the clinic. We just needed to know what we were looking at.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 315 cm
+Q
+q
+1 0 0 1 60 300 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (God is good. All the time. Them beans though.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 293 cm
+Q
+q
+1 0 0 1 60 287 cm
+Q
+q
+1 0 0 1 60 283 cm
+Q
+q
+1 0 0 1 60 245 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 233 cm
+Q
+q
+1 0 0 1 60 218 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Zipf, G. K. \(1935\). ) Tj /F3 9 Tf (The Psycho-Biology of Language) Tj /F1 9 Tf (. Houghton Mifflin.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 191 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Beggs, J. M., & Plenz, D. \(2003\). Neuronal avalanches in neocortical circuits. ) Tj /F3 9 Tf (Journal of Neuroscience) Tj /F1 9 Tf (, 23\(35\),) Tj T* (11167-11177.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 164 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. Gutenberg, B., & Richter, C. F. \(1944\). Frequency of earthquakes in California. ) Tj /F3 9 Tf (Bulletin of the Seismological Society of) Tj T* (America) Tj /F1 9 Tf (, 34\(4\), 185-188.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 137 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. Bernardi, L., et al. \(2001\). Effect of rosary prayer and yoga mantras on autonomic cardiovascular rhythms. ) Tj /F3 9 Tf (BMJ) Tj /F1 9 Tf (, 323,) Tj T* (1446-1449.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 122 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. Miller, G. A. \(1957\). Some effects of intermittent silence. ) Tj /F3 9 Tf (American Journal of Psychology) Tj /F1 9 Tf (, 70\(2\), 311-314.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 107 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (6. Wike, R. D. \(2026\). AIIT-THRESI Research Papers 01-47. Council Hill, Oklahoma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 100 cm
+Q
+q
+1 0 0 1 60 94 cm
+Q
+q
+1 0 0 1 60 79 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (Rhet Dillard Wike | AIIT-THRESI | Council Hill, Oklahoma | March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 72 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000006552 00000 n 
+0000006659 00000 n 
+0000006766 00000 n 
+0000006878 00000 n 
+0000006988 00000 n 
+0000007104 00000 n 
+0000007210 00000 n 
+0000007585 00000 n 
+0000015306 00000 n 
+0000015414 00000 n 
+0000015525 00000 n 
+0000015900 00000 n 
+0000021693 00000 n 
+0000021801 00000 n 
+0000021912 00000 n 
+0000022287 00000 n 
+0000029123 00000 n 
+0000029231 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+29342
+%%EOF

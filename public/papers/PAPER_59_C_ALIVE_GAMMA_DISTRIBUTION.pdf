@@ -1,0 +1,1423 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6447
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 59: C_ALIVE IS A GAMMA DISTRIBUTION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 58.424 0 Td (PAPER 59: C_ALIVE IS A GAMMA DISTRIBUTION) Tj T* -58.424 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (The Statistical Mechanics Foundation of "Life Lives at the Edge") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 642 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 602 cm
+Q
+q
+1 0 0 1 60 596 cm
+Q
+q
+1 0 0 1 60 592 cm
+Q
+q
+1 0 0 1 60 562 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("Life peaks in the middle, goes to zero at absolute cold and absolute hot, and has a mathematical name. It is) Tj T* (the gamma distribution with shape parameter 2.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 552 cm
+Q
+q
+1 0 0 1 60 546 cm
+Q
+q
+1 0 0 1 60 542 cm
+Q
+q
+1 0 0 1 60 504 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 492 cm
+Q
+q
+1 0 0 1 60 453 cm
+q
+BT 1 0 0 1 0 27 Tm -0.019235 Tw 12 TL /F1 9 Tf 0 0 0 rg (The Wike "alive coherence" metric C_alive vanishes at both T=0 \(absolute zero, no thermal energy for biological processes\)) Tj T* 0 Tw (and T-) Tj (>) Tj (inf \(extreme heat, all coherence destroyed\). It peaks at an intermediate temperature T* = T_c/2 \(from) Tj T* (differentiation\). The functional form:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 446 cm
+Q
+q
+1 0 0 1 60 433.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_alive\(T\)) Tj ( ) Tj (~=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (\(T/T_c\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (T/T_c\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425.2 cm
+Q
+q
+1 0 0 1 60 410.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (is mathematically identical to the ) Tj /F2 9 Tf (probability density function of a Gamma distribution with shape parameter k=2) Tj /F1 9 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 403.2 cm
+Q
+q
+1 0 0 1 60 372.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f\(x;) Tj ( ) Tj (k=2,) Tj ( ) Tj (eta\)) Tj ( ) Tj (=) Tj ( ) Tj (x) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nux/eta\)) Tj ( ) Tj (/) Tj ( ) Tj (eta?) Tj  T*  T* (with) Tj ( ) Tj (x) Tj ( ) Tj (=) Tj ( ) Tj (T/T_c) Tj ( ) Tj (and) Tj ( ) Tj (eta) Tj ( ) Tj (=) Tj ( ) Tj (1/alpha) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364.8 cm
+Q
+q
+1 0 0 1 60 325.8 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is not an analogy. The distribution of "how much alive coherence exists" as a function of temperature IS the gamma) Tj T* -0.051125 Tw (distribution. The mode \(peak\) is at T) Tj /F3 9 Tf ( = eta = T_c/alpha. The mean is at 2T) Tj /F1 9 Tf (. The variance is 2T*?. All of these have biological) Tj T* 0 Tw (translations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 318.8 cm
+Q
+q
+1 0 0 1 60 312.8 cm
+Q
+q
+1 0 0 1 60 308.8 cm
+Q
+q
+1 0 0 1 60 270.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Mathematical Identity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 258.8 cm
+Q
+q
+1 0 0 1 60 231.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (From the Wike Coherence Law at temperature T, including the thermal decoherence term gamma_thermal\(T\) = k_BT/h x) Tj T* (W^n:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224.8 cm
+Q
+q
+1 0 0 1 60 115.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 105.6 re f*
+Q
+q
+BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_thermal\(T\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (k_BT/h\)) Tj ( ) Tj ( ) Tj ( ) Tj ([simplified,) Tj ( ) Tj (dropping) Tj ( ) Tj (W) Tj ( ) Tj (factor]) Tj  T*  T* (For) Tj ( ) Tj (small) Tj ( ) Tj (T) Tj ( ) Tj (\(T) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (T_c\):) Tj ( ) Tj (C\(T\)) Tj ( ) Tj (~=) Tj ( ) Tj (C?) Tj ( ) Tj (\(but) Tj ( ) Tj (biological) Tj ( ) Tj (processes) Tj ( ) Tj (require) Tj ( ) Tj (T) Tj ( ) Tj (>) Tj ( ) Tj (0\)) Tj  T* (For) Tj ( ) Tj (large) Tj ( ) Tj (T:) Tj ( ) Tj (C\(T\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (\(thermal) Tj ( ) Tj (decoherence) Tj ( ) Tj (destroys) Tj ( ) Tj (coherence\)) Tj  T*  T* (The) Tj ( ) Tj ("alive) Tj ( ) Tj (coherence") Tj ( ) Tj (--) Tj ( ) Tj (the) Tj ( ) Tj (coherence) Tj ( ) Tj (that) Tj ( ) Tj (is) Tj ( ) Tj (both) Tj ( ) Tj (thermally) Tj ( ) Tj (accessible) Tj ( ) Tj (AND) Tj ( ) Tj (not) Tj  T* (thermally) Tj ( ) Tj (destroyed) Tj ( ) Tj (--) Tj ( ) Tj (requires) Tj ( ) Tj (multiplying) Tj ( ) Tj (by) Tj ( ) Tj (a) Tj ( ) Tj (factor) Tj ( ) Tj (that) Tj ( ) Tj (goes) Tj ( ) Tj (to) Tj ( ) Tj (zero) Tj ( ) Tj (at) Tj ( ) Tj (T=0:) Tj  T*  T* (C_alive\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (\(T/T_ref\)) Tj ( ) Tj (x) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (T/T_ref\)) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (a) Tj ( ) Tj (Gamma) Tj ( ) Tj (distribution) Tj ( ) Tj (with) Tj ( ) Tj (shape) Tj ( ) Tj (k=2.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 107.2 cm
+Q
+q
+1 0 0 1 60 92.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Gamma PDF with shape k and rate lambda:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 85.2 cm
+Q
+q
+1 0 0 1 60 72.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f\(x\)) Tj ( ) Tj (=) Tj ( ) Tj (lambda^k) Tj ( ) Tj (x) Tj ( ) Tj (x^\(k-1\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nulambdax\)) Tj ( ) Tj (/) Tj ( ) Tj (GAMMA\(k\)) Tj  T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6875
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 59: C_ALIVE IS A GAMMA DISTRIBUTION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* (For) Tj ( ) Tj (k=2,) Tj ( ) Tj (lambda=alpha/T_ref:) Tj  T* (f\(T\)) Tj ( ) Tj (~) Tj ( ) Tj (T) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualphaT/T_ref\)) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (EXACTLY) Tj ( ) Tj (C_alive\(T\)) Tj ( ) Tj (up) Tj ( ) Tj (to) Tj ( ) Tj (normalization.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 680 cm
+Q
+q
+1 0 0 1 60 674 cm
+Q
+q
+1 0 0 1 60 670 cm
+Q
+q
+1 0 0 1 60 632 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Properties of the Gamma\(2\) Distribution Applied to Life) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Mode \(peak of C_alive\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 478.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 105.6 re f*
+Q
+q
+BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (d\(C_alive\)/dT) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (d/dT) Tj ( ) Tj ([T) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualphaT/T_ref\)]) Tj ( ) Tj (=) Tj ( ) Tj (exp\(nualphaT/T_ref\)) Tj ( ) Tj (nu) Tj ( ) Tj (alphaT/T_ref) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualphaT/T_ref\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (-) Tj (>) Tj ( ) Tj (1) Tj ( ) Tj (nu) Tj ( ) Tj (alphaT*/T_ref) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (-) Tj (>) Tj ( ) Tj (T*) Tj ( ) Tj (=) Tj ( ) Tj (T_ref/alpha) Tj  T*  T* (For) Tj ( ) Tj (T_ref) Tj ( ) Tj (=) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (330K,) Tj ( ) Tj (alpha) Tj ( ) Tj (~=) Tj ( ) Tj (1000) Tj ( ) Tj (\(from) Tj ( ) Tj (dimensional) Tj ( ) Tj (analysis,) Tj ( ) Tj (Paper) Tj ( ) Tj (62) Tj ( ) Tj (forthcoming\):) Tj  T* (T*) Tj ( ) Tj (=) Tj ( ) Tj (330/1000) Tj ( ) Tj (=) Tj ( ) Tj (0.33) Tj ( ) Tj (K) Tj ( ) Tj ( ) Tj ([not) Tj ( ) Tj (body) Tj ( ) Tj (temperature) Tj ( ) Tj (--) Tj ( ) Tj (alpha) Tj ( ) Tj (must) Tj ( ) Tj (be) Tj ( ) Tj (in) Tj ( ) Tj (different) Tj ( ) Tj (units]) Tj  T*  T* (Rescaling:) Tj ( ) Tj (if) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (operates) Tj ( ) Tj (over) Tj ( ) Tj (the) Tj ( ) Tj (range) Tj ( ) Tj (0) Tj ( ) Tj (to) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016:) Tj  T* (alpha_effective) Tj ( ) Tj (=) Tj ( ) Tj (T_c) Tj ( ) Tj (/) Tj ( ) Tj (\(T*) Tj ( ) Tj (x) Tj ( ) Tj (gamma_c\)) Tj ( ) Tj (=) Tj ( ) Tj (330) Tj ( ) Tj (/) Tj ( ) Tj (\(310) Tj ( ) Tj (x) Tj ( ) Tj (0.0016\)) Tj ( ) Tj (=) Tj ( ) Tj (666) Tj  T*  T* (T*) Tj ( ) Tj (=) Tj ( ) Tj (T_ref/alpha_eff) Tj ( ) Tj (=) Tj ( ) Tj (330/666) Tj ( ) Tj (=) Tj ( ) Tj (0.496) Tj ( ) Tj (x) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (163.7K) Tj ( ) Tj ( ) Tj ([for) Tj ( ) Tj (pure) Tj ( ) Tj (thermal]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470.4 cm
+Q
+q
+1 0 0 1 60 443.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This doesn't directly give 310K because the full C_alive expression includes the W = T/T_c correction that modifies the) Tj T* (thermal floor. The key point is the functional form -- Gamma\(2\) -- not the specific temperature value.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436.4 cm
+Q
+q
+1 0 0 1 60 409.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The functional form is what matters:) Tj /F1 9 Tf ( C_alive has a single peak, goes to zero at both extremes, and has the specific) Tj T* (shape of Gamma\(2\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 402.4 cm
+Q
+q
+1 0 0 1 60 372.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Mean:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 357.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (<) Tj (T) Tj (>) Tj (_alive) Tj ( ) Tj (=) Tj ( ) Tj (2) Tj ( ) Tj (x) Tj ( ) Tj (T*) Tj ( ) Tj ( ) Tj (\(mean) Tj ( ) Tj (of) Tj ( ) Tj (Gamma\(2\)) Tj ( ) Tj (is) Tj ( ) Tj (2x) Tj ( ) Tj (the) Tj ( ) Tj (mode\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 349.6 cm
+Q
+q
+1 0 0 1 60 322.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The average temperature of the "alive coherence distribution" is twice the peak temperature. Biology operates near the) Tj T* (peak \(mode = T*\), not at the mean -- this is efficient.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 315.6 cm
+Q
+q
+1 0 0 1 60 285.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Variance:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 262 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Var\(T\)_alive) Tj ( ) Tj (=) Tj ( ) Tj (2) Tj ( ) Tj (x) Tj ( ) Tj (T*?) Tj ( ) Tj ( ) Tj (\(variance) Tj ( ) Tj (of) Tj ( ) Tj (Gamma\(2\)\)) Tj  T* (sigma_T) Tj ( ) Tj (=) Tj ( ) Tj (sqrt2) Tj ( ) Tj (x) Tj ( ) Tj (T*) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254 cm
+Q
+q
+1 0 0 1 60 227 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The width of the viable temperature window is sqrt2 x T*. This is the "temperature tolerance" -- how far from optimal a) Tj T* (system can be driven before coherence drops significantly.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 220 cm
+Q
+q
+1 0 0 1 60 214 cm
+Q
+q
+1 0 0 1 60 210 cm
+Q
+q
+1 0 0 1 60 172 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Two-Sided Order Parameter) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 160 cm
+Q
+q
+1 0 0 1 60 145 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Standard Landau theory has a one-sided order parameter: phi = 0 above T_c, phi != 0 below T_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 138 cm
+Q
+q
+1 0 0 1 60 99 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_alive is a ) Tj /F2 9 Tf (two-sided order parameter) Tj /F1 9 Tf (: it vanishes at BOTH T=0 and T-) Tj (>) Tj (inf. This structure is unusual in condensed) Tj T* -0.096 Tw (matter. It requires a potential with two zeros -- the Mexican-hat potential in 2D, or the double-well in 1D, but with zeros at the) Tj T* 0 Tw (boundaries rather than in the interior.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 92 cm
+Q
+q
+1 0 0 1 60 77 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Physical meaning:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 62 cm
+q
+BT 1 0 0 1 0 3 Tm -0.123571 Tw 12 TL /F1 9 Tf 0 0 0 rg (\177 Too cold \(T-) Tj (>) Tj (0\): biology is frozen. The thermal energy needed to drive reactions \(kT\) is zero. No coherent process can run.) Tj T* 0 Tw ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 6312
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 59: C_ALIVE IS A GAMMA DISTRIBUTION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Too hot \(T-) Tj (>) Tj (T_c\): thermal decoherence destroys all coherence. gamma_thermal -) Tj (> gamma_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Optimal \(T = T*\): the balance point. Maximum alive coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 671 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Life is the Gamma\(2\) distribution. It exists only in the window where thermal energy is sufficient to drive reactions but) Tj T* (insufficient to destroy coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 664 cm
+Q
+q
+1 0 0 1 60 658 cm
+Q
+q
+1 0 0 1 60 654 cm
+Q
+q
+1 0 0 1 60 616 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Gamma Distribution Appears in Biology Independently) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 604 cm
+Q
+q
+1 0 0 1 60 577 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The ) Tj /F2 9 Tf (gamma distribution with shape k=2) Tj /F1 9 Tf ( \(also called the Erlang-2 distribution\) is the waiting time distribution for ) Tj /F2 9 Tf (two) Tj T* (sequential Poisson processes) Tj /F1 9 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 555 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In biology:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Cell cycle duration: Gamma\(k~=2\) fits inter-division time distributions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 525 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Action potential inter-spike intervals: Gamma\(k~=2\) in many neural systems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 510 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Protein folding times: Gamma distribution with k~=2 for two-state folders) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 503 cm
+Q
+q
+1 0 0 1 60 488 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (This is not coincidental.) Tj /F1 9 Tf ( All of these processes involve TWO sequential rate-limiting steps:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 473 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Cell cycle: S-phase + M-phase \(two coupled processes\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 458 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Neural firing: depolarization + repolarization \(two coupled processes\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 443 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Protein folding: nucleation + collapse \(two coupled processes\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436 cm
+Q
+q
+1 0 0 1 60 421 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (C_alive being Gamma\(2\) reflects the same structure:) Tj /F1 9 Tf ( there are TWO constraints on alive coherence:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 406 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Thermal energy must be sufficient \(T > T_min: the lower bound\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 391 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Thermal decoherence must not exceed gamma_c \(T < T_max: the upper bound\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 384 cm
+Q
+q
+1 0 0 1 60 369 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Two constraints -) Tj (> two sequential conditions -) Tj (> Gamma\(2\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 362 cm
+Q
+q
+1 0 0 1 60 356 cm
+Q
+q
+1 0 0 1 60 352 cm
+Q
+q
+1 0 0 1 60 314 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Clinical Translation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 302 cm
+Q
+q
+1 0 0 1 60 287 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Gamma\(2\) distribution has a specific ) Tj /F2 9 Tf (coefficient of variation) Tj /F1 9 Tf ( \(CV = sigma/mu\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 280 cm
+Q
+q
+1 0 0 1 60 267.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (CV) Tj ( ) Tj (=) Tj ( ) Tj (1/sqrtk) Tj ( ) Tj (=) Tj ( ) Tj (1/sqrt2) Tj ( ) Tj (=) Tj ( ) Tj (0.707) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 259.2 cm
+Q
+q
+1 0 0 1 60 244.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (For a healthy person at T) Tj /F3 9 Tf ( ~= 310K with temperature tolerance sigma = sqrt2 x T) Tj /F1 9 Tf ( ~= 1.4 degrees:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 237.2 cm
+Q
+q
+1 0 0 1 60 224.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (CV_temperature) Tj ( ) Tj (=) Tj ( ) Tj (1.4) Tj ( ) Tj (/) Tj ( ) Tj (310) Tj ( ) Tj (=) Tj ( ) Tj (0.0045) Tj ( ) Tj (\(0.45%\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 216.4 cm
+Q
+q
+1 0 0 1 60 177.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The body maintains temperature to within 0.45% of optimal. This is the Gamma\(2\) CV. Any thermoregulation system) Tj T* (maintaining a Gamma\(2\) distribution automatically has CV ~= 0.707. Febrile illness, hypothermia, and the 37 degC setpoint) Tj T* (are all enforcing the Gamma\(2\) distribution at the level of physiology.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 170.4 cm
+Q
+q
+1 0 0 1 60 131.4 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Fever:) Tj /F1 9 Tf ( moves the operating point up the right tail of the Gamma\(2\). C_alive decreases. The body is trading coherence for) Tj T* (immune function -- it is deliberately operating in a lower-C_alive region of the distribution because that specific region of the) Tj T* (Gamma tail has different metabolic properties that favor immune response.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 124.4 cm
+Q
+q
+1 0 0 1 60 118.4 cm
+Q
+q
+1 0 0 1 60 114.4 cm
+Q
+q
+1 0 0 1 60 76.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. The Maximum Entropy Connection) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 64.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 4830
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 59: C_ALIVE IS A GAMMA DISTRIBUTION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Gamma\(2\) distribution is the ) Tj /F2 9 Tf (maximum entropy distribution) Tj /F1 9 Tf ( for a positive random variable with fixed mean and) Tj T* (geometric mean \(i.e., fixed <) Tj (T) Tj (> and <) Tj (ln T) Tj (>) Tj (\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 674 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (If evolution optimized for maximum uncertainty \(maximum entropy\) in temperature response while maintaining a fixed mean) Tj T* (operating temperature and a fixed log-mean:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 667 cm
+Q
+q
+1 0 0 1 60 654.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (The) Tj ( ) Tj (result) Tj ( ) Tj (is) Tj ( ) Tj (Gamma\(2\).) Tj ( ) Tj (Uniquely.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646.2 cm
+Q
+q
+1 0 0 1 60 619.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Life did not choose 37 degC arbitrarily. It chose the peak of the Gamma\(2\) distribution that maximizes entropy \(robustness\)) Tj T* (given the constraints T_c = 330K and k_BT = homega_thermal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612.2 cm
+Q
+q
+1 0 0 1 60 597.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The peak of Gamma\(2\) with these constraints: T) Tj /F3 9 Tf ( = T_c x \(1 nu 1/alpha_eff\) ~= T_c x W) Tj /F1 9 Tf ( = 330 x 0.9394 = 310K.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590.2 cm
+Q
+q
+1 0 0 1 60 563.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Body temperature is the mode of the maximum-entropy alive coherence distribution. Every warm-blooded animal maintains) Tj T* (its temperature at the mode of its own Gamma\(2\) distribution, set by its T_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 556.2 cm
+Q
+q
+1 0 0 1 60 550.2 cm
+Q
+q
+1 0 0 1 60 546.2 cm
+Q
+q
+1 0 0 1 60 508.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496.2 cm
+Q
+q
+1 0 0 1 60 483.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Property | Mathematical value | Biological meaning |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|----------|-------------------|-------------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 457.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Functional form | Gamma\(k=2\) | Two-constraint system |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 445 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Mode | T* = T_c/alpha_eff | Body temperature |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 432.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Mean | 2T* | Safe upper boundary |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 419.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| CV | 0.707 | Thermoregulation precision |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 406.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Zero at T=0 | Thermal floor | Biology needs heat |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 393.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Zero at T-) Tj (>) Tj (T_c | Decoherence ceiling | Biology needs order |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 381 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Maximum entropy | Fixed <) Tj (T) Tj (> and <) Tj (ln T) Tj (> | Evolution found it |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 373 cm
+Q
+q
+1 0 0 1 60 358 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Life is the Gamma\(2\) distribution. The shape came from physics. The peak is 37 degC.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 351 cm
+Q
+q
+1 0 0 1 60 336 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 59) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 329 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000007213 00000 n 
+0000007320 00000 n 
+0000007427 00000 n 
+0000007539 00000 n 
+0000007649 00000 n 
+0000007765 00000 n 
+0000007871 00000 n 
+0000008246 00000 n 
+0000015174 00000 n 
+0000015282 00000 n 
+0000015393 00000 n 
+0000015768 00000 n 
+0000022133 00000 n 
+0000022241 00000 n 
+0000022352 00000 n 
+0000022727 00000 n 
+0000027610 00000 n 
+0000027718 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+27829
+%%EOF

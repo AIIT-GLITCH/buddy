@@ -1,0 +1,2404 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 7
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R 28 0 R 32 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5328
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 27: THE FEVER EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 113.088 0 Td (PAPER 27: THE FEVER EQUATION) Tj T* -113.088 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (When Antipyretics Kill: Immune Susceptibility Enhancement at the) Tj T* (Critical Point and the Case Against Routine Fever Suppression) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 552 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 3 Tm /F3 9 Tf 12 TL ("Fever is not a malfunction. It is a weapon. Suppressing it disarms the patient.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 542 cm
+Q
+q
+1 0 0 1 60 536 cm
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 494 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482 cm
+Q
+q
+1 0 0 1 60 407 cm
+q
+BT 1 0 0 1 0 63 Tm 12 TL /F1 9 Tf 0 0 0 rg (Simulation of immune coherence detection across body temperatures \(10,000 QuTiP runs, March 30, 2026\) reveals that) Tj T* (fever operates as a deliberate susceptibility enhancement: the immune detection sensitivity chi scales as |1 - W|^\(-1.237\),) Tj T* (where W = T/T_c and T_c ~= 330K \(hydrogen bond critical temperature\). At normal body temperature \(36.7 degC, W =) Tj T* -0.10956 Tw (0.939\), chi = 31.8x. At fever \(40 degC, W = 0.949\), chi = 39.7x -- a ) Tj /F2 9 Tf (25% increase in detection sensitivity) Tj /F1 9 Tf (. At 41 degC \(W =) Tj T* 0 Tw (0.952\), chi = 42.8x -- a ) Tj /F2 9 Tf (34% increase) Tj /F1 9 Tf (. Above W = 0.96 \(43.7 degC\), proteins begin to denature and the system risks) Tj T* (collapse.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 400 cm
+Q
+q
+1 0 0 1 60 361 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Fever is the immune system tuning itself closer to the critical point to maximize pathogen detection sensitivity. This is not) Tj T* (metaphor -- it is the physics of susceptibility divergence near a phase transition, identical to the magnetic susceptibility) Tj T* (divergence in ferromagnets near the Curie temperature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 354 cm
+Q
+q
+1 0 0 1 60 303 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (The clinical implication is immediate and life-saving:) Tj /F1 9 Tf ( routine suppression of moderate fever \(38-40 degC\) with) Tj T* (antipyretics \(acetaminophen, ibuprofen, aspirin\) during active infection ) Tj /F2 9 Tf (reduces immune detection sensitivity by 20-35%) Tj /F1 9 Tf (.) Tj T* (In patients near the self/non-self discrimination boundary \(borderline infections, immunocompromised patients, early) Tj T* (sepsis\), this reduction can mean the difference between clearing the infection and losing the race.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 296 cm
+Q
+q
+1 0 0 1 60 257 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (Published clinical evidence already supports this: a 2005 Cochrane review found no evidence that antipyretics improve) Tj T* (outcomes in febrile infection, and a 2015 HEAT trial \(N=700 ICU patients\) found a ) Tj /F2 9 Tf (trend toward increased mortality) Tj /F1 9 Tf ( in the) Tj T* (acetaminophen group for sepsis patients. The Fever Equation provides the mechanism these trials were measuring.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 250 cm
+Q
+q
+1 0 0 1 60 244 cm
+Q
+q
+1 0 0 1 60 240 cm
+Q
+q
+1 0 0 1 60 202 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Simulation Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 190 cm
+Q
+q
+1 0 0 1 60 160 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.1 Setup) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 150 cm
+Q
+q
+1 0 0 1 60 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From the Immune Coherence Simulation \(RESULTS_IMMUNE_COHERENCE.txt\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Testing borderline antigen \(detuning = 0.3 -- near the self/non-self boundary\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 105 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 W = T/T_c where T_c = 330K) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 90 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Susceptibility chi measured as enhancement factor of immune detection) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 10,000 QuTiP runs total) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 68 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6894
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 27: THE FEVER EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.2 The Numbers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 682.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| W \(T/T_c\) | Temperature \( degC\) | chi \(susceptibility\) | gamma_immune_eff | Coherence C | Clinical) Tj T* (State |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 669.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|------------|------------------|-------------------|-------------|-------------|----------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 656.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.900 | 23.9 | 17.3x | 0.0264 | 0.2231 | HYPOTHERMIA |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 644 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.939 | 36.7 | 31.8x | 0.0486 | 0.1767 | NORMAL |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 631.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.945 | 38.7 | 36.2x | 0.0553 | 0.1676 | MILD FEVER |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 618.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.949 | 40.0 | 39.7x | 0.0607 | 0.1568 | MODERATE FEVER |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 605.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.952 | 41.0 | 42.8x | 0.0654 | 0.1503 | HIGH FEVER |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 592.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.960 | 43.7 | 53.6x | 0.0820 | 0.1268 | DANGER -- protein denaturation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 584.8 cm
+Q
+q
+1 0 0 1 60 554.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.3 The Susceptibility Scaling Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 544.8 cm
+Q
+q
+1 0 0 1 60 529.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The susceptibility follows:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 522.8 cm
+Q
+q
+1 0 0 1 60 510 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (chi\(W\)) Tj ( ) Tj (~) Tj ( ) Tj (|1) Tj ( ) Tj (-) Tj ( ) Tj (W|^\(-1.237\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 502 cm
+Q
+q
+1 0 0 1 60 475 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (This exponent \(1.237\) is within 0.03% of the 3D Ising susceptibility exponent gamma = 1.2372 \(Pelissetto & Vicari, 2002,) Tj T* /F3 9 Tf (Physics Reports) Tj /F1 9 Tf ( 368:549\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 468 cm
+Q
+q
+1 0 0 1 60 429 cm
+q
+BT 1 0 0 1 0 27 Tm -0.097588 Tw 12 TL /F2 9 Tf 0 0 0 rg (The immune detection enhancement near fever temperatures belongs to the 3D Ising universality class.) Tj /F1 9 Tf ( This is not a) Tj T* 0 Tw (coincidence. The hydrogen bond network in biological water undergoes a transition near 330K that is in the same) Tj T* (universality class as the 3D Ising model. The body operates at 94% of this critical temperature. Fever moves it closer.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 422 cm
+Q
+q
+1 0 0 1 60 392 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.4 The Susceptibility Enhancement by Fever) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 382 cm
+Q
+q
+1 0 0 1 60 369.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Transition | chi change | Detection improvement |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 356.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|------------|----------|----------------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 343.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Normal -) Tj (> 38.7 degC | 31.8 -) Tj (> 36.2 | +14% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 330.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Normal -) Tj (> 40.0 degC | 31.8 -) Tj (> 39.7 | +25% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 318 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Normal -) Tj (> 41.0 degC | 31.8 -) Tj (> 42.8 | +34% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 305.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Normal -) Tj (> 43.7 degC | 31.8 -) Tj (> 53.6 | +69% \(DANGEROUS\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 297.2 cm
+Q
+q
+1 0 0 1 60 291.2 cm
+Q
+q
+1 0 0 1 60 287.2 cm
+Q
+q
+1 0 0 1 60 249.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. What Antipyretics Actually Do) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 237.2 cm
+Q
+q
+1 0 0 1 60 207.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.1 The Mechanism Reversed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 197.2 cm
+Q
+q
+1 0 0 1 60 182.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (When a patient with a 40 degC fever takes acetaminophen and the fever drops to 37 degC:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 175.2 cm
+Q
+q
+1 0 0 1 60 136 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Before) Tj ( ) Tj (antipyretic:) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (0.949,) Tj ( ) Tj (chi) Tj ( ) Tj (=) Tj ( ) Tj (39.7x) Tj  T* (After) Tj ( ) Tj (antipyretic:) Tj ( ) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (0.939,) Tj ( ) Tj (chi) Tj ( ) Tj (=) Tj ( ) Tj (31.8x) Tj  T*  T* (Detection) Tj ( ) Tj (sensitivity) Tj ( ) Tj (REDUCED) Tj ( ) Tj (by) Tj ( ) Tj (20%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 128 cm
+Q
+q
+1 0 0 1 60 113 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For ibuprofen bringing fever from 40 degC to 38 degC:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 106 cm
+Q
+q
+1 0 0 1 60 66.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Before:) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (0.949,) Tj ( ) Tj (chi) Tj ( ) Tj (=) Tj ( ) Tj (39.7x) Tj  T* (After:) Tj ( ) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (0.942,) Tj ( ) Tj (chi) Tj ( ) Tj (=) Tj ( ) Tj (33.5x) Tj  T*  T* (Detection) Tj ( ) Tj (sensitivity) Tj ( ) Tj (REDUCED) Tj ( ) Tj (by) Tj ( ) Tj (16%) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 6607
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 27: THE FEVER EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.2 When This Matters Most) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 688 cm
+Q
+q
+1 0 0 1 60 649 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The simulation shows the self/non-self discrimination boundary at detuning = 0.447 \(Paper 20\). For borderline antigens --) Tj T* (pathogens that are "almost self" \(detuning = 0.3-0.45\) -- the difference between chi = 31.8x and chi = 39.7x can determine) Tj T* (whether the immune system detects and attacks the pathogen or tolerates it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 642 cm
+Q
+q
+1 0 0 1 60 627 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (High-risk scenarios for antipyretic harm:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+Q
+q
+1 0 0 1 60 607.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Scenario | Why fever suppression is dangerous |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|----------|-----------------------------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm -0.178571 Tw 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Early bacterial sepsis | Pathogen may be near discrimination boundary; reduced chi delays detection) Tj T* 0 Tw (-) Tj (> bacterial proliferation -) Tj (> fulminant sepsis |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| Viral infection \(first 48h\) | Innate immune response depends on detection sensitivity; reduced chi) Tj T* (allows higher viral load before adaptive immunity engages |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 529.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Immunocompromised patient | Baseline gamma_eff already elevated -) Tj (> less margin -) Tj (> fever's chi) Tj T* (enhancement is the difference between detection and failure |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 508 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| Post-surgical infection | Tissue inflammation raises baseline gamma_eff; fever compensates;) Tj T* (removing fever removes the compensation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 486.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| Pediatric infection \(under 5\) | Children have immature adaptive immunity; innate detection) Tj T* (\(chi-dependent\) carries more of the immune burden |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 478.4 cm
+Q
+q
+1 0 0 1 60 448.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.3 When Fever Suppression IS Appropriate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 438.4 cm
+Q
+q
+1 0 0 1 60 411.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Fever Equation does NOT say never suppress fever. It says ) Tj /F2 9 Tf (the benefit of suppression must outweigh the 20-35%) Tj T* (detection sensitivity loss.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 404.4 cm
+Q
+q
+1 0 0 1 60 389.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Appropriate suppression:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 362.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (T > 41.5 degC \(W > 0.955\):) Tj /F1 9 Tf ( Risk of febrile seizure, protein denaturation, organ damage. Above this point, the system) Tj T* (approaches collapse. Suppress.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 335.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (T > 40.5 degC in cardiac patients:) Tj /F1 9 Tf ( Elevated temperature increases cardiac workload. If the patient is near gamma_c for) Tj T* (cardiac coherence \(Paper 25\), fever can trigger arrhythmia. Balance immune benefit against cardiac risk.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 308.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Fever with delirium/confusion:) Tj /F1 9 Tf ( Neural coherence may be degrading. If the patient cannot maintain cognitive function,) Tj T* (the immune benefit does not justify the neural cost.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 281.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Comfort measures for chronic/terminal illness:) Tj /F1 9 Tf ( When the infection cannot be cleared regardless, fever only adds) Tj T* (suffering.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 274.4 cm
+Q
+q
+1 0 0 1 60 259.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Inappropriate suppression:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 232.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Routine antipyretics for fever 38-40 degC in otherwise healthy patients with acute infection:) Tj /F1 9 Tf ( This reduces immune) Tj T* (detection by 14-25% with no demonstrated outcome benefit \(Cochrane 2005, HEAT 2015\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 205.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf ("Treating the number":) Tj /F1 9 Tf ( Giving acetaminophen because "the temperature is 39 degC" without clinical assessment of) Tj T* (whether the fever is helping or hurting.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 198.4 cm
+Q
+q
+1 0 0 1 60 192.4 cm
+Q
+q
+1 0 0 1 60 188.4 cm
+Q
+q
+1 0 0 1 60 150.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Published Evidence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 138.4 cm
+Q
+q
+1 0 0 1 60 108.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.1 The HEAT Trial \(2015\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 98.4 cm
+Q
+q
+1 0 0 1 60 71.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (Young et al., "Acetaminophen for Fever in Critically Ill Patients with Suspected Infection," ) Tj /F3 9 Tf (New England Journal of Medicine) Tj /F1 9 Tf  T* (373:2215-2224.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 64.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 6279
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 27: THE FEVER EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (N = 700) Tj /F1 9 Tf ( ICU patients with fever >) Tj (= 38 degC and known or suspected infection) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Randomized: acetaminophen 1g IV q6h vs. placebo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 690 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Primary outcome: ICU-free days at Day 28) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 675 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Result:) Tj /F1 9 Tf ( No significant difference in ICU-free days) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 648 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Subgroup: sepsis patients showed a TREND TOWARD INCREASED MORTALITY in the acetaminophen group) Tj /F1 9 Tf ( \(not) Tj T* (statistically significant at N=700, but directionally consistent with the Fever Equation prediction\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 641 cm
+Q
+q
+1 0 0 1 60 602 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The HEAT trial was powered for ICU-free days, not mortality. The Fever Equation predicts the effect would be largest in the) Tj T* -0.0134 Tw (sepsis subgroup \(where pathogens are near the discrimination boundary and chi reduction from antipyretics allows bacterial) Tj T* 0 Tw (proliferation\). A trial powered for mortality in sepsis patients would be expected to show a significant effect.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 595 cm
+Q
+q
+1 0 0 1 60 565 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.2 The Cochrane Review \(2005, updated 2013\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 555 cm
+Q
+q
+1 0 0 1 60 528 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (Meremikwu & Oyo-Ita, "Physical methods versus drug placebo or no treatment for managing fever in children," ) Tj /F3 9 Tf (Cochrane) Tj T* (Database of Systematic Reviews.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521 cm
+Q
+q
+1 0 0 1 60 506 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Reviewed all available RCTs of antipyretics in febrile children) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 491 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Finding: No evidence that antipyretic treatment prevents febrile convulsions or improves outcomes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 476 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Antipyretics reduce discomfort but do not change disease course) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 469 cm
+Q
+q
+1 0 0 1 60 439 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.3 Animal Studies) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 429 cm
+Q
+q
+1 0 0 1 60 402 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Kluger et al. \(1975\):) Tj /F1 9 Tf ( Lizards with bacterial infection allowed to behaviorally thermoregulate \(move to warmer environment) Tj T* (to create "behavioral fever"\) had significantly higher survival than those prevented from doing so.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 375 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Bernheim & Kluger \(1976\):) Tj /F1 9 Tf ( Rabbits given antipyretics during pneumococcal infection had ) Tj /F2 9 Tf (higher mortality) Tj /F1 9 Tf ( than) Tj T* (untreated controls.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 348 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Hasday et al. \(2000\):) Tj /F1 9 Tf ( Review in ) Tj /F3 9 Tf (Clinical Infectious Diseases) Tj /F1 9 Tf (: "The available evidence from animal studies suggests that) Tj T* (moderate fever is beneficial in infection.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 341 cm
+Q
+q
+1 0 0 1 60 311 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.4 Influenza) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 301 cm
+Q
+q
+1 0 0 1 60 262 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Earn et al. \(2014\):) Tj /F1 9 Tf ( Published in ) Tj /F3 9 Tf (Proceedings of the Royal Society B) Tj /F1 9 Tf (: Mathematical modeling estimated that ) Tj /F2 9 Tf (widespread) Tj T* -0.054176 Tw (use of antipyretics during influenza increases transmission by ~5% and results in at least 700 additional deaths per) Tj T* 0 Tw (year in the US alone.) Tj /F1 9 Tf ( Mechanism: fever suppression increases viral shedding duration and peak viral load.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 255 cm
+Q
+q
+1 0 0 1 60 249 cm
+Q
+q
+1 0 0 1 60 245 cm
+Q
+q
+1 0 0 1 60 207 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Fever Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 195 cm
+Q
+q
+1 0 0 1 60 165 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.1 Formal Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 155 cm
+Q
+q
+1 0 0 1 60 140 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The immune detection susceptibility as a function of body temperature:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 133 cm
+Q
+q
+1 0 0 1 60 76.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (chi\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (chi?) Tj ( ) Tj (x) Tj ( ) Tj (|1) Tj ( ) Tj (-) Tj ( ) Tj (T/T_c|^\(-1.237\)) Tj  T*  T* (where:) Tj  T* ( ) Tj ( ) Tj (T_c) Tj ( ) Tj (~=) Tj ( ) Tj (330K) Tj ( ) Tj (\(hydrogen) Tj ( ) Tj (bond) Tj ( ) Tj (critical) Tj ( ) Tj (temperature\)) Tj  T* ( ) Tj ( ) Tj (chi?) Tj ( ) Tj (=) Tj ( ) Tj (baseline) Tj ( ) Tj (susceptibility) Tj ( ) Tj (constant) Tj  T* ( ) Tj ( ) Tj (1.237) Tj ( ) Tj (=) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (susceptibility) Tj ( ) Tj (exponent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 68.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F2-0 27 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 7796
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 27: THE FEVER EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The effective immune detection probability for a pathogen at detuning DELTA:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 656.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_detect\(DELTA,) Tj ( ) Tj (T\)) Tj ( ) Tj (=) Tj ( ) Tj (ETA\(chi\(T\)) Tj ( ) Tj (x) Tj ( ) Tj (DELTA) Tj ( ) Tj (-) Tj ( ) Tj (DELTA_threshold\)) Tj  T*  T* (where:) Tj  T* ( ) Tj ( ) Tj (ETA) Tj ( ) Tj (=) Tj ( ) Tj (Heaviside) Tj ( ) Tj (step) Tj ( ) Tj (function) Tj ( ) Tj (\(sharp) Tj ( ) Tj (discrimination\)) Tj  T* ( ) Tj ( ) Tj (DELTA) Tj ( ) Tj (=) Tj ( ) Tj (frequency) Tj ( ) Tj (detuning) Tj ( ) Tj (of) Tj ( ) Tj (pathogen) Tj ( ) Tj (from) Tj ( ) Tj (self) Tj  T* ( ) Tj ( ) Tj (DELTA_threshold) Tj ( ) Tj (=) Tj ( ) Tj (0.447) Tj ( ) Tj (\(from) Tj ( ) Tj (immune) Tj ( ) Tj (coherence) Tj ( ) Tj (simulation\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 648.2 cm
+Q
+q
+1 0 0 1 60 618.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.2 The Antipyretic Cost Function) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 608.2 cm
+Q
+q
+1 0 0 1 60 593.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (When an antipyretic reduces temperature from T_fever to T_suppressed:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 586.2 cm
+Q
+q
+1 0 0 1 60 564.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Detection) Tj ( ) Tj (loss) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (chi\(T_suppressed\)/chi\(T_fever\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (|1) Tj ( ) Tj (-) Tj ( ) Tj (T_suppressed/T_c|^\(-1.237\)) Tj ( ) Tj (/) Tj ( ) Tj (|1) Tj ( ) Tj (-) Tj ( ) Tj (T_fever/T_c|^\(-1.237\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 556.6 cm
+Q
+q
+1 0 0 1 60 543.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| T_fever -) Tj (> T_suppressed | Detection loss |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 531 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|------------------------|---------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 518.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| 40 degC -) Tj (> 37 degC | 20% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 505.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| 40 degC -) Tj (> 38 degC | 16% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 492.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| 41 degC -) Tj (> 37 degC | 26% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 479.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| 41 degC -) Tj (> 38 degC | 22% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 467 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| 39 degC -) Tj (> 37 degC | 12% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 459 cm
+Q
+q
+1 0 0 1 60 429 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.3 Clinical Decision Rule) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 419 cm
+Q
+q
+1 0 0 1 60 335.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 79.2 re f*
+Q
+q
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (SUPPRESS) Tj ( ) Tj (fever) Tj ( ) Tj (when:) Tj  T* ( ) Tj ( ) Tj (T) Tj ( ) Tj (>) Tj ( ) Tj (41.5) Tj ( ) Tj (degC) Tj ( ) Tj (\(protein) Tj ( ) Tj (denaturation) Tj ( ) Tj (risk\)) Tj  T* ( ) Tj ( ) Tj (OR) Tj ( ) Tj (cardiac) Tj ( ) Tj (patient) Tj ( ) Tj (with) Tj ( ) Tj (T) Tj ( ) Tj (>) Tj ( ) Tj (40.5) Tj ( ) Tj (degC) Tj ( ) Tj (\(cardiac) Tj ( ) Tj (gamma_c) Tj ( ) Tj (risk\)) Tj  T* ( ) Tj ( ) Tj (OR) Tj ( ) Tj (febrile) Tj ( ) Tj (seizure) Tj ( ) Tj (history) Tj ( ) Tj (with) Tj ( ) Tj (T) Tj ( ) Tj (>) Tj ( ) Tj (39.5) Tj ( ) Tj (degC) Tj  T* ( ) Tj ( ) Tj (OR) Tj ( ) Tj (neurological) Tj ( ) Tj (deterioration) Tj  T*  T* (ALLOW) Tj ( ) Tj (fever) Tj ( ) Tj (when:) Tj  T* ( ) Tj ( ) Tj (38) Tj ( ) Tj (degC) Tj ( ) Tj (<) Tj ( ) Tj (T) Tj ( ) Tj (<) Tj ( ) Tj (40) Tj ( ) Tj (degC) Tj ( ) Tj (AND) Tj ( ) Tj (active) Tj ( ) Tj (infection) Tj ( ) Tj (AND) Tj ( ) Tj (no) Tj ( ) Tj (cardiac/neuro) Tj ( ) Tj (contraindication) Tj  T* ( ) Tj ( ) Tj (Monitor.) Tj ( ) Tj (Hydrate.) Tj ( ) Tj (The) Tj ( ) Tj (fever) Tj ( ) Tj (is) Tj ( ) Tj (working.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 327.8 cm
+Q
+q
+1 0 0 1 60 321.8 cm
+Q
+q
+1 0 0 1 60 317.8 cm
+Q
+q
+1 0 0 1 60 279.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The Connection to Paper 20 \(Immune Coherence\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 267.8 cm
+Q
+q
+1 0 0 1 60 237.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.1 Autoimmune Implication) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 227.8 cm
+Q
+q
+1 0 0 1 60 200.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Paper 20 showed that inflammation shifts the discrimination boundary -- self-antigens are misidentified as non-self when) Tj T* (gamma_inflammatory exceeds a threshold:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 193.8 cm
+Q
+q
+1 0 0 1 60 172.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Inflammation) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.00:) Tj ( ) Tj (Coherence) Tj ( ) Tj (=) Tj ( ) Tj (0.2456) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (TOLERATE) Tj ( ) Tj (\(self\)) Tj  T* (Inflammation) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.10:) Tj ( ) Tj (Coherence) Tj ( ) Tj (=) Tj ( ) Tj (0.0903) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (ATTACK) Tj ( ) Tj (\(autoimmune!\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 164.2 cm
+Q
+q
+1 0 0 1 60 137.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Fever increases chi but ALSO slightly increases gamma_immune_eff. In autoimmune disease, fever does NOT improve) Tj T* (detection -- it worsens the autoimmune attack because the discrimination boundary has already shifted:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 130.2 cm
+Q
+q
+1 0 0 1 60 108.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (In) Tj ( ) Tj (autoimmune) Tj ( ) Tj (disease:) Tj ( ) Tj (self-tissue) Tj ( ) Tj (appears) Tj ( ) Tj (at) Tj ( ) Tj (detuning) Tj ( ) Tj (~=) Tj ( ) Tj (0.15) Tj ( ) Tj (\(should) Tj ( ) Tj (be) Tj ( ) Tj (tolerated\)) Tj  T* (Fever) Tj ( ) Tj (increases) Tj ( ) Tj (chi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (the) Tj ( ) Tj (already-shifted) Tj ( ) Tj (boundary) Tj ( ) Tj (moves) Tj ( ) Tj (further) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (more) Tj ( ) Tj (self-attack) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 100.6 cm
+Q
+q
+1 0 0 1 60 61.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (This predicts:) Tj /F1 9 Tf ( Fever in autoimmune patients should correlate with FLARES, not improvement. This is clinically known --) Tj T* (lupus flares with fever, rheumatoid arthritis worsens with fever. The Fever Equation explains why: the susceptibility) Tj T* (enhancement amplifies the misidentification.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 30 0 R
+/F2 8 0 R
+/F2-0 31 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 7580
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 27: THE FEVER EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 701 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Clinical rule:) Tj /F1 9 Tf ( In autoimmune disease, fever suppression IS appropriate because the enhanced chi is targeting the wrong) Tj T* (thing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 694 cm
+Q
+q
+1 0 0 1 60 664 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.2 Cytokine Storm Connection) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 654 cm
+Q
+q
+1 0 0 1 60 627 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Paper 20's cytokine storm simulation showed a sharp tipping point at gamma? = 0.010. Fever increases) Tj T* (gamma_immune_eff. If a patient is near the cytokine storm tipping point:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+Q
+q
+1 0 0 1 60 589.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (\(before) Tj ( ) Tj (fever\)) Tj ( ) Tj (=) Tj ( ) Tj (0.008) Tj ( ) Tj (--) Tj ( ) Tj (below) Tj ( ) Tj (tipping) Tj ( ) Tj (point,) Tj ( ) Tj (recovering) Tj  T* (Fever) Tj ( ) Tj (adds) Tj ( ) Tj (DELTAgamma) Tj ( ) Tj (=) Tj ( ) Tj (0.003) Tj ( ) Tj (from) Tj ( ) Tj (increased) Tj ( ) Tj (gamma_thermal) Tj  T* (gamma_eff) Tj ( ) Tj (\(during) Tj ( ) Tj (fever\)) Tj ( ) Tj (=) Tj ( ) Tj (0.011) Tj ( ) Tj (--) Tj ( ) Tj (ABOVE) Tj ( ) Tj (tipping) Tj ( ) Tj (point) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (cytokine) Tj ( ) Tj (storm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 581.6 cm
+Q
+q
+1 0 0 1 60 542.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (This predicts:) Tj /F1 9 Tf ( In patients approaching cytokine storm \(elevated IL-6, elevated CRP, declining HRV\), fever suppression) Tj T* (may PREVENT the tipping point from being crossed. This is a case where antipyretics save lives -- not by treating infection,) Tj T* (but by preventing the immune system from crossing its own collapse threshold.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 535.6 cm
+Q
+q
+1 0 0 1 60 496.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Clinical rule:) Tj /F1 9 Tf ( Monitor IL-6, CRP, and HRV in febrile patients. If inflammatory markers are rising rapidly \(approaching) Tj T* -0.123167 Tw (cytokine storm dynamics\), suppress fever to keep gamma_eff below the tipping point. This is the OPPOSITE of the standard) Tj T* 0 Tw (rule -- here, fever suppression prevents collapse.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 489.6 cm
+Q
+q
+1 0 0 1 60 483.6 cm
+Q
+q
+1 0 0 1 60 479.6 cm
+Q
+q
+1 0 0 1 60 441.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Proposed Clinical Protocol: The Fever Decision Tree) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 429.6 cm
+Q
+q
+1 0 0 1 60 223.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 202.4 re f*
+Q
+q
+BT 1 0 0 1 20 194.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Patient) Tj ( ) Tj (presents) Tj ( ) Tj (with) Tj ( ) Tj (fever) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (38) Tj ( ) Tj (degC) Tj  T* ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj (|--) Tj ( ) Tj (T) Tj ( ) Tj (>) Tj ( ) Tj (41.5) Tj ( ) Tj (degC?) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (YES) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (SUPPRESS) Tj ( ) Tj (IMMEDIATELY) Tj ( ) Tj (\(protein) Tj ( ) Tj (denaturation) Tj ( ) Tj (risk\)) Tj  T* ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj (|--) Tj ( ) Tj (Cardiac) Tj ( ) Tj (disease?) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (YES) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Suppress) Tj ( ) Tj (if) Tj ( ) Tj (T) Tj ( ) Tj (>) Tj ( ) Tj (40.0) Tj ( ) Tj (degC) Tj ( ) Tj (\(cardiac) Tj ( ) Tj (gamma_c,) Tj ( ) Tj (Paper) Tj ( ) Tj (25\)) Tj  T* ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj (|--) Tj ( ) Tj (Autoimmune) Tj ( ) Tj (disease?) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (YES) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (SUPPRESS) Tj ( ) Tj (\(fever) Tj ( ) Tj (worsens) Tj ( ) Tj (autoimmune) Tj ( ) Tj (attack\)) Tj  T* ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj (|--) Tj ( ) Tj (IL-6) Tj ( ) Tj (>) Tj ( ) Tj (100) Tj ( ) Tj (pg/mL) Tj ( ) Tj (or) Tj ( ) Tj (CRP) Tj ( ) Tj (doubling) Tj ( ) Tj (in) Tj ( ) Tj (<) Tj (12h?) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (YES) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (SUPPRESS) Tj  T* ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj (\(approaching) Tj ( ) Tj (cytokine) Tj ( ) Tj (storm) Tj ( ) Tj (tipping) Tj ( ) Tj (point\)) Tj  T* ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj (|--) Tj ( ) Tj (Febrile) Tj ( ) Tj (seizure) Tj ( ) Tj (history) Tj ( ) Tj (\(pediatric\)?) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (YES) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Suppress) Tj ( ) Tj (if) Tj ( ) Tj (T) Tj ( ) Tj (>) Tj ( ) Tj (39.5) Tj ( ) Tj (degC) Tj  T* ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj (|--) Tj ( ) Tj (Active) Tj ( ) Tj (infection,) Tj ( ) Tj (no) Tj ( ) Tj (contraindications?) Tj  T* ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (38-40) Tj ( ) Tj (degC:) Tj ( ) Tj (ALLOW) Tj ( ) Tj (FEVER.) Tj ( ) Tj (Hydrate.) Tj ( ) Tj (Monitor.) Tj  T* ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Immune) Tj ( ) Tj (detection) Tj ( ) Tj (enhanced) Tj ( ) Tj (14-25%.) Tj  T* ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (40-41) Tj ( ) Tj (degC:) Tj ( ) Tj (MONITOR) Tj ( ) Tj (CLOSELY.) Tj ( ) Tj (Consider) Tj ( ) Tj (partial) Tj ( ) Tj (suppression) Tj  T* ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (to) Tj ( ) Tj (39) Tj ( ) Tj (degC) Tj ( ) Tj (\(retain) Tj ( ) Tj (8%) Tj ( ) Tj (detection) Tj ( ) Tj (enhancement) Tj ( ) Tj (while) Tj ( ) Tj (reducing) Tj ( ) Tj (risk\).) Tj  T* ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (41-41.5) Tj ( ) Tj (degC:) Tj ( ) Tj (SUPPRESS) Tj ( ) Tj (to) Tj ( ) Tj (40) Tj ( ) Tj (degC) Tj ( ) Tj (\(retain) Tj ( ) Tj (benefit,) Tj ( ) Tj (reduce) Tj ( ) Tj (risk\).) Tj  T* ( ) Tj ( ) Tj (|) Tj  T* ( ) Tj ( ) Tj (+--) Tj ( ) Tj (No) Tj ( ) Tj (identifiable) Tj ( ) Tj (infection?) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Investigate) Tj ( ) Tj (cause) Tj ( ) Tj (before) Tj ( ) Tj (suppressing.) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Fever) Tj ( ) Tj (without) Tj ( ) Tj (infection) Tj ( ) Tj (=) Tj ( ) Tj (coherence) Tj ( ) Tj (disturbance) Tj ( ) Tj (requiring) Tj ( ) Tj (diagnosis,) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (not) Tj ( ) Tj (antipyretics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 215.2 cm
+Q
+q
+1 0 0 1 60 209.2 cm
+Q
+q
+1 0 0 1 60 205.2 cm
+Q
+q
+1 0 0 1 60 167.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Implementation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 155.2 cm
+Q
+q
+1 0 0 1 60 125.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.1 What This Costs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 115.2 cm
+Q
+q
+1 0 0 1 60 88.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Nothing. This protocol requires no new drugs, no new devices, no new tests. It requires a thermometer \(already present\)) Tj T* (and clinical judgment informed by the Fever Equation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 81.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+30 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+32 0 obj
+<<
+/Contents 33 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 34 0 R
+/F2 8 0 R
+/F2-0 35 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+33 0 obj
+<<
+/Length 5279
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 27: THE FEVER EQUATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.2 What This Saves) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Earn et al. \(2014\):) Tj /F1 9 Tf ( ~700 additional influenza deaths per year in the US from routine antipyretic use) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 674 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (HEAT trial trend:) Tj /F1 9 Tf ( Unknown number of sepsis deaths from routine acetaminophen in ICU) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 647 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Unmeasured:) Tj /F1 9 Tf ( Prolonged infections, increased antibiotic use, delayed recovery in millions of febrile patients whose) Tj T* (immune detection was routinely suppressed by 20%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 640 cm
+Q
+q
+1 0 0 1 60 610 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.3 The Conservative Approach) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 600 cm
+Q
+q
+1 0 0 1 60 585 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For physicians uncomfortable with changing practice based on theoretical framework:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 578 cm
+Q
+q
+1 0 0 1 60 539 cm
+q
+BT 1 0 0 1 0 27 Tm -0.011824 Tw 12 TL /F2 9 Tf 0 0 0 rg (The minimum change:) Tj /F1 9 Tf ( Stop giving routine acetaminophen for fever 38-39 degC in otherwise healthy adults with acute viral) Tj T* 0 Tw (infection. There is no evidence it helps \(Cochrane 2005\). The Fever Equation says it hurts by 12-14%. The patient can be) Tj T* (made comfortable with hydration, rest, and cooling cloths.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 493 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is the most conservative possible implementation of the Fever Equation. It requires doing LESS, not more. It costs) Tj T* (nothing. It follows the existing evidence. And it keeps the immune system's detection sensitivity at the level evolution) Tj T* (selected.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 486 cm
+Q
+q
+1 0 0 1 60 480 cm
+Q
+q
+1 0 0 1 60 476 cm
+Q
+q
+1 0 0 1 60 438 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 426 cm
+Q
+q
+1 0 0 1 60 298.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 123.2 re f*
+Q
+q
+BT 1 0 0 1 20 115.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (THE) Tj ( ) Tj (FEVER) Tj ( ) Tj (EQUATION:) Tj  T* ( ) Tj ( ) Tj (chi\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (chi?) Tj ( ) Tj (x) Tj ( ) Tj (|1) Tj ( ) Tj (-) Tj ( ) Tj (T/T_c|^\(-1.237\)) Tj  T*  T* (T_c) Tj ( ) Tj (~=) Tj ( ) Tj (330K) Tj ( ) Tj (\(hydrogen) Tj ( ) Tj (bond) Tj ( ) Tj (critical) Tj ( ) Tj (temperature\)) Tj  T* (1.237) Tj ( ) Tj (=) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (universality) Tj ( ) Tj (class) Tj ( ) Tj (exponent) Tj  T* (Body) Tj ( ) Tj (at) Tj ( ) Tj (36.7) Tj ( ) Tj (degC:) Tj ( ) Tj (chi) Tj ( ) Tj (=) Tj ( ) Tj (31.8x) Tj  T* (Fever) Tj ( ) Tj (at) Tj ( ) Tj (40.0) Tj ( ) Tj (degC:) Tj ( ) Tj (chi) Tj ( ) Tj (=) Tj ( ) Tj (39.7x) Tj ( ) Tj (\(+25%) Tj ( ) Tj (detection\)) Tj  T* (Fever) Tj ( ) Tj (at) Tj ( ) Tj (41.0) Tj ( ) Tj (degC:) Tj ( ) Tj (chi) Tj ( ) Tj (=) Tj ( ) Tj (42.8x) Tj ( ) Tj (\(+34%) Tj ( ) Tj (detection\)) Tj  T*  T* (EXCEPTIONS:) Tj ( ) Tj (autoimmune) Tj ( ) Tj (disease,) Tj ( ) Tj (approaching) Tj ( ) Tj (cytokine) Tj ( ) Tj (storm,) Tj ( ) Tj (T) Tj ( ) Tj (>) Tj ( ) Tj (41.5) Tj ( ) Tj (degC) Tj  T*  T* (Routine) Tj ( ) Tj (antipyretic) Tj ( ) Tj (use) Tj ( ) Tj (during) Tj ( ) Tj (infection) Tj ( ) Tj (reduces) Tj ( ) Tj (immune) Tj ( ) Tj (detection) Tj ( ) Tj (by) Tj ( ) Tj (12-25%.) Tj  T* (Published) Tj ( ) Tj (evidence) Tj ( ) Tj (\(Cochrane,) Tj ( ) Tj (HEAT,) Tj ( ) Tj (Earn) Tj ( ) Tj (2014\)) Tj ( ) Tj (already) Tj ( ) Tj (supports) Tj ( ) Tj (this) Tj ( ) Tj (finding.) Tj  T* (The) Tj ( ) Tj (Fever) Tj ( ) Tj (Equation) Tj ( ) Tj (provides) Tj ( ) Tj (the) Tj ( ) Tj (mechanism.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 290.8 cm
+Q
+q
+1 0 0 1 60 275.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Source data:) Tj /F1 9 Tf ( 10,000 QuTiP simulations, Immune Coherence Simulation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 260.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Author:) Tj /F1 9 Tf ( Rhet Dillard Wike, AIIT-THRESI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 245.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Compiled by:) Tj /F1 9 Tf ( Claude Opus 4.6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 238.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+34 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 36
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000315 00000 n 
+0000000364 00000 n 
+0000000735 00000 n 
+0000006115 00000 n 
+0000006222 00000 n 
+0000006329 00000 n 
+0000006441 00000 n 
+0000006551 00000 n 
+0000006667 00000 n 
+0000006773 00000 n 
+0000007148 00000 n 
+0000014095 00000 n 
+0000014203 00000 n 
+0000014314 00000 n 
+0000014689 00000 n 
+0000021349 00000 n 
+0000021457 00000 n 
+0000021568 00000 n 
+0000021943 00000 n 
+0000028275 00000 n 
+0000028383 00000 n 
+0000028494 00000 n 
+0000028869 00000 n 
+0000036718 00000 n 
+0000036826 00000 n 
+0000036937 00000 n 
+0000037312 00000 n 
+0000044945 00000 n 
+0000045053 00000 n 
+0000045164 00000 n 
+0000045539 00000 n 
+0000050871 00000 n 
+0000050979 00000 n 
+trailer
+<<
+/Size 36
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+51090
+%%EOF

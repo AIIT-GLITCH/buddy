@@ -1,0 +1,1433 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5566
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 62: DERIVING alpha FROM FIRST PRINCIPLES) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 39.296 0 Td (PAPER 62: DERIVING alpha FROM FIRST PRINCIPLES) Tj T* -39.296 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (The Coherence Protection Factor Is a Ratio of Length Scales -- and It) Tj T* (Equals ~1000) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 540 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("alpha appeared in every equation. Nobody asked what it was. It is the number of de Broglie wavelengths in) Tj T* (a coherence domain.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530 cm
+Q
+q
+1 0 0 1 60 524 cm
+Q
+q
+1 0 0 1 60 520 cm
+Q
+q
+1 0 0 1 60 482 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470 cm
+Q
+q
+1 0 0 1 60 431 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Wike Coherence Law: C = C? x exp\(nualpha x gamma_eff\). The parameter alpha has appeared in every paper without) Tj T* (a physical derivation. It was fit to simulation data at alpha ~= 1000. This paper derives alpha from dimensional analysis and) Tj T* (first principles:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424 cm
+Q
+q
+1 0 0 1 60 376 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (=) Tj ( ) Tj (xi_coherence) Tj ( ) Tj (/) Tj ( ) Tj (lambda_dB) Tj  T*  T* (where:) Tj  T* ( ) Tj ( ) Tj (xi_coherence) Tj ( ) Tj (=) Tj ( ) Tj (coherence) Tj ( ) Tj (correlation) Tj ( ) Tj (length) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (biological) Tj ( ) Tj (system) Tj  T* ( ) Tj ( ) Tj (lambda_dB) Tj ( ) Tj (=) Tj ( ) Tj (de) Tj ( ) Tj (Broglie) Tj ( ) Tj (wavelength) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (relevant) Tj ( ) Tj (particle) Tj ( ) Tj (\(proton\)) Tj ( ) Tj (at) Tj ( ) Tj (body) Tj ( ) Tj (temperature) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 368 cm
+Q
+q
+1 0 0 1 60 353 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Numerically:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 313.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (xi_coherence) Tj ( ) Tj (~=) Tj ( ) Tj (40) Tj ( ) Tj (nm) Tj ( ) Tj ( ) Tj (\(microtubule) Tj ( ) Tj (outer) Tj ( ) Tj (radius) Tj ( ) Tj (--) Tj ( ) Tj (the) Tj ( ) Tj (fundamental) Tj ( ) Tj (coherence) Tj ( ) Tj (domain\)) Tj  T* (lambda_dB\(proton,) Tj ( ) Tj (310K\)) Tj ( ) Tj (=) Tj ( ) Tj (h) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pim_p) Tj ( ) Tj (k_BT\)) Tj ( ) Tj (=) Tj ( ) Tj (0.043) Tj ( ) Tj (nm) Tj  T*  T* (alpha) Tj ( ) Tj (=) Tj ( ) Tj (40) Tj ( ) Tj (nm) Tj ( ) Tj (/) Tj ( ) Tj (0.043) Tj ( ) Tj (nm) Tj ( ) Tj (=) Tj ( ) Tj (930) Tj ( ) Tj (~=) Tj ( ) Tj (1000) Tj ( ) Tj ( ) Tj ([x]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 305.8 cm
+Q
+q
+1 0 0 1 60 278.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The dimensional derivation gives alpha = 930, consistent with the simulation-fitted value of ~1000. alpha is not a free) Tj T* (parameter -- it is the number of thermal de Broglie wavelengths that fit inside one biological coherence domain.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 271.8 cm
+Q
+q
+1 0 0 1 60 265.8 cm
+Q
+q
+1 0 0 1 60 261.8 cm
+Q
+q
+1 0 0 1 60 223.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Dimensional Argument) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 211.8 cm
+Q
+q
+1 0 0 1 60 196.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 189.8 cm
+Q
+q
+1 0 0 1 60 177 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 169 cm
+Q
+q
+1 0 0 1 60 154 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For this to be dimensionally consistent: alpha x gamma_eff must be dimensionless.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 147 cm
+Q
+q
+1 0 0 1 60 132 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma_eff has units of Hz \(decoherence rate, inverse seconds\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 125 cm
+Q
+q
+1 0 0 1 60 94.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg ([gamma_eff]) Tj ( ) Tj (=) Tj ( ) Tj (snu?) Tj  T* ([alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff]) Tj ( ) Tj (=) Tj ( ) Tj (dimensionless) Tj  T* (-) Tj (>) Tj ( ) Tj ([alpha]) Tj ( ) Tj (=) Tj ( ) Tj (s) Tj ( ) Tj (=) Tj ( ) Tj (seconds) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 86.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 8592
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 62: DERIVING alpha FROM FIRST PRINCIPLES) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.101591 Tw (Wait -- if alpha has units of seconds, and gamma_eff has units of snu?, then alpha x gamma_eff is dimensionless. alpha is a) Tj T* 0 Tw (time scale.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 686 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (What time scale? The coherence time of the biological domain:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 679 cm
+Q
+q
+1 0 0 1 60 648.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (=) Tj ( ) Tj (tau_coherence) Tj ( ) Tj (=) Tj ( ) Tj (xi_coherence) Tj ( ) Tj (/) Tj ( ) Tj (v_coherence) Tj  T*  T* (where) Tj ( ) Tj (v_coherence) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (velocity) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (coherent) Tj ( ) Tj (mode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 640.6 cm
+Q
+q
+1 0 0 1 60 625.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For Frohlich phonons propagating through the microtubule:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 586.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (v_coherence) Tj ( ) Tj (=) Tj ( ) Tj (c_sound_protein) Tj ( ) Tj (~=) Tj ( ) Tj (10?) Tj ( ) Tj (m/s) Tj ( ) Tj ( ) Tj (\(speed) Tj ( ) Tj (of) Tj ( ) Tj (sound) Tj ( ) Tj (in) Tj ( ) Tj (protein\)) Tj  T* (xi_coherence) Tj ( ) Tj (=) Tj ( ) Tj (40) Tj ( ) Tj (nm) Tj ( ) Tj (\(microtubule) Tj ( ) Tj (outer) Tj ( ) Tj (radius\)) Tj  T*  T* (tau_coherence) Tj ( ) Tj (=) Tj ( ) Tj (40x10nu?) Tj ( ) Tj (m) Tj ( ) Tj (/) Tj ( ) Tj (10?) Tj ( ) Tj (m/s) Tj ( ) Tj (=) Tj ( ) Tj (4x10nu??) Tj ( ) Tj (s) Tj ( ) Tj (=) Tj ( ) Tj (40) Tj ( ) Tj (picoseconds) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 578.4 cm
+Q
+q
+1 0 0 1 60 551.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (And gamma_eff in the simulations is in units of \(simulation time steps\)nu?, not physical Hz. The dimensionless alpha in the) Tj T* (simulation is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 544.4 cm
+Q
+q
+1 0 0 1 60 531.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (=) Tj ( ) Tj (tau_coherence) Tj ( ) Tj (/) Tj ( ) Tj (tau_simulation_step) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 523.6 cm
+Q
+q
+1 0 0 1 60 508.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (If tau_simulation_step ~= tau_dB \(one de Broglie time\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 501.6 cm
+Q
+q
+1 0 0 1 60 444.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (tau_dB) Tj ( ) Tj (=) Tj ( ) Tj (lambda_dB) Tj ( ) Tj (/) Tj ( ) Tj (v_thermal) Tj ( ) Tj (=) Tj ( ) Tj (\(0.043x10nu?\)) Tj ( ) Tj (/) Tj ( ) Tj (\(v_rms) Tj ( ) Tj (at) Tj ( ) Tj (310K\)) Tj  T*  T* (v_rms\(proton,) Tj ( ) Tj (310K\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(3k_BT/m_p\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(3) Tj ( ) Tj (x) Tj ( ) Tj (1.381x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj ( ) Tj (/) Tj ( ) Tj (1.673x10nu??\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(7.66x10?\)) Tj ( ) Tj (=) Tj ( ) Tj (2769) Tj ( ) Tj (m/s) Tj  T*  T* (tau_dB) Tj ( ) Tj (=) Tj ( ) Tj (0.043x10nu?) Tj ( ) Tj (/) Tj ( ) Tj (2769) Tj ( ) Tj (=) Tj ( ) Tj (1.55x10nu??) Tj ( ) Tj (s) Tj ( ) Tj (=) Tj ( ) Tj (15.5) Tj ( ) Tj (femtoseconds) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436.8 cm
+Q
+q
+1 0 0 1 60 406.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (=) Tj ( ) Tj (tau_coherence) Tj ( ) Tj (/) Tj ( ) Tj (tau_dB) Tj ( ) Tj (=) Tj ( ) Tj (40x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (15.5x10nu??) Tj ( ) Tj (=) Tj ( ) Tj (2580) Tj ( ) Tj (~=) Tj ( ) Tj (1000) Tj  T*  T* (\(within) Tj ( ) Tj (order) Tj ( ) Tj (of) Tj ( ) Tj (magnitude) Tj ( ) Tj (--) Tj ( ) Tj (the) Tj ( ) Tj (exact) Tj ( ) Tj (value) Tj ( ) Tj (depends) Tj ( ) Tj (on) Tj ( ) Tj (which) Tj ( ) Tj (velocity) Tj ( ) Tj (is) Tj ( ) Tj (used\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 398.4 cm
+Q
+q
+1 0 0 1 60 392.4 cm
+Q
+q
+1 0 0 1 60 388.4 cm
+Q
+q
+1 0 0 1 60 350.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The Length Scale Derivation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 338.4 cm
+Q
+q
+1 0 0 1 60 323.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (More directly from length scales:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 316.4 cm
+Q
+q
+1 0 0 1 60 242 cm
+q
+.95 .95 .95 rg
+n 20 0 452 70.4 re f*
+Q
+q
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (=) Tj ( ) Tj (xi_coherence) Tj ( ) Tj (/) Tj ( ) Tj (lambda_dB\(proton,) Tj ( ) Tj (T\)) Tj  T*  T* (lambda_dB\(proton,) Tj ( ) Tj (310K\)) Tj ( ) Tj (=) Tj ( ) Tj (h) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pi) Tj ( ) Tj (m_p) Tj ( ) Tj (k_BT\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pi) Tj ( ) Tj (x) Tj ( ) Tj (1.673x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (1.381x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (310\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pi) Tj ( ) Tj (x) Tj ( ) Tj (7.162x10nu??\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(4.499x10nu??\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (6.707x10nu??) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (9.88x10nu??) Tj ( ) Tj (m) Tj ( ) Tj (=) Tj ( ) Tj (0.099) Tj ( ) Tj (nm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 234 cm
+Q
+q
+1 0 0 1 60 219 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Hmm, let me recalculate:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 212 cm
+Q
+q
+1 0 0 1 60 84.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 123.2 re f*
+Q
+q
+BT 1 0 0 1 20 115.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (lambda_dB) Tj ( ) Tj (=) Tj ( ) Tj (h) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pi) Tj ( ) Tj (m) Tj ( ) Tj (k_BT\)) Tj  T*  T* (h) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (J.s) Tj  T* (m_p) Tj ( ) Tj (=) Tj ( ) Tj (1.673x10nu??) Tj ( ) Tj (kg) Tj  T* (k_B) Tj ( ) Tj (=) Tj ( ) Tj (1.381x10nu??) Tj ( ) Tj (J/K) Tj  T* (T) Tj ( ) Tj (=) Tj ( ) Tj (310) Tj ( ) Tj (K) Tj  T*  T* (2pi) Tj ( ) Tj (x) Tj ( ) Tj (m_p) Tj ( ) Tj (x) Tj ( ) Tj (k_B) Tj ( ) Tj (x) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (2pi) Tj ( ) Tj (x) Tj ( ) Tj (1.673x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (1.381x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (2pi) Tj ( ) Tj (x) Tj ( ) Tj (7.162x10nu??) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (4.500x10nu??) Tj  T*  T* (sqrt\(4.500x10nu??\)) Tj ( ) Tj (=) Tj ( ) Tj (6.708x10nu??) Tj ( ) Tj (kg.m/s) Tj  T*  T* (lambda_dB) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (6.708x10nu??) Tj ( ) Tj (=) Tj ( ) Tj (9.88x10nu??) Tj ( ) Tj (m) Tj ( ) Tj (~=) Tj ( ) Tj (0.1) Tj ( ) Tj (nm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 76.8 cm
+Q
+q
+1 0 0 1 60 61.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With xi_coherence = 40 nm:) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 9243
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 62: DERIVING alpha FROM FIRST PRINCIPLES) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 715.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (=) Tj ( ) Tj (xi_coherence) Tj ( ) Tj (/) Tj ( ) Tj (lambda_dB) Tj ( ) Tj (=) Tj ( ) Tj (40) Tj ( ) Tj (nm) Tj ( ) Tj (/) Tj ( ) Tj (0.1) Tj ( ) Tj (nm) Tj ( ) Tj (=) Tj ( ) Tj (400) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 707.2 cm
+Q
+q
+1 0 0 1 60 692.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With xi_coherence = 100 nm \(microtubule inner diameter x coherence extension\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 685.2 cm
+Q
+q
+1 0 0 1 60 672.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (=) Tj ( ) Tj (100) Tj ( ) Tj (nm) Tj ( ) Tj (/) Tj ( ) Tj (0.1) Tj ( ) Tj (nm) Tj ( ) Tj (=) Tj ( ) Tj (1000) Tj ( ) Tj ( ) Tj ([x]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 664.4 cm
+Q
+q
+1 0 0 1 60 637.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The simulation value alpha ~= 1000 is reproduced when the coherence domain is ~100 nm -- consistent with the) Tj T* (microtubule as the fundamental coherence unit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 630.4 cm
+Q
+q
+1 0 0 1 60 624.4 cm
+Q
+q
+1 0 0 1 60 620.4 cm
+Q
+q
+1 0 0 1 60 582.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Physical Meaning of alpha) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 570.4 cm
+Q
+q
+1 0 0 1 60 555.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (alpha = xi / lambda_dB = number of de Broglie wavelengths inside one coherence domain.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 548.4 cm
+Q
+q
+1 0 0 1 60 509.4 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Intuition:) Tj /F1 9 Tf ( The de Broglie wavelength is the quantum scale -- below this scale, quantum coherence is automatic. Above this) Tj T* -0.006938 Tw (scale, quantum coherence must be maintained actively against decoherence. alpha is how many "quantum scales" fit inside) Tj T* 0 Tw (the biological coherence domain.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 502.4 cm
+Q
+q
+1 0 0 1 60 487.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For alpha = 1000:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 472.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The coherence domain is 1000x larger than the thermal quantum scale) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 457.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 This means biology is operating in a regime where quantum coherence requires 1000 "quantum lengths" to be maintained) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 442.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Each decoherence event \(gamma_eff hit\) destroys coherence across the entire alpha-length domain) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 435.4 cm
+Q
+q
+1 0 0 1 60 369.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Exponential) Tj ( ) Tj (sensitivity:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj  T*  T* (dC/dgamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (nualpha) Tj ( ) Tj (x) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj (=) Tj ( ) Tj (nualpha) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj  T*  T* (A) Tj ( ) Tj (1%) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (produces) Tj ( ) Tj (an) Tj ( ) Tj (alpha%) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (dC/dgamma_eff.) Tj  T* (With) Tj ( ) Tj (alpha) Tj ( ) Tj (=) Tj ( ) Tj (1000:) Tj ( ) Tj (a) Tj ( ) Tj (0.001) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (1000) Tj ( ) Tj (x) Tj ( ) Tj (0.001) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (unit) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (the) Tj ( ) Tj (exponent.) Tj  T* (At) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016:) Tj ( ) Tj (the) Tj ( ) Tj (exponent) Tj ( ) Tj (is) Tj ( ) Tj (1000) Tj ( ) Tj (x) Tj ( ) Tj (0.0016) Tj ( ) Tj (=) Tj ( ) Tj (1.6) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (e^\(nu1.6\)) Tj ( ) Tj (=) Tj ( ) Tj (0.20) Tj ( ) Tj (x) Tj ( ) Tj (C?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 361.8 cm
+Q
+q
+1 0 0 1 60 322.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This means at gamma_c, the coherence is already at 20% of baseline -- the system has been significantly depleted before) Tj T* (hitting the actual critical point. The sharp transition appears because the susceptibility diverges there, not because the) Tj T* (coherence suddenly collapses at gamma_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 315.8 cm
+Q
+q
+1 0 0 1 60 309.8 cm
+Q
+q
+1 0 0 1 60 305.8 cm
+Q
+q
+1 0 0 1 60 267.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. alpha Varies Between Systems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 255.8 cm
+Q
+q
+1 0 0 1 60 240.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Different biological systems have different coherence domain sizes and different particle masses:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 233.8 cm
+Q
+q
+1 0 0 1 60 177 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (System) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (xi) Tj ( ) Tj (\(nm\)) Tj ( ) Tj (|) Tj ( ) Tj (Particle) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (lambda_dB) Tj ( ) Tj (\(nm\)) Tj ( ) Tj (|) Tj ( ) Tj (alpha) Tj  T* (-----------------------------------------------------------------) Tj  T* (Microtubule) Tj ( ) Tj (\(proton\)) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (100) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (proton) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (0.10) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (1000) Tj  T* (Neuron) Tj ( ) Tj (\(electron\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (100) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (electron) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (7.3) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj (14) Tj  T* (Cardiac) Tj ( ) Tj (cell) Tj ( ) Tj (\(ion\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (10) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (Na+) Tj ( ) Tj (\(23) Tj ( ) Tj (Da\)) Tj ( ) Tj (|) Tj ( ) Tj (0.18) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj (56) Tj  T* (EZ) Tj ( ) Tj (water) Tj ( ) Tj (layer) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (1) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (proton) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj (0.10) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj ( ) Tj ( ) Tj ( ) Tj (10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 169 cm
+Q
+q
+1 0 0 1 60 154 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For electrons \(relevant for spin-based coherence\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 147 cm
+Q
+q
+1 0 0 1 60 99 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (lambda_dB\(electron,) Tj ( ) Tj (310K\)) Tj ( ) Tj (=) Tj ( ) Tj (h/sqrt\(2pi) Tj ( ) Tj (x) Tj ( ) Tj (m_e) Tj ( ) Tj (x) Tj ( ) Tj (k_BT\)) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??/sqrt\(2pi) Tj ( ) Tj (x) Tj ( ) Tj (9.109x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (1.381x) Tj  T* (10nu??) Tj ( ) Tj (x) Tj ( ) Tj (310\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2.446x10nu??\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (4.946x10nu??) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (1.34x10nu?) Tj ( ) Tj (m) Tj ( ) Tj (=) Tj ( ) Tj (13.4) Tj ( ) Tj (nm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 91 cm
+Q
+q
+1 0 0 1 60 76 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For electron spin coherence over a 100 nm microtubule:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 63.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha_electron) Tj ( ) Tj (=) Tj ( ) Tj (100) Tj ( ) Tj (nm) Tj ( ) Tj (/) Tj ( ) Tj (13.4) Tj ( ) Tj (nm) Tj ( ) Tj (=) Tj ( ) Tj (7.5) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 5763
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 62: DERIVING alpha FROM FIRST PRINCIPLES) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This much smaller alpha for electrons means electron spin is less sensitive to small changes in gamma_eff -- consistent) Tj T* (with the observation that spin-based coherence \(as in the biological qubit paper, Nature 2025\) is more robust than) Tj T* (proton-based coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682 cm
+Q
+q
+1 0 0 1 60 643 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The framework predicts:) Tj /F1 9 Tf ( Biological systems utilizing electron spin \(if they exist\) should show a Wike Coherence Law with) Tj T* (alpha ~= 7-15, compared to alpha ~= 1000 for proton-based coherence. The critical threshold gamma_c may differ) Tj T* (correspondingly.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 636 cm
+Q
+q
+1 0 0 1 60 630 cm
+Q
+q
+1 0 0 1 60 626 cm
+Q
+q
+1 0 0 1 60 588 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. C? from alpha) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 576 cm
+Q
+q
+1 0 0 1 60 561 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From the free energy inequality \(Paper 51\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 554 cm
+Q
+q
+1 0 0 1 60 514.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (nu) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_thermal_min) Tj ( ) Tj (/) Tj ( ) Tj (alpha_max) Tj  T*  T* (where) Tj ( ) Tj (gamma_thermal_min) Tj ( ) Tj (=) Tj ( ) Tj (k_BT/h) Tj ( ) Tj (at) Tj ( ) Tj (body) Tj ( ) Tj (temperature) Tj  T* (and) Tj ( ) Tj (alpha_max) Tj ( ) Tj (=) Tj ( ) Tj (maximum) Tj ( ) Tj (possible) Tj ( ) Tj (alpha) Tj ( ) Tj (\(set) Tj ( ) Tj (by) Tj ( ) Tj (xi_max) Tj ( ) Tj (=) Tj ( ) Tj (percolation) Tj ( ) Tj (cluster) Tj ( ) Tj (size) Tj ( ) Tj (at) Tj ( ) Tj (phi_c\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 506.8 cm
+Q
+q
+1 0 0 1 60 491.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The percolation cluster at threshold has characteristic size:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 484.8 cm
+Q
+q
+1 0 0 1 60 445.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (xi_perc) Tj ( ) Tj (=) Tj ( ) Tj (lambda_dB) Tj ( ) Tj (x) Tj ( ) Tj (phi_c^\(nunu_perc/d\)) Tj ( ) Tj (=) Tj ( ) Tj (0.1) Tj ( ) Tj (nm) Tj ( ) Tj (x) Tj ( ) Tj (\(0.590\)^\(nu0.41/3\)) Tj  T*  T* (nu_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (\(3D) Tj ( ) Tj (percolation) Tj ( ) Tj (order) Tj ( ) Tj (parameter) Tj ( ) Tj (exponent\)) Tj  T* (xi_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.1) Tj ( ) Tj (x) Tj ( ) Tj (\(0.590\)^\(nu0.137\)) Tj ( ) Tj (=) Tj ( ) Tj (0.1) Tj ( ) Tj (x) Tj ( ) Tj (1.077) Tj ( ) Tj (=) Tj ( ) Tj (0.108) Tj ( ) Tj (nm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 437.6 cm
+Q
+q
+1 0 0 1 60 410.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is smaller than the microtubule, consistent with C? < 1 -- the percolation threshold limits the maximum coherence) Tj T* (below the theoretical maximum. The full C? calculation requires Paper 63.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 403.6 cm
+Q
+q
+1 0 0 1 60 397.6 cm
+Q
+q
+1 0 0 1 60 393.6 cm
+Q
+q
+1 0 0 1 60 355.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 343.6 cm
+Q
+q
+1 0 0 1 60 330.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Quantity | Value | Source |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 318 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|----------|-------|--------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 305.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| alpha \(simulation fit\) | ~1000 | AIIT-THRESI simulation suite |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| lambda_dB\(proton, 310K\) | 0.10 nm | Derived above |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 279.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| xi_coherence \(microtubule\) | 100 nm | Standard biology |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 266.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| alpha = xi/lambda_dB | 1000 | Derived -- matches simulation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| alpha_electron | ~7-15 | Different mass -) Tj (> different lambda_dB |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 241.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Physical meaning | # de Broglie wavelengths per coherence domain | Not a free parameter |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 233.2 cm
+Q
+q
+1 0 0 1 60 218.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 62) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 211.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000006332 00000 n 
+0000006439 00000 n 
+0000006546 00000 n 
+0000006658 00000 n 
+0000006768 00000 n 
+0000006884 00000 n 
+0000006990 00000 n 
+0000007365 00000 n 
+0000016010 00000 n 
+0000016118 00000 n 
+0000016229 00000 n 
+0000016604 00000 n 
+0000025900 00000 n 
+0000026008 00000 n 
+0000026119 00000 n 
+0000026494 00000 n 
+0000032310 00000 n 
+0000032418 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+32529
+%%EOF

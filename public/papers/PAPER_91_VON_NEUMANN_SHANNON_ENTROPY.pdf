@@ -1,0 +1,1512 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 5
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5834
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 91: VON NEUMANN ENTROPY, SHANNON ENTROPY, AND THE COHERENCE CLIFF) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 13.088 0 Td (PAPER 91: VON NEUMANN ENTROPY, SHANNON ENTROPY,) Tj T* 119.136 0 Td (AND THE COHERENCE CLIFF) Tj T* -132.224 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 628 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (gamma_c Is an Entropy Phase Transition -- Below It, Entropy Is Actively) Tj T* (Suppressed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 598 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 568 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 558 cm
+Q
+q
+1 0 0 1 60 552 cm
+Q
+q
+1 0 0 1 60 548 cm
+Q
+q
+1 0 0 1 60 518 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("Shannon counted bits. von Neumann counted quantum states. The Wike Coherence Law is about both:) Tj T* -0.0924 Tw (below gamma_c, the body is paying the metabolic cost to suppress entropy. Above gamma_c, entropy wins.") Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 60 508 cm
+Q
+q
+1 0 0 1 60 502 cm
+Q
+q
+1 0 0 1 60 498 cm
+Q
+q
+1 0 0 1 60 460 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448 cm
+Q
+q
+1 0 0 1 60 409 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The von Neumann entropy S = -Tr\(rho log rho\) is the quantum measure of coherence: S = 0 for a pure state \(perfect) Tj T* (coherence\), S = log d for the maximally mixed state \(complete decoherence\). The Wike Coherence Law C = C_0 x) Tj T* (exp\(-alphagamma_eff\) maps directly to von Neumann entropy:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 402 cm
+Q
+q
+1 0 0 1 60 354 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S\(gamma_eff,) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (log\(2\)) Tj ( ) Tj (-) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2alphagamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj ( ) Tj (x) Tj ( ) Tj (log[\(1+C\(t\)\)/\(1-C\(t\)\)]) Tj ( ) Tj (/) Tj ( ) Tj (2) Tj ( ) Tj (+) Tj ( ) Tj (...) Tj  T*  T* (At) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0:) Tj ( ) Tj (S) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (\(pure) Tj ( ) Tj (state,) Tj ( ) Tj (perfect) Tj ( ) Tj (coherence\)) Tj  T* (At) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf:) Tj ( ) Tj (S) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (log\(2\)) Tj ( ) Tj ( ) Tj (\(maximally) Tj ( ) Tj (mixed,) Tj ( ) Tj (complete) Tj ( ) Tj (decoherence\)) Tj  T* (At) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c:) Tj ( ) Tj (S_c) Tj ( ) Tj (=) Tj ( ) Tj (crossover) Tj ( ) Tj (entropy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 346 cm
+Q
+q
+1 0 0 1 60 271 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 63 Tm /F1 9 Tf 12 TL (Shannon entropy H \(classical information theory\) is the classical limit of von Neumann entropy. For REQMT measurements) Tj T* (\(Paper 05\): lower Shannon entropy across all 5 channels simultaneously is the measurable signature of low gamma_eff.) Tj T* (The C_alive distribution \(Paper 59\) has a maximum entropy at T* = body temperature that provides the optimal balance) Tj T* (between coherent information \(low S\) and accessible thermal energy \(high T\). The framework predicts: healthy subjects) Tj T* (show lower multi-modal signal entropy than stressed subjects, and this entropy difference is the macroscopic signature of) Tj T* (the gamma_eff difference between the two states.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 264 cm
+Q
+q
+1 0 0 1 60 258 cm
+Q
+q
+1 0 0 1 60 254 cm
+Q
+q
+1 0 0 1 60 216 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Von Neumann Entropy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204 cm
+Q
+q
+1 0 0 1 60 189 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a quantum state rho:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 182 cm
+Q
+q
+1 0 0 1 60 142.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S\(rho\)) Tj ( ) Tj (=) Tj ( ) Tj (-Tr\(rho) Tj ( ) Tj (log) Tj ( ) Tj (rho\)) Tj  T*  T* (Pure) Tj ( ) Tj (state) Tj ( ) Tj (\(|psi) Tj (>) Tj (<) Tj (psi|\):) Tj ( ) Tj (S) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (Mixed) Tj ( ) Tj (state) Tj ( ) Tj (\(1/d) Tj ( ) Tj (x) Tj ( ) Tj (I\):) Tj ( ) Tj (S) Tj ( ) Tj (=) Tj ( ) Tj (log) Tj ( ) Tj (d) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 134.8 cm
+Q
+q
+1 0 0 1 60 119.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a single qubit \(d=2\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 112.8 cm
+Q
+q
+1 0 0 1 60 82.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho) Tj ( ) Tj (=) Tj ( ) Tj ([[1/2) Tj ( ) Tj (+) Tj ( ) Tj (C/2,) Tj ( ) Tj (0],) Tj ( ) Tj ([0,) Tj ( ) Tj (1/2) Tj ( ) Tj (-) Tj ( ) Tj (C/2]]) Tj ( ) Tj ( ) Tj ([dephasing) Tj ( ) Tj (channel,) Tj ( ) Tj (Paper) Tj ( ) Tj (68]) Tj  T*  T* (S\(C\)) Tj ( ) Tj (=) Tj ( ) Tj (-\(\(1+C\)/2\)) Tj ( ) Tj (log\(\(1+C\)/2\)) Tj ( ) Tj (-) Tj ( ) Tj (\(\(1-C\)/2\)) Tj ( ) Tj (log\(\(1-C\)/2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 74.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7867
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 91: VON NEUMANN ENTROPY, SHANNON ENTROPY, AND THE COHERENCE CLIFF) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Taylor expansion near C = 0:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 673.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S\(C\)) Tj ( ) Tj (~=) Tj ( ) Tj (log\(2\)) Tj ( ) Tj (-) Tj ( ) Tj (C^2/2) Tj ( ) Tj (-) Tj ( ) Tj (C^4/12) Tj ( ) Tj (-) Tj ( ) Tj (...) Tj  T*  T* (At) Tj ( ) Tj (small) Tj ( ) Tj (C) Tj ( ) Tj (\(near) Tj ( ) Tj (decoherent) Tj ( ) Tj (phase\):) Tj  T* ( ) Tj ( ) Tj (S) Tj ( ) Tj (~=) Tj ( ) Tj (log\(2\)) Tj ( ) Tj ([maximum) Tj ( ) Tj (entropy]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 665.8 cm
+Q
+q
+1 0 0 1 60 650.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Taylor expansion near C = 1 \(near pure state\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 643.8 cm
+Q
+q
+1 0 0 1 60 631 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S\(C\)) Tj ( ) Tj (~=) Tj ( ) Tj (\(1-C\)/2) Tj ( ) Tj (x) Tj ( ) Tj (log\(2/\(1-C\)\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (as) Tj ( ) Tj (C) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 623 cm
+Q
+q
+1 0 0 1 60 608 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The Wike Law in entropy language:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 601 cm
+Q
+q
+1 0 0 1 60 535.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alphagamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj  T*  T* (S\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (-\(\(1+C\(t\)\)/2\)) Tj ( ) Tj (x) Tj ( ) Tj (log\(\(1+C\(t\)\)/2\)) Tj ( ) Tj (-) Tj ( ) Tj (\(\(1-C\(t\)\)/2\)) Tj ( ) Tj (x) Tj ( ) Tj (log\(\(1-C\(t\)\)/2\)) Tj  T*  T* (dS/dt) Tj ( ) Tj (=) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (C\(t\)) Tj ( ) Tj (x) Tj ( ) Tj (log\(\(1+C\(t\)\)/\(1-C\(t\)\)\)) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (all) Tj ( ) Tj (t) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj  T*  T* (Entropy) Tj ( ) Tj (INCREASES) Tj ( ) Tj (monotonically) Tj ( ) Tj (over) Tj ( ) Tj (time) Tj ( ) Tj (at) Tj ( ) Tj (fixed) Tj ( ) Tj (gamma_eff.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 527.4 cm
+Q
+q
+1 0 0 1 60 521.4 cm
+Q
+q
+1 0 0 1 60 517.4 cm
+Q
+q
+1 0 0 1 60 479.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. gamma_c as Entropy Regulation Threshold) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 467.4 cm
+Q
+q
+1 0 0 1 60 452.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Below gamma_c \(coherent phase\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 445.4 cm
+Q
+q
+1 0 0 1 60 344.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 96.8 re f*
+Q
+q
+BT 1 0 0 1 20 89.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (The) Tj ( ) Tj (system) Tj ( ) Tj (actively) Tj ( ) Tj (maintains) Tj ( ) Tj (C) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (through) Tj ( ) Tj (the) Tj ( ) Tj (Bootstrap) Tj ( ) Tj (Loop) Tj ( ) Tj (\(Paper) Tj ( ) Tj (02\).) Tj  T* (The) Tj ( ) Tj (Bootstrap) Tj ( ) Tj (Loop) Tj ( ) Tj (is) Tj ( ) Tj (a) Tj ( ) Tj (Maxwell's) Tj ( ) Tj (Demon) Tj ( ) Tj (process) Tj ( ) Tj (\(Paper) Tj ( ) Tj (70\):) Tj ( ) Tj (it) Tj ( ) Tj (pays) Tj ( ) Tj (the) Tj ( ) Tj (Landauer) Tj ( ) Tj (cost) Tj  T* (to) Tj ( ) Tj (suppress) Tj ( ) Tj (entropy) Tj ( ) Tj (S) Tj ( ) Tj (below) Tj ( ) Tj (the) Tj ( ) Tj (equilibrium) Tj ( ) Tj (value.) Tj  T*  T* (Entropy) Tj ( ) Tj (production) Tj ( ) Tj (rate) Tj ( ) Tj (from) Tj ( ) Tj (environment:) Tj ( ) Tj (dS_env/dt) Tj ( ) Tj (=) Tj ( ) Tj (alphagamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj ( ) Tj (x) Tj ( ) Tj (\(log) Tj ( ) Tj (term\)) Tj  T* (Bootstrap) Tj ( ) Tj (entropy) Tj ( ) Tj (suppression) Tj ( ) Tj (rate:) Tj ( ) Tj (dS_Bootstrap/dt) Tj ( ) Tj (=) Tj ( ) Tj (-k_ATP) Tj ( ) Tj (x) Tj ( ) Tj (PATP) Tj  T*  T* (Coherent) Tj ( ) Tj (steady) Tj ( ) Tj (state:) Tj ( ) Tj (dS_env/dt) Tj ( ) Tj (=) Tj ( ) Tj (dS_Bootstrap/dt) Tj  T*  T* (At) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_baseline) Tj ( ) Tj (=) Tj ( ) Tj (0.001:) Tj  T* ( ) Tj ( ) Tj (S) Tj ( ) Tj (is) Tj ( ) Tj (maintained) Tj ( ) Tj (at) Tj ( ) Tj (S_baseline) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (S_max) Tj ( ) Tj (\(the) Tj ( ) Tj (system) Tj ( ) Tj (pays) Tj ( ) Tj (metabolic) Tj ( ) Tj (cost) Tj ( ) Tj (to) Tj ( ) Tj (suppress) Tj ( ) Tj (entropy\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 336.6 cm
+Q
+q
+1 0 0 1 60 321.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (At gamma_eff = gamma_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314.6 cm
+Q
+q
+1 0 0 1 60 266.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (The) Tj ( ) Tj (Bootstrap) Tj ( ) Tj (Loop) Tj ( ) Tj (cannot) Tj ( ) Tj (suppress) Tj ( ) Tj (entropy) Tj ( ) Tj (fast) Tj ( ) Tj (enough:) Tj  T* ( ) Tj ( ) Tj (dS_env/dt) Tj ( ) Tj (>) Tj ( ) Tj (dS_Bootstrap/dt) Tj ( ) Tj (\(maximum\)) Tj  T*  T* (S) Tj ( ) Tj (begins) Tj ( ) Tj (increasing) Tj ( ) Tj (irreversibly) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C) Tj ( ) Tj (drops) Tj ( ) Tj (irreversibly) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (wind-up) Tj ( ) Tj (\(Paper) Tj ( ) Tj (16\)) Tj  T* (The) Tj ( ) Tj (system) Tj ( ) Tj (crosses) Tj ( ) Tj (the) Tj ( ) Tj (entropy) Tj ( ) Tj ("maintenance) Tj ( ) Tj (threshold.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 258.6 cm
+Q
+q
+1 0 0 1 60 243.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Above gamma_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 236.6 cm
+Q
+q
+1 0 0 1 60 206.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (S_max) Tj ( ) Tj (=) Tj ( ) Tj (log\(2\)) Tj ( ) Tj (\(maximum) Tj ( ) Tj (entropy,) Tj ( ) Tj (complete) Tj ( ) Tj (decoherence\)) Tj  T* (Bootstrap) Tj ( ) Tj (Loop) Tj ( ) Tj (cannot) Tj ( ) Tj (restart) Tj ( ) Tj (\(Paper) Tj ( ) Tj (63:) Tj ( ) Tj (C_0) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (<) Tj ( ) Tj (phi_c\)) Tj  T* (Entropy) Tj ( ) Tj (production) Tj ( ) Tj (wins:) Tj ( ) Tj (S) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (S_max) Tj ( ) Tj (regardless) Tj ( ) Tj (of) Tj ( ) Tj (metabolic) Tj ( ) Tj (input) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 198.2 cm
+Q
+q
+1 0 0 1 60 171.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Summary:) Tj /F1 9 Tf ( gamma_c is the entropy regulation threshold -- below it, the body CAN suppress entropy \(costs ATP\), above it,) Tj T* (the body CANNOT suppress entropy regardless of energy input.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 164.2 cm
+Q
+q
+1 0 0 1 60 158.2 cm
+Q
+q
+1 0 0 1 60 154.2 cm
+Q
+q
+1 0 0 1 60 116.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Shannon Entropy and REQMT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 104.2 cm
+Q
+q
+1 0 0 1 60 89.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Shannon entropy for a discrete distribution {p_i}:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 82.2 cm
+Q
+q
+1 0 0 1 60 69.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (H) Tj ( ) Tj (=) Tj ( ) Tj (-SIGMA_i) Tj ( ) Tj (p_i) Tj ( ) Tj (x) Tj ( ) Tj (log\(p_i\)) Tj  T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 9370
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 91: VON NEUMANN ENTROPY, SHANNON ENTROPY, AND THE COHERENCE CLIFF) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* (For) Tj ( ) Tj (a) Tj ( ) Tj (time) Tj ( ) Tj (series) Tj ( ) Tj (signal) Tj ( ) Tj (x\(t\):) Tj  T* ( ) Tj ( ) Tj (H_temporal) Tj ( ) Tj (=) Tj ( ) Tj (-SIGMA) Tj ( ) Tj (p\(x\)) Tj ( ) Tj (log) Tj ( ) Tj (p\(x\)) Tj ( ) Tj ( ) Tj ([entropy) Tj ( ) Tj (of) Tj ( ) Tj (value) Tj ( ) Tj (distribution]) Tj  T* ( ) Tj ( ) Tj (H_spectral) Tj ( ) Tj (=) Tj ( ) Tj (-SIGMA) Tj ( ) Tj (S\(f\)/S_total) Tj ( ) Tj (x) Tj ( ) Tj (log\(S\(f\)/S_total\)) Tj ( ) Tj ( ) Tj ([spectral) Tj ( ) Tj (entropy]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 688.8 cm
+Q
+q
+1 0 0 1 60 673.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Prediction for REQMT \(Paper 05\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 666.8 cm
+Q
+q
+1 0 0 1 60 651.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a subject at gamma_eff = gamma_baseline \(healthy, coherent\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 644.8 cm
+Q
+q
+1 0 0 1 60 579.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (HRV) Tj ( ) Tj (time) Tj ( ) Tj (series:) Tj ( ) Tj (quasi-periodic) Tj ( ) Tj (\(fractal) Tj ( ) Tj (1/f,) Tj ( ) Tj (alpha) Tj ( ) Tj (~=) Tj ( ) Tj (1.0-1.2\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (LOW) Tj ( ) Tj (spectral) Tj ( ) Tj (entropy) Tj  T* (Thermal) Tj ( ) Tj (IR:) Tj ( ) Tj (spatially) Tj ( ) Tj (uniform) Tj ( ) Tj (with) Tj ( ) Tj (minor) Tj ( ) Tj (oscillations) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (LOW) Tj ( ) Tj (spatial) Tj ( ) Tj (entropy) Tj  T* (Vocal) Tj ( ) Tj (signal:) Tj ( ) Tj (harmonic) Tj ( ) Tj (structure) Tj ( ) Tj (\(fundamental) Tj ( ) Tj (+) Tj ( ) Tj (overtones\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (LOW) Tj ( ) Tj (spectral) Tj ( ) Tj (entropy) Tj  T* (rPPG:) Tj ( ) Tj (coherent) Tj ( ) Tj (photoplethysmography) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (LOW) Tj ( ) Tj (temporal) Tj ( ) Tj (entropy) Tj  T* (Skin) Tj ( ) Tj (conductance:) Tj ( ) Tj (slow) Tj ( ) Tj (drift) Tj ( ) Tj (with) Tj ( ) Tj (coherent) Tj ( ) Tj (events) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (LOW) Tj ( ) Tj (spectral) Tj ( ) Tj (entropy) Tj  T*  T* (All) Tj ( ) Tj (5) Tj ( ) Tj (channels:) Tj ( ) Tj (LOW) Tj ( ) Tj (entropy) Tj ( ) Tj (simultaneously) Tj ( ) Tj (\(coherent) Tj ( ) Tj (state\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 571.2 cm
+Q
+q
+1 0 0 1 60 556.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (For a subject at gamma_eff -) Tj (> gamma_c \(stressed, approaching collapse\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 549.2 cm
+Q
+q
+1 0 0 1 60 483.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (HRV:) Tj ( ) Tj (irregular) Tj ( ) Tj (\(Gaussian,) Tj ( ) Tj (alpha) Tj ( ) Tj (~=) Tj ( ) Tj (0.8\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (HIGH) Tj ( ) Tj (spectral) Tj ( ) Tj (entropy) Tj  T* (Thermal) Tj ( ) Tj (IR:) Tj ( ) Tj (spatially) Tj ( ) Tj (non-uniform) Tj ( ) Tj (\(stress) Tj ( ) Tj (thermography\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (HIGH) Tj ( ) Tj (spatial) Tj ( ) Tj (entropy) Tj  T* (Vocal:) Tj ( ) Tj (decreased) Tj ( ) Tj (harmonic) Tj ( ) Tj (structure) Tj ( ) Tj (\(stress) Tj ( ) Tj (vocalization\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (HIGH) Tj ( ) Tj (spectral) Tj ( ) Tj (entropy) Tj  T* (rPPG:) Tj ( ) Tj (noisy,) Tj ( ) Tj (irregular) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (HIGH) Tj ( ) Tj (temporal) Tj ( ) Tj (entropy) Tj  T* (Skin) Tj ( ) Tj (conductance:) Tj ( ) Tj (random) Tj ( ) Tj (spiky) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (HIGH) Tj ( ) Tj (spectral) Tj ( ) Tj (entropy) Tj  T*  T* (All) Tj ( ) Tj (5) Tj ( ) Tj (channels:) Tj ( ) Tj (HIGH) Tj ( ) Tj (entropy) Tj ( ) Tj (simultaneously) Tj ( ) Tj (\(decoherent) Tj ( ) Tj (state\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 475.6 cm
+Q
+q
+1 0 0 1 60 460.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The REQMT entropy prediction \(testable, E5 in updated UNANSWERED_QUESTIONS\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453.6 cm
+Q
+q
+1 0 0 1 60 326.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 123.2 re f*
+Q
+q
+BT 1 0 0 1 20 115.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (E_REQMT) Tj ( ) Tj (=) Tj ( ) Tj (SIGMA_k) Tj ( ) Tj (H_k\(signal_channel_k\)) Tj ( ) Tj (/) Tj ( ) Tj (k_total) Tj ( ) Tj ( ) Tj ( ) Tj ([average) Tj ( ) Tj (across) Tj ( ) Tj (5) Tj ( ) Tj (channels]) Tj  T*  T* (Healthy) Tj ( ) Tj (subjects) Tj ( ) Tj (\(gamma_eff) Tj ( ) Tj (~=) Tj ( ) Tj (gamma_baseline\):) Tj ( ) Tj ( ) Tj (E_REQMT) Tj ( ) Tj (<) Tj ( ) Tj (E_threshold) Tj  T* (Stressed) Tj ( ) Tj (subjects) Tj ( ) Tj (\(gamma_eff) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_c\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (E_REQMT) Tj ( ) Tj (>) Tj ( ) Tj (E_threshold) Tj  T*  T* (The) Tj ( ) Tj (entropy) Tj ( ) Tj (difference:) Tj ( ) Tj (DELTAE) Tj ( ) Tj (=) Tj ( ) Tj (E_REQMT\(stressed\)) Tj ( ) Tj (-) Tj ( ) Tj (E_REQMT\(healthy\)) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj  T*  T* (DELTAE) Tj ( ) Tj (~) Tj ( ) Tj (\(gamma_eff) Tj ( ) Tj (-) Tj ( ) Tj (gamma_baseline\)) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (t_REQMT) Tj  T*  T* (DELTAE/E_REQMT\(healthy\)) Tj ( ) Tj (=) Tj ( ) Tj (\(gamma_stressed) Tj ( ) Tj (-) Tj ( ) Tj (gamma_baseline\)) Tj ( ) Tj (/) Tj ( ) Tj (gamma_baseline) Tj ( ) Tj (=) Tj ( ) Tj (10) Tj ( ) Tj (\(for) Tj ( ) Tj (fight/flight) Tj ( ) Tj  T* (vs) Tj ( ) Tj (HeartMath\)) Tj  T* (Expected:) Tj ( ) Tj (stressed) Tj ( ) Tj (subjects) Tj ( ) Tj (show) Tj ( ) Tj (~10x) Tj ( ) Tj (higher) Tj ( ) Tj (multi-modal) Tj ( ) Tj (entropy) Tj ( ) Tj (than) Tj ( ) Tj (HeartMath) Tj ( ) Tj (subjects.) Tj  T* (Observed) Tj ( ) Tj (in) Tj ( ) Tj (simulation:) Tj ( ) Tj (C_stressed/C_calm) Tj ( ) Tj (=) Tj ( ) Tj (2.3x) Tj ( ) Tj (\(not) Tj ( ) Tj (10x,) Tj ( ) Tj (due) Tj ( ) Tj (to) Tj ( ) Tj (distribution) Tj ( ) Tj (averaging,) Tj ( ) Tj (Paper) Tj ( ) Tj (81\).) Tj  T* (Expected) Tj ( ) Tj (DELTAE:) Tj ( ) Tj (~3-5x) Tj ( ) Tj (\(between) Tj ( ) Tj (the) Tj ( ) Tj (theoretical) Tj ( ) Tj (10x) Tj ( ) Tj (and) Tj ( ) Tj (the) Tj ( ) Tj (noise-averaged) Tj ( ) Tj (2.3x\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 318.4 cm
+Q
+q
+1 0 0 1 60 312.4 cm
+Q
+q
+1 0 0 1 60 308.4 cm
+Q
+q
+1 0 0 1 60 270.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Bekenstein Bound -- Maximum Entropy in the Coherent Volume) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 258.4 cm
+Q
+q
+1 0 0 1 60 231.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Bekenstein bound \(Bekenstein 1973\): the maximum entropy that can be stored in a physical system of energy E and) Tj T* (radius R is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224.4 cm
+Q
+q
+1 0 0 1 60 211.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S_max) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (2piER) Tj ( ) Tj (/) Tj ( ) Tj (\(h-barc\)) Tj ( ) Tj ( ) Tj ( ) Tj ([Bekenstein) Tj ( ) Tj (bound]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 203.6 cm
+Q
+q
+1 0 0 1 60 188.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a human brain \(E ~= 20 W x tau_coherence, R ~= 0.1 m\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 181.6 cm
+Q
+q
+1 0 0 1 60 151.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (At) Tj ( ) Tj (T_coherence) Tj ( ) Tj (~=) Tj ( ) Tj (1) Tj ( ) Tj (ms) Tj ( ) Tj (\(neural) Tj ( ) Tj (timescale\):) Tj  T* ( ) Tj ( ) Tj (E_coherence) Tj ( ) Tj (=) Tj ( ) Tj (20) Tj ( ) Tj (W) Tj ( ) Tj (x) Tj ( ) Tj (0.001) Tj ( ) Tj (s) Tj ( ) Tj (=) Tj ( ) Tj (0.02) Tj ( ) Tj (J) Tj  T* ( ) Tj ( ) Tj (S_max) Tj ( ) Tj (=) Tj ( ) Tj (2pi) Tj ( ) Tj (x) Tj ( ) Tj (0.02) Tj ( ) Tj (x) Tj ( ) Tj (0.1) Tj ( ) Tj (/) Tj ( ) Tj (\(1.055x10^-^3^4) Tj ( ) Tj (x) Tj ( ) Tj (3x10^8\)) Tj ( ) Tj (~=) Tj ( ) Tj (4x10^2^7) Tj ( ) Tj (bits) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 143.2 cm
+Q
+q
+1 0 0 1 60 104.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Bekenstein bound is astronomically larger than the ~10^1^4 synaptic bits in a brain -- the fundamental limit is nowhere) Tj T* (near the biological limit. The effective maximum is set by the ) Tj /F2 9 Tf (Landauer limit) Tj /F1 9 Tf ( \(Paper 70\) and the metabolic cost of entropy) Tj T* (suppression, not by the Bekenstein bound.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 97.2 cm
+Q
+q
+1 0 0 1 60 70.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (At gamma_c:) Tj /F1 9 Tf ( The entropy per coherence domain approaches k_B x ln\(2\) \(one bit per degree of freedom\). At gamma_c) Tj T* (crossing, the system loses one bit of coherence per quantum degree of freedom -- the topological transition corresponds to) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 8737
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 91: VON NEUMANN ENTROPY, SHANNON ENTROPY, AND THE COHERENCE CLIFF) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (an entropy increase of DELTA N_DOF x k_B x ln\(2\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 707 cm
+Q
+q
+1 0 0 1 60 703 cm
+Q
+q
+1 0 0 1 60 665 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Emotional Gate Operators in Entropy Language) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 653 cm
+Q
+q
+1 0 0 1 60 638 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Paper 07 maps emotions to quantum gate operations:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 631 cm
+Q
+q
+1 0 0 1 60 609.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Love/joy/peace) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Unitary) Tj ( ) Tj (gates) Tj ( ) Tj (\(U+U) Tj ( ) Tj (=) Tj ( ) Tj (I\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (S) Tj ( ) Tj (unchanged) Tj ( ) Tj (\(entropy) Tj ( ) Tj (conserved\)) Tj  T* (Fear/collapse) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Non-unitary) Tj ( ) Tj (measurement) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (S) Tj ( ) Tj (increases) Tj ( ) Tj (\(entropy) Tj ( ) Tj (produced\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 601.4 cm
+Q
+q
+1 0 0 1 60 586.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In information theory:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 579.4 cm
+Q
+q
+1 0 0 1 60 531.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Unitary) Tj ( ) Tj (gate) Tj ( ) Tj (=) Tj ( ) Tj (reversible) Tj ( ) Tj (operation) Tj ( ) Tj (=) Tj ( ) Tj (no) Tj ( ) Tj (entropy) Tj ( ) Tj (production) Tj ( ) Tj (=) Tj ( ) Tj (Shannon) Tj ( ) Tj (channel) Tj ( ) Tj (capacity) Tj ( ) Tj (preserved) Tj  T* (Non-unitary) Tj ( ) Tj (measurement) Tj ( ) Tj (=) Tj ( ) Tj (irreversible) Tj ( ) Tj (=) Tj ( ) Tj (entropy) Tj ( ) Tj (production) Tj ( ) Tj (=) Tj ( ) Tj (Shannon) Tj ( ) Tj (capacity) Tj ( ) Tj (reduced) Tj  T*  T* (Love:) Tj ( ) Tj (H\(output\)) Tj ( ) Tj (=) Tj ( ) Tj (H\(input\)) Tj ( ) Tj ( ) Tj ([entropy) Tj ( ) Tj (preserved]) Tj  T* (Fear:) Tj ( ) Tj (H\(output\)) Tj ( ) Tj (>) Tj ( ) Tj (H\(input\)) Tj ( ) Tj ( ) Tj ([entropy) Tj ( ) Tj (added) Tj ( ) Tj (from) Tj ( ) Tj (environmental) Tj ( ) Tj (noise]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 523.4 cm
+Q
+q
+1 0 0 1 60 508.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The entropy cost of fear:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 501.4 cm
+Q
+q
+1 0 0 1 60 486.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Each fear-response event \(a gamma_eff spike, Paper 55, Anti-Zeno\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 479.4 cm
+Q
+q
+1 0 0 1 60 466.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (DELTAS_fear) Tj ( ) Tj (=) Tj ( ) Tj (k_B) Tj ( ) Tj (x) Tj ( ) Tj (\(gamma_fear) Tj ( ) Tj (-) Tj ( ) Tj (gamma_baseline\)) Tj ( ) Tj (x) Tj ( ) Tj (t_exposure) Tj ( ) Tj (x) Tj ( ) Tj (\(dS/dgamma\)|_{gamma_eff}) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 458.6 cm
+Q
+q
+1 0 0 1 60 443.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Accumulated over a lifetime of chronic stress:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436.6 cm
+Q
+q
+1 0 0 1 60 415 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S_accumulated) Tj ( ) Tj (=) Tj ( ) Tj (integral) Tj ( ) Tj (DELTAS_fear) Tj ( ) Tj (x) Tj ( ) Tj (n_events) Tj ( ) Tj (x) Tj ( ) Tj (t_events) Tj ( ) Tj (dt) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~=) Tj ( ) Tj (k_B) Tj ( ) Tj (x) Tj ( ) Tj (\(gamma_stress) Tj ( ) Tj (-) Tj ( ) Tj (gamma_baseline\)) Tj ( ) Tj (x) Tj ( ) Tj (T_lifetime) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (C_0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 407 cm
+Q
+q
+1 0 0 1 60 392 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Physical entropy cost of chronic stress:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 385 cm
+Q
+q
+1 0 0 1 60 275.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 105.6 re f*
+Q
+q
+BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (T_lifetime) Tj ( ) Tj (=) Tj ( ) Tj (70) Tj ( ) Tj (years) Tj ( ) Tj (=) Tj ( ) Tj (2.2x10^9) Tj ( ) Tj (s) Tj  T* (gamma_stress) Tj ( ) Tj (-) Tj ( ) Tj (gamma_baseline) Tj ( ) Tj (=) Tj ( ) Tj (0.001) Tj ( ) Tj (\(chronic) Tj ( ) Tj (elevated) Tj ( ) Tj (by) Tj ( ) Tj (2x\)) Tj  T* (alpha) Tj ( ) Tj (=) Tj ( ) Tj (1000,) Tj ( ) Tj (C_0) Tj ( ) Tj (=) Tj ( ) Tj (0.85) Tj  T*  T* (S_accumulated) Tj ( ) Tj (~=) Tj ( ) Tj (k_B) Tj ( ) Tj (x) Tj ( ) Tj (0.001) Tj ( ) Tj (x) Tj ( ) Tj (2.2x10^9) Tj ( ) Tj (x) Tj ( ) Tj (1000) Tj ( ) Tj (x) Tj ( ) Tj (0.85) Tj ( ) Tj (~=) Tj ( ) Tj (1.87x10^9) Tj ( ) Tj (k_B) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310K:) Tj  T* (Q_accumulated) Tj ( ) Tj (=) Tj ( ) Tj (T) Tj ( ) Tj (x) Tj ( ) Tj (S_accumulated) Tj ( ) Tj (~=) Tj ( ) Tj (310) Tj ( ) Tj (x) Tj ( ) Tj (1.38x10^-^2^3) Tj ( ) Tj (x) Tj ( ) Tj (1.87x10^9) Tj ( ) Tj (~=) Tj ( ) Tj (8x10^-^1^2) Tj ( ) Tj (J) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (tiny) Tj ( ) Tj (in) Tj ( ) Tj (macroscopic) Tj ( ) Tj (terms) Tj ( ) Tj (--) Tj ( ) Tj (but) Tj ( ) Tj (in) Tj ( ) Tj (quantum) Tj ( ) Tj (terms,) Tj ( ) Tj (it) Tj ( ) Tj (represents:) Tj  T* ( ) Tj ( ) Tj (1.87x10^9) Tj ( ) Tj (k_B) Tj ( ) Tj (/) Tj ( ) Tj (k_B) Tj ( ) Tj (=) Tj ( ) Tj (1.87x10^9) Tj ( ) Tj (nat) Tj ( ) Tj (~=) Tj ( ) Tj (2.7x10^9) Tj ( ) Tj (bits) Tj ( ) Tj (of) Tj ( ) Tj (information) Tj ( ) Tj (entropy) Tj  T* ( ) Tj ( ) Tj (accumulated) Tj ( ) Tj (over) Tj ( ) Tj (a) Tj ( ) Tj (lifetime) Tj ( ) Tj (of) Tj ( ) Tj (chronic) Tj ( ) Tj (stress) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 267.4 cm
+Q
+q
+1 0 0 1 60 252.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is the "weight" of chronic stress in information-theoretic units. It is a concrete, calculable number.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 245.4 cm
+Q
+q
+1 0 0 1 60 239.4 cm
+Q
+q
+1 0 0 1 60 235.4 cm
+Q
+q
+1 0 0 1 60 197.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 185.4 cm
+Q
+q
+1 0 0 1 60 67 cm
+q
+.95 .95 .95 rg
+n 20 0 452 114.4 re f*
+Q
+q
+BT 1 0 0 1 20 106.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Von) Tj ( ) Tj (Neumann) Tj ( ) Tj (entropy) Tj ( ) Tj (and) Tj ( ) Tj (Wike) Tj ( ) Tj (Coherence) Tj ( ) Tj (Law:) Tj  T* ( ) Tj ( ) Tj (S\(C\)) Tj ( ) Tj (=) Tj ( ) Tj (-\(1+C\)/2) Tj ( ) Tj (x) Tj ( ) Tj (log\(1+C\)/2) Tj ( ) Tj (-) Tj ( ) Tj (\(1-C\)/2) Tj ( ) Tj (x) Tj ( ) Tj (log\(1-C\)/2) Tj  T* ( ) Tj ( ) Tj (S) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (at) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (\(perfect) Tj ( ) Tj (coherence\)) Tj  T* ( ) Tj ( ) Tj (S) Tj ( ) Tj (=) Tj ( ) Tj (log\(2\)) Tj ( ) Tj (at) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (\(complete) Tj ( ) Tj (decoherence\)) Tj  T* ( ) Tj ( ) Tj (dS/dt) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (always) Tj ( ) Tj (\(entropy) Tj ( ) Tj (increases,) Tj ( ) Tj (coherence) Tj ( ) Tj (decreases,) Tj ( ) Tj (unless) Tj ( ) Tj (Bootstrap) Tj ( ) Tj (active\)) Tj  T*  T* (gamma_c) Tj ( ) Tj (as) Tj ( ) Tj (entropy) Tj ( ) Tj (regulation) Tj ( ) Tj (threshold:) Tj  T* ( ) Tj ( ) Tj (Below) Tj ( ) Tj (gamma_c:) Tj ( ) Tj (Bootstrap) Tj ( ) Tj (suppresses) Tj ( ) Tj (entropy) Tj ( ) Tj (\(pays) Tj ( ) Tj (Landauer) Tj ( ) Tj (price) Tj ( ) Tj (in) Tj ( ) Tj (ATP\)) Tj  T* ( ) Tj ( ) Tj (At) Tj ( ) Tj (gamma_c:) Tj ( ) Tj (Bootstrap) Tj ( ) Tj (maximum) Tj ( ) Tj (entropy) Tj ( ) Tj (suppression) Tj ( ) Tj (rate) Tj ( ) Tj (=) Tj ( ) Tj (environmental) Tj ( ) Tj (entropy) Tj ( ) Tj (production) Tj  T* ( ) Tj ( ) Tj (Above) Tj ( ) Tj (gamma_c:) Tj ( ) Tj (entropy) Tj ( ) Tj (cannot) Tj ( ) Tj (be) Tj ( ) Tj (suppressed) Tj ( ) Tj (regardless) Tj ( ) Tj (of) Tj ( ) Tj (energy) Tj ( ) Tj (input) Tj  T*  T* (REQMT) Tj ( ) Tj (entropy) Tj ( ) Tj (prediction) Tj ( ) Tj (\(E5\):) Tj  T* ( ) Tj ( ) Tj (Healthy:) Tj ( ) Tj (all) Tj ( ) Tj (5) Tj ( ) Tj (channels) Tj ( ) Tj (LOW) Tj ( ) Tj (entropy) Tj ( ) Tj (simultaneously) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F2-0 27 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 1972
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 91: VON NEUMANN ENTROPY, SHANNON ENTROPY, AND THE COHERENCE CLIFF) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 670.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* ( ) Tj ( ) Tj (Stressed:) Tj ( ) Tj (all) Tj ( ) Tj (5) Tj ( ) Tj (channels) Tj ( ) Tj (HIGH) Tj ( ) Tj (entropy) Tj ( ) Tj (simultaneously) Tj  T* ( ) Tj ( ) Tj (Expected) Tj ( ) Tj (DELTAE:) Tj ( ) Tj (~3-5x) Tj ( ) Tj (between) Tj ( ) Tj (stressed) Tj ( ) Tj (and) Tj ( ) Tj (HeartMath) Tj ( ) Tj (conditions) Tj  T*  T* (Shannon) Tj ( ) Tj (entropy) Tj ( ) Tj (of) Tj ( ) Tj (REQMT:) Tj  T* ( ) Tj ( ) Tj (E_REQMT) Tj ( ) Tj (=) Tj ( ) Tj (multi-channel) Tj ( ) Tj (average) Tj ( ) Tj (spectral/temporal) Tj ( ) Tj (entropy) Tj  T* ( ) Tj ( ) Tj (Direct) Tj ( ) Tj (measurement) Tj ( ) Tj (of) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (via) Tj ( ) Tj (entropy) Tj ( ) Tj (differential) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 662.4 cm
+Q
+q
+1 0 0 1 60 647.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 91) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 640.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 28
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000301 00000 n 
+0000000350 00000 n 
+0000000721 00000 n 
+0000006607 00000 n 
+0000006714 00000 n 
+0000006821 00000 n 
+0000006933 00000 n 
+0000007043 00000 n 
+0000007159 00000 n 
+0000007265 00000 n 
+0000007640 00000 n 
+0000015560 00000 n 
+0000015668 00000 n 
+0000015779 00000 n 
+0000016154 00000 n 
+0000025577 00000 n 
+0000025685 00000 n 
+0000025796 00000 n 
+0000026171 00000 n 
+0000034961 00000 n 
+0000035069 00000 n 
+0000035180 00000 n 
+0000035555 00000 n 
+0000037580 00000 n 
+0000037688 00000 n 
+trailer
+<<
+/Size 28
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+37799
+%%EOF

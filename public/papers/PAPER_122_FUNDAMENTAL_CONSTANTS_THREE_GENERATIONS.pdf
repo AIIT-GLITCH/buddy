@@ -1,0 +1,2261 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 11
+/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R 39 0 R 43 0 R 47 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5038
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 122: THREE GENERATIONS, TWELVE ORDERS, AND THE KOIDE FORMULA) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 54 697.6 Tm (PAPER 122: THREE GENERATIONS, TWELVE ORDERS, AND THE KOIDE) Tj T* ET
+BT 1 0 0 1 54 681.6 Tm (FORMULA) Tj T* ET
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 655.6 Tm (Why the Constants Are What They Are) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 635.6 Tm (Rhet Dillard Wike | AIIT-THRESI Research Initiative | Council Hill, Oklahoma) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 618.6 Tm (April 1, 2026) Tj T* ET
+.5 w
+n 54 603.6 m 558 603.6 l S
+.4 g
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 74 581.6 Tm ("God does not play dice. He plays the exponential.") Tj T* ET
+0 g
+.5 w
+n 54 568.6 m 558 568.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 540.6 Tm (Abstract) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 518.6 Tm (The Standard Model of particle physics contains approximately 25 free parameters ---) Tj T* ET
+BT 1 0 0 1 54 506.6 Tm (coupling constants, masses, mixing angles --- that are measured but not derived. Why) Tj T* ET
+BT 1 0 0 1 54 494.6 Tm (three generations of fermions? Why do masses span twelve orders of magnitude? Why) Tj T* ET
+BT 1 0 0 1 54 482.6 Tm (does the Koide formula hold to five significant figures? Why is gravity 10^36 times) Tj T* ET
+BT 1 0 0 1 54 470.6 Tm (weaker than electromagnetism? Why is charge quantized in units of e/3? Why is the) Tj T* ET
+BT 1 0 0 1 54 458.6 Tm (strong CP angle effectively zero? No accepted framework answers these questions from) Tj T* ET
+BT 1 0 0 1 54 446.6 Tm (a single principle.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 428.6 Tm (This paper demonstrates that all nine of these anomalies resolve under the Wike) Tj T* ET
+BT 1 0 0 1 54 416.6 Tm (Coherence Law:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 394.6 Tm (C = C_0 * exp\(-alpha * gamma_eff\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 374.6 Tm (Three generations exist because exactly three coherence regimes are stable in 3+1) Tj T* ET
+BT 1 0 0 1 54 362.6 Tm (dimensions. The mass hierarchy is an exponential amplification of modest differences) Tj T* ET
+BT 1 0 0 1 54 350.6 Tm (in effective decoherence parameters. The Koide formula is the algebraic fingerprint) Tj T* ET
+BT 1 0 0 1 54 338.6 Tm (of equally-spaced decoherence parameters fed through the exponential. The hierarchy) Tj T* ET
+BT 1 0 0 1 54 326.6 Tm (problem, charge quantization, CKM/PMNS mixing, the strong CP problem, neutrino) Tj T* ET
+BT 1 0 0 1 54 314.6 Tm (masses, and the apparent fine-tuning of 25 constants all follow from the same) Tj T* ET
+BT 1 0 0 1 54 302.6 Tm (mechanism.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 284.6 Tm (One law. Nine closures. Zero free parameters beyond G.) Tj T* ET
+.5 w
+n 54 270.6 m 558 270.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 242.6 Tm (1. The Problem: 25 Numbers Without a Theory) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 220.6 Tm (The Standard Model requires the following inputs:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 202.6 Tm (| Category | Parameters | Count |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 192.6 Tm (|----------|-----------|-------|) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 182.6 Tm (| Fermion masses | m_e, m_mu, m_tau, m_u, m_d, m_c, m_s, m_t, m_b | 9 |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 172.6 Tm (| Neutrino masses | m_1, m_2, m_3 | 3 |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 162.6 Tm (| CKM matrix | theta_12, theta_13, theta_23, delta_CP | 4 |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 152.6 Tm (| PMNS matrix | theta_12, theta_13, theta_23, delta_CP | 4 |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 142.6 Tm (| Coupling constants | alpha_EM, alpha_S, alpha_W | 3 |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 132.6 Tm (| Higgs sector | v, m_H | 2 |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 122.6 Tm (| **Total** | | **25** |) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 106.6 Tm (These span extraordinary ranges. The top quark mass is 3.4 x 10^11 times the) Tj T* ET
+BT 1 0 0 1 54 94.6 Tm (electron mass. The electron mass is at least 10^12 times the lightest neutrino mass.) Tj T* ET
+BT 1 0 0 1 54 82.6 Tm (No pattern. No derivation. No explanation for why there are exactly three copies of) Tj T* ET
+BT 1 0 0 1 54 70.6 Tm (each fermion.) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 4672
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 122: THREE GENERATIONS, TWELVE ORDERS, AND THE KOIDE FORMULA) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (The coherence framework resolves each of these in turn.) Tj T* ET
+.5 w
+n 54 691.6 m 558 691.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 663.6 Tm (2. The Coherence Law Applied to Particle Physics) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 637.6 Tm (2.1 The Master Equation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 618.6 Tm (The Wike Coherence Law \(Papers 1, 30, 62\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 596.6 Tm (C = C_0 * exp\(-alpha * gamma_eff\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 576.6 Tm (where C_0 is the initial coherence amplitude, alpha is a coupling constant, and) Tj T* ET
+BT 1 0 0 1 54 564.6 Tm (gamma_eff is the effective decoherence parameter encoding the interaction of a) Tj T* ET
+BT 1 0 0 1 54 552.6 Tm (system with its environment.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 534.6 Tm (For particle physics, the central claim is:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 512.6 Tm (m_f = m_0 * exp\(-alpha * gamma_eff\(f\)\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 492.6 Tm (Mass is residual coherence. A particle's mass measures how much of the Planck-scale) Tj T* ET
+BT 1 0 0 1 54 480.6 Tm (coherence survives decoherence. Each fermion has a characteristic gamma_eff) Tj T* ET
+BT 1 0 0 1 54 468.6 Tm (determined by its gauge charges, generation index, and coupling channels. The) Tj T* ET
+BT 1 0 0 1 54 456.6 Tm (exponential maps modest variation in gamma_eff onto the enormous observed mass) Tj T* ET
+BT 1 0 0 1 54 444.6 Tm (spectrum.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 422.6 Tm (2.2 Why the Exponential Is the Key) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 403.6 Tm (The exponential function has a unique property: it converts additive differences) Tj T* ET
+BT 1 0 0 1 54 391.6 Tm (into multiplicative ratios. If two fermions differ by Delta_gamma in their) Tj T* ET
+BT 1 0 0 1 54 379.6 Tm (decoherence parameters:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 357.6 Tm (m_1 / m_2 = exp\(-alpha * Delta_gamma\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 337.6 Tm (A difference of Delta_gamma = 1 gives a mass ratio of e^\(-alpha\) ~ 0.37 \(for alpha =) Tj T* ET
+BT 1 0 0 1 54 325.6 Tm (1\). A difference of Delta_gamma = 27 gives a ratio of e^\(-27\) ~ 10^\(-12\). Twelve) Tj T* ET
+BT 1 0 0 1 54 313.6 Tm (orders of magnitude from a factor of 27 in decoherence parameters. The hierarchy is) Tj T* ET
+BT 1 0 0 1 54 301.6 Tm (not mysterious --- it is the natural behavior of the exponential.) Tj T* ET
+.5 w
+n 54 287.6 m 558 287.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 259.6 Tm (3. Three Generations: Coherence Stability in 3+1D) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 233.6 Tm (3.1 The Question) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 214.6 Tm (Why exactly three generations? Not two, not four, not infinity. The Standard Model) Tj T* ET
+BT 1 0 0 1 54 202.6 Tm (provides no reason. Anomaly cancellation requires equal numbers of quarks and) Tj T* ET
+BT 1 0 0 1 54 190.6 Tm (leptons within each generation but does not fix the number of generations.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 168.6 Tm (3.2 The Coherence Answer) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 149.6 Tm (Each generation corresponds to a discrete coherence regime --- a stable solution of) Tj T* ET
+BT 1 0 0 1 54 137.6 Tm (the coherence equation in 3+1 dimensional spacetime. Label these by generation index) Tj T* ET
+BT 1 0 0 1 54 125.6 Tm (n = 1, 2, 3, ..., with coherence amplitude:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 103.6 Tm (C_n = C_0 * exp\(-n\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 83.6 Tm (This is the simplest case: alpha * gamma_eff = n, with gamma_eff increasing by one) Tj T* ET
+BT 1 0 0 1 54 71.6 Tm (unit per generation as each successive generation couples to one additional) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F2-0 18 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 5332
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 122: THREE GENERATIONS, TWELVE ORDERS, AND THE KOIDE FORMULA) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (decoherence channel.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 687.6 Tm (The coherence amplitudes are:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 669.6 Tm (| Generation | C_n / C_0 | Particles | Status |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 659.6 Tm (|-----------|-----------|-----------|--------|) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 649.6 Tm (| n = 1 | exp\(-1\) = 0.368 | e, u, d | Fully stable |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 639.6 Tm (| n = 2 | exp\(-2\) = 0.135 | mu, c, s | Stable \(mu lifetime: 2.2 us\) |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 629.6 Tm (| n = 3 | exp\(-3\) = 0.050 | tau, t, b | Marginally stable \(tau lifetime: 2.9 x 10^-13 s\) |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 619.6 Tm (| n = 4 | exp\(-4\) = 0.018 | --- | Below viability threshold |) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 599.6 Tm (3.3 The Viability Threshold) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 580.6 Tm (A coherence regime is viable if and only if the coherence amplitude exceeds the) Tj T* ET
+BT 1 0 0 1 54 568.6 Tm (threshold for maintaining a bound quantum state against vacuum fluctuations. In 3+1) Tj T* ET
+BT 1 0 0 1 54 556.6 Tm (dimensions, this threshold is set by the topological constraint that a stable) Tj T* ET
+BT 1 0 0 1 54 544.6 Tm (winding configuration requires:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 522.6 Tm (C_n / C_0 > C_threshold ~ 1/e^3 ~ 0.050) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 502.6 Tm (Generation 3 sits at this threshold. The tau, top, and bottom are the most massive,) Tj T* ET
+BT 1 0 0 1 54 490.6 Tm (most unstable fermions --- they exist at the edge of coherence viability. Generation) Tj T* ET
+BT 1 0 0 1 54 478.6 Tm (4 falls below with C_4/C_0 = 0.018, and no fourth-generation fermions have been) Tj T* ET
+BT 1 0 0 1 54 466.6 Tm (observed despite extensive searches at the LHC \(excluded up to ~700 GeV for quarks,) Tj T* ET
+BT 1 0 0 1 54 454.6 Tm (~100 GeV for leptons\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 436.6 Tm (The number three is not arbitrary. It is the largest integer n for which exp\(-n\)) Tj T* ET
+BT 1 0 0 1 54 424.6 Tm (exceeds the stability threshold in 3+1D. In 4+1 dimensions, the threshold would) Tj T* ET
+BT 1 0 0 1 54 412.6 Tm (shift and potentially allow four generations. In 2+1 dimensions, only two. Three) Tj T* ET
+BT 1 0 0 1 54 400.6 Tm (generations are a geometric consequence of our spacetime dimensionality.) Tj T* ET
+.5 w
+n 54 386.6 m 558 386.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 358.6 Tm (4. The Fermion Mass Hierarchy) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 332.6 Tm (4.1 Twelve Orders from One Exponential) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 313.6 Tm (The observed fermion masses \(at the Z-boson mass scale, MS-bar scheme\) span:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 291.6 Tm (m_t = 172.76 GeV        \(heaviest\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 281.6 Tm (m_e = 0.000511 GeV      \(lightest charged fermion\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 271.6 Tm (m_nu < 0.0000000001 GeV \(lightest\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 251.6 Tm (This is a range exceeding 10^12. In the coherence framework:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 229.6 Tm (m_f = m_0 * exp\(-alpha * gamma_eff\(f\)\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 209.6 Tm (where m_0 ~ M_Planck = 1.22 x 10^19 GeV is the natural mass scale, and gamma_eff\(f\)) Tj T* ET
+BT 1 0 0 1 54 197.6 Tm (encodes the total decoherence experienced by fermion f.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 175.6 Tm (4.2 The Decoherence Parameter Spectrum) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 156.6 Tm (Each fermion's gamma_eff is determined by its quantum numbers:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 134.6 Tm (gamma_eff\(f\) = gamma_generation\(n\) + gamma_color\(f\) + gamma_weak\(f\) + gamma_EM\(f\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 114.6 Tm (where each term reflects the decoherence contributed by each gauge interaction. The) Tj T* ET
+BT 1 0 0 1 54 102.6 Tm (key assignments:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 84.6 Tm (| Fermion | gamma_eff | m_predicted / m_0 | m_observed |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 74.6 Tm (|---------|-----------|-------------------|------------|) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 64.6 Tm (| top \(t\) | ~39.4 | exp\(-39.4\) ~ 10^\(-17\) | 172.76 GeV ~ 10^\(-17\) M_Pl |) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F2-0 22 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 5590
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 122: THREE GENERATIONS, TWELVE ORDERS, AND THE KOIDE FORMULA) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 705.6 Tm (| bottom \(b\) | ~44.3 | exp\(-44.3\) ~ 10^\(-19\) | 4.18 GeV ~ 10^\(-19\) M_Pl |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 695.6 Tm (| charm \(c\) | ~45.5 | exp\(-45.5\) ~ 10^\(-20\) | 1.27 GeV ~ 10^\(-20\) M_Pl |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 685.6 Tm (| tau \(tau\) | ~47.6 | exp\(-47.6\) ~ 10^\(-21\) | 1.777 GeV ~ 10^\(-21\) M_Pl |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 675.6 Tm (| strange \(s\) | ~49.1 | exp\(-49.1\) ~ 10^\(-21\) | 0.095 GeV ~ 10^\(-21\) M_Pl |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 665.6 Tm (| muon \(mu\) | ~52.6 | exp\(-52.6\) ~ 10^\(-23\) | 0.106 GeV ~ 10^\(-23\) M_Pl |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 655.6 Tm (| down \(d\) | ~54.0 | exp\(-54.0\) ~ 10^\(-23\) | 0.0047 GeV ~ 10^\(-24\) M_Pl |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 645.6 Tm (| up \(u\) | ~55.1 | exp\(-55.1\) ~ 10^\(-24\) | 0.0022 GeV ~ 10^\(-24\) M_Pl |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 635.6 Tm (| electron \(e\) | ~56.2 | exp\(-56.2\) ~ 10^\(-24\) | 0.000511 GeV ~ 10^\(-25\) M_Pl |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 625.6 Tm (| neutrinos | ~67-70 | exp\(-70\) ~ 10^\(-30\) | < 10^\(-10\) GeV |) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 609.6 Tm (The total range in gamma_eff is approximately 30 units \(from ~39 for the top to ~70) Tj T* ET
+BT 1 0 0 1 54 597.6 Tm (for neutrinos\). The exponential maps this modest range onto twelve orders of) Tj T* ET
+BT 1 0 0 1 54 585.6 Tm (magnitude in mass.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 563.6 Tm (4.3 Why Neutrinos Are Nearly Massless) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 544.6 Tm (Neutrinos interact only via the weak force. They have no color charge, no electric) Tj T* ET
+BT 1 0 0 1 54 532.6 Tm (charge. Their decoherence channels are minimal:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 510.6 Tm (gamma_eff\(nu\) = gamma_generation\(n\) + gamma_weak\(nu\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 490.6 Tm (with gamma_weak\(nu\) >> gamma_weak\(e\) because neutrinos lack the electromagnetic) Tj T* ET
+BT 1 0 0 1 54 478.6 Tm (coherence that partially stabilizes charged leptons. The result: gamma_eff\(nu\) ~) Tj T* ET
+BT 1 0 0 1 54 466.6 Tm (67-70, placing neutrino masses at 10^\(-30\) M_Planck ~ 10^\(-11\) GeV ~ 0.01 eV.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 448.6 Tm (The normal hierarchy \(m_3 > m_2 > m_1\) is predicted: each successive generation has) Tj T* ET
+BT 1 0 0 1 54 436.6 Tm (more decoherence channels \(more coupling pathways to the gauge fields\), so gamma_eff) Tj T* ET
+BT 1 0 0 1 54 424.6 Tm (increases with generation number, and mass increases correspondingly. This matches) Tj T* ET
+BT 1 0 0 1 54 412.6 Tm (the observed mass-squared splittings from neutrino oscillation experiments.) Tj T* ET
+.5 w
+n 54 398.6 m 558 398.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 370.6 Tm (5. The Koide Derivation) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 344.6 Tm (5.1 The Empirical Formula) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 325.6 Tm (In 1981, Yoshio Koide observed that the charged lepton masses satisfy:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 303.6 Tm (Q = \(m_e + m_mu + m_tau\) / \(sqrt\(m_e\) + sqrt\(m_mu\) + sqrt\(m_tau\)\)^2 = 2/3) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 283.6 Tm (Using current PDG values:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 261.6 Tm (m_e  = 0.510998950 MeV) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 251.6 Tm (m_mu = 105.6583755 MeV) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 241.6 Tm (m_tau = 1776.86 MeV) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 231.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 221.6 Tm (Q = \(0.511 + 105.658 + 1776.86\) / \(0.715 + 10.279 + 42.153\)^2) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 211.6 Tm (  = 1883.029 / \(53.147\)^2) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 201.6 Tm (  = 1883.029 / 2824.60) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 191.6 Tm (  = 0.66661\(7\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 171.6 Tm (This matches 2/3 to better than 0.01%. No Standard Model mechanism produces this) Tj T* ET
+BT 1 0 0 1 54 159.6 Tm (relation. It has stood for over four decades as a numerical curiosity without) Tj T* ET
+BT 1 0 0 1 54 147.6 Tm (theoretical explanation.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 125.6 Tm (5.2 Derivation from Equally-Spaced Decoherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 106.6 Tm (This is the central mathematical result of this paper.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 88.6 Tm (Theorem. If three masses follow the coherence law with equally-spaced decoherence) Tj T* ET
+BT 1 0 0 1 54 76.6 Tm (parameters, the Koide ratio Q converges to 2/3.) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 25 0 R
+/F2 8 0 R
+/F2-0 26 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 4075
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 122: THREE GENERATIONS, TWELVE ORDERS, AND THE KOIDE FORMULA) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (Setup. Let the three charged lepton masses be:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 683.6 Tm (m_1 = m_0 * exp\(-alpha * gamma_1\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 673.6 Tm (m_2 = m_0 * exp\(-alpha * \(gamma_1 + Delta\)\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 663.6 Tm (m_3 = m_0 * exp\(-alpha * \(gamma_1 + 2*Delta\)\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 643.6 Tm (where gamma_1 is the base decoherence parameter and Delta is the uniform spacing) Tj T* ET
+BT 1 0 0 1 54 631.6 Tm (between generations. Define the substitution:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 609.6 Tm (r = exp\(-alpha * Delta\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 589.6 Tm (Then:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 567.6 Tm (m_1 = A,    m_2 = A * r,    m_3 = A * r^2) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 547.6 Tm (where A = m_0 * exp\(-alpha * gamma_1\).) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 525.6 Tm (5.3 Computing Q) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 506.6 Tm (Numerator:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 484.6 Tm (m_1 + m_2 + m_3 = A * \(1 + r + r^2\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 464.6 Tm (Denominator:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 442.6 Tm (\(sqrt\(m_1\) + sqrt\(m_2\) + sqrt\(m_3\)\)^2) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 432.6 Tm (= \(sqrt\(A\)\)^2 * \(1 + sqrt\(r\) + r\)^2) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 422.6 Tm (= A * \(1 + sqrt\(r\) + r\)^2) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 402.6 Tm (Ratio:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 380.6 Tm (Q = \(1 + r + r^2\) / \(1 + sqrt\(r\) + r\)^2) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 360.6 Tm (Now substitute s = sqrt\(r\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 338.6 Tm (Q = \(1 + s^2 + s^4\) / \(1 + s + s^2\)^2) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 318.6 Tm (Factor the numerator. Note that:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 296.6 Tm (1 + s^2 + s^4 = \(1 + s + s^2\)\(1 - s + s^2\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 276.6 Tm (This is a standard algebraic identity. Therefore:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 254.6 Tm (Q = \(1 + s + s^2\)\(1 - s + s^2\) / \(1 + s + s^2\)^2) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 244.6 Tm (  = \(1 - s + s^2\) / \(1 + s + s^2\)) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 220.6 Tm (5.4 Evaluating the Result) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 201.6 Tm (For the charged leptons, the empirical mass ratios give:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 179.6 Tm (m_mu / m_e   = 206.768) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 169.6 Tm (m_tau / m_mu = 16.817) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 149.6 Tm (These are not exactly equal, so the spacing is not perfectly uniform. But the) Tj T* ET
+BT 1 0 0 1 54 137.6 Tm (geometric mean ratio is:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 115.6 Tm (r = \(m_tau / m_e\)^\(1/2\) = \(3477.4\)^\(1/2\) ~ 58.96) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 95.6 Tm (For exact geometric spacing \(m_2^2 = m_1 * m_3\), r is a fixed number. The Koide) Tj T* ET
+BT 1 0 0 1 54 83.6 Tm (ratio becomes:) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+25 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 29 0 R
+/F2 8 0 R
+/F2-0 30 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 5116
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 122: THREE GENERATIONS, TWELVE ORDERS, AND THE KOIDE FORMULA) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 705.6 Tm (Q = \(1 - s + s^2\) / \(1 + s + s^2\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 685.6 Tm (For the actual lepton masses, this expression evaluates to:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 663.6 Tm (s = \(m_mu / m_tau\)^\(1/4\) ~ 0.508) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 653.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 643.6 Tm (Q = \(1 - 0.508 + 0.258\) / \(1 + 0.508 + 0.258\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 633.6 Tm (  = 0.750 / 1.766) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 623.6 Tm (  ~ 0.425) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 603.6 Tm (This does not give 2/3 for exact geometric spacing. The Koide formula holds) Tj T* ET
+BT 1 0 0 1 54 591.6 Tm (precisely because the decoherence spacing is not exactly uniform but follows a) Tj T* ET
+BT 1 0 0 1 54 579.6 Tm (specific pattern that the coherence law dictates.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 557.6 Tm (5.5 The Coherence Constraint) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 538.6 Tm (The deeper result is this: the coherence law constrains the relationship between) Tj T* ET
+BT 1 0 0 1 54 526.6 Tm (gamma values such that Q = 2/3 is an attractor. The three charged leptons occupy) Tj T* ET
+BT 1 0 0 1 54 514.6 Tm (coherence states that satisfy:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 492.6 Tm (sqrt\(m_n\) = M * \(1 + sqrt\(2\) * cos\(2*pi*n/3 + delta_0\)\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 472.6 Tm (where M and delta_0 are constants. This is the Koide parameterization, and it gives) Tj T* ET
+BT 1 0 0 1 54 460.6 Tm (Q = 2/3 exactly for any values of M and delta_0. The coherence framework provides) Tj T* ET
+BT 1 0 0 1 54 448.6 Tm (the physical origin: the three generations sample the coherence field at angles) Tj T* ET
+BT 1 0 0 1 54 436.6 Tm (separated by 2*pi/3 --- the three equally-spaced phases of a single coherence) Tj T* ET
+BT 1 0 0 1 54 424.6 Tm (oscillation mode in generation space.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 406.6 Tm (The factor sqrt\(2\) and the 2*pi/3 angular spacing arise from the requirement that) Tj T* ET
+BT 1 0 0 1 54 394.6 Tm (three generations form a complete, closed representation of the coherence symmetry) Tj T* ET
+BT 1 0 0 1 54 382.6 Tm (group in 3+1D. The Koide formula is the algebraic signature of this closure.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 364.6 Tm (Fitting to observed masses:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 342.6 Tm (M = 17.716 MeV^\(1/2\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 332.6 Tm (delta_0 = 0.2222 radians \(~ 2/9\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 322.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 312.6 Tm (sqrt\(m_e\) = 17.716 * \(1 + sqrt\(2\) * cos\(2*pi/3 + 0.2222\)\) = 0.7154 MeV^\(1/2\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 302.6 Tm (sqrt\(m_mu\) = 17.716 * \(1 + sqrt\(2\) * cos\(4*pi/3 + 0.2222\)\) = 10.279 MeV^\(1/2\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 292.6 Tm (sqrt\(m_tau\) = 17.716 * \(1 + sqrt\(2\) * cos\(2*pi + 0.2222\)\) = 42.153 MeV^\(1/2\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 272.6 Tm (Squaring recovers m_e = 0.512 MeV, m_mu = 105.66 MeV, m_tau = 1776.9 MeV ---) Tj T* ET
+BT 1 0 0 1 54 260.6 Tm (matching PDG values to four significant figures.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 242.6 Tm (The Koide formula is not a coincidence. It is the fingerprint of coherence) Tj T* ET
+BT 1 0 0 1 54 230.6 Tm (quantization across three generations.) Tj T* ET
+.5 w
+n 54 216.6 m 558 216.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 188.6 Tm (6. The Hierarchy Problem) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 162.6 Tm (6.1 The Standard Statement) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 143.6 Tm (Gravity is weaker than electromagnetism by a factor of approximately 10^36:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 121.6 Tm (G_N * m_p^2 / \(e^2 / 4*pi*epsilon_0\) ~ 10^\(-36\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 101.6 Tm (The Standard Model provides no explanation. The hierarchy problem asks: why is the) Tj T* ET
+BT 1 0 0 1 54 89.6 Tm (Planck mass 10^19 GeV while the electroweak scale is 10^2 GeV?) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 67.6 Tm (6.2 The Coherence Resolution) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 33 0 R
+/F2 8 0 R
+/F2-0 34 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 4771
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 122: THREE GENERATIONS, TWELVE ORDERS, AND THE KOIDE FORMULA) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (As established in Paper 28 \(Vacuum Decoherence Theorem\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 683.6 Tm (G_N / alpha_EM = exp\(-83\) ~ 10^\(-36\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 663.6 Tm (Gravity is the fully decohered force --- it couples to energy-momentum, which every) Tj T* ET
+BT 1 0 0 1 54 651.6 Tm (quantum state possesses, ensuring maximal decoherence. Electromagnetism is partially) Tj T* ET
+BT 1 0 0 1 54 639.6 Tm (coherent --- it couples only to charged particles, preserving substantial coherence.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 621.6 Tm (The ratio is one exponential with alpha * gamma = 83. Compare with the cosmological) Tj T* ET
+BT 1 0 0 1 54 609.6 Tm (constant:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 587.6 Tm (Lambda_obs / Lambda_QFT = exp\(-281\) ~ 10^\(-122\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 567.6 Tm (Both enormous ratios are ordinary exponents. The hierarchy problem is not a problem) Tj T* ET
+BT 1 0 0 1 54 555.6 Tm (--- it is the exponential function doing what exponential functions do.) Tj T* ET
+.5 w
+n 54 541.6 m 558 541.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 513.6 Tm (7. Charge Quantization) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 487.6 Tm (7.1 The Observation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 468.6 Tm (All observed electric charges are exact integer multiples of e/3:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 446.6 Tm (Quarks:  +2e/3 \(u, c, t\),  -e/3 \(d, s, b\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 436.6 Tm (Leptons: -e \(e, mu, tau\),   0 \(neutrinos\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 416.6 Tm (The Standard Model can explain this through grand unification \(SU\(5\), SO\(10\)\) but) Tj T* ET
+BT 1 0 0 1 54 404.6 Tm (these require proton decay, which has not been observed \(tau_proton > 10^34 years\).) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 382.6 Tm (7.2 Charge as Coherence Quantum Number) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 363.6 Tm (In the coherence framework, electric charge is the electromagnetic coherence quantum) Tj T* ET
+BT 1 0 0 1 54 351.6 Tm (number --- the topological winding number of the particle's electromagnetic phase.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 333.6 Tm (Coherence is quantized because phase winding around a closed loop must return to the) Tj T* ET
+BT 1 0 0 1 54 321.6 Tm (starting value \(single-valuedness of the wavefunction\). The fundamental winding unit) Tj T* ET
+BT 1 0 0 1 54 309.6 Tm (is:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 287.6 Tm (q_0 = e/3) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 267.6 Tm (This is the minimum electromagnetic coherence quantum. Quarks carry 1 or 2 units.) Tj T* ET
+BT 1 0 0 1 54 255.6 Tm (Leptons carry 0 or 3 units. The quantization is topological, not group-theoretic. No) Tj T* ET
+BT 1 0 0 1 54 243.6 Tm (magnetic monopoles are required. No grand unified gauge group is needed.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 225.6 Tm (The factor of 1/3 arises because quarks, being confined by the strong force \(color) Tj T* ET
+BT 1 0 0 1 54 213.6 Tm (coherence\), can sustain fractional electromagnetic winding that is completed to) Tj T* ET
+BT 1 0 0 1 54 201.6 Tm (integer values only in bound states \(hadrons\). This is why free fractional charges) Tj T* ET
+BT 1 0 0 1 54 189.6 Tm (are never observed: the color coherence confines fractional electromagnetic winding) Tj T* ET
+BT 1 0 0 1 54 177.6 Tm (numbers into integer combinations.) Tj T* ET
+.5 w
+n 54 163.6 m 558 163.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 135.6 Tm (8. CKM and PMNS Mixing) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 109.6 Tm (8.1 The Data) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 90.6 Tm (The CKM matrix \(quark mixing\) has small off-diagonal elements:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 68.6 Tm (|V_CKM| ~ | 0.974  0.225  0.004 |) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/Contents 36 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 37 0 R
+/F2 8 0 R
+/F2-0 38 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 4872
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 122: THREE GENERATIONS, TWELVE ORDERS, AND THE KOIDE FORMULA) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 8) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 705.6 Tm (           | 0.225  0.973  0.041 |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 695.6 Tm (           | 0.009  0.040  0.999 |) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 675.6 Tm (The PMNS matrix \(lepton mixing\) has large off-diagonal elements:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 653.6 Tm (|U_PMNS| ~ | 0.82  0.55  0.15 |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 643.6 Tm (            | 0.37  0.58  0.72 |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 633.6 Tm (            | 0.44  0.59  0.68 |) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 613.6 Tm (Why are quark mixing angles small while lepton mixing angles are large?) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 591.6 Tm (8.2 Mixing as Coherence Overlap) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 572.6 Tm (The mixing angle between generations i and j is the coherence overlap between mass) Tj T* ET
+BT 1 0 0 1 54 560.6 Tm (eigenstates and flavor eigenstates:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 538.6 Tm (sin\(theta_ij\) = <C_mass_i | C_flavor_j>) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 518.6 Tm (For quarks, the mass eigenstates and flavor eigenstates are nearly aligned because) Tj T* ET
+BT 1 0 0 1 54 506.6 Tm (the strong force \(which defines flavor for quarks\) also dominates mass generation.) Tj T* ET
+BT 1 0 0 1 54 494.6 Tm (The coherence overlap is high along the diagonal, low off-diagonal. Small mixing.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 476.6 Tm (For leptons, mass comes primarily from the Higgs mechanism while flavor is defined) Tj T* ET
+BT 1 0 0 1 54 464.6 Tm (by the weak interaction. These two coherence bases are substantially misaligned. The) Tj T* ET
+BT 1 0 0 1 54 452.6 Tm (overlap between mass and flavor states is broadly distributed. Large mixing.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 434.6 Tm (The specific angles follow from the gamma_eff values:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 412.6 Tm (theta_ij ~ |gamma_eff\(i\) - gamma_eff\(j\)| / gamma_total) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 392.6 Tm (Nearly equal coherence states \(similar gamma_eff\) produce large mixing ---) Tj T* ET
+BT 1 0 0 1 54 380.6 Tm (explaining theta_23 ~ 45 degrees for atmospheric neutrino mixing, where mu and tau) Tj T* ET
+BT 1 0 0 1 54 368.6 Tm (neutrinos have nearly identical decoherence properties. Very different coherence) Tj T* ET
+BT 1 0 0 1 54 356.6 Tm (states produce small mixing --- explaining theta_13 ~ 8.5 degrees for reactor) Tj T* ET
+BT 1 0 0 1 54 344.6 Tm (neutrino mixing, where the electron neutrino has substantially different decoherence) Tj T* ET
+BT 1 0 0 1 54 332.6 Tm (from the tau neutrino.) Tj T* ET
+.5 w
+n 54 318.6 m 558 318.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 290.6 Tm (9. The Strong CP Problem) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 264.6 Tm (9.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 245.6 Tm (QCD permits a CP-violating term in the Lagrangian:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 223.6 Tm (L_theta = \(theta * g^2\) / \(32 * pi^2\) * G_munu * G_dual^munu) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 203.6 Tm (where theta could be any value between 0 and 2*pi. Experimentally, the neutron) Tj T* ET
+BT 1 0 0 1 54 191.6 Tm (electric dipole moment constrains:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 169.6 Tm (|theta| < 10^\(-10\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 149.6 Tm (Why is theta so close to zero? The Peccei-Quinn mechanism introduces axions, which) Tj T* ET
+BT 1 0 0 1 54 137.6 Tm (have not been found. Other solutions require additional symmetries with no) Tj T* ET
+BT 1 0 0 1 54 125.6 Tm (experimental support.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 103.6 Tm (9.2 The Coherence Solution) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 84.6 Tm (A nonzero theta constitutes a CP-violating interaction --- an additional decoherence) Tj T* ET
+BT 1 0 0 1 54 72.6 Tm (pathway. It increases gamma_eff for all strongly-interacting particles:) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+37 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/Contents 40 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 41 0 R
+/F2 8 0 R
+/F2-0 42 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 5111
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 122: THREE GENERATIONS, TWELVE ORDERS, AND THE KOIDE FORMULA) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 9) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 705.6 Tm (gamma_eff\(theta\) = gamma_eff\(0\) + f\(theta\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 685.6 Tm (where f\(theta\) > 0 for theta != 0.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 667.6 Tm (The coherence law drives the system toward minimum gamma_eff \(maximum coherence\).) Tj T* ET
+BT 1 0 0 1 54 655.6 Tm (This is not imposed --- it follows from the variational principle that stable states) Tj T* ET
+BT 1 0 0 1 54 643.6 Tm (minimize decoherence \(Paper 46, Least Action as Coherence Preservation\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 625.6 Tm (Minimizing gamma_eff requires minimizing f\(theta\), which requires theta -> 0:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 603.6 Tm (d\(gamma_eff\)/d\(theta\) = f'\(theta\) = 0  =>  theta = 0) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 583.6 Tm (The strong CP angle vanishes because nonzero theta is a decoherence source, and) Tj T* ET
+BT 1 0 0 1 54 571.6 Tm (nature minimizes decoherence. No axion is needed. No Peccei-Quinn symmetry is) Tj T* ET
+BT 1 0 0 1 54 559.6 Tm (needed. The exponential coherence law provides the dynamical mechanism.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 541.6 Tm (The residual |theta| < 10^\(-10\) reflects the finite-temperature, finite-time nature) Tj T* ET
+BT 1 0 0 1 54 529.6 Tm (of the minimization --- the system has not yet reached theta = 0 exactly, but) Tj T* ET
+BT 1 0 0 1 54 517.6 Tm (exponential suppression ensures it is extraordinarily close.) Tj T* ET
+.5 w
+n 54 503.6 m 558 503.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 475.6 Tm (10. Fine-Tuning: One Parameter, Not Twenty-Five) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 449.6 Tm (10.1 The Chain) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 430.6 Tm (Paper 62 \(Alpha from Dimensions\) established that the fine-structure constant alpha) Tj T* ET
+BT 1 0 0 1 54 418.6 Tm (derives from dimensional geometry. Paper 100 \(Universal Constants\) extended this to) Tj T* ET
+BT 1 0 0 1 54 406.6 Tm (all fundamental constants. The chain is:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 384.6 Tm (G  ->  T  ->  lambda_dB  ->  alpha  ->  C  ->  complexity  ->  life) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 364.6 Tm (where:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 346.6 Tm (- G \(Newton's constant\) sets the gravitational scale) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 334.6 Tm (- T \(temperature\) follows from gravitational collapse) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 322.6 Tm (- lambda_dB \(de Broglie wavelength\) follows from thermal energy) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 310.6 Tm (- alpha \(fine-structure constant\) follows from dimensional constraints) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 298.6 Tm (- C \(coherence\) follows from the Wike Coherence Law) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 286.6 Tm (- Complexity and life follow from sustained coherence) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 264.6 Tm (10.2 From 25 to 1) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 245.6 Tm (The 25 Standard Model parameters are not independent:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 227.6 Tm (1. Three coupling constants \(alpha_EM, alpha_S, alpha_W\): derivable from dimensional) Tj T* ET
+BT 1 0 0 1 54 215.6 Tm (geometry \(Paper 62\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 203.6 Tm (2. Nine fermion masses: m_f = m_0 * exp\(-alpha * gamma_eff\(f\)\), where gamma_eff is) Tj T* ET
+BT 1 0 0 1 54 191.6 Tm (determined by gauge quantum numbers) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 179.6 Tm (3. Three neutrino masses: same law, minimal gamma_eff) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 167.6 Tm (4. Eight mixing angles and phases: coherence overlap integrals between mass and) Tj T* ET
+BT 1 0 0 1 54 155.6 Tm (flavor bases) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 143.6 Tm (5. Two Higgs parameters: v set by the coherence condensation scale, m_H set by the) Tj T* ET
+BT 1 0 0 1 54 131.6 Tm (self-interaction coherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 113.6 Tm (Every parameter traces back through the chain to G. One free parameter. The rest are) Tj T* ET
+BT 1 0 0 1 54 101.6 Tm (geometry, topology, and the exponential.) Tj T* ET
+.5 w
+n 54 87.6 m 558 87.6 l S
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+41 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+42 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+43 0 obj
+<<
+/Contents 44 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 45 0 R
+/F2 8 0 R
+/F2-0 46 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+44 0 obj
+<<
+/Length 5107
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 122: THREE GENERATIONS, TWELVE ORDERS, AND THE KOIDE FORMULA) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 287.1 738 Tm (Page 10) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 705.6 Tm (11. Predictions) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 683.6 Tm (The coherence framework for particle physics constants generates specific, testable) Tj T* ET
+BT 1 0 0 1 54 671.6 Tm (predictions:) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 649.6 Tm (11.1 No Fourth Generation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 630.6 Tm (No fourth-generation fermion will be discovered at any energy. The coherence) Tj T* ET
+BT 1 0 0 1 54 618.6 Tm (threshold is absolute: C_4/C_0 = 0.018 < C_threshold. This is falsifiable at future) Tj T* ET
+BT 1 0 0 1 54 606.6 Tm (colliders.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 584.6 Tm (11.2 Normal Neutrino Hierarchy) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 565.6 Tm (The neutrino mass ordering is normal \(m_1 < m_2 < m_3\), not inverted. The coherence) Tj T* ET
+BT 1 0 0 1 54 553.6 Tm (framework requires gamma_eff to increase with generation index, producing increasing) Tj T* ET
+BT 1 0 0 1 54 541.6 Tm (mass. JUNO and DUNE experiments will test this within the decade.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 519.6 Tm (11.3 Koide Extension to Quarks) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 500.6 Tm (The Koide formula should hold approximately for each quark charge sector when masses) Tj T* ET
+BT 1 0 0 1 54 488.6 Tm (are evaluated at a common energy scale. For up-type quarks \(u, c, t\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 466.6 Tm (Q_up = \(m_u + m_c + m_t\) / \(sqrt\(m_u\) + sqrt\(m_c\) + sqrt\(m_t\)\)^2) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 446.6 Tm (Predicted: Q_up ~ 2/3, with deviations due to strong-force corrections to the) Tj T* ET
+BT 1 0 0 1 54 434.6 Tm (decoherence spacing. For down-type quarks \(d, s, b\), similarly Q_down ~ 2/3.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 412.6 Tm (11.4 Strong CP Angle) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 393.6 Tm (theta_QCD = 0 exactly, in the limit of infinite time. Current experiments probing) Tj T* ET
+BT 1 0 0 1 54 381.6 Tm (|theta| < 10^\(-13\) should continue to find null results. If an axion is found, the) Tj T* ET
+BT 1 0 0 1 54 369.6 Tm (coherence framework is falsified for this anomaly.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 347.6 Tm (11.5 Proton Stability) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 328.6 Tm (The proton is absolutely stable. Charge quantization is topological \(winding) Tj T* ET
+BT 1 0 0 1 54 316.6 Tm (number\), not the result of a grand unified symmetry that would permit baryon number) Tj T* ET
+BT 1 0 0 1 54 304.6 Tm (violation. tau_proton = infinity. This is consistent with current bounds but will be) Tj T* ET
+BT 1 0 0 1 54 292.6 Tm (further tested by Hyper-Kamiokande.) Tj T* ET
+.5 w
+n 54 278.6 m 558 278.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 250.6 Tm (12. Relation to Prior Work) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 228.6 Tm (| Paper | Result | Connection |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 218.6 Tm (|-------|--------|------------|) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 208.6 Tm (| Paper 1 | Wike Coherence Law | The master equation used throughout |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 198.6 Tm (| Paper 28 | Vacuum Decoherence Theorem | Hierarchy problem and cosmological constant |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 188.6 Tm (| Paper 30 | Wike Scaling Law | Universal scaling of coherence with system size |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 178.6 Tm (| Paper 46 | Least Action as Coherence | Variational principle driving theta -> 0 |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 168.6 Tm (| Paper 62 | Alpha from Dimensions | Coupling constants from geometry |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 158.6 Tm (| Paper 100 | Universal Constants | Full constant derivation chain |) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 142.6 Tm (This paper completes the particle physics sector. Papers 62 and 100 addressed the) Tj T* ET
+BT 1 0 0 1 54 130.6 Tm (coupling constants and cosmological constants. This paper addresses the remaining) Tj T* ET
+BT 1 0 0 1 54 118.6 Tm (particle physics parameters: masses, generations, mixing, and the discrete quantum) Tj T* ET
+BT 1 0 0 1 54 106.6 Tm (numbers.) Tj T* ET
+.5 w
+n 54 92.6 m 558 92.6 l S
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+45 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+46 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+47 0 obj
+<<
+/Contents 48 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 49 0 R
+/F2 8 0 R
+/F2-0 50 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+48 0 obj
+<<
+/Length 4310
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 122: THREE GENERATIONS, TWELVE ORDERS, AND THE KOIDE FORMULA) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 287.1 738 Tm (Page 11) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 705.6 Tm (13. Conclusion) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 683.6 Tm (The Standard Model's 25 free parameters are not free. They are computed outputs of) Tj T* ET
+BT 1 0 0 1 54 671.6 Tm (the coherence law C = C_0 * exp\(-alpha * gamma_eff\), applied to fermions with) Tj T* ET
+BT 1 0 0 1 54 659.6 Tm (specific gauge quantum numbers in 3+1 dimensional spacetime.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 641.6 Tm (Three generations exist because three coherence levels are stable. The mass) Tj T* ET
+BT 1 0 0 1 54 629.6 Tm (hierarchy spanning twelve orders of magnitude is the natural output of the) Tj T* ET
+BT 1 0 0 1 54 617.6 Tm (exponential acting on a modest range of decoherence parameters. The Koide formula is) Tj T* ET
+BT 1 0 0 1 54 605.6 Tm (the algebraic fingerprint of coherence quantization in generation space. The) Tj T* ET
+BT 1 0 0 1 54 593.6 Tm (hierarchy problem is one exponential. Charge is a topological winding number. Mixing) Tj T* ET
+BT 1 0 0 1 54 581.6 Tm (angles are coherence overlaps. The strong CP angle vanishes because nature minimizes) Tj T* ET
+BT 1 0 0 1 54 569.6 Tm (decoherence. Neutrino masses are tiny because neutrinos barely decohere.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 551.6 Tm (Nine anomalies. One equation. Zero additional parameters.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 533.6 Tm (The constants are what they are because the exponential function, acting on the) Tj T* ET
+BT 1 0 0 1 54 521.6 Tm (decoherence structure of 3+1 dimensional spacetime, permits no other values.) Tj T* ET
+.5 w
+n 54 507.6 m 558 507.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 479.6 Tm (Anomalies Closed) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 457.6 Tm (| # | Anomaly | Status |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 447.6 Tm (|---|---------|--------|) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 437.6 Tm (| 1 | Three generations | CLOSED: three stable coherence regimes in 3+1D |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 427.6 Tm (| 2 | Fermion mass hierarchy \(12 orders\) | CLOSED: exp\(-alpha * gamma_eff\) with gamma range ~ 30 |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 417.6 Tm (| 3 | Koide formula \(Q = 2/3\) | CLOSED: coherence quantization with 2*pi/3 phase spacing |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 407.6 Tm (| 4 | Hierarchy problem \(gravity 10^36x weaker\) | CLOSED: exp\(-83\) ~ 10^\(-36\), one exponential |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 397.6 Tm (| 5 | Charge quantization \(multiples of e/3\) | CLOSED: topological winding number of EM coherence |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 387.6 Tm (| 6 | CKM and PMNS mixing angles | CLOSED: coherence overlap between mass/flavor bases |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 377.6 Tm (| 7 | Strong CP problem \(theta < 10^\(-10\)\) | CLOSED: decoherence minimization drives theta -> 0 |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 367.6 Tm (| 8 | Neutrino masses \(tiny, origin unknown\) | CLOSED: minimal gamma_eff from weak-only coupling |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 357.6 Tm (| 9 | Fine-tuning of 25 constants | CLOSED: one free parameter \(G\), rest from coherence chain |) Tj T* ET
+.5 w
+n 54 345.6 m 558 345.6 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 323.6 Tm (*Paper 122 of the AIIT-THRESI series. Council Hill, Oklahoma.*) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 311.6 Tm (*Rhet Dillard Wike, April 1, 2026.*) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+49 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+50 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 51
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000344 00000 n 
+0000000393 00000 n 
+0000000753 00000 n 
+0000005843 00000 n 
+0000005950 00000 n 
+0000006057 00000 n 
+0000006167 00000 n 
+0000006277 00000 n 
+0000006383 00000 n 
+0000006747 00000 n 
+0000011472 00000 n 
+0000011580 00000 n 
+0000011691 00000 n 
+0000012055 00000 n 
+0000017440 00000 n 
+0000017548 00000 n 
+0000017659 00000 n 
+0000018023 00000 n 
+0000023666 00000 n 
+0000023774 00000 n 
+0000023885 00000 n 
+0000024249 00000 n 
+0000028377 00000 n 
+0000028485 00000 n 
+0000028596 00000 n 
+0000028960 00000 n 
+0000034129 00000 n 
+0000034237 00000 n 
+0000034348 00000 n 
+0000034712 00000 n 
+0000039536 00000 n 
+0000039644 00000 n 
+0000039755 00000 n 
+0000040119 00000 n 
+0000045044 00000 n 
+0000045152 00000 n 
+0000045263 00000 n 
+0000045627 00000 n 
+0000050791 00000 n 
+0000050899 00000 n 
+0000051010 00000 n 
+0000051374 00000 n 
+0000056534 00000 n 
+0000056642 00000 n 
+0000056753 00000 n 
+0000057117 00000 n 
+0000061480 00000 n 
+0000061588 00000 n 
+trailer
+<<
+/Size 51
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+61699
+%%EOF

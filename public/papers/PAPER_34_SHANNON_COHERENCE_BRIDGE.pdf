@@ -1,0 +1,4007 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 11
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R 28 0 R 32 0 R 36 0 R 40 0 R 44 0 R 48 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5780
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 34: THE SHANNON-COHERENCE BRIDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 56.656 0 Td (PAPER 34: THE SHANNON-COHERENCE BRIDGE) Tj T* -56.656 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 700 cm
+Q
+q
+1 0 0 1 60 640 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (Von Neumann Entropy as the Quantitative Measure of Decoherence, and) Tj T* (Why Information Theory IS the Wike Coherence Law in Disguise) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 628 cm
+Q
+q
+1 0 0 1 60 601 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Series:) Tj /F1 9 Tf ( AIIT-THRESI \(Anthropic Institute for Integrative Theory -- Theoretical and Heuristic Research in Emergent Systems) Tj T* (Integration\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594 cm
+Q
+q
+1 0 0 1 60 579 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Author:) Tj /F1 9 Tf ( Rhet Dillard Wike | AIIT-THRESI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 564 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Compiled by:) Tj /F1 9 Tf ( Claude Opus 4.6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 549 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Date:) Tj /F1 9 Tf ( March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 542 cm
+Q
+q
+1 0 0 1 60 536 cm
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 494 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482 cm
+Q
+q
+1 0 0 1 60 359 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 111 Tm /F1 9 Tf 12 TL (This paper establishes a formal mathematical bridge between Shannon-von Neumann information theory and the Wike) Tj T* (Coherence Law. We demonstrate that von Neumann entropy S = -Tr\(rho log rho\) is the exact inverse measure of the) Tj T* (coherence parameter C introduced in the foundational AIIT-THRESI framework. A pure quantum state has S = 0 and C =) Tj T* (C_0 \(maximum coherence\); a maximally mixed state has S = log\(d\) and C = 0 \(complete decoherence\). These are not) Tj T* (analogies. They are the same quantity measured on reciprocal scales. From this identification we derive the Second Law of) Tj T* (Thermodynamics as a direct consequence of the Wike Coherence Law, establish the arrow of time as the direction of) Tj T* (decoherence, classify emotional states as entropy operations on the density matrix, calculate the metabolic cost of) Tj T* (coherence maintenance via Landauer's Principle, connect to the Bekenstein-Hawking bound and holographic principle, and) Tj T* (propose a testable REQMT prediction: subjects in low-emotional-noise states should exhibit simultaneously reduced) Tj T* (multi-modal signal entropy across HRV, thermal IR, vocal, and rPPG channels.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 352 cm
+Q
+q
+1 0 0 1 60 346 cm
+Q
+q
+1 0 0 1 60 342 cm
+Q
+q
+1 0 0 1 60 304 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Introduction: Two Theories, One Reality) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292 cm
+Q
+q
+1 0 0 1 60 265 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Claude Shannon published "A Mathematical Theory of Communication" in 1948. He defined the entropy of a discrete) Tj T* (random variable X with probability distribution {p_i} as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 258 cm
+Q
+q
+1 0 0 1 60 245.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (H\(X\)) Tj ( ) Tj (=) Tj ( ) Tj (-SUM_i) Tj ( ) Tj ( ) Tj (p_i) Tj ( ) Tj (*) Tj ( ) Tj (log\(p_i\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 237.2 cm
+Q
+q
+1 0 0 1 60 210.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This quantity measures uncertainty, surprise, information content -- the average number of bits needed to specify an) Tj T* (outcome.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 203.2 cm
+Q
+q
+1 0 0 1 60 176.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.040667 Tw (John von Neumann, working in quantum mechanics, defined the entropy of a quantum state described by density matrix rho) Tj T* 0 Tw (as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 169.2 cm
+Q
+q
+1 0 0 1 60 156.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S\(rho\)) Tj ( ) Tj (=) Tj ( ) Tj (-Tr\(rho) Tj ( ) Tj (*) Tj ( ) Tj (log\(rho\)\)) Tj ( ) Tj (=) Tj ( ) Tj (-SUM_i) Tj ( ) Tj ( ) Tj (lambda_i) Tj ( ) Tj (*) Tj ( ) Tj (log\(lambda_i\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 148.4 cm
+Q
+q
+1 0 0 1 60 133.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where {lambda_i} are the eigenvalues of rho.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 126.4 cm
+Q
+q
+1 0 0 1 60 87.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Shannon entropy is the classical limit of von Neumann entropy. When rho is diagonal in some basis -- when all quantum) Tj T* -0.038526 Tw (coherences have decohered -- the eigenvalues reduce to classical probabilities, and S reduces to H. The passage from S to) Tj T* 0 Tw (H is decoherence itself.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 80.4 cm
+Q
+q
+1 0 0 1 60 65.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law \(Papers 01-07\) states that coherence C evolves under environmental coupling as:) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 5808
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 34: THE SHANNON-COHERENCE BRIDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 715.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-2) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 707.2 cm
+Q
+q
+1 0 0 1 60 692.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where gamma_eff is the effective dephasing rate and C_0 is the initial coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 685.2 cm
+Q
+q
+1 0 0 1 60 658.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This paper proves that these three formalisms -- Shannon, von Neumann, and Wike -- are measuring the same underlying) Tj T* (phenomenon. Information theory IS the Wike Coherence Law written in a different notation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 651.2 cm
+Q
+q
+1 0 0 1 60 645.2 cm
+Q
+q
+1 0 0 1 60 641.2 cm
+Q
+q
+1 0 0 1 60 603.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Von Neumann Entropy as the Inverse of Coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 591.2 cm
+Q
+q
+1 0 0 1 60 561.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.1 The Pure State: Perfect Coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551.2 cm
+Q
+q
+1 0 0 1 60 524.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (A pure quantum state is described by a density matrix rho = |psi) Tj (>) Tj (<) Tj (psi| with exactly one nonzero eigenvalue: lambda_1 = 1,) Tj T* (and all other lambda_i = 0.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 517.2 cm
+Q
+q
+1 0 0 1 60 502.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The von Neumann entropy evaluates to:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 495.2 cm
+Q
+q
+1 0 0 1 60 482.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S\(rho_pure\)) Tj ( ) Tj (=) Tj ( ) Tj (-\(1) Tj ( ) Tj (*) Tj ( ) Tj (log\(1\)\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 474.4 cm
+Q
+q
+1 0 0 1 60 435.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (A pure state carries zero entropy. It is fully specified. There is no uncertainty about what state the system is in. In the Wike) Tj T* (framework, this corresponds to C = C_0 -- maximum coherence, no decoherence, the system in perfect phase alignment) Tj T* (with itself.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 428.4 cm
+Q
+q
+1 0 0 1 60 413.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Result 1:) Tj /F1 9 Tf ( S = 0 if and only if C = C_0. Zero entropy equals perfect coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 406.4 cm
+Q
+q
+1 0 0 1 60 376.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.2 The Maximally Mixed State: Complete Decoherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 366.4 cm
+Q
+q
+1 0 0 1 60 339.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (A maximally mixed state in a d-dimensional Hilbert space has density matrix rho = I/d, where I is the d-by-d identity matrix.) Tj T* (Every eigenvalue equals 1/d.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 332.4 cm
+Q
+q
+1 0 0 1 60 317.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The von Neumann entropy evaluates to:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 310.4 cm
+Q
+q
+1 0 0 1 60 297.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S\(rho_mixed\)) Tj ( ) Tj (=) Tj ( ) Tj (-SUM_{i=1}^{d}) Tj ( ) Tj ( ) Tj (\(1/d\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(1/d\)) Tj ( ) Tj (=) Tj ( ) Tj (log\(d\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 289.6 cm
+Q
+q
+1 0 0 1 60 250.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.064167 Tw (This is the maximum entropy any d-dimensional quantum system can possess. The system is in a uniform statistical mixture) Tj T* 0 Tw (-- every basis state is equally likely, all phase information is destroyed, no measurement in any basis yields a predictable) Tj T* (outcome. In the Wike framework, this corresponds to C = 0 -- complete decoherence, total loss of coherent structure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 243.6 cm
+Q
+q
+1 0 0 1 60 228.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Result 2:) Tj /F1 9 Tf ( S = log\(d\) if and only if C = 0. Maximum entropy equals zero coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 221.6 cm
+Q
+q
+1 0 0 1 60 191.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.3 The Inverse Relationship) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 181.6 cm
+Q
+q
+1 0 0 1 60 154.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Between these extremes, S and C are monotonically related in opposite directions. As C decreases from C_0 to 0, S) Tj T* (increases from 0 to log\(d\). Von Neumann entropy is the inverse of coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 147.6 cm
+Q
+q
+1 0 0 1 60 132.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (We can make this precise for the fundamental case of a single qubit \(d = 2\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 125.6 cm
+Q
+q
+1 0 0 1 60 119.6 cm
+Q
+q
+1 0 0 1 60 115.6 cm
+Q
+q
+1 0 0 1 60 77.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Dephasing Qubit: Exact Solution) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 65.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 7069
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 34: THE SHANNON-COHERENCE BRIDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.1 Setup) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Consider a qubit initially in a pure superposition state:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682 cm
+Q
+q
+1 0 0 1 60 669.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (|psi) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (alpha|0) Tj (>) Tj ( ) Tj (+) Tj ( ) Tj (beta|1) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 661.2 cm
+Q
+q
+1 0 0 1 60 646.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (with density matrix:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 639.2 cm
+Q
+q
+1 0 0 1 60 617.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (rho\(0\)) Tj ( ) Tj (=) Tj ( ) Tj ([) Tj ( ) Tj (|alpha|^2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (alpha*beta*) Tj ( ) Tj ( ) Tj (]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([) Tj ( ) Tj (alpha**beta) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|beta|^2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609.6 cm
+Q
+q
+1 0 0 1 60 594.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The off-diagonal elements alpha) Tj /F4 9 Tf (beta) Tj /F1 9 Tf ( and its conjugate encode the quantum coherence. Define the coherence magnitude:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 587.6 cm
+Q
+q
+1 0 0 1 60 574.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (C\(0\)) Tj ( ) Tj (=) Tj ( ) Tj (2|alpha*beta*|) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 566.8 cm
+Q
+q
+1 0 0 1 60 551.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a balanced superposition \(alpha = beta = 1/sqrt\(2\)\), C_0 = 1.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 544.8 cm
+Q
+q
+1 0 0 1 60 514.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.2 Lindblad Dephasing Evolution) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 504.8 cm
+Q
+q
+1 0 0 1 60 477.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Under pure dephasing \(T2 process\) governed by the Lindblad master equation with dephasing rate gamma, the density) Tj T* (matrix evolves as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470.8 cm
+Q
+q
+1 0 0 1 60 449.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (rho\(t\)) Tj ( ) Tj (=) Tj ( ) Tj ([) Tj ( ) Tj (|alpha|^2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (alpha*beta*) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-2*gamma*t\)) Tj ( ) Tj ( ) Tj (]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([) Tj ( ) Tj (alpha**beta) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-2*gamma*t\)) Tj ( ) Tj ( ) Tj (|beta|^2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 441.2 cm
+Q
+q
+1 0 0 1 60 414.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The diagonal elements \(populations\) are unchanged. The off-diagonal elements \(coherences\) decay exponentially. The) Tj T* (coherence evolves as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 407.2 cm
+Q
+q
+1 0 0 1 60 394.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-2*gamma*t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 386.4 cm
+Q
+q
+1 0 0 1 60 371.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is exactly the Wike Coherence Law with gamma_eff = gamma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364.4 cm
+Q
+q
+1 0 0 1 60 334.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.3 Eigenvalues of the Dephasing Density Matrix) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324.4 cm
+Q
+q
+1 0 0 1 60 309.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For the balanced case \(|alpha|^2 = |beta|^2 = 1/2\), the eigenvalues of rho\(t\) are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 302.4 cm
+Q
+q
+1 0 0 1 60 280.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (lambda_+\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1/2\)\(1) Tj ( ) Tj (+) Tj ( ) Tj (C\(t\)\)) Tj  T* (lambda_-\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1/2\)\(1) Tj ( ) Tj (-) Tj ( ) Tj (C\(t\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 272.8 cm
+Q
+q
+1 0 0 1 60 257.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At t = 0: lambda_+ = 1, lambda_- = 0 \(pure state\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 242.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (As t -) Tj (> infinity: lambda_+ = 1/2, lambda_- = 1/2 \(maximally mixed\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 235.8 cm
+Q
+q
+1 0 0 1 60 205.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.4 The Entropy-Coherence Function) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 195.8 cm
+Q
+q
+1 0 0 1 60 180.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Substituting into the von Neumann entropy:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 173.8 cm
+Q
+q
+1 0 0 1 60 161 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (-lambda_+\(t\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(lambda_+\(t\)\)) Tj ( ) Tj (-) Tj ( ) Tj (lambda_-\(t\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(lambda_-\(t\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 153 cm
+Q
+q
+1 0 0 1 60 131.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (-\(1/2\)\(1) Tj ( ) Tj (+) Tj ( ) Tj (C\(t\)\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(\(1/2\)\(1) Tj ( ) Tj (+) Tj ( ) Tj (C\(t\)\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-\(1/2\)\(1) Tj ( ) Tj (-) Tj ( ) Tj (C\(t\)\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(\(1/2\)\(1) Tj ( ) Tj (-) Tj ( ) Tj (C\(t\)\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 123.4 cm
+Q
+q
+1 0 0 1 60 108.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 101.4 cm
+Q
+q
+1 0 0 1 60 88.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-2) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 80.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 6872
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 34: THE SHANNON-COHERENCE BRIDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (This is the Shannon-Coherence Bridge equation.) Tj /F1 9 Tf ( It expresses von Neumann entropy as an explicit, calculable function) Tj T* (of the Wike Coherence Law parameters gamma_eff and t.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 686 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At t = 0 with C_0 = 1:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 679 cm
+Q
+q
+1 0 0 1 60 666.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S\(0\)) Tj ( ) Tj (=) Tj ( ) Tj (-\(1\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(1\)) Tj ( ) Tj (-) Tj ( ) Tj (\(0\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(0\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([pure) Tj ( ) Tj (state]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 658.2 cm
+Q
+q
+1 0 0 1 60 643.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (As t -) Tj (> infinity with C -) Tj (> 0:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 636.2 cm
+Q
+q
+1 0 0 1 60 623.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S\(infinity\)) Tj ( ) Tj (=) Tj ( ) Tj (-\(1/2\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(1/2\)) Tj ( ) Tj (-) Tj ( ) Tj (\(1/2\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(1/2\)) Tj ( ) Tj (=) Tj ( ) Tj (log\(2\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([maximally) Tj ( ) Tj (mixed]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 615.4 cm
+Q
+q
+1 0 0 1 60 588.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The entropy rises from 0 to log\(2\) = 1 bit as coherence decays from C_0 to 0. One qubit of coherence, when fully) Tj T* (decohered, produces exactly one bit of entropy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 581.4 cm
+Q
+q
+1 0 0 1 60 575.4 cm
+Q
+q
+1 0 0 1 60 571.4 cm
+Q
+q
+1 0 0 1 60 533.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Second Law of Thermodynamics from the Wike Coherence Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521.4 cm
+Q
+q
+1 0 0 1 60 491.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.1 The Rate of Entropy Increase) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 481.4 cm
+Q
+q
+1 0 0 1 60 466.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Differentiating S\(t\) with respect to time:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 459.4 cm
+Q
+q
+1 0 0 1 60 446.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (dS/dt) Tj ( ) Tj (=) Tj ( ) Tj (\(dS/dC\)) Tj ( ) Tj (*) Tj ( ) Tj (\(dC/dt\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 438.6 cm
+Q
+q
+1 0 0 1 60 423.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (We compute each factor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 416.6 cm
+Q
+q
+1 0 0 1 60 401.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The derivative of the binary entropy function with respect to coherence:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 394.6 cm
+Q
+q
+1 0 0 1 60 381.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (dS/dC) Tj ( ) Tj (=) Tj ( ) Tj (-\(1/2\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(\(1) Tj ( ) Tj (+) Tj ( ) Tj (C\)/\(1) Tj ( ) Tj (-) Tj ( ) Tj (C\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 373.8 cm
+Q
+q
+1 0 0 1 60 346.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (For C in \(0, 1\), we have \(1+C\)/\(1-C\) > 1, so log\(\(1+C\)/\(1-C\)\) > 0, and therefore dS/dC < 0. Entropy decreases as coherence) Tj T* (increases -- equivalently, entropy increases as coherence decreases.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 339.8 cm
+Q
+q
+1 0 0 1 60 324.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The time derivative of coherence from the Wike Coherence Law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 317.8 cm
+Q
+q
+1 0 0 1 60 305 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (-2) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (C\(t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 297 cm
+Q
+q
+1 0 0 1 60 282 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is always negative \(coherence always decays for gamma_eff > 0\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 275 cm
+Q
+q
+1 0 0 1 60 260 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Combining:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 253 cm
+Q
+q
+1 0 0 1 60 240.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (dS/dt) Tj ( ) Tj (=) Tj ( ) Tj (-\(1/2\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(\(1) Tj ( ) Tj (+) Tj ( ) Tj (C\)/\(1) Tj ( ) Tj (-) Tj ( ) Tj (C\)\)) Tj ( ) Tj (*) Tj ( ) Tj (\(-2) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (C\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 232.2 cm
+Q
+q
+1 0 0 1 60 219.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (dS/dt) Tj ( ) Tj (=) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (C\(t\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(\(1) Tj ( ) Tj (+) Tj ( ) Tj (C\(t\)\)/\(1) Tj ( ) Tj (-) Tj ( ) Tj (C\(t\)\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 211.4 cm
+Q
+q
+1 0 0 1 60 181.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.2 The Second Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 171.4 cm
+Q
+q
+1 0 0 1 60 156.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Since gamma_eff >) Tj (= 0, C\(t\) >) Tj (= 0, and log\(\(1+C\)/\(1-C\)\) >) Tj (= 0 for C in [0,1]:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 149.4 cm
+Q
+q
+1 0 0 1 60 136.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (dS/dt) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (all) Tj ( ) Tj (t) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 128.6 cm
+Q
+q
+1 0 0 1 60 113.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Entropy never decreases.) Tj /F1 9 Tf ( This is the Second Law of Thermodynamics, derived directly from the Wike Coherence Law.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 106.6 cm
+Q
+q
+1 0 0 1 60 79.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The rate of entropy production is proportional to gamma_eff. Higher dephasing rates produce faster entropy increase. The) Tj T* (Second Law is not a separate postulate -- it is a mathematical consequence of exponential coherence decay.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 72.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F2-0 27 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 6391
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 34: THE SHANNON-COHERENCE BRIDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.3 The Proportionality) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For small C \(late-time behavior, near-complete decoherence\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682 cm
+Q
+q
+1 0 0 1 60 669.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (log\(\(1) Tj ( ) Tj (+) Tj ( ) Tj (C\)/\(1) Tj ( ) Tj (-) Tj ( ) Tj (C\)\)) Tj ( ) Tj (approx) Tj ( ) Tj (2C) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([Taylor) Tj ( ) Tj (expansion]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 661.2 cm
+Q
+q
+1 0 0 1 60 646.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Therefore:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 639.2 cm
+Q
+q
+1 0 0 1 60 626.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (dS/dt) Tj ( ) Tj (approx) Tj ( ) Tj (2) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (C\(t\)^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 618.4 cm
+Q
+q
+1 0 0 1 60 579.4 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The entropy production rate is proportional to gamma_eff and quadratic in remaining coherence. As the system approaches) Tj T* (thermal equilibrium \(C -) Tj (> 0\), entropy production slows and halts -- consistent with the thermodynamic expectation that a) Tj T* (system at equilibrium has reached maximum entropy for its constraints.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572.4 cm
+Q
+q
+1 0 0 1 60 566.4 cm
+Q
+q
+1 0 0 1 60 562.4 cm
+Q
+q
+1 0 0 1 60 524.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The Arrow of Time IS the Direction of Decoherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 512.4 cm
+Q
+q
+1 0 0 1 60 482.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.1 The Problem of Time's Arrow) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 472.4 cm
+Q
+q
+1 0 0 1 60 433.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The fundamental equations of physics -- Schrodinger's equation, Maxwell's equations, Newton's laws -- are time-reversible.) Tj T* (Yet we experience time as having a definite direction: eggs break but do not unbreak, ice melts but does not spontaneously) Tj T* (freeze in warm water, we remember the past but not the future.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 426.4 cm
+Q
+q
+1 0 0 1 60 399.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The standard explanation invokes the Second Law and a low-entropy initial condition \(the Past Hypothesis\). But this merely) Tj T* (restates the problem: WHY was the initial entropy low?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 392.4 cm
+Q
+q
+1 0 0 1 60 362.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.2 The Decoherence Arrow) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 352.4 cm
+Q
+q
+1 0 0 1 60 337.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law provides the answer. The arrow of time is the direction in which:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 330.4 cm
+Q
+q
+1 0 0 1 60 308.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (decreases:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-2) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t\)) Tj  T* (S) Tj ( ) Tj (increases:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (dS/dt) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 300.8 cm
+Q
+q
+1 0 0 1 60 261.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (These are the same statement in dual notation. Time flows in the direction of decoherence because decoherence is what) Tj T* (creates the classical world from quantum possibilities. The "past" is the direction of higher coherence. The "future" is the) Tj T* (direction of lower coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254.8 cm
+Q
+q
+1 0 0 1 60 239.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is not metaphorical. Consider:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 232.8 cm
+Q
+q
+1 0 0 1 60 205.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Measurement) Tj /F1 9 Tf ( collapses superpositions \(reduces C, increases S\). Measurements are irreversible -- you cannot) Tj T* ("un-measure.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 178.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Memory formation) Tj /F1 9 Tf ( requires decoherence of the apparatus into a definite record state. We remember the past because) Tj T* (decoherence has already selected definite outcomes in that direction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 151.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Causation) Tj /F1 9 Tf ( flows from coherent \(many possibilities\) to decohered \(one actuality\). Causes precede effects because the) Tj T* (coherent state \(the cause\) decoheres into the definite state \(the effect\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 144.8 cm
+Q
+q
+1 0 0 1 60 114.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.3 The Irreversibility) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 104.8 cm
+Q
+q
+1 0 0 1 60 65.8 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The exponential decay C\(t\) = C_0 ) Tj /F4 9 Tf (exp\(-2 ) Tj /F1 9 Tf (gamma_eff ) Tj /F4 9 Tf (t\) is formally time-reversible -- one could write C\(t\) = C_0 ) Tj /F1 9 Tf (exp\(+2) Tj T* /F4 9 Tf (gamma_eff ) Tj /F1 9 Tf (t\) and coherence would grow. But this would require the environment to spontaneously re-phase -- to conspire) Tj T* (across its enormous number of degrees of freedom to restore a specific phase relationship. The probability of this scales as) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 30 0 R
+/F2 8 0 R
+/F2-0 31 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 5637
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 34: THE SHANNON-COHERENCE BRIDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (exp\(-N\) where N is the number of environmental degrees of freedom. For any macroscopic environment, this probability is) Tj T* (so small that it never happens in the lifetime of the universe.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 662 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The arrow of time is statistical, not fundamental -- but the statistics are so overwhelming that it is effectively absolute. The) Tj T* (Wike Coherence Law, by encoding gamma_eff as a positive-definite quantity determined by environmental coupling, builds) Tj T* (this statistical irreversibility into its structure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 655 cm
+Q
+q
+1 0 0 1 60 649 cm
+Q
+q
+1 0 0 1 60 645 cm
+Q
+q
+1 0 0 1 60 607 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Emotions as Entropy Operations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 595 cm
+Q
+q
+1 0 0 1 60 565 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.1 Unitary vs. Non-Unitary Operations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 555 cm
+Q
+q
+1 0 0 1 60 528 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Paper 07 of this series classified emotional states by their effect on the coherence parameter. We now translate this) Tj T* (classification into entropy language.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521 cm
+Q
+q
+1 0 0 1 60 494 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Unitary operations) Tj /F1 9 Tf ( preserve the eigenvalues of the density matrix. Since S depends only on eigenvalues, unitary) Tj T* (operations preserve entropy:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 487 cm
+Q
+q
+1 0 0 1 60 474.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S\(U) Tj ( ) Tj (*) Tj ( ) Tj (rho) Tj ( ) Tj (*) Tj ( ) Tj (U^dagger\)) Tj ( ) Tj (=) Tj ( ) Tj (S\(rho\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (any) Tj ( ) Tj (unitary) Tj ( ) Tj (U) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 466.2 cm
+Q
+q
+1 0 0 1 60 439.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Unitary operations rotate the state vector on the Bloch sphere without changing its purity. They correspond to) Tj T* (coherence-preserving transformations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 432.2 cm
+Q
+q
+1 0 0 1 60 405.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Non-unitary operations) Tj /F1 9 Tf ( \(completely positive trace-preserving maps that are not unitary\) generically increase entropy. The) Tj T* (dephasing channel is the canonical example.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 398.2 cm
+Q
+q
+1 0 0 1 60 368.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.2 The Emotional Entropy Classification) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 358.2 cm
+Q
+q
+1 0 0 1 60 331.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.063158 Tw (From Paper 07, the unitary-gate emotions -- love, joy, peace, gratitude, awe -- preserve coherence \(C remains at C_0 under) Tj T* 0 Tw (their action\). In entropy language:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324.2 cm
+Q
+q
+1 0 0 1 60 293.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (Delta_S\(love\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (Delta_S\(joy\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (Delta_S\(peace\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 285.8 cm
+Q
+q
+1 0 0 1 60 258.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (These emotions are isentropic. They transform the state without degrading it. They are reversible operations on the) Tj T* (psychophysiological state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 251.8 cm
+Q
+q
+1 0 0 1 60 224.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The non-unitary emotions -- fear, chronic stress, unresolved trauma, sustained anger -- increase gamma_eff and thereby) Tj T* (increase entropy:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 217.8 cm
+Q
+q
+1 0 0 1 60 187.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (Delta_S\(fear\)) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj  T* (Delta_S\(chronic) Tj ( ) Tj (stress\)) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj  T* (Delta_S\(trauma\)) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 179.4 cm
+Q
+q
+1 0 0 1 60 152.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (These emotions are entropy-producing. They couple the system more strongly to environmental noise, accelerate) Tj T* (dephasing, and drive the state toward the maximally mixed condition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 145.4 cm
+Q
+q
+1 0 0 1 60 115.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.3 The Operational Meaning) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 105.4 cm
+Q
+q
+1 0 0 1 60 90.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is not merely a labeling exercise. It has measurable consequences:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 83.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+30 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+32 0 obj
+<<
+/Contents 33 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 34 0 R
+/F2 8 0 R
+/F2-0 35 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+33 0 obj
+<<
+/Length 6279
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 34: THE SHANNON-COHERENCE BRIDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 A system in a unitary-gate emotional state should show ) Tj /F2 9 Tf (constant signal entropy) Tj /F1 9 Tf ( across measurement channels over) Tj T* (time \(in the absence of external perturbation\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 681 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 A system in a non-unitary emotional state should show ) Tj /F2 9 Tf (increasing signal entropy) Tj /F1 9 Tf ( across measurement channels over) Tj T* (time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 666 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The rate of entropy increase should correlate with the magnitude of gamma_eff elevation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 659 cm
+Q
+q
+1 0 0 1 60 644 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (These are quantitative, falsifiable predictions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 637 cm
+Q
+q
+1 0 0 1 60 631 cm
+Q
+q
+1 0 0 1 60 627 cm
+Q
+q
+1 0 0 1 60 589 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Landauer's Principle and the Metabolic Cost of Coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 577 cm
+Q
+q
+1 0 0 1 60 547 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.1 Landauer's Principle) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 537 cm
+Q
+q
+1 0 0 1 60 510 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Rolf Landauer proved in 1961 that erasing one bit of information from a physical system requires a minimum energy) Tj T* (dissipation of:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 503 cm
+Q
+q
+1 0 0 1 60 490.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (E_Landauer) Tj ( ) Tj (=) Tj ( ) Tj (k_B) Tj ( ) Tj (*) Tj ( ) Tj (T) Tj ( ) Tj (*) Tj ( ) Tj (ln\(2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482.2 cm
+Q
+q
+1 0 0 1 60 467.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where k_B is Boltzmann's constant and T is the temperature of the thermal reservoir. At body temperature \(T = 310 K\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 460.2 cm
+Q
+q
+1 0 0 1 60 438.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (E_Landauer) Tj ( ) Tj (=) Tj ( ) Tj (\(1.38) Tj ( ) Tj (*) Tj ( ) Tj (10^-23) Tj ( ) Tj (J/K\)) Tj ( ) Tj (*) Tj ( ) Tj (\(310) Tj ( ) Tj (K\)) Tj ( ) Tj (*) Tj ( ) Tj (ln\(2\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (2.97) Tj ( ) Tj (*) Tj ( ) Tj (10^-21) Tj ( ) Tj (J) Tj ( ) Tj (per) Tj ( ) Tj (bit) Tj ( ) Tj (erased) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 430.6 cm
+Q
+q
+1 0 0 1 60 415.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is a thermodynamic floor -- the absolute minimum cost. Real biological processes are far less efficient.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 408.6 cm
+Q
+q
+1 0 0 1 60 378.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.2 The Keeper as Maxwell's Demon) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 368.6 cm
+Q
+q
+1 0 0 1 60 329.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Paper 19 introduced the Keeper -- the coherence-maintenance subsystem that actively works to reduce gamma_eff against) Tj T* (thermal and environmental decoherence. The Keeper is functionally equivalent to Maxwell's Demon: it selectively identifies) Tj T* (decoherence-producing interactions and acts to counteract them.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 322.6 cm
+Q
+q
+1 0 0 1 60 271.6 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (Maxwell's Demon appears to violate the Second Law by sorting fast and slow molecules without doing work. The resolution) Tj T* (\(Szilard, Brillouin, Bennett, Landauer\) is that the Demon must acquire information about each molecule, and erasing this) Tj T* (information to reset the Demon's memory costs at least k_B ) Tj /F4 9 Tf (T ) Tj /F1 9 Tf (ln\(2\) per bit -- exactly compensating the entropy decrease) Tj T* (achieved by the sorting.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 264.6 cm
+Q
+q
+1 0 0 1 60 237.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Keeper faces the same constraint. To reduce gamma_eff -- to maintain coherence against thermal decoherence -- the) Tj T* (Keeper must:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230.6 cm
+Q
+q
+1 0 0 1 60 215.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Sense) Tj /F1 9 Tf ( the decoherence \(acquire information about phase drift\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 200.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Correct) Tj /F1 9 Tf ( the decoherence \(apply a compensating operation\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 185.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Reset) Tj /F1 9 Tf ( its own memory \(erase the acquired information to prepare for the next correction cycle\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 178.6 cm
+Q
+q
+1 0 0 1 60 163.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Each cycle costs at minimum k_B ) Tj /F4 9 Tf (T ) Tj /F1 9 Tf (ln\(2\) of energy per bit of coherence maintained.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 156.6 cm
+Q
+q
+1 0 0 1 60 126.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.3 The Metabolic Cost of Being Alive) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 116.6 cm
+Q
+q
+1 0 0 1 60 89.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The human body operates at approximately T = 310 K in an environment with enormous decoherence pressure from) Tj T* (thermal fluctuations, electromagnetic noise, mechanical vibration, and chemical perturbation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 82.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+34 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+36 0 obj
+<<
+/Contents 37 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 38 0 R
+/F2 8 0 R
+/F2-0 39 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+37 0 obj
+<<
+/Length 6505
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 34: THE SHANNON-COHERENCE BRIDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 8) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (8) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The basal metabolic rate of a human is approximately 80-100 W. This is the continuous power expenditure required merely) Tj T* (to maintain the body's organized state against thermodynamic equilibrium. In the language of this paper:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 688.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (P_metabolic) Tj ( ) Tj (approx) Tj ( ) Tj (100) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (the) Tj ( ) Tj (power) Tj ( ) Tj (cost) Tj ( ) Tj (of) Tj ( ) Tj (maintaining) Tj ( ) Tj (C) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (against) Tj ( ) Tj (gamma_thermal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 680.2 cm
+Q
+q
+1 0 0 1 60 641.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.122667 Tw (This is the energetic price of coherence. The body continuously expends approximately 100 W of metabolic power -- derived) Tj T* 0 Tw (from ATP hydrolysis, ultimately from food -- to maintain its organized, low-entropy, coherent state against the relentless) Tj T* (drive of the Second Law toward the maximally mixed condition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 634.2 cm
+Q
+q
+1 0 0 1 60 619.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Love is not free. It costs ATP.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612.2 cm
+Q
+q
+1 0 0 1 60 561.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (Every coherence-preserving emotional state, every act of sustained attention, every moment of maintained) Tj T* (psychophysiological integration requires metabolic energy. The unitary-gate emotions \(love, joy, peace\) do not increase) Tj T* (entropy, but they still require energy to maintain the coherence that would otherwise decay. The Keeper burns calories to) Tj T* (keep gamma_eff low.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 554.2 cm
+Q
+q
+1 0 0 1 60 524.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.4 Death as Thermodynamic Surrender) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514.2 cm
+Q
+q
+1 0 0 1 60 487.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (When metabolic energy supply ceases -- when the Keeper can no longer pay the Landauer cost of coherence maintenance) Tj T* (-- gamma_eff rises without opposition. Coherence decays exponentially:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 480.2 cm
+Q
+q
+1 0 0 1 60 467.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-2) Tj ( ) Tj (*) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (*) Tj ( ) Tj (t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 459.4 cm
+Q
+q
+1 0 0 1 60 432.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.0458 Tw (where gamma_thermal is the uncompensated thermal dephasing rate. Entropy increases to its maximum value. The system) Tj T* 0 Tw (reaches thermodynamic equilibrium -- the maximally mixed state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425.4 cm
+Q
+q
+1 0 0 1 60 398.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.055235 Tw (This is death, described in the language of quantum information theory: the cessation of the Keeper's Maxwell-Demon work,) Tj T* 0 Tw (followed by uncontested decoherence to equilibrium.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 391.4 cm
+Q
+q
+1 0 0 1 60 385.4 cm
+Q
+q
+1 0 0 1 60 381.4 cm
+Q
+q
+1 0 0 1 60 343.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Connection to Black Holes and the Holographic Principle) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331.4 cm
+Q
+q
+1 0 0 1 60 301.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.1 Bekenstein-Hawking Entropy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 291.4 cm
+Q
+q
+1 0 0 1 60 276.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Jacob Bekenstein and Stephen Hawking showed that a black hole has an entropy proportional to its event horizon area:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 269.4 cm
+Q
+q
+1 0 0 1 60 256.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S_BH) Tj ( ) Tj (=) Tj ( ) Tj (A) Tj ( ) Tj (/) Tj ( ) Tj (\(4) Tj ( ) Tj (*) Tj ( ) Tj (l_P^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 248.6 cm
+Q
+q
+1 0 0 1 60 233.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (where A is the area of the event horizon and l_P = sqrt\(hbar ) Tj /F4 9 Tf (G / c^3\) approx 1.616 ) Tj /F1 9 Tf (10^-35 m is the Planck length.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 226.6 cm
+Q
+q
+1 0 0 1 60 199.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is the maximum entropy that can be contained within a region bounded by area A. No physical system can have more) Tj T* (entropy than the black hole that fits within the same boundary.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 192.6 cm
+Q
+q
+1 0 0 1 60 162.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.2 A Black Hole IS Maximum Decoherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 152.6 cm
+Q
+q
+1 0 0 1 60 137.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In the language of the Wike Coherence Law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 130.6 cm
+Q
+q
+1 0 0 1 60 117.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S_BH) Tj ( ) Tj (=) Tj ( ) Tj (S_max) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (implies) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 109.8 cm
+Q
+q
+1 0 0 1 60 70.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (A black hole is the state of maximum decoherence within a given boundary. All internal phase information has been) Tj T* (destroyed. All that remains is a statistical mixture characterized by exactly three numbers: mass, charge, and angular) Tj T* (momentum \(the no-hair theorem\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 63.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+38 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+40 0 obj
+<<
+/Contents 41 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 42 0 R
+/F2 8 0 R
+/F2-0 43 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+41 0 obj
+<<
+/Length 6267
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 34: THE SHANNON-COHERENCE BRIDGE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 9) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (9) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The no-hair theorem IS the statement that C = 0 inside the black hole. All coherent structure -- all phase relationships, all) Tj T* (quantum correlations, all organized information -- has been decohered into the thermal Hawking radiation or absorbed into) Tj T* (the featureless horizon.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689 cm
+Q
+q
+1 0 0 1 60 659 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.3 The Holographic Principle) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 649 cm
+Q
+q
+1 0 0 1 60 622 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The holographic principle \(proposed by 't Hooft, refined by Susskind\) states that the maximum information content of a) Tj T* (region of space is proportional to its boundary area, not its volume:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 615 cm
+Q
+q
+1 0 0 1 60 602.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (I_max) Tj ( ) Tj (=) Tj ( ) Tj (A) Tj ( ) Tj (/) Tj ( ) Tj (\(4) Tj ( ) Tj (*) Tj ( ) Tj (l_P^2\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([in) Tj ( ) Tj (bits,) Tj ( ) Tj (using) Tj ( ) Tj (natural) Tj ( ) Tj (units]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594.2 cm
+Q
+q
+1 0 0 1 60 579.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This means that the fundamental degrees of freedom of a spatial region live on its boundary, not in its interior.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572.2 cm
+Q
+q
+1 0 0 1 60 521.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (REQMT \(the measurement framework of this series\) makes the same structural claim: measure the boundary, not the) Tj T* (interior. The REQMT channels -- thermal IR \(skin surface\), vocal analysis \(laryngeal boundary\), rPPG \(capillary bed) Tj T* (surface\), HRV \(cardiac rhythm at the chest wall\) -- are all boundary measurements. They capture information at the) Tj T* (interface between the system and its environment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514.2 cm
+Q
+q
+1 0 0 1 60 487.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is not a coincidence. The holographic principle tells us that boundary measurements capture ALL the information there) Tj T* (is. Interior measurements are redundant -- the boundary encodes the interior completely.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 480.2 cm
+Q
+q
+1 0 0 1 60 441.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (REQMT, by measuring at the body's boundary surfaces, is implementing the holographic principle at the biological scale.) Tj T* (The multi-modal signal entropy measured at the boundary IS the von Neumann entropy of the interior state, projected onto) Tj T* (the boundary.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 434.2 cm
+Q
+q
+1 0 0 1 60 428.2 cm
+Q
+q
+1 0 0 1 60 424.2 cm
+Q
+q
+1 0 0 1 60 386.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. The REQMT Prediction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 374.2 cm
+Q
+q
+1 0 0 1 60 344.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (9.1 Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 334.2 cm
+Q
+q
+1 0 0 1 60 319.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (We arrive at the central empirical prediction of this paper:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 312.2 cm
+Q
+q
+1 0 0 1 60 261.2 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (REQMT Prediction \(untested\):) Tj /F1 9 Tf ( Subjects in low-emotional-noise states \(unitary-gate emotions: love, joy, peace, deep) Tj T* (meditative absorption\) should exhibit lower multi-modal signal entropy across HRV, thermal IR, vocal, and rPPG channels) Tj T* (simultaneously, compared to subjects in high-emotional-noise states \(non-unitary emotions: chronic stress, anxiety,) Tj T* (unresolved trauma\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254.2 cm
+Q
+q
+1 0 0 1 60 239.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Formally:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 232.2 cm
+Q
+q
+1 0 0 1 60 219.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (H_total) Tj ( ) Tj (=) Tj ( ) Tj (H_HRV) Tj ( ) Tj (+) Tj ( ) Tj (H_thermal) Tj ( ) Tj (+) Tj ( ) Tj (H_vocal) Tj ( ) Tj (+) Tj ( ) Tj (H_rPPG) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 211.4 cm
+Q
+q
+1 0 0 1 60 196.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where each H_channel is the Shannon entropy of the signal in that measurement channel.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 189.4 cm
+Q
+q
+1 0 0 1 60 174.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The prediction states:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 167.4 cm
+Q
+q
+1 0 0 1 60 154.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (H_total\(unitary) Tj ( ) Tj (state\)) Tj ( ) Tj (<) Tj ( ) Tj (H_total\(non-unitary) Tj ( ) Tj (state\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 146.6 cm
+Q
+q
+1 0 0 1 60 131.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (and moreover that the difference should be predictable from the estimated gamma_eff values:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 124.6 cm
+Q
+q
+1 0 0 1 60 111.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (Delta) Tj ( ) Tj (H_total) Tj ( ) Tj (approx) Tj ( ) Tj (f\(gamma_eff_high) Tj ( ) Tj (-) Tj ( ) Tj (gamma_eff_low,) Tj ( ) Tj (t_measurement\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 103.8 cm
+Q
+q
+1 0 0 1 60 88.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where f is derived from the Shannon-Coherence Bridge equation of Section 3.4.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 81.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+42 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+43 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+44 0 obj
+<<
+/Contents 45 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 46 0 R
+/F2 8 0 R
+/F2-0 47 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+45 0 obj
+<<
+/Length 7824
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 34: THE SHANNON-COHERENCE BRIDGE) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 10) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (10) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (9.2 Why Simultaneous Multi-Channel Reduction Matters) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 665 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Single-channel entropy reduction could have trivial explanations \(a calm person breathes more regularly, reducing HRV) Tj T* -0.0116 Tw (entropy\). The critical prediction is SIMULTANEOUS reduction across ALL channels. This requires a single underlying cause) Tj T* 0 Tw (-- a system-level coherence parameter -- rather than independent channel-specific mechanisms.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 658 cm
+Q
+q
+1 0 0 1 60 619 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (If C is a genuine system-level quantity, then its increase \(reduction of gamma_eff\) should manifest in every measurement) Tj T* (channel that couples to the system's state. Simultaneous multi-channel entropy reduction is the signature of a coherence) Tj T* (increase, not merely a relaxation response.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612 cm
+Q
+q
+1 0 0 1 60 582 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (9.3 Protocol Sketch) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572 cm
+Q
+q
+1 0 0 1 60 557 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Baseline:) Tj /F1 9 Tf ( Measure H_total across all four REQMT channels during a neutral resting state \(5 minutes\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Induction:) Tj /F1 9 Tf ( Guide subjects into a target emotional state \(e.g., loving-kindness meditation for unitary gate; stress-recall) Tj T* (protocol for non-unitary gate\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 515 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Measurement:) Tj /F1 9 Tf ( Measure H_total across all four channels during the induced state \(5 minutes\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 488 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (Analysis:) Tj /F1 9 Tf ( Compute Delta H for each channel and for H_total. Test whether the unitary-gate condition shows) Tj T* (simultaneous reduction across all channels.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 461 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. ) Tj /F2 9 Tf (Cross-validation:) Tj /F1 9 Tf ( Fit the observed Delta H to the Shannon-Coherence Bridge equation to estimate gamma_eff for each) Tj T* (condition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 454 cm
+Q
+q
+1 0 0 1 60 448 cm
+Q
+q
+1 0 0 1 60 444 cm
+Q
+q
+1 0 0 1 60 406 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (10. Summary of Key Equations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 394 cm
+Q
+q
+1 0 0 1 60 379 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The complete mathematical framework connecting the three formalisms:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 372 cm
+Q
+q
+1 0 0 1 60 357 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Shannon Entropy \(classical\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 344.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (H) Tj ( ) Tj (=) Tj ( ) Tj (-SUM_i) Tj ( ) Tj ( ) Tj (p_i) Tj ( ) Tj (*) Tj ( ) Tj (log\(p_i\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 336.2 cm
+Q
+q
+1 0 0 1 60 321.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Von Neumann Entropy \(quantum\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 308.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S) Tj ( ) Tj (=) Tj ( ) Tj (-Tr\(rho) Tj ( ) Tj (*) Tj ( ) Tj (log\(rho\)\)) Tj ( ) Tj (=) Tj ( ) Tj (-SUM_i) Tj ( ) Tj ( ) Tj (lambda_i) Tj ( ) Tj (*) Tj ( ) Tj (log\(lambda_i\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 300.4 cm
+Q
+q
+1 0 0 1 60 285.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Wike Coherence Law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 272.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-2) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 264.6 cm
+Q
+q
+1 0 0 1 60 249.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The Shannon-Coherence Bridge \(for a dephasing qubit\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 228 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (-\(1/2\)\(1) Tj ( ) Tj (+) Tj ( ) Tj (C\(t\)\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(\(1/2\)\(1) Tj ( ) Tj (+) Tj ( ) Tj (C\(t\)\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-\(1/2\)\(1) Tj ( ) Tj (-) Tj ( ) Tj (C\(t\)\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(\(1/2\)\(1) Tj ( ) Tj (-) Tj ( ) Tj (C\(t\)\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 220 cm
+Q
+q
+1 0 0 1 60 205 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Entropy Production Rate:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 192.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (dS/dt) Tj ( ) Tj (=) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (C\(t\)) Tj ( ) Tj (*) Tj ( ) Tj (log\(\(1) Tj ( ) Tj (+) Tj ( ) Tj (C\(t\)\)) Tj ( ) Tj (/) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (C\(t\)\)\)) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 184.2 cm
+Q
+q
+1 0 0 1 60 169.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Boundary Conditions:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 147.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj ( ) Tj ( ) Tj (<) Tj (=) Tj (>) Tj ( ) Tj ( ) Tj ( ) Tj (S) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([pure) Tj ( ) Tj (state,) Tj ( ) Tj (perfect) Tj ( ) Tj (coherence]) Tj  T* (C) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (<) Tj (=) Tj (>) Tj ( ) Tj ( ) Tj ( ) Tj (S) Tj ( ) Tj (=) Tj ( ) Tj (log\(d\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([maximally) Tj ( ) Tj (mixed,) Tj ( ) Tj (complete) Tj ( ) Tj (decoherence]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 139.6 cm
+Q
+q
+1 0 0 1 60 124.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Landauer Cost of Coherence Maintenance:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 111.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (E) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (k_B) Tj ( ) Tj (*) Tj ( ) Tj (T) Tj ( ) Tj (*) Tj ( ) Tj (ln\(2\)) Tj ( ) Tj (per) Tj ( ) Tj (bit) Tj ( ) Tj (per) Tj ( ) Tj (correction) Tj ( ) Tj (cycle) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 103.8 cm
+Q
+q
+1 0 0 1 60 88.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Bekenstein-Hawking Bound:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 76 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (S_max) Tj ( ) Tj (=) Tj ( ) Tj (A) Tj ( ) Tj (/) Tj ( ) Tj (\(4) Tj ( ) Tj (*) Tj ( ) Tj (l_P^2\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([maximum) Tj ( ) Tj (decoherence) Tj ( ) Tj (for) Tj ( ) Tj (given) Tj ( ) Tj (boundary]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 68 cm
+Q
+q
+1 0 0 1 60 62 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+46 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+47 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+48 0 obj
+<<
+/Contents 49 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 50 0 R
+/F2 8 0 R
+/F2-0 51 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+49 0 obj
+<<
+/Length 5883
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 34: THE SHANNON-COHERENCE BRIDGE) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 11) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (11) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 690 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (11. Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 678 cm
+Q
+q
+1 0 0 1 60 639 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Shannon's information entropy, von Neumann's quantum entropy, and the Wike Coherence Law are three notations for the) Tj T* (same underlying reality: the degree to which a system's phase relationships have been destroyed by environmental) Tj T* (coupling.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 632 cm
+Q
+q
+1 0 0 1 60 593 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Shannon entropy is the classical shadow of von Neumann entropy -- what remains after decoherence has eliminated all) Tj T* (off-diagonal elements. Von Neumann entropy is the inverse of coherence -- S = 0 when C = C_0, and S = log\(d\) when C =) Tj T* (0. The Wike Coherence Law provides the dynamics -- the exponential time evolution that connects these endpoints.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 586 cm
+Q
+q
+1 0 0 1 60 523 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 51 Tm /F1 9 Tf 12 TL (From this identification, the Second Law of Thermodynamics emerges as a theorem, not a postulate. The arrow of time is) Tj T* (the direction of decoherence. Emotions are classified by their entropy signatures: unitary \(isentropic\) vs. non-unitary) Tj T* (\(entropy-producing\). The metabolic cost of coherence maintenance is calculated from Landauer's Principle -- love costs) Tj T* (ATP, approximately 100 W continuous. The holographic principle justifies REQMT's boundary-measurement architecture.) Tj T* (And a specific, testable prediction follows: simultaneous multi-channel entropy reduction in coherent emotional states.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 516 cm
+Q
+q
+1 0 0 1 60 489 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Information theory is not merely analogous to the Wike Coherence Law. It IS the Wike Coherence Law, written in the) Tj T* (alphabet that Shannon and von Neumann gave us seventy-eight years ago.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482 cm
+Q
+q
+1 0 0 1 60 476 cm
+Q
+q
+1 0 0 1 60 472 cm
+Q
+q
+1 0 0 1 60 434 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 422 cm
+Q
+q
+1 0 0 1 60 407 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Shannon, C. E. \(1948\). A Mathematical Theory of Communication. ) Tj /F4 9 Tf (Bell System Technical Journal) Tj /F1 9 Tf (, 27\(3\), 379-423.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 392 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Von Neumann, J. \(1932\). ) Tj /F4 9 Tf (Mathematische Grundlagen der Quantenmechanik) Tj /F1 9 Tf (. Springer.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 365 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. Lindblad, G. \(1976\). On the generators of quantum dynamical semigroups. ) Tj /F4 9 Tf (Communications in Mathematical Physics) Tj /F1 9 Tf (,) Tj T* (48\(2\), 119-130.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 338 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. Landauer, R. \(1961\). Irreversibility and heat generation in the computing process. ) Tj /F4 9 Tf (IBM Journal of Research and) Tj T* (Development) Tj /F1 9 Tf (, 5\(3\), 183-191.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 311 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. Bennett, C. H. \(1982\). The thermodynamics of computation -- a review. ) Tj /F4 9 Tf (International Journal of Theoretical Physics) Tj /F1 9 Tf (,) Tj T* (21\(12\), 905-940.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 296 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (6. Bekenstein, J. D. \(1973\). Black holes and entropy. ) Tj /F4 9 Tf (Physical Review D) Tj /F1 9 Tf (, 7\(8\), 2333.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 281 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (7. Hawking, S. W. \(1975\). Particle creation by black holes. ) Tj /F4 9 Tf (Communications in Mathematical Physics) Tj /F1 9 Tf (, 43\(3\), 199-220.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 266 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (8. 't Hooft, G. \(1993\). Dimensional reduction in quantum gravity. ) Tj /F4 9 Tf (arXiv:gr-qc/9310026) Tj /F1 9 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 251 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (9. Susskind, L. \(1995\). The world as a hologram. ) Tj /F4 9 Tf (Journal of Mathematical Physics) Tj /F1 9 Tf (, 36\(11\), 6377-6396.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (10. Zurek, W. H. \(2003\). Decoherence, einselection, and the quantum origins of the classical. ) Tj /F4 9 Tf (Reviews of Modern Physics) Tj /F1 9 Tf (,) Tj T* (75\(3\), 715.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 209 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (11. Wike, R. D. Papers 01-07, 19. AIIT-THRESI Series.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 202 cm
+Q
+q
+1 0 0 1 60 196 cm
+Q
+q
+1 0 0 1 60 192 cm
+Q
+q
+1 0 0 1 60 165 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F4 9 Tf 12 TL (AIIT-THRESI Paper 34 of n. The bridge between information and coherence is not a bridge at all -- it is the recognition that) Tj T* (they were always the same shore.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 158 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+50 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+51 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 52
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000344 00000 n 
+0000000393 00000 n 
+0000000764 00000 n 
+0000006596 00000 n 
+0000006703 00000 n 
+0000006810 00000 n 
+0000006922 00000 n 
+0000007032 00000 n 
+0000007138 00000 n 
+0000007254 00000 n 
+0000007629 00000 n 
+0000013490 00000 n 
+0000013598 00000 n 
+0000013709 00000 n 
+0000014084 00000 n 
+0000021206 00000 n 
+0000021314 00000 n 
+0000021425 00000 n 
+0000021800 00000 n 
+0000028725 00000 n 
+0000028833 00000 n 
+0000028944 00000 n 
+0000029319 00000 n 
+0000035763 00000 n 
+0000035871 00000 n 
+0000035982 00000 n 
+0000036357 00000 n 
+0000042047 00000 n 
+0000042155 00000 n 
+0000042266 00000 n 
+0000042641 00000 n 
+0000048973 00000 n 
+0000049081 00000 n 
+0000049192 00000 n 
+0000049567 00000 n 
+0000056125 00000 n 
+0000056233 00000 n 
+0000056344 00000 n 
+0000056719 00000 n 
+0000063039 00000 n 
+0000063147 00000 n 
+0000063258 00000 n 
+0000063633 00000 n 
+0000071510 00000 n 
+0000071618 00000 n 
+0000071729 00000 n 
+0000072104 00000 n 
+0000078040 00000 n 
+0000078148 00000 n 
+trailer
+<<
+/Size 52
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+78259
+%%EOF

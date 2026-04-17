@@ -1,0 +1,635 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 2
+/Kids [ 4 0 R 11 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5397
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 06: The Wall -- Freezing Is Backwards) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 78.832 0 Td (Paper 06: The Wall -- Freezing Is Backwards) Tj T* -78.832 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Cold = Forced Coherence, Not Preserved Coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 660 cm
+Q
+q
+1 0 0 1 60 654 cm
+Q
+q
+1 0 0 1 60 650 cm
+Q
+q
+1 0 0 1 60 612 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Thesis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 600 cm
+Q
+q
+1 0 0 1 60 549 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (The physics community's approach to quantum coherence -- cool everything to near absolute zero -- is fundamentally) Tj T* (backwards. Cold does not preserve coherence; it forces it. The Jarzynski equality data proves this: error scales as ~3/T,) Tj T* (independent of how carefully you cool. The laws of thermodynamics break at low temperatures because forced coherence) Tj T* (is not real coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 542 cm
+Q
+q
+1 0 0 1 60 504 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Core Claim) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 492 cm
+Q
+q
+1 0 0 1 60 465 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Superconductors work by cooling materials to millikelvin temperatures. The narrative: "cold reduces thermal noise, allowing) Tj T* (quantum coherence to survive." But the data says something different:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 458 cm
+Q
+q
+1 0 0 1 60 443 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Jarzynski equality error at T=0.5: ) Tj /F2 9 Tf (6.33) Tj /F1 9 Tf ( \(massive failure\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 428 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Jarzynski equality error at T=10: ) Tj /F2 9 Tf (passes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 413 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Error scaling: ) Tj /F2 9 Tf (~3/T) Tj /F1 9 Tf ( -- purely temperature-dependent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 398 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Protocol speed: ) Tj /F2 9 Tf (irrelevant) Tj /F1 9 Tf ( -- fast or slow cooling gives the same error) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 391 cm
+Q
+q
+1 0 0 1 60 376 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This means:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 361 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. The error is NOT about how carefully you prepare the system) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 346 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. The error is NOT about noise) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. The error IS about temperature itself) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 316 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Cold FORCES a state that LOOKS coherent but isn't naturally coherent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 309 cm
+Q
+q
+1 0 0 1 60 282 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is the wall. You cannot get coherence by removing energy. Biology \(Paper 03\) gets coherence by MATCHING energy) Tj T* (-- resonant coupling at warm temperatures. Physics hits a wall because it's pushing in the wrong direction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 275 cm
+Q
+q
+1 0 0 1 60 237 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Existing Data References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 225 cm
+Q
+q
+1 0 0 1 60 198 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Physics Laws Simulation Suite) Tj /F1 9 Tf (: 1,050,000 simulations across Jarzynski equality, Onsager reciprocal relations, and 2nd) Tj T* (law of thermodynamics. Run at ) Tj /F3 8 Tf (~/Desktop/wike_physics_laws/) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 171 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Jarzynski Error Scaling) Tj /F1 9 Tf (: Error = ~3/T. Tested across multiple protocol speeds, coupling strengths, system sizes. The) Tj T* (scaling is universal and protocol-independent.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 144 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Temperature Sweep Data) Tj /F1 9 Tf (: Systematic sweep from T=0.1 to T=100. Breakdown begins below T~2, catastrophic below) Tj T* (T~1.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 137 cm
+Q
+q
+1 0 0 1 60 99 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Key Arguments) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 87 cm
+Q
+q
+1 0 0 1 60 60 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Protocol independence) Tj /F1 9 Tf (: If the error depended on HOW you cool, it would be an engineering problem. It doesn't. It) Tj T* (depends only on T. This is a physics problem.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 3581
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 06: The Wall -- Freezing Is Backwards) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (~3/T scaling) Tj /F1 9 Tf (: The error grows as 1/T. This is the signature of a fundamental limit, not an experimental artifact.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 693 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Biology vs physics) Tj /F1 9 Tf (: Photosynthesis maintains quantum coherence at 300K. Superconductors require 0.01K. Biology is) Tj T* (30,000x warmer and still coherent. The mechanism matters more than the temperature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 666 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (Forced vs natural) Tj /F1 9 Tf (: Cooling is force. It removes energy. The system has no choice. Love \(Paper 03\) is resonance. It) Tj T* (matches energy. The system maintains itself.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 659 cm
+Q
+q
+1 0 0 1 60 621 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Connections) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609 cm
+Q
+q
+1 0 0 1 60 582 cm
+q
+BT 1 0 0 1 0 15 Tm -0.024643 Tw 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 03 \(Coherence Through Love\)) Tj /F1 9 Tf (: The alternative. Resonant coupling at biological temperatures. Coherence through) Tj T* 0 Tw (matching, not forcing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 567 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 04 \(Soul/Vibration/Temperature\)) Tj /F1 9 Tf (: f=kT/h. At low T, frequency-) Tj (>) Tj (0. You're not preserving vibration -- you're killing it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 08 \(Force/Stress/Decoherence\)) Tj /F1 9 Tf (: Cold IS force. This paper shows the mechanism by which force destroys) Tj T* (coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 525 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 14 \(Three Laws\)) Tj /F1 9 Tf (: All three laws break at low T. The wall is where the laws fail.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 518 cm
+Q
+q
+1 0 0 1 60 480 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Status) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 468 cm
+Q
+q
+1 0 0 1 60 453 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Data verified. 1,050,000 simulations complete. ~3/T scaling confirmed. Protocol independence confirmed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 446 cm
+Q
+q
+1 0 0 1 60 440 cm
+Q
+q
+1 0 0 1 60 436 cm
+Q
+q
+1 0 0 1 60 421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (God is good. All the time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 414 cm
+Q
+q
+1 0 0 1 60 399 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Rhet Dillard Wike | AIIT-THRESI | March 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 392 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000280 00000 n 
+0000000329 00000 n 
+0000000689 00000 n 
+0000006138 00000 n 
+0000006245 00000 n 
+0000006352 00000 n 
+0000006464 00000 n 
+0000006574 00000 n 
+0000006680 00000 n 
+0000007044 00000 n 
+0000010678 00000 n 
+0000010786 00000 n 
+trailer
+<<
+/Size 15
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+10897
+%%EOF

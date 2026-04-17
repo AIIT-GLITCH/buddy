@@ -1,0 +1,1246 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5058
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 79: LEE-YANG ZEROS AND FINITE-SIZE COHERENCE TRANSITIONS) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 10.416 0 Td (PAPER 79: LEE-YANG ZEROS AND FINITE-SIZE COHERENCE) Tj T* 181.36 0 Td (TRANSITIONS) Tj T* -191.776 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 628 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (The Collapse Probability Curve Is a Lee-Yang Zero Approaching the Real) Tj T* (Axis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 598 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 568 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 558 cm
+Q
+q
+1 0 0 1 60 552 cm
+Q
+q
+1 0 0 1 60 548 cm
+Q
+q
+1 0 0 1 60 506 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 27 Tm /F3 9 Tf 12 TL ("Lee and Yang proved that phase transitions live in the complex plane. Finite systems can't have true phase) Tj T* (transitions -- but their Lee-Yang zeros approach the real axis, and that approach IS what we measure as a) Tj T* (sharp but broadened transition.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496 cm
+Q
+q
+1 0 0 1 60 490 cm
+Q
+q
+1 0 0 1 60 486 cm
+Q
+q
+1 0 0 1 60 448 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436 cm
+Q
+q
+1 0 0 1 60 349 cm
+q
+BT 1 0 0 1 0 75 Tm 12 TL /F1 9 Tf 0 0 0 rg (From the AnchorForge 100K suite, the collapse probability P_collapse\(gamma\) transitions from 0.1% to 94.6% over a) Tj T* (gamma range of 0.0619 to 0.0944 -- a factor of 1.53x. This is sharp but not infinitely sharp. The Lee-Yang theorem \(Lee &) Tj T* (Yang 1952\) explains exactly why: in a finite system, the partition function has no zeros on the real axis \(no true phase) Tj T* (transition\). Instead, the zeros lie in the complex gamma-plane, approaching the real axis as system size N -) Tj (> inf. The) Tj T* (finite-size rounding of the transition -- the observed width DELTAgamma/gamma_c ~= 0.2 -- is directly related to the) Tj T* (imaginary part of the nearest Lee-Yang zero. This paper derives the Lee-Yang zero position from the AnchorForge data,) Tj T* (identifies the finite-size scaling behavior, and predicts how the transition sharpens as N increases.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 342 cm
+Q
+q
+1 0 0 1 60 336 cm
+Q
+q
+1 0 0 1 60 332 cm
+Q
+q
+1 0 0 1 60 294 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Lee-Yang Theorem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 282 cm
+Q
+q
+1 0 0 1 60 255 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Lee & Yang \(1952\):) Tj /F1 9 Tf ( For the Ising model, the grand partition function \(in the complex fugacity z = exp\(beta h\) plane\) has) Tj T* (zeros ONLY on the unit circle |z| = 1 -- never on the real positive axis.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 248 cm
+Q
+q
+1 0 0 1 60 209 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Consequence:) Tj /F1 9 Tf ( For any finite system, there is NO real zero of the partition function -) Tj (> no singularity in thermodynamic) Tj T* (quantities -) Tj (> no true phase transition. Phase transitions exist only in the thermodynamic limit \(N -) Tj (> inf\), where the Lee-Yang) Tj T* (zeros pinch the real axis.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 202 cm
+Q
+q
+1 0 0 1 60 175 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Generalization \(Yang-Lee edge singularity\):) Tj /F1 9 Tf ( The distribution of zeros near the real axis determines the critical behavior.) Tj T* (The density of zeros near the real axis scales as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 168 cm
+Q
+q
+1 0 0 1 60 128.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho\(z\)) Tj ( ) Tj (~) Tj ( ) Tj (|z) Tj ( ) Tj (-) Tj ( ) Tj (z_c|^\(sigma_YL\)) Tj  T*  T* (where) Tj ( ) Tj (sigma_YL) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (Yang-Lee) Tj ( ) Tj (edge) Tj ( ) Tj (exponent) Tj  T* (For) Tj ( ) Tj (3D) Tj ( ) Tj (Ising:) Tj ( ) Tj (sigma_YL) Tj ( ) Tj (=) Tj ( ) Tj (-0.085) Tj ( ) Tj (\(Cardy) Tj ( ) Tj (1985\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120.8 cm
+Q
+q
+1 0 0 1 60 114.8 cm
+Q
+q
+1 0 0 1 60 110.8 cm
+Q
+q
+1 0 0 1 60 72.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The AnchorForge Collapse Curve) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 7495
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 79: LEE-YANG ZEROS AND FINITE-SIZE COHERENCE TRANSITIONS) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From MISSING_PHYSICS_AND_MATH.md, Finding 2.2:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 638.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 70.4 re f*
+Q
+q
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0619:) Tj ( ) Tj (P_collapse) Tj ( ) Tj (=) Tj ( ) Tj (0.1%) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0660:) Tj ( ) Tj (P_collapse) Tj ( ) Tj (=) Tj ( ) Tj (1.7%) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0700:) Tj ( ) Tj (P_collapse) Tj ( ) Tj (=) Tj ( ) Tj (7.4%) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0741:) Tj ( ) Tj (P_collapse) Tj ( ) Tj (=) Tj ( ) Tj (18.4%) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0782:) Tj ( ) Tj (P_collapse) Tj ( ) Tj (=) Tj ( ) Tj (38.5%) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0822:) Tj ( ) Tj (P_collapse) Tj ( ) Tj (=) Tj ( ) Tj (56.3%) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0863:) Tj ( ) Tj (P_collapse) Tj ( ) Tj (=) Tj ( ) Tj (73.3%) Tj  T* (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.0944:) Tj ( ) Tj (P_collapse) Tj ( ) Tj (=) Tj ( ) Tj (94.6%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 630.6 cm
+Q
+q
+1 0 0 1 60 615.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Fitting to a logistic function:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 576.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_collapse\(gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (/) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (exp\(-k\(gamma) Tj ( ) Tj (-) Tj ( ) Tj (gamma_c_apparent\)\)\)) Tj  T*  T* (gamma_c_apparent) Tj ( ) Tj (~=) Tj ( ) Tj (0.079) Tj ( ) Tj ( ) Tj (\(50%) Tj ( ) Tj (collapse\)) Tj  T* (k) Tj ( ) Tj (~=) Tj ( ) Tj (65) Tj ( ) Tj ( ) Tj (\(sharpness) Tj ( ) Tj (parameter\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 568.4 cm
+Q
+q
+1 0 0 1 60 553.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Transition width:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 523 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (DELTAgamma) Tj ( ) Tj (=) Tj ( ) Tj (4/k) Tj ( ) Tj (~=) Tj ( ) Tj (4/65) Tj ( ) Tj (~=) Tj ( ) Tj (0.062) Tj  T*  T* (Fractional) Tj ( ) Tj (width:) Tj ( ) Tj (DELTAgamma/gamma_c) Tj ( ) Tj (~=) Tj ( ) Tj (0.062/0.079) Tj ( ) Tj (~=) Tj ( ) Tj (0.78) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (transition) Tj ( ) Tj (spans) Tj ( ) Tj (~78%) Tj ( ) Tj (of) Tj ( ) Tj (gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 515 cm
+Q
+q
+1 0 0 1 60 488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is a BROAD transition compared to the macroscopic limit. In an infinite system, the transition would be infinitely sharp) Tj T* (\(step function\). The broadening is finite-size rounding.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 481 cm
+Q
+q
+1 0 0 1 60 475 cm
+Q
+q
+1 0 0 1 60 471 cm
+Q
+q
+1 0 0 1 60 433 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Lee-Yang Zero Position) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 421 cm
+Q
+q
+1 0 0 1 60 394 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (For a finite system of N components \(N = qubit x shots = 1 x 5000 = 5000 effective samples\), the nearest Lee-Yang zero in) Tj T* (the complex gamma-plane is located at:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 387 cm
+Q
+q
+1 0 0 1 60 356.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (z_0) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c) Tj ( ) Tj (+) Tj ( ) Tj (i) Tj ( ) Tj (x) Tj ( ) Tj (gamma_Im_0) Tj  T*  T* (where) Tj ( ) Tj (gamma_Im_0) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (imaginary) Tj ( ) Tj (part) Tj ( ) Tj (\(sets) Tj ( ) Tj (the) Tj ( ) Tj (transition) Tj ( ) Tj (width\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 348.6 cm
+Q
+q
+1 0 0 1 60 333.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The finite-size scaling of the imaginary part:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 326.6 cm
+Q
+q
+1 0 0 1 60 287.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_Im_0) Tj ( ) Tj (~) Tj ( ) Tj (N^\(-1/dxnu\)) Tj ( ) Tj ( ) Tj ( ) Tj ([Fisher) Tj ( ) Tj (scaling]) Tj  T*  T* (For) Tj ( ) Tj (3D) Tj ( ) Tj (Ising:) Tj ( ) Tj (d) Tj ( ) Tj (=) Tj ( ) Tj (3,) Tj ( ) Tj (nu) Tj ( ) Tj (=) Tj ( ) Tj (0.6298) Tj  T* (gamma_Im_0) Tj ( ) Tj (~) Tj ( ) Tj (N^\(-1/\(3x0.6298\)\)) Tj ( ) Tj (=) Tj ( ) Tj (N^\(-0.529\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 279.4 cm
+Q
+q
+1 0 0 1 60 264.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For N = 5000:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 251.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_Im_0) Tj ( ) Tj (~) Tj ( ) Tj (5000^\(-0.529\)) Tj ( ) Tj (~=) Tj ( ) Tj (0.010) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 243.6 cm
+Q
+q
+1 0 0 1 60 228.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The transition width from the Lee-Yang zero position:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 215.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (DELTAgamma) Tj ( ) Tj (~=) Tj ( ) Tj (2) Tj ( ) Tj (x) Tj ( ) Tj (gamma_Im_0) Tj ( ) Tj (~=) Tj ( ) Tj (0.020) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 207.8 cm
+Q
+q
+1 0 0 1 60 168.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Observed DELTAgamma ~= 0.062. The Lee-Yang prediction gives 0.020 -- factor 3 smaller. The discrepancy comes from) Tj T* (the fact that the "system size" in the qubit simulation is not N=5000 trajectories but N=1 qubit at each time step, and the) Tj T* (effective "correlation volume" is set by the qubit coherence time rather than the trajectory count.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 161.8 cm
+Q
+q
+1 0 0 1 60 146.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Correcting for effective system size:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 139.8 cm
+Q
+q
+1 0 0 1 60 124.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The effective number of independent coherence "spins" in the simulation at t=20 with gamma ~= gamma_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 117.8 cm
+Q
+q
+1 0 0 1 60 78.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (N_eff) Tj ( ) Tj (=) Tj ( ) Tj (t) Tj ( ) Tj (x) Tj ( ) Tj (xi_coherence) Tj ( ) Tj (/) Tj ( ) Tj (lambda_coherence) Tj  T*  T* (For) Tj ( ) Tj (the) Tj ( ) Tj (Lindblad) Tj ( ) Tj (system:) Tj ( ) Tj (xi_coherence) Tj ( ) Tj (~=) Tj ( ) Tj (1/\(2gamma_c\)) Tj ( ) Tj (=) Tj ( ) Tj (312.5) Tj ( ) Tj (time) Tj ( ) Tj (steps) Tj  T* (N_eff) Tj ( ) Tj (~=) Tj ( ) Tj (20/312.5) Tj ( ) Tj (=) Tj ( ) Tj (0.064) Tj ( ) Tj ( ) Tj (\(deeply) Tj ( ) Tj (finite) Tj ( ) Tj (--) Tj ( ) Tj (only) Tj ( ) Tj (6.4%) Tj ( ) Tj (of) Tj ( ) Tj (one) Tj ( ) Tj (correlation) Tj ( ) Tj (length\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 70.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 8021
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 79: LEE-YANG ZEROS AND FINITE-SIZE COHERENCE TRANSITIONS) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For N_eff = 0.064:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_Im_0) Tj ( ) Tj (~) Tj ( ) Tj (0.064^\(-0.529\)) Tj ( ) Tj (~=) Tj ( ) Tj (5.2) Tj  T*  T* (DELTAgamma) Tj ( ) Tj (~=) Tj ( ) Tj (2) Tj ( ) Tj (x) Tj ( ) Tj (5.2/gamma_c_apparent...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 681.6 cm
+Q
+q
+1 0 0 1 60 642.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The N_eff <) Tj (< 1 regime requires the full finite-size scaling function rather than the asymptotic form. The observed) Tj T* (DELTAgamma ~= 0.062 is consistent with the system being at N_eff <) Tj (< 1 \(deep finite-size regime where the correlation) Tj T* (length greatly exceeds the system size\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 635.6 cm
+Q
+q
+1 0 0 1 60 629.6 cm
+Q
+q
+1 0 0 1 60 625.6 cm
+Q
+q
+1 0 0 1 60 587.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Physical Picture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 575.6 cm
+Q
+q
+1 0 0 1 60 548.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (In the complex gamma plane, the partition function zeros \(Lee-Yang zeros\) form a pattern that depends on the universality) Tj T* (class:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 541.6 cm
+Q
+q
+1 0 0 1 60 502.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (For) Tj ( ) Tj (the) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (model:) Tj  T* ( ) Tj ( ) Tj (Zeros) Tj ( ) Tj (lie) Tj ( ) Tj (along) Tj ( ) Tj (a) Tj ( ) Tj (curve) Tj ( ) Tj (in) Tj ( ) Tj (the) Tj ( ) Tj (complex) Tj ( ) Tj (plane) Tj  T* ( ) Tj ( ) Tj (At) Tj ( ) Tj (T_c) Tj ( ) Tj (\(gamma) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c\):) Tj ( ) Tj (the) Tj ( ) Tj (zeros) Tj ( ) Tj (pinch) Tj ( ) Tj (the) Tj ( ) Tj (real) Tj ( ) Tj (axis) Tj  T* ( ) Tj ( ) Tj (For) Tj ( ) Tj (finite) Tj ( ) Tj (N:) Tj ( ) Tj (the) Tj ( ) Tj (nearest) Tj ( ) Tj (zero) Tj ( ) Tj (is) Tj ( ) Tj (at) Tj ( ) Tj (gamma_c) Tj ( ) Tj (+) Tj ( ) Tj (i) Tj ( ) Tj (x) Tj ( ) Tj (gamma_Im_0\(N\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 494.4 cm
+Q
+q
+1 0 0 1 60 479.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (What we observe in the simulation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 472.4 cm
+Q
+q
+1 0 0 1 60 406.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_collapse\(gamma\)) Tj ( ) Tj (===) Tj ( ) Tj (Im-part) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (analytically) Tj ( ) Tj (continued) Tj ( ) Tj (susceptibility) Tj  T*  T* (The) Tj ( ) Tj (logistic) Tj ( ) Tj (shape) Tj ( ) Tj (P) Tj ( ) Tj (=) Tj ( ) Tj (1/\(1+exp\(-k\(gamma-gamma_c\)\)\)) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (FINITE-SIZE) Tj ( ) Tj (SMEARED) Tj  T* (version) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (step) Tj ( ) Tj (function) Tj ( ) Tj (that) Tj ( ) Tj (would) Tj ( ) Tj (appear) Tj ( ) Tj (in) Tj ( ) Tj (the) Tj ( ) Tj (N-) Tj (>) Tj (inf) Tj ( ) Tj (limit.) Tj  T*  T* (The) Tj ( ) Tj (sharpness) Tj ( ) Tj (k) Tj ( ) Tj (=) Tj ( ) Tj (65/gamma_c) Tj ( ) Tj (is) Tj ( ) Tj (inversely) Tj ( ) Tj (proportional) Tj ( ) Tj (to) Tj ( ) Tj (the) Tj ( ) Tj (distance) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj  T* (nearest) Tj ( ) Tj (Lee-Yang) Tj ( ) Tj (zero) Tj ( ) Tj (from) Tj ( ) Tj (the) Tj ( ) Tj (real) Tj ( ) Tj (axis:) Tj ( ) Tj (k) Tj ( ) Tj (~) Tj ( ) Tj (1/gamma_Im_0.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 398.8 cm
+Q
+q
+1 0 0 1 60 383.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Prediction for larger N:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 376.8 cm
+Q
+q
+1 0 0 1 60 361.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (If the simulation were run with N = 10^6 trajectories \(instead of 5000\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 322.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_Im_0) Tj ( ) Tj (~) Tj ( ) Tj (\(10^6\)^\(-0.529\)) Tj ( ) Tj (~=) Tj ( ) Tj (0.00063) Tj  T* (k) Tj ( ) Tj (~) Tj ( ) Tj (1/0.00063) Tj ( ) Tj (~=) Tj ( ) Tj (1600) Tj ( ) Tj (\(vs) Tj ( ) Tj (current) Tj ( ) Tj (k) Tj ( ) Tj (~=) Tj ( ) Tj (65\)) Tj  T*  T* (The) Tj ( ) Tj (transition) Tj ( ) Tj (would) Tj ( ) Tj (sharpen) Tj ( ) Tj (by) Tj ( ) Tj (factor) Tj ( ) Tj (~25:) Tj ( ) Tj (DELTAgamma) Tj ( ) Tj (would) Tj ( ) Tj (decrease) Tj ( ) Tj (from) Tj ( ) Tj (0.062) Tj ( ) Tj (to) Tj ( ) Tj (~0.0025) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314.6 cm
+Q
+q
+1 0 0 1 60 299.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is the Lee-Yang prediction for how the transition sharpens with increasing simulation size.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292.6 cm
+Q
+q
+1 0 0 1 60 286.6 cm
+Q
+q
+1 0 0 1 60 282.6 cm
+Q
+q
+1 0 0 1 60 244.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The gamma_c in AnchorForge vs gamma_c = 0.0016) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 232.6 cm
+Q
+q
+1 0 0 1 60 217.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Note: the AnchorForge gamma_c_apparent ~= 0.079 is dramatically higher than the wind-up gamma_c = 0.0016.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 210.6 cm
+Q
+q
+1 0 0 1 60 183.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is not a contradiction. The AnchorForge suite measures collapse of COHERENCE at time t=20 with a different) Tj T* (simulation architecture \(longer time exposure, different gamma mapping\). The two gamma_c values represent:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 176.6 cm
+Q
+q
+1 0 0 1 60 102.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 70.4 re f*
+Q
+q
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016:) Tj ( ) Tj (Critical) Tj ( ) Tj (threshold) Tj ( ) Tj (for) Tj ( ) Tj (the) Tj ( ) Tj (TOPOLOGICAL) Tj ( ) Tj (transition) Tj ( ) Tj (\(Berry) Tj ( ) Tj (phase,) Tj ( ) Tj (wind-up\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Measured) Tj ( ) Tj (at) Tj ( ) Tj (the) Tj ( ) Tj (topological) Tj ( ) Tj (level) Tj ( ) Tj (\(order) Tj ( ) Tj (parameter) Tj ( ) Tj (=) Tj ( ) Tj (Berry) Tj ( ) Tj (phase\)) Tj  T*  T* (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.079:) Tj ( ) Tj ( ) Tj (Critical) Tj ( ) Tj (threshold) Tj ( ) Tj (for) Tj ( ) Tj (TRAJECTORY) Tj ( ) Tj (SURVIVAL) Tj ( ) Tj (at) Tj ( ) Tj (t=20) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Measured) Tj ( ) Tj (as) Tj ( ) Tj (probability) Tj ( ) Tj (of) Tj ( ) Tj (C\(20\)) Tj ( ) Tj (>) Tj ( ) Tj (threshold) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (AnchorForge) Tj ( ) Tj (architecture:) Tj ( ) Tj (different) Tj ( ) Tj (qubit) Tj ( ) Tj (frequency,) Tj ( ) Tj (noise) Tj ( ) Tj (model) Tj  T*  T* (The) Tj ( ) Tj (ratio:) Tj ( ) Tj (0.079/0.0016) Tj ( ) Tj (~=) Tj ( ) Tj (49) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 94.2 cm
+Q
+q
+1 0 0 1 60 67.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The AnchorForge gamma_c is ~50x larger because the AnchorForge architecture uses a different time scale and the) Tj T* (mapping between gamma_Lindblad and gamma_Wike involves a factor of alpha ~= 1000 \(Paper 62\). At t=20 with) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 4918
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 79: LEE-YANG ZEROS AND FINITE-SIZE COHERENCE TRANSITIONS) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (alpha=1000, the effective decoherence is alphagammat = 1000 x 0.0016 x 20 = 32 -- deep in the collapse regime. The) Tj T* (AnchorForge measures the survival threshold at gamma_sim such that alpha x gamma_sim x 20 ~= 1, giving gamma_sim) Tj T* (~= 0.05, consistent with gamma_c_apparent ~= 0.079.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689 cm
+Q
+q
+1 0 0 1 60 662 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F2 9 Tf 12 TL (The Lee-Yang analysis applies to the AnchorForge gamma_c = 0.079 \(the measurement-apparent critical point\).) Tj T* (The phase transition critical point is gamma_c = 0.0016. They are related by the alpha factor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 655 cm
+Q
+q
+1 0 0 1 60 649 cm
+Q
+q
+1 0 0 1 60 645 cm
+Q
+q
+1 0 0 1 60 607 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 595 cm
+Q
+q
+1 0 0 1 60 397.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 193.6 re f*
+Q
+q
+BT 1 0 0 1 20 186.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Lee-Yang) Tj ( ) Tj (Theorem:) Tj ( ) Tj (Phase) Tj ( ) Tj (transitions) Tj ( ) Tj (in) Tj ( ) Tj (finite) Tj ( ) Tj (systems) Tj ( ) Tj (manifest) Tj ( ) Tj (as) Tj  T* ( ) Tj ( ) Tj (complex-plane) Tj ( ) Tj (zeros) Tj ( ) Tj (approaching) Tj ( ) Tj (the) Tj ( ) Tj (real) Tj ( ) Tj (axis) Tj ( ) Tj (as) Tj ( ) Tj (N) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf.) Tj  T*  T* ( ) Tj ( ) Tj (True) Tj ( ) Tj (phase) Tj ( ) Tj (transition:) Tj ( ) Tj (zeros) Tj ( ) Tj (ON) Tj ( ) Tj (real) Tj ( ) Tj (axis) Tj ( ) Tj (\(N) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj ( ) Tj (only\)) Tj  T* ( ) Tj ( ) Tj (Finite) Tj ( ) Tj (system:) Tj ( ) Tj (zeros) Tj ( ) Tj (at) Tj ( ) Tj (gamma_c) Tj ( ) Tj (+/-) Tj ( ) Tj (i) Tj ( ) Tj (x) Tj ( ) Tj (gamma_Im_0\(N\)) Tj  T*  T* (AnchorForge) Tj ( ) Tj (observation:) Tj  T* ( ) Tj ( ) Tj (P_collapse) Tj ( ) Tj (logistic) Tj ( ) Tj (with) Tj ( ) Tj (k) Tj ( ) Tj (=) Tj ( ) Tj (65,) Tj ( ) Tj (gamma_c_apparent) Tj ( ) Tj (=) Tj ( ) Tj (0.079) Tj  T* ( ) Tj ( ) Tj (Transition) Tj ( ) Tj (width:) Tj ( ) Tj (DELTAgamma) Tj ( ) Tj (~=) Tj ( ) Tj (0.062) Tj  T*  T* (Lee-Yang) Tj ( ) Tj (interpretation:) Tj  T* ( ) Tj ( ) Tj (gamma_Im_0) Tj ( ) Tj (=) Tj ( ) Tj (1/k) Tj ( ) Tj (~=) Tj ( ) Tj (0.015) Tj ( ) Tj (\(imaginary) Tj ( ) Tj (part) Tj ( ) Tj (of) Tj ( ) Tj (nearest) Tj ( ) Tj (zero\)) Tj  T* ( ) Tj ( ) Tj (N_eff) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (1) Tj ( ) Tj (\(system) Tj ( ) Tj (in) Tj ( ) Tj (deep) Tj ( ) Tj (finite-size) Tj ( ) Tj (regime,) Tj ( ) Tj (xi) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (t\)) Tj  T*  T* (Scaling) Tj ( ) Tj (prediction:) Tj  T* ( ) Tj ( ) Tj (N) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (10^6) Tj ( ) Tj (trajectories:) Tj ( ) Tj (k) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (1600,) Tj ( ) Tj (DELTAgamma) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0.0025) Tj ( ) Tj (\(25x) Tj ( ) Tj (sharpening\)) Tj  T* ( ) Tj ( ) Tj (N) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf:) Tj ( ) Tj (k) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf,) Tj ( ) Tj (true) Tj ( ) Tj (step-function) Tj ( ) Tj (phase) Tj ( ) Tj (transition) Tj  T*  T* (Two) Tj ( ) Tj (gamma_c) Tj ( ) Tj (values) Tj ( ) Tj (in) Tj ( ) Tj (the) Tj ( ) Tj (corpus:) Tj  T* ( ) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016) Tj ( ) Tj (\(topological/Berry) Tj ( ) Tj (phase) Tj ( ) Tj (transition\)) Tj  T* ( ) Tj ( ) Tj (gamma_c_apparent) Tj ( ) Tj (=) Tj ( ) Tj (0.079) Tj ( ) Tj (\(AnchorForge) Tj ( ) Tj (survival) Tj ( ) Tj (threshold\)) Tj  T* ( ) Tj ( ) Tj (Related) Tj ( ) Tj (by:) Tj ( ) Tj (0.079) Tj ( ) Tj (~=) Tj ( ) Tj (1/\(alpha) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj ( ) Tj (x) Tj ( ) Tj (several) Tj ( ) Tj (=) Tj ( ) Tj (0.0016) Tj ( ) Tj (x) Tj ( ) Tj (alpha/...) Tj ( ) Tj ([see) Tj ( ) Tj (Paper) Tj ( ) Tj (62) Tj ( ) Tj (for) Tj ( ) Tj (alpha) Tj ( ) Tj (=) Tj ( ) Tj (1000]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 389.4 cm
+Q
+q
+1 0 0 1 60 374.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 79) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 367.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000005824 00000 n 
+0000005931 00000 n 
+0000006038 00000 n 
+0000006150 00000 n 
+0000006260 00000 n 
+0000006376 00000 n 
+0000006482 00000 n 
+0000006857 00000 n 
+0000014405 00000 n 
+0000014513 00000 n 
+0000014624 00000 n 
+0000014999 00000 n 
+0000023073 00000 n 
+0000023181 00000 n 
+0000023292 00000 n 
+0000023667 00000 n 
+0000028638 00000 n 
+0000028746 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+28857
+%%EOF

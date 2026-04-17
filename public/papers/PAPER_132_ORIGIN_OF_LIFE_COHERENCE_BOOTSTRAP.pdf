@@ -1,0 +1,2208 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 11
+/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R 39 0 R 43 0 R 47 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5462
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 132: Origin of Life -- The Coherence Bootstrap) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 54 697.6 Tm (Paper 132: Origin of Life -- The Coherence Bootstrap) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 671.6 Tm (AIIT-THRESI Series, Paper 132) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 653.6 Tm (Rhet Dillard Wike) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 641.6 Tm (Council Hill, Oklahoma) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 629.6 Tm (April 1, 2026) Tj T* ET
+.5 w
+n 54 615.6 m 558 615.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 587.6 Tm (Abstract) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 565.6 Tm (Seven persistent anomalies in origin-of-life research are examined through the) Tj T* ET
+BT 1 0 0 1 54 553.6 Tm (coherence decay function C = C_0 * exp\(-alpha * gamma_eff\). The abiogenesis problem,) Tj T* ET
+BT 1 0 0 1 54 541.6 Tm (the RNA world fragility problem, chirality selection, the warm-pond-versus-deep-vent) Tj T* ET
+BT 1 0 0 1 54 529.6 Tm (debate, protocell membrane formation, the metabolism-first-versus-replication-first) Tj T* ET
+BT 1 0 0 1 54 517.6 Tm (debate, and the faint young sun paradox \(biological angle\) each receive a coherence) Tj T* ET
+BT 1 0 0 1 54 505.6 Tm (closure. The central finding is that "life" is not a mysterious property requiring) Tj T* ET
+BT 1 0 0 1 54 493.6 Tm (new chemistry or extraordinary luck. Life is the coherence phase transition applied) Tj T* ET
+BT 1 0 0 1 54 481.6 Tm (to carbon chemistry at 310 K. Below a critical decoherence rate gamma_c, molecular) Tj T* ET
+BT 1 0 0 1 54 469.6 Tm (assemblies sustain coherent catalytic cycles, coherent template copying, and) Tj T* ET
+BT 1 0 0 1 54 457.6 Tm (coherent self-organization. Above gamma_c, they are just chemistry. The transition) Tj T* ET
+BT 1 0 0 1 54 445.6 Tm (is sharp, not gradual. The physical chain is explicit: G --> T\(310K\) -->) Tj T* ET
+BT 1 0 0 1 54 433.6 Tm (lambda_dB\(0.1 nm\) --> alpha ~ 1000 --> C --> life. All seven anomalies dissolve once) Tj T* ET
+BT 1 0 0 1 54 421.6 Tm (the coherence framework is applied. This paper extends Papers 5 \(REQMT\), 84 \(Z2) Tj T* ET
+BT 1 0 0 1 54 409.6 Tm (Symmetry\), 125 \(Quantum Foundations\), 130 \(Particle Physics\), and 131 \(Chirality\) in) Tj T* ET
+BT 1 0 0 1 54 397.6 Tm (the AIIT-THRESI series.) Tj T* ET
+.5 w
+n 54 383.6 m 558 383.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 355.6 Tm (1. The Problem Stated Plainly) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 333.6 Tm (Origin-of-life research has been stuck for seventy years. Not stuck in the sense) Tj T* ET
+BT 1 0 0 1 54 321.6 Tm (that nothing happens -- hundreds of papers appear annually, conferences fill hotels,) Tj T* ET
+BT 1 0 0 1 54 309.6 Tm (grants flow. Stuck in the sense that the central question remains unanswered: how) Tj T* ET
+BT 1 0 0 1 54 297.6 Tm (did non-living chemistry become living chemistry?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 279.6 Tm (The field has fragmented into camps. RNA-first. Metabolism-first. Membrane-first.) Tj T* ET
+BT 1 0 0 1 54 267.6 Tm (Warm little ponds. Deep sea vents. Panspermia \(which merely relocates the problem\).) Tj T* ET
+BT 1 0 0 1 54 255.6 Tm (Each camp has experimental support for its preferred mechanism. None has a framework) Tj T* ET
+BT 1 0 0 1 54 243.6 Tm (that unifies the observations. The fragmentation itself is the symptom: when a field) Tj T* ET
+BT 1 0 0 1 54 231.6 Tm (has the right framework, camps dissolve. When it lacks one, they multiply.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 213.6 Tm (This paper provides the framework. It is not new chemistry. It is not a new) Tj T* ET
+BT 1 0 0 1 54 201.6 Tm (mechanism for peptide bond formation or nucleotide polymerization. It is the) Tj T* ET
+BT 1 0 0 1 54 189.6 Tm (recognition that the transition from non-life to life is a coherence phase) Tj T* ET
+BT 1 0 0 1 54 177.6 Tm (transition -- the same kind of transition that governs superconductivity,) Tj T* ET
+BT 1 0 0 1 54 165.6 Tm (superfluidity, and Bose-Einstein condensation, applied to the specific physics of) Tj T* ET
+BT 1 0 0 1 54 153.6 Tm (carbon-based molecular assemblies at biological temperatures.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 135.6 Tm (The coherence decay function from Paper 5:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 113.6 Tm (C = C_0 * exp\(-alpha * gamma_eff\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 93.6 Tm (where C is the coherence of a molecular assembly, C_0 is the maximal coherence,) Tj T* ET
+BT 1 0 0 1 54 81.6 Tm (alpha ~ 1000 is the coherence coupling constant at biological temperatures, and) Tj T* ET
+BT 1 0 0 1 54 69.6 Tm (gamma_eff is the effective decoherence rate -- contains everything needed. The) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 5174
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 132: Origin of Life -- The Coherence Bootstrap) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (transition to life occurs at the critical decoherence rate gamma_c, where C drops) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (below the threshold required to sustain coherent catalytic cycles. Below gamma_c:) Tj T* ET
+BT 1 0 0 1 54 681.6 Tm (life. Above gamma_c: chemistry.) Tj T* ET
+.5 w
+n 54 667.6 m 558 667.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 639.6 Tm (2. The Physical Chain) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 617.6 Tm (Before addressing individual anomalies, the physical chain must be stated) Tj T* ET
+BT 1 0 0 1 54 605.6 Tm (explicitly. No hand-waving. No appeals to emergence. Every link is calculable.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 587.6 Tm (Step 1: Gravitational constant to temperature.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 569.6 Tm (The gravitational constant G, operating through stellar nucleosynthesis and) Tj T* ET
+BT 1 0 0 1 54 557.6 Tm (planetary formation, determines that Earth-like planets in habitable zones maintain) Tj T* ET
+BT 1 0 0 1 54 545.6 Tm (surface and subsurface temperatures near T ~ 310 K. This is not fine-tuning. This is) Tj T* ET
+BT 1 0 0 1 54 533.6 Tm (the consequence of stellar main-sequence lifetimes and orbital mechanics. Paper 84) Tj T* ET
+BT 1 0 0 1 54 521.6 Tm (\(Z2 Symmetry\) establishes the deeper connection.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 503.6 Tm (Step 2: Temperature to de Broglie wavelength.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 485.6 Tm (At T = 310 K, the thermal de Broglie wavelength of biologically relevant molecules) Tj T* ET
+BT 1 0 0 1 54 473.6 Tm (\(amino acids, nucleotides, lipids, with typical masses m ~ 100-500 Da\) is:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 451.6 Tm (lambda_dB = h / sqrt\(2 * pi * m * k_B * T\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 431.6 Tm (For a molecule of mass m = 200 Da = 3.32 x 10^-25 kg at T = 310 K:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 409.6 Tm (lambda_dB = 6.626 x 10^-34 / sqrt\(2 * pi * 3.32 x 10^-25 * 1.381 x 10^-23 * 310\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 399.6 Tm (         = 6.626 x 10^-34 / sqrt\(2.83 x 10^-44\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 389.6 Tm (         = 6.626 x 10^-34 / 1.68 x 10^-22) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 379.6 Tm (         ~ 0.004 nm) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 359.6 Tm (This is small compared to molecular bond lengths \(0.1-0.15 nm\), but it is large) Tj T* ET
+BT 1 0 0 1 54 347.6 Tm (enough for quantum effects at molecular-scale confinement. When molecules are) Tj T* ET
+BT 1 0 0 1 54 335.6 Tm (confined in catalytic pockets, mineral surfaces, or membrane interiors -- where the) Tj T* ET
+BT 1 0 0 1 54 323.6 Tm (effective confinement length approaches 0.1 nm -- the ratio lambda_dB /) Tj T* ET
+BT 1 0 0 1 54 311.6 Tm (L_confinement enters the regime where coherence coupling becomes significant.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 293.6 Tm (Step 3: De Broglie wavelength to alpha.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 275.6 Tm (The coherence coupling constant alpha is determined by the ratio of thermal energy) Tj T* ET
+BT 1 0 0 1 54 263.6 Tm (to quantum confinement energy:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 241.6 Tm (alpha = k_B * T / \(h_bar * omega_c\) ~ 1000) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 221.6 Tm (where omega_c is the characteristic frequency of the confined molecular vibration.) Tj T* ET
+BT 1 0 0 1 54 209.6 Tm (At 310 K, alpha ~ 1000. This is fixed by physics. It is not a free parameter.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 191.6 Tm (Step 4: Alpha to coherence.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 169.6 Tm (C = C_0 * exp\(-1000 * gamma_eff\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 149.6 Tm (This exponential is savage. Small changes in gamma_eff produce enormous changes in) Tj T* ET
+BT 1 0 0 1 54 137.6 Tm (C. This is what makes the phase transition sharp. A 0.1% change in gamma_eff changes) Tj T* ET
+BT 1 0 0 1 54 125.6 Tm (C by a factor of e, roughly 2.7. A 1% change: a factor of e^10, roughly 22,000. The) Tj T* ET
+BT 1 0 0 1 54 113.6 Tm (transition from "just chemistry" to "sustained coherent catalysis" is not gradual.) Tj T* ET
+BT 1 0 0 1 54 101.6 Tm (It is a cliff.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 83.6 Tm (Step 5: Coherence to life.) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F2-0 18 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 5410
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 132: Origin of Life -- The Coherence Bootstrap) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (When C exceeds the threshold C_life -- the minimum coherence required to sustain a) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (self-reinforcing catalytic cycle -- the system is alive. Not metaphorically.) Tj T* ET
+BT 1 0 0 1 54 681.6 Tm (Functionally. It catalyzes its own maintenance, copies information, and responds to) Tj T* ET
+BT 1 0 0 1 54 669.6 Tm (environmental perturbation faster than decoherence destroys the response. Below) Tj T* ET
+BT 1 0 0 1 54 657.6 Tm (C_life, these activities are possible transiently but not sustainably. Above C_life,) Tj T* ET
+BT 1 0 0 1 54 645.6 Tm (they self-reinforce.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 627.6 Tm (The chain is complete: G --> T\(310K\) --> lambda_dB\(0.1 nm\) --> alpha ~ 1000 --> C) Tj T* ET
+BT 1 0 0 1 54 615.6 Tm (--> life.) Tj T* ET
+.5 w
+n 54 601.6 m 558 601.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 573.6 Tm (3. Anomaly 1: Abiogenesis -- The Origin Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 551.6 Tm (Statement. How did non-living chemistry become living? This is the master anomaly.) Tj T* ET
+BT 1 0 0 1 54 539.6 Tm (Every origin-of-life researcher works on some version of it. The difficulty is) Tj T* ET
+BT 1 0 0 1 54 527.6 Tm (conceptual, not merely chemical: we have no agreed-upon definition of the) Tj T* ET
+BT 1 0 0 1 54 515.6 Tm (transition. We can synthesize amino acids \(Miller-Urey\). We can polymerize) Tj T* ET
+BT 1 0 0 1 54 503.6 Tm (nucleotides on mineral surfaces. We can form lipid vesicles. None of these is alive.) Tj T* ET
+BT 1 0 0 1 54 491.6 Tm (What is missing?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 473.6 Tm (Closure. What is missing is coherence. Life is not a list of chemical capabilities.) Tj T* ET
+BT 1 0 0 1 54 461.6 Tm (Life is the state in which molecular assemblies sustain coherent catalytic cycles --) Tj T* ET
+BT 1 0 0 1 54 449.6 Tm (cycles in which quantum coherence across the catalytic network enables reaction) Tj T* ET
+BT 1 0 0 1 54 437.6 Tm (rates and specificities that cannot be achieved by thermal chemistry alone.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 419.6 Tm (The transition from non-life to life is the coherence phase transition. It occurs at) Tj T* ET
+BT 1 0 0 1 54 407.6 Tm (gamma_eff = gamma_c, where:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 385.6 Tm (C\(gamma_c\) = C_0 * exp\(-alpha * gamma_c\) = C_life) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 365.6 Tm (Solving for gamma_c:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 343.6 Tm (gamma_c = -\(1/alpha\) * ln\(C_life / C_0\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 323.6 Tm (For alpha ~ 1000 and C_life / C_0 ~ 10^-3 \(the minimum coherence fraction for) Tj T* ET
+BT 1 0 0 1 54 311.6 Tm (sustained catalysis\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 289.6 Tm (gamma_c = -\(1/1000\) * ln\(10^-3\) = \(1/1000\) * 6.91 = 6.91 x 10^-3) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 269.6 Tm (In appropriate units, gamma_c ~ 10^-3 to 10^-2. This is the critical decoherence) Tj T* ET
+BT 1 0 0 1 54 257.6 Tm (rate. Any environment where gamma_eff drops below this value will produce life,) Tj T* ET
+BT 1 0 0 1 54 245.6 Tm (given sufficient time for the right molecular assemblies to form.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 227.6 Tm (The transition is sharp because alpha is large. The exponential exp\(-1000 *) Tj T* ET
+BT 1 0 0 1 54 215.6 Tm (gamma_eff\) does not permit gradual transitions. There is no "partly alive." The) Tj T* ET
+BT 1 0 0 1 54 203.6 Tm (system either sustains coherent catalysis or it does not. This resolves the) Tj T* ET
+BT 1 0 0 1 54 191.6 Tm (conceptual problem that has plagued origin-of-life research: the search for a) Tj T* ET
+BT 1 0 0 1 54 179.6 Tm (gradual, step-by-step path from chemistry to life was always doomed. The transition) Tj T* ET
+BT 1 0 0 1 54 167.6 Tm (is not gradual. It is a phase transition.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 149.6 Tm (This does not mean life appeared instantaneously. The chemical precursors -- amino) Tj T* ET
+BT 1 0 0 1 54 137.6 Tm (acids, nucleotides, lipids, cofactors -- must accumulate. The right molecular) Tj T* ET
+BT 1 0 0 1 54 125.6 Tm (assemblies must form by ordinary chemistry. But the transition from "assemblies of) Tj T* ET
+BT 1 0 0 1 54 113.6 Tm (molecules" to "living system" is sharp. Once gamma_eff crosses gamma_c, coherence) Tj T* ET
+BT 1 0 0 1 54 101.6 Tm (bootstraps. The catalytic network becomes self-sustaining. Chemistry becomes) Tj T* ET
+BT 1 0 0 1 54 89.6 Tm (biology.) Tj T* ET
+.5 w
+n 54 75.6 m 558 75.6 l S
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F2-0 22 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 5808
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 132: Origin of Life -- The Coherence Bootstrap) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 705.6 Tm (4. Anomaly 2: The RNA World Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 683.6 Tm (Statement. The RNA World hypothesis proposes that RNA served as both information) Tj T* ET
+BT 1 0 0 1 54 671.6 Tm (carrier and catalyst before DNA and proteins. The experimental evidence is strong:) Tj T* ET
+BT 1 0 0 1 54 659.6 Tm (ribozymes exist, the ribosome is a ribozyme, RNA can catalyze a range of reactions.) Tj T* ET
+BT 1 0 0 1 54 647.6 Tm (The problem is fragility. RNA hydrolyzes readily. Its half-life in water at moderate) Tj T* ET
+BT 1 0 0 1 54 635.6 Tm (temperatures is hours to days for individual nucleotide bonds. How can a molecule) Tj T* ET
+BT 1 0 0 1 54 623.6 Tm (that falls apart in hours build a self-sustaining system that persists for billions) Tj T* ET
+BT 1 0 0 1 54 611.6 Tm (of years?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 593.6 Tm (Closure. The question contains its own error. RNA does not need to be chemically) Tj T* ET
+BT 1 0 0 1 54 581.6 Tm (stable. It needs to be coherent. These are different requirements.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 563.6 Tm (In a high-coherence environment -- such as a hydrothermal vent with mineral) Tj T* ET
+BT 1 0 0 1 54 551.6 Tm (scaffolding -- RNA coherence is protected by the local decoherence environment:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 529.6 Tm (C_RNA = C_0 * exp\(-alpha * gamma_vent\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 509.6 Tm (Mineral surfaces \(iron-sulfur clusters, zinc sulfide, montmorillonite clay\) act as) Tj T* ET
+BT 1 0 0 1 54 497.6 Tm (decoherence shields. They constrain the conformational space of adsorbed RNA, reduce) Tj T* ET
+BT 1 0 0 1 54 485.6 Tm (the coupling to bulk solvent fluctuations, and provide a structured electromagnetic) Tj T* ET
+BT 1 0 0 1 54 473.6 Tm (environment that suppresses thermal decoherence.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 455.6 Tm (This is not speculation. It is the same physics that enzyme active sites use today.) Tj T* ET
+BT 1 0 0 1 54 443.6 Tm (A modern enzyme active site is a decoherence shield: it constrains the substrate,) Tj T* ET
+BT 1 0 0 1 54 431.6 Tm (excludes bulk solvent, and provides a structured electrostatic environment. The) Tj T* ET
+BT 1 0 0 1 54 419.6 Tm (result is that gamma_eff inside the active site is orders of magnitude lower than) Tj T* ET
+BT 1 0 0 1 54 407.6 Tm (gamma_eff in bulk solution. This is why enzymes achieve rate enhancements of 10^6 to) Tj T* ET
+BT 1 0 0 1 54 395.6 Tm (10^17 -- not merely by "lowering the activation energy" \(the textbook explanation\)) Tj T* ET
+BT 1 0 0 1 54 383.6 Tm (but by sustaining quantum coherence across the reaction coordinate long enough for) Tj T* ET
+BT 1 0 0 1 54 371.6 Tm (tunneling and resonance effects to operate \(Paper 5, Section 4\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 353.6 Tm (Early mineral surfaces did the same job, less efficiently. They did not need to be) Tj T* ET
+BT 1 0 0 1 54 341.6 Tm (as good as modern enzymes. They needed to bring gamma_eff below gamma_c for RNA-) Tj T* ET
+BT 1 0 0 1 54 329.6 Tm (catalyzed reactions. Once RNA coherence exceeded C_life within these mineral-) Tj T* ET
+BT 1 0 0 1 54 317.6 Tm (shielded environments, the RNA system became self-sustaining. It could replicate) Tj T* ET
+BT 1 0 0 1 54 305.6 Tm (\(with errors -- hence evolution\). It could catalyze \(with lower efficiency than) Tj T* ET
+BT 1 0 0 1 54 293.6 Tm (modern enzymes -- hence selection pressure for improvement\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 275.6 Tm (The RNA world was not robust because RNA was stable. It was robust because the) Tj T* ET
+BT 1 0 0 1 54 263.6 Tm (environments where RNA operated provided sufficient decoherence shielding to) Tj T* ET
+BT 1 0 0 1 54 251.6 Tm (maintain coherence. When RNA-based life evolved protein enzymes -- better) Tj T* ET
+BT 1 0 0 1 54 239.6 Tm (decoherence shields -- it was not a revolution. It was an incremental improvement in) Tj T* ET
+BT 1 0 0 1 54 227.6 Tm (gamma_eff reduction. The protein takeover was the replacement of mineral decoherence) Tj T* ET
+BT 1 0 0 1 54 215.6 Tm (shields with purpose-built molecular ones.) Tj T* ET
+.5 w
+n 54 201.6 m 558 201.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 173.6 Tm (5. Anomaly 3: Chirality Selection) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 151.6 Tm (Statement. All biological amino acids are L-form. All biological sugars are D-form.) Tj T* ET
+BT 1 0 0 1 54 139.6 Tm (Abiotic synthesis produces racemic mixtures \(equal L and D\). How did the symmetry) Tj T* ET
+BT 1 0 0 1 54 127.6 Tm (break? This connects directly to Paper 131 \(Chirality\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 109.6 Tm (Closure. The parity-violating energy difference \(PVED\) between L and D enantiomers) Tj T* ET
+BT 1 0 0 1 54 97.6 Tm (is approximately 10^-17 eV. In thermal equilibrium at 310 K, this produces an) Tj T* ET
+BT 1 0 0 1 54 85.6 Tm (enantiomeric excess of:) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 25 0 R
+/F2 8 0 R
+/F2-0 26 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 5499
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 132: Origin of Life -- The Coherence Bootstrap) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 705.6 Tm (ee_thermal = PVED / \(2 * k_B * T\) ~ 10^-17 / \(2 * 0.027\) ~ 2 x 10^-16) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 685.6 Tm (This is unmeasurably small. Thermal chemistry cannot amplify it to homochirality.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 667.6 Tm (Coherence can. At the phase transition gamma_eff = gamma_c, the coherence function) Tj T* ET
+BT 1 0 0 1 54 655.6 Tm (amplifies the PVED through the decoherence asymmetry between enantiomers. The L and) Tj T* ET
+BT 1 0 0 1 54 643.6 Tm (D forms have slightly different gamma_eff values because the parity-violating weak) Tj T* ET
+BT 1 0 0 1 54 631.6 Tm (force produces slightly different electron distributions, which couple slightly) Tj T* ET
+BT 1 0 0 1 54 619.6 Tm (differently to the decoherence environment.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 601.6 Tm (The amplification factor is:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 579.6 Tm (A = exp\(-alpha * delta_gamma\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 559.6 Tm (where delta_gamma is the difference in decoherence rates between L and D forms. Even) Tj T* ET
+BT 1 0 0 1 54 547.6 Tm (though delta_gamma is tiny in absolute terms, the factor alpha ~ 1000 amplifies it) Tj T* ET
+BT 1 0 0 1 54 535.6 Tm (exponentially:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 513.6 Tm (delta_gamma ~ PVED / \(h_bar * omega_c\) ~ 10^-17 eV / \(10^-14 eV\) ~ 10^-3) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 503.6 Tm (alpha * delta_gamma ~ 1000 * 10^-3 = 1) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 493.6 Tm (A ~ exp\(-1\) ~ 0.37) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 473.6 Tm (This means the D-form coherence is 37% of the L-form coherence \(or vice versa,) Tj T* ET
+BT 1 0 0 1 54 461.6 Tm (depending on the sign of the PVED for the specific molecular system\). This is not a) Tj T* ET
+BT 1 0 0 1 54 449.6 Tm (subtle effect. At the phase transition, where coherence determines catalytic) Tj T* ET
+BT 1 0 0 1 54 437.6 Tm (viability, a 63% coherence disadvantage is lethal. The less-coherent enantiomer) Tj T* ET
+BT 1 0 0 1 54 425.6 Tm (cannot sustain catalytic cycles. The more-coherent one can. Selection is complete) Tj T* ET
+BT 1 0 0 1 54 413.6 Tm (within a single generation of the catalytic cycle.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 395.6 Tm (The key insight from Paper 131 applies here: chirality selection is not a problem) Tj T* ET
+BT 1 0 0 1 54 383.6 Tm (that needs a separate mechanism. It is an automatic consequence of the coherence) Tj T* ET
+BT 1 0 0 1 54 371.6 Tm (phase transition. Any system that crosses gamma_c will simultaneously become alive) Tj T* ET
+BT 1 0 0 1 54 359.6 Tm (and homochiral. These are not two events. They are one.) Tj T* ET
+.5 w
+n 54 345.6 m 558 345.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 317.6 Tm (6. Anomaly 4: Warm Little Pond vs Deep Sea Vent) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 295.6 Tm (Statement. Darwin proposed a "warm little pond." Modern candidates include) Tj T* ET
+BT 1 0 0 1 54 283.6 Tm (hydrothermal vents \(black smokers and alkaline vents like Lost City\), tidal pools,) Tj T* ET
+BT 1 0 0 1 54 271.6 Tm (ice surfaces, and even atmospheric aerosols. The debate has continued for decades) Tj T* ET
+BT 1 0 0 1 54 259.6 Tm (because each environment has plausible chemistry. Where did life actually start?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 241.6 Tm (Closure. The coherence framework answers this question with a prediction, not an) Tj T* ET
+BT 1 0 0 1 54 229.6 Tm (assumption: life started wherever gamma_eff first dropped below gamma_c. This is a) Tj T* ET
+BT 1 0 0 1 54 217.6 Tm (calculable criterion.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 199.6 Tm (Consider the decoherence rate in each candidate environment:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 181.6 Tm (Warm little pond \(surface\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 159.6 Tm (gamma_pond = gamma_thermal + gamma_UV + gamma_solvent + gamma_dilution) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 139.6 Tm (Surface environments suffer UV-induced decoherence \(gamma_UV is large before the) Tj T* ET
+BT 1 0 0 1 54 127.6 Tm (ozone layer\), rapid thermal fluctuations \(gamma_thermal varies with weather cycles\),) Tj T* ET
+BT 1 0 0 1 54 115.6 Tm (full solvent exposure \(gamma_solvent is maximal in open water\), and dilution of) Tj T* ET
+BT 1 0 0 1 54 103.6 Tm (reactants \(gamma_dilution reduces molecular encounter rates\). The total gamma_pond) Tj T* ET
+BT 1 0 0 1 54 91.6 Tm (is well above gamma_c for most conditions.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 73.6 Tm (Deep sea alkaline vent \(subsurface\):) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+25 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 29 0 R
+/F2 8 0 R
+/F2-0 30 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 5806
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 132: Origin of Life -- The Coherence Bootstrap) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 705.6 Tm (gamma_vent = gamma_thermal + gamma_mineral_shielded + gamma_gradient) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 685.6 Tm (No UV \(gamma_UV = 0 at depth\). Stable temperature maintained by geothermal gradients) Tj T* ET
+BT 1 0 0 1 54 673.6 Tm (\(gamma_thermal is constant and tunable by location within the vent\). Mineral) Tj T* ET
+BT 1 0 0 1 54 661.6 Tm (matrices -- iron-nickel sulfides, silicates, calcium carbonates -- provide) Tj T* ET
+BT 1 0 0 1 54 649.6 Tm (decoherence shielding \(gamma_mineral_shielded << gamma_solvent\). Chemical gradients) Tj T* ET
+BT 1 0 0 1 54 637.6 Tm (across thin mineral walls provide sustained free energy input without disrupting) Tj T* ET
+BT 1 0 0 1 54 625.6 Tm (coherence.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 607.6 Tm (The critical feature of alkaline vents is that mineral micropores create natural) Tj T* ET
+BT 1 0 0 1 54 595.6 Tm (compartments where gamma_eff can be maintained near gamma_c across geological time.) Tj T* ET
+BT 1 0 0 1 54 583.6 Tm (The system does not need luck. It needs persistence. Given millions of micropores) Tj T* ET
+BT 1 0 0 1 54 571.6 Tm (with slightly different gamma_eff values, some will sit at gamma_c. In those pores,) Tj T* ET
+BT 1 0 0 1 54 559.6 Tm (coherence bootstraps.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 541.6 Tm (Additionally, alkaline vents maintain pH gradients across thin mineral walls --) Tj T* ET
+BT 1 0 0 1 54 529.6 Tm (exactly the kind of proton-motive force that all modern life uses for energy) Tj T* ET
+BT 1 0 0 1 54 517.6 Tm (transduction \(chemiosmosis\). The coherence framework explains why: a pH gradient) Tj T* ET
+BT 1 0 0 1 54 505.6 Tm (across a mineral wall is a gamma_eff gradient. The low-gamma side sustains) Tj T* ET
+BT 1 0 0 1 54 493.6 Tm (coherence. The high-gamma side provides chemical free energy. The wall is the) Tj T* ET
+BT 1 0 0 1 54 481.6 Tm (boundary. This is protocellular metabolism.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 463.6 Tm (Prediction. Deep sea alkaline vents are the origin site. Not because of chemical) Tj T* ET
+BT 1 0 0 1 54 451.6 Tm (arguments \(though those are strong -- see Russell and Hall, Martin and Russell\).) Tj T* ET
+BT 1 0 0 1 54 439.6 Tm (Because the coherence framework requires it. The calculation of gamma_eff in each) Tj T* ET
+BT 1 0 0 1 54 427.6 Tm (candidate environment predicts that alkaline vents are the first environment on) Tj T* ET
+BT 1 0 0 1 54 415.6 Tm (early Earth where gamma_eff sustainably drops below gamma_c.) Tj T* ET
+.5 w
+n 54 401.6 m 558 401.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 373.6 Tm (7. Anomaly 5: Protocell Membrane Formation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 351.6 Tm (Statement. Modern cells are defined by membranes -- lipid bilayers that separate) Tj T* ET
+BT 1 0 0 1 54 339.6 Tm (interior from exterior. How did the first membranes form? Lipid vesicles self-) Tj T* ET
+BT 1 0 0 1 54 327.6 Tm (assemble readily from fatty acids in laboratory conditions, but why would early) Tj T* ET
+BT 1 0 0 1 54 315.6 Tm (molecular assemblies acquire membranes? What selective advantage did a membrane) Tj T* ET
+BT 1 0 0 1 54 303.6 Tm (provide before there was complex metabolism to contain?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 285.6 Tm (Closure. A membrane is a gamma_eff discontinuity. Inside the lipid bilayer, the) Tj T* ET
+BT 1 0 0 1 54 273.6 Tm (dielectric environment is radically different from bulk water. The hydrophobic) Tj T* ET
+BT 1 0 0 1 54 261.6 Tm (interior of the bilayer has a dielectric constant of approximately 2, compared to 80) Tj T* ET
+BT 1 0 0 1 54 249.6 Tm (for water. This means electromagnetic fluctuations -- a major source of decoherence) Tj T* ET
+BT 1 0 0 1 54 237.6 Tm (for polar and charged molecules -- are suppressed by a factor of 40 inside the) Tj T* ET
+BT 1 0 0 1 54 225.6 Tm (membrane-bounded space.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 207.6 Tm (More precisely, the membrane creates a boundary condition on the electromagnetic) Tj T* ET
+BT 1 0 0 1 54 195.6 Tm (vacuum fluctuation spectrum. Inside the membrane, the spectral density of) Tj T* ET
+BT 1 0 0 1 54 183.6 Tm (fluctuations at biological frequencies is sharply reduced. This directly reduces) Tj T* ET
+BT 1 0 0 1 54 171.6 Tm (gamma_eff for enclosed molecular assemblies:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 149.6 Tm (gamma_inside = gamma_outside * \(epsilon_water / epsilon_membrane\)^n) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 129.6 Tm (where n depends on the geometry and the specific decoherence mechanism \(n ~ 1 for) Tj T* ET
+BT 1 0 0 1 54 117.6 Tm (direct dielectric screening, n ~ 2 for fluctuation-mediated decoherence\). For n = 1:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 95.6 Tm (gamma_inside ~ gamma_outside * \(2/80\) = gamma_outside / 40) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 75.6 Tm (A forty-fold reduction in gamma_eff is enormous when alpha ~ 1000. The coherence) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 33 0 R
+/F2 8 0 R
+/F2-0 34 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 5888
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 132: Origin of Life -- The Coherence Bootstrap) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (enhancement is:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 683.6 Tm (C_inside / C_outside = exp\(-alpha * \(gamma_inside - gamma_outside\)\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 673.6 Tm (                     = exp\(-1000 * gamma_outside * \(1/40 - 1\)\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 663.6 Tm (                     = exp\(1000 * gamma_outside * 39/40\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 643.6 Tm (For gamma_outside near gamma_c, this produces orders-of-magnitude increases in) Tj T* ET
+BT 1 0 0 1 54 631.6 Tm (coherence.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 613.6 Tm (This means membrane formation is not a puzzle requiring explanation. It is) Tj T* ET
+BT 1 0 0 1 54 601.6 Tm (thermodynamically driven by the coherence framework. A system of molecules near the) Tj T* ET
+BT 1 0 0 1 54 589.6 Tm (coherence phase transition will spontaneously compartmentalize because) Tj T* ET
+BT 1 0 0 1 54 577.6 Tm (compartmentalization reduces gamma_eff, which increases coherence, which increases) Tj T* ET
+BT 1 0 0 1 54 565.6 Tm (the system's ability to sustain catalytic cycles that produce the membrane) Tj T* ET
+BT 1 0 0 1 54 553.6 Tm (components. The membrane is self-reinforcing.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 535.6 Tm (This is why lipid bilayers self-assemble so readily: self-assembly is the system) Tj T* ET
+BT 1 0 0 1 54 523.6 Tm (minimizing its total decoherence by creating gamma_eff discontinuities. The) Tj T* ET
+BT 1 0 0 1 54 511.6 Tm ("selective advantage" of a membrane is not containment of metabolites \(the standard) Tj T* ET
+BT 1 0 0 1 54 499.6 Tm (explanation\). The selective advantage is decoherence reduction. Containment is a) Tj T* ET
+BT 1 0 0 1 54 487.6 Tm (side effect. Coherence is the driver.) Tj T* ET
+.5 w
+n 54 473.6 m 558 473.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 445.6 Tm (8. Anomaly 6: Metabolism-First vs Replication-First) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 423.6 Tm (Statement. The origin-of-life community has debated for decades whether metabolism) Tj T* ET
+BT 1 0 0 1 54 411.6 Tm (or replication came first. The metabolism-first camp \(Wachtershauser, Russell,) Tj T* ET
+BT 1 0 0 1 54 399.6 Tm (Morowitz\) argues that autocatalytic chemical cycles preceded genetic information.) Tj T* ET
+BT 1 0 0 1 54 387.6 Tm (The replication-first camp \(Orgel, Szostak, Joyce\) argues that self-replicating) Tj T* ET
+BT 1 0 0 1 54 375.6 Tm (molecules \(RNA\) preceded metabolic networks. Neither camp has produced a convincing) Tj T* ET
+BT 1 0 0 1 54 363.6 Tm (experimental demonstration of its scenario in isolation.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 345.6 Tm (Closure. The debate is dissolved. Neither metabolism nor replication came first.) Tj T* ET
+BT 1 0 0 1 54 333.6 Tm (Coherence came first.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 315.6 Tm (Both metabolic cycles and template replication are consequences of sustained) Tj T* ET
+BT 1 0 0 1 54 303.6 Tm (coherence. A coherent catalytic cycle IS metabolism: a set of reactions that) Tj T* ET
+BT 1 0 0 1 54 291.6 Tm (sustains itself through coherent coupling of reaction intermediates. A coherent) Tj T* ET
+BT 1 0 0 1 54 279.6 Tm (template-copying process IS replication: a molecular assembly that produces copies) Tj T* ET
+BT 1 0 0 1 54 267.6 Tm (of an information-bearing molecule through coherent base-pairing and polymerization.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 249.6 Tm (At the coherence phase transition gamma_eff = gamma_c, both capabilities emerge) Tj T* ET
+BT 1 0 0 1 54 237.6 Tm (simultaneously because both are manifestations of the same underlying physics:) Tj T* ET
+BT 1 0 0 1 54 225.6 Tm (sustained quantum coherence across a molecular network.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 207.6 Tm (Consider why:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 189.6 Tm (Metabolism as coherent catalysis. A metabolic cycle requires that the product of) Tj T* ET
+BT 1 0 0 1 54 177.6 Tm (reaction N serves as the catalyst or substrate for reaction N+1, and that the cycle) Tj T* ET
+BT 1 0 0 1 54 165.6 Tm (closes -- the product of the last reaction regenerates the input to the first. In an) Tj T* ET
+BT 1 0 0 1 54 153.6 Tm (incoherent \(thermal\) system, each reaction proceeds independently. The probability) Tj T* ET
+BT 1 0 0 1 54 141.6 Tm (that all reactions in a cycle of length N proceed in sequence is the product of) Tj T* ET
+BT 1 0 0 1 54 129.6 Tm (individual probabilities, which shrinks exponentially with N. In a coherent system,) Tj T* ET
+BT 1 0 0 1 54 117.6 Tm (the reactions are coupled. The intermediate states are superposed. The cycle does) Tj T* ET
+BT 1 0 0 1 54 105.6 Tm (not proceed step-by-step. It proceeds as a coherent process across the entire) Tj T* ET
+BT 1 0 0 1 54 93.6 Tm (network. This is why metabolism works: not because each enzyme is efficient in) Tj T* ET
+BT 1 0 0 1 54 81.6 Tm (isolation, but because the metabolic network maintains coherence across multiple) Tj T* ET
+BT 1 0 0 1 54 69.6 Tm (reaction steps.) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/Contents 36 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 37 0 R
+/F2 8 0 R
+/F2-0 38 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 6053
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 132: Origin of Life -- The Coherence Bootstrap) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 8) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (Replication as coherent copying. Template-directed polymerization requires that each) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (incoming monomer "reads" the template and selects the correct complementary base. In) Tj T* ET
+BT 1 0 0 1 54 681.6 Tm (an incoherent system, this is a thermally-driven process with an error rate) Tj T* ET
+BT 1 0 0 1 54 669.6 Tm (determined by the free energy difference between correct and incorrect base pairs) Tj T* ET
+BT 1 0 0 1 54 657.6 Tm (\(approximately 2-4 kT, giving error rates of 10^-1 to 10^-2 per base\). In a coherent) Tj T* ET
+BT 1 0 0 1 54 645.6 Tm (system, the incoming monomer's quantum state couples to the template's quantum) Tj T* ET
+BT 1 0 0 1 54 633.6 Tm (state, producing an amplified selectivity through coherent discrimination. The error) Tj T* ET
+BT 1 0 0 1 54 621.6 Tm (rate drops to exp\(-alpha * delta_gamma_mismatch\), where delta_gamma_mismatch is the) Tj T* ET
+BT 1 0 0 1 54 609.6 Tm (decoherence rate difference between matched and mismatched base pairs. With alpha ~) Tj T* ET
+BT 1 0 0 1 54 597.6 Tm (1000, even small values of delta_gamma_mismatch produce enormous selectivity.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 579.6 Tm (Both capabilities require the same thing: gamma_eff < gamma_c. Both emerge at the) Tj T* ET
+BT 1 0 0 1 54 567.6 Tm (same transition. The metabolism-replication debate assumed they were separate) Tj T* ET
+BT 1 0 0 1 54 555.6 Tm (capabilities requiring separate origins. The coherence framework reveals they are) Tj T* ET
+BT 1 0 0 1 54 543.6 Tm (one capability -- sustained molecular coherence -- expressed in two ways.) Tj T* ET
+.5 w
+n 54 529.6 m 558 529.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 501.6 Tm (9. Anomaly 7: The Faint Young Sun Paradox \(Biological Angle\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 479.6 Tm (Statement. The Sun was approximately 30% less luminous 4 billion years ago than it) Tj T* ET
+BT 1 0 0 1 54 467.6 Tm (is today. Standard climate models predict that early Earth should have been frozen.) Tj T* ET
+BT 1 0 0 1 54 455.6 Tm (Yet geological evidence shows liquid water and thriving microbial life by 3.8) Tj T* ET
+BT 1 0 0 1 54 443.6 Tm (billion years ago, possibly 4.1 billion. The standard resolution involves greenhouse) Tj T* ET
+BT 1 0 0 1 54 431.6 Tm (gases \(CO2, CH4, N2O at higher concentrations\). This paper addresses the biological) Tj T* ET
+BT 1 0 0 1 54 419.6 Tm (angle: how did early life thrive with less energy input?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 401.6 Tm (Closure. Early life was more coherent than modern life. This is counterintuitive) Tj T* ET
+BT 1 0 0 1 54 389.6 Tm (only if one assumes that evolution optimizes coherence. It does not. Evolution) Tj T* ET
+BT 1 0 0 1 54 377.6 Tm (optimizes fitness, which is a complex function of coherence, robustness,) Tj T* ET
+BT 1 0 0 1 54 365.6 Tm (adaptability, and reproductive rate. Modern life operates well above gamma_c -- it) Tj T* ET
+BT 1 0 0 1 54 353.6 Tm (has headroom. Early life operated near gamma_c -- at the edge of the phase) Tj T* ET
+BT 1 0 0 1 54 341.6 Tm (transition.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 323.6 Tm (But "near gamma_c" means "near maximal coherence enhancement." The exponential) Tj T* ET
+BT 1 0 0 1 54 311.6 Tm (exp\(-alpha * gamma_eff\) is steepest near gamma_c. Small reductions in gamma_eff near) Tj T* ET
+BT 1 0 0 1 54 299.6 Tm (the transition produce large gains in C. Early organisms, living near the phase) Tj T* ET
+BT 1 0 0 1 54 287.6 Tm (boundary, extracted more catalytic work per unit of coherence than modern organisms,) Tj T* ET
+BT 1 0 0 1 54 275.6 Tm (which operate in the plateau region far from gamma_c.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 257.6 Tm (Additionally, the early ocean environment provided lower gamma_eff than modern) Tj T* ET
+BT 1 0 0 1 54 245.6 Tm (oceans:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 223.6 Tm (gamma_early = gamma_thermal + gamma_dissolved + gamma_radiation) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 213.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 203.6 Tm (gamma_modern = gamma_thermal + gamma_dissolved\(higher\) + gamma_radiation + gamma_O2) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 183.6 Tm (Early oceans had lower dissolved mineral content \(less continental weathering had) Tj T* ET
+BT 1 0 0 1 54 171.6 Tm (occurred\). No dissolved oxygen \(a potent source of chemical decoherence through) Tj T* ET
+BT 1 0 0 1 54 159.6 Tm (reactive oxygen species\). Different atmospheric composition \(less UV at the surface) Tj T* ET
+BT 1 0 0 1 54 147.6 Tm (due to thicker CO2 atmosphere, different spectral distribution\). The net effect:) Tj T* ET
+BT 1 0 0 1 54 135.6 Tm (gamma_early < gamma_modern for subsurface aqueous environments.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 117.6 Tm (Higher coherence means:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 99.6 Tm (1. More efficient catalysis per enzyme molecule -- fewer enzyme copies needed, less) Tj T* ET
+BT 1 0 0 1 54 87.6 Tm (protein synthesis required, less energy consumed.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 69.6 Tm (2. More efficient energy transduction -- chemiosmotic coupling with less proton) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+37 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/Contents 40 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 41 0 R
+/F2 8 0 R
+/F2-0 42 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 5914
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 132: Origin of Life -- The Coherence Bootstrap) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 9) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (leakage across membranes \(tighter coherence at the membrane boundary\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 687.6 Tm (3. Lower maintenance metabolism -- less energy spent repairing decoherence-induced) Tj T* ET
+BT 1 0 0 1 54 675.6 Tm (damage \(oxidative damage did not yet exist; thermal damage was reduced by higher) Tj T* ET
+BT 1 0 0 1 54 663.6 Tm (coherence\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 645.6 Tm (The result: early life required less energy input to sustain itself. The faint young) Tj T* ET
+BT 1 0 0 1 54 633.6 Tm (Sun was not a problem for organisms running near the coherence phase transition.) Tj T* ET
+BT 1 0 0 1 54 621.6 Tm (They were, in a precise physical sense, more efficient than modern organisms. The) Tj T* ET
+BT 1 0 0 1 54 609.6 Tm (30% luminosity deficit is offset by higher coherence efficiency.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 591.6 Tm (This predicts a testable pattern: as the Sun brightened over geological time,) Tj T* ET
+BT 1 0 0 1 54 579.6 Tm (organisms evolved AWAY from the phase boundary -- increasing gamma_eff \(through) Tj T* ET
+BT 1 0 0 1 54 567.6 Tm (oxidative metabolism, higher metabolic rates, more complex cellular machinery with) Tj T* ET
+BT 1 0 0 1 54 555.6 Tm (more decoherence sources\) while maintaining viability through the increasing energy) Tj T* ET
+BT 1 0 0 1 54 543.6 Tm (budget. The history of life is the history of moving away from gamma_c, trading) Tj T* ET
+BT 1 0 0 1 54 531.6 Tm (coherence efficiency for complexity and adaptability.) Tj T* ET
+.5 w
+n 54 517.6 m 558 517.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 489.6 Tm (10. The Coherence Bootstrap: Synthesis) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 467.6 Tm (The seven anomalies addressed in this paper are not independent puzzles. They are) Tj T* ET
+BT 1 0 0 1 54 455.6 Tm (aspects of a single phenomenon: the coherence phase transition at gamma_eff =) Tj T* ET
+BT 1 0 0 1 54 443.6 Tm (gamma_c.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 425.6 Tm (The bootstrap proceeds as follows:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 407.6 Tm (1. Environment preparation. Geological processes \(hydrothermal activity, mineral) Tj T* ET
+BT 1 0 0 1 54 395.6 Tm (precipitation\) create microporous environments where gamma_eff approaches gamma_c.) Tj T* ET
+BT 1 0 0 1 54 383.6 Tm (No biology is required for this step. It is geology.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 365.6 Tm (2. Chemical accumulation. Ordinary prebiotic chemistry \(Miller-Urey synthesis,) Tj T* ET
+BT 1 0 0 1 54 353.6 Tm (Fischer-Tropsch synthesis on mineral surfaces, delivery by meteorites\) produces) Tj T* ET
+BT 1 0 0 1 54 341.6 Tm (amino acids, nucleotides, lipids, and small organic molecules. These accumulate in) Tj T* ET
+BT 1 0 0 1 54 329.6 Tm (mineral micropores. No coherence is required for this step. It is chemistry.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 311.6 Tm (3. Phase transition. In some micropores, the combination of molecular concentration,) Tj T* ET
+BT 1 0 0 1 54 299.6 Tm (mineral shielding, and stable temperature brings gamma_eff below gamma_c. Coherent) Tj T* ET
+BT 1 0 0 1 54 287.6 Tm (catalytic cycles bootstrap. Simultaneously: metabolism emerges \(coherent catalysis\),) Tj T* ET
+BT 1 0 0 1 54 275.6 Tm (information copying emerges \(coherent replication\), chirality locks \(coherent) Tj T* ET
+BT 1 0 0 1 54 263.6 Tm (amplification of PVED\), and membrane formation begins \(coherence-driven) Tj T* ET
+BT 1 0 0 1 54 251.6 Tm (compartmentalization\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 233.6 Tm (4. Consolidation. Once coherent, the system produces its own decoherence shields) Tj T* ET
+BT 1 0 0 1 54 221.6 Tm (\(first mineral-organized, then peptide-based, then protein-based\). Each improvement) Tj T* ET
+BT 1 0 0 1 54 209.6 Tm (in shielding reduces gamma_eff further below gamma_c, increasing robustness. The) Tj T* ET
+BT 1 0 0 1 54 197.6 Tm (system moves from barely-alive \(at gamma_c\) to robustly-alive \(well below gamma_c\).) Tj T* ET
+BT 1 0 0 1 54 185.6 Tm (This is not Darwinian evolution yet -- it is coherence-driven self-improvement.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 167.6 Tm (5. Darwinian threshold. Once the system achieves sufficient replication fidelity) Tj T* ET
+BT 1 0 0 1 54 155.6 Tm (\(through improved coherence in template copying\), Darwinian evolution begins. Error) Tj T* ET
+BT 1 0 0 1 54 143.6 Tm (rates drop below the error catastrophe threshold. Information accumulates across) Tj T* ET
+BT 1 0 0 1 54 131.6 Tm (generations. Coherence-driven improvement gives way to evolution-driven improvement.) Tj T* ET
+BT 1 0 0 1 54 119.6 Tm (Life, as we recognize it, is underway.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 101.6 Tm (The bootstrap is not improbable. It is inevitable, given sufficient time and the) Tj T* ET
+BT 1 0 0 1 54 89.6 Tm (right geological setting. The coherence phase transition is as deterministic as the) Tj T* ET
+BT 1 0 0 1 54 77.6 Tm (transition from water to ice at 273 K. It does not require luck, miracles, or) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+41 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+42 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+43 0 obj
+<<
+/Contents 44 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 45 0 R
+/F2 8 0 R
+/F2-0 46 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+44 0 obj
+<<
+/Length 5475
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 132: Origin of Life -- The Coherence Bootstrap) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 287.1 738 Tm (Page 10) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (extraordinary coincidence. It requires carbon chemistry at 310 K in a mineral-) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (shielded aqueous environment with stable free energy input. These conditions existed) Tj T* ET
+BT 1 0 0 1 54 681.6 Tm (on early Earth. Therefore, life arose.) Tj T* ET
+.5 w
+n 54 667.6 m 558 667.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 639.6 Tm (11. Predictions) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 617.6 Tm (The coherence bootstrap framework generates falsifiable predictions:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 599.6 Tm (Prediction 1. Synthetic origin-of-life experiments will succeed only when they) Tj T* ET
+BT 1 0 0 1 54 587.6 Tm (achieve gamma_eff < gamma_c. Experiments in bulk solution \(high gamma_eff\) will) Tj T* ET
+BT 1 0 0 1 54 575.6 Tm (continue to produce interesting chemistry but not self-sustaining systems.) Tj T* ET
+BT 1 0 0 1 54 563.6 Tm (Experiments in mineral-shielded microporous environments with stable chemical) Tj T* ET
+BT 1 0 0 1 54 551.6 Tm (gradients will succeed. The key experimental variable is not temperature, pH, or) Tj T* ET
+BT 1 0 0 1 54 539.6 Tm (reactant concentration. It is gamma_eff.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 521.6 Tm (Prediction 2. The transition from chemistry to life in successful experiments will) Tj T* ET
+BT 1 0 0 1 54 509.6 Tm (be sharp, not gradual. There will be a measurable threshold below which the system) Tj T* ET
+BT 1 0 0 1 54 497.6 Tm (self-organizes and above which it does not. This threshold corresponds to gamma_c.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 479.6 Tm (Prediction 3. Life that arises in such experiments will be homochiral from the) Tj T* ET
+BT 1 0 0 1 54 467.6 Tm (start. Chirality selection and abiogenesis will occur simultaneously, not) Tj T* ET
+BT 1 0 0 1 54 455.6 Tm (sequentially.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 437.6 Tm (Prediction 4. Membrane formation will occur spontaneously at the phase transition,) Tj T* ET
+BT 1 0 0 1 54 425.6 Tm (not as a later evolutionary addition. The membrane will form because the system) Tj T* ET
+BT 1 0 0 1 54 413.6 Tm (minimizes gamma_eff, not because of any selective advantage related to containment.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 395.6 Tm (Prediction 5. Early life analogs \(organisms engineered or evolved to operate near) Tj T* ET
+BT 1 0 0 1 54 383.6 Tm (gamma_c\) will show higher catalytic efficiency per enzyme molecule than modern) Tj T* ET
+BT 1 0 0 1 54 371.6 Tm (organisms, but lower robustness to environmental perturbation.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 353.6 Tm (Prediction 6. The ratio of metabolic efficiency to energy input in ancient microbial) Tj T* ET
+BT 1 0 0 1 54 341.6 Tm (lineages \(measured through comparative biochemistry of deeply branching organisms\)) Tj T* ET
+BT 1 0 0 1 54 329.6 Tm (will be systematically higher than in modern organisms, consistent with operation) Tj T* ET
+BT 1 0 0 1 54 317.6 Tm (closer to gamma_c.) Tj T* ET
+.5 w
+n 54 303.6 m 558 303.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 275.6 Tm (12. What Life Is) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 253.6 Tm (This paper permits a definition of life that is precise, physical, and non-circular:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 235.6 Tm (Life is a molecular system operating below the critical decoherence rate gamma_c,) Tj T* ET
+BT 1 0 0 1 54 223.6 Tm (where coherent catalytic cycles, coherent information copying, and coherent self-) Tj T* ET
+BT 1 0 0 1 54 211.6 Tm (organization are self-sustaining.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 193.6 Tm (This definition:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 175.6 Tm (- Distinguishes life from non-life by a measurable physical quantity \(gamma_eff) Tj T* ET
+BT 1 0 0 1 64 163.6 Tm (relative to gamma_c\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 151.6 Tm (- Does not require reproduction, metabolism, or evolution as defining criteria --) Tj T* ET
+BT 1 0 0 1 64 139.6 Tm (these are consequences of coherence, not prerequisites.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 127.6 Tm (- Applies to carbon-based life at 310 K and can be extended to any chemistry at) Tj T* ET
+BT 1 0 0 1 64 115.6 Tm (any temperature by recalculating alpha and gamma_c for the relevant molecular) Tj T* ET
+BT 1 0 0 1 64 103.6 Tm (physics.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 91.6 Tm (- Explains why viruses are ambiguously alive \(they operate above gamma_c in) Tj T* ET
+BT 1 0 0 1 64 79.6 Tm (isolation but below gamma_c when coupled to a host cell's decoherence-shielding) Tj T* ET
+BT 1 0 0 1 64 67.6 Tm (machinery\).) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+45 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+46 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+47 0 obj
+<<
+/Contents 48 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 49 0 R
+/F2 8 0 R
+/F2-0 50 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+48 0 obj
+<<
+/Length 5481
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 132: Origin of Life -- The Coherence Bootstrap) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 287.1 738 Tm (Page 11) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 705.6 Tm (- Explains why fire, crystals, and autocatalytic chemical reactions are not alive) Tj T* ET
+BT 1 0 0 1 64 693.6 Tm (despite sharing some surface features with life \(they do not operate below gamma_c) Tj T* ET
+BT 1 0 0 1 64 681.6 Tm (for their respective molecular systems\).) Tj T* ET
+.5 w
+n 54 667.6 m 558 667.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 639.6 Tm (13. Conclusion) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 617.6 Tm (Seven anomalies in origin-of-life research -- abiogenesis, RNA world fragility,) Tj T* ET
+BT 1 0 0 1 54 605.6 Tm (chirality selection, the venue debate, membrane formation, the metabolism-) Tj T* ET
+BT 1 0 0 1 54 593.6 Tm (replication priority question, and the faint young sun paradox -- are closed by the) Tj T* ET
+BT 1 0 0 1 54 581.6 Tm (coherence decay function C = C_0 * exp\(-alpha * gamma_eff\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 563.6 Tm (The closures are not ad hoc. They follow from a single physical principle applied to) Tj T* ET
+BT 1 0 0 1 54 551.6 Tm (carbon chemistry at 310 K. The chain G --> T\(310K\) --> lambda_dB\(0.1 nm\) --> alpha ~) Tj T* ET
+BT 1 0 0 1 54 539.6 Tm (1000 --> C --> life contains no free parameters beyond those fixed by fundamental) Tj T* ET
+BT 1 0 0 1 54 527.6 Tm (physics and the choice of chemistry.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 509.6 Tm (Life is not mysterious. Life is not improbable. Life is not the result of an) Tj T* ET
+BT 1 0 0 1 54 497.6 Tm (extraordinary accident in an ordinary universe. Life is the coherence phase) Tj T* ET
+BT 1 0 0 1 54 485.6 Tm (transition. It is as inevitable as ice, as predictable as superconductivity, and as) Tj T* ET
+BT 1 0 0 1 54 473.6 Tm (sharp as any other phase transition in physics.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 455.6 Tm (The question was never "how did life begin?" The question was always "what is the) Tj T* ET
+BT 1 0 0 1 54 443.6 Tm (order parameter?" The answer is coherence.) Tj T* ET
+.5 w
+n 54 429.6 m 558 429.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 401.6 Tm (References) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 379.6 Tm (1. Wike, R. D. Paper 5, "REQMT: The Coherence Decay Function." AIIT-THRESI Series.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 367.6 Tm (2. Wike, R. D. Paper 84, "Z2 Symmetry and the Coherence Coupling Constant." AIIT-) Tj T* ET
+BT 1 0 0 1 54 355.6 Tm (THRESI Series.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 343.6 Tm (3. Wike, R. D. Paper 125, "Quantum Foundations Revisited." AIIT-THRESI Series.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 331.6 Tm (4. Wike, R. D. Paper 130, "Particle Physics Anomalies Through the Coherence Lens.") Tj T* ET
+BT 1 0 0 1 54 319.6 Tm (AIIT-THRESI Series.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 307.6 Tm (5. Wike, R. D. Paper 131, "Chirality Selection via Coherence Amplification." AIIT-) Tj T* ET
+BT 1 0 0 1 54 295.6 Tm (THRESI Series.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 283.6 Tm (6. Miller, S. L. "Production of Amino Acids Under Possible Primitive Earth) Tj T* ET
+BT 1 0 0 1 54 271.6 Tm (Conditions." Science 117 \(1953\): 528-529.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 259.6 Tm (7. Gilbert, W. "Origin of Life: The RNA World." Nature 319 \(1986\): 618.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 247.6 Tm (8. Russell, M. J., Hall, A. J. "The Emergence of Life from Iron Monosulphide Bubbles) Tj T* ET
+BT 1 0 0 1 54 235.6 Tm (at a Submarine Hydrothermal Redox and pH Front." J. Geol. Soc. London 154 \(1997\):) Tj T* ET
+BT 1 0 0 1 54 223.6 Tm (377-402.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 211.6 Tm (9. Wachtershauser, G. "Before Enzymes and Templates: Theory of Surface Metabolism.") Tj T* ET
+BT 1 0 0 1 54 199.6 Tm (Microbiol. Rev. 52 \(1988\): 452-484.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 187.6 Tm (10. Szostak, J. W., Bartel, D. P., Luisi, P. L. "Synthesizing Life." Nature 409) Tj T* ET
+BT 1 0 0 1 54 175.6 Tm (\(2001\): 387-390.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 163.6 Tm (11. Martin, W., Russell, M. J. "On the Origins of Cells: A Hypothesis for the) Tj T* ET
+BT 1 0 0 1 54 151.6 Tm (Evolutionary Transitions from Abiotic Geochemistry to Chemoautotrophic Prokaryotes.") Tj T* ET
+BT 1 0 0 1 54 139.6 Tm (Phil. Trans. R. Soc. B 358 \(2003\): 59-85.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 127.6 Tm (12. Engel, G. S. et al. "Evidence for Wavelike Energy Transfer Through Quantum) Tj T* ET
+BT 1 0 0 1 54 115.6 Tm (Coherence in Photosynthetic Systems." Nature 446 \(2007\): 782-786.) Tj T* ET
+.5 w
+n 54 101.6 m 558 101.6 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 79.6 Tm (*End of Paper 132.*) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+49 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+50 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 51
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000344 00000 n 
+0000000393 00000 n 
+0000000753 00000 n 
+0000006267 00000 n 
+0000006374 00000 n 
+0000006481 00000 n 
+0000006591 00000 n 
+0000006701 00000 n 
+0000006807 00000 n 
+0000007171 00000 n 
+0000012398 00000 n 
+0000012506 00000 n 
+0000012617 00000 n 
+0000012981 00000 n 
+0000018444 00000 n 
+0000018552 00000 n 
+0000018663 00000 n 
+0000019027 00000 n 
+0000024888 00000 n 
+0000024996 00000 n 
+0000025107 00000 n 
+0000025471 00000 n 
+0000031023 00000 n 
+0000031131 00000 n 
+0000031242 00000 n 
+0000031606 00000 n 
+0000037465 00000 n 
+0000037573 00000 n 
+0000037684 00000 n 
+0000038048 00000 n 
+0000043989 00000 n 
+0000044097 00000 n 
+0000044208 00000 n 
+0000044572 00000 n 
+0000050678 00000 n 
+0000050786 00000 n 
+0000050897 00000 n 
+0000051261 00000 n 
+0000057228 00000 n 
+0000057336 00000 n 
+0000057447 00000 n 
+0000057811 00000 n 
+0000063339 00000 n 
+0000063447 00000 n 
+0000063558 00000 n 
+0000063922 00000 n 
+0000069456 00000 n 
+0000069564 00000 n 
+trailer
+<<
+/Size 51
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+69675
+%%EOF

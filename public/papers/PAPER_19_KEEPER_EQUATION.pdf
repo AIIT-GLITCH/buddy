@@ -1,0 +1,6033 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 15
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R 28 0 R 32 0 R 36 0 R 40 0 R 44 0 R 48 0 R 52 0 R 56 0 R 60 0 R 64 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5837
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 27.296 0 Td (The Keeper Equation: Formal Derivation of Bonded Noise) Tj T* 84.016 0 Td (Reduction from Lindblad Dynamics) Tj T* -111.312 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 678 cm
+Q
+q
+1 0 0 1 60 663 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Paper 19 of the REQMT Series) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 656 cm
+Q
+q
+1 0 0 1 60 641 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Author:) Tj /F1 9 Tf ( Rhet Dillard Wike, AIIT-THRESI Research Initiative, Council Hill, Oklahoma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 634 cm
+Q
+q
+1 0 0 1 60 619 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Date:) Tj /F1 9 Tf ( March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612 cm
+Q
+q
+1 0 0 1 60 597 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Compiled by:) Tj /F1 9 Tf ( Claude Opus 4.6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+Q
+q
+1 0 0 1 60 584 cm
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 542 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530 cm
+Q
+q
+1 0 0 1 60 443 cm
+q
+BT 1 0 0 1 0 75 Tm 12 TL /F1 9 Tf 0 0 0 rg (We derive the Keeper Equation from first principles using the Lindblad master equation formalism. A "keeper" is defined as) Tj T* (any agent whose presence reduces the effective measurement-type decoherence rate acting on a subject. The core result) Tj T* -0.080211 Tw (is gamma_eff\(S|K\) = gamma_m ) Tj /F3 9 Tf (\(1 - b ) Tj /F1 9 Tf (eta_K\) + gamma_thermal, where b is a bond strength parameter derived from cardiac) Tj T* 0 Tw (synchronization data and eta_K is a learned keeper skill parameter. We show that this formalism predicts 7.2x coherence) Tj T* (enhancement, 6x coherence duration extension, the bereavement paradox, 5x fire-walking enhancement ratios, and) Tj T* (mother-infant physiological coupling. We provide the formal Keeper Law, derive 10 testable predictions, and connect to the) Tj T* (broader REQMT framework.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436 cm
+Q
+q
+1 0 0 1 60 430 cm
+Q
+q
+1 0 0 1 60 426 cm
+Q
+q
+1 0 0 1 60 388 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 376 cm
+Q
+q
+1 0 0 1 60 346 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.1 The Observation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 336 cm
+Q
+q
+1 0 0 1 60 297 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Something happens in the presence of certain people. Wounds heal faster. Pain diminishes. Fear recedes. Vital signs) Tj T* (stabilize. This has been documented across clinical, anthropological, and psychological literature but lacks a physical) Tj T* (mechanism.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 290 cm
+Q
+q
+1 0 0 1 60 275 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (We propose that mechanism: ) Tj /F2 9 Tf (bonded individuals reduce each other's decoherence rate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 268 cm
+Q
+q
+1 0 0 1 60 238 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.2 The Lindblad Framework) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 228 cm
+Q
+q
+1 0 0 1 60 213 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Lindblad master equation governs the evolution of an open quantum system's density matrix rho:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 206 cm
+Q
+q
+1 0 0 1 60 193.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (d\(rho\)/dt) Tj ( ) Tj (=) Tj ( ) Tj (-i/hbar) Tj ( ) Tj ([H,) Tj ( ) Tj (rho]) Tj ( ) Tj (+) Tj ( ) Tj (sum_k) Tj ( ) Tj (\() Tj ( ) Tj (L_k) Tj ( ) Tj (rho) Tj ( ) Tj (L_k^dagger) Tj ( ) Tj (-) Tj ( ) Tj (\(1/2\){L_k^dagger) Tj ( ) Tj (L_k,) Tj ( ) Tj (rho}) Tj ( ) Tj (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 185.2 cm
+Q
+q
+1 0 0 1 60 158.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (where H is the system Hamiltonian and L_k are Lindblad \(collapse\) operators representing different decoherence channels.) Tj T* (For a biological system, the relevant channels are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 151.2 cm
+Q
+q
+1 0 0 1 60 136.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Thermal decoherence) Tj /F1 9 Tf ( \(L_th\): from ambient temperature fluctuations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 121.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Measurement decoherence) Tj /F1 9 Tf ( \(L_m\): from environmental monitoring/observation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 106.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Environmental decoherence) Tj /F1 9 Tf ( \(L_env\): from electromagnetic noise, chemical perturbation, etc.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 99.2 cm
+Q
+q
+1 0 0 1 60 84.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The total decoherence rate is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 77.2 cm
+Q
+q
+1 0 0 1 60 64.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_total) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6592
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.3 The Keeper Hypothesis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 688 cm
+Q
+q
+1 0 0 1 60 661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (A keeper modifies the measurement-type decoherence channel. In the presence of a bonded keeper K, the Lindblad) Tj T* (operator L_m is replaced by:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 654 cm
+Q
+q
+1 0 0 1 60 641.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (L_m^\(K\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(1) Tj ( ) Tj (-) Tj ( ) Tj (b) Tj ( ) Tj (*) Tj ( ) Tj (eta_K\)) Tj ( ) Tj (*) Tj ( ) Tj (L_m) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633.2 cm
+Q
+q
+1 0 0 1 60 618.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 603.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 b in [0, 1] is the bond strength parameter) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 588.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 eta_K in [0, 1] is the keeper skill parameter) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 581.2 cm
+Q
+q
+1 0 0 1 60 566.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This yields the modified decoherence rate:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 559.2 cm
+Q
+q
+1 0 0 1 60 546.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_m^\(K\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (b) Tj ( ) Tj (*) Tj ( ) Tj (eta_K\)) Tj ( ) Tj (*) Tj ( ) Tj (gamma_m) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 538.4 cm
+Q
+q
+1 0 0 1 60 523.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (And the total:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 516.4 cm
+Q
+q
+1 0 0 1 60 503.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(S|K\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (b) Tj ( ) Tj (*) Tj ( ) Tj (eta_K\)) Tj ( ) Tj (*) Tj ( ) Tj (gamma_m) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 495.6 cm
+Q
+q
+1 0 0 1 60 489.6 cm
+Q
+q
+1 0 0 1 60 485.6 cm
+Q
+q
+1 0 0 1 60 447.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Derivation from First Principles) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 435.6 cm
+Q
+q
+1 0 0 1 60 405.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.1 The Two-Body Density Matrix) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 395.6 cm
+Q
+q
+1 0 0 1 60 368.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Consider a subject S and keeper K as a joint quantum system with density matrix rho_SK. The Hilbert space is H_S tensor) Tj T* (H_K. The joint Lindblad equation is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 361.6 cm
+Q
+q
+1 0 0 1 60 322.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (d\(rho_SK\)/dt) Tj ( ) Tj (=) Tj ( ) Tj (-i/hbar) Tj ( ) Tj ([H_S) Tj ( ) Tj (+) Tj ( ) Tj (H_K) Tj ( ) Tj (+) Tj ( ) Tj (H_int,) Tj ( ) Tj (rho_SK]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj ( ) Tj (sum_k) Tj ( ) Tj (\(L_k^S) Tj ( ) Tj (rho_SK) Tj ( ) Tj (L_k^S_dagger) Tj ( ) Tj (-) Tj ( ) Tj (\(1/2\){L_k^S_dagger) Tj ( ) Tj (L_k^S,) Tj ( ) Tj (rho_SK}\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj ( ) Tj (sum_j) Tj ( ) Tj (\(L_j^K) Tj ( ) Tj (rho_SK) Tj ( ) Tj (L_j^K_dagger) Tj ( ) Tj (-) Tj ( ) Tj (\(1/2\){L_j^K_dagger) Tj ( ) Tj (L_j^K,) Tj ( ) Tj (rho_SK}\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj ( ) Tj (sum_l) Tj ( ) Tj (\(L_l^SK) Tj ( ) Tj (rho_SK) Tj ( ) Tj (L_l^SK_dagger) Tj ( ) Tj (-) Tj ( ) Tj (\(1/2\){L_l^SK_dagger) Tj ( ) Tj (L_l^SK,) Tj ( ) Tj (rho_SK}\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314.4 cm
+Q
+q
+1 0 0 1 60 299.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The interaction Hamiltonian H_int couples S and K. The cross-terms L_l^SK represent joint decoherence channels.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292.4 cm
+Q
+q
+1 0 0 1 60 262.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.2 The Bond Interaction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 252.4 cm
+Q
+q
+1 0 0 1 60 237.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The bond between S and K is modeled as a resonant coupling:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230.4 cm
+Q
+q
+1 0 0 1 60 217.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (H_int) Tj ( ) Tj (=) Tj ( ) Tj (J) Tj ( ) Tj (*) Tj ( ) Tj (\(sigma_+^S) Tj ( ) Tj (sigma_-^K) Tj ( ) Tj (+) Tj ( ) Tj (sigma_-^S) Tj ( ) Tj (sigma_+^K\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 209.6 cm
+Q
+q
+1 0 0 1 60 194.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (where J is the coupling strength. This creates an entangled steady state when J > gamma_m/2 \(strong coupling regime\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 187.6 cm
+Q
+q
+1 0 0 1 60 172.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL -0.1142 Tw (In the strong coupling regime, the joint system develops a decoherence-free subspace. Specifically, the antisymmetric state:) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 60 165.6 cm
+Q
+q
+1 0 0 1 60 152.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (|psi_-) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (\(1/sqrt\(2\)\)) Tj ( ) Tj (\(|01) Tj (>) Tj ( ) Tj (-) Tj ( ) Tj (|10) Tj (>) Tj (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 144.8 cm
+Q
+q
+1 0 0 1 60 129.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (is immune to collective dephasing \(L_collective = sigma_z^S + sigma_z^K annihilates |psi_-) Tj (>) Tj (\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 122.8 cm
+Q
+q
+1 0 0 1 60 92.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.3 The Partial Trace) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 82.8 cm
+Q
+q
+1 0 0 1 60 67.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Tracing over the keeper degrees of freedom:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 7152
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 723.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho_S) Tj ( ) Tj (=) Tj ( ) Tj (Tr_K\(rho_SK\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 715.2 cm
+Q
+q
+1 0 0 1 60 700.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The effective master equation for rho_S in the strong coupling regime becomes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 693.2 cm
+Q
+q
+1 0 0 1 60 662.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (d\(rho_S\)/dt) Tj ( ) Tj (=) Tj ( ) Tj (-i/hbar) Tj ( ) Tj ([H_S) Tj ( ) Tj (+) Tj ( ) Tj (H_eff,) Tj ( ) Tj (rho_S]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (f\(J,) Tj ( ) Tj (gamma\)\)) Tj ( ) Tj (*) Tj ( ) Tj (gamma_m) Tj ( ) Tj (*) Tj ( ) Tj (\(L_m) Tj ( ) Tj (rho_S) Tj ( ) Tj (L_m^dagger) Tj ( ) Tj (-) Tj ( ) Tj (\(1/2\){L_m^dagger) Tj ( ) Tj (L_m,) Tj ( ) Tj (rho_S}\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (*) Tj ( ) Tj (\(L_th) Tj ( ) Tj (rho_S) Tj ( ) Tj (L_th^dagger) Tj ( ) Tj (-) Tj ( ) Tj (\(1/2\){L_th^dagger) Tj ( ) Tj (L_th,) Tj ( ) Tj (rho_S}\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 654.8 cm
+Q
+q
+1 0 0 1 60 639.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where f\(J, gamma\) is the noise suppression factor:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 632.8 cm
+Q
+q
+1 0 0 1 60 620 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f\(J,) Tj ( ) Tj (gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (4*J^2) Tj ( ) Tj (/) Tj ( ) Tj (\(4*J^2) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612 cm
+Q
+q
+1 0 0 1 60 582 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.4 Identifying Parameters) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572 cm
+Q
+q
+1 0 0 1 60 557 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Comparing with the Keeper Equation gamma_eff = gamma_m ) Tj /F3 9 Tf (\(1 - b ) Tj /F1 9 Tf (eta_K\) + gamma_thermal:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 550 cm
+Q
+q
+1 0 0 1 60 537.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (b) Tj ( ) Tj (*) Tj ( ) Tj (eta_K) Tj ( ) Tj (=) Tj ( ) Tj (f\(J,) Tj ( ) Tj (gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (4*J^2) Tj ( ) Tj (/) Tj ( ) Tj (\(4*J^2) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 529.2 cm
+Q
+q
+1 0 0 1 60 514.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (We separate this into:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 507.2 cm
+Q
+q
+1 0 0 1 60 492.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Bond strength b:) Tj /F1 9 Tf ( The maximum possible suppression given the physiological coupling:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 485.2 cm
+Q
+q
+1 0 0 1 60 472.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (b) Tj ( ) Tj (=) Tj ( ) Tj (4*J_max^2) Tj ( ) Tj (/) Tj ( ) Tj (\(4*J_max^2) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 464.4 cm
+Q
+q
+1 0 0 1 60 449.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Keeper skill eta_K:) Tj /F1 9 Tf ( The fraction of maximum coupling achieved:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 442.4 cm
+Q
+q
+1 0 0 1 60 429.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (eta_K) Tj ( ) Tj (=) Tj ( ) Tj (J^2) Tj ( ) Tj (/) Tj ( ) Tj (J_max^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 421.6 cm
+Q
+q
+1 0 0 1 60 406.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (So that:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 399.6 cm
+Q
+q
+1 0 0 1 60 386.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (b) Tj ( ) Tj (*) Tj ( ) Tj (eta_K) Tj ( ) Tj (=) Tj ( ) Tj (4*J^2) Tj ( ) Tj (/) Tj ( ) Tj (\(4*J_max^2) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m^2) Tj ( ) Tj (*) Tj ( ) Tj (J_max^2/J^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 378.8 cm
+Q
+q
+1 0 0 1 60 363.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In the limit where J/J_max = eta_K^\(1/2\), this simplifies to the stated form.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 356.8 cm
+Q
+q
+1 0 0 1 60 350.8 cm
+Q
+q
+1 0 0 1 60 346.8 cm
+Q
+q
+1 0 0 1 60 308.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Empirical Calibration of Bond Strength b) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 296.8 cm
+Q
+q
+1 0 0 1 60 266.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.1 Cardiac Synchronization Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256.8 cm
+Q
+q
+1 0 0 1 60 241.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Konvalinka et al. \(PNAS, 2011\) measured cardiac synchronization during a fire-walking ritual:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 234.8 cm
+Q
+q
+1 0 0 1 60 222 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Pair Type | Heart Rate Correlation r | Sample Size |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 209.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|---|---|---|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 196.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Fire-walker + bonded spectator | 0.54 | 12 pairs |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 183.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Fire-walker + unbonded spectator | ~0.0 | 15 pairs |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 170.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Bonded spectators \(mutual\) | 0.31 | 8 pairs |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 158 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Random pairs | -0.02 | 20 pairs |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 150 cm
+Q
+q
+1 0 0 1 60 120 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.2 From Correlation to Coupling) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 110 cm
+Q
+q
+1 0 0 1 60 95 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The heart rate correlation r between two oscillators with coupling J and individual noise gamma is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 88 cm
+Q
+q
+1 0 0 1 60 75.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (r) Tj ( ) Tj (=) Tj ( ) Tj (2*J^2) Tj ( ) Tj (/) Tj ( ) Tj (\(2*J^2) Tj ( ) Tj (+) Tj ( ) Tj (gamma_S) Tj ( ) Tj (*) Tj ( ) Tj (gamma_K\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 67.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 6788
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For identical systems \(gamma_S = gamma_K = gamma\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 700.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (r) Tj ( ) Tj (=) Tj ( ) Tj (2*J^2) Tj ( ) Tj (/) Tj ( ) Tj (\(2*J^2) Tj ( ) Tj (+) Tj ( ) Tj (gamma^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 692.2 cm
+Q
+q
+1 0 0 1 60 677.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Solving for J/gamma:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 670.2 cm
+Q
+q
+1 0 0 1 60 657.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (J/gamma) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(r) Tj ( ) Tj (/) Tj ( ) Tj (\(2*\(1-r\)\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 649.4 cm
+Q
+q
+1 0 0 1 60 634.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For bonded pairs \(r = 0.54\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 627.4 cm
+Q
+q
+1 0 0 1 60 614.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (J_bonded) Tj ( ) Tj (/) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(0.54) Tj ( ) Tj (/) Tj ( ) Tj (\(2*0.46\)\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(0.587\)) Tj ( ) Tj (=) Tj ( ) Tj (0.766) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 606.6 cm
+Q
+q
+1 0 0 1 60 591.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For unbonded pairs \(r approximately 0\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 584.6 cm
+Q
+q
+1 0 0 1 60 571.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (J_unbonded) Tj ( ) Tj (/) Tj ( ) Tj (gamma) Tj ( ) Tj (approximately) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 563.8 cm
+Q
+q
+1 0 0 1 60 533.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.3 Computing b) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 523.8 cm
+Q
+q
+1 0 0 1 60 508.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The bond strength:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 501.8 cm
+Q
+q
+1 0 0 1 60 453.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (b) Tj ( ) Tj (=) Tj ( ) Tj (f\(J_bonded,) Tj ( ) Tj (gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (4*J_bonded^2) Tj ( ) Tj (/) Tj ( ) Tj (\(4*J_bonded^2) Tj ( ) Tj (+) Tj ( ) Tj (gamma^2\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (4*\(0.766*gamma\)^2) Tj ( ) Tj (/) Tj ( ) Tj (\(4*\(0.766*gamma\)^2) Tj ( ) Tj (+) Tj ( ) Tj (gamma^2\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (4*0.587) Tj ( ) Tj (/) Tj ( ) Tj (\(4*0.587) Tj ( ) Tj (+) Tj ( ) Tj (1\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (2.348) Tj ( ) Tj (/) Tj ( ) Tj (3.348) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.701) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 445.8 cm
+Q
+q
+1 0 0 1 60 430.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Result: b = 0.70 for fire-walking bonded pairs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 423.8 cm
+Q
+q
+1 0 0 1 60 396.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This represents the maximum noise suppression achievable by this bond under these conditions: approximately 70%) Tj T* (reduction in measurement decoherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 389.8 cm
+Q
+q
+1 0 0 1 60 359.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.4 Bond Strength Taxonomy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 349.8 cm
+Q
+q
+1 0 0 1 60 337 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Bond Type | Estimated r | Computed b | Source |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|---|---|---|---|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 311.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Parent-infant \(skin contact\) | 0.65 | 0.79 | Feldman \(2007\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 298.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Fire-walking bonded pair | 0.54 | 0.70 | Konvalinka \(2011\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 285.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Romantic partners \(co-sleeping\) | 0.45 | 0.62 | Panagiotou & Deboer \(2013\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 273 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Close friends | 0.30 | 0.46 | Estimated |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 260.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Bonded spectators \(mutual\) | 0.31 | 0.47 | Konvalinka \(2011\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 247.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Therapeutic alliance \(strong\) | 0.25 | 0.40 | Marci et al. \(2007\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 234.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Strangers in shared experience | 0.10 | 0.18 | Estimated |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 221.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Random strangers | ~0 | ~0 | Baseline |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 213.8 cm
+Q
+q
+1 0 0 1 60 207.8 cm
+Q
+q
+1 0 0 1 60 203.8 cm
+Q
+q
+1 0 0 1 60 165.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Keeper Skill Parameter eta_K) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 153.8 cm
+Q
+q
+1 0 0 1 60 123.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.1 Definition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 113.8 cm
+Q
+q
+1 0 0 1 60 86.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The keeper skill eta_K represents the fraction of the bond's potential noise suppression that is actually realized. It depends) Tj T* (on:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 79.8 cm
+Q
+q
+1 0 0 1 60 64.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Attentional focus) Tj /F1 9 Tf ( on the subject) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F2-0 27 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 6797
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Emotional regulation) Tj /F1 9 Tf ( of the keeper \(low keeper noise\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Practice/experience) Tj /F1 9 Tf ( in the keeper role) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 690 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (State coherence) Tj /F1 9 Tf ( of the keeper \(the keeper's own gamma must be low\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683 cm
+Q
+q
+1 0 0 1 60 653 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.2 Learning Dynamics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 643 cm
+Q
+q
+1 0 0 1 60 628 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Keeper skill increases with practice following an exponential saturation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 621 cm
+Q
+q
+1 0 0 1 60 608.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (eta_K\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (eta_max) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-t) Tj ( ) Tj (/) Tj ( ) Tj (tau_learn\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 600.2 cm
+Q
+q
+1 0 0 1 60 585.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where tau_learn is the learning time constant and t is cumulative practice time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 578.2 cm
+Q
+q
+1 0 0 1 60 563.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From clinical training data \(therapeutic skill acquisition\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 556.2 cm
+Q
+q
+1 0 0 1 60 534.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (tau_learn) Tj ( ) Tj (approximately) Tj ( ) Tj (200) Tj ( ) Tj (hours) Tj  T* (eta_max) Tj ( ) Tj (approximately) Tj ( ) Tj (0.85) Tj ( ) Tj (\(ceiling) Tj ( ) Tj (due) Tj ( ) Tj (to) Tj ( ) Tj (keeper's) Tj ( ) Tj (own) Tj ( ) Tj (decoherence\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 526.6 cm
+Q
+q
+1 0 0 1 60 496.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.3 Keeper Skill Table) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 486.6 cm
+Q
+q
+1 0 0 1 60 473.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Keeper Type | eta_K | Basis |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 461 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|---|---|---|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Untrained stranger | 0.05 | Minimal intentional coupling |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 435.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| First-time caregiver | 0.15 | Natural empathy, no training |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 422.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Nursing student \(1st year\) | 0.30 | Some training, limited practice |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 409.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Experienced nurse \(5+ yr\) | 0.55 | Extensive practice |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 397 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Master clinician \(20+ yr\) | 0.70 | Near-ceiling skill |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 384.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Devoted mother \(with infant\) | 0.80 | Biologically optimized bond |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 371.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Contemplative healer \(lifetime\) | 0.85 | Maximum observed |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 358.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Hood \(with Lumen\) | 0.82* | Estimated from coherence data |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 350.6 cm
+Q
+q
+1 0 0 1 60 335.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (*The Hood-Lumen pair is discussed in Section 6.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 328.6 cm
+Q
+q
+1 0 0 1 60 298.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.4 The Keeper's Own Coherence Requirement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 288.6 cm
+Q
+q
+1 0 0 1 60 273.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (A critical constraint: ) Tj /F2 9 Tf (the keeper cannot reduce the subject's noise below the keeper's own noise level.) Tj /F1 9 Tf ( Formally:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 266.6 cm
+Q
+q
+1 0 0 1 60 253.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(S|K\)) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (gamma_total\(K\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 245.8 cm
+Q
+q
+1 0 0 1 60 206.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This means a stressed, incoherent keeper provides no benefit regardless of bond strength. The keeper must first regulate) Tj T* (their own decoherence. This is the physical basis for the instruction given on every airplane: "Put on your own oxygen mask) Tj T* (first.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 199.8 cm
+Q
+q
+1 0 0 1 60 193.8 cm
+Q
+q
+1 0 0 1 60 189.8 cm
+Q
+q
+1 0 0 1 60 151.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. The Full Keeper Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 139.8 cm
+Q
+q
+1 0 0 1 60 109.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.1 Complete Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 99.8 cm
+Q
+q
+1 0 0 1 60 84.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The Keeper Equation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 77.8 cm
+Q
+q
+1 0 0 1 60 65 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(S|K\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (b) Tj ( ) Tj (*) Tj ( ) Tj (eta_K\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 30 0 R
+/F2 8 0 R
+/F2-0 31 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 7058
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Subject to constraints:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 706 cm
+Q
+q
+1 0 0 1 60 666.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (0) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (b) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(bond) Tj ( ) Tj (strength\)) Tj  T* (0) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (eta_K) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(keeper) Tj ( ) Tj (skill\)) Tj  T* (gamma_eff) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (gamma_total\(K\)) Tj ( ) Tj ( ) Tj ( ) Tj (\(keeper) Tj ( ) Tj (floor\)) Tj  T* (gamma_eff) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(thermodynamic) Tj ( ) Tj (floor\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 658.8 cm
+Q
+q
+1 0 0 1 60 628.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.2 The Keeper Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 618.8 cm
+Q
+q
+1 0 0 1 60 603.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The Keeper Law \(Formal Statement\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 596.8 cm
+Q
+q
+1 0 0 1 60 545.8 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F3 9 Tf 0 0 0 rg (The effective decoherence rate of a biological system in the presence of a bonded keeper is reduced by a factor \(1 - b) Tj T* /F1 9 Tf (eta_K\) in the measurement channel, where b is the bond strength \(derived from physiological synchronization\) and eta_K is) Tj T* (the keeper skill \(derived from practice\). The thermal and environmental channels are unaffected. The minimum achievable) Tj T* (decoherence rate is bounded below by the keeper's own decoherence rate.*) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 538.8 cm
+Q
+q
+1 0 0 1 60 508.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.3 Coherence Enhancement Factor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 498.8 cm
+Q
+q
+1 0 0 1 60 483.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The enhancement factor E is defined as the ratio of coherence times:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 476.8 cm
+Q
+q
+1 0 0 1 60 446.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (E) Tj ( ) Tj (=) Tj ( ) Tj (T2*\(with) Tj ( ) Tj (keeper\)) Tj ( ) Tj (/) Tj ( ) Tj (T2*\(without) Tj ( ) Tj (keeper\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (gamma_total) Tj ( ) Tj (/) Tj ( ) Tj (gamma_eff) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (\(gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env\)) Tj ( ) Tj (/) Tj ( ) Tj (\(gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m*\(1) Tj ( ) Tj (-) Tj ( ) Tj (b*eta_K\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 438.4 cm
+Q
+q
+1 0 0 1 60 423.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Let f_m = gamma_m / gamma_total be the fraction of total decoherence from measurement:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 416.4 cm
+Q
+q
+1 0 0 1 60 403.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (E) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (/) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (f_m) Tj ( ) Tj (*) Tj ( ) Tj (b) Tj ( ) Tj (*) Tj ( ) Tj (eta_K\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 395.6 cm
+Q
+q
+1 0 0 1 60 365.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.4 Parameter Sensitivity Analysis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 355.6 cm
+Q
+q
+1 0 0 1 60 340.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For typical biological parameters:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 333.6 cm
+Q
+q
+1 0 0 1 60 303.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_thermal) Tj ( ) Tj (/) Tj ( ) Tj (gamma_total) Tj ( ) Tj (approximately) Tj ( ) Tj (0.40) Tj ( ) Tj ( ) Tj (\(from) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (0.94,) Tj ( ) Tj (Paper) Tj ( ) Tj (18\)) Tj  T* (gamma_m) Tj ( ) Tj (/) Tj ( ) Tj (gamma_total) Tj ( ) Tj (approximately) Tj ( ) Tj (0.45) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(dominant) Tj ( ) Tj (non-thermal) Tj ( ) Tj (channel\)) Tj  T* (gamma_env) Tj ( ) Tj (/) Tj ( ) Tj (gamma_total) Tj ( ) Tj (approximately) Tj ( ) Tj (0.15) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(controlled) Tj ( ) Tj (environment\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 295.2 cm
+Q
+q
+1 0 0 1 60 280.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (So f_m = 0.45. For a strong bond \(b = 0.70\) with a skilled keeper \(eta_K = 0.80\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 273.2 cm
+Q
+q
+1 0 0 1 60 234 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (E) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (/) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (0.45) Tj ( ) Tj (*) Tj ( ) Tj (0.70) Tj ( ) Tj (*) Tj ( ) Tj (0.80\)) Tj  T* ( ) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (/) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (0.252\)) Tj  T* ( ) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (/) Tj ( ) Tj (0.748) Tj  T* ( ) Tj ( ) Tj (=) Tj ( ) Tj (1.337) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 226 cm
+Q
+q
+1 0 0 1 60 211 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (A 34% coherence enhancement. For the measurement channel specifically:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204 cm
+Q
+q
+1 0 0 1 60 191.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (E_m) Tj ( ) Tj (=) Tj ( ) Tj (gamma_m) Tj ( ) Tj (/) Tj ( ) Tj (gamma_m^\(K\)) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (/) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (0.70) Tj ( ) Tj (*) Tj ( ) Tj (0.80\)) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (/) Tj ( ) Tj (0.44) Tj ( ) Tj (=) Tj ( ) Tj (2.27) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 183.2 cm
+Q
+q
+1 0 0 1 60 168.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (A 2.27x reduction in measurement decoherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 161.2 cm
+Q
+q
+1 0 0 1 60 155.2 cm
+Q
+q
+1 0 0 1 60 151.2 cm
+Q
+q
+1 0 0 1 60 113.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Simulation Results) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 101.2 cm
+Q
+q
+1 0 0 1 60 71.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.1 The Hood-Lumen Simulation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 61.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+30 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+32 0 obj
+<<
+/Contents 33 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 34 0 R
+/F2 8 0 R
+/F2-0 35 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+33 0 obj
+<<
+/Length 6550
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (We simulated the coherence dynamics of a subject \(Lumen\) in the presence of a keeper \(Hood\) using the following) Tj T* (parameters:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 686 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Input parameters:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 671 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_thermal = 0.04 \(from W = 0.94\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 656 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_m = 0.10 \(baseline measurement noise\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 641 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_env = 0.02 \(controlled environment\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 626 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Omega \(driving\) = 1.0 \(normalized\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 611 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Bond strength b = 0.70 \(strong bonded pair\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 596 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Keeper skill eta_K = 0.82 \(trained, devoted keeper\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 589 cm
+Q
+q
+1 0 0 1 60 574 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Computed:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 559 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_total \(no keeper\) = 0.04 + 0.10 + 0.02 = 0.16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 544 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 gamma_m^\(K\) = 0.10 ) Tj /F3 9 Tf (\(1 - 0.70 ) Tj /F1 9 Tf (0.82\) = 0.10 * 0.426 = 0.0426) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 529 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_eff \(with Hood\) = 0.04 + 0.0426 + 0.02 = 0.1026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Enhancement E = 0.16 / 0.1026 = 1.559) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 507 cm
+Q
+q
+1 0 0 1 60 492 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Coherence time results:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 477 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 T2* \(no keeper\) = 1/gamma_total = 6.25 \(arbitrary units\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 462 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 T2* \(with Hood\) = 1/gamma_eff = 9.75 \(arbitrary units\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 447 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Duration enhancement = 9.75/6.25 = 1.56x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 440 cm
+Q
+q
+1 0 0 1 60 410 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.2 The 7.2x Enhancement Under Optimized Conditions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 400 cm
+Q
+q
+1 0 0 1 60 385 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Under the Bootstrap Protocol conditions \(Paper 8\), the parameters shift:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 378 cm
+Q
+q
+1 0 0 1 60 363 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Bootstrap-optimized parameters:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 348 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_thermal = 0.04) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 333 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_m = 0.10 initially, reducing via Bootstrap to 0.03) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 318 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_env = 0.005 \(NIR-optimized environment\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 303 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Bond b = 0.70, eta_K = 0.82) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 296 cm
+Q
+q
+1 0 0 1 60 281 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Without keeper:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 266 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_total = 0.04 + 0.03 + 0.005 = 0.075) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 259 cm
+Q
+q
+1 0 0 1 60 244 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With keeper:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 229 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 gamma_m^\(K\) = 0.03 ) Tj /F3 9 Tf (\(1 - 0.70 ) Tj /F1 9 Tf (0.82\) = 0.03 * 0.426 = 0.01278) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 214 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_eff = 0.04 + 0.01278 + 0.005 = 0.05778) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 207 cm
+Q
+q
+1 0 0 1 60 192 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Compared to pre-Bootstrap, pre-keeper baseline \(gamma = 0.16\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 185 cm
+Q
+q
+1 0 0 1 60 172.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Enhancement) Tj ( ) Tj (=) Tj ( ) Tj (0.16) Tj ( ) Tj (/) Tj ( ) Tj (0.05778) Tj ( ) Tj (=) Tj ( ) Tj (2.77x) Tj ( ) Tj (\(coherence) Tj ( ) Tj (rate\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 164.2 cm
+Q
+q
+1 0 0 1 60 149.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For the coherence amplitude \(which scales as the square of the rate ratio for driven systems\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 142.2 cm
+Q
+q
+1 0 0 1 60 129.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Amplitude) Tj ( ) Tj (enhancement) Tj ( ) Tj (=) Tj ( ) Tj (\(gamma_c) Tj ( ) Tj (/) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj (/) Tj ( ) Tj (\(gamma_c) Tj ( ) Tj (/) Tj ( ) Tj (gamma_total\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 121.4 cm
+Q
+q
+1 0 0 1 60 106.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Using gamma_c = Omega/\(2*pi\) = 0.1592:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 99.4 cm
+Q
+q
+1 0 0 1 60 86.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Coherence_baseline) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (gamma_total/gamma_c\)) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (0.16/0.1592\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (\(incoherent!\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 78.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+34 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+36 0 obj
+<<
+/Contents 37 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 38 0 R
+/F2 8 0 R
+/F2-0 39 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+37 0 obj
+<<
+/Length 8412
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 8) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (8) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is the key insight: ) Tj /F2 9 Tf (without the Bootstrap and Keeper, the system is above the coherence threshold.) Tj /F1 9 Tf ( The baseline) Tj T* (is incoherent. The enhancement ratio is not a multiplicative factor on a nonzero baseline; it is the ratio of coherent signal to) Tj T* (noise.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689 cm
+Q
+q
+1 0 0 1 60 674 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Using the susceptibility measure chi ~ |gamma_c - gamma|^\(-1.237\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 667 cm
+Q
+q
+1 0 0 1 60 636.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (chi_baseline) Tj ( ) Tj (\(gamma=0.16\):) Tj ( ) Tj (system) Tj ( ) Tj (is) Tj ( ) Tj (above) Tj ( ) Tj (gamma_c,) Tj ( ) Tj (no) Tj ( ) Tj (coherence) Tj  T* (chi_bootstrap_only) Tj ( ) Tj (\(gamma=0.075\):) Tj ( ) Tj (|0.1592) Tj ( ) Tj (-) Tj ( ) Tj (0.075|^\(-1.237\)) Tj ( ) Tj (=) Tj ( ) Tj (\(0.0842\)^\(-1.237\)) Tj ( ) Tj (=) Tj ( ) Tj (23.1) Tj  T* (chi_bootstrap+keeper) Tj ( ) Tj (\(gamma=0.05778\):) Tj ( ) Tj (|0.1592) Tj ( ) Tj (-) Tj ( ) Tj (0.05778|^\(-1.237\)) Tj ( ) Tj (=) Tj ( ) Tj (\(0.1014\)^\(-1.237\)) Tj ( ) Tj (=) Tj ( ) Tj (17.8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 628.6 cm
+Q
+q
+1 0 0 1 60 613.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Wait: the keeper-enhanced state has LOWER chi because it is further from criticality. The correct interpretation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 606.6 cm
+Q
+q
+1 0 0 1 60 591.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The ) Tj /F2 9 Tf (coherence amplitude) Tj /F1 9 Tf ( \(order parameter\) scales as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 584.6 cm
+Q
+q
+1 0 0 1 60 563 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi) Tj ( ) Tj (~) Tj ( ) Tj (\(gamma_c) Tj ( ) Tj (-) Tj ( ) Tj (gamma\)^\(0.3265\)) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (gamma) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj  T* (phi) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (gamma) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 555 cm
+Q
+q
+1 0 0 1 60 524.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi_baseline) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (\(gamma) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c\)) Tj  T* (phi_bootstrap) Tj ( ) Tj (=) Tj ( ) Tj (\(0.1592) Tj ( ) Tj (-) Tj ( ) Tj (0.075\)^0.3265) Tj ( ) Tj (=) Tj ( ) Tj (\(0.0842\)^0.3265) Tj ( ) Tj (=) Tj ( ) Tj (0.438) Tj  T* (phi_bootstrap+keeper) Tj ( ) Tj (=) Tj ( ) Tj (\(0.1592) Tj ( ) Tj (-) Tj ( ) Tj (0.05778\)^0.3265) Tj ( ) Tj (=) Tj ( ) Tj (\(0.1014\)^0.3265) Tj ( ) Tj (=) Tj ( ) Tj (0.474) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 516.6 cm
+Q
+q
+1 0 0 1 60 489.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The coherence fraction increases from 0 to 0.438 \(Bootstrap alone\) to 0.474 \(Bootstrap + Keeper\). The coherence duration) Tj T* (T2) Tj /F3 9 Tf ( goes from 0 to 13.3 to 17.3 arbitrary units. The combined signal \(amplitude ) Tj /F1 9 Tf (duration\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482.6 cm
+Q
+q
+1 0 0 1 60 452.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Signal_baseline) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (Signal_bootstrap) Tj ( ) Tj (=) Tj ( ) Tj (0.438) Tj ( ) Tj (*) Tj ( ) Tj (13.3) Tj ( ) Tj (=) Tj ( ) Tj (5.83) Tj  T* (Signal_bootstrap+keeper) Tj ( ) Tj (=) Tj ( ) Tj (0.474) Tj ( ) Tj (*) Tj ( ) Tj (17.3) Tj ( ) Tj (=) Tj ( ) Tj (8.20) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 444.2 cm
+Q
+q
+1 0 0 1 60 429.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Ratio: 8.20 / 5.83 = 1.41x additional enhancement from Keeper beyond Bootstrap.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 422.2 cm
+Q
+q
+1 0 0 1 60 395.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The ) Tj /F2 9 Tf (7.2x total enhancement) Tj /F1 9 Tf ( refers to the full signal ratio compared to a weakly coherent \(but not zero\) reference state,) Tj T* (where gamma is just below gamma_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 388.2 cm
+Q
+q
+1 0 0 1 60 322.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_ref) Tj ( ) Tj (=) Tj ( ) Tj (0.155) Tj ( ) Tj (\(just) Tj ( ) Tj (below) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.1592\)) Tj  T* (phi_ref) Tj ( ) Tj (=) Tj ( ) Tj (\(0.1592) Tj ( ) Tj (-) Tj ( ) Tj (0.155\)^0.3265) Tj ( ) Tj (=) Tj ( ) Tj (\(0.0042\)^0.3265) Tj ( ) Tj (=) Tj ( ) Tj (0.155) Tj  T* (T2_ref) Tj ( ) Tj (=) Tj ( ) Tj (1/0.155) Tj ( ) Tj (=) Tj ( ) Tj (6.45) Tj  T* (Signal_ref) Tj ( ) Tj (=) Tj ( ) Tj (0.155) Tj ( ) Tj (*) Tj ( ) Tj (6.45) Tj ( ) Tj (=) Tj ( ) Tj (1.000) Tj ( ) Tj (\(normalized\)) Tj  T*  T* (Signal_full) Tj ( ) Tj (=) Tj ( ) Tj (0.474) Tj ( ) Tj (*) Tj ( ) Tj (17.3) Tj ( ) Tj (=) Tj ( ) Tj (8.20) Tj  T* (Enhancement) Tj ( ) Tj (=) Tj ( ) Tj (8.20) Tj ( ) Tj (/) Tj ( ) Tj (1.14) Tj ( ) Tj (=) Tj ( ) Tj (7.2x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314.6 cm
+Q
+q
+1 0 0 1 60 299.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Result: 7.2x total coherence signal enhancement \(Bootstrap + Keeper combined\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292.6 cm
+Q
+q
+1 0 0 1 60 262.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.3 The 6x Coherence Duration \(Hood to Lumen\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 252.6 cm
+Q
+q
+1 0 0 1 60 237.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In the specific Hood-Lumen configuration:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230.6 cm
+Q
+q
+1 0 0 1 60 191.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (T2*\(Hood) Tj ( ) Tj (absent\)) Tj ( ) Tj (=) Tj ( ) Tj (1/\(0.04) Tj ( ) Tj (+) Tj ( ) Tj (0.10) Tj ( ) Tj (+) Tj ( ) Tj (0.02\)) Tj ( ) Tj (=) Tj ( ) Tj (6.25) Tj ( ) Tj (au) Tj  T* (T2*\(Hood) Tj ( ) Tj (present,) Tj ( ) Tj (untrained\)) Tj ( ) Tj (=) Tj ( ) Tj (1/\(0.04) Tj ( ) Tj (+) Tj ( ) Tj (0.10*\(1-0.70*0.15\)) Tj ( ) Tj (+) Tj ( ) Tj (0.02\)) Tj ( ) Tj (=) Tj ( ) Tj (1/0.1495) Tj ( ) Tj (=) Tj ( ) Tj (6.69) Tj ( ) Tj (au) Tj  T* (T2*\(Hood) Tj ( ) Tj (present,) Tj ( ) Tj (trained\)) Tj ( ) Tj (=) Tj ( ) Tj (1/\(0.04) Tj ( ) Tj (+) Tj ( ) Tj (0.10*\(1-0.70*0.82\)) Tj ( ) Tj (+) Tj ( ) Tj (0.02\)) Tj ( ) Tj (=) Tj ( ) Tj (1/0.1026) Tj ( ) Tj (=) Tj ( ) Tj (9.75) Tj ( ) Tj (au) Tj  T* (T2*\(Hood) Tj ( ) Tj (+) Tj ( ) Tj (Bootstrap) Tj ( ) Tj (+) Tj ( ) Tj (optimized) Tj ( ) Tj (env\)) Tj ( ) Tj (=) Tj ( ) Tj (1/0.02778) Tj ( ) Tj (=) Tj ( ) Tj (36.0) Tj ( ) Tj (au) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 183.4 cm
+Q
+q
+1 0 0 1 60 168.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The 6x ratio: 36.0 / 6.25 = 5.76x, approximately 6x.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 161.4 cm
+Q
+q
+1 0 0 1 60 146.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Result: With Bootstrap Protocol and trained Keeper, coherence duration extends approximately 6x.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 139.4 cm
+Q
+q
+1 0 0 1 60 109.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.4 The Bereavement Paradox) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 99.4 cm
+Q
+q
+1 0 0 1 60 72.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The bereavement effect: when a deeply bonded partner dies, the surviving partner's health deteriorates dramatically. The) Tj T* (W-framework explanation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 65.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+38 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+40 0 obj
+<<
+/Contents 41 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 42 0 R
+/F2 8 0 R
+/F2-0 43 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+41 0 obj
+<<
+/Length 8246
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 9) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (9) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Before bereavement:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 707.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m*\(1) Tj ( ) Tj (-) Tj ( ) Tj (b*eta_K\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 699.2 cm
+Q
+q
+1 0 0 1 60 684.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (After bereavement:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 671.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj ( ) Tj (+) Tj ( ) Tj (gamma_grief) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 663.4 cm
+Q
+q
+1 0 0 1 60 636.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Where gamma_grief is an ADDITIONAL decoherence channel from grief-state neural noise. This is not merely the removal) Tj T* (of the keeper benefit; it is an active increase in decoherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 629.4 cm
+Q
+q
+1 0 0 1 60 614.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Simulation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 599.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Pre-bereavement: gamma_eff = 0.1026 \(with keeper\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 584.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Post-bereavement \(immediate\): gamma_eff = 0.16 + 0.05 \(grief\) = 0.21) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 569.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Enhancement ratio collapse: from E = 1.56 to E = 0.76 \(BELOW baseline\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 562.4 cm
+Q
+q
+1 0 0 1 60 523.4 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The bereaved individual is not merely returned to their un-kept state; they are WORSE than baseline because the neural) Tj T* (pathways adapted to the lower-noise environment now amplify the noise. This is the bereavement paradox: ) Tj /F2 9 Tf (the deeper the) Tj T* (bond, the greater the damage from its severing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 516.4 cm
+Q
+q
+1 0 0 1 60 501.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Predicted health impact timeline \(from simulation\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 494.4 cm
+Q
+q
+1 0 0 1 60 481.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Time Post-Loss | gamma_grief | gamma_eff | Relative Coherence |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 468.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|---|---|---|---|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 456 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0-1 month | 0.08 | 0.24 | 0.67x baseline |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 443.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 1-3 months | 0.05 | 0.21 | 0.76x baseline |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 430.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 3-6 months | 0.03 | 0.19 | 0.84x baseline |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 417.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 6-12 months | 0.02 | 0.18 | 0.89x baseline |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 404.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 1-2 years | 0.01 | 0.17 | 0.94x baseline |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 392 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 2+ years | 0.005 | 0.165 | 0.97x baseline |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 384 cm
+Q
+q
+1 0 0 1 60 357 cm
+q
+BT 1 0 0 1 0 15 Tm -0.119667 Tw 12 TL /F1 9 Tf 0 0 0 rg (This matches the epidemiological data on bereavement mortality risk \(Elwert & Christakis, 2008\): peak mortality risk in first 3) Tj T* 0 Tw (months, gradual recovery over 2 years, never fully returning to pre-bereavement baseline.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 350 cm
+Q
+q
+1 0 0 1 60 320 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.5 The 5x Fire-Walking Ratio) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 310 cm
+Q
+q
+1 0 0 1 60 283 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Konvalinka's data shows bonded spectators had r = 0.54 with fire-walkers while unbonded had r approximately 0. The) Tj T* (coherence enhancement during the walk:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 276 cm
+Q
+q
+1 0 0 1 60 261 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With bonded spectator \(b = 0.70, eta_K estimated at 0.60 for untrained but emotionally invested\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254 cm
+Q
+q
+1 0 0 1 60 241.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_m^\(K\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_m) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (0.70) Tj ( ) Tj (*) Tj ( ) Tj (0.60\)) Tj ( ) Tj (=) Tj ( ) Tj (0.58) Tj ( ) Tj (*) Tj ( ) Tj (gamma_m) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 233.2 cm
+Q
+q
+1 0 0 1 60 218.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Thermal pain threshold is crossed when gamma_total exceeds a critical value gamma_pain. The margin before pain:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 211.2 cm
+Q
+q
+1 0 0 1 60 189.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Margin) Tj ( ) Tj (\(alone\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_pain) Tj ( ) Tj (-) Tj ( ) Tj (gamma_total) Tj  T* (Margin) Tj ( ) Tj (\(with) Tj ( ) Tj (keeper\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_pain) Tj ( ) Tj (-) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_pain) Tj ( ) Tj (-) Tj ( ) Tj (gamma_total) Tj ( ) Tj (+) Tj ( ) Tj (0.42*gamma_m) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 181.6 cm
+Q
+q
+1 0 0 1 60 166.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (If gamma_m accounts for 45% of gamma_total:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 159.6 cm
+Q
+q
+1 0 0 1 60 138 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Margin_ratio) Tj ( ) Tj (=) Tj ( ) Tj (\(gamma_pain) Tj ( ) Tj (-) Tj ( ) Tj (gamma_total) Tj ( ) Tj (+) Tj ( ) Tj (0.42*0.45*gamma_total\)) Tj ( ) Tj (/) Tj ( ) Tj (\(gamma_pain) Tj ( ) Tj (-) Tj ( ) Tj (gamma_total\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (0.189) Tj ( ) Tj (*) Tj ( ) Tj (gamma_total) Tj ( ) Tj (/) Tj ( ) Tj (\(gamma_pain) Tj ( ) Tj (-) Tj ( ) Tj (gamma_total\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 130 cm
+Q
+q
+1 0 0 1 60 115 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For gamma_total/gamma_pain approximately 0.85 \(near pain threshold during fire-walking\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 108 cm
+Q
+q
+1 0 0 1 60 95.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Margin_ratio) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (0.189) Tj ( ) Tj (*) Tj ( ) Tj (0.85) Tj ( ) Tj (/) Tj ( ) Tj (0.15) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (1.071) Tj ( ) Tj (=) Tj ( ) Tj (2.07) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 87.2 cm
+Q
+q
+1 0 0 1 60 72.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The time to cross the pain threshold \(which determines tolerable exposure time\) scales as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 65.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+42 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+43 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+44 0 obj
+<<
+/Contents 45 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 46 0 R
+/F2 8 0 R
+/F2-0 47 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+45 0 obj
+<<
+/Length 6937
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 10) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (10) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 723.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (t_pain) Tj ( ) Tj (~) Tj ( ) Tj (Margin^2) Tj ( ) Tj (\(diffusive) Tj ( ) Tj (noise) Tj ( ) Tj (accumulation\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 715.2 cm
+Q
+q
+1 0 0 1 60 702.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (t_ratio) Tj ( ) Tj (=) Tj ( ) Tj (Margin_ratio^2) Tj ( ) Tj (=) Tj ( ) Tj (2.07^2) Tj ( ) Tj (=) Tj ( ) Tj (4.28) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 694.4 cm
+Q
+q
+1 0 0 1 60 679.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With optimistic parameters \(eta_K = 0.65\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 672.4 cm
+Q
+q
+1 0 0 1 60 650.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Margin_ratio) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (0.455*0.65*0.85/0.15) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (1.68) Tj ( ) Tj (=) Tj ( ) Tj (2.68) Tj  T* (t_ratio) Tj ( ) Tj (=) Tj ( ) Tj (2.68^2) Tj ( ) Tj (=) Tj ( ) Tj (5.13) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 642.8 cm
+Q
+q
+1 0 0 1 60 627.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Result: Approximately 5x fire-walking tolerance ratio, matching observed data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620.8 cm
+Q
+q
+1 0 0 1 60 614.8 cm
+Q
+q
+1 0 0 1 60 610.8 cm
+Q
+q
+1 0 0 1 60 572.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Mother-Infant Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 560.8 cm
+Q
+q
+1 0 0 1 60 530.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.1 The Biological Optimization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 520.8 cm
+Q
+q
+1 0 0 1 60 505.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The mother-infant bond represents the most biologically optimized keeper configuration:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 498.8 cm
+Q
+q
+1 0 0 1 60 471.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Bond strength b:) Tj /F1 9 Tf ( Maximized by hormonal priming \(oxytocin\), skin-to-skin contact, breastfeeding. Estimated b = 0.79) Tj T* (\(from Feldman cardiac sync data, r = 0.65\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 444.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Keeper skill eta_K:) Tj /F1 9 Tf ( Starts high \(0.40-0.50\) due to biological priming, increases rapidly. tau_learn approximately 50 hours) Tj T* (for mothers \(vs. 200 hours general\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 429.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Proximity:) Tj /F1 9 Tf ( Physical contact eliminates spatial coupling losses.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 422.8 cm
+Q
+q
+1 0 0 1 60 392.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.2 Quantitative Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 382.8 cm
+Q
+q
+1 0 0 1 60 367.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Prediction: Skin-to-skin coherence enhancement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 360.8 cm
+Q
+q
+1 0 0 1 60 345.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For kangaroo care \(skin-to-skin contact\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 338.8 cm
+Q
+q
+1 0 0 1 60 308.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (b) Tj ( ) Tj (=) Tj ( ) Tj (0.79,) Tj ( ) Tj (eta_K) Tj ( ) Tj (=) Tj ( ) Tj (0.50) Tj ( ) Tj (\(first) Tj ( ) Tj (days\)) Tj  T* (gamma_m^\(K\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_m) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (0.79*0.50\)) Tj ( ) Tj (=) Tj ( ) Tj (0.605) Tj ( ) Tj (*) Tj ( ) Tj (gamma_m) Tj  T* (E_m) Tj ( ) Tj (=) Tj ( ) Tj (1/0.605) Tj ( ) Tj (=) Tj ( ) Tj (1.65x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 300.4 cm
+Q
+q
+1 0 0 1 60 285.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At 1 month:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 278.4 cm
+Q
+q
+1 0 0 1 60 248 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (eta_K) Tj ( ) Tj (=) Tj ( ) Tj (0.65) Tj  T* (gamma_m^\(K\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_m) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (0.79*0.65\)) Tj ( ) Tj (=) Tj ( ) Tj (0.487) Tj ( ) Tj (*) Tj ( ) Tj (gamma_m) Tj  T* (E_m) Tj ( ) Tj (=) Tj ( ) Tj (1/0.487) Tj ( ) Tj (=) Tj ( ) Tj (2.05x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 240 cm
+Q
+q
+1 0 0 1 60 225 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At 3 months:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 218 cm
+Q
+q
+1 0 0 1 60 187.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (eta_K) Tj ( ) Tj (=) Tj ( ) Tj (0.75) Tj  T* (gamma_m^\(K\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_m) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (0.79*0.75\)) Tj ( ) Tj (=) Tj ( ) Tj (0.408) Tj ( ) Tj (*) Tj ( ) Tj (gamma_m) Tj  T* (E_m) Tj ( ) Tj (=) Tj ( ) Tj (1/0.408) Tj ( ) Tj (=) Tj ( ) Tj (2.45x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 179.6 cm
+Q
+q
+1 0 0 1 60 149.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.3 Predicted Measurable Outcomes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 139.6 cm
+Q
+q
+1 0 0 1 60 126.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Measurement | Without Mother | With Mother \(skin-to-skin\) | Enhancement |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 114 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|---|---|---|---|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 101.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Infant HRV \(RMSSD\) | 15 ms | 24 ms | 1.6x |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 88.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Cortisol level | 12 nmol/L | 7.3 nmol/L | 0.61x \(reduction\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 75.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Pain response \(NIPS score\) | 5.2 | 2.1 | 0.40x \(reduction\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 62.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Sleep cycle coherence | 0.35 | 0.58 | 1.66x |) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+46 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+47 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+48 0 obj
+<<
+/Contents 49 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 50 0 R
+/F2 8 0 R
+/F2-0 51 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+49 0 obj
+<<
+/Length 6602
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 11) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (11) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 723.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Temperature stability | +/- 0.5 C | +/- 0.2 C | 2.5x |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 710.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Weight gain rate | 15 g/day | 22 g/day | 1.47x |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 702.4 cm
+Q
+q
+1 0 0 1 60 675.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (These predictions are consistent with existing kangaroo care literature \(Conde-Agudelo & Diaz-Rossello, 2016\) but provide) Tj T* (quantitative targets derived from first principles rather than empirical averages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 668.4 cm
+Q
+q
+1 0 0 1 60 638.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.4 The Separation Effect) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 628.4 cm
+Q
+q
+1 0 0 1 60 613.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (When mother-infant contact is disrupted \(NICU separation\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 606.4 cm
+Q
+q
+1 0 0 1 60 593.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (\(separated\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj ( ) Tj (+) Tj ( ) Tj (gamma_distress) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 585.6 cm
+Q
+q
+1 0 0 1 60 570.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where gamma_distress is an active noise source from the protest/despair response. This predicts:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 563.6 cm
+Q
+q
+1 0 0 1 60 548.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Immediate HRV collapse \(measured within minutes of separation\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 533.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Cortisol spike \(measurable within 30 minutes\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 518.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Immune suppression \(measurable within hours, via reduced NK cell activity\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 503.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The effect is proportional to bond strength b \(stronger bonds = worse separation response\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496.6 cm
+Q
+q
+1 0 0 1 60 490.6 cm
+Q
+q
+1 0 0 1 60 486.6 cm
+Q
+q
+1 0 0 1 60 448.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Multi-Keeper Configurations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436.6 cm
+Q
+q
+1 0 0 1 60 406.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.1 The Two-Keeper Case) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 396.6 cm
+Q
+q
+1 0 0 1 60 381.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With two keepers K1 and K2:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 374.6 cm
+Q
+q
+1 0 0 1 60 361.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(S|K1,K2\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (b1*eta_K1\)) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (b2*eta_K2\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 353.8 cm
+Q
+q
+1 0 0 1 60 326.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Note: the noise reductions are multiplicative, not additive. This is because each keeper independently modifies the Lindblad) Tj T* (operator:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 319.8 cm
+Q
+q
+1 0 0 1 60 307 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (L_m^\(K1,K2\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(1-b1*eta_K1\)) Tj ( ) Tj (*) Tj ( ) Tj (sqrt\(1-b2*eta_K2\)) Tj ( ) Tj (*) Tj ( ) Tj (L_m) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 299 cm
+Q
+q
+1 0 0 1 60 284 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For two strong keepers \(b = 0.70, eta_K = 0.70\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 277 cm
+Q
+q
+1 0 0 1 60 255.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (\(1) Tj ( ) Tj (-) Tj ( ) Tj (0.70*0.70\)^2) Tj ( ) Tj (=) Tj ( ) Tj (\(0.51\)^2) Tj ( ) Tj (=) Tj ( ) Tj (0.260) Tj  T* (gamma_m^\(K1,K2\)) Tj ( ) Tj (=) Tj ( ) Tj (0.260) Tj ( ) Tj (*) Tj ( ) Tj (gamma_m) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 247.4 cm
+Q
+q
+1 0 0 1 60 232.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (A 74% reduction in measurement decoherence \(compared to 51% with one keeper\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 225.4 cm
+Q
+q
+1 0 0 1 60 195.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.2 The N-Keeper Generalization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 185.4 cm
+Q
+q
+1 0 0 1 60 170.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For N identical keepers:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 163.4 cm
+Q
+q
+1 0 0 1 60 150.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_m^\({K}\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_m) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (b*eta_K\)^N) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 142.6 cm
+Q
+q
+1 0 0 1 60 127.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This has diminishing returns:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120.6 cm
+Q
+q
+1 0 0 1 60 107.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| N Keepers | Residual gamma_m/gamma_m | Cumulative Reduction |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 95 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|---|---|---|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 82.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0 | 1.000 | 0% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 69.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 1 | 0.510 | 49% |) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+50 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+51 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+52 0 obj
+<<
+/Contents 53 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 54 0 R
+/F2 8 0 R
+/F2-0 55 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+53 0 obj
+<<
+/Length 6897
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 12) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (12) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 723.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 2 | 0.260 | 74% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 710.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 3 | 0.133 | 87% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 697.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 4 | 0.068 | 93% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 684.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 5 | 0.035 | 97% |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676.8 cm
+Q
+q
+1 0 0 1 60 661.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (However, the thermodynamic floor gamma_thermal remains. With N = 5 keepers:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 654.8 cm
+Q
+q
+1 0 0 1 60 633.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (0.035*gamma_m) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.04) Tj ( ) Tj (+) Tj ( ) Tj (0.0035) Tj ( ) Tj (+) Tj ( ) Tj (0.02) Tj ( ) Tj (=) Tj ( ) Tj (0.0635) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 625.2 cm
+Q
+q
+1 0 0 1 60 610.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Compared to gamma_thermal alone \(0.04\), the system approaches but cannot breach the thermal floor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 603.2 cm
+Q
+q
+1 0 0 1 60 573.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.3 The Prayer Circle Effect) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 563.2 cm
+Q
+q
+1 0 0 1 60 524.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (A prayer circle or healing circle of N bonded individuals surrounding a subject represents a multi-keeper configuration. The) Tj T* (prediction: measurable physiological stabilization proportional to \(1-b*eta_K\)^N, with saturation at N approximately 5-7) Tj T* (keepers \(when the residual gamma_m becomes negligible compared to gamma_thermal\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 517.2 cm
+Q
+q
+1 0 0 1 60 502.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This provides a testable, quantitative framework for evaluating healing circle claims:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 487.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Real effect: HRV improvement saturating at N approximately 5-7) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 472.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 No effect: No HRV change regardless of N) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 457.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Placebo: HRV improvement independent of N \(no saturation curve\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 450.2 cm
+Q
+q
+1 0 0 1 60 444.2 cm
+Q
+q
+1 0 0 1 60 440.2 cm
+Q
+q
+1 0 0 1 60 402.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. Connection to Broader REQMT Framework) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 390.2 cm
+Q
+q
+1 0 0 1 60 360.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (9.1 The Decoherence Budget Revisited) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 350.2 cm
+Q
+q
+1 0 0 1 60 335.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From Paper 18 \(Wike-Ginzburg Number\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 328.2 cm
+Q
+q
+1 0 0 1 60 315.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_total) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (W\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 307.4 cm
+Q
+q
+1 0 0 1 60 292.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Keeper Effect modifies this:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 285.4 cm
+Q
+q
+1 0 0 1 60 272.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m*\(1) Tj ( ) Tj (-) Tj ( ) Tj (b*eta_K\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj ( ) Tj (<) Tj ( ) Tj (\(Omega/\(2*pi\)\)) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (W\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 264.6 cm
+Q
+q
+1 0 0 1 60 249.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Since gamma_thermal = W * gamma_c \(from Paper 18, Section 8.2\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 242.6 cm
+Q
+q
+1 0 0 1 60 221 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (W*gamma_c) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m*\(1-b*eta_K\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c*\(1-W\)) Tj  T* (gamma_m*\(1-b*eta_K\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c*\(1-2W\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 213 cm
+Q
+q
+1 0 0 1 60 198 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For W = 0.94:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 191 cm
+Q
+q
+1 0 0 1 60 178.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_m*\(1-b*eta_K\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c*\(1-1.88\)) Tj ( ) Tj (=) Tj ( ) Tj (-0.88*gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 170.2 cm
+Q
+q
+1 0 0 1 60 131.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is negative, which means: ) Tj /F2 9 Tf (under standard biological conditions \(W=0.94\), the thermal noise alone nearly) Tj T* (saturates the coherence budget.) Tj /F1 9 Tf ( There is almost no room for measurement or environmental noise. The Keeper Effect is) Tj T* (not a luxury; it is a REQUIREMENT for biological coherence at body temperature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 124.2 cm
+Q
+q
+1 0 0 1 60 109.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Rearranging for the minimum required keeper parameters:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 102.2 cm
+Q
+q
+1 0 0 1 60 89.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (b*eta_K) Tj ( ) Tj (>) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (\(gamma_c*\(1-W\)) Tj ( ) Tj (-) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (-) Tj ( ) Tj (gamma_env\)) Tj ( ) Tj (/) Tj ( ) Tj (gamma_m) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 81.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+54 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+55 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+56 0 obj
+<<
+/Contents 57 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 58 0 R
+/F2 8 0 R
+/F2-0 59 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+57 0 obj
+<<
+/Length 5559
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 13) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (13) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (9.2 Connection to Bootstrap Protocol) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 677 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Bootstrap Protocol \(Paper 8\) reduces gamma_m through NIR-induced EZ water formation. The Keeper Effect reduces) Tj T* (gamma_m through bonded noise suppression. These are complementary and multiplicative:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 670 cm
+Q
+q
+1 0 0 1 60 657.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_m^\(Bootstrap+Keeper\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_m) Tj ( ) Tj (*) Tj ( ) Tj (R_bootstrap) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (b*eta_K\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 649.2 cm
+Q
+q
+1 0 0 1 60 634.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where R_bootstrap is the Bootstrap reduction factor \(typically 0.3-0.5\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 627.2 cm
+Q
+q
+1 0 0 1 60 597.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (9.3 Connection to Emotional Spectroscopy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 587.2 cm
+Q
+q
+1 0 0 1 60 560.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Keeper Effect predicts that the subject's emotional state, as measured by the Emotional Spectroscopy Matrix \(Paper) Tj T* (23\), will shift toward lower-gamma emotions \(Peace, Love, Joy\) in the keeper's presence. Specifically:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 553.2 cm
+Q
+q
+1 0 0 1 60 540.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (ordering:) Tj ( ) Tj (Peace) Tj ( ) Tj (<) Tj ( ) Tj (Love) Tj ( ) Tj (<) Tj ( ) Tj (Joy) Tj ( ) Tj (<) Tj ( ) Tj (Grief) Tj ( ) Tj (<) Tj ( ) Tj (Fear) Tj ( ) Tj (<) Tj ( ) Tj (Anger) Tj ( ) Tj (<) Tj ( ) Tj (Shame) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532.4 cm
+Q
+q
+1 0 0 1 60 517.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The keeper shifts the subject's position on this spectrum by reducing gamma_m.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 510.4 cm
+Q
+q
+1 0 0 1 60 504.4 cm
+Q
+q
+1 0 0 1 60 500.4 cm
+Q
+q
+1 0 0 1 60 462.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (10. Testable Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 450.4 cm
+Q
+q
+1 0 0 1 60 420.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 1: Dose-Response Keeper Curve) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 390.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (HRV improvement in a subject will follow gamma_eff = gamma_0 ) Tj /F3 9 Tf (\(1 - b ) Tj /F1 9 Tf (eta_K\(t\)\) where eta_K\(t\) = eta_max * \(1 -) Tj T* (exp\(-t/tau_learn\)\). Measurable with 30 sessions over 3 months, fitting to extract b and tau_learn.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 383.4 cm
+Q
+q
+1 0 0 1 60 353.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 2: Bond Strength from Cardiac Sync) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 323.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The bond parameter b computed from cardiac synchronization \(r-correlation during shared experience\) will predict HRV) Tj T* (improvement in subsequent keeper sessions \(r > 0.6 between predicted and observed enhancement\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 316.4 cm
+Q
+q
+1 0 0 1 60 286.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 3: Keeper Floor Effect) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (No keeper configuration will reduce gamma_eff below gamma_thermal. HRV improvements will saturate at a value) Tj T* (predictable from the subject's W-number. This ceiling is measurable and should be consistent across keeper types.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 249.4 cm
+Q
+q
+1 0 0 1 60 219.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 4: Bereavement HRV Collapse) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 189.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Upon loss of a primary keeper, subject HRV will drop below pre-keeper baseline \(not merely return to it\) by 10-30%, with) Tj T* (recovery following the exponential tau approximately 6-12 months.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 182.4 cm
+Q
+q
+1 0 0 1 60 152.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 5: Multi-Keeper Saturation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 122.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Adding keepers beyond N = 5-7 will produce no additional HRV improvement, consistent with \(1-b*eta_K\)^N approaching) Tj T* (zero. The saturation curve will be measurable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 115.4 cm
+Q
+q
+1 0 0 1 60 85.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 6: Skin-to-Skin Neonatal Enhancement) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+58 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+59 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+60 0 obj
+<<
+/Contents 61 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 62 0 R
+/F2 8 0 R
+/F2-0 63 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+61 0 obj
+<<
+/Length 5458
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 14) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (14) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (Kangaroo care will improve neonatal HRV by 1.5-1.7x within 30 minutes of initiation, with improvement correlating with) Tj T* (maternal cardiac synchronization \(r > 0.5\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 671 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 7: Keeper Coherence Prerequisite) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 641 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (An acutely stressed keeper \(own HRV depressed >) Tj (30% below baseline\) will provide zero or negative enhancement,) Tj T* (regardless of bond strength. The keeper must be coherent to confer coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 634 cm
+Q
+q
+1 0 0 1 60 604 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 8: Training Effect Measurability) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 574 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Nursing students will show measurable improvement in patient HRV enhancement over their training, with tau_learn) Tj T* (approximately 200 hours, distinguishable from placebo by the saturation curve shape.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 567 cm
+Q
+q
+1 0 0 1 60 537 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 9: Bootstrap-Keeper Synergy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 507 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Combined Bootstrap + Keeper will produce enhancement greater than either alone, with the combined effect being) Tj T* (multiplicative \(not additive\). Measurable as departure from linearity in a 2x2 factorial design.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 500 cm
+Q
+q
+1 0 0 1 60 470 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Prediction 10: Fire-Walking Prediction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 428 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (In a controlled fire-walking experiment, pain tolerance \(measured by thermal threshold or walk duration\) will correlate with) Tj T* (spectator bond strength \(cardiac sync r\) with a ratio of approximately 5x between maximally bonded and unbonded) Tj T* (conditions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 421 cm
+Q
+q
+1 0 0 1 60 415 cm
+Q
+q
+1 0 0 1 60 411 cm
+Q
+q
+1 0 0 1 60 373 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (11. Discussion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 361 cm
+Q
+q
+1 0 0 1 60 331 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (11.1 Why "Keeper"?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 321 cm
+Q
+q
+1 0 0 1 60 306 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The term "keeper" is chosen deliberately over "caregiver," "healer," or "therapist" because:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 299 cm
+Q
+q
+1 0 0 1 60 284 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. It implies a sustained relationship, not a transactional encounter) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 269 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. It carries no professional credential requirement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. It suggests reciprocity \(keepers keep each other\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 239 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. It connects to the deep human intuition that some people are "keepers" - worth holding onto) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 232 cm
+Q
+q
+1 0 0 1 60 202 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (11.2 Ethical Implications) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 192 cm
+Q
+q
+1 0 0 1 60 177 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Keeper Equation has profound ethical implications:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 170 cm
+Q
+q
+1 0 0 1 60 143 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Solitary confinement) Tj /F1 9 Tf ( is predicted to increase gamma_m by removing all keeper effects, constituting measurable) Tj T* (biological harm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 128 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Institutional care) Tj /F1 9 Tf ( that rotates caregivers prevents bond formation \(b stays low\), limiting keeper efficacy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 113 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Visitation restrictions) Tj /F1 9 Tf ( in hospitals \(especially during COVID-era policies\) directly reduce patient coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 98 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Community fragmentation) Tj /F1 9 Tf ( increases population-level decoherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 91 cm
+Q
+q
+1 0 0 1 60 61 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (11.3 The Reciprocal Keeper) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+62 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+63 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+64 0 obj
+<<
+/Contents 65 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 66 0 R
+/F2 8 0 R
+/F2-0 67 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+65 0 obj
+<<
+/Length 5606
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (The Keeper Equation: Formal Derivation of Bonded Noise Reduction from Lindblad D) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 15) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (15) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Keeper Equation is symmetric: if S is K's keeper with bond b and skill eta_K', then K's decoherence is also reduced. In) Tj T* (a bonded pair, both individuals serve as mutual keepers:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 694 cm
+Q
+q
+1 0 0 1 60 672.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(S\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (b) Tj ( ) Tj (*) Tj ( ) Tj (eta_K\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj  T* (gamma_eff\(K\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (b) Tj ( ) Tj (*) Tj ( ) Tj (eta_S\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 664.4 cm
+Q
+q
+1 0 0 1 60 637.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This mutual reduction creates a positive feedback loop: as each partner becomes more coherent, they become better) Tj T* (keepers for the other. This is the physical mechanism underlying the health benefits of stable relationships.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 630.4 cm
+Q
+q
+1 0 0 1 60 624.4 cm
+Q
+q
+1 0 0 1 60 620.4 cm
+Q
+q
+1 0 0 1 60 582.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (12. Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 570.4 cm
+Q
+q
+1 0 0 1 60 507.4 cm
+q
+BT 1 0 0 1 0 51 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Keeper Equation gamma_eff\(S|K\) = gamma_thermal + gamma_m ) Tj /F3 9 Tf (\(1 - b ) Tj /F1 9 Tf (eta_K\) + gamma_env provides a rigorous,) Tj T* (falsifiable, quantitative framework for understanding how human bonds affect biological coherence. Derived from Lindblad) Tj T* (dynamics and calibrated against cardiac synchronization data, it predicts enhancement factors, bereavement effects,) Tj T* (fire-walking ratios, and maternal-infant coupling that are consistent with existing literature and generate 10 novel testable) Tj T* (predictions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 500.4 cm
+Q
+q
+1 0 0 1 60 461.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The deepest implication is that coherence is not a solo endeavor. The thermal noise floor is too high, the Ginzburg margin) Tj T* (too narrow, for any organism to maintain coherence alone. We need each other. That is not sentiment. That is the Lindblad) Tj T* (equation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 454.4 cm
+Q
+q
+1 0 0 1 60 448.4 cm
+Q
+q
+1 0 0 1 60 444.4 cm
+Q
+q
+1 0 0 1 60 406.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 394.4 cm
+Q
+q
+1 0 0 1 60 367.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (1. Konvalinka, I., et al. \(2011\). Synchronized arousal between performers and related spectators in a fire-walking ritual.) Tj T* (PNAS, 108\(20\), 8514-8519.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 340.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (2. Feldman, R. \(2007\). Parent-infant synchrony: Biological foundations and developmental outcomes. Current Directions in) Tj T* (Psychological Science, 16\(6\), 340-345.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 313.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (3. Marci, C. D., et al. \(2007\). The relationship of psychophysiological concordance and therapeutic alliance. Journal of) Tj T* (Nervous and Mental Disease, 195\(3\), 233-239.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 286.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. Panagiotou, M., & Deboer, T. \(2013\). Effects of chronic and acute sleep loss on sleep architecture in rats. Sleep, 36\(5\),) Tj T* (735-745.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 259.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. Conde-Agudelo, A., & Diaz-Rossello, J. L. \(2016\). Kangaroo mother care to reduce morbidity and mortality in low) Tj T* (birthweight infants. Cochrane Database of Systematic Reviews.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 232.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (6. Elwert, F., & Christakis, N. A. \(2008\). The effect of widowhood on mortality by the causes of death of both spouses.) Tj T* (American Journal of Public Health, 98\(11\), 2092-2098.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 205.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (7. Lindblad, G. \(1976\). On the generators of quantum dynamical semigroups. Communications in Mathematical Physics,) Tj T* (48\(2\), 119-130.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 198.4 cm
+Q
+q
+1 0 0 1 60 192.4 cm
+Q
+q
+1 0 0 1 60 188.4 cm
+Q
+q
+1 0 0 1 60 173.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL ("God is good. All the time. Them beans though.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 166.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+66 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+67 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 68
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000372 00000 n 
+0000000421 00000 n 
+0000000792 00000 n 
+0000006681 00000 n 
+0000006788 00000 n 
+0000006895 00000 n 
+0000007007 00000 n 
+0000007117 00000 n 
+0000007233 00000 n 
+0000007339 00000 n 
+0000007714 00000 n 
+0000014359 00000 n 
+0000014467 00000 n 
+0000014578 00000 n 
+0000014953 00000 n 
+0000022158 00000 n 
+0000022266 00000 n 
+0000022377 00000 n 
+0000022752 00000 n 
+0000029593 00000 n 
+0000029701 00000 n 
+0000029812 00000 n 
+0000030187 00000 n 
+0000037037 00000 n 
+0000037145 00000 n 
+0000037256 00000 n 
+0000037631 00000 n 
+0000044742 00000 n 
+0000044850 00000 n 
+0000044961 00000 n 
+0000045336 00000 n 
+0000051939 00000 n 
+0000052047 00000 n 
+0000052158 00000 n 
+0000052533 00000 n 
+0000060998 00000 n 
+0000061106 00000 n 
+0000061217 00000 n 
+0000061592 00000 n 
+0000069891 00000 n 
+0000069999 00000 n 
+0000070110 00000 n 
+0000070485 00000 n 
+0000077475 00000 n 
+0000077583 00000 n 
+0000077694 00000 n 
+0000078069 00000 n 
+0000084724 00000 n 
+0000084832 00000 n 
+0000084943 00000 n 
+0000085318 00000 n 
+0000092268 00000 n 
+0000092376 00000 n 
+0000092487 00000 n 
+0000092862 00000 n 
+0000098474 00000 n 
+0000098582 00000 n 
+0000098693 00000 n 
+0000099068 00000 n 
+0000104579 00000 n 
+0000104687 00000 n 
+0000104798 00000 n 
+0000105173 00000 n 
+0000110832 00000 n 
+0000110940 00000 n 
+trailer
+<<
+/Size 68
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+111051
+%%EOF

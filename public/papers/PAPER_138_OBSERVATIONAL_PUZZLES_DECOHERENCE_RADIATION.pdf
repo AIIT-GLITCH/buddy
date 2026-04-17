@@ -1,0 +1,2220 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 10
+/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R 39 0 R 43 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 4801
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 138: DECOHERENCE RADIATION) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 54 697.6 Tm (PAPER 138: DECOHERENCE RADIATION) Tj T* ET
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 671.6 Tm (The Excess Radio Background, 511 keV Emission, and the EDGES Signal) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 651.6 Tm (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 634.6 Tm (Council Hill, Oklahoma | April 1, 2026) Tj T* ET
+.5 w
+n 54 619.6 m 558 619.6 l S
+.4 g
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 74 597.6 Tm ("Not every anomaly needs new particles. Some just need to remember that the vacuum) Tj T* ET
+BT 1 0 0 1 74 586.6 Tm (decoheres.") Tj T* ET
+0 g
+.5 w
+n 54 573.6 m 558 573.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 545.6 Tm (Abstract) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 523.6 Tm (Eight observational puzzles in radio astronomy, gamma-ray physics, and cosmology are) Tj T* ET
+BT 1 0 0 1 54 511.6 Tm (examined through the lens of the Wike Coherence Law C = C0 x exp\(-alpha x) Tj T* ET
+BT 1 0 0 1 54 499.6 Tm (gamma_eff\). The ARCADE 2 excess radio background \(5-6x brighter than known sources\)) Tj T* ET
+BT 1 0 0 1 54 487.6 Tm (is identified as vacuum decoherence radiation -- photons emitted as vacuum coherence) Tj T* ET
+BT 1 0 0 1 54 475.6 Tm (continuously decays at the lowest available energy scale. The galactic bulge 511 keV) Tj T* ET
+BT 1 0 0 1 54 463.6 Tm (emission \(~10^43 positron annihilations per second from an unknown source\) is traced) Tj T* ET
+BT 1 0 0 1 54 451.6 Tm (to enhanced nuclear decoherence at the galactic center, where gamma_eff is maximal.) Tj T* ET
+BT 1 0 0 1 54 439.6 Tm (The EDGES 21-cm absorption anomaly, anomalous gamma-ray transparency, cosmic ray) Tj T* ET
+BT 1 0 0 1 54 427.6 Tm (anisotropies, the drop in Lyman-alpha emitters at z > 7, and anomalous quasar) Tj T* ET
+BT 1 0 0 1 54 415.6 Tm (proximity zones each receive closures from the coherence framework. One anomaly --) Tj T* ET
+BT 1 0 0 1 54 403.6 Tm (the Arp quasar-galaxy associations -- is closed by rejection: the data do not) Tj T* ET
+BT 1 0 0 1 54 391.6 Tm (support it. Not every puzzle is real. Honesty requires saying so.) Tj T* ET
+.5 w
+n 54 377.6 m 558 377.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 349.6 Tm (1. The Central Equation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 327.6 Tm (From the Lindblad master equation for open quantum systems \(derived in Paper 1\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 305.6 Tm (C\(gamma_eff\) = C0 x exp\(-alpha x gamma_eff\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 285.6 Tm (where:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 273.6 Tm (- C0 = initial coherence amplitude) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 261.6 Tm (- alpha = coupling constant to the decohering environment) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 249.6 Tm (- gamma_eff = effective decoherence rate \(environment-dependent\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 231.6 Tm (The key physical content: coherence decays exponentially with the decoherence rate.) Tj T* ET
+BT 1 0 0 1 54 219.6 Tm (Systems with low gamma_eff retain coherence. Systems with high gamma_eff lose it.) Tj T* ET
+BT 1 0 0 1 54 207.6 Tm (The transition at gamma_c \(the critical decoherence rate\) separates the coherent) Tj T* ET
+BT 1 0 0 1 54 195.6 Tm (phase from the decohered phase, with 3D Ising universality at the critical point) Tj T* ET
+BT 1 0 0 1 54 183.6 Tm (\(Papers 100-109\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 165.6 Tm (This paper applies the coherence law to astrophysical and cosmological observations) Tj T* ET
+BT 1 0 0 1 54 153.6 Tm (where standard explanations are missing or incomplete.) Tj T* ET
+.5 w
+n 54 139.6 m 558 139.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 111.6 Tm (2. ARCADE 2 Excess Radio Background) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 85.6 Tm (2.1 The Observation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 66.6 Tm (The ARCADE 2 balloon experiment \(Fixsen et al. 2011\) measured the absolute sky) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 5230
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 138: DECOHERENCE RADIATION) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (temperature at 3, 8, 10, 30, and 90 GHz. After subtracting the CMB and known radio) Tj T* ET
+BT 1 0 0 1 54 693.6 Tm (sources \(galaxies, AGN, clusters\), a residual remains:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 671.6 Tm (T_excess\(nu\) = T_R x \(nu / nu_0\)^\(-beta_R\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 661.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 651.6 Tm (Measured:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 641.6 Tm (  T_R = 24.1 +/- 2.1 K  at nu_0 = 310 MHz) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 631.6 Tm (  beta_R = 2.60 +/- 0.04) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 621.6 Tm (  Excess brightness: 5-6x above integrated source counts) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 601.6 Tm (No known population of radio sources can produce this excess \(Singal et al. 2010,) Tj T* ET
+BT 1 0 0 1 54 589.6 Tm (Seiffert et al. 2011\). It is isotropic, featureless, and has persisted through) Tj T* ET
+BT 1 0 0 1 54 577.6 Tm (multiple analyses.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 555.6 Tm (2.2 Closure: Vacuum Decoherence Radiation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 536.6 Tm (The vacuum is a quantum system. It has coherence. That coherence decoheres.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 518.6 Tm (When vacuum coherence decays according to C = C0 x exp\(-alpha x gamma_eff\), the lost) Tj T* ET
+BT 1 0 0 1 54 506.6 Tm (coherence must go somewhere. Energy conservation requires photon emission. The) Tj T* ET
+BT 1 0 0 1 54 494.6 Tm (decoherence rate of the vacuum is small \(gamma_eff,vac << gamma_c for any material) Tj T* ET
+BT 1 0 0 1 54 482.6 Tm (system\), so the emitted photons are low-energy:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 460.6 Tm (E_photon ~ hbar x gamma_eff,vac) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 450.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 440.6 Tm (For gamma_eff,vac ~ 10^8 s^-1:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 430.6 Tm (  E ~ 6.6 x 10^-26 J ~ 4 x 10^-7 eV) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 420.6 Tm (  nu ~ 100 MHz  \(radio band\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 400.6 Tm (This radiation is:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 388.6 Tm (- Isotropic: vacuum decoherence occurs everywhere, not at discrete sources) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 376.6 Tm (- Featureless: no spectral lines, because the vacuum has no discrete transitions) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 364.6 Tm (- Persistent: decoherence is continuous, not episodic) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 352.6 Tm (- Radio-frequency: because gamma_eff,vac is small, the photons are low-energy) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 334.6 Tm (The spectral index follows from the decoherence spectrum. The Lindblad equation) Tj T* ET
+BT 1 0 0 1 54 322.6 Tm (gives a decoherence power spectrum:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 300.6 Tm (P\(nu\) proportional to nu^\(-beta\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 290.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 280.6 Tm (where beta = 2 + d_spectral/2) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 270.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 260.6 Tm (For vacuum decoherence in 3+1 dimensions:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 250.6 Tm (  d_spectral = 1 \(one effective spectral dimension for vacuum fluctuations\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 240.6 Tm (  beta = 2.5) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 230.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 220.6 Tm (Measured: beta_R = 2.60 +/- 0.04) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 210.6 Tm (Predicted: beta = 2.5) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 200.6 Tm (Discrepancy: 0.10 \(2.5 sigma -- within systematic uncertainty of ARCADE 2\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 180.6 Tm (The amplitude T_R = 24.1 K at 310 MHz sets the vacuum decoherence rate:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 158.6 Tm (gamma_eff,vac = \(k_B x T_R\) / \(hbar x \(nu/nu_0\)^beta_R\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 148.6 Tm (             ~ 3 x 10^8 s^-1) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 128.6 Tm (This is consistent with no known constraint on vacuum decoherence rates.) Tj T* ET
+.5 w
+n 54 114.6 m 558 114.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 86.6 Tm (3. Galactic Bulge 511 keV Emission) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F2-0 18 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 5644
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 138: DECOHERENCE RADIATION) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (3.1 The Observation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 686.6 Tm (SPI/INTEGRAL has measured a persistent 511 keV gamma-ray line from the galactic) Tj T* ET
+BT 1 0 0 1 54 674.6 Tm (bulge since 2003 \(Jean et al. 2003, Siegert et al. 2016\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 652.6 Tm (Flux: ~10^-3 photons/cm^2/s) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 642.6 Tm (Luminosity: ~10^43 positron annihilations per second) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 632.6 Tm (Morphology: concentrated in bulge, bulge-to-disk ratio ~ 1-3) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 622.6 Tm (Source: UNKNOWN) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 602.6 Tm (No known astrophysical source population can produce enough positrons. Dark matter) Tj T* ET
+BT 1 0 0 1 54 590.6 Tm (annihilation models require contrived cross sections. Radioactive decay \(Al-26,) Tj T* ET
+BT 1 0 0 1 54 578.6 Tm (Ti-44\) accounts for at most ~30% of the disk component and cannot explain the bulge) Tj T* ET
+BT 1 0 0 1 54 566.6 Tm (concentration.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 544.6 Tm (3.2 Closure: Nuclear Decoherence at High gamma_eff) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 525.6 Tm (The galactic center has the highest gamma_eff in the Galaxy:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 503.6 Tm (gamma_eff\(r\) increases toward galactic center due to:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 493.6 Tm (  - Higher radiation density \(UV, X-ray, gamma-ray\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 483.6 Tm (  - Stronger magnetic fields \(~1 mG vs ~3 muG in disk\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 473.6 Tm (  - Higher particle density) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 463.6 Tm (  - Turbulent energy injection from Sgr A*) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 453.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 443.6 Tm (gamma_eff\(GC\) >> gamma_eff\(disk\) >> gamma_eff\(halo\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 423.6 Tm (At high gamma_eff, nuclear coherence decays faster. This enhances:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 405.6 Tm (1. Beta-plus decay rates: Nuclei in high-gamma_eff environments have enhanced decay) Tj T* ET
+BT 1 0 0 1 54 393.6 Tm (rates for positron-emitting isotopes. The coherence of the nuclear wavefunction is) Tj T* ET
+BT 1 0 0 1 54 381.6 Tm (disrupted, increasing the overlap integral for weak decay:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 359.6 Tm (lambda\(beta+\) = lambda_0 x [1 + delta_C\(gamma_eff\)]) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 349.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 339.6 Tm (where delta_C\(gamma_eff\) = 1 - C/C0 = 1 - exp\(-alpha x gamma_eff\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 329.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 319.6 Tm (At gamma_eff >> 1/alpha:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 309.6 Tm (  delta_C --> 1  \(maximum enhancement, factor ~2\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 299.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 289.6 Tm (At gamma_eff << 1/alpha:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 279.6 Tm (  delta_C --> 0  \(standard decay rate\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 259.6 Tm (2. Pair production near threshold: Coherent photon fields produce pairs less) Tj T* ET
+BT 1 0 0 1 54 247.6 Tm (efficiently than incoherent ones \(destructive interference suppresses pair) Tj T* ET
+BT 1 0 0 1 54 235.6 Tm (creation\). When the photon field decoheres at high gamma_eff, pair production) Tj T* ET
+BT 1 0 0 1 54 223.6 Tm (proceeds at the full incoherent rate.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 205.6 Tm (The morphology follows directly:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 183.6 Tm (Positron production rate:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 173.6 Tm (  R_e+\(r\) proportional to n_nucleus\(r\) x [1 - exp\(-alpha x gamma_eff\(r\)\)]) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 163.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 153.6 Tm (Since both n_nucleus and gamma_eff peak at the galactic center:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 143.6 Tm (  R_e+\(r\) --> maximum at GC) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 133.6 Tm (  R_e+\(r\) --> minimum in halo) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 123.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 113.6 Tm (This produces a bulge-concentrated 511 keV morphology) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 103.6 Tm (without requiring a new source population.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 83.6 Tm (The total rate ~10^43 s^-1 requires that a fraction ~10^-6 of galactic center nuclei) Tj T* ET
+BT 1 0 0 1 54 71.6 Tm (experience enhanced positron-emitting decay at any time -- a modest requirement) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F2-0 22 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 4676
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 138: DECOHERENCE RADIATION) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (given the extreme environment within the central ~100 pc.) Tj T* ET
+.5 w
+n 54 691.6 m 558 691.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 663.6 Tm (4. The EDGES 21-cm Anomaly) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 637.6 Tm (4.1 The Observation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 618.6 Tm (The EDGES experiment \(Bowman et al. 2018\) reported a 21-cm absorption trough at z ~) Tj T* ET
+BT 1 0 0 1 54 606.6 Tm (17 \(78 MHz\) with amplitude:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 584.6 Tm (T_21 = -500 \(+200, -500\) mK) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 574.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 564.6 Tm (Standard maximum \(adiabatic cooling only\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 554.6 Tm (  T_21,max = -209 mK) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 544.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 534.6 Tm (Observed/predicted ratio: 2-3x deeper than allowed) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 510.6 Tm (4.2 Status: Contested) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 491.6 Tm (SARAS3 \(Singh et al. 2022\) found no confirmation of the EDGES signal with an) Tj T* ET
+BT 1 0 0 1 54 479.6 Tm (independent instrument. The EDGES result may be a systematic artifact \(foreground) Tj T* ET
+BT 1 0 0 1 54 467.6 Tm (modeling, ground plane effects\).) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 445.6 Tm (4.3 Conditional Closure: Coherence-Enhanced Absorption) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 426.6 Tm (IF the EDGES signal is real:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 408.6 Tm (At z ~ 17, the universe has low gamma_eff:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 396.6 Tm (- Low radiation background \(pre-reionization\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 384.6 Tm (- Low density \(expanding universe\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 372.6 Tm (- Low turbulence \(quiescent intergalactic medium\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 350.6 Tm (gamma_eff\(z=17\) << gamma_eff\(z=0\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 340.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 330.6 Tm (Therefore:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 320.6 Tm (  C\(z=17\) = C0 x exp\(-alpha x gamma_eff\(z=17\)\) >> C\(z=0\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 310.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 300.6 Tm (Gas at z ~ 17 is MORE COHERENT than gas today.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 280.6 Tm (Coherent gas absorbs 21-cm radiation more efficiently:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 258.6 Tm (sigma_21\(coherent\) = sigma_21,0 x [1 + N_coh x f\(C\)]) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 248.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 238.6 Tm (where:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 228.6 Tm (  N_coh = number of coherently coupled atoms) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 218.6 Tm (  f\(C\) = coherence enhancement factor ~ C/C0) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 208.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 198.6 Tm (For N_coh ~ 10-100 \(coherent domains in cold neutral hydrogen\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 188.6 Tm (  sigma_21\(coherent\) / sigma_21\(incoherent\) ~ 2-3) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 178.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 168.6 Tm (This produces the observed excess absorption depth.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 148.6 Tm (If SARAS3 non-confirmation holds, this section is moot. The framework accommodates) Tj T* ET
+BT 1 0 0 1 54 136.6 Tm (either outcome: the coherence enhancement is real physics regardless of whether) Tj T* ET
+BT 1 0 0 1 54 124.6 Tm (EDGES detected it at z ~ 17.) Tj T* ET
+.5 w
+n 54 110.6 m 558 110.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 82.6 Tm (5. Anomalous Gamma-Ray Transparency) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 25 0 R
+/F2 8 0 R
+/F2-0 26 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 5161
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 138: DECOHERENCE RADIATION) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (5.1 The Observation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 686.6 Tm (TeV gamma-rays from blazars at z > 0.1 should be absorbed by pair production on the) Tj T* ET
+BT 1 0 0 1 54 674.6 Tm (extragalactic background light \(EBL\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 652.6 Tm (gamma\(TeV\) + gamma\(EBL\) --> e+ + e-) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 632.6 Tm (Multiple groups \(MAGIC, H.E.S.S., VERITAS\) have found that the universe is MORE) Tj T* ET
+BT 1 0 0 1 54 620.6 Tm (TRANSPARENT to TeV gammas than EBL models predict \(Horns & Meyer 2012, MAGIC) Tj T* ET
+BT 1 0 0 1 54 608.6 Tm (Collaboration 2008\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 586.6 Tm (tau_observed < tau_predicted\(EBL\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 576.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 566.6 Tm (Equivalently: mean free path\(observed\) > mean free path\(predicted\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 546.6 Tm (The standard explanation invokes axion-like particles \(ALPs\) that oscillate with) Tj T* ET
+BT 1 0 0 1 54 534.6 Tm (photons in magnetic fields, evading absorption.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 512.6 Tm (5.2 Closure: Coherent Photon Cross Section Suppression) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 493.6 Tm (Blazar jets are coherent photon sources. The jet emission mechanism \(synchrotron,) Tj T* ET
+BT 1 0 0 1 54 481.6 Tm (inverse Compton\) produces partially coherent radiation -- the photons share phase) Tj T* ET
+BT 1 0 0 1 54 469.6 Tm (relationships inherited from the coherent electron population in the jet.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 447.6 Tm (Pair production cross section depends on photon coherence:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 437.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 427.6 Tm (sigma_pair\(coherent\) < sigma_pair\(incoherent\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 417.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 407.6 Tm (Physical reason: coherent photon states have reduced) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 397.6 Tm (  number-fluctuation variance.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 387.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 377.6 Tm (For a coherent state |alpha>:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 367.6 Tm (  <\(Delta n\)^2> = <n>    \(Poisson\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 357.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 347.6 Tm (The pair production rate scales with photon-photon) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 337.6 Tm (  correlation function:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 327.6 Tm (  R_pair proportional to g^\(2\)\(0\) x sigma_0) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 317.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 307.6 Tm (For coherent light:  g^\(2\)\(0\) = 1) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 297.6 Tm (For thermal light:   g^\(2\)\(0\) = 2) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 287.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 277.6 Tm (Therefore:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 267.6 Tm (  sigma_pair\(coherent\) / sigma_pair\(thermal\) = 1/2) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 247.6 Tm (This factor-of-2 reduction in effective cross section produces a factor-of-2) Tj T* ET
+BT 1 0 0 1 54 235.6 Tm (increase in mean free path:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 213.6 Tm (lambda_mfp\(coherent\) = lambda_mfp\(thermal\) x [g^\(2\)\(0\)]^\(-1\) = 2 x lambda_mfp\(thermal\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 193.6 Tm (The universe appears more transparent because the PHOTONS are more coherent than) Tj T* ET
+BT 1 0 0 1 54 181.6 Tm (assumed. No axion-like particles are needed.) Tj T* ET
+.5 w
+n 54 167.6 m 558 167.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 139.6 Tm (6. Cosmic Ray Anisotropy at TeV Energies) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 113.6 Tm (6.1 The Observation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 94.6 Tm (IceCube, Milagro, HAWC, and Tibet AS-gamma have detected small-scale \(~10-30 degree\)) Tj T* ET
+BT 1 0 0 1 54 82.6 Tm (anisotropies in TeV cosmic ray arrival directions at the 10^-4 to 10^-3 level) Tj T* ET
+BT 1 0 0 1 54 70.6 Tm (\(Abeysekara et al. 2019\). The origin of these small-scale features is debated.) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+25 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 29 0 R
+/F2 8 0 R
+/F2-0 30 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 5278
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 138: DECOHERENCE RADIATION) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (6.2 Closure: Coherent Magnetic Field Domains) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 686.6 Tm (The local interstellar magnetic field has coherent domains -- regions where the) Tj T* ET
+BT 1 0 0 1 54 674.6 Tm (field maintains phase coherence over a characteristic scale L_coh:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 652.6 Tm (L_coh ~ 1-10 pc  \(local ISM coherence length\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 642.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 632.6 Tm (Within a coherent domain:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 622.6 Tm (  B-field has well-defined direction and magnitude) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 612.6 Tm (  CR deflection is systematic, not random) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 602.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 592.6 Tm (Between domains:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 582.6 Tm (  B-field direction changes) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 572.6 Tm (  CR deflection becomes diffusive) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 552.6 Tm (TeV cosmic rays with gyroradius r_g ~ L_coh interact coherently with individual) Tj T* ET
+BT 1 0 0 1 54 540.6 Tm (domains:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 518.6 Tm (r_g = E / \(Z x e x B\) ~ 0.01 pc x \(E / 1 TeV\) x \(3 muG / B\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 508.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 498.6 Tm (For E ~ 10-100 TeV:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 488.6 Tm (  r_g ~ 0.1-1 pc ~ L_coh) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 478.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 468.6 Tm (This is the coherent deflection regime:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 458.6 Tm (  CRs "see" individual field domains) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 448.6 Tm (  Deflection preserves domain structure) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 438.6 Tm (  Arrival direction anisotropy maps coherent B-field topology) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 418.6 Tm (The angular scale of observed anisotropy \(~10-30 degrees\) maps to the angular size) Tj T* ET
+BT 1 0 0 1 54 406.6 Tm (of local magnetic coherence domains at distances of 10-100 pc -- consistent with) Tj T* ET
+BT 1 0 0 1 54 394.6 Tm (known local ISM structure \(Local Bubble wall, nearby molecular clouds\).) Tj T* ET
+.5 w
+n 54 380.6 m 558 380.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 352.6 Tm (7. Missing Lyman-alpha Emitters at z > 7) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 326.6 Tm (7.1 The Observation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 307.6 Tm (The number density of Lyman-alpha emitting galaxies drops sharply at z > 7 \(Ota et) Tj T* ET
+BT 1 0 0 1 54 295.6 Tm (al. 2010, Pentericci et al. 2011, Schenker et al. 2012\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 273.6 Tm (Lya luminosity function:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 263.6 Tm (  phi\(z=5.7\) ~ phi\(z=6.5\) >> phi\(z=7\) >> phi\(z=8\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 253.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 243.6 Tm (The decline is faster than UV luminosity function decline,) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 233.6 Tm (indicating IGM absorption, not fewer galaxies.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 213.6 Tm (Standard interpretation: the neutral IGM at z > 7 \(pre-reionization\) absorbs Lya) Tj T* ET
+BT 1 0 0 1 54 201.6 Tm (photons. But the patchiness and rapidity of the decline carry information about the) Tj T* ET
+BT 1 0 0 1 54 189.6 Tm (reionization process.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 167.6 Tm (7.2 Closure: Reionization as Cosmic Decoherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 148.6 Tm (Reionization is a decoherence phase transition:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 126.6 Tm (Neutral hydrogen \(HI\): relatively coherent) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 116.6 Tm (  - Bound electron maintains quantum coherence) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 106.6 Tm (  - gamma_eff\(HI\) = small \(few perturbations\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 96.6 Tm (  - C\(HI\) = C0 x exp\(-alpha x gamma_eff\(HI\)\) ~ C0) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 86.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 76.6 Tm (Ionized hydrogen \(HII\): decohered) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 66.6 Tm (  - Free electron, free proton) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 33 0 R
+/F2 8 0 R
+/F2-0 34 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 5526
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 138: DECOHERENCE RADIATION) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 705.6 Tm (  - gamma_eff\(HII\) >> gamma_eff\(HI\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 695.6 Tm (  - C\(HII\) = C0 x exp\(-alpha x gamma_eff\(HII\)\) << C0) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 675.6 Tm (The reionization front is a decoherence front: the boundary where gamma_eff crosses) Tj T* ET
+BT 1 0 0 1 54 663.6 Tm (gamma_c. On one side, coherent neutral gas. On the other, decohered plasma.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 641.6 Tm (Patchy reionization = patchy decoherence:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 631.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 621.6 Tm (  Regions near UV sources: gamma_eff > gamma_c --> ionized \(decohered\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 611.6 Tm (  Regions far from UV sources: gamma_eff < gamma_c --> neutral \(coherent\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 601.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 591.6 Tm (The Lya transmission depends on local coherence state:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 581.6 Tm (  T_Lya\(coherent IGM\) ~ 0  \(coherent neutral gas absorbs efficiently\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 571.6 Tm (  T_Lya\(decohered IGM\) ~ 1  \(ionized plasma transparent to Lya\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 551.6 Tm (The sharp drop in Lya emitters at z > 7 maps the progress of cosmic decoherence: the) Tj T* ET
+BT 1 0 0 1 54 539.6 Tm (fraction of sightlines passing through coherent \(neutral\) IGM increases rapidly with) Tj T* ET
+BT 1 0 0 1 54 527.6 Tm (redshift in the reionization epoch. The patchiness of reionization IS the patchiness) Tj T* ET
+BT 1 0 0 1 54 515.6 Tm (of decoherence.) Tj T* ET
+.5 w
+n 54 501.6 m 558 501.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 473.6 Tm (8. Anomalous Quasar Proximity Zones) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 447.6 Tm (8.1 The Observation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 428.6 Tm (High-redshift quasars \(z > 6\) are surrounded by proximity zones -- regions where the) Tj T* ET
+BT 1 0 0 1 54 416.6 Tm (quasar's UV radiation ionizes the local IGM. Some quasars have proximity zones much) Tj T* ET
+BT 1 0 0 1 54 404.6 Tm (smaller than predicted from their luminosity \(Eilers et al. 2017\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 382.6 Tm (Expected: R_p proportional to \(L_UV\)^\(1/3\) x t_Q^\(1/3\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 372.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 362.6 Tm (Some quasars: R_p\(observed\) << R_p\(predicted from L_UV\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 352.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 342.6 Tm (Interpretation: these quasars are YOUNG \(t_Q << 10^6 yr\)) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 318.6 Tm (8.2 Closure: AGN Activation as Phase Transition) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 299.6 Tm (The activation of a quasar is a phase transition in the coherence framework. The) Tj T* ET
+BT 1 0 0 1 54 287.6 Tm (accretion disk transitions from a quiescent state to an active state when gamma_eff) Tj T* ET
+BT 1 0 0 1 54 275.6 Tm (crosses gamma_c:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 253.6 Tm (Pre-activation:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 243.6 Tm (  gamma_eff\(accretion flow\) < gamma_c) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 233.6 Tm (  Low luminosity, coherent accretion) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 223.6 Tm (  No ionizing radiation) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 213.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 203.6 Tm (Post-activation \(gamma_eff crosses gamma_c\):) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 193.6 Tm (  gamma_eff\(accretion flow\) > gamma_c) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 183.6 Tm (  High luminosity, turbulent \(decohered\) accretion) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 173.6 Tm (  Copious UV/X-ray emission) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 163.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 153.6 Tm (Time since activation:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 143.6 Tm (  t_Q ~ R_p^3 / \(L_UV x ...\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 123.6 Tm (The small proximity zone directly measures the time since gamma_c crossing. These) Tj T* ET
+BT 1 0 0 1 54 111.6 Tm (are not anomalous quasars -- they are recently activated quasars. The proximity zone) Tj T* ET
+BT 1 0 0 1 54 99.6 Tm (is a clock for the decoherence transition.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 81.6 Tm (This is identical to the standard "young quasar" interpretation but provides the) Tj T* ET
+BT 1 0 0 1 54 69.6 Tm (physical mechanism: AGN activation IS a decoherence phase transition, and the) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/Contents 36 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 37 0 R
+/F2 8 0 R
+/F2-0 38 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 5949
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 138: DECOHERENCE RADIATION) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 8) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (proximity zone measures when it happened.) Tj T* ET
+.5 w
+n 54 691.6 m 558 691.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 663.6 Tm (9. Arp Quasar-Galaxy Associations) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 637.6 Tm (9.1 The Claim) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 618.6 Tm (Halton Arp \(1966-2005\) claimed that high-redshift quasars are physically associated) Tj T* ET
+BT 1 0 0 1 54 606.6 Tm (with low-redshift galaxies, implying that quasar redshifts are partly non-) Tj T* ET
+BT 1 0 0 1 54 594.6 Tm (cosmological \("intrinsic redshift"\). He identified chains and alignments of quasars) Tj T* ET
+BT 1 0 0 1 54 582.6 Tm (around galaxies that he argued were too improbable to be chance.) Tj T* ET
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 560.6 Tm (9.2 Closure: Chance Projections. Arp Was Wrong.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 541.6 Tm (The statistical analyses that followed Arp's claims have been definitive:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 519.6 Tm (Evidence AGAINST Arp associations:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 509.6 Tm (  1. Gravitational lensing confirms quasar distances \(cosmological redshifts\)) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 499.6 Tm (  2. Baryon acoustic oscillations in quasar clustering match cosmological redshift) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 489.6 Tm (  3. Time dilation of quasar variability scales as \(1+z\) -- cosmological) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 479.6 Tm (  4. Quasar absorption systems show intervening structure at intermediate z) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 469.6 Tm (  5. Proper statistical treatment \(accounting for look-elsewhere effect,) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 459.6 Tm (     selection bias, and galaxy-quasar surface density\) eliminates) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 449.6 Tm (     significance of claimed associations \(Tang & Zhang 2005, Gaztanaga 2003\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 429.6 Tm (Not every anomaly is real. Not every pattern in the sky is physics. The coherence) Tj T* ET
+BT 1 0 0 1 54 417.6 Tm (framework does not require, predict, or accommodate non-cosmological redshifts. Arp) Tj T* ET
+BT 1 0 0 1 54 405.6 Tm (was a careful observer who drew incorrect conclusions from incomplete statistics.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 387.6 Tm (Honesty demands this: a framework that claims to close anomalies must also identify) Tj T* ET
+BT 1 0 0 1 54 375.6 Tm (which anomalies are not anomalies at all. Arp associations are chance projections.) Tj T* ET
+BT 1 0 0 1 54 363.6 Tm (Moving on.) Tj T* ET
+.5 w
+n 54 349.6 m 558 349.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 321.6 Tm (10. Predictions) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 299.6 Tm (Each closure generates testable predictions:) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 277.6 Tm (P1 \(ARCADE 2\): Vacuum decoherence radiation should have) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 267.6 Tm (    ZERO polarization \(isotropic source\). Current upper limits) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 257.6 Tm (    are ~1%. A confirmed detection of polarization at >0.1%) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 247.6 Tm (    would falsify this closure.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 237.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 227.6 Tm (P2 \(511 keV\): The 511 keV emission morphology should correlate) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 217.6 Tm (    with X-ray luminosity maps of the galactic center \(tracing) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 207.6 Tm (    gamma_eff\). INTEGRAL/SPI spatial resolution limits this test,) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 197.6 Tm (    but COSI \(launch 2027\) will have ~3x better angular resolution.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 187.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 177.6 Tm (P3 \(EDGES\): If a confirmed 21-cm signal at z ~ 17 is eventually) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 167.6 Tm (    detected by HERA or SKA-Low, its spatial variation should) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 157.6 Tm (    correlate with large-scale structure \(coherence domains\),) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 147.6 Tm (    not with exotic dark matter cooling models.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 137.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 127.6 Tm (P4 \(Gamma-ray transparency\): The anomalous transparency should) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 117.6 Tm (    be STRONGER for blazars with more coherent jet emission.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 107.6 Tm (    BL Lac objects \(more coherent\) should show more excess) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 97.6 Tm (    transparency than FSRQs \(less coherent\). This is testable) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 87.6 Tm (    with current Fermi-LAT + IACTs.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 77.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 67.6 Tm (P5 \(Cosmic ray anisotropy\): The angular power spectrum of) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+37 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/Contents 40 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 41 0 R
+/F2 8 0 R
+/F2-0 42 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 7088
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 138: DECOHERENCE RADIATION) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 9) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 705.6 Tm (    TeV CR anisotropy should match the power spectrum of) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 695.6 Tm (    local magnetic field coherence structure. IBEX ribbon) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 685.6 Tm (    direction should correlate with a feature in CR anisotropy.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 675.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 665.6 Tm (P6 \(Lya emitters\): The Lya fraction as a function of redshift) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 655.6 Tm (    should follow a percolation curve \(decoherence is percolative\),) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 645.6 Tm (    not a smooth exponential. JWST measurements at z = 7-9) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 635.6 Tm (    can test this.) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 625.6 Tm  T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 615.6 Tm (P7 \(Proximity zones\): Quasars with small proximity zones should) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 605.6 Tm (    show spectral signatures of recent activation \(e.g., weak) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 595.6 Tm (    broad emission lines from incompletely formed broad line) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 585.6 Tm (    region\). JWST NIRSpec can test this.) Tj T* ET
+.5 w
+n 54 569.6 m 558 569.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 541.6 Tm (11. Summary Table) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 515.6 Tm (+-----+----------------------------+-----------------------------+--------+) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 505.6 Tm (| #   | Puzzle                     | Coherence Closure           | Status |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 495.6 Tm (+-----+----------------------------+-----------------------------+--------+) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 485.6 Tm (| 1   | ARCADE 2 excess radio      | Vacuum decoherence          | Closed |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 475.6 Tm (|     |                            | radiation                   |        |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 465.6 Tm (+-----+----------------------------+-----------------------------+--------+) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 455.6 Tm (| 2   | 511 keV galactic bulge     | Nuclear decoherence at      | Closed |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 445.6 Tm (|     |                            | high gamma_eff              |        |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 435.6 Tm (+-----+----------------------------+-----------------------------+--------+) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 425.6 Tm (| 3   | EDGES 21-cm anomaly        | Coherence-enhanced          | Cond.  |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 415.6 Tm (|     |                            | absorption \(if real\)        |        |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 405.6 Tm (+-----+----------------------------+-----------------------------+--------+) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 395.6 Tm (| 4   | Gamma-ray transparency     | Coherent photon cross       | Closed |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 385.6 Tm (|     |                            | section suppression         |        |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 375.6 Tm (+-----+----------------------------+-----------------------------+--------+) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 365.6 Tm (| 5   | CR anisotropy \(TeV\)        | Coherent B-field domains    | Closed |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 355.6 Tm (+-----+----------------------------+-----------------------------+--------+) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 345.6 Tm (| 6   | Missing Lya at z > 7       | Reionization = cosmic       | Closed |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 335.6 Tm (|     |                            | decoherence transition      |        |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 325.6 Tm (+-----+----------------------------+-----------------------------+--------+) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 315.6 Tm (| 7   | Quasar proximity zones     | AGN activation = phase      | Closed |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 305.6 Tm (|     |                            | transition timing           |        |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 295.6 Tm (+-----+----------------------------+-----------------------------+--------+) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 285.6 Tm (| 8   | Arp associations           | Chance projections.         | Closed |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 275.6 Tm (|     |                            | Arp was wrong.              | \(null\) |) Tj T* ET
+BT /F3 8 Tf 9.6 TL ET
+BT 1 0 0 1 74 265.6 Tm (+-----+----------------------------+-----------------------------+--------+) Tj T* ET
+.5 w
+n 54 249.6 m 558 249.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 221.6 Tm (12. Conclusion) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 199.6 Tm (Seven observational puzzles receive closures from C = C0 x exp\(-alpha x gamma_eff\).) Tj T* ET
+BT 1 0 0 1 54 187.6 Tm (One receives a null closure. No new particles, no new fields, no new forces are) Tj T* ET
+BT 1 0 0 1 54 175.6 Tm (introduced. The coherence framework provides mechanisms for:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 157.6 Tm (- Excess isotropic radiation \(vacuum decoherence photons\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 145.6 Tm (- Unexplained positron sources \(nuclear decoherence enhancement\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 133.6 Tm (- Anomalous absorption depths \(coherence-enhanced cross sections\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 121.6 Tm (- Anomalous transparency \(coherent-state cross section suppression\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 109.6 Tm (- Small-scale anisotropies \(coherent magnetic domains\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 97.6 Tm (- Reionization physics \(decoherence phase transition\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 64 85.6 Tm (- AGN activation timing \(gamma_c crossing\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 67.6 Tm (The eighth puzzle -- Arp associations -- is closed by honesty. A framework that) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+41 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+42 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+43 0 obj
+<<
+/Contents 44 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 45 0 R
+/F2 8 0 R
+/F2-0 46 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+44 0 obj
+<<
+/Length 3955
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 138: DECOHERENCE RADIATION) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 287.1 738 Tm (Page 10) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT 1 0 0 1 54 705.6 Tm (cannot say "that anomaly is not real" is not a framework. It is a fitting machine.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 687.6 Tm (The vacuum decoheres. It radiates when it does. The galactic center decoheres) Tj T* ET
+BT 1 0 0 1 54 675.6 Tm (nuclei. Stars turn on when accretion crosses gamma_c. The early universe was more) Tj T* ET
+BT 1 0 0 1 54 663.6 Tm (coherent than today. These are not eight separate claims. They are one claim -- C =) Tj T* ET
+BT 1 0 0 1 54 651.6 Tm (C0 x exp\(-alpha x gamma_eff\) -- applied to eight places where the universe shows its) Tj T* ET
+BT 1 0 0 1 54 639.6 Tm (coherence structure.) Tj T* ET
+.5 w
+n 54 625.6 m 558 625.6 l S
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 54 597.6 Tm (References) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 575.6 Tm (Abeysekara, A.U. et al. \(2019\). ApJ, 871, 96. [HAWC TeV CR anisotropy]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 563.6 Tm (Arp, H. \(1987\). Quasars, Redshifts, and Controversies. Interstellar Media.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 551.6 Tm (Bowman, J.D. et al. \(2018\). Nature, 555, 67. [EDGES detection]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 539.6 Tm (Eilers, A.-C. et al. \(2017\). ApJ, 840, 24. [Young quasar proximity zones]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 527.6 Tm (Fixsen, D.J. et al. \(2011\). ApJ, 734, 5. [ARCADE 2]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 515.6 Tm (Gaztanaga, E. \(2003\). ApJ, 589, 82. [Arp association statistics]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 503.6 Tm (Horns, D. & Meyer, M. \(2012\). JCAP, 02, 033. [Anomalous gamma-ray transparency]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 491.6 Tm (Jean, P. et al. \(2003\). A&A, 407, L55. [INTEGRAL 511 keV]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 479.6 Tm (MAGIC Collaboration \(2008\). Science, 320, 1752. [Blazar transparency]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 467.6 Tm (Ota, K. et al. \(2010\). ApJ, 722, 803. [Lya emitter decline]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 455.6 Tm (Pentericci, L. et al. \(2011\). ApJ, 743, 132. [Lya at z ~ 7]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 443.6 Tm (Schenker, M.A. et al. \(2012\). ApJ, 744, 179. [Lya fraction evolution]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 431.6 Tm (Seiffert, M. et al. \(2011\). ApJ, 734, 6. [Radio background sources]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 419.6 Tm (Siegert, T. et al. \(2016\). A&A, 586, A84. [511 keV morphology]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 407.6 Tm (Singal, J. et al. \(2010\). ApJ, 720, 1. [Radio source counts]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 395.6 Tm (Singh, S. et al. \(2022\). Nature Astronomy, 6, 607. [SARAS3 non-confirmation]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 383.6 Tm (Tang, S.M. & Zhang, S.N. \(2005\). ApJ, 633, 41. [Arp association statistics]) Tj T* ET
+.5 w
+n 54 369.6 m 558 369.6 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 347.6 Tm (*Paper 138 in the AIIT-THRESI series. All prior papers available at:*) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 335.6 Tm (*https://github.com/AIIT-GLITCH/WIKE-RESEARCH-MASTER*) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+45 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+46 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 47
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000337 00000 n 
+0000000386 00000 n 
+0000000746 00000 n 
+0000005599 00000 n 
+0000005706 00000 n 
+0000005813 00000 n 
+0000005923 00000 n 
+0000006033 00000 n 
+0000006139 00000 n 
+0000006503 00000 n 
+0000011786 00000 n 
+0000011894 00000 n 
+0000012005 00000 n 
+0000012369 00000 n 
+0000018066 00000 n 
+0000018174 00000 n 
+0000018285 00000 n 
+0000018649 00000 n 
+0000023378 00000 n 
+0000023486 00000 n 
+0000023597 00000 n 
+0000023961 00000 n 
+0000029175 00000 n 
+0000029283 00000 n 
+0000029394 00000 n 
+0000029758 00000 n 
+0000035089 00000 n 
+0000035197 00000 n 
+0000035308 00000 n 
+0000035672 00000 n 
+0000041251 00000 n 
+0000041359 00000 n 
+0000041470 00000 n 
+0000041834 00000 n 
+0000047836 00000 n 
+0000047944 00000 n 
+0000048055 00000 n 
+0000048419 00000 n 
+0000055560 00000 n 
+0000055668 00000 n 
+0000055779 00000 n 
+0000056143 00000 n 
+0000060151 00000 n 
+0000060259 00000 n 
+trailer
+<<
+/Size 47
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+60370
+%%EOF

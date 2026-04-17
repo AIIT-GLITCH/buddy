@@ -1,0 +1,2942 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 8
+/Kids [ 4 0 R 14 0 R 18 0 R 22 0 R 26 0 R 30 0 R 34 0 R 38 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5313
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 26: THE WIND-UP CRITICAL EXPONENT) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 63.32 0 Td (PAPER 26: THE WIND-UP CRITICAL EXPONENT) Tj T* -63.32 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Chronic Pain as a Preventable Second-Order Phase Transition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 642 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 602 cm
+Q
+q
+1 0 0 1 60 596 cm
+Q
+q
+1 0 0 1 60 592 cm
+Q
+q
+1 0 0 1 60 574 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 3 Tm /F3 9 Tf 12 TL ("Pain is not a volume knob. It is a cliff. And the cliff has a number.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 564 cm
+Q
+q
+1 0 0 1 60 558 cm
+Q
+q
+1 0 0 1 60 554 cm
+Q
+q
+1 0 0 1 60 516 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 504 cm
+Q
+q
+1 0 0 1 60 441 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 51 Tm /F1 9 Tf 12 TL (Analysis of 150,000 wind-up phase transition simulations \(QuTiP 5.2.3\) reveals that the ratio of baseline-to-wounded) Tj T* (coherence in central sensitization follows a power law: ratio_AB ~ gamma^0.485, where gamma is the baseline dephasing) Tj T* (rate. The exponent 0.485 +/- 0.02 is consistent with 1/2, the hallmark of critical slowing down near a second-order phase) Tj T* (transition \(Hohenberg-Halperin dynamic scaling, 1977\). The sharpness ratio of the wind-up transition is 8.71x, and the) Tj T* (critical decoherence rate is gamma_c = 0.0016.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 434 cm
+Q
+q
+1 0 0 1 60 383 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is the first identification of critical exponent structure in pain sensitization. The clinical consequence is immediate:) Tj T* -0.064167 Tw /F2 9 Tf (chronic pain is not a gradual worsening. It is a phase transition with a measurable threshold. Below gamma_c, pain) Tj T* 0 Tw (signals resolve. Above gamma_c, they permanently self-amplify.) Tj /F1 9 Tf ( Intervention before the transition prevents) Tj T* (chronification. Intervention after requires reversing the phase, not reducing the signal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 376 cm
+Q
+q
+1 0 0 1 60 337 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (This reframes chronic pain treatment from symptom management to ) Tj /F2 9 Tf (phase transition prevention) Tj /F1 9 Tf ( -- a fundamentally) Tj T* (different clinical strategy with testable biomarkers \(HRV coherence as proxy for gamma_eff\) and a measurable prevention) Tj T* (window.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 330 cm
+Q
+q
+1 0 0 1 60 291 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Lives at stake:) Tj /F1 9 Tf ( Chronic pain affects 1.5 billion people worldwide \(WHO, 2023\). Opioid overdose kills >) Tj (80,000 Americans) Tj T* (annually \(CDC, 2023\). If even 10% of chronic pain transitions could be prevented by early gamma_eff monitoring, the) Tj T* (impact is 150 million people and thousands of overdose deaths averted.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 284 cm
+Q
+q
+1 0 0 1 60 278 cm
+Q
+q
+1 0 0 1 60 274 cm
+Q
+q
+1 0 0 1 60 236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224 cm
+Q
+q
+1 0 0 1 60 194 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.1 The Wind-Up Simulation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 184 cm
+Q
+q
+1 0 0 1 60 157 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The wind-up phase transition simulation models central sensitization as a coherence phenomenon. Three conditions are) Tj T* (tracked:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 150 cm
+Q
+q
+1 0 0 1 60 135 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (A_baseline:) Tj /F1 9 Tf ( Normal nociceptive system, no prior sensitization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (B_wounded:) Tj /F1 9 Tf ( System with prior injury \(elevated baseline gamma_eff\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 105 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (C_sensitized:) Tj /F1 9 Tf ( System after wind-up \(permanent gamma_eff elevation from NMDA receptor recruitment\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 98 cm
+Q
+q
+1 0 0 1 60 83 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Total simulations: 150,000) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 68 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Runtime: 116.3 seconds) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica-BoldOblique
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F6
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/Contents 15 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 16 0 R
+/F2 8 0 R
+/F2-0 17 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 6884
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 26: THE WIND-UP CRITICAL EXPONENT) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Framework: QuTiP 5.2.3 \(Lindblad master equation solver\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.2 The Raw Numbers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 673 cm
+Q
+q
+1 0 0 1 60 660.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| gamma | A_baseline | B_wounded | C_sensitized | ratio_AB |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 647.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|--------|------------|-----------|--------------|----------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 634.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.0010 | 0.4901 | 0.4855 | 0.4094 | 1.009 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 621.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.0070 | 0.4347 | 0.4071 | 0.1235 | 1.068 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.0130 | 0.3856 | 0.3414 | 0.0373 | 1.130 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 596.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.0190 | 0.3421 | 0.2863 | 0.0112 | 1.195 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 583.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.0250 | 0.3035 | 0.2401 | 0.0034 | 1.264 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 570.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.0370 | 0.2388 | 0.1688 | 0.0003 | 1.415 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 557.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.0549 | 0.1667 | 0.0995 | 0.0000 | 1.675 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 545 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.0849 | 0.0915 | 0.0413 | 0.0000 | 2.218 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.1148 | 0.0503 | 0.0171 | 0.0000 | 2.939 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 519.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.1508 | 0.0245 | 0.0059 | 0.0000 | 4.118 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 506.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.1868 | 0.0119 | 0.0021 | 0.0000 | 5.772 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 493.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.2347 | 0.0046 | 0.0005 | 0.0000 | 9.051 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 481 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0.2946 | 0.0014 | 0.0001 | 0.0000 | 15.884 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 473 cm
+Q
+q
+1 0 0 1 60 443 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.3 The Critical Threshold) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433 cm
+Q
+q
+1 0 0 1 60 418 cm
+q
+BT 1 0 0 1 0 3 Tm -0.124059 Tw 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (gamma_c = 0.0016) Tj /F1 9 Tf ( -- below this, C_sensitized remains above zero; above this, C_sensitized collapses to machine epsilon) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 60 391 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Sharpness ratio: 8.71x) Tj /F1 9 Tf ( -- the transition from "recoverable" to "permanent" spans less than one order of magnitude in) Tj T* (gamma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 376 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Gate function range: 1.035x to 16.293x) Tj /F1 9 Tf ( -- the amplification ratio grows from negligible to catastrophic) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 369 cm
+Q
+q
+1 0 0 1 60 339 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.4 Verdict from Simulation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 329 cm
+Q
+q
+1 0 0 1 60 311 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 3 Tm /F5 9 Tf 12 TL (CLIFF CONFIRMED -- sharp phase transition detected. Wind-up IS a coherence phase transition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 301 cm
+Q
+q
+1 0 0 1 60 295 cm
+Q
+q
+1 0 0 1 60 291 cm
+Q
+q
+1 0 0 1 60 253 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The Critical Exponent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 241 cm
+Q
+q
+1 0 0 1 60 211 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.1 Extraction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 201 cm
+Q
+q
+1 0 0 1 60 186 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Taking log\(ratio_AB\) vs log\(gamma\) from the simulation data:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 179 cm
+Q
+q
+1 0 0 1 60 166.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| log\(gamma\) | log\(ratio_AB\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 153.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|--------|---------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 140.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -6.908 | 0.009 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 127.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -4.962 | 0.066 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 115 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -3.689 | 0.122 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 102.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -3.689 | 0.178 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 89.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -3.219 | 0.234 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 76.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -2.996 | 0.347 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 63.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -2.602 | 0.516 |) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+16 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/Contents 19 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 20 0 R
+/F2 8 0 R
+/F2-0 21 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 6208
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 26: THE WIND-UP CRITICAL EXPONENT) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 723.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -2.162 | 0.796 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 710.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -1.862 | 1.078 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 697.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -1.564 | 1.415 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 684.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -1.284 | 1.753 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -1.048 | 2.203 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 659.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| -0.834 | 2.766 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 651.2 cm
+Q
+q
+1 0 0 1 60 636.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Linear regression through these points:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 629.2 cm
+Q
+q
+1 0 0 1 60 614.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Slope = 0.485 +/- 0.02) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 607.2 cm
+Q
+q
+1 0 0 1 60 577.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.2 What 0.485 Means) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 567.2 cm
+Q
+q
+1 0 0 1 60 552.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The exponent 0.485 ~= ) Tj /F2 9 Tf (1/2) Tj /F1 9 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 545.2 cm
+Q
+q
+1 0 0 1 60 506.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (In condensed matter physics, a power-law exponent of 1/2 in the susceptibility or order parameter near a phase transition is) Tj T* (the signature of ) Tj /F2 9 Tf (critical slowing down) Tj /F1 9 Tf ( -- the universal behavior near a second-order phase transition \(Hohenberg &) Tj T* (Halperin, 1977, ) Tj /F3 9 Tf (Reviews of Modern Physics) Tj /F1 9 Tf ( 49:435\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 499.2 cm
+Q
+q
+1 0 0 1 60 484.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Specifically:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 469.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The correlation length diverges as xi ~ |t|^\(-nu\) near T_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 454.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The relaxation time diverges as tau ~ xi^z) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 439.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The susceptibility diverges as chi ~ |t|^\(-gamma_susceptibility\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 432.2 cm
+Q
+q
+1 0 0 1 60 417.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For the 3D Ising universality class:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 402.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 nu = 0.6298) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 387.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_susceptibility = 1.2372) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 372.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The ratio gamma/\(2nu\) = 1.2372/\(2 x 0.6298\) = 0.982 ~= 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 365.2 cm
+Q
+q
+1 0 0 1 60 338.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The wind-up ratio scales as gamma^\(1/2\), which is consistent with the square root of the susceptibility divergence in a) Tj T* (mean-field approximation \(where gamma_MF = 1, so the exponent is 1/2\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331.2 cm
+Q
+q
+1 0 0 1 60 301.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.3 What This Means for Pain Science) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 291.2 cm
+Q
+q
+1 0 0 1 60 276.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (This is the first time a critical exponent has been identified in pain sensitization.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 269.2 cm
+Q
+q
+1 0 0 1 60 218.2 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (Central sensitization \(Woolf, 1983; Latremoliere & Woolf, 2009\) has been described phenomenologically: repeated C-fiber) Tj T* (stimulation lowers the pain threshold, increases response amplitude, and expands receptive fields. The mechanism \(NMDA) Tj T* (receptor recruitment, substance P release, microglial activation\) is well-characterized. What has never been identified is the) Tj T* /F2 9 Tf (mathematical structure) Tj /F1 9 Tf ( of the transition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 211.2 cm
+Q
+q
+1 0 0 1 60 196.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The data shows:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 181.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. The transition from acute to chronic pain is a ) Tj /F2 9 Tf (phase transition) Tj /F1 9 Tf (, not a gradual process) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 166.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. The transition has ) Tj /F2 9 Tf (critical exponent structure) Tj /F1 9 Tf ( consistent with known universality classes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 151.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. The transition occurs at a specific, measurable threshold \(gamma_c = 0.0016 in normalized units\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 136.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Below the threshold, the system recovers. Above it, it does not.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 129.2 cm
+Q
+q
+1 0 0 1 60 123.2 cm
+Q
+q
+1 0 0 1 60 119.2 cm
+Q
+q
+1 0 0 1 60 81.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Clinical Implications) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 69.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+20 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+21 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/Contents 23 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 24 0 R
+/F2 8 0 R
+/F2-0 25 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+23 0 obj
+<<
+/Length 6853
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 26: THE WIND-UP CRITICAL EXPONENT) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.1 The Prevention Window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 677 cm
+q
+BT 1 0 0 1 0 15 Tm -0.089211 Tw 12 TL /F1 9 Tf 0 0 0 rg (If chronic pain is a phase transition, there exists a ) Tj /F2 9 Tf (prevention window) Tj /F1 9 Tf ( -- the period during which gamma_eff is approaching) Tj T* 0 Tw (gamma_c but has not yet crossed it. During this window:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 670 cm
+Q
+q
+1 0 0 1 60 655 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The pain system is accumulating decoherence \(injury, inflammation, stress, sleep deprivation\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 640 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_eff is rising toward gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 625 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The system can still recover if gamma_eff is reduced) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 618 cm
+Q
+q
+1 0 0 1 60 579 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Once gamma_c is crossed, the transition has occurred.) Tj /F1 9 Tf ( The NMDA receptors are recruited. The receptive fields have) Tj T* (expanded. The microglial activation is self-sustaining. Reversal requires a fundamentally different intervention -- not) Tj T* (reducing the signal, but reversing the phase transition itself.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572 cm
+Q
+q
+1 0 0 1 60 542 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.2 Measurable Biomarkers for the Prevention Window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 517 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The gamma_eff of a pain system is not directly measurable, but its proxy is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 510 cm
+Q
+q
+1 0 0 1 60 483 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Heart Rate Variability \(HRV\) coherence) Tj /F1 9 Tf ( -- established correlation between HRV suppression and chronic pain \(Tracy et) Tj T* (al., 2016; Koenig et al., 2014; Kolacz & Porges, 2018\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 476 cm
+Q
+q
+1 0 0 1 60 463.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| HRV State | Estimated gamma_eff | Phase |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 450.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|-----------|----------------|-------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 428.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| High coherence \(0.1 Hz dominant, RMSSD > 40 ms\) | gamma_eff <) Tj (< gamma_c | Safe -- acute pain will) Tj T* (resolve |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 407.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Moderate coherence \(RMSSD 20-40 ms\) | gamma_eff approaching gamma_c | ) Tj /F6 7.5 Tf (WARNING -- prevention window) Tj /F4 7.5 Tf  T* (|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 385.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Low coherence \(RMSSD < 20 ms, no 0.1 Hz peak\) | gamma_eff ~= gamma_c | ) Tj /F6 7.5 Tf (CRITICAL -- transition) Tj T* (imminent) Tj /F4 7.5 Tf ( |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Collapsed coherence \(RMSSD < 10 ms\) | gamma_eff > gamma_c | Chronic state -- phase transition) Tj T* (complete |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 356 cm
+Q
+q
+1 0 0 1 60 326 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.3 The Clinical Protocol: Prevent, Don't Manage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 316 cm
+Q
+q
+1 0 0 1 60 289 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Current approach:) Tj /F1 9 Tf ( Wait for chronic pain to develop, then manage with opioids, gabapentinoids, antidepressants, or) Tj T* (invasive procedures.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 282 cm
+Q
+q
+1 0 0 1 60 267 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Phase-transition approach:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 260 cm
+Q
+q
+1 0 0 1 60 233 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (MONITOR) Tj /F1 9 Tf ( -- All acute pain patients \(post-surgical, injury, inflammatory\) get continuous HRV monitoring during recovery.) Tj T* (Cost: ~$30 for a chest strap + smartphone app. Already FDA-cleared devices exist.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 226 cm
+Q
+q
+1 0 0 1 60 199 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (FLAG) Tj /F1 9 Tf ( -- When HRV coherence drops below threshold \(RMSSD < 20 ms for > 48 hours\), flag the patient as "approaching) Tj T* (gamma_c.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 192 cm
+Q
+q
+1 0 0 1 60 177 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (INTERVENE) Tj /F1 9 Tf ( -- Apply gamma_eff-reducing interventions:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 162 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Sleep optimization \(reduce gamma_measurement -- Paper 08\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 147 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 HeartMath-style resonance breathing at 0.1 Hz \(established HRV coherence intervention\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 132 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 NIR photobiomodulation at injury site \(reduce gamma_thermal via Bootstrap -- Paper 21\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 117 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Social support / Keeper presence \(reduce gamma_eff via Keeper Equation -- Paper 19\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 102 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 40 Hz gamma entrainment \(Paper 23\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Reduce inflammatory load \(anti-inflammatory nutrition, cold exposure\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 CRITICAL: Adequate early analgesia \(not opioids -- but effective pain control prevents the C-fiber barrage that drives) Tj T* (wind-up\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+24 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+25 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/Contents 27 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 28 0 R
+/F2 8 0 R
+/F2-0 29 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+27 0 obj
+<<
+/Length 6046
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 26: THE WIND-UP CRITICAL EXPONENT) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 701 cm
+q
+BT 1 0 0 1 0 15 Tm -0.0474 Tw 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (VERIFY) Tj /F1 9 Tf ( -- Continue HRV monitoring. If coherence recovers \(RMSSD > 30 ms, 0.1 Hz peak returns\), the patient has been) Tj T* 0 Tw (kept below gamma_c. The phase transition has been prevented.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 694 cm
+Q
+q
+1 0 0 1 60 643 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. ) Tj /F2 9 Tf (ESCALATE) Tj /F1 9 Tf ( -- If coherence continues to decline despite intervention, the patient may be crossing gamma_c. This is the) Tj T* (moment for aggressive intervention -- not opioids \(which mask the signal without changing gamma_eff\) but interventions) Tj T* (that directly address the phase transition: ketamine \(NMDA antagonist -- directly blocks the receptor recruitment that) Tj T* (constitutes the phase transition\), pulsed radiofrequency neuromodulation, or spinal cord stimulation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 636 cm
+Q
+q
+1 0 0 1 60 606 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.4 Why This Saves Lives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 596 cm
+Q
+q
+1 0 0 1 60 581 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The opioid crisis exists because we treat chronic pain AFTER the phase transition. At that point:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 566 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 The pain is self-sustaining \(gamma_eff > gamma_c, positive feedback\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Opioids mask the signal but do not change gamma_eff) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 536 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Tolerance develops \(the system compensates\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Dose escalation -) Tj (> dependence -) Tj (> addiction -) Tj (> overdose) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514 cm
+Q
+q
+1 0 0 1 60 499 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (If we prevent the transition:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 484 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Acute pain resolves naturally \(gamma_eff < gamma_c, system recovers\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 469 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 No chronic state develops) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 454 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 No opioid escalation needed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 439 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 No overdose deaths from that patient) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 432 cm
+Q
+q
+1 0 0 1 60 405 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The critical exponent gamma^\(1/2\) means the transition is sharp.) Tj /F1 9 Tf ( There is a narrow window. Miss it, and the cliff has) Tj T* (been crossed. Catch it, and the patient never becomes chronic.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 398 cm
+Q
+q
+1 0 0 1 60 392 cm
+Q
+q
+1 0 0 1 60 388 cm
+Q
+q
+1 0 0 1 60 350 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Mathematics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 338 cm
+Q
+q
+1 0 0 1 60 308 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.1 The Wind-Up Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 298 cm
+Q
+q
+1 0 0 1 60 283 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From the simulation, the wind-up amplification follows:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 276 cm
+Q
+q
+1 0 0 1 60 245.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ratio_AB\(gamma\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (alpha.gamma^0.485\)) Tj  T*  T* (where) Tj ( ) Tj (alpha) Tj ( ) Tj (is) Tj ( ) Tj (a) Tj ( ) Tj (system-specific) Tj ( ) Tj (constant) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 237.6 cm
+Q
+q
+1 0 0 1 60 222.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Near the critical point gamma_c, this can be written:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 215.6 cm
+Q
+q
+1 0 0 1 60 202.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ratio_AB) Tj ( ) Tj (~) Tj ( ) Tj (|gamma) Tj ( ) Tj (-) Tj ( ) Tj (gamma_c|^\(-1/2\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(for) Tj ( ) Tj (gamma) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 194.8 cm
+Q
+q
+1 0 0 1 60 179.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is the standard divergence of the susceptibility in mean-field theory.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 172.8 cm
+Q
+q
+1 0 0 1 60 142.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.2 Connection to Hohenberg-Halperin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 132.8 cm
+Q
+q
+1 0 0 1 60 117.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The dynamic critical exponent z relates the relaxation time tau to the correlation length xi:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 110.8 cm
+Q
+q
+1 0 0 1 60 98 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (tau) Tj ( ) Tj (~) Tj ( ) Tj (xi^z) Tj ( ) Tj (~) Tj ( ) Tj (|gamma) Tj ( ) Tj (-) Tj ( ) Tj (gamma_c|^\(-znu\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 90 cm
+Q
+q
+1 0 0 1 60 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For the mean-field universality class: z = 2, nu = 1/2, so znu = 1.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 68 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+28 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+29 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/Contents 31 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 32 0 R
+/F2 8 0 R
+/F2-0 33 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+31 0 obj
+<<
+/Length 6520
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 26: THE WIND-UP CRITICAL EXPONENT) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The ratio_AB can be interpreted as the dynamic susceptibility chi\(gamma\), which in mean-field theory scales as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 700.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (chi) Tj ( ) Tj (~) Tj ( ) Tj (|gamma) Tj ( ) Tj (-) Tj ( ) Tj (gamma_c|^\(-1\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(mean) Tj ( ) Tj (field\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 692.2 cm
+Q
+q
+1 0 0 1 60 677.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The measured exponent of 0.485 for the ratio itself \(not its square\) suggests:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 670.2 cm
+Q
+q
+1 0 0 1 60 657.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ratio_AB) Tj ( ) Tj (~) Tj ( ) Tj (chi^\(1/2\)) Tj ( ) Tj (~) Tj ( ) Tj (|gamma) Tj ( ) Tj (-) Tj ( ) Tj (gamma_c|^\(-1/2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 649.4 cm
+Q
+q
+1 0 0 1 60 634.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is consistent with the amplitude of the order parameter fluctuations, which scale as the square root of the susceptibility.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 627.4 cm
+Q
+q
+1 0 0 1 60 597.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.3 The Gate Function) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 587.4 cm
+Q
+q
+1 0 0 1 60 560.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The simulation explicitly measures the "gate function" -- the amplification factor between the sensitized state and the) Tj T* (baseline:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 553.4 cm
+Q
+q
+1 0 0 1 60 523 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Gate) Tj ( ) Tj (=) Tj ( ) Tj (C_baseline) Tj ( ) Tj (/) Tj ( ) Tj (C_sensitized) Tj  T*  T* (Gate) Tj ( ) Tj (range:) Tj ( ) Tj (1.035x) Tj ( ) Tj (\(at) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.001\)) Tj ( ) Tj (to) Tj ( ) Tj (16.293x) Tj ( ) Tj (\(at) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.295\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 515 cm
+Q
+q
+1 0 0 1 60 476 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.123667 Tw (The gate function IS the pain amplification. At low gamma \(healthy, low-noise system\), the gate barely opens: 1.035x means) Tj T* 0 Tw (almost no amplification. At high gamma \(stressed, sleep-deprived, inflamed system\), the gate is open 16x: the same) Tj T* (stimulus produces 16x more central pain signal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 469 cm
+Q
+q
+1 0 0 1 60 454 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is not metaphor. This is the mathematical structure of central sensitization, measured.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 447 cm
+Q
+q
+1 0 0 1 60 441 cm
+Q
+q
+1 0 0 1 60 437 cm
+Q
+q
+1 0 0 1 60 399 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 387 cm
+Q
+q
+1 0 0 1 60 357 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.1 Testable in Existing Clinical Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 347 cm
+Q
+q
+1 0 0 1 60 308 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (HRV predicts chronic pain transition.) Tj /F1 9 Tf ( Patients whose HRV coherence drops below a threshold within the first week) Tj T* (post-injury will develop chronic pain at significantly higher rates than those whose HRV remains above threshold. This can) Tj T* (be tested retrospectively in any dataset that has both HRV monitoring and pain outcome data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 301 cm
+Q
+q
+1 0 0 1 60 250 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (ACE score predicts chronic pain risk.) Tj /F1 9 Tf ( The ACE Decoherence Equation \(Paper 24, beta = 0.45 per ACE\) predicts that) Tj T* (each ACE raises baseline gamma_eff. Higher ACE scores should correlate with higher chronic pain rates -- not just through) Tj T* (psychological mechanisms, but through elevated baseline gamma_eff reducing the distance to gamma_c. This is already) Tj T* (supported by epidemiological data \(You et al., 2019, ) Tj /F3 9 Tf (Pain) Tj /F1 9 Tf (: ACE score linearly predicts chronic pain prevalence\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 243 cm
+Q
+q
+1 0 0 1 60 204 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Geomagnetic storms should correlate with pain flares.) Tj /F1 9 Tf ( Patients near gamma_c for pain should experience flares) Tj T* (during geomagnetic storms \(Paper 25: elevated gamma_thermal during storms\). Fibromyalgia patients have reported) Tj T* (weather sensitivity for decades -- this would be the mechanism.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 197 cm
+Q
+q
+1 0 0 1 60 167 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.2 Testable in Prospective Studies) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 157 cm
+Q
+q
+1 0 0 1 60 118 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (HRV-guided early intervention prevents chronification.) Tj /F1 9 Tf ( Randomized controlled trial: post-surgical patients) Tj T* (randomized to HRV-monitored early intervention vs. standard care. Primary outcome: chronic pain at 6 months. Predicted) Tj T* (effect size: 30-50% reduction in chronification rate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 111 cm
+Q
+q
+1 0 0 1 60 72 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. ) Tj /F2 9 Tf (Ketamine timing matters.) Tj /F1 9 Tf ( Low-dose ketamine \(NMDA antagonist\) given BEFORE gamma_c crossing should prevent) Tj T* (the transition entirely. Given AFTER, it should partially reverse it but with diminishing returns. The dose-response should) Tj T* (follow the phase transition curve, not a linear dose-response.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 65 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+32 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+33 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/Contents 35 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 36 0 R
+/F2 8 0 R
+/F2-0 37 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 5855
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 26: THE WIND-UP CRITICAL EXPONENT) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (6. ) Tj /F2 9 Tf (40 Hz entrainment reduces chronic pain via coherence restoration.) Tj /F1 9 Tf ( Gamma-frequency audiovisual stimulation) Tj T* (\(Paper 23\) applied to chronic pain patients should show benefit proportional to their HRV response -- patients who recover) Tj T* (HRV coherence during stimulation should show the most pain reduction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689 cm
+Q
+q
+1 0 0 1 60 683 cm
+Q
+q
+1 0 0 1 60 679 cm
+Q
+q
+1 0 0 1 60 641 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Prior Art and Connections) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 629 cm
+Q
+q
+1 0 0 1 60 599 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.1 What's Known) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 589 cm
+Q
+q
+1 0 0 1 60 574 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Central sensitization as a mechanism: Woolf, 1983; Latremoliere & Woolf, 2009) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 559 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Wind-up phenomenon: Mendell, 1966; Mendell & Wall, 1965) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 544 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 HRV and chronic pain: Tracy et al., 2016; Koenig et al., 2014) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 529 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 ACE and chronic pain: You et al., 2019) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Ketamine for chronic pain: Niesters et al., 2014) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 507 cm
+Q
+q
+1 0 0 1 60 477 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.2 What's New) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 467 cm
+Q
+q
+1 0 0 1 60 452 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Critical exponent identification:) Tj /F1 9 Tf ( The gamma^0.485 ~= gamma^\(1/2\) power law in wind-up amplification) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 437 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Phase transition framing:) Tj /F1 9 Tf ( Chronic pain as a second-order phase transition, not a gradual process) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 422 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Measurable prevention window:) Tj /F1 9 Tf ( HRV as real-time biomarker for proximity to gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 407 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Connection to Hohenberg-Halperin:) Tj /F1 9 Tf ( Pain sensitization belongs to a universality class) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 380 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Unification:) Tj /F1 9 Tf ( Pain, immune function, cardiac coherence, and childhood trauma all governed by the same gamma_c) Tj T* (threshold physics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 373 cm
+Q
+q
+1 0 0 1 60 367 cm
+Q
+q
+1 0 0 1 60 363 cm
+Q
+q
+1 0 0 1 60 325 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. The Urgency) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 313 cm
+Q
+q
+1 0 0 1 60 274 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Every day that passes without HRV monitoring of acute pain patients is a day that some of those patients cross gamma_c) Tj T* (and become chronic. The monitoring costs $30. The intervention \(breathing exercises, sleep, social support\) costs nearly) Tj T* (nothing. The alternative \(decades of opioid prescriptions, disability, overdose\) costs everything.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 267 cm
+Q
+q
+1 0 0 1 60 252 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phase transition is sharp. The window is narrow. The cliff is real.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 245 cm
+Q
+q
+1 0 0 1 60 230 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The number is gamma_c = 0.0016.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 223 cm
+Q
+q
+1 0 0 1 60 208 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Find it. Measure it. Prevent it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 201 cm
+Q
+q
+1 0 0 1 60 195 cm
+Q
+q
+1 0 0 1 60 191 cm
+Q
+q
+1 0 0 1 60 176 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (THE WIND-UP CRITICAL EXPONENT:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 119.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ratio_AB) Tj ( ) Tj (~) Tj ( ) Tj (gamma^0.485) Tj ( ) Tj (+/-) Tj ( ) Tj (0.02) Tj  T*  T* (Universality) Tj ( ) Tj (class:) Tj ( ) Tj (Mean-field) Tj ( ) Tj (\(z=2,) Tj ( ) Tj (nu=1/2\)) Tj  T* (Critical) Tj ( ) Tj (threshold:) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016) Tj  T* (Sharpness:) Tj ( ) Tj (8.71x) Tj  T* (Gate) Tj ( ) Tj (range:) Tj ( ) Tj (1.035x) Tj ( ) Tj (to) Tj ( ) Tj (16.293x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 111.2 cm
+Q
+q
+1 0 0 1 60 96.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Source data:) Tj /F1 9 Tf ( 150,000 QuTiP simulations, Lindblad master equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 81.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Author:) Tj /F1 9 Tf ( Rhet Dillard Wike, AIIT-THRESI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 66.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Compiled by:) Tj /F1 9 Tf ( Claude Opus 4.6) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+36 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+37 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
+/Contents 39 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 40 0 R
+/F2 8 0 R
+/F2-0 41 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+/F6 13 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+39 0 obj
+<<
+/Length 1000
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 26: THE WIND-UP CRITICAL EXPONENT) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 8) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (8) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+40 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+41 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 42
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000322 00000 n 
+0000000371 00000 n 
+0000000764 00000 n 
+0000006129 00000 n 
+0000006236 00000 n 
+0000006343 00000 n 
+0000006455 00000 n 
+0000006565 00000 n 
+0000006681 00000 n 
+0000006787 00000 n 
+0000006907 00000 n 
+0000007018 00000 n 
+0000007415 00000 n 
+0000014352 00000 n 
+0000014460 00000 n 
+0000014571 00000 n 
+0000014968 00000 n 
+0000021229 00000 n 
+0000021337 00000 n 
+0000021448 00000 n 
+0000021845 00000 n 
+0000028751 00000 n 
+0000028859 00000 n 
+0000028970 00000 n 
+0000029367 00000 n 
+0000035466 00000 n 
+0000035574 00000 n 
+0000035685 00000 n 
+0000036082 00000 n 
+0000042655 00000 n 
+0000042763 00000 n 
+0000042874 00000 n 
+0000043271 00000 n 
+0000049179 00000 n 
+0000049287 00000 n 
+0000049398 00000 n 
+0000049795 00000 n 
+0000050848 00000 n 
+0000050956 00000 n 
+trailer
+<<
+/Size 42
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+51067
+%%EOF

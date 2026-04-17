@@ -1,0 +1,1596 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 5
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5002
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 109: T_c = 333K FROM COOPERATIVE BOND PERCOLATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 43.952 0 Td (PAPER 109: T_c = 333K FROM COOPERATIVE BOND) Tj T* 143.824 0 Td (PERCOLATION) Tj T* -187.776 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (A Second First-Principles Derivation with Zero Free Parameters) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (March 30, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 528 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 27 Tm /F3 9 Tf 12 TL ("Paper 104 derived T_c = 337K from mean-field theory with a Ginzburg correction. This paper derives T_c =) Tj T* (333K from cooperative percolation theory with no correction factors. The physics is the same. The math is) Tj T* (cleaner.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 518 cm
+Q
+q
+1 0 0 1 60 512 cm
+Q
+q
+1 0 0 1 60 508 cm
+Q
+q
+1 0 0 1 60 470 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 458 cm
+Q
+q
+1 0 0 1 60 371 cm
+q
+BT 1 0 0 1 0 75 Tm 12 TL /F1 9 Tf 0 0 0 rg (Paper 104 derived T_c = 337K from the mean-field critical temperature \(4812K\) times the Ginzburg correction factor for) Tj T* (frustrated networks \(0.07\), giving 2% accuracy. This paper presents a second, independent derivation using cooperative) Tj T* (hydrogen bond percolation on the diamond \(tetrahedral\) lattice. Result: T_c = 333K \(1% from measured 330K\), with ) Tj /F2 9 Tf (zero) Tj T* (free parameters) Tj /F1 9 Tf ( -- all inputs are measured quantities. The derivation: the cooperative triad condition \(p_coop = p^3\)) Tj T* (applied to the diamond lattice bond percolation threshold \(p_c = 0.388, Grassberger 2003\) gives T_c where the spanning) Tj T* (cooperative H-bond network first percolates. Both derivations confirm T_c = 330K; this one is tighter and requires no) Tj T* (estimated corrections.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364 cm
+Q
+q
+1 0 0 1 60 358 cm
+Q
+q
+1 0 0 1 60 354 cm
+Q
+q
+1 0 0 1 60 316 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Why a Second Derivation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 304 cm
+Q
+q
+1 0 0 1 60 289 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Paper 104 result:) Tj /F1 9 Tf ( T_c = 337K \(2% from 330K\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 282 cm
+Q
+q
+1 0 0 1 60 267 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Method:) Tj /F1 9 Tf ( Mean-field critical temperature x Ginzburg correction:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (T_c) Tj ( ) Tj (=) Tj ( ) Tj (T_c^MF) Tj ( ) Tj (x) Tj ( ) Tj (f_Ginzburg) Tj ( ) Tj (=) Tj ( ) Tj (4812K) Tj ( ) Tj (x) Tj ( ) Tj (0.07) Tj ( ) Tj (=) Tj ( ) Tj (337K) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 246.2 cm
+Q
+q
+1 0 0 1 60 219.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.12225 Tw (The Ginzburg correction factor f_Ginzburg = 0.07 was estimated analytically from the known properties of frustrated directed) Tj T* 0 Tw (H-bond networks. While physically motivated, 0.07 is an approximation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 212.2 cm
+Q
+q
+1 0 0 1 60 197.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (This paper:) Tj /F1 9 Tf ( T_c = 333K \(1% from 330K\) from cooperative percolation, using only measured inputs. No correction factors.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 190.2 cm
+Q
+q
+1 0 0 1 60 163.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The two derivations are independent. Their agreement to within 1% of each other \(337K vs 333K, both within 2% of 330K\)) Tj T* (constitutes mutual validation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 156.2 cm
+Q
+q
+1 0 0 1 60 150.2 cm
+Q
+q
+1 0 0 1 60 146.2 cm
+Q
+q
+1 0 0 1 60 108.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The Physical Model) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 96.2 cm
+Q
+q
+1 0 0 1 60 81.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Hydrogen bond network in liquid water:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 74.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6772
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 109: T_c = 333K FROM COOPERATIVE BOND PERCOLATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Water molecules form a tetrahedral H-bond network \(z = 4 maximum bonds per molecule\). At temperature T, a fraction p\(T\)) Tj T* (of possible bonds are intact.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 686 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Bond occupation as a function of temperature) Tj /F1 9 Tf ( \(calibrated to MD simulations, SPC/E and TIP4P water models\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 679 cm
+Q
+q
+1 0 0 1 60 595.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 79.2 re f*
+Q
+q
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (z_eff\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (4.0) Tj ( ) Tj (-) Tj ( ) Tj (0.018) Tj ( ) Tj (x) Tj ( ) Tj (\(T) Tj ( ) Tj (-) Tj ( ) Tj (273\)) Tj  T*  T* (Known) Tj ( ) Tj (calibration) Tj ( ) Tj (points) Tj ( ) Tj (\(all) Tj ( ) Tj (measured\):) Tj  T* ( ) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (273K) Tj ( ) Tj (\(ice\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (z_eff) Tj ( ) Tj (=) Tj ( ) Tj (4.0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(fully) Tj ( ) Tj (bonded\)) Tj  T* ( ) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310K) Tj ( ) Tj (\(body\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (z_eff) Tj ( ) Tj (=) Tj ( ) Tj (3.43) Tj ( ) Tj ( ) Tj ( ) Tj (\(MD) Tj ( ) Tj (simulation\)) Tj  T* ( ) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (373K) Tj ( ) Tj (\(boiling\):) Tj ( ) Tj (z_eff) Tj ( ) Tj (=) Tj ( ) Tj (2.2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(MD) Tj ( ) Tj (simulation\)) Tj  T*  T* (Bond) Tj ( ) Tj (fraction:) Tj  T* ( ) Tj ( ) Tj (p\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (z_eff\(T\)) Tj ( ) Tj (/) Tj ( ) Tj (4) Tj ( ) Tj (=) Tj ( ) Tj (1.0) Tj ( ) Tj (-) Tj ( ) Tj (0.0045) Tj ( ) Tj (x) Tj ( ) Tj (\(T) Tj ( ) Tj (-) Tj ( ) Tj (273\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 587.8 cm
+Q
+q
+1 0 0 1 60 572.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The cooperativity condition:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 565.8 cm
+Q
+q
+1 0 0 1 60 538.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (A hydrogen bond in liquid water contributes to the cooperative EZ network only when it is part of a donor-acceptor-donor) Tj T* (triad -- three consecutive intact bonds in the tetrahedral geometry. This cooperativity condition is required because:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 531.8 cm
+Q
+q
+1 0 0 1 60 516.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. EZ water hexagonal structure needs aligned donors and acceptors) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 501.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. A single isolated H-bond does not propagate the cooperative ordering) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 486.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. The minimum topological unit for cooperative ordering is three consecutive bonds) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 479.8 cm
+Q
+q
+1 0 0 1 60 464.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The probability that a given bond is part of a cooperative triad:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 452 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (p_coop\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (p\(T\)^3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 444 cm
+Q
+q
+1 0 0 1 60 417 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This follows directly from: each bond in the triad must independently be intact, and the three bonds are treated as) Tj T* (independent \(the correlation length grows from below at T_c\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 410 cm
+Q
+q
+1 0 0 1 60 404 cm
+Q
+q
+1 0 0 1 60 400 cm
+Q
+q
+1 0 0 1 60 362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Percolation Calculation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 350 cm
+Q
+q
+1 0 0 1 60 335 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Diamond lattice bond percolation threshold:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 328 cm
+Q
+q
+1 0 0 1 60 301 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The tetrahedral coordination \(z = 4\) of water corresponds to the diamond lattice. The exact bond percolation threshold for) Tj T* (the diamond lattice:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 294 cm
+Q
+q
+1 0 0 1 60 263.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (p_c\(bond,) Tj ( ) Tj (diamond) Tj ( ) Tj (lattice\)) Tj ( ) Tj (=) Tj ( ) Tj (0.3886) Tj ( ) Tj (+/-) Tj ( ) Tj (0.0003) Tj  T*  T* ([Grassberger) Tj ( ) Tj (2003,) Tj ( ) Tj (Physical) Tj ( ) Tj (Review) Tj ( ) Tj (E) Tj ( ) Tj (67,) Tj ( ) Tj (036101]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 255.6 cm
+Q
+q
+1 0 0 1 60 240.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is a measured/computed quantity, not an approximation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 233.6 cm
+Q
+q
+1 0 0 1 60 218.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Setting p_coop\(T_c\) = p_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 211.6 cm
+Q
+q
+1 0 0 1 60 184.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The EZ water coherent network percolates \(spans the system\) when the cooperative bond fraction crosses the percolation) Tj T* (threshold:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 177.6 cm
+Q
+q
+1 0 0 1 60 94.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 79.2 re f*
+Q
+q
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (p\(T_c\)^3) Tj ( ) Tj (=) Tj ( ) Tj (p_c) Tj ( ) Tj (=) Tj ( ) Tj (0.3886) Tj  T*  T* (p\(T_c\)) Tj ( ) Tj (=) Tj ( ) Tj (\(0.3886\)^\(1/3\)) Tj ( ) Tj (=) Tj ( ) Tj (0.7293) Tj  T*  T* (1.0) Tj ( ) Tj (-) Tj ( ) Tj (0.0045) Tj ( ) Tj (x) Tj ( ) Tj (\(T_c) Tj ( ) Tj (-) Tj ( ) Tj (273\)) Tj ( ) Tj (=) Tj ( ) Tj (0.7293) Tj  T*  T* (T_c) Tj ( ) Tj (-) Tj ( ) Tj (273) Tj ( ) Tj (=) Tj ( ) Tj (\(1.0) Tj ( ) Tj (-) Tj ( ) Tj (0.7293\)) Tj ( ) Tj (/) Tj ( ) Tj (0.0045) Tj ( ) Tj (=) Tj ( ) Tj (0.2707) Tj ( ) Tj (/) Tj ( ) Tj (0.0045) Tj ( ) Tj (=) Tj ( ) Tj (60.2) Tj  T*  T* (T_c) Tj ( ) Tj (=) Tj ( ) Tj (273) Tj ( ) Tj (+) Tj ( ) Tj (60.2) Tj ( ) Tj (=) Tj ( ) Tj (333.2) Tj ( ) Tj (K) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 86.4 cm
+Q
+q
+1 0 0 1 60 80.4 cm
+Q
+q
+1 0 0 1 60 76.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 7153
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 109: T_c = 333K FROM COOPERATIVE BOND PERCOLATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Result) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 632.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (T_c\(cooperative) Tj ( ) Tj (percolation\)) Tj ( ) Tj (=) Tj ( ) Tj (333K) Tj  T*  T* (Framework) Tj ( ) Tj (value:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (330K) Tj  T* (Error:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (1.0%) Tj  T*  T* (Paper) Tj ( ) Tj (104) Tj ( ) Tj (result:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (337K) Tj ( ) Tj (\(mean-field) Tj ( ) Tj (+) Tj ( ) Tj (Ginzburg,) Tj ( ) Tj (2%) Tj ( ) Tj (error\)) Tj  T* (This) Tj ( ) Tj (paper:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (333K) Tj ( ) Tj (\(cooperative) Tj ( ) Tj (percolation,) Tj ( ) Tj (1%) Tj ( ) Tj (error\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 624.4 cm
+Q
+q
+1 0 0 1 60 597.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The cooperative percolation derivation is more accurate) Tj /F1 9 Tf ( \(1% vs 2%\) and uses ) Tj /F2 9 Tf (zero free parameters) Tj /F1 9 Tf ( -- every input is a) Tj T* (measured quantity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590.4 cm
+Q
+q
+1 0 0 1 60 584.4 cm
+Q
+q
+1 0 0 1 60 580.4 cm
+Q
+q
+1 0 0 1 60 542.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Physical Interpretation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530.4 cm
+Q
+q
+1 0 0 1 60 515.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (At T < 333K:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 500.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 The cooperative H-bond triad fraction p_coop > p_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 485.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The cooperative H-bond network PERCOLATES -- a spanning cluster exists) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 EZ water hexagonal structure maintains long-range order throughout the sample) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 455.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Coherence C > 0 is maintained) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 448.4 cm
+Q
+q
+1 0 0 1 60 433.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (At T > 333K:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 418.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 p_coop falls below p_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 403.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The cooperative H-bond network FRAGMENTS into isolated domains) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 388.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 EZ water coherent domains exist but do not connect) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 373.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Long-range coherence is lost: C -) Tj (> 0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 366.4 cm
+Q
+q
+1 0 0 1 60 351.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (At T_c = 333K:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 336.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 p_coop = p_c exactly) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 321.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The spanning cluster first appears \(or disappears on heating\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 306.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 This is the percolation transition -- the coherence phase transition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 279.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 The 3D Ising universality class governs the transition \(percolation and Ising are related universality classes for 3D) Tj T* (order-disorder transitions\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 272.4 cm
+Q
+q
+1 0 0 1 60 257.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Body temperature \(310K\) relative to T_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 235.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Safety) Tj ( ) Tj (margin:) Tj ( ) Tj (\(333) Tj ( ) Tj (-) Tj ( ) Tj (310\)) Tj ( ) Tj (/) Tj ( ) Tj (333) Tj ( ) Tj (=) Tj ( ) Tj (6.9%) Tj  T* (W) Tj ( ) Tj (=) Tj ( ) Tj (310) Tj ( ) Tj (/) Tj ( ) Tj (333) Tj ( ) Tj (=) Tj ( ) Tj (0.931) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 227.8 cm
+Q
+q
+1 0 0 1 60 200.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The body operates 6.9% below T_c, well within the coherent phase, with sufficient susceptibility enhancement from the) Tj T* (near-critical operating point.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 193.8 cm
+Q
+q
+1 0 0 1 60 187.8 cm
+Q
+q
+1 0 0 1 60 183.8 cm
+Q
+q
+1 0 0 1 60 145.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Sensitivity Analysis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 133.8 cm
+Q
+q
+1 0 0 1 60 118.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Robustness of T_c to input parameter variations:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 111.8 cm
+Q
+q
+1 0 0 1 60 63.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (p_c) Tj ( ) Tj (\(diamond) Tj ( ) Tj (lattice\)) Tj ( ) Tj ( ) Tj ( ) Tj (p\(T_c\)) Tj ( ) Tj (=) Tj ( ) Tj (p_c^\(1/3\)) Tj ( ) Tj ( ) Tj ( ) Tj (T_c) Tj ( ) Tj (\(K\)) Tj  T* (---------------------------------------------------------) Tj  T* (0.35) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.705) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (338.6) Tj  T* (0.37) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.718) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (335.6) Tj  T* (0.388) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.729) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (333.2) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 8539
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 109: T_c = 333K FROM COOPERATIVE BOND PERCOLATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* (0.39) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.730) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (333.0) Tj  T* (0.40) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.737) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (331.5) Tj  T* (0.42) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.749) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (328.8) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 688.8 cm
+Q
+q
+1 0 0 1 60 661.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (T_c is robustly 329-339K across all physically plausible p_c values. The result is not sensitive to the exact value of p_c --) Tj T* (any diamond-lattice bond percolation threshold in the range 0.35-0.42 gives T_c within 5% of 330K.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 654.8 cm
+Q
+q
+1 0 0 1 60 648.8 cm
+Q
+q
+1 0 0 1 60 644.8 cm
+Q
+q
+1 0 0 1 60 606.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Why Other Approaches Give Wrong Answers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594.8 cm
+Q
+q
+1 0 0 1 60 579.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For completeness, systematic comparison:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572.8 cm
+Q
+q
+1 0 0 1 60 507.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Approach) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (T_c) Tj ( ) Tj (\(K\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Error) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Problem) Tj  T* (----------------------------------------------------------------) Tj  T* (Non-cooperative) Tj ( ) Tj (percolation:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (409K) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (24%) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Uses) Tj ( ) Tj (all) Tj ( ) Tj (H-bonds,) Tj ( ) Tj (not) Tj ( ) Tj (EZ) Tj ( ) Tj (triads) Tj  T* (Mean-field) Tj ( ) Tj (alone) Tj ( ) Tj (\(no) Tj ( ) Tj (correction\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (4812K) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (1360%) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Ignores) Tj ( ) Tj (fluctuations) Tj ( ) Tj (entirely) Tj  T* (Cooperative) Tj ( ) Tj (+) Tj ( ) Tj (mean-field:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (739K) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (124%) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (No) Tj ( ) Tj (percolation) Tj ( ) Tj (geometry) Tj  T* (Mean-field) Tj ( ) Tj (+) Tj ( ) Tj (Ginzburg) Tj ( ) Tj (\(Paper) Tj ( ) Tj (104\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (337K) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (2%) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Estimated) Tj ( ) Tj (correction) Tj ( ) Tj (factor) Tj  T* (Cooperative) Tj ( ) Tj (percolation) Tj ( ) Tj (\(this\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (333K) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (1%) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Zero) Tj ( ) Tj (free) Tj ( ) Tj (parameters) Tj ( ) Tj ([x]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 499.2 cm
+Q
+q
+1 0 0 1 60 472.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The key physical insight: T_c is not where H-bonds break individually \(non-cooperative percolation, T_c = 409K\). It is where) Tj T* (cooperative triad chains ) Tj /F2 9 Tf (lose their spanning cluster) Tj /F1 9 Tf ( \(cooperative percolation, T_c = 333K\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 465.2 cm
+Q
+q
+1 0 0 1 60 459.2 cm
+Q
+q
+1 0 0 1 60 455.2 cm
+Q
+q
+1 0 0 1 60 417.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Relation to Paper 104) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 405.2 cm
+Q
+q
+1 0 0 1 60 390.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Paper 104 and this paper are ) Tj /F2 9 Tf (two independent derivations of the same quantity) Tj /F1 9 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 383.2 cm
+Q
+q
+1 0 0 1 60 282.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 96.8 re f*
+Q
+q
+BT 1 0 0 1 20 89.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Paper) Tj ( ) Tj (104) Tj ( ) Tj (approach:) Tj  T* ( ) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (T_c^MF) Tj ( ) Tj (x) Tj ( ) Tj (f_Ginzburg) Tj ( ) Tj (=) Tj ( ) Tj (4812K) Tj ( ) Tj (x) Tj ( ) Tj (0.07) Tj ( ) Tj (=) Tj ( ) Tj (337K) Tj  T* ( ) Tj ( ) Tj (Method:) Tj ( ) Tj (Mean-field) Tj ( ) Tj (+) Tj ( ) Tj (analytical) Tj ( ) Tj (Ginzburg) Tj ( ) Tj (correction) Tj  T* ( ) Tj ( ) Tj (Error:) Tj ( ) Tj (2%) Tj ( ) Tj (from) Tj ( ) Tj (330K) Tj  T*  T* (Paper) Tj ( ) Tj (109) Tj ( ) Tj (approach:) Tj  T* ( ) Tj ( ) Tj (p\(T_c\)^3) Tj ( ) Tj (=) Tj ( ) Tj (p_c\(diamond\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (333K) Tj  T* ( ) Tj ( ) Tj (Method:) Tj ( ) Tj (Cooperative) Tj ( ) Tj (bond) Tj ( ) Tj (percolation) Tj  T* ( ) Tj ( ) Tj (Error:) Tj ( ) Tj (1%) Tj ( ) Tj (from) Tj ( ) Tj (330K) Tj  T*  T* (Agreement) Tj ( ) Tj (between) Tj ( ) Tj (two) Tj ( ) Tj (methods:) Tj ( ) Tj (|337) Tj ( ) Tj (-) Tj ( ) Tj (333|) Tj ( ) Tj (/) Tj ( ) Tj (333) Tj ( ) Tj (=) Tj ( ) Tj (1.2%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 274.4 cm
+Q
+q
+1 0 0 1 60 247.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Two independently derived T_c values from different physical models, agreeing within 1.2% and both within 2% of the) Tj T* (measured 330K. This mutual confirmation from independent approaches closes T_c = 330K with high confidence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 240.4 cm
+Q
+q
+1 0 0 1 60 234.4 cm
+Q
+q
+1 0 0 1 60 230.4 cm
+Q
+q
+1 0 0 1 60 192.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 180.4 cm
+Q
+q
+1 0 0 1 60 62 cm
+q
+.95 .95 .95 rg
+n 20 0 452 114.4 re f*
+Q
+q
+BT 1 0 0 1 20 106.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (T_c) Tj ( ) Tj (=) Tj ( ) Tj (330K) Tj ( ) Tj (from) Tj ( ) Tj (cooperative) Tj ( ) Tj (bond) Tj ( ) Tj (percolation:) Tj  T*  T* (Input) Tj ( ) Tj (\(all) Tj ( ) Tj (measured,) Tj ( ) Tj (zero) Tj ( ) Tj (free) Tj ( ) Tj (parameters\):) Tj  T* ( ) Tj ( ) Tj (p\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (0.0045\(T) Tj ( ) Tj (-) Tj ( ) Tj (273\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([H-bond) Tj ( ) Tj (fraction,) Tj ( ) Tj (MD) Tj ( ) Tj (simulation]) Tj  T* ( ) Tj ( ) Tj (p_c\(diamond\)) Tj ( ) Tj (=) Tj ( ) Tj (0.3886) Tj ( ) Tj (+/-) Tj ( ) Tj (0.0003) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([Grassberger) Tj ( ) Tj (2003]) Tj  T* ( ) Tj ( ) Tj (Cooperativity:) Tj ( ) Tj (p_coop) Tj ( ) Tj (=) Tj ( ) Tj (p^3) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([donor-acceptor-donor) Tj ( ) Tj (triad]) Tj  T*  T* (Calculation:) Tj  T* ( ) Tj ( ) Tj (p\(T_c\)^3) Tj ( ) Tj (=) Tj ( ) Tj (0.3886) Tj  T* ( ) Tj ( ) Tj (p\(T_c\)) Tj ( ) Tj (=) Tj ( ) Tj (0.7293) Tj  T* ( ) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (273) Tj ( ) Tj (+) Tj ( ) Tj (0.2707/0.0045) Tj ( ) Tj (=) Tj ( ) Tj (333.2K) Tj  T*  T* (Result:) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F2-0 27 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 3328
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 109: T_c = 333K FROM COOPERATIVE BOND PERCOLATION) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 652.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 79.2 re f*
+Q
+q
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* ( ) Tj ( ) Tj (T_c\(cooperative) Tj ( ) Tj (percolation\)) Tj ( ) Tj (=) Tj ( ) Tj (333K) Tj  T* ( ) Tj ( ) Tj (Framework) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (330K) Tj  T* ( ) Tj ( ) Tj (Error:) Tj ( ) Tj (1.0%) Tj  T*  T* (Paper) Tj ( ) Tj (104) Tj ( ) Tj (\(mean-field) Tj ( ) Tj (+) Tj ( ) Tj (Ginzburg\):) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (337K) Tj ( ) Tj (\(2%\)) Tj  T* (This) Tj ( ) Tj (paper) Tj ( ) Tj (\(cooperative) Tj ( ) Tj (percolation\):) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (333K) Tj ( ) Tj (\(1%\)) Tj  T* (Two) Tj ( ) Tj (independent) Tj ( ) Tj (derivations) Tj ( ) Tj (agree) Tj ( ) Tj (within) Tj ( ) Tj (1.2%.) Tj  T* (T_c) Tj ( ) Tj (=) Tj ( ) Tj (330K) Tj ( ) Tj (is) Tj ( ) Tj (confirmed) Tj ( ) Tj (from) Tj ( ) Tj (first) Tj ( ) Tj (principles) Tj ( ) Tj (by) Tj ( ) Tj (two) Tj ( ) Tj (independent) Tj ( ) Tj (methods.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 644.8 cm
+Q
+q
+1 0 0 1 60 638.8 cm
+Q
+q
+1 0 0 1 60 634.8 cm
+Q
+q
+1 0 0 1 60 596.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 584.8 cm
+Q
+q
+1 0 0 1 60 569.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Grassberger, P. \(2003\). Critical percolation in high dimensions. ) Tj /F3 9 Tf (Physical Review E) Tj /F1 9 Tf (, 67\(3\), 036101.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 542.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Vega, C., & de Pablo, J. J. \(2009\). The water model, the critical point, and the properties of ice. ) Tj /F3 9 Tf (Physical Chemistry) Tj T* (Chemical Physics) Tj /F1 9 Tf (, 11, 6714.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 527.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Paper 104 \(AIIT-THRESI\): T_c = 337K from mean-field + Ginzburg correction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 512.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Paper 21 \(AIIT-THRESI\): Bootstrap Nucleation Theorem -- EZ water hexagonal network.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 497.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Paper 63 \(AIIT-THRESI\): C_0 percolation -- EZ water phase fraction and percolation threshold.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 490.8 cm
+Q
+q
+1 0 0 1 60 475.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (AIIT-THRESI Paper 109) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 468.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 28
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000301 00000 n 
+0000000350 00000 n 
+0000000721 00000 n 
+0000005775 00000 n 
+0000005882 00000 n 
+0000005989 00000 n 
+0000006101 00000 n 
+0000006211 00000 n 
+0000006327 00000 n 
+0000006433 00000 n 
+0000006808 00000 n 
+0000013633 00000 n 
+0000013741 00000 n 
+0000013852 00000 n 
+0000014227 00000 n 
+0000021433 00000 n 
+0000021541 00000 n 
+0000021652 00000 n 
+0000022027 00000 n 
+0000030619 00000 n 
+0000030727 00000 n 
+0000030838 00000 n 
+0000031213 00000 n 
+0000034594 00000 n 
+0000034702 00000 n 
+trailer
+<<
+/Size 28
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+34813
+%%EOF

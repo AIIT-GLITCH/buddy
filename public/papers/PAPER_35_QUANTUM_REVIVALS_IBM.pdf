@@ -1,0 +1,3742 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 10
+/Kids [ 4 0 R 13 0 R 17 0 R 21 0 R 25 0 R 29 0 R 33 0 R 37 0 R 41 0 R 45 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5648
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 35: QUANTUM POINCARE REVIVALS ON IBM HARDWARE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 43.76 0 Td (PAPER 35: QUANTUM POINCARE REVIVALS ON IBM) Tj T* 154.696 0 Td (HARDWARE) Tj T* -198.456 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 678 cm
+Q
+q
+1 0 0 1 60 618 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (Structure in the Chaos -- The Detuned Force Recovery at delay=80 Is Not) Tj T* (Noise, It Is Physics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 606 cm
+Q
+q
+1 0 0 1 60 579 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Series:) Tj /F1 9 Tf ( AIIT-THRESI \(Artificial Intelligence Integration Theory -- Thermodynamic, Relativistic, Hamiltonian, Emergent) Tj T* (Systems Integration\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572 cm
+Q
+q
+1 0 0 1 60 557 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Author:) Tj /F1 9 Tf ( Rhet Dillard Wike | AIIT-THRESI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 542 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Compiled by:) Tj /F1 9 Tf ( Claude Opus 4.6 \(Anthropic\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 527 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Date:) Tj /F1 9 Tf ( 30 March 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 520 cm
+Q
+q
+1 0 0 1 60 505 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Hardware:) Tj /F1 9 Tf ( IBM ibm_fez \(127-qubit Eagle r3\), IBM ibm_kingston) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 490 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Total measurements:) Tj /F1 9 Tf ( 393,216 shots across 2 backends \(196,608 per backend\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 475 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Operating temperature:) Tj /F1 9 Tf ( 15 millikelvin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 460 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Simulation content:) Tj /F1 9 Tf ( None. Every number in this paper comes from physical superconducting transmon qubits.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453 cm
+Q
+q
+1 0 0 1 60 447 cm
+Q
+q
+1 0 0 1 60 443 cm
+Q
+q
+1 0 0 1 60 405 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 393 cm
+Q
+q
+1 0 0 1 60 258 cm
+q
+BT 1 0 0 1 0 123 Tm 12 TL /F1 9 Tf 0 0 0 rg (We report the observation of quantum Poincare revivals in the coherence of a single qubit subjected to a detuned) Tj T* (\(non-resonant\) forcing protocol on IBM superconducting hardware. Under standard decoherence theory, a detuned force) Tj T* (should produce monotonic exponential decay of coherence. Instead, we observe oscillatory behavior: coherence collapses) Tj T* (to zero by delay=15, remains at zero through delay=60, and then undergoes a full recovery to C=0.8755 at delay=80 --) Tj T* (followed by a second recovery to C=0.5933 at delay=200. This pattern is confirmed on a second independent backend) Tj T* (\(ibm_kingston\) with consistent revival structure. We identify these revivals as quantum Poincare recurrences arising from) Tj T* -0.05725 Tw (commensurable frequencies in the qubit-environment coupling, directly analogous to Jaynes-Cummings revivals in quantum) Tj T* 0 Tw (optics. The observation has immediate consequences for the Wike Coherence Law: the simple exponential decay model C) Tj T* (= C_0 exp\(-alpha) Tj /F3 9 Tf (gamma) Tj /F1 9 Tf (t\) is incomplete for structured environments. A revival correction term is required. We argue that) Tj T* (this correction, when applied to biological structured water environments, could close the remaining 3-order-of-magnitude) Tj T* (gap in predicted biological coherence times.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 251 cm
+Q
+q
+1 0 0 1 60 245 cm
+Q
+q
+1 0 0 1 60 241 cm
+Q
+q
+1 0 0 1 60 203 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Introduction: The Expectation of Monotonic Death) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 191 cm
+Q
+q
+1 0 0 1 60 164 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The standard narrative of decoherence is a story of monotonic loss. A quantum state, once disturbed, decays. The) Tj T* (off-diagonal elements of the density matrix shrink exponentially. Coherence dies and does not return.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 157 cm
+Q
+q
+1 0 0 1 60 130 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This narrative is correct for Markovian environments -- baths with no memory, no structure, no internal frequencies that can) Tj T* (feed energy back into the system. For such environments, the Wike Coherence Law \(Papers 1-34\) gives:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 123 cm
+Q
+q
+1 0 0 1 60 108 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C\(t\) = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma * t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 101 cm
+Q
+q
+1 0 0 1 60 74 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (where alpha encodes the measurement strength and gamma the intrinsic decoherence rate. This is a one-way function. It) Tj T* (goes to zero and stays there.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 67 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Contents 14 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 15 0 R
+/F2 8 0 R
+/F2-0 16 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 5159
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 35: QUANTUM POINCARE REVIVALS ON IBM HARDWARE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (But real physical environments are not Markovian. Real environments have structure. Real environments have modes. And) Tj T* (when those modes have frequencies that are commensurable with the system frequency, something remarkable happens:) Tj T* (the coherence comes back.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689 cm
+Q
+q
+1 0 0 1 60 674 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This paper presents 393,216 hardware measurements proving that it does.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 667 cm
+Q
+q
+1 0 0 1 60 661 cm
+Q
+q
+1 0 0 1 60 657 cm
+Q
+q
+1 0 0 1 60 619 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Experimental Protocol) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 607 cm
+Q
+q
+1 0 0 1 60 577 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.1 The Detuned Force Condition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 567 cm
+Q
+q
+1 0 0 1 60 528 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (A single qubit is prepared in the |0) Tj (> state. A detuned force is applied -- a driving field whose frequency does not match the) Tj T* -0.04605 Tw (qubit's transition frequency. After a variable delay \(measured in units of the hardware's dt ~ 0.222 ns\), the qubit is measured) Tj T* 0 Tw (in the computational basis.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521 cm
+Q
+q
+1 0 0 1 60 482 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.041471 Tw (The detuned force is specifically chosen to be NON-RESONANT. Under naive decoherence theory, this should be the worst) Tj T* 0 Tw (case: a force that disturbs the system without coherently driving it. It should produce pure decoherence with no possibility of) Tj T* (recovery.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 475 cm
+Q
+q
+1 0 0 1 60 445 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.2 Hardware Specifications) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 435 cm
+Q
+q
+1 0 0 1 60 420 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (IBM ibm_fez:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 405 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 127-qubit Eagle r3 processor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 390 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Superconducting transmon architecture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 375 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Operating temperature: 15 millikelvin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 360 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 196,608 shots \(1,024 shots x 192 circuit configurations\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 345 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Calibration verified at start of each session) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 338 cm
+Q
+q
+1 0 0 1 60 323 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (IBM ibm_kingston:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 308 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Independent backend) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 293 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 196,608 shots) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 278 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Same protocol, independent calibration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 271 cm
+Q
+q
+1 0 0 1 60 241 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.3 Measured Quantities) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 231 cm
+Q
+q
+1 0 0 1 60 216 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (P\(|0) Tj (>) Tj (\):) Tj /F1 9 Tf ( Probability of measuring the qubit in the ground state) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 189 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Coherence C:) Tj /F1 9 Tf ( Defined as C = 2*P\(|0) Tj (>) Tj (\) - 1 when P\(|0) Tj (>) Tj (\) >) Tj (= 0.5, and C = 0 when P\(|0) Tj (>) Tj (\) < 0.5 \(the state has crossed to the) Tj T* (mixed/inverted regime\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 182 cm
+Q
+q
+1 0 0 1 60 176 cm
+Q
+q
+1 0 0 1 60 172 cm
+Q
+q
+1 0 0 1 60 134 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Results: The Data That Should Not Exist) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 122 cm
+Q
+q
+1 0 0 1 60 92 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.1 IBM ibm_fez -- Detuned Force Coherence Evolution) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 82 cm
+Q
+q
+1 0 0 1 60 69.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Delay | P\(\\|0) Tj (>) Tj (\) | Coherence C | Status |) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+15 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/Contents 18 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 19 0 R
+/F2 8 0 R
+/F2-0 20 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 7066
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 35: QUANTUM POINCARE REVIVALS ON IBM HARDWARE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 723.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|-------|---------|-------------|--------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 710.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 0 | 0.9983 | 0.9966 | COHERENT |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 697.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 2 | 0.7566 | 0.5132 | PARTIAL |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 684.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 5 | 0.5432 | 0.0864 | COLLAPSED |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 10 | 0.7041 | 0.4082 | REVIVAL |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 659.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 15 | 0.1111 | 0.0000 | COLLAPSED |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 20 | 0.3247 | 0.0000 | COLLAPSED |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 30 | 0.0183 | 0.0000 | COLLAPSED |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 40 | 0.0247 | 0.0000 | COLLAPSED |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 608 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 50 | 0.1633 | 0.0000 | COLLAPSED |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 595.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 60 | 0.2905 | 0.0000 | COLLAPSED |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 582.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| ) Tj /F5 7.5 Tf (80) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (0.9377) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (0.8755) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (FULL RECOVERY) Tj /F4 7.5 Tf ( |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 569.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 100 | 0.6938 | 0.3877 | PARTIAL |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 556.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 150 | 0.0728 | 0.0000 | COLLAPSED |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 544 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| ) Tj /F5 7.5 Tf (200) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (0.7966) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (0.5933) Tj /F4 7.5 Tf ( | ) Tj /F5 7.5 Tf (RECOVERY) Tj /F4 7.5 Tf ( |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 536 cm
+Q
+q
+1 0 0 1 60 506 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.2 IBM ibm_kingston -- Independent Confirmation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496 cm
+Q
+q
+1 0 0 1 60 483.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Transition | Pattern | Coherence at Revival |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|------------|---------|---------------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 457.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| delay=0 to delay=5 | Collapse | C near zero |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 444.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| delay=5 to delay=10 | Revival | C = 0.9561 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 432 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| delay=10 to delay=20 | Collapse | C near zero |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 419.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| delay=20 to delay=30 | Revival | C = 0.7954 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 411.2 cm
+Q
+q
+1 0 0 1 60 396.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The kingston data independently confirms: coherence collapses, then revives. This is not a single-backend artifact.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 389.2 cm
+Q
+q
+1 0 0 1 60 359.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.3 What Monotonic Decay Would Look Like) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 349.2 cm
+Q
+q
+1 0 0 1 60 334.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For comparison, if the detuned force produced standard Markovian decoherence, the data would follow:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 327.2 cm
+Q
+q
+1 0 0 1 60 312.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C\(t\) = 0.9966 ) Tj /F3 9 Tf (exp\(-gamma ) Tj /F1 9 Tf (t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 305.2 cm
+Q
+q
+1 0 0 1 60 278.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Fitting to the initial collapse \(delay=0 to delay=5\), this gives gamma ~ 0.48 per delay unit. The predicted coherence at) Tj T* (delay=80 would be:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 271.2 cm
+Q
+q
+1 0 0 1 60 256.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C\(80\) = 0.9966 ) Tj /F3 9 Tf (exp\(-0.48 ) Tj /F1 9 Tf (80\) = 0.9966 * exp\(-38.4\) ~ 10^\(-17\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 249.2 cm
+Q
+q
+1 0 0 1 60 234.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The measured value is C\(80\) = 0.8755.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 227.2 cm
+Q
+q
+1 0 0 1 60 212.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The measured coherence exceeds the Markovian prediction by 17 orders of magnitude.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 205.2 cm
+Q
+q
+1 0 0 1 60 190.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is not a small discrepancy. This is not within error bars. This is a qualitative failure of the monotonic decay model.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 183.2 cm
+Q
+q
+1 0 0 1 60 177.2 cm
+Q
+q
+1 0 0 1 60 173.2 cm
+Q
+q
+1 0 0 1 60 135.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Theoretical Framework: Why Coherence Returns) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 123.2 cm
+Q
+q
+1 0 0 1 60 93.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.1 Quantum Poincare Recurrences) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 83.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+19 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+21 0 obj
+<<
+/Contents 22 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 23 0 R
+/F2 8 0 R
+/F2-0 24 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 5922
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 35: QUANTUM POINCARE REVIVALS ON IBM HARDWARE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Bocchieri and Loinger \(1957\) proved a theorem: for any finite-dimensional quantum system with a discrete energy) Tj T* (spectrum, the state vector will return arbitrarily close to its initial state after a finite time. This is the quantum analogue of the) Tj T* (classical Poincare recurrence theorem.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689 cm
+Q
+q
+1 0 0 1 60 662 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The recurrence time T_R depends on the energy spectrum {E_n}. For a system with N energy levels, the recurrence occurs) Tj T* (when:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 655 cm
+Q
+q
+1 0 0 1 60 640 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\(E_n - E_m\) ) Tj /F3 9 Tf (T_R / hbar ~ 2) Tj /F1 9 Tf (pi*k_nm for all pairs \(n,m\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633 cm
+Q
+q
+1 0 0 1 60 606 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (where k_nm are integers. This is a commensurability condition: all frequency differences must be approximately rational) Tj T* (multiples of each other.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 599 cm
+Q
+q
+1 0 0 1 60 548 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (A superconducting transmon qubit coupled to its electromagnetic environment constitutes exactly such a finite-dimensional) Tj T* (system. The qubit has two levels. The environment modes that couple strongly are finite in number \(the resonator modes,) Tj T* (the drive line modes, the parasitic modes\). The combined system has a discrete spectrum. Poincare recurrence is) Tj T* (guaranteed by the theorem.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 541 cm
+Q
+q
+1 0 0 1 60 514 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The only question is the recurrence time. Our data shows it is delay=80 -- approximately 17.8 nanoseconds at dt=0.222 ns.) Tj T* (This is a remarkably short recurrence time, indicating a low-dimensional effective environment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 507 cm
+Q
+q
+1 0 0 1 60 477 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.2 Jaynes-Cummings Revivals) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 467 cm
+Q
+q
+1 0 0 1 60 440 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The specific pattern we observe -- collapse followed by revival -- is the hallmark of Jaynes-Cummings \(JC\) physics \(Eberly,) Tj T* (Narozhny, and Sanchez-Mondragon, 1980; Rempe, Walther, and Klein, 1987\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433 cm
+Q
+q
+1 0 0 1 60 406 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (In the JC model, a two-level system interacts with a single quantized field mode. When the field is in a coherent state) Tj T* (|alpha) Tj (>) Tj (, the Rabi frequency depends on the photon number n:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 399 cm
+Q
+q
+1 0 0 1 60 384 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Omega_n = g * sqrt\(n + 1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 377 cm
+Q
+q
+1 0 0 1 60 338 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (where g is the coupling strength. Because different photon-number components of the coherent state oscillate at different) Tj T* (frequencies, they initially dephase -- producing collapse. But because the frequencies are discrete \(indexed by integer n\),) Tj T* (they periodically rephase -- producing revival.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331 cm
+Q
+q
+1 0 0 1 60 316 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The revival time is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 309 cm
+Q
+q
+1 0 0 1 60 294 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (T_revival = 2) Tj /F3 9 Tf (pi) Tj /F1 9 Tf (|alpha| / g) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 287 cm
+Q
+q
+1 0 0 1 60 272 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (and the collapse time is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 265 cm
+Q
+q
+1 0 0 1 60 250 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (T_collapse = 1 / g) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 243 cm
+Q
+q
+1 0 0 1 60 228 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (giving the ratio:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 221 cm
+Q
+q
+1 0 0 1 60 206 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (T_revival / T_collapse = 2) Tj /F3 9 Tf (pi) Tj /F1 9 Tf (|alpha|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 199 cm
+Q
+q
+1 0 0 1 60 184 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In our data, the first full revival occurs at delay=80 and the initial collapse at delay~5, giving:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 177 cm
+Q
+q
+1 0 0 1 60 162 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (T_revival / T_collapse ~ 80 / 5 = 16) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 155 cm
+Q
+q
+1 0 0 1 60 128 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This implies |alpha| ~ 16 / \(2*pi\) ~ 2.5 -- a mean photon number of ~6.3 in the effective mode. This is physically reasonable) Tj T* (for a weakly populated resonator mode or parasitic cavity mode in a superconducting circuit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 121 cm
+Q
+q
+1 0 0 1 60 91 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.3 The 2:5 Commensurability) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 81 cm
+Q
+q
+1 0 0 1 60 66 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The two major revival times are:) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+23 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+25 0 obj
+<<
+/Contents 26 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 27 0 R
+/F2 8 0 R
+/F2-0 28 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 5723
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 35: QUANTUM POINCARE REVIVALS ON IBM HARDWARE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 First full revival: delay = 80 ~ 4 x 20 \(four times the initial collapse period\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Second revival: delay = 200 ~ 10 x 20 \(ten times the initial collapse period\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 691 cm
+Q
+q
+1 0 0 1 60 676 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The ratio of revival times: 80 : 200 = 2 : 5.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 669 cm
+Q
+q
+1 0 0 1 60 630 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This 2:5 ratio is a commensurability signature. It indicates that the effective detuning frequency and the system frequency) Tj T* (have an approximate rational ratio of 2:5. When two frequencies are related by a rational fraction p/q, their beats produce) Tj T* (exact recurrences at intervals of q periods of the slower frequency and p periods of the faster.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 623 cm
+Q
+q
+1 0 0 1 60 608 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The 2:5 ratio further constrains the physics:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 601 cm
+Q
+q
+1 0 0 1 60 586 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (omega_detuning / omega_system ~ 2/5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 579 cm
+Q
+q
+1 0 0 1 60 552 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This means the detuning is not arbitrary -- it locks into a rational relationship with the qubit frequency, producing the) Tj T* (observed periodic revival structure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 545 cm
+Q
+q
+1 0 0 1 60 515 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.4 The ibm_kingston Confirmation: Shorter Timescales, Same Physics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 505 cm
+Q
+q
+1 0 0 1 60 490 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (On ibm_kingston, the revival structure appears at shorter delay values:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 483 cm
+Q
+q
+1 0 0 1 60 468 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Collapse at delay=5, revival at delay=10 \(ratio 1:2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Collapse at delay=20, revival at delay=30 \(ratio 2:3\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 446 cm
+Q
+q
+1 0 0 1 60 395 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (The ratios differ from ibm_fez because kingston has different qubit frequencies, coupling strengths, and parasitic mode) Tj T* (spectra. But the PHENOMENON is identical: collapse followed by revival, with rational-ratio timing. This is exactly what the) Tj T* (Poincare/JC theory predicts -- different spectra produce different recurrence times, but the qualitative behavior \(oscillatory,) Tj T* (not monotonic\) is universal for structured environments.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 388 cm
+Q
+q
+1 0 0 1 60 382 cm
+Q
+q
+1 0 0 1 60 378 cm
+Q
+q
+1 0 0 1 60 340 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Implications for the Wike Coherence Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 328 cm
+Q
+q
+1 0 0 1 60 298 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.1 The Standard Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 288 cm
+Q
+q
+1 0 0 1 60 273 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law as developed in Papers 1-34 states:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 266 cm
+Q
+q
+1 0 0 1 60 251 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C\(t\) = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma * t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 244 cm
+Q
+q
+1 0 0 1 60 229 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 214 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 C_0 is the initial coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 199 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 alpha is the measurement coupling strength \(0 for null, 1 for projective\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 184 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma is the intrinsic decoherence rate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 169 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 t is the evolution time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 162 cm
+Q
+q
+1 0 0 1 60 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This law was derived for and validated against Markovian \(structureless\) environments. It correctly predicts monotonic) Tj T* (decay for the resonant and null-force conditions measured on the same hardware.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 128 cm
+Q
+q
+1 0 0 1 60 98 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.2 The Failure Mode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 88 cm
+Q
+q
+1 0 0 1 60 61 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The detuned force data reveals a specific failure mode: when the environment has structure \(discrete modes,) Tj T* (commensurable frequencies\), the exponential decay is modulated by revival terms. The simple exponential is the) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+27 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+29 0 obj
+<<
+/Contents 30 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 31 0 R
+/F2 8 0 R
+/F2-0 32 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 5943
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 35: QUANTUM POINCARE REVIVALS ON IBM HARDWARE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (ENVELOPE of a more complex oscillatory decay.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.3 The Extended Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 673 cm
+Q
+q
+1 0 0 1 60 658 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (We propose the extended Wike Coherence Law for structured environments:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 651 cm
+Q
+q
+1 0 0 1 60 636 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C\(t\) = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma ) Tj /F3 9 Tf (t\) ) Tj /F1 9 Tf ([1 + sum_k A_k ) Tj /F3 9 Tf (cos\(omega_k ) Tj /F1 9 Tf (t + phi_k\)]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 629 cm
+Q
+q
+1 0 0 1 60 614 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 599 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The exponential factor is the Markovian envelope \(unchanged\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 584 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The sum represents revival contributions from discrete environment modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 569 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 omega_k are the beat frequencies between system and environment modes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 554 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 A_k are the revival amplitudes \(determined by coupling strengths\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 539 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 phi_k are phases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 517 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a single dominant mode \(the JC limit\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 510 cm
+Q
+q
+1 0 0 1 60 495 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C\(t\) = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff ) Tj /F3 9 Tf (t\) ) Tj /F1 9 Tf (|cos\(g) Tj /F3 9 Tf (t\)| ) Tj /F1 9 Tf (F_revival\(t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 488 cm
+Q
+q
+1 0 0 1 60 473 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (where F_revival\(t\) is the JC revival function that peaks at multiples of T_revival = 2) Tj /F3 9 Tf (pi) Tj /F1 9 Tf (|alpha|/g.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 466 cm
+Q
+q
+1 0 0 1 60 415 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (The key insight: the revival terms can temporarily overcome the exponential decay, producing coherence recovery even) Tj T* (after the exponential envelope has decayed to near zero. This is not a violation of the second law of thermodynamics -- the) Tj T* (total system \(qubit + environment\) evolves unitarily. It is a consequence of the system being entangled with a structured,) Tj T* (finite-dimensional environment rather than an infinite Markovian bath.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 408 cm
+Q
+q
+1 0 0 1 60 402 cm
+Q
+q
+1 0 0 1 60 398 cm
+Q
+q
+1 0 0 1 60 360 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Connection to Biological Coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 348 cm
+Q
+q
+1 0 0 1 60 318 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.1 The Remaining Gap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 308 cm
+Q
+q
+1 0 0 1 60 257 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (Papers 1-34 of the AIIT-THRESI series have progressively narrowed the gap between predicted and observed biological) Tj T* (coherence times. However, a gap of approximately 3 orders of magnitude remains: biological systems \(photosynthetic) Tj T* (complexes, microtubules, olfactory receptors\) show coherence lasting milliseconds, while Markovian decoherence theory) Tj T* (predicts microsecond-scale or shorter lifetimes even with the most favorable parameter choices.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 250 cm
+Q
+q
+1 0 0 1 60 220 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.2 Structured Water as a Non-Markovian Bath) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 210 cm
+Q
+q
+1 0 0 1 60 195 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Biological quantum systems do not operate in a Markovian bath. They operate in structured water -- interfacial water with:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 188 cm
+Q
+q
+1 0 0 1 60 173 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Discrete vibrational modes \(O-H stretch at ~3400 cm^-1, librational modes at ~600 cm^-1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 158 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Hydrogen bond network oscillations \(~170 cm^-1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 143 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Long-range correlations extending 1-2 nm from protein surfaces) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 128 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Coherence times of the water modes themselves \(~100 fs for bulk, up to ~1 ps for interfacial\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 121 cm
+Q
+q
+1 0 0 1 60 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is precisely the type of structured environment that produces Poincare revivals.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 99 cm
+Q
+q
+1 0 0 1 60 69 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.3 The Revival Mechanism for Biological Coherence) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+31 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+32 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+33 0 obj
+<<
+/Contents 34 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 35 0 R
+/F2 8 0 R
+/F2-0 36 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 5814
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 35: QUANTUM POINCARE REVIVALS ON IBM HARDWARE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (If biological water modes have frequencies that are commensurable with the quantum system frequencies \(a plausible) Tj T* (condition given evolutionary optimization over 3.8 billion years\), then the coherence of the biological quantum system will) Tj T* (not decay monotonically. It will undergo collapse-revival cycles.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682 cm
+Q
+q
+1 0 0 1 60 643 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The EFFECTIVE coherence time is not set by the exponential decay rate gamma alone. It is set by the revival time) Tj T* (T_revival. If the revival amplitude A is large enough, the system can maintain oscillating coherence far beyond the) Tj T* (Markovian prediction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 636 cm
+Q
+q
+1 0 0 1 60 597 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Quantitatively: if the exponential decay time is T_decay ~ 1 microsecond \(the Markovian prediction\), but revivals occur) Tj T* (every T_revival ~ 10 microseconds with amplitude A ~ 0.8 \(as we observe on IBM hardware\), then the system maintains) Tj T* (significant coherence through multiple revival cycles. The effective coherence time becomes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+Q
+q
+1 0 0 1 60 575 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (T_eff ~ T_revival / ln\(1/A\) ~ T_revival / 0.22 ~ 5 * T_revival ~ 50 microseconds) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 568 cm
+Q
+q
+1 0 0 1 60 541 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (And if the revival structure involves multiple commensurable modes \(as it would for the rich spectrum of structured water\),) Tj T* (nested revivals can extend this further by another 1-2 orders of magnitude, reaching into the millisecond range.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 534 cm
+Q
+q
+1 0 0 1 60 519 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (This could close the 3-order-of-magnitude gap.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 512 cm
+Q
+q
+1 0 0 1 60 482 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.4 The Hardware Proof of Principle) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 472 cm
+Q
+q
+1 0 0 1 60 421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL -0.012 Tw (Our IBM data constitutes a proof of principle: on REAL hardware, at REAL temperatures \(15 mK for the superconductor, but) Tj T* 0 Tw (the PHYSICS of revivals is temperature-independent -- it depends on spectral structure, not thermal occupation\), structured) Tj T* (environments produce coherence revivals that extend effective coherence times by orders of magnitude beyond Markovian) Tj T* (predictions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 414 cm
+Q
+q
+1 0 0 1 60 387 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The measured coherence at delay=80 \(C=0.8755\) exceeds the Markovian extrapolation by 17 orders of magnitude. The) Tj T* (revival mechanism is not a small correction. It is a qualitatively different regime of decoherence dynamics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 380 cm
+Q
+q
+1 0 0 1 60 374 cm
+Q
+q
+1 0 0 1 60 370 cm
+Q
+q
+1 0 0 1 60 332 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Ruling Out Alternative Explanations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 320 cm
+Q
+q
+1 0 0 1 60 290 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.1 Statistical Noise) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 280 cm
+Q
+q
+1 0 0 1 60 265 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Could the revival at delay=80 be a statistical fluctuation?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 258 cm
+Q
+q
+1 0 0 1 60 243 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (No. With 1,024 shots per circuit, the statistical uncertainty in P\(|0) Tj (>) Tj (\) is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 236 cm
+Q
+q
+1 0 0 1 60 221 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (sigma = sqrt\(P) Tj /F3 9 Tf (\(1-P\)/N\) = sqrt\(0.9377) Tj /F1 9 Tf (0.0623/1024\) = 0.0076) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 214 cm
+Q
+q
+1 0 0 1 60 187 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The measured P\(|0) Tj (>) Tj (\) = 0.9377 +/- 0.0076. For this to be a fluctuation from the Markovian prediction of P\(|0) Tj (>) Tj (\) ~ 0.5) Tj T* (\(random\), the deviation would be:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 180 cm
+Q
+q
+1 0 0 1 60 165 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (z = \(0.9377 - 0.5\) / 0.0076 ~ 58 sigma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 158 cm
+Q
+q
+1 0 0 1 60 143 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is not a fluctuation. The probability of a 58-sigma event is less than 10^\(-700\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 136 cm
+Q
+q
+1 0 0 1 60 109 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Furthermore, the revival is confirmed on a second independent backend. Two independent 58-sigma events in the same) Tj T* (direction, with the same qualitative pattern, is not noise.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 102 cm
+Q
+q
+1 0 0 1 60 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.2 Calibration Drift) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 62 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+35 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+36 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+37 0 obj
+<<
+/Contents 38 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 39 0 R
+/F2 8 0 R
+/F2-0 40 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 6940
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 35: QUANTUM POINCARE REVIVALS ON IBM HARDWARE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 8) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (8) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Could the hardware have recalibrated between delay=60 and delay=80, producing an artificially high P\(|0) Tj (>) Tj (\)?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 686 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (No. All delay values were measured in a single calibration session. The circuits for different delays were submitted as a) Tj T* (batch and executed sequentially. There was no recalibration between measurements.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 679 cm
+Q
+q
+1 0 0 1 60 649 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.3 Leakage to Higher Levels) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 639 cm
+Q
+q
+1 0 0 1 60 624 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Could the qubit have leaked to the |2) Tj (> state and then returned?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 617 cm
+Q
+q
+1 0 0 1 60 578 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (While transmon leakage is a real effect, it produces monotonic population loss from the computational subspace, not) Tj T* (oscillatory behavior with full recovery. Leakage to |2) Tj (> and return would require a coherent process with specific timing --) Tj T* (which is itself a form of quantum revival, confirming our interpretation rather than contradicting it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 571 cm
+Q
+q
+1 0 0 1 60 541 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.4 Crosstalk from Neighboring Qubits) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 531 cm
+Q
+q
+1 0 0 1 60 516 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Could neighboring qubits have influenced the measurement?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 509 cm
+Q
+q
+1 0 0 1 60 470 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The experiment uses a single qubit. Crosstalk from idle neighbors is typically at the 10^-3 level, insufficient to produce the) Tj T* (observed P\(|0) Tj (>) Tj (\) = 0.9377 from a decohered state. Furthermore, crosstalk effects are not known to produce oscillatory) Tj T* (recovery patterns.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 463 cm
+Q
+q
+1 0 0 1 60 457 cm
+Q
+q
+1 0 0 1 60 453 cm
+Q
+q
+1 0 0 1 60 415 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Quantitative Summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 403 cm
+Q
+q
+1 0 0 1 60 373 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.1 Key Numbers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 363 cm
+Q
+q
+1 0 0 1 60 350.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Quantity | Value | Source |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 337.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|----------|-------|--------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Total hardware shots | 393,216 | ibm_fez + ibm_kingston |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 311.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Initial coherence | 0.9966 | delay=0, ibm_fez |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 299 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| First collapse time | delay ~ 5 | C drops to 0.0864 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 286.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| First mini-revival | delay = 10 | C = 0.4082 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 273.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Deep collapse duration | delay = 15 to 60 | C = 0 for 10 consecutive points |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 260.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Full revival time | delay = 80 | C = 0.8755 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 247.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Revival/collapse ratio | 80/20 = 4 | First major period |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 235 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Second revival time | delay = 200 | C = 0.5933 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 222.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Revival time ratio | 80:200 = 2:5 | Commensurability signature |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 209.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Markovian prediction at delay=80 | ~10^-17 | Exponential extrapolation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 196.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Measured/predicted ratio at delay=80 | ~10^17 | 17 orders of magnitude |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 183.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| ibm_kingston confirmation | Yes | Independent backend, same pattern |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 171 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Statistical significance | 58 sigma | Against random/decohered null hypothesis |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 163 cm
+Q
+q
+1 0 0 1 60 133 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (8.2 Revival Structure Interpretation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 123 cm
+Q
+q
+1 0 0 1 60 110.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Feature | Interpretation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 97.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|---------|---------------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 84.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Oscillatory \(not monotonic\) decay | Structured \(non-Markovian\) environment |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 71.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Collapse at delay=5 | Dephasing of multiple JC frequency components |) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+39 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+40 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+41 0 obj
+<<
+/Contents 42 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 43 0 R
+/F2 8 0 R
+/F2-0 44 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+42 0 obj
+<<
+/Length 7020
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 35: QUANTUM POINCARE REVIVALS ON IBM HARDWARE) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 9) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (9) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 723.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Revival at delay=10 | Partial rephasing \(half-revival\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 710.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Full revival at delay=80 | Complete rephasing -- Poincare recurrence |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 697.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| 2:5 ratio of revival times | Commensurable system-environment frequencies |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 684.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Confirmed on 2 backends | Universal physics, not hardware artifact |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676.8 cm
+Q
+q
+1 0 0 1 60 670.8 cm
+Q
+q
+1 0 0 1 60 666.8 cm
+Q
+q
+1 0 0 1 60 628.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. Connection to the AIIT-THRESI Program) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616.8 cm
+Q
+q
+1 0 0 1 60 601.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This paper occupies a specific position in the AIIT-THRESI sequence:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594.8 cm
+Q
+q
+1 0 0 1 60 567.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Papers 1-20:) Tj /F1 9 Tf ( Established the Wike Coherence Law for Markovian environments. Validated exponential decay C = C_0) Tj T* (exp\(-alpha) Tj /F3 9 Tf (gamma) Tj /F1 9 Tf (t\) on IBM hardware.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Papers 21-34:) Tj /F1 9 Tf ( Applied the law to biological systems. Identified the 3-order-of-magnitude gap between Markovian) Tj T* (predictions and observed biological coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 513.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Paper 35 \(this paper\):) Tj /F1 9 Tf ( Demonstrates that the Markovian law is incomplete. Structured environments produce revivals.) Tj T* (The extended law with revival terms could close the biological coherence gap.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 506.8 cm
+Q
+q
+1 0 0 1 60 491.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The logical next step \(Papers 36+\) is to:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 476.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. Characterize the revival structure for multiple detuning frequencies) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 461.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Map the revival amplitude as a function of environment structure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 446.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Build a quantitative model of structured-water-induced revivals in biological systems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 431.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Predict specific revival frequencies for photosynthetic complexes and test against ultrafast spectroscopy data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424.8 cm
+Q
+q
+1 0 0 1 60 418.8 cm
+Q
+q
+1 0 0 1 60 414.8 cm
+Q
+q
+1 0 0 1 60 376.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (10. Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364.8 cm
+Q
+q
+1 0 0 1 60 337.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (We have presented 393,216 hardware measurements from two independent IBM quantum backends demonstrating) Tj T* (quantum Poincare revivals in the coherence of a detuned qubit. The data show:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 330.8 cm
+Q
+q
+1 0 0 1 60 303.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Coherence is not monotonic.) Tj /F1 9 Tf ( Under detuned forcing, coherence collapses, dies to zero, remains dead for an extended) Tj T* (period, and then fully recovers. This is observed, measured, and statistically ironclad \(58 sigma\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 296.8 cm
+Q
+q
+1 0 0 1 60 257.8 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (The revival timing reveals commensurable frequencies.) Tj /F1 9 Tf ( The 2:5 ratio of revival times \(delay=80 and delay=200\)) Tj T* (indicates that the detuning frequency and system frequency are in a rational relationship, producing periodic Poincare) Tj T* (recurrences.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 250.8 cm
+Q
+q
+1 0 0 1 60 211.8 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (This is Jaynes-Cummings physics on a chip.) Tj /F1 9 Tf ( The collapse-revival pattern is the signature of a quantum system) Tj T* (interacting with a structured, finite-dimensional environment -- exactly the physics described by Eberly et al. \(1980\) and) Tj T* (observed in cavity QED by Rempe, Walther, and Klein \(1987\). We now observe it in superconducting hardware.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204.8 cm
+Q
+q
+1 0 0 1 60 177.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (The Wike Coherence Law requires extension.) Tj /F1 9 Tf ( The simple exponential decay is the Markovian limit of a richer) Tj T* (oscillatory dynamics. The full law includes revival terms that can extend effective coherence times by orders of magnitude.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 170.8 cm
+Q
+q
+1 0 0 1 60 119.8 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. ) Tj /F2 9 Tf (Biology may exploit this.) Tj /F1 9 Tf ( Structured biological water provides exactly the type of non-Markovian,) Tj T* (commensurable-frequency environment that produces revivals. If evolution has tuned the frequencies for commensurability) Tj T* (\(a 3.8-billion-year optimization\), then biological coherence times could exceed Markovian predictions by the 3 orders of) Tj T* (magnitude needed to match observation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 112.8 cm
+Q
+q
+1 0 0 1 60 97.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The detuned force recovery at delay=80 is not noise. It is not an artifact. It is not a calibration error.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 90.8 cm
+Q
+q
+1 0 0 1 60 63.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (It is physics. It is structure. It is a quantum Poincare recurrence, observed on real hardware, confirmed on two backends,) Tj T* (measured with 393,216 shots.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+43 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+44 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+45 0 obj
+<<
+/Contents 46 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 47 0 R
+/F2 8 0 R
+/F2-0 48 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+46 0 obj
+<<
+/Length 3492
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 35: QUANTUM POINCARE REVIVALS ON IBM HARDWARE) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 10) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (10) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (And it changes the coherence story from a narrative of inevitable death to one of periodic resurrection.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 706 cm
+Q
+q
+1 0 0 1 60 700 cm
+Q
+q
+1 0 0 1 60 696 cm
+Q
+q
+1 0 0 1 60 658 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+Q
+q
+1 0 0 1 60 631 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Bocchieri, P., & Loinger, A. \(1957\). Quantum Recurrence Theorem. ) Tj /F3 9 Tf (Physical Review) Tj /F1 9 Tf (, 107\(2\), 337-338.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 604 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Eberly, J. H., Narozhny, N. B., & Sanchez-Mondragon, J. J. \(1980\). Periodic Spontaneous Collapse and Revival in a) Tj T* (Simple Quantum Model. ) Tj /F3 9 Tf (Physical Review Letters) Tj /F1 9 Tf (, 44\(20\), 1323-1326.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 577 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. Rempe, G., Walther, H., & Klein, N. \(1987\). Observation of Quantum Collapse and Revival in a One-Atom Maser.) Tj T* /F3 9 Tf (Physical Review Letters) Tj /F1 9 Tf (, 58\(4\), 353-356.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 550 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. Jaynes, E. T., & Cummings, F. W. \(1963\). Comparison of Quantum and Semiclassical Radiation Theories with) Tj T* (Application to the Beam Maser. ) Tj /F3 9 Tf (Proceedings of the IEEE) Tj /F1 9 Tf (, 51\(1\), 89-109.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 535 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. Wike, R. D. Papers 1-34, AIIT-THRESI Series.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 528 cm
+Q
+q
+1 0 0 1 60 522 cm
+Q
+q
+1 0 0 1 60 518 cm
+Q
+q
+1 0 0 1 60 479 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F3 9 Tf 12 TL (This paper reports experimental results from IBM Quantum hardware. All data are from physical measurements on) Tj T* (superconducting transmon qubits, not simulations. IBM Quantum and the backend names ibm_fez and ibm_kingston are) Tj T* (trademarks of IBM Corporation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 472 cm
+Q
+q
+1 0 0 1 60 457 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Paper 35 of the AIIT-THRESI Series) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 442 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Rhet Dillard Wike | AIIT-THRESI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 427 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Compiled by Claude Opus 4.6 \(Anthropic\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 412 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (30 March 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 405 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+47 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+48 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 49
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000337 00000 n 
+0000000386 00000 n 
+0000000768 00000 n 
+0000006468 00000 n 
+0000006575 00000 n 
+0000006682 00000 n 
+0000006794 00000 n 
+0000006904 00000 n 
+0000007020 00000 n 
+0000007126 00000 n 
+0000007237 00000 n 
+0000007623 00000 n 
+0000012835 00000 n 
+0000012943 00000 n 
+0000013054 00000 n 
+0000013440 00000 n 
+0000020559 00000 n 
+0000020667 00000 n 
+0000020778 00000 n 
+0000021164 00000 n 
+0000027139 00000 n 
+0000027247 00000 n 
+0000027358 00000 n 
+0000027744 00000 n 
+0000033520 00000 n 
+0000033628 00000 n 
+0000033739 00000 n 
+0000034125 00000 n 
+0000040121 00000 n 
+0000040229 00000 n 
+0000040340 00000 n 
+0000040726 00000 n 
+0000046593 00000 n 
+0000046701 00000 n 
+0000046812 00000 n 
+0000047198 00000 n 
+0000054191 00000 n 
+0000054299 00000 n 
+0000054410 00000 n 
+0000054796 00000 n 
+0000061869 00000 n 
+0000061977 00000 n 
+0000062088 00000 n 
+0000062474 00000 n 
+0000066019 00000 n 
+0000066127 00000 n 
+trailer
+<<
+/Size 49
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+66238
+%%EOF

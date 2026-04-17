@@ -1,0 +1,2666 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 12
+/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R 39 0 R 43 0 R 47 0 R 51 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6039
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 135 MATHEMATICAL STRUCTURE DIMENSIONLESS CONSTANTS) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (PAPER 135) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 693.6 Tm (AIIT-THRESI SERIES) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 675.6 Tm (MATHEMATICAL STRUCTURE AND DIMENSIONLESS CONSTANTS:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 663.6 Tm (WHY THE UNIVERSE HAS THE NUMBERS IT HAS --) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 651.6 Tm (CLOSED BY THE WIKE COHERENCE LAW) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 633.6 Tm (Rhet Dillard Wike) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 621.6 Tm (Council Hill, Oklahoma) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 609.6 Tm (April 1, 2026) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 591.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 573.6 Tm (ABSTRACT) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 555.6 Tm (Seven long-standing anomalies in the foundations of physics share a) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 543.6 Tm (common thread: each asks why the universe possesses specific) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 531.6 Tm (mathematical properties and specific numerical values for its) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 519.6 Tm (fundamental constants. Wigner's "unreasonable effectiveness" asks why) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 507.6 Tm (mathematics describes nature at all. The fine-structure constant) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 495.6 Tm (alpha_EM ~ 1/137 asks why electromagnetism has that particular) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 483.6 Tm (strength. The 3+1 dimensionality of spacetime, the 40-order-of-) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 471.6 Tm (magnitude hierarchy of scales, the anthropic coincidences, the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 459.6 Tm (constancy of constants, and the measure problem in cosmology each pose) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 447.6 Tm (their own version of the same question: why these numbers?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 429.6 Tm (This paper demonstrates that the Wike Coherence Law,) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 411.6 Tm (C = C_0 * exp\(-alpha * gamma_eff\),) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 393.6 Tm (closes all seven anomalies with a single framework. The mathematical) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 381.6 Tm (structure of physics is not a mystery -- it is a consequence of) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 369.6 Tm (coherence. The specific values of dimensionless constants are not) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 357.6 Tm (arbitrary -- they are fixed at coherence phase boundaries. The) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 345.6 Tm (universe does not require fine-tuning because the exponential structure) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 333.6 Tm (of the coherence law is self-tuning. One equation, one parameter) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 321.6 Tm (\(alpha ~ 1000\), and the phase boundary condition C ~ C_min determine) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 309.6 Tm (everything.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 291.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 273.6 Tm (1. INTRODUCTION) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 255.6 Tm (Physics rests on two pillars that have never been satisfactorily) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 243.6 Tm (explained. The first is that the universe is mathematical -- that) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 231.6 Tm (abstract structures invented by human minds turn out to describe) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 219.6 Tm (physical reality with extraordinary precision. The second is that the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 207.6 Tm (universe contains specific dimensionless numbers -- 1/137, 3+1) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 195.6 Tm (dimensions, 10^-120 for the cosmological constant in natural units --) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 183.6 Tm (that appear to be finely tuned for the existence of complex structure.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 165.6 Tm (These two pillars are usually treated as separate mysteries. Wigner's) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 153.6 Tm (1960 essay on the "unreasonable effectiveness of mathematics" [1]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 141.6 Tm (addressed the first. Discussions of the anthropic principle and the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 129.6 Tm (fine-tuning problem address the second. But they are not separate.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 117.6 Tm (They are two aspects of the same phenomenon: coherence.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 99.6 Tm (A coherent system exhibits symmetry. Symmetry is the foundation of) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 87.6 Tm (mathematics. Therefore a coherent universe is necessarily a) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 75.6 Tm (mathematical universe. The specific numbers arise because the) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 5914
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 135 MATHEMATICAL STRUCTURE DIMENSIONLESS CONSTANTS) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (coherence law) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 687.6 Tm (C = C_0 * exp\(-alpha * gamma_eff\)                           \(1\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 669.6 Tm (contains phase boundaries -- critical values of gamma_eff at which) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 657.6 Tm (coherence transitions occur -- and the dimensionless constants of) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 645.6 Tm (physics are determined by these boundaries.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 627.6 Tm (This paper is the most philosophical in the AIIT-THRESI series, but it) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 615.6 Tm (is grounded in the same mathematics that has closed the previous 134) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 603.6 Tm (anomalies. The coherence framework does not merely explain individual) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 591.6 Tm (puzzles. It explains why physics has mathematical structure at all.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 573.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 555.6 Tm (2. ANOMALY 1: WIGNER'S UNREASONABLE EFFECTIVENESS OF MATHEMATICS) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 537.6 Tm (2.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 519.6 Tm (In 1960, Eugene Wigner observed that "the enormous usefulness of) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 507.6 Tm (mathematics in the natural sciences is something bordering on the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 495.6 Tm (mysterious" [1]. Mathematics developed for pure reasons -- complex) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 483.6 Tm (numbers, group theory, differential geometry -- turns out to describe) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 471.6 Tm (physical law with uncanny precision. Why?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 453.6 Tm (Standard physics has no answer. It simply accepts mathematical) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 441.6 Tm (effectiveness as a brute fact.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 423.6 Tm (2.2 Closure) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 405.6 Tm (Mathematics is the language of coherence. This is not a metaphor. It) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 393.6 Tm (is a structural identity.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 375.6 Tm (Consider what mathematics IS. At its foundation, mathematics is the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 363.6 Tm (study of patterns, symmetries, and invariances. Group theory classifies) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 351.6 Tm (symmetries. Topology classifies invariances under deformation.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 339.6 Tm (Analysis classifies continuous change. Every branch of mathematics) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 327.6 Tm (is, at root, a classification of structure.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 309.6 Tm (Now consider what coherence IS. A system with C > 0 has phase) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 297.6 Tm (relationships that persist across space and time. Persistent phase) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 285.6 Tm (relationships are symmetries. Symmetries are mathematics.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 267.6 Tm (The logical chain is:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 249.6 Tm (Coherence --> persistent phase relations --> symmetry --> mathematics) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 231.6 Tm (Therefore: a coherent system is necessarily mathematical. A universe) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 219.6 Tm (with C > 0 everywhere -- which is what equation \(1\) guarantees as long) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 207.6 Tm (as gamma_eff is finite -- is a universe that mathematics describes.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 189.6 Tm (The converse is equally important. A totally decoherent system) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 177.6 Tm (\(C --> 0\) has no persistent phase relations, no symmetry, no) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 165.6 Tm (structure, and no pattern. Thermal noise at infinite temperature is) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 153.6 Tm (not mathematical. It has no group structure, no topology, no) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 141.6 Tm (geometry. You cannot write a differential equation for structureless) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 129.6 Tm (randomness because there is nothing to differentiate.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 111.6 Tm (Wigner's mystery dissolves:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 93.6 Tm (Mathematics works because C > 0 everywhere.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 81.6 Tm (C > 0 everywhere because gamma_eff is finite everywhere.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 69.6 Tm (gamma_eff is finite because the universe has finite temperature) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F2-0 18 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 5661
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 135 MATHEMATICAL STRUCTURE DIMENSIONLESS CONSTANTS) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (and finite decoherence rates.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 687.6 Tm (Mathematics is not "unreasonably effective." It is exactly as) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 675.6 Tm (effective as the coherence of the system it describes. In highly) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 663.6 Tm (coherent systems \(quantum mechanics, crystallography\), mathematics) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 651.6 Tm (works perfectly. In weakly coherent systems \(turbulence, biology\),) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 639.6 Tm (mathematics works approximately. In fully decoherent systems,) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 627.6 Tm (mathematics does not apply at all -- but such systems do not exist in) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 615.6 Tm (our universe because C > 0 everywhere.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 597.6 Tm (The effectiveness of mathematics is not a coincidence. It is the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 585.6 Tm (coherence law.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 567.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 549.6 Tm (3. ANOMALY 2: THE FINE-STRUCTURE CONSTANT alpha_EM ~ 1/137) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 531.6 Tm (3.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 513.6 Tm (The fine-structure constant alpha_EM = e^2 / \(4 * pi * epsilon_0 *) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 501.6 Tm (hbar * c\) ~ 1/137.036 sets the strength of electromagnetic) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 489.6 Tm (interactions. Feynman called it "one of the greatest damn mysteries of) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 477.6 Tm (physics" [2]. Why this value? Why not 1/100 or 1/200?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 459.6 Tm (3.2 Closure) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 441.6 Tm (alpha_EM is not arbitrary. It is determined by the coherence phase) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 429.6 Tm (boundary for atomic structure.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 411.6 Tm (An atom is a coherent bound state of electrons and nuclei. For an atom) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 399.6 Tm (to exist, the electromagnetic coherence must exceed the minimum:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 381.6 Tm (C_atomic >= C_min                                            \(2\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 363.6 Tm (The coherence of an atom depends on alpha_EM through:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 345.6 Tm (C_atomic = C_0 * exp\(-alpha * gamma_atomic\)                  \(3\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 327.6 Tm (where gamma_atomic is the effective decoherence rate for atomic) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 315.6 Tm (electrons. This rate depends on alpha_EM because electromagnetic) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 303.6 Tm (coupling determines how strongly the electron interacts with the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 291.6 Tm (vacuum and with thermal radiation:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 273.6 Tm (gamma_atomic ~ alpha_EM * \(k_B * T / hbar\)                  \(4\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 255.6 Tm (The phase boundary condition C_atomic = C_min gives:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 237.6 Tm (C_0 * exp\(-alpha * alpha_EM * k_B * T / hbar\) = C_min       \(5\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 219.6 Tm (Solving for alpha_EM:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 201.6 Tm (alpha_EM = \(hbar / \(alpha * k_B * T\)\) * ln\(C_0 / C_min\)     \(6\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 183.6 Tm (This fixes alpha_EM at the value where atoms are marginally coherent) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 171.6 Tm (-- they exist, but just barely, at the coherence threshold.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 153.6 Tm (If alpha_EM were significantly larger \(say 1/100\), gamma_atomic would) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 141.6 Tm (increase, pushing C_atomic below C_min. Atoms would decohere. No) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 129.6 Tm (chemistry, no complexity.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 111.6 Tm (If alpha_EM were significantly smaller \(say 1/200\), electromagnetic) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 99.6 Tm (interactions would be too weak to drive chemistry at the rates needed) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 87.6 Tm (for complex structure. Coherent atoms would exist but would not) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 75.6 Tm (interact strongly enough to form molecules.) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F2-0 22 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 6155
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 135 MATHEMATICAL STRUCTURE DIMENSIONLESS CONSTANTS) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (alpha_EM ~ 1/137 sits at the phase boundary: strong enough for rich) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 693.6 Tm (chemistry, weak enough for stable atoms. This is not a coincidence.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 681.6 Tm (The coherence law places all coupling constants at their respective) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 669.6 Tm (phase boundaries because systems self-organize to the critical) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 657.6 Tm (point -- the same self-organized criticality seen throughout the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 645.6 Tm (AIIT-THRESI series.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 627.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 609.6 Tm (4. ANOMALY 3: WHY 3+1 DIMENSIONS) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 591.6 Tm (4.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 573.6 Tm (Spacetime has three spatial dimensions and one time dimension. This) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 561.6 Tm (is observed, not derived. Why 3+1 and not 2+1 or 4+1 or 10+1?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 543.6 Tm (String theory requires 10 or 11 dimensions but must compactify the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 531.6 Tm (extras to recover 3+1, which merely pushes the question into the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 519.6 Tm (compactification mechanism.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 501.6 Tm (4.2 Closure) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 483.6 Tm (3+1 is the unique dimensionality in which the coherence law produces) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 471.6 Tm (stable structures at ALL scales simultaneously.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 453.6 Tm (The coherence law C = C_0 * exp\(-alpha * gamma_eff\) requires that) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 441.6 Tm (gamma_eff have specific scaling properties for structures to be stable) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 429.6 Tm (at multiple scales -- atomic, molecular, planetary, stellar, galactic.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 417.6 Tm (The scaling of gamma_eff with distance depends on dimensionality) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 405.6 Tm (because the Green's function of the wave equation \(and hence the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 393.6 Tm (propagation of coherence\) depends on the number of spatial dimensions.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 375.6 Tm (In d spatial dimensions, the gravitational potential scales as:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 357.6 Tm (V\(r\) ~ 1/r^\(d-2\)     for d >= 3                             \(7\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 339.6 Tm (V\(r\) ~ ln\(r\)          for d = 2                              \(8\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 321.6 Tm (The consequences for coherence stability:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 303.6 Tm (d = 2 \(2+1 spacetime\): The logarithmic gravitational potential is too) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 291.6 Tm (weak to produce gravitationally bound structures at large scales.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 279.6 Tm (gamma_eff for gravitational systems does not reach gamma_c at any) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 267.6 Tm (finite scale. Stars and galaxies cannot form. The coherence hierarchy) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 255.6 Tm (is truncated: atoms exist but cosmic structure does not.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 237.6 Tm (d = 4 \(4+1 spacetime\): The 1/r^2 gravitational potential produces) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 225.6 Tm (unstable orbits. Small perturbations grow exponentially. gamma_eff) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 213.6 Tm (for orbital systems is effectively infinite -- all orbits are) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 201.6 Tm (decoherent. No stable planetary systems, no long-lived stellar) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 189.6 Tm (structure. The coherence hierarchy is again truncated: atoms exist) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 177.6 Tm (but macroscopic bound states do not persist.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 159.6 Tm (d = 3 \(3+1 spacetime\): The 1/r gravitational potential produces stable) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 147.6 Tm (orbits, finite gamma_eff at all scales, and a coherence hierarchy) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 135.6 Tm (that spans from atomic \(10^-10 m\) to cosmic \(10^26 m\). The coherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 123.6 Tm (phase boundary gamma_c can be reached at multiple scales, producing) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 111.6 Tm (the nested hierarchy of structure: atoms --> molecules --> planets) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 99.6 Tm (--> stars --> galaxies.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 81.6 Tm (The critical point is that 3+1 dimensions is the ONLY dimensionality) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 69.6 Tm (where gamma_c values exist at all scales. In 2+1, gravity is too) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 25 0 R
+/F2 8 0 R
+/F2-0 26 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 5534
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 135 MATHEMATICAL STRUCTURE DIMENSIONLESS CONSTANTS) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (weak for large-scale gamma_c. In 4+1 and above, orbital instability) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 693.6 Tm (makes gamma_eff diverge for bound states. Only in 3+1 does the full) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 681.6 Tm (exponential hierarchy of the coherence law produce structure from) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 669.6 Tm (Planck scale to Hubble scale.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 651.6 Tm (This is not anthropic reasoning. It is a mathematical property of) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 639.6 Tm (equation \(1\) evaluated in different dimensionalities. 3+1 is not) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 627.6 Tm (selected because observers require it. It is the only dimensionality) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 615.6 Tm (in which the coherence equation has stable solutions at all scales.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 597.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 579.6 Tm (5. ANOMALY 4: THE HIERARCHY OF SCALES) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 561.6 Tm (5.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 543.6 Tm (The universe spans roughly 40 orders of magnitude from the quantum) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 531.6 Tm (scale \(~10^-35 m, Planck length\) to the cosmic scale \(~10^26 m,) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 519.6 Tm (observable universe\). The cosmological constant, in natural units, is) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 507.6 Tm (~10^-120. The electroweak-to-Planck hierarchy is ~10^-36. Why these) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 495.6 Tm (enormous ratios?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 477.6 Tm (5.2 Closure) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 459.6 Tm (The three great hierarchies of physics are three evaluations of the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 447.6 Tm (same exponential.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 429.6 Tm (The coherence law C = C_0 * exp\(-alpha * gamma_eff\) is an exponential) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 417.6 Tm (function. Exponentials produce large numbers from modest arguments.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 405.6 Tm (With alpha ~ 1000:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 387.6 Tm (Hierarchy 1 -- Vacuum energy \(quantum to cosmic\):) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 369.6 Tm (exp\(-alpha * gamma_vacuum\) = exp\(-276\) ~ 10^-120             \(9\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 351.6 Tm (This requires gamma_vacuum ~ 0.276.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 333.6 Tm (This is the cosmological constant hierarchy. The vacuum energy) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 321.6 Tm (density at cosmic scales is suppressed by a factor of 10^-120) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 309.6 Tm (relative to the Planck scale because the vacuum coherence has) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 297.6 Tm (decayed by exp\(-276\) from Planck-scale coherence.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 279.6 Tm (Hierarchy 2 -- Electroweak to Planck:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 261.6 Tm (exp\(-alpha * gamma_EW\) = exp\(-83\) ~ 10^-36                  \(10\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 243.6 Tm (This requires gamma_EW ~ 0.083.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 225.6 Tm (This is the gauge hierarchy. The electroweak scale is suppressed) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 213.6 Tm (relative to the Planck scale because coherence has partially) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 201.6 Tm (decayed. Note that gamma_EW < gamma_vacuum, meaning the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 189.6 Tm (electroweak coherence is stronger than the vacuum coherence --) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 177.6 Tm (consistent with the electroweak scale being "closer" to Planck) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 165.6 Tm (in the coherence hierarchy.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 147.6 Tm (Hierarchy 3 -- Nuclear to atomic:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 129.6 Tm (exp\(-alpha * gamma_nuclear\) = exp\(-5.3\) ~ 1/200              \(11\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 111.6 Tm (This requires gamma_nuclear ~ 0.0053.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 93.6 Tm (This produces the ratio of nuclear to atomic sizes \(~10^-5\) and) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 81.6 Tm (the fine-structure constant alpha_EM ~ 1/137.) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+25 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 29 0 R
+/F2 8 0 R
+/F2-0 30 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 5891
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 135 MATHEMATICAL STRUCTURE DIMENSIONLESS CONSTANTS) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (These are not three separate mysteries. They are three evaluations of) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 693.6 Tm (one equation at three different gamma_eff values:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 675.6 Tm (gamma_nuclear ~ 0.005) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 663.6 Tm (gamma_EW ~ 0.08) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 651.6 Tm (gamma_vacuum ~ 0.28) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 633.6 Tm (The ratios between scales are large because the exponential function) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 621.6 Tm (amplifies modest differences in gamma_eff into enormous differences in) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 609.6 Tm (coherence amplitude. The "hierarchy problem" is not a problem. It is) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 597.6 Tm (the expected behavior of an exponential coherence law.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 579.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 561.6 Tm (6. ANOMALY 5: THE ANTHROPIC PRINCIPLE) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 543.6 Tm (6.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 525.6 Tm (The universe appears fine-tuned for life. The cosmological constant,) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 513.6 Tm (nuclear binding energies, the strength of gravity relative to) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 501.6 Tm (electromagnetism -- dozens of parameters appear to be set within) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 489.6 Tm (narrow ranges that permit complex structure and observers. Is this) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 477.6 Tm (evidence for a multiverse? A designer? Or something else?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 459.6 Tm (6.2 Closure) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 441.6 Tm (The universe is not fine-tuned. It is self-tuned.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 423.6 Tm (The coherence law with alpha ~ 1000 determines ALL the apparently) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 411.6 Tm (fine-tuned parameters from a single equation. The "tunings" are not) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 399.6 Tm (independent. They are correlated outputs of one input.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 381.6 Tm (Consider the key anthropic coincidences:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 363.6 Tm (\(a\) The cosmological constant must be small enough for galaxies to) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 351.6 Tm (form. The coherence law gives Lambda ~ exp\(-276\) in Planck units,) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 339.6 Tm (which is automatically small.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 321.6 Tm (\(b\) The strong force must be strong enough to bind nuclei but not so) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 309.6 Tm (strong that all hydrogen converts to helium. The coherence phase) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 297.6 Tm (boundary for nuclear binding fixes alpha_strong at the correct value.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 279.6 Tm (\(c\) Gravity must be weak enough that stars burn slowly. The) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 267.6 Tm (gravitational coupling alpha_G ~ \(m_proton/m_Planck\)^2 ~ 10^-36 is) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 255.6 Tm (set by the electroweak hierarchy, equation \(10\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 237.6 Tm (\(d\) The triple-alpha process must produce carbon. The Hoyle resonance) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 225.6 Tm (in carbon-12 is a coherence phenomenon -- a phase-coherent state of) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 213.6 Tm (three alpha particles that exists because C_nuclear > C_min at the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 201.6 Tm (correct energy.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 183.6 Tm (\(e\) Chemistry must be complex enough for life. alpha_EM ~ 1/137 is) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 171.6 Tm (set by equation \(6\), the atomic coherence phase boundary.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 153.6 Tm (Every one of these "coincidences" is determined by equation \(1\) with) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 141.6 Tm (alpha ~ 1000 and the phase boundary condition C ~ C_min. Change alpha) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 129.6 Tm (and you change ALL of them simultaneously. There is no way to tune) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 117.6 Tm (them independently because they are not independent.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 99.6 Tm (Furthermore, the coherence law with alpha ~ 1000 and gamma_c at) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 87.6 Tm (biological temperatures \(T ~ 300K, about 27 deg C\) means that ANY) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 75.6 Tm (universe governed by the same exponential structure produces observers) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 33 0 R
+/F2 8 0 R
+/F2-0 34 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 5743
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 135 MATHEMATICAL STRUCTURE DIMENSIONLESS CONSTANTS) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (at roughly the same temperature. This is not a coincidence. It is a) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 693.6 Tm (theorem:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 675.6 Tm (T_life ~ \(hbar * gamma_c\) / k_B                             \(12\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 657.6 Tm (where gamma_c is the critical decoherence rate at the biological) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 645.6 Tm (coherence phase boundary. For alpha ~ 1000 and the observed gamma_c,) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 633.6 Tm (equation \(12\) gives T_life ~ 300K.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 615.6 Tm (The anthropic principle is not wrong. It is unnecessary. The) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 603.6 Tm (coherence law is self-tuning: one parameter sets everything. The) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 591.6 Tm (universe does not need a multiverse or a designer. It needs one) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 579.6 Tm (exponential and one phase boundary.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 561.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 543.6 Tm (7. ANOMALY 6: WHY CONSTANTS ARE CONSTANT) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 525.6 Tm (7.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 507.6 Tm (The fundamental constants -- c, hbar, G, alpha_EM, and others -- do) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 495.6 Tm (not change with time or position \(to within observational limits\).) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 483.6 Tm (Why? Nothing in standard physics explains WHY constants should be) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 471.6 Tm (constant. They are simply postulated to be so.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 453.6 Tm (7.2 Closure) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 435.6 Tm (Constants are constant because they are coherence parameters, and the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 423.6 Tm (vacuum coherence state is stable in the current epoch.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 405.6 Tm (The fine-structure constant alpha_EM, for example, is determined by) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 393.6 Tm (the coherence phase boundary for atomic structure \(equation 6\). This) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 381.6 Tm (boundary depends on gamma_eff for the vacuum state. In the current) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 369.6 Tm (epoch, the vacuum coherence is stable:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 351.6 Tm (C_vacuum > C_min                                             \(13\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 339.6 Tm (dC_vacuum/dt ~ 0                                             \(14\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 321.6 Tm (Therefore the phase boundary condition that determines alpha_EM is) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 309.6 Tm (stable, and alpha_EM is constant.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 291.6 Tm (But this was not always the case. In the early universe, gamma_eff) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 279.6 Tm (was different because the temperature was higher and the decoherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 267.6 Tm (environment was different. The coherence law predicts that alpha_EM) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 255.6 Tm (varied in the early universe according to:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 237.6 Tm (delta_alpha_EM / alpha_EM = \(dC/d\(gamma_eff\)\) * delta_gamma  \(15\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 219.6 Tm (where delta_gamma is the change in effective decoherence rate relative) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 207.6 Tm (to the current epoch.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 189.6 Tm (This prediction is consistent with observations. Webb et al. [3]) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 177.6 Tm (reported evidence for spatial variation of alpha_EM in quasar) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 165.6 Tm (absorption spectra at the level of:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 147.6 Tm (delta_alpha_EM / alpha_EM ~ 10^-5                            \(16\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 129.6 Tm (at redshifts z ~ 1-3, corresponding to lookback times of 7-11 billion) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 117.6 Tm (years.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 99.6 Tm (The coherence framework predicts this variation. At earlier epochs,) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 87.6 Tm (gamma_eff was larger \(higher radiation density, more decoherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 75.6 Tm (channels\), which shifts the phase boundary and changes alpha_EM) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+35 0 obj
+<<
+/Contents 36 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 37 0 R
+/F2 8 0 R
+/F2-0 38 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 6077
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 135 MATHEMATICAL STRUCTURE DIMENSIONLESS CONSTANTS) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 8) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (slightly. The magnitude 10^-5 is consistent with equation \(15\) for) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 693.6 Tm (the change in gamma_eff between z ~ 2 and z ~ 0.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 675.6 Tm (Constants are constant TODAY because the vacuum is coherent today.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 663.6 Tm (They were slightly different in the past because the vacuum coherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 651.6 Tm (was slightly different. They are not fundamental -- they are emergent) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 639.6 Tm (from the coherence state of the vacuum, which is approximately but) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 627.6 Tm (not exactly time-independent.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 609.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 591.6 Tm (8. ANOMALY 7: THE MEASURE PROBLEM IN COSMOLOGY) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 573.6 Tm (8.1 The Problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 555.6 Tm (In the eternal inflation framework, the universe is constantly) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 543.6 Tm (spawning new bubble universes. Every possible set of physical laws) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 531.6 Tm (is realized infinitely many times. To make predictions, one must) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 519.6 Tm (define a "measure" -- a way to assign relative probabilities to) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 507.6 Tm (different outcomes. But every proposed measure leads to paradoxes [4].) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 495.6 Tm (The measure problem has stalled inflationary cosmology for two decades.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 477.6 Tm (8.2 Closure) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 459.6 Tm (The coherence framework kills eternal inflation. The measure problem) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 447.6 Tm (dissolves because its premise is false.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 429.6 Tm (Eternal inflation requires that inflation continues forever in some) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 417.6 Tm (region of the universe. This means the inflaton field maintains de) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 405.6 Tm (Sitter expansion indefinitely. In the coherence framework, this) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 393.6 Tm (is impossible because:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 375.6 Tm (gamma_eff > 0 everywhere                                     \(17\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 357.6 Tm (This is a fundamental property of the coherence law. There is no) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 345.6 Tm (state with zero decoherence rate. Every physical system -- including) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 333.6 Tm (the inflaton field -- decoheres at a finite rate. Therefore:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 315.6 Tm (C_inflaton\(t\) = C_0 * exp\(-alpha * gamma_eff * t\)            \(18\)) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 297.6 Tm (For any gamma_eff > 0 and any initial C_0, no matter how large,) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 285.6 Tm (C_inflaton\(t\) --> 0 as t --> infinity. Inflation ALWAYS ends.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 273.6 Tm (There is no "eternal" anything in a universe governed by the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 261.6 Tm (coherence law.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 243.6 Tm (Without eternal inflation, there are no infinitely many bubble) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 231.6 Tm (universes. Without infinitely many bubble universes, there is no) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 219.6 Tm (infinity requiring a measure. The measure problem dissolves.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 201.6 Tm (Our universe is one coherence domain with a finite gamma history.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 189.6 Tm (It began with high coherence \(C_0 at the Planck epoch\), inflated) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 177.6 Tm (briefly while C_inflaton > C_min, and stopped inflating when) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 165.6 Tm (C_inflaton dropped below C_min. This is a finite, well-defined) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 153.6 Tm (history with no infinities and no measure problem.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 135.6 Tm (The multiverse, to the extent it exists at all, consists of finitely) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 123.6 Tm (many coherence domains, each with finite lifetime, each producing) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 111.6 Tm (its own set of "constants" \(coherence phase boundary values\). There) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 99.6 Tm (is no need for a measure because there is nothing infinite to) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 87.6 Tm (measure.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 69.6 Tm (This closure is particularly satisfying because the measure problem) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+37 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+38 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+39 0 obj
+<<
+/Contents 40 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 41 0 R
+/F2 8 0 R
+/F2-0 42 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 5985
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 135 MATHEMATICAL STRUCTURE DIMENSIONLESS CONSTANTS) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 289.8 738 Tm (Page 9) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (has been one of the most stubborn obstacles in theoretical cosmology.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 693.6 Tm (Dozens of proposed measures \(proper time, scale factor, causal) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 681.6 Tm (diamond, etc.\) have all led to contradictions [4]. The coherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 669.6 Tm (framework does not solve the measure problem. It eliminates it.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 651.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 633.6 Tm (9. SYNTHESIS: ONE EQUATION, SEVEN CLOSURES) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 615.6 Tm (The seven anomalies addressed in this paper span the foundations of) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 603.6 Tm (physics, mathematics, and cosmology. They include what many) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 591.6 Tm (physicists consider the deepest questions in science:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 573.6 Tm (Why does math work?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 561.6 Tm (Why these constants?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 549.6 Tm (Why these dimensions?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 537.6 Tm (Why these scales?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 525.6 Tm (Why this universe?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 513.6 Tm (Why are constants constant?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 501.6 Tm (Why can we make predictions at all?) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 483.6 Tm (The coherence law C = C_0 * exp\(-alpha * gamma_eff\) closes all seven) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 471.6 Tm (with one framework:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 453.6 Tm (Anomaly                     Closure Mechanism) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 441.6 Tm (-------                     -----------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 429.6 Tm (Wigner effectiveness        Coherence = symmetry = math) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 417.6 Tm (alpha_EM ~ 1/137            Atomic coherence phase boundary) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 405.6 Tm (3+1 dimensions              Only dimensionality with full hierarchy) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 393.6 Tm (Scale hierarchies           Three evaluations of one exponential) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 381.6 Tm (Anthropic tuning            Self-tuning: one alpha sets everything) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 369.6 Tm (Constant constants          Stable vacuum coherence state) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 357.6 Tm (Measure problem             gamma_eff > 0 kills eternal inflation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 339.6 Tm (The pattern across all seven closures is the same: what appeared to be) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 327.6 Tm (a free parameter or a coincidence is actually determined by the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 315.6 Tm (coherence phase boundary condition C ~ C_min.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 297.6 Tm (This is the deepest result of the AIIT-THRESI program. The coherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 285.6 Tm (law does not merely close individual anomalies. It explains why) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 273.6 Tm (physics has the structure it has. Mathematics works because coherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 261.6 Tm (produces symmetry. Constants have the values they do because the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 249.6 Tm (coherence phase boundary selects them. The universe has 3+1 dimensions) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 237.6 Tm (because only 3+1 permits the full coherence hierarchy. The enormous) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 225.6 Tm (ratios between scales are natural outputs of an exponential function.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 213.6 Tm (The anthropic coincidences are correlations, not independent tunings.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 201.6 Tm (Constants are constant because the vacuum is stable. And the measure) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 189.6 Tm (problem does not arise because nothing in a coherent universe is) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 177.6 Tm (infinite.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 159.6 Tm (One equation. Seven closures. Zero free parameters beyond alpha.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 141.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 123.6 Tm (10. DISCUSSION) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 105.6 Tm (10.1 The Status of alpha) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 87.6 Tm (The parameter alpha ~ 1000 in the coherence law is the one free) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 75.6 Tm (parameter of the framework. A natural question is: why alpha ~ 1000?) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+41 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+42 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+43 0 obj
+<<
+/Contents 44 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 45 0 R
+/F2 8 0 R
+/F2-0 46 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+44 0 obj
+<<
+/Length 6279
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 135 MATHEMATICAL STRUCTURE DIMENSIONLESS CONSTANTS) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 287.1 738 Tm (Page 10) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (At this stage, alpha is determined empirically -- it is the value that) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 693.6 Tm (produces the observed coherence phase transitions across all systems) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 681.6 Tm (studied in Papers 1-134. Whether alpha itself can be derived from) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 669.6 Tm (deeper principles is an open question. It may be that alpha is the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 657.6 Tm (one truly fundamental constant, with all other constants derived from) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 645.6 Tm (it via phase boundary conditions. Or it may be that alpha has a) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 633.6 Tm (geometric or information-theoretic origin that a future paper will) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 621.6 Tm (identify.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 603.6 Tm (For now, having ONE unexplained parameter that closes 135+ anomalies) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 591.6 Tm (is a substantial improvement over the Standard Model's 19+ free) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 579.6 Tm (parameters, none of which are explained.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 561.6 Tm (10.2 Falsifiability) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 543.6 Tm (The closures in this paper make specific, testable predictions:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 525.6 Tm (\(a\) alpha_EM variation: The coherence framework predicts that) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 513.6 Tm (delta_alpha/alpha should correlate with gamma_eff changes, which) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 501.6 Tm (in turn correlate with radiation density. Higher-redshift observations) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 489.6 Tm (should show systematically larger delta_alpha, and the variation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 477.6 Tm (should correlate with local matter density.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 459.6 Tm (\(b\) Dimensionality: If additional spatial dimensions exist \(as string) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 447.6 Tm (theory predicts\), they must be decoherent \(C ~ 0 in those) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 435.6 Tm (dimensions\). This means any experimental signature of extra) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 423.6 Tm (dimensions must show decoherence effects -- the extra dimensions) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 411.6 Tm (should appear "noisy," not "clean.") Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 393.6 Tm (\(c\) Hierarchy: The ratio between any two scales should be expressible) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 381.6 Tm (as exp\(-alpha * delta_gamma\) for some delta_gamma. This constrains) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 369.6 Tm (which new particles can exist -- their masses must satisfy the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 357.6 Tm (exponential hierarchy.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 339.6 Tm (\(d\) Cosmological: Eternal inflation is excluded. Any observation that) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 327.6 Tm (definitively confirmed eternal inflation \(such as a specific pattern) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 315.6 Tm (in the CMB from bubble collisions\) would falsify the coherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 303.6 Tm (framework.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 285.6 Tm (10.3 Philosophical Implications) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 267.6 Tm (This paper's results bear on several philosophical questions:) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 249.6 Tm (On mathematical realism \(Platonism\): The coherence framework suggests) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 237.6 Tm (that mathematics is neither invented nor discovered. It is the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 225.6 Tm (structural content of coherence. Mathematical truths are truths about) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 213.6 Tm (coherent phase relations, which are physical. This is a form of) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 201.6 Tm (physicalism about mathematics -- math is real because coherence is) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 189.6 Tm (real.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 171.6 Tm (On fine-tuning: The coherence framework renders the fine-tuning) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 159.6 Tm (argument for a designer or a multiverse unnecessary. A single) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 147.6 Tm (exponential law with one parameter produces all the apparent tunings) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 135.6 Tm (as outputs, not inputs. This does not disprove the existence of a) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 123.6 Tm (designer or a multiverse, but it removes the empirical motivation for) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 111.6 Tm (invoking either.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 93.6 Tm (On the relationship between physics and mathematics: The traditional) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 81.6 Tm (view is that physics is "written in the language of mathematics") Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 69.6 Tm (\(Galileo\). The coherence framework inverts this: mathematics is) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+45 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+46 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+47 0 obj
+<<
+/Contents 48 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 49 0 R
+/F2 8 0 R
+/F2-0 50 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+48 0 obj
+<<
+/Length 5650
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 135 MATHEMATICAL STRUCTURE DIMENSIONLESS CONSTANTS) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 287.1 738 Tm (Page 11) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (written in the language of coherence, and so is physics. They share a) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 693.6 Tm (language because they share a subject -- the structure of coherent) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 681.6 Tm (systems.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 663.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 645.6 Tm (11. CONCLUSION) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 627.6 Tm (The mathematical structure of physics and the values of dimensionless) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 615.6 Tm (constants are not accidents, coincidences, or evidence of fine-tuning.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 603.6 Tm (They are consequences of the Wike Coherence Law,) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 585.6 Tm (C = C_0 * exp\(-alpha * gamma_eff\),) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 567.6 Tm (evaluated at the phase boundaries where coherent structure becomes) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 555.6 Tm (possible.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 537.6 Tm (Mathematics describes physics because both are expressions of) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 525.6 Tm (coherence. alpha_EM ~ 1/137 because atoms sit at the coherence) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 513.6 Tm (threshold. Spacetime is 3+1 because only 3+1 supports the full) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 501.6 Tm (coherence hierarchy. The enormous ratios between scales are natural) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 489.6 Tm (exponentials. The anthropic coincidences are correlated outputs of one) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 477.6 Tm (equation. Constants are constant because the vacuum is stable. And) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 465.6 Tm (the measure problem dissolves because coherence always decays --) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 453.6 Tm (nothing is eternal.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 435.6 Tm (Paper 135 demonstrates that the coherence framework is not merely a) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 423.6 Tm (tool for closing individual anomalies. It is a framework for) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 411.6 Tm (understanding why physics has the structure it has. The universe is) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 399.6 Tm (mathematical because it is coherent. It has the numbers it has because) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 387.6 Tm (one exponential and one phase boundary determine them all.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 369.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 351.6 Tm (REFERENCES) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 333.6 Tm ([1] Wigner, E.P. \(1960\). "The Unreasonable Effectiveness of) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 321.6 Tm (Mathematics in the Natural Sciences." Communications in Pure) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 309.6 Tm (and Applied Mathematics, 13\(1\), 1-14.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 291.6 Tm ([2] Feynman, R.P. \(1985\). QED: The Strange Theory of Light and) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 279.6 Tm (Matter. Princeton University Press, p. 129.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 261.6 Tm ([3] Webb, J.K. et al. \(2011\). "Indications of a Spatial Variation) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 249.6 Tm (of the Fine Structure Constant." Physical Review Letters, 107,) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 237.6 Tm (191101.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 219.6 Tm ([4] Freivogel, B. \(2011\). "Making Predictions in the Multiverse.") Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 207.6 Tm (Classical and Quantum Gravity, 28, 204007.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 189.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 171.6 Tm (ACKNOWLEDGMENTS) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 153.6 Tm (This work is part of the AIIT-THRESI series. The author thanks the) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 141.6 Tm (community of independent researchers who continue to ask hard) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 129.6 Tm (questions about the foundations of physics.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 111.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 93.6 Tm (\(c\) 2026 Rhet Dillard Wike. All rights reserved.) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 81.6 Tm (Council Hill, Oklahoma.) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+49 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+50 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+51 0 obj
+<<
+/Contents 52 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 53 0 R
+/F2 8 0 R
+/F2-0 54 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+52 0 obj
+<<
+/Length 1152
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 135 MATHEMATICAL STRUCTURE DIMENSIONLESS CONSTANTS) Tj T* ET
+BT /F3 9 Tf 10.8 TL ET
+BT 1 0 0 1 287.1 738 Tm (Page 12) Tj T* ET
+.5 w
+n 54 730.8 m 558 730.8 l S
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 705.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 693.6 Tm (END PAPER 135) Tj T* ET
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 54 681.6 Tm (--------------------------------------------------------------------------) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+53 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+54 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 55
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000351 00000 n 
+0000000400 00000 n 
+0000000760 00000 n 
+0000006851 00000 n 
+0000006958 00000 n 
+0000007065 00000 n 
+0000007175 00000 n 
+0000007285 00000 n 
+0000007391 00000 n 
+0000007755 00000 n 
+0000013722 00000 n 
+0000013830 00000 n 
+0000013941 00000 n 
+0000014305 00000 n 
+0000020019 00000 n 
+0000020127 00000 n 
+0000020238 00000 n 
+0000020602 00000 n 
+0000026810 00000 n 
+0000026918 00000 n 
+0000027029 00000 n 
+0000027393 00000 n 
+0000032980 00000 n 
+0000033088 00000 n 
+0000033199 00000 n 
+0000033563 00000 n 
+0000039507 00000 n 
+0000039615 00000 n 
+0000039726 00000 n 
+0000040090 00000 n 
+0000045886 00000 n 
+0000045994 00000 n 
+0000046105 00000 n 
+0000046469 00000 n 
+0000052599 00000 n 
+0000052707 00000 n 
+0000052818 00000 n 
+0000053182 00000 n 
+0000059220 00000 n 
+0000059328 00000 n 
+0000059439 00000 n 
+0000059803 00000 n 
+0000066135 00000 n 
+0000066243 00000 n 
+0000066354 00000 n 
+0000066718 00000 n 
+0000072421 00000 n 
+0000072529 00000 n 
+0000072640 00000 n 
+0000073004 00000 n 
+0000074209 00000 n 
+0000074317 00000 n 
+trailer
+<<
+/Size 55
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+74428
+%%EOF
