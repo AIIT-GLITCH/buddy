@@ -496,7 +496,7 @@ const totalPapers = papersAll.length;
     jokeBtn.disabled = true;
     jokeBtn.textContent = '...';
     jokeResponse.className = 'joke-response loading';
-    jokeResponse.textContent = 'Buddy is thinking...';
+    jokeResponse.innerHTML = '<span class="buddy-loader" aria-label="loading"></span>';
 
     let reply;
     try {
@@ -656,11 +656,13 @@ const totalPapers = papersAll.length;
   }
 
   .joke-response.loading {
-    display: block;
-    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
     transform: translateY(0);
-    color: #555;
-    font-style: italic;
+    min-height: 64px;
+    padding: 20px;
   }
 
   .joke-response.visible {

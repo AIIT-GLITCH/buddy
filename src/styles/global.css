@@ -18,6 +18,34 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+
+/* Buddy loader — the dot, gone unhinged */
+.buddy-loader {
+  display: inline-block;
+  width: 28px; height: 28px;
+  vertical-align: middle;
+  background: radial-gradient(circle at 40% 40%, #fff 0%, #ffe88a 28%, #d4a060 55%, #c89040 85%);
+  filter: drop-shadow(0 0 8px rgba(255,232,138,0.85)) drop-shadow(0 0 18px rgba(212,160,96,0.55));
+  clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+  animation: buddy-loader-morph 1.1s steps(1) infinite, buddy-loader-spin 1.8s linear infinite;
+}
+.buddy-loader.tiny { width: 14px; height: 14px; }
+.buddy-loader.big  { width: 48px; height: 48px; }
+@keyframes buddy-loader-morph {
+  0%    { clip-path: polygon(50% 0%, 100% 100%, 0% 100%); }                                                                 /* triangle */
+  12.5% { clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); }                                                          /* square */
+  25%   { clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); }                                                /* pentagon */
+  37.5% { clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%); }                                          /* hexagon */
+  50%   { clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 80% 95%, 35% 100%, 5% 75%, 0% 35%, 20% 5%); }                        /* heptagon-ish */
+  62.5% { clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); }                      /* octagon */
+  75%   { clip-path: polygon(50% 0%, 79% 11%, 95% 40%, 95% 60%, 79% 89%, 50% 100%, 21% 89%, 5% 60%, 5% 40%, 21% 11%); }      /* decagon */
+  87.5% { clip-path: circle(50% at 50% 50%); }                                                                               /* circle */
+  100%  { clip-path: polygon(50% 0%, 100% 100%, 0% 100%); }                                                                  /* back to triangle */
+}
+@keyframes buddy-loader-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
 body {
   background: var(--bg);
   color: var(--ink-soft);
