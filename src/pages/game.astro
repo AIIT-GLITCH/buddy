@@ -283,6 +283,44 @@ import Layout from '../layouts/Layout.astro';
     0%   { opacity: 1; transform: translateY(0) scale(1.2); }
     100% { opacity: 0; transform: translateY(-60px) scale(0.8); }
   }
+
+  @media (max-width: 480px) {
+    .gs-label {
+      font-size: 0.58em;
+      letter-spacing: 3px;
+      margin-bottom: 8px;
+    }
+    .game-screen h2 {
+      font-size: 1.7em;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+    .gs-sub {
+      font-size: 0.82em;
+      margin-bottom: 14px;
+    }
+    .gs-controls {
+      font-size: 0.62em;
+      letter-spacing: 1px;
+      margin-bottom: 18px;
+    }
+    .btn-gold-game {
+      padding: 11px 22px;
+      font-size: 0.78em;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+    }
+    .go-stats {
+      gap: 24px;
+      margin-bottom: 20px;
+    }
+    .go-num {
+      font-size: 1.8em;
+    }
+    .go-back {
+      font-size: 0.72em;
+    }
+  }
 </style>
 
 <script>
@@ -754,7 +792,7 @@ function endGame(win) {
 let mx = null, my = null;
 window.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
 window.addEventListener('touchmove', e => {
-  e.preventDefault();
+  if (state === 'playing') e.preventDefault();
   mx = e.touches[0].clientX;
   my = e.touches[0].clientY;
 }, { passive: false });
