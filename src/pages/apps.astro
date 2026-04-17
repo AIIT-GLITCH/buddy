@@ -198,22 +198,27 @@ import Layout from '../layouts/Layout.astro';
     <div class="apps-group-label">In Development</div>
     <div class="apps-row three-col">
 
-      <div class="app-card status-dev">
-        <div class="app-status-badge dev">In Dev</div>
+      <div class="app-card status-dev nospe-enhanced">
+        <div class="app-status-badge dev">In Dev · Patent Filed</div>
         <div class="app-icon">🖨️</div>
         <div class="app-name">NOSPE</div>
-        <div class="app-tagline">One model. One printer. For life.</div>
-        <div class="app-desc">Resident AI that lives inside a specific physical printer. Learns its calibration drift, ink chemistry, and failure modes over time. Knows this printer the way a master knows their instrument. Provisional patent filed.</div>
+        <div class="app-tagline">Pre-failure mechanical intervention in sheet-fed media transport.</div>
+        <div class="mb-track-block">
+          <div class="mb-track-label">PATENT CLAIM</div>
+          <div class="mb-track-text">A resident inference model that learns the mechanical signature of a specific physical printer — feed tension, roller wear, ink viscosity drift — and intervenes <em>before</em> the jam occurs. Not jam recovery. Pre-failure prediction. One model per device. Trained on that printer's history, not a generic fleet average.</div>
+        </div>
         <div class="app-tags">
           <span>Resident AI</span>
           <span>Per-device learning</span>
+          <span>Sheet-fed transport</span>
+          <span>Pre-failure prediction</span>
           <span>Provisional patent filed</span>
         </div>
-        <div class="app-papers">Related: Paper 113 · Paper 114</div>
+        <div class="app-papers">Related: Paper 113 · Paper 114 · Wike-Epson ET-2803 reduction-to-practice 2026-04-10</div>
       </div>
 
       <div class="app-card status-dev mb-enhanced">
-        <div class="app-status-badge dev">In Dev · Track 1b Consumer</div>
+        <div class="app-status-badge dev">In Dev · Track 1 of 3</div>
         <div class="app-icon">🪞</div>
         <div class="app-name">Mirror Buddy</div>
         <div class="app-tagline">The mirror is the speaker. The house has no phone.</div>
@@ -598,6 +603,15 @@ import Layout from '../layouts/Layout.astro';
     padding-top: 16px;
     border-top: 1px solid rgba(255,255,255,0.06);
     letter-spacing: 0.05em;
+  }
+
+  .nospe-enhanced {
+    border-color: rgba(64,192,176,0.35);
+    box-shadow: 0 0 40px rgba(64,192,176,0.06);
+  }
+  .nospe-enhanced:hover {
+    border-color: rgba(64,192,176,0.65);
+    box-shadow: 0 12px 50px rgba(64,192,176,0.14);
   }
 
   .mb-enhanced {
