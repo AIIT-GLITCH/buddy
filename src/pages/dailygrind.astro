@@ -160,6 +160,14 @@ import Layout from '../layouts/Layout.astro';
     text-align: center;
   }
   .fs-submit-row input:focus { border-color: var(--amber); }
+  .fs-submit-row input.locked {
+    color: var(--amber);
+    background: rgba(212,160,96,0.06);
+    border-color: rgba(212,160,96,0.35);
+    cursor: default;
+    opacity: 0.95;
+  }
+  .fs-submit-row input.locked:focus { border-color: rgba(212,160,96,0.35); }
   .fs-rank {
     font-family: 'Courier New', monospace;
     font-size: 11pt; letter-spacing: 0.2em;
@@ -424,8 +432,18 @@ import Layout from '../layouts/Layout.astro';
     rankEl.classList.add('hidden');
     btnSubmit.disabled = false;
     btnSubmit.textContent = 'SUBMIT';
-    const savedName = localStorage.getItem('flap-name') || '';
-    if (savedName) nameInput.value = savedName;
+    const lockedName = localStorage.getItem('flap-name-locked') || '';
+    const savedName  = localStorage.getItem('flap-name') || '';
+    nameInput.value = lockedName || savedName;
+    if (lockedName) {
+      nameInput.readOnly = true;
+      nameInput.classList.add('locked');
+      nameInput.title = 'Name locked after first submit';
+    } else {
+      nameInput.readOnly = false;
+      nameInput.classList.remove('locked');
+      nameInput.title = '';
+    }
     overScreen.classList.remove('hidden');
   }
 
@@ -471,7 +489,8 @@ import Layout from '../layouts/Layout.astro';
   }
 
   btnSubmit.addEventListener('click', async () => {
-    const name = (nameInput.value || '').trim();
+    const lockedName = localStorage.getItem('flap-name-locked') || '';
+    const name = (lockedName || nameInput.value || '').trim();
     if (!name) { nameInput.focus(); return; }
     if (state.lastSubmittedScore === state.score) return;
     localStorage.setItem('flap-name', name);
@@ -487,6 +506,13 @@ import Layout from '../layouts/Layout.astro';
       if (d.ok) {
         state.lastSubmittedScore = state.score;
         btnSubmit.textContent = 'SUBMITTED';
+        // Lock the name on first successful submit — no swapping identity.
+        if (!lockedName) {
+          localStorage.setItem('flap-name-locked', name);
+          nameInput.readOnly = true;
+          nameInput.classList.add('locked');
+          nameInput.title = 'Name locked after first submit';
+        }
         if (d.rank) {
           rankEl.textContent = 'Ranked #' + d.rank;
           rankEl.classList.remove('hidden');
