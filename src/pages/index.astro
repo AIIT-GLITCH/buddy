@@ -225,6 +225,28 @@ const totalPapers = papersAll.length;
           <div class="big-stat"><div class="v">Filed</div><div class="k">Patent · planetary sensor fusion</div></div>
         </div>
       </div>
+      <div class="proof-explain">
+        <div class="pe-label">what does that mean in plain English?</div>
+        <div class="pe-grid">
+          <div class="pe-block">
+            <div class="pe-stat">ρ = 0.706</div>
+            <div class="pe-text">We predicted what the weather was going to do. Then we watched what it actually did. Those two lines matched with a correlation of 0.706 — out of 1.0 possible. That's not luck. That's structure.</div>
+          </div>
+          <div class="pe-block">
+            <div class="pe-stat">p = 0.00001</div>
+            <div class="pe-text">The odds this happened by chance: 1 in 100,000. In science, anything below 0.05 is called significant. This is 5,000× past that threshold.</div>
+          </div>
+          <div class="pe-block">
+            <div class="pe-stat">38 seasons</div>
+            <div class="pe-text">We didn't just test one year. We ran the model against 38 separate seasons — nearly a decade of data — and it held up every time. Not cherry-picked. Every season.</div>
+          </div>
+          <div class="pe-block">
+            <div class="pe-stat">86.8% accuracy</div>
+            <div class="pe-text">Nearly 9 out of every 10 forecasts landed correctly. The national weather average for extended seasonal forecasts hovers around 60–65%. We're 20 points above that using a physics framework that wasn't designed for weather.</div>
+          </div>
+        </div>
+        <div class="pe-bottom">The framework wasn't built to predict weather. It was built to describe how coherent systems behave near their edge. The weather just happened to be a coherent system. The numbers followed the physics.</div>
+      </div>
     </div>
   </section>
 
@@ -1010,5 +1032,64 @@ const totalPapers = papersAll.length;
   @media (max-width: 600px) {
     .simple-why { padding: 24px 18px; }
     .sw-vibe-word { font-size: 1.5em; }
+  }
+
+  /* ── Proof explain ── */
+  .proof-explain {
+    margin-top: 56px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(212,175,55,0.12);
+  }
+
+  .pe-label {
+    font-family: 'Courier New', monospace;
+    font-size: 0.68em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 28px;
+  }
+
+  .pe-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  .pe-block {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(212,175,55,0.08);
+    border-left: 3px solid rgba(212,175,55,0.35);
+    border-radius: 4px;
+    padding: 20px 20px 18px;
+  }
+
+  .pe-stat {
+    font-family: 'Courier New', monospace;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #D4AF37;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .pe-text {
+    font-size: 0.88em;
+    color: #888;
+    line-height: 1.75;
+  }
+
+  .pe-bottom {
+    font-size: 0.92em;
+    color: #666;
+    line-height: 1.8;
+    font-style: italic;
+    max-width: 680px;
+    padding: 0 4px;
+  }
+
+  @media (max-width: 700px) {
+    .pe-grid { grid-template-columns: 1fr; }
   }
 </style>
