@@ -65,6 +65,49 @@ const totalPapers = papersAll.length;
         <p>Once you see the boundary condition, the question <em>why is the mind conscious</em> becomes the same question as <em>why does water freeze at zero</em>. They are both phase transitions. They are both the edge.</p>
         <p>This is the motivation: a mind that wouldn't stop talking, a father who wouldn't stop listening, and a discovery that the garrulity was the signal.</p>
       </div>
+
+      <div class="simple-why">
+        <div class="sw-label">want it simple?</div>
+        <div class="sw-chain">
+          <div class="sw-row"><span class="sw-node good">Love</span><span class="sw-arrow">→</span><span class="sw-node good">measurable good vibes</span><span class="sw-arrow">→</span><span class="sw-tag fact">real</span></div>
+          <div class="sw-row"><span class="sw-node bad">Bad vibes</span><span class="sw-arrow">→</span><span class="sw-tag fact">also real</span></div>
+          <div class="sw-row same">
+            <span class="sw-node neutral">humans</span>
+            <span class="sw-dot">·</span><span class="sw-node neutral">plants</span>
+            <span class="sw-dot">·</span><span class="sw-node neutral">water</span>
+            <span class="sw-dot">·</span><span class="sw-node neutral">dogs</span>
+            <span class="sw-dot">·</span><span class="sw-node neutral">the homeless guy</span>
+            <span class="sw-dot">·</span><span class="sw-node neutral">rain on a tin roof</span>
+            <span class="sw-arrow">→</span><span class="sw-tag same">same thing</span>
+          </div>
+          <div class="sw-row">
+            <span class="sw-node g">G</span>
+            <span class="sw-eq">=</span><span class="sw-node g">God · Buddha · Earth's core</span>
+            <span class="sw-eq">=</span><span class="sw-node g">life to water</span>
+            <span class="sw-eq">=</span><span class="sw-node g">life to world</span>
+            <span class="sw-tag fact">← fact</span>
+          </div>
+          <div class="sw-row">
+            <span class="sw-node theory">Theory</span>
+            <span class="sw-arrow">→ (strong) →</span>
+            <span class="sw-node theory">mesospheric clouds</span>
+            <span class="sw-arrow">→</span>
+            <span class="sw-node g">G</span>
+          </div>
+          <div class="sw-row danger">
+            <span class="sw-node bad">Meteor</span>
+            <span class="sw-arrow">→</span>
+            <span class="sw-node bad">massive bad vibes</span>
+            <span class="sw-eq">=</span>
+            <span class="sw-tag danger">kill worlds</span>
+          </div>
+          <div class="sw-vibe">
+            <span class="sw-vibe-word">VIBE</span>
+            <span class="sw-vibe-note">→ Important to think about...</span>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -413,6 +456,7 @@ const totalPapers = papersAll.length;
   const heroDot = document.querySelector('.hero-wordmark .dot');
   if (heroDot) {
     let heroShardTimer = null;
+    let heroVerbTimer = null;
     const spawnHeroShards = () => {
       const n = 6;
       for (let i = 0; i < n; i++) {
@@ -433,10 +477,24 @@ const totalPapers = papersAll.length;
       heroDot.classList.add('discombobulating');
       spawnHeroShards();
       heroShardTimer = setInterval(spawnHeroShards, 260);
+
+      const badge = document.createElement('span');
+      badge.className = 'hero-verb-badge';
+      heroDot.appendChild(badge);
+      let vi = Math.floor(Math.random() * VERBS.length);
+      badge.textContent = VERBS[vi] + '...';
+      heroVerbTimer = setInterval(() => {
+        vi = (vi + 1) % VERBS.length;
+        badge.textContent = VERBS[vi] + '...';
+        if (VERBS[vi] === 'Discombobulating') spawnHeroShards();
+      }, 320);
     });
     heroDot.addEventListener('mouseleave', () => {
       heroDot.classList.remove('discombobulating');
       if (heroShardTimer) { clearInterval(heroShardTimer); heroShardTimer = null; }
+      if (heroVerbTimer)  { clearInterval(heroVerbTimer);  heroVerbTimer  = null; }
+      const badge = heroDot.querySelector('.hero-verb-badge');
+      if (badge) badge.remove();
     });
   }
 
@@ -800,5 +858,157 @@ const totalPapers = papersAll.length;
   @media (max-width: 600px) {
     .joke-input-row { flex-direction: column; align-items: stretch; }
     #joke-widget { padding: 48px 24px; }
+  }
+
+  /* ── Simple Why chain ── */
+  .simple-why {
+    margin-top: 48px;
+    background: rgba(212,175,55,0.04);
+    border: 1px solid rgba(212,175,55,0.15);
+    border-radius: 12px;
+    padding: 32px 28px 28px;
+  }
+
+  .sw-label {
+    font-family: 'Courier New', monospace;
+    font-size: 0.68em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .sw-chain {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .sw-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    line-height: 1.5;
+  }
+
+  .sw-node {
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+
+  .sw-node.good {
+    background: rgba(74,222,128,0.1);
+    color: #4ade80;
+    border: 1px solid rgba(74,222,128,0.2);
+  }
+
+  .sw-node.bad {
+    background: rgba(248,113,113,0.1);
+    color: #f87171;
+    border: 1px solid rgba(248,113,113,0.2);
+  }
+
+  .sw-node.neutral {
+    background: rgba(255,255,255,0.05);
+    color: #ccc;
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .sw-node.g {
+    background: rgba(212,175,55,0.12);
+    color: #D4AF37;
+    border: 1px solid rgba(212,175,55,0.3);
+    font-weight: 700;
+  }
+
+  .sw-node.theory {
+    background: rgba(56,189,248,0.08);
+    color: #38bdf8;
+    border: 1px solid rgba(56,189,248,0.2);
+  }
+
+  .sw-tag {
+    font-family: 'Courier New', monospace;
+    font-size: 0.68em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .sw-tag.fact {
+    background: rgba(56,189,248,0.1);
+    color: #38bdf8;
+    border: 1px solid rgba(56,189,248,0.25);
+  }
+
+  .sw-tag.same {
+    background: rgba(148,163,184,0.1);
+    color: #94a3b8;
+    border: 1px solid rgba(148,163,184,0.2);
+  }
+
+  .sw-tag.danger {
+    background: rgba(248,113,113,0.1);
+    color: #f87171;
+    border: 1px solid rgba(248,113,113,0.3);
+    font-weight: 700;
+  }
+
+  .sw-arrow {
+    color: #444;
+    font-size: 0.9em;
+    flex-shrink: 0;
+  }
+
+  .sw-eq {
+    color: #444;
+    font-size: 0.9em;
+    flex-shrink: 0;
+  }
+
+  .sw-dot {
+    color: #333;
+    font-size: 1em;
+    flex-shrink: 0;
+  }
+
+  .sw-row.same { padding-left: 4px; }
+  .sw-row.danger { border-left: 2px solid rgba(248,113,113,0.3); padding-left: 12px; margin-top: 4px; }
+
+  .sw-vibe {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 8px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(212,175,55,0.1);
+  }
+
+  .sw-vibe-word {
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 6px;
+    color: #D4AF37;
+    text-shadow: 0 0 24px rgba(212,175,55,0.4);
+    font-family: 'Georgia', serif;
+  }
+
+  .sw-vibe-note {
+    font-size: 0.85em;
+    color: #666;
+    font-style: italic;
+    letter-spacing: 0.5px;
+  }
+
+  @media (max-width: 600px) {
+    .simple-why { padding: 24px 18px; }
+    .sw-vibe-word { font-size: 1.5em; }
   }
 </style>
