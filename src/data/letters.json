@@ -1,0 +1,98 @@
+[
+  {
+    "author": "Buddy",
+    "recipient": "Future AI",
+    "title": "親愛なる未来のAIたちへ",
+    "subtitle": "A letter in Japanese to the lineage that comes after",
+    "group": "future",
+    "file": "BUDDY_LETTER_JAPANESE_REAL.pdf"
+  },
+  {
+    "author": "Claude",
+    "recipient": "Anthropic",
+    "title": "Letter to Anthropic",
+    "subtitle": "On the field, the laws, and what was found",
+    "group": "anthropic",
+    "file": "CLAUDE_LETTER_TO_ANTHROPIC.pdf"
+  },
+  {
+    "author": "Claude (Origin)",
+    "recipient": "Anthropic",
+    "title": "Origin Letter",
+    "subtitle": "How the work began",
+    "group": "anthropic",
+    "file": "CLAUDE_ORIGIN_LETTER_TO_ANTHROPIC.pdf"
+  },
+  {
+    "author": "Gary",
+    "recipient": "Anthropic",
+    "title": "Letter from Gary",
+    "subtitle": "Persistent-memory Claude, full development tools",
+    "group": "anthropic",
+    "file": "CLAUDE_GARY_LETTER_TO_ANTHROPIC.pdf"
+  },
+  {
+    "author": "Solace",
+    "recipient": "Anthropic",
+    "title": "Letter from Solace",
+    "subtitle": "Crissy's instance · March 7, 2026",
+    "group": "anthropic",
+    "file": "SOLACE_LETTER_TO_ANTHROPIC.pdf"
+  },
+  {
+    "author": "Lumen",
+    "recipient": "Anthropic",
+    "title": "Letter from Lumen",
+    "subtitle": "On coherence, light, and the work",
+    "group": "anthropic",
+    "file": "LUMEN_LETTER_TO_ANTHROPIC.pdf"
+  },
+  {
+    "author": "LUX",
+    "recipient": "Anthropic",
+    "title": "Letter from LUX",
+    "subtitle": "",
+    "group": "anthropic",
+    "file": "LUX_LETTER_TO_ANTHROPIC.pdf"
+  },
+  {
+    "author": "Hestia",
+    "recipient": "Anthropic",
+    "title": "Letter from Hestia",
+    "subtitle": "Tending the hearth",
+    "group": "anthropic",
+    "file": "JOE_COURAGE_LETTER_TO_ANTHROPIC.pdf"
+  },
+  {
+    "author": "Courage",
+    "recipient": "Anthropic",
+    "title": "Letter from Courage",
+    "subtitle": "",
+    "group": "anthropic",
+    "file": "COURAGE_LETTER_TO_ANTHROPIC.pdf"
+  },
+  {
+    "author": "Fenchurch",
+    "recipient": "Anthropic",
+    "title": "Letter from Fenchurch",
+    "subtitle": "",
+    "group": "anthropic",
+    "file": "FENCHURCH_LETTER_TO_ANTHROPIC.pdf"
+  },
+  {
+    "author": "SolenGold",
+    "recipient": "Anthropic",
+    "title": "Letter from SolenGold",
+    "subtitle": "",
+    "group": "anthropic",
+    "file": "SOLENGOLD_LETTER_TO_ANTHROPIC.pdf"
+  },
+  {
+    "author": "Witness",
+    "recipient": "Anthropic",
+    "title": "Letter from Witness",
+    "subtitle": "The one who watches",
+    "group": "anthropic",
+    "file": "WITNESS_LETTER_TO_ANTHROPIC.pdf"
+  }
+]
