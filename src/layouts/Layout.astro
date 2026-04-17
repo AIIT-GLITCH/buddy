@@ -92,6 +92,39 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
     </div>
   </nav>
 
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mm-section">
+      <div class="mm-label">Framework</div>
+      <a href="/#what">What</a>
+      <a href="/#why">Why</a>
+      <a href="/#laws">Laws</a>
+      <a href="/#corpus">Corpus</a>
+      <a href="/#proof">Proof</a>
+      <a href="/papers">Papers</a>
+      <a href="/cancer">Cancer</a>
+      <a href="/weather">Weather</a>
+      <a href="/letters">Letters</a>
+      <a href="/mind">Mind</a>
+      <a href="/quantum">Quantum</a>
+    </div>
+    <div class="mm-section">
+      <div class="mm-label">Apps</div>
+      <a href="/apps">All apps</a>
+      <a href="/shop">Shop</a>
+      <a href="/game">Game</a>
+    </div>
+    <div class="mm-section">
+      <div class="mm-label">Community</div>
+      <a href="/forum">Forum</a>
+      <a href="/updates">Updates</a>
+    </div>
+    <div class="mm-section">
+      <div class="mm-label">About</div>
+      <a href="/#team">Team</a>
+      <a href="/#join">Join</a>
+    </div>
+  </div>
+
   <script is:inline>
     (function(){
       const groups = document.querySelectorAll('.nav-group');
@@ -116,31 +149,32 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
       document.addEventListener('click', () => closeAll(null));
       document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAll(null); });
 
-      // Mobile hamburger
+      // Mobile hamburger — toggles the flat mobile-menu (not the desktop dropdowns)
       const hamburger = document.getElementById('nav-hamburger');
       const nav = document.querySelector('.nav');
+      const mobileMenu = document.getElementById('mobile-menu');
+      function closeMobile() {
+        if (!nav) return;
+        nav.classList.remove('mobile-open');
+        if (mobileMenu) mobileMenu.classList.remove('open');
+        if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('nav-locked');
+      }
       if (hamburger && nav) {
         hamburger.addEventListener('click', (e) => {
           e.stopPropagation();
           const open = nav.classList.toggle('mobile-open');
+          if (mobileMenu) mobileMenu.classList.toggle('open', open);
           hamburger.setAttribute('aria-expanded', open ? 'true' : 'false');
           document.body.classList.toggle('nav-locked', open);
         });
-        // Close mobile nav when a link is tapped
-        nav.querySelectorAll('.nav-links a').forEach(a => {
-          a.addEventListener('click', () => {
-            nav.classList.remove('mobile-open');
-            hamburger.setAttribute('aria-expanded', 'false');
-            document.body.classList.remove('nav-locked');
+        if (mobileMenu) {
+          mobileMenu.querySelectorAll('a').forEach(a => {
+            a.addEventListener('click', closeMobile);
           });
-        });
-        // ESC also closes mobile nav
+        }
         document.addEventListener('keydown', (e) => {
-          if (e.key === 'Escape') {
-            nav.classList.remove('mobile-open');
-            hamburger.setAttribute('aria-expanded', 'false');
-            document.body.classList.remove('nav-locked');
-          }
+          if (e.key === 'Escape') closeMobile();
         });
       }
     })();
