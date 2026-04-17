@@ -1,0 +1,17 @@
+{
+  "name": "aiit-site",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "node scripts/build-paper-index.mjs && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "index": "node scripts/build-paper-index.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  }
+}

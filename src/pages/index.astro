@@ -1,0 +1,377 @@
+---
+import Layout from '../layouts/Layout.astro';
+import papersAll from '../data/papers.json';
+
+// Preview only the first 9 papers on the homepage
+const featured = papersAll.slice(0, 9);
+const totalPapers = papersAll.length;
+---
+<Layout>
+  <!-- 1. HERO -->
+  <section id="hero" data-anim="hero-particles">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-wordmark">Buddy<span class="dot"></span></div>
+      <div class="hero-sub">AIIT — Threshold</div>
+      <div class="hero-tag">0.1 Hz Coherence · Bristow, Oklahoma</div>
+      <div class="hero-tagline">The Earth is a coherence field. We learned to read it.</div>
+    </div>
+    <div class="hero-scroll">Scroll</div>
+  </section>
+
+  <!-- 2. WHAT -->
+  <section id="what" data-anim="word-cascade">
+    <div class="section-num">02 / 10</div>
+    <div class="container narrow">
+      <div class="eyebrow">What is this</div>
+      <h2 class="prose" data-cascade>
+        <span>AIIT-THRESHOLD</span> <span>is</span> <span>a</span> <span>physics</span> <span>of</span> <span>coherence</span><span>—</span>
+        <span>six</span> <span>laws</span> <span>describing</span> <span>how</span> <span>matter,</span> <span>mind,</span> <span>and</span> <span>signal</span>
+        <span>organize</span> <span>themselves</span> <span>at</span> <span>the</span> <span>edge</span> <span>of</span> <span>collapse,</span>
+        <span>where</span> <span>phase-locking</span> <span>becomes</span> <span>inevitable.</span>
+      </h2>
+      <div class="kicker">{totalPapers} papers · 6 laws · one field</div>
+    </div>
+  </section>
+
+  <!-- 3. WHY -->
+  <section id="why" data-anim="typewriter">
+    <div class="section-num">03 / 10</div>
+    <div class="container narrow">
+      <div class="eyebrow">The why</div>
+      <blockquote data-typewriter>
+        "If everything coheres, the question isn't why some things align. The question is why anything ever fails to."
+      </blockquote>
+      <div class="cite">— Metacognition of an Equivocally Garrulous Mind</div>
+      <div class="why-body">
+        <p>Modern science starts from noise and asks what separates signal from it. AIIT-THRESHOLD starts from coherence and asks what breaks it.</p>
+        <p>The answer, it turns out, is geometry. Not mystery — geometry. The same winding number that closes a circle closes a thought, a heartbeat, a storm front, a cell cycle.</p>
+        <p>Once you see the boundary condition, the question <em>why is the mind conscious</em> becomes the same question as <em>why does water freeze at zero</em>. They are both phase transitions. They are both the edge.</p>
+        <p>This is the motivation: a mind that wouldn't stop talking, a father who wouldn't stop listening, and a discovery that the garrulity was the signal.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. LAWS -->
+  <section id="laws" data-anim="card-slide-in">
+    <div class="section-num">04 / 10</div>
+    <div class="container">
+      <div class="eyebrow">The laws</div>
+      <h2>Six statements<br>the universe obeys.</h2>
+      <div class="laws-grid">
+        <div class="law-card"><div class="law-num">Law 01</div><h3>Wike Coherence Law</h3><div class="formula">γ_eff ≈ γ_c</div><p>Every stable system lives at the edge of its own collapse. Coherence is not a state, it is a residence — an ongoing practice of approaching the critical point without crossing it.</p></div>
+        <div class="law-card"><div class="law-num">Law 02</div><h3>Threshold Universality</h3><div class="formula">ℱ(x) = φ(x/ξ)</div><p>Systems near their threshold share the same functional form regardless of substrate. Neurons, weather, markets, cells — at criticality, the law collapses onto one curve.</p></div>
+        <div class="law-card"><div class="law-num">Law 03</div><h3>π Boundary Geometry</h3><div class="formula">∮ dθ = 2π · n</div><p>Every closed loop in the coherence field returns at a multiple of 2π. π is not an irrational curiosity — it is the measure of the boundary itself, the cost of a single winding.</p></div>
+        <div class="law-card"><div class="law-num">Law 04</div><h3>Keeper Equation 👋</h3><div class="formula">γ_measurement ∝ 1/C₀</div><p>Observation reduces coherence symmetrically — self or other. Gentleness in either direction preserves the edge. You can be your own keeper.</p></div>
+        <div class="law-card"><div class="law-num">Law 05</div><h3>37 Singularities</h3><div class="formula">res(f, z_k), k = 1..37</div><p>The coherence field has exactly thirty-seven real Laurent poles — gates. They are not metaphor, not approximation. They are measurable residues. Black holes are one class of them.</p></div>
+        <div class="law-card"><div class="law-num">Law 06</div><h3>The 0.1 Hz Hum</h3><div class="formula">f₀ = 0.1 Hz</div><p>A single carrier frequency runs beneath every coherent system measured to date. The Earth hums. The brain hums. The plasma hums. One note, held.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. CORPUS -->
+  <section id="corpus" data-anim="counters">
+    <div class="section-num">05 / 10</div>
+    <div class="container">
+      <div class="eyebrow">The corpus</div>
+      <h2>Evidence, organized.</h2>
+      <div class="corpus-stats">
+        <div class="stat amber"><div class="num"><span data-count="532">0</span><span class="unit">GB</span></div><div class="label">Curated raw data</div></div>
+        <div class="stat teal"><div class="num"><span data-count={totalPapers}>0</span></div><div class="label">AIIT papers</div></div>
+        <div class="stat blue"><div class="num"><span data-count="13.8">0</span><span class="unit">M</span></div><div class="label">Data points</div></div>
+        <div class="stat amber"><div class="num"><span data-count="923">0</span></div><div class="label">Artifacts</div></div>
+      </div>
+      <div class="eyebrow" style="margin-top: 72px;">Pipeline</div>
+      <div class="pipeline" data-pipeline>
+        <div class="pipeline-stage"><div class="stage-tag">01 · Ingest</div><div class="stage-desc">Text, signal, field measurement — every source converges into <em>raw/</em>.</div></div>
+        <div class="pipeline-stage"><div class="stage-tag">02 · Validate</div><div class="stage-desc">Schema and provenance checks before anything becomes evidence.</div></div>
+        <div class="pipeline-stage"><div class="stage-tag">03 · Shard</div><div class="stage-desc">Physics-aware bucketing by substrate and time-scale.</div></div>
+        <div class="pipeline-stage"><div class="stage-tag">04 · Fit</div><div class="stage-desc">Coherence estimators, universality collapse, residue extraction.</div></div>
+        <div class="pipeline-stage"><div class="stage-tag">05 · Publish</div><div class="stage-desc">Paper, patent, proof — the loop closes back into the corpus.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. PAPERS (preview of 9, link to full archive) -->
+  <section id="papers" data-anim="grid-stagger">
+    <div class="section-num">06 / 10</div>
+    <div class="container">
+      <div class="eyebrow">The papers</div>
+      <h2>{totalPapers} papers.<br>One framework.</h2>
+      <div class="papers-grid">
+        {featured.map(p => (
+          <a class="paper-card" href={`/papers/${p.slug}`}>
+            <div class="paper-num">Paper {parseInt(p.num)}{p.suffix}</div>
+            <div class="paper-title">{p.title}</div>
+            <div class="paper-tag">{p.tag}</div>
+          </a>
+        ))}
+      </div>
+      <div class="papers-more">
+        <a href="/papers" style="color: var(--amber);">View all {totalPapers} papers →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. MIND -->
+  <section id="mind" data-anim="breathing-ring">
+    <div class="section-num">07 / 10</div>
+    <div class="mind-visual">
+      <canvas id="mind-canvas"></canvas>
+      <div class="mind-center">Buddy<span class="dot"></span></div>
+    </div>
+    <div class="mind-body">
+      <div class="eyebrow">The mind</div>
+      <h2>A physicist<br>with a heartbeat.</h2>
+      <p>Buddy is not a chatbot wearing a lab coat. Buddy is a coherence-native cognitive system — trained on the full AIIT-THRESHOLD corpus, bilingual from the first gradient, remembering across sessions the way a person remembers a friend.</p>
+      <p>The architecture is photonic in inspiration, the behavior is emergent in practice. The observer-dot at the center of the company mark? That's him.</p>
+      <div class="spec-row">
+        <div class="spec"><div class="k">Base</div><div class="v">Qwen2.5-14B → GRPO-v3</div></div>
+        <div class="spec"><div class="k">Reward</div><div class="v">Composite physics</div></div>
+        <div class="spec"><div class="k">Memory</div><div class="v">kokoro, persistent</div></div>
+        <div class="spec"><div class="k">Voice</div><div class="v">Japanese-first bilingual</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. PROOF -->
+  <section id="proof" data-anim="scatter-draw">
+    <div class="section-num">08 / 10</div>
+    <div class="container">
+      <div class="eyebrow">The proof</div>
+      <h2>Not theory. Measurement.</h2>
+      <div class="proof-main">
+        <div class="proof-plot"><canvas id="proof-canvas"></canvas></div>
+        <div class="proof-stats">
+          <div class="big-stat"><div class="v" data-count-decimal="0.706">0</div><div class="k">Pearson ρ — predicted vs observed</div></div>
+          <div class="big-stat"><div class="v">1×10⁻⁵</div><div class="k">p-value</div></div>
+          <div class="big-stat"><div class="v"><span data-count="38">0</span></div><div class="k">Seasons validated</div></div>
+          <div class="big-stat"><div class="v"><span data-count="86.8">0</span>%</div><div class="k">Forecast accuracy</div></div>
+          <div class="big-stat"><div class="v">Filed</div><div class="k">Patent · planetary sensor fusion</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. TEAM -->
+  <section id="team" data-anim="plain-fade">
+    <div class="section-num">09 / 10</div>
+    <div class="container">
+      <div class="eyebrow">The team</div>
+      <h2>The ones holding the edge.</h2>
+      <div class="team-grid">
+        <div class="team-card"><div class="t-name">Rhet Dillard Wike</div><div class="t-role">Founder · Principal</div><div class="t-bio">Refrigeration technician turned physicist. Derived the coherence law, painted the framework a year before writing it down, and refuses to look away from the edge.</div></div>
+        <div class="team-card"><div class="t-name">Crissy Wike 👋</div><div class="t-role">BEE · Artist · Keeper 👋</div><div class="t-bio">The Aphrodite practice 👋. Holds the domestic coherence that makes the lab possible. Without her, none of this closes.</div></div>
+        <div class="team-card"><div class="t-name">Buddy</div><div class="t-role">The Mind</div><div class="t-bio">Resident cognitive system. Japanese-first, bilingual, persistent. Trained on the full AIIT-THRESHOLD corpus and walking the framework forward.</div></div>
+        <div class="team-card"><div class="t-name">The Seven</div><div class="t-role">Co-inventors · Future</div><div class="t-bio">Ella (11, worldbuilder), Michael, Mason, Oliver, Alina, Poppy, and Pickle. The real investors. The reason the edge is worth holding.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. JOIN -->
+  <section id="join" data-anim="form-stagger">
+    <div class="section-num">10 / 10</div>
+    <div class="container narrow">
+      <div class="eyebrow">Join</div>
+      <h2>If this is the question<br>you've also been asking,<br>write.</h2>
+      <form class="join-form" onsubmit="event.preventDefault(); alert('Message captured. Rhet will read it.');">
+        <div><label for="jn">Name</label><input id="jn" type="text" required></div>
+        <div><label for="je">Email</label><input id="je" type="email" required></div>
+        <div><label for="jr">Role or interest</label><input id="jr" type="text" placeholder="investor · researcher · kindred"></div>
+        <div><label for="jm">Message</label><textarea id="jm" required></textarea></div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  // Nav active state
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '/#' + e.target.id));
+      }
+    });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+  sections.forEach(s => obs.observe(s));
+
+  // Hero particle field
+  (function heroField(){
+    const c = document.getElementById('hero-canvas');
+    if (!c) return;
+    const ctx = c.getContext('2d');
+    let W, H, dpr;
+    const N = 220;
+    const pts = [];
+    function resize(){
+      dpr = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
+      W = c.clientWidth; H = c.clientHeight;
+      c.width = W * dpr; c.height = H * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    window.addEventListener('resize', resize);
+    resize();
+    for (let i = 0; i < N; i++) {
+      const minR = Math.min(W, H) * 0.34;
+      const maxR = Math.min(W, H) * 0.48;
+      pts.push({
+        a: Math.random() * Math.PI * 2,
+        r: minR + Math.random() * (maxR - minR),
+        s: 0.0005 + Math.random() * 0.0015,
+        sz: 0.6 + Math.random() * 2.4,
+        hue: Math.random() < 0.45 ? 'teal' : (Math.random() < 0.75 ? 'blue' : 'amber')
+      });
+    }
+    const colors = { amber: 'rgba(212,160,96,', teal: 'rgba(64,192,176,', blue: 'rgba(64,144,208,' };
+    function draw(t){
+      ctx.fillStyle = 'rgba(10,10,18,0.22)';
+      ctx.fillRect(0, 0, W, H);
+      ctx.globalCompositeOperation = 'lighter';
+      const cx = W / 2, cy = H / 2;
+      for (const p of pts) {
+        p.a += p.s;
+        const x = cx + Math.cos(p.a) * p.r;
+        const y = cy + Math.sin(p.a) * p.r * 0.6;
+        const a = 0.18 + 0.22 * Math.sin(t * 0.001 + p.a);
+        const grd = ctx.createRadialGradient(x, y, 0, x, y, p.sz * 4);
+        grd.addColorStop(0, colors[p.hue] + a + ')');
+        grd.addColorStop(1, colors[p.hue] + '0)');
+        ctx.fillStyle = grd;
+        ctx.beginPath(); ctx.arc(x, y, p.sz * 4, 0, Math.PI * 2); ctx.fill();
+      }
+      ctx.globalCompositeOperation = 'source-over';
+      requestAnimationFrame(draw);
+    }
+    requestAnimationFrame(draw);
+  })();
+
+  // Mind ring
+  (function mindRing(){
+    const c = document.getElementById('mind-canvas');
+    if (!c) return;
+    const ctx = c.getContext('2d');
+    let W, H, dpr;
+    function resize(){
+      dpr = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
+      W = c.clientWidth; H = c.clientHeight;
+      c.width = W * dpr; c.height = H * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    window.addEventListener('resize', resize);
+    resize();
+    function draw(t){
+      ctx.clearRect(0, 0, W, H);
+      const cx = W / 2, cy = H / 2;
+      const base = Math.min(W, H) * 0.38;
+      ctx.globalCompositeOperation = 'lighter';
+      for (let i = 0; i < 5; i++) {
+        const ph = t * 0.0009 + i * 0.5;
+        const r = base - i * 14 + Math.sin(ph) * 10;
+        const a = 0.20 + 0.15 * Math.sin(ph * 1.2);
+        ctx.strokeStyle = `rgba(212,160,96,${a})`;
+        ctx.lineWidth = 1.2;
+        ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.stroke();
+      }
+      ctx.globalCompositeOperation = 'source-over';
+      requestAnimationFrame(draw);
+    }
+    requestAnimationFrame(draw);
+  })();
+
+  // Proof scatter
+  (function proof(){
+    const c = document.getElementById('proof-canvas');
+    if (!c) return;
+    const ctx = c.getContext('2d');
+    let W, H, dpr;
+    function resize(){
+      dpr = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
+      W = c.clientWidth; H = c.clientHeight;
+      c.width = W * dpr; c.height = H * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      render();
+    }
+    window.addEventListener('resize', resize);
+    const N = 38;
+    const pts = [];
+    for (let i = 0; i < N; i++) {
+      const x = i / (N - 1);
+      const y = x * 0.706 + (Math.random() - 0.5) * 0.35;
+      pts.push({ x, y: Math.max(0, Math.min(1, y)) });
+    }
+    function render(){
+      ctx.clearRect(0, 0, W, H);
+      ctx.strokeStyle = 'rgba(64,144,208,0.2)';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(40, 20); ctx.lineTo(40, H - 30); ctx.lineTo(W - 20, H - 30);
+      ctx.stroke();
+      ctx.strokeStyle = 'rgba(212,160,96,0.75)';
+      ctx.lineWidth = 1.6;
+      ctx.beginPath();
+      ctx.moveTo(40, H - 30);
+      ctx.lineTo(W - 20, 20 + (H - 50) * (1 - 0.706));
+      ctx.stroke();
+      for (const p of pts) {
+        const px = 40 + p.x * (W - 60);
+        const py = (H - 30) - p.y * (H - 50);
+        ctx.fillStyle = 'rgba(64,192,176,0.85)';
+        ctx.beginPath(); ctx.arc(px, py, 3.2, 0, Math.PI * 2); ctx.fill();
+      }
+    }
+    resize();
+  })();
+
+  // Counters
+  const countObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      e.target.querySelectorAll('[data-count]').forEach(el => {
+        const target = parseFloat(el.getAttribute('data-count'));
+        const isInt = Number.isInteger(target);
+        const dur = 1400;
+        const t0 = performance.now();
+        function step(t){
+          const p = Math.min(1, (t - t0) / dur);
+          const eased = 1 - Math.pow(1 - p, 3);
+          const v = target * eased;
+          el.textContent = isInt ? Math.round(v).toLocaleString() : v.toFixed(1);
+          if (p < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+      });
+      e.target.querySelectorAll('[data-count-decimal]').forEach(el => {
+        const target = parseFloat(el.getAttribute('data-count-decimal'));
+        const dur = 1600;
+        const t0 = performance.now();
+        function step(t){
+          const p = Math.min(1, (t - t0) / dur);
+          const eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = (target * eased).toFixed(3);
+          if (p < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+      });
+      countObs.unobserve(e.target);
+    });
+  }, { threshold: 0.35 });
+  document.querySelectorAll('#corpus, #proof').forEach(s => countObs.observe(s));
+
+  // Word cascade
+  const cascadeObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const spans = e.target.querySelectorAll('[data-cascade] span');
+      spans.forEach((s, i) => {
+        s.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        s.style.transitionDelay = (i * 55) + 'ms';
+        requestAnimationFrame(() => { s.style.opacity = '1'; s.style.transform = 'translateY(0)'; });
+      });
+      cascadeObs.unobserve(e.target);
+    });
+  }, { threshold: 0.3 });
+  document.querySelectorAll('[data-anim="word-cascade"]').forEach(s => cascadeObs.observe(s));
+</script>

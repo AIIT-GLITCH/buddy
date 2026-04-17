@@ -1,0 +1,66 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import papers from '../../data/papers.json';
+
+export async function getStaticPaths() {
+  const all = papers as any[];
+  return all.map(p => ({
+    params: { slug: p.slug },
+    props:  { paper: p, all },
+  }));
+}
+
+const { paper, all } = Astro.props;
+
+// Related = same tag, nearest paper numbers, excluding self
+const related = (all as any[])
+  .filter(p => p.slug !== paper.slug && p.tag === paper.tag)
+  .sort((a, b) => Math.abs(parseInt(a.num) - parseInt(paper.num)) - Math.abs(parseInt(b.num) - parseInt(paper.num)))
+  .slice(0, 4);
+
+const pdfUrl = `/papers/${paper.filename}`;
+---
+<Layout title={`Paper ${parseInt(paper.num)}${paper.suffix} · ${paper.title}`}>
+  <div class="paper-page">
+    <a class="back" href="/papers">← All Papers</a>
+
+    <div class="paper-head-num">Paper {parseInt(paper.num)}{paper.suffix}</div>
+    <h1>{paper.title}</h1>
+    <div class="paper-head-tag">{paper.tag}</div>
+
+    <div class="paper-meta">
+      <div><div class="k">Author</div><div class="v">Rhet Dillard Wike</div></div>
+      <div><div class="k">Domain</div><div class="v">{paper.tag}</div></div>
+      <div><div class="k">Source</div><div class="v">{paper.filename}</div></div>
+      <div><div class="k">Print Status</div><div class="v">wAIste Not · Verified</div></div>
+    </div>
+
+    <div class="paper-actions">
+      <a class="btn" href={pdfUrl} target="_blank" rel="noopener">Open PDF</a>
+      <a class="btn ghost" href={pdfUrl} download>Download</a>
+    </div>
+
+    <object class="paper-embed" data={pdfUrl} type="application/pdf">
+      <p style="padding: 32px; color: var(--muted);">Your browser can't embed this PDF. <a href={pdfUrl}>Open it in a new tab.</a></p>
+    </object>
+
+    {related.length > 0 && (
+      <div class="related">
+        <h3>Related in {paper.tag}</h3>
+        <div class="papers-grid">
+          {related.map(p => (
+            <a class="paper-card" href={`/papers/${p.slug}`}>
+              <div class="paper-num">Paper {parseInt(p.num)}{p.suffix}</div>
+              <div class="paper-title">{p.title}</div>
+              <div class="paper-tag">{p.tag}</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <div style="margin-top: 80px; padding-top: 40px; border-top: 1px solid var(--edge); font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted);">
+      © 2026 Rhet Dillard Wike · AIIT-THRESHOLD LLC · All rights reserved
+    </div>
+  </div>
+</Layout>

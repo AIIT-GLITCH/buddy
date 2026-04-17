@@ -1,0 +1,69 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import papers from '../../data/papers.json';
+
+// build unique tag set for filters
+const tags = [...new Set(papers.map(p => p.tag))].sort();
+---
+<Layout title={`Papers · AIIT-THRESHOLD (${papers.length})`}>
+  <section style="padding-top: 120px; min-height: auto;">
+    <div class="container">
+      <div class="eyebrow">The archive</div>
+      <h1 style="font-size: clamp(48px, 7vw, 96px); margin-bottom: 8px;">{papers.length} papers.</h1>
+      <p style="color: var(--muted-hi); font-size: 17px; max-width: 640px;">Every paper derived, written, and filed under AIIT-THRESHOLD. Search by title, filter by domain. Each one opens its own page with abstract and download.</p>
+
+      <div class="papers-search">
+        <input id="paper-search" type="text" placeholder="Search titles, tags, keywords…" autocomplete="off">
+        <div class="count" id="paper-count">{papers.length} papers</div>
+      </div>
+      <div class="tag-filters" id="tag-filters">
+        <div class="tag-filter active" data-tag="">All</div>
+        {tags.map(t => <div class="tag-filter" data-tag={t}>{t}</div>)}
+      </div>
+
+      <div class="papers-grid" id="papers-grid" style="margin-top: 40px;">
+        {papers.map(p => (
+          <a class="paper-card" href={`/papers/${p.slug}`} data-title={p.title.toLowerCase()} data-tag={p.tag}>
+            <div class="paper-num">Paper {parseInt(p.num)}{p.suffix}</div>
+            <div class="paper-title">{p.title}</div>
+            <div class="paper-tag">{p.tag}</div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  const grid = document.getElementById('papers-grid');
+  const cards = Array.from(document.querySelectorAll('#papers-grid .paper-card'));
+  const search = document.getElementById('paper-search') as HTMLInputElement;
+  const count  = document.getElementById('paper-count');
+  const filters = document.querySelectorAll('#tag-filters .tag-filter');
+  let activeTag = '';
+  let query = '';
+
+  function apply(){
+    let shown = 0;
+    cards.forEach(card => {
+      const title = card.getAttribute('data-title') || '';
+      const tag   = card.getAttribute('data-tag') || '';
+      const tagOk = !activeTag || tag === activeTag;
+      const qOk   = !query || title.includes(query) || tag.toLowerCase().includes(query);
+      const visible = tagOk && qOk;
+      (card as HTMLElement).style.display = visible ? '' : 'none';
+      if (visible) shown++;
+    });
+    if (count) count.textContent = shown + ' paper' + (shown === 1 ? '' : 's');
+  }
+
+  search?.addEventListener('input', () => { query = search.value.toLowerCase().trim(); apply(); });
+  filters.forEach(f => {
+    f.addEventListener('click', () => {
+      filters.forEach(x => x.classList.remove('active'));
+      f.classList.add('active');
+      activeTag = f.getAttribute('data-tag') || '';
+      apply();
+    });
+  });
+</script>
