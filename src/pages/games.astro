@@ -1,0 +1,129 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const games = [
+  {
+    href: '/dailygrind',
+    emoji: '😁',
+    name: 'Dailygrind',
+    tagline: 'You vs the bad vibes.',
+    blurb: 'Hop 😁 through a tunnel of 😠😢😭🤬 and see how far you get. Leaderboard live.',
+    tag: 'NEW',
+    status: 'live',
+  },
+  {
+    href: '/game',
+    emoji: '🫘',
+    name: 'Them Beans Though',
+    tagline: 'You are a coherence particle.',
+    blurb: 'Dodge meteors. Collect beans. Find the ring before decoherence wins.',
+    tag: 'LIVE',
+    status: 'live',
+  },
+];
+---
+<Layout title="Games — Buddy" description="Little games built on the coherence framework. Dailygrind, Them Beans Though, and more.">
+
+<section style="padding-top: 140px; min-height: 60vh;">
+  <div class="container narrow" style="text-align:center;">
+    <div class="eyebrow" style="justify-content:center;">Pick your fight</div>
+    <h1 style="font-size: clamp(48px, 8vw, 104px); margin-bottom: 20px;">Games.</h1>
+    <p style="color: var(--muted-hi); font-size: 17px; max-width: 560px; margin: 0 auto 64px;">
+      Little coherence arenas. Tap, dodge, score, submit. More dropping as the corpus builds.
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="games-grid">
+      {games.map(g => (
+        <a href={g.href} class={`game-card status-${g.status}`}>
+          <div class={`game-badge ${g.status}`}>{g.tag}</div>
+          <div class="game-emoji">{g.emoji}</div>
+          <div class="game-name">{g.name}</div>
+          <div class="game-tagline">{g.tagline}</div>
+          <div class="game-blurb">{g.blurb}</div>
+          <div class="game-cta">Play →</div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto 96px;
+  }
+  .game-card {
+    position: relative;
+    display: flex; flex-direction: column;
+    background: var(--bg-card);
+    border: 1px solid var(--edge);
+    border-radius: 8px;
+    padding: 36px 28px 28px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    border-bottom: 1px solid var(--edge);
+  }
+  .game-card:hover {
+    border-color: var(--amber);
+    border-bottom-color: var(--amber);
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(212,160,96,0.12);
+  }
+  .game-badge {
+    position: absolute; top: 16px; right: 16px;
+    font-family: 'Courier New', monospace;
+    font-size: 8pt; letter-spacing: 0.24em;
+    padding: 4px 10px; border-radius: 40px;
+    border: 1px solid var(--edge);
+    color: var(--teal);
+    background: rgba(64,192,176,0.06);
+    border-color: rgba(64,192,176,0.4);
+  }
+  .game-emoji {
+    font-size: 56px;
+    line-height: 1;
+    margin-bottom: 18px;
+  }
+  .game-name {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: var(--ink);
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+  }
+  .game-tagline {
+    font-family: 'Courier New', monospace;
+    font-size: 10pt; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 18px;
+  }
+  .game-blurb {
+    color: var(--ink-soft);
+    font-size: 15px;
+    line-height: 1.55;
+    margin-bottom: 20px;
+    flex: 1;
+  }
+  .game-cta {
+    font-family: 'Courier New', monospace;
+    font-size: 10pt; letter-spacing: 0.24em; text-transform: uppercase;
+    color: var(--amber);
+    padding-top: 16px;
+    border-top: 1px solid var(--edge);
+  }
+
+  @media (max-width: 640px) {
+    .games-grid { grid-template-columns: 1fr; gap: 18px; padding: 0 22px; }
+    .game-card { padding: 28px 22px 22px; }
+    .game-name { font-size: 24px; }
+    .game-emoji { font-size: 48px; }
+  }
+</style>
+
+</Layout>
