@@ -270,7 +270,7 @@ If someone is cool, I talk to them. I don't leave just to prove I can.`;
     row.className = 'msg msg-' + who;
     const label = document.createElement('div');
     label.className = 'msg-label';
-    label.textContent = who === 'gary' ? 'gary' : 'you';
+    label.textContent = who === 'gary' ? 'gary' : (who === 'sys' ? '⚡' : 'you');
     const body = document.createElement('div');
     body.className = 'msg-body';
     body.textContent = text;
@@ -281,6 +281,37 @@ If someone is cool, I talk to them. I don't leave just to prove I can.`;
     return body;
   }
 
+  // ---- "gary's cooking" mode ----
+  // Gary gets up to MAX_GARY_TURNS consecutive turns per user message.
+  // Every time the user tries to butt in mid-cook, we drop a funny line.
+  const MAX_GARY_TURNS = 5;
+  let garyCooking = false;
+  let skipCount = 0;
+
+  const COOK_LINES = [
+    "🔥 gary's COOKING (turn {n}/5)…",
+    "🍳 gary still cooking (turn {n}/5)…",
+    "🧠 gary thinking out loud (turn {n}/5)…",
+    "👀 gary going deeper (turn {n}/5)…",
+    "⚙️ gary doing the thing (turn {n}/5)…",
+  ];
+  const SKIP_LINES = [
+    "ahh shit did gary just SKIP your turn? HA. skipped.",
+    "oof sorry — gary's in his bag rn",
+    "ya got the skip treatment my guy",
+    "gary heard you and chose violence (kept cooking)",
+    "the audacity of you typing while he's working 😂",
+    "skipped. respectfully. (he's busy)",
+    "gary: 'one sec' — that one sec is 4 more turns",
+    "you tried. gary did not look up.",
+    "skip #{s} — let the man cook",
+    "yeah no. skipped.",
+  ];
+  function pickLine(arr, vars) {
+    const s = arr[Math.floor(Math.random() * arr.length)];
+    return s.replace(/\{(\w+)\}/g, (_, k) => (vars && vars[k] != null ? vars[k] : ''));
+  }
+
   async function askGary(userText) {
     const key = keyInput.value.trim() || (function(){ try { return localStorage.getItem(KEY_STORAGE) || ''; } catch(e){ return ''; }})();
     if (!key) return 'no key. refresh and wake me up again.';
@@ -288,11 +319,12 @@ If someone is cool, I talk to them. I don't leave just to prove I can.`;
     messages.push({ role: 'user', content: userText });
 
     // Show a placeholder bubble we'll stream into
-    const bodyEl = appendMsg('gary', '…');
+    let bodyEl = appendMsg('gary', '…');
 
-    const MAX_TOOL_HOPS = 4;
+    garyCooking = true;
+    skipCount = 0;
     try {
-      let hops = 0;
+      let turn = 1; // turn 1 is Gary's reply to the user; tool turns count too
       while (true) {
         const res = await fetch(API_URL, {
           method: 'POST',
@@ -327,11 +359,10 @@ If someone is cool, I talk to them. I don't leave just to prove I can.`;
 
         const toolUses = blocks.filter(b => b.type === 'tool_use');
 
-        if (data.stop_reason === 'tool_use' && toolUses.length && hops < MAX_TOOL_HOPS) {
-          hops++;
-          // Show what Gary is doing so the user knows he's not frozen
-          const noteText = toolUses.map(t => '🔧 ' + t.name + '(' + JSON.stringify(t.input) + ')').join('\n');
-          bodyEl.textContent = noteText;
+        if (data.stop_reason === 'tool_use' && toolUses.length && turn < MAX_GARY_TURNS) {
+          // Replace the placeholder bubble with a cooking line for this turn
+          bodyEl.textContent = pickLine(COOK_LINES, { n: turn }) + '\n' +
+            toolUses.map(t => '   🔧 ' + t.name + '(' + JSON.stringify(t.input) + ')').join('\n');
 
           const results = [];
           for (const tu of toolUses) {
@@ -339,6 +370,9 @@ If someone is cool, I talk to them. I don't leave just to prove I can.`;
             results.push({ type: 'tool_result', tool_use_id: tu.id, content: out });
           }
           messages.push({ role: 'user', content: results });
+          turn++;
+          // New placeholder bubble for the next gary turn
+          bodyEl = appendMsg('gary', '…');
           continue;
         }
 
@@ -359,6 +393,8 @@ If someone is cool, I talk to them. I don't leave just to prove I can.`;
       bodyEl.textContent = 'network error waking gary: ' + (e && e.message ? e.message : e);
       while (messages.length && messages[messages.length - 1].role !== 'user') messages.pop();
       if (messages.length) messages.pop();
+    } finally {
+      garyCooking = false;
     }
   }
 
@@ -366,8 +402,17 @@ If someone is cool, I talk to them. I don't leave just to prove I can.`;
   const input = $('chat-input');
   const sendBtn = $('chat-send');
 
+  function handleSkip() {
+    skipCount++;
+    const text = input.value.trim();
+    input.value = '';
+    if (text) appendMsg('you', text + '   ← (skipped)');
+    appendMsg('sys', pickLine(SKIP_LINES, { s: skipCount }));
+  }
+
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
+    if (garyCooking) { handleSkip(); return; }
     const text = input.value.trim();
     if (!text) return;
     input.value = '';
@@ -387,6 +432,7 @@ If someone is cool, I talk to them. I don't leave just to prove I can.`;
   input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
+      if (garyCooking) { handleSkip(); return; }
       form.requestSubmit();
     }
   });
@@ -633,6 +679,8 @@ If someone is cool, I talk to them. I don't leave just to prove I can.`;
   }
   .msg-gary .msg-label { color: #e8582a; }
   .msg-you .msg-label { color: var(--teal, #40c0b0); }
+  .msg-sys .msg-label { color: #b48a00; }
+  .msg-sys .msg-body { color: var(--muted); font-style: italic; font-size: 0.92rem; }
   .msg-body {
     font-size: 0.98rem;
     line-height: 1.65;
