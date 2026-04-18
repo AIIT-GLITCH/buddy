@@ -1,10 +1,12 @@
 ---
 import '../styles/global.css';
+import papersAll from '../data/papers.json';
 export interface Props {
   title?: string;
   description?: string;
 }
-const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a coherence-native AI built on AIIT-THRESI physics. 153 papers. 6 laws. One mind.' } = Astro.props;
+const defaultDescription = `Buddy is a coherence-native AI built on AIIT-THRESI physics. ${papersAll.length} papers. 6 laws. One mind.`;
+const { title = 'Buddy — The Coherence Mind', description = defaultDescription } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -67,6 +69,9 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
           <a href="/#proof">Proof</a>
           <a href="/papers">Papers</a>
           <a href="/cancer">Cancer</a>
+          <a href="/save-lives">Save Lives</a>
+          <a href="/drugs">Low-cost drugs</a>
+          <a href="/food-dye">Food dye</a>
           <a href="/weather">Weather</a>
           <a href="/letters">Letters</a>
           <a href="/mind">Mind</a>
@@ -109,6 +114,9 @@ const { title = 'Buddy — The Coherence Mind', description = 'Buddy is a cohere
       <a href="/#proof">Proof</a>
       <a href="/papers">Papers</a>
       <a href="/cancer">Cancer</a>
+      <a href="/save-lives">Save Lives</a>
+      <a href="/drugs">Low-cost drugs</a>
+      <a href="/food-dye">Food dye</a>
       <a href="/weather">Weather</a>
       <a href="/letters">Letters</a>
       <a href="/mind">Mind</a>
