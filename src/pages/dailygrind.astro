@@ -7,7 +7,19 @@ import Layout from '../layouts/Layout.astro';
   <canvas id="flap-canvas"></canvas>
 
   <div id="flap-ui">
-    <div id="flap-start" class="flap-screen">
+    <div id="flap-warning" class="flap-screen">
+      <div class="fs-label warn">⚠ Photosensitive Warning</div>
+      <h2 class="warn-head">Flashing Lights.</h2>
+      <p class="fs-sub warn-body">
+        This game contains <strong>rapidly flashing colors and high-contrast strobe effects</strong>.<br>
+        If you have <strong>photosensitive epilepsy</strong> or any history of seizures triggered by flashing light, <strong>do not play</strong>.<br>
+        Play in a well-lit room. Take breaks. Stop if you feel unwell.
+      </p>
+      <button id="flap-btn-ack" class="btn-gold-game">I UNDERSTAND — CONTINUE</button>
+      <a href="/" class="fs-home" style="margin-top:16px;">← back to Buddy</a>
+    </div>
+
+    <div id="flap-start" class="flap-screen hidden">
       <div class="fs-label">GOOD VIBES ONLY</div>
       <h2>Dailygrind.</h2>
       <p class="fs-sub">You are 😁<br>Dodge the bad vibes.<br>How far can you grind?</p>
@@ -76,6 +88,10 @@ import Layout from '../layouts/Layout.astro';
     font-size: 10pt; letter-spacing: 0.4em; text-transform: uppercase;
     color: var(--amber); margin-bottom: 16px;
   }
+  .fs-label.warn { color: #ff4d4d; }
+  .warn-head { color: #ff6b6b !important; }
+  .warn-body { max-width: 560px; color: var(--ink-soft); }
+  .warn-body strong { color: #ff8a8a; }
   .flap-screen h2 {
     font-family: 'Georgia', serif;
     font-size: clamp(48px, 10vw, 96px); color: #ffffff;
@@ -212,6 +228,23 @@ import Layout from '../layouts/Layout.astro';
   const submitRow   = document.getElementById('flap-submit-row');
   const rankEl      = document.getElementById('flap-rank');
   const boardList   = document.getElementById('flap-board-list');
+  const warnScreen  = document.getElementById('flap-warning');
+  const btnAck      = document.getElementById('flap-btn-ack');
+
+  // Photosensitive warning — acknowledge once per browser
+  try {
+    if (localStorage.getItem('dailygrind_ack') === '1') {
+      if (warnScreen) warnScreen.classList.add('hidden');
+      if (startScreen) startScreen.classList.remove('hidden');
+    }
+  } catch (_) {}
+  if (btnAck) {
+    btnAck.addEventListener('click', () => {
+      try { localStorage.setItem('dailygrind_ack', '1'); } catch (_) {}
+      if (warnScreen) warnScreen.classList.add('hidden');
+      if (startScreen) startScreen.classList.remove('hidden');
+    });
+  }
 
   // Canvas sizing
   let W = 0, H = 0, DPR = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
