@@ -1,0 +1,98 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Food dye — Buddy" description="Petroleum-derived synthetic food dyes, what's in what, and what's been removed where.">
+
+<section class="stub-hero">
+  <div class="stub-inner">
+    <div class="eyebrow" style="justify-content:center;">AIIT-THRESI · Forthcoming</div>
+    <h1>Food dye.</h1>
+    <p class="stub-sub">Petroleum-derived synthetic colors (Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2, Green 3, Red 3) — what's in your food, where they've already been banned, and the behavioral + health evidence.</p>
+
+    <div class="stub-card">
+      <div class="stub-card-label">Status</div>
+      <div class="stub-card-body">
+        <p>In preparation. Will cover: the FD&C-certified dye list, the EU vs US divergence, the 2021 California OEHHA review on behavior in children, the 2025 Red 3 removal, brand-by-brand formulation differences (Kellogg's US vs UK, etc.).</p>
+        <p>Every entry will ship with the regulatory citation and the peer-reviewed source. No "it's toxic" vibes — receipts only.</p>
+      </div>
+    </div>
+
+    <div class="stub-actions">
+      <a href="/save-lives" class="stub-cta">Read Save Lives Now →</a>
+      <a href="mailto:reliablerestaurantrepair@gmail.com?subject=Food%20dye%20evidence" class="stub-cta-ghost">Send evidence</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .stub-hero {
+    padding: 160px 24px 120px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(ellipse at center top, rgba(225,80,80,0.05) 0%, transparent 60%);
+  }
+  .stub-inner { max-width: 720px; margin: 0 auto; text-align: center; }
+  .stub-hero h1 {
+    font-size: clamp(56px, 10vw, 120px);
+    line-height: 1;
+    margin: 16px 0 32px;
+    letter-spacing: -0.02em;
+  }
+  .stub-sub {
+    color: var(--muted-hi);
+    font-size: clamp(17px, 2.2vw, 22px);
+    line-height: 1.55;
+    max-width: 600px;
+    margin: 0 auto 48px;
+  }
+  .stub-card {
+    text-align: left;
+    max-width: 620px; margin: 0 auto 44px;
+    border: 1px solid var(--edge);
+    border-radius: 4px;
+    padding: 28px 32px;
+    background: rgba(10,10,18,0.4);
+  }
+  .stub-card-label {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt; letter-spacing: 0.3em; text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 14px;
+  }
+  .stub-card-body p {
+    color: var(--ink); font-size: 16px; line-height: 1.65;
+    margin: 0 0 14px;
+  }
+  .stub-card-body p:last-child { margin-bottom: 0; }
+  .stub-actions {
+    display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
+  }
+  .stub-cta, .stub-cta-ghost {
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    font-size: 11pt; letter-spacing: 0.28em; text-transform: uppercase;
+    padding: 16px 30px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background 0.25s, color 0.25s, border-color 0.25s;
+  }
+  .stub-cta {
+    color: var(--amber);
+    border: 1px solid var(--amber);
+  }
+  .stub-cta:hover { background: var(--amber); color: #0a0a12; }
+  .stub-cta-ghost {
+    color: var(--muted-hi);
+    border: 1px solid var(--edge);
+  }
+  .stub-cta-ghost:hover { border-color: var(--amber); color: var(--amber); }
+
+  @media (max-width: 640px) {
+    .stub-hero { padding: 120px 20px 80px; }
+    .stub-card { padding: 22px 22px; }
+  }
+</style>
+
+</Layout>
