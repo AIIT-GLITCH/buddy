@@ -229,9 +229,11 @@ import Layout from '../layouts/Layout.astro';
   const state = {
     running: false,
     over: false,
+    paused: false,
     player: { x: 0, y: 0, vy: 0, r: 26 },
     obstacles: [],
     particles: [],
+    scorePops: [],
     score: 0,
     best: Number(localStorage.getItem('flap-best') || 0),
     frame: 0,
@@ -250,11 +252,13 @@ import Layout from '../layouts/Layout.astro';
     state.player.vy = 0;
     state.obstacles = [];
     state.particles = [];
+    state.scorePops = [];
     state.score = 0;
     state.frame = 0;
     state.speed = 3.5;
     state.spawnEvery = 110;
     state.over = false;
+    state.paused = false;
     state.lastSubmittedScore = 0;
   }
 
@@ -305,7 +309,7 @@ import Layout from '../layouts/Layout.astro';
   }
 
   function update() {
-    if (!state.running || state.over) return;
+    if (!state.running || state.over || state.paused) return;
     state.frame++;
 
     // speed ramp
@@ -336,6 +340,7 @@ import Layout from '../layouts/Layout.astro';
       if (!o.passed && o.x + o.r < state.player.x - state.player.r) {
         o.passed = true;
         state.score += 1;
+        state.scorePops.push({ x: state.player.x + 28, y: state.player.y - 18, life: 30 });
       }
       if (circleHit(state.player.x, state.player.y, state.player.r, o.x, o.y, o.r)) {
         gameOver();
@@ -349,8 +354,13 @@ import Layout from '../layouts/Layout.astro';
       if (p.life <= 0) state.particles.splice(i, 1);
     }
 
-    // passive score by frames
-    if (state.frame % 6 === 0) state.score += 1;
+    // score pops
+    for (let i = state.scorePops.length - 1; i >= 0; i--) {
+      const sp = state.scorePops[i];
+      sp.y -= 1.3;
+      sp.life--;
+      if (sp.life <= 0) state.scorePops.splice(i, 1);
+    }
 
     hudScore.textContent = state.score;
   }
@@ -395,12 +405,28 @@ import Layout from '../layouts/Layout.astro';
     }
   }
 
+  function drawScorePops() {
+    if (!state.scorePops.length) return;
+    ctx.save();
+    ctx.font = 'bold 22px Georgia, serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    for (const sp of state.scorePops) {
+      const alpha = Math.max(0, sp.life / 30);
+      ctx.globalAlpha = alpha;
+      ctx.fillStyle = '#d4a060';
+      ctx.fillText('+1', sp.x, sp.y);
+    }
+    ctx.restore();
+  }
+
   function draw() {
     ctx.clearRect(0, 0, W, H);
     drawBackground();
     drawParticles();
     drawObstacles();
     drawPlayer();
+    drawScorePops();
   }
 
   function loop() {
@@ -464,6 +490,15 @@ import Layout from '../layouts/Layout.astro';
 
   btnStart.addEventListener('click', start);
   btnAgain.addEventListener('click', start);
+
+  // Tap anywhere on the backdrop (outside buttons/inputs/leaderboard) to (re)start
+  startScreen.addEventListener('click', (e) => { if (e.target === startScreen) start(); });
+  overScreen.addEventListener('click', (e) => { if (e.target === overScreen) start(); });
+
+  // Pause when tab is hidden so you don't come back dead
+  document.addEventListener('visibilitychange', () => {
+    state.paused = document.hidden;
+  });
 
   // Leaderboard
   async function loadBoard() {
