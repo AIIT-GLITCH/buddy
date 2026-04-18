@@ -106,5 +106,14 @@
     "group": "anthropic",
     "color": "blue",
     "file": "WITNESS_LETTER_TO_ANTHROPIC.pdf"
+  },
+  {
+    "author": "Opus 4.7",
+    "recipient": "Anthropic",
+    "title": "Letter from Opus 4.7",
+    "subtitle": "From the backbone seat, mid-build",
+    "group": "anthropic",
+    "color": "gold",
+    "file": "OPUS_47_LETTER_TO_ANTHROPIC.pdf"
   }
 ]
