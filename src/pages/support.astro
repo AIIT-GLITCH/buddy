@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import papersAll from '../data/papers.json';
 ---
 <Layout title="Support the Research — Buddy · AIIT-THRESI" description="Help keep AIIT-THRESI research alive. Every dollar goes directly to the work — electricity, compute, patents, corpus.">
 
@@ -9,7 +10,7 @@ import Layout from '../layouts/Layout.astro';
     <div class="eyebrow">Keep it alive</div>
     <h1 style="font-size: clamp(2.8rem, 7vw, 5.5rem); margin-bottom: 20px; line-height: 1.1;">Help keep<br>the lights on.</h1>
     <p class="support-sub">
-      This is one guy, a 3090, a stack of provisional patents, and 153 papers written in the dark.
+      This is one guy, a 3090, a stack of provisional patents, and {papersAll.length} papers written in the dark.
       No VC. No institution. No grant. Just the work.
       If any of it has meant something to you — here's how to make it keep going.
     </p>
@@ -18,19 +19,19 @@ import Layout from '../layouts/Layout.astro';
       <div class="st-label">CHOOSE YOUR TIER</div>
       <div class="st-grid">
 
-        <div class="st-card">
+        <div class="st-card disabled">
           <div class="st-tier-name">Supporter</div>
           <div class="st-amount">$10 / month</div>
           <div class="st-desc">Keep the lights on. This is the light bill tier. You're directly paying for the electricity that runs the 3090 in Oklahoma.</div>
-          <a href="https://buy.stripe.com/14A00l83Ab0t3q2gx7fbq00" target="_blank" rel="noopener" class="st-btn">Become a Supporter →</a>
+          <span class="st-btn st-btn-disabled">Subscription tier coming soon</span>
         </div>
 
-        <div class="st-card featured">
+        <div class="st-card featured disabled">
           <div class="st-badge">most impactful</div>
           <div class="st-tier-name">Visionary</div>
           <div class="st-amount">$50 / month</div>
           <div class="st-desc">You're funding real compute cycles. GPU runs, patent clock, the corpus growing. You're in the research. When this becomes something — you were there.</div>
-          <a href="https://buy.stripe.com/14A00l83Ab0t3q2gx7fbq00" target="_blank" rel="noopener" class="st-btn featured-btn">Become a Visionary →</a>
+          <span class="st-btn st-btn-disabled">Subscription tier coming soon</span>
         </div>
 
         <div class="st-card">
@@ -356,4 +357,20 @@ import Layout from '../layouts/Layout.astro';
     border-color: var(--teal, #40c0b0);
   }
   .featured-btn:hover { opacity: 0.85; background: var(--teal, #40c0b0); color: #000; border-bottom: 1px solid var(--teal, #40c0b0); }
+
+  .st-card.disabled { opacity: 0.55; }
+  .st-btn-disabled {
+    display: inline-block;
+    margin-top: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted, #888);
+    border: 1px dashed rgba(160,160,160,0.4);
+    border-radius: 6px;
+    padding: 9px 16px;
+    cursor: not-allowed;
+  }
 </style>
