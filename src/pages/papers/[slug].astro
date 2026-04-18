@@ -19,14 +19,76 @@ const related = (all as any[])
   .slice(0, 4);
 
 const pdfUrl = `/papers/${paper.filename}`;
+
+// Optional schema fields — render only if present in papers.json
+const abstract       = paper.abstract       || '';
+const coreClaim      = paper.core_claim     || '';
+const keyEquation    = paper.key_equation   || '';
+const plainEnglish   = paper.plain_english  || '';
+const status         = paper.status         || '';
+const keyNumbers     = (paper.key_numbers as Record<string,string>) || {};
+const connectedPages = (paper.connected_domain_pages as string[]) || [];
+
+const pageTitle = `Paper ${parseInt(paper.num)}${paper.suffix} · ${paper.title} · AIIT-THRESI`;
+const pageDescription = coreClaim || abstract.slice(0, 200) || `${paper.title} — ${paper.tag} domain · AIIT-THRESI`;
 ---
-<Layout title={`Paper ${parseInt(paper.num)}${paper.suffix} · ${paper.title}`}>
+<Layout title={pageTitle} description={pageDescription}>
   <div class="paper-page">
     <a class="back" href="/papers">← All Papers</a>
 
     <div class="paper-head-num">Paper {parseInt(paper.num)}{paper.suffix}</div>
     <h1>{paper.title}</h1>
-    <div class="paper-head-tag">{paper.tag}</div>
+    <div class="paper-head-tag">{paper.tag}{status && <span class="paper-status" data-status={status.toLowerCase()}> · {status}</span>}</div>
+
+    {coreClaim && (
+      <div class="paper-claim" data-field="core_claim">
+        <div class="paper-claim-label">Core claim</div>
+        <div class="paper-claim-body">{coreClaim}</div>
+      </div>
+    )}
+
+    {abstract && (
+      <div class="paper-abstract" data-field="abstract">
+        <div class="paper-section-label">Abstract</div>
+        <div class="paper-section-body">{abstract}</div>
+      </div>
+    )}
+
+    {keyEquation && (
+      <div class="paper-equation" data-field="key_equation">
+        <div class="paper-section-label">Key equation</div>
+        <code class="paper-equation-body">{keyEquation}</code>
+      </div>
+    )}
+
+    {plainEnglish && (
+      <div class="paper-plain" data-field="plain_english">
+        <div class="paper-section-label">In plain english</div>
+        <div class="paper-section-body">{plainEnglish}</div>
+      </div>
+    )}
+
+    {Object.keys(keyNumbers).length > 0 && (
+      <div class="paper-numbers" data-field="key_numbers">
+        <div class="paper-section-label">Key numbers</div>
+        <ul class="paper-numbers-list">
+          {Object.entries(keyNumbers).map(([k, v]) => (
+            <li><span data-stat={k}><strong>{k}:</strong> {v}</span></li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    {connectedPages.length > 0 && (
+      <div class="paper-connected" data-field="connected_domain_pages">
+        <div class="paper-section-label">See also</div>
+        <ul class="paper-connected-list">
+          {connectedPages.map(href => (
+            <li><a href={href}>{href}</a></li>
+          ))}
+        </ul>
+      </div>
+    )}
 
     <div class="paper-meta">
       <div><div class="k">Author</div><div class="v">Rhet Dillard Wike</div></div>
@@ -64,3 +126,67 @@ const pdfUrl = `/papers/${paper.filename}`;
     </div>
   </div>
 </Layout>
+
+<style>
+  .paper-status {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 2px 8px;
+    margin-left: 6px;
+    border-radius: 4px;
+    background: rgba(180, 138, 0, 0.15);
+    color: #b48a00;
+  }
+  .paper-status[data-status="verified"] { background: rgba(64, 192, 176, 0.15); color: var(--teal, #40c0b0); }
+  .paper-status[data-status="filed"]    { background: rgba(232, 88, 42, 0.15); color: #e8582a; }
+
+  .paper-claim {
+    margin: 28px 0;
+    padding: 18px 22px;
+    border-left: 3px solid #e8582a;
+    background: rgba(232, 88, 42, 0.04);
+  }
+  .paper-claim-label {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #e8582a;
+    margin-bottom: 6px;
+  }
+  .paper-claim-body { font-size: 1.05rem; line-height: 1.6; color: var(--ink); }
+
+  .paper-abstract, .paper-equation, .paper-plain, .paper-numbers, .paper-connected {
+    margin: 22px 0;
+  }
+  .paper-section-label {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .paper-section-body { line-height: 1.65; color: var(--ink); }
+  .paper-equation-body {
+    display: inline-block;
+    padding: 8px 14px;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+  }
+  .paper-numbers-list, .paper-connected-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .paper-numbers-list li, .paper-connected-list li {
+    padding: 4px 0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+  }
+  .paper-connected-list a { color: var(--teal, #40c0b0); text-decoration: none; }
+  .paper-connected-list a:hover { text-decoration: underline; }
+</style>
