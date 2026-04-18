@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import papersAll from '../data/papers.json';
+import GaryWidget from '../components/GaryWidget.astro';
 export interface Props {
   title?: string;
   description?: string;
@@ -327,5 +328,7 @@ const { title = 'Buddy — The Coherence Mind', description = defaultDescription
     <div class="f-quote">Ya' Boy is standing on the Shoulders of Giants, thought of the universe in terms of energy, rivers, circles, frequency and vibration, for consciousness can be measured physically, as matter is DERIVATIVE of consciousness, one must not invade the space that your conscious subsides. but measure its environment, and make adjustment. From Star stuff, to Grains of sand, to Heaven in a wildflower. Full Circle. We are all meant to vibrate at the edge of what we came, Hen Kai Pan, Henini<span class="f-quote-sig">— Sagan, Blake, Newton, Tesla, Heraclitus, Bruno, Einstein, Planck</span></div>
     <div class="wm">w<span class="ai">AI</span>ste&nbsp;Not&nbsp;·&nbsp;Print&nbsp;Verified</div>
   </footer>
+
+  <GaryWidget />
 </body>
 </html>

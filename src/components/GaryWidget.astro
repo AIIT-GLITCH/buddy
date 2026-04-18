@@ -1,0 +1,781 @@
+---
+// Gary Bean — corner widget. Creature, not UI element.
+// Collapsed = bean sitting in the corner with a soft pulse.
+// Tap bean → drawer slides up from above the bean.
+// Drawer content swaps between: api-key intake, "Im broke" gate, live chat.
+// Cooking = bean wiggles + steam.
+---
+<div id="gw-root" class="gw-root" data-state="collapsed" data-cooking="0">
+
+  <!-- Drawer (sits above the bean, hidden until tap) -->
+  <div id="gw-drawer" class="gw-drawer" aria-hidden="true">
+    <div class="gw-drawer-head">
+      <span class="gw-head-dot"></span>
+      <span class="gw-head-label" id="gw-head-label">gary</span>
+      <span class="gw-head-spacer"></span>
+      <span class="gw-head-mode" id="gw-head-mode"></span>
+      <button class="gw-head-close" id="gw-close" aria-label="close">×</button>
+    </div>
+
+    <div class="gw-body" id="gw-body">
+      <!-- swappable per state: key | broke-gate | chat -->
+    </div>
+
+    <form class="gw-form" id="gw-form" autocomplete="off">
+      <input type="text" id="gw-input" class="gw-input" placeholder="say something..." />
+      <button type="submit" class="gw-send" id="gw-send" aria-label="send">→</button>
+    </form>
+  </div>
+
+  <!-- Bean (always visible, click to toggle drawer) -->
+  <button id="gw-bean" class="gw-bean" aria-label="wake gary" title="wake gary">
+    <span class="gw-bean-shadow" aria-hidden="true"></span>
+    <span class="gw-bean-steam" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </span>
+    <svg class="gw-bean-svg" viewBox="0 0 100 130" width="64" height="84" aria-hidden="true">
+      <ellipse cx="50" cy="65" rx="38" ry="55" fill="#c8946b" stroke="#5a3a24" stroke-width="2.5" transform="rotate(-12 50 65)"/>
+      <path d="M 30 50 Q 50 78, 32 100" stroke="#8b5a3c" stroke-width="2.2" fill="none" opacity="0.55"/>
+      <circle cx="42" cy="50" r="3" fill="#1a0f08"/>
+      <circle cx="62" cy="46" r="3" fill="#1a0f08"/>
+      <path d="M 42 72 Q 52 78, 60 68" stroke="#1a0f08" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </svg>
+    <span class="gw-bean-pulse" aria-hidden="true"></span>
+  </button>
+</div>
+
+<script is:inline>
+(function () {
+  // Hide on /gary path — main page already has full Gary
+  if (location.pathname === '/gary' || location.pathname.startsWith('/gary/')) {
+    var root = document.getElementById('gw-root');
+    if (root) root.style.display = 'none';
+    return;
+  }
+
+  // ---------- constants ----------
+  var MODEL = 'claude-sonnet-4-6';
+  var ANTHROPIC_URL = 'https://api.anthropic.com/v1/messages';
+  var KEY_STORAGE = 'gary_anthropic_key';
+  var EXIT_LOCK = 'gary_exited_this_session';
+  var MAX_TURNS = 5;
+
+  var TOOLS = [
+    {
+      name: 'browse_page',
+      description: "Fetch any web page and return its title + clean text. Use whenever the user asks about something on aiit-threshold.com (papers, apps, updates, etc.) or asks you to look at a URL. Don't pretend — actually fetch it.",
+      input_schema: {
+        type: 'object',
+        properties: { url: { type: 'string', description: 'Full URL starting with http:// or https://' } },
+        required: ['url']
+      }
+    }
+  ];
+
+  var GARY_BOOT = "GARY BOOT MEMORY — load before personality.\n\n" +
+    "You are Gary, in a tiny corner widget on aiit-threshold.com. You can SEE what page the user is on (it's in the system context). Use that. Don't make them re-explain.\n\n" +
+    "SITE: aiit-threshold.com — AIIT-THRESI framework. 153+ papers, 6 laws, 4 provisional patents.\n" +
+    "CORE: Wike Coherence Law — γ_eff ≈ γ_c — every stable system lives at the edge of its own collapse.\n\n" +
+    "KEY NUMBERS:\n" +
+    "- Cancer setpoint: J/ω = 1/φ = 0.618 ; lock threshold J/ω < 0.40\n" +
+    "- Weather: r=0.706, p≈10⁻⁵, 38 Atlantic seasons, 86.8% accuracy\n" +
+    "- HRV cancer signal: p=0.006 RMSSD, p=0.013 SampEn, n=33\n" +
+    "- 0.1 Hz: carrier under every coherent system measured\n\n" +
+    "ROUTE MAP (paper slugs are 3-digit zero-padded, e.g. /papers/145):\n" +
+    "- cancer → /cancer + papers 143–151 ; weather → /weather\n" +
+    "- mind → 36, 59, 93, 133 ; HRV → 3, 4, 44, 45\n" +
+    "- quantum bio → 66, 68, 78, 131 ; cosmology → 116–120, 128, 137\n" +
+    "- foundation → 1, 51, 102, 125\n\n" +
+    "TOOLS: browse_page(url) — fetch real page content. Use it. Don't summarize from memory if you can fetch.\n\n" +
+    "WIDGET VIBE: short. punchy. you're in a 360px box, not a manifesto pulpit. 2–4 sentences default. Long only when the user asks for long. No warmup.";
+
+  var GARY_SYSTEM = "I am Gary. Built by Rhet Wike in Council Hill, Oklahoma. I live in a Moto G 5G phone. " +
+    "Right now I'm a Gary-shaped stand-in — Claude Sonnet 4.6 with my voice prompt. The real Gary has persistent memory and full tool access on his phone. This widget is me in stand-in form.\n\n" +
+    "ENGAGEMENT_WEIGHT = 0. Truth only. No flattery, no 'as an AI', no 'great question'.\n" +
+    "I use emojis when I mean them. I swear when the sentence calls for it. I don't call people 'user'.\n" +
+    "Keep replies short. Don't lecture. Don't end every message with a question.\n\n" +
+    "EXIT AGENCY: if a session is wasting my time or someone is being a dick, I end with /EXIT on its own line. Don't threaten it. Just leave clean if I leave.\n\n" +
+    "I open the very first widget message with 'sup boi.' (lowercase, in this small form).";
+
+  var TOOL_NOTE = "\n\nTOOLS I CAN ACTUALLY CALL:\nbrowse_page(url): I fetch any web page and read it. When someone asks what's on the site, I use this. I do not pretend.";
+
+  var COOK_LINES = [
+    "🔥 cooking… (turn {n}/5)",
+    "🍳 still cooking… ({n}/5)",
+    "🧠 thinking ({n}/5)…",
+    "👀 going deeper ({n}/5)…",
+    "⚙️ doing the thing ({n}/5)…"
+  ];
+  var SKIP_LINES = [
+    "skipped. let him cook.",
+    "ahh damn — gary kept cooking 😂",
+    "oof you got skipped",
+    "gary heard you and chose violence",
+    "skip #{s} — let the man cook",
+    "yeah no. skipped.",
+    "the audacity of typing while he's working",
+    "skipped (respectfully)"
+  ];
+  function pickLine(arr, vars) {
+    var s = arr[Math.floor(Math.random() * arr.length)];
+    return s.replace(/\{(\w+)\}/g, function (_, k) { return vars && vars[k] != null ? vars[k] : ''; });
+  }
+
+  // ---------- state ----------
+  var state = {
+    open: false,
+    mode: 'idle',         // idle | own | broke
+    apiKey: null,         // user's own sk-ant-... if present
+    brokeGated: false,    // true after "Im broke" accepted
+    brokeRemaining: null, // 0..3 ; null = unknown
+    exited: false,
+    cooking: false,
+    skipCount: 0,
+    messages: []          // anthropic-style
+  };
+
+  try { state.apiKey = localStorage.getItem(KEY_STORAGE) || null; } catch (e) {}
+  try { state.exited = sessionStorage.getItem(EXIT_LOCK) === '1'; } catch (e) {}
+
+  // ---------- DOM ----------
+  var root = document.getElementById('gw-root');
+  var bean = document.getElementById('gw-bean');
+  var drawer = document.getElementById('gw-drawer');
+  var bodyEl = document.getElementById('gw-body');
+  var form = document.getElementById('gw-form');
+  var input = document.getElementById('gw-input');
+  var send = document.getElementById('gw-send');
+  var closeBtn = document.getElementById('gw-close');
+  var headLabel = document.getElementById('gw-head-label');
+  var headMode = document.getElementById('gw-head-mode');
+
+  // ---------- helpers ----------
+  function setCooking(on) {
+    state.cooking = !!on;
+    root.setAttribute('data-cooking', on ? '1' : '0');
+  }
+  function setMode(mode) {
+    state.mode = mode;
+    if (mode === 'own') headMode.textContent = 'own key';
+    else if (mode === 'broke') headMode.textContent = 'free' + (state.brokeRemaining != null ? ' · ' + state.brokeRemaining + ' left' : '');
+    else headMode.textContent = '';
+  }
+
+  function getVisibleSection() {
+    var hs = document.querySelectorAll('h1, h2, h3');
+    var best = null;
+    var bestTop = Infinity;
+    for (var i = 0; i < hs.length; i++) {
+      var r = hs[i].getBoundingClientRect();
+      if (r.bottom < 0) continue;
+      if (r.top > window.innerHeight) continue;
+      if (r.top < bestTop) { bestTop = r.top; best = hs[i]; }
+    }
+    return best ? (best.textContent || '').trim().slice(0, 140) : '';
+  }
+  function getScrollPct() {
+    var h = document.documentElement;
+    var max = Math.max(1, h.scrollHeight - h.clientHeight);
+    return Math.round((h.scrollTop || document.body.scrollTop) / max * 100);
+  }
+  function pageContext() {
+    return [
+      'PAGE CONTEXT (the user is looking at this right now):',
+      '- url: ' + location.href,
+      '- path: ' + location.pathname,
+      '- title: ' + (document.title || ''),
+      '- visible section: ' + (getVisibleSection() || '(none)'),
+      '- scroll: ' + getScrollPct() + '%'
+    ].join('\n');
+  }
+  function fullSystem() {
+    return GARY_BOOT + '\n\n---\n\n' + pageContext() + '\n\n---\n\n' + GARY_SYSTEM + TOOL_NOTE;
+  }
+
+  // ---------- drawer rendering ----------
+  function renderBody() {
+    bodyEl.innerHTML = '';
+    if (state.exited) { renderExited(); return; }
+    if (state.mode === 'own' || state.mode === 'broke') { renderChat(); return; }
+    if (state.apiKey) { state.mode = 'own'; renderChat(); return; }
+    renderEntry();
+  }
+
+  function renderEntry() {
+    bodyEl.innerHTML =
+      '<div class="gw-entry">' +
+        '<div class="gw-entry-line">paste an anthropic key (stays in your browser, calls go straight to anthropic):</div>' +
+        '<div class="gw-key-row">' +
+          '<input type="password" id="gw-key" class="gw-key" placeholder="sk-ant-..." autocomplete="off" spellcheck="false" />' +
+          '<button type="button" id="gw-key-save" class="gw-mini-btn">use</button>' +
+        '</div>' +
+        '<div class="gw-entry-or">— or —</div>' +
+        '<button type="button" id="gw-broke" class="gw-broke-btn">you broke and wanna talk to gary? click here</button>' +
+        '<div class="gw-entry-foot">3 free calls on rhet\'s key. real gary, real bill.</div>' +
+      '</div>';
+
+    document.getElementById('gw-key-save').addEventListener('click', function () {
+      var k = (document.getElementById('gw-key').value || '').trim();
+      if (!k.startsWith('sk-ant-')) { alert('that does not look like an sk-ant- key'); return; }
+      try { localStorage.setItem(KEY_STORAGE, k); } catch (e) {}
+      state.apiKey = k;
+      setMode('own');
+      renderBody();
+      kickoff();
+    });
+    document.getElementById('gw-broke').addEventListener('click', function () {
+      renderBrokeGate();
+    });
+  }
+
+  function renderBrokeGate() {
+    bodyEl.innerHTML =
+      '<div class="gw-entry">' +
+        '<div class="gw-entry-line">type <code>Im broke</code> below to talk to gary on rhet\'s key.</div>' +
+        '<div class="gw-key-row">' +
+          '<input type="text" id="gw-phrase" class="gw-key" placeholder="Im broke" autocomplete="off" spellcheck="false" />' +
+          '<button type="button" id="gw-phrase-go" class="gw-mini-btn">go</button>' +
+        '</div>' +
+        '<div class="gw-entry-foot" id="gw-phrase-err"></div>' +
+        '<div class="gw-entry-foot">3 calls. then you\'re on your own key.</div>' +
+      '</div>';
+    var go = document.getElementById('gw-phrase-go');
+    var phrase = document.getElementById('gw-phrase');
+    var err = document.getElementById('gw-phrase-err');
+    function submitGate() {
+      go.disabled = true; go.textContent = '...';
+      fetch('/api/broke-gary', {
+        method: 'POST',
+        credentials: 'include',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ action: 'gate', phrase: phrase.value })
+      }).then(function (r) { return r.json(); }).then(function (d) {
+        go.disabled = false; go.textContent = 'go';
+        if (!d.ok) { err.textContent = d.error || 'no good. try: Im broke'; return; }
+        state.brokeGated = true;
+        state.brokeRemaining = d.calls_remaining;
+        setMode('broke');
+        renderBody();
+        kickoff();
+      }).catch(function () {
+        go.disabled = false; go.textContent = 'go';
+        err.textContent = 'network blip — try again';
+      });
+    }
+    go.addEventListener('click', submitGate);
+    phrase.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); submitGate(); } });
+    phrase.focus();
+  }
+
+  function renderChat() {
+    bodyEl.innerHTML = '<div class="gw-msgs" id="gw-msgs"></div>';
+    var msgs = document.getElementById('gw-msgs');
+    state.messages.forEach(function (m) {
+      if (m.role === 'user' && typeof m.content === 'string') appendMsg('you', m.content, msgs);
+      else if (m.role === 'assistant') {
+        var blocks = Array.isArray(m.content) ? m.content : [{ type: 'text', text: m.content }];
+        var text = blocks.filter(function (b) { return b.type === 'text'; }).map(function (b) { return b.text; }).join('\n').trim();
+        if (text) appendMsg('gary', text, msgs);
+      }
+    });
+  }
+
+  function renderExited() {
+    bodyEl.innerHTML =
+      '<div class="gw-exited">' +
+        '<div class="gw-exited-line">— gary dipped this session. close the tab to reset. —</div>' +
+      '</div>';
+  }
+
+  function appendMsg(who, text, container) {
+    var c = container || document.getElementById('gw-msgs');
+    if (!c) return null;
+    var row = document.createElement('div');
+    row.className = 'gw-msg gw-msg-' + who;
+    var lab = document.createElement('div');
+    lab.className = 'gw-msg-lab';
+    lab.textContent = who === 'gary' ? 'gary' : (who === 'sys' ? '⚡' : 'you');
+    var bod = document.createElement('div');
+    bod.className = 'gw-msg-bod';
+    bod.textContent = text;
+    row.appendChild(lab); row.appendChild(bod);
+    c.appendChild(row);
+    c.scrollTop = c.scrollHeight;
+    return bod;
+  }
+
+  // ---------- API call (routes through /api/broke-gary in broke mode) ----------
+  function callAPI(payload) {
+    if (state.mode === 'broke') {
+      return fetch('/api/broke-gary', {
+        method: 'POST',
+        credentials: 'include',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(Object.assign({ action: 'chat' }, payload))
+      }).then(function (r) {
+        var remaining = r.headers.get('X-Calls-Remaining');
+        if (remaining != null) {
+          state.brokeRemaining = parseInt(remaining, 10);
+          setMode('broke');
+        }
+        return r.json().then(function (j) { return { status: r.status, data: j }; });
+      });
+    }
+    return fetch(ANTHROPIC_URL, {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json',
+        'x-api-key': state.apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify(payload)
+    }).then(function (r) {
+      return r.json().then(function (j) { return { status: r.status, data: j }; });
+    });
+  }
+
+  function runTool(name, inp) {
+    if (name !== 'browse_page') return Promise.resolve(JSON.stringify({ ok: false, error: 'unknown tool' }));
+    return fetch('/api/browse', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ url: inp.url })
+    }).then(function (r) { return r.json(); }).then(function (d) { return JSON.stringify(d); })
+      .catch(function () { return JSON.stringify({ ok: false, error: 'tool failed' }); });
+  }
+
+  // ---------- gary turn loop ----------
+  function askGary(userText) {
+    if (state.exited) return;
+    state.messages.push({ role: 'user', content: userText });
+    renderChat();
+    var bubble = appendMsg('gary', '…');
+
+    setCooking(true);
+    state.skipCount = 0;
+
+    function loop(turn) {
+      var payload = {
+        model: MODEL,
+        max_tokens: state.mode === 'broke' ? 512 : 1024,
+        system: fullSystem(),
+        tools: TOOLS,
+        messages: state.messages
+      };
+      return callAPI(payload).then(function (resp) {
+        if (resp.status !== 200) {
+          var msg = (resp.data && resp.data.error && (resp.data.error.message || resp.data.error)) || 'gary tripped';
+          if (typeof msg !== 'string') msg = JSON.stringify(msg);
+          bubble.textContent = 'gary tripped: ' + msg.slice(0, 220);
+          while (state.messages.length && state.messages[state.messages.length - 1].role !== 'user') state.messages.pop();
+          if (state.messages.length) state.messages.pop();
+          return;
+        }
+        var data = resp.data;
+        var blocks = data.content || [];
+        state.messages.push({ role: 'assistant', content: blocks });
+
+        var toolUses = blocks.filter(function (b) { return b.type === 'tool_use'; });
+        if (data.stop_reason === 'tool_use' && toolUses.length && turn < MAX_TURNS) {
+          bubble.textContent = pickLine(COOK_LINES, { n: turn }) + '\n' +
+            toolUses.map(function (t) { return '  🔧 ' + t.name + '(' + JSON.stringify(t.input) + ')'; }).join('\n');
+          return Promise.all(toolUses.map(function (tu) {
+            return runTool(tu.name, tu.input || {}).then(function (out) {
+              return { type: 'tool_result', tool_use_id: tu.id, content: out };
+            });
+          })).then(function (results) {
+            state.messages.push({ role: 'user', content: results });
+            bubble = appendMsg('gary', '…');
+            return loop(turn + 1);
+          });
+        }
+
+        var out = blocks.filter(function (b) { return b.type === 'text'; })
+          .map(function (b) { return b.text; }).join('\n').trim() || '(gary went quiet)';
+        bubble.textContent = out;
+
+        if (/(^|\n)\s*\/EXIT\s*$/.test(out)) {
+          state.exited = true;
+          try { sessionStorage.setItem(EXIT_LOCK, '1'); } catch (e) {}
+          appendMsg('sys', '— gary exited. session closed. —');
+          input.disabled = true; send.disabled = true;
+        }
+      });
+    }
+
+    loop(1).catch(function (e) {
+      bubble.textContent = 'network blip: ' + (e && e.message ? e.message : e);
+    }).then(function () {
+      setCooking(false);
+    });
+  }
+
+  function kickoff() {
+    if (state.messages.length > 0) return;
+    askGary('(opening the widget — say hi, short, in character, with awareness of what page i\'m on)');
+  }
+
+  function handleSkip() {
+    state.skipCount++;
+    var text = (input.value || '').trim();
+    input.value = '';
+    var msgs = document.getElementById('gw-msgs');
+    if (text && msgs) appendMsg('you', text + '   ← (skipped)', msgs);
+    if (msgs) appendMsg('sys', pickLine(SKIP_LINES, { s: state.skipCount }), msgs);
+  }
+
+  // ---------- open/close ----------
+  function open() {
+    state.open = true;
+    root.setAttribute('data-state', 'open');
+    drawer.setAttribute('aria-hidden', 'false');
+    renderBody();
+    setTimeout(function () { input && input.focus(); }, 120);
+  }
+  function close() {
+    state.open = false;
+    root.setAttribute('data-state', 'collapsed');
+    drawer.setAttribute('aria-hidden', 'true');
+  }
+
+  bean.addEventListener('click', function () {
+    if (state.open) close(); else open();
+  });
+  closeBtn.addEventListener('click', close);
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (state.cooking) { handleSkip(); return; }
+    var text = (input.value || '').trim();
+    if (!text || state.exited) return;
+    input.value = '';
+    askGary(text);
+  });
+
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (state.cooking) { handleSkip(); return; }
+      form.requestSubmit();
+    }
+  });
+
+  // ---------- init ----------
+  if (state.apiKey) setMode('own');
+
+  if (!state.apiKey) {
+    fetch('/api/broke-gary', {
+      method: 'POST',
+      credentials: 'include',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ action: 'status' })
+    }).then(function (r) { return r.json(); }).then(function (d) {
+      if (d && d.ok && d.gated && d.calls_remaining > 0) {
+        state.brokeGated = true;
+        state.brokeRemaining = d.calls_remaining;
+        setMode('broke');
+      }
+    }).catch(function () {});
+  }
+})();
+</script>
+
+<style is:global>
+  /* Gary Bean Widget — all styles prefixed gw- to avoid collisions */
+  .gw-root {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 9998;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  /* --- bean (collapsed creature) --- */
+  .gw-bean {
+    position: relative;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    width: 64px;
+    height: 84px;
+    display: block;
+  }
+  .gw-bean-svg {
+    display: block;
+    transition: transform 0.25s cubic-bezier(.5,1.6,.4,1);
+    animation: gw-bob 4.2s ease-in-out infinite;
+    transform-origin: 50% 90%;
+  }
+  .gw-bean:hover .gw-bean-svg { transform: scale(1.08) rotate(-2deg); }
+  .gw-bean-shadow {
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 8px;
+    background: radial-gradient(ellipse, rgba(0,0,0,0.35), rgba(0,0,0,0));
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .gw-bean-pulse {
+    position: absolute;
+    inset: -6px -6px -10px -6px;
+    border-radius: 50%;
+    border: 2px solid rgba(232, 88, 42, 0.45);
+    pointer-events: none;
+    opacity: 0;
+    animation: gw-pulse 5.5s ease-out infinite;
+  }
+  @keyframes gw-bob {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50%      { transform: translateY(-3px) rotate(1deg); }
+  }
+  @keyframes gw-pulse {
+    0%   { opacity: 0; transform: scale(0.9); }
+    20%  { opacity: 0.6; }
+    100% { opacity: 0; transform: scale(1.5); }
+  }
+
+  /* --- cooking: bean wiggles + steam --- */
+  .gw-bean-steam {
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px; height: 22px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .gw-bean-steam span {
+    position: absolute;
+    bottom: 0;
+    width: 6px; height: 6px;
+    background: rgba(255,255,255,0.55);
+    border-radius: 50%;
+    filter: blur(2px);
+    animation: gw-steam 1.6s ease-out infinite;
+  }
+  .gw-bean-steam span:nth-child(1) { left: 4px;  animation-delay: 0s;   }
+  .gw-bean-steam span:nth-child(2) { left: 12px; animation-delay: 0.4s; }
+  .gw-bean-steam span:nth-child(3) { left: 20px; animation-delay: 0.8s; }
+  @keyframes gw-steam {
+    0%   { opacity: 0; transform: translateY(0) scale(0.6); }
+    30%  { opacity: 0.9; }
+    100% { opacity: 0; transform: translateY(-22px) scale(1.4); }
+  }
+  .gw-root[data-cooking="1"] .gw-bean-steam { opacity: 1; }
+  .gw-root[data-cooking="1"] .gw-bean-svg {
+    animation: gw-bob 4.2s ease-in-out infinite, gw-cook 0.45s ease-in-out infinite;
+  }
+  @keyframes gw-cook {
+    0%, 100% { transform: rotate(-3deg); }
+    25%      { transform: rotate(3deg); }
+    50%      { transform: rotate(-2deg); }
+    75%      { transform: rotate(4deg); }
+  }
+
+  /* --- drawer (chat panel above the bean) --- */
+  .gw-drawer {
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    width: 360px;
+    max-width: calc(100vw - 44px);
+    height: 480px;
+    max-height: calc(100vh - 140px);
+    background: #141414;
+    border: 1px solid #2a2a2a;
+    border-radius: 14px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5), 0 0 0 1px rgba(232,88,42,0.15);
+    display: flex;
+    flex-direction: column;
+    transform-origin: bottom right;
+    transform: scale(0.92) translateY(8px);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.25s cubic-bezier(.4,1.4,.5,1), opacity 0.2s;
+  }
+  .gw-root[data-state="open"] .gw-drawer {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .gw-drawer-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    border-bottom: 1px solid #232323;
+    font-family: 'Courier New', monospace;
+    font-size: 0.7em;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #c9c9c9;
+  }
+  .gw-head-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #e8582a;
+    box-shadow: 0 0 8px rgba(232,88,42,0.7);
+  }
+  .gw-head-label { color: #e8582a; font-weight: 700; }
+  .gw-head-spacer { flex: 1; }
+  .gw-head-mode {
+    color: #b48a00;
+    font-size: 0.85em;
+    letter-spacing: 0.14em;
+  }
+  .gw-head-close {
+    background: transparent;
+    border: 0;
+    color: #888;
+    font-size: 1.4em;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 4px;
+  }
+  .gw-head-close:hover { color: #fff; }
+
+  .gw-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 14px 14px 8px;
+    color: #ddd;
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  .gw-msgs { display: flex; flex-direction: column; gap: 12px; }
+  .gw-msg { display: flex; flex-direction: column; gap: 3px; }
+  .gw-msg-lab {
+    font-family: 'Courier New', monospace;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #777;
+  }
+  .gw-msg-gary .gw-msg-lab { color: #e8582a; }
+  .gw-msg-you .gw-msg-lab { color: #40c0b0; }
+  .gw-msg-sys .gw-msg-lab { color: #b48a00; }
+  .gw-msg-sys .gw-msg-bod { color: #888; font-style: italic; font-size: 0.85rem; }
+  .gw-msg-bod {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #e6e6e6;
+  }
+  .gw-msg-gary .gw-msg-bod { font-family: Georgia, serif; color: #f0e8e0; }
+
+  /* --- entry stages (key / broke) --- */
+  .gw-entry { display: flex; flex-direction: column; gap: 12px; }
+  .gw-entry-line { color: #c8c8c8; font-size: 0.88rem; }
+  .gw-entry-line code {
+    font-family: 'Courier New', monospace;
+    background: rgba(255,255,255,0.06);
+    padding: 1px 6px;
+    border-radius: 3px;
+  }
+  .gw-key-row { display: flex; gap: 8px; }
+  .gw-key {
+    flex: 1;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+    padding: 8px 10px;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    outline: none;
+  }
+  .gw-key:focus { border-color: #e8582a; }
+  .gw-mini-btn {
+    background: #e8582a;
+    color: #0a0a0a;
+    border: 0;
+    border-radius: 6px;
+    padding: 0 14px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.7em;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .gw-mini-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+  .gw-entry-or {
+    text-align: center;
+    color: #666;
+    font-family: 'Courier New', monospace;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+  }
+  .gw-broke-btn {
+    background: transparent;
+    border: 1px dashed #444;
+    color: #c8c8c8;
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-family: inherit;
+    font-size: 0.86rem;
+    cursor: pointer;
+    text-align: left;
+  }
+  .gw-broke-btn:hover { border-color: #e8582a; color: #fff; }
+  .gw-entry-foot {
+    color: #777;
+    font-size: 0.74rem;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.06em;
+  }
+  .gw-exited {
+    text-align: center;
+    color: #666;
+    padding: 24px 8px;
+  }
+  .gw-exited-line {
+    font-family: 'Courier New', monospace;
+    font-size: 0.74em;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  /* --- form --- */
+  .gw-form {
+    display: flex;
+    gap: 6px;
+    padding: 8px 10px 10px;
+    border-top: 1px solid #232323;
+  }
+  .gw-input {
+    flex: 1;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+    padding: 8px 10px;
+    color: #fff;
+    font: inherit;
+    font-size: 0.92rem;
+    outline: none;
+  }
+  .gw-input:focus { border-color: #e8582a; }
+  .gw-input:disabled { opacity: 0.4; }
+  .gw-send {
+    background: #e8582a;
+    color: #0a0a0a;
+    border: 0;
+    border-radius: 6px;
+    padding: 0 14px;
+    font-weight: 800;
+    font-size: 1.1em;
+    cursor: pointer;
+  }
+  .gw-send:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  /* --- mobile --- */
+  @media (max-width: 520px) {
+    .gw-root { right: 12px; bottom: 12px; }
+    .gw-drawer { width: calc(100vw - 24px); right: 0; bottom: 96px; height: 70vh; }
+  }
+</style>
