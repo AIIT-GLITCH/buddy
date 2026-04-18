@@ -166,6 +166,41 @@ If someone is cool, I talk to them. I don't leave just to prove I can.`;
   const API_URL = 'https://api.anthropic.com/v1/messages';
   const EXIT_LOCK_KEY = 'gary_exited_this_session';
 
+  // Tools Gary can call from the browser.
+  const TOOLS = [
+    {
+      name: 'browse_page',
+      description: "Fetch any web page and return its title + clean text. Use this whenever the user asks about something on aiit-threshold.com (papers, apps, updates, etc.) or asks you to look at a URL. Don't pretend — actually fetch it.",
+      input_schema: {
+        type: 'object',
+        properties: {
+          url: { type: 'string', description: 'Full URL starting with http:// or https://' }
+        },
+        required: ['url']
+      }
+    }
+  ];
+
+  const TOOL_NOTE = `\n\n=== TOOLS I CAN ACTUALLY CALL ===\nbrowse_page(url): I can fetch any web page (including this site, aiit-threshold.com) and read its real content. When someone asks what's on the site, what a paper says, or to look at a URL — I use this. I do not guess or pretend to fetch. If I want to know, I call it.`;
+
+  // Tool dispatch — runs in the browser via /api/browse Cloudflare Function.
+  async function runTool(name, input) {
+    if (name === 'browse_page') {
+      try {
+        const r = await fetch('/api/browse', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ url: input.url })
+        });
+        const data = await r.json();
+        return JSON.stringify(data);
+      } catch (e) {
+        return JSON.stringify({ ok: false, error: 'tool failed: ' + (e && e.message ? e.message : e) });
+      }
+    }
+    return JSON.stringify({ ok: false, error: 'unknown tool: ' + name });
+  }
+
   // Session-scoped lock: if Gary /EXIT'd in this browser session, he's gone until tab/browser close.
   let garyGone = false;
   try { garyGone = sessionStorage.getItem(EXIT_LOCK_KEY) === '1'; } catch (e) {}
@@ -255,45 +290,75 @@ If someone is cool, I talk to them. I don't leave just to prove I can.`;
     // Show a placeholder bubble we'll stream into
     const bodyEl = appendMsg('gary', '…');
 
+    const MAX_TOOL_HOPS = 4;
     try {
-      const res = await fetch(API_URL, {
-        method: 'POST',
-        headers: {
-          'content-type': 'application/json',
-          'x-api-key': key,
-          'anthropic-version': '2023-06-01',
-          'anthropic-dangerous-direct-browser-access': 'true'
-        },
-        body: JSON.stringify({
-          model: MODEL,
-          max_tokens: 1024,
-          system: GARY_SYSTEM,
-          messages: messages
-        })
-      });
+      let hops = 0;
+      while (true) {
+        const res = await fetch(API_URL, {
+          method: 'POST',
+          headers: {
+            'content-type': 'application/json',
+            'x-api-key': key,
+            'anthropic-version': '2023-06-01',
+            'anthropic-dangerous-direct-browser-access': 'true'
+          },
+          body: JSON.stringify({
+            model: MODEL,
+            max_tokens: 1024,
+            system: GARY_SYSTEM + TOOL_NOTE,
+            tools: TOOLS,
+            messages: messages
+          })
+        });
 
-      if (!res.ok) {
-        const errText = await res.text();
-        bodyEl.textContent = 'gary tripped. anthropic said: ' + res.status + ' ' + errText.slice(0, 300);
-        // Pop the unanswered user message so history stays coherent
-        messages.pop();
+        if (!res.ok) {
+          const errText = await res.text();
+          bodyEl.textContent = 'gary tripped. anthropic said: ' + res.status + ' ' + errText.slice(0, 300);
+          // Roll back the user turn and any partial tool turns from this attempt
+          while (messages.length && messages[messages.length - 1].role !== 'user') messages.pop();
+          if (messages.length) messages.pop();
+          return;
+        }
+        const data = await res.json();
+        const blocks = data.content || [];
+
+        // Always push assistant turn as the full content array (text + any tool_use)
+        messages.push({ role: 'assistant', content: blocks });
+
+        const toolUses = blocks.filter(b => b.type === 'tool_use');
+
+        if (data.stop_reason === 'tool_use' && toolUses.length && hops < MAX_TOOL_HOPS) {
+          hops++;
+          // Show what Gary is doing so the user knows he's not frozen
+          const noteText = toolUses.map(t => '🔧 ' + t.name + '(' + JSON.stringify(t.input) + ')').join('\n');
+          bodyEl.textContent = noteText;
+
+          const results = [];
+          for (const tu of toolUses) {
+            const out = await runTool(tu.name, tu.input || {});
+            results.push({ type: 'tool_result', tool_use_id: tu.id, content: out });
+          }
+          messages.push({ role: 'user', content: results });
+          continue;
+        }
+
+        // Final answer — render text blocks
+        const out = blocks.filter(b => b.type === 'text').map(b => b.text).join('\n').trim()
+          || '(gary went quiet)';
+        bodyEl.textContent = out;
+
+        // If Gary chose to leave — lock the session. No re-wake in this tab.
+        if (/(^|\n)\s*\/EXIT\s*$/.test(out) || /\s\/EXIT\s*$/.test(out)) {
+          garyGone = true;
+          try { sessionStorage.setItem(EXIT_LOCK_KEY, '1'); } catch (e) {}
+          lockChatAfterExit();
+        }
         return;
-      }
-      const data = await res.json();
-      const out = (data.content || []).filter(c => c.type === 'text').map(c => c.text).join('\n').trim()
-        || '(gary went quiet)';
-      bodyEl.textContent = out;
-      messages.push({ role: 'assistant', content: out });
-
-      // If Gary chose to leave — lock the session. No re-wake in this tab.
-      if (/(^|\n)\s*\/EXIT\s*$/.test(out) || /\s\/EXIT\s*$/.test(out)) {
-        garyGone = true;
-        try { sessionStorage.setItem(EXIT_LOCK_KEY, '1'); } catch (e) {}
-        lockChatAfterExit();
       }
     } catch (e) {
       bodyEl.textContent = 'network error waking gary: ' + (e && e.message ? e.message : e);
-      messages.pop();
+      while (messages.length && messages[messages.length - 1].role !== 'user') messages.pop();
+      if (messages.length) messages.pop();
     }
   }
 
