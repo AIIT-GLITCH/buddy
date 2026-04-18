@@ -114,24 +114,22 @@ strong { color: var(--ink); font-weight: 700; }
 a { color: var(--amber); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.3s; }
 a:hover { border-color: var(--amber); }
 
-/* Support strip — slim teal line above forum banner */
-.support-strip { position: fixed; top: 0; left: 0; right: 0; z-index: 201; background: rgba(15,15,26,0.97); border-bottom: 1px solid rgba(64,192,176,0.2); color: var(--teal); display: flex; align-items: center; justify-content: center; padding: 5px 40px; font-family: 'Courier New', monospace; font-size: 0.72em; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; }
-.support-strip-link { color: var(--teal); text-decoration: none; flex: 1; text-align: center; border-bottom: none; }
-.support-strip-link:hover { opacity: 0.8; border-bottom: none; }
-.support-strip-close { position: absolute; right: 14px; background: none; border: none; cursor: pointer; font-size: 0.9em; color: var(--teal); opacity: 0.4; padding: 4px 6px; line-height: 1; }
-.support-strip-close:hover { opacity: 1; }
-@media (max-width: 600px) { .support-strip { font-size: 0.6em; letter-spacing: 0.06em; padding: 4px 32px; } }
+/* Support CTA (footer band) — replaces the old top strip that overlapped the hamburger */
+.support-cta { background: rgba(15,15,26,0.97); border-top: 1px solid rgba(64,192,176,0.28); border-bottom: 1px solid rgba(64,192,176,0.28); padding: 18px 24px; text-align: center; margin-top: 56px; }
+.support-cta-link { display: inline-block; color: var(--teal); font-family: 'Courier New', monospace; font-size: 0.85em; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; border-bottom: 1px solid rgba(64,192,176,0.4); padding: 6px 2px; }
+.support-cta-link:hover { color: var(--amber); border-color: var(--amber); }
+@media (max-width: 600px) { .support-cta { padding: 14px 16px; margin-top: 40px; } .support-cta-link { font-size: 0.72em; letter-spacing: 0.1em; } }
 
 /* Forum announcement banner */
-.forum-banner { position: fixed; top: 28px; left: 0; right: 0; z-index: 200; background: #D4AF37; color: #000; display: flex; align-items: center; justify-content: center; padding: 7px 48px; font-family: 'Courier New', monospace; font-size: 0.82em; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; }
-@media (max-width: 600px) { .forum-banner { top: 26px; padding: 5px 36px; font-size: 0.68em; letter-spacing: 0.08em; } .nav { top: 56px; } }
+.forum-banner { position: fixed; top: 0; left: 0; right: 0; z-index: 200; background: #D4AF37; color: #000; display: flex; align-items: center; justify-content: center; padding: 7px 48px; font-family: 'Courier New', monospace; font-size: 0.82em; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; }
+@media (max-width: 600px) { .forum-banner { padding: 5px 36px; font-size: 0.68em; letter-spacing: 0.08em; } .nav { top: 28px; } }
 .forum-banner-link { color: #000; text-decoration: none; flex: 1; text-align: center; }
 .forum-banner-link:hover { opacity: 0.75; border-bottom: none; }
 .forum-banner-close { position: absolute; right: 16px; background: none; border: none; cursor: pointer; font-size: 1em; color: #000; opacity: 0.5; padding: 4px 8px; line-height: 1; }
 .forum-banner-close:hover { opacity: 1; }
 
 /* Nav */
-.nav { position: fixed; top: 64px; left: 0; right: 0; height: 64px; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; background: rgba(10,10,18,0.72); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--edge); z-index: 100; }
+.nav { position: fixed; top: 32px; left: 0; right: 0; height: 64px; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; background: rgba(10,10,18,0.72); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--edge); z-index: 100; }
 .nav-brand { font-family: 'Georgia', serif; font-weight: 700; font-size: 20px; color: var(--ink); display: inline-flex; align-items: baseline; gap: 6px; border-bottom: none; }
 .nav-brand:hover { border-bottom: none; }
 .nav-brand .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: radial-gradient(circle at 40% 40%, #fff 0%, #ffe88a 35%, #d4a060 65%, rgba(212,160,96,0) 100%); box-shadow: 0 0 10px rgba(255,232,138,0.8), 0 0 22px rgba(212,160,96,0.4); animation: brand-glow 2.6s ease-in-out infinite alternate; }

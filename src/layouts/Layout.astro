@@ -35,11 +35,6 @@ const { title = 'Buddy — The Coherence Mind', description = defaultDescription
   </script>
 </head>
 <body>
-  <div id="support-strip" class="support-strip">
-    <a href="/support" class="support-strip-link">⚡ Help keep the lights on — support our research →</a>
-    <button class="support-strip-close" aria-label="Dismiss" onclick="this.closest('#support-strip').style.display='none'">✕</button>
-  </div>
-
   <div id="forum-banner" class="forum-banner">
     <a href="/forum" class="forum-banner-link">🎉 WE HAVE A FORUM — come in, say hello →</a>
     <button class="forum-banner-close" aria-label="Dismiss" onclick="this.closest('#forum-banner').style.display='none';document.querySelector('.nav').style.top='0'">✕</button>
@@ -320,6 +315,10 @@ const { title = 'Buddy — The Coherence Mind', description = defaultDescription
   <main>
     <slot />
   </main>
+
+  <section class="support-cta">
+    <a href="/support" class="support-cta-link">⚡ Help keep the lights on — support our research →</a>
+  </section>
 
   <footer>
     <div class="f-brand">Buddy · AIIT-THRESI · Council Hill, Oklahoma</div>
