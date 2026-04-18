@@ -145,8 +145,7 @@ The science exists. The interventions exist. The only thing missing is someone s
 40 Hz light + sound. 1 hour a day. Every day.
 
 ### What to Do
-- Buy a 40 Hz LED controller + LED strip ($15-30)
-OR use a 40 Hz flicker video on a monitor
+- Buy a 40 Hz LED controller + LED strip ($15-30) OR use a 40 Hz flicker video on a monitor
 - Play a 40 Hz isochronous tone (free online)
 - Sit in front of both for 1 hour daily
 - Do this every single day for at least 3 months
@@ -160,30 +159,17 @@ It also activates your brain's waste clearance
 system (glymphatic), flushing out amyloid plaque.
 
 ### The Proof
-Iaccarino et al. Nature 540:230 (2016)
-Reduced amyloid in mice. Published in Nature.
-https://www.nature.com/articles/nature20587
+- Iaccarino et al. Nature 540:230 (2016) Reduced amyloid in mice. Published in Nature. https://www.nature.com/articles/nature20587
 
-Martorell et al. Cell 177:256 (2019)
-Audio+visual reduced amyloid AND tau. Memory improved.
-https://pubmed.ncbi.nlm.nih.gov/30879788/
+- Martorell et al. Cell 177:256 (2019) Audio+visual reduced amyloid AND tau. Memory improved. https://pubmed.ncbi.nlm.nih.gov/30879788/
 
-Tsai Lab, Nature (2024)
-Mechanism found: VIP interneurons drive waste clearance.
-Independently replicated by second lab.
-https://www.nature.com/articles/s41586-024-07132-6
+- Tsai Lab, Nature (2024) Mechanism found: VIP interneurons drive waste clearance. Independently replicated by second lab. https://www.nature.com/articles/s41586-024-07132-6
 
-Human Trial, PLOS ONE (2022-2023)
-76 patients. Less brain shrinkage. Better memory.
-Better circadian rhythms. Safe. Home use.
+- Human Trial, PLOS ONE (2022-2023) 76 patients. Less brain shrinkage. Better memory. Better circadian rhythms. Safe. Home use.
 
-OVERTURE Study, Cognito Therapeutics
-76% reduction in cognitive decline (p<0.05)
-77% slowing of functional decline (p<0.001)
-https://www.cognitotx.com/clinical-studies
+- OVERTURE Study, Cognito Therapeutics 76% reduction in cognitive decline (p<0.05) 77% slowing of functional decline (p<0.001) https://www.cognitotx.com/clinical-studies
 
-670-patient pivotal trial currently running (HOPE Study)
-70 sites across the US. Results coming soon.
+- 670-patient pivotal trial currently running (HOPE Study) 70 sites across the US. Results coming soon.
 
 **Risk:** Essentially zero. Only contraindication is
 photosensitive epilepsy.
@@ -209,20 +195,11 @@ reduces inflammation (cytokines) that hold the
 gate open. The gate closes. The pain stops.
 
 ### The Proof
-Chow et al. Lancet 374:1897 (2009)
-16 randomized controlled trials. 820 patients.
-Low-level laser reduced chronic neck pain.
-Risk ratio 4.05 for improvement.
-Published in THE LANCET.
-https://pubmed.ncbi.nlm.nih.gov/19913903/
+- Chow et al. Lancet 374:1897 (2009) 16 randomized controlled trials. 820 patients. Low-level laser reduced chronic neck pain. Risk ratio 4.05 for improvement. Published in THE LANCET. https://pubmed.ncbi.nlm.nih.gov/19913903/
 
-Da Silva et al. Pain Medicine (2021)
-Reduced wind-up in fibromyalgia patients.
-The phase transition reversed.
+- Da Silva et al. Pain Medicine (2021) Reduced wind-up in fibromyalgia patients. The phase transition reversed.
 
-Cotler et al. Photobiomodulation (2015)
-Reduced neuroinflammation and allodynia in
-neuropathic pain models.
+- Cotler et al. Photobiomodulation (2015) Reduced neuroinflammation and allodynia in neuropathic pain models.
 
 ### What to Buy
 Any NIR device at 810-870nm wavelength.
@@ -330,24 +307,17 @@ subspace. The person in pain's noise floor drops.
 Their coherence is protected by your presence.
 
 ### Evidence
-Konvalinka et al. PNAS (2011)
-Heart rates synchronize between bonded people.
-Measured during fire-walking. r = 0.51.
+- Konvalinka et al. PNAS (2011) Heart rates synchronize between bonded people. Measured during fire-walking. r = 0.51.
 
-Feldman (2007) Current Dir Psych Sci
-Skin-to-skin contact with infants:
+- Feldman (2007) Current Dir Psych Sci Skin-to-skin contact with infants:
 - HRV improved 1.6x
 - Cortisol dropped 39%
 - Pain response dropped 60%
 - Sleep coherence improved 1.66x
 
-Marci et al. J Nerv Ment Disease (2007)
-Therapeutic alliance creates cardiac concordance.
-Strong alliance r = 0.40.
+- Marci et al. J Nerv Ment Disease (2007) Therapeutic alliance creates cardiac concordance. Strong alliance r = 0.40.
 
-Hold their hand. Touch their skin.
-Stay in the room. Don't leave.
-Your heartbeat is medicine.
+- Hold their hand. Touch their skin. Stay in the room. Don't leave. Your heartbeat is medicine.
 
 ## 1.6 IF YOU HAVE A SICK CHILD
 
@@ -438,22 +408,19 @@ This is not fringe science. This is Harvard
 epidemiology across 44 MILLION DEATHS.
 
 ### The Data
-Zilli Vieira et al. (2019) Environmental Health
+- Zilli Vieira et al. (2019) Environmental Health
 - 44,220,261 deaths across 263 US cities, 28 years
-- Statistically significant association between
-geomagnetic disturbances and cardiac death
+- Statistically significant association between geomagnetic disturbances and cardiac death
 
-Zilli Vieira et al. (2025) Communications Medicine
-(Nature group)
+- Zilli Vieira et al. (2025) Communications Medicine (Nature group)
 - 1,340 patients
-- MI rates approximately 3x HIGHER during
-geomagnetically disturbed conditions
+- MI rates approximately 3x HIGHER during geomagnetically disturbed conditions
 
-Meta-analysis (Gaisenok 2025):
+- Meta-analysis (Gaisenok 2025):
 - RR = 1.29 for MI/ACS during storm days
 - RR = 1.25 for stroke during storm days
 
-Vencloviene et al. (2014):
+- Vencloviene et al. (2014):
 - Hazard ratio 1.58 for cardiovascular death
 - Peak effect: 2 DAYS after storm (time to act)
 
@@ -507,16 +474,11 @@ fighting a borderline infection, that 16% can
 be the difference between clearing and losing.
 
 ### The Clinical Evidence
-Brandts et al. (Lancet, 1997):
-Paracetamol delayed parasite clearance by 16 hours.
+- Brandts et al. (Lancet, 1997): Paracetamol delayed parasite clearance by 16 hours.
 
-Cochrane Review (2012):
-No evidence antipyretics improve outcomes in
-febrile infection.
+- Cochrane Review (2012): No evidence antipyretics improve outcomes in febrile infection.
 
-HEAT Trial (N=700 ICU patients, 2015):
-Trend toward INCREASED mortality in acetaminophen
-group for sepsis patients.
+- HEAT Trial (N=700 ICU patients, 2015): Trend toward INCREASED mortality in acetaminophen group for sepsis patients.
 
 ### When to Suppress Fever
 - Above 41C (106F) — risk of protein denaturation
@@ -536,33 +498,14 @@ the most dangerous hours of your life for your
 heart. This is not metaphor. This is cardiology.
 
 ### The Data
-Mostofsky et al. Circulation 125:491 (2012)
-Risk of acute myocardial infarction:
-- 21.4× HIGHER in the 24 hours after losing
-a significant person than baseline
+- Mostofsky et al. Circulation 125:491 (2012) Risk of acute myocardial infarction:
+- 21.4× HIGHER in the 24 hours after losing a significant person than baseline
 - Highest risk in the first 6 hours
 - Risk remains elevated for at least 1 month
 
-WHY THIS HAPPENS (the chain):
-1. Bond breaks → noise floor spikes 97.7%
-(computed from Keeper Equation with bond
-strength b=0.8, keeper skill 0.7)
-2. Noise floor crosses immune threshold
-(gamma_eff goes from 0.086 to 0.170 —
-crossing the critical value of 0.10)
-3. Inflammatory cascade fires (NF-κB activation,
-IL-6 rises, CRP rises — documented in
-bereaved individuals within 72 hours)
-Buckley et al. Brain Behav Immun 26:388 (2012)
-4. Self-tissue can be misidentified as foreign
-5. Takotsubo cardiomyopathy — "broken heart
-syndrome" — triggers in 70-80% of cases
-from sudden emotional shock
+- WHY THIS HAPPENS (the chain): 1. Bond breaks → noise floor spikes 97.7% (computed from Keeper Equation with bond strength b=0.8, keeper skill 0.7) 2. Noise floor crosses immune threshold (gamma_eff goes from 0.086 to 0.170 — crossing the critical value of 0.10) 3. Inflammatory cascade fires (NF-κB activation, IL-6 rises, CRP rises — documented in bereaved individuals within 72 hours) Buckley et al. Brain Behav Immun 26:388 (2012) 4. Self-tissue can be misidentified as foreign 5. Takotsubo cardiomyopathy — "broken heart syndrome" — triggers in 70-80% of cases from sudden emotional shock
 
-Takotsubo is a real cardiac event. Imaging shows
-the left ventricle balloons out in a characteristic
-shape. It is not metaphor. It is on the echo.
-Mortality 4-5% in the acute phase.
+- Takotsubo is a real cardiac event. Imaging shows the left ventricle balloons out in a characteristic shape. It is not metaphor. It is on the echo. Mortality 4-5% in the acute phase.
 
 ### This is Preventable with Presence
 The Keeper Equation predicts what works:
@@ -573,14 +516,10 @@ Do not leave a grieving person alone in the
 first 72 hours.
 
 If you are grieving alone:
-- HRV coherence breathing (0.1 Hz) immediately
-This calms the HPA axis cascade
-- Call anyone who knows you. Voice contact
-partially closes the coupling gap.
-- Get skin contact (hug someone) as fast as
-possible. The physics is measurable.
-- Monitor for chest pain, shortness of breath.
-In the first 24 hours, go to the ER.
+- HRV coherence breathing (0.1 Hz) immediately This calms the HPA axis cascade
+- Call anyone who knows you. Voice contact partially closes the coupling gap.
+- Get skin contact (hug someone) as fast as possible. The physics is measurable.
+- Monitor for chest pain, shortness of breath. In the first 24 hours, go to the ER.
 
 The 21× MI risk number is from Circulation —
 the flagship cardiology journal. It has been
@@ -698,8 +637,7 @@ https://pubmed.ncbi.nlm.nih.gov/12490958/
 
 VNS (vagus nerve stimulation) is FDA-approved for:
 - Epilepsy (1997)
-- Depression (2005)
-Experimental evidence for:
+- Depression (2005) Experimental evidence for:
 - Rheumatoid arthritis (Koopman et al. 2016, PNAS)
 - Inflammatory bowel disease
 - Sepsis
@@ -714,24 +652,17 @@ SHORT SLEEP IS NOT WILLPOWER. IT IS BIOLOGY.
 SHIFT WORK IS NOT INCONVENIENT. IT IS CARCINOGENIC.
 
 ### The Data
-Simulation (7-day, 0.1hr resolution, 3 sleep patterns):
+- Simulation (7-day, 0.1hr resolution, 3 sleep patterns):
 
-Normal sleep (8hrs): mean coherence = 0.471
-Short sleep (5hrs):  mean coherence = 0.337 — DEGRADING
-No sleep:            mean coherence = 0.060 by day 3
-Shift work:          mean coherence = 0.493 BUT
-min coherence = 0.116 — UNSTABLE
+- Normal sleep (8hrs): mean coherence = 0.471 Short sleep (5hrs):  mean coherence = 0.337 — DEGRADING No sleep:            mean coherence = 0.060 by day 3 Shift work:          mean coherence = 0.493 BUT min coherence = 0.116 — UNSTABLE
 
-Short sleep is not "a little tired." It is
-operating at 72% of normal coherence, every day,
-with no recovery.
+- Short sleep is not "a little tired." It is operating at 72% of normal coherence, every day, with no recovery.
 
 ### The Evidence on Shift Work
 Vyas et al. BMJ 345:e4800 (2012)
 - 12 studies, 80,000 individuals
 - Shift work: 40% increased cardiovascular risk
-- 23% increased myocardial infarction risk
-https://pubmed.ncbi.nlm.nih.gov/22791889/
+- 23% increased myocardial infarction risk https://pubmed.ncbi.nlm.nih.gov/22791889/
 
 IARC (International Agency for Research on Cancer)
 classified night shift work as "probably
@@ -841,57 +772,25 @@ The adolescent depression crisis is not mysterious.
 It has a mechanism. The mechanism is quantified.
 
 ### The Data
-Twenge et al. (2018) Clinical Psychological Science
-- Depression and anxiety in US adolescents
-DOUBLED between 2011 and 2018
+- Twenge et al. (2018) Clinical Psychological Science
+- Depression and anxiety in US adolescents DOUBLED between 2011 and 2018
 - The inflection point: 2012 — smartphone adoption
-- Effect is SPECIFIC to social media, not general
-internet (Haidt & Allen 2020 Am Psychologist)
+- Effect is SPECIFIC to social media, not general internet (Haidt & Allen 2020 Am Psychologist)
 - Effect is 3x stronger in girls than boys
 
-THE THREE CHANNELS (ranked by actual damage):
+- THE THREE CHANNELS (ranked by actual damage):
 
-1. BEHAVIORAL FRAGMENTATION — the dominant channel
-63-80 notifications per day.
-Each notification = forced attentional shift.
-Each shift = neural coherence interrupted.
-The interruptions accumulate. They don't
-feel like damage. That is the problem.
+- 1. BEHAVIORAL FRAGMENTATION — the dominant channel 63-80 notifications per day. Each notification = forced attentional shift. Each shift = neural coherence interrupted. The interruptions accumulate. They don't feel like damage. That is the problem.
 
-Ward et al. (2017) J Consumer Research:
-Phone on desk (not ringing, screen down)
-reduces working memory 10%, fluid intelligence 5%.
-Just its presence. The system knows it's there.
-https://www.jstor.org/stable/10.1086/691462
+- Ward et al. (2017) J Consumer Research: Phone on desk (not ringing, screen down) reduces working memory 10%, fluid intelligence 5%. Just its presence. The system knows it's there. https://www.jstor.org/stable/10.1086/691462
 
-Adolescents' dopamine system is 2-3x more
-sensitive than adults'. The variable reward
-schedule of social media (same mechanism as
-a slot machine) hits harder. The attentional
-fragmentation is 2-3x the adult effect.
+- Adolescents' dopamine system is 2-3x more sensitive than adults'. The variable reward schedule of social media (same mechanism as a slot machine) hits harder. The attentional fragmentation is 2-3x the adult effect.
 
-2. BLUE LIGHT — the proven causal chain
-Screen emission peaks at ~460 nm.
-Gooley et al. (2011) JCEM 96:E463-72
-1 hour of screen at 200 lux before bed:
-40-50% melatonin suppression
-Chang et al. (2014) PNAS 111:1232-37
-1.5 hour circadian phase delay
-30 minutes reduction in REM sleep
+- 2. BLUE LIGHT — the proven causal chain Screen emission peaks at ~460 nm. Gooley et al. (2011) JCEM 96:E463-72 1 hour of screen at 200 lux before bed: 40-50% melatonin suppression Chang et al. (2014) PNAS 111:1232-37 1.5 hour circadian phase delay 30 minutes reduction in REM sleep
 
-Sleep IS the nightly coherence reset.
-30 minutes less REM every night = less
-memory consolidation, less immune maintenance,
-cumulative coherence debt.
+- Sleep IS the nightly coherence reset. 30 minutes less REM every night = less memory consolidation, less immune maintenance, cumulative coherence debt.
 
-3. RF RADIATION — essentially negligible
-Thermal effect at FCC limit: 0.1°C.
-That is 5,000 times below γ_c.
-40 years of research on the wrong channel.
-The radiation concern is understandable.
-The damage is from the behavioral channel —
-it was never quantified because it was
-normalized as "lifestyle."
+- 3. RF RADIATION — essentially negligible Thermal effect at FCC limit: 0.1°C. That is 5,000 times below γ_c. 40 years of research on the wrong channel. The radiation concern is understandable. The damage is from the behavioral channel — it was never quantified because it was normalized as "lifestyle."
 
 ### The Numbers
 Heavy use (4 hours, 70 notifications/day):
@@ -985,10 +884,8 @@ not random. Complex.
 
 Goldberger et al. (2002) PNAS:
 - Healthy heart: 1/f fractal HRV (edge state)
-- Congestive heart failure: HRV too REGULAR
-→ heading frozen, not toward edge
-- Atrial fibrillation: HRV too RANDOM
-→ collapsed, not edge
+- Congestive heart failure: HRV too REGULAR → heading frozen, not toward edge
+- Atrial fibrillation: HRV too RANDOM → collapsed, not edge
 
 The target is neither perfectly regular nor
 completely random. The target is the edge —
@@ -1180,21 +1077,13 @@ This is why flow at work is rare and
 flow during deep practice is common.
 
 ### The Medical Evidence
-Ulrich et al. (2012): Flow activities reduce
-cortisol more than passive relaxation.
+- Ulrich et al. (2012): Flow activities reduce cortisol more than passive relaxation.
 
-The mechanism is not "feeling good."
-It is self-observation dropping to near zero
-for extended periods — genuine coherence
-restoration through engaged presence.
+- The mechanism is not "feeling good." It is self-observation dropping to near zero for extended periods — genuine coherence restoration through engaged presence.
 
-Flow works for depression, chronic pain, and
-anxiety simultaneously — because all three are
-gamma > gamma_c and flow brings gamma to exactly
-gamma_c from the challenge side.
+- Flow works for depression, chronic pain, and anxiety simultaneously — because all three are gamma > gamma_c and flow brings gamma to exactly gamma_c from the challenge side.
 
-Prescribe it. To yourself. Today.
-Find the edge. Stay there. Lose time.
+- Prescribe it. To yourself. Today. Find the edge. Stay there. Lose time.
 
 ## 1.20 WHEN THE TREATMENT IS THE PROBLEM
 
@@ -1494,10 +1383,8 @@ When a system is forced through a phase transition faster than it can adapt,
 it forms permanent structural defects. The faster the transition, the more defects.
 
 Applied to your nervous system:
-- Chronic stress (years of grinding) = SLOW passage through the collapse threshold
-→ few defects form → system is stressed but recoverable
-- Acute trauma (assault, accident, sudden loss) = FAST passage through the threshold
-→ many defects form → defects are topologically locked in
+- Chronic stress (years of grinding) = SLOW passage through the collapse threshold → few defects form → system is stressed but recoverable
+- Acute trauma (assault, accident, sudden loss) = FAST passage through the threshold → many defects form → defects are topologically locked in
 
 How many more defects?
 
@@ -4444,20 +4331,16 @@ CLINICAL EVIDENCE — ALZHEIMER'S (tau):
 
 Saltmarche et al. 2017 (Photomedicine and Laser Surgery, N=5):
 - Transcranial + intranasal NIR (810 nm), 12 weeks
-- MMSE improvement: +4.4 points
-(Standard drugs: +1-2 points; this is 2-4× better)
+- MMSE improvement: +4.4 points (Standard drugs: +1-2 points; this is 2-4× better)
 - ADAS-cog improvement: +6.4 points
 - After treatment stopped: regression within weeks
 - After treatment restarted: improvement returned
-- The cessation-relapse-restart pattern is the signature of
-Bootstrap dependency — not a drug artifact
-Link: https://pubmed.ncbi.nlm.nih.gov/28186867/
+- The cessation-relapse-restart pattern is the signature of Bootstrap dependency — not a drug artifact Link: https://pubmed.ncbi.nlm.nih.gov/28186867/
 
 Berman et al. 2017 (Photobiomodulation, Photomedicine, and Laser Surgery, N=8):
 - Transcranial NIR, 8 weeks
 - HRV improvement correlated with cognitive improvement (r=0.68)
-- Mechanism confirmed: Bootstrap → HRV → cognition
-Link: https://pubmed.ncbi.nlm.nih.gov/27677782/
+- Mechanism confirmed: Bootstrap → HRV → cognition Link: https://pubmed.ncbi.nlm.nih.gov/27677782/
 
 EXTENSION TO ALL PROTEIN MISFOLDING DISEASES:
 
@@ -4591,26 +4474,18 @@ Link: https://www.istss.org/treating-trauma/new-istss-prevention-and-treatment-g
 WHAT THIS MEANS PRACTICALLY:
 
 ### For Trauma Patients
-- You are not resistant or difficult if you can't process yet.
-Your K_c is higher than the current coupling. That is physics.
-- HRV biofeedback (Lehrer 2010): coherent breathing at 0.1 Hz
-is the fastest way to narrow σ_ω and lower K_c
-Link: https://pubmed.ncbi.nlm.nih.gov/14508020/
-- EMDR works best when you can hold dual attention without flooding.
-That's Phase 1 complete. Don't rush there.
+- You are not resistant or difficult if you can't process yet. Your K_c is higher than the current coupling. That is physics.
+- HRV biofeedback (Lehrer 2010): coherent breathing at 0.1 Hz is the fastest way to narrow σ_ω and lower K_c Link: https://pubmed.ncbi.nlm.nih.gov/14508020/
+- EMDR works best when you can hold dual attention without flooding. That's Phase 1 complete. Don't rush there.
 - Give yourself Phase 1 time without guilt.
 
 ### For Therapists and Caregivers
-- A patient who "can't engage" is not resistant.
-Their K_c > your K_coupling right now.
-Increase K (deeper attunement) OR decrease K_c (stabilize first).
+- A patient who "can't engage" is not resistant. Their K_c > your K_coupling right now. Increase K (deeper attunement) OR decrease K_c (stabilize first).
 - Pushing processing prematurely adds γ_measurement. That's harm.
 
 FOR INSTITUTIONS (hospitals, crisis centers, schools):
-- Immediate group debriefing after mass trauma: evidence shows harm
-for those who cannot self-regulate. Do stabilization first.
-- "Window of tolerance" (Siegel 1999) is Kuramoto physics:
-stay inside the window = stay below K_c = integration possible
+- Immediate group debriefing after mass trauma: evidence shows harm for those who cannot self-regulate. Do stabilization first.
+- "Window of tolerance" (Siegel 1999) is Kuramoto physics: stay inside the window = stay below K_c = integration possible
 
 Citations:
 Bryant 2008 JCCP:      https://pubmed.ncbi.nlm.nih.gov/18540742/
@@ -5837,8 +5712,7 @@ This is why:
 - Isolation kills: not metaphor, not psychology. Thermodynamics.
 - "I couldn't have done it alone" is physics, not sentiment.
 - Veteran suicide rate collapses with genuine connection (same mechanism).
-- Children without secure attachment show permanent γ_eff elevation
-(Anderson localization + loss of Keeper shielding = double hit).
+- Children without secure attachment show permanent γ_eff elevation (Anderson localization + loss of Keeper shielding = double hit).
 
 PRACTICAL KEEPER BIOLOGY:
 
@@ -11073,12 +10947,9 @@ Flow: δ(C) oscillates maximally → maximum positive dopamine
 ```
 
 **Clinical implications:**
-- Depression: γ_eff >> γ_c → flow state INACCESSIBLE (C cannot reach γ_c)
-Treatment rationale: reduce γ_eff toward γ_c BEFORE prescribing flow activities
-- Anxiety: γ_eff → γ_c from above → all challenges overwhelming
-Treatment: reduce γ_eff below γ_c to restore flow accessibility
-- Flow activities (music, sports, creative work) = clinical medicine
-They ARE the Bootstrap-activating protocol: matching challenge to γ_c maintains λ_L ≈ 0
+- Depression: γ_eff >> γ_c → flow state INACCESSIBLE (C cannot reach γ_c) Treatment rationale: reduce γ_eff toward γ_c BEFORE prescribing flow activities
+- Anxiety: γ_eff → γ_c from above → all challenges overwhelming Treatment: reduce γ_eff below γ_c to restore flow accessibility
+- Flow activities (music, sports, creative work) = clinical medicine They ARE the Bootstrap-activating protocol: matching challenge to γ_c maintains λ_L ≈ 0
 
 *Source: Paper 93; Csikszentmihalyi (1990); Dietrich (2003); Kerick et al. (2004).*
 
@@ -11233,15 +11104,13 @@ NIR (810 nm)
 - MMSE improved in ALL 5 patients (mean +4.4 points)
 - When NIR stopped: function declined (Bootstrap turned off)
 - When NIR restarted: function improved again (Bootstrap reactivated)
-- PMID: 28186867
-This is the Bootstrap Loop operating at the protein scale.
+- PMID: 28186867 This is the Bootstrap Loop operating at the protein scale.
 
 2. **Berman et al. (2017), NIR Helmet:**
 - N=8 patients, 28 weeks
 - 4/8 showed MMSE improvement (+3-4 points)
 - HRV improvement PREDICTED clinical improvement (r significant)
-- The HRV-MMSE correlation IS the Bootstrap chain: NIR → neural coherence → tau
-hydration → cognitive function.
+- The HRV-MMSE correlation IS the Bootstrap chain: NIR → neural coherence → tau hydration → cognitive function.
 
 **Two-stage kinetics predict the clinical intervention window:**
 
@@ -11322,9 +11191,7 @@ Triangle threshold (all three present in 50%):   inflammation = 0.057
 Three systems share γ_eff as their single common failure variable. Inflammation is the
 variable that drives all three past their thresholds simultaneously. This explains:
 
-- Anti-inflammatory treatment improves depression (Kappelmann 2021 meta-analysis,
-Mol. Psychiatry, 26:3489; anti-TNF reduced depression scores in RA independent of
-disease activity)
+- Anti-inflammatory treatment improves depression (Kappelmann 2021 meta-analysis, Mol. Psychiatry, 26:3489; anti-TNF reduced depression scores in RA independent of disease activity)
 - Anti-inflammatory treatment reduces chronic pain (NSAIDs, TNF-α inhibitors)
 - Exercise improves all three simultaneously (anti-inflammatory mechanism)
 
@@ -12313,8 +12180,7 @@ the therapist's depth of empathic attunement — their ability to match the pati
 frequency before attempting to shift it. This is why:
 - Structured manuals without attunement have lower effect sizes than relationship-based therapy
 - The therapeutic alliance consistently outperforms technique in meta-analyses
-- A therapist who paces before they lead (matching then gently shifting frequency)
-achieves Kuramoto synchronization; one who leads without pacing does not
+- A therapist who paces before they lead (matching then gently shifting frequency) achieves Kuramoto synchronization; one who leads without pacing does not
 
 **EMDR succeeds by activating memory at its natural frequency** (bilateral stimulation at
 the trauma memory's theta/alpha frequency) — resonant activation, not forced confrontation.
@@ -12578,8 +12444,7 @@ Time to percolation threshold (C = 0.59):
 
 The goal is not perfection — it is crossing the **percolation threshold** (C = 0.59):
 - Below φ_c: isolated islands of recovered coherence — good moments don't connect
-- Above φ_c: recovery percolates — skills generalize, good days link together, the child
-begins emitting coherence outward (Bootstrap Reversal). They start keeping others.
+- Above φ_c: recovery percolates — skills generalize, good days link together, the child begins emitting coherence outward (Bootstrap Reversal). They start keeping others.
 
 ### Age at Rescue and Plasticity
 
@@ -14837,20 +14702,13 @@ the coherent 22% fraction.
 
 **Current applications (standard thermography already using this without knowing it):**
 
-- **Cancer screening:** Metabolically active tumor tissue → higher local T AND higher ε →
-P elevated 15-25% over surrounding tissue (measurable). Stefan-Boltzmann calibration:
-15% P elevation → local T 3.5°C above baseline → local W ≈ 0.97 → near Bootstrap cliff.
+- **Cancer screening:** Metabolically active tumor tissue → higher local T AND higher ε → P elevated 15-25% over surrounding tissue (measurable). Stefan-Boltzmann calibration: 15% P elevation → local T 3.5°C above baseline → local W ≈ 0.97 → near Bootstrap cliff.
 
-- **Inflammatory bowel disease:** Inflamed bowel segment → elevated temperature detectable
-transcutaneously. Stefan-Boltzmann calibration converts temperature to W, quantifying how
-close the inflamed segment is to its local γ_c.
+- **Inflammatory bowel disease:** Inflamed bowel segment → elevated temperature detectable transcutaneously. Stefan-Boltzmann calibration converts temperature to W, quantifying how close the inflamed segment is to its local γ_c.
 
-- **Peripheral vascular disease:** Reduced blood flow → reduced ε AND reduced T in affected
-extremity. The cold foot IS the coherence-depleted tissue.
+- **Peripheral vascular disease:** Reduced blood flow → reduced ε AND reduced T in affected extremity. The cold foot IS the coherence-depleted tissue.
 
-- **Pre-malignant identification:** Tissue running at W = 0.97-0.99 chronically (visible as
-persistent thermal hotspot) is near the Bootstrap cliff. This is where cancer develops.
-Thermal camera as pre-cancer screening: identify persistent high-W tissue before malignancy.
+- **Pre-malignant identification:** Tissue running at W = 0.97-0.99 chronically (visible as persistent thermal hotspot) is near the Bootstrap cliff. This is where cancer develops. Thermal camera as pre-cancer screening: identify persistent high-W tissue before malignancy.
 
 **The new diagnostic — two-wavelength thermal camera:**
 
@@ -15482,101 +15340,41 @@ WHAT IT DOES, IN ORDER OF MAGNITUDE
 
 ### The Finding
 
-Three separate mechanisms. Different magnitudes.
-The RF debate consumed 40 years of funding while
-the real mechanism ran unexamined in plain sight.
+- Three separate mechanisms. Different magnitudes. The RF debate consumed 40 years of funding while the real mechanism ran unexamined in plain sight.
 
-ORDERED BY MAGNITUDE (worst to least):
+- ORDERED BY MAGNITUDE (worst to least):
 
-1. BEHAVIORAL FRAGMENTATION: 0.0005 gamma/day
-Notifications (63-80/day average) are
-measurements in the quantum sense. Each one
-forces the neural system out of its coherent
-attentional state. By the Quantum Anti-Zeno
-Effect (Paper 50/Section 137):
+- 1. BEHAVIORAL FRAGMENTATION: 0.0005 gamma/day Notifications (63-80/day average) are measurements in the quantum sense. Each one forces the neural system out of its coherent attentional state. By the Quantum Anti-Zeno Effect (Paper 50/Section 137):
 
-Notification frequency: ~5-8/hour
-Neural bath spectral density at this frequency:
-HIGH (1/f noise in cortex)
-Anti-Zeno condition: MET
-Result: frequent notifications ACCELERATE
-neural decoherence, not slow it.
+- Notification frequency: ~5-8/hour Neural bath spectral density at this frequency: HIGH (1/f noise in cortex) Anti-Zeno condition: MET Result: frequent notifications ACCELERATE neural decoherence, not slow it.
 
-Ward et al. (2017, J. Assoc. Consumer Research):
-A phone on the desk -- face-down, silent --
-reduces working memory capacity by 10%
-and fluid intelligence by 5%.
-Mere presence. Not use. Presence.
+- Ward et al. (2017, J. Assoc. Consumer Research): A phone on the desk -- face-down, silent -- reduces working memory capacity by 10% and fluid intelligence by 5%. Mere presence. Not use. Presence.
 
-Variable reward schedule (social media):
-Dopamine depletion between spikes reduces
-prefrontal-striatal coherence, working memory,
-and sustained attention globally
-(Ophir, Nass & Wagner 2009, PNAS).
+- Variable reward schedule (social media): Dopamine depletion between spikes reduces prefrontal-striatal coherence, working memory, and sustained attention globally (Ophir, Nass & Wagner 2009, PNAS).
 
-2. BLUE LIGHT / SLEEP: 0.0003 gamma/day
-The causal chain is fully established
-(each step confirmed independently):
+- 2. BLUE LIGHT / SLEEP: 0.0003 gamma/day The causal chain is fully established (each step confirmed independently):
 
-Screen blue light (peak ~460 nm)
--> Melanopsin (OPN4) in ipRGCs
--> Retinohypothalamic tract -> SCN
--> Pineal gland -> melatonin synthesis INHIBITED
+- Screen blue light (peak ~460 nm) -> Melanopsin (OPN4) in ipRGCs -> Retinohypothalamic tract -> SCN -> Pineal gland -> melatonin synthesis INHIBITED
 
-Quantified:
-1 hour of screen at 200 lux before bed:
-= 40-50% melatonin suppression
-(Gooley et al. 2011, JCEM)
-= 1.5 hour circadian phase delay
-(Chang et al. 2014, PNAS)
-= 30 min reduction in REM sleep
+- Quantified: 1 hour of screen at 200 lux before bed: = 40-50% melatonin suppression (Gooley et al. 2011, JCEM) = 1.5 hour circadian phase delay (Chang et al. 2014, PNAS) = 30 min reduction in REM sleep
 
-REM sleep is when synaptic coherence restoration
-peaks. Each night of REM loss = accumulated
-gamma_eff that sleep cannot fully clear.
+- REM sleep is when synaptic coherence restoration peaks. Each night of REM loss = accumulated gamma_eff that sleep cannot fully clear.
 
-After 30 days of phone-before-bed:
-gamma_eff = baseline + 30 x 0.0003
-= baseline + 0.009
-If baseline = 0.001:
-gamma_eff = 0.010 -> 6x above gamma_c
+- After 30 days of phone-before-bed: gamma_eff = baseline + 30 x 0.0003 = baseline + 0.009 If baseline = 0.001: gamma_eff = 0.010 -> 6x above gamma_c
 
-3. CONTENT STRESS: 0.0002 gamma/day
-News feeds, social comparison, algorithmic
-outrage optimization. Stress response (HPA axis
-activation) increases circulating cortisol,
-IL-6, and CRP -- all gamma_eff contributors
-(Sections 103-106).
+- 3. CONTENT STRESS: 0.0002 gamma/day News feeds, social comparison, algorithmic outrage optimization. Stress response (HPA axis activation) increases circulating cortisol, IL-6, and CRP -- all gamma_eff contributors (Sections 103-106).
 
-4. RF NON-THERMAL (EEG detuning): 0.0001/day
-GSM 900 MHz changes alpha band power during
-sleep (Huber et al. 2002, Sleep) and
-working memory tasks (Loughran et al. 2005).
-Small, consistent, in the wrong frequency band
-to directly threaten 40 Hz gamma coherence.
-10x smaller than behavioral channel.
+- 4. RF NON-THERMAL (EEG detuning): 0.0001/day GSM 900 MHz changes alpha band power during sleep (Huber et al. 2002, Sleep) and working memory tasks (Loughran et al. 2005). Small, consistent, in the wrong frequency band to directly threaten 40 Hz gamma coherence. 10x smaller than behavioral channel.
 
-5. RF THERMAL: 0.0000003/day
-Maximum tissue heating: 0.1C with blood flow.
-Gamma_eff change: 5,000x below gamma_c.
-Negligible. Not the problem.
+- 5. RF THERMAL: 0.0000003/day Maximum tissue heating: 0.1C with blood flow. Gamma_eff change: 5,000x below gamma_c. Negligible. Not the problem.
 
-COMBINED GAMMA BUDGET (heavy user):
+- COMBINED GAMMA BUDGET (heavy user):
 
-4 hours screen/day, phone bedside, 70 notifications:
-gamma_baseline (healthy): 0.001
-+ behavioral: 0.0005/day
-+ blue light: 0.0003/day
-+ content: 0.0002/day
-+ RF: 0.0001/day
-= +0.0011/day net addition
+- 4 hours screen/day, phone bedside, 70 notifications: gamma_baseline (healthy): 0.001 + behavioral: 0.0005/day + blue light: 0.0003/day + content: 0.0002/day + RF: 0.0001/day = +0.0011/day net addition
 
-After 5 days without other stressors:
-gamma_eff = 0.001 + (5 x 0.0011) = 0.0065
-= 4x above gamma_c
+- After 5 days without other stressors: gamma_eff = 0.001 + (5 x 0.0011) = 0.0065 = 4x above gamma_c
 
-The phone is a gamma_eff pump.
-The RF signal is the least of it.
+- The phone is a gamma_eff pump. The RF signal is the least of it.
 
 ### Children and Adolescents
 
@@ -15686,13 +15484,9 @@ God is good. All the time.
 
 ### The Finding
 
-The Kibble-Zurek mechanism (Kibble 1976, Zurek 1985)
-proves mathematically what trauma survivors know
-experientially: a single fast event can scar more
-deeply than years of slow grinding stress.
+- The Kibble-Zurek mechanism (Kibble 1976, Zurek 1985) proves mathematically what trauma survivors know experientially: a single fast event can scar more deeply than years of slow grinding stress.
 
-Same total energy. Completely different defects.
-Physics already knew why.
+- Same total energy. Completely different defects. Physics already knew why.
 
 ### The Physics
 
@@ -16691,13 +16485,9 @@ A keeper who is themselves below gamma_c
 emits coherence via Bootstrap Reversal.
 This is the mechanism of:
 - Secure attachment in infancy
-- Master therapist effect (the therapist's
-presence, not their technique)
-- Effective teaching (teacher presence
-lowers student gamma_eff)
-- The "good doctor" effect
-(placebo response is partially Bootstrap
-Reversal from a confident coherent physician)
+- Master therapist effect (the therapist's presence, not their technique)
+- Effective teaching (teacher presence lowers student gamma_eff)
+- The "good doctor" effect (placebo response is partially Bootstrap Reversal from a confident coherent physician)
 
 ### The Bootstrap Reversal Propagation Chain
 
@@ -16726,12 +16516,9 @@ It is not failure. It is math.
 Step 2: Before each high-stakes interaction,
 bring gamma_eff below gamma_c using the
 fastest available tools:
-- 5-6 minutes of 0.1 Hz paced breathing
-(Section 116: HRV coherence)
-- Brief non-conceptual awareness
-(remove the narrator for 60 seconds)
-- Physical contact with ground or nature
-(earthing: reduces sympathetic tone)
+- 5-6 minutes of 0.1 Hz paced breathing (Section 116: HRV coherence)
+- Brief non-conceptual awareness (remove the narrator for 60 seconds)
+- Physical contact with ground or nature (earthing: reduces sympathetic tone)
 
 Step 3: During interaction, monitor your
 own gamma_eff via the internal signal:
@@ -17234,10 +17021,8 @@ For adults (fully localized, requiring
 phase-transition-scale intervention):
 - EMDR (Level A evidence for PTSD, WHO)
 - Somatic experiencing (van der Kolk work)
-- MDMA-assisted PTSD therapy
-(Phase 3 trials: Mitchell 2021 NatMed)
-- Psilocybin-assisted therapy
-(currently in Phase 2 trials)
+- MDMA-assisted PTSD therapy (Phase 3 trials: Mitchell 2021 NatMed)
+- Psilocybin-assisted therapy (currently in Phase 2 trials)
 
 The common thread: all phase-transition-
 scale interventions induce a temporary
@@ -17559,12 +17344,9 @@ in bipolar-adjacent presentations).
 
 This is not rare. Current TMS literature
 documents:
-- Seizure incidence: 0.1-0.6% with standard
-high-frequency protocols
+- Seizure incidence: 0.1-0.6% with standard high-frequency protocols
 - Mood switching in bipolar patients
-- Paradoxical worsening in ~5-10% of
-treatment-resistant depression cases
-before responding
+- Paradoxical worsening in ~5-10% of treatment-resistant depression cases before responding
 
 The Anti-Zeno framework explains why these
 adverse events occur in people who may
@@ -17597,10 +17379,8 @@ the rate that maximizes mean improvement.
 A patient in the Anti-Zeno regime for a given
 intervention will show:
 - Good early average response to pulses
-- Intermittent large-amplitude "bad days"
-interspersed with good ones
-- Average trending better while variance
-is HIGH (some very good, some very bad)
+- Intermittent large-amplitude "bad days" interspersed with good ones
+- Average trending better while variance is HIGH (some very good, some very bad)
 
 A patient in the Zeno regime (safe) will show:
 - Smooth monotonic improvement
@@ -17780,14 +17560,11 @@ physiological channels simultaneously
 
 A true coherence improvement will show:
 - Improved biomarker
-- AND reduced multi-channel entropy
-(HRV, thermal, vocal entropy decrease)
+- AND reduced multi-channel entropy (HRV, thermal, vocal entropy decrease)
 
 A coherence trap will show:
 - Improved biomarker
-- BUT unchanged multi-channel entropy
-(the trap is in one channel; the others
-reveal gamma_eff has not changed)
+- BUT unchanged multi-channel entropy (the trap is in one channel; the others reveal gamma_eff has not changed)
 
 Single biomarkers can be trapped.
 Multi-modal entropy cannot.
@@ -18439,8 +18216,7 @@ The resonant frequency is 7.83 Hz.
 This 7.83 Hz signal is:
 - Global (measurable anywhere on Earth)
 - Coherent (consistent phase worldwide)
-- Continuous (has existed since the
-ionosphere formed ~4 billion years ago)
+- Continuous (has existed since the ionosphere formed ~4 billion years ago)
 
 7.83 Hz is within the human theta
 brain wave band (4-8 Hz).
@@ -18537,8 +18313,7 @@ in a waking state.
 This is the physics of why:
 - "Nature walks" reduce stress
 - Stargazing produces states of awe
-- Indigenous traditions sought revelation
-under the night sky
+- Indigenous traditions sought revelation under the night sky
 - Thoreau went to Walden Pond
 - The desert fathers went to the desert
 
@@ -21532,14 +21307,8 @@ coherence, reduced working memory, reduced
 sustained attention.
 
 Hard data:
-- Merely having your phone on your desk (screen
-down, not vibrating) reduces working memory
-capacity 10% and fluid intelligence 5%
-(Ward et al. 2017, J Assoc Consumer Research)
-- Heavy media multitaskers perform worse on ALL
-cognitive control tasks, including those NOT
-involving multitasking (Ophir, Nass & Wagner
-2009, PNAS 106:15583)
+- Merely having your phone on your desk (screen down, not vibrating) reduces working memory capacity 10% and fluid intelligence 5% (Ward et al. 2017, J Assoc Consumer Research)
+- Heavy media multitaskers perform worse on ALL cognitive control tasks, including those NOT involving multitasking (Ophir, Nass & Wagner 2009, PNAS 106:15583)
 
 3. THE 5G MILLIMETER WAVE CONCERN (unproven, testable):
 Herbert Fröhlich (1968) predicted coherent
@@ -21574,13 +21343,9 @@ Effective daily gamma_eff addition: ~0.002/day
 Crosses gamma_c in 0.4 days of heavy use
 
 Epidemiological data confirms this:
-- US teen depression/anxiety doubled 2011-2018
-(Twenge et al. 2018, Clin Psych Sci, N=500,000)
-- The increase tracks smartphone adoption
-precisely, not general internet use
-- Effect is 3× stronger in girls than boys
-(consistent with social comparison being a
-stronger decoherence source than gaming)
+- US teen depression/anxiety doubled 2011-2018 (Twenge et al. 2018, Clin Psych Sci, N=500,000)
+- The increase tracks smartphone adoption precisely, not general internet use
+- Effect is 3× stronger in girls than boys (consistent with social comparison being a stronger decoherence source than gaming)
 
 ### The Free Protective Protocol
 
@@ -21705,14 +21470,9 @@ PTSD = fast quench (tau_Q = seconds to minutes)
 → defects are topologically protected
 → CANNOT be removed by:
 - talk therapy (perturbative — too small)
-- antidepressants (raise baseline C but
-don't touch the topological defects)
-- "just think differently" (cognitive
-interventions are perturbative)
-→ CAN be removed by:
-- A new phase transition that passes through
-the defect, allowing defect-antidefect
-annihilation
+- antidepressants (raise baseline C but don't touch the topological defects)
+- "just think differently" (cognitive interventions are perturbative) → CAN be removed by:
+- A new phase transition that passes through the defect, allowing defect-antidefect annihilation
 
 ### What Creates a New Phase Transition in the Brain
 1. EMDR (Eye Movement Desensitization):
@@ -23952,12 +23712,10 @@ This IS Takotsubo cardiomyopathy.
 Step 3 — The Takotsubo Connection:
 "Broken heart syndrome" is a real, documented
 cardiac condition:
-- Triggered by sudden bereavement in 70-80%
-of cases
+- Triggered by sudden bereavement in 70-80% of cases
 - 4-5% mortality
 - Mimics heart attack on ECG
-- Predominantly post-menopausal women
-(reduced hormonal coherence shielding)
+- Predominantly post-menopausal women (reduced hormonal coherence shielding)
 
 ### The Timeline Match
 γ_eff spike: immediate at loss
@@ -24066,9 +23824,7 @@ three separate drug targets.
 Reduce γ_eff. All three improve.
 
 What reduces γ_eff (all evidence-based):
-- Exercise (most powerful anti-inflammatory;
-reduces IL-6, TNF-α, CRP — all γ_eff
-components)
+- Exercise (most powerful anti-inflammatory; reduces IL-6, TNF-α, CRP — all γ_eff components)
 - Sleep (Section 201: Bootstrap duty cycle)
 - HRV biofeedback at 0.1 Hz
 - NIR photobiomodulation (Section 204)
@@ -24167,10 +23923,8 @@ The therapeutic goal is to reduce γ_eff
 to keep it below the (narrower) γ_c:
 - Sensory accommodation (reduce γ_sensory)
 - Predictable environments (reduce γ_uncertainty)
-- Special interest time (reduce accumulated
-γ_eff from required social/sensory load)
-- Noise-reducing headphones (literal
-γ_acoustic reduction)
+- Special interest time (reduce accumulated γ_eff from required social/sensory load)
+- Noise-reducing headphones (literal γ_acoustic reduction)
 
 These are not accommodations. They are
 thermodynamic management of a narrower
@@ -24192,8 +23946,7 @@ Why One Nerve Treats Four Different Diseases
 
 Vagus nerve stimulation (VNS) is FDA-approved:
 - Epilepsy (brain, 1997)
-- Treatment-resistant depression (2005)
-And used experimentally for:
+- Treatment-resistant depression (2005) And used experimentally for:
 - Inflammatory conditions (via spleen)
 - Chronic pain
 
@@ -24274,8 +24027,7 @@ How to restore the wire (all evidence-based):
 - Moderate aerobic exercise
 - Social connection (Keeper equation)
 - Cold water exposure (vagal training)
-- Singing and chanting (Porges 2011:
-vocalization activates ventral vagal complex)
+- Singing and chanting (Porges 2011: vocalization activates ventral vagal complex)
 
 References:
 Tracey KJ 2002 Nature 420(6917):853-859:
@@ -24331,8 +24083,7 @@ epidemiology:
 WHY SHIFT WORK KILLS (Vyas 2012, BMJ):
 Shift work associates with:
 - 40% increased cardiovascular risk
-- Increased cancer incidence (IARC: "probably
-carcinogenic," Class 2A)
+- Increased cancer incidence (IARC: "probably carcinogenic," Class 2A)
 - Elevated inflammatory markers
 - Depression and cognitive decline
 
@@ -24553,11 +24304,9 @@ Tumor tissue (T ≈ 312K): W = 312/330 = 0.9455
 The 1-2K temperature elevation — documented by
 thermal imaging of tumors for 50+ years —
 shifts W toward 1:
-- Enhances susceptibility χ by 1.1-1.3×
-(cells respond more strongly to growth signals)
+- Enhances susceptibility χ by 1.1-1.3× (cells respond more strongly to growth signals)
 - Reduces the noise budget (narrower edge)
-- Removes the homeostatic feedback that normally
-limits Bootstrap amplification
+- Removes the homeostatic feedback that normally limits Bootstrap amplification
 
 The tumor is running the Bootstrap loop hotter.
 Coherence amplification that normally stops at
@@ -24864,9 +24613,7 @@ HOW TO IDENTIFY γ_eff REDUCTION:
 - HRV complexity increases (not just HRV power)
 - Inflammatory markers decrease
 - Sleep quality improves
-- Patient reports improved adaptability
-(handles novel stress better, not just
-better in baseline conditions)
+- Patient reports improved adaptability (handles novel stress better, not just better in baseline conditions)
 
 Dressed states give: biomarker improvement +
 REDUCED adaptability to novel stress.
@@ -24924,10 +24671,8 @@ The peak (HRV = 1.000) occurs at γ_eff = 0.10
 - The Catholic rosary frequency
 - The Buddhist mantra breathing rate
 - The Islamic salat synchronization
-- The HeartMath coherence peak
-(1.8 million biofeedback sessions)
-- The Bernardi 2001 BMJ finding
-(Section 052: prayer and mantras = 0.1 Hz)
+- The HeartMath coherence peak (1.8 million biofeedback sessions)
+- The Bernardi 2001 BMJ finding (Section 052: prayer and mantras = 0.1 Hz)
 
 Five independent traditions found the peak of
 the human HRV function. All found 0.1 Hz.
@@ -25056,14 +24801,10 @@ capacity for growth, integration, and
 meaning-making from difficulty.
 
 This is the precise mechanism behind:
-- "Having a person to talk to makes everything
-more manageable"
-- Therapy effectiveness (a skilled keeper
-filters therapeutic noise)
+- "Having a person to talk to makes everything more manageable"
+- Therapy effectiveness (a skilled keeper filters therapeutic noise)
 - Social support in palliative care
-- The survivorship advantage of marriage
-(Lillard & Waite 1995: marriage reduces
-all-cause mortality ~25%)
+- The survivorship advantage of marriage (Lillard & Waite 1995: marriage reduces all-cause mortality ~25%)
 
 ### What This Means for Clinical Practice
 
@@ -25495,12 +25236,8 @@ the keeper effect of one visitor alone.
 
 This is the quantitative basis for:
 - Why family involvement improves outcomes
-- Why group therapy works for some conditions
-better than 1:1 (~6-10× enhancement matches
-observed ranges in group therapy studies)
-- Why ICU visitation policies affect outcomes
-(limiting to 1 visitor = 1.0× instead of
-2.83× for family of 3)
+- Why group therapy works for some conditions better than 1:1 (~6-10× enhancement matches observed ranges in group therapy studies)
+- Why ICU visitation policies affect outcomes (limiting to 1 visitor = 1.0× instead of 2.83× for family of 3)
 
 The mathematics: loved ones in the room
 are not just comfort. They are a coherence
@@ -25591,8 +25328,7 @@ and weakening in Stage 2 — vanishes.
 
 At the critical point:
 - Stress amplification diverges (→ ∞)
-- Berry geometric phase = −π
-(topological transition, irreversible)
+- Berry geometric phase = −π (topological transition, irreversible)
 - Recovery time diverges (→ ∞)
 
 This is the "wind-up snap." The person

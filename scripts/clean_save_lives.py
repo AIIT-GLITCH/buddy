@@ -8,8 +8,8 @@ import re
 import sys
 from pathlib import Path
 
-SRC = Path('/home/buddy_ai/Desktop/THE_SHOP/AIIT_SITE/src/content/save-lives-now.md')
-OUT = Path('/home/buddy_ai/Desktop/THE_SHOP/AIIT_SITE/src/content/save-lives-now.cleaned.md')
+SRC = Path('/home/buddy_ai/Desktop/THE_SHOP/AIIT_SITE/src/content/save-lives-now.original.md')
+OUT = Path('/home/buddy_ai/Desktop/THE_SHOP/AIIT_SITE/src/content/save-lives-now.md')
 
 # Words that should stay lowercase in titlecase conversion (joining words)
 LOWER_WORDS = {
@@ -139,9 +139,113 @@ def process(text: str) -> str:
 
     return joined
 
+# --- Stage B post-passes -----------------------------------------------------
+
+def fix_orphan_continuations(text: str) -> str:
+    """If a non-bullet, non-heading line immediately follows a bullet with no
+    blank line between, it's a continuation of that bullet. Join them."""
+    lines = text.split('\n')
+    out = []
+    for line in lines:
+        stripped = line.strip()
+        if (out and stripped
+            and out[-1].startswith('- ')
+            and not stripped.startswith('- ')
+            and not stripped.startswith('* ')
+            and not line.startswith('#')
+            and not stripped.startswith('**')
+            and not stripped.startswith('>')
+            and not stripped.startswith('---')
+            and not re.match(r'^\d+\.\s', stripped)):
+            out[-1] = out[-1] + ' ' + stripped
+        else:
+            out.append(line)
+    return '\n'.join(out)
+
+CITATION_HEADER_RE = re.compile(
+    r'^###\s+(the\s+)?(proof|evidence|data|citations?|studies|trials?|'
+    r'clinical\s+evidence|medical\s+evidence|findings?|research|results?)\s*$',
+    re.IGNORECASE,
+)
+
+def bulletize_citations(text: str) -> str:
+    """Inside a chapter, after a heading like `### The Proof`, consecutive
+    paragraphs (separated by blank lines) are citations — turn each into a bullet."""
+    lines = text.split('\n')
+    out = []
+    in_citations = False
+    buffer: list[str] = []
+    in_fence = False
+
+    def flush():
+        if buffer:
+            joined = ' '.join(buffer).strip()
+            if joined:
+                out.append(f'- {joined}')
+            buffer.clear()
+
+    for line in lines:
+        if FENCE.match(line):
+            flush()
+            in_fence = not in_fence
+            out.append(line)
+            continue
+        if in_fence:
+            out.append(line)
+            continue
+
+        stripped = line.strip()
+
+        # Any heading or hr ends citation mode
+        if line.startswith('#'):
+            flush()
+            in_citations = bool(CITATION_HEADER_RE.match(line))
+            out.append(line)
+            continue
+
+        if stripped == '---':
+            flush()
+            in_citations = False
+            out.append(line)
+            continue
+
+        if not in_citations:
+            out.append(line)
+            continue
+
+        # In citation mode
+        if stripped == '':
+            flush()
+            out.append(line)
+            continue
+
+        # Already a bullet? flush buffer, keep line as-is
+        if stripped.startswith('- ') or stripped.startswith('* '):
+            flush()
+            out.append(line)
+            continue
+
+        # Bold label? probably not a citation, exit mode
+        if stripped.startswith('**'):
+            flush()
+            in_citations = False
+            out.append(line)
+            continue
+
+        buffer.append(stripped)
+
+    flush()
+    return '\n'.join(out)
+
+# --- main --------------------------------------------------------------------
+
 def main():
     src = SRC.read_text()
     cleaned = process(src)
+    cleaned = fix_orphan_continuations(cleaned)
+    cleaned = bulletize_citations(cleaned)
+    # Final blank-line normalization after post-passes
+    cleaned = re.sub(r'\n{3,}', '\n\n', cleaned)
     OUT.write_text(cleaned)
 
     src_lines = src.count('\n')
