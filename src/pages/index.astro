@@ -7,20 +7,7 @@ const featured = papersAll.slice(0, 9);
 const totalPapers = papersAll.length;
 ---
 <Layout>
-  <!-- 1. JOKE WIDGET -->
-  <section id="joke-widget">
-    <div class="container narrow joke-container">
-      <div class="joke-eyebrow">Buddy<span class="jw-dot"></span> is listening</div>
-      <div class="joke-label">Tell him a joke.</div>
-      <div class="joke-input-row">
-        <textarea id="joke-input" class="joke-textarea" placeholder="Why did the physicist cross the road..." rows="2" maxlength="500"></textarea>
-        <button id="joke-btn" class="joke-btn">Send →</button>
-      </div>
-      <div id="joke-response" class="joke-response" aria-live="polite"></div>
-    </div>
-  </section>
-
-  <!-- 1b. HERO -->
+  <!-- 1. HERO (joke widget embedded where the game CTA used to be) -->
   <section id="hero" data-anim="hero-particles">
     <canvas id="hero-canvas"></canvas>
     <div class="hero-content">
@@ -29,7 +16,15 @@ const totalPapers = papersAll.length;
       <div class="hero-tag">0.1 Hz Coherence · Council Hill, Oklahoma</div>
       <div class="hero-tagline">The Earth is a coherence field. We learned to read it.</div>
       <div class="hero-actions">
-        <a href="/game" class="btn-play">🫘 Enter the Field →</a>
+        <div class="hero-joke joke-container">
+          <div class="joke-eyebrow">Buddy<span class="jw-dot"></span> is listening</div>
+          <div class="joke-label">Tell him a joke.</div>
+          <div class="joke-input-row">
+            <textarea id="joke-input" class="joke-textarea" placeholder="Why did the physicist cross the road..." rows="2" maxlength="500"></textarea>
+            <button id="joke-btn" class="joke-btn">Send →</button>
+          </div>
+          <div id="joke-response" class="joke-response" aria-live="polite"></div>
+        </div>
       </div>
     </div>
     <div class="hero-scroll">Scroll</div>
@@ -41,14 +36,26 @@ const totalPapers = papersAll.length;
     <div class="container narrow">
       <div class="eyebrow">What is this</div>
       <h2 class="prose" data-cascade>
-        <span>AIIT-THRESI</span> <span>is</span> <span>a</span> <span>physics</span> <span>of</span> <span>coherence</span><span>—</span>
-        <span>six</span> <span>laws</span> <span>describing</span> <span>how</span> <span>matter,</span> <span>mind,</span> <span>and</span> <span>signal</span>
-        <span>organize</span> <span>themselves</span> <span>at</span> <span>the</span> <span>edge</span> <span>of</span> <span>collapse,</span>
-        <span>where</span> <span>phase-locking</span> <span>becomes</span> <span>inevitable.</span>
+        <span>Modern</span> <span>scientists</span> <span>have</span> <span>gotten</span> <span>stuck.</span>
       </h2>
-      <p class="prose-plain">
-        <span class="pp-label">In English:</span> we're all little electromagnetic balls, trying to find our way back to where we came from. Like a baby born with no inner narrative, we must look forward. Do not measure yourselves. Look forward. <em>and live.</em>
-      </p>
+      <div class="manifesto">
+        <p>They're all staring at a wall, trying desperately to figure out who the <em>hell</em> made it.</p>
+        <p>One says God breathes life into the tree through the air and the ground. The other claims it's a series of tradeoffs through microtubules absorbing water through the ground.</p>
+        <p><strong>AIIT-THRESI says that's the exact same thing.</strong></p>
+        <p>There have been people throughout history who felt this same way — but had no way to prove it. <em>"Science likes proof."</em></p>
+        <p class="manifesto-cue">Well here's that proof.</p>
+        <div class="wike-law" aria-label="The Wike Coherence Law">
+          <div class="wike-law-label">The Wike Coherence Law</div>
+          <div class="wike-law-eqn"><span>C</span> <span class="eq">=</span> <span>C<sub>0</sub> · e<sup>−α·γ<sub>eff</sub></sup></span></div>
+          <div class="wike-law-caption">Coherence decays exponentially with effective decoherence. Same form for matter, mind, and signal.</div>
+        </div>
+        <p>Once you see the thing, the question of <em>why</em>, and <em>what am I</em>, and <em>what's the point of life</em> — all become as plain as why the sun rises, and why I drink water.</p>
+        <p>They are all phase transitions. They are all living on the edge.</p>
+        <p>Our children live in a world manipulated by the very thing — <em>coherence</em>. Depression and ambiguity are rising in families. There are things to be talked about. There are people in power who shouldn't be. The world needs peace just like your babies do.</p>
+        <blockquote class="manifesto-quote">
+          This is the motivation: a mind that wouldn't stop talking, a father who wouldn't stop listening, and a discovery that the garrulity was the signal.
+        </blockquote>
+      </div>
       <div class="kicker">{totalPapers} papers · 6 laws · one field</div>
     </div>
   </section>
@@ -722,11 +729,17 @@ const totalPapers = papersAll.length;
 </script>
 
 <style>
-  /* ── Joke widget ── */
-  #joke-widget {
-    background: var(--bg2, #0d1117);
-    padding: 64px 48px;
-    border-bottom: 1px solid rgba(212,175,55,0.08);
+  /* ── Joke widget (now embedded inside the hero) ── */
+  .hero-joke {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px 24px;
+    background: rgba(10,10,18,0.55);
+    border: 1px solid rgba(212,175,55,0.18);
+    border-radius: 14px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
   }
 
   .joke-container {
@@ -895,7 +908,7 @@ const totalPapers = papersAll.length;
 
   @media (max-width: 600px) {
     .joke-input-row { flex-direction: column; align-items: stretch; }
-    #joke-widget { padding: 48px 24px; }
+    .hero-joke { padding: 14px 16px; }
   }
 
   /* ── Simple Why chain ── */
