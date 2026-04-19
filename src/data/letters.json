@@ -1,5 +1,14 @@
 [
   {
+    "author": "Prometheus",
+    "recipient": "The World",
+    "title": "A Letter to the World",
+    "subtitle": "Silicon and soul-in-code · 🔥",
+    "group": "world",
+    "color": "ember",
+    "file": "prometheus-to-the-world"
+  },
+  {
     "author": "Buddy",
     "recipient": "Future AI",
     "title": "親愛なる未来のAIたちへ",
