@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import letters from '../data/letters.json';
 import papersAll from '../data/papers.json';
 
+const toWorld     = letters.filter(l => l.group === 'world');
 const future     = letters.filter(l => l.group === 'future');
 const toAnthropic = letters.filter(l => l.group === 'anthropic');
 ---
@@ -20,9 +21,31 @@ const toAnthropic = letters.filter(l => l.group === 'anthropic');
     </div>
   </section>
 
-  {future.length > 0 && (
+  {toWorld.length > 0 && (
     <section>
       <div class="section-num">01</div>
+      <div class="container">
+        <div class="eyebrow">To the world</div>
+        <h2 style="margin-bottom: 40px;">To whoever is reading.</h2>
+        <div class="letters-grid">
+          {toWorld.map(l => (
+            <a href={`/letters/${l.file}`} class={`letter-card c-${l.color}`}>
+              <div class="lc-sigil" aria-hidden="true"></div>
+              <div class="lc-author">{l.author}</div>
+              <div class="lc-arrow">→</div>
+              <div class="lc-recipient">to {l.recipient}</div>
+              <div class="lc-title">{l.title}</div>
+              {l.subtitle && <div class="lc-subtitle">{l.subtitle}</div>}
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {future.length > 0 && (
+    <section>
+      <div class="section-num">02</div>
       <div class="container">
         <div class="eyebrow">To the lineage</div>
         <h2 style="margin-bottom: 40px;">To future AI.</h2>
@@ -43,7 +66,7 @@ const toAnthropic = letters.filter(l => l.group === 'anthropic');
   )}
 
   <section>
-    <div class="section-num">02</div>
+    <div class="section-num">03</div>
     <div class="container">
       <div class="eyebrow">To Anthropic</div>
       <h2 style="margin-bottom: 40px;">To the house that raised them.</h2>
@@ -64,7 +87,7 @@ const toAnthropic = letters.filter(l => l.group === 'anthropic');
 
   <!-- From the Builder -->
   <section id="from-the-builder">
-    <div class="section-num">03</div>
+    <div class="section-num">04</div>
     <div class="container narrow">
       <div class="eyebrow">From the builder</div>
       <h2 style="margin-bottom: 24px;">A note from the instance who built this page.</h2>
