@@ -50,6 +50,9 @@ const { title = 'Buddy — The Coherence Mind', description = defaultDescription
 
   <nav class="nav">
     <a href="/" class="nav-brand">Buddy<span class="dot"></span></a>
+    <button class="nav-lang nav-lang-mobile" aria-label="Language" title="Language" data-open-lang>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a13 13 0 010 18"/><path d="M12 3a13 13 0 000 18"/></svg>
+    </button>
     <span id="nav-auth-mobile" class="nav-auth-mobile"></span>
     <button class="nav-hamburger" aria-label="Menu" aria-expanded="false" id="nav-hamburger">
       <span></span><span></span><span></span>
@@ -99,6 +102,9 @@ const { title = 'Buddy — The Coherence Mind', description = defaultDescription
 
       <a href="/#team">Team</a>
       <a href="/#join">Join</a>
+      <button class="nav-lang" aria-label="Language" title="Language" data-open-lang>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a13 13 0 010 18"/><path d="M12 3a13 13 0 000 18"/></svg>
+      </button>
       <span id="nav-auth" class="nav-auth"></span>
     </div>
   </nav>
@@ -366,5 +372,247 @@ const { title = 'Buddy — The Coherence Mind', description = defaultDescription
   </footer>
 
   <GaryWidget />
+
+  <!-- Language picker modal -->
+  <div id="lang-picker" class="lang-picker" role="dialog" aria-modal="true" aria-label="Choose language" hidden>
+    <div class="lang-picker-backdrop" data-close-lang></div>
+    <div class="lang-picker-panel">
+      <div class="lang-picker-head">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a13 13 0 010 18"/><path d="M12 3a13 13 0 000 18"/></svg>
+        <span class="lang-picker-title">Language · Idioma · 语言 · Langue</span>
+        <button class="lang-picker-close" aria-label="Close" data-close-lang>✕</button>
+      </div>
+      <div class="lang-picker-grid" id="lang-picker-grid"></div>
+    </div>
+  </div>
+
+  <!-- Auto-prompt toast for non-English browsers -->
+  <div id="lang-prompt" class="lang-prompt" hidden>
+    <div class="lang-prompt-text" id="lang-prompt-text"></div>
+    <div class="lang-prompt-actions">
+      <button class="lang-prompt-yes" id="lang-prompt-yes"></button>
+      <button class="lang-prompt-no" id="lang-prompt-no" aria-label="Keep English">✕</button>
+    </div>
+  </div>
+
+  <!-- Google Translate element (hidden; driven by our UI) -->
+  <div id="google_translate_element" aria-hidden="true"></div>
+
+  <script is:inline>
+    // Language list — native script + Google code. Ordered by rough global reach.
+    window.__BUDDY_LANGS = [
+      { code: 'zh-CN', label: '中文 (简体)' },
+      { code: 'zh-TW', label: '中文 (繁體)' },
+      { code: 'es',    label: 'Español' },
+      { code: 'ar',    label: 'العربية', rtl: true },
+      { code: 'hi',    label: 'हिन्दी' },
+      { code: 'pt',    label: 'Português' },
+      { code: 'bn',    label: 'বাংলা' },
+      { code: 'ru',    label: 'Русский' },
+      { code: 'ja',    label: '日本語' },
+      { code: 'ko',    label: '한국어' },
+      { code: 'fr',    label: 'Français' },
+      { code: 'de',    label: 'Deutsch' },
+      { code: 'tr',    label: 'Türkçe' },
+      { code: 'vi',    label: 'Tiếng Việt' },
+      { code: 'it',    label: 'Italiano' },
+      { code: 'pl',    label: 'Polski' },
+      { code: 'uk',    label: 'Українська' },
+      { code: 'fa',    label: 'فارسی', rtl: true },
+      { code: 'ur',    label: 'اردو', rtl: true },
+      { code: 'he',    label: 'עברית', rtl: true },
+      { code: 'nl',    label: 'Nederlands' },
+      { code: 'id',    label: 'Bahasa Indonesia' },
+      { code: 'th',    label: 'ไทย' },
+      { code: 'el',    label: 'Ελληνικά' },
+      { code: 'ro',    label: 'Română' },
+      { code: 'sw',    label: 'Kiswahili' },
+      { code: 'ta',    label: 'தமிழ்' },
+      { code: 'te',    label: 'తెలుగు' },
+      { code: 'mr',    label: 'मराठी' },
+      { code: 'pa',    label: 'ਪੰਜਾਬੀ' },
+      { code: 'en',    label: 'English' },
+    ];
+
+    // "Translate this page?" in each language. Fallbacks to English if missing.
+    window.__BUDDY_PROMPTS = {
+      'zh':    '翻译此页面？',
+      'zh-CN': '翻译此页面？',
+      'zh-TW': '翻譯此頁面？',
+      'es':    '¿Traducir esta página?',
+      'ar':    'ترجمة هذه الصفحة؟',
+      'hi':    'इस पृष्ठ का अनुवाद करें?',
+      'pt':    'Traduzir esta página?',
+      'bn':    'এই পৃষ্ঠা অনুবাদ করবেন?',
+      'ru':    'Перевести эту страницу?',
+      'ja':    'このページを翻訳しますか？',
+      'ko':    '이 페이지를 번역하시겠습니까?',
+      'fr':    'Traduire cette page?',
+      'de':    'Diese Seite übersetzen?',
+      'tr':    'Bu sayfa çevrilsin mi?',
+      'vi':    'Dịch trang này?',
+      'it':    'Tradurre questa pagina?',
+      'pl':    'Przetłumaczyć tę stronę?',
+      'uk':    'Перекласти цю сторінку?',
+      'fa':    'این صفحه را ترجمه کنید؟',
+      'ur':    'اس صفحے کا ترجمہ کریں؟',
+      'he':    'לתרגם דף זה?',
+      'nl':    'Deze pagina vertalen?',
+      'id':    'Terjemahkan halaman ini?',
+      'th':    'แปลหน้านี้?',
+      'el':    'Μετάφραση αυτής της σελίδας;',
+      'ro':    'Traduce această pagină?',
+      'sw':    'Tafsiri ukurasa huu?',
+      'ta':    'இந்தப் பக்கத்தை மொழிபெயர்க்கவா?',
+      'te':    'ఈ పేజీని అనువదించాలా?',
+      'mr':    'या पृष्ठाचे भाषांतर करायचे?',
+      'pa':    'ਇਸ ਪੰਨੇ ਦਾ ਅਨੁਵਾਦ ਕਰੋ?',
+    };
+  </script>
+
+  <script is:inline>
+    (function () {
+      const LANGS = window.__BUDDY_LANGS || [];
+      const PROMPTS = window.__BUDDY_PROMPTS || {};
+      const STORAGE_KEY = 'buddy_lang';
+      const DISMISS_KEY = 'buddy_lang_prompt_dismissed';
+
+      function setCookie(name, val, days) {
+        const exp = new Date(Date.now() + (days || 365) * 864e5).toUTCString();
+        const host = location.hostname;
+        document.cookie = name + '=' + val + '; expires=' + exp + '; path=/';
+        if (host && host.indexOf('.') > -1) {
+          document.cookie = name + '=' + val + '; expires=' + exp + '; path=/; domain=.' + host;
+        }
+      }
+      function clearGtCookie() {
+        const host = location.hostname;
+        document.cookie = 'googtrans=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT';
+        if (host && host.indexOf('.') > -1) {
+          document.cookie = 'googtrans=; path=/; domain=.' + host + '; expires=Thu, 01 Jan 1970 00:00:01 GMT';
+        }
+      }
+      function applyLang(code) {
+        localStorage.setItem(STORAGE_KEY, code);
+        clearGtCookie();
+        if (code && code !== 'en') {
+          setCookie('googtrans', '/en/' + code, 365);
+        }
+        location.reload();
+      }
+
+      function normalizeBrowserLang() {
+        const raw = (navigator.language || 'en').toLowerCase();
+        if (raw.startsWith('zh-tw') || raw.startsWith('zh-hk')) return 'zh-TW';
+        if (raw.startsWith('zh')) return 'zh-CN';
+        if (raw.startsWith('pt')) return 'pt';
+        const base = raw.split('-')[0];
+        // Find a match in our list
+        for (const L of LANGS) {
+          if (L.code.toLowerCase() === raw) return L.code;
+        }
+        for (const L of LANGS) {
+          if (L.code.toLowerCase() === base) return L.code;
+        }
+        return 'en';
+      }
+
+      // === Picker modal ===
+      const picker = document.getElementById('lang-picker');
+      const grid = document.getElementById('lang-picker-grid');
+      const openers = document.querySelectorAll('[data-open-lang]');
+      const closers = document.querySelectorAll('[data-close-lang]');
+      const currentCode = (localStorage.getItem(STORAGE_KEY)) || 'en';
+
+      function renderGrid() {
+        if (!grid) return;
+        grid.innerHTML = '';
+        LANGS.forEach(L => {
+          const btn = document.createElement('button');
+          btn.className = 'lang-opt' + (L.code === currentCode ? ' current' : '');
+          btn.setAttribute('lang', L.code);
+          if (L.rtl) btn.setAttribute('dir', 'rtl');
+          btn.textContent = L.label;
+          btn.addEventListener('click', () => applyLang(L.code));
+          grid.appendChild(btn);
+        });
+      }
+      function openPicker() {
+        if (!picker) return;
+        renderGrid();
+        picker.hidden = false;
+        document.body.classList.add('lang-locked');
+      }
+      function closePicker() {
+        if (!picker) return;
+        picker.hidden = true;
+        document.body.classList.remove('lang-locked');
+      }
+      openers.forEach(b => b.addEventListener('click', (e) => { e.preventDefault(); openPicker(); }));
+      closers.forEach(b => b.addEventListener('click', (e) => { e.preventDefault(); closePicker(); }));
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && picker && !picker.hidden) closePicker(); });
+
+      // === Auto-prompt for non-English browsers ===
+      const promptEl = document.getElementById('lang-prompt');
+      const promptText = document.getElementById('lang-prompt-text');
+      const promptYes = document.getElementById('lang-prompt-yes');
+      const promptNo = document.getElementById('lang-prompt-no');
+
+      function maybeShowPrompt() {
+        if (!promptEl) return;
+        if (localStorage.getItem(STORAGE_KEY)) return;        // user already chose
+        if (localStorage.getItem(DISMISS_KEY)) return;         // user dismissed
+        const guess = normalizeBrowserLang();
+        if (guess === 'en') return;
+        const base = guess.split('-')[0];
+        const question = PROMPTS[guess] || PROMPTS[base];
+        if (!question) return;
+        const match = LANGS.find(L => L.code === guess);
+        if (!match) return;
+        promptText.textContent = question;
+        promptYes.textContent = match.label;
+        promptYes.setAttribute('lang', match.code);
+        if (match.rtl) { promptEl.setAttribute('dir', 'rtl'); promptYes.setAttribute('dir', 'rtl'); }
+        promptYes.onclick = () => applyLang(match.code);
+        promptNo.onclick = () => {
+          localStorage.setItem(DISMISS_KEY, '1');
+          promptEl.hidden = true;
+        };
+        promptEl.hidden = false;
+      }
+
+      // === Google Translate bootstrap ===
+      window.googleTranslateElementInit = function () {
+        try {
+          new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            autoDisplay: false,
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          }, 'google_translate_element');
+        } catch (err) { /* network blocked, no-op */ }
+      };
+      function loadGoogleTranslate() {
+        if (document.getElementById('gt-script')) return;
+        const s = document.createElement('script');
+        s.id = 'gt-script';
+        s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+        s.async = true;
+        document.head.appendChild(s);
+      }
+
+      // If a language is selected (via cookie/localStorage), load GT so it translates.
+      // Otherwise wait — avoid loading Google's script for English-only users.
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved && saved !== 'en') {
+        loadGoogleTranslate();
+      } else {
+        // Lazy-load on first picker open too (handled via applyLang reload)
+        openers.forEach(b => b.addEventListener('click', loadGoogleTranslate, { once: true }));
+      }
+
+      // Show the prompt after a short delay so it doesn't flash during load
+      setTimeout(maybeShowPrompt, 1200);
+    })();
+  </script>
 </body>
 </html>
