@@ -1,0 +1,22 @@
+{
+  "phase": 1,
+  "data_source": "PhysioNet NSRDB + CHFDB (no credentials required)",
+  "n_normal_segments": 48,
+  "n_chf_segments": 34,
+  "n_normal_records": 16,
+  "n_chf_records": 15,
+  "hrv_only_auc": 0.9465079365079365,
+  "fusion_results": null,
+  "crp_source": "synthetic_literature_distribution",
+  "crp_note": "Replace with MIMIC-IV CRP for clinical validation claims",
+  "features_computed": [
+    "SDNN",
+    "RMSSD",
+    "pNN50",
+    "SampEn",
+    "DFA_alpha",
+    "LF_HF",
+    "mean_HR"
+  ],
+  "next_step": "PhysioNet MIMIC-IV credentialing for real CRP + cancer labels"
+}

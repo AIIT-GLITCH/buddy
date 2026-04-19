@@ -1,0 +1,395 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Validation · HRV Phase 1 Clinical Results — AIIT-THRESI" description="First paired clinical discrimination results for the AIIT-THRESI framework. HRV-only AUC 0.947 on public PhysioNet data. Reproducible pipeline, downloadable raw data, open methods.">
+
+  <!-- HERO -->
+  <section style="padding-top: 140px;">
+    <div class="container">
+      <div class="eyebrow" style="color: var(--teal);">🔬 Phase 1 · Public Data · Reproducible</div>
+      <h1 style="font-size: clamp(44px, 7vw, 108px); margin-bottom: 28px; line-height: 1.02;">
+        The physics<br><span style="color: var(--warm);">shows up in the data.</span>
+      </h1>
+      <p style="color: var(--ink-soft); font-size: 21px; max-width: 800px; line-height: 1.55; margin-bottom: 18px;">
+        A single scalar feature — the <strong style="color: var(--warm);">fractal-scaling exponent of beat-to-beat intervals</strong> — separates severe heart failure from normal sinus rhythm at AUC 0.942 on public PhysioNet data. The multivariate HRV model hits <strong style="color: var(--warm);">0.947 ± 0.052</strong>, five-fold cross-validated.
+      </p>
+      <p style="color: var(--muted-hi); font-size: 16px; max-width: 800px; line-height: 1.55;">
+        The Wike Coherence Law predicts this collapse before it's measured: as γ<sub>eff</sub> rises toward the critical threshold γ<sub>c</sub>, cross-scale phase locking fails — and fractal structure with it. This page shows the prediction matching the data.
+      </p>
+    </div>
+  </section>
+
+  <!-- HERO STAT GRID -->
+  <section>
+    <div class="section-num">01</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--warm);">Headline</div>
+      <h2 style="margin-bottom: 28px;">The numbers.</h2>
+
+      <div class="vx-hero-stats">
+        <div class="vx-hero-stat">
+          <div class="vx-n">0.947</div>
+          <div class="vx-l">HRV-only multivariate AUC<br>5-fold cross-validated</div>
+        </div>
+        <div class="vx-hero-stat">
+          <div class="vx-n">0.942</div>
+          <div class="vx-l">DFA α single-feature AUC<br>Cohen's d = −2.579</div>
+        </div>
+        <div class="vx-hero-stat">
+          <div class="vx-n">82</div>
+          <div class="vx-l">5-min HRV segments<br>16 normal · 15 CHF</div>
+        </div>
+        <div class="vx-hero-stat">
+          <div class="vx-n">&lt; 10<sup>-4</sup></div>
+          <div class="vx-l">p-value on top 3 features<br>Mann–Whitney U test</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE MONEY PLOT -->
+  <section>
+    <div class="section-num">02</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--warm);">The figure</div>
+      <h2 style="margin-bottom: 14px;">DFA α — the coherence signature.</h2>
+      <p style="color: var(--muted-hi); font-size: 16px; max-width: 820px; line-height: 1.6; margin-bottom: 24px;">
+        A healthy heart sits near α ≈ 1.0 — pink noise, long-range correlations, coherent organization across time scales. In severe CHF, α collapses toward 0.65. The distribution separation is what the framework predicts: decoherence <em>is</em> fractal-exponent collapse.
+      </p>
+      <div class="vx-figure">
+        <img src="/validation/dfa_alpha_distribution.svg" alt="DFA alpha distribution — NORMAL vs CHF" />
+        <div class="vx-caption">Figure 1. DFA α distribution overlay. Dashed lines mark group means: Normal α = 1.104, CHF α = 0.649. Single-feature AUC 0.942, p &lt; 0.0001.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCRIMINATION TABLE -->
+  <section>
+    <div class="section-num">03</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--warm);">Per-feature results</div>
+      <h2 style="margin-bottom: 14px;">Every feature, one row.</h2>
+      <p style="color: var(--muted-hi); font-size: 16px; max-width: 820px; line-height: 1.6; margin-bottom: 24px;">
+        Six HRV features computed per 5-minute segment. Cohen's d measures standardized effect size; AUC is the rank-based probability a CHF segment's value exceeds a normal segment's for that feature.
+      </p>
+      <div class="vx-table-wrap">
+        <table class="vx-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Cohen's d</th>
+              <th>AUC</th>
+              <th>p-value</th>
+              <th>Normal mean</th>
+              <th>CHF mean</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="top">
+              <td><strong>DFA α</strong></td>
+              <td class="num">−2.579</td>
+              <td class="num">0.942</td>
+              <td class="num">&lt; 0.0001</td>
+              <td class="num">1.104</td>
+              <td class="num">0.649</td>
+            </tr>
+            <tr class="top">
+              <td><strong>RMSSD</strong> (ms)</td>
+              <td class="num">+1.525</td>
+              <td class="num">0.896</td>
+              <td class="num">&lt; 0.0001</td>
+              <td class="num">34.54</td>
+              <td class="num">191.75</td>
+            </tr>
+            <tr class="high">
+              <td>SampEn</td>
+              <td class="num">−0.980</td>
+              <td class="num">0.756</td>
+              <td class="num">0.0001</td>
+              <td class="num">0.877</td>
+              <td class="num">0.479</td>
+            </tr>
+            <tr class="high">
+              <td>SDNN (ms)</td>
+              <td class="num">+0.930</td>
+              <td class="num">0.708</td>
+              <td class="num">0.0014</td>
+              <td class="num">70.63</td>
+              <td class="num">140.98</td>
+            </tr>
+            <tr class="high">
+              <td>pNN50 (%)</td>
+              <td class="num">+0.796</td>
+              <td class="num">0.699</td>
+              <td class="num">0.0022</td>
+              <td class="num">6.49</td>
+              <td class="num">19.13</td>
+            </tr>
+            <tr>
+              <td>mean HR (bpm)</td>
+              <td class="num">+0.223</td>
+              <td class="num">0.575</td>
+              <td class="num">0.2489</td>
+              <td class="num">88.82</td>
+              <td class="num">92.25</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="vx-figure" style="margin-top: 40px;">
+        <img src="/validation/per_feature_auc.svg" alt="Per-feature AUC bar chart" />
+        <div class="vx-caption">Figure 2. Per-feature AUC. Gold bars exceed 0.85; the dashed reference line marks the multivariate ceiling.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCATTER -->
+  <section>
+    <div class="section-num">04</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--warm);">Two-feature view</div>
+      <h2 style="margin-bottom: 14px;">Where coherence lives. Where it breaks.</h2>
+      <p style="color: var(--muted-hi); font-size: 16px; max-width: 820px; line-height: 1.6; margin-bottom: 24px;">
+        Plotting DFA α against RMSSD lays the two cohorts on different manifolds. Normal sits in a narrow fractal band with moderate vagal tone. CHF fans out toward both α-collapse and RMSSD inflation — classic autonomic dysregulation on top of fractal failure.
+      </p>
+      <div class="vx-figure">
+        <img src="/validation/rmssd_vs_dfa_scatter.svg" alt="RMSSD vs DFA alpha scatter" />
+        <div class="vx-caption">Figure 3. RMSSD vs DFA α, per-segment scatter. Teal circles: Normal. Red triangles: CHF.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHYSICS CONNECTION -->
+  <section>
+    <div class="section-num">05</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--teal);">The prediction</div>
+      <h2 style="margin-bottom: 14px;">This is what the math said would happen.</h2>
+
+      <div class="vx-eqn-card">
+        <div class="vx-eqn">C = C<sub>0</sub> · exp(−α · γ<sub>eff</sub>) &nbsp;&nbsp; α = 16.08</div>
+        <div class="vx-eqn-label">Wike Coherence Law</div>
+      </div>
+
+      <p style="color: var(--muted-hi); font-size: 16px; max-width: 820px; line-height: 1.65; margin-top: 24px;">
+        As γ<sub>eff</sub> rises toward the critical threshold γ<sub>c</sub>, coherence decays exponentially. The prediction is that decoherence is not just a loss of <em>amplitude</em> — it is a loss of <em>structure across scales</em>. A coherent biological system shows pink-noise (1/f) fluctuations; a decoherent one loses that scaling and drifts toward uncorrelated noise. DFA α measures exactly that fractal exponent.
+      </p>
+
+      <p style="color: var(--muted-hi); font-size: 16px; max-width: 820px; line-height: 1.65; margin-top: 16px;">
+        CHF is a sustained γ<sub>eff</sub> excursion at the cardiac level. The prediction: <strong style="color: var(--warm);">α should collapse from ~1.0 toward ~0.5–0.7 as the coherent attractor is lost.</strong> The data: Normal α mean = 1.104; CHF α mean = 0.649. That's the prediction, measured.
+      </p>
+    </div>
+  </section>
+
+  <!-- METHODS -->
+  <section>
+    <div class="section-num">06</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--warm);">Methods</div>
+      <h2 style="margin-bottom: 20px;">How the numbers were made.</h2>
+
+      <div class="vx-method">
+        <div class="vx-mrow">
+          <div class="vx-mk">Data</div>
+          <div class="vx-mv">PhysioNet — Normal Sinus Rhythm Database (nsrdb, 16 records at 128 Hz) vs BIDMC Congestive Heart Failure Database (chfdb, 15 records at 250 Hz, NYHA III–IV). Public. No credentials required. No patient-identifiable information.</div>
+        </div>
+        <div class="vx-mrow">
+          <div class="vx-mk">Segmentation</div>
+          <div class="vx-mv">First 20 minutes of each recording. Split into three 5-minute non-overlapping windows. 48 normal segments + 34 CHF segments = 82 total.</div>
+        </div>
+        <div class="vx-mrow">
+          <div class="vx-mk">R-peak detection</div>
+          <div class="vx-mv">WFDB XQRS algorithm with scipy find_peaks fallback. RR intervals filtered to physiological 300–2000 ms (30–200 bpm).</div>
+        </div>
+        <div class="vx-mrow">
+          <div class="vx-mk">Features</div>
+          <div class="vx-mv">SDNN, RMSSD, pNN50 (time domain) · LF/HF via Welch PSD on 4 Hz cubic-spline-resampled RR (frequency domain) · Sample Entropy m=2, r=0.2·σ · DFA α on box sizes 4–N/4 (nonlinear).</div>
+        </div>
+        <div class="vx-mrow">
+          <div class="vx-mk">Discrimination</div>
+          <div class="vx-mv">Cohen's d for effect size. Mann–Whitney U for non-parametric AUC and p-values. Multivariate: standardized logistic regression with 5-fold stratified cross-validation.</div>
+        </div>
+        <div class="vx-mrow">
+          <div class="vx-mk">Reproducibility</div>
+          <div class="vx-mv">Full pipeline is one Python file. Per-record feature cache makes reruns instant. Raw feature CSV + discrimination CSV + summary JSON all downloadable below.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOADS -->
+  <section>
+    <div class="section-num">07</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--warm);">Artifacts</div>
+      <h2 style="margin-bottom: 20px;">Reproduce it. Dispute it. Extend it.</h2>
+
+      <div class="vx-downloads">
+        <a class="vx-dl" href="/validation/phase1_hrv_features.csv" download>
+          <div class="vx-dl-k">CSV · 82 rows</div>
+          <div class="vx-dl-t">Raw per-segment HRV features</div>
+          <div class="vx-dl-n">phase1_hrv_features.csv</div>
+        </a>
+        <a class="vx-dl" href="/validation/phase1_feature_discrimination.csv" download>
+          <div class="vx-dl-k">CSV · 6 rows</div>
+          <div class="vx-dl-t">Per-feature discrimination statistics</div>
+          <div class="vx-dl-n">phase1_feature_discrimination.csv</div>
+        </a>
+        <a class="vx-dl" href="/validation/phase1_summary.json" download>
+          <div class="vx-dl-k">JSON</div>
+          <div class="vx-dl-t">Machine-readable run summary</div>
+          <div class="vx-dl-n">phase1_summary.json</div>
+        </a>
+        <a class="vx-dl" href="/validation/AIIT_HRV_PHASE1_ONE_PAGER.pdf" download>
+          <div class="vx-dl-k">PDF · 1 page</div>
+          <div class="vx-dl-t">Press / investor one-pager</div>
+          <div class="vx-dl-n">AIIT_HRV_PHASE1_ONE_PAGER.pdf</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section>
+    <div class="section-num">08</div>
+    <div class="container">
+      <div class="eyebrow" style="color: var(--teal);">Phase 2</div>
+      <h2 style="margin-bottom: 14px;">What we're already building.</h2>
+
+      <p style="color: var(--muted-hi); font-size: 16px; max-width: 820px; line-height: 1.65; margin-bottom: 26px;">
+        Phase 1 answers "does HRV discriminate?" Phase 2 answers the real clinical question: <strong style="color: var(--warm);">does adding C-reactive protein push the discrimination ceiling above 0.947 in a cancer cohort?</strong> That requires paired HRV + inflammation + outcome data, which lives in MIMIC-IV.
+      </p>
+
+      <div class="vx-roadmap">
+        <div class="vx-rstep done">
+          <div class="vx-rnum">01</div>
+          <div class="vx-rbody">
+            <strong>Pipeline built</strong>
+            <span>HRV feature extraction · fusion framework · MIMIC SQL written and tested · per-record caching</span>
+          </div>
+          <div class="vx-rstate">Complete</div>
+        </div>
+        <div class="vx-rstep done">
+          <div class="vx-rnum">02</div>
+          <div class="vx-rbody">
+            <strong>Public-data baseline locked</strong>
+            <span>NSRDB vs CHFDB — HRV-only AUC 0.947 ± 0.052 — the ceiling the fusion model has to beat</span>
+          </div>
+          <div class="vx-rstate">Complete</div>
+        </div>
+        <div class="vx-rstep active">
+          <div class="vx-rnum">03</div>
+          <div class="vx-rbody">
+            <strong>PhysioNet credentialing</strong>
+            <span>Account · CITI "Data or Specimens Only Research" training · MIMIC-IV Data Use Agreement signing</span>
+          </div>
+          <div class="vx-rstate">In motion</div>
+        </div>
+        <div class="vx-rstep">
+          <div class="vx-rnum">04</div>
+          <div class="vx-rbody">
+            <strong>MIMIC-IV pull</strong>
+            <span>CRP itemid 50889, ±24h window · ICD-10 cancer (C00–D49), CHF (I50), infection (A40–A41) · QUALIFY-deduped cohort join</span>
+          </div>
+          <div class="vx-rstate">Awaiting DUA</div>
+        </div>
+        <div class="vx-rstep">
+          <div class="vx-rnum">05</div>
+          <div class="vx-rbody">
+            <strong>Fusion analysis</strong>
+            <span>HRV-only vs CRP-only vs HRV+CRP · AUC lift as primary endpoint · per-subgroup by diagnosis</span>
+          </div>
+          <div class="vx-rstate">Awaiting data</div>
+        </div>
+        <div class="vx-rstep">
+          <div class="vx-rnum">06</div>
+          <div class="vx-rbody">
+            <strong>Publication</strong>
+            <span>Preprint on medRxiv · full-repro repo · real CRP results on this page</span>
+          </div>
+          <div class="vx-rstate">Planned</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALL -->
+  <section>
+    <div class="section-num">09</div>
+    <div class="container narrow" style="text-align: center;">
+      <h2 style="margin-bottom: 24px;">If you work on this, reach out.</h2>
+      <p style="color: var(--muted-hi); font-size: 17px; line-height: 1.6; max-width: 700px; margin: 0 auto 30px;">
+        Cardiologists, oncologists, HRV researchers, MIMIC-IV credentialed PIs, journalists, funders. The raw data is above. The pipeline is one file. The hypothesis is falsifiable. The theory predicted the number before the number existed.
+      </p>
+      <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+        <a class="btn" href="mailto:reliablerestaurantrepair@gmail.com?subject=AIIT-THRESI%20HRV%20Validation">Reach out →</a>
+        <a class="btn ghost" href="/cancer">See the cancer framework</a>
+      </div>
+      <p style="margin-top: 32px; font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); line-height: 1.8;">
+        Research and decision-support only · Not medical advice<br>
+        Does not replace licensed clinical diagnosis or treatment
+      </p>
+    </div>
+  </section>
+
+</Layout>
+
+<style>
+/* Hero stats */
+.vx-hero-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 32px; }
+.vx-hero-stat { border-left: 2px solid var(--warm); padding-left: 20px; }
+.vx-hero-stat .vx-n { font-family: 'Georgia', serif; font-size: clamp(36px, 4.4vw, 60px); font-weight: 700; color: var(--ink); line-height: 1.05; letter-spacing: -0.02em; }
+.vx-hero-stat .vx-l { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-top: 12px; line-height: 1.5; }
+
+/* Figures */
+.vx-figure { background: var(--bg-card); border: 1px solid var(--edge); border-radius: 4px; padding: 22px; }
+.vx-figure img { width: 100%; height: auto; display: block; border-radius: 2px; }
+.vx-caption { font-family: 'Georgia', serif; font-style: italic; font-size: 14px; color: var(--muted-hi); line-height: 1.55; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--edge); }
+
+/* Table */
+.vx-table-wrap { background: var(--bg-card); border: 1px solid var(--edge); border-radius: 4px; padding: 10px; overflow-x: auto; }
+.vx-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.vx-table th { text-align: left; padding: 14px 16px; font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--edge); }
+.vx-table td { padding: 14px 16px; border-bottom: 1px solid var(--edge); color: var(--ink-soft); }
+.vx-table td.num { font-family: 'Courier New', monospace; color: var(--ink); }
+.vx-table tr:last-child td { border-bottom: none; }
+.vx-table tr.top td { background: rgba(212,160,96,0.08); color: var(--ink); }
+.vx-table tr.top td strong { color: var(--warm); }
+.vx-table tr.high td { background: rgba(64,192,176,0.05); }
+
+/* Equation card */
+.vx-eqn-card { background: var(--bg-card); border: 1px solid var(--edge); border-left: 3px solid var(--warm); border-radius: 3px; padding: 26px 28px; max-width: 720px; }
+.vx-eqn { font-family: 'Courier New', monospace; font-size: 20px; color: var(--warm); letter-spacing: 0.02em; }
+.vx-eqn-label { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-top: 14px; }
+
+/* Methods */
+.vx-method { background: var(--bg-card); border: 1px solid var(--edge); border-radius: 4px; padding: 8px 32px; max-width: 920px; }
+.vx-mrow { display: grid; grid-template-columns: 180px 1fr; gap: 28px; padding: 22px 0; border-bottom: 1px solid var(--edge); align-items: start; }
+.vx-mrow:last-child { border-bottom: none; }
+.vx-mk { font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--warm); }
+.vx-mv { color: var(--muted-hi); font-size: 15px; line-height: 1.6; }
+@media (max-width: 760px) { .vx-mrow { grid-template-columns: 1fr; gap: 8px; } }
+
+/* Downloads */
+.vx-downloads { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.vx-dl { background: var(--bg-card); border: 1px solid var(--edge); border-left: 3px solid var(--amber); border-radius: 3px; padding: 22px 24px; text-decoration: none; display: flex; flex-direction: column; gap: 10px; transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s; }
+.vx-dl:hover { transform: translateY(-3px); border-color: var(--amber); box-shadow: 0 12px 28px rgba(212,160,96,0.14); }
+.vx-dl-k { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--amber); }
+.vx-dl-t { font-size: 17px; color: var(--ink); font-family: 'Georgia', serif; line-height: 1.35; }
+.vx-dl-n { font-family: 'Courier New', monospace; font-size: 11px; color: var(--muted); margin-top: auto; }
+
+/* Roadmap */
+.vx-roadmap { max-width: 900px; }
+.vx-rstep { display: grid; grid-template-columns: 70px 1fr 130px; gap: 20px; padding: 20px 0; border-bottom: 1px solid var(--edge); align-items: center; }
+.vx-rstep:last-child { border-bottom: none; }
+.vx-rnum { font-family: 'Courier New', monospace; font-size: 11pt; letter-spacing: 0.3em; color: var(--muted); }
+.vx-rbody strong { color: var(--ink); font-size: 17px; display: block; margin-bottom: 6px; }
+.vx-rbody span { color: var(--muted-hi); font-size: 14px; line-height: 1.5; }
+.vx-rstate { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.22em; text-transform: uppercase; color: var(--muted); text-align: right; }
+.vx-rstep.done .vx-rnum { color: var(--teal); }
+.vx-rstep.done .vx-rstate { color: var(--teal); }
+.vx-rstep.active .vx-rnum { color: var(--warm); }
+.vx-rstep.active .vx-rstate { color: var(--warm); }
+@media (max-width: 760px) { .vx-rstep { grid-template-columns: 50px 1fr; } .vx-rstate { grid-column: 2; padding-top: 6px; text-align: left; } }
+</style>

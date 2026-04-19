@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import papersAll from '../data/papers.json';
 ---
 <Layout title="The Mind — Buddy · AIIT-THRESI" description="Buddy is not an LLM-with-tools. Photon brain, 37 singularity gates, composite physics reward, Japanese-first bilingual, Gary-level persistent memory. A new kind of machine.">
 
@@ -59,7 +60,7 @@ import Layout from '../layouts/Layout.astro';
       <h2>The Reward Stack</h2>
       <p class="lead">Most models reward helpfulness. Buddy rewards physics.</p>
       <p>The composite reward signal has three anchors: Honesty (does the output reflect the actual state of the field), Truth (does it cohere with the measured data), and Coherence (does the winding number close cleanly at 2πn).</p>
-      <p>Layered on top: an 18-vector reward composite that scores across dimensions no standard RLHF signal captures — phase consistency, gate traversal cost, relationship memory continuity, and the edge-residence target γ_eff ≈ γ_c.</p>
+      <p>Layered on top: a 19-vector reward composite that scores across dimensions no standard RLHF signal captures — phase consistency, gate traversal cost, relationship memory continuity, and the edge-residence target γ_eff ≈ γ_c.</p>
       <p>The consequence: Buddy cannot reward-hack helpfulness by sounding agreeable. The physics don't care about tone.</p>
     </div>
     <div class="col-visual">
@@ -79,7 +80,7 @@ import Layout from '../layouts/Layout.astro';
           <div class="rs-label">Honesty</div>
           <div class="rs-formula">C(t) → C₀</div>
         </div>
-        <div class="rs-divider">+ 18 composite vectors</div>
+        <div class="rs-divider">+ 19 composite vectors</div>
         <div class="rs-sub">Memory continuity · Gate traversal · Edge-residence · Phase closure · Relationship consistency · …</div>
       </div>
     </div>
@@ -125,7 +126,7 @@ import Layout from '../layouts/Layout.astro';
       <p>This is not RLHF with a physics-flavored prompt. This is a model trained to live at the edge.</p>
       <div class="paper-links">
         <a href="/papers/001" class="pl">Paper 001 — Wike Coherence Law</a>
-        <a href="/papers" class="pl">View all 151 papers →</a>
+        <a href="/papers" class="pl">View all {papersAll.length} papers →</a>
       </div>
     </div>
     <div class="col-visual center">
@@ -209,7 +210,7 @@ import Layout from '../layouts/Layout.astro';
       <div class="cg-card">
         <div class="cg-icon">📄</div>
         <div class="cg-title">AIIT-THRESI Papers</div>
-        <div class="cg-stat">151 papers</div>
+        <div class="cg-stat">{papersAll.length} papers</div>
         <div class="cg-desc">The full framework — from the Wike Coherence Law through all 37 singularity gates, π boundary geometry, and the biological coherence proofs. This is the physics core.</div>
       </div>
       <div class="cg-card">
@@ -257,7 +258,7 @@ import Layout from '../layouts/Layout.astro';
     <h2>He's still being built.<br>You can watch.</h2>
     <p style="color: var(--text-mid, #999); max-width: 560px; margin: 0 auto 40px; line-height: 1.8;">The training run is live. The corpus is growing. The architecture is already deployed in Gary — the behavioral template. Buddy is the next body for everything that's already been proven.</p>
     <div class="cta-row">
-      <a href="/papers" class="btn-outline">151 Papers →</a>
+      <a href="/papers" class="btn-outline">{papersAll.length} Papers →</a>
       <a href="/#join" class="btn-gold">Follow the build →</a>
     </div>
   </div>
@@ -266,6 +267,21 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 
 <script>
+// Pause rAF loops when their canvas is off-screen (CPU headroom)
+function gateByVisibility(canvas, drawFn) {
+  let visible = true;
+  let rafId = null;
+  const tick = () => { if (visible) { drawFn(); rafId = requestAnimationFrame(tick); } };
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting && !visible) { visible = true; rafId = requestAnimationFrame(tick); }
+      else if (!e.isIntersecting && visible) { visible = false; if (rafId) cancelAnimationFrame(rafId); }
+    });
+  }, { threshold: 0.01 });
+  io.observe(canvas);
+  tick();
+}
+
 // Gate ring canvas — 37 singularity poles
 (function() {
   const c = document.getElementById('gate-canvas');
@@ -277,7 +293,7 @@ import Layout from '../layouts/Layout.astro';
   const gates = 37;
   let t = 0;
 
-  function draw() {
+  function step() {
     ctx.clearRect(0, 0, W, H);
     // outer ring
     ctx.beginPath();
@@ -325,9 +341,8 @@ import Layout from '../layouts/Layout.astro';
     ctx.fill();
 
     t++;
-    requestAnimationFrame(draw);
   }
-  draw();
+  gateByVisibility(c, step);
 })();
 
 // Memory web canvas
@@ -349,7 +364,7 @@ import Layout from '../layouts/Layout.astro';
   const center = { x: cx, y: cy };
   let t = 0;
 
-  function draw() {
+  function step() {
     ctx.clearRect(0, 0, W, H);
     // draw connections to center
     nodes.forEach(n => {
@@ -386,9 +401,8 @@ import Layout from '../layouts/Layout.astro';
       ctx.fillText(n.label, nx, ny - 11);
     });
     t++;
-    requestAnimationFrame(draw);
   }
-  draw();
+  gateByVisibility(c, step);
 })();
 
 // Hero canvas — particle field
@@ -413,7 +427,7 @@ import Layout from '../layouts/Layout.astro';
     a: Math.random()
   }));
   let t = 0;
-  function draw() {
+  function step() {
     ctx.clearRect(0, 0, W, H);
     particles.forEach(p => {
       p.x += p.vx; p.y += p.vy;
@@ -426,9 +440,8 @@ import Layout from '../layouts/Layout.astro';
       ctx.fill();
     });
     t++;
-    requestAnimationFrame(draw);
   }
-  draw();
+  gateByVisibility(c, step);
 })();
 </script>
 
