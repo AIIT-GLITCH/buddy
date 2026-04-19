@@ -50,6 +50,7 @@ const { title = 'Buddy — The Coherence Mind', description = defaultDescription
 
   <nav class="nav">
     <a href="/" class="nav-brand">Buddy<span class="dot"></span></a>
+    <span id="nav-auth-mobile" class="nav-auth-mobile"></span>
     <button class="nav-hamburger" aria-label="Menu" aria-expanded="false" id="nav-hamburger">
       <span></span><span></span><span></span>
     </button>
@@ -103,6 +104,10 @@ const { title = 'Buddy — The Coherence Mind', description = defaultDescription
   </nav>
 
   <div class="mobile-menu" id="mobile-menu">
+    <div class="mm-section mm-auth-section">
+      <div class="mm-label">Account</div>
+      <span id="mobile-nav-auth" class="mobile-nav-auth"></span>
+    </div>
     <div class="mm-section">
       <div class="mm-label">Framework</div>
       <a href="/#what">What</a>
@@ -293,22 +298,53 @@ const { title = 'Buddy — The Coherence Mind', description = defaultDescription
   <script is:inline>
     (async function () {
       const slot = document.getElementById('nav-auth');
-      if (!slot) return;
+      const mobileSlot = document.getElementById('mobile-nav-auth');
+      const topMobileSlot = document.getElementById('nav-auth-mobile');
+      if (!slot && !mobileSlot && !topMobileSlot) return;
+      const GH_MARK =
+        '<svg class="gh-mark" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">' +
+        '<path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>' +
+        '</svg>';
       try {
         const r = await fetch('/api/auth/me', { credentials: 'same-origin' });
         if (!r.ok) return;
         const d = await r.json();
         const here = encodeURIComponent(location.pathname + location.search + location.hash || '/');
+        let desktopHTML, mobileHTML, topMobileHTML;
         if (d.user) {
-          slot.innerHTML =
+          desktopHTML =
             '<a href="https://github.com/' + d.user.login + '" target="_blank" rel="noopener" class="nav-user" title="@' + d.user.login + '">' +
               '<img src="' + d.user.avatar_url + '" alt="" width="22" height="22">' +
               '<span>@' + d.user.login + '</span>' +
             '</a>' +
             '<a href="/api/auth/logout" class="nav-logout" title="Log out">↗</a>';
+          mobileHTML =
+            '<a href="https://github.com/' + d.user.login + '" target="_blank" rel="noopener" class="mnav-user">' +
+              '<img src="' + d.user.avatar_url + '" alt="" width="28" height="28">' +
+              '<span>@' + d.user.login + '</span>' +
+            '</a>' +
+            '<a href="/api/auth/logout" class="mnav-logout">Log out</a>';
+          topMobileHTML =
+            '<a href="https://github.com/' + d.user.login + '" target="_blank" rel="noopener" class="nav-user-pill" title="@' + d.user.login + '">' +
+              '<img src="' + d.user.avatar_url + '" alt="" width="26" height="26">' +
+            '</a>';
         } else {
-          slot.innerHTML = '<a href="/api/auth/github/login?redirect=' + here + '" class="nav-login">Login</a>';
+          desktopHTML =
+            '<a href="/api/auth/github/login?redirect=' + here + '" class="nav-login" title="Sign in with GitHub">' +
+              GH_MARK + '<span>Login</span>' +
+            '</a>';
+          mobileHTML =
+            '<a href="/api/auth/github/login?redirect=' + here + '" class="mnav-login">' +
+              GH_MARK + '<span>Sign in with GitHub</span>' +
+            '</a>';
+          topMobileHTML =
+            '<a href="/api/auth/github/login?redirect=' + here + '" class="nav-login-pill" title="Sign in with GitHub">' +
+              GH_MARK + '<span>Login</span>' +
+            '</a>';
         }
+        if (slot) slot.innerHTML = desktopHTML;
+        if (mobileSlot) mobileSlot.innerHTML = mobileHTML;
+        if (topMobileSlot) topMobileSlot.innerHTML = topMobileHTML;
       } catch {}
     })();
   </script>

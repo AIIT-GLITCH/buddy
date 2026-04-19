@@ -185,13 +185,68 @@ a:hover { border-color: var(--amber); }
 
 .nav-auth { display: inline-flex; align-items: center; gap: 8px; margin-left: 8px; padding-left: 16px; border-left: 1px solid var(--edge); }
 .nav-auth:empty { display: none; }
-.nav-login { color: var(--amber) !important; border-bottom: none !important; }
-.nav-login:hover { color: var(--warm) !important; }
+.nav-login {
+  display: inline-flex; align-items: center; gap: 7px;
+  color: var(--amber) !important;
+  border: 1px solid rgba(212,160,96,0.45) !important;
+  border-radius: 999px;
+  padding: 6px 14px;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.nav-login:hover { color: var(--warm) !important; border-color: var(--amber) !important; background: rgba(212,160,96,0.08); }
+.nav-login .gh-mark { display: block; }
 .nav-user { display: inline-flex; align-items: center; gap: 8px; color: var(--ink-soft) !important; border-bottom: none !important; }
 .nav-user img { border-radius: 50%; display: block; }
 .nav-user:hover { color: var(--amber) !important; }
 .nav-logout { color: var(--muted) !important; border-bottom: none !important; font-size: 13px; }
 .nav-logout:hover { color: var(--amber) !important; }
+
+/* Mobile top-bar auth pill — visible next to hamburger on small screens */
+.nav-auth-mobile { display: none; }
+.nav-auth-mobile:empty { display: none !important; }
+.nav-login-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  color: var(--amber) !important;
+  border: 1px solid rgba(212,160,96,0.5) !important;
+  border-radius: 999px;
+  padding: 5px 11px;
+  font-family: 'Courier New', monospace;
+  font-size: 9pt; letter-spacing: 0.14em; text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1;
+}
+.nav-login-pill:hover { background: rgba(212,160,96,0.1); }
+.nav-login-pill .gh-mark { display: block; }
+.nav-user-pill {
+  display: inline-flex; align-items: center;
+  border-bottom: none !important;
+}
+.nav-user-pill img { border-radius: 50%; display: block; }
+
+/* Mobile drawer auth section (full-width) */
+.mobile-nav-auth:empty { display: none; }
+.mnav-login {
+  display: inline-flex !important; align-items: center; gap: 10px;
+  color: var(--amber) !important;
+  border: 1px solid rgba(212,160,96,0.5) !important;
+  border-radius: 999px !important;
+  padding: 12px 18px !important;
+  text-decoration: none;
+}
+.mnav-login .gh-mark { display: block; }
+.mnav-user {
+  display: inline-flex !important; align-items: center; gap: 10px;
+  color: var(--ink) !important;
+  border-bottom: none !important;
+}
+.mnav-user img { border-radius: 50%; display: block; }
+.mnav-logout {
+  display: block !important;
+  color: var(--muted) !important;
+  font-size: 10pt !important;
+  padding: 10px 2px !important;
+  border-bottom: none !important;
+}
 
 /* Hamburger — hidden on desktop */
 .nav-hamburger { display: none; background: none; border: none; padding: 10px; cursor: pointer; width: 44px; height: 44px; flex-direction: column; gap: 5px; justify-content: center; align-items: center; }
@@ -238,6 +293,7 @@ body.nav-locked { overflow: hidden; }
   .nav { top: 0 !important; }
   .nav-hamburger { display: flex; }
   .nav-links { display: none !important; }
+  .nav-auth-mobile { display: inline-flex; align-items: center; margin-left: auto; margin-right: 8px; }
 
   .nav-brand .dot {
     width: 11px; height: 11px;
