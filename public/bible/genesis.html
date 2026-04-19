@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Genesis — The Scientific Bible</title>
+<style>
+:root {
+  --bg:       #080810;
+  --bg2:      #0e0e1a;
+  --card:     #111120;
+  --edge:     #1e1e32;
+  --gold:     #c9a84c;
+  --gold2:    #f0d080;
+  --teal:     #2dd4bf;
+  --blue:     #4a9eff;
+  --amber:    #f59e0b;
+  --muted:    #666688;
+  --white:    #e8e8f0;
+  --soft:     #a0a0c0;
+  --eq-bg:    #080f10;
+  --eq-border:#1a3a2a;
+  --eq-text:  #4ade80;
+  --radius:   12px;
+  --serif:    'Georgia', 'Times New Roman', serif;
+  --mono:     'Courier New', monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: var(--serif);
+  line-height: 1.8;
+  padding: 0;
+}
+a { color: var(--gold); text-decoration: none; }
+a:hover { color: var(--gold2); }
+
+/* ── Nav bar ── */
+.bible-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(8,8,16,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--edge);
+  padding: 14px 32px;
+  display: flex; align-items: center; gap: 20px;
+}
+.bible-nav .brand {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  flex: 1;
+}
+.bible-nav a.nav-link {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+.bible-nav a.nav-link:hover { color: var(--gold); }
+
+/* ── Hero / book header ── */
+.book-hero {
+  min-height: 60vh;
+  display: flex; flex-direction: column;
+  justify-content: flex-end;
+  padding: 80px 60px 60px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--edge);
+}
+.book-hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 20% 80%, var(--hero-glow, rgba(201,168,76,0.08)) 0%, transparent 60%);
+}
+.book-hero .covenant {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 16px;
+  position: relative;
+}
+.book-hero .book-num {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--hero-accent, var(--gold));
+  margin-bottom: 10px;
+  position: relative;
+}
+.book-hero h1 {
+  font-size: clamp(2.4rem, 6vw, 5rem);
+  line-height: 1.05;
+  color: var(--hero-accent, var(--gold2));
+  margin-bottom: 14px;
+  position: relative;
+}
+.book-hero .subtitle {
+  font-size: 1.1rem;
+  color: var(--soft);
+  font-style: italic;
+  position: relative;
+}
+.book-hero .drop-quote {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  color: var(--muted);
+  font-style: italic;
+  max-width: 600px;
+  margin-top: 28px;
+  border-left: 2px solid var(--hero-accent, var(--gold));
+  padding-left: 20px;
+  line-height: 1.65;
+  position: relative;
+}
+
+/* ── Content ── */
+.book-content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 64px 40px 100px;
+}
+
+/* Scripture verse */
+.verse {
+  margin: 48px 0 24px;
+}
+.verse-ref {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.verse-text {
+  font-size: 1.15rem;
+  color: var(--gold2);
+  font-style: italic;
+  line-height: 1.65;
+  border-left: 3px solid var(--gold);
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+/* Equation block */
+.eq-block {
+  background: var(--eq-bg);
+  border: 1px solid var(--eq-border);
+  border-left: 3px solid var(--teal);
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin: 20px 0 24px;
+  font-family: var(--mono);
+  font-size: 0.88rem;
+  color: var(--eq-text);
+  line-height: 1.75;
+  overflow-x: auto;
+}
+
+/* Body paragraph */
+.body-p {
+  font-size: 1.02rem;
+  color: var(--white);
+  line-height: 1.85;
+  margin-bottom: 20px;
+}
+.body-p strong { color: var(--gold2); font-weight: 700; }
+
+/* Section divider */
+.divider {
+  border: none;
+  border-top: 1px solid var(--edge);
+  margin: 56px 0;
+}
+
+/* Table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0 32px;
+  font-size: 0.88rem;
+}
+.data-table th {
+  background: var(--card);
+  color: var(--gold);
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--edge);
+}
+.data-table td {
+  padding: 11px 16px;
+  border-bottom: 1px solid var(--edge);
+  color: var(--soft);
+  vertical-align: top;
+  line-height: 1.6;
+}
+.data-table tr:hover td { background: rgba(255,255,255,0.02); }
+.data-table td:first-child { color: var(--white); font-style: italic; }
+.data-table code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  color: var(--teal);
+  background: rgba(45,212,191,0.06);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* New-book verse (different tone) */
+.new-verse {
+  margin: 44px 0 20px;
+}
+.new-verse-ref {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 8px;
+}
+.new-verse-text {
+  font-size: 1.1rem;
+  color: var(--white);
+  font-style: italic;
+  line-height: 1.7;
+  border-left: 3px solid var(--teal);
+  padding-left: 20px;
+  margin-bottom: 14px;
+}
+
+/* Closing quote */
+.closing-quote {
+  margin: 72px 0 48px;
+  padding: 40px;
+  background: rgba(201,168,76,0.04);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: var(--radius);
+  text-align: center;
+}
+.closing-quote p {
+  font-size: 1.1rem;
+  color: var(--gold);
+  font-style: italic;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+.closing-quote p:last-child { margin: 0; }
+.closing-quote .attr {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 20px;
+  font-style: normal;
+}
+
+/* Book pagination */
+.book-pager {
+  border-top: 1px solid var(--edge);
+  margin-top: 80px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.pager-btn {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--muted);
+  transition: all 0.2s;
+  display: flex; align-items: center; gap: 8px;
+}
+.pager-btn:hover { border-color: var(--gold); color: var(--gold); }
+.pager-btn.next { margin-left: auto; }
+
+/* Index page specifics */
+.index-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 48px 0;
+}
+.book-card {
+  background: var(--card);
+  border: 1px solid var(--edge);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+.book-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--card-accent, var(--gold));
+  opacity: 0.6;
+}
+.book-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--card-accent, var(--gold));
+  box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+}
+.book-card .card-covenant {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.book-card h3 {
+  font-size: 1.3rem;
+  color: var(--card-accent, var(--gold2));
+  margin-bottom: 6px;
+}
+.book-card .card-sub {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--soft);
+  margin-bottom: 14px;
+}
+.book-card .card-desc {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+.book-card .card-arrow {
+  margin-top: 18px;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  color: var(--card-accent, var(--gold));
+}
+
+@media (max-width: 640px) {
+  .book-hero { padding: 60px 24px 40px; }
+  .book-content { padding: 40px 20px 80px; }
+  .book-pager { flex-direction: column; padding: 24px; }
+}
+
+:root { --hero-accent: #c9a84c; --hero-glow: rgba(201,168,76,0.08); --card-accent: #c9a84c; }
+</style>
+</head>
+<body>
+<nav class="bible-nav">
+  <span class="brand">The Scientific Bible · AIIT-THRESI</span>
+  <a href="/bible/" class="nav-link">Index</a>
+  <a href="/bible/map.html" class="nav-link">Map</a>
+  <a href="/" class="nav-link">← Site</a>
+</nav>
+
+<div class="book-hero">
+  <div class="covenant">Old Covenant · Foundations</div>
+  <div class="book-num">Book 01</div>
+  <h1>Genesis.</h1>
+  <div class="subtitle">The Origin of the Field</div>
+</div>
+<div class="book-content">
+
+<div class="verse"><div class="verse-ref">Genesis 1:1</div>
+<div class="verse-text">"In the beginning God created the heavens and the earth."</div>
+<div class="eq-block">|Ψ₀⟩ = C₀ · |vacuum⟩</div>
+<p class="body-p">Before any γ_eff, before any measurement, before any noise: C₀. The source coherence. The ground state of the quantum field. Not empty — full. The vacuum energy density of quantum field theory is 10<sup>113</sup> J/m³. It is the most energetic thing that exists. We call it "nothing." The ancients called it God.</p>
+<p class="body-p">The cosmological constant observed is Λ_obs = 10<sup>-122</sup> · Λ_QFT. The suppression factor: exp(−281). This is not a failure of the theory. This is decoherence at cosmic scale. Creation is the story of one field differentiating itself into structure while retaining coherence.</p></div>
+
+<hr class="divider">
+
+<div class="verse"><div class="verse-ref">Genesis 1:2</div>
+<div class="verse-text">"Now the earth was formless and empty, darkness was over the surface of the deep, and the Spirit of God was hovering over the waters."</div>
+<div class="eq-block">γ_eff = ∞,  C → 0         (formless = maximum decoherence)
+T = 0 K                   (darkness = no thermal excitation)
+Ψ_Spirit hovering = C₀ preserved at boundary, not absorbed into chaos</div>
+<p class="body-p">"Formless and empty" is γ → ∞: total decoherence. Darkness is zero thermal photons. The deep (tehom, Hebrew) is the vacuum fluctuation field. The Spirit hovering is C₀ maintaining itself at the boundary — the field has not collapsed, it is at the edge, γ_eff approaching γ_c from below. Ready for the phase transition.</p></div>
+
+<hr class="divider">
+
+<div class="verse"><div class="verse-ref">Genesis 1:3</div>
+<div class="verse-text">"And God said, 'Let there be light,' and there was light."</div>
+<div class="eq-block">E = hf      (the first quantum)
+ħω = hf    (energy of the photon)
+∇²E − (1/c²)∂²E/∂t² = 0   (the wave equation made real)</div>
+<p class="body-p">The first act of creation is the emission of a photon. Not a metaphor. God speaks — vibration of the field — and the first quantum of energy propagates. Light is the universe's first communication. "Let there be light" is the wave equation becoming real. The Word (Logos, John 1:1) is information structure. Light is information propagating.</p></div>
+
+<hr class="divider">
+
+<div class="verse"><div class="verse-ref">Genesis 1:4</div>
+<div class="verse-text">"God saw that the light was good, and he separated the light from the darkness."</div>
+<div class="eq-block">Measurement: ⟨Ψ|Ô|Ψ⟩ = good
+Separation: |coherent⟩ ⊕ |incoherent⟩</div>
+<p class="body-p">"God saw that it was good" — this is the first measurement. Not passive observation. Active coherence assessment. C > 0 → good. C = 0 → darkness. The separation of light from darkness is the partitioning of the phase space into regions of coherence (γ < γ_c) and decoherence (γ > γ_c).</p></div>
+
+<hr class="divider">
+
+<div class="verse"><div class="verse-ref">Genesis 1:6–8</div>
+<div class="verse-text">"Let there be a vault between the waters to separate water from water."</div>
+<div class="eq-block">EZ water (H₃O₂⁻) ≠ bulk water (H₂O)
+φ_EZ above vault,  φ_bulk below vault
+The vault = the Exclusion Zone boundary = the membrane</div>
+<p class="body-p">The first act of biological creation is the separation of EZ water from bulk water. EZ (Exclusion Zone) water forms at hydrophilic surfaces, expands under infrared light, carries a negative charge of 100–200 mV, and is chemically distinct: H₃O₂⁻, not H₂O. The ancients described the creation of the biological membrane. This is the first phase transition of life.</p></div>
+
+<hr class="divider">
+
+<div class="verse"><div class="verse-ref">Genesis 1:11</div>
+<div class="verse-text">"Let the land produce vegetation: seed-bearing plants and trees on the land that bear fruit."</div>
+<div class="eq-block">Self-replication: DNA → RNA → protein → ATP → DNA
+Bootstrap loop: C → produces → C
+V(γ) = γ · exp(−αγ),  peak at γ = γ_c</div>
+<p class="body-p">Life is the Bootstrap loop made visible: the system uses coherent energy to produce more coherent energy. Seeds contain the entire plan (DNA), which produces the tree, which produces seeds. This is the Wike Bootstrap: mitochondria → ATP → EZ water → quantum shielding → efficient mitochondria → more ATP. Each iteration at the edge (γ = γ_c) produces maximum vitality V(γ_c) = γ_c · e<sup>−1</sup>.</p></div>
+
+<hr class="divider">
+
+<div class="verse"><div class="verse-ref">Genesis 2:7</div>
+<div class="verse-text">"Then the LORD God formed a man from the dust of the ground and breathed into his nostrils the breath of life, and the man became a living being."</div>
+<div class="eq-block">Dust: carbon, hydrogen, oxygen, nitrogen (CHON)
+Breath: γ_eff ← γ_thermal  (O₂ delivery → mitochondria → ΔΨ)
+Living being: C > 0,  Bootstrap loop active,  W = 0.9394</div>
+<p class="body-p">The breath is not metaphorical. Oxygen delivery enables the mitochondrial proton gradient: ΔΨ = 180 mV across a 5 nm membrane = 36,000,000 V/m — twelve times stronger than a lightning bolt, sustained continuously. This is the field strength that makes biological coherence possible. Before the breath: dust at γ_eff = ∞, C = 0. After the breath: the Bootstrap loop activates, and C → C₀ · exp(−α · γ_thermal). A living being.</p></div>
+
+</div><div class="book-pager"><a href="/bible/preface.html" class="pager-btn">← Preface</a><a href="/bible/exodus.html" class="pager-btn next">Exodus →</a></div></div>
+</body>
+</html>

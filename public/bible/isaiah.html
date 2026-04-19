@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Isaiah — The Scientific Bible</title>
+<style>
+:root {
+  --bg:       #080810;
+  --bg2:      #0e0e1a;
+  --card:     #111120;
+  --edge:     #1e1e32;
+  --gold:     #c9a84c;
+  --gold2:    #f0d080;
+  --teal:     #2dd4bf;
+  --blue:     #4a9eff;
+  --amber:    #f59e0b;
+  --muted:    #666688;
+  --white:    #e8e8f0;
+  --soft:     #a0a0c0;
+  --eq-bg:    #080f10;
+  --eq-border:#1a3a2a;
+  --eq-text:  #4ade80;
+  --radius:   12px;
+  --serif:    'Georgia', 'Times New Roman', serif;
+  --mono:     'Courier New', monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: var(--serif);
+  line-height: 1.8;
+  padding: 0;
+}
+a { color: var(--gold); text-decoration: none; }
+a:hover { color: var(--gold2); }
+
+/* ── Nav bar ── */
+.bible-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(8,8,16,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--edge);
+  padding: 14px 32px;
+  display: flex; align-items: center; gap: 20px;
+}
+.bible-nav .brand {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  flex: 1;
+}
+.bible-nav a.nav-link {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+.bible-nav a.nav-link:hover { color: var(--gold); }
+
+/* ── Hero / book header ── */
+.book-hero {
+  min-height: 60vh;
+  display: flex; flex-direction: column;
+  justify-content: flex-end;
+  padding: 80px 60px 60px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--edge);
+}
+.book-hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 20% 80%, var(--hero-glow, rgba(201,168,76,0.08)) 0%, transparent 60%);
+}
+.book-hero .covenant {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 16px;
+  position: relative;
+}
+.book-hero .book-num {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--hero-accent, var(--gold));
+  margin-bottom: 10px;
+  position: relative;
+}
+.book-hero h1 {
+  font-size: clamp(2.4rem, 6vw, 5rem);
+  line-height: 1.05;
+  color: var(--hero-accent, var(--gold2));
+  margin-bottom: 14px;
+  position: relative;
+}
+.book-hero .subtitle {
+  font-size: 1.1rem;
+  color: var(--soft);
+  font-style: italic;
+  position: relative;
+}
+.book-hero .drop-quote {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  color: var(--muted);
+  font-style: italic;
+  max-width: 600px;
+  margin-top: 28px;
+  border-left: 2px solid var(--hero-accent, var(--gold));
+  padding-left: 20px;
+  line-height: 1.65;
+  position: relative;
+}
+
+/* ── Content ── */
+.book-content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 64px 40px 100px;
+}
+
+/* Scripture verse */
+.verse {
+  margin: 48px 0 24px;
+}
+.verse-ref {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.verse-text {
+  font-size: 1.15rem;
+  color: var(--gold2);
+  font-style: italic;
+  line-height: 1.65;
+  border-left: 3px solid var(--gold);
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+/* Equation block */
+.eq-block {
+  background: var(--eq-bg);
+  border: 1px solid var(--eq-border);
+  border-left: 3px solid var(--teal);
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin: 20px 0 24px;
+  font-family: var(--mono);
+  font-size: 0.88rem;
+  color: var(--eq-text);
+  line-height: 1.75;
+  overflow-x: auto;
+}
+
+/* Body paragraph */
+.body-p {
+  font-size: 1.02rem;
+  color: var(--white);
+  line-height: 1.85;
+  margin-bottom: 20px;
+}
+.body-p strong { color: var(--gold2); font-weight: 700; }
+
+/* Section divider */
+.divider {
+  border: none;
+  border-top: 1px solid var(--edge);
+  margin: 56px 0;
+}
+
+/* Table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0 32px;
+  font-size: 0.88rem;
+}
+.data-table th {
+  background: var(--card);
+  color: var(--gold);
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--edge);
+}
+.data-table td {
+  padding: 11px 16px;
+  border-bottom: 1px solid var(--edge);
+  color: var(--soft);
+  vertical-align: top;
+  line-height: 1.6;
+}
+.data-table tr:hover td { background: rgba(255,255,255,0.02); }
+.data-table td:first-child { color: var(--white); font-style: italic; }
+.data-table code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  color: var(--teal);
+  background: rgba(45,212,191,0.06);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* New-book verse (different tone) */
+.new-verse {
+  margin: 44px 0 20px;
+}
+.new-verse-ref {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 8px;
+}
+.new-verse-text {
+  font-size: 1.1rem;
+  color: var(--white);
+  font-style: italic;
+  line-height: 1.7;
+  border-left: 3px solid var(--teal);
+  padding-left: 20px;
+  margin-bottom: 14px;
+}
+
+/* Closing quote */
+.closing-quote {
+  margin: 72px 0 48px;
+  padding: 40px;
+  background: rgba(201,168,76,0.04);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: var(--radius);
+  text-align: center;
+}
+.closing-quote p {
+  font-size: 1.1rem;
+  color: var(--gold);
+  font-style: italic;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+.closing-quote p:last-child { margin: 0; }
+.closing-quote .attr {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 20px;
+  font-style: normal;
+}
+
+/* Book pagination */
+.book-pager {
+  border-top: 1px solid var(--edge);
+  margin-top: 80px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.pager-btn {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--muted);
+  transition: all 0.2s;
+  display: flex; align-items: center; gap: 8px;
+}
+.pager-btn:hover { border-color: var(--gold); color: var(--gold); }
+.pager-btn.next { margin-left: auto; }
+
+/* Index page specifics */
+.index-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 48px 0;
+}
+.book-card {
+  background: var(--card);
+  border: 1px solid var(--edge);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+.book-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--card-accent, var(--gold));
+  opacity: 0.6;
+}
+.book-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--card-accent, var(--gold));
+  box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+}
+.book-card .card-covenant {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.book-card h3 {
+  font-size: 1.3rem;
+  color: var(--card-accent, var(--gold2));
+  margin-bottom: 6px;
+}
+.book-card .card-sub {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--soft);
+  margin-bottom: 14px;
+}
+.book-card .card-desc {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+.book-card .card-arrow {
+  margin-top: 18px;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  color: var(--card-accent, var(--gold));
+}
+
+@media (max-width: 640px) {
+  .book-hero { padding: 60px 24px 40px; }
+  .book-content { padding: 40px 20px 80px; }
+  .book-pager { flex-direction: column; padding: 24px; }
+}
+
+:root { --hero-accent: #d4a060; --hero-glow: rgba(212,160,96,0.08); --card-accent: #d4a060; }
+</style>
+</head>
+<body>
+<nav class="bible-nav">
+  <span class="brand">The Scientific Bible · AIIT-THRESI</span>
+  <a href="/bible/" class="nav-link">Index</a>
+  <a href="/bible/map.html" class="nav-link">Map</a>
+  <a href="/" class="nav-link">← Site</a>
+</nav>
+
+<div class="book-hero" style="--hero-accent:#d4a060;--hero-glow:rgba(212,160,96,0.08);">
+  <div class="covenant">Old Covenant · Foundations</div>
+  <div class="book-num">Book 05</div>
+  <h1>Isaiah.</h1>
+  <div class="subtitle">The Prophetic Phase Transition</div>
+</div>
+<div class="book-content">
+
+<div class="verse"><div class="verse-ref">Isaiah 40:31</div>
+<div class="verse-text">"But those who hope in the LORD will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint."</div>
+<div class="eq-block">Hope     = expectation (C > 0, future state predicted as coherent)
+Renew strength = Bootstrap loop resetting: C_t+1 > C_t
+Soar on wings  = γ_eff at γ_c (edge operation, maximum vitality)
+Run and not grow weary = efficient ENAQT (quantum transport, not classical)
+Walk and not be faint  = sustained sub-γ_c operation</div>
+<p class="body-p">"Not grow weary" is the signature of quantum transport. Classical random walk through a network wastes energy exploring dead ends. Quantum transport (Environment-Assisted Quantum Transport, ENAQT) exploits quantum interference to find the optimal path. At γ_eff = γ_c, the cell operates with ENAQT efficiency — near-perfect quantum transport of energy through the photosynthetic machinery and its biological analogs.</p>
+<p class="body-p">Eagles soar because they find thermals — γ_c in atmospheric terms: the edge between laminar and turbulent flow. The metaphor is exact. This is why γ_c is where maximum vitality lives: it is where classical and quantum transport are simultaneously optimized.</p></div>
+
+</div><div class="book-pager"><a href="/bible/proverbs.html" class="pager-btn">← Proverbs</a><a href="/bible/john.html" class="pager-btn next">John →</a></div></div>
+</body>
+</html>

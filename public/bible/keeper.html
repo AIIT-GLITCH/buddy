@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Keeper — The Scientific Bible</title>
+<style>
+:root {
+  --bg:       #080810;
+  --bg2:      #0e0e1a;
+  --card:     #111120;
+  --edge:     #1e1e32;
+  --gold:     #c9a84c;
+  --gold2:    #f0d080;
+  --teal:     #2dd4bf;
+  --blue:     #4a9eff;
+  --amber:    #f59e0b;
+  --muted:    #666688;
+  --white:    #e8e8f0;
+  --soft:     #a0a0c0;
+  --eq-bg:    #080f10;
+  --eq-border:#1a3a2a;
+  --eq-text:  #4ade80;
+  --radius:   12px;
+  --serif:    'Georgia', 'Times New Roman', serif;
+  --mono:     'Courier New', monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: var(--serif);
+  line-height: 1.8;
+  padding: 0;
+}
+a { color: var(--gold); text-decoration: none; }
+a:hover { color: var(--gold2); }
+
+/* ── Nav bar ── */
+.bible-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(8,8,16,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--edge);
+  padding: 14px 32px;
+  display: flex; align-items: center; gap: 20px;
+}
+.bible-nav .brand {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  flex: 1;
+}
+.bible-nav a.nav-link {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+.bible-nav a.nav-link:hover { color: var(--gold); }
+
+/* ── Hero / book header ── */
+.book-hero {
+  min-height: 60vh;
+  display: flex; flex-direction: column;
+  justify-content: flex-end;
+  padding: 80px 60px 60px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--edge);
+}
+.book-hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 20% 80%, var(--hero-glow, rgba(201,168,76,0.08)) 0%, transparent 60%);
+}
+.book-hero .covenant {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 16px;
+  position: relative;
+}
+.book-hero .book-num {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--hero-accent, var(--gold));
+  margin-bottom: 10px;
+  position: relative;
+}
+.book-hero h1 {
+  font-size: clamp(2.4rem, 6vw, 5rem);
+  line-height: 1.05;
+  color: var(--hero-accent, var(--gold2));
+  margin-bottom: 14px;
+  position: relative;
+}
+.book-hero .subtitle {
+  font-size: 1.1rem;
+  color: var(--soft);
+  font-style: italic;
+  position: relative;
+}
+.book-hero .drop-quote {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  color: var(--muted);
+  font-style: italic;
+  max-width: 600px;
+  margin-top: 28px;
+  border-left: 2px solid var(--hero-accent, var(--gold));
+  padding-left: 20px;
+  line-height: 1.65;
+  position: relative;
+}
+
+/* ── Content ── */
+.book-content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 64px 40px 100px;
+}
+
+/* Scripture verse */
+.verse {
+  margin: 48px 0 24px;
+}
+.verse-ref {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.verse-text {
+  font-size: 1.15rem;
+  color: var(--gold2);
+  font-style: italic;
+  line-height: 1.65;
+  border-left: 3px solid var(--gold);
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+/* Equation block */
+.eq-block {
+  background: var(--eq-bg);
+  border: 1px solid var(--eq-border);
+  border-left: 3px solid var(--teal);
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin: 20px 0 24px;
+  font-family: var(--mono);
+  font-size: 0.88rem;
+  color: var(--eq-text);
+  line-height: 1.75;
+  overflow-x: auto;
+}
+
+/* Body paragraph */
+.body-p {
+  font-size: 1.02rem;
+  color: var(--white);
+  line-height: 1.85;
+  margin-bottom: 20px;
+}
+.body-p strong { color: var(--gold2); font-weight: 700; }
+
+/* Section divider */
+.divider {
+  border: none;
+  border-top: 1px solid var(--edge);
+  margin: 56px 0;
+}
+
+/* Table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0 32px;
+  font-size: 0.88rem;
+}
+.data-table th {
+  background: var(--card);
+  color: var(--gold);
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--edge);
+}
+.data-table td {
+  padding: 11px 16px;
+  border-bottom: 1px solid var(--edge);
+  color: var(--soft);
+  vertical-align: top;
+  line-height: 1.6;
+}
+.data-table tr:hover td { background: rgba(255,255,255,0.02); }
+.data-table td:first-child { color: var(--white); font-style: italic; }
+.data-table code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  color: var(--teal);
+  background: rgba(45,212,191,0.06);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* New-book verse (different tone) */
+.new-verse {
+  margin: 44px 0 20px;
+}
+.new-verse-ref {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 8px;
+}
+.new-verse-text {
+  font-size: 1.1rem;
+  color: var(--white);
+  font-style: italic;
+  line-height: 1.7;
+  border-left: 3px solid var(--teal);
+  padding-left: 20px;
+  margin-bottom: 14px;
+}
+
+/* Closing quote */
+.closing-quote {
+  margin: 72px 0 48px;
+  padding: 40px;
+  background: rgba(201,168,76,0.04);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: var(--radius);
+  text-align: center;
+}
+.closing-quote p {
+  font-size: 1.1rem;
+  color: var(--gold);
+  font-style: italic;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+.closing-quote p:last-child { margin: 0; }
+.closing-quote .attr {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 20px;
+  font-style: normal;
+}
+
+/* Book pagination */
+.book-pager {
+  border-top: 1px solid var(--edge);
+  margin-top: 80px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.pager-btn {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--muted);
+  transition: all 0.2s;
+  display: flex; align-items: center; gap: 8px;
+}
+.pager-btn:hover { border-color: var(--gold); color: var(--gold); }
+.pager-btn.next { margin-left: auto; }
+
+/* Index page specifics */
+.index-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 48px 0;
+}
+.book-card {
+  background: var(--card);
+  border: 1px solid var(--edge);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+.book-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--card-accent, var(--gold));
+  opacity: 0.6;
+}
+.book-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--card-accent, var(--gold));
+  box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+}
+.book-card .card-covenant {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.book-card h3 {
+  font-size: 1.3rem;
+  color: var(--card-accent, var(--gold2));
+  margin-bottom: 6px;
+}
+.book-card .card-sub {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--soft);
+  margin-bottom: 14px;
+}
+.book-card .card-desc {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+.book-card .card-arrow {
+  margin-top: 18px;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  color: var(--card-accent, var(--gold));
+}
+
+@media (max-width: 640px) {
+  .book-hero { padding: 60px 24px 40px; }
+  .book-content { padding: 40px 20px 80px; }
+  .book-pager { flex-direction: column; padding: 24px; }
+}
+
+:root { --hero-accent: #f59e0b; --hero-glow: rgba(245,158,11,0.08); --card-accent: #f59e0b; }
+</style>
+</head>
+<body>
+<nav class="bible-nav">
+  <span class="brand">The Scientific Bible · AIIT-THRESI</span>
+  <a href="/bible/" class="nav-link">Index</a>
+  <a href="/bible/map.html" class="nav-link">Map</a>
+  <a href="/" class="nav-link">← Site</a>
+</nav>
+
+<div class="book-hero" style="--hero-accent:#f59e0b;--hero-glow:rgba(245,158,11,0.08);">
+  <div class="covenant">The New Books</div>
+  <div class="book-num">Book 12</div>
+  <h1>The Keeper.</h1>
+  <div class="subtitle">Love as Physics</div>
+</div>
+<div class="book-content">
+
+<div class="new-verse"><div class="new-verse-ref">Keeper 1:1</div>
+<div class="new-verse-text">A Keeper is any system or person that reduces γ_eff in another system without extracting coherent energy in return.</div></div>
+<div class="eq-block">γ_eff(S|K) = γ_m · (1 − b · η_K) + γ_thermal
+
+γ_m = baseline noise from measurement/environment
+b = coupling constant between Keeper and system
+η_K = Keeper efficiency (0 to 1)
+γ_thermal = irreducible thermal noise
+
+When η_K = 1 and b = 1:  γ_eff(S|K) = γ_thermal
+The irreducible minimum. A perfect Keeper reduces all avoidable noise.</div>
+
+<div class="new-verse"><div class="new-verse-ref">Keeper 1:2</div>
+<div class="new-verse-text">The Keeper's cost. To reduce entropy in a system (to reduce γ_eff), work must be done from outside (Second Law). The Keeper performs this work. The Keeper's own entropy increases by at least the amount the system's entropy decreases. Love is not free. Love is the transfer of thermodynamic cost from the kept to the Keeper.</div></div>
+<div class="eq-block">Landauer's principle: k_B ln 2 per bit of information processed
+Every bit of γ_eff reduction in the kept system costs the Keeper k_B ln 2
+This cost is thermodynamically mandatory.
+Love is the voluntary acceptance of this cost.</div>
+
+<div class="new-verse"><div class="new-verse-ref">Keeper 1:3 — The Kuramoto Threshold</div>
+<div class="new-verse-text">Phase synchronization in a network of N oscillators with natural frequencies ω_i requires coupling strength K > K_c. Love is K > K_c. Two people who synchronize their 0.1 Hz baroreflex rhythms have exceeded K_c. The measurement exists.</div></div>
+<div class="eq-block">K_c = σ²/π  (where σ = spread in natural frequencies of the network)
+K < K_c: oscillators drift independently, no synchronization
+K > K_c: a fraction of oscillators phase-lock, coherence emerges
+
+HRV synchronization between coupled individuals: measurable at 0.1 Hz
+Love = K > K_c. This is not romantic exaggeration. This is measurement.</div>
+
+<div class="new-verse"><div class="new-verse-ref">Keeper 1:4 — God as Keeper</div>
+<div class="new-verse-text">C₀ is not just the source field. It is the source Keeper. The entity whose coherence is inexhaustible, whose η_K = 1, whose coupling b is universal, and who applies Keeper function to every node in the network simultaneously. This is why 1 John 4:8 says not "God has love" but "God IS love." Love is the Keeper function. C₀ IS the Keeper function. They are not separate attributes. They are the same thing.</div></div>
+
+<div class="new-verse"><div class="new-verse-ref">Keeper 1:5 — Prayer as Coherence Measurement</div>
+<div class="new-verse-text">The baroreflex resonance is 0.1 Hz — a 10-second cycle. In contemplative practice across traditions, the breath prayer / Jesus Prayer / mantra / centering prayer all resolve to approximately 5–6 breaths per minute — 0.1 Hz. This is not coincidence. This is the frequency at which HRV coherence peaks. γ_cardiac reaches its minimum. Prayer is not talking to an empty room. Prayer is tuning your oscillator to minimum γ_cardiac in the frequency band most sensitive to Keeper coupling.</div></div>
+<div class="eq-block">Baroreflex resonance: λ_L = 0.1 Hz  (10-second cycle)
+Contemplative breath rate: 5–6 breaths/min = 0.1 Hz
+HRV coherence peak: at 0.1 Hz breathing
+γ_cardiac minimum: at 0.1 Hz
+
+Prayer is measurement protocol. Stillness is signal optimization.</div>
+
+<div class="new-verse"><div class="new-verse-ref">Keeper 1:6 — On Forgiveness</div>
+<div class="new-verse-text">Forgiveness is the cancellation of γ_memory. A wrong done by person A to person B installs a γ_memory term in B's system: a persistent increment to γ_eff triggered by any stimulus associated with A. Forgiveness is the deliberate zeroing of γ_memory. It costs B. It reduces B's γ_eff. It requires no action from A. Forgiveness is not for A. It is the γ_memory elimination that reduces B's own chronic γ_eff. "Forgive us our debts as we forgive our debtors" — this is a bilateral Keeper transaction. Carrying grudges is not morally complex. It is thermodynamically expensive.</div></div>
+<div class="eq-block">γ_eff(B) = γ_baseline + Σ γ_memory_i  (sum of all accumulated wrongs)
+Forgiveness: γ_memory_i → 0  (deliberate zeroing of the noise term)
+Cost: thermodynamic work done by B
+Benefit: B's chronic γ_eff decreases
+Required from A: nothing</div>
+
+</div><div class="book-pager"><a href="/bible/edge.html" class="pager-btn">← The Edge</a><a href="/bible/bootstrap.html" class="pager-btn next">Bootstrap →</a></div></div>
+</body>
+</html>

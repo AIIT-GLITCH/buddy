@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index — The Scientific Bible</title>
+<style>
+:root {
+  --bg:       #080810;
+  --bg2:      #0e0e1a;
+  --card:     #111120;
+  --edge:     #1e1e32;
+  --gold:     #c9a84c;
+  --gold2:    #f0d080;
+  --teal:     #2dd4bf;
+  --blue:     #4a9eff;
+  --amber:    #f59e0b;
+  --muted:    #666688;
+  --white:    #e8e8f0;
+  --soft:     #a0a0c0;
+  --eq-bg:    #080f10;
+  --eq-border:#1a3a2a;
+  --eq-text:  #4ade80;
+  --radius:   12px;
+  --serif:    'Georgia', 'Times New Roman', serif;
+  --mono:     'Courier New', monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: var(--serif);
+  line-height: 1.8;
+  padding: 0;
+}
+a { color: var(--gold); text-decoration: none; }
+a:hover { color: var(--gold2); }
+
+/* ── Nav bar ── */
+.bible-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(8,8,16,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--edge);
+  padding: 14px 32px;
+  display: flex; align-items: center; gap: 20px;
+}
+.bible-nav .brand {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  flex: 1;
+}
+.bible-nav a.nav-link {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+.bible-nav a.nav-link:hover { color: var(--gold); }
+
+/* ── Hero / book header ── */
+.book-hero {
+  min-height: 60vh;
+  display: flex; flex-direction: column;
+  justify-content: flex-end;
+  padding: 80px 60px 60px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--edge);
+}
+.book-hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 20% 80%, var(--hero-glow, rgba(201,168,76,0.08)) 0%, transparent 60%);
+}
+.book-hero .covenant {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 16px;
+  position: relative;
+}
+.book-hero .book-num {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--hero-accent, var(--gold));
+  margin-bottom: 10px;
+  position: relative;
+}
+.book-hero h1 {
+  font-size: clamp(2.4rem, 6vw, 5rem);
+  line-height: 1.05;
+  color: var(--hero-accent, var(--gold2));
+  margin-bottom: 14px;
+  position: relative;
+}
+.book-hero .subtitle {
+  font-size: 1.1rem;
+  color: var(--soft);
+  font-style: italic;
+  position: relative;
+}
+.book-hero .drop-quote {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  color: var(--muted);
+  font-style: italic;
+  max-width: 600px;
+  margin-top: 28px;
+  border-left: 2px solid var(--hero-accent, var(--gold));
+  padding-left: 20px;
+  line-height: 1.65;
+  position: relative;
+}
+
+/* ── Content ── */
+.book-content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 64px 40px 100px;
+}
+
+/* Scripture verse */
+.verse {
+  margin: 48px 0 24px;
+}
+.verse-ref {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.verse-text {
+  font-size: 1.15rem;
+  color: var(--gold2);
+  font-style: italic;
+  line-height: 1.65;
+  border-left: 3px solid var(--gold);
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+/* Equation block */
+.eq-block {
+  background: var(--eq-bg);
+  border: 1px solid var(--eq-border);
+  border-left: 3px solid var(--teal);
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin: 20px 0 24px;
+  font-family: var(--mono);
+  font-size: 0.88rem;
+  color: var(--eq-text);
+  line-height: 1.75;
+  overflow-x: auto;
+}
+
+/* Body paragraph */
+.body-p {
+  font-size: 1.02rem;
+  color: var(--white);
+  line-height: 1.85;
+  margin-bottom: 20px;
+}
+.body-p strong { color: var(--gold2); font-weight: 700; }
+
+/* Section divider */
+.divider {
+  border: none;
+  border-top: 1px solid var(--edge);
+  margin: 56px 0;
+}
+
+/* Table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0 32px;
+  font-size: 0.88rem;
+}
+.data-table th {
+  background: var(--card);
+  color: var(--gold);
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--edge);
+}
+.data-table td {
+  padding: 11px 16px;
+  border-bottom: 1px solid var(--edge);
+  color: var(--soft);
+  vertical-align: top;
+  line-height: 1.6;
+}
+.data-table tr:hover td { background: rgba(255,255,255,0.02); }
+.data-table td:first-child { color: var(--white); font-style: italic; }
+.data-table code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  color: var(--teal);
+  background: rgba(45,212,191,0.06);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* New-book verse (different tone) */
+.new-verse {
+  margin: 44px 0 20px;
+}
+.new-verse-ref {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 8px;
+}
+.new-verse-text {
+  font-size: 1.1rem;
+  color: var(--white);
+  font-style: italic;
+  line-height: 1.7;
+  border-left: 3px solid var(--teal);
+  padding-left: 20px;
+  margin-bottom: 14px;
+}
+
+/* Closing quote */
+.closing-quote {
+  margin: 72px 0 48px;
+  padding: 40px;
+  background: rgba(201,168,76,0.04);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: var(--radius);
+  text-align: center;
+}
+.closing-quote p {
+  font-size: 1.1rem;
+  color: var(--gold);
+  font-style: italic;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+.closing-quote p:last-child { margin: 0; }
+.closing-quote .attr {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 20px;
+  font-style: normal;
+}
+
+/* Book pagination */
+.book-pager {
+  border-top: 1px solid var(--edge);
+  margin-top: 80px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.pager-btn {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--muted);
+  transition: all 0.2s;
+  display: flex; align-items: center; gap: 8px;
+}
+.pager-btn:hover { border-color: var(--gold); color: var(--gold); }
+.pager-btn.next { margin-left: auto; }
+
+/* Index page specifics */
+.index-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 48px 0;
+}
+.book-card {
+  background: var(--card);
+  border: 1px solid var(--edge);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+.book-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--card-accent, var(--gold));
+  opacity: 0.6;
+}
+.book-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--card-accent, var(--gold));
+  box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+}
+.book-card .card-covenant {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.book-card h3 {
+  font-size: 1.3rem;
+  color: var(--card-accent, var(--gold2));
+  margin-bottom: 6px;
+}
+.book-card .card-sub {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--soft);
+  margin-bottom: 14px;
+}
+.book-card .card-desc {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+.book-card .card-arrow {
+  margin-top: 18px;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  color: var(--card-accent, var(--gold));
+}
+
+@media (max-width: 640px) {
+  .book-hero { padding: 60px 24px 40px; }
+  .book-content { padding: 40px 20px 80px; }
+  .book-pager { flex-direction: column; padding: 24px; }
+}
+
+:root { --hero-accent: #c9a84c; --hero-glow: rgba(201,168,76,0.08); --card-accent: #c9a84c; }
+</style>
+</head>
+<body>
+<nav class="bible-nav">
+  <span class="brand">The Scientific Bible · AIIT-THRESI</span>
+  <a href="/bible/" class="nav-link">Index</a>
+  <a href="/bible/map.html" class="nav-link">Map</a>
+  <a href="/" class="nav-link">← Site</a>
+</nav>
+
+<div class="book-hero" style="min-height:72vh;">
+  <div class="covenant">Holy Scripture for Those Who Seek with Both Minds</div>
+  <h1>The Scientific<br>Bible.</h1>
+  <div class="subtitle">Rhet Dillard Wike · AIIT-THRESI Research Initiative · Council Hill, Oklahoma · March 2026</div>
+  <div class="drop-quote">"The Book and the Equation are not two things. They are one thing, seen through two eyes."</div>
+</div>
+<div class="book-content" style="max-width:900px;">
+  <div class="verse-text" style="margin-bottom:40px;">
+    This text is written for the scientist who suspects the mystics knew something, and for the believer who suspects the physicists confirmed it. It is the same story told in the same sequence with two different alphabets.
+  </div>
+  <div class="eq-block">C = C₀ · exp(−α · γ_eff)
+
+C  = coherence — the organized, living fraction of any system
+C₀ = the source field — what was there before any noise
+γ_eff = the effective noise — sin, entropy, decoherence, measurement without love
+α  = the sensitivity — how fast coherence falls when noise rises</div>
+
+  <h2 style="font-size:1.5rem;color:var(--gold);margin:56px 0 6px;font-family:var(--mono);letter-spacing:0.1em;text-transform:uppercase;">The Old Covenant</h2>
+  <p style="font-size:0.85rem;color:var(--muted);font-style:italic;margin-bottom:28px;">Foundations</p>
+  <div class="index-grid" style="--card-accent:#c9a84c;">
+    <a href="/bible/preface.html" class="book-card" style="--card-accent:#c9a84c;">
+      <div class="card-covenant">Old Covenant · Foundations</div>
+      <h3>Preface</h3>
+      <div class="card-sub">A Note to the Reader</div>
+      <div class="card-desc">For the scientist who suspects the mystics knew something.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+    <a href="/bible/genesis.html" class="book-card" style="--card-accent:#c9a84c;">
+      <div class="card-covenant">Old Covenant · Foundations</div>
+      <h3>Genesis</h3>
+      <div class="card-sub">The Origin of the Field</div>
+      <div class="card-desc">C₀, the quantum vacuum, and the first photon.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+    <a href="/bible/exodus.html" class="book-card" style="--card-accent:#c9a84c;">
+      <div class="card-covenant">Old Covenant · Foundations</div>
+      <h3>Exodus</h3>
+      <div class="card-sub">The Law as Coherence Protocol</div>
+      <div class="card-desc">Ten commandments as γ_eff management protocol.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+    <a href="/bible/psalms.html" class="book-card" style="--card-accent:#d4a060;">
+      <div class="card-covenant">Old Covenant · Foundations</div>
+      <h3>Psalms</h3>
+      <div class="card-sub">The Coherence Poems</div>
+      <div class="card-desc">Psalm 23 as Keeper Equation in pastoral form.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+    <a href="/bible/proverbs.html" class="book-card" style="--card-accent:#d4a060;">
+      <div class="card-covenant">Old Covenant · Foundations</div>
+      <h3>Proverbs</h3>
+      <div class="card-sub">Coherence Wisdom</div>
+      <div class="card-desc">The heart as master oscillator. 0.1 Hz.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+    <a href="/bible/isaiah.html" class="book-card" style="--card-accent:#d4a060;">
+      <div class="card-covenant">Old Covenant · Foundations</div>
+      <h3>Isaiah</h3>
+      <div class="card-sub">The Prophetic Phase Transition</div>
+      <div class="card-desc">ENAQT and the eagles that soar at γ_c.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+  </div>
+
+  <h2 style="font-size:1.5rem;color:var(--gold);margin:56px 0 6px;font-family:var(--mono);letter-spacing:0.1em;text-transform:uppercase;">The New Covenant</h2>
+  <p style="font-size:0.85rem;color:var(--muted);font-style:italic;margin-bottom:28px;">The Completion</p>
+  <div class="index-grid" style="--card-accent:#4a9eff;">
+    <a href="/bible/john.html" class="book-card" style="--card-accent:#4a9eff;">
+      <div class="card-covenant">New Covenant · The Completion</div>
+      <h3>John</h3>
+      <div class="card-sub">The Logos as Information Field</div>
+      <div class="card-desc">The Word as information structure. Light that never fails.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+    <a href="/bible/paul.html" class="book-card" style="--card-accent:#4a9eff;">
+      <div class="card-covenant">New Covenant · The Completion</div>
+      <h3>Paul</h3>
+      <div class="card-sub">The Epistles as Systems Theory</div>
+      <div class="card-desc">1 Corinthians 13 as Keeper specification.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+    <a href="/bible/revelation.html" class="book-card" style="--card-accent:#a78bfa;">
+      <div class="card-covenant">New Covenant · The Completion</div>
+      <h3>Revelation</h3>
+      <div class="card-sub">The Final Phase Transition</div>
+      <div class="card-desc">The 3D Ising transition. γ_global → γ_c.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+  </div>
+
+  <h2 style="font-size:1.5rem;color:var(--gold);margin:56px 0 6px;font-family:var(--mono);letter-spacing:0.1em;text-transform:uppercase;">The New Books</h2>
+  <p style="font-size:0.85rem;color:var(--muted);font-style:italic;margin-bottom:28px;">Written as the instruments became available</p>
+  <div class="index-grid" style="--card-accent:#2dd4bf;">
+    <a href="/bible/field.html" class="book-card" style="--card-accent:#2dd4bf;">
+      <div class="card-covenant">The New Books</div>
+      <h3>The Field</h3>
+      <div class="card-sub">What Was Before the Beginning</div>
+      <div class="card-desc">C₀. 10^113 J/m³. The vacuum that isn't empty.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+    <a href="/bible/water.html" class="book-card" style="--card-accent:#2dd4bf;">
+      <div class="card-covenant">The New Books</div>
+      <h3>Water</h3>
+      <div class="card-sub">The Living Medium</div>
+      <div class="card-desc">EZ water, φ_c = 0.590, and the eel.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+    <a href="/bible/edge.html" class="book-card" style="--card-accent:#f59e0b;">
+      <div class="card-covenant">The New Books</div>
+      <h3>The Edge</h3>
+      <div class="card-sub">γ = γ_c, Where Life Is</div>
+      <div class="card-desc">W = 0.9394. The narrow gate.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+    <a href="/bible/keeper.html" class="book-card" style="--card-accent:#f59e0b;">
+      <div class="card-covenant">The New Books</div>
+      <h3>The Keeper</h3>
+      <div class="card-sub">Love as Physics</div>
+      <div class="card-desc">The thermodynamic cost of love.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+    <a href="/bible/bootstrap.html" class="book-card" style="--card-accent:#fb923c;">
+      <div class="card-covenant">The New Books</div>
+      <h3>Bootstrap</h3>
+      <div class="card-sub">The Self-Sustaining Loop</div>
+      <div class="card-desc">NIR → mitochondria → ATP → EZ → γ_c → repeat.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+    <a href="/bible/singularity.html" class="book-card" style="--card-accent:#f87171;">
+      <div class="card-covenant">The New Books</div>
+      <h3>The Singularity</h3>
+      <div class="card-sub">Where All Things Converge</div>
+      <div class="card-desc">ERR(T) = 1/T + exp(−β)/T^(1+1/ν). Two infinities. Life between.</div>
+      <div class="card-arrow">Read →</div>
+    </a>
+  </div>
+
+  <div style="margin-top:48px;">
+    <a href="/bible/map.html" class="book-card" style="--card-accent:#a78bfa;display:block;max-width:480px;">
+      <div class="card-covenant">Reference</div>
+      <h3>The Complete Map</h3>
+      <div class="card-sub">Scripture to Physics · Full Reference Table</div>
+      <div class="card-desc">Every verse. Every equation. Side by side.</div>
+      <div class="card-arrow">Open the map →</div>
+    </a>
+  </div>
+</div>
+</body>
+</html>

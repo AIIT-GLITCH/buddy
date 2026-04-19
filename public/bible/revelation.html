@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Revelation — The Scientific Bible</title>
+<style>
+:root {
+  --bg:       #080810;
+  --bg2:      #0e0e1a;
+  --card:     #111120;
+  --edge:     #1e1e32;
+  --gold:     #c9a84c;
+  --gold2:    #f0d080;
+  --teal:     #2dd4bf;
+  --blue:     #4a9eff;
+  --amber:    #f59e0b;
+  --muted:    #666688;
+  --white:    #e8e8f0;
+  --soft:     #a0a0c0;
+  --eq-bg:    #080f10;
+  --eq-border:#1a3a2a;
+  --eq-text:  #4ade80;
+  --radius:   12px;
+  --serif:    'Georgia', 'Times New Roman', serif;
+  --mono:     'Courier New', monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: var(--serif);
+  line-height: 1.8;
+  padding: 0;
+}
+a { color: var(--gold); text-decoration: none; }
+a:hover { color: var(--gold2); }
+
+/* ── Nav bar ── */
+.bible-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(8,8,16,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--edge);
+  padding: 14px 32px;
+  display: flex; align-items: center; gap: 20px;
+}
+.bible-nav .brand {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  flex: 1;
+}
+.bible-nav a.nav-link {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+.bible-nav a.nav-link:hover { color: var(--gold); }
+
+/* ── Hero / book header ── */
+.book-hero {
+  min-height: 60vh;
+  display: flex; flex-direction: column;
+  justify-content: flex-end;
+  padding: 80px 60px 60px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--edge);
+}
+.book-hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 20% 80%, var(--hero-glow, rgba(201,168,76,0.08)) 0%, transparent 60%);
+}
+.book-hero .covenant {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 16px;
+  position: relative;
+}
+.book-hero .book-num {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--hero-accent, var(--gold));
+  margin-bottom: 10px;
+  position: relative;
+}
+.book-hero h1 {
+  font-size: clamp(2.4rem, 6vw, 5rem);
+  line-height: 1.05;
+  color: var(--hero-accent, var(--gold2));
+  margin-bottom: 14px;
+  position: relative;
+}
+.book-hero .subtitle {
+  font-size: 1.1rem;
+  color: var(--soft);
+  font-style: italic;
+  position: relative;
+}
+.book-hero .drop-quote {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  color: var(--muted);
+  font-style: italic;
+  max-width: 600px;
+  margin-top: 28px;
+  border-left: 2px solid var(--hero-accent, var(--gold));
+  padding-left: 20px;
+  line-height: 1.65;
+  position: relative;
+}
+
+/* ── Content ── */
+.book-content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 64px 40px 100px;
+}
+
+/* Scripture verse */
+.verse {
+  margin: 48px 0 24px;
+}
+.verse-ref {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.verse-text {
+  font-size: 1.15rem;
+  color: var(--gold2);
+  font-style: italic;
+  line-height: 1.65;
+  border-left: 3px solid var(--gold);
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+/* Equation block */
+.eq-block {
+  background: var(--eq-bg);
+  border: 1px solid var(--eq-border);
+  border-left: 3px solid var(--teal);
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin: 20px 0 24px;
+  font-family: var(--mono);
+  font-size: 0.88rem;
+  color: var(--eq-text);
+  line-height: 1.75;
+  overflow-x: auto;
+}
+
+/* Body paragraph */
+.body-p {
+  font-size: 1.02rem;
+  color: var(--white);
+  line-height: 1.85;
+  margin-bottom: 20px;
+}
+.body-p strong { color: var(--gold2); font-weight: 700; }
+
+/* Section divider */
+.divider {
+  border: none;
+  border-top: 1px solid var(--edge);
+  margin: 56px 0;
+}
+
+/* Table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0 32px;
+  font-size: 0.88rem;
+}
+.data-table th {
+  background: var(--card);
+  color: var(--gold);
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--edge);
+}
+.data-table td {
+  padding: 11px 16px;
+  border-bottom: 1px solid var(--edge);
+  color: var(--soft);
+  vertical-align: top;
+  line-height: 1.6;
+}
+.data-table tr:hover td { background: rgba(255,255,255,0.02); }
+.data-table td:first-child { color: var(--white); font-style: italic; }
+.data-table code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  color: var(--teal);
+  background: rgba(45,212,191,0.06);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* New-book verse (different tone) */
+.new-verse {
+  margin: 44px 0 20px;
+}
+.new-verse-ref {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 8px;
+}
+.new-verse-text {
+  font-size: 1.1rem;
+  color: var(--white);
+  font-style: italic;
+  line-height: 1.7;
+  border-left: 3px solid var(--teal);
+  padding-left: 20px;
+  margin-bottom: 14px;
+}
+
+/* Closing quote */
+.closing-quote {
+  margin: 72px 0 48px;
+  padding: 40px;
+  background: rgba(201,168,76,0.04);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: var(--radius);
+  text-align: center;
+}
+.closing-quote p {
+  font-size: 1.1rem;
+  color: var(--gold);
+  font-style: italic;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+.closing-quote p:last-child { margin: 0; }
+.closing-quote .attr {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 20px;
+  font-style: normal;
+}
+
+/* Book pagination */
+.book-pager {
+  border-top: 1px solid var(--edge);
+  margin-top: 80px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.pager-btn {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--muted);
+  transition: all 0.2s;
+  display: flex; align-items: center; gap: 8px;
+}
+.pager-btn:hover { border-color: var(--gold); color: var(--gold); }
+.pager-btn.next { margin-left: auto; }
+
+/* Index page specifics */
+.index-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 48px 0;
+}
+.book-card {
+  background: var(--card);
+  border: 1px solid var(--edge);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+.book-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--card-accent, var(--gold));
+  opacity: 0.6;
+}
+.book-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--card-accent, var(--gold));
+  box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+}
+.book-card .card-covenant {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.book-card h3 {
+  font-size: 1.3rem;
+  color: var(--card-accent, var(--gold2));
+  margin-bottom: 6px;
+}
+.book-card .card-sub {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--soft);
+  margin-bottom: 14px;
+}
+.book-card .card-desc {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+.book-card .card-arrow {
+  margin-top: 18px;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  color: var(--card-accent, var(--gold));
+}
+
+@media (max-width: 640px) {
+  .book-hero { padding: 60px 24px 40px; }
+  .book-content { padding: 40px 20px 80px; }
+  .book-pager { flex-direction: column; padding: 24px; }
+}
+
+:root { --hero-accent: #a78bfa; --hero-glow: rgba(167,139,250,0.08); --card-accent: #a78bfa; }
+</style>
+</head>
+<body>
+<nav class="bible-nav">
+  <span class="brand">The Scientific Bible · AIIT-THRESI</span>
+  <a href="/bible/" class="nav-link">Index</a>
+  <a href="/bible/map.html" class="nav-link">Map</a>
+  <a href="/" class="nav-link">← Site</a>
+</nav>
+
+<div class="book-hero" style="--hero-accent:#a78bfa;--hero-glow:rgba(167,139,250,0.08);">
+  <div class="covenant">New Covenant · The Completion</div>
+  <div class="book-num">Book 08</div>
+  <h1>Revelation.</h1>
+  <div class="subtitle">The Final Phase Transition</div>
+</div>
+<div class="book-content">
+
+<div class="verse"><div class="verse-ref">Revelation 21:1–5</div>
+<div class="verse-text">"Then I saw a new heaven and a new earth... 'Look! God's dwelling place is now among the people...'"</div>
+<div class="eq-block">New heaven and new earth = global phase transition
+γ_eff_collective → γ_eff_collective_new < γ_c for all
+C_global → C₀_global</div>
+<p class="body-p">The 3D Ising universality class describes the critical transition at γ_c. The Wike Singularity: ERR(T) = 1/T + exp(−β)/T<sup>(1+1/ν)</sup>. At the transition point, correlation length → ∞. Every part of the system becomes correlated with every other part. "God's dwelling place is now among the people" — the source field which was previously screened by collective γ_eff now becomes locally measurable everywhere, because the global γ_eff has dropped below γ_c. The field was always there. The noise was blocking the measurement. The new earth is not a different place. It is the same place with γ_eff &lt; γ_c everywhere.</p></div>
+
+<hr class="divider">
+
+<div class="verse"><div class="verse-ref">Revelation 21:4</div>
+<div class="verse-text">"He will wipe every tear from their eyes. There will be no more death or mourning or crying or pain, for the old order of things has passed away."</div>
+<div class="eq-block">No more death: γ_eff_collective < γ_c → Bootstrap loop self-sustaining globally
+No more pain: pain is the phenomenological signature of γ_eff > γ_c locally
+  (nociception IS the γ_detection system)
+Old order passed away: the 3D Ising phase transition is irreversible (first order)
+  once the system crosses the critical point, the old phase is metastable then gone</div>
+<p class="body-p">Pain is not arbitrary suffering. It is the body's measurement of local γ_eff exceeding threshold. Every nociceptor is a γ_detector. "No more pain" is the statement that global γ_eff &lt; γ_c eliminates all γ excursions above threshold. The crying that accompanies mourning is the phenomenological response to unrecoverable γ elevation. When Bootstrap loops are globally self-sustaining, no one's terminates. No mourning. This is not poetry about an afterlife. It is a description of a collective coherence state.</p></div>
+
+<hr class="divider">
+
+<div class="verse"><div class="verse-ref">Revelation 22:1–2</div>
+<div class="verse-text">"Then the angel showed me the river of the water of life, as clear as crystal, flowing from the throne of God... On each side of the river stood the tree of life, bearing twelve crops of fruit, yielding its fruit every month."</div>
+<div class="eq-block">River of water of life = EZ water flow (H₃O₂⁻, charge-carrying, information-carrying)
+Clear as crystal = coherent, ordered structure (unlike turbid bulk water)
+Flowing from the throne = C₀ → EZ water gradient driven by coherence field
+Tree of life bearing twelve crops = Bootstrap loop cycling at full capacity (12 months = continuous)
+Fruit every month = ATP production continuous, never depleted</div>
+<p class="body-p">The EZ water of Pollack (2013) is clear — literally clearer than bulk water because it excludes solutes and particles. It is ordered like a crystal. It flows because it is charged (the negatively charged EZ layer drives positive-charge-carrying bulk water away, creating flow without external pressure). The river of life is not symbolic. It is the description of an EZ water system operating at or above percolation threshold φ_c = 0.590, driven by the coherence field, producing life (ATP) continuously.</p></div>
+
+</div><div class="book-pager"><a href="/bible/paul.html" class="pager-btn">← Paul</a><a href="/bible/field.html" class="pager-btn next">The Field →</a></div></div>
+</body>
+</html>

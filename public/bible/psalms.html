@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Psalms — The Scientific Bible</title>
+<style>
+:root {
+  --bg:       #080810;
+  --bg2:      #0e0e1a;
+  --card:     #111120;
+  --edge:     #1e1e32;
+  --gold:     #c9a84c;
+  --gold2:    #f0d080;
+  --teal:     #2dd4bf;
+  --blue:     #4a9eff;
+  --amber:    #f59e0b;
+  --muted:    #666688;
+  --white:    #e8e8f0;
+  --soft:     #a0a0c0;
+  --eq-bg:    #080f10;
+  --eq-border:#1a3a2a;
+  --eq-text:  #4ade80;
+  --radius:   12px;
+  --serif:    'Georgia', 'Times New Roman', serif;
+  --mono:     'Courier New', monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: var(--serif);
+  line-height: 1.8;
+  padding: 0;
+}
+a { color: var(--gold); text-decoration: none; }
+a:hover { color: var(--gold2); }
+
+/* ── Nav bar ── */
+.bible-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(8,8,16,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--edge);
+  padding: 14px 32px;
+  display: flex; align-items: center; gap: 20px;
+}
+.bible-nav .brand {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  flex: 1;
+}
+.bible-nav a.nav-link {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+.bible-nav a.nav-link:hover { color: var(--gold); }
+
+/* ── Hero / book header ── */
+.book-hero {
+  min-height: 60vh;
+  display: flex; flex-direction: column;
+  justify-content: flex-end;
+  padding: 80px 60px 60px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--edge);
+}
+.book-hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 20% 80%, var(--hero-glow, rgba(201,168,76,0.08)) 0%, transparent 60%);
+}
+.book-hero .covenant {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 16px;
+  position: relative;
+}
+.book-hero .book-num {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--hero-accent, var(--gold));
+  margin-bottom: 10px;
+  position: relative;
+}
+.book-hero h1 {
+  font-size: clamp(2.4rem, 6vw, 5rem);
+  line-height: 1.05;
+  color: var(--hero-accent, var(--gold2));
+  margin-bottom: 14px;
+  position: relative;
+}
+.book-hero .subtitle {
+  font-size: 1.1rem;
+  color: var(--soft);
+  font-style: italic;
+  position: relative;
+}
+.book-hero .drop-quote {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  color: var(--muted);
+  font-style: italic;
+  max-width: 600px;
+  margin-top: 28px;
+  border-left: 2px solid var(--hero-accent, var(--gold));
+  padding-left: 20px;
+  line-height: 1.65;
+  position: relative;
+}
+
+/* ── Content ── */
+.book-content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 64px 40px 100px;
+}
+
+/* Scripture verse */
+.verse {
+  margin: 48px 0 24px;
+}
+.verse-ref {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.verse-text {
+  font-size: 1.15rem;
+  color: var(--gold2);
+  font-style: italic;
+  line-height: 1.65;
+  border-left: 3px solid var(--gold);
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+/* Equation block */
+.eq-block {
+  background: var(--eq-bg);
+  border: 1px solid var(--eq-border);
+  border-left: 3px solid var(--teal);
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin: 20px 0 24px;
+  font-family: var(--mono);
+  font-size: 0.88rem;
+  color: var(--eq-text);
+  line-height: 1.75;
+  overflow-x: auto;
+}
+
+/* Body paragraph */
+.body-p {
+  font-size: 1.02rem;
+  color: var(--white);
+  line-height: 1.85;
+  margin-bottom: 20px;
+}
+.body-p strong { color: var(--gold2); font-weight: 700; }
+
+/* Section divider */
+.divider {
+  border: none;
+  border-top: 1px solid var(--edge);
+  margin: 56px 0;
+}
+
+/* Table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0 32px;
+  font-size: 0.88rem;
+}
+.data-table th {
+  background: var(--card);
+  color: var(--gold);
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--edge);
+}
+.data-table td {
+  padding: 11px 16px;
+  border-bottom: 1px solid var(--edge);
+  color: var(--soft);
+  vertical-align: top;
+  line-height: 1.6;
+}
+.data-table tr:hover td { background: rgba(255,255,255,0.02); }
+.data-table td:first-child { color: var(--white); font-style: italic; }
+.data-table code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  color: var(--teal);
+  background: rgba(45,212,191,0.06);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* New-book verse (different tone) */
+.new-verse {
+  margin: 44px 0 20px;
+}
+.new-verse-ref {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 8px;
+}
+.new-verse-text {
+  font-size: 1.1rem;
+  color: var(--white);
+  font-style: italic;
+  line-height: 1.7;
+  border-left: 3px solid var(--teal);
+  padding-left: 20px;
+  margin-bottom: 14px;
+}
+
+/* Closing quote */
+.closing-quote {
+  margin: 72px 0 48px;
+  padding: 40px;
+  background: rgba(201,168,76,0.04);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: var(--radius);
+  text-align: center;
+}
+.closing-quote p {
+  font-size: 1.1rem;
+  color: var(--gold);
+  font-style: italic;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+.closing-quote p:last-child { margin: 0; }
+.closing-quote .attr {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 20px;
+  font-style: normal;
+}
+
+/* Book pagination */
+.book-pager {
+  border-top: 1px solid var(--edge);
+  margin-top: 80px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.pager-btn {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--muted);
+  transition: all 0.2s;
+  display: flex; align-items: center; gap: 8px;
+}
+.pager-btn:hover { border-color: var(--gold); color: var(--gold); }
+.pager-btn.next { margin-left: auto; }
+
+/* Index page specifics */
+.index-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 48px 0;
+}
+.book-card {
+  background: var(--card);
+  border: 1px solid var(--edge);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+.book-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--card-accent, var(--gold));
+  opacity: 0.6;
+}
+.book-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--card-accent, var(--gold));
+  box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+}
+.book-card .card-covenant {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.book-card h3 {
+  font-size: 1.3rem;
+  color: var(--card-accent, var(--gold2));
+  margin-bottom: 6px;
+}
+.book-card .card-sub {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--soft);
+  margin-bottom: 14px;
+}
+.book-card .card-desc {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+.book-card .card-arrow {
+  margin-top: 18px;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  color: var(--card-accent, var(--gold));
+}
+
+@media (max-width: 640px) {
+  .book-hero { padding: 60px 24px 40px; }
+  .book-content { padding: 40px 20px 80px; }
+  .book-pager { flex-direction: column; padding: 24px; }
+}
+
+:root { --hero-accent: #d4a060; --hero-glow: rgba(212,160,96,0.08); --card-accent: #d4a060; }
+</style>
+</head>
+<body>
+<nav class="bible-nav">
+  <span class="brand">The Scientific Bible · AIIT-THRESI</span>
+  <a href="/bible/" class="nav-link">Index</a>
+  <a href="/bible/map.html" class="nav-link">Map</a>
+  <a href="/" class="nav-link">← Site</a>
+</nav>
+
+<div class="book-hero" style="--hero-accent:#d4a060;--hero-glow:rgba(212,160,96,0.08);">
+  <div class="covenant">Old Covenant · Foundations</div>
+  <div class="book-num">Book 03</div>
+  <h1>Psalms.</h1>
+  <div class="subtitle">The Coherence Poems</div>
+</div>
+<div class="book-content">
+
+<div class="verse"><div class="verse-ref">Psalm 23 — The Keeper Equation in Pastoral Form</div>
+<div class="verse-text">"The LORD is my shepherd; I shall not want."</div>
+<div class="eq-block">The LORD is my shepherd  →  K is my Keeper (K > K_c, Kuramoto threshold exceeded)
+I shall not want        →  γ_eff < γ_c  (need does not exceed vitality)</div>
+<br>
+<div class="verse-text">"He makes me lie down in green pastures."</div>
+<div class="eq-block">Green pastures = high φ_EZ (water-rich, sunlit, IR-absorbing)
+Lie down = Sabbath reset → γ_eff falls to γ_thermal minimum</div>
+<br>
+<div class="verse-text">"He leads me beside still waters."</div>
+<div class="eq-block">Still water → surface area maximized → EZ zone maximized
+EZ water formation rate: dφ_EZ/dt = k_IR · I_IR · (1 − φ_EZ)
+At still surface, I_IR maximized → φ_EZ → φ_c → quantum shielding active</div>
+<br>
+<div class="verse-text">"He refreshes my soul."</div>
+<div class="eq-block">C_restored = C₀ · exp(−α · γ_min)  (γ reset to minimum after restoration)
+Soul = C, the coherent fraction</div>
+<br>
+<div class="verse-text">"Even though I walk through the darkest valley, I will fear no evil."</div>
+<div class="eq-block">Dark valley = γ_eff → γ_c (approaching critical threshold)
+The valley is the edge, where V is maximum — not decoherence
+K_presence reduces γ_eff: γ_eff(S|K) = γ_m(1 − b·η_K) + γ_thermal
+When K → ∞: γ_eff → γ_thermal (minimum unavoidable noise)
+Fear is the subjective experience of γ_eff > γ_c (predicted collapse)
+No fear = K is present, γ_eff < γ_c, collapse is not predicted</div>
+<br>
+<div class="verse-text">"Your rod and your staff, they comfort me."</div>
+<div class="eq-block">Rod = corrective feedback (negative feedback loop, phase-locking)
+Staff = support during φ_EZ depletion
+Comfort = K_measurement confirming γ_eff < γ_c</div>
+<br>
+<div class="verse-text">"You anoint my head with oil; my cup overflows."</div>
+<div class="eq-block">Oil = phospholipid (membrane material that creates EZ zones)
+Anointing = application of membrane material → EZ formation
+Overflowing cup = C > C_threshold → system has coherence to spare</div>
+<br>
+<div class="verse-text">"Surely your goodness and love will follow me all the days of my life; and I will dwell in the house of the LORD forever."</div>
+<div class="eq-block">Goodness = K maintained (Keeper never leaves)
+Love = K > K_c (synchronization threshold exceeded — permanent entrainment)
+House of LORD = C₀ (the source field, the ground state)
+Dwell forever = C → C₀ as γ_eff → 0 asymptotically
+The destination is the origin. The journey is exp(−αγ) approaching 1.</div></div>
+
+<hr class="divider">
+
+<div class="verse"><div class="verse-ref">Psalm 46:10</div>
+<div class="verse-text">"Be still and know that I am God."</div>
+<div class="eq-block">Stillness: γ_thermal → minimum → Brownian motion reduced
+Knowing: measurement of C₀ with minimum γ_eff disturbance
+γ_eff → 0 → C → C₀ → direct apprehension of source field</div>
+<p class="body-p">The command is not metaphorical. To "be still" is a measurement protocol. The Heisenberg uncertainty principle: ΔE·Δt ≥ ħ/2. Stillness = long Δt → small ΔE → precise energy measurement. You can know C₀ only when your own γ_eff is minimized. Maximum knowledge of God = minimum noise in the observer. This is why every contemplative tradition prescribes silence, stillness, and emptying of mind before encounter with the divine. Not ritual preference — measurement protocol.</p></div>
+
+<hr class="divider">
+
+<div class="verse"><div class="verse-ref">Psalm 139:14</div>
+<div class="verse-text">"I praise you because I am fearfully and wonderfully made."</div>
+<div class="eq-block">W = T/T_c = 310K/330K = 0.9394</div>
+<p class="body-p">You are operating at 93.94% of the critical temperature at which your entire water network would undergo a phase transition to random connectivity. 6% from the edge. This is not a comfortable safety margin. This is the razor's edge of maximum vitality. The vitality function V(γ) peaks at γ_c. You are calibrated to γ_c. This is <strong>fearfully</strong> (γ_c is the edge, and the edge is dangerous) and <strong>wonderfully</strong> (γ_c is where V is maximum, and maximum vitality is wonderful) made. The number W = 0.9394 is not approximate. It is determined by three independent constraints of aqueous biochemistry.</p></div>
+
+</div><div class="book-pager"><a href="/bible/exodus.html" class="pager-btn">← Exodus</a><a href="/bible/proverbs.html" class="pager-btn next">Proverbs →</a></div></div>
+</body>
+</html>

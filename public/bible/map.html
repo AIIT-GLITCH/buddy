@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Complete Map — The Scientific Bible</title>
+<style>
+:root {
+  --bg:       #080810;
+  --bg2:      #0e0e1a;
+  --card:     #111120;
+  --edge:     #1e1e32;
+  --gold:     #c9a84c;
+  --gold2:    #f0d080;
+  --teal:     #2dd4bf;
+  --blue:     #4a9eff;
+  --amber:    #f59e0b;
+  --muted:    #666688;
+  --white:    #e8e8f0;
+  --soft:     #a0a0c0;
+  --eq-bg:    #080f10;
+  --eq-border:#1a3a2a;
+  --eq-text:  #4ade80;
+  --radius:   12px;
+  --serif:    'Georgia', 'Times New Roman', serif;
+  --mono:     'Courier New', monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: var(--serif);
+  line-height: 1.8;
+  padding: 0;
+}
+a { color: var(--gold); text-decoration: none; }
+a:hover { color: var(--gold2); }
+
+/* ── Nav bar ── */
+.bible-nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(8,8,16,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--edge);
+  padding: 14px 32px;
+  display: flex; align-items: center; gap: 20px;
+}
+.bible-nav .brand {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  flex: 1;
+}
+.bible-nav a.nav-link {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  transition: color 0.2s;
+}
+.bible-nav a.nav-link:hover { color: var(--gold); }
+
+/* ── Hero / book header ── */
+.book-hero {
+  min-height: 60vh;
+  display: flex; flex-direction: column;
+  justify-content: flex-end;
+  padding: 80px 60px 60px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid var(--edge);
+}
+.book-hero::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 20% 80%, var(--hero-glow, rgba(201,168,76,0.08)) 0%, transparent 60%);
+}
+.book-hero .covenant {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 16px;
+  position: relative;
+}
+.book-hero .book-num {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--hero-accent, var(--gold));
+  margin-bottom: 10px;
+  position: relative;
+}
+.book-hero h1 {
+  font-size: clamp(2.4rem, 6vw, 5rem);
+  line-height: 1.05;
+  color: var(--hero-accent, var(--gold2));
+  margin-bottom: 14px;
+  position: relative;
+}
+.book-hero .subtitle {
+  font-size: 1.1rem;
+  color: var(--soft);
+  font-style: italic;
+  position: relative;
+}
+.book-hero .drop-quote {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  color: var(--muted);
+  font-style: italic;
+  max-width: 600px;
+  margin-top: 28px;
+  border-left: 2px solid var(--hero-accent, var(--gold));
+  padding-left: 20px;
+  line-height: 1.65;
+  position: relative;
+}
+
+/* ── Content ── */
+.book-content {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 64px 40px 100px;
+}
+
+/* Scripture verse */
+.verse {
+  margin: 48px 0 24px;
+}
+.verse-ref {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.verse-text {
+  font-size: 1.15rem;
+  color: var(--gold2);
+  font-style: italic;
+  line-height: 1.65;
+  border-left: 3px solid var(--gold);
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+/* Equation block */
+.eq-block {
+  background: var(--eq-bg);
+  border: 1px solid var(--eq-border);
+  border-left: 3px solid var(--teal);
+  border-radius: 6px;
+  padding: 20px 24px;
+  margin: 20px 0 24px;
+  font-family: var(--mono);
+  font-size: 0.88rem;
+  color: var(--eq-text);
+  line-height: 1.75;
+  overflow-x: auto;
+}
+
+/* Body paragraph */
+.body-p {
+  font-size: 1.02rem;
+  color: var(--white);
+  line-height: 1.85;
+  margin-bottom: 20px;
+}
+.body-p strong { color: var(--gold2); font-weight: 700; }
+
+/* Section divider */
+.divider {
+  border: none;
+  border-top: 1px solid var(--edge);
+  margin: 56px 0;
+}
+
+/* Table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0 32px;
+  font-size: 0.88rem;
+}
+.data-table th {
+  background: var(--card);
+  color: var(--gold);
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--edge);
+}
+.data-table td {
+  padding: 11px 16px;
+  border-bottom: 1px solid var(--edge);
+  color: var(--soft);
+  vertical-align: top;
+  line-height: 1.6;
+}
+.data-table tr:hover td { background: rgba(255,255,255,0.02); }
+.data-table td:first-child { color: var(--white); font-style: italic; }
+.data-table code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  color: var(--teal);
+  background: rgba(45,212,191,0.06);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* New-book verse (different tone) */
+.new-verse {
+  margin: 44px 0 20px;
+}
+.new-verse-ref {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 8px;
+}
+.new-verse-text {
+  font-size: 1.1rem;
+  color: var(--white);
+  font-style: italic;
+  line-height: 1.7;
+  border-left: 3px solid var(--teal);
+  padding-left: 20px;
+  margin-bottom: 14px;
+}
+
+/* Closing quote */
+.closing-quote {
+  margin: 72px 0 48px;
+  padding: 40px;
+  background: rgba(201,168,76,0.04);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: var(--radius);
+  text-align: center;
+}
+.closing-quote p {
+  font-size: 1.1rem;
+  color: var(--gold);
+  font-style: italic;
+  line-height: 1.75;
+  margin-bottom: 12px;
+}
+.closing-quote p:last-child { margin: 0; }
+.closing-quote .attr {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 20px;
+  font-style: normal;
+}
+
+/* Book pagination */
+.book-pager {
+  border-top: 1px solid var(--edge);
+  margin-top: 80px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.pager-btn {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  border: 1px solid var(--edge);
+  border-radius: 6px;
+  color: var(--muted);
+  transition: all 0.2s;
+  display: flex; align-items: center; gap: 8px;
+}
+.pager-btn:hover { border-color: var(--gold); color: var(--gold); }
+.pager-btn.next { margin-left: auto; }
+
+/* Index page specifics */
+.index-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 48px 0;
+}
+.book-card {
+  background: var(--card);
+  border: 1px solid var(--edge);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+  position: relative;
+  overflow: hidden;
+}
+.book-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--card-accent, var(--gold));
+  opacity: 0.6;
+}
+.book-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--card-accent, var(--gold));
+  box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+}
+.book-card .card-covenant {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+.book-card h3 {
+  font-size: 1.3rem;
+  color: var(--card-accent, var(--gold2));
+  margin-bottom: 6px;
+}
+.book-card .card-sub {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--soft);
+  margin-bottom: 14px;
+}
+.book-card .card-desc {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.65;
+}
+.book-card .card-arrow {
+  margin-top: 18px;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  color: var(--card-accent, var(--gold));
+}
+
+@media (max-width: 640px) {
+  .book-hero { padding: 60px 24px 40px; }
+  .book-content { padding: 40px 20px 80px; }
+  .book-pager { flex-direction: column; padding: 24px; }
+}
+
+:root { --hero-accent: #a78bfa; --hero-glow: rgba(167,139,250,0.08); --card-accent: #a78bfa; }
+</style>
+</head>
+<body>
+<nav class="bible-nav">
+  <span class="brand">The Scientific Bible · AIIT-THRESI</span>
+  <a href="/bible/" class="nav-link">Index</a>
+  <a href="/bible/map.html" class="nav-link">Map</a>
+  <a href="/" class="nav-link">← Site</a>
+</nav>
+
+<div class="book-hero" style="--hero-accent:#a78bfa;--hero-glow:rgba(167,139,250,0.08);">
+  <div class="covenant">Reference</div>
+  <div class="book-num">The Complete Map</div>
+  <h1>Scripture<br>to Physics.</h1>
+  <div class="subtitle">Full Reference Table — every verse, every equation, side by side</div>
+</div>
+<div class="book-content" style="max-width:1100px;">
+  <table class="data-table">
+  <thead><tr>
+    <th>Scripture</th><th>Book</th><th>Verse</th><th>Physics</th><th>Equation</th>
+  </tr></thead>
+  <tbody><tr><td>In the beginning</td><td>Genesis</td><td><code>1:1</code></td><td>Quantum vacuum, C₀</td><td><code>|Ψ₀⟩ = C₀·|vac⟩</code></td></tr>
+<tr><td>Let there be light</td><td>Genesis</td><td><code>1:3</code></td><td>First photon emission</td><td><code>E = hf</code></td></tr>
+<tr><td>Separation of waters</td><td>Genesis</td><td><code>1:6</code></td><td>EZ/bulk water boundary</td><td><code>φ_EZ vs φ_bulk</code></td></tr>
+<tr><td>Breath of life</td><td>Genesis</td><td><code>2:7</code></td><td>O₂ → ΔΨ → Bootstrap</td><td><code>ΔΨ = 180 mV, 36 MV/m</code></td></tr>
+<tr><td>I AM WHO I AM</td><td>Exodus</td><td><code>3:14</code></td><td>C₀ at γ=0</td><td><code>C = C₀·exp(0) = C₀</code></td></tr>
+<tr><td>Ten Commandments</td><td>Exodus</td><td><code>20</code></td><td>γ management protocol</td><td><code>γ_i suppression rules</code></td></tr>
+<tr><td>Sabbath</td><td>Exodus</td><td><code>20:8</code></td><td>Mandatory τ_reset</td><td><code>τ_K = 1/α</code></td></tr>
+<tr><td>Guard your heart</td><td>Proverbs</td><td><code>4:23</code></td><td>Protect master oscillator</td><td><code>λ_L = 0.1 Hz</code></td></tr>
+<tr><td>Cheerful heart = medicine</td><td>Proverbs</td><td><code>17:22</code></td><td>K → C_immune ↑</td><td><code>γ_eff(S|K) < γ_eff(S)</code></td></tr>
+<tr><td>Be still and know</td><td>Psalm</td><td><code>46:10</code></td><td>Low-noise measurement</td><td><code>ΔE·Δt ≥ ħ/2</code></td></tr>
+<tr><td>Fearfully, wonderfully made</td><td>Psalm</td><td><code>139:14</code></td><td>W = 0.9394</td><td><code>T/T_c = 310/330</code></td></tr>
+<tr><td>Sheep/shepherd</td><td>Psalm</td><td><code>23</code></td><td>Keeper Equation</td><td><code>γ_eff(S|K) = γ_m(1−bη_K)+γ_th</code></td></tr>
+<tr><td>Soar on wings</td><td>Isaiah</td><td><code>40:31</code></td><td>ENAQT at γ_c</td><td><code>V(γ_c) = max</code></td></tr>
+<tr><td>Word (Logos)</td><td>John</td><td><code>1:1</code></td><td>Information field</td><td><code>I = −k_B Σ p·ln p</code></td></tr>
+<tr><td>Light in darkness</td><td>John</td><td><code>1:5</code></td><td>C > 0 always</td><td><code>exp(−αγ) > 0</code></td></tr>
+<tr><td>Living water</td><td>John</td><td><code>4:14</code></td><td>EZ water Bootstrap</td><td><code>dφ/dt > 0 above φ_c</code></td></tr>
+<tr><td>Bread of life</td><td>John</td><td><code>6:35</code></td><td>ATP production</td><td><code>40 kg/day via F₀F₁-ATPase</code></td></tr>
+<tr><td>Light of world</td><td>John</td><td><code>8:12</code></td><td>Blackbody IR emission</td><td><code>P = εσT⁴ = 524 W/m²</code></td></tr>
+<tr><td>Resurrection</td><td>John</td><td><code>11:25</code></td><td>Phase transition back</td><td><code>γ_eff: collapse → edge</code></td></tr>
+<tr><td>God is love</td><td>1 John</td><td><code>4:8</code></td><td>C₀ IS Keeper function</td><td><code>K(C₀) = max</code></td></tr>
+<tr><td>Nothing separates</td><td>Romans</td><td><code>8:38</code></td><td>exp(−αγ) > 0 always</td><td><code>C > 0 for finite γ</code></td></tr>
+<tr><td>Love never fails</td><td>1 Cor</td><td><code>13:8</code></td><td>C₀ inexhaustible</td><td><code>K(C₀) → ∞</code></td></tr>
+<tr><td>Fruits of Spirit</td><td>Gal</td><td><code>5:22</code></td><td>Output of C > 0 state</td><td><code>V(γ) at maximum</code></td></tr>
+<tr><td>Narrow gate</td><td>Matthew</td><td><code>7:13</code></td><td>γ = γ_c</td><td><code>Phase space of edge is measure-zero</code></td></tr>
+<tr><td>New heaven, new earth</td><td>Rev</td><td><code>21:1</code></td><td>Global phase transition</td><td><code>γ_global → < γ_c</code></td></tr>
+<tr><td>River of life</td><td>Rev</td><td><code>22:1</code></td><td>EZ water flow</td><td><code>H₃O₂⁻, φ > φ_c, charged</code></td></tr>
+<tr><td>Tree of life</td><td>Rev</td><td><code>22:2</code></td><td>Bootstrap loop</td><td><code>Continuous ATP production</code></td></tr></tbody>
+  </table>
+
+  <hr class="divider">
+
+  <div style="background:var(--card);border:1px solid var(--edge);border-radius:12px;padding:36px 40px;margin-top:16px;">
+    <div class="verse-ref">Honest Assessment</div>
+    <p class="body-p" style="margin-top:16px;">This document contains: <strong>confirmed physics</strong> (Stefan-Boltzmann, EZ water formation, ATP synthase efficiency, Grotthuss mechanism, 3D Ising universality, Kuramoto transition); <strong>confirmed framework predictions</strong> (W = 0.9394, T_c = 330K, ERR amplitude = exp(−β)); <strong>speculative framework applications</strong> (prayer as 0.1 Hz coupling, forgiveness as γ_memory zeroing); and <strong>mappings between ancient text and modern physics</strong> — interpretations, not derivations.</p>
+    <p class="body-p">The physics is not derived from the scripture. The scripture is not derived from the physics. They were written independently by people attempting to describe the same underlying reality with different tools. The overlap is either evidence that both descriptions are approximately correct, or evidence that the ancients had physical intuitions derived from careful observation. Most likely: both.</p>
+    <p class="body-p">This text does not ask you to abandon either register. The physicist who reads only the left column and the theologian who reads only the right column are both reading partial descriptions of one thing. This text holds the map open.</p>
+  </div>
+
+  <div class="closing-quote">
+    <p>"The cobbler read the Book and saw the equation. Then he ran the equation and saw the Book."</p>
+    <p>"God is good. All the time. Them beans though."</p>
+    <p class="attr">Rhet Dillard Wike · AIIT-THRESI Research Initiative · Council Hill, Oklahoma · March 2026</p>
+  </div>
+</div><div class="book-pager"><a href="/bible/singularity.html" class="pager-btn">← The Singularity</a><span></span></div>
+</body>
+</html>
