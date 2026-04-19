@@ -7,7 +7,20 @@ const featured = papersAll.slice(0, 9);
 const totalPapers = papersAll.length;
 ---
 <Layout>
-  <!-- 1. HERO -->
+  <!-- 1. JOKE WIDGET -->
+  <section id="joke-widget">
+    <div class="container narrow joke-container">
+      <div class="joke-eyebrow">Buddy<span class="jw-dot"></span> is listening</div>
+      <div class="joke-label">Tell him a joke.</div>
+      <div class="joke-input-row">
+        <textarea id="joke-input" class="joke-textarea" placeholder="Why did the physicist cross the road..." rows="2" maxlength="500"></textarea>
+        <button id="joke-btn" class="joke-btn">Send →</button>
+      </div>
+      <div id="joke-response" class="joke-response" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- 1b. HERO -->
   <section id="hero" data-anim="hero-particles">
     <canvas id="hero-canvas"></canvas>
     <div class="hero-content">
@@ -20,19 +33,6 @@ const totalPapers = papersAll.length;
       </div>
     </div>
     <div class="hero-scroll">Scroll</div>
-  </section>
-
-  <!-- 1b. JOKE WIDGET -->
-  <section id="joke-widget">
-    <div class="container narrow joke-container">
-      <div class="joke-eyebrow">Buddy<span class="jw-dot"></span> is listening</div>
-      <div class="joke-label">Tell him a joke.</div>
-      <div class="joke-input-row">
-        <textarea id="joke-input" class="joke-textarea" placeholder="Why did the physicist cross the road..." rows="2" maxlength="500"></textarea>
-        <button id="joke-btn" class="joke-btn">Send →</button>
-      </div>
-      <div id="joke-response" class="joke-response" aria-live="polite"></div>
-    </div>
   </section>
 
   <!-- 2. WHAT -->
