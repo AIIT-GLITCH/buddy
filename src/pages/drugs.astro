@@ -1,97 +1,304 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+// Off-patent generics with high-evidence indications and durable cash-price floors.
+// Prices are typical 30-day generic cash floors at major US pharmacies / GoodRx (2025);
+// always verify locally — actual price varies by pharmacy, region, and discount card.
+// This is a reference list, NOT medical advice. Talk to a clinician.
+const drugs = [
+  {
+    name: "Metformin",
+    brand: "(Glucophage)",
+    indication: "Type 2 diabetes — first-line. Reduces hepatic glucose output, improves insulin sensitivity. Also used off-label for PCOS and weight management; under active research as a longevity intervention (TAME trial).",
+    course: "500 mg twice daily, titrated to 1000 mg twice daily. Take with food.",
+    price: "$4 / 30 days (Walmart $4 list, generic 500 mg tabs)",
+    evidence: "UKPDS 34 (Lancet 1998) — 36% reduction in all-cause mortality vs. conventional therapy in overweight type 2 diabetics. ADA Standards of Care recommend as first-line monotherapy.",
+    citation: "https://pubmed.ncbi.nlm.nih.gov/9742976/",
+    cite_label: "UKPDS 34, Lancet 1998",
+    notes: "Watch B12 levels on long-term use. Hold before iodinated contrast. Contraindicated if eGFR < 30.",
+  },
+  {
+    name: "Lisinopril",
+    brand: "(Prinivil, Zestril)",
+    indication: "Hypertension, heart failure, post-MI, and diabetic nephropathy. ACE inhibitor.",
+    course: "10–40 mg once daily.",
+    price: "$4 / 30 days (Walmart $4 list, generic 10 mg or 20 mg)",
+    evidence: "GISSI-3 (Lancet 1994) — lisinopril within 24h of acute MI reduced 6-week mortality and combined endpoint of death + severe LV dysfunction. ALLHAT and HOPE trials confirm cardiovascular benefit beyond BP lowering.",
+    citation: "https://pubmed.ncbi.nlm.nih.gov/7910229/",
+    cite_label: "GISSI-3, Lancet 1994",
+    notes: "Cough in ~10% (switch to ARB if intolerant). Avoid in pregnancy. Monitor K+ and creatinine.",
+  },
+  {
+    name: "Atorvastatin",
+    brand: "(Lipitor)",
+    indication: "Primary and secondary prevention of atherosclerotic cardiovascular disease. HMG-CoA reductase inhibitor — lowers LDL cholesterol.",
+    course: "10–80 mg once daily, evening or any time.",
+    price: "$4–10 / 30 days (generic, 10 mg–40 mg)",
+    evidence: "ASCOT-LLA (Lancet 2003) — atorvastatin 10 mg cut nonfatal MI + fatal CHD by 36% in hypertensive patients with average cholesterol. Stopped early for benefit.",
+    citation: "https://pubmed.ncbi.nlm.nih.gov/12686036/",
+    cite_label: "ASCOT-LLA, Lancet 2003",
+    notes: "Check baseline LFTs and CK if symptomatic. Muscle aches in ~5%. Drug interactions via CYP3A4 (grapefruit, some antibiotics).",
+  },
+  {
+    name: "Hydrochlorothiazide",
+    brand: "(HCTZ, Microzide)",
+    indication: "Hypertension. Thiazide diuretic — first-line per JNC-8 / ACC-AHA guidelines.",
+    course: "12.5–25 mg once daily.",
+    price: "$4 / 30 days (Walmart $4 list, generic 12.5 mg or 25 mg)",
+    evidence: "ALLHAT (JAMA 2002) — chlorthalidone (a closely related thiazide-like diuretic) was non-inferior to amlodipine and lisinopril for primary CV outcomes, and superior for heart failure prevention.",
+    citation: "https://pubmed.ncbi.nlm.nih.gov/12479763/",
+    cite_label: "ALLHAT, JAMA 2002",
+    notes: "Monitor K+, Na+, glucose, uric acid. Many guidelines now prefer chlorthalidone for stronger evidence base.",
+  },
+  {
+    name: "Spironolactone",
+    brand: "(Aldactone)",
+    indication: "Heart failure (HFrEF), resistant hypertension, primary aldosteronism, hormonal acne, female pattern hair loss.",
+    course: "25–100 mg once daily depending on indication.",
+    price: "$4–15 / 30 days (generic 25 mg or 50 mg)",
+    evidence: "RALES (NEJM 1999) — spironolactone 25 mg added to standard HFrEF therapy reduced all-cause mortality by 30% vs placebo (NYHA III–IV, EF ≤35%). Stopped early for benefit.",
+    citation: "https://pubmed.ncbi.nlm.nih.gov/10471456/",
+    cite_label: "RALES, NEJM 1999",
+    notes: "Check K+ and creatinine at baseline and during titration. Gynecomastia in some men. Avoid combining with K+ supplements or other K+-sparing agents without monitoring.",
+  },
+  {
+    name: "Amoxicillin",
+    brand: "(Amoxil)",
+    indication: "Acute otitis media, strep pharyngitis, community-acquired pneumonia (in children), uncomplicated UTI in pregnancy, dental prophylaxis.",
+    course: "Adults: 500 mg every 8h or 875 mg every 12h × 5–10 days, depending on indication.",
+    price: "$5–15 / course (generic 500 mg, 21–30 capsules)",
+    evidence: "IDSA/AAP guidelines list amoxicillin as first-line for AOM, GAS pharyngitis, and uncomplicated CAP. Cochrane reviews support efficacy with low NNT for symptom resolution in confirmed bacterial infection.",
+    citation: "https://www.idsociety.org/practice-guideline/",
+    cite_label: "IDSA practice guidelines",
+    notes: "Penicillin allergy contraindication. Beware of mononucleosis (rash). Resistance rising; check local antibiogram for serious infections.",
+  },
+  {
+    name: "Doxycycline",
+    brand: "(Vibramycin)",
+    indication: "Lyme disease, rickettsial disease, atypical pneumonia (Mycoplasma, Chlamydophila), acne vulgaris, malaria prophylaxis, chlamydia (urogenital).",
+    course: "100 mg twice daily for most indications; 100 mg once daily for malaria prophylaxis and acne maintenance.",
+    price: "$8–25 / 30 days (generic 100 mg, hyclate or monohydrate)",
+    evidence: "CDC and IDSA guidelines designate doxycycline as first-line for early Lyme, RMSF, and atypical CAP. NEJM 2001 Lyme treatment trial confirmed efficacy with 10–21 day courses.",
+    citation: "https://www.cdc.gov/lyme/treatment/",
+    cite_label: "CDC Lyme treatment guidance",
+    notes: "Photosensitivity. Take with full glass of water, sit upright for 30 min (esophageal irritation). Avoid in pregnancy and children under 8 (most indications).",
+  },
+];
+
+const sources = [
+  {
+    label: "WHO Model List of Essential Medicines (23rd ed., 2023)",
+    url: "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.02",
+    note: "All seven drugs above appear on the WHO Essential Medicines List — defined as the medications a health system needs to satisfy the priority health-care needs of its population.",
+  },
+  {
+    label: "Walmart $4 Prescription Program",
+    url: "https://www.walmart.com/cp/4-prescriptions/1078664",
+    note: "Walmart maintains a published list of generics sold for $4 / 30-day supply or $10 / 90-day supply. Updated periodically; covers metformin, lisinopril, HCTZ, and many others on this page.",
+  },
+  {
+    label: "GoodRx",
+    url: "https://www.goodrx.com/",
+    note: "Free price-comparison and discount-coupon platform. Useful for finding the actual cash floor at your local pharmacies before paying retail.",
+  },
+  {
+    label: "FDA Orange Book — Approved Drug Products with Therapeutic Equivalence Evaluations",
+    url: "https://www.accessdata.fda.gov/scripts/cder/ob/index.cfm",
+    note: "Authoritative reference for which generics are AB-rated equivalent to brand-name reference products.",
+  },
+];
 ---
-<Layout title="Low-cost prescription drugs — Buddy" description="Safe, evidence-backed, low-cost prescription drug options. Coming soon.">
+<Layout title="Low-cost prescription drugs — Buddy" description="Off-patent generic prescription drugs with strong RCT evidence and low cash prices — what they treat, what the trial says, and where to verify the price.">
 
-<section class="stub-hero">
-  <div class="stub-inner">
-    <div class="eyebrow" style="justify-content:center;">AIIT-THRESI · Forthcoming</div>
+<section class="dr-hero">
+  <div class="dr-inner">
+    <div class="eyebrow" style="justify-content:center;">AIIT-THRESI · Living document</div>
     <h1>Low-cost drugs.</h1>
-    <p class="stub-sub">A reference for the cheap, safe, often-overlooked prescription drugs that actually work — backed by real trials, not marketing budgets.</p>
-
-    <div class="stub-card">
-      <div class="stub-card-label">Status</div>
-      <div class="stub-card-body">
-        <p>Compiling. Criteria: must be (a) prescribable in the US today, (b) off-patent or generic, (c) backed by peer-reviewed efficacy evidence, (d) under $50/month cash price for a standard course.</p>
-        <p>If you have a drug you think belongs on this list, send it with the citation. We're not publishing anything without the paper behind it.</p>
-      </div>
-    </div>
-
-    <div class="stub-actions">
-      <a href="/save-lives" class="stub-cta">Read Save Lives Now →</a>
-      <a href="mailto:reliablerestaurantrepair@gmail.com?subject=Low-cost%20drug%20submission" class="stub-cta-ghost">Submit a drug</a>
+    <p class="dr-sub">A starter list of off-patent generics with high-evidence indications and durable sub-$25/month cash prices. Every entry has the trial that earned it the spot, and a price source you can verify yourself.</p>
+    <div class="dr-disc">
+      <strong>Not medical advice.</strong> This is a reference for clinicians and informed patients. Drugs interact, doses vary by person, and what's right for someone else may not be right for you. Talk to a clinician before starting, stopping, or changing any medication.
     </div>
   </div>
 </section>
 
+<section class="dr-section">
+  <div class="dr-wrap">
+    <h2 class="dr-h2">The starter list</h2>
+
+    {drugs.map((d) => (
+      <article class="dr-card">
+        <header class="dr-card-head">
+          <h3 class="dr-card-title">
+            {d.name}
+            <span class="dr-card-brand">{d.brand}</span>
+          </h3>
+          <span class="dr-tag">{d.price}</span>
+        </header>
+
+        <div class="dr-row">
+          <div class="dr-row-label">What it treats</div>
+          <div class="dr-row-body">{d.indication}</div>
+        </div>
+        <div class="dr-row">
+          <div class="dr-row-label">Typical dose</div>
+          <div class="dr-row-body">{d.course}</div>
+        </div>
+        <div class="dr-row">
+          <div class="dr-row-label">Evidence</div>
+          <div class="dr-row-body">
+            {d.evidence}
+            <div class="dr-cite"><a href={d.citation} target="_blank" rel="noopener">→ {d.cite_label}</a></div>
+          </div>
+        </div>
+        <div class="dr-row">
+          <div class="dr-row-label">Cautions</div>
+          <div class="dr-row-body dr-row-note">{d.notes}</div>
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
+<section class="dr-section dr-section-alt">
+  <div class="dr-wrap">
+    <h2 class="dr-h2">Sources &amp; price references</h2>
+    <ul class="dr-src">
+      {sources.map((s) => (
+        <li class="dr-src-li">
+          <a class="dr-src-link" href={s.url} target="_blank" rel="noopener">{s.label} →</a>
+          <div class="dr-src-note">{s.note}</div>
+        </li>
+      ))}
+    </ul>
+    <p class="dr-foot">
+      Have a generic that belongs on this list, with the trial citation? Send it.
+      <a href="mailto:reliablerestaurantrepair@gmail.com?subject=Low-cost%20drug%20submission">reliablerestaurantrepair@gmail.com →</a>
+    </p>
+  </div>
+</section>
+
 <style>
-  .stub-hero {
-    padding: 160px 24px 120px;
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .dr-hero {
+    padding: 140px 24px 60px;
     background: radial-gradient(ellipse at center top, rgba(64,192,176,0.05) 0%, transparent 60%);
   }
-  .stub-inner { max-width: 720px; margin: 0 auto; text-align: center; }
-  .stub-hero h1 {
+  .dr-inner { max-width: 760px; margin: 0 auto; text-align: center; }
+  .dr-hero h1 {
     font-size: clamp(56px, 10vw, 120px);
     line-height: 1;
-    margin: 16px 0 32px;
+    margin: 16px 0 28px;
     letter-spacing: -0.02em;
   }
-  .stub-sub {
+  .dr-sub {
     color: var(--muted-hi);
-    font-size: clamp(17px, 2.2vw, 22px);
-    line-height: 1.55;
-    max-width: 600px;
-    margin: 0 auto 48px;
+    font-size: clamp(16px, 2vw, 20px);
+    line-height: 1.6;
+    max-width: 640px;
+    margin: 0 auto 28px;
   }
-  .stub-card {
+  .dr-disc {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 14px 18px;
+    border: 1px dashed var(--amber);
+    border-radius: 4px;
+    color: var(--ink);
+    font-size: 14px;
+    line-height: 1.55;
     text-align: left;
-    max-width: 620px; margin: 0 auto 44px;
+  }
+  .dr-disc strong { color: var(--amber); }
+
+  .dr-section { padding: 40px 24px 80px; }
+  .dr-section-alt { background: rgba(10,10,18,0.35); border-top: 1px solid var(--edge); }
+  .dr-wrap { max-width: 920px; margin: 0 auto; }
+  .dr-h2 {
+    font-family: 'Courier New', monospace;
+    font-size: 11pt; letter-spacing: 0.3em; text-transform: uppercase;
+    color: var(--amber);
+    margin: 8px 0 28px;
+  }
+
+  .dr-card {
     border: 1px solid var(--edge);
     border-radius: 4px;
-    padding: 28px 32px;
+    padding: 22px 26px;
+    margin: 0 0 18px;
     background: rgba(10,10,18,0.4);
   }
-  .stub-card-label {
-    font-family: 'Courier New', monospace;
-    font-size: 9pt; letter-spacing: 0.3em; text-transform: uppercase;
-    color: var(--amber);
+  .dr-card-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    flex-wrap: wrap; gap: 10px;
     margin-bottom: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--edge);
   }
-  .stub-card-body p {
-    color: var(--ink); font-size: 16px; line-height: 1.65;
-    margin: 0 0 14px;
-  }
-  .stub-card-body p:last-child { margin-bottom: 0; }
-  .stub-actions {
-    display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
-  }
-  .stub-cta, .stub-cta-ghost {
-    display: inline-block;
+  .dr-card-title { margin: 0; font-size: 22px; line-height: 1.2; color: var(--ink); }
+  .dr-card-brand { color: var(--muted-hi); font-size: 16px; font-weight: 400; margin-left: 8px; }
+  .dr-tag {
     font-family: 'Courier New', monospace;
-    font-size: 11pt; letter-spacing: 0.28em; text-transform: uppercase;
-    padding: 16px 30px;
-    border-radius: 3px;
-    text-decoration: none;
-    transition: background 0.25s, color 0.25s, border-color 0.25s;
-  }
-  .stub-cta {
-    color: var(--amber);
+    font-size: 10pt; letter-spacing: 0.12em;
+    padding: 4px 12px;
     border: 1px solid var(--amber);
+    color: var(--amber);
+    border-radius: 3px;
+    white-space: nowrap;
   }
-  .stub-cta:hover { background: var(--amber); color: #0a0a12; }
-  .stub-cta-ghost {
+
+  .dr-row {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 18px;
+    padding: 8px 0;
+  }
+  .dr-row-label {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt; letter-spacing: 0.22em; text-transform: uppercase;
     color: var(--muted-hi);
-    border: 1px solid var(--edge);
+    padding-top: 3px;
   }
-  .stub-cta-ghost:hover { border-color: var(--amber); color: var(--amber); }
+  .dr-row-body { color: var(--ink); font-size: 15px; line-height: 1.6; }
+  .dr-row-note { color: var(--muted-hi); font-style: italic; font-size: 14px; }
+  .dr-cite { margin-top: 6px; font-size: 13px; }
+  .dr-cite a {
+    color: var(--amber);
+    font-family: 'Courier New', monospace;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+  }
+  .dr-cite a:hover { text-decoration: underline; }
+
+  .dr-src { list-style: none; padding: 0; margin: 0; }
+  .dr-src-li {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--edge);
+  }
+  .dr-src-li:last-child { border-bottom: 0; }
+  .dr-src-link {
+    color: var(--amber);
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+  }
+  .dr-src-link:hover { text-decoration: underline; }
+  .dr-src-note { color: var(--muted-hi); font-size: 14px; line-height: 1.55; margin-top: 4px; }
+
+  .dr-foot {
+    color: var(--muted-hi);
+    font-size: 14px;
+    margin-top: 28px;
+    padding-top: 18px;
+    border-top: 1px solid var(--edge);
+  }
+  .dr-foot a { color: var(--amber); text-decoration: none; margin-left: 6px; }
+  .dr-foot a:hover { text-decoration: underline; }
 
   @media (max-width: 640px) {
-    .stub-hero { padding: 120px 20px 80px; }
-    .stub-card { padding: 22px 22px; }
+    .dr-hero { padding: 110px 18px 40px; }
+    .dr-card { padding: 18px 18px; }
+    .dr-row { grid-template-columns: 1fr; gap: 4px; }
+    .dr-card-head { flex-direction: column; align-items: flex-start; }
   }
 </style>
 

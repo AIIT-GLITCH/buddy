@@ -1,97 +1,275 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+// FD&C-certified petroleum-derived synthetic colors permitted in US food.
+// Sources, EU status, and key actions. Every claim citable.
+const dyes = [
+  {
+    name: "Red 40",
+    chem: "Allura Red AC",
+    e: "E129",
+    cas: "25956-17-6",
+    common: "Skittles (US), Pop-Tarts, Kool-Aid, Doritos Cool Ranch, Gatorade, fruit-flavored cereals, candy coatings, sodas, store-bought icing.",
+    eu: "Permitted but requires the warning label \"may have an adverse effect on activity and attention in children\" since 2010 (Reg. 1333/2008, Annex V).",
+    us: "Approved by FDA. No federal warning label required. California AB 2316 (2024) bans Red 40 in foods served in K–12 public schools, effective 2027.",
+    note: "One of the \"Southampton Six\" implicated in the McCann et al. 2007 Lancet trial linking mixed dye intake to inattention/hyperactivity in children.",
+  },
+  {
+    name: "Yellow 5",
+    chem: "Tartrazine",
+    e: "E102",
+    cas: "1934-21-0",
+    common: "Mountain Dew, Mac & Cheese (US Kraft Original), Lucky Charms, lemon-lime sodas, pickles, mustard, candy.",
+    eu: "Permitted with the same \"adverse effect on activity and attention in children\" warning since 2010.",
+    us: "Approved. FDA requires explicit \"FD&C Yellow No. 5 (tartrazine)\" labeling because of documented allergic/asthmatic reactions in a small fraction of users (21 CFR 74.705).",
+    note: "Southampton Six. Was banned in Norway and Austria prior to EU harmonization.",
+  },
+  {
+    name: "Yellow 6",
+    chem: "Sunset Yellow FCF",
+    e: "E110",
+    cas: "2783-94-0",
+    common: "Cheetos, Doritos, Lucky Charms, orange-flavored candies and drinks, packaged baked goods.",
+    eu: "Permitted with the children's behavioral warning since 2010.",
+    us: "Approved.",
+    note: "Southampton Six.",
+  },
+  {
+    name: "Blue 1",
+    chem: "Brilliant Blue FCF",
+    e: "E133",
+    cas: "3844-45-9",
+    common: "Blue M&Ms, blue raspberry candies/icings, Powerade Mountain Berry Blast, mint chocolate chip ice cream (some brands).",
+    eu: "Permitted, no behavioral warning required.",
+    us: "Approved.",
+    note: "Was historically banned in France, Norway, Finland (pre-EU harmonization). Now permitted EU-wide.",
+  },
+  {
+    name: "Blue 2",
+    chem: "Indigotine (Indigo Carmine)",
+    e: "E132",
+    cas: "860-22-0",
+    common: "Pet foods (heavy use), candy coatings, some baked goods.",
+    eu: "Permitted, no behavioral warning required.",
+    us: "Approved.",
+    note: "1980s NTP rodent study reported brain tumor signal; FDA review concluded data insufficient to ban.",
+  },
+  {
+    name: "Green 3",
+    chem: "Fast Green FCF",
+    e: "E143",
+    cas: "2353-45-9",
+    common: "Canned peas (some brands), mint jelly, sherbet, salad dressings.",
+    eu: "Banned in food (not on EU permitted-additives list).",
+    us: "Approved. Rare in US food supply — most manufacturers use Blue 1 + Yellow 5 blends instead.",
+    note: "EU never authorized for food use.",
+  },
+  {
+    name: "Red 3",
+    chem: "Erythrosine",
+    e: "E127",
+    cas: "16423-68-0",
+    common: "Maraschino cherries, candy corn, strawberry-flavored Nesquik, some pink sausage casings, oral medications and dental disclosing tablets.",
+    eu: "Permitted only in cocktail/candied cherries since 1994.",
+    us: "Banned in cosmetics and externally applied drugs since 1990 (FDA, citing rat thyroid tumors). Banned in all food and ingested drugs by FDA on 2025-01-15, with phase-out deadlines: foods by 2027-01-15, ingested drugs by 2028-01-18.",
+    note: "The 1990 cosmetic ban + 2025 food ban span 35 years on the same Delaney-Clause carcinogenicity finding.",
+  },
+];
+
+const sources = [
+  {
+    label: "McCann D, et al. Lancet 2007;370:1560–67",
+    url: "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(07)61306-3/fulltext",
+    note: "Randomized double-blind trial in 3-yr-olds and 8/9-yr-olds. Mixed dye + sodium benzoate increased hyperactivity. Triggered the EU warning label.",
+  },
+  {
+    label: "EU Regulation (EC) No 1333/2008, Annex V",
+    url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02008R1333-20240208",
+    note: "Mandates the \"may have an adverse effect on activity and attention in children\" warning on the Southampton Six.",
+  },
+  {
+    label: "California OEHHA, \"Health Effects of Synthetic Food Dyes in Children\" (2021)",
+    url: "https://oehha.ca.gov/risk-assessment/report/health-effects-assessment-potential-neurobehavioral-effects-synthetic-food",
+    note: "State-level review concluding synthetic dyes can cause behavioral effects in some children and that current ADIs may not be protective.",
+  },
+  {
+    label: "FDA Final Rule revoking Red 3 in food (89 FR 80652, 2025-01-15)",
+    url: "https://www.fda.gov/food/hfp-constituent-updates/fda-revoke-authorization-use-red-no-3-food-and-ingested-drugs",
+    note: "FDA revocation under the Delaney Clause based on rat thyroid carcinogenicity.",
+  },
+  {
+    label: "California AB 2316 (School Food Safety Act, 2024)",
+    url: "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2316",
+    note: "Bans Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2, Green 3 in foods served by California public schools, effective 2027.",
+  },
+];
 ---
-<Layout title="Food dye — Buddy" description="Petroleum-derived synthetic food dyes, what's in what, and what's been removed where.">
+<Layout title="Food dye — Buddy" description="The seven FD&C-certified petroleum-derived synthetic food dyes — what's in what, regulatory status in US vs EU, and the peer-reviewed evidence behind the warnings.">
 
-<section class="stub-hero">
-  <div class="stub-inner">
-    <div class="eyebrow" style="justify-content:center;">AIIT-THRESI · Forthcoming</div>
+<section class="fd-hero">
+  <div class="fd-inner">
+    <div class="eyebrow" style="justify-content:center;">AIIT-THRESI · Living document</div>
     <h1>Food dye.</h1>
-    <p class="stub-sub">Petroleum-derived synthetic colors (Red 40, Yellow 5, Yellow 6, Blue 1, Blue 2, Green 3, Red 3) — what's in your food, where they've already been banned, and the behavioral + health evidence.</p>
+    <p class="fd-sub">Seven petroleum-derived synthetic colors are FDA-approved for US food. Six of them carry a mandatory behavioral-effects warning in the EU. One was just banned in 2025. Here's the full table — receipts only, no editorializing.</p>
+  </div>
+</section>
 
-    <div class="stub-card">
-      <div class="stub-card-label">Status</div>
-      <div class="stub-card-body">
-        <p>In preparation. Will cover: the FD&C-certified dye list, the EU vs US divergence, the 2021 California OEHHA review on behavior in children, the 2025 Red 3 removal, brand-by-brand formulation differences (Kellogg's US vs UK, etc.).</p>
-        <p>Every entry will ship with the regulatory citation and the peer-reviewed source. No "it's toxic" vibes — receipts only.</p>
-      </div>
-    </div>
+<section class="fd-section">
+  <div class="fd-wrap">
+    <h2 class="fd-h2">The seven FD&amp;C dyes</h2>
 
-    <div class="stub-actions">
-      <a href="/save-lives" class="stub-cta">Read Save Lives Now →</a>
-      <a href="mailto:reliablerestaurantrepair@gmail.com?subject=Food%20dye%20evidence" class="stub-cta-ghost">Send evidence</a>
-    </div>
+    {dyes.map((d) => (
+      <article class="fd-card">
+        <header class="fd-card-head">
+          <h3 class="fd-card-title">{d.name} <span class="fd-card-chem">— {d.chem}</span></h3>
+          <div class="fd-card-meta">
+            <span class="fd-tag">{d.e}</span>
+            <span class="fd-tag fd-tag-mute">CAS {d.cas}</span>
+          </div>
+        </header>
+
+        <div class="fd-row">
+          <div class="fd-row-label">Commonly found in</div>
+          <div class="fd-row-body">{d.common}</div>
+        </div>
+        <div class="fd-row">
+          <div class="fd-row-label">EU status</div>
+          <div class="fd-row-body">{d.eu}</div>
+        </div>
+        <div class="fd-row">
+          <div class="fd-row-label">US status</div>
+          <div class="fd-row-body">{d.us}</div>
+        </div>
+        <div class="fd-row">
+          <div class="fd-row-label">Note</div>
+          <div class="fd-row-body fd-row-note">{d.note}</div>
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
+<section class="fd-section fd-section-alt">
+  <div class="fd-wrap">
+    <h2 class="fd-h2">Sources</h2>
+    <ul class="fd-src">
+      {sources.map((s) => (
+        <li class="fd-src-li">
+          <a class="fd-src-link" href={s.url} target="_blank" rel="noopener">{s.label} →</a>
+          <div class="fd-src-note">{s.note}</div>
+        </li>
+      ))}
+    </ul>
+    <p class="fd-foot">
+      Have a source we missed, or a brand-formulation difference (US vs EU/UK) worth adding?
+      <a href="mailto:reliablerestaurantrepair@gmail.com?subject=Food%20dye%20evidence">Send it →</a>
+    </p>
   </div>
 </section>
 
 <style>
-  .stub-hero {
-    padding: 160px 24px 120px;
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .fd-hero {
+    padding: 140px 24px 60px;
     background: radial-gradient(ellipse at center top, rgba(225,80,80,0.05) 0%, transparent 60%);
   }
-  .stub-inner { max-width: 720px; margin: 0 auto; text-align: center; }
-  .stub-hero h1 {
+  .fd-inner { max-width: 760px; margin: 0 auto; text-align: center; }
+  .fd-hero h1 {
     font-size: clamp(56px, 10vw, 120px);
     line-height: 1;
-    margin: 16px 0 32px;
+    margin: 16px 0 28px;
     letter-spacing: -0.02em;
   }
-  .stub-sub {
+  .fd-sub {
     color: var(--muted-hi);
-    font-size: clamp(17px, 2.2vw, 22px);
-    line-height: 1.55;
-    max-width: 600px;
-    margin: 0 auto 48px;
+    font-size: clamp(16px, 2vw, 20px);
+    line-height: 1.6;
+    max-width: 640px;
+    margin: 0 auto;
   }
-  .stub-card {
-    text-align: left;
-    max-width: 620px; margin: 0 auto 44px;
+
+  .fd-section { padding: 40px 24px 80px; }
+  .fd-section-alt { background: rgba(10,10,18,0.35); border-top: 1px solid var(--edge); }
+  .fd-wrap { max-width: 920px; margin: 0 auto; }
+  .fd-h2 {
+    font-family: 'Courier New', monospace;
+    font-size: 11pt; letter-spacing: 0.3em; text-transform: uppercase;
+    color: var(--amber);
+    margin: 8px 0 28px;
+  }
+
+  .fd-card {
     border: 1px solid var(--edge);
     border-radius: 4px;
-    padding: 28px 32px;
+    padding: 22px 26px;
+    margin: 0 0 18px;
     background: rgba(10,10,18,0.4);
   }
-  .stub-card-label {
-    font-family: 'Courier New', monospace;
-    font-size: 9pt; letter-spacing: 0.3em; text-transform: uppercase;
-    color: var(--amber);
+  .fd-card-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    flex-wrap: wrap; gap: 10px;
     margin-bottom: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--edge);
   }
-  .stub-card-body p {
-    color: var(--ink); font-size: 16px; line-height: 1.65;
-    margin: 0 0 14px;
-  }
-  .stub-card-body p:last-child { margin-bottom: 0; }
-  .stub-actions {
-    display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;
-  }
-  .stub-cta, .stub-cta-ghost {
-    display: inline-block;
+  .fd-card-title { margin: 0; font-size: 22px; line-height: 1.2; color: var(--ink); }
+  .fd-card-chem { color: var(--muted-hi); font-size: 17px; font-weight: 400; }
+  .fd-card-meta { display: flex; gap: 8px; flex-wrap: wrap; }
+  .fd-tag {
     font-family: 'Courier New', monospace;
-    font-size: 11pt; letter-spacing: 0.28em; text-transform: uppercase;
-    padding: 16px 30px;
-    border-radius: 3px;
-    text-decoration: none;
-    transition: background 0.25s, color 0.25s, border-color 0.25s;
-  }
-  .stub-cta {
-    color: var(--amber);
+    font-size: 9pt; letter-spacing: 0.18em; text-transform: uppercase;
+    padding: 3px 10px;
     border: 1px solid var(--amber);
+    color: var(--amber);
+    border-radius: 3px;
   }
-  .stub-cta:hover { background: var(--amber); color: #0a0a12; }
-  .stub-cta-ghost {
+  .fd-tag-mute { color: var(--muted-hi); border-color: var(--edge); }
+
+  .fd-row {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 18px;
+    padding: 8px 0;
+  }
+  .fd-row-label {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt; letter-spacing: 0.22em; text-transform: uppercase;
     color: var(--muted-hi);
-    border: 1px solid var(--edge);
+    padding-top: 3px;
   }
-  .stub-cta-ghost:hover { border-color: var(--amber); color: var(--amber); }
+  .fd-row-body { color: var(--ink); font-size: 15px; line-height: 1.6; }
+  .fd-row-note { color: var(--muted-hi); font-style: italic; font-size: 14px; }
+
+  .fd-src { list-style: none; padding: 0; margin: 0; }
+  .fd-src-li {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--edge);
+  }
+  .fd-src-li:last-child { border-bottom: 0; }
+  .fd-src-link {
+    color: var(--amber);
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+  }
+  .fd-src-link:hover { text-decoration: underline; }
+  .fd-src-note { color: var(--muted-hi); font-size: 14px; line-height: 1.55; margin-top: 4px; }
+
+  .fd-foot {
+    color: var(--muted-hi);
+    font-size: 14px;
+    margin-top: 28px;
+    padding-top: 18px;
+    border-top: 1px solid var(--edge);
+  }
+  .fd-foot a { color: var(--amber); text-decoration: none; margin-left: 6px; }
+  .fd-foot a:hover { text-decoration: underline; }
 
   @media (max-width: 640px) {
-    .stub-hero { padding: 120px 20px 80px; }
-    .stub-card { padding: 22px 22px; }
+    .fd-hero { padding: 110px 18px 40px; }
+    .fd-card { padding: 18px 18px; }
+    .fd-row { grid-template-columns: 1fr; gap: 4px; }
+    .fd-card-head { flex-direction: column; align-items: flex-start; }
   }
 </style>
 
