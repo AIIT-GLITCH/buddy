@@ -539,27 +539,50 @@ section:first-of-type { border-top: none; }
 @keyframes scroll-pulse { 0%, 100% { opacity: 0.3; transform: scaleY(0.6); } 50% { opacity: 1.0; transform: scaleY(1.0); } }
 
 /* What */
-#what .prose { font-size: clamp(26px, 3vw, 40px); line-height: 1.35; color: var(--ink); font-weight: 500; }
+#what .prose { font-size: clamp(22px, 2.4vw, 32px); line-height: 1.5; color: var(--ink); font-weight: 400; }
 #what .prose span { display: inline-block; opacity: 0; transform: translateY(14px); }
-#what .manifesto {
+#what .prose-plain {
+  font-size: clamp(16px, 1.5vw, 19px);
+  line-height: 1.65;
+  color: var(--ink-soft);
   margin-top: 36px;
+  max-width: 680px;
+  font-weight: 400;
+}
+#what .prose-plain .pp-label {
+  color: var(--amber);
+  font-family: 'Courier New', monospace;
+  font-size: 0.85em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+#what .prose-plain em {
+  font-style: italic;
+  color: var(--ink);
+}
+#what .kicker { font-family: 'Courier New', monospace; font-size: 11pt; letter-spacing: 0.2em; color: var(--muted); margin-top: 56px; text-transform: uppercase; }
+
+/* Manifesto block — used inside #why .why-body, can be reused elsewhere */
+.manifesto {
+  margin-top: 24px;
   max-width: 720px;
   font-size: clamp(16px, 1.5vw, 19px);
   line-height: 1.7;
   color: var(--ink-soft);
 }
-#what .manifesto p { margin: 0 0 18px; }
-#what .manifesto p:last-child { margin-bottom: 0; }
-#what .manifesto em { font-style: italic; color: var(--ink); }
-#what .manifesto strong { color: var(--amber); font-weight: 500; }
-#what .manifesto-cue {
+.manifesto p { margin: 0 0 18px; }
+.manifesto p:last-child { margin-bottom: 0; }
+.manifesto em { font-style: italic; color: var(--ink); }
+.manifesto strong { color: var(--amber); font-weight: 500; }
+.manifesto-cue {
   font-family: 'Courier New', monospace;
   font-size: 0.95em;
   letter-spacing: 0.06em;
   color: var(--amber);
   margin-top: 28px !important;
 }
-#what .wike-law {
+.wike-law {
   margin: 28px 0 32px;
   padding: 28px 32px;
   border: 1px solid rgba(212,160,96,0.35);
@@ -567,13 +590,13 @@ section:first-of-type { border-top: none; }
   background: rgba(212,160,96,0.04);
   text-align: center;
 }
-#what .wike-law-label {
+.wike-law-label {
   font-family: 'Courier New', monospace;
   font-size: 10pt; letter-spacing: 0.28em; text-transform: uppercase;
   color: var(--amber);
   margin-bottom: 16px;
 }
-#what .wike-law-eqn {
+.wike-law-eqn {
   font-family: 'Georgia', 'Times New Roman', serif;
   font-size: clamp(24px, 3vw, 34px);
   color: var(--ink);
@@ -581,15 +604,15 @@ section:first-of-type { border-top: none; }
   letter-spacing: 0.02em;
   margin-bottom: 14px;
 }
-#what .wike-law-eqn .eq { color: var(--amber); margin: 0 10px; }
-#what .wike-law-eqn sub, #what .wike-law-eqn sup { font-size: 0.65em; }
-#what .wike-law-caption {
+.wike-law-eqn .eq { color: var(--amber); margin: 0 10px; }
+.wike-law-eqn sub, .wike-law-eqn sup { font-size: 0.65em; }
+.wike-law-caption {
   font-size: 14px; line-height: 1.5;
   color: var(--muted-hi);
   max-width: 520px; margin: 0 auto;
   font-style: italic;
 }
-#what .manifesto-quote {
+.manifesto-quote {
   margin: 32px 0 0;
   padding: 20px 24px;
   border-left: 2px solid var(--amber);
@@ -599,7 +622,6 @@ section:first-of-type { border-top: none; }
   font-style: italic;
   background: rgba(255,255,255,0.02);
 }
-#what .kicker { font-family: 'Courier New', monospace; font-size: 11pt; letter-spacing: 0.2em; color: var(--muted); margin-top: 56px; text-transform: uppercase; }
 
 /* Why */
 #why blockquote { font-family: 'Georgia', serif; font-style: italic; font-size: clamp(28px, 3.4vw, 44px); line-height: 1.35; color: var(--ink); position: relative; padding: 0 0 32px 0; }
