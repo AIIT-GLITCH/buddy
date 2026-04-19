@@ -831,9 +831,16 @@ const totalPapers = papersAll.length;
   }
 
   .joke-btn:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
+    background: transparent;
+    color: var(--muted-hi);
+    border: 1px solid rgba(212,175,55,0.22);
+    opacity: 0.85;
+    cursor: default;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    box-shadow: none;
   }
+  .joke-btn:disabled:hover { transform: none; box-shadow: none; }
 
   .joke-response {
     margin-top: 20px;
