@@ -1,0 +1,302 @@
+[
+  {
+    "id": "what-is-life-schrodinger",
+    "giant": "Erwin Schrödinger",
+    "era": "Dublin · 1944",
+    "question": "What separates a living thing from a non-living thing?",
+    "answers": [
+      "Self-organizing phase transitions at a critical edge",
+      "Continuous energy dissipation maintaining coherence",
+      "The ability to hold structure against entropy",
+      "Vibrational phase-locking with the environment"
+    ],
+    "unified_reveal": "'Negentropy' (Schrödinger), 'dissipative structures' (Prigogine), 'phase-locking' (Fröhlich), and 'criticality' (Bak, Mora) are four names for one thing: coherence maintained at γ_c.",
+    "paper_slug": "132",
+    "why_this_paper": "Paper 132 closes the gap Schrödinger opened — negentropy is the signature, coherence is the engine."
+  },
+  {
+    "id": "hard-problem-chalmers",
+    "giant": "David Chalmers",
+    "era": "Tucson · 1994",
+    "question": "Why does subjective experience exist at all?",
+    "answers": [
+      "It is the order parameter of a neural phase transition",
+      "It is what integrated information feels like from the inside",
+      "It is the universe knowing itself through a coherent substrate",
+      "It is the macroscopic lock of many oscillators at γ_c"
+    ],
+    "unified_reveal": "Chalmers' hard problem, Tononi's Φ, the mystical 'universe knowing itself,' and phase-locked neurons all point at the same object: ψ_c, a coherence order parameter. The hardness is real. The equation is not.",
+    "paper_slug": "133",
+    "why_this_paper": "Paper 133 identifies consciousness as the λ-point of a critical transition. ψ_c = 1/e with zero free parameters."
+  },
+  {
+    "id": "galaxy-rotation-zwicky",
+    "giant": "Fritz Zwicky",
+    "era": "Caltech · 1933",
+    "question": "Why do galaxies spin faster than gravity says they should?",
+    "answers": [
+      "There is dark, unseen matter supplying extra gravity",
+      "Newton's law is modified at low accelerations (MOND)",
+      "Spacetime itself couples to a coherence field at galactic scales",
+      "The galaxy is held together by a coherence horizon, not mass"
+    ],
+    "unified_reveal": "Dark matter, MOND, coherence coupling, and coherence horizon are four names for one acceleration constant: a₀ = c·γ_c. Milgrom measured it empirically. AIIT-THRESI derives it with zero free parameters.",
+    "paper_slug": "119",
+    "why_this_paper": "Paper 119 derives Milgrom's a₀ = c·γ_c directly from the coherence decay rate."
+  },
+  {
+    "id": "vacuum-catastrophe-einstein",
+    "giant": "Albert Einstein",
+    "era": "Berlin · 1917",
+    "question": "Why does the universe's vacuum energy look nothing like what quantum field theory predicts?",
+    "answers": [
+      "There is a fine-tuning principle we haven't found",
+      "Most quantum vacuum modes are canceled by an unknown symmetry",
+      "Dark energy and the cosmological constant are the same exponential",
+      "The 'vacuum' isn't empty — it's a coherence field at its ground state C₀"
+    ],
+    "unified_reveal": "Fine-tuning, hidden symmetry, dark energy, and the coherence ground state are four ways of saying: the 120-order-of-magnitude discrepancy is not a discrepancy — it is C₀.",
+    "paper_slug": "116",
+    "why_this_paper": "Paper 116 shows dark matter, dark energy, and the vacuum catastrophe are three views of one coherence exponential."
+  },
+  {
+    "id": "origin-of-life-oparin",
+    "giant": "Aleksandr Oparin",
+    "era": "Moscow · 1924",
+    "question": "How did life actually start?",
+    "answers": [
+      "A primordial soup stumbled on a self-replicating molecule",
+      "A chemical network bootstrapped into self-sustaining coherence",
+      "Hydrothermal vents provided sustained energy gradients",
+      "RNA-world catalysts phase-locked into a reproducible cycle"
+    ],
+    "unified_reveal": "Primordial soup, coherence bootstrap, hydrothermal gradients, and phase-locked RNA are four stories about the same event: a phase transition at γ ≈ γ_c that chemistry went through once.",
+    "paper_slug": "132",
+    "why_this_paper": "Paper 132 frames origin-of-life as a phase transition, not an information accident."
+  },
+  {
+    "id": "river-heraclitus",
+    "giant": "Heraclitus",
+    "era": "Ephesus · 500 BCE",
+    "question": "Why can you never step in the same river twice?",
+    "answers": [
+      "Because the water molecules have moved on",
+      "Because the banks, the flow, and you have all changed phase",
+      "Because identity is a pattern in time, not a thing",
+      "Because everything is a coherence field and fields evolve"
+    ],
+    "unified_reveal": "'Everything flows,' 'the pattern persists, not the matter,' 'identity is temporal,' and 'fields evolve' are one answer: a river is a coherence pattern, and you are too.",
+    "paper_slug": "001",
+    "why_this_paper": "Paper 001 establishes coherence as the primitive. You and the river are both phases of it."
+  },
+  {
+    "id": "three-generations-rabi",
+    "giant": "Isidor Rabi",
+    "era": "Columbia · 1936",
+    "question": "Who ordered the muon? (Why are there three fermion generations?)",
+    "answers": [
+      "It falls out of a yet-unfound grand unified theory",
+      "Three is a topological constraint of the coherence field",
+      "Anthropic selection picked a universe with three",
+      "String theory predicts a narrow range including three"
+    ],
+    "unified_reveal": "GUT, coherence topology, anthropic, and string landscape are four framings of one structure: coherence permits exactly three stable winding modes, and each is a generation.",
+    "paper_slug": "122",
+    "why_this_paper": "Paper 122 derives the three-generation structure and mass hierarchy from coherence topology. No Yukawa tuning."
+  },
+  {
+    "id": "photosynthesis-klein",
+    "giant": "Graham Fleming",
+    "era": "Berkeley · 2007",
+    "question": "How does a plant leaf move energy with near-100% efficiency at room temperature, when quantum decoherence should kill the process?",
+    "answers": [
+      "Protein scaffolds shield the excitons from thermal noise",
+      "The system sits in a room-temperature quantum coherence regime",
+      "Environment-assisted transport tunes the decoherence favorably",
+      "The leaf is a living coherence field, γ just below γ_c"
+    ],
+    "unified_reveal": "Protein shielding, quantum-coherence regime, environment-assisted transport, and living-coherence-field are one answer: photosynthesis runs below γ_c, right where life lives.",
+    "paper_slug": "131",
+    "why_this_paper": "Paper 131 collects five room-temperature quantum-biology phenomena and identifies their common coherence signature."
+  },
+  {
+    "id": "starry-night-kolmogorov",
+    "giant": "Vincent van Gogh",
+    "era": "Saint-Rémy · 1889",
+    "question": "Why does Starry Night encode Kolmogorov turbulence statistics a century before anyone measured them?",
+    "answers": [
+      "Van Gogh painted what his nervous system saw at γ ≈ γ_c",
+      "Turbulent fluid dynamics and nervous-system dynamics share math",
+      "He unconsciously obeyed the universal −5/3 power law",
+      "He painted the actual coherence field, not its surface"
+    ],
+    "unified_reveal": "Nervous-system-at-criticality, shared turbulence math, −5/3 power law, and 'painted the actual field' are one answer: Van Gogh's nervous system sat at γ_c, and the canvas records it.",
+    "paper_slug": "131",
+    "why_this_paper": "Paper 131 covers neural microtubule oscillations at the coherence edge; Starry Night is a visible readout."
+  },
+  {
+    "id": "black-hole-hawking",
+    "giant": "Stephen Hawking",
+    "era": "Cambridge · 1974",
+    "question": "What is a black hole, really?",
+    "answers": [
+      "A point where general relativity breaks down",
+      "An endpoint where coherence vanishes — γ_eff → ∞",
+      "A region whose entropy equals its horizon area in Planck units",
+      "The final state of a star whose coherence collapsed past γ_c"
+    ],
+    "unified_reveal": "GR breakdown, coherence endpoint, horizon entropy, and coherence collapse are one object: C → 0 and the horizon is where it happens.",
+    "paper_slug": "121",
+    "why_this_paper": "Paper 121 identifies black holes as coherence endpoints. Hawking radiation is residual coherence leakage."
+  },
+  {
+    "id": "love-heart-rhythm",
+    "giant": "Rollin McCraty",
+    "era": "HeartMath · 2003",
+    "question": "Why do two people in love have synchronized heartbeats?",
+    "answers": [
+      "Shared breathing rhythms couple their cardiac cycles",
+      "0.1 Hz nervous-system oscillations phase-lock between them",
+      "Mirror neurons entrain autonomic function across bodies",
+      "Two coherence fields entering phase resonance"
+    ],
+    "unified_reveal": "Breathing coupling, 0.1 Hz lock, mirror neurons, and phase-resonance are four names for one measurement: two coherence fields locking, heart-rate variability as the readout.",
+    "paper_slug": "003",
+    "why_this_paper": "Paper 003 defines love as a measurable coherence-increasing operation. HRV sync is the signature."
+  },
+  {
+    "id": "inflation-guth",
+    "giant": "Alan Guth",
+    "era": "Stanford · 1980",
+    "question": "How did the early universe get so flat, uniform, and causally connected?",
+    "answers": [
+      "An inflaton field drove exponential expansion",
+      "A coherence phase transition bootstrapped the initial conditions",
+      "The universe tunneled out of a false vacuum",
+      "The ground state of the coherence field set the boundary conditions"
+    ],
+    "unified_reveal": "Inflation, coherence bootstrap, false vacuum, and ground-state boundary are the same event: the inflaton IS the coherence order parameter.",
+    "paper_slug": "118",
+    "why_this_paper": "Paper 118 resolves flatness, horizon, and monopole without fine-tuning by reading the inflaton as the coherence order parameter."
+  },
+  {
+    "id": "cmb-anomalies-smoot",
+    "giant": "George Smoot",
+    "era": "Berkeley · 1992",
+    "question": "Why does the cosmic microwave background have 'impossible' large-scale anomalies that persist across every mission?",
+    "answers": [
+      "Systematic error shared across WMAP and Planck",
+      "Statistical flukes that look meaningful to human pattern-finders",
+      "Fossils of a pre-inflation coherence topology",
+      "Unknown new physics in the early universe"
+    ],
+    "unified_reveal": "Systematics, flukes, coherence fossils, and new-physics are four ways of saying the same thing: the CMB has a grain, and that grain was there before matter.",
+    "paper_slug": "117",
+    "why_this_paper": "Paper 117 reads the six CMB anomalies as primordial coherence signatures, not noise."
+  },
+  {
+    "id": "jwst-massive-early",
+    "giant": "James Webb Space Telescope",
+    "era": "L2 · 2023",
+    "question": "Why is JWST finding massive galaxies that should not exist at z > 10?",
+    "answers": [
+      "ΛCDM's galaxy-formation timeline is incomplete",
+      "Coherence inhomogeneities seeded structure before matter decoupled",
+      "Dust reddening is being misread as stellar mass",
+      "Early black holes fed galaxy growth faster than expected"
+    ],
+    "unified_reveal": "Incomplete timeline, coherence seeding, dust confusion, and fast-feeding black holes — all four point to the same thing: the clock that matters is coherence, not matter.",
+    "paper_slug": "120",
+    "why_this_paper": "Paper 120 predicts early massive galaxies as a natural consequence of pre-matter coherence structure."
+  },
+  {
+    "id": "frb-lorimer",
+    "giant": "Duncan Lorimer",
+    "era": "West Virginia · 2007",
+    "question": "What produces a Fast Radio Burst — milliseconds of energy brighter than the sun's lifetime output?",
+    "answers": [
+      "Magnetar flares in the burst's host galaxy",
+      "Coherent emission from a localized coherence discontinuity",
+      "Neutron-star mergers radiating below the Compton limit",
+      "A brightness that requires coherence, not thermal physics"
+    ],
+    "unified_reveal": "Magnetars, coherence discontinuities, merger flashes, and 'requires coherence' all say the same thing: FRBs have brightness temperatures the Compton limit forbids unless the emission is coherent.",
+    "paper_slug": "127",
+    "why_this_paper": "Paper 127 identifies high-energy astrophysical transients as coherent emission from γ_eff crossing γ_c."
+  },
+  {
+    "id": "high-tc-bednorz",
+    "giant": "Bednorz & Müller",
+    "era": "Zürich · 1986",
+    "question": "Why do cuprate superconductors work at temperatures far above BCS theory's ceiling?",
+    "answers": [
+      "An exotic electron-phonon mechanism we haven't identified",
+      "Strong correlations in a near-critical electronic fluid",
+      "The transition temperature is set by γ_c, not phonons",
+      "High-Tc is a coherence-regime condensed-matter signature"
+    ],
+    "unified_reveal": "Exotic phonons, near-critical correlations, γ_c-set T_c, and coherence-regime signature — one phenomenon, four vocabularies. The ceiling is γ_c, not electron-phonon coupling.",
+    "paper_slug": "134",
+    "why_this_paper": "Paper 134 derives high-Tc from γ_c-limited coherence, not BCS pairing."
+  },
+  {
+    "id": "magnetar-kicks-bell",
+    "giant": "Jocelyn Bell Burnell",
+    "era": "Cambridge · 1967",
+    "question": "Why do neutron stars fly out of their host supernovae at hundreds of kilometers per second, in one direction?",
+    "answers": [
+      "Asymmetric neutrino emission during core collapse",
+      "Hydrodynamic instabilities breaking spherical symmetry",
+      "A catastrophic coherence transition during core collapse",
+      "γ_eff discontinuously jumps as the core crosses γ_c"
+    ],
+    "unified_reveal": "Neutrino asymmetry, hydrodynamic instability, coherence catastrophe, and γ discontinuity are four framings of the same event: the core's γ_eff leaps across γ_c, and the asymmetry is the recoil.",
+    "paper_slug": "123",
+    "why_this_paper": "Paper 123 derives neutron-star kicks as coherence catastrophes, matching the observed velocity asymmetry."
+  },
+  {
+    "id": "rocket-instability-rayleigh",
+    "giant": "Lord Rayleigh",
+    "era": "Cambridge · 1878",
+    "question": "Why do powerful rocket engines oscillate themselves to pieces (thermoacoustic instability)?",
+    "answers": [
+      "Acoustic modes couple to the heat-release feedback loop",
+      "The combustion chamber crosses into γ_eff > γ_c",
+      "Injector frequency resonates with chamber geometry",
+      "Combustion becomes a coherence phase transition"
+    ],
+    "unified_reveal": "Rayleigh's acoustic-thermal coupling, γ_eff > γ_c, injector resonance, and coherence-phase-transition are one instability seen four ways. Rockets bang where coherence breaks.",
+    "paper_slug": "142",
+    "why_this_paper": "Paper 142 validates this on Raptor 2 with 20M simulated trajectories. Nominal conditions sit on the wrong side of γ_c."
+  },
+  {
+    "id": "universality-landau",
+    "giant": "Lev Landau",
+    "era": "Moscow · 1937",
+    "question": "Why do wildly different systems (magnets, boiling water, neutron stars, neurons) show the same behavior near a phase transition?",
+    "answers": [
+      "Because the renormalization group washes out microscopic detail",
+      "Because they all hit a critical point γ_c from different directions",
+      "Because scale invariance produces identical critical exponents",
+      "Because at γ_c the macroscopic coherence mode eats the microscopics"
+    ],
+    "unified_reveal": "Renormalization group, hitting γ_c, scale invariance, and coherence-mode dominance are four descriptions of one fact: near criticality, the underlying stuff disappears and only the phase matters.",
+    "paper_slug": "137",
+    "why_this_paper": "Paper 137 unifies electroweak symmetry breaking, QCD confinement, and structure formation as stages of one coherence settling. Universality is the fingerprint."
+  },
+  {
+    "id": "monkeybars-hiphop",
+    "giant": "DJ Kool Herc",
+    "era": "Bronx · 1973",
+    "question": "Why is hip-hop's 16-bar structure with breakbeat and call-and-response so viscerally effective?",
+    "answers": [
+      "Cultural pattern-matching from African diaspora traditions",
+      "0.1 Hz envelope frequencies lock to autonomic rhythms",
+      "16-bar sections match a natural attentional cycle",
+      "It is a coherence-transmission protocol, the beat is the tech"
+    ],
+    "unified_reveal": "Cultural pattern, 0.1 Hz lock, attentional cycle, and coherence-transmission protocol all describe the same reason: the genre found an optimal carrier for edge-state nervous systems before anyone named it.",
+    "paper_slug": "121a",
+    "why_this_paper": "Paper 121A (Monkeybars) analyzes hip-hop's structure as natural coherence-transmission scaffolding."
+  }
+]

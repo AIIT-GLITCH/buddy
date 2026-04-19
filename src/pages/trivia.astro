@@ -1,0 +1,632 @@
+---
+import Layout from '../layouts/Layout.astro';
+import trivia from '../data/trivia.json';
+import papersAll from '../data/papers.json';
+
+// Build a slug → paper lookup so the client can render paper cards without shipping the full corpus
+const paperLookup = {};
+for (const p of papersAll) {
+  if (trivia.some(t => t.paper_slug === p.slug)) {
+    paperLookup[p.slug] = {
+      num: p.num,
+      suffix: p.suffix || '',
+      title: p.title,
+      tag: p.tag,
+      slug: p.slug,
+      abstract: p.abstract || '',
+      plain_english: p.plain_english || '',
+      status: p.status || '',
+    };
+  }
+}
+---
+<Layout title="Answer the Giants — Buddy" description="The giants asked. You answer. The Wike Coherence Law tells you why every answer is the same answer.">
+  <section id="trivia-section">
+    <!-- Intro -->
+    <div id="screen-intro" class="tg-screen active">
+      <div class="eyebrow">Answer the Giants</div>
+      <h1 class="tg-h1">Three questions a day.<br><span class="tg-amber">Three papers a day.</span></h1>
+      <p class="tg-blurb">
+        The giants asked. You answer. The Wike Coherence Law tells you why <em>every answer</em> is the same answer.
+      </p>
+      <div class="tg-stats">
+        <div class="tg-stat"><div class="tg-stat-val" id="stat-papers">0</div><div class="tg-stat-label">papers collected</div></div>
+        <div class="tg-stat"><div class="tg-stat-val" id="stat-sessions">0</div><div class="tg-stat-label">sessions played</div></div>
+      </div>
+      <button class="tg-btn primary" id="btn-begin">Begin →</button>
+    </div>
+
+    <!-- Question -->
+    <div id="screen-question" class="tg-screen" hidden>
+      <div class="tg-progress" id="tg-progress">Paper 1 of 3 · Today's draw</div>
+      <div class="tg-giant">
+        <div class="tg-giant-initials" id="giant-initials">—</div>
+        <div class="tg-giant-meta">
+          <div class="tg-giant-name" id="giant-name"></div>
+          <div class="tg-giant-era" id="giant-era"></div>
+        </div>
+      </div>
+      <h2 class="tg-question" id="tg-question">—</h2>
+      <div class="tg-answers" id="tg-answers"></div>
+    </div>
+
+    <!-- Reveal -->
+    <div id="screen-reveal" class="tg-screen" hidden>
+      <div class="tg-reveal-head">Yes. You're correct.</div>
+      <div class="tg-reveal-sub"><em>And so is every other answer.</em></div>
+      <div class="tg-unified" id="tg-unified"></div>
+      <div class="tg-rehash" id="tg-rehash"></div>
+      <div class="wike-law-mini" aria-hidden="true">
+        C = C<sub>0</sub> · e<sup>−α·γ<sub>eff</sub></sup>
+      </div>
+      <div class="tg-paper-slot" id="tg-paper-slot"></div>
+      <button class="tg-btn primary" id="btn-next">Next →</button>
+    </div>
+
+    <!-- Done -->
+    <div id="screen-done" class="tg-screen" hidden>
+      <div class="eyebrow">Back tomorrow</div>
+      <h1 class="tg-h1">Three papers collected.</h1>
+      <div class="tg-today-papers" id="tg-today-papers"></div>
+      <div class="tg-countdown" id="tg-countdown"></div>
+      <div class="tg-stats">
+        <div class="tg-stat"><div class="tg-stat-val" id="stat-total">0</div><div class="tg-stat-label">total papers</div></div>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline set:html={`window.__TRIVIA = ${JSON.stringify(trivia)};`}></script>
+  <script is:inline set:html={`window.__TRIVIA_PAPERS = ${JSON.stringify(paperLookup)};`}></script>
+
+  <script is:inline>
+    (function () {
+      const TRIVIA = window.__TRIVIA || [];
+      const PAPERS = window.__TRIVIA_PAPERS || {};
+      const KEY_DATE = 'trivia_last_date';
+      const KEY_PROG = 'trivia_today_progress';
+      const KEY_COLLECTED = 'trivia_collected_slugs';
+      const KEY_SESSIONS = 'trivia_total_sessions';
+
+      // ── Date-seeded PRNG (xmur3 + sfc32) so everyone playing today gets the same 3 ──
+      function xmur3(str) {
+        let h = 1779033703 ^ str.length;
+        for (let i = 0; i < str.length; i++) {
+          h = Math.imul(h ^ str.charCodeAt(i), 3432918353);
+          h = (h << 13) | (h >>> 19);
+        }
+        return function () {
+          h = Math.imul(h ^ (h >>> 16), 2246822507);
+          h = Math.imul(h ^ (h >>> 13), 3266489909);
+          return (h ^= h >>> 16) >>> 0;
+        };
+      }
+      function sfc32(a, b, c, d) {
+        return function () {
+          a >>>= 0; b >>>= 0; c >>>= 0; d >>>= 0;
+          let t = (a + b) | 0;
+          a = b ^ (b >>> 9);
+          b = (c + (c << 3)) | 0;
+          c = (c << 21) | (c >>> 11);
+          d = (d + 1) | 0;
+          t = (t + d) | 0;
+          c = (c + t) | 0;
+          return (t >>> 0) / 4294967296;
+        };
+      }
+      function todayKey() {
+        const d = new Date();
+        return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+      }
+      function pickToday() {
+        const seed = xmur3('trivia-' + todayKey());
+        const rand = sfc32(seed(), seed(), seed(), seed());
+        const deck = TRIVIA.slice();
+        for (let i = deck.length - 1; i > 0; i--) {
+          const j = Math.floor(rand() * (i + 1));
+          [deck[i], deck[j]] = [deck[j], deck[i]];
+        }
+        return deck.slice(0, 3);
+      }
+
+      // ── Persistence helpers ──
+      function loadProg() {
+        try {
+          const raw = localStorage.getItem(KEY_PROG);
+          if (!raw) return null;
+          return JSON.parse(raw);
+        } catch { return null; }
+      }
+      function saveProg(p) { localStorage.setItem(KEY_PROG, JSON.stringify(p)); }
+      function clearProg() { localStorage.removeItem(KEY_PROG); }
+      function getCollected() {
+        try { return JSON.parse(localStorage.getItem(KEY_COLLECTED) || '[]'); }
+        catch { return []; }
+      }
+      function addCollected(slug) {
+        const arr = getCollected();
+        if (!arr.includes(slug)) arr.push(slug);
+        localStorage.setItem(KEY_COLLECTED, JSON.stringify(arr));
+      }
+      function getSessions() {
+        return parseInt(localStorage.getItem(KEY_SESSIONS) || '0', 10) || 0;
+      }
+      function bumpSessions() {
+        localStorage.setItem(KEY_SESSIONS, String(getSessions() + 1));
+      }
+
+      // ── State ──
+      const screens = {
+        intro: document.getElementById('screen-intro'),
+        question: document.getElementById('screen-question'),
+        reveal: document.getElementById('screen-reveal'),
+        done: document.getElementById('screen-done'),
+      };
+      function show(name) {
+        for (const k in screens) {
+          screens[k].hidden = (k !== name);
+          screens[k].classList.toggle('active', k === name);
+        }
+        // Scroll the active screen to top on transition for mobile
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      let todaysQs = pickToday();
+      let prog = loadProg();
+      const savedDate = localStorage.getItem(KEY_DATE);
+
+      // If we crossed midnight, reset today's progress
+      if (savedDate && savedDate !== todayKey()) {
+        clearProg();
+        prog = null;
+      }
+
+      function renderStats() {
+        document.getElementById('stat-papers').textContent = getCollected().length;
+        document.getElementById('stat-sessions').textContent = getSessions();
+        const t = document.getElementById('stat-total');
+        if (t) t.textContent = getCollected().length;
+      }
+      renderStats();
+
+      // Initial screen selection
+      if (prog && prog.idx >= 3) {
+        renderDone();
+        show('done');
+      } else if (prog && prog.idx > 0 && prog.idx < 3) {
+        // Mid-round resume: show current question
+        loadQuestion(prog.idx);
+        show('question');
+      } else {
+        show('intro');
+      }
+
+      // ── Intro → begin ──
+      document.getElementById('btn-begin').addEventListener('click', function () {
+        prog = { idx: 0, picked: [] };
+        saveProg(prog);
+        localStorage.setItem(KEY_DATE, todayKey());
+        bumpSessions();
+        renderStats();
+        loadQuestion(0);
+        show('question');
+      });
+
+      // ── Question loading ──
+      function initials(name) {
+        return name.split(/\s+/).map(w => w[0] || '').join('').toUpperCase().slice(0, 3);
+      }
+      function loadQuestion(i) {
+        const q = todaysQs[i];
+        document.getElementById('tg-progress').textContent =
+          'Paper ' + (i + 1) + ' of 3 · Today\'s draw';
+        document.getElementById('giant-initials').textContent = initials(q.giant);
+        document.getElementById('giant-name').textContent = q.giant;
+        document.getElementById('giant-era').textContent = q.era;
+        document.getElementById('tg-question').textContent = q.question;
+
+        const host = document.getElementById('tg-answers');
+        host.innerHTML = '';
+        q.answers.forEach(function (a, ai) {
+          const btn = document.createElement('button');
+          btn.className = 'tg-answer';
+          btn.setAttribute('data-idx', String(ai));
+          btn.innerHTML = '<span class="tg-answer-letter">' +
+            String.fromCharCode(65 + ai) + '</span>' +
+            '<span class="tg-answer-text">' + a + '</span>';
+          btn.addEventListener('click', function () { onPick(i, ai); });
+          host.appendChild(btn);
+        });
+      }
+
+      // ── Pick → reveal ──
+      function onPick(i, ai) {
+        prog = prog || { idx: 0, picked: [] };
+        prog.picked[i] = ai;
+        saveProg(prog);
+        const q = todaysQs[i];
+        addCollected(q.paper_slug);
+        renderReveal(q, ai);
+        show('reveal');
+      }
+
+      function renderReveal(q, pickedIdx) {
+        document.getElementById('tg-unified').textContent = q.unified_reveal;
+
+        const rehash = document.getElementById('tg-rehash');
+        rehash.innerHTML = '';
+        q.answers.forEach(function (a, ai) {
+          const row = document.createElement('div');
+          row.className = 'tg-rehash-row' + (ai === pickedIdx ? ' your-pick' : '');
+          row.innerHTML = '<span class="tg-rehash-letter">' +
+            String.fromCharCode(65 + ai) + '</span>' +
+            '<span class="tg-rehash-text">' + a + '</span>' +
+            (ai === pickedIdx ? '<span class="tg-rehash-you">← you</span>' : '');
+          rehash.appendChild(row);
+        });
+
+        renderPaperCard(q);
+
+        document.getElementById('btn-next').textContent =
+          (prog.idx + 1 >= 3) ? 'Finish →' : 'Next →';
+      }
+
+      function renderPaperCard(q) {
+        const slot = document.getElementById('tg-paper-slot');
+        slot.innerHTML = '';
+        const p = PAPERS[q.paper_slug];
+        if (!p) { return; }
+        const card = document.createElement('div');
+        card.className = 'tg-paper-card';
+        card.innerHTML =
+          '<div class="tg-paper-num">Paper ' + p.num + p.suffix + '</div>' +
+          '<div class="tg-paper-title">' + p.title + '</div>' +
+          '<div class="tg-paper-tag">' + p.tag + '</div>' +
+          (p.plain_english ? '<div class="tg-paper-plain"><em>' + p.plain_english + '</em></div>' : '') +
+          (p.abstract ? '<div class="tg-paper-abstract">' + p.abstract + '</div>' : '') +
+          (q.why_this_paper ? '<div class="tg-paper-why"><span class="tg-paper-why-label">Why this paper:</span> ' + q.why_this_paper + '</div>' : '') +
+          '<a class="tg-paper-link" href="/papers/' + p.slug + '">Read →</a>';
+        slot.appendChild(card);
+      }
+
+      // ── Next ──
+      document.getElementById('btn-next').addEventListener('click', function () {
+        prog.idx += 1;
+        saveProg(prog);
+        if (prog.idx >= 3) {
+          renderDone();
+          show('done');
+          renderStats();
+        } else {
+          loadQuestion(prog.idx);
+          show('question');
+        }
+      });
+
+      // ── Done ──
+      function renderDone() {
+        const host = document.getElementById('tg-today-papers');
+        host.innerHTML = '';
+        todaysQs.forEach(function (q) {
+          const p = PAPERS[q.paper_slug];
+          if (!p) return;
+          const a = document.createElement('a');
+          a.className = 'tg-today-card';
+          a.href = '/papers/' + p.slug;
+          a.innerHTML =
+            '<div class="tg-today-num">Paper ' + p.num + p.suffix + '</div>' +
+            '<div class="tg-today-title">' + p.title + '</div>' +
+            '<div class="tg-today-tag">' + p.tag + '</div>';
+          host.appendChild(a);
+        });
+        startCountdown();
+      }
+
+      function startCountdown() {
+        const el = document.getElementById('tg-countdown');
+        function tick() {
+          const now = new Date();
+          const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0);
+          const ms = tomorrow - now;
+          const h = Math.floor(ms / 3_600_000);
+          const m = Math.floor((ms % 3_600_000) / 60_000);
+          el.textContent = 'Next draw in ' + h + 'h ' + m + 'm';
+        }
+        tick();
+        if (window.__triviaCountdownInt) clearInterval(window.__triviaCountdownInt);
+        window.__triviaCountdownInt = setInterval(tick, 60_000);
+      }
+    })();
+  </script>
+
+  <style>
+    /* Section shell — full viewport under nav, comfortable reading width */
+    #trivia-section {
+      min-height: calc(100vh - 64px);
+      padding: 120px 6vw 120px;
+      display: flex; align-items: flex-start; justify-content: center;
+      border-top: none;
+    }
+    .tg-screen {
+      width: 100%; max-width: 760px;
+      opacity: 0;
+      animation: tg-fade-in 0.45s ease forwards;
+    }
+    .tg-screen.active { opacity: 1; }
+    @keyframes tg-fade-in {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .tg-h1 { font-family: 'Georgia', serif; font-weight: 700; font-size: clamp(36px, 6vw, 64px); line-height: 1.1; margin-bottom: 20px; color: var(--ink); }
+    .tg-amber { color: var(--amber); }
+    .tg-blurb { font-size: clamp(16px, 1.6vw, 19px); line-height: 1.7; color: var(--ink-soft); max-width: 640px; margin: 0 0 36px; }
+    .tg-blurb em { color: var(--amber); font-style: italic; }
+
+    /* Stats row */
+    .tg-stats { display: flex; gap: 28px; margin-bottom: 40px; flex-wrap: wrap; }
+    .tg-stat { border-left: 2px solid var(--edge); padding-left: 14px; }
+    .tg-stat-val { font-family: 'Georgia', serif; font-size: clamp(28px, 3vw, 40px); color: var(--ink); font-weight: 500; }
+    .tg-stat-label { font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+
+    /* Buttons */
+    .tg-btn {
+      background: transparent;
+      color: var(--amber);
+      border: 1px solid rgba(212,160,96,0.55);
+      border-radius: 999px;
+      padding: 12px 28px;
+      font-family: 'Courier New', monospace;
+      font-size: 11pt;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.1s;
+    }
+    .tg-btn:hover { background: rgba(212,160,96,0.1); border-color: var(--amber); }
+    .tg-btn:active { transform: translateY(1px); }
+    .tg-btn.primary { background: rgba(212,160,96,0.12); }
+
+    /* Question screen */
+    .tg-progress {
+      font-family: 'Courier New', monospace;
+      font-size: 10pt; letter-spacing: 0.26em; text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 24px;
+    }
+    .tg-giant {
+      display: flex; align-items: center; gap: 16px;
+      padding: 18px 20px;
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--edge);
+      border-radius: 12px;
+      margin-bottom: 28px;
+    }
+    .tg-giant-initials {
+      width: 52px; height: 52px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 40%, rgba(212,160,96,0.3) 0%, rgba(212,160,96,0.05) 80%);
+      border: 1px solid rgba(212,160,96,0.35);
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Georgia', serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--amber);
+      flex-shrink: 0;
+    }
+    .tg-giant-name { font-family: 'Georgia', serif; font-size: 19px; color: var(--ink); font-weight: 500; }
+    .tg-giant-era { font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.14em; color: var(--muted); margin-top: 3px; }
+
+    .tg-question {
+      font-family: 'Georgia', serif;
+      font-size: clamp(22px, 2.8vw, 32px);
+      line-height: 1.35;
+      color: var(--ink);
+      font-weight: 400;
+      margin-bottom: 32px;
+    }
+
+    .tg-answers { display: grid; grid-template-columns: 1fr; gap: 12px; }
+    .tg-answer {
+      background: rgba(255,255,255,0.025);
+      border: 1px solid var(--edge);
+      border-radius: 10px;
+      padding: 14px 18px;
+      color: var(--ink-soft);
+      font-family: 'Georgia', serif;
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: left;
+      cursor: pointer;
+      display: grid; grid-template-columns: 32px 1fr; align-items: center; gap: 14px;
+      transition: border-color 0.15s, background 0.15s, transform 0.1s;
+    }
+    .tg-answer:hover { border-color: var(--amber); background: rgba(212,160,96,0.05); }
+    .tg-answer:active { transform: translateY(1px); }
+    .tg-answer-letter {
+      width: 32px; height: 32px; border-radius: 50%;
+      background: rgba(212,160,96,0.08);
+      border: 1px solid rgba(212,160,96,0.3);
+      display: inline-flex; align-items: center; justify-content: center;
+      font-family: 'Courier New', monospace; font-size: 12pt; letter-spacing: 0;
+      color: var(--amber);
+    }
+
+    /* Reveal screen */
+    .tg-reveal-head {
+      font-family: 'Georgia', serif;
+      font-size: clamp(28px, 3.6vw, 44px);
+      color: var(--amber);
+      margin-bottom: 6px;
+    }
+    .tg-reveal-sub {
+      font-family: 'Georgia', serif;
+      font-size: clamp(16px, 1.6vw, 20px);
+      color: var(--muted-hi);
+      margin-bottom: 28px;
+    }
+    .tg-reveal-sub em { color: var(--ink-soft); font-style: italic; }
+    .tg-unified {
+      font-family: 'Georgia', serif;
+      font-size: clamp(16px, 1.6vw, 19px);
+      line-height: 1.7;
+      color: var(--ink-soft);
+      padding: 18px 20px;
+      border-left: 2px solid var(--amber);
+      background: rgba(212,160,96,0.04);
+      margin-bottom: 24px;
+    }
+    .tg-rehash { display: flex; flex-direction: column; gap: 8px; margin-bottom: 28px; }
+    .tg-rehash-row {
+      display: grid; grid-template-columns: 28px 1fr auto;
+      gap: 12px; align-items: center;
+      padding: 10px 14px;
+      border: 1px solid var(--edge);
+      border-radius: 8px;
+      font-size: 15px; color: var(--muted-hi);
+      background: rgba(255,255,255,0.01);
+    }
+    .tg-rehash-row.your-pick {
+      border-color: rgba(212,160,96,0.4);
+      color: var(--ink-soft);
+      background: rgba(212,160,96,0.04);
+    }
+    .tg-rehash-letter {
+      font-family: 'Courier New', monospace;
+      font-size: 10pt;
+      color: var(--amber);
+      text-align: center;
+    }
+    .tg-rehash-you {
+      font-family: 'Courier New', monospace;
+      font-size: 9pt; letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--amber);
+    }
+
+    .wike-law-mini {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: clamp(18px, 2vw, 24px);
+      color: rgba(212,160,96,0.45);
+      text-align: center;
+      margin: 24px 0 16px;
+      letter-spacing: 0.02em;
+      font-style: italic;
+    }
+    .wike-law-mini sub, .wike-law-mini sup { font-size: 0.65em; }
+
+    /* Thrown paper */
+    .tg-paper-slot { margin-bottom: 28px; }
+    .tg-paper-card {
+      background: linear-gradient(180deg, rgba(17,17,29,0.95) 0%, rgba(10,10,18,0.95) 100%);
+      border: 1px solid rgba(212,160,96,0.35);
+      border-radius: 12px;
+      padding: 24px 26px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.4), 0 0 0 1px rgba(212,160,96,0.08);
+      animation: paper-throw 0.85s cubic-bezier(.2,.7,.3,1);
+      transform-origin: center;
+    }
+    @keyframes paper-throw {
+      0%   { transform: translateX(-130vw) rotate(-26deg); opacity: 0; }
+      70%  { transform: translateX(10px)   rotate(3deg);   opacity: 1; }
+      100% { transform: translateX(0)      rotate(0);      opacity: 1; }
+    }
+    .tg-paper-num {
+      font-family: 'Courier New', monospace;
+      font-size: 10pt; letter-spacing: 0.26em; text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 10px;
+    }
+    .tg-paper-title { font-family: 'Georgia', serif; font-size: clamp(20px, 2.2vw, 26px); color: var(--ink); font-weight: 500; line-height: 1.25; margin-bottom: 10px; }
+    .tg-paper-tag {
+      display: inline-block;
+      font-family: 'Courier New', monospace;
+      font-size: 9pt; letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--teal);
+      border: 1px solid rgba(64,192,176,0.3);
+      padding: 3px 10px;
+      border-radius: 999px;
+      margin-bottom: 14px;
+    }
+    .tg-paper-plain {
+      color: var(--ink);
+      font-style: italic;
+      margin-bottom: 12px;
+      line-height: 1.5;
+    }
+    .tg-paper-abstract {
+      color: var(--ink-soft);
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+    .tg-paper-why {
+      padding: 12px 14px;
+      background: rgba(212,160,96,0.06);
+      border-left: 2px solid var(--amber);
+      font-size: 14px;
+      color: var(--ink-soft);
+      line-height: 1.5;
+      margin-bottom: 16px;
+      border-radius: 0 6px 6px 0;
+    }
+    .tg-paper-why-label {
+      font-family: 'Courier New', monospace;
+      font-size: 9pt; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--amber);
+      margin-right: 6px;
+    }
+    .tg-paper-link {
+      display: inline-block;
+      font-family: 'Courier New', monospace;
+      font-size: 10pt;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--amber);
+      border-bottom: none;
+      padding: 4px 0;
+    }
+    .tg-paper-link:hover { color: var(--warm); border-bottom: none; }
+
+    /* Done screen */
+    .tg-today-papers {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin: 28px 0 24px;
+    }
+    .tg-today-card {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--edge);
+      border-radius: 10px;
+      padding: 14px 16px;
+      color: var(--ink-soft);
+      border-bottom: 1px solid var(--edge);
+      text-decoration: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .tg-today-card:hover { border-color: var(--amber); background: rgba(212,160,96,0.04); }
+    .tg-today-num { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.2em; color: var(--amber); margin-bottom: 6px; }
+    .tg-today-title { font-family: 'Georgia', serif; font-size: 17px; color: var(--ink); line-height: 1.3; margin-bottom: 6px; }
+    .tg-today-tag { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.2em; color: var(--teal); text-transform: uppercase; }
+
+    .tg-countdown {
+      font-family: 'Courier New', monospace;
+      font-size: 11pt; letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--muted);
+      margin: 18px 0 28px;
+    }
+
+    /* Mobile */
+    @media (max-width: 640px) {
+      #trivia-section { padding: 100px 5vw 80px; }
+      .tg-giant { padding: 14px; gap: 12px; }
+      .tg-giant-initials { width: 44px; height: 44px; font-size: 15px; }
+      .tg-answer { padding: 12px 14px; font-size: 15px; grid-template-columns: 28px 1fr; gap: 10px; }
+      .tg-answer-letter { width: 28px; height: 28px; font-size: 10pt; }
+      .tg-rehash-row { grid-template-columns: 24px 1fr auto; padding: 8px 12px; font-size: 14px; }
+      .tg-paper-card { padding: 18px 18px; }
+      @keyframes paper-throw {
+        0%   { transform: scale(0.6) rotate(-12deg); opacity: 0; }
+        70%  { transform: scale(1.04) rotate(2deg); opacity: 1; }
+        100% { transform: scale(1) rotate(0); opacity: 1; }
+      }
+    }
+  </style>
+</Layout>
