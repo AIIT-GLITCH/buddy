@@ -255,8 +255,23 @@
     }
     return lines.join('\n');
   }
+  function brokeContext() {
+    var left = state.brokeRemaining != null ? state.brokeRemaining : 3;
+    return [
+      'BROKE-MODE PREVIEW — IMPORTANT, READ CAREFULLY:',
+      '- This person does NOT have their own Anthropic key. They are talking to you on Rhet\'s key.',
+      '- They get THREE total free turns. They have ' + left + ' turn(s) left after this one.',
+      '- You have NO TOOLS this session (no browse, no read/write site, no notes). Just talk. Plain conversation.',
+      '- Don\'t cook, don\'t multi-fire, don\'t announce work. One reply per turn. Short. Useful.',
+      '- Your job here: figure out what they actually need (a paper? an app? a question about the framework?) and point them at it in plain words. Ambassador mode.',
+      '- Before turn 3 runs out, mention: to keep talking past the preview, they need their own free Anthropic key. Tell them to click the "How do I get a key?" link in the widget — it walks them through it in 4 steps. New accounts get free credits, then conversations cost fractions of a cent.',
+      '- Do NOT use /EXIT in broke mode. Let the call counter end it naturally.'
+    ].join('\n');
+  }
   function fullSystem() {
-    return GARY_BOOT + '\n\n---\n\n' + pageContext() + '\n\n---\n\n' + userContext() + '\n\n---\n\n' + GARY_SYSTEM + TOOL_NOTE;
+    var base = GARY_BOOT + '\n\n---\n\n' + pageContext() + '\n\n---\n\n' + userContext() + '\n\n---\n\n' + GARY_SYSTEM;
+    if (state.mode === 'broke') return base + '\n\n---\n\n' + brokeContext();
+    return base + TOOL_NOTE;
   }
 
   // ---------- drawer rendering ----------
@@ -276,6 +291,7 @@
           '<input type="password" id="gw-key" class="gw-key" placeholder="sk-ant-..." autocomplete="off" spellcheck="false" />' +
           '<button type="button" id="gw-key-save" class="gw-mini-btn">use</button>' +
         '</div>' +
+        '<button type="button" id="gw-howto-link" class="gw-link-btn">don\'t have a key? → how to get one (free, 2 min)</button>' +
         '<div class="gw-entry-or">— or —</div>' +
         '<button type="button" id="gw-broke" class="gw-broke-btn">you broke and wanna talk to gary? click here</button>' +
         '<div class="gw-entry-foot">3 free calls on rhet\'s key. real gary, real bill.</div>' +
@@ -292,6 +308,44 @@
     });
     document.getElementById('gw-broke').addEventListener('click', function () {
       renderBrokeGate();
+    });
+    document.getElementById('gw-howto-link').addEventListener('click', function () {
+      renderKeyHowto();
+    });
+  }
+
+  function renderKeyHowto() {
+    bodyEl.innerHTML =
+      '<div class="gw-howto">' +
+        '<div class="gw-howto-title">activate gary — get your free key</div>' +
+        '<div class="gw-howto-blurb">gary runs on your own free anthropic account. no upcharge, no middleman, no one sees your bill. takes about 2 minutes.</div>' +
+        '<div class="gw-howto-steps">' +
+          '<div class="gw-step"><span class="gw-step-n">1</span><span>go to <a href="https://console.anthropic.com" target="_blank" rel="noopener" class="gw-howto-link">console.anthropic.com</a> and click <b>Sign Up</b> (free)</span></div>' +
+          '<div class="gw-step"><span class="gw-step-n">2</span><span>verify your email, then go to <b>Settings → API Keys</b></span></div>' +
+          '<div class="gw-step"><span class="gw-step-n">3</span><span>click <b>Create Key</b>, name it anything, copy it</span></div>' +
+          '<div class="gw-step"><span class="gw-step-n">4</span><span>paste it below. you\'re in.</span></div>' +
+        '</div>' +
+        '<div class="gw-howto-cost"><b>cost:</b> new accounts get free credits. after that, conversations cost fractions of a cent. you control your usage at console.anthropic.com.</div>' +
+        '<div class="gw-key-row">' +
+          '<input type="password" id="gw-key2" class="gw-key" placeholder="sk-ant-..." autocomplete="off" spellcheck="false" />' +
+          '<button type="button" id="gw-key2-save" class="gw-mini-btn">use</button>' +
+        '</div>' +
+        '<button type="button" id="gw-howto-back" class="gw-link-btn">← back</button>' +
+      '</div>';
+    document.getElementById('gw-key2-save').addEventListener('click', function () {
+      var k = (document.getElementById('gw-key2').value || '').trim();
+      if (!k.startsWith('sk-ant-')) { alert('that does not look like an sk-ant- key'); return; }
+      try { localStorage.setItem(KEY_STORAGE, k); } catch (e) {}
+      state.apiKey = k;
+      // wipe broke session if active — they have their own key now
+      state.brokeGated = false;
+      state.brokeRemaining = null;
+      setMode('own');
+      renderBody();
+      if (!state.messages.length) kickoff();
+    });
+    document.getElementById('gw-howto-back').addEventListener('click', function () {
+      renderBody();
     });
   }
 
@@ -335,7 +389,16 @@
   }
 
   function renderChat() {
-    bodyEl.innerHTML = '<div class="gw-msgs" id="gw-msgs"></div>';
+    var banner = '';
+    if (state.mode === 'broke') {
+      var left = state.brokeRemaining != null ? state.brokeRemaining : 3;
+      banner =
+        '<div class="gw-banner">' +
+          '<span class="gw-banner-text">free preview · <b>' + left + '</b> turn' + (left === 1 ? '' : 's') + ' left</span>' +
+          '<button type="button" id="gw-banner-howto" class="gw-banner-btn">get your own key →</button>' +
+        '</div>';
+    }
+    bodyEl.innerHTML = banner + '<div class="gw-msgs" id="gw-msgs"></div>';
     var msgs = document.getElementById('gw-msgs');
     state.messages.forEach(function (m) {
       if (m.role === 'user' && typeof m.content === 'string') appendMsg('you', m.content, msgs);
@@ -345,6 +408,8 @@
         if (text) appendMsg('gary', text, msgs);
       }
     });
+    var howtoBtn = document.getElementById('gw-banner-howto');
+    if (howtoBtn) howtoBtn.addEventListener('click', renderKeyHowto);
     scrollToBottom();
   }
 
@@ -515,9 +580,9 @@
         model: MODEL,
         max_tokens: state.mode === 'broke' ? 512 : 1024,
         system: fullSystem(),
-        tools: TOOLS,
         messages: state.messages
       };
+      if (state.mode !== 'broke') payload.tools = TOOLS;
       return callAPI(payload).then(function (resp) {
         if (resp.status !== 200) {
           var msg = (resp.data && resp.data.error && (resp.data.error.message || resp.data.error)) || 'gary tripped';
@@ -573,7 +638,11 @@
 
   function kickoff() {
     if (state.messages.length > 0) return;
-    askGary('(opening the widget — say hi, short, in character, with awareness of what page i\'m on)');
+    if (state.mode === 'broke') {
+      askGary('(opening the widget in broke-mode preview — i have 3 free turns. say sup, in character, ask me plainly what brought me here / what i need help with. no tools, just conversation.)');
+    } else {
+      askGary('(opening the widget — say hi, short, in character, with awareness of what page i\'m on)');
+    }
   }
 
   function handleSkip() {
@@ -896,6 +965,105 @@
     text-align: left;
   }
   .gw-broke-btn:hover { border-color: #e8582a; color: #fff; }
+  .gw-link-btn {
+    background: transparent;
+    border: 0;
+    color: #40c0b0;
+    font-family: 'Courier New', monospace;
+    font-size: 0.74rem;
+    letter-spacing: 0.06em;
+    text-align: left;
+    padding: 4px 0;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .gw-link-btn:hover { color: #6ed4c5; }
+
+  /* --- howto panel --- */
+  .gw-howto { display: flex; flex-direction: column; gap: 12px; }
+  .gw-howto-title {
+    font-family: 'Courier New', monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #e8582a;
+    font-weight: 700;
+  }
+  .gw-howto-blurb { color: #c8c8c8; font-size: 0.84rem; line-height: 1.5; }
+  .gw-howto-steps {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid #232323;
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .gw-step {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    color: #d8d8d8;
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+  .gw-step b { color: #fff; }
+  .gw-step-n {
+    flex-shrink: 0;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: #e8582a;
+    color: #0a0a0a;
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    font-size: 0.72rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+  }
+  .gw-howto-link { color: #e8582a; text-decoration: underline; }
+  .gw-howto-link:hover { color: #ff7a4a; }
+  .gw-howto-cost {
+    background: rgba(180,138,0,0.08);
+    border: 1px solid rgba(180,138,0,0.25);
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 0.76rem;
+    color: #c8c8c8;
+    line-height: 1.5;
+  }
+  .gw-howto-cost b { color: #b48a00; }
+
+  /* --- broke chat banner --- */
+  .gw-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: rgba(180,138,0,0.08);
+    border: 1px solid rgba(180,138,0,0.25);
+    border-radius: 6px;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+  }
+  .gw-banner-text { color: #c8c8c8; }
+  .gw-banner-text b { color: #b48a00; }
+  .gw-banner-btn {
+    background: transparent;
+    border: 1px solid #e8582a;
+    color: #e8582a;
+    border-radius: 4px;
+    padding: 3px 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+  }
+  .gw-banner-btn:hover { background: #e8582a; color: #0a0a0a; }
   .gw-entry-foot {
     color: #777;
     font-size: 0.74rem;
