@@ -102,9 +102,9 @@ const pageDescription = coreClaim || abstract.slice(0, 200) || `${paper.title} â
       <a class="btn ghost" href={pdfUrl} download>Download</a>
     </div>
 
-    <object class="paper-embed" data={pdfUrl} type="application/pdf">
-      <p style="padding: 32px; color: var(--muted);">Your browser can't embed this PDF. <a href={pdfUrl}>Open it in a new tab.</a></p>
-    </object>
+    <div class="paper-embed-wrap">
+      <iframe class="paper-embed" src={pdfUrl} title={paper.title}></iframe>
+    </div>
 
     {related.length > 0 && (
       <div class="related">

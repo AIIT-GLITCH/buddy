@@ -690,7 +690,8 @@ section:first-of-type { border-top: none; }
 .paper-page .paper-meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 20px; padding: 24px 0; border-top: 1px solid var(--edge); border-bottom: 1px solid var(--edge); margin-bottom: 40px; }
 .paper-page .paper-meta .k { font-family: 'Courier New', monospace; font-size: 8pt; letter-spacing: 0.24em; text-transform: uppercase; color: var(--muted); }
 .paper-page .paper-meta .v { font-family: 'Georgia', serif; font-size: 16px; color: var(--ink); margin-top: 6px; }
-.paper-embed { width: 100%; aspect-ratio: 1 / 1.3; border: 1px solid var(--edge); border-radius: 4px; background: #0d0d17; margin-bottom: 32px; }
+.paper-embed-wrap { width: 100%; aspect-ratio: 1 / 1.3; border: 1px solid var(--edge); border-radius: 4px; background: #0d0d17 !important; margin-bottom: 32px; overflow: hidden; }
+.paper-embed { width: 100%; height: 100%; border: none; background: #0d0d17 !important; display: block; }
 .paper-actions { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 60px; }
 .btn { font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.24em; text-transform: uppercase; padding: 14px 28px; border: 1px solid var(--amber); color: var(--amber); border-radius: 3px; transition: background 0.25s, color 0.25s; border-bottom: 1px solid var(--amber); }
 .btn:hover { background: var(--amber); color: var(--bg); border-bottom: 1px solid var(--amber); }
