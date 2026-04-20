@@ -86,6 +86,25 @@ const papers = files.map(f => {
   return { id: stem, num, suffix, slug, title, tag, filename: f };
 });
 
+// Dedupe by num: when multiple PDFs share PAPER_NN_, the LAST one (alphabetically
+// last in PRINT_READY) keeps the original num and matches what's been live.
+// Earlier "loser" entries get reassigned to fresh paper numbers starting at maxNum+1
+// so every entry in papers.json has a unique slug — Astro can build one route per paper.
+{
+  let maxNum = 0;
+  papers.forEach(p => { const n = parseInt(p.num, 10); if (n > maxNum) maxNum = n; });
+  const lastIdxByKey = {};
+  papers.forEach((p, i) => { lastIdxByKey[p.num + p.suffix] = i; });
+  let nextNum = maxNum + 1;
+  papers.forEach((p, i) => {
+    if (lastIdxByKey[p.num + p.suffix] === i) return;
+    const newNumStr = String(nextNum).padStart(3, '0');
+    p.num  = newNumStr;
+    p.slug = newNumStr + (p.suffix || '').toLowerCase();
+    nextNum++;
+  });
+}
+
 // Watermark + copyright every PDF into public/papers via stamp_pdf.py.
 // Skip re-stamping if output already newer than source (cheap incremental build).
 const STAMPER = resolve(__dirname, 'stamp_pdf.py');
