@@ -739,6 +739,8 @@ section:first-of-type { border-top: none; }
 .team-card .t-name { font-family: 'Georgia', serif; font-size: 22px; color: var(--ink); margin-bottom: 6px; }
 .team-card .t-role { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.24em; text-transform: uppercase; color: var(--amber); margin-bottom: 12px; }
 .team-card .t-bio { color: var(--muted-hi); font-size: 15px; line-height: 1.55; }
+.pixie-link { display: inline-block; margin-top: 12px; font-family: 'Georgia', serif; font-size: 13px; font-style: italic; color: #c8a8f5; letter-spacing: 0.08em; text-decoration: none; border-bottom: 1px solid rgba(200,168,245,0.35); transition: color 0.2s, border-color 0.2s; }
+.pixie-link:hover { color: #e8d9b0; border-color: rgba(232,217,176,0.6); }
 
 /* Join */
 #join { background: linear-gradient(180deg, var(--bg) 0%, #05050a 100%); }
