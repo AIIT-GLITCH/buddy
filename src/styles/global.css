@@ -17,7 +17,8 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { overflow-x: clip; scroll-behavior: smooth; }
+html { overflow-x: clip; scroll-behavior: smooth; background: #0a0a12 !important; }
+body { background: #0a0a12 !important; }
 
 /* Buddy loader — the dot, gone unhinged */
 .buddy-loader {

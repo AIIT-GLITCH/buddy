@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tell Buddy a Joke — AIIT-THRESHOLD</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<style>
+  @page { size: landscape; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact; }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: #2d2b55;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+    font-family: monospace;
+    overflow: hidden;
+  }
+
+  .left {
+    width: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 16px;
+  }
+  .left canvas {
+    image-rendering: pixelated;
+    display: block;
+    max-height: 95vh;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  .divider {
+    width: 2px;
+    background: linear-gradient(to bottom, transparent, #f0a500 20%, #f0a500 80%, transparent);
+    margin: 30px 0;
+    flex-shrink: 0;
+  }
+
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 24px 24px 20px;
+  }
+
+  .eyebrow {
+    font-family: 'Courier New', monospace;
+    font-size: 8px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgba(240,165,0,0.55);
+    margin-bottom: 10px;
+  }
+
+  .headline {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: #f0a500;
+    line-height: 1.05;
+    letter-spacing: -0.5px;
+    margin-bottom: 12px;
+  }
+
+  .sub {
+    font-family: 'Courier New', monospace;
+    font-size: 8px;
+    color: #8899bb;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .rule {
+    width: 160px;
+    height: 2px;
+    background: #f0a500;
+    margin: 10px 0;
+    opacity: 0.7;
+  }
+
+  .url {
+    font-family: 'Courier New', monospace;
+    font-size: 9px;
+    color: #f0a500;
+    letter-spacing: 0.1em;
+    opacity: 0.8;
+  }
+
+  #qr {
+    margin: 10px 0 4px;
+  }
+  #qr img, #qr canvas {
+    border: 3px solid rgba(240,165,0,0.25);
+    border-radius: 4px;
+    display: block;
+    width: 180px !important;
+    height: 180px !important;
+  }
+  .qr-label {
+    font-family: 'Courier New', monospace;
+    font-size: 7px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(240,165,0,0.4);
+    margin-bottom: 4px;
+  }
+  .waiste {
+    margin-top: auto;
+    padding-top: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(240,165,0,0.3);
+    border-top: 1px solid rgba(240,165,0,0.15);
+  }
+
+  .notes-panel {
+    width: 240px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 28px 24px 28px 16px;
+    border-left: 1px dashed rgba(240,165,0,0.2);
+    gap: 18px;
+  }
+  .note-block {
+    background: rgba(255,255,255,0.04);
+    border-left: 3px solid rgba(240,165,0,0.35);
+    padding: 10px 12px;
+    border-radius: 2px;
+  }
+  .note-label {
+    font-family: 'Courier New', monospace;
+    font-size: 7px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgba(240,165,0,0.5);
+    margin-bottom: 5px;
+  }
+  .note-text {
+    font-family: Georgia, serif;
+    font-size: 11px;
+    color: #ccd0e0;
+    line-height: 1.65;
+  }
+  .note-text em {
+    color: #f0a500;
+    font-style: italic;
+  }
+
+  #buttons {
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    display: flex;
+    gap: 8px;
+    z-index: 999;
+  }
+  #buttons button {
+    background: #f0a500;
+    color: #1a1833;
+    border: none;
+    padding: 8px 16px;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  #buttons button:hover { background: #ffc030; }
+  @media print { #buttons { display: none; } }
+</style>
+</head>
+<body>
+
+<div class="left">
+  <canvas id="c"></canvas>
+</div>
+
+<div class="divider"></div>
+
+<div class="right">
+  <div class="eyebrow">// AIIT-THRESHOLD · Coherence Physics Institute</div>
+  <div class="headline">TELL BUDDY<br>A JOKE.</div>
+  <div class="sub">Your AI companion is listening</div>
+  <div class="rule"></div>
+  <div class="url">aiit-threshold.com</div>
+  <div class="qr-label">// scan to talk to buddy</div>
+  <div id="qr"></div>
+  <div class="waiste">✓ wAIste Not verified · printed with purpose · council hill, oklahoma</div>
+</div>
+
+<div class="notes-panel">
+  <div class="note-block">
+    <div class="note-label">// joke of the day</div>
+    <div class="note-text">Why don't scientists trust atoms?<br><em>Because they make up everything.</em><br><br>Buddy heard that one and said it needed more coherence.</div>
+  </div>
+
+  <div class="note-block">
+    <div class="note-label">// theo von &amp; the squirrel</div>
+    <div class="note-text">Theo Von once said a squirrel looked at him like it <em>knew something.</em> We believe him. That's basically what AIIT-THRESI is — the squirrel was at the edge. γ_eff ≈ γ_c.</div>
+  </div>
+
+  <div class="note-block">
+    <div class="note-label">// cancer research</div>
+    <div class="note-text">AIIT-THRESHOLD is actively modeling <em>tumor coherence collapse</em> using HRV phase dynamics. The physics says cancer loses edge. We're learning how to find it early.</div>
+  </div>
+</div>
+
+<div id="buttons">
+  <button onclick="saveOG()">Save OG Image (1200×630)</button>
+  <button onclick="window.print()">Print</button>
+</div>
+
+<script>
+const Z=5, COLS=48;
+const W='#f5f5f5',B='#111',T='#1a1a2e',G='#f0a500';
+const QC='#e8e8ff',QS='#c0c0e0',QO='#8080a8';
+const Q1='#ff6b9d',Q2='#6bffed',Q3='#c46bff',Q4='#a06bff',Q5='#6bff8f',Q6='#ff9f6b';
+const SU='#1e1e3a',CB='#c8a060',PC='#f5c518',SK='#e8c49a';
+
+function cr(l,r,lExt,rExt,ov){
+  const a=Array(COLS).fill(null);
+  for(let c=l;c<=r;c++) a[c]=QC;
+  a[l]=QS; a[r]=QS;
+  if(lExt) lExt.forEach(([c,v])=>{if(c>=0&&c<COLS)a[c]=v;});
+  if(rExt) rExt.forEach(([c,v])=>{if(c>=0&&c<COLS)a[c]=v;});
+  if(ov)   ov.forEach(([c,v])  =>{if(c>=0&&c<COLS)a[c]=v;});
+  return a;
+}
+function hatRow(l,r,fill){const a=Array(COLS).fill(null);a[l]=B;a[r]=B;for(let c=l+1;c<r;c++)a[c]=fill;return a;}
+function brimRow(l,r){const a=Array(COLS).fill(null);for(let c=l;c<=r;c++)a[c]=B;return a;}
+
+const LA=l=>[[l-1,QS],[l-2,QS],[l-3,QO]];
+const LB=l=>[[l-1,QS],[l-3,QS],[l-4,QO]];
+const LC=l=>[[l-1,QS],[l-2,QO]];
+const LD=l=>[[l-1,QS],[l-2,QS],[l-3,QS],[l-4,QO]];
+const LE=l=>[[l-1,QS],[l-3,QO]];
+const LF=l=>[[l-1,QS],[l-2,QS]];
+const RA=r=>[[r+1,QS],[r+2,QS],[r+3,QO]];
+const RB=r=>[[r+1,QS],[r+3,QS],[r+4,QO]];
+const RC=r=>[[r+1,QS],[r+2,QO]];
+const RD=r=>[[r+1,QS],[r+2,QS],[r+3,QS],[r+4,QO]];
+const RE=r=>[[r+1,QS],[r+3,QO]];
+const RF=r=>[[r+1,QS],[r+2,QS]];
+
+const mouthBar=Array.from({length:20},(_,i)=>[14+i,B]);
+const mouthSide=[[14,B],[33,B]];
+const L_COL=12,R_COL=32,EW=4,EYE_ROW=13;
+const eyePixels=[[0,0,W],[1,0,B],[2,0,B],[3,0,B],[0,1,B],[1,1,B],[2,1,B],[3,1,B],[0,2,B],[1,2,B],[2,2,B],[3,2,B],[0,3,B],[1,3,B],[2,3,B],[3,3,B]];
+
+const grid=[
+  brimRow(13,34),hatRow(13,34,T),hatRow(13,34,T),hatRow(13,34,T),
+  hatRow(13,34,T),hatRow(13,34,T),hatRow(13,34,T),hatRow(13,34,G),
+  brimRow(7,40),brimRow(7,40),
+  (()=>{const a=Array(COLS).fill(null);a[4]=QO;a[5]=QS;a[6]=QS;a[41]=QS;a[42]=QS;a[43]=QO;return a;})(),
+  cr(7,40,LD(7),RD(40)),cr(6,41,LB(6),RA(41)),cr(5,42,LA(5),RB(42)),cr(5,42,LD(5),RA(42)),
+  cr(5,42,LB(5),RD(42)),cr(5,42,LD(5),RB(42)),
+  cr(5,42,LA(5),RA(42)),cr(5,42,LB(5),RC(42)),cr(5,42,LC(5),RA(42)),cr(5,42,LD(5),RB(42)),
+  cr(5,42,LA(5),RD(42)),
+  cr(5,42,LA(5),RA(42)),cr(5,42,LB(5),RB(42)),cr(5,42,LC(5),RC(42)),
+  cr(5,42,LD(5),RD(42)),cr(5,42,LA(5),RA(42)),cr(5,42,LB(5),RB(42)),
+  cr(5,42,LB(5),RB(42)),
+  cr(5,42,LC(5),RC(42),mouthSide),
+  cr(5,42,LD(5),RD(42),mouthSide),
+  cr(5,42,LA(5),RA(42),mouthBar),
+  cr(5,42,LA(5),RA(42)),cr(5,42,LB(5),RD(42)),cr(5,42,LD(5),RB(42)),
+  cr(7,40,LA(7),RA(40)),cr(9,38,LB(9),RB(38)),cr(11,36,LC(11),RC(36)),
+  cr(14,33,LA(14),RA(33)),cr(16,31,LB(16),RB(31)),
+  (()=>{const a=Array(COLS).fill(null);for(let c=18;c<=29;c++)a[c]=QS;a[17]=QO;a[16]=QO;a[30]=QO;a[31]=QO;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=20;c<=27;c++)a[c]=QS;a[19]=QO;a[18]=QO;a[28]=QO;a[29]=QO;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=21;c<=26;c++)a[c]=QS;a[20]=QO;a[19]=QO;a[27]=QO;a[28]=QO;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);a[19]=QO;a[20]=QO;a[22]=QO;a[23]=QS;a[24]=QS;a[25]=QO;a[27]=QO;a[28]=QO;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);a[20]=QO;a[22]=QO;a[24]=QS;a[26]=QO;a[27]=QO;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);a[21]=QO;a[23]=QO;a[25]=QO;return a;})(),
+  // body
+  (()=>{const a=Array(COLS).fill(null);a[23]=SK;a[24]=SK;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);[20,21,26,27].forEach(c=>a[c]=SU);[22,23,24,25].forEach(c=>a[c]=W);return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=20;c<=27;c++)a[c]=SU;a[21]=G;a[22]=G;a[25]=G;a[26]=G;a[23]=B;a[24]=B;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=20;c<=27;c++)a[c]=SU;a[23]=W;a[24]=W;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=12;c<=35;c++)a[c]=SU;a[23]=W;a[24]=W;for(let c=6;c<=18;c++)a[c]=B;a[11]=B;a[12]=B;a[36]=B;a[37]=B;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=18;c<=29;c++)a[c]=SU;a[23]=W;a[24]=W;a[6]=B;for(let c=7;c<=17;c++)a[c]=W;a[18]=B;a[11]=B;a[12]=B;a[30]=SK;a[31]=Q1;a[32]=B;a[33]=PC;a[34]=PC;a[35]=PC;a[36]=PC;a[37]=B;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=18;c<=29;c++)a[c]=SU;a[23]=W;a[24]=W;a[6]=B;for(let c=7;c<=17;c++)a[c]=B;a[18]=B;a[30]=SK;a[31]=Q1;a[32]=B;a[33]=PC;a[34]=PC;a[35]=PC;a[36]=B;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=18;c<=29;c++)a[c]=SU;a[23]=W;a[24]=W;a[6]=B;for(let c=7;c<=17;c++)a[c]=W;a[18]=B;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=18;c<=29;c++)a[c]=SU;a[23]=W;a[24]=W;a[6]=B;for(let c=7;c<=17;c++)a[c]=B;a[18]=B;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=18;c<=29;c++)a[c]=SU;a[23]=W;a[24]=W;a[6]=B;for(let c=7;c<=17;c++)a[c]=W;a[18]=B;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=18;c<=29;c++)a[c]=SU;a[23]=W;a[24]=W;for(let c=6;c<=18;c++)a[c]=B;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=19;c<=28;c++)a[c]=SU;a[23]=B;a[24]=B;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);for(let c=20;c<=27;c++)a[c]=SU;return a;})(),
+  (()=>{const a=Array(COLS).fill(null);[20,21,22,25,26,27].forEach(c=>a[c]=SU);return a;})(),
+  (()=>{const a=Array(COLS).fill(null);[20,21,22,25,26,27].forEach(c=>a[c]=SU);return a;})(),
+  (()=>{const a=Array(COLS).fill(null);[20,21,22,25,26,27].forEach(c=>a[c]=SU);return a;})(),
+  (()=>{const a=Array(COLS).fill(null);[20,21,22,25,26,27].forEach(c=>a[c]=SU);return a;})(),
+  (()=>{const a=Array(COLS).fill(null);[18,19,20,21,22,23].forEach(c=>a[c]=B);[24,25,26,27,28,29].forEach(c=>a[c]=B);return a;})(),
+];
+
+const flickerDots=[
+  {r:11,c:10,color:Q1,freq:0.080,phase:0.00},{r:11,c:36,color:Q2,freq:0.110,phase:2.10},
+  {r:13,c:7, color:Q3,freq:0.060,phase:2.50},{r:13,c:40,color:Q4,freq:0.130,phase:0.70},
+  {r:14,c:8, color:Q5,freq:0.090,phase:3.10},{r:14,c:39,color:Q1,freq:0.150,phase:1.80},
+  {r:15,c:6, color:Q6,freq:0.070,phase:4.20},{r:16,c:39,color:Q2,freq:0.120,phase:0.30},
+  {r:17,c:9, color:Q3,freq:0.100,phase:2.00},{r:17,c:38,color:Q4,freq:0.050,phase:1.10},
+  {r:21,c:8, color:Q5,freq:0.140,phase:3.80},{r:21,c:37,color:Q6,freq:0.080,phase:0.60},
+];
+
+function drawGrid(ctx,scale,t){
+  ctx.fillStyle='#2d2b55';
+  ctx.fillRect(0,0,COLS*Z*scale,grid.length*Z*scale);
+  grid.forEach((row,r)=>row.forEach((color,c)=>{
+    if(!color)return;
+    ctx.fillStyle=color;
+    ctx.fillRect(c*Z*scale,r*Z*scale,Z*scale,Z*scale);
+  }));
+  flickerDots.forEach(d=>{
+    const fill=t===null?d.color:(Math.sin(t*d.freq+d.phase)>0?d.color:W);
+    ctx.fillStyle=fill;
+    ctx.fillRect(d.c*Z*scale,d.r*Z*scale,Z*scale,Z*scale);
+  });
+  eyePixels.forEach(([dc,dr,color])=>{
+    ctx.fillStyle=color;
+    ctx.fillRect((L_COL+dc)*Z*scale,(EYE_ROW+dr)*Z*scale,Z*scale,Z*scale);
+    ctx.fillRect((R_COL+(EW-1-dc))*Z*scale,(EYE_ROW+dr)*Z*scale,Z*scale,Z*scale);
+  });
+}
+
+const DRAW_SCALE = 2.2;
+const mainC=document.getElementById('c');
+mainC.width=Math.round(COLS*Z*DRAW_SCALE);
+mainC.height=Math.round(grid.length*Z*DRAW_SCALE);
+mainC.style.imageRendering='pixelated';
+
+let tick=0;
+(function loop(){
+  drawGrid(mainC.getContext('2d'),DRAW_SCALE,tick++);
+  requestAnimationFrame(loop);
+})();
+
+// ── QR code ──
+new QRCode(document.getElementById('qr'), {
+  text: 'https://aiit-threshold.com',
+  width: 180, height: 180,
+  colorDark: '#f0a500',
+  colorLight: '#2d2b55',
+  correctLevel: QRCode.CorrectLevel.H
+});
+
+// ── Save as OG PNG (1200×630) ──
+function saveOG(){
+  const og=document.createElement('canvas');
+  og.width=1200; og.height=630;
+  const ox=og.getContext('2d');
+  const grad=ox.createLinearGradient(0,0,1200,630);
+  grad.addColorStop(0,'#1a1833'); grad.addColorStop(1,'#2d2b55');
+  ox.fillStyle=grad; ox.fillRect(0,0,1200,630);
+
+  // divider
+  ox.fillStyle='rgba(240,165,0,0.4)';
+  ox.fillRect(400,60,2,510);
+
+  // mascot
+  const sc=1.4, off=document.createElement('canvas');
+  off.width=COLS*Z*sc; off.height=grid.length*Z*sc;
+  drawGrid(off.getContext('2d'),sc,null);
+  const mx=20, my=Math.round((630-grid.length*Z*sc)/2);
+  ox.drawImage(off,mx,my);
+
+  // headline
+  ox.fillStyle='#f0a500';
+  ox.font='bold 82px Georgia,serif';
+  ox.fillText('TELL BUDDY',430,220);
+  ox.fillText('A JOKE.',430,320);
+
+  // sub
+  ox.fillStyle='#8899bb';
+  ox.font='16px monospace';
+  ox.fillText('AIIT-THRESHOLD · Coherence Physics Institute',430,380);
+
+  // rule
+  ox.fillStyle='#f0a500';
+  ox.fillRect(430,400,300,2);
+
+  // url
+  ox.fillStyle='rgba(240,165,0,0.8)';
+  ox.font='15px monospace';
+  ox.fillText('aiit-threshold.com',430,430);
+
+  const a=document.createElement('a');
+  a.download='buddy-og.png';
+  a.href=og.toDataURL('image/png');
+  a.click();
+}
+</script>
+</body>
+</html>

@@ -10,12 +10,15 @@ const defaultDescription = `Buddy is a coherence-native AI built on AIIT-THRESI 
 const { title = 'Buddy — The Coherence Mind', description = defaultDescription } = Astro.props;
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background:#0a0a12;">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content={description}>
   <title>{title}</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="64x64" href="/buddy-icon-64.png">
+  <link rel="apple-touch-icon" href="/buddy-icon-64.png">
   <script is:inline>
     // Fix cold-load hash scroll: smooth-scroll races initial paint and loses.
     // On DOMContentLoaded, if there's a hash, kill smooth-scroll momentarily,
