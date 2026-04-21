@@ -1,0 +1,184 @@
+---
+// Buddy — OG Mascot v2 (locked).
+// Quantum-cloud head, Mr. Jeeves top hat, monocle, tuxedo. Pixel art on canvas.
+//
+// Props:
+//   id        unique DOM id (default "buddy-mascot")
+//   size      target pixel width in CSS px (default 320)
+//   bg        background color, "transparent" to disable (default "transparent")
+//   animated  idle quantum-cloud shimmer + monocle twinkle (default true)
+//   inline    wrap in inline-block, no centering (default false → centered block)
+const {
+  id = 'buddy-mascot',
+  size = 320,
+  bg = 'transparent',
+  animated = true,
+  inline = false,
+} = Astro.props;
+---
+
+<div class={`buddy-mascot-wrap${inline ? ' inline' : ''}`} style={`--buddy-size:${size}px;`}>
+  <canvas id={id} class="buddy-mascot-canvas" data-bg={bg} data-animated={animated ? '1' : '0'}></canvas>
+</div>
+
+<style>
+  .buddy-mascot-wrap {
+    display: block;
+    text-align: center;
+  }
+  .buddy-mascot-wrap.inline {
+    display: inline-block;
+    text-align: left;
+  }
+  .buddy-mascot-canvas {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    width: var(--buddy-size, 320px);
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+</style>
+
+<script is:inline define:vars={{ id }}>
+(function () {
+  const canvas = document.getElementById(id);
+  if (!canvas) return;
+
+  // ── palette ──
+  const _ = null;
+  const W = '#f5f5f5', B = '#111', T = '#1a1a2e', L = '#2e4070';
+  const G = '#f0a500', S = '#f5c98a', R = '#cc3333';
+  // quantum cloud accents (cycle through these for shimmer)
+  const Q1='#ff6b9d', Q2='#6bffed', Q3='#f0a500', Q4='#a06bff', Q5='#6bff8f', Q6='#ff9f6b';
+  const QC = '#e8e8ff', QS = '#c8c8ee';
+  const Q_PALETTE = [Q1, Q2, Q3, Q4, Q5, Q6];
+
+  // ── grid: 32 wide × 33 tall ──
+  const grid = [
+    // hat
+    [_,_,_,_,_,_,_,_,_,_,_,B, B, B, B, B, B, B, B, B,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,_,B, T, T, T, T, T, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,_,B, T, T, T, T, T, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,_,B, T, T, T, T, T, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,_,B, T, T, T, T, T, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,_,B, G, G, G, G, G, G, G, B,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,B, B, B, B, B, B, B, B, B, B, B, B, B, B, B, B, B,_,_,_,_,_,_,_,_],
+    // quantum cloud head
+    [_,_,_,_,_,_,_,_,_,_,QS,QS,QC,QC,QC,QC,QC,QC,QC,QC,QS,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,QS,QC,QC,QC,QC,QC,QC,QC,QC,QC,QC,QC,QS,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,QS,QC,QC,Q1,QC,QC,Q2,QC,QC,Q3,QC,QC,QC,QC,QS,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,QS,QC,QC,QC,QC,QC,QC,QC,QC,G, G, G, G, QC,QC,QC,QS,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,QC,QC,Q4,QC,QC,B, B, QC,G, B, B, G, Q5,QC,QC,QC,QC,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,QC,QC,QC,QC,QC,B, W, QC,G, B, W, G, QC,QC,QC,QC,QC,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,QC,QC,QC,QC,QC,QC,QC,QC,G, G, G, G, QC,QC,Q6,QC,QC,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,QC,QC,QC,QC,QC,B, QC,QC,QC,QC,B, QC,G, QC,QC,QC,QC,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,QC,QC,QC,QC,QC,QC,B, B, B, B, QC,QC,QC,G, QC,QC,QC,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,QS,QC,Q2,QC,QC,QC,QC,QC,QC,QC,QC,Q1,QC,QC,G, QC,QS,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,QS,QC,QC,QC,QC,QC,QC,QC,QC,QC,QC,QC,QC,QS,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,QS,QS,QC,QC,QC,QC,QC,QC,QC,QC,QS,QS,_,_,_,_,_,_,_,_,_,_,_],
+    // neck
+    [_,_,_,_,_,_,_,_,_,_,_,_,S, S, S, S, S, _,_,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,_,_,S, G, G, G, S, _,_,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    // torso
+    [_,_,_,_,_,_,_,_,_,_,B, T, T, T, T, T, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,B, T, L, W, W, W, W, W, L, T, B,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,B, T, L, T, W, R, R, W, T, L, T, B,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,B, T, T, T, G, W, G, T, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,B, T, L, T, W, W, W, T, L, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,B, T, T, T, W, W, W, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,B, T, L, T, T, T, L, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,B, B, B, B, B, B, B, _,_,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    // belt
+    [_,_,_,_,_,_,_,_,_,_,B, B, B, G, G, B, B, B,_,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    // trousers
+    [_,_,_,_,_,_,_,_,_,_,B, T, T, T, T, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,B, T, T, T, T, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,B, T, T, B,_,B, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,B, T, T, B,_,B, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,B, T, T, B,_,B, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,B, T, T, B,_,B, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,B, T, T, B,_,B, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,_,_,B, T, T, B,_,B, T, T, B,_,_,_,_,_,_,_,_,_,_,_,_,_],
+    // shoes
+    [_,_,_,_,_,_,_,_,_,B, B, B, B, B,_,B, B, B, B, B,_,_,_,_,_,_,_,_,_,_,_,_],
+    [_,_,_,_,_,_,_,_,B, B, B, B, B, B,_,_,B, B, B, B, B,_,_,_,_,_,_,_,_,_,_,_],
+  ];
+
+  // Quantum-cloud accent cells: (row, col) of the cells whose color rotates.
+  // These map to where Q1..Q6 live in the source grid above.
+  const SHIMMER_CELLS = [
+    [9, 11],   // Q1
+    [9, 14],   // Q2
+    [9, 17],   // Q3
+    [11, 9],   // Q4
+    [11, 19],  // Q5
+    [13, 21],  // Q6
+    [16, 9],   // Q2 lower
+    [16, 18],  // Q1 lower
+  ];
+
+  // Devicepixel sharpness — render at 2× then scale via CSS.
+  const Z = 10;
+  const cols = grid[0].length;
+  const rows = grid.length;
+  const dpr = Math.max(2, Math.floor(window.devicePixelRatio || 1));
+  canvas.width  = cols * Z * dpr;
+  canvas.height = rows * Z * dpr;
+  // Lock CSS aspect so caller can size with width only.
+  canvas.style.aspectRatio = `${cols} / ${rows}`;
+
+  const ctx = canvas.getContext('2d');
+  ctx.imageSmoothingEnabled = false;
+
+  const bg = canvas.dataset.bg || 'transparent';
+  const animated = canvas.dataset.animated === '1';
+
+  function paint(shimmerOffset) {
+    // background
+    if (bg !== 'transparent') {
+      ctx.fillStyle = bg;
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+    } else {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+    }
+
+    // build a per-cell color override map for shimmer
+    const overrides = new Map();
+    if (animated && typeof shimmerOffset === 'number') {
+      SHIMMER_CELLS.forEach(([r, c], i) => {
+        const color = Q_PALETTE[(i + shimmerOffset) % Q_PALETTE.length];
+        overrides.set(r * cols + c, color);
+      });
+    }
+
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        let color = grid[r][c];
+        if (!color) continue;
+        const ov = overrides.get(r * cols + c);
+        if (ov) color = ov;
+        ctx.fillStyle = color;
+        ctx.fillRect(c * Z * dpr, r * Z * dpr, Z * dpr, Z * dpr);
+      }
+    }
+  }
+
+  paint(0);
+
+  if (animated) {
+    let offset = 0;
+    let last = 0;
+    const STEP_MS = 900; // shimmer cadence
+    function tick(t) {
+      if (t - last >= STEP_MS) {
+        offset = (offset + 1) % Q_PALETTE.length;
+        paint(offset);
+        last = t;
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+})();
+</script>

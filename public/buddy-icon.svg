@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="cloudGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF8C42"/>
+      <stop offset="100%" stop-color="#D4621A"/>
+    </radialGradient>
+    <radialGradient id="bodyGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0d0d17"/>
+    </radialGradient>
+    <radialGradient id="clipGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2a2a3e"/>
+      <stop offset="100%" stop-color="#16162a"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="dotglow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="#08080f" rx="64"/>
+
+  <!-- ── BODY (Mr. Jeeves torso) ── -->
+  <!-- Jacket -->
+  <rect x="158" y="340" width="196" height="140" rx="12" fill="#1a1a2e"/>
+  <!-- Jacket lapels -->
+  <polygon points="256,345 210,340 230,420" fill="#111120"/>
+  <polygon points="256,345 302,340 282,420" fill="#111120"/>
+  <!-- White shirt front -->
+  <rect x="238" y="345" width="36" height="80" rx="4" fill="#e8e8f0"/>
+  <!-- Shirt buttons -->
+  <circle cx="256" cy="365" r="3" fill="#aaaacc"/>
+  <circle cx="256" cy="380" r="3" fill="#aaaacc"/>
+  <circle cx="256" cy="395" r="3" fill="#aaaacc"/>
+
+  <!-- Bow tie — GOLD -->
+  <polygon points="228,350 248,360 228,370" fill="#D4AF37"/>
+  <polygon points="284,350 264,360 284,370" fill="#D4AF37"/>
+  <rect x="248" y="355" width="16" height="10" rx="3" fill="#F0C040"/>
+
+  <!-- Left arm (clipboard side) -->
+  <rect x="90" y="345" width="68" height="28" rx="12" fill="#1a1a2e"/>
+  <rect x="70" y="358" width="88" height="24" rx="10" fill="#1a1a2e"/>
+
+  <!-- Right arm (pencil side) -->
+  <rect x="354" y="345" width="68" height="28" rx="12" fill="#1a1a2e"/>
+  <rect x="354" y="358" width="88" height="24" rx="10" fill="#1a1a2e"/>
+
+  <!-- ── CLIPBOARD ── -->
+  <rect x="44" y="310" width="88" height="110" rx="8" fill="url(#clipGrad)" stroke="#D4AF37" stroke-width="2.5"/>
+  <!-- Clip at top -->
+  <rect x="72" y="304" width="32" height="18" rx="5" fill="#D4AF37"/>
+  <rect x="78" y="306" width="20" height="12" rx="3" fill="#B8922A"/>
+  <!-- Paper lines on clipboard -->
+  <line x1="56" y1="336" x2="120" y2="336" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.5"/>
+  <line x1="56" y1="350" x2="120" y2="350" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.5"/>
+  <line x1="56" y1="364" x2="120" y2="364" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.5"/>
+  <line x1="56" y1="378" x2="120" y2="378" stroke="#D4AF37" stroke-width="1.5" stroke-opacity="0.5"/>
+  <!-- Scribble on clipboard (physics) -->
+  <text x="60" y="333" font-family="Courier New" font-size="11" fill="#D4AF37" opacity="0.7">γ≈γc</text>
+  <text x="60" y="347" font-family="Courier New" font-size="10" fill="#6699ff" opacity="0.7">∂ψ/∂t</text>
+  <text x="60" y="361" font-family="Courier New" font-size="10" fill="#ff66aa" opacity="0.7">Ĥψ=Eψ</text>
+
+  <!-- ── PENCIL ── -->
+  <!-- Pencil body (diagonal) -->
+  <g transform="translate(430, 290) rotate(-35)">
+    <rect x="-8" y="-90" width="16" height="85" rx="3" fill="#F5C842"/>
+    <!-- Eraser end -->
+    <rect x="-8" y="-98" width="16" height="12" rx="2" fill="#ff9999"/>
+    <!-- Metal band -->
+    <rect x="-8" y="-90" width="16" height="6" fill="#aaaaaa"/>
+    <!-- Pencil tip wood -->
+    <polygon points="-8,-5 8,-5 0,20" fill="#D4A060"/>
+    <!-- Pencil tip graphite -->
+    <polygon points="-3,-5 3,-5 0,20" fill="#333344"/>
+  </g>
+
+  <!-- ── NECK ── -->
+  <rect x="232" y="306" width="48" height="44" rx="8" fill="#FF8C42"/>
+
+  <!-- ── CLOUD HEAD ── -->
+  <!-- Cloud bumps — blocky stacked rects for pixel cloud feel -->
+  <!-- Bottom base -->
+  <rect x="128" y="228" width="256" height="88" rx="16" fill="url(#cloudGlow)"/>
+  <!-- Top center bump (tallest) -->
+  <rect x="196" y="148" width="120" height="100" rx="48" fill="url(#cloudGlow)"/>
+  <!-- Left bump -->
+  <rect x="128" y="172" width="100" height="80" rx="40" fill="#FF7A30"/>
+  <!-- Right bump -->
+  <rect x="284" y="172" width="100" height="80" rx="40" fill="#FF7A30"/>
+  <!-- Far left small bump -->
+  <rect x="104" y="196" width="72" height="56" rx="28" fill="#E8702A"/>
+  <!-- Far right small bump -->
+  <rect x="336" y="196" width="72" height="56" rx="28" fill="#E8702A"/>
+
+  <!-- Cloud face dark mask (where dots live) -->
+  <rect x="148" y="200" width="216" height="112" rx="20" fill="#0f0f1a" opacity="0.72"/>
+
+  <!-- ── QUANTUM DOT FACE PINGS ── -->
+  <!-- Eyes — two bright white orbs -->
+  <circle cx="210" cy="242" r="11" fill="#ffffff" filter="url(#glow)"/>
+  <circle cx="302" cy="242" r="11" fill="#ffffff" filter="url(#glow)"/>
+  <circle cx="210" cy="242" r="6" fill="#111122"/>
+  <circle cx="302" cy="242" r="6" fill="#111122"/>
+  <!-- Eye shine -->
+  <circle cx="214" cy="238" r="3" fill="#ffffff"/>
+  <circle cx="306" cy="238" r="3" fill="#ffffff"/>
+
+  <!-- Smirk -->
+  <path d="M 224 274 Q 256 292 288 274" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Quantum dot pings — scattered colorful circles -->
+  <!-- Gold -->
+  <circle cx="168" cy="216" r="4.5" fill="#D4AF37" filter="url(#dotglow)"/>
+  <circle cx="340" cy="222" r="3.5" fill="#D4AF37" filter="url(#dotglow)"/>
+  <!-- Cyan -->
+  <circle cx="180" cy="256" r="3.5" fill="#00e5ff" filter="url(#dotglow)"/>
+  <circle cx="334" cy="262" r="4" fill="#00e5ff" filter="url(#dotglow)"/>
+  <!-- Purple -->
+  <circle cx="164" cy="238" r="3" fill="#c77dff" filter="url(#dotglow)"/>
+  <circle cx="348" cy="240" r="3" fill="#c77dff" filter="url(#dotglow)"/>
+  <!-- Green -->
+  <circle cx="190" cy="272" r="3.5" fill="#39ff14" filter="url(#dotglow)"/>
+  <circle cx="322" cy="278" r="3" fill="#39ff14" filter="url(#dotglow)"/>
+  <!-- Pink -->
+  <circle cx="176" cy="236" r="2.5" fill="#ff4da6" filter="url(#dotglow)"/>
+  <circle cx="338" cy="248" r="2.5" fill="#ff4da6" filter="url(#dotglow)"/>
+  <!-- Red-orange -->
+  <circle cx="236" cy="216" r="3" fill="#ff5733" filter="url(#dotglow)"/>
+  <circle cx="278" cy="218" r="3" fill="#ff5733" filter="url(#dotglow)"/>
+  <!-- Blue -->
+  <circle cx="258" cy="220" r="4" fill="#4488ff" filter="url(#dotglow)"/>
+  <!-- Yellow -->
+  <circle cx="172" cy="280" r="2.5" fill="#ffe600" filter="url(#dotglow)"/>
+  <circle cx="342" cy="272" r="2.5" fill="#ffe600" filter="url(#dotglow)"/>
+  <!-- Teal -->
+  <circle cx="196" cy="290" r="3" fill="#00ffcc" filter="url(#dotglow)"/>
+  <circle cx="316" cy="290" r="3" fill="#00ffcc" filter="url(#dotglow)"/>
+  <!-- Extra scatter -->
+  <circle cx="232" cy="296" r="2.5" fill="#ff9900" filter="url(#dotglow)"/>
+  <circle cx="282" cy="298" r="2.5" fill="#dd44ff" filter="url(#dotglow)"/>
+  <circle cx="256" cy="300" r="2" fill="#44ffaa" filter="url(#dotglow)"/>
+
+  <!-- ── GOLD OUTLINE ACCENT on cloud ── -->
+  <rect x="128" y="228" width="256" height="88" rx="16" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.4"/>
+
+  <!-- ── SUBTLE LABEL ── -->
+  <text x="256" y="496" font-family="Courier New" font-size="18" font-weight="bold" fill="#D4AF37" text-anchor="middle" letter-spacing="6" opacity="0.85">BUDDY</text>
+</svg>

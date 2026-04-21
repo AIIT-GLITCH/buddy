@@ -24,6 +24,7 @@ const totalPapers = papersAll.length;
             <button id="joke-btn" class="joke-btn">Send →</button>
           </div>
           <div id="joke-response" class="joke-response" aria-live="polite"></div>
+          <a href="/ask-buddy" class="joke-ask-link">or ask him a question →</a>
         </div>
       </div>
     </div>
@@ -780,6 +781,22 @@ const totalPapers = papersAll.length;
     color: #fff;
     margin-bottom: 24px;
     letter-spacing: 1px;
+  }
+  .joke-ask-link {
+    display: inline-block;
+    margin-top: 12px;
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #8899bb;
+    border-bottom: 1px solid rgba(136,153,187,0.25);
+    padding-bottom: 2px;
+    transition: color 220ms, border-color 220ms;
+  }
+  .joke-ask-link:hover {
+    color: #ffe88a;
+    border-color: rgba(255,232,138,0.55);
   }
 
   .joke-input-row {
