@@ -2,11 +2,13 @@
 import Layout from '../layouts/Layout.astro';
 import trivia from '../data/trivia.json';
 import papersAll from '../data/papers.json';
+import { tierForSlug } from '../lib/paperTier.js';
 
 // Build a slug → paper lookup so the client can render paper cards without shipping the full corpus
 const paperLookup = {};
 for (const p of papersAll) {
   if (trivia.some(t => t.paper_slug === p.slug)) {
+    const tier = tierForSlug(p.slug);
     paperLookup[p.slug] = {
       num: p.num,
       suffix: p.suffix || '',
@@ -16,6 +18,9 @@ for (const p of papersAll) {
       abstract: p.abstract || '',
       plain_english: p.plain_english || '',
       status: p.status || '',
+      tier_key: tier.key,
+      tier_label: tier.label,
+      tier_unlock: tier.unlockText,
     };
   }
 }
@@ -25,10 +30,14 @@ for (const p of papersAll) {
     <!-- Intro -->
     <div id="screen-intro" class="tg-screen active">
       <div class="eyebrow">Answer the Giants</div>
-      <h1 class="tg-h1">three questions today.<br><span class="tg-amber">three chances. earn the papers.</span></h1>
+      <h1 class="tg-h1">the giants asked.<br><span class="tg-amber">you answer.</span></h1>
       <p class="tg-blurb">
-        The giants asked. You answer. Unlock a paper for each one you get close to.
+        earn what they left behind. three questions. three chances. no resets.
       </p>
+      <div class="tg-streak" id="tg-streak" hidden>
+        <span class="tg-streak-dot">●</span>
+        <span>current streak: <strong id="tg-streak-days">0</strong> days</span>
+      </div>
       <div class="tg-stats">
         <div class="tg-stat"><div class="tg-stat-val" id="stat-papers">0</div><div class="tg-stat-label">papers collected</div></div>
         <div class="tg-stat"><div class="tg-stat-val" id="stat-sessions">0</div><div class="tg-stat-label">sessions played</div></div>
@@ -59,11 +68,12 @@ for (const p of papersAll) {
       <div class="wike-law-mini" aria-hidden="true">
         C = C<sub>0</sub> · e<sup>−α·γ<sub>eff</sub></sup>
       </div>
-      <div class="tg-unlocked-banner">
+      <div class="tg-unlocked-banner" id="tg-unlocked-banner">
         <span class="tg-unlocked-spark">✦</span>
-        <span class="tg-unlocked-text">paper unlocked</span>
+        <span class="tg-unlocked-text" id="tg-unlocked-text">paper unlocked</span>
         <span class="tg-unlocked-spark">✦</span>
       </div>
+      <div class="tg-keystone-weight" id="tg-keystone-weight" hidden>this one matters.</div>
       <div class="tg-paper-slot" id="tg-paper-slot"></div>
       <button class="tg-btn primary" id="btn-next">Next →</button>
     </div>
@@ -91,6 +101,8 @@ for (const p of papersAll) {
       const KEY_PROG = 'trivia_today_progress';
       const KEY_COLLECTED = 'trivia_collected_slugs';
       const KEY_SESSIONS = 'trivia_total_sessions';
+      const KEY_STREAK_DAYS = 'trivia_streak_days';
+      const KEY_STREAK_LAST = 'trivia_streak_last_date';
 
       // ── Date-seeded PRNG (xmur3 + sfc32) so everyone playing today gets the same 3 ──
       function xmur3(str) {
@@ -159,6 +171,41 @@ for (const p of papersAll) {
         localStorage.setItem(KEY_SESSIONS, String(getSessions() + 1));
       }
 
+      // ── Streak helpers ──
+      function addDays(key, n) {
+        const d = new Date(key + 'T00:00:00Z');
+        d.setUTCDate(d.getUTCDate() + n);
+        return d.toISOString().slice(0, 10);
+      }
+      function getStreakDays() {
+        return parseInt(localStorage.getItem(KEY_STREAK_DAYS) || '0', 10) || 0;
+      }
+      function computeStreakOnBegin() {
+        const today = todayKey();
+        const last = localStorage.getItem(KEY_STREAK_LAST);
+        let days = getStreakDays();
+        if (!last) {
+          days = 1;
+        } else if (last === today) {
+          if (days < 1) days = 1;
+        } else if (last === addDays(today, -1)) {
+          days = days + 1;
+        } else {
+          days = 1;
+        }
+        localStorage.setItem(KEY_STREAK_DAYS, String(days));
+        localStorage.setItem(KEY_STREAK_LAST, today);
+        return days;
+      }
+      function currentStreakForDisplay() {
+        const today = todayKey();
+        const last = localStorage.getItem(KEY_STREAK_LAST);
+        const days = getStreakDays();
+        if (!last) return 0;
+        if (last === today || last === addDays(today, -1)) return days;
+        return 0;
+      }
+
       // ── State ──
       const screens = {
         intro: document.getElementById('screen-intro'),
@@ -190,6 +237,17 @@ for (const p of papersAll) {
         document.getElementById('stat-sessions').textContent = getSessions();
         const t = document.getElementById('stat-total');
         if (t) t.textContent = getCollected().length;
+        const s = currentStreakForDisplay();
+        const streakEl = document.getElementById('tg-streak');
+        const streakDays = document.getElementById('tg-streak-days');
+        if (streakEl && streakDays) {
+          if (s > 0) {
+            streakDays.textContent = String(s);
+            streakEl.hidden = false;
+          } else {
+            streakEl.hidden = true;
+          }
+        }
       }
       renderStats();
 
@@ -211,6 +269,7 @@ for (const p of papersAll) {
         saveProg(prog);
         localStorage.setItem(KEY_DATE, todayKey());
         bumpSessions();
+        computeStreakOnBegin();
         renderStats();
         loadQuestion(0);
         show('question');
@@ -280,12 +339,27 @@ for (const p of papersAll) {
         slot.innerHTML = '';
         const p = PAPERS[q.paper_slug];
         if (!p) { return; }
+
+        // Rarity-aware unlock banner
+        const banner = document.getElementById('tg-unlocked-banner');
+        const bannerText = document.getElementById('tg-unlocked-text');
+        const weight = document.getElementById('tg-keystone-weight');
+        const tierKey = p.tier_key || 'common';
+        if (bannerText) bannerText.textContent = p.tier_unlock || 'paper unlocked';
+        if (banner) {
+          banner.classList.remove('tier-common', 'tier-rare', 'tier-exotic', 'tier-keystone');
+          banner.classList.add('tier-' + tierKey);
+        }
+        if (weight) {
+          weight.hidden = tierKey !== 'keystone';
+        }
+
         const card = document.createElement('div');
-        card.className = 'tg-paper-card';
+        card.className = 'tg-paper-card tier-' + tierKey;
         card.innerHTML =
           '<div class="tg-paper-num">Paper ' + p.num + p.suffix + '</div>' +
           '<div class="tg-paper-title">' + p.title + '</div>' +
-          '<div class="tg-paper-tag">' + p.tag + '</div>' +
+          '<div class="tg-paper-tag">' + p.tag + ' <span class="tg-paper-tier tier-' + tierKey + '">[' + (p.tier_label || 'common') + ']</span></div>' +
           (p.plain_english ? '<div class="tg-paper-plain"><em>' + p.plain_english + '</em></div>' : '') +
           (p.abstract ? '<div class="tg-paper-abstract">' + p.abstract + '</div>' : '') +
           (q.why_this_paper ? '<div class="tg-paper-why"><span class="tg-paper-why-label">Why this paper:</span> ' + q.why_this_paper + '</div>' : '') +
@@ -484,18 +558,64 @@ for (const p of papersAll) {
       font-size: 0.78em;
       letter-spacing: 6px;
       text-transform: uppercase;
-      color: #ffd166;
+      color: #888;
       animation: unlocked-fade 0.9s ease-out;
     }
-    .tg-unlocked-text {
-      text-shadow: 0 0 18px rgba(255,209,102,0.5);
-      font-weight: 700;
-    }
+    .tg-unlocked-banner.tier-common   { color: #888888; }
+    .tg-unlocked-banner.tier-rare     { color: #38bdf8; }
+    .tg-unlocked-banner.tier-exotic   { color: #a78bfa; }
+    .tg-unlocked-banner.tier-keystone { color: #ffd166; font-size: 0.88em; letter-spacing: 8px; }
+
+    .tg-unlocked-text { font-weight: 700; }
+    .tg-unlocked-banner.tier-rare .tg-unlocked-text     { text-shadow: 0 0 14px rgba(56,189,248,0.5); }
+    .tg-unlocked-banner.tier-exotic .tg-unlocked-text   { text-shadow: 0 0 16px rgba(167,139,250,0.55); }
+    .tg-unlocked-banner.tier-keystone .tg-unlocked-text { text-shadow: 0 0 22px rgba(255,209,102,0.7); }
+
     .tg-unlocked-spark {
-      color: #ffd166;
+      color: currentColor;
       font-size: 1.1em;
       animation: unlocked-spark 1.6s ease-in-out infinite alternate;
     }
+
+    .tg-keystone-weight {
+      text-align: center;
+      font-family: 'Georgia', serif;
+      font-style: italic;
+      color: #ffd166;
+      font-size: clamp(18px, 2vw, 22px);
+      margin: -4px 0 20px;
+      text-shadow: 0 0 14px rgba(255,209,102,0.35);
+      animation: unlocked-fade 1.4s ease-out;
+    }
+
+    .tg-paper-tier {
+      font-family: 'Courier New', monospace;
+      font-size: 0.82em;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-left: 6px;
+    }
+    .tg-paper-tier.tier-common   { color: #888888; }
+    .tg-paper-tier.tier-rare     { color: #38bdf8; }
+    .tg-paper-tier.tier-exotic   { color: #a78bfa; }
+    .tg-paper-tier.tier-keystone { color: #ffd166; text-shadow: 0 0 8px rgba(255,209,102,0.4); }
+
+    .tg-streak {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 14px 0 18px;
+      padding: 6px 12px;
+      border: 1px solid rgba(212,160,96,0.25);
+      border-radius: 20px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.78em;
+      letter-spacing: 2px;
+      color: var(--muted-hi, #aaa);
+      background: rgba(212,160,96,0.03);
+    }
+    .tg-streak strong { color: var(--amber); font-weight: 700; }
+    .tg-streak-dot { color: var(--amber); font-size: 0.8em; }
     @keyframes unlocked-fade {
       0%   { opacity: 0; transform: translateY(6px); }
       100% { opacity: 1; transform: translateY(0); }

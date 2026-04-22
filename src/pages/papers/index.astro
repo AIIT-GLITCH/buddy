@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import papers from '../../data/papers.json';
+import { tierForSlug } from '../../lib/paperTier.js';
 
 // build unique tag set for filters
 const tags = [...new Set(papers.map(p => p.tag))].sort();
@@ -8,9 +9,12 @@ const tags = [...new Set(papers.map(p => p.tag))].sort();
 <Layout title={`Papers · AIIT-THRESI (${papers.length})`}>
   <section style="padding-top: 120px; min-height: auto;">
     <div class="container">
-      <div class="eyebrow">The archive</div>
-      <h1 style="font-size: clamp(48px, 7vw, 96px); margin-bottom: 8px;">{papers.length} papers.</h1>
-      <p style="color: var(--muted-hi); font-size: 17px; max-width: 640px;">Every paper derived, written, and filed under AIIT-THRESI. Search by title, filter by domain. Each one opens its own page with abstract and download.</p>
+      <div class="eyebrow">Your archive</div>
+      <h1 style="font-size: clamp(48px, 7vw, 96px); margin-bottom: 8px;">
+        <span id="archive-unlocked">0</span> <span class="archive-of">/ {papers.length}</span>
+      </h1>
+      <div class="archive-sub" id="archive-sub">papers unlocked · earn them by answering the giants</div>
+      <div class="archive-milestone" id="archive-milestone" hidden></div>
 
       <div class="papers-search">
         <input id="paper-search" type="text" placeholder="Search titles, tags, keywords…" autocomplete="off">
@@ -22,17 +26,75 @@ const tags = [...new Set(papers.map(p => p.tag))].sort();
       </div>
 
       <div class="papers-grid" id="papers-grid" style="margin-top: 40px;">
-        {papers.map(p => (
-          <a class="paper-card" href={`/papers/${p.slug}`} data-title={p.title.toLowerCase()} data-tag={p.tag}>
-            <div class="paper-num">Paper {parseInt(p.num)}{p.suffix}</div>
-            <div class="paper-title">{p.title}</div>
-            <div class="paper-tag">{p.tag}</div>
-          </a>
-        ))}
+        {papers.map(p => {
+          const tier = tierForSlug(p.slug);
+          return (
+            <a class={`paper-card tier-${tier.key}`} href={`/papers/${p.slug}`} data-title={p.title.toLowerCase()} data-tag={p.tag} data-slug={p.slug} data-tier={tier.key}>
+              <div class="paper-num">Paper {parseInt(p.num)}{p.suffix}</div>
+              <div class="paper-title">{p.title}</div>
+              <div class="paper-tag">{p.tag}</div>
+              <div class="paper-tier">[{tier.label}]</div>
+            </a>
+          );
+        })}
       </div>
     </div>
   </section>
 </Layout>
+
+<style>
+  .archive-of { color: var(--muted, #666); font-weight: 400; }
+  .archive-sub {
+    font-family: 'Courier New', monospace;
+    font-size: 0.82em;
+    letter-spacing: 2px;
+    color: #888;
+    margin-bottom: 6px;
+  }
+  .archive-milestone {
+    font-family: 'Courier New', monospace;
+    font-size: 0.78em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffd166;
+    margin-bottom: 28px;
+    text-shadow: 0 0 10px rgba(255,209,102,0.35);
+  }
+
+  .paper-card { position: relative; }
+
+  .paper-tier {
+    margin-top: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #666;
+  }
+  .paper-card.tier-common .paper-tier   { color: #888888; }
+  .paper-card.tier-rare .paper-tier     { color: #38bdf8; }
+  .paper-card.tier-exotic .paper-tier   { color: #a78bfa; }
+  .paper-card.tier-keystone .paper-tier { color: #ffd166; text-shadow: 0 0 8px rgba(255,209,102,0.4); }
+
+  .paper-card.unlocked {
+    border-color: rgba(255,209,102,0.28) !important;
+    background: linear-gradient(180deg, rgba(255,209,102,0.04), rgba(0,0,0,0));
+    box-shadow: 0 0 0 1px rgba(255,209,102,0.08), 0 6px 16px rgba(255,209,102,0.05);
+  }
+  .paper-card.unlocked::after {
+    content: '✦';
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    color: #ffd166;
+    font-size: 14px;
+    text-shadow: 0 0 8px rgba(255,209,102,0.55);
+  }
+  .paper-card.tier-keystone.unlocked {
+    border-color: rgba(255,209,102,0.55) !important;
+    box-shadow: 0 0 0 1px rgba(255,209,102,0.2), 0 8px 22px rgba(255,209,102,0.12);
+  }
+</style>
 
 <script>
   const grid = document.getElementById('papers-grid');
@@ -66,4 +128,34 @@ const tags = [...new Set(papers.map(p => p.tag))].sort();
       apply();
     });
   });
+
+  // ── Archive counter + unlocked highlighting ──
+  (function () {
+    let unlocked: Set<string> = new Set();
+    try {
+      const raw = localStorage.getItem('trivia_collected_slugs') || '[]';
+      unlocked = new Set(JSON.parse(raw));
+    } catch (e) {}
+
+    const unlockedEl = document.getElementById('archive-unlocked');
+    if (unlockedEl) unlockedEl.textContent = String(unlocked.size);
+
+    cards.forEach(card => {
+      const slug = card.getAttribute('data-slug') || '';
+      if (unlocked.has(slug)) card.classList.add('unlocked');
+    });
+
+    // milestone language by count
+    const milestoneEl = document.getElementById('archive-milestone');
+    const n = unlocked.size;
+    let text = '';
+    if      (n >= 100) text = 'framework internalized';
+    else if (n >= 50)  text = 'coherence emerging';
+    else if (n >= 25)  text = 'pattern recognition';
+    else if (n >= 10)  text = 'signal forming';
+    if (text && milestoneEl) {
+      milestoneEl.textContent = text;
+      milestoneEl.hidden = false;
+    }
+  })();
 </script>

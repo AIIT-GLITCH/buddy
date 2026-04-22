@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import papers from '../../data/papers.json';
+import { tierForSlug } from '../../lib/paperTier.js';
 
 export async function getStaticPaths() {
   const all = papers as any[];
@@ -31,6 +32,7 @@ const connectedPages = (paper.connected_domain_pages as string[]) || [];
 
 const pageTitle = `Paper ${parseInt(paper.num)}${paper.suffix} · ${paper.title} · AIIT-THRESI`;
 const pageDescription = coreClaim || abstract.slice(0, 200) || `${paper.title} — ${paper.tag} domain · AIIT-THRESI`;
+const tier = tierForSlug(paper.slug);
 ---
 <Layout title={pageTitle} description={pageDescription}>
   <div class="paper-page">
@@ -38,11 +40,16 @@ const pageDescription = coreClaim || abstract.slice(0, 200) || `${paper.title} �
 
     <div class="paper-unlocked-line" id="paper-unlocked-line" data-slug={paper.slug} hidden>
       <span class="pul-spark">✦</span> unlocked via <a href="/trivia">Answer the Giants</a>
+      <span class="pul-earned">— you earned this</span>
     </div>
 
     <div class="paper-head-num">Paper {parseInt(paper.num)}{paper.suffix}</div>
     <h1>{paper.title}</h1>
-    <div class="paper-head-tag">{paper.tag}{status && <span class="paper-status" data-status={status.toLowerCase()}> · {status}</span>}</div>
+    <div class="paper-head-tag">
+      {paper.tag}
+      {status && <span class="paper-status" data-status={status.toLowerCase()}> · {status}</span>}
+      <span class={`paper-tier-badge tier-${tier.key}`}>[{tier.label}]</span>
+    </div>
 
     {coreClaim && (
       <div class="paper-claim" data-field="core_claim">
@@ -163,6 +170,24 @@ const pageDescription = coreClaim || abstract.slice(0, 200) || `${paper.title} �
     color: #ffd166;
     margin-right: 6px;
   }
+  .paper-unlocked-line .pul-earned {
+    margin-left: 8px;
+    color: #888;
+    font-size: 0.9em;
+    letter-spacing: 1.5px;
+  }
+
+  .paper-tier-badge {
+    margin-left: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.78em;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .paper-tier-badge.tier-common   { color: #888888; }
+  .paper-tier-badge.tier-rare     { color: #38bdf8; }
+  .paper-tier-badge.tier-exotic   { color: #a78bfa; }
+  .paper-tier-badge.tier-keystone { color: #ffd166; text-shadow: 0 0 8px rgba(255,209,102,0.4); }
 
   .paper-status {
     font-size: 0.75em;

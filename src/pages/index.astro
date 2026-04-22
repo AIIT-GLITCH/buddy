@@ -42,6 +42,9 @@ const totalPapers = papersAll.length;
           <div class="hg-eyebrow">Answer the Giants</div>
           <div class="hg-title">answer today's question.</div>
           <div class="hg-sub">three questions. three papers. earn them.</div>
+          <div class="hg-archive" id="hg-archive" hidden>
+            your archive: <strong id="hg-archive-count">0</strong> / {totalPapers}
+          </div>
           <div class="hg-cta">Begin →</div>
         </a>
       </div>
@@ -327,6 +330,19 @@ const totalPapers = papersAll.length;
 </Layout>
 
 <script>
+  // Hero archive counter (only shows once user has unlocked something)
+  (function () {
+    try {
+      const raw = localStorage.getItem('trivia_collected_slugs') || '[]';
+      const set = new Set(JSON.parse(raw));
+      if (set.size > 0) {
+        const el = document.getElementById('hg-archive');
+        const cnt = document.getElementById('hg-archive-count');
+        if (el && cnt) { cnt.textContent = String(set.size); el.hidden = false; }
+      }
+    } catch (e) {}
+  })();
+
   // Nav active state
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-links a');
@@ -1095,6 +1111,20 @@ const totalPapers = papersAll.length;
     border-bottom: 1px solid rgba(64,192,176,0.4);
     padding-bottom: 3px;
     font-weight: 700;
+  }
+
+  .hg-archive {
+    margin: -4px 0 14px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+  }
+  .hg-archive strong {
+    color: #ffd166;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(255,209,102,0.35);
   }
 
   /* ── Simple Why chain ── */
