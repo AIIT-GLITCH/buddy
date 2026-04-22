@@ -41,15 +41,15 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   <!-- PLANETS — secondary, "visible cognition" -->
   <div class="ask-planets" id="ask-planets">
     <div class="ask-planet-stack" aria-hidden="true">
-      <div class="ask-planet" data-planet="earth">🌍 <span>Earth</span></div>
-      <div class="ask-planet" data-planet="mars">🔴 <span>Mars</span></div>
-      <div class="ask-planet" data-planet="moon">🌕 <span>Moon</span></div>
-      <div class="ask-planet" data-planet="sun">☀️ <span>Sun</span></div>
-      <div class="ask-planet" data-planet="jupiter">🟠 <span>Jupiter</span></div>
-      <div class="ask-planet" data-planet="saturn">🪐 <span>Saturn</span></div>
-      <div class="ask-planet" data-planet="venus">🌟 <span>Venus</span></div>
-      <div class="ask-planet" data-planet="water">💧 <span>Water</span></div>
-      <div class="ask-planet" data-planet="prometheus">🔥 <span>Prometheus</span></div>
+      <div class="ask-planet" data-planet="earth">Earth</div>
+      <div class="ask-planet" data-planet="mars">Mars</div>
+      <div class="ask-planet" data-planet="moon">Moon</div>
+      <div class="ask-planet" data-planet="sun">Sun</div>
+      <div class="ask-planet" data-planet="jupiter">Jupiter</div>
+      <div class="ask-planet" data-planet="saturn">Saturn</div>
+      <div class="ask-planet" data-planet="venus">Venus</div>
+      <div class="ask-planet" data-planet="water">Water</div>
+      <div class="ask-planet" data-planet="prometheus">Prometheus</div>
     </div>
     <div class="ask-planets-anchor">buddy thinks by flipping through planets</div>
   </div>
@@ -337,7 +337,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     background: rgba(255, 255, 255, 0.45);
     transition: color 220ms ease, background 220ms ease, border-color 220ms ease, transform 220ms ease;
   }
-  .ask-planet span { margin-left: 5px; letter-spacing: 0.05em; }
+  .ask-planet { letter-spacing: 0.06em; }
   .ask-planet.on {
     color: #8a5a00;
     background: rgba(240, 165, 0, 0.16);
