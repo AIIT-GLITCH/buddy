@@ -41,15 +41,14 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   <!-- PLANETS — secondary, "visible cognition" -->
   <div class="ask-planets" id="ask-planets">
     <div class="ask-planet-stack" aria-hidden="true">
+      <div class="ask-planet" data-planet="mercury">Mercury</div>
+      <div class="ask-planet" data-planet="venus">Venus</div>
       <div class="ask-planet" data-planet="earth">Earth</div>
       <div class="ask-planet" data-planet="mars">Mars</div>
-      <div class="ask-planet" data-planet="moon">Moon</div>
-      <div class="ask-planet" data-planet="sun">Sun</div>
       <div class="ask-planet" data-planet="jupiter">Jupiter</div>
       <div class="ask-planet" data-planet="saturn">Saturn</div>
-      <div class="ask-planet" data-planet="venus">Venus</div>
-      <div class="ask-planet" data-planet="water">Water</div>
-      <div class="ask-planet" data-planet="prometheus">Prometheus</div>
+      <div class="ask-planet" data-planet="uranus">Uranus</div>
+      <div class="ask-planet" data-planet="neptune">Neptune</div>
     </div>
     <div class="ask-planets-anchor">buddy thinks by flipping through planets</div>
   </div>
@@ -76,9 +75,9 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   startFlip();
 
   const PLANET_VERBS = [
-    'querying earth',  'coherencing mars',  'threshing jupiter',
-    'witnessing moon', 'sun-reading',       'vibrating venus',
-    'reading saturn',  'listening to water','calling prometheus',
+    'querying mercury', 'vibrating venus',   'querying earth',
+    'coherencing mars', 'threshing jupiter', 'reading saturn',
+    'tilting uranus',   'soundproofing neptune',
     'scanning the field','holding the ratio','sergeant routing',
   ];
 
