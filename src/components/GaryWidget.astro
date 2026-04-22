@@ -1,9 +1,10 @@
 ---
-// Gary Bean — corner widget. Creature, not UI element.
-// Collapsed = bean sitting in the corner with a soft pulse.
-// Tap bean → drawer slides up from above the bean.
+// Gary Widget — corner creature, not UI element.
+// Collapsed = pixel-art Gary head sitting in the corner with a soft pulse.
+// Tap → drawer slides up.
 // Drawer content swaps between: api-key intake, "Im broke" gate, live chat.
-// Cooking = bean wiggles + steam.
+// Cooking = head wiggles + steam.
+import GaryMascot from './GaryMascot.astro';
 ---
 <div id="gw-root" class="gw-root" data-state="collapsed" data-cooking="0">
 
@@ -27,13 +28,15 @@
     </form>
   </div>
 
-  <!-- Bean (always visible, click to toggle drawer) — matches /game beans (🫘 emoji) -->
+  <!-- Gary (always visible, click to toggle drawer) — pixel head, SWJ vibe -->
   <button id="gw-bean" class="gw-bean" aria-label="wake gary" title="wake gary">
     <span class="gw-bean-shadow" aria-hidden="true"></span>
     <span class="gw-bean-steam" aria-hidden="true">
       <span></span><span></span><span></span>
     </span>
-    <span class="gw-bean-emoji gw-bean-svg" aria-hidden="true">🫘</span>
+    <span class="gw-bean-emoji gw-bean-svg" aria-hidden="true">
+      <GaryMascot id="gw-gary-icon" size={56} />
+    </span>
     <span class="gw-bean-pulse" aria-hidden="true"></span>
   </button>
 </div>
@@ -743,12 +746,18 @@
   }
   .gw-bean-emoji.gw-bean-svg {
     display: inline-block;
-    font-size: 56px;
     line-height: 1;
+    width: 56px;
+    height: 56px;
     transition: transform 0.25s cubic-bezier(.5,1.6,.4,1);
     animation: gw-bob 4.2s ease-in-out infinite;
     transform-origin: 50% 90%;
-    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.35));
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.45));
+  }
+  .gw-bean-emoji.gw-bean-svg canvas {
+    width: 56px !important;
+    height: auto;
+    display: block;
   }
   .gw-bean:hover .gw-bean-svg { transform: scale(1.12) rotate(-4deg); }
   .gw-bean-shadow {

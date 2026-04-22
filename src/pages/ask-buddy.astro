@@ -2,53 +2,52 @@
 import Layout from '../layouts/Layout.astro';
 import BuddyMascot from '../components/BuddyMascot.astro';
 ---
-<Layout title="Ask Buddy — AIIT-THRESHOLD" description="Ask Buddy a question. He's flipping through planets to find your answer.">
+<Layout title="ASKBUDDY! — AIIT-THRESHOLD" description="Ask Buddy a question. He's flipping through planets to find your answer.">
 
-<section class="ask-hero">
-  <div class="ask-stage">
-    <!-- Mr. Jeeves stands beside the planet rolodex -->
-    <div class="ask-mascot-col">
-      <BuddyMascot id="ask-buddy-mascot" size={280} animated={true} halo="gold" />
-      <div class="ask-buddy-name">Buddy<span class="ask-dot"></span></div>
+<section class="ask-page">
+
+  <!-- Header row: small Buddy off to the left, big ASKBUDDY! title -->
+  <header class="ask-head">
+    <div class="ask-mascot-mini">
+      <BuddyMascot id="ask-buddy-mascot" size={120} animated={true} />
+    </div>
+    <div class="ask-title-block">
+      <h1 class="ask-h1">ASKBUDDY!</h1>
       <div class="ask-buddy-sub">at your service</div>
     </div>
+  </header>
 
-    <!-- Planet rolodex — the planets he's flipping through -->
-    <div class="ask-planets-col">
-      <div class="ask-planets-label">
-        <span class="buddy-loader tiny" aria-hidden="true"></span>
-        <span>flipping through planets…</span>
-      </div>
-      <div class="ask-planet-stack" aria-hidden="true">
-        <div class="ask-planet" data-planet="earth">🌍 <span>Earth</span></div>
-        <div class="ask-planet" data-planet="mars">🔴 <span>Mars</span></div>
-        <div class="ask-planet" data-planet="moon">🌕 <span>Moon</span></div>
-        <div class="ask-planet" data-planet="sun">☀️ <span>Sun</span></div>
-        <div class="ask-planet" data-planet="jupiter">🟠 <span>Jupiter</span></div>
-        <div class="ask-planet" data-planet="saturn">🪐 <span>Saturn</span></div>
-        <div class="ask-planet" data-planet="venus">🌟 <span>Venus</span></div>
-        <div class="ask-planet" data-planet="water">💧 <span>Water</span></div>
-        <div class="ask-planet" data-planet="prometheus">🔥 <span>Prometheus</span></div>
-      </div>
+  <!-- Planet rolodex -->
+  <div class="ask-planets-col">
+    <div class="ask-planets-label">
+      <span class="buddy-loader tiny" aria-hidden="true"></span>
+      <span>flipping through planets…</span>
+    </div>
+    <div class="ask-planet-stack" aria-hidden="true">
+      <div class="ask-planet" data-planet="earth">🌍 <span>Earth</span></div>
+      <div class="ask-planet" data-planet="mars">🔴 <span>Mars</span></div>
+      <div class="ask-planet" data-planet="moon">🌕 <span>Moon</span></div>
+      <div class="ask-planet" data-planet="sun">☀️ <span>Sun</span></div>
+      <div class="ask-planet" data-planet="jupiter">🟠 <span>Jupiter</span></div>
+      <div class="ask-planet" data-planet="saturn">🪐 <span>Saturn</span></div>
+      <div class="ask-planet" data-planet="venus">🌟 <span>Venus</span></div>
+      <div class="ask-planet" data-planet="water">💧 <span>Water</span></div>
+      <div class="ask-planet" data-planet="prometheus">🔥 <span>Prometheus</span></div>
     </div>
   </div>
 
   <!-- Question form -->
   <div class="ask-form-wrap">
-    <div class="ask-eyebrow">Buddy<span class="ask-dot"></span> is listening</div>
-    <h1 class="ask-h1">Tell him a question.</h1>
-    <p class="ask-lede">He'll thumb through the planets and read you back what the field says.</p>
-
     <form class="ask-form" id="ask-form" autocomplete="off">
       <textarea
         id="ask-input"
         class="ask-textarea"
-        placeholder="What's the coherence reading on Mars right now…"
+        placeholder="ask away…"
         rows="3"
         maxlength="600"
       ></textarea>
       <div class="ask-row">
-        <span class="ask-hint">One question at a time. Buddy is real, not fast.</span>
+        <span class="ask-hint">one question at a time. buddy is real, not fast.</span>
         <button type="submit" id="ask-btn" class="ask-btn">Ask Buddy →</button>
       </div>
     </form>
@@ -59,7 +58,6 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 <script is:inline>
 (function () {
-  // ── planet rolodex: highlight one planet at a time, like flipping cards ──
   const planets = Array.from(document.querySelectorAll('.ask-planet'));
   let pIndex = 0;
   function flipPlanets() {
@@ -69,17 +67,11 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   flipPlanets();
   setInterval(flipPlanets, 1100);
 
-  // ── form + thinking state (matches /index joke widget pattern) ──
   const PLANET_VERBS = [
     'Querying Earth',  'Coherencing Mars',  'Threshing Jupiter',
     'Witnessing Moon', 'Sun-reading',       'Vibrating Venus',
     'Reading Saturn',  'Listening to Water','Calling Prometheus',
     'Scanning the field','Holding the ratio','Sergeant routing',
-  ];
-  const FALLBACKS = [
-    "Buddy is still cooling — try again in a minute.",
-    "The field is loud right now. Ask again.",
-    "Pi held. Try once more.",
   ];
 
   const form     = document.getElementById('ask-form');
@@ -129,9 +121,6 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     btn.textContent = '...';
     startThinking();
 
-    // Backend not wired yet — keep the planet-flip + thinking animation
-    // running long enough to read the verbs, then deliver a graceful
-    // placeholder. Wire to /api/ask-buddy when the function is live.
     const wait = 4200 + Math.random() * 1800;
     await new Promise(r => setTimeout(r, wait));
 
@@ -146,59 +135,62 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 })();
 </script>
 
+<style is:global>
+  /* Light page background — Buddy lives on cream here, no halo needed. */
+  body:has(.ask-page) {
+    background: #f4ece0 !important;
+    color: #1a1a1a;
+  }
+</style>
+
 <style>
-  .ask-hero {
+  .ask-page {
     padding: 140px 8vw 80px;
-    max-width: 1100px;
+    max-width: 980px;
     margin: 0 auto;
+    color: #1a1a1a;
   }
 
-  /* ── stage: mascot left, planet stack right ── */
-  .ask-stage {
-    display: grid;
-    grid-template-columns: minmax(240px, 320px) 1fr;
-    gap: 48px;
+  /* Header — small Buddy on the left, big ASKBUDDY! title */
+  .ask-head {
+    display: flex;
     align-items: center;
-    margin-bottom: 48px;
+    gap: 24px;
+    margin-bottom: 32px;
   }
-
-  .ask-mascot-col {
-    text-align: center;
+  .ask-mascot-mini {
+    flex-shrink: 0;
   }
-  .ask-buddy-name {
-    margin-top: 10px;
+  .ask-title-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .ask-h1 {
     font-family: 'Georgia', serif;
-    font-size: 22px;
-    color: var(--ink);
+    font-size: clamp(36pt, 6vw, 64pt);
+    color: #1a1a1a;
+    margin: 0;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    font-weight: 800;
   }
   .ask-buddy-sub {
     font-family: 'Courier New', monospace;
     font-size: 9pt;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    color: var(--muted, #6677aa);
-    margin-top: 4px;
-  }
-  .ask-dot {
-    display: inline-block;
-    width: 7px; height: 7px;
-    border-radius: 50%;
-    background: radial-gradient(circle, #fff 0%, #ffe88a 40%, #d4a060 100%);
-    margin-left: 4px;
-    animation: ask-dot-pulse 2.4s ease-in-out infinite;
-  }
-  @keyframes ask-dot-pulse {
-    0%, 100% { transform: scale(1);   opacity: 0.85; }
-    50%      { transform: scale(1.2); opacity: 1; }
+    color: #6a5a3a;
+    margin-top: 8px;
   }
 
-  /* ── planet rolodex ── */
+  /* Planet rolodex — light card */
   .ask-planets-col {
-    background: rgba(10,10,18,0.55);
-    border: 1px solid rgba(212,175,55,0.18);
+    background: rgba(255, 255, 255, 0.55);
+    border: 1px solid rgba(180, 138, 0, 0.22);
     border-radius: 14px;
-    padding: 22px 26px;
-    backdrop-filter: blur(6px);
+    padding: 18px 22px;
+    margin-bottom: 22px;
   }
   .ask-planets-label {
     display: flex;
@@ -208,79 +200,57 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     font-size: 9.5pt;
     letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--amber);
-    margin-bottom: 14px;
+    color: #b48a00;
+    margin-bottom: 12px;
   }
   .ask-planet-stack {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 14px;
+    gap: 8px 12px;
   }
   .ask-planet {
     font-family: 'Courier New', monospace;
-    font-size: 11pt;
-    color: rgba(208, 220, 232, 0.45);
-    padding: 6px 12px;
+    font-size: 10.5pt;
+    color: rgba(60, 50, 30, 0.45);
+    padding: 5px 11px;
     border-radius: 8px;
-    border: 1px solid rgba(212,175,55,0.10);
-    background: rgba(15,15,26,0.4);
+    border: 1px solid rgba(180, 138, 0, 0.15);
+    background: rgba(255, 255, 255, 0.5);
     transition: color 220ms ease, background 220ms ease, border-color 220ms ease, transform 220ms ease;
   }
   .ask-planet span { margin-left: 6px; letter-spacing: 0.06em; }
   .ask-planet.on {
-    color: var(--warm);
-    background: rgba(212,175,55,0.10);
-    border-color: rgba(212,175,55,0.55);
+    color: #8a5a00;
+    background: rgba(240, 165, 0, 0.18);
+    border-color: rgba(180, 138, 0, 0.6);
     transform: translateY(-1px);
-    text-shadow: 0 0 12px rgba(255,232,138,0.45);
+    text-shadow: 0 0 10px rgba(255, 220, 130, 0.55);
   }
 
-  /* ── form ── */
+  /* Form */
   .ask-form-wrap {
-    background: rgba(10,10,18,0.55);
-    border: 1px solid rgba(212,175,55,0.18);
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(180, 138, 0, 0.22);
     border-radius: 14px;
-    padding: 28px 32px 32px;
-    backdrop-filter: blur(6px);
-  }
-  .ask-eyebrow {
-    font-family: 'Courier New', monospace;
-    font-size: 9pt;
-    letter-spacing: 0.32em;
-    text-transform: uppercase;
-    color: var(--muted, #6677aa);
-    margin-bottom: 8px;
-  }
-  .ask-h1 {
-    font-family: 'Georgia', serif;
-    font-size: clamp(24pt, 3.4vw, 34pt);
-    color: var(--ink);
-    margin: 0 0 6px;
-    letter-spacing: -0.01em;
-  }
-  .ask-lede {
-    color: var(--ink-soft);
-    font-size: 12.5pt;
-    margin: 0 0 22px;
-    font-style: italic;
+    padding: 22px 26px 24px;
   }
   .ask-textarea {
     width: 100%;
-    background: rgba(15,15,26,0.6);
-    border: 1px solid rgba(212,175,55,0.22);
+    background: #fffdf5;
+    border: 1px solid rgba(180, 138, 0, 0.28);
     border-radius: 10px;
-    color: var(--ink);
+    color: #1a1a1a;
     padding: 14px 16px;
     font-family: 'Courier New', monospace;
     font-size: 12pt;
     resize: vertical;
-    min-height: 84px;
+    min-height: 80px;
     transition: border-color 220ms;
   }
   .ask-textarea:focus {
     outline: none;
-    border-color: rgba(212,175,55,0.7);
-    box-shadow: 0 0 0 3px rgba(212,175,55,0.10);
+    border-color: rgba(180, 138, 0, 0.8);
+    box-shadow: 0 0 0 3px rgba(240, 165, 0, 0.15);
   }
   .ask-row {
     display: flex;
@@ -293,13 +263,13 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   .ask-hint {
     font-family: 'Courier New', monospace;
     font-size: 9pt;
-    color: #6677aa;
+    color: #6a5a3a;
     letter-spacing: 0.06em;
   }
   .ask-btn {
-    background: transparent;
-    color: var(--amber);
-    border: 1px solid rgba(212,175,55,0.5);
+    background: #1a1a1a;
+    color: #f0a500;
+    border: 1px solid #1a1a1a;
     padding: 12px 26px;
     border-radius: 8px;
     font-family: 'Courier New', monospace;
@@ -307,23 +277,22 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     letter-spacing: 0.18em;
     text-transform: uppercase;
     cursor: pointer;
-    transition: background 200ms, border-color 200ms, box-shadow 200ms, transform 200ms;
+    transition: background 200ms, box-shadow 200ms, transform 200ms;
   }
   .ask-btn:hover:not(:disabled) {
-    background: rgba(212,175,55,0.08);
-    border-color: rgba(212,175,55,0.9);
-    box-shadow: 0 0 24px rgba(212,175,55,0.25);
+    background: #2a2a2a;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
     transform: translateY(-1px);
   }
   .ask-btn:disabled { opacity: 0.55; cursor: progress; }
 
   .ask-response {
-    margin-top: 22px;
+    margin-top: 20px;
     padding: 16px 18px;
     border-radius: 10px;
-    background: rgba(15,15,26,0.45);
-    border: 1px solid rgba(212,175,55,0.10);
-    color: var(--ink-soft);
+    background: #fffdf5;
+    border: 1px solid rgba(180, 138, 0, 0.18);
+    color: #2a2418;
     font-family: 'Courier New', monospace;
     font-size: 11.5pt;
     line-height: 1.55;
@@ -332,12 +301,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     transition: opacity 240ms;
   }
   .ask-response.visible { opacity: 1; }
-  .ask-response.loading { color: var(--warm); }
+  .ask-response.loading { color: #8a5a00; }
 
-  @media (max-width: 760px) {
-    .ask-hero { padding: 110px 5vw 60px; }
-    .ask-stage { grid-template-columns: 1fr; gap: 28px; }
-    .ask-form-wrap { padding: 22px 18px 24px; }
+  @media (max-width: 620px) {
+    .ask-page { padding: 110px 5vw 60px; }
+    .ask-head { gap: 16px; }
+    .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 88px !important; }
   }
 </style>
 

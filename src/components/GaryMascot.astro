@@ -1,0 +1,116 @@
+---
+// Gary Mascot — pixel art head. Stephen Wilson Jr vibe:
+// black ball cap, big square glasses, beard, cig dangling out the side.
+//
+// Same canvas-grid render approach as BuddyMascot.astro.
+//
+// Props:
+//   id        unique DOM id (default "gary-mascot")
+//   size      target pixel width in CSS px (default 56)
+//   animated  ember + lens twinkle (default true)
+const {
+  id = 'gary-mascot',
+  size = 56,
+  animated = true,
+} = Astro.props;
+---
+
+<canvas id={id} class="gary-mascot-canvas" data-animated={animated ? '1' : '0'} style={`--gary-size:${size}px;`}></canvas>
+
+<style>
+  .gary-mascot-canvas {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    width: var(--gary-size, 56px);
+    height: auto;
+    display: block;
+  }
+</style>
+
+<script is:inline define:vars={{ id }}>
+(function () {
+  const canvas = document.getElementById(id);
+  if (!canvas) return;
+
+  const _ = null;
+  const B = '#0e0e0e'; // outline / frame / cap
+  const D = '#262626'; // cap shadow
+  const H = '#3a2418'; // hair
+  const S = '#e8b478'; // skin
+  const P = '#b07a4a'; // mustache base
+  const F = '#241410'; // beard
+  const W = '#f5f5f5'; // cigarette / lens highlight
+  const E1 = '#ff6a2e'; // ember bright
+  const E2 = '#c83a08'; // ember dim
+
+  // 18 wide × 18 tall
+  const grid = [
+    [_,_,_,_,_,_,B,B,B,B,B,B,_,_,_,_,_,_],
+    [_,_,_,_,_,B,D,D,D,D,D,D,B,_,_,_,_,_],
+    [_,_,_,_,B,D,D,D,D,D,D,D,D,B,_,_,_,_],
+    [_,_,_,B,D,D,D,D,D,D,D,D,D,D,B,_,_,_],
+    [_,_,B,B,B,B,B,B,B,B,B,B,B,B,B,B,_,_],
+    [B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B,B],
+    [_,_,S,S,S,S,S,S,S,S,S,S,S,S,S,S,_,_],
+    [_,S,H,S,S,S,S,S,S,S,S,S,S,S,H,S,_,_],
+    [_,S,B,B,B,B,B,S,S,S,B,B,B,B,B,S,_,_],
+    [_,S,B,W,_,_,B,S,S,S,B,W,_,_,B,S,_,_],
+    [_,S,B,_,_,_,B,S,S,S,B,_,_,_,B,S,_,_],
+    [_,S,B,B,B,B,B,S,S,S,B,B,B,B,B,S,_,_],
+    [_,_,S,S,S,S,S,S,S,S,S,S,S,S,S,_,_,_],
+    [_,_,S,F,P,P,P,P,P,P,P,P,P,F,S,_,_,_],
+    [_,_,F,F,F,F,F,W,W,W,W,W,W,W,E1,_,_,_],
+    [_,_,F,F,F,F,F,F,F,F,F,F,F,F,_,_,_,_],
+    [_,_,_,F,F,F,F,F,F,F,F,F,F,_,_,_,_,_],
+    [_,_,_,_,F,F,F,F,F,F,F,F,_,_,_,_,_,_],
+  ];
+
+  // Ember cell location for animation
+  const EMBER_CELL = [14, 14];
+
+  const Z = 8;
+  const cols = grid[0].length;
+  const rows = grid.length;
+  const dpr = Math.max(2, Math.floor(window.devicePixelRatio || 1));
+  canvas.width  = cols * Z * dpr;
+  canvas.height = rows * Z * dpr;
+  canvas.style.aspectRatio = `${cols} / ${rows}`;
+
+  const ctx = canvas.getContext('2d');
+  ctx.imageSmoothingEnabled = false;
+
+  const animated = canvas.dataset.animated === '1';
+
+  function paint(emberOn) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        let color = grid[r][c];
+        if (!color) continue;
+        if (r === EMBER_CELL[0] && c === EMBER_CELL[1]) {
+          color = emberOn ? E1 : E2;
+        }
+        ctx.fillStyle = color;
+        ctx.fillRect(c * Z * dpr, r * Z * dpr, Z * dpr, Z * dpr);
+      }
+    }
+  }
+
+  paint(true);
+
+  if (animated) {
+    let on = true;
+    let last = 0;
+    const STEP_MS = 750;
+    function tick(t) {
+      if (t - last >= STEP_MS) {
+        on = !on;
+        paint(on);
+        last = t;
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+})();
+</script>
