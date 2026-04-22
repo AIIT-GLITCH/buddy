@@ -134,19 +134,59 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     response.textContent = text;
   }
 
+  const FP_STORAGE = 'askbuddy_fp';
+  function getFingerprint() {
+    try {
+      let fp = localStorage.getItem(FP_STORAGE);
+      if (!fp) {
+        fp = crypto.randomUUID ? crypto.randomUUID() :
+          (Date.now().toString(36) + Math.random().toString(36).slice(2));
+        localStorage.setItem(FP_STORAGE, fp);
+      }
+      return fp;
+    } catch (e) {
+      return 'session-' + Math.random().toString(36).slice(2);
+    }
+  }
+
   async function ask() {
     const q = input.value.trim();
     if (!q) return;
     btn.disabled = true;
     btn.textContent = '...';
 
-    // <150ms proof-of-life
     requestAnimationFrame(startThinking);
 
-    const wait = 4200 + Math.random() * 1800;
-    await new Promise(r => setTimeout(r, wait));
+    const minShowMs = 1200;
+    const t0 = performance.now();
+    let payload = null;
+    try {
+      const res = await fetch('/api/askbuddy', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ question: q, fingerprint: getFingerprint() }),
+      });
+      payload = await res.json();
+    } catch (e) {
+      payload = { ok: false, error: 'network_failed' };
+    }
 
-    showReply("Buddy is on the bench mid-build right now. Drop the question in the forum at /forum and Rhet will route it to him when he's back online — usually within a day.");
+    const elapsed = performance.now() - t0;
+    if (elapsed < minShowMs) {
+      await new Promise(r => setTimeout(r, minShowMs - elapsed));
+    }
+
+    if (payload && payload.ok) {
+      showReply(payload.answer || '(buddy went quiet)');
+      input.value = '';
+    } else if (payload && payload.error === 'daily_limit_reached') {
+      showReply(payload.message || "you've used today's question. come back tomorrow.");
+    } else if (payload && payload.error === 'budget_exhausted') {
+      showReply(payload.message || 'askbuddy is resting right now. check back later.');
+    } else {
+      const detail = (payload && payload.detail) ? ' — ' + payload.detail : '';
+      showReply('buddy tripped' + detail + '. try again in a minute.');
+    }
 
     btn.disabled = false;
     btn.textContent = 'Ask →';
