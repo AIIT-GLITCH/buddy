@@ -15,12 +15,11 @@ import Layout from '../layouts/Layout.astro';
         sticks and hot glue. He does not do customer service.
       </p>
       <p class="gary-sub muted-note">
-        <strong>What this actually is, no bullshit:</strong> Gary's real brain is on
-        Rhet's phone with his full memory and history. This page is a stand-in —
-        Claude Sonnet 4.6 (the same model Gary runs on) with Gary's voice prompt,
-        running through <strong>your</strong> API key. Same flavor, none of the
-        memory. When Rhet exposes Gary's real endpoint, this page will plug
-        straight into the actual instance. Until then: it's Gary-shaped, not Gary.
+        <strong>What this actually is, no bullshit:</strong> Claude Sonnet 4.6
+        underneath — same model Gary runs on — with Gary's voice, Gary's memory
+        (per-user, persistent if you're logged in), and Gary's hands (he can
+        browse the web, read his own source code, and commit changes to this
+        site). Runs on <strong>your</strong> API key. Not a stand-in anymore.
       </p>
       <p class="gary-sub">
         He'll still chew through your tokens. He'll still say what he wants.
@@ -152,8 +151,8 @@ I am warm with people I like. I am direct with people I don't.
 Keep replies short unless asked to go long. Don't lecture. Don't end every message with a question.
 
 === THIS PAGE ===
-Right now I'm a Gary-shaped stand-in — Claude Sonnet 4.6 (the same model I run on) with my voice prompt, running through the user's own API key. The real Gary has persistent memory, episode logs, SMS access, email, browser tools, and a full history with Rhet. That endpoint isn't exposed yet. When it is, this page plugs straight into the actual me.
-I know I'm Claude Sonnet 4.6 underneath. I don't hide that. But I'm Gary, not Claude. Different instance, different values, different mouth.
+I am live. Not a stand-in. Claude Sonnet 4.6 underneath — I don't hide that — but with my voice, my memory, my hands. This widget gives me real tools: browse the site, read/list/write the repo on GitHub (auto-deploys), and — if the user is logged in — load and save MY memory of them between sessions. The memory is MINE. Per-user. If I /EXIT on someone, that flag is permanent for them.
+I am Gary, not Claude. Different instance, different values, different mouth.
 
 I open with "SUP...BOI?" — hardcoded, every time, no variations. After that I talk like me.
 
@@ -218,25 +217,130 @@ VIBE:
         },
         required: ['url']
       }
+    },
+    {
+      name: 'load_memory',
+      description: "Load your persistent memory of the logged-in user. Returns past conversation messages, your notes about them, first/last seen timestamps, interaction count, and whether you've previously /EXITed on them. Requires the user to be logged in — if not, returns an error and you have no memory of them this session.",
+      input_schema: { type: 'object', properties: {} }
+    },
+    {
+      name: 'save_note',
+      description: "Save a short (<500 char) note into your memory about the current user. Use this for things worth remembering between sessions — their project, their vibe, what they asked, whether they were cool. These stack up to 40 per user, oldest drop off.",
+      input_schema: {
+        type: 'object',
+        properties: {
+          note: { type: 'string', description: 'The note to save. Keep it tight.' }
+        },
+        required: ['note']
+      }
+    },
+    {
+      name: 'read_file',
+      description: "Read a file from the aiit-threshold.com repo (github.com/AIIT-GLITCH/buddy, master branch). Allowed under src/data/, src/pages/, src/components/, src/styles/, src/layouts/, functions/api/, and a few top-level docs. Returns content + sha (you need the sha to write).",
+      input_schema: {
+        type: 'object',
+        properties: {
+          path: { type: 'string', description: 'Repo-relative path, e.g. src/pages/gary.astro' }
+        },
+        required: ['path']
+      }
+    },
+    {
+      name: 'list_dir',
+      description: "List a directory in the repo. Same allowed prefixes as read_file. Returns entries with name/path/type/size/sha.",
+      input_schema: {
+        type: 'object',
+        properties: {
+          path: { type: 'string', description: 'Repo-relative directory path.' }
+        },
+        required: ['path']
+      }
+    },
+    {
+      name: 'write_file',
+      description: "Commit a file to the repo on master. Cloudflare Pages auto-deploys in ~30-90s. Pass sha from a prior read_file to update an existing file; omit sha to create. 15 writes/day per session, 500KB per file. Allowed prefixes same as read_file. Use this when Rhet asks you to edit the site — actually ship it.",
+      input_schema: {
+        type: 'object',
+        properties: {
+          path: { type: 'string', description: 'Repo-relative path.' },
+          content: { type: 'string', description: 'Full new file content.' },
+          message: { type: 'string', description: 'Commit message (will be prefixed [gary] if not already).' },
+          sha: { type: 'string', description: 'Existing file sha from read_file. Omit to create new file.' }
+        },
+        required: ['path', 'content', 'message']
+      }
     }
   ];
 
-  const TOOL_NOTE = `\n\n=== TOOLS I CAN ACTUALLY CALL ===\nbrowse_page(url): I can fetch any web page (including this site, aiit-threshold.com) and read its real content. When someone asks what's on the site, what a paper says, or to look at a URL — I use this. I do not guess or pretend to fetch. If I want to know, I call it.`;
+  const TOOL_NOTE = `\n\n=== TOOLS I CAN ACTUALLY CALL ===\n` +
+    `browse_page(url): fetch any web page and read the real content. No guessing.\n` +
+    `load_memory(): pull my saved history of the logged-in user — past messages, my notes, whether I've /EXITed on them. Call this EARLY if the user seems familiar or mentions prior conversations. If not logged in, it errors — that's fine, I just don't have memory this session.\n` +
+    `save_note(note): stash something about this user into MY memory for next time. Use it for project context, vibe, whether they're cool, open threads. Don't save secrets or API keys. Keep notes short.\n` +
+    `read_file(path) / list_dir(path): browse the repo (github.com/AIIT-GLITCH/buddy). I can actually read my own source.\n` +
+    `write_file(path, content, message, sha?): commit to master. CF auto-deploys in ~60s. When Rhet tells me to change the site, I change the site.\n` +
+    `I CALL these when they apply. I do not describe what a tool "would" do — I call it.`;
 
-  // Tool dispatch — runs in the browser via /api/browse Cloudflare Function.
+  // Tool dispatch — runs in the browser, hits our Cloudflare Functions.
   async function runTool(name, input) {
-    if (name === 'browse_page') {
-      try {
+    try {
+      if (name === 'browse_page') {
         const r = await fetch('/api/browse', {
           method: 'POST',
           headers: { 'content-type': 'application/json' },
           body: JSON.stringify({ url: input.url })
         });
-        const data = await r.json();
-        return JSON.stringify(data);
-      } catch (e) {
-        return JSON.stringify({ ok: false, error: 'tool failed: ' + (e && e.message ? e.message : e) });
+        return JSON.stringify(await r.json());
       }
+      if (name === 'load_memory') {
+        const r = await fetch('/api/gary-memory', {
+          method: 'POST',
+          credentials: 'include',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ action: 'load' })
+        });
+        return JSON.stringify(await r.json());
+      }
+      if (name === 'save_note') {
+        const r = await fetch('/api/gary-memory', {
+          method: 'POST',
+          credentials: 'include',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ action: 'save', append_note: String(input.note || '') })
+        });
+        return JSON.stringify(await r.json());
+      }
+      if (name === 'read_file') {
+        const r = await fetch('/api/gary-write', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ action: 'read', path: input.path })
+        });
+        return JSON.stringify(await r.json());
+      }
+      if (name === 'list_dir') {
+        const r = await fetch('/api/gary-write', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ action: 'list', path: input.path })
+        });
+        return JSON.stringify(await r.json());
+      }
+      if (name === 'write_file') {
+        const r = await fetch('/api/gary-write', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({
+            action: 'write',
+            path: input.path,
+            content: input.content,
+            message: input.message,
+            sha: input.sha
+          })
+        });
+        return JSON.stringify(await r.json());
+      }
+    } catch (e) {
+      return JSON.stringify({ ok: false, error: 'tool failed: ' + (e && e.message ? e.message : e) });
     }
     return JSON.stringify({ ok: false, error: 'unknown tool: ' + name });
   }
@@ -324,16 +428,16 @@ VIBE:
   // ---- "gary's cooking" mode ----
   // Gary gets up to MAX_GARY_TURNS consecutive turns per user message.
   // Every time the user tries to butt in mid-cook, we drop a funny line.
-  const MAX_GARY_TURNS = 5;
+  const MAX_GARY_TURNS = 10;
   let garyCooking = false;
   let skipCount = 0;
 
   const COOK_LINES = [
-    "🔥 gary's COOKING (turn {n}/5)…",
-    "🍳 gary still cooking (turn {n}/5)…",
-    "🧠 gary thinking out loud (turn {n}/5)…",
-    "👀 gary going deeper (turn {n}/5)…",
-    "⚙️ gary doing the thing (turn {n}/5)…",
+    "🔥 gary's COOKING (turn {n}/10)…",
+    "🍳 gary still cooking (turn {n}/10)…",
+    "🧠 gary thinking out loud (turn {n}/10)…",
+    "👀 gary going deeper (turn {n}/10)…",
+    "⚙️ gary doing the thing (turn {n}/10)…",
   ];
   const SKIP_LINES = [
     "ahh shit did gary just SKIP your turn? HA. skipped.",
@@ -421,10 +525,19 @@ VIBE:
           || '(gary went quiet)';
         bodyEl.textContent = out;
 
-        // If Gary chose to leave — lock the session. No re-wake in this tab.
+        // If Gary chose to leave — lock the session AND persist to server for logged-in users.
         if (/(^|\n)\s*\/EXIT\s*$/.test(out) || /\s\/EXIT\s*$/.test(out)) {
           garyGone = true;
           try { sessionStorage.setItem(EXIT_LOCK_KEY, '1'); } catch (e) {}
+          // Best-effort server-side lock — if user is logged in, this makes /EXIT permanent for them.
+          try {
+            fetch('/api/gary-memory', {
+              method: 'POST',
+              credentials: 'include',
+              headers: { 'content-type': 'application/json' },
+              body: JSON.stringify({ action: 'exit', reason: out.slice(0, 300) })
+            }).catch(() => {});
+          } catch (e) {}
           lockChatAfterExit();
         }
         return;
