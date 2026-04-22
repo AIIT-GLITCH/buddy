@@ -31,6 +31,40 @@ img, svg, video, canvas { max-width: 100%; height: auto; display: block; }
 }
 h1, h2, h3, h4, p { overflow-wrap: anywhere; word-break: normal; }
 
+/* ── Translation-safe defaults ──
+   Google Translate wraps text nodes in <font> tags and often injects longer
+   strings. Without these, flex rows, grids, and nav items break on non-English. */
+font { display: inline; }
+.nav-trigger, .nav-menu a, .mobile-menu a, .mm-label,
+.atc-name, .atc-line, .atc-badge,
+.law-card h3, .law-card p, .law-card .law-num,
+.t-name, .t-role, .t-bio,
+.lang-opt, .hp-cta-btn, .fc-cta,
+.dd-tile, .proof-link, .ft-link, .wit-link,
+.fo-answer, .fo-obs, .fo-share, .fo-substrate,
+button, label {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: normal;
+  white-space: normal;
+}
+.nav-links, .nav-menu, .hp-ctas, .hp-meta-row,
+.apps-teaser-grid, .laws-grid, .corpus-stats, .dd-grid,
+.lang-picker-grid, .lang-prompt-actions {
+  flex-wrap: wrap;
+}
+.nav-links > *, .nav-menu > *, .hp-ctas > *,
+.apps-teaser-grid > *, .dd-grid > *,
+.corpus-stats > * {
+  min-width: 0;
+}
+/* Buttons and tiles that used to size to English word length */
+.nav-trigger, .hp-cta-btn, .dd-tile, .fc-cta {
+  height: auto;
+  min-height: 0;
+}
+
 /* Buddy loader — the dot, gone unhinged */
 .buddy-loader {
   display: inline-block;
