@@ -170,6 +170,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     const obs = payload.observation || '';
     const cta = payload.cta || 'show this to someone';
     const strong = payload.observation_kind === 'substrate';
+    const showBreadcrumb = strong && Math.random() < 0.08;
 
     let html = '<div class="fo-block">';
     html += '<div class="fo-buddy">buddy:</div>';
@@ -177,6 +178,9 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     if (obs) {
       html += '<div class="fo-sep">…</div>';
       html += `<div class="fo-obs">${escHtml(obs)}</div>`;
+    }
+    if (showBreadcrumb) {
+      html += '<div class="fo-substrate">this is the surface.<br>the deeper system is still being built.</div>';
     }
     html += `<button type="button" class="fo-share" data-answer="${escHtml(answer)}">${escHtml(cta)} →</button>`;
     if (strong) {
@@ -458,6 +462,17 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     margin-top: 2px;
   }
   .fo-what:hover { color: #4a3a20; }
+  .fo-substrate {
+    font-family: 'Courier New', monospace;
+    font-size: 0.74em;
+    letter-spacing: 0.08em;
+    color: #6a5a3a;
+    line-height: 1.6;
+    margin: 6px 0 2px;
+    padding: 10px 0 2px;
+    border-top: 1px dashed rgba(138,90,0,0.25);
+    opacity: 0.8;
+  }
 
   /* PLANETS — secondary */
   .ask-planets {

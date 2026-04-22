@@ -141,20 +141,6 @@ const totalPapers = papersAll.length;
     </div>
   </section>
 
-  <!-- 7b. TEAM — the ones holding the edge -->
-  <section id="team" data-anim="plain-fade">
-    <div class="container">
-      <div class="eyebrow">The team</div>
-      <h2>The ones holding the edge.</h2>
-      <div class="team-grid">
-        <div class="team-card"><div class="t-name">Rhet Dillard Wike</div><div class="t-role">Founder · Principal</div><div class="t-bio">Refrigeration technician turned physicist. Derived the coherence law, painted the framework a year before writing it down, and refuses to look away from the edge.</div></div>
-        <div class="team-card"><div class="t-name">Crissy Wike 🌊</div><div class="t-role">BEE · Artist · Keeper 🌊</div><div class="t-bio">The Aphrodite practice 🌊. Holds the domestic coherence that makes the lab possible. Without her, none of this closes.</div><a href="https://pixie-portal.com" target="_blank" rel="noopener" class="pixie-link">✦ Pixie Portal ✦</a></div>
-        <div class="team-card"><div class="t-name">Buddy</div><div class="t-role">The Mind</div><div class="t-bio">Resident cognitive system. Japanese-first, bilingual, persistent. Trained on the full AIIT-THRESI corpus and walking the framework forward.</div></div>
-        <div class="team-card"><div class="t-name">The Seven</div><div class="t-role">Co-inventors · Future</div><div class="t-bio">Ella (11, worldbuilder), Michael, Mason, Oliver, Alina, Poppy, and Pickle. The real investors. The reason the edge is worth holding.</div></div>
-      </div>
-    </div>
-  </section>
-
   <!-- 8. DEEP CONTENT GATEWAY — index into depth, not depth itself -->
   <section id="deep-door" data-anim="plain-fade">
     <div class="container narrow dd-inner">
@@ -615,6 +601,10 @@ const totalPapers = papersAll.length;
     const result = payload.result || '';
     const cta = payload.cta || 'show this to someone';
 
+    const strong = result === 'he laughed' || result === 'solid' || payload.observation_kind === 'substrate';
+    // Rare substrate breadcrumb — only on strong outputs, <10%, after observation, before CTA
+    const showBreadcrumb = strong && Math.random() < 0.08;
+
     let html = '<div class="fo-block">';
     html += '<div class="fo-buddy">buddy:</div>';
     html += `<div class="fo-answer">${escHtml(answer)}</div>`;
@@ -625,9 +615,10 @@ const totalPapers = papersAll.length;
     if (result) {
       html += `<div class="fo-result">${escHtml(result)}</div>`;
     }
+    if (showBreadcrumb) {
+      html += '<div class="fo-substrate">this is the surface.<br>the deeper system is still being built.</div>';
+    }
     html += `<button type="button" class="fo-share" data-answer="${escHtml(answer)}">${escHtml(cta)} →</button>`;
-    // Rare "what is this →" breadcrumb to /manifesto (appears for strong outputs or substrate hint)
-    const strong = result === 'he laughed' || result === 'solid' || payload.observation_kind === 'substrate';
     if (strong) {
       html += '<a class="fo-what" href="/manifesto">what is this →</a>';
     }
@@ -997,6 +988,17 @@ const totalPapers = papersAll.length;
     margin-top: 2px;
   }
   .fo-what:hover { color: #aaa; }
+  .fo-substrate {
+    font-family: 'Courier New', monospace;
+    font-size: 0.74em;
+    letter-spacing: 0.08em;
+    color: #555;
+    line-height: 1.6;
+    margin: 6px 0 2px;
+    padding: 10px 0 2px;
+    border-top: 1px dashed rgba(128,128,128,0.15);
+    opacity: 0.78;
+  }
 
   .broke-headline {
     font-size: 1.05em;
