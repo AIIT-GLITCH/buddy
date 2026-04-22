@@ -134,14 +134,16 @@ export async function onRequestPost(context) {
 
   // --- CHAT: forward to anthropic, decrement counter ---
   if (action === 'chat') {
-    const parsed = await readCookie(getCookie(request, COOKIE_NAME), secret);
+    let parsed = await readCookie(getCookie(request, COOKIE_NAME), secret);
+    // Auto-gate: if no cookie, issue one with MAX_CALLS. No phrase required.
+    // This is what powers the "try gary first, connect key later" flow.
     if (!parsed) {
-      return new Response(JSON.stringify({ ok: false, error: 'no gate pass — type "Im broke" first' }), { status: 401, headers });
+      parsed = { calls: MAX_CALLS, ts: Date.now() };
     }
     if (parsed.calls <= 0) {
       return new Response(JSON.stringify({
         ok: false,
-        error: 'out of free calls. drop your own key to keep going.',
+        error: 'out of free calls. connect your key to keep going.',
         calls_remaining: 0,
       }), { status: 429, headers });
     }
