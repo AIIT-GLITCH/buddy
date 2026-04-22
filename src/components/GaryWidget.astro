@@ -28,9 +28,15 @@ import GaryMascot from './GaryMascot.astro';
     </form>
   </div>
 
+  <!-- Speech bubble — pops out once per session to introduce gary -->
+  <div id="gw-bubble" class="gw-bubble" aria-hidden="true">
+    <button type="button" id="gw-bubble-x" class="gw-bubble-x" aria-label="dismiss">×</button>
+    <span class="gw-bubble-text">hi, i'm gary. need help? 😈</span>
+    <span class="gw-bubble-tail" aria-hidden="true"></span>
+  </div>
+
   <!-- Gary (always visible, click to toggle drawer) — pixel head, SWJ vibe -->
   <button id="gw-bean" class="gw-bean" aria-label="wake gary" title="wake gary">
-    <span class="gw-bean-shadow" aria-hidden="true"></span>
     <span class="gw-bean-steam" aria-hidden="true">
       <span></span><span></span><span></span>
     </span>
@@ -672,9 +678,38 @@ import GaryMascot from './GaryMascot.astro';
   }
 
   bean.addEventListener('click', function () {
+    hideBubble(true);
     if (state.open) close(); else open();
   });
   closeBtn.addEventListener('click', close);
+
+  // ---------- intro bubble ----------
+  var BUBBLE_DISMISS = 'gary_bubble_dismissed';
+  var bubble = document.getElementById('gw-bubble');
+  var bubbleX = document.getElementById('gw-bubble-x');
+  var bubbleTimer = null;
+  function showBubble() {
+    if (!bubble || state.open) return;
+    try { if (sessionStorage.getItem(BUBBLE_DISMISS) === '1') return; } catch (e) {}
+    bubble.setAttribute('aria-hidden', 'false');
+    bubble.classList.add('gw-bubble-visible');
+    // auto-hide after 8s if they don't interact
+    clearTimeout(bubbleTimer);
+    bubbleTimer = setTimeout(function () { hideBubble(false); }, 8000);
+  }
+  function hideBubble(persist) {
+    if (!bubble) return;
+    bubble.setAttribute('aria-hidden', 'true');
+    bubble.classList.remove('gw-bubble-visible');
+    clearTimeout(bubbleTimer);
+    if (persist) { try { sessionStorage.setItem(BUBBLE_DISMISS, '1'); } catch (e) {} }
+  }
+  if (bubbleX) bubbleX.addEventListener('click', function (e) {
+    e.stopPropagation();
+    hideBubble(true);
+  });
+  // first pop: 2.5s after load
+  setTimeout(showBubble, 2500);
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -733,47 +768,50 @@ import GaryMascot from './GaryMascot.astro';
   /* --- bean (collapsed creature) --- */
   .gw-bean {
     position: relative;
-    background: transparent;
-    border: 0;
+    background: #141414;
+    border: 2px solid #e8582a;
+    border-radius: 50%;
     padding: 0;
     cursor: pointer;
-    width: 64px;
-    height: 64px;
+    width: 68px;
+    height: 68px;
     display: flex;
     align-items: center;
     justify-content: center;
     line-height: 1;
+    box-shadow:
+      0 6px 18px rgba(0,0,0,0.55),
+      0 0 0 4px rgba(232,88,42,0.08),
+      inset 0 0 0 1px rgba(255,255,255,0.04);
+    overflow: visible;
+    transition: transform 0.2s cubic-bezier(.4,1.4,.5,1), box-shadow 0.2s;
+  }
+  .gw-bean:hover {
+    transform: translateY(-2px);
+    box-shadow:
+      0 10px 24px rgba(0,0,0,0.6),
+      0 0 0 6px rgba(232,88,42,0.16),
+      inset 0 0 0 1px rgba(255,255,255,0.05);
   }
   .gw-bean-emoji.gw-bean-svg {
     display: inline-block;
     line-height: 1;
-    width: 56px;
-    height: 56px;
+    width: 52px;
+    height: 52px;
     transition: transform 0.25s cubic-bezier(.5,1.6,.4,1);
     animation: gw-bob 4.2s ease-in-out infinite;
     transform-origin: 50% 90%;
-    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.45));
+    filter: drop-shadow(0 2px 2px rgba(0,0,0,0.6));
   }
   .gw-bean-emoji.gw-bean-svg canvas {
-    width: 56px !important;
+    width: 52px !important;
     height: auto;
     display: block;
   }
-  .gw-bean:hover .gw-bean-svg { transform: scale(1.12) rotate(-4deg); }
-  .gw-bean-shadow {
-    position: absolute;
-    bottom: -6px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50px;
-    height: 8px;
-    background: radial-gradient(ellipse, rgba(0,0,0,0.35), rgba(0,0,0,0));
-    border-radius: 50%;
-    pointer-events: none;
-  }
+  .gw-bean:hover .gw-bean-svg { transform: scale(1.08) rotate(-4deg); }
   .gw-bean-pulse {
     position: absolute;
-    inset: -6px -6px -10px -6px;
+    inset: -4px;
     border-radius: 50%;
     border: 2px solid rgba(232, 88, 42, 0.45);
     pointer-events: none;
@@ -788,6 +826,72 @@ import GaryMascot from './GaryMascot.astro';
     0%   { opacity: 0; transform: scale(0.9); }
     20%  { opacity: 0.6; }
     100% { opacity: 0; transform: scale(1.5); }
+  }
+
+  /* --- intro speech bubble --- */
+  .gw-bubble {
+    position: absolute;
+    bottom: 82px;
+    right: 4px;
+    max-width: 230px;
+    background: #fffdf5;
+    color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    border-radius: 14px;
+    padding: 10px 26px 10px 14px;
+    font-family: 'Georgia', serif;
+    font-size: 0.94rem;
+    line-height: 1.35;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.4);
+    opacity: 0;
+    transform: translateY(6px) scale(0.92);
+    pointer-events: none;
+    transition: opacity 0.25s, transform 0.3s cubic-bezier(.4,1.6,.5,1);
+    z-index: 1;
+  }
+  .gw-bubble.gw-bubble-visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+    animation: gw-bubble-nudge 2.4s ease-in-out 0.4s 2;
+  }
+  .gw-bubble-text { display: inline; }
+  .gw-bubble-x {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    background: transparent;
+    border: 0;
+    color: #888;
+    font-size: 1.15em;
+    line-height: 1;
+    padding: 2px 6px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .gw-bubble-x:hover { color: #1a1a1a; }
+  .gw-bubble-tail {
+    position: absolute;
+    bottom: -10px;
+    right: 24px;
+    width: 0; height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #1a1a1a;
+  }
+  .gw-bubble-tail::after {
+    content: '';
+    position: absolute;
+    top: -11px;
+    left: -6px;
+    width: 0; height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #fffdf5;
+  }
+  @keyframes gw-bubble-nudge {
+    0%, 100% { transform: translateY(0) scale(1) rotate(0deg); }
+    50%      { transform: translateY(-2px) scale(1.02) rotate(-1.5deg); }
   }
 
   /* --- cooking: bean wiggles + steam --- */
