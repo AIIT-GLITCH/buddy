@@ -194,6 +194,8 @@ export async function onRequestPost(context) {
 
   const question = String(body.question || '').trim().slice(0, MAX_QUESTION_LEN);
   const fingerprint = String(body.fingerprint || '').trim().slice(0, 128) || 'nofp';
+  const adminToken = String(body.admin || request.headers.get('x-dev-bypass') || '').trim();
+  const isAdmin = !!env.DEV_BYPASS && adminToken === env.DEV_BYPASS;
   if (!question) {
     return new Response(JSON.stringify({ ok: false, error: 'empty question' }), { status: 400, headers });
   }
@@ -204,8 +206,8 @@ export async function onRequestPost(context) {
   const bucketKey = 'askbuddy_bucket:' + await sha256Hex(ip + '|' + fingerprint + '|' + date);
   const spentKey = 'askbuddy_spend:' + monthKey();
 
-  // ---- Daily cap check (KV-gated; soft-skip if no KV bound) ----
-  if (KV) {
+  // ---- Daily cap check (KV-gated; soft-skip if no KV bound or admin) ----
+  if (KV && !isAdmin) {
     const existing = await KV.get(bucketKey);
     if (existing) {
       return new Response(JSON.stringify({
@@ -231,8 +233,8 @@ export async function onRequestPost(context) {
     }
   }
 
-  // ---- Claim the slot BEFORE calling upstream (if KV available) ----
-  if (KV) {
+  // ---- Claim the slot BEFORE calling upstream (if KV available, non-admin) ----
+  if (KV && !isAdmin) {
     await KV.put(bucketKey, '1', { expirationTtl: 26 * 60 * 60 });
   }
 
@@ -258,7 +260,7 @@ export async function onRequestPost(context) {
     const data = await r.json();
     if (!r.ok) {
       // Refund the slot so the user isn't punished for our failure.
-      if (KV) await KV.delete(bucketKey);
+      if (KV && !isAdmin) await KV.delete(bucketKey);
       return new Response(JSON.stringify({
         ok: false,
         error: 'upstream_failed',
@@ -269,7 +271,7 @@ export async function onRequestPost(context) {
     inTokens = (data.usage && data.usage.input_tokens) || 0;
     outTokens = (data.usage && data.usage.output_tokens) || 0;
   } catch (e) {
-    if (KV) await KV.delete(bucketKey);
+    if (KV && !isAdmin) await KV.delete(bucketKey);
     return new Response(JSON.stringify({
       ok: false,
       error: 'network_failed',

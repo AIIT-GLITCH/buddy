@@ -568,6 +568,21 @@ const totalPapers = papersAll.length;
     return t;
   }
 
+  // Dev bypass: /?dev=X stores token, unlocks widget, passes to /api/joke
+  const DEV_KEY = 'buddy_dev_bypass';
+  (function captureDev(){
+    try {
+      const p = new URLSearchParams(location.search).get('dev');
+      if (p) {
+        localStorage.setItem(DEV_KEY, p);
+        localStorage.removeItem(JOKE_KEY);
+      }
+    } catch (e) {}
+  })();
+  function getDevBypass() {
+    try { return localStorage.getItem(DEV_KEY) || ''; } catch (e) { return ''; }
+  }
+
   function timeUntilReset(usedAt) {
     const ms = COOLDOWN_MS - (Date.now() - usedAt);
     if (ms <= 0) return null;
@@ -705,7 +720,7 @@ const totalPapers = papersAll.length;
       const res = await fetch('/api/joke', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ joke, token: getToken() }),
+        body: JSON.stringify({ joke, token: getToken(), admin: getDevBypass() }),
       });
       const data = await res.json();
       if (data.error === 'once_per_day') {
@@ -734,9 +749,15 @@ const totalPapers = papersAll.length;
     wireShare(jokeResponse);
 
     const savedReply = payload.answer || payload.reply || '';
-    const record = { at: Date.now(), reply: savedReply };
-    localStorage.setItem(JOKE_KEY, JSON.stringify(record));
-    lockWidget(record.at, null);
+    if (getDevBypass()) {
+      jokeBtn.disabled = false;
+      jokeBtn.textContent = 'Send →';
+      jokeInput.value = '';
+    } else {
+      const record = { at: Date.now(), reply: savedReply };
+      localStorage.setItem(JOKE_KEY, JSON.stringify(record));
+      lockWidget(record.at, null);
+    }
   }
 
   jokeBtn.addEventListener('click', sendJoke);

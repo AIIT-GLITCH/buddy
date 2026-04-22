@@ -52,6 +52,8 @@ export async function onRequestPost(context) {
     const body = await request.json();
     const joke = (body.joke || '').trim().slice(0, 500);
     const token = (body.token || '').trim();
+    const adminToken = String(body.admin || request.headers.get('x-dev-bypass') || '').trim();
+    const isAdmin = !!env.DEV_BYPASS && adminToken === env.DEV_BYPASS;
 
     if (!joke) {
       return new Response(JSON.stringify({ error: 'No joke provided.' }), { status: 400, headers });
@@ -66,7 +68,7 @@ export async function onRequestPost(context) {
       return new Response(JSON.stringify({ error: 'Not from here.' }), { status: 403, headers });
     }
 
-    if (env.JOKE_KV) {
+    if (env.JOKE_KV && !isAdmin) {
       const ip = request.headers.get('cf-connecting-ip') || 'anon';
       const today = new Date().toISOString().slice(0, 10);
       const ipKey = `ip:${ip}:${today}`;

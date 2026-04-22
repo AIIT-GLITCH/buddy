@@ -192,6 +192,22 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     wireShare(response);
   }
 
+  // Dev bypass: visiting /?dev=X or /ask-buddy?dev=X stores token; sent with every request.
+  const DEV_KEY = 'buddy_dev_bypass';
+  (function captureDev(){
+    try {
+      const p = new URLSearchParams(location.search).get('dev');
+      if (p) {
+        localStorage.setItem(DEV_KEY, p);
+        // drop localStorage joke lock too so tester gets a clean slate
+        localStorage.removeItem('buddy_joke_used');
+      }
+    } catch (e) {}
+  })();
+  function getDevBypass() {
+    try { return localStorage.getItem(DEV_KEY) || ''; } catch (e) { return ''; }
+  }
+
   const FP_STORAGE = 'askbuddy_fp';
   function getFingerprint() {
     try {
@@ -222,7 +238,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       const res = await fetch('/api/askbuddy', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ question: q, fingerprint: getFingerprint() }),
+        body: JSON.stringify({ question: q, fingerprint: getFingerprint(), admin: getDevBypass() }),
       });
       payload = await res.json();
     } catch (e) {
