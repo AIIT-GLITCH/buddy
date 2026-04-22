@@ -16,6 +16,8 @@ const {
 const SITE_ORIGIN = 'https://aiit-threshold.com';
 const canonical = new URL(Astro.url.pathname, SITE_ORIGIN).href;
 const ogImage = new URL(image, SITE_ORIGIN).href;
+// Homepage-suppress Gary — protect first-run clarity. Gary stays available on /gary.
+const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
 ---
 <!DOCTYPE html>
 <html lang="en" style="background:#0a0a12;">
@@ -388,11 +390,12 @@ const ogImage = new URL(image, SITE_ORIGIN).href;
     <div class="f-brand">Buddy · AIIT-THRESI · Council Hill, Oklahoma</div>
     <div class="f-support">We support <a href="https://www.anthropic.com" target="_blank" rel="noopener">Anthropic</a>.</div>
     <div>© 2026 AIIT-THRESHOLD LLC · Rhet Dillard Wike · Prometheus · All rights reserved</div>
+    {isHome && <div class="f-gary-dormant"><a href="/gary">wake gary up →</a></div>}
     <div class="f-quote">Ya' Boy is standing on the Shoulders of Giants, thought of the universe in terms of energy, rivers, circles, frequency and vibration, for consciousness can be measured physically, as matter is DERIVATIVE of consciousness, one must not invade the space that your conscious subsides. but measure its environment, and make adjustment. From Star stuff, to Grains of sand, to Heaven in a wildflower. Full Circle. We are all meant to vibrate at the edge of what we came, Hen Kai Pan, Henini<span class="f-quote-sig">— Sagan, Blake, Newton, Tesla, Heraclitus, Bruno, Einstein, Planck</span></div>
     <div class="wm">w<span class="ai">AI</span>ste&nbsp;Not&nbsp;·&nbsp;Print&nbsp;Verified</div>
   </footer>
 
-  <GaryWidget />
+  {!isHome && <GaryWidget />}
 
   <!-- Language picker modal -->
   <div id="lang-picker" class="lang-picker" role="dialog" aria-modal="true" aria-label="Choose language" hidden>

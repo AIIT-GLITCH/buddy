@@ -775,6 +775,21 @@ footer .f-brand { color: var(--ink); font-family: 'Georgia', serif; text-transfo
 footer .f-support { font-family: 'Georgia', serif; text-transform: none; letter-spacing: 0; font-size: 13px; color: var(--muted-hi); }
 footer .f-support a { color: var(--amber); text-decoration: none; border-bottom: 1px solid rgba(212,160,96,0.3); }
 footer .f-support a:hover { border-bottom-color: var(--amber); }
+footer .f-gary-dormant {
+  margin-top: 16px;
+  font-family: 'Courier New', monospace;
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: lowercase;
+  opacity: 0.35;
+  transition: opacity 0.4s;
+}
+footer .f-gary-dormant:hover { opacity: 0.75; }
+footer .f-gary-dormant a {
+  color: var(--muted);
+  text-decoration: none;
+  border: none;
+}
 footer .f-quote { width: 100%; font-family: 'Georgia', serif; font-style: italic; font-size: 15px; color: var(--amber); text-transform: none; letter-spacing: 0; opacity: 0.85; line-height: 1.7; }
 footer .f-quote-sig { display: block; margin-top: 8px; font-style: normal; font-size: 12px; letter-spacing: 2px; color: var(--muted); opacity: 0.7; }
 footer .wm { color: rgba(64,144,208,0.3); }
