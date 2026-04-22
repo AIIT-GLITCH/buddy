@@ -736,6 +736,68 @@ const totalPapers = papersAll.length;
 <a href="/#join" class="broke-donate">Donate here →</a>`;
   }
 
+  function escHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({
+      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+    }[c]));
+  }
+
+  function renderFirstOutput(payload) {
+    // Stacked first-output shape:
+    //   buddy:
+    //   [answer]
+    //   …
+    //   [observation — sometimes]
+    //   [result — if game]
+    //   show this to someone →
+    const answer = payload.answer || payload.reply || '';
+    const obs = payload.observation || '';
+    const result = payload.result || '';
+    const cta = payload.cta || 'show this to someone';
+
+    let html = '<div class="fo-block">';
+    html += '<div class="fo-buddy">buddy:</div>';
+    html += `<div class="fo-answer">${escHtml(answer)}</div>`;
+    if (obs) {
+      html += '<div class="fo-sep">…</div>';
+      html += `<div class="fo-obs">${escHtml(obs)}</div>`;
+    }
+    if (result) {
+      html += `<div class="fo-result">${escHtml(result)}</div>`;
+    }
+    html += `<button type="button" class="fo-share" data-answer="${escHtml(answer)}">${escHtml(cta)} →</button>`;
+    // Rare "what is this →" breadcrumb to /manifesto (appears for strong outputs or substrate hint)
+    const strong = result === 'he laughed' || result === 'solid' || payload.observation_kind === 'substrate';
+    if (strong) {
+      html += '<a class="fo-what" href="/manifesto">what is this →</a>';
+    }
+    html += '</div>';
+    return html;
+  }
+
+  function wireShare(root) {
+    const btn = root.querySelector('.fo-share');
+    if (!btn) return;
+    btn.addEventListener('click', async () => {
+      const answer = btn.getAttribute('data-answer') || '';
+      const shareText = `buddy: ${answer}\n\naiit-threshold.com`;
+      try {
+        if (navigator.share) {
+          await navigator.share({ text: shareText, url: 'https://aiit-threshold.com' });
+          return;
+        }
+      } catch { /* fall through to clipboard */ }
+      try {
+        await navigator.clipboard.writeText(shareText);
+        const original = btn.textContent;
+        btn.textContent = 'copied ✓';
+        setTimeout(() => { btn.textContent = original; }, 1600);
+      } catch {
+        btn.textContent = 'copy failed';
+      }
+    });
+  }
+
   async function sendJoke() {
     const joke = jokeInput.value.trim();
     if (!joke) return;
@@ -745,7 +807,7 @@ const totalPapers = papersAll.length;
     jokeResponse.className = 'joke-response loading';
     startThinking();
 
-    let reply;
+    let payload = null;
     try {
       const res = await fetch('/api/joke', {
         method: 'POST',
@@ -754,14 +816,17 @@ const totalPapers = papersAll.length;
       });
       const data = await res.json();
       if (data.error === 'once_per_day') {
-        reply = "You already got your one today. 🫘 Come back tomorrow.";
+        payload = { answer: "you already got your one today. 🫘 come back tomorrow.", cta: 'show this to someone' };
       } else if (!res.ok || data.error) {
         showBroke();
         jokeBtn.disabled = false;
         jokeBtn.textContent = 'Send →';
         return;
       } else {
-        reply = data.reply || fallbacks[Math.floor(Math.random() * fallbacks.length)];
+        payload = data;
+        if (!payload.answer && !payload.reply) {
+          payload.answer = fallbacks[Math.floor(Math.random() * fallbacks.length)];
+        }
       }
     } catch {
       showBroke();
@@ -772,10 +837,11 @@ const totalPapers = papersAll.length;
 
     stopThinking();
     jokeResponse.className = 'joke-response visible';
-    jokeResponse.textContent = reply;
+    jokeResponse.innerHTML = renderFirstOutput(payload);
+    wireShare(jokeResponse);
 
-    // Lock and persist
-    const record = { at: Date.now(), reply };
+    const savedReply = payload.answer || payload.reply || '';
+    const record = { at: Date.now(), reply: savedReply };
     localStorage.setItem(JOKE_KEY, JSON.stringify(record));
     lockWidget(record.at, null);
   }
@@ -1022,6 +1088,55 @@ const totalPapers = papersAll.length;
     border-left-color: rgba(248,113,113,0.6);
     background: rgba(248,113,113,0.05);
   }
+
+  /* First-output shape */
+  .fo-block { display: flex; flex-direction: column; gap: 10px; }
+  .fo-buddy {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #888;
+  }
+  .fo-answer { color: #eaeaea; font-size: 1.02em; line-height: 1.6; }
+  .fo-sep { color: #555; letter-spacing: 4px; font-size: 0.9em; }
+  .fo-obs {
+    color: #a8d4cc;
+    font-style: italic;
+    font-size: 0.94em;
+    line-height: 1.55;
+    border-left: 1px solid rgba(64,192,176,0.3);
+    padding-left: 12px;
+  }
+  .fo-result {
+    font-family: 'Courier New', monospace;
+    font-size: 0.78em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #D4AF37;
+    margin-top: 4px;
+  }
+  .fo-share {
+    align-self: flex-start;
+    background: transparent;
+    border: none;
+    padding: 6px 0;
+    margin-top: 8px;
+    font-family: inherit;
+    font-size: 0.88em;
+    color: #40c0b0;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(64,192,176,0.4);
+  }
+  .fo-share:hover { color: #80e0c8; }
+  .fo-what {
+    align-self: flex-start;
+    font-size: 0.78em;
+    color: #666;
+    text-decoration: none;
+    margin-top: 2px;
+  }
+  .fo-what:hover { color: #aaa; }
 
   .broke-headline {
     font-size: 1.05em;

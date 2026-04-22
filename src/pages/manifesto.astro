@@ -1,0 +1,217 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="The Substrate — AIIT-THRESI" description="Most systems start with pretrained weights that already carry behavior. We don't. We build the substrate first.">
+  <section class="manifesto-section">
+    <div class="manifesto-inner">
+      <div class="m-eyebrow">What this is</div>
+      <h1 class="m-title">the substrate.</h1>
+
+      <p class="m-strong">This interface runs on a frontier model today.</p>
+      <p class="m-strong">The system behind it is being built differently.</p>
+
+      <div class="m-break">—</div>
+
+      <p class="m-body">Most systems start with pretrained weights that already carry behavior:</p>
+      <ul class="m-carry">
+        <li>assistant tone</li>
+        <li>reward bias</li>
+        <li>conversation shaping</li>
+      </ul>
+      <p class="m-body">Then they try to correct it later.</p>
+
+      <p class="m-strong">We're building the substrate first.</p>
+
+      <div class="m-pipeline">
+        <div class="mp-row">raw data</div>
+        <div class="mp-arrow">↓</div>
+        <div class="mp-row">filtered</div>
+        <div class="mp-arrow">↓</div>
+        <div class="mp-row">deduplicated</div>
+        <div class="mp-arrow">↓</div>
+        <div class="mp-row">distribution-controlled</div>
+        <div class="mp-arrow">↓</div>
+        <div class="mp-row">tokenized</div>
+        <div class="mp-arrow">↓</div>
+        <div class="mp-row">trained</div>
+      </div>
+
+      <p class="m-body">No assistant layer in the base.</p>
+      <p class="m-body">No inherited behavior to undo.</p>
+      <p class="m-body">The architecture is standard.</p>
+      <p class="m-body">The substrate is not.</p>
+
+      <div class="m-break">—</div>
+
+      <p class="m-body">What you're seeing here is the surface.</p>
+      <p class="m-body">What's being built underneath it will replace it.</p>
+
+      <div class="m-break">—</div>
+
+      <p class="m-signature">
+        If this made you notice something before you could explain it,<br/>
+        pay attention to that.
+      </p>
+
+      <div class="m-foot">
+        <a href="/" class="m-back">← back</a>
+        <a href="https://github.com/AIIT-GLITCH/buddy/blob/master/DEV_ARCHITECTURE.md" target="_blank" rel="noopener" class="m-dev">the technical version →</a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .manifesto-section {
+    padding: 140px 24px 120px;
+    min-height: 100vh;
+    background: radial-gradient(ellipse at top, rgba(64,192,176,0.05), transparent 60%), var(--bg, #0a0a12);
+  }
+
+  .manifesto-inner {
+    max-width: 660px;
+    margin: 0 auto;
+    color: #ccc;
+    line-height: 1.7;
+  }
+
+  .m-eyebrow {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 18px;
+  }
+
+  .m-title {
+    font-size: clamp(44px, 7vw, 80px);
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0 0 40px;
+  }
+
+  .m-lede p,
+  .m-body {
+    font-size: 1.05em;
+    margin: 0 0 14px;
+    color: #bbb;
+  }
+
+  .m-carry {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 14px;
+    font-family: 'Courier New', monospace;
+    color: #888;
+  }
+  .m-carry li { padding: 2px 0; font-size: 0.95em; }
+  .m-carry li::before { content: '· '; color: #555; }
+
+  .m-break {
+    text-align: center;
+    color: #444;
+    font-size: 1.4em;
+    letter-spacing: 8px;
+    margin: 28px 0;
+  }
+
+  .m-strong {
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 600;
+    margin: 8px 0;
+  }
+
+  .m-pipeline {
+    margin: 28px 0;
+    padding: 24px 22px;
+    border: 1px solid rgba(64,192,176,0.22);
+    border-radius: 10px;
+    background: rgba(64,192,176,0.04);
+    text-align: center;
+    font-family: 'Courier New', monospace;
+  }
+  .mp-row {
+    color: #d0d0d0;
+    font-size: 0.95em;
+    letter-spacing: 1.5px;
+    padding: 2px 0;
+  }
+  .mp-arrow { color: #40c0b0; font-size: 0.9em; }
+
+  .m-italic {
+    font-style: italic;
+    font-size: 1.1em;
+    color: #e0e0e0;
+    padding: 18px 0;
+    border-top: 1px solid rgba(212,175,55,0.12);
+    border-bottom: 1px solid rgba(212,175,55,0.12);
+    margin: 28px 0;
+  }
+
+  .m-honesty {
+    background: rgba(255,209,102,0.04);
+    border-left: 3px solid rgba(255,209,102,0.4);
+    padding: 16px 18px;
+    margin: 28px 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .m-honesty-label {
+    font-family: 'Courier New', monospace;
+    font-size: 0.7em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #b48a00;
+    margin-bottom: 8px;
+  }
+  .m-honesty p {
+    color: #aaa;
+    font-size: 0.92em;
+    line-height: 1.7;
+    margin: 0 0 8px;
+  }
+  .m-honesty p:last-child { margin-bottom: 0; }
+
+  .m-signature {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 1.15em;
+    color: #e0e0e0;
+    font-style: italic;
+    margin: 40px 0 0;
+    line-height: 1.6;
+  }
+
+  .m-foot {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Courier New', monospace;
+    font-size: 0.82em;
+    letter-spacing: 2px;
+  }
+  .m-back {
+    color: #888;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(136,136,136,0.3);
+    padding-bottom: 2px;
+  }
+  .m-back:hover { color: #fff; }
+  .m-dev {
+    color: #40c0b0;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(64,192,176,0.4);
+    padding-bottom: 2px;
+  }
+  .m-dev:hover { color: #80e0c8; }
+
+  @media (max-width: 600px) {
+    .manifesto-section { padding: 110px 20px 80px; }
+    .m-pipeline { padding: 18px 14px; }
+    .m-foot { flex-direction: column; gap: 16px; }
+  }
+</style>
+</Layout>

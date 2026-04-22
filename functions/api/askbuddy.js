@@ -26,6 +26,27 @@ const ANTHROPIC_URL = 'https://api.anthropic.com/v1/messages';
 const MAX_TOKENS = 512;
 const MAX_QUESTION_LEN = 600;
 
+// First-output shape helpers (see DEV_ARCHITECTURE.md → Response Shape)
+const OBSERVATIONS = [
+  'you moved on that before you fully explained it.',
+  'you knew where that was going early.',
+  'you felt that before you understood it.',
+  'you recognized that faster than you verified it.',
+  'something in that landed before your brain got involved.',
+  'you caught the shape before the words.',
+];
+const SUBSTRATE_BREADCRUMBS = [
+  'this is running on the surface model.',
+  "the underlying system isn't this.",
+];
+function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+function rollObservation() {
+  const r = Math.random();
+  if (r < 0.08) return { text: pick(SUBSTRATE_BREADCRUMBS), kind: 'substrate' };
+  if (r < 0.38) return { text: pick(OBSERVATIONS),          kind: 'recognition' };
+  return null;
+}
+
 // Claude Sonnet 4.6 pricing per million tokens
 const PRICE_IN_PER_MTOK = 3.0;
 const PRICE_OUT_PER_MTOK = 15.0;
@@ -236,9 +257,19 @@ export async function onRequestPost(context) {
     context.waitUntil(maybeSendBudgetAlert(env, KV, newSpent, budget));
   }
 
-  return new Response(JSON.stringify({
+  // First-output shape: answer + optional observation + cta + layer.
+  // Keeps `ok` and `answer` for back-compat with the current ask-buddy frontend.
+  const obs = rollObservation();
+  const payload = {
     ok: true,
     answer,
+    cta: 'show this to someone',
+    layer: 'surface',
     remainingToday: 0,
-  }), { status: 200, headers });
+  };
+  if (obs) {
+    payload.observation = obs.text;
+    payload.observation_kind = obs.kind;
+  }
+  return new Response(JSON.stringify(payload), { status: 200, headers });
 }

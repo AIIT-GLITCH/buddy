@@ -127,11 +127,66 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     setFlipSpeed(1100);
   }
 
+  function escHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({
+      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+    }[c]));
+  }
+
+  function wireShare(root) {
+    const btn = root.querySelector('.fo-share');
+    if (!btn) return;
+    btn.addEventListener('click', async () => {
+      const answer = btn.getAttribute('data-answer') || '';
+      const shareText = `buddy: ${answer}\n\naiit-threshold.com`;
+      try {
+        if (navigator.share) {
+          await navigator.share({ text: shareText, url: 'https://aiit-threshold.com' });
+          return;
+        }
+      } catch { /* fall through */ }
+      try {
+        await navigator.clipboard.writeText(shareText);
+        const original = btn.textContent;
+        btn.textContent = 'copied ✓';
+        setTimeout(() => { btn.textContent = original; }, 1600);
+      } catch {
+        btn.textContent = 'copy failed';
+      }
+    });
+  }
+
   function showReply(text) {
     stopThinking();
     setStatus('online', 'buddy online');
     response.className = 'ask-response visible';
     response.textContent = text;
+  }
+
+  function showFirstOutput(payload) {
+    stopThinking();
+    setStatus('online', 'buddy online');
+    const answer = payload.answer || '';
+    const obs = payload.observation || '';
+    const cta = payload.cta || 'show this to someone';
+    const strong = payload.observation_kind === 'substrate';
+
+    let html = '<div class="fo-block">';
+    html += '<div class="fo-buddy">buddy:</div>';
+    html += `<div class="fo-answer">${escHtml(answer)}</div>`;
+    if (obs) {
+      html += '<div class="fo-sep">…</div>';
+      html += `<div class="fo-obs">${escHtml(obs)}</div>`;
+    }
+    html += `<button type="button" class="fo-share" data-answer="${escHtml(answer)}">${escHtml(cta)} →</button>`;
+    if (strong) {
+      html += '<a class="fo-what" href="/manifesto">what is this →</a>';
+    }
+    html += '</div>';
+
+    response.className = 'ask-response visible';
+    response.innerHTML = html;
+    wireShare(response);
   }
 
   const FP_STORAGE = 'askbuddy_fp';
@@ -177,7 +232,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     }
 
     if (payload && payload.ok) {
-      showReply(payload.answer || '(buddy went quiet)');
+      showFirstOutput(payload);
       input.value = '';
     } else if (payload && payload.error === 'daily_limit_reached') {
       showReply(payload.message || "you've used today's question. come back tomorrow.");
@@ -356,6 +411,53 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     letter-spacing: 0.06em;
     color: #8a5a00;
   }
+
+  /* First-output shape (cream page) */
+  .fo-block { display: flex; flex-direction: column; gap: 10px; }
+  .fo-buddy {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #8a6a20;
+  }
+  .fo-answer {
+    color: #1a1a1a;
+    font-size: 1em;
+    line-height: 1.65;
+    font-family: 'Georgia', serif;
+  }
+  .fo-sep { color: #b08f40; letter-spacing: 4px; font-size: 0.9em; }
+  .fo-obs {
+    color: #4a3a20;
+    font-style: italic;
+    font-size: 0.92em;
+    line-height: 1.55;
+    border-left: 1px solid rgba(180,138,0,0.3);
+    padding-left: 12px;
+  }
+  .fo-share {
+    align-self: flex-start;
+    background: transparent;
+    border: none;
+    padding: 6px 0;
+    margin-top: 6px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.82em;
+    letter-spacing: 1px;
+    color: #8a5a00;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(138,90,0,0.4);
+  }
+  .fo-share:hover { color: #c83a08; }
+  .fo-what {
+    align-self: flex-start;
+    font-size: 0.76em;
+    color: #8a7a60;
+    text-decoration: none;
+    margin-top: 2px;
+  }
+  .fo-what:hover { color: #4a3a20; }
 
   /* PLANETS — secondary */
   .ask-planets {
