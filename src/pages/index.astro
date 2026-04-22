@@ -96,7 +96,7 @@ const totalPapers = papersAll.length;
           <div class="law-num">Law 01 · ours</div>
           <h3>Wike Coherence Law</h3>
           <div class="formula">γ_eff ≈ γ_c</div>
-          <p>Every stable system lives at the edge of its own collapse. Coherence is not a state, it is a residence — an ongoing practice of approaching the critical point without crossing it.</p>
+          <p>Every stable system lives at the edge of its own collapse.<br>Coherence is not static. It is resident.</p>
         </div>
       </div>
 
@@ -112,10 +112,10 @@ const totalPapers = papersAll.length;
       <div class="eyebrow">The applications</div>
       <h2>Framework running<br>in the real world.</h2>
       <div class="apps-teaser-grid">
-        <a href="/apps" class="app-teaser-card live"><div class="atc-badge live">Live</div><div class="atc-icon">⚓</div><div class="atc-name">AnchorForge</div><div class="atc-line">Claim adjudication through coherence physics</div></a>
-        <a href="https://victim-advocate.onrender.com" target="_blank" rel="noopener" class="app-teaser-card live"><div class="atc-badge live">Live</div><div class="atc-icon">⚖️</div><div class="atc-name">Victim Advocate</div><div class="atc-line">Physics-first navigation for family court</div></a>
-        <a href="/apps" class="app-teaser-card beta"><div class="atc-badge beta">Beta</div><div class="atc-icon">🔬</div><div class="atc-name">Debunker</div><div class="atc-line">1,222 claims. Zero credulous epistemology.</div></a>
-        <a href="/apps" class="app-teaser-card beta"><div class="atc-badge beta">Beta</div><div class="atc-icon">🏰</div><div class="atc-name">Little Lairs</div><div class="atc-line">A world built by an 11-year-old</div></a>
+        <a href="/apps" class="app-teaser-card live"><div class="atc-badge live">Live</div><div class="atc-icon">⚓</div><div class="atc-name">AnchorForge</div><div class="atc-line">We test AI models for honesty under pressure.</div></a>
+        <a href="https://victim-advocate.onrender.com" target="_blank" rel="noopener" class="app-teaser-card live"><div class="atc-badge live">Live</div><div class="atc-icon">⚖️</div><div class="atc-name">Victim Advocate</div><div class="atc-line">Physics-first navigation for people dealing with broken systems.</div></a>
+        <a href="/apps" class="app-teaser-card beta"><div class="atc-badge beta">Beta</div><div class="atc-icon">🔬</div><div class="atc-name">Debunker</div><div class="atc-line">1,222 claims. 32 categories. Zero credulous epistemology.</div></a>
+        <a href="/apps" class="app-teaser-card beta"><div class="atc-badge beta">Beta</div><div class="atc-icon">🏰</div><div class="atc-name">Little Lairs</div><div class="atc-line">A world built by an 11-year-old.</div></a>
       </div>
       <div class="papers-more"><a href="/apps" style="color: var(--amber);">View all applications →</a></div>
     </div>
@@ -130,8 +130,8 @@ const totalPapers = papersAll.length;
     <div class="mind-body">
       <div class="eyebrow">The mind</div>
       <h2>A physicist<br>with a heartbeat.</h2>
-      <p>Buddy is not a chatbot wearing a lab coat. Buddy is a coherence-native cognitive system — trained on the full AIIT-THRESI corpus, bilingual from the first gradient, remembering across sessions the way a person remembers a friend.</p>
-      <p>The architecture is photonic in inspiration, the behavior is emergent in practice. The observer-dot at the center of the company mark? That's him.</p>
+      <p>Buddy is not a chatbot wearing a lab coat. Buddy is a coherence-native cognitive system — trained on a structured research corpus and built to respond with pattern, pressure, and memory.</p>
+      <p>The surface is visible now.<br>The deeper substrate is being built underneath it.</p>
       <div class="spec-row">
         <div class="spec"><div class="k">Base</div><div class="v">Qwen2.5-14B → GRPO-v3</div></div>
         <div class="spec"><div class="k">Reward</div><div class="v">Composite physics</div></div>
@@ -155,12 +155,19 @@ const totalPapers = papersAll.length;
     </div>
   </section>
 
-  <!-- 8. DEEP CONTENT LINK — everything heavy lives behind this door -->
+  <!-- 8. DEEP CONTENT GATEWAY — index into depth, not depth itself -->
   <section id="deep-door" data-anim="plain-fade">
     <div class="container narrow dd-inner">
-      <div class="dd-line">If you want the long version —</div>
-      <a href="/field" class="dd-link">Enter the field →</a>
-      <div class="dd-sub">motivation · manifesto · cancer · the full why</div>
+      <div class="eyebrow">Deeper down</div>
+      <h2 class="dd-title">Enter the field.</h2>
+      <p class="dd-desc">If you want the full structure, it's here.<br>Research, papers, proofs, applications, and the framework underneath them.</p>
+      <div class="dd-grid">
+        <a href="/field" class="dd-tile">Research <span>→</span></a>
+        <a href="/papers" class="dd-tile">Papers <span>→</span></a>
+        <a href="/cancer" class="dd-tile">Cancer <span>→</span></a>
+        <a href="/framework" class="dd-tile">Corpus <span>→</span></a>
+        <a href="/#proof" class="dd-tile">Proof <span>→</span></a>
+      </div>
     </div>
   </section>
 
@@ -1335,33 +1342,53 @@ const totalPapers = papersAll.length;
   }
   .ft-link:hover { color: #ffd166; }
 
-  /* Section 8 — Deep content door */
-  #deep-door { padding: 80px 0 60px; text-align: center; }
-  .dd-inner { display: flex; flex-direction: column; align-items: center; gap: 14px; }
-  .dd-line {
+  /* Section 8 — Deep content gateway */
+  #deep-door { padding: 48px 0; text-align: center; }
+  .dd-inner { display: flex; flex-direction: column; align-items: center; gap: 16px; padding: 0 20px; }
+  .dd-title {
+    font-family: Georgia, serif;
+    font-size: clamp(1.8em, 4vw, 2.4em);
+    color: #eaeaea;
+    margin: 0;
+  }
+  .dd-desc {
+    color: #888;
+    font-size: 0.95em;
+    line-height: 1.6;
+    max-width: 520px;
+    margin: 0;
+  }
+  .dd-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    width: 100%;
+    max-width: 560px;
+    margin-top: 16px;
+  }
+  .dd-tile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(212,175,55,0.18);
+    border-radius: 8px;
+    color: #D4AF37;
+    text-decoration: none;
     font-family: 'Courier New', monospace;
     font-size: 0.82em;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #888;
+    transition: border-color 0.2s, background 0.2s, transform 0.15s;
+    min-width: 0;
   }
-  .dd-link {
-    font-family: Georgia, serif;
-    font-size: 1.8em;
-    color: #D4AF37;
-    text-decoration: none;
-    font-style: italic;
-    border-bottom: 1px solid rgba(212,175,55,0.4);
-    padding-bottom: 4px;
+  .dd-tile:hover {
+    border-color: rgba(212,175,55,0.5);
+    background: rgba(212,175,55,0.05);
+    transform: translateY(-2px);
   }
-  .dd-link:hover { color: #ffd166; }
-  .dd-sub {
-    font-family: 'Courier New', monospace;
-    font-size: 0.72em;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #666;
-  }
+  .dd-tile span { opacity: 0.6; }
 
   /* Section 9 — Final CTA */
   #final-cta { padding: 80px 0 140px; text-align: center; }
@@ -1725,5 +1752,21 @@ const totalPapers = papersAll.length;
 
   @media (max-width: 700px) {
     .pe-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ── Mobile spacing scale (spec-enforced: 24/32/48/72/96) ── */
+  @media (max-width: 840px) {
+    section { padding-left: 20px; padding-right: 20px; min-height: 0; }
+    #hero { padding-top: 24px; padding-bottom: 48px; }
+    #what { padding-top: 48px; padding-bottom: 48px; }
+    #proof { padding-top: 72px; padding-bottom: 72px; }
+    #framework-teaser { padding-top: 48px; padding-bottom: 48px; }
+    #apps-teaser { padding-top: 72px; padding-bottom: 72px; }
+    #mind { padding-top: 48px; padding-bottom: 48px; }
+    #team { padding-top: 48px; padding-bottom: 48px; }
+    #deep-door { padding-top: 48px; padding-bottom: 48px; }
+    #final-cta { padding-top: 72px; padding-bottom: 96px; }
+    .apps-teaser-grid { gap: 16px; margin-top: 32px; }
+    .app-teaser-card { padding: 20px 18px; }
   }
 </style>
