@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tell Buddy a Joke — Flyer B (5×7, recommended)</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+  @page { size: 5in 7in; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact; }
+  html, body { width: 100%; height: 100%; background: #222; font-family: 'Courier New', monospace; }
+
+  /* 5×7 portrait — Version B (recommended print-first):
+     headline / tagline "One shot. Make it land." / QR / sub / footer */
+  .flyer {
+    width: 5in;
+    height: 7in;
+    margin: 24px auto;
+    background: #f7efe1;
+    color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.45in 0.45in 0.4in;
+    position: relative;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.55);
+    overflow: hidden;
+  }
+
+  .top {
+    flex: 0 0 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1in;
+  }
+  .headline {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 800;
+    font-size: 40pt;
+    line-height: 0.98;
+    letter-spacing: -0.01em;
+    color: #1a1a1a;
+    text-align: center;
+  }
+  .headline .dot { color: #c83a08; }
+  .tagline {
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #c83a08;
+    text-align: center;
+  }
+
+  .mid {
+    flex: 0 0 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .qr-frame {
+    width: 2.7in;
+    height: 2.7in;
+    background: #fff;
+    padding: 0.12in;
+    border: 1px solid rgba(0,0,0,0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .qr-frame canvas, .qr-frame img {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+  }
+
+  .bot {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 0.18in;
+  }
+  .sub {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 15pt;
+    color: #3a3020;
+    text-align: center;
+    line-height: 1.35;
+  }
+  .url {
+    margin-top: 0.1in;
+    font-family: Georgia, serif;
+    font-size: 11.5pt;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: 0.02em;
+  }
+  .foot {
+    margin-top: auto;
+    font-family: 'Courier New', monospace;
+    font-size: 7.5pt;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #8a7a60;
+    text-align: center;
+  }
+
+  #controls {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    display: flex;
+    gap: 8px;
+    z-index: 999;
+  }
+  #controls button {
+    background: #40c0b0;
+    color: #0a0a12;
+    border: none;
+    padding: 10px 18px;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  #controls button:hover { background: #80e0c8; }
+  @media print { #controls { display: none; } .flyer { margin: 0; box-shadow: none; } }
+</style>
+</head>
+<body>
+
+<main class="flyer" id="flyer">
+  <div class="top">
+    <h1 class="headline">Tell Buddy<br>a Joke<span class="dot">.</span></h1>
+    <p class="tagline">One shot. Make it land.</p>
+  </div>
+
+  <div class="mid">
+    <div class="qr-frame"><div id="qr"></div></div>
+  </div>
+
+  <div class="bot">
+    <p class="sub">Scan. Make the AI laugh.</p>
+    <p class="url">aiit-threshold.com</p>
+    <p class="foot">Built on AIIT-THRESHOLD research</p>
+  </div>
+</main>
+
+<div id="controls">
+  <button onclick="savePNG()">Save PNG (1500×2100)</button>
+  <button onclick="window.print()">Print 5×7</button>
+</div>
+
+<script>
+  new QRCode(document.getElementById('qr'), {
+    text: 'https://aiit-threshold.com/?src=flyer-b#joke',
+    width: 480,
+    height: 480,
+    colorDark: '#0a0a0a',
+    colorLight: '#ffffff',
+    correctLevel: QRCode.CorrectLevel.H
+  });
+
+  async function savePNG() {
+    const node = document.getElementById('flyer');
+    const canvas = await html2canvas(node, {
+      backgroundColor: '#f7efe1',
+      scale: 3.125, // 480 * 3.125 = 1500 wide
+      useCORS: true,
+    });
+    const link = document.createElement('a');
+    link.download = 'tell-buddy-a-joke-B-5x7.png';
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+  }
+</script>
+
+</body>
+</html>

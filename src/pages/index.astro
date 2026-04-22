@@ -355,15 +355,28 @@ const totalPapers = papersAll.length;
     const jokeChip = document.querySelector('[data-hs="joke"]');
     const panel = document.getElementById('hero-joke-anchor');
     if (!jokeChip || !panel) return;
-    jokeChip.addEventListener('click', function (e) {
-      e.preventDefault();
+
+    function revealJoke(smooth) {
       panel.hidden = false;
-      panel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      panel.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'center' });
       setTimeout(function () {
         const t = document.getElementById('joke-input');
         if (t) (t as HTMLTextAreaElement).focus();
-      }, 320);
+      }, smooth ? 320 : 60);
+    }
+
+    jokeChip.addEventListener('click', function (e) {
+      e.preventDefault();
+      revealJoke(true);
     });
+
+    // QR deep-link: flyers point to /?src=flyer-*#joke → auto-open widget
+    const q = new URLSearchParams(window.location.search);
+    const src = q.get('src') || '';
+    const hash = (window.location.hash || '').toLowerCase();
+    if (hash === '#joke' || /^flyer/i.test(src)) {
+      revealJoke(false);
+    }
   })();
 
   // Nav active state
