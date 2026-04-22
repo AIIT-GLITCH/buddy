@@ -12,8 +12,9 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       <BuddyMascot id="ask-buddy-mascot" size={120} animated={true} />
     </div>
     <div class="ask-title-block">
-      <h1 class="ask-h1">ASKBUDDY!</h1>
-      <div class="ask-buddy-sub">at your service</div>
+      <h1 class="ask-h1">ASKBUDDY<span class="ask-bang">!</span></h1>
+      <div class="ask-buddy-tagline">ask buddy anything.</div>
+      <div class="ask-buddy-sub">at your service · est. council hill</div>
     </div>
   </header>
 
@@ -175,13 +176,27 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     line-height: 1;
     font-weight: 800;
   }
+  .ask-bang {
+    color: #c83a08;
+    display: inline-block;
+    transform: rotate(6deg);
+    transform-origin: 50% 70%;
+    margin-left: 2px;
+  }
+  .ask-buddy-tagline {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 14pt;
+    color: #4a3a20;
+    margin-top: 6px;
+  }
   .ask-buddy-sub {
     font-family: 'Courier New', monospace;
     font-size: 9pt;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.28em;
     text-transform: uppercase;
-    color: #6a5a3a;
-    margin-top: 8px;
+    color: #8a6a3a;
+    margin-top: 6px;
   }
 
   /* Planet rolodex — light card */
