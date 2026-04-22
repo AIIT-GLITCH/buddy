@@ -168,7 +168,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     setStatus('online', 'buddy online');
     const answer = payload.answer || '';
     const obs = payload.observation || '';
-    const cta = payload.cta || 'show this to someone';
+    const cta = payload.cta || 'pass it on';
     const strong = payload.observation_kind === 'substrate';
     const showBreadcrumb = strong && Math.random() < 0.08;
 
@@ -416,63 +416,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     color: #8a5a00;
   }
 
-  /* First-output shape (cream page) */
-  .fo-block { display: flex; flex-direction: column; gap: 10px; }
-  .fo-buddy {
-    font-family: 'Courier New', monospace;
-    font-size: 0.72em;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: #8a6a20;
-  }
-  .fo-answer {
-    color: #1a1a1a;
-    font-size: 1em;
-    line-height: 1.65;
-    font-family: 'Georgia', serif;
-  }
-  .fo-sep { color: #b08f40; letter-spacing: 4px; font-size: 0.9em; }
-  .fo-obs {
-    color: #4a3a20;
-    font-style: italic;
-    font-size: 0.92em;
-    line-height: 1.55;
-    border-left: 1px solid rgba(180,138,0,0.3);
-    padding-left: 12px;
-  }
-  .fo-share {
-    align-self: flex-start;
-    background: transparent;
-    border: none;
-    padding: 6px 0;
-    margin-top: 6px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.82em;
-    letter-spacing: 1px;
-    color: #8a5a00;
-    cursor: pointer;
-    border-bottom: 1px solid rgba(138,90,0,0.4);
-  }
-  .fo-share:hover { color: #c83a08; }
-  .fo-what {
-    align-self: flex-start;
-    font-size: 0.76em;
-    color: #8a7a60;
-    text-decoration: none;
-    margin-top: 2px;
-  }
-  .fo-what:hover { color: #4a3a20; }
-  .fo-substrate {
-    font-family: 'Courier New', monospace;
-    font-size: 0.74em;
-    letter-spacing: 0.08em;
-    color: #6a5a3a;
-    line-height: 1.6;
-    margin: 6px 0 2px;
-    padding: 10px 0 2px;
-    border-top: 1px dashed rgba(138,90,0,0.25);
-    opacity: 0.8;
-  }
+  /* First-output shape styles moved to global.css (scoped cream via .ask-response) */
 
   /* PLANETS — secondary */
   .ask-planets {

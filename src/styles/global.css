@@ -83,6 +83,99 @@ html.translated-ltr, html.translated-rtl { margin-top: 0 !important; }
 /* GT wraps translated text nodes in <font style="..."> — keep them inline-preserving */
 font[style] { font-family: inherit !important; }
 
+/* ── First-output shape (Buddy response block) ──
+   These are injected via innerHTML after build, so scoped styles from
+   Astro pages don't reach them. Defined globally here. */
+.fo-block { display: flex; flex-direction: column; gap: 10px; }
+.fo-buddy {
+  font-family: 'Courier New', monospace;
+  font-size: 0.72em;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.fo-answer {
+  font-size: 1.02em;
+  line-height: 1.6;
+  font-family: 'Georgia', serif;
+}
+.fo-sep { letter-spacing: 4px; font-size: 0.9em; }
+.fo-obs {
+  font-style: italic;
+  font-size: 0.94em;
+  line-height: 1.55;
+  border-left: 1px solid;
+  padding-left: 12px;
+}
+.fo-result {
+  font-family: 'Courier New', monospace;
+  font-size: 0.78em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+.fo-share {
+  appearance: none;
+  -webkit-appearance: none;
+  align-self: flex-start;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  padding: 6px 0;
+  margin-top: 8px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.82em;
+  letter-spacing: 0.14em;
+  text-transform: lowercase;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: none;
+  border-radius: 0;
+}
+.fo-share:focus, .fo-share:active { outline: none; box-shadow: none; }
+.fo-what {
+  align-self: flex-start;
+  font-size: 0.76em;
+  text-decoration: none;
+  margin-top: 2px;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.14em;
+  text-transform: lowercase;
+}
+.fo-substrate {
+  font-family: 'Courier New', monospace;
+  font-size: 0.74em;
+  letter-spacing: 0.08em;
+  line-height: 1.6;
+  margin: 6px 0 2px;
+  padding: 10px 0 2px;
+  border-top: 1px dashed;
+  opacity: 0.8;
+}
+
+/* Dark theme (homepage joke widget — lives inside #hero-joke-anchor or #joke-response) */
+#joke-response .fo-buddy, #hero-joke-anchor .fo-buddy { color: #888; }
+#joke-response .fo-answer, #hero-joke-anchor .fo-answer { color: #eaeaea; }
+#joke-response .fo-sep, #hero-joke-anchor .fo-sep { color: #555; }
+#joke-response .fo-obs, #hero-joke-anchor .fo-obs { color: #a8d4cc; border-left-color: rgba(64,192,176,0.3); }
+#joke-response .fo-result, #hero-joke-anchor .fo-result { color: #D4AF37; }
+#joke-response .fo-share, #hero-joke-anchor .fo-share { color: #40c0b0; border-bottom-color: rgba(64,192,176,0.4); }
+#joke-response .fo-share:hover, #hero-joke-anchor .fo-share:hover { color: #80e0c8; }
+#joke-response .fo-what, #hero-joke-anchor .fo-what { color: #666; }
+#joke-response .fo-what:hover, #hero-joke-anchor .fo-what:hover { color: #aaa; }
+#joke-response .fo-substrate, #hero-joke-anchor .fo-substrate { color: #555; border-top-color: rgba(128,128,128,0.15); }
+
+/* Cream theme (ask-buddy — lives inside .ask-response) */
+.ask-response .fo-buddy { color: #8a6a20; }
+.ask-response .fo-answer { color: #1a1a1a; }
+.ask-response .fo-sep { color: #b08f40; }
+.ask-response .fo-obs { color: #4a3a20; border-left-color: rgba(180,138,0,0.3); }
+.ask-response .fo-result { color: #8a5a00; }
+.ask-response .fo-share { color: #8a5a00; border-bottom-color: rgba(138,90,0,0.4); }
+.ask-response .fo-share:hover { color: #c83a08; }
+.ask-response .fo-what { color: #8a7a60; }
+.ask-response .fo-what:hover { color: #4a3a20; }
+.ask-response .fo-substrate { color: #6a5a3a; border-top-color: rgba(138,90,0,0.25); }
+
 /* Buddy loader — the dot, gone unhinged */
 .buddy-loader {
   display: inline-block;

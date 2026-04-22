@@ -595,11 +595,11 @@ const totalPapers = papersAll.length;
     //   …
     //   [observation — sometimes]
     //   [result — if game]
-    //   show this to someone →
+    //   pass it on →
     const answer = payload.answer || payload.reply || '';
     const obs = payload.observation || '';
     const result = payload.result || '';
-    const cta = payload.cta || 'show this to someone';
+    const cta = payload.cta || 'pass it on';
 
     const strong = result === 'he laughed' || result === 'solid' || payload.observation_kind === 'substrate';
     // Rare substrate breadcrumb — only on strong outputs, <10%, after observation, before CTA
@@ -667,7 +667,7 @@ const totalPapers = papersAll.length;
       });
       const data = await res.json();
       if (data.error === 'once_per_day') {
-        payload = { answer: "you already got your one today. 🫘 come back tomorrow.", cta: 'show this to someone' };
+        payload = { answer: "you already got your one today. 🫘 come back tomorrow.", cta: 'pass it on' };
       } else if (!res.ok || data.error) {
         showBroke();
         jokeBtn.disabled = false;
@@ -940,65 +940,7 @@ const totalPapers = papersAll.length;
     background: rgba(248,113,113,0.05);
   }
 
-  /* First-output shape */
-  .fo-block { display: flex; flex-direction: column; gap: 10px; }
-  .fo-buddy {
-    font-family: 'Courier New', monospace;
-    font-size: 0.72em;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: #888;
-  }
-  .fo-answer { color: #eaeaea; font-size: 1.02em; line-height: 1.6; }
-  .fo-sep { color: #555; letter-spacing: 4px; font-size: 0.9em; }
-  .fo-obs {
-    color: #a8d4cc;
-    font-style: italic;
-    font-size: 0.94em;
-    line-height: 1.55;
-    border-left: 1px solid rgba(64,192,176,0.3);
-    padding-left: 12px;
-  }
-  .fo-result {
-    font-family: 'Courier New', monospace;
-    font-size: 0.78em;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #D4AF37;
-    margin-top: 4px;
-  }
-  .fo-share {
-    align-self: flex-start;
-    background: transparent;
-    border: none;
-    padding: 6px 0;
-    margin-top: 8px;
-    font-family: inherit;
-    font-size: 0.88em;
-    color: #40c0b0;
-    cursor: pointer;
-    border-bottom: 1px solid rgba(64,192,176,0.4);
-  }
-  .fo-share:hover { color: #80e0c8; }
-  .fo-what {
-    align-self: flex-start;
-    font-size: 0.78em;
-    color: #666;
-    text-decoration: none;
-    margin-top: 2px;
-  }
-  .fo-what:hover { color: #aaa; }
-  .fo-substrate {
-    font-family: 'Courier New', monospace;
-    font-size: 0.74em;
-    letter-spacing: 0.08em;
-    color: #555;
-    line-height: 1.6;
-    margin: 6px 0 2px;
-    padding: 10px 0 2px;
-    border-top: 1px dashed rgba(128,128,128,0.15);
-    opacity: 0.78;
-  }
+  /* First-output shape styles moved to global.css (scoped dark via #joke-response / #hero-joke-anchor) */
 
   .broke-headline {
     font-size: 1.05em;

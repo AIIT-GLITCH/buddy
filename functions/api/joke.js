@@ -145,7 +145,7 @@ Return ONLY a JSON object in this exact shape — no preamble, no code fence, ju
     const payload = {
       answer: reaction,
       result: label,
-      cta: 'show this to someone',
+      cta: 'pass it on',
       layer: 'surface',
       // Back-compat for existing frontends
       reply: reaction,
