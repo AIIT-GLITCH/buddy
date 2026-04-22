@@ -65,6 +65,24 @@ button, label {
   min-height: 0;
 }
 
+/* ── Neutralize Google Translate injected chrome ──
+   GT injects body { top: 40px !important } for its banner, plus a .skiptranslate
+   iframe + tooltip. Banner is hidden but the body-shift still wrecks layout.
+   html.translated-ltr / html.translated-rtl also get added. */
+body { top: 0 !important; position: static !important; }
+.skiptranslate { display: none !important; }
+.goog-te-banner-frame,
+.goog-te-banner-frame.skiptranslate,
+iframe.goog-te-banner-frame,
+#goog-gt-tt,
+.goog-te-balloon-frame,
+.goog-logo-link,
+.goog-te-gadget { display: none !important; }
+.goog-te-gadget { height: 0 !important; }
+html.translated-ltr, html.translated-rtl { margin-top: 0 !important; }
+/* GT wraps translated text nodes in <font style="..."> — keep them inline-preserving */
+font[style] { font-family: inherit !important; }
+
 /* Buddy loader — the dot, gone unhinged */
 .buddy-loader {
   display: inline-block;
