@@ -5,9 +5,17 @@ import GaryWidget from '../components/GaryWidget.astro';
 export interface Props {
   title?: string;
   description?: string;
+  image?: string;
 }
 const defaultDescription = `Buddy is a coherence-native AI built on AIIT-THRESI physics. ${papersAll.length} papers. 6 laws. One mind.`;
-const { title = 'Buddy — The Coherence Mind', description = defaultDescription } = Astro.props;
+const {
+  title = 'Buddy — The Coherence Mind',
+  description = defaultDescription,
+  image = '/buddy-icon-512.png',
+} = Astro.props;
+const SITE_ORIGIN = 'https://aiit-threshold.com';
+const canonical = new URL(Astro.url.pathname, SITE_ORIGIN).href;
+const ogImage = new URL(image, SITE_ORIGIN).href;
 ---
 <!DOCTYPE html>
 <html lang="en" style="background:#0a0a12;">
@@ -15,10 +23,28 @@ const { title = 'Buddy — The Coherence Mind', description = defaultDescription
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content={description}>
+  <link rel="canonical" href={canonical}>
   <title>{title}</title>
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="64x64" href="/buddy-icon-64.png">
   <link rel="apple-touch-icon" href="/buddy-icon-64.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AIIT-THRESHOLD">
+  <meta property="og:url" content={canonical}>
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:image" content={ogImage}>
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:alt" content="Buddy — coherence-native AI">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content={title}>
+  <meta name="twitter:description" content={description}>
+  <meta name="twitter:image" content={ogImage}>
   <script is:inline>
     // Fix cold-load hash scroll: smooth-scroll races initial paint and loses.
     // On DOMContentLoaded, if there's a hash, kill smooth-scroll momentarily,
