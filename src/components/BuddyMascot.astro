@@ -8,16 +8,18 @@
 //   bg        background color, "transparent" to disable (default "transparent")
 //   animated  idle quantum-cloud shimmer + monocle twinkle (default true)
 //   inline    wrap in inline-block, no centering (default false → centered block)
+//   halo      "gold" → gold radial halo behind mascot for dark-bg contrast (default null)
 const {
   id = 'buddy-mascot',
   size = 320,
   bg = 'transparent',
   animated = true,
   inline = false,
+  halo = null,
 } = Astro.props;
 ---
 
-<div class={`buddy-mascot-wrap${inline ? ' inline' : ''}`} style={`--buddy-size:${size}px;`}>
+<div class={`buddy-mascot-wrap${inline ? ' inline' : ''}${halo ? ` halo-${halo}` : ''}`} style={`--buddy-size:${size}px;`}>
   <canvas id={id} class="buddy-mascot-canvas" data-bg={bg} data-animated={animated ? '1' : '0'}></canvas>
 </div>
 
@@ -25,6 +27,7 @@ const {
   .buddy-mascot-wrap {
     display: block;
     text-align: center;
+    position: relative;
   }
   .buddy-mascot-wrap.inline {
     display: inline-block;
@@ -37,6 +40,41 @@ const {
     height: auto;
     display: block;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Gold halo — radial gradient behind the canvas for dark-bg contrast. */
+  .buddy-mascot-wrap.halo-gold {
+    isolation: isolate;
+  }
+  .buddy-mascot-wrap.halo-gold::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: calc(var(--buddy-size, 320px) * 1.05);
+    height: calc(var(--buddy-size, 320px) * 1.05);
+    transform: translate(-50%, -50%);
+    background: radial-gradient(
+      circle,
+      #f0a500 0%,
+      #d98e00 38%,
+      rgba(217, 142, 0, 0.55) 62%,
+      rgba(217, 142, 0, 0) 78%
+    );
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+    filter: blur(0.5px);
+    animation: buddy-halo-pulse 4.2s ease-in-out infinite;
+  }
+  @keyframes buddy-halo-pulse {
+    0%, 100% { opacity: 0.92; transform: translate(-50%, -50%) scale(1); }
+    50%      { opacity: 1;    transform: translate(-50%, -50%) scale(1.03); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .buddy-mascot-wrap.halo-gold::before { animation: none; }
   }
 </style>
 
