@@ -708,8 +708,7 @@ import GaryMascot from './GaryMascot.astro';
     e.stopPropagation();
     hideBubble(true);
   });
-  // first pop: 2.5s after load
-  setTimeout(showBubble, 2500);
+  // auto-popup disabled — bubble only shows when user taps the bean
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();

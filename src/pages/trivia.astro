@@ -25,9 +25,9 @@ for (const p of papersAll) {
     <!-- Intro -->
     <div id="screen-intro" class="tg-screen active">
       <div class="eyebrow">Answer the Giants</div>
-      <h1 class="tg-h1">Three questions a day.<br><span class="tg-amber">Three papers a day.</span></h1>
+      <h1 class="tg-h1">three questions today.<br><span class="tg-amber">three chances. earn the papers.</span></h1>
       <p class="tg-blurb">
-        The giants asked. You answer. The Wike Coherence Law tells you why <em>every answer</em> is the same answer.
+        The giants asked. You answer. Unlock a paper for each one you get close to.
       </p>
       <div class="tg-stats">
         <div class="tg-stat"><div class="tg-stat-val" id="stat-papers">0</div><div class="tg-stat-label">papers collected</div></div>
@@ -47,17 +47,22 @@ for (const p of papersAll) {
         </div>
       </div>
       <h2 class="tg-question" id="tg-question">—</h2>
+      <div class="tg-pick-hint">pick the closest truth.</div>
       <div class="tg-answers" id="tg-answers"></div>
     </div>
 
     <!-- Reveal -->
     <div id="screen-reveal" class="tg-screen" hidden>
-      <div class="tg-reveal-head">Yes. You're correct.</div>
-      <div class="tg-reveal-sub"><em>And so is every other answer.</em></div>
+      <div class="tg-reveal-head" id="tg-reveal-head">correct.</div>
       <div class="tg-unified" id="tg-unified"></div>
       <div class="tg-rehash" id="tg-rehash"></div>
       <div class="wike-law-mini" aria-hidden="true">
         C = C<sub>0</sub> · e<sup>−α·γ<sub>eff</sub></sup>
+      </div>
+      <div class="tg-unlocked-banner">
+        <span class="tg-unlocked-spark">✦</span>
+        <span class="tg-unlocked-text">paper unlocked</span>
+        <span class="tg-unlocked-spark">✦</span>
       </div>
       <div class="tg-paper-slot" id="tg-paper-slot"></div>
       <button class="tg-btn primary" id="btn-next">Next →</button>
@@ -284,7 +289,7 @@ for (const p of papersAll) {
           (p.plain_english ? '<div class="tg-paper-plain"><em>' + p.plain_english + '</em></div>' : '') +
           (p.abstract ? '<div class="tg-paper-abstract">' + p.abstract + '</div>' : '') +
           (q.why_this_paper ? '<div class="tg-paper-why"><span class="tg-paper-why-label">Why this paper:</span> ' + q.why_this_paper + '</div>' : '') +
-          '<a class="tg-paper-link" href="/papers/' + p.slug + '">Read →</a>';
+          '<a class="tg-paper-link" href="/papers/' + p.slug + '">open paper →</a>';
         slot.appendChild(card);
       }
 
@@ -455,15 +460,50 @@ for (const p of papersAll) {
       font-family: 'Georgia', serif;
       font-size: clamp(28px, 3.6vw, 44px);
       color: var(--amber);
-      margin-bottom: 6px;
+      margin-bottom: 22px;
+      text-transform: lowercase;
+      letter-spacing: 0.02em;
     }
-    .tg-reveal-sub {
-      font-family: 'Georgia', serif;
-      font-size: clamp(16px, 1.6vw, 20px);
-      color: var(--muted-hi);
-      margin-bottom: 28px;
+
+    .tg-pick-hint {
+      font-family: 'Courier New', monospace;
+      font-size: 0.72em;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #666;
+      margin-bottom: 14px;
     }
-    .tg-reveal-sub em { color: var(--ink-soft); font-style: italic; }
+
+    .tg-unlocked-banner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 28px 0 14px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.78em;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: #ffd166;
+      animation: unlocked-fade 0.9s ease-out;
+    }
+    .tg-unlocked-text {
+      text-shadow: 0 0 18px rgba(255,209,102,0.5);
+      font-weight: 700;
+    }
+    .tg-unlocked-spark {
+      color: #ffd166;
+      font-size: 1.1em;
+      animation: unlocked-spark 1.6s ease-in-out infinite alternate;
+    }
+    @keyframes unlocked-fade {
+      0%   { opacity: 0; transform: translateY(6px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes unlocked-spark {
+      from { opacity: 0.4; transform: scale(0.9); }
+      to   { opacity: 1;   transform: scale(1.15); }
+    }
     .tg-unified {
       font-family: 'Georgia', serif;
       font-size: clamp(16px, 1.6vw, 19px);

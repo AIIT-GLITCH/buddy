@@ -36,6 +36,10 @@ const pageDescription = coreClaim || abstract.slice(0, 200) || `${paper.title} ‚
   <div class="paper-page">
     <a class="back" href="/papers">‚Üê All Papers</a>
 
+    <div class="paper-unlocked-line" id="paper-unlocked-line" data-slug={paper.slug} hidden>
+      <span class="pul-spark">‚ú¶</span> unlocked via <a href="/trivia">Answer the Giants</a>
+    </div>
+
     <div class="paper-head-num">Paper {parseInt(paper.num)}{paper.suffix}</div>
     <h1>{paper.title}</h1>
     <div class="paper-head-tag">{paper.tag}{status && <span class="paper-status" data-status={status.toLowerCase()}> ¬∑ {status}</span>}</div>
@@ -127,7 +131,39 @@ const pageDescription = coreClaim || abstract.slice(0, 200) || `${paper.title} ‚
   </div>
 </Layout>
 
+<script is:inline>
+  (function () {
+    const el = document.getElementById('paper-unlocked-line');
+    if (!el) return;
+    try {
+      const slug = el.getAttribute('data-slug');
+      const raw = localStorage.getItem('trivia_collected_slugs') || '[]';
+      const set = new Set(JSON.parse(raw));
+      if (slug && set.has(slug)) el.hidden = false;
+    } catch (e) {}
+  })();
+</script>
+
 <style>
+  .paper-unlocked-line {
+    margin: 14px 0 22px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.78em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #b48a00;
+  }
+  .paper-unlocked-line a {
+    color: #D4AF37;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(212,175,55,0.35);
+    padding-bottom: 1px;
+  }
+  .paper-unlocked-line .pul-spark {
+    color: #ffd166;
+    margin-right: 6px;
+  }
+
   .paper-status {
     font-size: 0.75em;
     text-transform: uppercase;

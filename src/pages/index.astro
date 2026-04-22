@@ -18,14 +18,32 @@ const totalPapers = papersAll.length;
       <div class="hero-actions">
         <div class="hero-joke joke-container">
           <div class="joke-eyebrow">Buddy<span class="jw-dot"></span> is listening</div>
-          <div class="joke-label">What you got?</div>
+          <div class="joke-label">tell buddy a joke.</div>
           <div class="joke-input-row">
-            <textarea id="joke-input" class="joke-textarea" placeholder="Why did the physicist cross the road..." rows="2" maxlength="500"></textarea>
+            <textarea id="joke-input" class="joke-textarea" placeholder="try to make him laugh..." rows="2" maxlength="500"></textarea>
             <button id="joke-btn" class="joke-btn">Send →</button>
           </div>
+          <div class="joke-subtext">one shot. make it land.</div>
           <div id="joke-response" class="joke-response" aria-live="polite"></div>
+          <div id="joke-demo" class="joke-demo" hidden>
+            <div class="joke-demo-label">or try one of these:</div>
+            <div class="joke-demo-row">
+              <button class="joke-demo-btn" data-demo="0">why did the photon…</button>
+              <button class="joke-demo-btn" data-demo="1">the entropy joke</button>
+              <button class="joke-demo-btn" data-demo="2">my buddy walks into a bar…</button>
+            </div>
+          </div>
           <a href="/ask-buddy" class="joke-ask-link">or ask him a question →</a>
         </div>
+
+        <div class="hero-or">— or —</div>
+
+        <a href="/trivia" class="hero-giants">
+          <div class="hg-eyebrow">Answer the Giants</div>
+          <div class="hg-title">answer today's question.</div>
+          <div class="hg-sub">three questions. three papers. earn them.</div>
+          <div class="hg-cta">Begin →</div>
+        </a>
       </div>
     </div>
     <div class="hero-scroll">Scroll</div>
@@ -779,9 +797,79 @@ const totalPapers = papersAll.length;
     font-size: clamp(1.4em, 3vw, 2em);
     font-weight: 700;
     color: #fff;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
     letter-spacing: 1px;
   }
+
+  .joke-subtext {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 2px;
+    color: #666;
+    margin-top: 10px;
+    text-transform: lowercase;
+  }
+
+  .joke-demo {
+    margin-top: 16px;
+    padding: 14px 16px 12px;
+    border: 1px dashed rgba(212,175,55,0.18);
+    border-radius: 10px;
+    background: rgba(212,175,55,0.03);
+  }
+
+  .joke-demo-label {
+    font-family: 'Courier New', monospace;
+    font-size: 0.66em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 10px;
+  }
+
+  .joke-demo-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .joke-demo-btn {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(212,175,55,0.22);
+    color: #ccc;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.82em;
+    cursor: pointer;
+    font-family: inherit;
+    transition: transform 0.15s, border-color 0.2s, color 0.2s;
+  }
+
+  .joke-demo-btn:hover {
+    color: #fff;
+    border-color: rgba(212,175,55,0.5);
+    transform: translateY(-1px);
+  }
+
+  .joke-result-line {
+    margin-top: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.78em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #888;
+  }
+
+  .joke-result-line .jr-label {
+    color: #D4AF37;
+    font-weight: 700;
+  }
+
+  .joke-result-line .jr-label.dead { color: #555; }
+  .joke-result-line .jr-label.weak { color: #8a6d3b; }
+  .joke-result-line .jr-label.almost { color: #c49b4f; }
+  .joke-result-line .jr-label.solid { color: #4ade80; }
+  .joke-result-line .jr-label.helaughed { color: #ffd166; text-shadow: 0 0 10px rgba(255,209,102,0.4); }
   .joke-ask-link {
     display: inline-block;
     margin-top: 12px;
@@ -933,6 +1021,80 @@ const totalPapers = papersAll.length;
   @media (max-width: 600px) {
     .joke-input-row { flex-direction: column; align-items: stretch; }
     .hero-joke { padding: 14px 16px; }
+  }
+
+  /* ── Hero dual entry: or / Answer the Giants ── */
+  .hero-or {
+    width: 100%;
+    max-width: 640px;
+    margin: 22px auto 14px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 0.7em;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #555;
+  }
+
+  .hero-giants {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 22px 26px 20px;
+    background: linear-gradient(180deg, rgba(64,192,176,0.06), rgba(10,10,18,0.55));
+    border: 1px solid rgba(64,192,176,0.28);
+    border-radius: 14px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.22s, border-color 0.22s, box-shadow 0.22s;
+    position: relative;
+  }
+
+  .hero-giants:hover {
+    transform: translateY(-2px);
+    border-color: rgba(64,192,176,0.55);
+    box-shadow: 0 10px 32px rgba(64,192,176,0.14);
+  }
+
+  .hg-eyebrow {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #40c0b0;
+    margin-bottom: 10px;
+  }
+
+  .hg-title {
+    font-size: clamp(1.4em, 3vw, 2em);
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+
+  .hg-sub {
+    font-family: 'Courier New', monospace;
+    font-size: 0.78em;
+    letter-spacing: 2px;
+    color: #888;
+    text-transform: lowercase;
+    margin-bottom: 16px;
+  }
+
+  .hg-cta {
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    font-size: 0.82em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #40c0b0;
+    border-bottom: 1px solid rgba(64,192,176,0.4);
+    padding-bottom: 3px;
+    font-weight: 700;
   }
 
   /* ── Simple Why chain ── */
