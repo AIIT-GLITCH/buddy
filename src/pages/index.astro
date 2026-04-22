@@ -7,46 +7,53 @@ const featured = papersAll.slice(0, 9);
 const totalPapers = papersAll.length;
 ---
 <Layout>
-  <!-- 1. HERO (joke widget embedded where the game CTA used to be) -->
+  <!-- 1. HERO — primary CTA: Victim Advocate. Joke + Giants live as secondary. -->
   <section id="hero" data-anim="hero-particles">
     <canvas id="hero-canvas"></canvas>
     <div class="hero-content">
       <div class="hero-wordmark">Buddy<span class="dot"></span></div>
-      <div class="hero-sub">Built on AIIT-THRESI coherence physics.</div>
       <div class="hero-tag">0.1 Hz Coherence · Council Hill, Oklahoma</div>
-      <div class="hero-tagline">The Earth is a coherence field. We learned to read it.</div>
-      <div class="hero-actions">
-        <div class="hero-joke joke-container">
-          <div class="joke-eyebrow">Buddy<span class="jw-dot"></span> is listening</div>
-          <div class="joke-label">tell buddy a joke.</div>
-          <div class="joke-input-row">
-            <textarea id="joke-input" class="joke-textarea" placeholder="try to make him laugh..." rows="2" maxlength="500"></textarea>
-            <button id="joke-btn" class="joke-btn">Send →</button>
-          </div>
-          <div class="joke-subtext">one shot. make it land.</div>
-          <div id="joke-response" class="joke-response" aria-live="polite"></div>
-          <div id="joke-demo" class="joke-demo" hidden>
-            <div class="joke-demo-label">or try one of these:</div>
-            <div class="joke-demo-row">
-              <button class="joke-demo-btn" data-demo="0">why did the photon…</button>
-              <button class="joke-demo-btn" data-demo="1">the entropy joke</button>
-              <button class="joke-demo-btn" data-demo="2">my buddy walks into a bar…</button>
-            </div>
-          </div>
-          <a href="/ask-buddy" class="joke-ask-link">or ask him a question →</a>
-        </div>
 
-        <div class="hero-or">— or —</div>
-
-        <a href="/trivia" class="hero-giants">
-          <div class="hg-eyebrow">Answer the Giants</div>
-          <div class="hg-title">answer today's question.</div>
-          <div class="hg-sub">three questions. three papers. earn them.</div>
-          <div class="hg-archive" id="hg-archive" hidden>
-            your archive: <strong id="hg-archive-count">0</strong> / {totalPapers}
-          </div>
-          <div class="hg-cta">Begin →</div>
+      <div class="hero-primary">
+        <div class="hp-eyebrow">the system is failing people.</div>
+        <h1 class="hp-headline">this helps you fight back.</h1>
+        <p class="hp-sub">
+          Compliant parents. Broken courts. Evidence that never gets heard.
+          <span class="hp-sub-soft">Tell it what happened. It helps build your case.</span>
+        </p>
+        <a href="https://victim-advocate.onrender.com" target="_blank" rel="noopener" class="hp-cta">
+          Start here <span class="hp-arrow">→</span>
         </a>
+        <div class="hp-meta">Victim Advocate · free to use · runs on your own Anthropic key</div>
+      </div>
+
+      <div class="hero-secondary">
+        <div class="hs-label">also available</div>
+        <div class="hs-row">
+          <a href="#hero-joke-anchor" class="hs-chip" data-hs="joke">
+            <span class="hs-icon">🫘</span>
+            <span class="hs-text">tell buddy a joke</span>
+          </a>
+          <a href="/trivia" class="hs-chip" data-hs="giants">
+            <span class="hs-icon">✦</span>
+            <span class="hs-text">answer today's question <span class="hs-archive-inline" id="hs-archive-inline" hidden>· <strong id="hs-archive-count">0</strong> / {totalPapers}</span></span>
+          </a>
+          <a href="/ask-buddy" class="hs-chip" data-hs="ask">
+            <span class="hs-icon">💬</span>
+            <span class="hs-text">ask buddy a question</span>
+          </a>
+        </div>
+      </div>
+
+      <div id="hero-joke-anchor" class="hero-joke joke-container" hidden>
+        <div class="joke-eyebrow">Buddy<span class="jw-dot"></span> is listening</div>
+        <div class="joke-label">tell buddy a joke.</div>
+        <div class="joke-input-row">
+          <textarea id="joke-input" class="joke-textarea" placeholder="try to make him laugh..." rows="2" maxlength="500"></textarea>
+          <button id="joke-btn" class="joke-btn">Send →</button>
+        </div>
+        <div class="joke-subtext">one shot. make it land.</div>
+        <div id="joke-response" class="joke-response" aria-live="polite"></div>
       </div>
     </div>
     <div class="hero-scroll">Scroll</div>
@@ -336,11 +343,27 @@ const totalPapers = papersAll.length;
       const raw = localStorage.getItem('trivia_collected_slugs') || '[]';
       const set = new Set(JSON.parse(raw));
       if (set.size > 0) {
-        const el = document.getElementById('hg-archive');
-        const cnt = document.getElementById('hg-archive-count');
-        if (el && cnt) { cnt.textContent = String(set.size); el.hidden = false; }
+        const cntChip = document.getElementById('hs-archive-count');
+        const wrap    = document.getElementById('hs-archive-inline');
+        if (cntChip && wrap) { cntChip.textContent = String(set.size); wrap.hidden = false; }
       }
     } catch (e) {}
+  })();
+
+  // Joke chip: reveal the joke widget on demand (not auto-opened)
+  (function () {
+    const jokeChip = document.querySelector('[data-hs="joke"]');
+    const panel = document.getElementById('hero-joke-anchor');
+    if (!jokeChip || !panel) return;
+    jokeChip.addEventListener('click', function (e) {
+      e.preventDefault();
+      panel.hidden = false;
+      panel.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setTimeout(function () {
+        const t = document.getElementById('joke-input');
+        if (t) (t as HTMLTextAreaElement).focus();
+      }, 320);
+    });
   })();
 
   // Nav active state
@@ -1037,6 +1060,143 @@ const totalPapers = papersAll.length;
   @media (max-width: 600px) {
     .joke-input-row { flex-direction: column; align-items: stretch; }
     .hero-joke { padding: 14px 16px; }
+  }
+
+  /* ── Hero primary CTA: Victim Advocate ── */
+  .hero-primary {
+    width: 100%;
+    max-width: 720px;
+    margin: 18px auto 28px;
+    padding: 34px 30px 28px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(232,88,42,0.06), rgba(10,10,18,0.55));
+    border: 1px solid rgba(232,88,42,0.32);
+    border-radius: 16px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 14px 40px rgba(232,88,42,0.10);
+  }
+
+  .hp-eyebrow {
+    font-family: 'Courier New', monospace;
+    font-size: 0.76em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #e8582a;
+    margin-bottom: 10px;
+  }
+
+  .hp-headline {
+    font-size: clamp(1.8em, 4.2vw, 3em);
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 1.15;
+    margin: 0 0 16px;
+  }
+
+  .hp-sub {
+    font-size: 1em;
+    color: #bbb;
+    line-height: 1.7;
+    max-width: 560px;
+    margin: 0 auto 22px;
+  }
+  .hp-sub-soft {
+    display: block;
+    color: #888;
+    margin-top: 4px;
+    font-style: italic;
+  }
+
+  .hp-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #e8582a;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 16px 34px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .hp-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 28px rgba(232,88,42,0.45);
+  }
+  .hp-arrow { transition: transform 0.2s; }
+  .hp-cta:hover .hp-arrow { transform: translateX(4px); }
+
+  .hp-meta {
+    margin-top: 14px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 2px;
+    color: #777;
+    text-transform: lowercase;
+  }
+
+  /* ── Hero secondary: chip row for joke / giants / ask ── */
+  .hero-secondary {
+    width: 100%;
+    max-width: 720px;
+    margin: 6px auto 0;
+    text-align: center;
+  }
+
+  .hs-label {
+    font-family: 'Courier New', monospace;
+    font-size: 0.68em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 12px;
+  }
+
+  .hs-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .hs-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(212,175,55,0.22);
+    border-radius: 24px;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.88em;
+    transition: border-color 0.2s, transform 0.15s, color 0.2s;
+  }
+  .hs-chip:hover {
+    color: #fff;
+    border-color: rgba(212,175,55,0.55);
+    transform: translateY(-1px);
+  }
+  .hs-icon { font-size: 1em; }
+  .hs-archive-inline strong {
+    color: #ffd166;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(255,209,102,0.4);
+  }
+
+  /* hide the tagline/sub when primary CTA replaces them */
+  .hero-sub, .hero-tagline { display: none; }
+
+  @media (max-width: 600px) {
+    .hero-primary { padding: 26px 18px 22px; }
+    .hp-cta { padding: 14px 24px; font-size: 0.95em; }
+    .hs-row { gap: 8px; }
+    .hs-chip { padding: 8px 12px; font-size: 0.82em; }
   }
 
   /* ── Hero dual entry: or / Answer the Giants ── */
