@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Join — AIIT-THRESI" description="If this is the question you've also been asking, write.">
+  <section id="join-hero" class="join-hero">
+    <div class="container narrow">
+      <div class="eyebrow">Join</div>
+      <h1>If this is the question<br>you've also been asking,<br>write.</h1>
+      <p class="join-lede">Investors, researchers, kindred. Keep it short. We read everything.</p>
+    </div>
+  </section>
+
+  <section id="join" data-anim="form-stagger">
+    <div class="container narrow">
+      <form class="join-form" action="https://formspree.io/f/mojydagn" method="POST">
+        <div><label for="jn">Name</label><input id="jn" name="name" type="text" required></div>
+        <div><label for="je">Email</label><input id="je" name="email" type="email" required></div>
+        <div><label for="jr">Role or interest</label><input id="jr" name="role" type="text" placeholder="investor · researcher · kindred"></div>
+        <div><label for="jm">Message</label><textarea id="jm" name="message" required></textarea></div>
+        <input type="hidden" name="_subject" value="New AIIT-THRESI inquiry">
+        <input type="hidden" name="_next" value="https://aiit-threshold.com/thanks">
+        <button type="submit">Send</button>
+      </form>
+      <p class="join-back"><a href="/">← back to buddy</a></p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .join-hero { padding: 140px 0 24px; }
+  .join-hero h1 {
+    font-size: clamp(36px, 6vw, 64px);
+    line-height: 1.05;
+    color: #eaeaea;
+    margin: 16px 0 18px;
+  }
+  .join-lede { color: #888; font-size: 1.05em; line-height: 1.7; }
+  #join { padding: 24px 0 120px; }
+  .join-back {
+    margin-top: 48px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  .join-back a {
+    color: #888;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(136,136,136,0.3);
+    padding-bottom: 2px;
+  }
+  .join-back a:hover { color: #fff; }
+</style>

@@ -3,11 +3,10 @@ import Layout from '../layouts/Layout.astro';
 import papersAll from '../data/papers.json';
 
 // Preview only the first 9 papers on the homepage
-const featured = papersAll.slice(0, 9);
 const totalPapers = papersAll.length;
 ---
 <Layout>
-  <!-- 1. HERO — primary CTA: Victim Advocate. Joke + Giants live as secondary. -->
+  <!-- 1. HERO — interaction-first. Tell him a joke / ask something real. -->
   <section id="hero" data-anim="hero-particles">
     <canvas id="hero-canvas"></canvas>
     <div class="hero-content">
@@ -15,32 +14,22 @@ const totalPapers = papersAll.length;
       <div class="hero-tag">0.1 Hz Coherence · Council Hill, Oklahoma</div>
 
       <div class="hero-primary">
-        <div class="hp-eyebrow">the system is failing people.</div>
-        <h1 class="hp-headline">this helps you fight back.</h1>
-        <p class="hp-sub">
-          Compliant parents. Broken courts. Evidence that never gets heard.
-          <span class="hp-sub-soft">Tell it what happened. It helps build your case.</span>
-        </p>
-        <a href="https://victim-advocate.onrender.com" target="_blank" rel="noopener" class="hp-cta">
-          Start here <span class="hp-arrow">→</span>
-        </a>
-        <div class="hp-meta">Victim Advocate · free to use · runs on your own Anthropic key</div>
-      </div>
+        <h1 class="hp-headline-v2">Tell him a joke.<br><span class="hp-or">Or ask him something real.</span></h1>
+        <p class="hp-sub-v2">Fast. Strange. Real.</p>
 
-      <div class="hero-secondary">
-        <div class="hs-label">also available</div>
-        <div class="hs-row">
-          <a href="#hero-joke-anchor" class="hs-chip" data-hs="joke">
-            <span class="hs-icon">🫘</span>
-            <span class="hs-text">tell buddy a joke</span>
+        <div class="hp-ctas">
+          <a href="#hero-joke-anchor" class="hp-cta-btn primary" data-hs="joke">
+            <span class="hp-cta-icon">🫘</span> tell buddy a joke
           </a>
-          <a href="/trivia" class="hs-chip" data-hs="giants">
-            <span class="hs-icon">✦</span>
-            <span class="hs-text">answer today's question <span class="hs-archive-inline" id="hs-archive-inline" hidden>· <strong id="hs-archive-count">0</strong> / {totalPapers}</span></span>
+          <a href="/ask-buddy" class="hp-cta-btn ghost" data-hs="ask">
+            <span class="hp-cta-icon">💬</span> ask buddy a question
           </a>
-          <a href="/ask-buddy" class="hs-chip" data-hs="ask">
-            <span class="hs-icon">💬</span>
-            <span class="hs-text">ask buddy a question</span>
+        </div>
+
+        <div class="hp-meta-row">
+          <a href="/trivia" class="hp-meta-link" data-hs="giants">
+            ✦ answer today's question
+            <span class="hs-archive-inline" id="hs-archive-inline" hidden>· <strong id="hs-archive-count">0</strong> / {totalPapers}</span>
           </a>
         </div>
       </div>
@@ -59,180 +48,72 @@ const totalPapers = papersAll.length;
     <div class="hero-scroll">Scroll</div>
   </section>
 
-  <!-- 2. WHAT -->
+  <!-- 2. WHAT IS THIS — short, honest reveal -->
   <section id="what" data-anim="word-cascade">
-    <div class="section-num">02 / 10</div>
     <div class="container narrow">
       <div class="eyebrow">What is this</div>
-      <h2 class="prose" data-cascade>
-        <span>AIIT-THRESI</span> <span>is</span> <span>a</span> <span>physics</span> <span>of</span> <span>coherence</span><span>—</span>
-        <span>six</span> <span>laws</span> <span>describing</span> <span>how</span> <span>matter,</span> <span>mind,</span> <span>and</span> <span>signal</span>
-        <span>organize</span> <span>themselves</span> <span>at</span> <span>the</span> <span>edge</span> <span>of</span> <span>collapse,</span>
-        <span>where</span> <span>phase-locking</span> <span>becomes</span> <span>inevitable.</span>
-      </h2>
-      <p class="prose-plain">
-        <span class="pp-label">In English:</span> we're all little electromagnetic balls, trying to find our way back to where we came from. Like a baby born with no inner narrative, we must look forward. Do not measure yourselves. Look forward. <em>and live.</em>
+      <h2 class="wit-lede">Not a chatbot.</h2>
+      <p class="wit-body">
+        A system trained on a structured research corpus —<br>
+        built to respond, observe, and reflect.
       </p>
-      <div class="kicker">{totalPapers} papers · 6 laws · one field</div>
+      <p class="wit-body">
+        The surface runs on a frontier model today.<br>
+        <span class="wit-soft">The substrate is being built underneath it.</span>
+      </p>
+      <p class="wit-end">That's it.</p>
+      <a href="/manifesto" class="wit-link">the longer version →</a>
     </div>
   </section>
 
-  <!-- 3. WHY -->
-  <section id="why" data-anim="typewriter">
-    <div class="section-num">03 / 10</div>
-    <div class="container narrow">
-      <div class="eyebrow">The why</div>
-      <blockquote data-typewriter>
-        "Performing a mental pirouette confidently confirming in real time that there is no more doubt. Only life."
-      </blockquote>
-      <div class="cite">— Rhet Dillard Wike · January 16, 2026 · 12:19 AM</div>
-      <div class="why-body manifesto">
-        <p><strong>Modern scientists have gotten stuck.</strong> They're all staring at a wall, trying desperately to figure out who the <em>hell</em> made it.</p>
-        <p>One says God breathes life into the tree through the air and the ground. The other claims it's a series of tradeoffs through microtubules absorbing water through the ground.</p>
-        <p><strong>AIIT-THRESI says that's the exact same thing.</strong></p>
-        <p>There have been people throughout history who felt this same way — but had no way to prove it. <em>"Science likes proof."</em></p>
-        <p class="manifesto-cue">Well here's that proof.</p>
-        <div class="wike-law" aria-label="The Wike Coherence Law">
-          <div class="wike-law-label">The Wike Coherence Law</div>
-          <div class="wike-law-eqn"><span>C</span> <span class="eq">=</span> <span>C<sub>0</sub> · e<sup>−α·γ<sub>eff</sub></sup></span></div>
-          <div class="wike-law-caption">Coherence decays exponentially with effective decoherence. Same form for matter, mind, and signal.</div>
-        </div>
-        <p>Once you see the thing, the question of <em>why</em>, and <em>what am I</em>, and <em>what's the point of life</em> — all become as plain as why the sun rises, and why I drink water.</p>
-        <p>They are all phase transitions. They are all living on the edge.</p>
-        <p>Our children live in a world manipulated by the very thing — <em>coherence</em>. Depression and ambiguity are rising in families. There are things to be talked about. There are people in power who shouldn't be. The world needs peace just like your babies do.</p>
-        <blockquote class="manifesto-quote">
-          This is the motivation: a mind that wouldn't stop talking, a father who wouldn't stop listening, and a discovery that the garrulity was the signal.
-        </blockquote>
-      </div>
 
-      <div class="simple-why">
-        <div class="sw-label">want it simple?</div>
-        <div class="sw-chain">
-          <div class="sw-row"><span class="sw-node good">Love</span><span class="sw-arrow">→</span><span class="sw-node good">measurable good vibes</span><span class="sw-arrow">→</span><span class="sw-tag fact">real</span></div>
-          <div class="sw-row"><span class="sw-node bad">Bad vibes</span><span class="sw-arrow">→</span><span class="sw-tag fact">also real</span></div>
-          <div class="sw-row same">
-            <span class="sw-node neutral">humans</span>
-            <span class="sw-dot">·</span><span class="sw-node neutral">plants</span>
-            <span class="sw-dot">·</span><span class="sw-node neutral">water</span>
-            <span class="sw-dot">·</span><span class="sw-node neutral">dogs</span>
-            <span class="sw-dot">·</span><span class="sw-node neutral">the homeless guy</span>
-            <span class="sw-dot">·</span><span class="sw-node neutral">rain on a tin roof</span>
-            <span class="sw-arrow">→</span><span class="sw-tag same">same thing</span>
-          </div>
-          <div class="sw-row">
-            <span class="sw-node g">G</span>
-            <span class="sw-eq">=</span><span class="sw-node g">God · Buddha · Earth's core</span>
-            <span class="sw-eq">=</span><span class="sw-node g">life to water</span>
-            <span class="sw-eq">=</span><span class="sw-node g">life to world</span>
-            <span class="sw-tag fact">← fact</span>
-          </div>
-          <div class="sw-row">
-            <span class="sw-node theory">Theory</span>
-            <span class="sw-arrow">→ (strong) →</span>
-            <span class="sw-node theory">mesospheric clouds</span>
-            <span class="sw-arrow">→</span>
-            <span class="sw-node g">G</span>
-          </div>
-          <div class="sw-row danger">
-            <span class="sw-node bad">Meteor</span>
-            <span class="sw-arrow">→</span>
-            <span class="sw-node bad">massive bad vibes</span>
-            <span class="sw-eq">=</span>
-            <span class="sw-tag danger">kill worlds</span>
-          </div>
-          <div class="sw-vibe">
-            <span class="sw-vibe-word">VIBE</span>
-            <span class="sw-vibe-note">→ Important to think about...</span>
-          </div>
-        </div>
-      </div>
 
-    </div>
-  </section>
-
-  <!-- 4. LAWS -->
-  <section id="laws" data-anim="card-slide-in">
-    <div class="section-num">04 / 10</div>
+  <!-- 4. PROOF — stats + "Not theory. Measurement." -->
+  <section id="proof" data-anim="counters">
     <div class="container">
-      <div class="eyebrow">The known laws</div>
-      <h2>Six the last 400 years<br>handed us.</h2>
-      <div class="laws-grid">
-        <div class="law-card"><div class="law-num">Law 01</div><h3>Newton's Second Law</h3><div class="formula">F = m · a</div><p>Force equals mass times acceleration. The entire classical program — ballistics, planets, bridges, every machine you've ever touched — rests on three characters.</p></div>
-        <div class="law-card"><div class="law-num">Law 02</div><h3>Universal Gravitation</h3><div class="formula">F = G · m₁m₂ / r²</div><p>Any two masses pull on each other with a force that falls as one over the square of the distance. Newton saw the apple and the Moon obeying the same rule.</p></div>
-        <div class="law-card"><div class="law-num">Law 03</div><h3>Second Law of Thermodynamics</h3><div class="formula">dS ≥ 0</div><p>Entropy, in a closed system, never decreases. Arrow of time, heat-death of the universe, why your coffee goes cold — one inequality.</p></div>
-        <div class="law-card"><div class="law-num">Law 04</div><h3>Maxwell's Equations</h3><div class="formula">∇·E = ρ/ε₀ · · ·</div><p>Four lines that unify electricity, magnetism, and light. The moment physics stopped being two subjects and became one.</p></div>
-        <div class="law-card"><div class="law-num">Law 05</div><h3>Einstein Field Equation</h3><div class="formula">G_μν = 8π · T_μν</div><p>Mass-energy curves spacetime; spacetime tells mass-energy how to move. General relativity, one line.</p></div>
-        <div class="law-card"><div class="law-num">Law 06</div><h3>Schrödinger Equation</h3><div class="formula">iℏ · ∂ψ/∂t = Ĥψ</div><p>The wavefunction evolves deterministically until measurement. Every quantum effect downstream of this line.</p></div>
-      </div>
-
-      <div style="text-align:center; font-family:'Courier New',monospace; letter-spacing:0.3em; color:var(--amber); margin:96px 0 8px; font-size:11pt; text-transform:uppercase;">— now these are ours —</div>
-
-      <div class="eyebrow" style="margin-top:48px;">The coherence laws</div>
-      <h2>Six the field<br>was waiting on.</h2>
-      <div class="laws-grid">
-        <div class="law-card"><div class="law-num">Law 01</div><h3>Wike Coherence Law</h3><div class="formula">γ_eff ≈ γ_c</div><p>Every stable system lives at the edge of its own collapse. Coherence is not a state, it is a residence — an ongoing practice of approaching the critical point without crossing it.</p></div>
-        <div class="law-card"><div class="law-num">Law 02</div><h3>Threshold Universality</h3><div class="formula">ℱ(x) = φ(x/ξ)</div><p>Systems near their threshold share the same functional form regardless of substrate. Neurons, weather, markets, cells — at criticality, the law collapses onto one curve.</p></div>
-        <div class="law-card"><div class="law-num">Law 03</div><h3>π Boundary Geometry</h3><div class="formula">∮ dθ = 2π · n</div><p>Every closed loop in the coherence field returns at a multiple of 2π. π is not an irrational curiosity — it is the measure of the boundary itself, the cost of a single winding.</p></div>
-        <div class="law-card"><div class="law-num">Law 04</div><h3>Keeper Equation 👋</h3><div class="formula">γ_measurement ∝ 1/C₀</div><p>Observation reduces coherence symmetrically — self or other. Gentleness in either direction preserves the edge. You can be your own keeper.</p></div>
-        <div class="law-card"><div class="law-num">Law 05</div><h3>37 Singularities</h3><div class="formula">res(f, z_k), k = 1..37</div><p>The coherence field has exactly thirty-seven real Laurent poles — gates. They are not metaphor, not approximation. They are measurable residues. Black holes are one class of them.</p></div>
-        <div class="law-card"><div class="law-num">Law 06</div><h3>The 0.1 Hz Hum</h3><div class="formula">f₀ = 0.1 Hz</div><p>A single carrier frequency runs beneath every coherent system measured to date. The Earth hums. The brain hums. The plasma hums. One note, held.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 5. CORPUS -->
-  <section id="corpus" data-anim="counters">
-    <div class="section-num">05 / 10</div>
-    <div class="container">
-      <div class="eyebrow">The corpus</div>
-      <h2>Evidence, organized.</h2>
+      <div class="eyebrow">Evidence, organized</div>
+      <h2 class="proof-head">Not theory.<br><span class="proof-head-accent">Measurement.</span></h2>
       <div class="corpus-stats">
         <div class="stat amber"><div class="num"><span data-count="532">0</span><span class="unit">GB</span></div><div class="label">Curated raw data</div></div>
         <div class="stat teal"><div class="num"><span data-count={totalPapers}>0</span></div><div class="label">AIIT papers</div></div>
         <div class="stat blue"><div class="num"><span data-count="13.8">0</span><span class="unit">M</span></div><div class="label">Data points</div></div>
         <div class="stat amber"><div class="num"><span data-count="923">0</span></div><div class="label">Artifacts</div></div>
       </div>
-      <div class="eyebrow" style="margin-top: 72px;">Pipeline</div>
-      <div class="pipeline" data-pipeline>
-        <div class="pipeline-stage"><div class="stage-tag">01 · Ingest</div><div class="stage-desc">Text, signal, field measurement — every source converges into <em>raw/</em>.</div></div>
-        <div class="pipeline-stage"><div class="stage-tag">02 · Validate</div><div class="stage-desc">Schema and provenance checks before anything becomes evidence.</div></div>
-        <div class="pipeline-stage"><div class="stage-tag">03 · Shard</div><div class="stage-desc">Physics-aware bucketing by substrate and time-scale.</div></div>
-        <div class="pipeline-stage"><div class="stage-tag">04 · Fit</div><div class="stage-desc">Coherence estimators, universality collapse, residue extraction.</div></div>
-        <div class="pipeline-stage"><div class="stage-tag">05 · Publish</div><div class="stage-desc">Paper, patent, proof — the loop closes back into the corpus.</div></div>
+      <div class="proof-foot">
+        <a href="/papers" class="proof-link">Browse {totalPapers} papers →</a>
       </div>
     </div>
   </section>
 
-  <!-- 6. PAPERS (preview of 9, link to full archive) -->
-  <section id="papers" data-anim="grid-stagger">
-    <div class="section-num">06 / 10</div>
-    <div class="container">
-      <div class="eyebrow">The papers</div>
-      <h2>{totalPapers} papers.<br>One framework.</h2>
-      <div class="papers-grid">
-        {featured.map(p => (
-          <a class="paper-card" href={`/papers/${p.slug}`}>
-            <div class="paper-num">Paper {parseInt(p.num)}{p.suffix}</div>
-            <div class="paper-title">{p.title}</div>
-            <div class="paper-tag">{p.tag}</div>
-          </a>
-        ))}
+  <!-- 5. FRAMEWORK TEASER -->
+  <section id="framework-teaser" data-anim="card-slide-in">
+    <div class="container narrow">
+      <div class="eyebrow">The framework</div>
+      <h2 class="ft-head">Six laws built<br>the last 400 years.<br><span class="ft-turn">We added one more.</span></h2>
+
+      <div class="laws-grid ft-single">
+        <div class="law-card feature">
+          <div class="law-num">Law 01 · ours</div>
+          <h3>Wike Coherence Law</h3>
+          <div class="formula">γ_eff ≈ γ_c</div>
+          <p>Every stable system lives at the edge of its own collapse. Coherence is not a state, it is a residence — an ongoing practice of approaching the critical point without crossing it.</p>
+        </div>
       </div>
-      <div class="papers-more">
-        <a href="/papers" style="color: var(--amber);">View all {totalPapers} papers →</a>
+
+      <div class="ft-link-row">
+        <a href="/framework" class="ft-link">View full framework →</a>
       </div>
     </div>
   </section>
 
-  <!-- 6b. APPS TEASER -->
+  <!-- 6. APPLICATIONS — framework running in the real world -->
   <section id="apps-teaser" data-anim="grid-stagger">
-    <div class="section-num">06b</div>
     <div class="container">
       <div class="eyebrow">The applications</div>
       <h2>Framework running<br>in the real world.</h2>
       <div class="apps-teaser-grid">
         <a href="/apps" class="app-teaser-card live"><div class="atc-badge live">Live</div><div class="atc-icon">⚓</div><div class="atc-name">AnchorForge</div><div class="atc-line">Claim adjudication through coherence physics</div></a>
-        <a href="/apps" class="app-teaser-card live"><div class="atc-badge live">Live</div><div class="atc-icon">⚖️</div><div class="atc-name">Victim Advocate</div><div class="atc-line">Physics-first navigation for family court</div></a>
+        <a href="https://victim-advocate.onrender.com" target="_blank" rel="noopener" class="app-teaser-card live"><div class="atc-badge live">Live</div><div class="atc-icon">⚖️</div><div class="atc-name">Victim Advocate</div><div class="atc-line">Physics-first navigation for family court</div></a>
         <a href="/apps" class="app-teaser-card beta"><div class="atc-badge beta">Beta</div><div class="atc-icon">🔬</div><div class="atc-name">Debunker</div><div class="atc-line">1,222 claims. Zero credulous epistemology.</div></a>
         <a href="/apps" class="app-teaser-card beta"><div class="atc-badge beta">Beta</div><div class="atc-icon">🏰</div><div class="atc-name">Little Lairs</div><div class="atc-line">A world built by an 11-year-old</div></a>
       </div>
@@ -240,9 +121,8 @@ const totalPapers = papersAll.length;
     </div>
   </section>
 
-  <!-- 7. MIND -->
+  <!-- 7. IDENTITY (moved below applications — credibility before identity) -->
   <section id="mind" data-anim="breathing-ring">
-    <div class="section-num">07 / 10</div>
     <div class="mind-visual">
       <canvas id="mind-canvas"></canvas>
       <div class="mind-center">Buddy<span class="dot"></span></div>
@@ -261,50 +141,8 @@ const totalPapers = papersAll.length;
     </div>
   </section>
 
-  <!-- 8. PROOF -->
-  <section id="proof" data-anim="scatter-draw">
-    <div class="section-num">08 / 10</div>
-    <div class="container">
-      <div class="eyebrow">The proof</div>
-      <h2>Not theory. Measurement.</h2>
-      <div class="proof-main">
-        <div class="proof-plot"><canvas id="proof-canvas"></canvas></div>
-        <div class="proof-stats">
-          <div class="big-stat"><div class="v" data-count-decimal="0.706">0</div><div class="k">Pearson ρ — predicted vs observed</div></div>
-          <div class="big-stat"><div class="v">1×10⁻⁵</div><div class="k">p-value</div></div>
-          <div class="big-stat"><div class="v"><span data-count="38">0</span></div><div class="k">Seasons validated</div></div>
-          <div class="big-stat"><div class="v"><span data-count="86.8">0</span>%</div><div class="k">Forecast accuracy</div></div>
-          <div class="big-stat"><div class="v">Filed</div><div class="k">Patent · planetary sensor fusion</div></div>
-        </div>
-      </div>
-      <div class="proof-explain">
-        <div class="pe-label">what does that mean in plain English?</div>
-        <div class="pe-grid">
-          <div class="pe-block">
-            <div class="pe-stat">ρ = 0.706</div>
-            <div class="pe-text">We predicted what the weather was going to do. Then we watched what it actually did. Those two lines matched with a correlation of 0.706 — out of 1.0 possible. That's not luck. That's structure.</div>
-          </div>
-          <div class="pe-block">
-            <div class="pe-stat">p = 0.00001</div>
-            <div class="pe-text">The odds this happened by chance: 1 in 100,000. In science, anything below 0.05 is called significant. This is 5,000× past that threshold.</div>
-          </div>
-          <div class="pe-block">
-            <div class="pe-stat">38 seasons</div>
-            <div class="pe-text">We didn't just test one year. We ran the model against 38 separate seasons — nearly a decade of data — and it held up every time. Not cherry-picked. Every season.</div>
-          </div>
-          <div class="pe-block">
-            <div class="pe-stat">86.8% accuracy</div>
-            <div class="pe-text">Nearly 9 out of every 10 forecasts landed correctly. The national weather average for extended seasonal forecasts hovers around 60–65%. We're 20 points above that using a physics framework that wasn't designed for weather.</div>
-          </div>
-        </div>
-        <div class="pe-bottom">The framework wasn't built to predict weather. It was built to describe how coherent systems behave near their edge. The weather just happened to be a coherent system. The numbers followed the physics.</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 9. TEAM -->
+  <!-- 7b. TEAM — the ones holding the edge -->
   <section id="team" data-anim="plain-fade">
-    <div class="section-num">09 / 10</div>
     <div class="container">
       <div class="eyebrow">The team</div>
       <h2>The ones holding the edge.</h2>
@@ -317,21 +155,23 @@ const totalPapers = papersAll.length;
     </div>
   </section>
 
-  <!-- 10. JOIN -->
-  <section id="join" data-anim="form-stagger">
-    <div class="section-num">10 / 10</div>
-    <div class="container narrow">
-      <div class="eyebrow">Join</div>
-      <h2>If this is the question<br>you've also been asking,<br>write.</h2>
-      <form class="join-form" action="https://formspree.io/f/mojydagn" method="POST">
-        <div><label for="jn">Name</label><input id="jn" name="name" type="text" required></div>
-        <div><label for="je">Email</label><input id="je" name="email" type="email" required></div>
-        <div><label for="jr">Role or interest</label><input id="jr" name="role" type="text" placeholder="investor · researcher · kindred"></div>
-        <div><label for="jm">Message</label><textarea id="jm" name="message" required></textarea></div>
-        <input type="hidden" name="_subject" value="New AIIT-THRESI inquiry">
-        <input type="hidden" name="_next" value="https://aiit-threshold.com/thanks">
-        <button type="submit">Send</button>
-      </form>
+  <!-- 8. DEEP CONTENT LINK — everything heavy lives behind this door -->
+  <section id="deep-door" data-anim="plain-fade">
+    <div class="container narrow dd-inner">
+      <div class="dd-line">If you want the long version —</div>
+      <a href="/field" class="dd-link">Enter the field →</a>
+      <div class="dd-sub">motivation · manifesto · cancer · the full why</div>
+    </div>
+  </section>
+
+  <!-- 9. FINAL CTA -->
+  <section id="final-cta" data-anim="plain-fade">
+    <div class="container narrow fc-inner">
+      <p class="fc-prelude">If you made it this far —</p>
+      <h2 class="fc-head">you've already been thinking.</h2>
+      <p class="fc-body">Ask something real.</p>
+      <a href="/ask-buddy" class="fc-cta">ask buddy →</a>
+      <p class="fc-alt"><a href="/join">— or write to us directly</a></p>
     </div>
   </section>
 </Layout>
@@ -551,7 +391,7 @@ const totalPapers = papersAll.length;
       countObs.unobserve(e.target);
     });
   }, { threshold: 0.35 });
-  document.querySelectorAll('#corpus, #proof').forEach(s => countObs.observe(s));
+  document.querySelectorAll('#proof').forEach(s => countObs.observe(s));
 
   // Word cascade
   const cascadeObs = new IntersectionObserver((entries) => {
@@ -1320,9 +1160,270 @@ const totalPapers = papersAll.length;
   /* hide the tagline/sub when primary CTA replaces them */
   .hero-sub, .hero-tagline { display: none; }
 
+  /* v2 hero — joke/ask first */
+  .hp-headline-v2 {
+    font-family: Georgia, serif;
+    font-size: clamp(2em, 5.5vw, 3.4em);
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.01em;
+    line-height: 1.08;
+    margin: 0 0 10px;
+  }
+  .hp-headline-v2 .hp-or {
+    color: #D4AF37;
+    font-weight: 600;
+    font-style: italic;
+  }
+  .hp-sub-v2 {
+    font-family: 'Courier New', monospace;
+    font-size: 0.78em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #888;
+    margin: 0 0 24px;
+  }
+  .hp-ctas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .hp-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 26px;
+    border-radius: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 0.95em;
+    transition: transform 0.18s, box-shadow 0.18s, border-color 0.2s, background 0.2s;
+  }
+  .hp-cta-btn.primary {
+    background: #D4AF37;
+    color: #1a1a1a;
+    box-shadow: 0 8px 24px rgba(212,175,55,0.28);
+  }
+  .hp-cta-btn.primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(212,175,55,0.42);
+  }
+  .hp-cta-btn.ghost {
+    background: transparent;
+    color: #eaeaea;
+    border: 1px solid rgba(212,175,55,0.4);
+  }
+  .hp-cta-btn.ghost:hover {
+    border-color: rgba(212,175,55,0.8);
+    color: #fff;
+    transform: translateY(-2px);
+  }
+  .hp-cta-icon { font-size: 1.05em; }
+  .hp-meta-row { margin-top: 6px; }
+  .hp-meta-link {
+    font-family: 'Courier New', monospace;
+    font-size: 0.78em;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    color: #888;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(136,136,136,0.25);
+    padding-bottom: 2px;
+  }
+  .hp-meta-link:hover { color: #D4AF37; border-color: rgba(212,175,55,0.5); }
+  .hs-archive-inline strong {
+    color: #ffd166;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(255,209,102,0.4);
+  }
+
+  /* Section 2 — What is this */
+  #what { padding: 100px 0 80px; }
+  #what .eyebrow { color: #888; margin-bottom: 18px; }
+  .wit-lede {
+    font-family: Georgia, serif;
+    font-size: clamp(2em, 4.5vw, 3em);
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 28px;
+    letter-spacing: -0.01em;
+  }
+  .wit-body {
+    color: #bbb;
+    font-size: 1.08em;
+    line-height: 1.8;
+    margin: 0 0 20px;
+  }
+  .wit-soft { color: #888; }
+  .wit-end {
+    font-family: 'Courier New', monospace;
+    color: #D4AF37;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin: 16px 0 22px;
+  }
+  .wit-link {
+    display: inline-block;
+    font-size: 0.9em;
+    color: #40c0b0;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(64,192,176,0.4);
+    padding-bottom: 2px;
+  }
+  .wit-link:hover { color: #80e0c8; }
+
+  /* Section 4 — Proof (simplified) */
+  #proof { padding: 80px 0; }
+  .proof-head {
+    font-family: Georgia, serif;
+    font-size: clamp(2em, 4.8vw, 3.2em);
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.05;
+    margin: 0 0 32px;
+  }
+  .proof-head-accent { color: #D4AF37; }
+  .proof-foot { margin-top: 28px; font-family: 'Courier New', monospace; }
+  .proof-link {
+    color: #D4AF37;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(212,175,55,0.4);
+    padding-bottom: 2px;
+    font-size: 0.88em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .proof-link:hover { color: #ffd166; }
+
+  /* Section 5 — Framework teaser */
+  #framework-teaser { padding: 80px 0; }
+  .ft-head {
+    font-family: Georgia, serif;
+    font-size: clamp(1.8em, 4.2vw, 2.8em);
+    color: #eaeaea;
+    line-height: 1.1;
+    margin: 0 0 28px;
+  }
+  .ft-turn { color: #D4AF37; font-style: italic; }
+  .laws-grid.ft-single {
+    grid-template-columns: 1fr !important;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  .law-card.feature {
+    border-color: rgba(212,175,55,0.5);
+    background: rgba(212,175,55,0.04);
+  }
+  .ft-link-row {
+    margin-top: 32px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+  }
+  .ft-link {
+    color: #D4AF37;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(212,175,55,0.4);
+    padding-bottom: 2px;
+    font-size: 0.88em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .ft-link:hover { color: #ffd166; }
+
+  /* Section 8 — Deep content door */
+  #deep-door { padding: 80px 0 60px; text-align: center; }
+  .dd-inner { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .dd-line {
+    font-family: 'Courier New', monospace;
+    font-size: 0.82em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+  }
+  .dd-link {
+    font-family: Georgia, serif;
+    font-size: 1.8em;
+    color: #D4AF37;
+    text-decoration: none;
+    font-style: italic;
+    border-bottom: 1px solid rgba(212,175,55,0.4);
+    padding-bottom: 4px;
+  }
+  .dd-link:hover { color: #ffd166; }
+  .dd-sub {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #666;
+  }
+
+  /* Section 9 — Final CTA */
+  #final-cta { padding: 80px 0 140px; text-align: center; }
+  .fc-inner { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .fc-prelude {
+    font-family: 'Courier New', monospace;
+    font-size: 0.82em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #888;
+  }
+  .fc-head {
+    font-family: Georgia, serif;
+    font-size: clamp(1.8em, 4vw, 2.6em);
+    font-style: italic;
+    color: #fff;
+    margin: 6px 0 14px;
+  }
+  .fc-body {
+    font-size: 1.05em;
+    color: #bbb;
+    margin-bottom: 28px;
+  }
+  .fc-cta {
+    display: inline-flex;
+    align-items: center;
+    padding: 16px 34px;
+    background: #D4AF37;
+    color: #1a1a1a;
+    border-radius: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 1em;
+    transition: transform 0.18s, box-shadow 0.18s;
+    box-shadow: 0 8px 24px rgba(212,175,55,0.28);
+  }
+  .fc-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(212,175,55,0.42);
+  }
+  .fc-alt {
+    margin-top: 22px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.78em;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+  }
+  .fc-alt a {
+    color: #666;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(136,136,136,0.3);
+    padding-bottom: 2px;
+  }
+  .fc-alt a:hover { color: #aaa; }
+
   @media (max-width: 600px) {
     .hero-primary { padding: 26px 18px 22px; }
     .hp-cta { padding: 14px 24px; font-size: 0.95em; }
+    .hp-ctas { flex-direction: column; align-items: stretch; }
+    .hp-cta-btn { justify-content: center; }
     .hs-row { gap: 8px; }
     .hs-chip { padding: 8px 12px; font-size: 0.82em; }
   }
