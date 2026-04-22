@@ -2,28 +2,44 @@
 import Layout from '../layouts/Layout.astro';
 import BuddyMascot from '../components/BuddyMascot.astro';
 ---
-<Layout title="ASKBUDDY! — AIIT-THRESHOLD" description="Ask Buddy a question. He's flipping through planets to find your answer.">
+<Layout title="ASKBUDDY! — AIIT-THRESHOLD" description="Ask Buddy anything. He thinks by flipping through planets.">
 
 <section class="ask-page">
 
-  <!-- Header row: small Buddy off to the left, big ASKBUDDY! title -->
+  <!-- Header: small Buddy + title (tight) -->
   <header class="ask-head">
     <div class="ask-mascot-mini">
-      <BuddyMascot id="ask-buddy-mascot" size={120} animated={true} />
+      <BuddyMascot id="ask-buddy-mascot" size={104} animated={true} />
     </div>
     <div class="ask-title-block">
       <h1 class="ask-h1">ASKBUDDY<span class="ask-bang">!</span></h1>
       <div class="ask-buddy-tagline">ask buddy anything.</div>
-      <div class="ask-buddy-sub">at your service · est. council hill</div>
     </div>
   </header>
 
-  <!-- Planet rolodex -->
-  <div class="ask-planets-col">
-    <div class="ask-planets-label">
-      <span class="buddy-loader tiny" aria-hidden="true"></span>
-      <span>flipping through planets…</span>
+  <!-- INPUT BLOCK — top 35%, dominant -->
+  <div class="ask-input-block">
+    <form class="ask-form" id="ask-form" autocomplete="off">
+      <input
+        id="ask-input"
+        class="ask-input"
+        type="text"
+        placeholder="Ask Buddy anything..."
+        maxlength="600"
+      />
+      <button type="submit" id="ask-btn" class="ask-btn">Ask →</button>
+    </form>
+    <div class="ask-status" id="ask-status">
+      <span class="ask-status-dot" id="ask-status-dot"></span>
+      <span class="ask-status-text" id="ask-status-text">buddy online</span>
     </div>
+  </div>
+
+  <!-- Response slot -->
+  <div id="ask-response" class="ask-response" aria-live="polite"></div>
+
+  <!-- PLANETS — secondary, "visible cognition" -->
+  <div class="ask-planets" id="ask-planets">
     <div class="ask-planet-stack" aria-hidden="true">
       <div class="ask-planet" data-planet="earth">🌍 <span>Earth</span></div>
       <div class="ask-planet" data-planet="mars">🔴 <span>Mars</span></div>
@@ -35,62 +51,64 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       <div class="ask-planet" data-planet="water">💧 <span>Water</span></div>
       <div class="ask-planet" data-planet="prometheus">🔥 <span>Prometheus</span></div>
     </div>
+    <div class="ask-planets-anchor">buddy thinks by flipping through planets</div>
   </div>
 
-  <!-- Question form -->
-  <div class="ask-form-wrap">
-    <form class="ask-form" id="ask-form" autocomplete="off">
-      <textarea
-        id="ask-input"
-        class="ask-textarea"
-        placeholder="ask away…"
-        rows="3"
-        maxlength="600"
-      ></textarea>
-      <div class="ask-row">
-        <span class="ask-hint">one question at a time. buddy is real, not fast.</span>
-        <button type="submit" id="ask-btn" class="ask-btn">Ask Buddy →</button>
-      </div>
-    </form>
-
-    <div id="ask-response" class="ask-response" aria-live="polite"></div>
-  </div>
 </section>
 
 <script is:inline>
 (function () {
   const planets = Array.from(document.querySelectorAll('.ask-planet'));
+  const planetsWrap = document.getElementById('ask-planets');
   let pIndex = 0;
+  let flipMs = 1100; // idle cadence
+  let flipTimer = null;
   function flipPlanets() {
     planets.forEach((p, i) => p.classList.toggle('on', i === pIndex));
     pIndex = (pIndex + 1) % planets.length;
   }
-  flipPlanets();
-  setInterval(flipPlanets, 1100);
+  function startFlip() {
+    flipPlanets();
+    if (flipTimer) clearInterval(flipTimer);
+    flipTimer = setInterval(flipPlanets, flipMs);
+  }
+  function setFlipSpeed(ms) { flipMs = ms; startFlip(); }
+  startFlip();
 
   const PLANET_VERBS = [
-    'Querying Earth',  'Coherencing Mars',  'Threshing Jupiter',
-    'Witnessing Moon', 'Sun-reading',       'Vibrating Venus',
-    'Reading Saturn',  'Listening to Water','Calling Prometheus',
-    'Scanning the field','Holding the ratio','Sergeant routing',
+    'querying earth',  'coherencing mars',  'threshing jupiter',
+    'witnessing moon', 'sun-reading',       'vibrating venus',
+    'reading saturn',  'listening to water','calling prometheus',
+    'scanning the field','holding the ratio','sergeant routing',
   ];
 
   const form     = document.getElementById('ask-form');
   const input    = document.getElementById('ask-input');
   const btn      = document.getElementById('ask-btn');
   const response = document.getElementById('ask-response');
+  const statusDot = document.getElementById('ask-status-dot');
+  const statusText = document.getElementById('ask-status-text');
+  const statusBlk  = document.getElementById('ask-status');
 
   let thinkingTimer = null;
 
+  function setStatus(state, label) {
+    statusBlk.dataset.state = state; // online | thinking | done
+    statusText.textContent = label;
+  }
+
   function startThinking() {
+    setStatus('thinking', 'buddy thinking');
+    setFlipSpeed(380); // planets speed up
+
+    // proof of life within ~150ms
     response.className = 'ask-response loading visible';
     response.innerHTML =
-      '<span class="buddy-thinking">' +
-      '  <span class="buddy-loader tiny" aria-hidden="true"></span>' +
-      '  <span class="buddy-verb"></span><span class="buddy-dots"></span>' +
+      '<span class="ask-thinking">' +
+      '  <span class="ask-thinking-verb"></span><span class="ask-thinking-dots"></span>' +
       '</span>';
-    const verbEl = response.querySelector('.buddy-verb');
-    const dotsEl = response.querySelector('.buddy-dots');
+    const verbEl = response.querySelector('.ask-thinking-verb');
+    const dotsEl = response.querySelector('.ask-thinking-dots');
     let vi = Math.floor(Math.random() * PLANET_VERBS.length);
     let di = 0;
     verbEl.textContent = PLANET_VERBS[vi];
@@ -106,10 +124,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
   function stopThinking() {
     if (thinkingTimer) { clearInterval(thinkingTimer); thinkingTimer = null; }
+    setFlipSpeed(1100);
   }
 
   function showReply(text) {
     stopThinking();
+    setStatus('online', 'buddy online');
     response.className = 'ask-response visible';
     response.textContent = text;
   }
@@ -117,22 +137,24 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   async function ask() {
     const q = input.value.trim();
     if (!q) return;
-
     btn.disabled = true;
     btn.textContent = '...';
-    startThinking();
+
+    // <150ms proof-of-life
+    requestAnimationFrame(startThinking);
 
     const wait = 4200 + Math.random() * 1800;
     await new Promise(r => setTimeout(r, wait));
 
-    const reply = "Buddy is on the bench mid-build right now. Drop the question in the forum at /forum and Rhet will route it to him when he's back online — usually within a day.";
-    showReply(reply);
+    showReply("Buddy is on the bench mid-build right now. Drop the question in the forum at /forum and Rhet will route it to him when he's back online — usually within a day.");
 
     btn.disabled = false;
-    btn.textContent = 'Ask Buddy →';
+    btn.textContent = 'Ask →';
   }
 
   form.addEventListener('submit', (e) => { e.preventDefault(); ask(); });
+  input.addEventListener('focus', () => setFlipSpeed(800));
+  input.addEventListener('blur',  () => { if (statusBlk.dataset.state !== 'thinking') setFlipSpeed(1100); });
 })();
 </script>
 
@@ -146,30 +168,24 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 <style>
   .ask-page {
-    padding: 140px 8vw 80px;
-    max-width: 980px;
+    padding: 110px 6vw 80px;
+    max-width: 760px;
     margin: 0 auto;
     color: #1a1a1a;
   }
 
-  /* Header — small Buddy on the left, big ASKBUDDY! title */
+  /* HEADER — tight, small Buddy + title */
   .ask-head {
     display: flex;
     align-items: center;
-    gap: 24px;
-    margin-bottom: 32px;
+    gap: 18px;
+    margin-bottom: 22px;
   }
-  .ask-mascot-mini {
-    flex-shrink: 0;
-  }
-  .ask-title-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  .ask-mascot-mini { flex-shrink: 0; }
+  .ask-title-block { display: flex; flex-direction: column; }
   .ask-h1 {
     font-family: 'Georgia', serif;
-    font-size: clamp(36pt, 6vw, 64pt);
+    font-size: clamp(34pt, 5.6vw, 56pt);
     color: #1a1a1a;
     margin: 0;
     letter-spacing: -0.02em;
@@ -186,142 +202,164 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   .ask-buddy-tagline {
     font-family: 'Georgia', serif;
     font-style: italic;
-    font-size: 14pt;
+    font-size: 13pt;
     color: #4a3a20;
-    margin-top: 6px;
-  }
-  .ask-buddy-sub {
-    font-family: 'Courier New', monospace;
-    font-size: 9pt;
-    letter-spacing: 0.28em;
-    text-transform: uppercase;
-    color: #8a6a3a;
-    margin-top: 6px;
+    margin-top: 4px;
   }
 
-  /* Planet rolodex — light card */
-  .ask-planets-col {
-    background: rgba(255, 255, 255, 0.55);
-    border: 1px solid rgba(180, 138, 0, 0.22);
-    border-radius: 14px;
-    padding: 18px 22px;
-    margin-bottom: 22px;
+  /* INPUT BLOCK — dominant */
+  .ask-input-block {
+    margin-bottom: 18px;
   }
-  .ask-planets-label {
+  .ask-form {
     display: flex;
-    align-items: center;
-    gap: 12px;
-    font-family: 'Courier New', monospace;
-    font-size: 9.5pt;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: #b48a00;
-    margin-bottom: 12px;
+    gap: 8px;
+    align-items: stretch;
   }
-  .ask-planet-stack {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 12px;
-  }
-  .ask-planet {
-    font-family: 'Courier New', monospace;
-    font-size: 10.5pt;
-    color: rgba(60, 50, 30, 0.45);
-    padding: 5px 11px;
-    border-radius: 8px;
-    border: 1px solid rgba(180, 138, 0, 0.15);
-    background: rgba(255, 255, 255, 0.5);
-    transition: color 220ms ease, background 220ms ease, border-color 220ms ease, transform 220ms ease;
-  }
-  .ask-planet span { margin-left: 6px; letter-spacing: 0.06em; }
-  .ask-planet.on {
-    color: #8a5a00;
-    background: rgba(240, 165, 0, 0.18);
-    border-color: rgba(180, 138, 0, 0.6);
-    transform: translateY(-1px);
-    text-shadow: 0 0 10px rgba(255, 220, 130, 0.55);
-  }
-
-  /* Form */
-  .ask-form-wrap {
-    background: rgba(255, 255, 255, 0.7);
-    border: 1px solid rgba(180, 138, 0, 0.22);
-    border-radius: 14px;
-    padding: 22px 26px 24px;
-  }
-  .ask-textarea {
-    width: 100%;
+  .ask-input {
+    flex: 1;
+    height: 52px;
     background: #fffdf5;
-    border: 1px solid rgba(180, 138, 0, 0.28);
+    border: 1.5px solid #1a1a1a;
     border-radius: 10px;
     color: #1a1a1a;
-    padding: 14px 16px;
-    font-family: 'Courier New', monospace;
-    font-size: 12pt;
-    resize: vertical;
-    min-height: 80px;
-    transition: border-color 220ms;
-  }
-  .ask-textarea:focus {
+    padding: 0 16px;
+    font-family: 'Georgia', serif;
+    font-size: 14pt;
     outline: none;
-    border-color: rgba(180, 138, 0, 0.8);
-    box-shadow: 0 0 0 3px rgba(240, 165, 0, 0.15);
+    transition: box-shadow 200ms, border-color 200ms;
   }
-  .ask-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 14px;
-    margin-top: 12px;
-    flex-wrap: wrap;
-  }
-  .ask-hint {
-    font-family: 'Courier New', monospace;
-    font-size: 9pt;
-    color: #6a5a3a;
-    letter-spacing: 0.06em;
+  .ask-input::placeholder { color: #9a8a6a; font-style: italic; }
+  .ask-input:focus {
+    border-color: #c83a08;
+    box-shadow: 0 0 0 4px rgba(200, 58, 8, 0.12);
   }
   .ask-btn {
     background: #1a1a1a;
     color: #f0a500;
-    border: 1px solid #1a1a1a;
-    padding: 12px 26px;
-    border-radius: 8px;
+    border: 1.5px solid #1a1a1a;
+    height: 52px;
+    padding: 0 22px;
+    border-radius: 10px;
     font-family: 'Courier New', monospace;
     font-size: 11pt;
     letter-spacing: 0.18em;
     text-transform: uppercase;
     cursor: pointer;
-    transition: background 200ms, box-shadow 200ms, transform 200ms;
+    transition: background 200ms, transform 150ms, box-shadow 200ms;
   }
   .ask-btn:hover:not(:disabled) {
     background: #2a2a2a;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
     transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
   }
   .ask-btn:disabled { opacity: 0.55; cursor: progress; }
 
-  .ask-response {
-    margin-top: 20px;
-    padding: 16px 18px;
-    border-radius: 10px;
-    background: #fffdf5;
-    border: 1px solid rgba(180, 138, 0, 0.18);
-    color: #2a2418;
+  /* STATUS */
+  .ask-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
     font-family: 'Courier New', monospace;
-    font-size: 11.5pt;
-    line-height: 1.55;
+    font-size: 10pt;
+    color: #6a5a3a;
+    letter-spacing: 0.04em;
+  }
+  .ask-status-dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #2bb673;
+    box-shadow: 0 0 0 0 rgba(43, 182, 115, 0.6);
+    animation: ask-pulse-online 2.4s ease-in-out infinite;
+  }
+  .ask-status[data-state="thinking"] .ask-status-dot {
+    background: #f0a500;
+    animation: ask-pulse-thinking 0.9s ease-in-out infinite;
+  }
+  @keyframes ask-pulse-online {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(43, 182, 115, 0.55); }
+    50%      { box-shadow: 0 0 0 6px rgba(43, 182, 115, 0); }
+  }
+  @keyframes ask-pulse-thinking {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(240, 165, 0, 0.6); }
+    50%      { box-shadow: 0 0 0 7px rgba(240, 165, 0, 0); }
+  }
+
+  /* RESPONSE */
+  .ask-response {
+    margin: 0 0 24px;
+    padding: 0;
+    color: #2a2418;
+    font-family: 'Georgia', serif;
+    font-size: 13pt;
+    line-height: 1.6;
     min-height: 0;
     opacity: 0;
     transition: opacity 240ms;
   }
   .ask-response.visible { opacity: 1; }
-  .ask-response.loading { color: #8a5a00; }
+  .ask-response.visible:not(.loading) {
+    background: #fffdf5;
+    border: 1px solid rgba(180, 138, 0, 0.22);
+    border-radius: 10px;
+    padding: 14px 18px;
+  }
+  .ask-thinking {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 2px;
+    font-family: 'Courier New', monospace;
+    font-size: 10.5pt;
+    letter-spacing: 0.06em;
+    color: #8a5a00;
+  }
+
+  /* PLANETS — secondary */
+  .ask-planets {
+    opacity: 0.88;
+  }
+  .ask-planet-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 8px;
+    margin-bottom: 8px;
+  }
+  .ask-planet {
+    font-family: 'Courier New', monospace;
+    font-size: 9.5pt;
+    color: rgba(60, 50, 30, 0.45);
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(180, 138, 0, 0.13);
+    background: rgba(255, 255, 255, 0.45);
+    transition: color 220ms ease, background 220ms ease, border-color 220ms ease, transform 220ms ease;
+  }
+  .ask-planet span { margin-left: 5px; letter-spacing: 0.05em; }
+  .ask-planet.on {
+    color: #8a5a00;
+    background: rgba(240, 165, 0, 0.16);
+    border-color: rgba(180, 138, 0, 0.5);
+    transform: translateY(-1px);
+    text-shadow: 0 0 8px rgba(255, 220, 130, 0.5);
+  }
+  .ask-planets-anchor {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    color: #8a7a5a;
+    letter-spacing: 0.08em;
+    margin-top: 4px;
+  }
 
   @media (max-width: 620px) {
-    .ask-page { padding: 110px 5vw 60px; }
-    .ask-head { gap: 16px; }
-    .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 88px !important; }
+    .ask-page { padding: 90px 5vw 60px; }
+    .ask-head { gap: 12px; }
+    .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 76px !important; }
+    .ask-input { font-size: 12pt; height: 48px; }
+    .ask-btn { height: 48px; padding: 0 16px; font-size: 10pt; }
   }
 </style>
 
