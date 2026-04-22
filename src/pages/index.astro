@@ -141,19 +141,61 @@ const totalPapers = papersAll.length;
     </div>
   </section>
 
-  <!-- 8. DEEP CONTENT GATEWAY — index into depth, not depth itself -->
-  <section id="deep-door" data-anim="plain-fade">
-    <div class="container narrow dd-inner">
-      <div class="eyebrow">Deeper down</div>
-      <h2 class="dd-title">Enter the field.</h2>
-      <p class="dd-desc">If you want the full structure, it's here.<br>Research, papers, proofs, applications, and the framework underneath them.</p>
-      <div class="dd-grid">
-        <a href="/field" class="dd-tile">Research <span>→</span></a>
-        <a href="/papers" class="dd-tile">Papers <span>→</span></a>
-        <a href="/cancer" class="dd-tile">Cancer <span>→</span></a>
-        <a href="/framework" class="dd-tile">Corpus <span>→</span></a>
-        <a href="/#proof" class="dd-tile">Proof <span>→</span></a>
+  <!-- 8. DEEP GATEWAY (expanded) — surface the hidden routes without crowding the top nav -->
+  <section id="deep-gateway" data-anim="plain-fade">
+    <div class="container narrow dg-inner">
+      <h2 class="dg-title">go deeper</h2>
+      <p class="dg-sub">the rest of the system lives here</p>
+
+      <div class="dg-group">
+        <div class="dg-group-title">Research</div>
+        <div class="dg-grid">
+          <a href="/cancer" class="dg-tile">
+            <span class="dg-name">Cancer</span>
+            <span class="dg-line">pattern extraction in biological collapse</span>
+          </a>
+          <a href="/weather" class="dg-tile">
+            <span class="dg-name">Weather</span>
+            <span class="dg-line">coherence signals in atmospheric systems</span>
+          </a>
+          <a href="/validation" class="dg-tile">
+            <span class="dg-name">Validation</span>
+            <span class="dg-line">measured performance and failure modes</span>
+          </a>
+          <a href="/mind" class="dg-tile">
+            <span class="dg-name">Mind</span>
+            <span class="dg-line">cognition as signal, not abstraction</span>
+          </a>
+          <a href="/quantum" class="dg-tile">
+            <span class="dg-name">Quantum</span>
+            <span class="dg-line">field behavior under observation pressure</span>
+          </a>
+          <a href="/letters" class="dg-tile">
+            <span class="dg-name">Letters</span>
+            <span class="dg-line">direct communication, unfiltered</span>
+          </a>
+        </div>
       </div>
+
+      <div class="dg-group">
+        <div class="dg-group-title">Impact</div>
+        <div class="dg-grid">
+          <a href="/save-lives" class="dg-tile">
+            <span class="dg-name">Save Lives</span>
+            <span class="dg-line">real-world intervention pathways</span>
+          </a>
+          <a href="/drugs" class="dg-tile">
+            <span class="dg-name">Low-Cost Drugs</span>
+            <span class="dg-line">access over complexity</span>
+          </a>
+          <a href="/food-dye" class="dg-tile">
+            <span class="dg-name">Food Dye</span>
+            <span class="dg-line">signal vs ingestion risk</span>
+          </a>
+        </div>
+      </div>
+
+      <p class="dg-closing">not everything is explained. some of it is shown.</p>
     </div>
   </section>
 
@@ -1286,53 +1328,84 @@ const totalPapers = papersAll.length;
   }
   .ft-link:hover { color: #ffd166; }
 
-  /* Section 8 — Deep content gateway */
-  #deep-door { padding: 48px 0; text-align: center; }
-  .dd-inner { display: flex; flex-direction: column; align-items: center; gap: 16px; padding: 0 20px; }
-  .dd-title {
+  /* Section 8 — Deep gateway (expanded) */
+  #deep-gateway { padding: 72px 0; text-align: center; }
+  .dg-inner { display: flex; flex-direction: column; align-items: center; gap: 24px; padding: 0 20px; }
+  .dg-title {
     font-family: Georgia, serif;
     font-size: clamp(1.8em, 4vw, 2.4em);
     color: #eaeaea;
     margin: 0;
+    letter-spacing: -0.01em;
   }
-  .dd-desc {
+  .dg-sub {
     color: #888;
     font-size: 0.95em;
     line-height: 1.6;
-    max-width: 520px;
-    margin: 0;
+    margin: 0 0 8px;
+    font-style: italic;
   }
-  .dd-grid {
+  .dg-group {
+    width: 100%;
+    max-width: 820px;
+    text-align: left;
+  }
+  .dg-group-title {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 14px;
+    padding-left: 2px;
+  }
+  .dg-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
     width: 100%;
-    max-width: 560px;
-    margin-top: 16px;
   }
-  .dd-tile {
+  @media (min-width: 768px) {
+    .dg-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  .dg-tile {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px 20px;
+    flex-direction: column;
+    gap: 6px;
+    padding: 16px 18px;
     background: rgba(255,255,255,0.02);
-    border: 1px solid rgba(212,175,55,0.18);
+    border: 1px solid rgba(212,175,55,0.15);
     border-radius: 8px;
-    color: #D4AF37;
     text-decoration: none;
-    font-family: 'Courier New', monospace;
-    font-size: 0.82em;
-    letter-spacing: 3px;
-    text-transform: uppercase;
     transition: border-color 0.2s, background 0.2s, transform 0.15s;
     min-width: 0;
   }
-  .dd-tile:hover {
-    border-color: rgba(212,175,55,0.5);
-    background: rgba(212,175,55,0.05);
-    transform: translateY(-2px);
+  .dg-tile:hover {
+    border-color: rgba(212,175,55,0.42);
+    background: rgba(212,175,55,0.04);
+    transform: translateY(-1px);
   }
-  .dd-tile span { opacity: 0.6; }
+  .dg-name {
+    font-family: Georgia, serif;
+    font-size: 1.02em;
+    font-weight: 700;
+    color: #eaeaea;
+    letter-spacing: 0.2px;
+  }
+  .dg-line {
+    font-size: 0.82em;
+    color: #888;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+  }
+  .dg-closing {
+    margin-top: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.78em;
+    letter-spacing: 2px;
+    color: #555;
+    font-style: italic;
+  }
 
   /* Section 9 — Final CTA */
   #final-cta { padding: 80px 0 140px; text-align: center; }
@@ -1710,7 +1783,7 @@ const totalPapers = papersAll.length;
     #apps-teaser { padding-top: 72px; padding-bottom: 72px; }
     #mind { padding-top: 48px; padding-bottom: 48px; }
     #team { padding-top: 48px; padding-bottom: 48px; }
-    #deep-door { padding-top: 48px; padding-bottom: 48px; }
+    #deep-gateway { padding-top: 48px; padding-bottom: 48px; }
     #final-cta { padding-top: 72px; padding-bottom: 96px; }
     .apps-teaser-grid { gap: 16px; margin-top: 32px; }
     .app-teaser-card { padding: 20px 18px; }
