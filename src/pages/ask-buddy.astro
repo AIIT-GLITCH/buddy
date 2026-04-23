@@ -147,6 +147,13 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     const shareText = `buddy:\n${answer}\n\naiit-threshold.com`;
     const emailBody = `buddy:\n${answer}\n\naiit-threshold.com`;
 
+    const setExpanded = (open) => {
+      tray.hidden = !open;
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    };
+    btn.setAttribute('aria-expanded', 'false');
+    btn.setAttribute('aria-haspopup', 'true');
+
     btn.addEventListener('click', async (e) => {
       e.stopPropagation();
       try {
@@ -155,13 +162,13 @@ import BuddyMascot from '../components/BuddyMascot.astro';
           return;
         }
       } catch { /* cancel or unsupported -> fall through */ }
-      tray.hidden = !tray.hidden;
+      setExpanded(tray.hidden);
     });
 
     document.addEventListener('click', (e) => {
       if (tray.hidden) return;
       if (tray.contains(e.target) || btn.contains(e.target)) return;
-      tray.hidden = true;
+      setExpanded(false);
     });
 
     const flash = (el, msg, ok = true) => {
@@ -182,10 +189,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
         try {
           if (kind === 'copy-link') {
             await navigator.clipboard.writeText(pageUrl);
-            flash(item, 'copied');
+            flash(item, 'Copied ✓');
           } else if (kind === 'copy-answer') {
             await navigator.clipboard.writeText(shareText);
-            flash(item, 'copied');
+            flash(item, 'Copied ✓');
           } else if (kind === 'facebook') {
             window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(pageUrl), '_blank', 'noopener,noreferrer');
           } else if (kind === 'x') {
@@ -230,12 +237,15 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       html += '<div class="fo-substrate">this is the surface.<br>the deeper system is still being built.</div>';
     }
     html += '<div class="fo-actions">';
+    html += '<div class="fo-actionbar">';
     html += `<button type="button" class="fo-share-v2" data-answer="${escHtml(answer)}" aria-label="Pass it on">`;
     html += '<svg class="fo-share-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">';
     html += '<path d="M12 3v12"/><path d="m7 8 5-5 5 5"/><path d="M5 14v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5"/>';
     html += '</svg>';
     html += `<span>${escHtml(cta)}</span>`;
     html += '</button>';
+    html += '<a class="fo-gary" href="/gary">Think this holds up? →</a>';
+    html += '</div>';
     html += '<div class="fo-share-tray" hidden role="menu">';
     html += '<div class="fo-share-row fo-share-copy">';
     html += '<button type="button" class="fo-share-item" data-share="copy-link" aria-label="Copy link">';
@@ -268,7 +278,6 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     html += '</div>';
     html += '</div>';
     html += '</div>';
-    html += '<a class="fo-gary" href="/gary">Think this holds up? →</a>';
     if (strong) {
       html += '<a class="fo-what" href="/manifesto">what is this →</a>';
     }

@@ -183,37 +183,76 @@ font[style] { font-family: inherit !important; }
 .ask-response .fo-share { color: #8a5a00; border-bottom-color: rgba(138,90,0,0.4); }
 .ask-response .fo-share:hover { color: #c83a08; }
 
-/* ── Share V2 (ask-buddy only: pill button + inline tray) ── */
+/* ── Action bar (ask-buddy only: share pill + Gary CTA + inline tray) ── */
 .ask-response .fo-actions {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 6px;
-  margin-top: 8px;
+  align-items: stretch;
+  gap: 8px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(138,90,0,0.18);
+}
+.ask-response .fo-actionbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
 }
 .ask-response .fo-share-v2 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: transparent;
-  border: 1px solid rgba(138,90,0,0.35);
+  background: #fffdf5;
+  border: 1px solid rgba(138,90,0,0.5);
   border-radius: 999px;
-  padding: 6px 14px 6px 10px;
+  padding: 9px 16px 9px 12px;
   font-family: 'Courier New', monospace;
-  font-size: 0.82em;
-  letter-spacing: 0.12em;
-  color: #8a5a00;
+  font-size: 0.84em;
+  letter-spacing: 0.1em;
+  color: #5a3a00;
   cursor: pointer;
   line-height: 1;
-  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  box-shadow: 0 1px 0 rgba(138,90,0,0.08);
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
 }
 .ask-response .fo-share-v2:hover {
-  background: rgba(138,90,0,0.08);
-  color: #5a3a00;
-  border-color: rgba(138,90,0,0.6);
+  background: rgba(240,165,0,0.14);
+  color: #1a1a1a;
+  border-color: rgba(138,90,0,0.8);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(138,90,0,0.15);
 }
-.ask-response .fo-share-v2:focus { outline: none; box-shadow: 0 0 0 2px rgba(138,90,0,0.18); }
+.ask-response .fo-share-v2:active { transform: translateY(0); box-shadow: 0 1px 0 rgba(138,90,0,0.08); }
+.ask-response .fo-share-v2:focus-visible { outline: none; box-shadow: 0 0 0 2px rgba(138,90,0,0.3); }
+.ask-response .fo-share-v2[aria-expanded="true"] {
+  background: rgba(240,165,0,0.18);
+  border-color: rgba(138,90,0,0.8);
+  color: #1a1a1a;
+}
 .ask-response .fo-share-ico { width: 14px; height: 14px; flex: 0 0 14px; }
+.ask-response .fo-actionbar .fo-gary {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0;
+  padding: 9px 14px;
+  border: 1px solid rgba(138,90,0,0.28);
+  border-radius: 999px;
+  background: transparent;
+  font-size: 0.82em;
+  letter-spacing: 0.08em;
+  color: #6a5a3a;
+  line-height: 1;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+}
+.ask-response .fo-actionbar .fo-gary:hover {
+  background: rgba(138,90,0,0.06);
+  color: #1a1a1a;
+  border-color: rgba(138,90,0,0.5);
+  transform: translateY(-1px);
+}
+.ask-response .fo-actionbar .fo-gary:active { transform: translateY(0); }
+.ask-response .fo-actionbar .fo-gary:focus-visible { outline: none; box-shadow: 0 0 0 2px rgba(138,90,0,0.22); }
 
 .ask-response .fo-share-tray {
   display: flex;
