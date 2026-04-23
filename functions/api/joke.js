@@ -4,6 +4,10 @@
 // Observation is a short cognitive-recognition line injected at ~30% rate.
 // A separate ~8% rare breadcrumb says "this is running on the surface model."
 // These are mutually exclusive per response (substrate wins if both roll).
+//
+// Routes through functions/_lib/ingest.js. No direct Lil Homie fetches.
+
+import { callLilHomie } from '../_lib/ingest.js';
 
 const DAILY_LIMIT = 1;
 
@@ -81,33 +85,27 @@ export async function onRequestPost(context) {
       await env.JOKE_KV.put(throttleKey, String(cur + 1), { expirationTtl: 90 });
     }
 
-    const lilHomieToken = env.LIL_HOMIE_TOKEN;
-    if (!lilHomieToken) {
-      return new Response(JSON.stringify({ error: 'lil homie token not configured.' }), { status: 500, headers });
+    // Route through the ingestion gate. Fail-closed: no corpus write, no response.
+    const ingest = await callLilHomie({
+      env,
+      endpoint: '/joke',
+      surface: 'joke',
+      userInput: joke,
+      sessionId: token || null,
+      extras: { joke },
+    });
+    if (!ingest.ok) {
+      const msg = ingest.error === 'corpus_write_failed'
+        ? 'buddy tripped on the write path. try again.'
+        : 'lil homie is offline. try again.';
+      return new Response(JSON.stringify({
+        error: ingest.error,
+        request_id: ingest.request_id,
+        message: msg,
+      }), { status: 200, headers });
     }
-    const lilHomieUrl = env.LIL_HOMIE_URL || 'https://lilhomie.aiit-threshold.com';
-
-    // Call the real local 3B brain via cloudflared tunnel. No Anthropic fallback.
-    let reaction = '';
-    let score = 30;
-    try {
-      const response = await fetch(lilHomieUrl + '/joke', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': 'Bearer ' + lilHomieToken,
-        },
-        body: JSON.stringify({ joke }),
-      });
-      if (!response.ok) {
-        return new Response(JSON.stringify({ error: 'lil homie is offline. try again.' }), { status: 200, headers });
-      }
-      const data = await response.json();
-      reaction = String(data.reaction || '').trim();
-      score = Math.max(0, Math.min(100, parseInt(data.score, 10) || 30));
-    } catch (_) {
-      return new Response(JSON.stringify({ error: 'lil homie is offline. try again.' }), { status: 200, headers });
-    }
+    let reaction = String((ingest.data && ingest.data.reaction) || '').trim();
+    const score = Math.max(0, Math.min(100, parseInt(ingest.data && ingest.data.score, 10) || 30));
     if (!reaction) reaction = '...';
 
     const label = scoreToLabel(score);

@@ -21,6 +21,8 @@
 //     → { ok:false, error:"daily_limit_reached" }
 //     → { ok:false, error:"budget_exhausted" }   (hard floor)
 
+import { callLilHomie } from '../_lib/ingest.js';
+
 const MODEL = 'claude-sonnet-4-6';
 const ANTHROPIC_URL = 'https://api.anthropic.com/v1/messages';
 const MAX_TOKENS = 512;
@@ -203,41 +205,37 @@ export async function onRequestPost(context) {
     await KV.put(throttleKey, String(cur + 1), { expirationTtl: 90 });
   }
 
-  // ---- Call Lil Homie (the real local 3B brain via cloudflared tunnel) ----
-  // No fallback to Anthropic — identity > availability. If Lil Homie is offline,
-  // we tell the visitor honestly and refund the daily slot.
-  const LIL_HOMIE_URL = env.LIL_HOMIE_URL || 'https://lilhomie.aiit-threshold.com';
-  let answer = '';
-  try {
-    const r = await fetch(LIL_HOMIE_URL + '/ask', {
-      method: 'POST',
-      headers: {
-        'content-type': 'application/json',
-        'authorization': 'Bearer ' + (env.LIL_HOMIE_TOKEN || ''),
-      },
-      body: JSON.stringify({ question, session_id: sessionId, history }),
-      // 30s timeout-ish (CF Function ceiling is generous; 3B inference ~1-3s)
-    });
-    if (!r.ok) {
-      return new Response(JSON.stringify({
-        ok: false,
-        error: 'lilhomie_offline',
-        message: 'lil homie is offline. try again.',
-      }), { status: 200, headers });
-    }
-    const data = await r.json();
-    answer = (data.answer || '').trim();
-    if (!answer) {
-      return new Response(JSON.stringify({
-        ok: false,
-        error: 'lilhomie_offline',
-        message: 'lil homie is offline. try again.',
-      }), { status: 200, headers });
-    }
-  } catch (e) {
+  // ---- Route through the ingestion gate (see functions/_lib/ingest.js). ----
+  // The gate is the ONLY permitted path from CF Functions to Lil Homie.
+  // Fail-closed: if the backend does not confirm corpus_written:true, the
+  // visitor gets an honest failure message. No direct Anthropic fallback.
+  const ingest = await callLilHomie({
+    env,
+    endpoint: '/ask',
+    surface: 'ask',
+    userInput: question,
+    sessionId,
+    extras: { question, history },
+  });
+
+  if (!ingest.ok) {
+    const msg = ingest.error === 'corpus_write_failed'
+      ? 'buddy tripped on the write path. try again.'
+      : 'lil homie is offline. try again.';
     return new Response(JSON.stringify({
       ok: false,
-      error: 'lilhomie_offline',
+      error: ingest.error,
+      request_id: ingest.request_id,
+      message: msg,
+    }), { status: 200, headers });
+  }
+
+  const answer = String((ingest.data && ingest.data.answer) || '').trim();
+  if (!answer) {
+    return new Response(JSON.stringify({
+      ok: false,
+      error: 'lilhomie_empty_answer',
+      request_id: ingest.request_id,
       message: 'lil homie is offline. try again.',
     }), { status: 200, headers });
   }
