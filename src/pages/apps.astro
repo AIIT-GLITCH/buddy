@@ -720,8 +720,12 @@ import Layout from '../layouts/Layout.astro';
     .anchorforge-hero { padding: 28px 20px; }
     .af-top { flex-direction: column; }
     .af-actions { flex-direction: row; flex-wrap: wrap; }
-    .af-table { font-size: 0.75em; }
-    .af-table th, .af-table td { padding: 6px 8px; }
+    .af-table-block {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .af-table { font-size: 0.75em; min-width: 560px; }
+    .af-table th, .af-table td { padding: 6px 8px; white-space: nowrap; }
   }
 
   #apps-cta {
