@@ -141,6 +141,16 @@ font[style] { font-family: inherit !important; }
   letter-spacing: 0.14em;
   text-transform: lowercase;
 }
+.fo-gary {
+  display: inline-block;
+  margin-top: 12px;
+  color: #8a5a00;
+  text-decoration: none;
+  font-family: 'Courier New', monospace;
+  font-size: 9.5pt;
+  letter-spacing: 0.06em;
+}
+.fo-gary:hover { color: #1a1a1a; }
 .fo-substrate {
   font-family: 'Courier New', monospace;
   font-size: 0.74em;

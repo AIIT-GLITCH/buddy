@@ -57,6 +57,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 <script is:inline>
 (function () {
+  if (location.hash === '#ask') {
+    const i = document.getElementById('ask-input');
+    if (i) { i.focus({ preventScroll: false }); }
+  }
   const planets = Array.from(document.querySelectorAll('.ask-planet'));
   const planetsWrap = document.getElementById('ask-planets');
   let pIndex = 0;
@@ -182,6 +186,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       html += '<div class="fo-substrate">this is the surface.<br>the deeper system is still being built.</div>';
     }
     html += `<button type="button" class="fo-share" data-answer="${escHtml(answer)}">${escHtml(cta)} →</button>`;
+    html += '<a class="fo-gary" href="/gary">Think this holds up? →</a>';
     if (strong) {
       html += '<a class="fo-what" href="/manifesto">what is this →</a>';
     }

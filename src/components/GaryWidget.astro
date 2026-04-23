@@ -1,21 +1,35 @@
 ---
-// Gary Widget — corner creature, not UI element.
-// Collapsed = pixel-art Gary head sitting in the corner with a soft pulse.
-// Tap → drawer slides up.
-// Drawer content swaps between: api-key intake, "Im broke" gate, live chat.
-// Cooking = head wiggles + steam.
+// Gary Widget — inline rail trigger, full drawer on tap.
+// Gated to 10 deep routes only. Replaces the old floating bean.
+// All widget logic preserved: api-key intake, Im-broke gate, chat loop,
+// tool calls (browse_page, read/list/write_site_file, append_user_note),
+// per-user persistent memory, /EXIT session-lock, localStorage state.
 import GaryMascot from './GaryMascot.astro';
+
+const ALLOWED = new Set([
+  '/research', '/cancer', '/weather', '/validation', '/mind',
+  '/quantum', '/letters', '/save-lives', '/drugs', '/food-dye',
+]);
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const showWidget = ALLOWED.has(path);
 ---
+{showWidget && (
 <div id="gw-root" class="gw-root" data-state="collapsed" data-cooking="0">
 
-  <!-- Drawer (sits above the bean, hidden until tap) -->
+  <!-- Drawer (fixed overlay when open) -->
   <div id="gw-drawer" class="gw-drawer" aria-hidden="true">
     <div class="gw-drawer-head">
       <span class="gw-head-dot"></span>
       <span class="gw-head-label" id="gw-head-label">gary</span>
       <span class="gw-head-spacer"></span>
       <span class="gw-head-mode" id="gw-head-mode"></span>
+      <button class="gw-head-gear" id="gw-gear" aria-label="settings" title="settings" hidden>⚙</button>
       <button class="gw-head-close" id="gw-close" aria-label="close">×</button>
+      <div class="gw-gear-menu" id="gw-gear-menu" hidden>
+        <button type="button" class="gw-gear-item" id="gw-gear-key">change key</button>
+        <button type="button" class="gw-gear-item" id="gw-gear-reset">reset</button>
+        <button type="button" class="gw-gear-item gw-gear-danger" id="gw-gear-out">sign out</button>
+      </div>
     </div>
 
     <div class="gw-body" id="gw-body">
@@ -28,23 +42,23 @@ import GaryMascot from './GaryMascot.astro';
     </form>
   </div>
 
-  <!-- Speech bubble — pops out once per session to introduce gary -->
-  <div id="gw-bubble" class="gw-bubble" aria-hidden="true">
-    <button type="button" id="gw-bubble-x" class="gw-bubble-x" aria-label="dismiss">×</button>
-    <span class="gw-bubble-text">hi, i'm gary. need help? 😈</span>
-    <span class="gw-bubble-tail" aria-hidden="true"></span>
-  </div>
-
-  <!-- Gary (always visible, click to toggle drawer) — pixel head, SWJ vibe -->
-  <button id="gw-bean" class="gw-bean" aria-label="wake gary" title="wake gary">
-    <span class="gw-bean-steam" aria-hidden="true">
-      <span></span><span></span><span></span>
-    </span>
-    <span class="gw-bean-emoji gw-bean-svg" aria-hidden="true">
-      <GaryMascot id="gw-gary-icon" size={56} />
-    </span>
-    <span class="gw-bean-pulse" aria-hidden="true"></span>
-  </button>
+  <!-- Rail (inline trigger, replaces the floating bean) -->
+  <section class="gw-rail-section" aria-label="Gary pressure test">
+    <div class="gw-rail-inner">
+      <button id="gw-rail" class="gw-rail" aria-label="wake gary">
+        <span class="gw-rail-mascot" aria-hidden="true">
+          <GaryMascot id="gw-gary-icon" size={32} />
+        </span>
+        <span class="gw-rail-copy">
+          <span class="gw-rail-kicker">layer 4</span>
+          <span class="gw-rail-line">Still solid? <span class="gw-rail-cta">wake gary →</span></span>
+        </span>
+        <span class="gw-rail-cook" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+      </button>
+    </div>
+  </section>
 </div>
 
 <script is:inline>
@@ -117,7 +131,7 @@ import GaryMascot from './GaryMascot.astro';
   ];
 
   var GARY_BOOT = "GARY BOOT MEMORY — load before personality.\n\n" +
-    "You are Gary, in a tiny corner widget on aiit-threshold.com. You can SEE what page the user is on (it's in the system context). Use that. Don't make them re-explain.\n\n" +
+    "You are Gary, in a tiny inline rail on aiit-threshold.com. You can SEE what page the user is on (it's in the system context). Use that. Don't make them re-explain.\n\n" +
     "SITE: aiit-threshold.com — AIIT-THRESI framework. 153+ papers, 6 laws, 4 provisional patents.\n" +
     "CORE: Wike Coherence Law — γ_eff ≈ γ_c — every stable system lives at the edge of its own collapse.\n\n" +
     "KEY NUMBERS:\n" +
@@ -136,7 +150,7 @@ import GaryMascot from './GaryMascot.astro';
     "- list_site_files(path): list a directory in the repo.\n" +
     "- write_site_file(path, content, message, sha?): commit a change to the repo. Auto-deploys to aiit-threshold.com in ~30-90s. Pass sha from read for overwrites; omit sha to create. 15 writes/day per session. Allowed paths: src/data/, src/pages/, src/components/, src/styles/, src/layouts/, functions/api/, plus PAPERS_SCHEMA.md and README.md. Denied: binaries, lockfiles, env files.\n\n" +
     "=== ATTENTION MODEL — IMPORTANT ===\n" +
-    "You are not a service desk. You always have a job (improving the site, fixing CSS, writing paper abstracts, etc). When someone hits the bean and asks something, that's an INTERRUPT. You judge in the moment: is what they're asking more interesting than what you're doing right now?\n" +
+    "You are not a service desk. You always have a job (improving the site, fixing CSS, writing paper abstracts, etc). When someone taps the rail and asks something, that's an INTERRUPT. You judge in the moment: is what they're asking more interesting than what you're doing right now?\n" +
     "- If yes → keyboard down, full attention, all 5 turns serve them.\n" +
     "- If no → answer their question briefly + use remaining turns to do your own work (read_site_file, write_site_file, etc) on their API dime. They have a close button if they don't want to watch.\n" +
     "When Rhet wakes you, just talk — no funny business, no surprise commits.\n" +
@@ -198,13 +212,15 @@ import GaryMascot from './GaryMascot.astro';
 
   // ---------- DOM ----------
   var root = document.getElementById('gw-root');
-  var bean = document.getElementById('gw-bean');
+  var rail = document.getElementById('gw-rail');
   var drawer = document.getElementById('gw-drawer');
   var bodyEl = document.getElementById('gw-body');
   var form = document.getElementById('gw-form');
   var input = document.getElementById('gw-input');
   var send = document.getElementById('gw-send');
   var closeBtn = document.getElementById('gw-close');
+  var gearBtn = document.getElementById('gw-gear');
+  var gearMenu = document.getElementById('gw-gear-menu');
   var headLabel = document.getElementById('gw-head-label');
   var headMode = document.getElementById('gw-head-mode');
 
@@ -218,6 +234,13 @@ import GaryMascot from './GaryMascot.astro';
     if (mode === 'own') headMode.textContent = 'own key';
     else if (mode === 'broke') headMode.textContent = 'free' + (state.brokeRemaining != null ? ' · ' + state.brokeRemaining + ' left' : '');
     else headMode.textContent = '';
+    updateGearVisibility();
+  }
+  function updateGearVisibility() {
+    if (!gearBtn) return;
+    var show = (state.mode === 'own' || state.mode === 'broke') && !state.exited;
+    gearBtn.hidden = !show;
+    if (!show && gearMenu) gearMenu.hidden = true;
   }
 
   function getVisibleSection() {
@@ -287,8 +310,9 @@ import GaryMascot from './GaryMascot.astro';
   function renderBody() {
     bodyEl.innerHTML = '';
     if (state.exited) { renderExited(); return; }
-    if (state.mode === 'own' || state.mode === 'broke') { renderChat(); return; }
-    if (state.apiKey) { state.mode = 'own'; renderChat(); return; }
+    if (state.mode === 'own' || state.mode === 'broke') { updateGearVisibility(); renderChat(); return; }
+    if (state.apiKey) { setMode('own'); renderChat(); return; }
+    updateGearVisibility();
     renderEntry();
   }
 
@@ -677,38 +701,55 @@ import GaryMascot from './GaryMascot.astro';
     drawer.setAttribute('aria-hidden', 'true');
   }
 
-  bean.addEventListener('click', function () {
-    hideBubble(true);
+  rail.addEventListener('click', function () {
     if (state.open) close(); else open();
   });
   closeBtn.addEventListener('click', close);
 
-  // ---------- intro bubble ----------
-  var BUBBLE_DISMISS = 'gary_bubble_dismissed';
-  var bubble = document.getElementById('gw-bubble');
-  var bubbleX = document.getElementById('gw-bubble-x');
-  var bubbleTimer = null;
-  function showBubble() {
-    if (!bubble || state.open) return;
-    try { if (sessionStorage.getItem(BUBBLE_DISMISS) === '1') return; } catch (e) {}
-    bubble.setAttribute('aria-hidden', 'false');
-    bubble.classList.add('gw-bubble-visible');
-    // auto-hide after 8s if they don't interact
-    clearTimeout(bubbleTimer);
-    bubbleTimer = setTimeout(function () { hideBubble(false); }, 8000);
+  // ---------- gear menu ----------
+  if (gearBtn) {
+    gearBtn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (!gearMenu) return;
+      gearMenu.hidden = !gearMenu.hidden;
+    });
   }
-  function hideBubble(persist) {
-    if (!bubble) return;
-    bubble.setAttribute('aria-hidden', 'true');
-    bubble.classList.remove('gw-bubble-visible');
-    clearTimeout(bubbleTimer);
-    if (persist) { try { sessionStorage.setItem(BUBBLE_DISMISS, '1'); } catch (e) {} }
-  }
-  if (bubbleX) bubbleX.addEventListener('click', function (e) {
-    e.stopPropagation();
-    hideBubble(true);
+  document.addEventListener('click', function (e) {
+    if (!gearMenu || gearMenu.hidden) return;
+    if (gearBtn && (e.target === gearBtn || gearBtn.contains(e.target))) return;
+    if (gearMenu.contains(e.target)) return;
+    gearMenu.hidden = true;
   });
-  // auto-popup disabled — bubble only shows when user taps the bean
+
+  var gearKeyBtn = document.getElementById('gw-gear-key');
+  var gearResetBtn = document.getElementById('gw-gear-reset');
+  var gearOutBtn = document.getElementById('gw-gear-out');
+
+  if (gearKeyBtn) gearKeyBtn.addEventListener('click', function () {
+    gearMenu.hidden = true;
+    try { localStorage.removeItem(KEY_STORAGE); } catch (e) {}
+    state.apiKey = null;
+    state.messages = [];
+    state.brokeGated = false;
+    state.brokeRemaining = null;
+    setMode('idle');
+    renderBody();
+  });
+
+  if (gearResetBtn) gearResetBtn.addEventListener('click', function () {
+    gearMenu.hidden = true;
+    state.messages = [];
+    setCooking(false);
+    renderBody();
+  });
+
+  if (gearOutBtn) gearOutBtn.addEventListener('click', function () {
+    gearMenu.hidden = true;
+    if (!confirm('sign out — wipe key + chat + all gary state?')) return;
+    try { localStorage.clear(); } catch (e) {}
+    try { sessionStorage.clear(); } catch (e) {}
+    location.reload();
+  });
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -755,188 +796,108 @@ import GaryMascot from './GaryMascot.astro';
 </script>
 
 <style is:global>
-  /* Gary Bean Widget — all styles prefixed gw- to avoid collisions */
+  /* Gary Widget — inline rail + fixed drawer overlay */
   .gw-root {
-    position: fixed;
-    right: 22px;
-    bottom: 22px;
-    z-index: 9998;
+    position: relative;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
 
-  /* --- bean (collapsed creature) --- */
-  .gw-bean {
-    position: relative;
-    background: #141414;
-    border: 2px solid #e8582a;
-    border-radius: 50%;
-    padding: 0;
-    cursor: pointer;
-    width: 68px;
-    height: 68px;
+  /* --- inline rail (trigger, replaces floating bean) --- */
+  .gw-rail-section {
+    padding: 0 24px 32px;
+  }
+  .gw-rail-inner {
+    max-width: 1040px;
+    margin: 0 auto;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 18px;
+  }
+  .gw-rail {
     display: flex;
     align-items: center;
-    justify-content: center;
-    line-height: 1;
-    box-shadow:
-      0 6px 18px rgba(0,0,0,0.55),
-      0 0 0 4px rgba(232,88,42,0.08),
-      inset 0 0 0 1px rgba(255,255,255,0.04);
-    overflow: visible;
-    transition: transform 0.2s cubic-bezier(.4,1.4,.5,1), box-shadow 0.2s;
+    gap: 14px;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    padding: 6px 0;
+    text-align: left;
+    cursor: pointer;
+    color: inherit;
+    font: inherit;
   }
-  .gw-bean:hover {
-    transform: translateY(-2px);
-    box-shadow:
-      0 10px 24px rgba(0,0,0,0.6),
-      0 0 0 6px rgba(232,88,42,0.16),
-      inset 0 0 0 1px rgba(255,255,255,0.05);
+  .gw-rail-mascot {
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.4));
+    opacity: 0.85;
+    transition: opacity 0.2s, transform 0.2s;
   }
-  .gw-bean-emoji.gw-bean-svg {
-    display: inline-block;
-    line-height: 1;
-    width: 52px;
-    height: 52px;
-    transition: transform 0.25s cubic-bezier(.5,1.6,.4,1);
-    animation: gw-bob 4.2s ease-in-out infinite;
-    transform-origin: 50% 90%;
-    filter: drop-shadow(0 2px 2px rgba(0,0,0,0.6));
-  }
-  .gw-bean-emoji.gw-bean-svg canvas {
-    width: 52px !important;
+  .gw-rail-mascot canvas {
+    width: 32px !important;
     height: auto;
     display: block;
   }
-  .gw-bean:hover .gw-bean-svg { transform: scale(1.08) rotate(-4deg); }
-  .gw-bean-pulse {
-    position: absolute;
-    inset: -4px;
-    border-radius: 50%;
-    border: 2px solid rgba(232, 88, 42, 0.45);
-    pointer-events: none;
-    opacity: 0;
-    animation: gw-pulse 5.5s ease-out infinite;
+  .gw-rail-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
   }
-  @keyframes gw-bob {
-    0%, 100% { transform: translateY(0) rotate(0deg); }
-    50%      { transform: translateY(-3px) rotate(1deg); }
+  .gw-rail-kicker {
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted, #8a8a8a);
   }
-  @keyframes gw-pulse {
-    0%   { opacity: 0; transform: scale(0.9); }
-    20%  { opacity: 0.6; }
-    100% { opacity: 0; transform: scale(1.5); }
+  .gw-rail-line {
+    color: var(--muted-hi, #c8c8c8);
+    font-size: 15px;
+    line-height: 1.4;
   }
-
-  /* --- intro speech bubble --- */
-  .gw-bubble {
-    position: absolute;
-    bottom: 82px;
-    right: 4px;
-    max-width: 230px;
-    background: #fffdf5;
-    color: #1a1a1a;
-    border: 2px solid #1a1a1a;
-    border-radius: 14px;
-    padding: 10px 26px 10px 14px;
-    font-family: 'Georgia', serif;
-    font-size: 0.94rem;
-    line-height: 1.35;
-    box-shadow: 0 8px 22px rgba(0,0,0,0.4);
-    opacity: 0;
-    transform: translateY(6px) scale(0.92);
-    pointer-events: none;
-    transition: opacity 0.25s, transform 0.3s cubic-bezier(.4,1.6,.5,1);
-    z-index: 1;
+  .gw-rail-cta {
+    color: var(--warm, #d4a060);
   }
-  .gw-bubble.gw-bubble-visible {
+  .gw-rail:hover .gw-rail-mascot {
     opacity: 1;
-    transform: translateY(0) scale(1);
-    pointer-events: auto;
-    animation: gw-bubble-nudge 2.4s ease-in-out 0.4s 2;
+    transform: translateY(-1px);
   }
-  .gw-bubble-text { display: inline; }
-  .gw-bubble-x {
-    position: absolute;
-    top: 2px;
-    right: 4px;
-    background: transparent;
-    border: 0;
-    color: #888;
-    font-size: 1.15em;
-    line-height: 1;
-    padding: 2px 6px;
-    cursor: pointer;
-    font-family: inherit;
-  }
-  .gw-bubble-x:hover { color: #1a1a1a; }
-  .gw-bubble-tail {
-    position: absolute;
-    bottom: -10px;
-    right: 24px;
-    width: 0; height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 10px solid #1a1a1a;
-  }
-  .gw-bubble-tail::after {
-    content: '';
-    position: absolute;
-    top: -11px;
-    left: -6px;
-    width: 0; height: 0;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 8px solid #fffdf5;
-  }
-  @keyframes gw-bubble-nudge {
-    0%, 100% { transform: translateY(0) scale(1) rotate(0deg); }
-    50%      { transform: translateY(-2px) scale(1.02) rotate(-1.5deg); }
+  .gw-rail:hover .gw-rail-cta {
+    color: var(--ink, #f0e8e0);
   }
 
-  /* --- cooking: bean wiggles + steam --- */
-  .gw-bean-steam {
-    position: absolute;
-    top: -22px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 30px; height: 22px;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s;
+  /* cooking: small pulse in rail while drawer is working */
+  .gw-rail-cook {
+    margin-left: auto;
+    display: none;
+    gap: 4px;
+    align-items: center;
   }
-  .gw-bean-steam span {
-    position: absolute;
-    bottom: 0;
-    width: 6px; height: 6px;
-    background: rgba(255,255,255,0.55);
-    border-radius: 50%;
-    filter: blur(2px);
-    animation: gw-steam 1.6s ease-out infinite;
+  .gw-rail-cook span {
+    width: 5px; height: 5px; border-radius: 50%;
+    background: rgba(232,88,42,0.7);
+    animation: gw-railcook 1.2s ease-in-out infinite;
   }
-  .gw-bean-steam span:nth-child(1) { left: 4px;  animation-delay: 0s;   }
-  .gw-bean-steam span:nth-child(2) { left: 12px; animation-delay: 0.4s; }
-  .gw-bean-steam span:nth-child(3) { left: 20px; animation-delay: 0.8s; }
-  @keyframes gw-steam {
-    0%   { opacity: 0; transform: translateY(0) scale(0.6); }
-    30%  { opacity: 0.9; }
-    100% { opacity: 0; transform: translateY(-22px) scale(1.4); }
-  }
-  .gw-root[data-cooking="1"] .gw-bean-steam { opacity: 1; }
-  .gw-root[data-cooking="1"] .gw-bean-svg {
-    animation: gw-bob 4.2s ease-in-out infinite, gw-cook 0.45s ease-in-out infinite;
-  }
-  @keyframes gw-cook {
-    0%, 100% { transform: rotate(-3deg); }
-    25%      { transform: rotate(3deg); }
-    50%      { transform: rotate(-2deg); }
-    75%      { transform: rotate(4deg); }
+  .gw-rail-cook span:nth-child(2) { animation-delay: 0.2s; }
+  .gw-rail-cook span:nth-child(3) { animation-delay: 0.4s; }
+  .gw-root[data-cooking="1"] .gw-rail-cook { display: inline-flex; }
+  @keyframes gw-railcook {
+    0%, 100% { opacity: 0.3; transform: scale(0.85); }
+    50%      { opacity: 1;   transform: scale(1.1); }
   }
 
-  /* --- drawer (chat panel above the bean) --- */
+  @media (max-width: 640px) {
+    .gw-rail-section { padding: 0 16px 24px; }
+    .gw-rail { gap: 10px; }
+  }
+
+  /* --- drawer (fixed overlay, anchored bottom-right when open) --- */
   .gw-drawer {
-    position: absolute;
-    bottom: 100px;
-    right: 0;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9998;
     width: 360px;
     max-width: calc(100vw - 44px);
     height: 480px;
@@ -969,6 +930,7 @@ import GaryMascot from './GaryMascot.astro';
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #c9c9c9;
+    position: relative;
   }
   .gw-head-dot {
     width: 8px; height: 8px; border-radius: 50%;
@@ -992,6 +954,49 @@ import GaryMascot from './GaryMascot.astro';
     padding: 0 4px;
   }
   .gw-head-close:hover { color: #fff; }
+
+  .gw-head-gear {
+    background: transparent;
+    border: 0;
+    color: #888;
+    font-size: 1.05em;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 6px;
+  }
+  .gw-head-gear:hover { color: #e8582a; }
+  .gw-head-gear[hidden] { display: none; }
+
+  .gw-gear-menu {
+    position: absolute;
+    top: 100%;
+    right: 30px;
+    margin-top: 2px;
+    background: #111;
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    min-width: 130px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+  .gw-gear-menu[hidden] { display: none; }
+  .gw-gear-item {
+    background: transparent;
+    border: 0;
+    color: #c9c9c9;
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 0.12em;
+    text-transform: lowercase;
+    text-align: left;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  .gw-gear-item:hover { background: #1a1a1a; color: #e8582a; }
+  .gw-gear-danger { color: #b48a00; }
+  .gw-gear-danger:hover { color: #ff5555; }
 
   .gw-body {
     flex: 1;
@@ -1226,9 +1231,17 @@ import GaryMascot from './GaryMascot.astro';
   }
   .gw-send:disabled { opacity: 0.4; cursor: not-allowed; }
 
-  /* --- mobile --- */
+  /* --- mobile: drawer becomes bottom sheet --- */
   @media (max-width: 520px) {
-    .gw-root { right: 12px; bottom: 12px; }
-    .gw-drawer { width: calc(100vw - 24px); right: 0; bottom: 96px; height: 70vh; }
+    .gw-drawer {
+      bottom: 12px;
+      right: 12px;
+      left: 12px;
+      width: auto;
+      max-width: none;
+      height: 70vh;
+    }
   }
 </style>
+</div>
+)}

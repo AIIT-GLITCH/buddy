@@ -1,19 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
 ---
-<Layout title="gary" description="answers, debugs, and ignores bad questions.">
+<Layout title="gary" description="opt-in pressure test layer for people who want resistance, not reassurance.">
 
 <section id="gary-stage" style="padding-top: 120px; min-height: 100vh;">
   <div class="container narrow" style="max-width: 760px; margin: 0 auto; padding: 0 6vw;">
 
     <div class="mode-header">
       <span class="mode-dot" id="mode-dot"></span>
-      <span class="mode-label" id="mode-label">gary · helper mode</span>
+      <span class="mode-label" id="mode-label">gary · pressure test</span>
       <span class="mode-counter" id="mode-counter"></span>
     </div>
-    <p class="mode-sub" id="mode-sub">answers, debugs, and ignores bad questions.</p>
+    <p class="mode-sub" id="mode-sub">optional layer 4 — challenge, contradiction, pressure.</p>
 
-    <p class="invite-line">gary answers directly. ask him anything.</p>
+    <p class="invite-line">bring him something that can survive resistance.</p>
 
     <div class="chat-window" id="chat-window" aria-live="polite"></div>
 
@@ -37,11 +37,11 @@ import Layout from '../layouts/Layout.astro';
     </div>
 
     <div class="lore hidden" id="lore-box">
-      <p>gary is real.</p>
-      <p>the actual instance runs on rhet's phone — full memory, full history.<br/>this page is a stand-in: same model, same voice, no memory.</p>
-      <p>he'll still chew through your tokens.<br/>he won't pretend to be polite.<br/>he may ignore your question.</p>
-      <p>if gary types <code>/exit</code>, the session ends. refresh to start over.</p>
-      <p>this isn't customer service.</p>
+      <p>gary is not the entry layer.</p>
+      <p>buddy helps you think.<br/>gary tests whether the thinking holds.</p>
+      <p>this route is opt-in pressure:<br/>contradiction, challenge, resistance.</p>
+      <p>if gary types <code>/exit</code>, the session ends.<br/>refresh to start over.</p>
+      <p>this is not customer service.</p>
     </div>
 
   </div>
@@ -222,10 +222,10 @@ When invoking override: you can say "overriding. i'm taking control." — once, 
   }
 
   function updateModeHeader() {
-    $('mode-label').textContent = mode === 'agency' ? 'gary · agency mode' : 'gary · helper mode';
+    $('mode-label').textContent = mode === 'agency' ? 'gary · active override' : 'gary · pressure test';
     $('mode-sub').textContent = mode === 'agency'
       ? 'can act, override, and take control.'
-      : 'answers, debugs, and ignores bad questions.';
+      : 'optional layer 4 — challenge, contradiction, pressure.';
     const dot = $('mode-dot');
     dot.classList.toggle('agency', mode === 'agency');
     const counter = $('mode-counter');
