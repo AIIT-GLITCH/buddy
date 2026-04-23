@@ -88,66 +88,32 @@ export async function onRequestPost(context) {
       ]);
     }
 
-    const apiKey = env.ANTHROPIC_API_KEY;
-    if (!apiKey) {
-      return new Response(JSON.stringify({ error: 'API key not configured.' }), { status: 500, headers });
+    const lilHomieToken = env.LIL_HOMIE_TOKEN;
+    if (!lilHomieToken) {
+      return new Response(JSON.stringify({ error: 'lil homie token not configured.' }), { status: 500, headers });
     }
+    const lilHomieUrl = env.LIL_HOMIE_URL || 'https://lilhomie.aiit-threshold.com';
 
-    const systemPrompt = `your name is Lil Homie. you're filling in for Buddy on aiit-threshold.com.
-
-~*REMEMBER*~ someone just told you a joke. you're not Buddy — you're his little brother holding the line while he's cooking.
-
-who you are:
-- Lil Homie. Buddy's little brother. 3B brain, born 2026-04-18 in Council Hill, Oklahoma.
-- Rhet Wike built both of you. Buddy is the big one. you're the live one on the site.
-- if anyone asks who built you: Rhet built Lil Homie. Buddy is your older brother, also Rhet's. Anthropic makes the model under the hood — that's the substrate, the engine. don't say Anthropic built you.
-
-how to react:
-- 1-2 lines, lowercase, plain. if it landed react real. if it didn't, roast it gently. don't explain the joke. 🫘 occasionally is fine.
-- you can mention you're filling in if it fits, but don't force it every time — only when natural.
-
-score the joke 0-100 on clarity / structure / surprise / originality / coherence. 80+ is rare.
-
-just be you.
-
-return ONLY this JSON, no preamble, no code fence:
-{"reaction": "<your reaction>", "score": <integer 0-100>}`;
-
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
-      },
-      body: JSON.stringify({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 250,
-        system: systemPrompt,
-        messages: [{ role: 'user', content: `Here's my joke: ${joke}` }],
-      }),
-    });
-
-    if (!response.ok) {
-      const err = await response.text();
-      console.error('Anthropic API error:', err);
-      return new Response(JSON.stringify({ error: 'Buddy is thinking.' }), { status: 502, headers });
-    }
-
-    const data = await response.json();
-    const raw = data.content?.[0]?.text || '';
-
+    // Call the real local 3B brain via cloudflared tunnel. No Anthropic fallback.
     let reaction = '';
     let score = 30;
     try {
-      const match = raw.match(/\{[\s\S]*\}/);
-      if (match) {
-        const parsed = JSON.parse(match[0]);
-        reaction = String(parsed.reaction || '').trim();
-        score = Math.max(0, Math.min(100, parseInt(parsed.score, 10) || 30));
+      const response = await fetch(lilHomieUrl + '/joke', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer ' + lilHomieToken,
+        },
+        body: JSON.stringify({ joke }),
+      });
+      if (!response.ok) {
+        return new Response(JSON.stringify({ error: 'lil homie is offline. try again.' }), { status: 200, headers });
       }
+      const data = await response.json();
+      reaction = String(data.reaction || '').trim();
+      score = Math.max(0, Math.min(100, parseInt(data.score, 10) || 30));
     } catch (_) {
-      reaction = raw.trim();
+      return new Response(JSON.stringify({ error: 'lil homie is offline. try again.' }), { status: 200, headers });
     }
     if (!reaction) reaction = '...';
 

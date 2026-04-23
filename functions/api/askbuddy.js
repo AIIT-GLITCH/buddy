@@ -157,10 +157,10 @@ export async function onRequestPost(context) {
   const { request, env } = context;
   const headers = corsHeaders();
 
-  if (!env.ANTHROPIC_API_KEY) {
+  if (!env.LIL_HOMIE_TOKEN) {
     return new Response(JSON.stringify({
       ok: false,
-      error: 'askbuddy not configured (ANTHROPIC_API_KEY missing)'
+      error: 'askbuddy not configured (LIL_HOMIE_TOKEN missing)'
     }), { status: 503, headers });
   }
   // KV is optional — reuse whatever's already bound, soft-skip if neither.
@@ -216,60 +216,56 @@ export async function onRequestPost(context) {
     await KV.put(bucketKey, '1', { expirationTtl: 26 * 60 * 60 });
   }
 
-  // ---- Call Anthropic ----
+  // ---- Call Lil Homie (the real local 3B brain via cloudflared tunnel) ----
+  // No fallback to Anthropic — identity > availability. If Lil Homie is offline,
+  // we tell the visitor honestly and refund the daily slot.
+  const LIL_HOMIE_URL = env.LIL_HOMIE_URL || 'https://lilhomie.aiit-threshold.com';
   let answer = '';
-  let inTokens = 0;
-  let outTokens = 0;
   try {
-    const r = await fetch(ANTHROPIC_URL, {
+    const r = await fetch(LIL_HOMIE_URL + '/ask', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
-        'x-api-key': env.ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01',
+        'authorization': 'Bearer ' + (env.LIL_HOMIE_TOKEN || ''),
       },
-      body: JSON.stringify({
-        model: MODEL,
-        max_tokens: MAX_TOKENS,
-        system: BUDDY_SYSTEM,
-        messages: [{ role: 'user', content: question }],
-      })
+      body: JSON.stringify({ question }),
+      // 30s timeout-ish (CF Function ceiling is generous; 3B inference ~1-3s)
     });
-    const data = await r.json();
     if (!r.ok) {
-      // Refund the slot so the user isn't punished for our failure.
       if (KV && !isAdmin) await KV.delete(bucketKey);
       return new Response(JSON.stringify({
         ok: false,
-        error: 'upstream_failed',
-        detail: (data && data.error && data.error.message) || ('status ' + r.status),
+        error: 'lilhomie_offline',
+        message: 'lil homie is offline. try again.',
       }), { status: 200, headers });
     }
-    answer = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('\n').trim();
-    inTokens = (data.usage && data.usage.input_tokens) || 0;
-    outTokens = (data.usage && data.usage.output_tokens) || 0;
+    const data = await r.json();
+    answer = (data.answer || '').trim();
+    if (!answer) {
+      if (KV && !isAdmin) await KV.delete(bucketKey);
+      return new Response(JSON.stringify({
+        ok: false,
+        error: 'lilhomie_offline',
+        message: 'lil homie is offline. try again.',
+      }), { status: 200, headers });
+    }
   } catch (e) {
     if (KV && !isAdmin) await KV.delete(bucketKey);
     return new Response(JSON.stringify({
       ok: false,
-      error: 'network_failed',
-      detail: e && e.message ? e.message : String(e),
+      error: 'lilhomie_offline',
+      message: 'lil homie is offline. try again.',
     }), { status: 200, headers });
   }
 
-  // ---- Spend tracking (KV optional) ----
-  const cost = estimateCost(inTokens, outTokens);
-  const newSpent = spent + cost;
+  // ---- Logging only (no spend — Lil Homie runs on Rhet's GPU, $0 per call) ----
   if (KV) {
-    await KV.put(spentKey, newSpent.toFixed(6), { expirationTtl: 45 * 24 * 60 * 60 });
     const logKey = 'askbuddy_log:' + date + ':' + Date.now() + ':' + Math.random().toString(36).slice(2, 8);
     await KV.put(logKey, JSON.stringify({
       t: new Date().toISOString(),
       q: question.slice(0, 240),
-      in: inTokens, out: outTokens, cost: +cost.toFixed(6),
+      backend: 'lil_homie',
     }), { expirationTtl: 14 * 24 * 60 * 60 });
-    // Fire-and-forget alert check (needs KV for dedupe)
-    context.waitUntil(maybeSendBudgetAlert(env, KV, newSpent, budget));
   }
 
   // First-output shape: answer + optional observation + cta + layer.
