@@ -68,24 +68,17 @@ export async function onRequestPost(context) {
       return new Response(JSON.stringify({ error: 'Not from here.' }), { status: 403, headers });
     }
 
+    // Per-minute throttle (10/min/visitor) — Lil Homie is free, just block bots
     if (env.JOKE_KV && !isAdmin) {
       const ip = request.headers.get('cf-connecting-ip') || 'anon';
-      const today = new Date().toISOString().slice(0, 10);
-      const ipKey = `ip:${ip}:${today}`;
-      const tokenKey = token ? `tok:${token}:${today}` : null;
-
-      const [ipUsed, tokUsed] = await Promise.all([
-        env.JOKE_KV.get(ipKey),
-        tokenKey ? env.JOKE_KV.get(tokenKey) : Promise.resolve(null),
-      ]);
-      if (ipUsed || tokUsed) {
-        return new Response(JSON.stringify({ error: 'once_per_day' }), { status: 429, headers });
+      const minute = Math.floor(Date.now() / 60000);
+      const fp = token || 'anon';
+      const throttleKey = `joke_thr:${ip}:${fp}:${minute}`;
+      const cur = parseInt((await env.JOKE_KV.get(throttleKey)) || '0', 10);
+      if (cur >= 10) {
+        return new Response(JSON.stringify({ error: 'rate_limited', message: 'slow down a sec — try again in a moment.' }), { status: 200, headers });
       }
-
-      await Promise.all([
-        env.JOKE_KV.put(ipKey, '1', { expirationTtl: 86400 }),
-        tokenKey ? env.JOKE_KV.put(tokenKey, '1', { expirationTtl: 86400 }) : Promise.resolve(),
-      ]);
+      await env.JOKE_KV.put(throttleKey, String(cur + 1), { expirationTtl: 90 });
     }
 
     const lilHomieToken = env.LIL_HOMIE_TOKEN;

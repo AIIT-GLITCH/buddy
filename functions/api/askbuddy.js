@@ -180,40 +180,21 @@ export async function onRequestPost(context) {
 
   const ip = request.headers.get('CF-Connecting-IP') ||
              request.headers.get('x-forwarded-for') || 'unknown';
-  const date = todayKey();
-  const bucketKey = 'askbuddy_bucket:' + await sha256Hex(ip + '|' + fingerprint + '|' + date);
-  const spentKey = 'askbuddy_spend:' + monthKey();
+  const minute = Math.floor(Date.now() / 60000); // current minute bucket
+  const throttleKey = 'askbuddy_thr:' + await sha256Hex(ip + '|' + fingerprint + '|' + minute);
 
-  // ---- Daily cap check (KV-gated; soft-skip if no KV bound or admin) ----
+  // ---- Per-minute throttle (10/min/visitor) — Lil Homie is free, just block bots ----
+  const PER_MIN_LIMIT = 10;
   if (KV && !isAdmin) {
-    const existing = await KV.get(bucketKey);
-    if (existing) {
+    const cur = parseInt((await KV.get(throttleKey)) || '0', 10);
+    if (cur >= PER_MIN_LIMIT) {
       return new Response(JSON.stringify({
         ok: false,
-        error: 'daily_limit_reached',
-        message: "you've used today's question. come back tomorrow."
+        error: 'rate_limited',
+        message: 'slow down a sec — try again in a moment.',
       }), { status: 200, headers });
     }
-  }
-
-  // ---- Hard budget floor (also KV-gated) ----
-  const budget = parseFloat(env.ASKBUDDY_BUDGET_USD || '50');
-  let spent = 0;
-  if (KV) {
-    const spentRaw = await KV.get(spentKey);
-    spent = parseFloat(spentRaw || '0') || 0;
-    if (spent >= budget) {
-      return new Response(JSON.stringify({
-        ok: false,
-        error: 'budget_exhausted',
-        message: 'askbuddy is resting right now. check back later.'
-      }), { status: 200, headers });
-    }
-  }
-
-  // ---- Claim the slot BEFORE calling upstream (if KV available, non-admin) ----
-  if (KV && !isAdmin) {
-    await KV.put(bucketKey, '1', { expirationTtl: 26 * 60 * 60 });
+    await KV.put(throttleKey, String(cur + 1), { expirationTtl: 90 });
   }
 
   // ---- Call Lil Homie (the real local 3B brain via cloudflared tunnel) ----
@@ -232,7 +213,6 @@ export async function onRequestPost(context) {
       // 30s timeout-ish (CF Function ceiling is generous; 3B inference ~1-3s)
     });
     if (!r.ok) {
-      if (KV && !isAdmin) await KV.delete(bucketKey);
       return new Response(JSON.stringify({
         ok: false,
         error: 'lilhomie_offline',
@@ -242,7 +222,6 @@ export async function onRequestPost(context) {
     const data = await r.json();
     answer = (data.answer || '').trim();
     if (!answer) {
-      if (KV && !isAdmin) await KV.delete(bucketKey);
       return new Response(JSON.stringify({
         ok: false,
         error: 'lilhomie_offline',
@@ -260,7 +239,7 @@ export async function onRequestPost(context) {
 
   // ---- Logging only (no spend — Lil Homie runs on Rhet's GPU, $0 per call) ----
   if (KV) {
-    const logKey = 'askbuddy_log:' + date + ':' + Date.now() + ':' + Math.random().toString(36).slice(2, 8);
+    const logKey = 'askbuddy_log:' + todayKey() + ':' + Date.now() + ':' + Math.random().toString(36).slice(2, 8);
     await KV.put(logKey, JSON.stringify({
       t: new Date().toISOString(),
       q: question.slice(0, 240),
