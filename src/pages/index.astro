@@ -568,6 +568,16 @@ const totalPapers = papersAll.length;
     return t;
   }
 
+  // Rolling multi-turn context for /joke (Cycle 6). Same shape as /ask-buddy:
+  // { q, a } pairs, capped at 6, in-memory per page life. Token above is the
+  // session_id — stable across sends within a tab, distinct across visitors.
+  const JOKE_MAX_HISTORY = 6;
+  const jokeHistory = [];
+  function pushJokeTurn(q, a) {
+    jokeHistory.push({ q, a });
+    while (jokeHistory.length > JOKE_MAX_HISTORY) jokeHistory.shift();
+  }
+
   // Dev bypass: /?dev=X stores token, unlocks widget, passes to /api/joke
   const DEV_KEY = 'buddy_dev_bypass';
   (function captureDev(){
@@ -720,7 +730,13 @@ const totalPapers = papersAll.length;
       const res = await fetch('/api/joke', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ joke, token: getToken(), admin: getDevBypass() }),
+        body: JSON.stringify({
+          joke,
+          token: getToken(),
+          session_id: getToken(),
+          history: jokeHistory.slice(),
+          admin: getDevBypass(),
+        }),
       });
       const data = await res.json();
       if (data.error === 'once_per_day') {
@@ -749,6 +765,7 @@ const totalPapers = papersAll.length;
     wireShare(jokeResponse);
 
     const savedReply = payload.answer || payload.reply || '';
+    if (savedReply) pushJokeTurn(joke, savedReply);
     if (getDevBypass()) {
       jokeBtn.disabled = false;
       jokeBtn.textContent = 'Send →';

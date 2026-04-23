@@ -56,6 +56,12 @@ export async function onRequestPost(context) {
     const body = await request.json();
     const joke = (body.joke || '').trim().slice(0, 500);
     const token = (body.token || '').trim();
+    const sessionId = String(body.session_id || '').trim().slice(0, 128) || token || null;
+    const rawHistory = Array.isArray(body.history) ? body.history : [];
+    const history = rawHistory.slice(-6).map(t => ({
+      q: String((t && t.q) || '').slice(0, 500),
+      a: String((t && t.a) || '').slice(0, 2000),
+    })).filter(t => t.q && t.a);
     const adminToken = String(body.admin || request.headers.get('x-dev-bypass') || '').trim();
     const isAdmin = !!env.DEV_BYPASS && adminToken === env.DEV_BYPASS;
 
@@ -91,8 +97,8 @@ export async function onRequestPost(context) {
       endpoint: '/joke',
       surface: 'joke',
       userInput: joke,
-      sessionId: token || null,
-      extras: { joke },
+      sessionId,
+      extras: { joke, history },
     });
     if (!ingest.ok) {
       const msg = ingest.error === 'corpus_write_failed'
