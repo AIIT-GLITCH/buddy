@@ -137,25 +137,64 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   }
 
   function wireShare(root) {
-    const btn = root.querySelector('.fo-share');
-    if (!btn) return;
-    btn.addEventListener('click', async () => {
-      const answer = btn.getAttribute('data-answer') || '';
-      const shareText = `buddy: ${answer}\n\naiit-threshold.com`;
+    const btn = root.querySelector('.fo-share-v2');
+    const tray = root.querySelector('.fo-share-tray');
+    if (!btn || !tray) return;
+
+    const answer = btn.getAttribute('data-answer') || '';
+    const pageUrl = location.origin + location.pathname;
+    const excerpt = answer.length > 180 ? answer.slice(0, 177) + '…' : answer;
+    const shareText = `buddy:\n${answer}\n\naiit-threshold.com`;
+    const emailBody = `buddy:\n${answer}\n\naiit-threshold.com`;
+
+    btn.addEventListener('click', async (e) => {
+      e.stopPropagation();
       try {
         if (navigator.share) {
-          await navigator.share({ text: shareText, url: 'https://aiit-threshold.com' });
+          await navigator.share({ text: shareText, url: pageUrl });
           return;
         }
-      } catch { /* fall through */ }
-      try {
-        await navigator.clipboard.writeText(shareText);
-        const original = btn.textContent;
-        btn.textContent = 'copied ✓';
-        setTimeout(() => { btn.textContent = original; }, 1600);
-      } catch {
-        btn.textContent = 'copy failed';
-      }
+      } catch { /* cancel or unsupported -> fall through */ }
+      tray.hidden = !tray.hidden;
+    });
+
+    document.addEventListener('click', (e) => {
+      if (tray.hidden) return;
+      if (tray.contains(e.target) || btn.contains(e.target)) return;
+      tray.hidden = true;
+    });
+
+    const flash = (el, msg) => {
+      const orig = el.textContent;
+      el.textContent = msg;
+      setTimeout(() => { el.textContent = orig; }, 1400);
+    };
+
+    tray.querySelectorAll('[data-share]').forEach(item => {
+      item.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        const kind = item.getAttribute('data-share');
+        try {
+          if (kind === 'copy-link') {
+            await navigator.clipboard.writeText(pageUrl);
+            flash(item, 'copied ✓');
+          } else if (kind === 'copy-answer') {
+            await navigator.clipboard.writeText(shareText);
+            flash(item, 'copied ✓');
+          } else if (kind === 'facebook') {
+            window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(pageUrl), '_blank', 'noopener,noreferrer');
+          } else if (kind === 'x') {
+            const t = 'buddy: ' + excerpt;
+            window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(t) + '&url=' + encodeURIComponent(pageUrl), '_blank', 'noopener,noreferrer');
+          } else if (kind === 'reddit') {
+            window.open('https://www.reddit.com/submit?url=' + encodeURIComponent(pageUrl) + '&title=' + encodeURIComponent('buddy: ' + excerpt), '_blank', 'noopener,noreferrer');
+          } else if (kind === 'email') {
+            location.href = 'mailto:?subject=' + encodeURIComponent('Buddy') + '&body=' + encodeURIComponent(emailBody);
+          }
+        } catch {
+          flash(item, 'failed');
+        }
+      });
     });
   }
 
@@ -171,7 +210,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     setStatus('online', 'buddy online');
     const answer = payload.answer || '';
     const obs = payload.observation || '';
-    const cta = payload.cta || 'pass it on';
+    const cta = payload.cta || 'Pass it on';
     const strong = payload.observation_kind === 'substrate';
     const showBreadcrumb = strong && Math.random() < 0.08;
 
@@ -185,7 +224,22 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     if (showBreadcrumb) {
       html += '<div class="fo-substrate">this is the surface.<br>the deeper system is still being built.</div>';
     }
-    html += `<button type="button" class="fo-share" data-answer="${escHtml(answer)}">${escHtml(cta)} →</button>`;
+    html += '<div class="fo-actions">';
+    html += `<button type="button" class="fo-share-v2" data-answer="${escHtml(answer)}" aria-label="Pass it on">`;
+    html += '<svg class="fo-share-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">';
+    html += '<path d="M12 3v12"/><path d="m7 8 5-5 5 5"/><path d="M5 14v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5"/>';
+    html += '</svg>';
+    html += `<span>${escHtml(cta)}</span>`;
+    html += '</button>';
+    html += '<div class="fo-share-tray" hidden>';
+    html += '<button type="button" class="fo-share-item" data-share="copy-link">Copy link</button>';
+    html += '<button type="button" class="fo-share-item" data-share="copy-answer">Copy answer</button>';
+    html += '<button type="button" class="fo-share-item" data-share="facebook">Facebook</button>';
+    html += '<button type="button" class="fo-share-item" data-share="x">X</button>';
+    html += '<button type="button" class="fo-share-item" data-share="reddit">Reddit</button>';
+    html += '<button type="button" class="fo-share-item" data-share="email">Email</button>';
+    html += '</div>';
+    html += '</div>';
     html += '<a class="fo-gary" href="/gary">Think this holds up? →</a>';
     if (strong) {
       html += '<a class="fo-what" href="/manifesto">what is this →</a>';

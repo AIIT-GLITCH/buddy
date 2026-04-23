@@ -182,6 +182,65 @@ font[style] { font-family: inherit !important; }
 .ask-response .fo-result { color: #8a5a00; }
 .ask-response .fo-share { color: #8a5a00; border-bottom-color: rgba(138,90,0,0.4); }
 .ask-response .fo-share:hover { color: #c83a08; }
+
+/* ── Share V2 (ask-buddy only: pill button + inline tray) ── */
+.ask-response .fo-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 8px;
+}
+.ask-response .fo-share-v2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: 1px solid rgba(138,90,0,0.35);
+  border-radius: 999px;
+  padding: 6px 14px 6px 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.82em;
+  letter-spacing: 0.12em;
+  color: #8a5a00;
+  cursor: pointer;
+  line-height: 1;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.ask-response .fo-share-v2:hover {
+  background: rgba(138,90,0,0.08);
+  color: #5a3a00;
+  border-color: rgba(138,90,0,0.6);
+}
+.ask-response .fo-share-v2:focus { outline: none; box-shadow: 0 0 0 2px rgba(138,90,0,0.18); }
+.ask-response .fo-share-ico { width: 14px; height: 14px; flex: 0 0 14px; }
+
+.ask-response .fo-share-tray {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px;
+  margin-top: 2px;
+  max-width: 320px;
+}
+.ask-response .fo-share-tray[hidden] { display: none; }
+.ask-response .fo-share-item {
+  appearance: none;
+  background: transparent;
+  border: 1px solid rgba(138,90,0,0.22);
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.72em;
+  letter-spacing: 0.08em;
+  color: #8a5a00;
+  cursor: pointer;
+  text-align: center;
+}
+.ask-response .fo-share-item:hover {
+  background: rgba(138,90,0,0.06);
+  color: #5a3a00;
+  border-color: rgba(138,90,0,0.45);
+}
 .ask-response .fo-what { color: #8a7a60; }
 .ask-response .fo-what:hover { color: #4a3a20; }
 .ask-response .fo-substrate { color: #6a5a3a; border-top-color: rgba(138,90,0,0.25); }
