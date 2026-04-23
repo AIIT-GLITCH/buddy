@@ -282,6 +282,28 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     }
   }
 
+  const SESSION_STORAGE = 'askbuddy_session';
+  function getSessionId() {
+    try {
+      let sid = localStorage.getItem(SESSION_STORAGE);
+      if (!sid) {
+        sid = crypto.randomUUID ? crypto.randomUUID() :
+          (Date.now().toString(36) + Math.random().toString(36).slice(2));
+        localStorage.setItem(SESSION_STORAGE, sid);
+      }
+      return sid;
+    } catch (e) {
+      return 'sess-' + Math.random().toString(36).slice(2);
+    }
+  }
+
+  const MAX_HISTORY_PAIRS = 6;
+  const turnHistory = [];
+  function pushTurn(q, a) {
+    turnHistory.push({ q, a });
+    while (turnHistory.length > MAX_HISTORY_PAIRS) turnHistory.shift();
+  }
+
   async function ask() {
     const q = input.value.trim();
     if (!q) return;
@@ -297,7 +319,13 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       const res = await fetch('/api/askbuddy', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ question: q, fingerprint: getFingerprint(), admin: getDevBypass() }),
+        body: JSON.stringify({
+          question: q,
+          fingerprint: getFingerprint(),
+          session_id: getSessionId(),
+          history: turnHistory.slice(),
+          admin: getDevBypass(),
+        }),
       });
       payload = await res.json();
     } catch (e) {
@@ -310,6 +338,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     }
 
     if (payload && payload.ok) {
+      pushTurn(q, payload.answer || '');
       showFirstOutput(payload);
       input.value = '';
     } else if (payload && payload.error === 'daily_limit_reached') {

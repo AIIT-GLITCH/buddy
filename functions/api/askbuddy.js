@@ -172,6 +172,12 @@ export async function onRequestPost(context) {
 
   const question = String(body.question || '').trim().slice(0, MAX_QUESTION_LEN);
   const fingerprint = String(body.fingerprint || '').trim().slice(0, 128) || 'nofp';
+  const sessionId = String(body.session_id || '').trim().slice(0, 128) || fingerprint;
+  const rawHistory = Array.isArray(body.history) ? body.history : [];
+  const history = rawHistory.slice(-6).map(t => ({
+    q: String(t && t.q || '').slice(0, MAX_QUESTION_LEN),
+    a: String(t && t.a || '').slice(0, 2000),
+  })).filter(t => t.q && t.a);
   const adminToken = String(body.admin || request.headers.get('x-dev-bypass') || '').trim();
   const isAdmin = !!env.DEV_BYPASS && adminToken === env.DEV_BYPASS;
   if (!question) {
@@ -209,7 +215,7 @@ export async function onRequestPost(context) {
         'content-type': 'application/json',
         'authorization': 'Bearer ' + (env.LIL_HOMIE_TOKEN || ''),
       },
-      body: JSON.stringify({ question }),
+      body: JSON.stringify({ question, session_id: sessionId, history }),
       // 30s timeout-ish (CF Function ceiling is generous; 3B inference ~1-3s)
     });
     if (!r.ok) {
@@ -229,7 +235,6 @@ export async function onRequestPost(context) {
       }), { status: 200, headers });
     }
   } catch (e) {
-    if (KV && !isAdmin) await KV.delete(bucketKey);
     return new Response(JSON.stringify({
       ok: false,
       error: 'lilhomie_offline',
