@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Interlink from '../components/Interlink.astro';
+import ReturnToBuddy from '../components/ReturnToBuddy.astro';
 ---
 <Layout title="Validation · HRV Phase 1 Clinical Results — AIIT-THRESI" description="First paired clinical discrimination results for the AIIT-THRESI framework. HRV-only AUC 0.947 on public PhysioNet data. Reproducible pipeline, downloadable raw data, open methods.">
 
@@ -332,6 +334,9 @@ import Layout from '../layouts/Layout.astro';
       </p>
     </div>
   </section>
+
+  <Interlink links={["cancer", "weather", "quantum"]} />
+  <ReturnToBuddy />
 
 </Layout>
 

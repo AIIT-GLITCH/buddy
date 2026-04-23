@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Interlink from '../components/Interlink.astro';
+import ReturnToBuddy from '../components/ReturnToBuddy.astro';
 import letters from '../data/letters.json';
 import papersAll from '../data/papers.json';
 
@@ -105,6 +107,9 @@ const toAnthropic = letters.filter(l => l.group === 'anthropic');
       </div>
     </div>
   </section>
+
+  <Interlink links={["mind"]} />
+  <ReturnToBuddy />
 </Layout>
 
 <style>

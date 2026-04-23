@@ -1,0 +1,55 @@
+---
+// Interlink — post-read continuation trigger.
+//
+// Props:
+//   links  array of page names (no leading slash), e.g. ["validation", "quantum"]
+//
+// Renders a quiet "if this holds, look here →" block with vertical link list.
+// Placement: after main content, before footer. Not above the fold.
+const { links = [] } = Astro.props;
+---
+
+<section class="interlink-section">
+  <div class="container narrow">
+    <div class="interlink">
+      <p class="interlink-label">if this holds, look here →</p>
+      {links.map((link) => (
+        <a href={`/${link}`} class="interlink-link">{link}</a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .interlink-section {
+    min-height: auto;
+    padding: 40px 8vw 80px;
+  }
+
+  .interlink {
+    margin-top: 48px;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+
+  .interlink-label {
+    margin-bottom: 8px;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.08em;
+    color: var(--muted, #8a8a8a);
+  }
+
+  .interlink-link {
+    display: block;
+    margin-top: 6px;
+    text-decoration: none;
+    color: var(--ink-soft, #d4c8b8);
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    transition: color 0.2s;
+  }
+
+  .interlink-link:hover {
+    color: var(--warm, #d4a060);
+  }
+</style>

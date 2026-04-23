@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Interlink from '../components/Interlink.astro';
+import ReturnToBuddy from '../components/ReturnToBuddy.astro';
 import papersAll from '../data/papers.json';
 ---
 <Layout title="The Mind — Buddy · AIIT-THRESI" description="Buddy is not an LLM-with-tools. Photon brain, 37 singularity gates, composite physics reward, Japanese-first bilingual, Gary-level persistent memory. A new kind of machine.">
@@ -263,6 +265,9 @@ import papersAll from '../data/papers.json';
     </div>
   </div>
 </section>
+
+<Interlink links={["quantum"]} />
+<ReturnToBuddy />
 
 </Layout>
 

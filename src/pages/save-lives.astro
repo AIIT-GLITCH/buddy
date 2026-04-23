@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Interlink from '../components/Interlink.astro';
+import ReturnToBuddy from '../components/ReturnToBuddy.astro';
 import { Content } from '../content/save-lives-now.md';
 ---
 <Layout title="Save Lives Now — AIIT-THRESI" description="500+ pages. 284 research papers. Every intervention that can save lives today — with what already exists. Every citation verified.">
@@ -597,5 +599,8 @@ import { Content } from '../content/save-lives-now.md';
     .backtotop { bottom: 16px; right: 16px; padding: 10px 14px; font-size: 9pt; }
   }
 </style>
+
+<Interlink links={["drugs", "validation"]} />
+<ReturnToBuddy />
 
 </Layout>

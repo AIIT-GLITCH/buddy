@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Interlink from '../components/Interlink.astro';
+import ReturnToBuddy from '../components/ReturnToBuddy.astro';
 
 const papers = [
   { num: '143',  tag: 'Origin',            title: 'The Nuclear Goldilocks Zone — FAPs, the Diploid Vacuum, and Why Behind Opens Forward', file: 'PAPER_143_NUCLEAR_GOLDILOCKS_FAP_VACUUM.md' },
@@ -200,6 +202,9 @@ const papers = [
       </p>
     </div>
   </section>
+
+  <Interlink links={["validation", "quantum"]} />
+  <ReturnToBuddy />
 
 </Layout>
 

@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Interlink from '../components/Interlink.astro';
+import ReturnToBuddy from '../components/ReturnToBuddy.astro';
 
 // FD&C-certified petroleum-derived synthetic colors permitted in US food.
 // Sources, EU status, and key actions. Every claim citable.
@@ -272,5 +274,8 @@ const sources = [
     .fd-card-head { flex-direction: column; align-items: flex-start; }
   }
 </style>
+
+<Interlink links={["validation"]} />
+<ReturnToBuddy />
 
 </Layout>

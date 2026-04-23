@@ -1,0 +1,46 @@
+---
+// ReturnToBuddy — recursion block.
+//
+// Placement: after Interlink, before footer. Quiet invitation, not CTA.
+// Clicking → /ask-buddy#ask (ask-buddy.astro auto-focuses input on #ask).
+---
+
+<section class="rtb-section">
+  <div class="container narrow">
+    <p class="rtb-line">if you're still here — ask something real.</p>
+    <a href="/ask-buddy#ask" class="rtb-link">ask buddy →</a>
+  </div>
+</section>
+
+<style>
+  .rtb-section {
+    min-height: auto;
+    padding: 8px 8vw 80px;
+  }
+
+  .rtb-line {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 15px;
+    color: var(--ink-soft, #d4c8b8);
+    opacity: 0.6;
+    margin: 0 0 10px;
+    line-height: 1.5;
+  }
+
+  .rtb-link {
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: lowercase;
+    color: var(--warm, #d4a060);
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity 0.2s;
+  }
+
+  .rtb-link:hover {
+    opacity: 1;
+  }
+</style>

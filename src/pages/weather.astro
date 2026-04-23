@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Interlink from '../components/Interlink.astro';
+import ReturnToBuddy from '../components/ReturnToBuddy.astro';
 
 const sensors = [
   { tag: 'Ocean Thermal',  domain: 'NOAA OISST v2.1',          detail: 'SST anomaly — 26.5 °C cyclogenesis gate' },
@@ -259,6 +261,9 @@ const sensors = [
       </script>
     </div>
   </section>
+
+  <Interlink links={["validation"]} />
+  <ReturnToBuddy />
 
 </Layout>
 

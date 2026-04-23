@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Interlink from '../components/Interlink.astro';
+import ReturnToBuddy from '../components/ReturnToBuddy.astro';
 
 // Off-patent generics with high-evidence indications and durable cash-price floors.
 // Prices are typical 30-day generic cash floors at major US pharmacies / GoodRx (2025);
@@ -301,5 +303,8 @@ const sources = [
     .dr-card-head { flex-direction: column; align-items: flex-start; }
   }
 </style>
+
+<Interlink links={["save-lives"]} />
+<ReturnToBuddy />
 
 </Layout>
