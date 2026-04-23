@@ -1177,12 +1177,15 @@ const totalPapers = papersAll.length;
   /* v2 hero — joke/ask first */
   .hp-headline-v2 {
     font-family: Georgia, serif;
-    font-size: clamp(2em, 5.5vw, 3.4em);
+    font-size: clamp(1.5em, 6.2vw, 3.4em);
     font-weight: 700;
     color: #fff;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.015em;
     line-height: 1.08;
     margin: 0 0 10px;
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: auto;
   }
   .hp-headline-v2 .hp-or {
     color: #D4AF37;
@@ -1485,12 +1488,17 @@ const totalPapers = papersAll.length;
   .fc-alt a:hover { color: #aaa; }
 
   @media (max-width: 600px) {
-    .hero-primary { padding: 26px 18px 22px; }
+    .hero-primary { padding: 22px 14px 20px; }
     .hp-cta { padding: 14px 24px; font-size: 0.95em; }
     .hp-ctas { flex-direction: column; align-items: stretch; }
     .hp-cta-btn { justify-content: center; }
     .hs-row { gap: 8px; }
     .hs-chip { padding: 8px 12px; font-size: 0.82em; }
+    .hp-headline-v2 { font-size: clamp(1.35em, 7.2vw, 2em); letter-spacing: -0.02em; }
+  }
+  @media (max-width: 380px) {
+    .hero-primary { padding: 18px 10px 16px; }
+    .hp-headline-v2 { font-size: 1.25em; }
   }
 
   /* ── Hero dual entry: or / Answer the Giants ── */
