@@ -1183,8 +1183,10 @@ const totalPapers = papersAll.length;
     letter-spacing: -0.015em;
     line-height: 1.08;
     margin: 0 0 10px;
+    min-width: 0;
+    max-width: 100%;
     overflow-wrap: break-word;
-    word-break: normal;
+    word-break: break-word;
     hyphens: auto;
   }
   .hp-headline-v2 .hp-or {
@@ -1488,7 +1490,7 @@ const totalPapers = papersAll.length;
   .fc-alt a:hover { color: #aaa; }
 
   @media (max-width: 600px) {
-    .hero-primary { padding: 22px 14px 20px; }
+    .hero-primary { padding: 22px 14px 20px; max-width: 100%; }
     .hp-cta { padding: 14px 24px; font-size: 0.95em; }
     .hp-ctas { flex-direction: column; align-items: stretch; }
     .hp-cta-btn { justify-content: center; }

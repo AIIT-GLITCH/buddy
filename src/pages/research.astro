@@ -1,0 +1,194 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="research — AIIT-THRESHOLD" description="A map, not a menu. Structured descent into the research that moves the framework.">
+  <section id="research-hub" class="rh">
+    <div class="container narrow rh-inner">
+      <div class="rh-head">
+        <h1 class="rh-title">research</h1>
+        <p class="rh-sub">not everything is explained.<br>some of it is measured.</p>
+      </div>
+
+      <p class="rh-framing">
+        these are not topics.<br>
+        they are pressure points.
+      </p>
+      <p class="rh-framing rh-framing-soft">
+        each one is a system under observation.
+      </p>
+
+      <div class="rh-group">
+        <div class="rh-group-title">Research</div>
+        <div class="rh-grid">
+          <a href="/cancer" class="rh-tile">
+            <span class="rh-name">Cancer</span>
+            <span class="rh-line">pattern extraction in biological collapse</span>
+          </a>
+          <a href="/weather" class="rh-tile">
+            <span class="rh-name">Weather</span>
+            <span class="rh-line">coherence signals in atmospheric systems</span>
+          </a>
+          <a href="/validation" class="rh-tile">
+            <span class="rh-name">Validation</span>
+            <span class="rh-line">measured performance and failure modes</span>
+          </a>
+          <a href="/mind" class="rh-tile">
+            <span class="rh-name">Mind</span>
+            <span class="rh-line">cognition as signal, not abstraction</span>
+          </a>
+          <a href="/quantum" class="rh-tile">
+            <span class="rh-name">Quantum</span>
+            <span class="rh-line">field behavior under observation pressure</span>
+          </a>
+          <a href="/letters" class="rh-tile">
+            <span class="rh-name">Letters</span>
+            <span class="rh-line">direct communication, unfiltered</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="rh-group">
+        <div class="rh-group-title">Impact</div>
+        <div class="rh-grid">
+          <a href="/save-lives" class="rh-tile">
+            <span class="rh-name">Save Lives</span>
+            <span class="rh-line">real-world intervention pathways</span>
+          </a>
+          <a href="/drugs" class="rh-tile">
+            <span class="rh-name">Low-Cost Drugs</span>
+            <span class="rh-line">access over complexity</span>
+          </a>
+          <a href="/food-dye" class="rh-tile">
+            <span class="rh-name">Food Dye</span>
+            <span class="rh-line">signal vs ingestion risk</span>
+          </a>
+        </div>
+      </div>
+
+      <p class="rh-closing">
+        you don't need all of it.<br>
+        just follow the one that holds.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  #research-hub {
+    padding: 120px 0 140px;
+    min-height: 0;
+  }
+  .rh-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 20px;
+  }
+  .rh-head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .rh-title {
+    font-family: Georgia, serif;
+    font-size: clamp(2.4em, 6vw, 4em);
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+  .rh-sub {
+    font-family: 'Courier New', monospace;
+    font-size: 0.82em;
+    letter-spacing: 3px;
+    color: #888;
+    text-transform: lowercase;
+    line-height: 1.8;
+    margin: 0;
+  }
+  .rh-framing {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 1.25em;
+    color: #eaeaea;
+    line-height: 1.5;
+    margin: 0;
+    font-style: italic;
+  }
+  .rh-framing-soft {
+    color: #888;
+    font-size: 1em;
+    margin-top: -24px;
+  }
+  .rh-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .rh-group-title {
+    font-family: 'Courier New', monospace;
+    font-size: 0.72em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #666;
+    padding-left: 2px;
+  }
+  .rh-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .rh-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  }
+  .rh-tile {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px 20px 22px;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(212,175,55,0.15);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: border-color 0.2s, background 0.2s, transform 0.15s;
+    min-width: 0;
+  }
+  .rh-tile:hover {
+    border-color: rgba(212,175,55,0.42);
+    background: rgba(212,175,55,0.04);
+    transform: translateY(-1px);
+  }
+  .rh-name {
+    font-family: Georgia, serif;
+    font-size: 1.08em;
+    font-weight: 700;
+    color: #eaeaea;
+    letter-spacing: 0.2px;
+  }
+  .rh-line {
+    font-size: 0.86em;
+    color: #888;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+  .rh-closing {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 1.05em;
+    font-style: italic;
+    color: #888;
+    line-height: 1.7;
+    margin: 8px 0 0;
+  }
+
+  @media (max-width: 600px) {
+    #research-hub { padding: 80px 0 100px; }
+    .rh-inner { gap: 32px; padding: 0 16px; }
+    .rh-framing { font-size: 1.1em; }
+    .rh-framing-soft { margin-top: -18px; }
+  }
+</style>
