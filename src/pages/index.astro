@@ -6,32 +6,27 @@ import papersAll from '../data/papers.json';
 const totalPapers = papersAll.length;
 ---
 <Layout>
-  <!-- 1. HERO — interaction-first. Tell him a joke / ask something real. -->
+  <!-- 1. HERO — flyer promise first. Ask Buddy, with joke as secondary. -->
   <section id="hero" data-anim="hero-particles">
     <canvas id="hero-canvas"></canvas>
     <div class="hero-content">
-      <div class="hero-wordmark">Buddy<span class="dot"></span></div>
-      <div class="hero-tag">0.1 Hz Coherence · Council Hill, Oklahoma</div>
+      <h1 class="hero-wordmark">ASKBUDDY<span class="hero-bang">!</span></h1>
+      <div class="hero-tag">ask buddy anything.</div>
 
       <div class="hero-primary">
-        <h1 class="hp-headline-v2">Tell him a joke.<br><span class="hp-or">Or ask him something real.</span></h1>
-        <p class="hp-sub-v2">Fast. Strange. Real.</p>
+        <form id="hero-ask-form" class="hp-ask-form" autocomplete="off">
+          <input
+            id="hero-ask-input"
+            class="hp-ask-input"
+            type="text"
+            placeholder="Ask Buddy anything..."
+            maxlength="600"
+            aria-label="Ask Buddy anything"
+          />
+          <button type="submit" class="hp-ask-btn">Ask →</button>
+        </form>
 
-        <div class="hp-ctas">
-          <a href="#hero-joke-anchor" class="hp-cta-btn primary" data-hs="joke">
-            <span class="hp-cta-icon">🫘</span> tell buddy a joke
-          </a>
-          <a href="/ask-buddy" class="hp-cta-btn ghost" data-hs="ask">
-            <span class="hp-cta-icon">💬</span> ask buddy a question
-          </a>
-        </div>
-
-        <div class="hp-meta-row">
-          <a href="/trivia" class="hp-meta-link" data-hs="giants">
-            ✦ answer today's question
-            <span class="hs-archive-inline" id="hs-archive-inline" hidden>· <strong id="hs-archive-count">0</strong> / {totalPapers}</span>
-          </a>
-        </div>
+        <a href="#hero-joke-anchor" class="hp-joke-secondary" data-hs="joke">or tell buddy a joke.</a>
       </div>
 
       <div id="hero-joke-anchor" class="hero-joke joke-container" hidden>
@@ -212,6 +207,26 @@ const totalPapers = papersAll.length;
 </Layout>
 
 <script>
+  // Homepage ask form: preserve the root hero as the flyer landing surface,
+  // then hand the actual answer flow to /ask-buddy.
+  (function () {
+    const form = document.getElementById('hero-ask-form');
+    const input = document.getElementById('hero-ask-input');
+    if (!form || !input) return;
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const q = input.value.trim();
+      const target = new URL('/ask-buddy', window.location.origin);
+      target.hash = 'ask';
+      if (q) {
+        target.searchParams.set('q', q);
+        target.searchParams.set('auto', '1');
+      }
+      window.location.href = target.pathname + target.search + target.hash;
+    });
+  })();
+
   // Hero archive counter (only shows once user has unlocked something)
   (function () {
     try {
@@ -245,11 +260,12 @@ const totalPapers = papersAll.length;
       revealJoke(true);
     });
 
-    // QR deep-link: flyers point to /?src=flyer-*#joke → auto-open widget
+    // QR deep-link: joke flyers open the widget. Ask flyers must stay ask-first.
     const q = new URLSearchParams(window.location.search);
     const src = q.get('src') || '';
     const hash = (window.location.hash || '').toLowerCase();
-    if (hash === '#joke' || /^flyer/i.test(src)) {
+    const isJokeSource = /joke|tell/i.test(src) || /^flyer-a$/i.test(src);
+    if (hash === '#joke' || isJokeSource) {
       revealJoke(false);
     }
   })();
@@ -303,7 +319,7 @@ const totalPapers = papersAll.length;
         p.a += p.s;
         const x = cx + Math.cos(p.a) * p.r;
         const y = cy + Math.sin(p.a) * p.r * 0.6;
-        const a = 0.18 + 0.22 * Math.sin(t * 0.001 + p.a);
+        const a = 0.10 + 0.10 * Math.sin(t * 0.001 + p.a);
         const grd = ctx.createRadialGradient(x, y, 0, x, y, p.sz * 4);
         grd.addColorStop(0, colors[p.hue] + a + ')');
         grd.addColorStop(1, colors[p.hue] + '0)');
@@ -631,7 +647,11 @@ const totalPapers = papersAll.length;
   }
 
   // Check on load
-  const stored = JSON.parse(localStorage.getItem(JOKE_KEY) || 'null');
+  let stored = JSON.parse(localStorage.getItem(JOKE_KEY) || 'null');
+  if (stored && /we went|api budget|broke/i.test(stored.reply || '')) {
+    localStorage.removeItem(JOKE_KEY);
+    stored = null;
+  }
   if (stored) {
     const elapsed = Date.now() - stored.at;
     if (elapsed < COOLDOWN_MS) {
@@ -644,9 +664,9 @@ const totalPapers = papersAll.length;
   function showBroke() {
     stopThinking();
     jokeResponse.className = 'joke-response visible broke';
-    jokeResponse.innerHTML = `<span class="broke-headline">Whoops! We went <em>BROKE</em> 💸</span><br>
-<span class="broke-sub">Buddy's API budget ran out. Come back tomorrow — or keep the lights on:</span><br>
-<a href="/#join" class="broke-donate">Donate here →</a>`;
+    jokeResponse.innerHTML = `<span class="broke-headline">Buddy missed the live answer path.</span><br>
+<span class="broke-sub">The app is wired, but that request was refused or timed out. Try again in a minute.</span><br>
+<a href="/ask-buddy" class="broke-donate">Ask Buddy directly →</a>`;
   }
 
   function escHtml(s) {
@@ -1064,9 +1084,9 @@ const totalPapers = papersAll.length;
   /* ── Hero primary CTA: Victim Advocate ── */
   .hero-primary {
     width: 100%;
-    max-width: 720px;
-    margin: 18px auto 28px;
-    padding: 34px 30px 28px;
+    max-width: 560px;
+    margin: 12px auto 24px;
+    padding: 22px 24px 20px;
     text-align: center;
     background: linear-gradient(180deg, rgba(232,88,42,0.06), rgba(10,10,18,0.55));
     border: 1px solid rgba(232,88,42,0.32);
@@ -1191,7 +1211,112 @@ const totalPapers = papersAll.length;
   /* hide the tagline/sub when primary CTA replaces them */
   .hero-sub, .hero-tagline { display: none; }
 
-  /* v2 hero — joke/ask first */
+  .hero-bang {
+    color: #D4AF37;
+    display: inline-block;
+    transform: rotate(5deg);
+    transform-origin: 50% 70%;
+    margin-left: 0.02em;
+    text-shadow: 0 0 18px rgba(255,232,138,0.45), 0 0 44px rgba(212,160,96,0.28);
+  }
+
+  .hero-wordmark {
+    margin: 0;
+    font-size: clamp(64px, 10vw, 140px);
+    white-space: nowrap;
+  }
+  #hero-canvas {
+    opacity: 0.48;
+  }
+  .hero-tag {
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-family: Georgia, serif;
+    font-size: clamp(18px, 2.2vw, 24px);
+    font-style: italic;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #D4AF37;
+  }
+
+  .hp-ask-form {
+    display: flex;
+    align-items: stretch;
+    gap: 8px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 12px;
+  }
+
+  .hp-ask-input {
+    flex: 1;
+    min-width: 0;
+    height: 48px;
+    background: rgba(255,255,255,0.96);
+    border: 1.5px solid rgba(255,232,138,0.72);
+    border-radius: 10px;
+    color: #111;
+    padding: 0 18px;
+    font-family: Georgia, serif;
+    font-size: clamp(15px, 2.4vw, 19px);
+    outline: none;
+    box-shadow: 0 10px 32px rgba(0,0,0,0.22);
+    transition: border-color 180ms, box-shadow 180ms, background 180ms;
+  }
+
+  .hp-ask-input::placeholder {
+    color: #7a6a4a;
+    font-style: italic;
+  }
+
+  .hp-ask-input:focus {
+    background: #fffdf5;
+    border-color: #D4AF37;
+    box-shadow: 0 0 0 4px rgba(212,175,55,0.16), 0 14px 36px rgba(0,0,0,0.26);
+  }
+
+  .hp-ask-btn {
+    height: 48px;
+    padding: 0 22px;
+    border: 1.5px solid #D4AF37;
+    border-radius: 10px;
+    background: #D4AF37;
+    color: #111;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: none;
+    white-space: nowrap;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(212,175,55,0.28);
+    transition: transform 180ms, box-shadow 180ms, background 180ms;
+  }
+
+  .hp-ask-btn:hover {
+    transform: translateY(-2px);
+    background: #ffd166;
+    box-shadow: 0 12px 32px rgba(212,175,55,0.42);
+  }
+
+  .hp-joke-secondary {
+    display: inline-block;
+    color: #D4AF37;
+    font-family: Georgia, serif;
+    font-size: clamp(16px, 1.8vw, 20px);
+    font-style: italic;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(212,175,55,0.32);
+    padding-bottom: 2px;
+    transition: color 180ms, border-color 180ms;
+  }
+
+  .hp-joke-secondary:hover {
+    color: #ffe88a;
+    border-color: rgba(255,232,138,0.7);
+  }
+
+  /* v2 hero — retained for older markup/classes used elsewhere */
   .hp-headline-v2 {
     font-family: Georgia, serif;
     font-size: clamp(1.5em, 6.2vw, 3.4em);
@@ -1507,10 +1632,13 @@ const totalPapers = papersAll.length;
   .fc-alt a:hover { color: #aaa; }
 
   @media (max-width: 600px) {
-    .hero-primary { padding: 22px 14px 20px; max-width: 100%; }
+    .hero-primary { padding: 18px 14px 18px; max-width: 100%; }
     .hp-cta { padding: 14px 24px; font-size: 0.95em; }
     .hp-ctas { flex-direction: column; align-items: stretch; }
     .hp-cta-btn { justify-content: center; }
+    .hp-ask-form { flex-direction: column; }
+    .hp-ask-input,
+    .hp-ask-btn { height: 48px; }
     .hs-row { gap: 8px; }
     .hs-chip { padding: 8px 12px; font-size: 0.82em; }
     .hp-headline-v2 { font-size: clamp(1.35em, 7.2vw, 2em); letter-spacing: -0.02em; }

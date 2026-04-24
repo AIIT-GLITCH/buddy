@@ -29,9 +29,16 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       />
       <button type="submit" id="ask-btn" class="ask-btn">Ask →</button>
     </form>
+    <a href="/#hero-joke-anchor" class="ask-joke-link">or tell buddy a joke.</a>
     <div class="ask-status" id="ask-status">
       <span class="ask-status-dot" id="ask-status-dot"></span>
       <span class="ask-status-text" id="ask-status-text">buddy online</span>
+    </div>
+    <div class="ask-local-panel" id="ask-local-panel">
+      <input id="ask-local-api" class="ask-local-input" type="url" autocomplete="off" spellcheck="false" value="http://localhost:8585" aria-label="Buddy API URL" />
+      <input id="ask-local-token" class="ask-local-input token" type="password" autocomplete="off" spellcheck="false" placeholder="local token" aria-label="Buddy API token" />
+      <button type="button" id="ask-local-save" class="ask-local-btn">Connect</button>
+      <a id="ask-local-console" class="ask-local-console" href="http://localhost:8585/app" target="_blank" rel="noopener noreferrer">Console</a>
     </div>
   </div>
 
@@ -92,8 +99,57 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   const statusDot = document.getElementById('ask-status-dot');
   const statusText = document.getElementById('ask-status-text');
   const statusBlk  = document.getElementById('ask-status');
+  const localApiInput = document.getElementById('ask-local-api');
+  const localTokenInput = document.getElementById('ask-local-token');
+  const localSaveBtn = document.getElementById('ask-local-save');
+  const localConsole = document.getElementById('ask-local-console');
 
   let thinkingTimer = null;
+
+  const LOCAL_API_KEY = 'askbuddy_local_api';
+  const LOCAL_TOKEN_KEY = 'askbuddy_local_token';
+  const LOCAL_SESSION_KEY = 'askbuddy_local_session';
+
+  function normalizeApi(url) {
+    return String(url || '').replace(/\/+$/, '');
+  }
+
+  function getLocalApi() {
+    try { return normalizeApi(localStorage.getItem(LOCAL_API_KEY) || localApiInput.value || 'http://localhost:8585'); }
+    catch { return 'http://localhost:8585'; }
+  }
+
+  function getLocalToken() {
+    try { return localStorage.getItem(LOCAL_TOKEN_KEY) || ''; }
+    catch { return ''; }
+  }
+
+  function setLocalConfig(api, token) {
+    const cleanApi = normalizeApi(api || 'http://localhost:8585');
+    try {
+      localStorage.setItem(LOCAL_API_KEY, cleanApi);
+      if (token) localStorage.setItem(LOCAL_TOKEN_KEY, token);
+    } catch {}
+    localApiInput.value = cleanApi;
+    localConsole.href = cleanApi + '/app';
+    if (token) localTokenInput.value = token;
+    setStatus(token ? 'online' : 'surface', token ? 'real buddy local' : 'surface buddy');
+  }
+
+  (function captureLocalConfig(){
+    try {
+      const p = new URLSearchParams(location.search);
+      const api = p.get('buddy_api') || localStorage.getItem(LOCAL_API_KEY) || 'http://localhost:8585';
+      const token = p.get('buddy_token') || localStorage.getItem(LOCAL_TOKEN_KEY) || '';
+      setLocalConfig(api, token);
+    } catch {
+      setLocalConfig('http://localhost:8585', '');
+    }
+  })();
+
+  localSaveBtn.addEventListener('click', () => {
+    setLocalConfig(localApiInput.value, localTokenInput.value.trim());
+  });
 
   function setStatus(state, label) {
     statusBlk.dataset.state = state; // online | thinking | done
@@ -341,6 +397,77 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     while (turnHistory.length > MAX_HISTORY_PAIRS) turnHistory.shift();
   }
 
+  async function localFetch(path, opts = {}) {
+    const token = getLocalToken();
+    const headers = Object.assign({}, opts.headers || {}, {
+      'content-type': 'application/json',
+      'authorization': 'Bearer ' + token,
+    });
+    const res = await fetch(getLocalApi() + path, Object.assign({}, opts, { headers }));
+    const payload = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      const err = new Error(payload.detail || payload.error || ('HTTP ' + res.status));
+      err.status = res.status;
+      throw err;
+    }
+    return payload;
+  }
+
+  async function ensureLocalSession() {
+    let sid = '';
+    try { sid = localStorage.getItem(LOCAL_SESSION_KEY) || ''; } catch {}
+    if (sid) return sid;
+    const created = await localFetch('/api/session/create', {
+      method: 'POST',
+      body: JSON.stringify({ mode: 'text' }),
+    });
+    sid = created.session_id;
+    try { localStorage.setItem(LOCAL_SESSION_KEY, sid); } catch {}
+    return sid;
+  }
+
+  async function askLocalBuddy(q) {
+    if (!getLocalToken()) return null;
+    let sid = await ensureLocalSession();
+    try {
+      const data = await localFetch('/api/chat', {
+        method: 'POST',
+        body: JSON.stringify({
+          session_id: sid,
+          message: q,
+          max_tokens: 512,
+          temperature: 0.35,
+        }),
+      });
+      return {
+        ok: true,
+        layer: 'substrate',
+        answer: data.response || '',
+        observation: 'Saved to Buddy local session and Kokoro raw turns.',
+        observation_kind: 'substrate',
+        cta: 'Pass it on',
+      };
+    } catch (err) {
+      if (err.status === 404) {
+        try { localStorage.removeItem(LOCAL_SESSION_KEY); } catch {}
+        sid = await ensureLocalSession();
+        const data = await localFetch('/api/chat', {
+          method: 'POST',
+          body: JSON.stringify({ session_id: sid, message: q, max_tokens: 512, temperature: 0.35 }),
+        });
+        return {
+          ok: true,
+          layer: 'substrate',
+          answer: data.response || '',
+          observation: 'Saved to Buddy local session and Kokoro raw turns.',
+          observation_kind: 'substrate',
+          cta: 'Pass it on',
+        };
+      }
+      return { ok: false, error: 'local_buddy_failed', detail: err.message };
+    }
+  }
+
   async function ask() {
     const q = input.value.trim();
     if (!q) return;
@@ -353,18 +480,21 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     const t0 = performance.now();
     let payload = null;
     try {
-      const res = await fetch('/api/askbuddy', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({
-          question: q,
-          fingerprint: getFingerprint(),
-          session_id: getSessionId(),
-          history: turnHistory.slice(),
-          admin: getDevBypass(),
-        }),
-      });
-      payload = await res.json();
+      payload = await askLocalBuddy(q);
+      if (!payload) {
+        const res = await fetch('/api/askbuddy', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({
+            question: q,
+            fingerprint: getFingerprint(),
+            session_id: getSessionId(),
+            history: turnHistory.slice(),
+            admin: getDevBypass(),
+          }),
+        });
+        payload = await res.json();
+      }
     } catch (e) {
       payload = { ok: false, error: 'network_failed' };
     }
@@ -394,6 +524,26 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   form.addEventListener('submit', (e) => { e.preventDefault(); ask(); });
   input.addEventListener('focus', () => setFlipSpeed(800));
   input.addEventListener('blur',  () => { if (statusBlk.dataset.state !== 'thinking') setFlipSpeed(1100); });
+
+  (function hydrateInitialQuestion(){
+    try {
+      const params = new URLSearchParams(location.search);
+      const initial = (params.get('q') || params.get('question') || '').trim().slice(0, 600);
+      if (!initial) return;
+
+      input.value = initial;
+      input.focus({ preventScroll: false });
+
+      if (params.get('auto') === '1') {
+        params.delete('q');
+        params.delete('question');
+        params.delete('auto');
+        const qs = params.toString();
+        history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + '#ask');
+        setTimeout(() => ask(), 120);
+      }
+    } catch {}
+  })();
 })();
 </script>
 
@@ -473,6 +623,22 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     border-color: #c83a08;
     box-shadow: 0 0 0 4px rgba(200, 58, 8, 0.12);
   }
+  .ask-joke-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #8a5a00;
+    font-family: 'Georgia', serif;
+    font-size: 13pt;
+    font-style: italic;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(138, 90, 0, 0.26);
+    padding-bottom: 2px;
+    transition: color 180ms, border-color 180ms;
+  }
+  .ask-joke-link:hover {
+    color: #c83a08;
+    border-color: rgba(200, 58, 8, 0.42);
+  }
   .ask-btn {
     background: #1a1a1a;
     color: #f0a500;
@@ -482,8 +648,8 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     border-radius: 10px;
     font-family: 'Courier New', monospace;
     font-size: 11pt;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-transform: none;
     cursor: pointer;
     transition: background 200ms, transform 150ms, box-shadow 200ms;
   }
@@ -517,6 +683,48 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   .ask-status[data-state="thinking"] .ask-status-dot {
     background: #f0a500;
     animation: ask-pulse-thinking 0.9s ease-in-out infinite;
+  }
+  .ask-local-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr) auto auto;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .ask-local-input {
+    height: 38px;
+    border: 1px solid rgba(26, 26, 26, 0.22);
+    border-radius: 8px;
+    background: rgba(255, 253, 245, 0.78);
+    color: #1a1a1a;
+    padding: 0 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 9.5pt;
+    min-width: 0;
+  }
+  .ask-local-input:focus {
+    outline: none;
+    border-color: #c83a08;
+    box-shadow: 0 0 0 3px rgba(200, 58, 8, 0.11);
+  }
+  .ask-local-btn,
+  .ask-local-console {
+    min-height: 38px;
+    border-radius: 8px;
+    border: 1px solid rgba(26, 26, 26, 0.24);
+    background: #fffdf5;
+    color: #1a1a1a;
+    padding: 0 12px;
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .ask-local-btn:hover,
+  .ask-local-console:hover {
+    border-color: #c83a08;
   }
   @keyframes ask-pulse-online {
     0%, 100% { box-shadow: 0 0 0 0 rgba(43, 182, 115, 0.55); }
@@ -601,6 +809,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 76px !important; }
     .ask-input { font-size: 12pt; height: 48px; }
     .ask-btn { height: 48px; padding: 0 16px; font-size: 10pt; }
+    .ask-local-panel { grid-template-columns: 1fr 1fr; }
   }
 </style>
 
