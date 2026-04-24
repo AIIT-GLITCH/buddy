@@ -155,7 +155,7 @@ export async function onRequestPost(context) {
   const { request, env } = context;
   const headers = corsHeaders();
 
-  // origin check
+  // origin check (defense in depth — primary gate is owner session below)
   const origin = request.headers.get('origin') || '';
   const referer = request.headers.get('referer') || '';
   const ok = ['aiit-threshold.com', 'localhost', 'pages.dev'].some(
@@ -163,6 +163,26 @@ export async function onRequestPost(context) {
   );
   if (!ok) {
     return new Response(JSON.stringify({ ok: false, error: 'origin not allowed' }), { status: 403, headers });
+  }
+
+  // OWNER-ONLY: must be logged in via GitHub OAuth as env.OWNER_LOGIN
+  const ownerLogin = (env.OWNER_LOGIN || '').toLowerCase();
+  if (!ownerLogin || !env.AUTH_KV) {
+    return new Response(JSON.stringify({ ok: false, error: 'auth not configured (OWNER_LOGIN or AUTH_KV binding missing)' }), { status: 503, headers });
+  }
+  const cookie = request.headers.get('cookie') || '';
+  const sessId = cookie.split(';').map(s => s.trim()).find(p => p.startsWith('aiit_session='));
+  if (!sessId) {
+    return new Response(JSON.stringify({ ok: false, error: 'unauthorized: not logged in' }), { status: 401, headers });
+  }
+  const sessRaw = await env.AUTH_KV.get(`session:${sessId.slice('aiit_session='.length)}`);
+  if (!sessRaw) {
+    return new Response(JSON.stringify({ ok: false, error: 'unauthorized: session expired' }), { status: 401, headers });
+  }
+  let sessUser;
+  try { sessUser = JSON.parse(sessRaw); } catch { sessUser = null; }
+  if (!sessUser || (sessUser.login || '').toLowerCase() !== ownerLogin) {
+    return new Response(JSON.stringify({ ok: false, error: 'forbidden: owner only' }), { status: 403, headers });
   }
 
   const pat = env.GITHUB_PAT;

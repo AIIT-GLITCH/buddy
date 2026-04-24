@@ -34,12 +34,24 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       <span class="ask-status-dot" id="ask-status-dot"></span>
       <span class="ask-status-text" id="ask-status-text">buddy online</span>
     </div>
-    <div class="ask-local-panel" id="ask-local-panel">
+    <!-- Dev-only local-API panel. Hidden by default; reveal with ?dev=1 -->
+    <div class="ask-local-panel" id="ask-local-panel" hidden style="display:none">
       <input id="ask-local-api" class="ask-local-input" type="url" autocomplete="off" spellcheck="false" value="http://localhost:8585" aria-label="Buddy API URL" />
       <input id="ask-local-token" class="ask-local-input token" type="password" autocomplete="off" spellcheck="false" placeholder="local token" aria-label="Buddy API token" />
       <button type="button" id="ask-local-save" class="ask-local-btn">Connect</button>
       <a id="ask-local-console" class="ask-local-console" href="http://localhost:8585/app" target="_blank" rel="noopener noreferrer">Console</a>
     </div>
+    <script is:inline>
+      (function () {
+        try {
+          const params = new URLSearchParams(window.location.search);
+          if (params.get('dev') === '1') {
+            const panel = document.getElementById('ask-local-panel');
+            if (panel) { panel.hidden = false; panel.style.display = ''; }
+          }
+        } catch (_) {}
+      })();
+    </script>
   </div>
 
   <!-- Response slot -->
