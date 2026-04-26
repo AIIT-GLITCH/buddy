@@ -137,6 +137,26 @@ export async function onRequestPost(context) {
     }), { status: 200, headers });
   }
 
+  if (ingest.data && ingest.data.ok === false) {
+    return new Response(JSON.stringify({
+      ok: false,
+      error: ingest.data.error || 'buddy_unavailable',
+      request_id: ingest.request_id,
+      message: ingest.data.message || 'buddy is offline. try again.',
+    }), { status: 200, headers });
+  }
+
+  if (ingest.data && ingest.data.status === 'pending') {
+    return new Response(JSON.stringify({
+      ok: true,
+      status: 'pending',
+      request_id: ingest.request_id,
+      message: 'buddy got your question, hang tight.',
+      cta: 'pass it on',
+      layer: 'surface',
+    }), { status: 200, headers });
+  }
+
   const answer = String((ingest.data && ingest.data.answer) || '').trim();
   if (!answer) {
     return new Response(JSON.stringify({

@@ -285,10 +285,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     response.textContent = text;
   }
 
-  function showFirstOutput(payload) {
-    stopThinking();
-    setStatus('online', 'buddy online');
-    const answer = payload.answer || '';
+	  function showFirstOutput(payload) {
+	    stopThinking();
+	    setStatus('online', 'buddy online');
+	    const answer = payload.answer || '';
     const obs = payload.observation || '';
     const cta = payload.cta || 'Pass it on';
     const strong = payload.observation_kind === 'substrate';
@@ -352,9 +352,23 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     html += '</div>';
 
     response.className = 'ask-response visible';
-    response.innerHTML = html;
-    wireShare(response);
-  }
+	    response.innerHTML = html;
+	    wireShare(response);
+	  }
+
+	  function showPending(question) {
+	    stopThinking();
+	    setStatus('thinking', 'buddy holding question');
+	    setFlipSpeed(520);
+	    response.className = 'ask-response visible';
+	    response.innerHTML =
+	      '<div class="fo-block">' +
+	      '<div class="fo-buddy">you:</div>' +
+	      `<div class="fo-answer">${escHtml(question || '')}</div>` +
+	      '<div class="fo-sep">…</div>' +
+	      '<div class="fo-obs fo-pending">buddy got your question, hang tight…</div>' +
+	      '</div>';
+	  }
 
   // Dev bypass: visiting /?dev=X or /ask-buddy?dev=X stores token; sent with every request.
   const DEV_KEY = 'buddy_dev_bypass';
@@ -402,14 +416,91 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     }
   }
 
-  const MAX_HISTORY_PAIRS = 6;
-  const turnHistory = [];
-  function pushTurn(q, a) {
-    turnHistory.push({ q, a });
-    while (turnHistory.length > MAX_HISTORY_PAIRS) turnHistory.shift();
-  }
+	  const MAX_HISTORY_PAIRS = 6;
+	  const turnHistory = [];
+	  function pushTurn(q, a) {
+	    turnHistory.push({ q, a });
+	    while (turnHistory.length > MAX_HISTORY_PAIRS) turnHistory.shift();
+	  }
 
-  async function localFetch(path, opts = {}) {
+	  const PENDING_STORAGE = 'askbuddy_pending_requests';
+	  const PENDING_POLL_MS = 3000;
+	  const PENDING_MAX_POLLS = 20;
+	  function loadPending() {
+	    try {
+	      const rows = JSON.parse(localStorage.getItem(PENDING_STORAGE) || '[]');
+	      return Array.isArray(rows) ? rows.filter(row => row && row.request_id) : [];
+	    } catch {
+	      return [];
+	    }
+	  }
+	  function savePending(rows) {
+	    try { localStorage.setItem(PENDING_STORAGE, JSON.stringify(rows.slice(-3))); } catch {}
+	  }
+	  function addPending(entry) {
+	    const rows = loadPending().filter(row => row.request_id !== entry.request_id);
+	    rows.push(entry);
+	    savePending(rows);
+	  }
+	  function removePending(requestId) {
+	    savePending(loadPending().filter(row => row.request_id !== requestId));
+	  }
+	  function recoverPending() {
+	    const now = Date.now();
+	    const rows = loadPending().filter(row => now - Number(row.ts || 0) < 5 * 60 * 1000);
+	    savePending(rows);
+	    if (!rows.length) return;
+	    showPending(rows[0].question || 'pending question');
+	    rows.forEach(row => pollPending(row, 0));
+	  }
+	  async function pollPending(entry, attempt) {
+	    if (!entry || !entry.request_id) return;
+	    let payload = null;
+	    try {
+	      const res = await fetch('/api/askbuddy_poll', {
+	        method: 'POST',
+	        headers: { 'content-type': 'application/json' },
+	        body: JSON.stringify({
+	          request_id: entry.request_id,
+	          session_id: entry.session_id,
+	        }),
+	      });
+	      payload = await res.json();
+	    } catch {
+	      payload = { ok: false, error: 'network_failed' };
+	    }
+
+	    if (payload && payload.ok && payload.status === 'ready') {
+	      removePending(entry.request_id);
+	      pushTurn(entry.question || '', payload.answer || '');
+	      showFirstOutput(payload);
+	      return;
+	    }
+	    if (payload && payload.ok && payload.status === 'pending') {
+	      if (attempt < PENDING_MAX_POLLS) {
+	        setTimeout(() => pollPending(entry, attempt + 1), PENDING_POLL_MS);
+	      } else {
+	        setStatus('online', 'buddy online');
+	        setFlipSpeed(1100);
+	      }
+	      return;
+	    }
+
+	    if (payload && (payload.error === 'expired' || payload.status === 'expired')) {
+	      removePending(entry.request_id);
+	      showReply('buddy was holding this but it timed out. send it again whenever.');
+	      return;
+	    }
+
+	    if (attempt < PENDING_MAX_POLLS) {
+	      setTimeout(() => pollPending(entry, attempt + 1), PENDING_POLL_MS);
+	    } else {
+	      setStatus('online', 'buddy online');
+	      setFlipSpeed(1100);
+	    }
+	  }
+
+	  async function localFetch(path, opts = {}) {
     const token = getLocalToken();
     const headers = Object.assign({}, opts.headers || {}, {
       'content-type': 'application/json',
@@ -516,28 +607,42 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       await new Promise(r => setTimeout(r, minShowMs - elapsed));
     }
 
-    if (payload && payload.ok) {
-      pushTurn(q, payload.answer || '');
-      showFirstOutput(payload);
-      input.value = '';
-    } else if (payload && payload.error === 'daily_limit_reached') {
-      showReply(payload.message || "you've used today's question. come back tomorrow.");
-    } else if (payload && payload.error === 'budget_exhausted') {
-      showReply(payload.message || 'askbuddy is resting right now. check back later.');
-    } else {
-      const detail = (payload && payload.detail) ? ' — ' + payload.detail : '';
-      showReply('buddy tripped' + detail + '. try again in a minute.');
-    }
+	    if (payload && payload.ok && payload.status === 'pending') {
+	      const entry = {
+	        request_id: payload.request_id,
+	        session_id: getSessionId(),
+	        question: q,
+	        ts: Date.now(),
+	      };
+	      addPending(entry);
+	      showPending(q);
+	      input.value = '';
+	      pollPending(entry, 0);
+	    } else if (payload && payload.ok) {
+	      pushTurn(q, payload.answer || '');
+	      showFirstOutput(payload);
+	      input.value = '';
+	    } else if (payload && payload.error === 'daily_limit_reached') {
+	      showReply(payload.message || "you've used today's question. come back tomorrow.");
+	    } else if (payload && payload.error === 'budget_exhausted') {
+	      showReply(payload.message || 'askbuddy is resting right now. check back later.');
+	    } else if (payload && payload.message) {
+	      showReply(payload.message);
+	    } else {
+	      const detail = (payload && payload.detail) ? ' — ' + payload.detail : '';
+	      showReply('buddy tripped' + detail + '. try again in a minute.');
+	    }
 
     btn.disabled = false;
     btn.textContent = 'Ask →';
   }
 
   form.addEventListener('submit', (e) => { e.preventDefault(); ask(); });
-  input.addEventListener('focus', () => setFlipSpeed(800));
-  input.addEventListener('blur',  () => { if (statusBlk.dataset.state !== 'thinking') setFlipSpeed(1100); });
+	  input.addEventListener('focus', () => setFlipSpeed(800));
+	  input.addEventListener('blur',  () => { if (statusBlk.dataset.state !== 'thinking') setFlipSpeed(1100); });
+	  recoverPending();
 
-  (function hydrateInitialQuestion(){
+	  (function hydrateInitialQuestion(){
     try {
       const params = new URLSearchParams(location.search);
       const initial = (params.get('q') || params.get('question') || '').trim().slice(0, 600);
@@ -766,17 +871,20 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     border-radius: 10px;
     padding: 14px 18px;
   }
-  .ask-thinking {
-    display: inline-flex;
-    align-items: baseline;
-    gap: 2px;
-    font-family: 'Courier New', monospace;
+	  .ask-thinking {
+	    display: inline-flex;
+	    align-items: baseline;
+	    gap: 2px;
+	    font-family: 'Courier New', monospace;
     font-size: 10.5pt;
-    letter-spacing: 0.06em;
-    color: #8a5a00;
-  }
+	    letter-spacing: 0.06em;
+	    color: #8a5a00;
+	  }
+	  .ask-response .fo-pending {
+	    font-style: italic;
+	  }
 
-  /* First-output shape styles moved to global.css (scoped cream via .ask-response) */
+	  /* First-output shape styles moved to global.css (scoped cream via .ask-response) */
 
   /* PLANETS — secondary */
   .ask-planets {

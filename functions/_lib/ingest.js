@@ -245,3 +245,91 @@ export async function callBuddy({
     upstream: data,
   };
 }
+
+/**
+ * CF→Buddy v4 pending-answer poll. This intentionally bypasses callBuddy's
+ * corpus_written requirement because pending poll responses do not write new
+ * corpus data; ready responses must still carry corpus_written:true.
+ *
+ * @param {object} args
+ * @param {object} args.env
+ * @param {string} args.requestId
+ * @param {string|null} [args.sessionId]
+ * @param {number} [args.timeoutMs]
+ * @returns {Promise<{ok:true, request_id:string, data:object} | {ok:false, error:string, request_id:string|null, status?:number, upstream?:object}>}
+ */
+export async function callBuddyPoll({
+  env,
+  requestId,
+  sessionId = null,
+  timeoutMs = DEFAULT_BUDDY_TIMEOUT_MS,
+}) {
+  if (
+    !env ||
+    !env.BUDDY_BACKEND_URL ||
+    !env.BUDDY_CF_ACCESS_CLIENT_ID ||
+    !env.BUDDY_CF_ACCESS_CLIENT_SECRET
+  ) {
+    return { ok: false, error: 'buddy_not_configured', request_id: requestId || null };
+  }
+
+  const cleanRequestId = String(requestId || '').trim();
+  if (!cleanRequestId) {
+    return { ok: false, error: 'missing_request_id', request_id: null };
+  }
+
+  const baseUrl = String(env.BUDDY_BACKEND_URL).replace(/\/+$/, '');
+  let r;
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), timeoutMs);
+    const headers = {
+      'content-type': 'application/json',
+      'CF-Access-Client-Id': env.BUDDY_CF_ACCESS_CLIENT_ID,
+      'CF-Access-Client-Secret': env.BUDDY_CF_ACCESS_CLIENT_SECRET,
+      'x-request-id': cleanRequestId,
+      'x-surface': 'ask_poll',
+    };
+    if (env.BUDDY_BACKEND_TOKEN) {
+      headers.authorization = 'Bearer ' + env.BUDDY_BACKEND_TOKEN;
+    }
+    r = await fetch(baseUrl + '/ask_poll', {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({
+        request_id: cleanRequestId,
+        sessionId: sessionId || null,
+      }),
+      signal: ctrl.signal,
+    });
+    clearTimeout(t);
+  } catch {
+    return { ok: false, error: 'buddy_offline', request_id: cleanRequestId };
+  }
+
+  if (!r.ok) {
+    return { ok: false, error: 'buddy_offline', request_id: cleanRequestId, status: r.status };
+  }
+
+  let data;
+  try {
+    data = await r.json();
+  } catch {
+    return { ok: false, error: 'buddy_bad_response', request_id: cleanRequestId };
+  }
+
+  const upstreamRequestId = data && data.request_id ? data.request_id : cleanRequestId;
+  if (data && data.ok === true && data.status === 'pending') {
+    return { ok: true, request_id: upstreamRequestId, data };
+  }
+  if (data && data.ok === true && data.status === 'ready' && data.corpus_written === true) {
+    return { ok: true, request_id: upstreamRequestId, data };
+  }
+
+  return {
+    ok: false,
+    error: data && data.error ? data.error : 'buddy_poll_failed',
+    request_id: upstreamRequestId,
+    upstream: data,
+  };
+}
