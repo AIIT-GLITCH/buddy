@@ -1,0 +1,60 @@
+TEAMAIIT R7 CODEX APPROVAL CLEANUP
+UTC: 2026-04-26T04:44:27Z
+Purpose: Resolve CLAUDE_APPROVAL_233007-45b617c9 CHANGES_REQUIRED blockers without changing the live Buddy v4 swap.
+
+1. FATHOM_LETTER / letters drift
+Resolution: STASHED, not restored or shipped.
+
+Stash reference at cleanup time:
+stash@{Sat Apr 25 23:44:15 2026}: On master: R7 approval cleanup: out-of-scope preexisting AIIT_SITE edits
+
+Files preserved in that stash:
+A functions/api/report-issue.js
+M package.json
+D public/letters/FATHOM_LETTER.html
+A public/version.json
+A scripts/write-version.mjs
+M src/data/letters.json
+M src/layouts/Layout.astro
+M src/pages/ask-buddy.astro
+M src/pages/index.astro
+M src/styles/global.css
+
+Declaration:
+Those edits are out of scope for the Buddy v4 backend swap and did not ride along in the approval commit. They remain recoverable from the named local stash.
+
+2. Android header contradiction
+Resolution: HEADER STALE / OUT OF SCOPE.
+
+Observed local source state:
+- AIIT_THRESHOLD_ANDROID/app/build.gradle currently contains versionCode 3 / versionName 1.0.2.
+- BUDDY_ANDROID/app/build.gradle currently contains versionCode 3 / versionName 1.1.0.
+
+R7 web swap scope:
+- No BUDDY_ANDROID files were modified.
+- No AIIT_THRESHOLD_ANDROID files were modified.
+- No APK or AAB was built.
+- No release_id was bumped.
+- Drill G remains N/A for this R7 web-only swap.
+
+Reconciliation:
+Any R7 gate header implying an Android 1.0.2 / versionCode 3 paired release is stale or belongs to a different Android gate. This R7 approval packet is for the website backend route only.
+
+3. Dirty working tree
+Resolution: CLEAN after the out-of-scope stash, before this note was added.
+
+Command:
+git status --short
+
+Result before adding this cleanup note:
+<no output>
+
+Operational status at cleanup:
+- Protected language-filter pipeline PID 1687224 remained alive.
+- buddy-corpus-judge.timer inactive.
+- lilhomie-server.service inactive.
+- lilhomie-tunnel.service inactive.
+- buddy-v4-api.service active.
+- buddy-rig-tunnel.service active.
+
+No runtime behavior changed in this cleanup note.
