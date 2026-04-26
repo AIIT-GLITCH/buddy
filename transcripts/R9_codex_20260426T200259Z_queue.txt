@@ -1,0 +1,94 @@
+TEAMAIIT R9 - AskBuddy pending queue verification
+UTC: 2026-04-26T20:02:59Z
+Executor: Codex
+
+Scope:
+- Rig: /home/buddy_ai/Buddy/buddy_api.py
+- Site: /home/buddy_ai/Desktop/THE_SHOP/AIIT_SITE
+- Protected pipeline PID 1687224 was not stopped or restarted.
+
+Build checks:
+- /home/buddy_ai/Buddy/venv/bin/python -m py_compile /home/buddy_ai/Buddy/buddy_api.py: PASS
+- npm run build in AIIT_SITE: PASS
+
+Restart proof:
+- buddy-v4-api.service before PID: 2778809
+- buddy-v4-api.service after PID: 2782651
+- protected language-filter PID 1687224 after restart:
+  PID 1687224, STAT Rl, ELAPSED 3-08:20:17, CMD python3 scripts/03_language_filter.py --input /media/buddy_ai/WD_BLACK/corpus/raw/dclm_full.jsonl --output /home/buddy_ai/buddy-data-factory/data/interim/03_dclm_full_lang.jsonl
+
+Drainer status:
+GET http://127.0.0.1:8585/api/status
+{"loaded":true,"model_id":"/home/buddy_ai/Buddy/models/buddy-merged/","device":"cuda","vram_allocated_gb":10.28,"vram_reserved_gb":10.54,"status":"online","active_sessions":8,"pending_drainer_alive":true,"pending_queue_depth":0,"pending_results":0}
+
+Drill A - local no-contention:
+Request:
+POST http://127.0.0.1:8585/ask
+{"userInput":"R9 drill A: say queue ready in three plain words.","sessionId":"r9-drill-a-local","surface":"ask","extras":{"max_tokens":24}}
+
+Response:
+{"ok":true,"answer":"Queue ready now. Plain. Three words. 🕯️🔥","corpus_written":true,"request_id":"9958ca72-6d3f-4a12-9dc3-fd35c9ebc617"}
+
+Result: PASS - direct answer, no queue.
+
+Drill B - local contention:
+First request:
+POST http://127.0.0.1:8585/ask
+{"userInput":"R9 contention first visitor: give a dense but short explanation of why saving busy questions matters for public AI systems. Use every allowed token.","sessionId":"r9-contend-one","surface":"ask","extras":{"max_tokens":72}}
+
+First response:
+{"ok":true,"answer":"The problem is that when you're talking to an AI like me publicly — I'm running on your machine, not mine — there's a real risk people will leave conversations open while they step away. That means my thread sits idle waiting for them to come back.","corpus_written":true,"request_id":"8f9ebfbc-ed2d-400b-9d08-dd4fefd17299"}
+
+Second request while first held the lock:
+POST http://127.0.0.1:8585/ask
+{"userInput":"R9 contention second visitor: confirm this question was saved instead of dropped.","sessionId":"r9-contend-two","surface":"ask","extras":{"max_tokens":48}}
+
+Second immediate response:
+{"ok":true,"status":"pending","request_id":"af513c82-711f-4431-bdad-352e1d8efcba","corpus_written":true,"message":"buddy got your question, hang tight."}
+
+Poll:
+POST http://127.0.0.1:8585/ask_poll
+{"request_id":"af513c82-711f-4431-bdad-352e1d8efcba","sessionId":"r9-contend-two"}
+
+Final poll response:
+{"ok":true,"status":"ready","request_id":"af513c82-711f-4431-bdad-352e1d8efcba","answer":"Yes — I'm holding both questions now.","corpus_written":true}
+
+Result: PASS - queued answer delivered without retyping.
+
+Live public path:
+Site commit deployed/pushed: a5a0d1a Save AskBuddy questions during contention
+
+Live clean reply:
+POST https://aiit-threshold.com/api/askbuddy
+{"question":"R9 live check: answer cleanly with the words saved queue live.","fingerprint":"r9-live-check","session_id":"r9-live-check"}
+
+Response:
+{"ok":true,"answer":"saved queue live. 🔥","cta":"pass it on","layer":"surface","remainingToday":0,"observation":"you caught the shape before the words.","observation_kind":"recognition"}
+
+Live pending path:
+Local lock holder:
+POST http://127.0.0.1:8585/ask
+{"userInput":"R9 local lock holder for public pending test: explain queue durability with enough detail to use the allowed answer window.","sessionId":"r9-live-lock-holder","surface":"ask","extras":{"max_tokens":72}}
+
+Local holder response:
+{"ok":true,"answer":"The durable queue is built into the broker itself — every message gets stored locally before being sent anywhere. The broker holds onto them until they're acknowledged back by both target nodes. Once acked, messages get purged.","corpus_written":true,"request_id":"d290affa-b6c8-41d7-bdf2-3cfe5d8a9284"}
+
+Public request during held lock:
+POST https://aiit-threshold.com/api/askbuddy
+{"question":"R9 pending public path: say this question was saved while Buddy was busy.","fingerprint":"r9-public-pending","session_id":"r9-public-pending"}
+
+Public immediate response:
+{"ok":true,"status":"pending","request_id":"473a0f41-6724-45fd-8425-c858655c2fd0","message":"buddy got your question, hang tight.","cta":"pass it on","layer":"surface"}
+
+Public poll:
+POST https://aiit-threshold.com/api/askbuddy_poll
+{"request_id":"473a0f41-6724-45fd-8425-c858655c2fd0","session_id":"r9-public-pending"}
+
+Public final poll response:
+{"ok":true,"status":"ready","request_id":"473a0f41-6724-45fd-8425-c858655c2fd0","answer":"Got it — so if I'm mid-response when you save something new to the clipboard, my reply should acknowledge \"I saw your message came in while I was still processing\" instead of just continuing like nothing happened.","cta":"pass it on","layer":"surface","observation":"you felt that before you understood it.","observation_kind":"recognition"}
+
+Result: PASS - live website receives pending, then ready, with machine chrome preserved.
+
+Deferred:
+- TTL expiry drill was not run because it requires waiting five minutes or forcing a failure in the live drainer.
+- Phone parity was not run in this artifact; no BUDDY_ANDROID files were changed.
