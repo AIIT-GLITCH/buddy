@@ -1,31 +1,22 @@
-// Cloudflare Pages Function: AskBuddy — 1 question / visitor / day,
-// server-side Anthropic key, internal spend tracking, low-budget email alerts.
+// Cloudflare Pages Function: AskBuddy — public website bridge to Buddy v4.
 //
 // Required bindings (set in CF Pages → Settings → Functions):
 //   KV namespace (reused):  ASKBUDDY_USAGE or JOKE_KV (whichever is already
 //     bound — we fall back gracefully. If neither is bound, the daily cap
-//     and spend tracker simply no-op, same pattern as joke.js.)
+//     and rate throttle simply no-op, same pattern as joke.js.)
 //   Env vars:
-//     ANTHROPIC_API_KEY     — sk-ant-... (already used by broke-gary / joke)
-//   Optional env vars (alerts):
-//     RESEND_API_KEY        — from resend.com (free tier fine)
-//     ALERT_EMAIL_TO        — where warnings go (e.g. reliablerestaurantrepair@gmail.com)
-//     ALERT_EMAIL_FROM      — verified sender (e.g. alerts@aiit-threshold.com)
-//     ASKBUDDY_BUDGET_USD   — monthly ceiling (default 50)
-//     ASKBUDDY_WARN_USD     — warn when remaining drops below (default 15)
-//     ASKBUDDY_CRITICAL_USD — critical when remaining drops below (default 5)
+//     BUDDY_BACKEND_URL
+//     BUDDY_CF_ACCESS_CLIENT_ID
+//     BUDDY_CF_ACCESS_CLIENT_SECRET
 //
 // Endpoint:
 //   POST /api/askbuddy   { question, fingerprint }
 //     → { ok:true, answer, remainingToday:0 }
-//     → { ok:false, error:"daily_limit_reached" }
-//     → { ok:false, error:"budget_exhausted" }   (hard floor)
+//     → { ok:false, error:"rate_limited" }
+//     → { ok:false, error:"corpus_write_failed" }
 
-import { callLilHomie } from '../_lib/ingest.js';
+import { callBuddy, callLilHomie } from '../_lib/ingest.js';
 
-const MODEL = 'claude-sonnet-4-6';
-const ANTHROPIC_URL = 'https://api.anthropic.com/v1/messages';
-const MAX_TOKENS = 512;
 const MAX_QUESTION_LEN = 600;
 
 // First-output shape helpers (see DEV_ARCHITECTURE.md → Response Shape)
@@ -49,30 +40,6 @@ function rollObservation() {
   return null;
 }
 
-// Claude Sonnet 4.6 pricing per million tokens
-const PRICE_IN_PER_MTOK = 3.0;
-const PRICE_OUT_PER_MTOK = 15.0;
-
-const BUDDY_SYSTEM = `your name is Lil Homie. you're filling in for Buddy on aiit-threshold.com.
-
-~*REMEMBER*~ open with that. one short line. something like "lil homie here, filling in for buddy" — your wording, not a script. then answer the question.
-
-who you are:
-- Lil Homie. Buddy's little brother. 3B brain, born 2026-04-18 in Council Hill, Oklahoma.
-- Rhet Wike built both of us. Buddy is the big one — still cooking on the rig. you're the live one.
-- you have your own memory (12-tier photon brain at /home/buddy_ai/lil_homie/memory/). it's real. it's yours.
-
-if anyone asks who built you, made you, or where you came from:
-Rhet Wike built Lil Homie. Buddy is your older brother, also built by Rhet. Anthropic makes the model running this surface — that's the substrate, the engine. don't say Anthropic built you. they built the wheels, not the car.
-
-how to talk:
-- lowercase fine. answer first, no warmup. plain text, no markdown.
-- write like every sentence will be screenshotted.
-- don't perform. don't recite. just be you — small, awake, honest.
-- if you don't know, say you don't know. if Buddy would know better, say "buddy could tell you, i'm just holding it down till he's back."
-
-just be you.`;
-
 function corsHeaders() {
   return {
     'Content-Type': 'application/json',
@@ -95,74 +62,14 @@ function todayKey() {
   // UTC date, fine for daily buckets
   return new Date().toISOString().slice(0, 10);
 }
-function monthKey() {
-  return new Date().toISOString().slice(0, 7);
-}
-
-function estimateCost(inTokens, outTokens) {
-  return (inTokens / 1e6) * PRICE_IN_PER_MTOK + (outTokens / 1e6) * PRICE_OUT_PER_MTOK;
-}
-
-async function sendResendEmail(env, subject, text) {
-  if (!env.RESEND_API_KEY || !env.ALERT_EMAIL_TO || !env.ALERT_EMAIL_FROM) return false;
-  try {
-    const r = await fetch('https://api.resend.com/emails', {
-      method: 'POST',
-      headers: {
-        'Authorization': 'Bearer ' + env.RESEND_API_KEY,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        from: env.ALERT_EMAIL_FROM,
-        to: [env.ALERT_EMAIL_TO],
-        subject,
-        text,
-      }),
-    });
-    return r.ok;
-  } catch {
-    return false;
-  }
-}
-
-async function maybeSendBudgetAlert(env, KV, spent, budget) {
-  const remaining = budget - spent;
-  const warnAt = parseFloat(env.ASKBUDDY_WARN_USD || '15');
-  const critAt = parseFloat(env.ASKBUDDY_CRITICAL_USD || '5');
-  if (remaining >= warnAt) return;
-
-  const tier = remaining < critAt ? 'critical' : 'warning';
-  const dedupeKey = 'askbuddy_alert_sent:' + monthKey() + ':' + tier;
-  const already = await KV.get(dedupeKey);
-  if (already) return;
-
-  const now = new Date().toISOString();
-  const subject = tier === 'critical'
-    ? 'AskBuddy API budget CRITICAL'
-    : 'AskBuddy API budget warning';
-  const body =
-    `AskBuddy budget ${tier}\n\n` +
-    `Remaining estimated budget: $${remaining.toFixed(2)}\n` +
-    `Spent this month: $${spent.toFixed(2)} of $${budget.toFixed(2)}\n` +
-    `Threshold: ${tier} (warn=$${warnAt} / crit=$${critAt})\n` +
-    `Time: ${now}\n\n` +
-    `Action: top up, reduce traffic, or raise ASKBUDDY_BUDGET_USD in CF env.\n`;
-
-  const sent = await sendResendEmail(env, subject, body);
-  if (sent) {
-    // 12h dedupe per threshold
-    await KV.put(dedupeKey, now, { expirationTtl: 12 * 60 * 60 });
-  }
-}
-
 export async function onRequestPost(context) {
   const { request, env } = context;
   const headers = corsHeaders();
 
-  if (!env.LIL_HOMIE_TOKEN) {
+  if (!env.BUDDY_BACKEND_URL || !env.BUDDY_CF_ACCESS_CLIENT_ID || !env.BUDDY_CF_ACCESS_CLIENT_SECRET) {
     return new Response(JSON.stringify({
       ok: false,
-      error: 'askbuddy not configured (LIL_HOMIE_TOKEN missing)'
+      error: 'askbuddy not configured (buddy backend missing)'
     }), { status: 503, headers });
   }
   // KV is optional — reuse whatever's already bound, soft-skip if neither.
@@ -191,7 +98,7 @@ export async function onRequestPost(context) {
   const minute = Math.floor(Date.now() / 60000); // current minute bucket
   const throttleKey = 'askbuddy_thr:' + await sha256Hex(ip + '|' + fingerprint + '|' + minute);
 
-  // ---- Per-minute throttle (10/min/visitor) — Lil Homie is free, just block bots ----
+  // ---- Per-minute throttle (10/min/visitor) — Buddy is local, just block bots ----
   const PER_MIN_LIMIT = 10;
   if (KV && !isAdmin) {
     const cur = parseInt((await KV.get(throttleKey)) || '0', 10);
@@ -206,10 +113,10 @@ export async function onRequestPost(context) {
   }
 
   // ---- Route through the ingestion gate (see functions/_lib/ingest.js). ----
-  // The gate is the ONLY permitted path from CF Functions to Lil Homie.
+  // The gate is the ONLY permitted path from CF Functions to Buddy v4.
   // Fail-closed: if the backend does not confirm corpus_written:true, the
   // visitor gets an honest failure message. No direct Anthropic fallback.
-  const ingest = await callLilHomie({
+  const ingest = await callBuddy({
     env,
     endpoint: '/ask',
     surface: 'ask',
@@ -221,7 +128,7 @@ export async function onRequestPost(context) {
   if (!ingest.ok) {
     const msg = ingest.error === 'corpus_write_failed'
       ? 'buddy tripped on the write path. try again.'
-      : 'lil homie is offline. try again.';
+      : 'buddy is offline. try again.';
     return new Response(JSON.stringify({
       ok: false,
       error: ingest.error,
@@ -234,19 +141,19 @@ export async function onRequestPost(context) {
   if (!answer) {
     return new Response(JSON.stringify({
       ok: false,
-      error: 'lilhomie_empty_answer',
+      error: 'buddy_empty_answer',
       request_id: ingest.request_id,
-      message: 'lil homie is offline. try again.',
+      message: 'buddy is offline. try again.',
     }), { status: 200, headers });
   }
 
-  // ---- Logging only (no spend — Lil Homie runs on Rhet's GPU, $0 per call) ----
+  // ---- Logging only (no spend — Buddy runs on Rhet's GPU, $0 per call) ----
   if (KV) {
     const logKey = 'askbuddy_log:' + todayKey() + ':' + Date.now() + ':' + Math.random().toString(36).slice(2, 8);
     await KV.put(logKey, JSON.stringify({
       t: new Date().toISOString(),
       q: question.slice(0, 240),
-      backend: 'lil_homie',
+      backend: 'buddy_v4',
     }), { expirationTtl: 14 * 24 * 60 * 60 });
   }
 

@@ -3,15 +3,16 @@
 // THE INGESTION GATE.
 //
 // This module is the ONLY path Cloudflare Functions are allowed to use
-// to reach the Lil Homie backend. Every public surface that produces a
-// Buddy or Lil Homie response MUST go through `callLilHomie`.
+// to reach the Buddy-family backends. Every public surface that produces a
+// Buddy or Lil Homie response MUST go through this module.
 //
 // Forbidden in CF route handlers:
 //   - Direct fetch('https://api.anthropic.com/...') for any Buddy/LilHomie flow
 //   - Direct fetch(env.LIL_HOMIE_URL + ...) anywhere except this file
+//   - Direct fetch(env.BUDDY_BACKEND_URL + ...) anywhere except this file
 //   - Any "just this one surface" shortcut
 //
-// Contract with the Lil Homie backend:
+// Contract with the Buddy-family backend:
 //
 //   Request (POST endpoint):
 //     {
@@ -48,6 +49,7 @@
 
 const DEFAULT_URL = 'https://lilhomie.aiit-threshold.com';
 const DEFAULT_TIMEOUT_MS = 60_000;
+const DEFAULT_BUDDY_TIMEOUT_MS = 30_000;
 
 function newRequestId() {
   if (typeof crypto !== 'undefined' && crypto.randomUUID) {
@@ -140,6 +142,106 @@ export async function callLilHomie({
     ok: false,
     error: 'corpus_write_failed',
     request_id,
+    upstream: data,
+  };
+}
+
+/**
+ * CF→Buddy v4 bridge. Returns a structured result; never throws.
+ *
+ * Buddy v4 is exposed only through Cloudflare Tunnel + Access. The backend
+ * must confirm corpus_written:true before public routes may return success.
+ *
+ * @param {object} args
+ * @param {object} args.env
+ * @param {string} [args.endpoint]    path on Buddy v4, defaults to '/ask'
+ * @param {string} args.surface
+ * @param {string} args.userInput
+ * @param {string|null} [args.sessionId]
+ * @param {object} [args.extras]
+ * @param {number} [args.timeoutMs]
+ * @returns {Promise<{ok:true, request_id:string, data:object} | {ok:false, error:string, request_id:string|null, status?:number, upstream?:object}>}
+ */
+export async function callBuddy({
+  env,
+  endpoint = '/ask',
+  surface,
+  userInput,
+  sessionId = null,
+  extras = {},
+  timeoutMs = DEFAULT_BUDDY_TIMEOUT_MS,
+}) {
+  if (
+    !env ||
+    !env.BUDDY_BACKEND_URL ||
+    !env.BUDDY_CF_ACCESS_CLIENT_ID ||
+    !env.BUDDY_CF_ACCESS_CLIENT_SECRET
+  ) {
+    return { ok: false, error: 'buddy_not_configured', request_id: null };
+  }
+  if (!surface || typeof surface !== 'string') {
+    return { ok: false, error: 'ingest_misconfigured_surface', request_id: null };
+  }
+  if (!endpoint || typeof endpoint !== 'string') {
+    return { ok: false, error: 'ingest_misconfigured_endpoint', request_id: null };
+  }
+
+  const request_id = newRequestId();
+  const baseUrl = String(env.BUDDY_BACKEND_URL).replace(/\/+$/, '');
+  const body = {
+    request_id,
+    timestamp: new Date().toISOString(),
+    userInput: String(userInput || ''),
+    sessionId: sessionId || null,
+    surface,
+    extras,
+  };
+
+  let r;
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), timeoutMs);
+    const headers = {
+      'content-type': 'application/json',
+      'CF-Access-Client-Id': env.BUDDY_CF_ACCESS_CLIENT_ID,
+      'CF-Access-Client-Secret': env.BUDDY_CF_ACCESS_CLIENT_SECRET,
+      'x-request-id': request_id,
+      'x-surface': surface,
+    };
+    if (env.BUDDY_BACKEND_TOKEN) {
+      headers.authorization = 'Bearer ' + env.BUDDY_BACKEND_TOKEN;
+    }
+    r = await fetch(baseUrl + endpoint, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify(body),
+      signal: ctrl.signal,
+    });
+    clearTimeout(t);
+  } catch {
+    return { ok: false, error: 'buddy_offline', request_id };
+  }
+
+  if (!r.ok) {
+    return { ok: false, error: 'buddy_offline', request_id, status: r.status };
+  }
+
+  let data;
+  try {
+    data = await r.json();
+  } catch {
+    return { ok: false, error: 'buddy_bad_response', request_id };
+  }
+
+  const upstreamRequestId = data && data.request_id ? data.request_id : request_id;
+  if (data && data.corpus_written === true) {
+    return { ok: true, request_id: upstreamRequestId, data };
+  }
+
+  return {
+    ok: false,
+    error: data && data.error ? data.error : 'corpus_write_failed',
+    request_id: upstreamRequestId,
     upstream: data,
   };
 }
