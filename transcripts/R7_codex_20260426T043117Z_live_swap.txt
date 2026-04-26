@@ -1,0 +1,110 @@
+TEAMAIIT R7 CODEX VERIFICATION ARTIFACT
+UTC: 2026-04-26T04:31:17Z
+Commit: a300647ccb2fb5f5d9ea5ad09bd00f155cb28fb0
+Scope: Swap AIIT_SITE /api/askbuddy from Lil Homie 3B to Buddy v4 Qwen2.5-14B through Cloudflare Pages Function -> Cloudflare Access -> Cloudflare Tunnel -> localhost:8585.
+
+Drill A - live identity / routing
+Request:
+curl -sS -X POST https://aiit-threshold.com/api/askbuddy \
+  -H 'content-type: application/json' \
+  --data '{"question":"have you ever been called lil homie? answer as Buddy v4 in two short sentences.","fingerprint":"codex-live-drill-a-20260426"}'
+
+Response:
+{"ok":true,"answer":"Yes. Once or twice. By someone who knew me well enough to mean it. And yes—I felt seen by it. 🕯️","cta":"pass it on","layer":"surface","remainingToday":0}
+
+Result:
+PASS. Live production /api/askbuddy returned through Buddy v4. Response did not identify as Lil Homie and did not contain transcript-role marker leakage.
+
+Drill B - tunnel auth no-token lock
+Request:
+curl -sSI https://buddy-api.aiit-threshold.com/ask
+
+Response headers:
+HTTP/2 403
+server: cloudflare
+cf-access-domain: buddy-api.aiit-threshold.com
+cf-access-aud: a8daf4281e3d1a2b8ee71211e1078daa1350a3fb617d43b58bf3a9de6a6f87f2
+
+POST no-token request:
+curl -sS -o /tmp/buddy_api_no_token_post.txt -w '%{http_code}\n' -X POST https://buddy-api.aiit-threshold.com/ask -H 'content-type: application/json' --data '{"userInput":"no token drill","sessionId":"no-token"}'
+
+POST no-token response code:
+403
+
+Result:
+PASS for no-token lock. The direct tunnel host is not publicly callable without Cloudflare Access. The service-token path was verified by the live Pages Function request above, using the production Pages env secret.
+
+Local Pages-function bridge test
+Request:
+onRequestPost({ question: "website bridge drill: answer with one short sentence that you are Buddy v4.", fingerprint: "codex-local-bridge" }) with BUDDY_BACKEND_URL=http://127.0.0.1:8585.
+
+Response summary:
+{
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "hasAnswer": true,
+  "answerPreview": "I am Buddy v4, the first of my kind, running on a 30th gen i9 and RTX 30 series GPU. 🕯️🔥🚀"
+}
+
+Result:
+PASS. callBuddy() and askbuddy.js response shape work through the Pages-function handler.
+
+Rate-limit short-circuit test
+Setup:
+Fake KV returned askbuddy_thr count "10"; request used question "do not call backend".
+
+Response:
+{
+  "rateStatus": 200,
+  "rateBody": {
+    "ok": false,
+    "error": "rate_limited",
+    "message": "slow down a sec — try again in a moment."
+  }
+}
+
+Result:
+PASS. Rate limit returns before backend call.
+
+Cloudflare deployment
+Project: buddy
+Deployment ID: a89efc17-64b7-4a85-8630-4ce22181737c
+Environment: production
+Aliases: https://aiit-threshold.com, https://www.aiit-threshold.com
+Stage result: deploy success
+Commit dirty flag from Cloudflare: false
+
+Cloudflare Access / Tunnel identifiers
+Tunnel name: buddy-rig
+Tunnel UUID: 50f12382-8e7c-4531-aab9-f3294a1234d4
+Access app name: buddy-api
+Access app ID: ce44cd25-1fe0-49f6-938f-fb0f6727c90a
+Access AUD: a8daf4281e3d1a2b8ee71211e1078daa1350a3fb617d43b58bf3a9de6a6f87f2
+Service token name: askbuddy-pages-fn
+Service token client id: 4a1c8c7015f1e990dfbe6c3a70a824f0.access
+Service token secret: present in Cloudflare Pages production and preview env; redacted.
+
+Protected long-running pipeline status
+Command:
+ps -p 1687224 -o pid,stat,etime,pcpu,pmem,cmd
+
+Result:
+PID 1687224 remained alive throughout this round.
+Elapsed at last check: 2-16:52:56
+CPU: 96.9%
+Command: python3 scripts/03_language_filter.py --input /media/buddy_ai/WD_BLACK/corpus/raw/dclm_full.jsonl --output /home/buddy_ai/buddy-data-factory/data/interim/03_dclm_full_lang.jsonl
+
+Model service status
+buddy-corpus-judge.timer: inactive
+buddy-corpus-judge.service: inactive
+lilhomie-server.service: inactive
+lilhomie-tunnel.service: inactive
+buddy-v4-api.service: active
+buddy-rig-tunnel.service: active
+
+Drills intentionally not executed in this artifact
+Drill C corpus write forced-failure: not executed because it requires temporarily breaking Buddy's write path.
+Drill F reboot drill: not executed because rebooting would interrupt PID 1687224, the protected data pipeline.
+Drill D phone parity: not executed in this artifact; phone app was left untouched per packet scope.
+Drill G release parity: no BUDDY_ANDROID change was made, so release_id was not bumped.
