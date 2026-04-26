@@ -356,7 +356,23 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    wireShare(response);
 	  }
 
-	  function showPending(question) {
+	  function pendingMessage(attempt, networkIssue = false) {
+	    const elapsed = Math.max(0, attempt) * PENDING_POLL_MS;
+	    if (networkIssue) return 'connection hiccup — buddy still has your question. retrying…';
+	    if (elapsed < 15000) return 'buddy got your question, hang tight…';
+	    if (elapsed < 30000) return 'buddy is still working — your question is saved.';
+	    if (elapsed < 60000) return 'this is taking longer than usual — no need to resend.';
+	    if (elapsed < 120000) return 'buddy is still holding it. full-memory answers can take a minute.';
+	    if (elapsed < 240000) return 'still saved, still checking. keep this tab open.';
+	    return 'last stretch before the five-minute hold expires — still checking.';
+	  }
+
+	  function updatePendingMessage(attempt, networkIssue = false) {
+	    const pending = response.querySelector('.fo-pending');
+	    if (pending) pending.textContent = pendingMessage(attempt, networkIssue);
+	  }
+
+	  function showPending(question, attempt = 0) {
 	    stopThinking();
 	    setStatus('thinking', 'buddy holding question');
 	    setFlipSpeed(520);
@@ -366,7 +382,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      '<div class="fo-buddy">you:</div>' +
 	      `<div class="fo-answer">${escHtml(question || '')}</div>` +
 	      '<div class="fo-sep">…</div>' +
-	      '<div class="fo-obs fo-pending">buddy got your question, hang tight…</div>' +
+	      `<div class="fo-obs fo-pending">${escHtml(pendingMessage(attempt))}</div>` +
 	      '</div>';
 	  }
 
@@ -425,7 +441,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 	  const PENDING_STORAGE = 'askbuddy_pending_requests';
 	  const PENDING_POLL_MS = 3000;
-	  const PENDING_MAX_POLLS = 20;
+	  const PENDING_MAX_POLLS = 100;
 	  function loadPending() {
 	    try {
 	      const rows = JSON.parse(localStorage.getItem(PENDING_STORAGE) || '[]');
@@ -450,8 +466,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    const rows = loadPending().filter(row => now - Number(row.ts || 0) < 5 * 60 * 1000);
 	    savePending(rows);
 	    if (!rows.length) return;
-	    showPending(rows[0].question || 'pending question');
-	    rows.forEach(row => pollPending(row, 0));
+	    const attempt = Math.floor((now - Number(rows[0].ts || now)) / PENDING_POLL_MS);
+	    showPending(rows[0].question || 'pending question', attempt);
+	    rows.forEach(row => {
+	      const rowAttempt = Math.floor((now - Number(row.ts || now)) / PENDING_POLL_MS);
+	      pollPending(row, rowAttempt);
+	    });
 	  }
 	  async function pollPending(entry, attempt) {
 	    if (!entry || !entry.request_id) return;
@@ -477,11 +497,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      return;
 	    }
 	    if (payload && payload.ok && payload.status === 'pending') {
+	      updatePendingMessage(attempt);
 	      if (attempt < PENDING_MAX_POLLS) {
 	        setTimeout(() => pollPending(entry, attempt + 1), PENDING_POLL_MS);
 	      } else {
-	        setStatus('online', 'buddy online');
-	        setFlipSpeed(1100);
+	        removePending(entry.request_id);
+	        showReply('buddy was holding this but it timed out. send it again whenever.');
 	      }
 	      return;
 	    }
@@ -493,10 +514,11 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    }
 
 	    if (attempt < PENDING_MAX_POLLS) {
+	      updatePendingMessage(attempt, payload && payload.error === 'network_failed');
 	      setTimeout(() => pollPending(entry, attempt + 1), PENDING_POLL_MS);
 	    } else {
-	      setStatus('online', 'buddy online');
-	      setFlipSpeed(1100);
+	      removePending(entry.request_id);
+	      showReply('buddy was holding this but it timed out. send it again whenever.');
 	    }
 	  }
 
