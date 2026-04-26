@@ -204,6 +204,80 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     }[c]));
   }
 
+  function wireShare(root) {
+    const btn = root.querySelector('.fo-share-v2');
+    const tray = root.querySelector('.fo-share-tray');
+    if (!btn || !tray) return;
+
+    const answer = btn.getAttribute('data-answer') || '';
+    const pageUrl = location.origin + location.pathname;
+    const excerpt = answer.length > 180 ? answer.slice(0, 177) + '…' : answer;
+    const shareText = `buddy:\n${answer}\n\naiit-threshold.com`;
+    const emailBody = `buddy:\n${answer}\n\naiit-threshold.com`;
+
+    const setExpanded = (open) => {
+      tray.hidden = !open;
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    };
+    btn.setAttribute('aria-expanded', 'false');
+    btn.setAttribute('aria-haspopup', 'true');
+
+    btn.addEventListener('click', async (e) => {
+      e.stopPropagation();
+      try {
+        if (navigator.share) {
+          await navigator.share({ text: shareText, url: pageUrl });
+          return;
+        }
+      } catch { /* cancel or unsupported -> fall through */ }
+      setExpanded(tray.hidden);
+    });
+
+    document.addEventListener('click', (e) => {
+      if (tray.hidden) return;
+      if (tray.contains(e.target) || btn.contains(e.target)) return;
+      setExpanded(false);
+    });
+
+    const flash = (el, msg, ok = true) => {
+      const labelEl = el.querySelector('.fo-share-txt') || el;
+      const orig = labelEl.textContent;
+      labelEl.textContent = msg;
+      if (ok) el.classList.add('copied');
+      setTimeout(() => {
+        labelEl.textContent = orig;
+        el.classList.remove('copied');
+      }, 1400);
+    };
+
+    tray.querySelectorAll('[data-share]').forEach(item => {
+      item.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        const kind = item.getAttribute('data-share');
+        try {
+          if (kind === 'copy-link') {
+            await navigator.clipboard.writeText(pageUrl);
+            flash(item, 'Copied ✓');
+          } else if (kind === 'copy-answer') {
+            await navigator.clipboard.writeText(shareText);
+            flash(item, 'Copied ✓');
+          } else if (kind === 'facebook') {
+            window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(pageUrl), '_blank', 'noopener,noreferrer');
+          } else if (kind === 'x') {
+            const t = 'buddy: ' + excerpt;
+            window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(t) + '&url=' + encodeURIComponent(pageUrl), '_blank', 'noopener,noreferrer');
+          } else if (kind === 'reddit') {
+            window.open('https://www.reddit.com/submit?url=' + encodeURIComponent(pageUrl) + '&title=' + encodeURIComponent('buddy: ' + excerpt), '_blank', 'noopener,noreferrer');
+          } else if (kind === 'email') {
+            location.href = 'mailto:?subject=' + encodeURIComponent('Buddy') + '&body=' + encodeURIComponent(emailBody);
+          }
+        } catch {
+          flash(item, 'failed', false);
+        }
+      });
+    });
+  }
+
   function showReply(text) {
     stopThinking();
     setStatus('online', 'buddy online');
@@ -322,7 +396,11 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       });
       return {
         ok: true,
+        layer: 'substrate',
         answer: data.response || '',
+        observation: 'Saved to Buddy local session and Kokoro raw turns.',
+        observation_kind: 'substrate',
+        cta: 'Pass it on',
       };
     } catch (err) {
       if (err.status === 404) {
@@ -334,7 +412,11 @@ import BuddyMascot from '../components/BuddyMascot.astro';
         });
         return {
           ok: true,
+          layer: 'substrate',
           answer: data.response || '',
+          observation: 'Saved to Buddy local session and Kokoro raw turns.',
+          observation_kind: 'substrate',
+          cta: 'Pass it on',
         };
       }
       return { ok: false, error: 'local_buddy_failed', detail: err.message };
