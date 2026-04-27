@@ -1101,3 +1101,39 @@ footer .wm .ai { color: rgba(212,160,96,0.55); font-weight: 700; }
 
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity 0.8s ease, transform 0.8s ease; }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+/* ── CAMPAIGN TICKER STRIP ───────────────────────────────────────── */
+.ticker-wrap {
+  width: 100%;
+  overflow: hidden;
+  background: rgba(255,255,255,0.04);
+  border-top: 1px solid rgba(255,255,255,0.07);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  padding: 12px 0;
+  white-space: nowrap;
+}
+.ticker-track {
+  display: inline-block;
+  animation: ticker-scroll 60s linear infinite;
+}
+.ticker-item {
+  display: inline-block;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: #d4a060;
+  text-transform: uppercase;
+  padding: 0 24px;
+}
+.ticker-sep {
+  display: inline-block;
+  color: rgba(255,255,255,0.2);
+  padding: 0 4px;
+}
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.ticker-wrap:hover .ticker-track {
+  animation-play-state: paused;
+}
