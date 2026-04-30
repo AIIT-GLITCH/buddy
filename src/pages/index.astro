@@ -584,10 +584,33 @@ const totalPapers = papersAll.length;
   }
 
   // Generate a stable per-session token (survives page refresh, not tab close)
+  let inMemoryJokeToken = '';
+  function makeJokeToken() {
+    if (window.crypto && typeof window.crypto.randomUUID === 'function') {
+      return window.crypto.randomUUID();
+    }
+    if (window.crypto && typeof window.crypto.getRandomValues === 'function') {
+      const bytes = new Uint8Array(16);
+      window.crypto.getRandomValues(bytes);
+      bytes[6] = (bytes[6] & 0x0f) | 0x40;
+      bytes[8] = (bytes[8] & 0x3f) | 0x80;
+      const hex = Array.from(bytes, b => b.toString(16).padStart(2, '0')).join('');
+      return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
+    }
+    return `joke-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 12)}`;
+  }
   function getToken() {
-    let t = sessionStorage.getItem('joke_token');
-    if (!t) { t = crypto.randomUUID(); sessionStorage.setItem('joke_token', t); }
-    return t;
+    try {
+      let t = sessionStorage.getItem('joke_token');
+      if (!t) {
+        t = makeJokeToken();
+        sessionStorage.setItem('joke_token', t);
+      }
+      return t;
+    } catch (_) {
+      if (!inMemoryJokeToken) inMemoryJokeToken = makeJokeToken();
+      return inMemoryJokeToken;
+    }
   }
 
   // Rolling multi-turn context for /joke (Cycle 6). Same shape as /ask-buddy:
@@ -613,6 +636,15 @@ const totalPapers = papersAll.length;
   })();
   function getDevBypass() {
     try { return localStorage.getItem(DEV_KEY) || ''; } catch (e) { return ''; }
+  }
+  function readJokeRecord() {
+    try { return JSON.parse(localStorage.getItem(JOKE_KEY) || 'null'); } catch (_) { return null; }
+  }
+  function writeJokeRecord(record) {
+    try { localStorage.setItem(JOKE_KEY, JSON.stringify(record)); } catch (_) {}
+  }
+  function clearJokeRecord() {
+    try { localStorage.removeItem(JOKE_KEY); } catch (_) {}
   }
 
   function timeUntilReset(usedAt) {
@@ -649,13 +681,13 @@ const totalPapers = papersAll.length;
     jokeInput.disabled = false;
     jokeInput.style.opacity = '';
     jokeBtn.textContent = 'Send →';
-    localStorage.removeItem(JOKE_KEY);
+    clearJokeRecord();
   }
 
   // Check on load
-  let stored = JSON.parse(localStorage.getItem(JOKE_KEY) || 'null');
+  let stored = readJokeRecord();
   if (stored && /we went|api budget|broke/i.test(stored.reply || '')) {
-    localStorage.removeItem(JOKE_KEY);
+    clearJokeRecord();
     stored = null;
   }
   if (stored) {
@@ -663,15 +695,16 @@ const totalPapers = papersAll.length;
     if (elapsed < COOLDOWN_MS) {
       lockWidget(stored.at, stored.reply);
     } else {
-      localStorage.removeItem(JOKE_KEY);
+      clearJokeRecord();
     }
   }
 
-  function showBroke() {
+  function showBroke(message) {
     stopThinking();
+    const detail = message || 'The joke engine is offline right now. The button is still live — try again in a minute.';
     jokeResponse.className = 'joke-response visible broke';
     jokeResponse.innerHTML = `<span class="broke-headline">Buddy missed the live answer path.</span><br>
-<span class="broke-sub">The app is wired, but that request was refused or timed out. Try again in a minute.</span><br>
+<span class="broke-sub">${escHtml(detail)}</span><br>
 <a href="/ask-buddy" class="broke-donate">Ask Buddy directly →</a>`;
   }
 
@@ -751,24 +784,31 @@ const totalPapers = papersAll.length;
     jokeResponse.className = 'joke-response loading';
     startThinking();
 
+    const minShowMs = 900;
+    const startedAt = performance.now();
     let payload = null;
     try {
+      const token = getToken();
       const res = await fetch('/api/joke', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           joke,
-          token: getToken(),
-          session_id: getToken(),
+          token,
+          session_id: token,
           history: jokeHistory.slice(),
           admin: getDevBypass(),
         }),
       });
       const data = await res.json();
+      const elapsed = performance.now() - startedAt;
+      if (elapsed < minShowMs) {
+        await new Promise(resolve => setTimeout(resolve, minShowMs - elapsed));
+      }
       if (data.error === 'once_per_day') {
         payload = { answer: "you already got your one today. 🫘 come back tomorrow.", cta: 'pass it on' };
       } else if (!res.ok || data.error) {
-        showBroke();
+        showBroke(data.message || 'The joke engine is offline right now. Try again in a minute.');
         jokeBtn.disabled = false;
         jokeBtn.textContent = 'Send →';
         return;
@@ -779,7 +819,11 @@ const totalPapers = papersAll.length;
         }
       }
     } catch {
-      showBroke();
+      const elapsed = performance.now() - startedAt;
+      if (elapsed < minShowMs) {
+        await new Promise(resolve => setTimeout(resolve, minShowMs - elapsed));
+      }
+      showBroke('Your browser could not reach the joke engine. Try again in a minute.');
       jokeBtn.disabled = false;
       jokeBtn.textContent = 'Send →';
       return;
@@ -798,7 +842,7 @@ const totalPapers = papersAll.length;
       jokeInput.value = '';
     } else {
       const record = { at: Date.now(), reply: savedReply };
-      localStorage.setItem(JOKE_KEY, JSON.stringify(record));
+      writeJokeRecord(record);
       lockWidget(record.at, null);
     }
   }
