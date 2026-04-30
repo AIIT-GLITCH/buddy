@@ -250,9 +250,11 @@ const totalPapers = papersAll.length;
   (function () {
     const jokeChip = document.querySelector('[data-hs="joke"]');
     const panel = document.getElementById('hero-joke-anchor');
+    const hero = document.getElementById('hero');
     if (!jokeChip || !panel) return;
 
     function revealJoke(smooth) {
+      if (hero) hero.classList.add('joke-mode');
       panel.hidden = false;
       panel.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'center' });
       setTimeout(function () {
@@ -846,6 +848,29 @@ const totalPapers = papersAll.length;
     border-radius: 14px;
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
+    scroll-margin-top: 112px;
+  }
+
+  #hero.joke-mode {
+    min-height: 100svh;
+    min-height: 100vh;
+    padding-top: 112px;
+    padding-bottom: 96px;
+    justify-content: flex-start;
+    overflow: visible;
+  }
+
+  #hero.joke-mode .hero-content {
+    width: 100%;
+  }
+
+  #hero.joke-mode .hero-primary,
+  #hero.joke-mode .hero-scroll {
+    display: none;
+  }
+
+  #hero.joke-mode .hero-joke {
+    margin-top: 24px;
   }
 
   .joke-container {
