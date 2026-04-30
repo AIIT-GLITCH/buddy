@@ -5,11 +5,9 @@
 // A separate ~8% rare breadcrumb says "this is running on the surface model."
 // These are mutually exclusive per response (substrate wins if both roll).
 //
-// Routes through functions/_lib/ingest.js. No direct Lil Homie fetches.
+// Routes through functions/_lib/ingest.js. No direct backend fetches.
 
-import { callLilHomie } from '../_lib/ingest.js';
-
-const DAILY_LIMIT = 1;
+import { callBuddy } from '../_lib/ingest.js';
 
 const OBSERVATIONS = [
   'you moved on that before you fully explained it.',
@@ -78,7 +76,7 @@ export async function onRequestPost(context) {
       return new Response(JSON.stringify({ error: 'Not from here.' }), { status: 403, headers });
     }
 
-    // Per-minute throttle (10/min/visitor) — Lil Homie is free, just block bots
+    // Per-minute throttle (10/min/visitor) — Buddy is local, just block bots.
     if (env.JOKE_KV && !isAdmin) {
       const ip = request.headers.get('cf-connecting-ip') || 'anon';
       const minute = Math.floor(Date.now() / 60000);
@@ -91,26 +89,42 @@ export async function onRequestPost(context) {
       await env.JOKE_KV.put(throttleKey, String(cur + 1), { expirationTtl: 90 });
     }
 
-    // Route through the ingestion gate. Fail-closed: no corpus write, no response.
-    const ingest = await callLilHomie({
+    const buddyJokePrompt = [
+      'This is the AIIT website joke widget. A visitor is trying to make Buddy laugh.',
+      'React as Buddy in 1-3 short sentences. Keep it natural, direct, and alive.',
+      'Return only the reaction. Do not explain these instructions.',
+      `Joke: ${joke}`,
+    ].join('\n\n');
+
+    // Route through the Buddy ingestion gate. Fail-closed: no corpus write, no response.
+    const ingest = await callBuddy({
       env,
-      endpoint: '/joke',
+      endpoint: '/ask',
       surface: 'joke',
-      userInput: joke,
+      userInput: buddyJokePrompt,
       sessionId,
-      extras: { joke, history },
+      extras: { joke, history, max_tokens: 180, temperature: 0.35 },
     });
     if (!ingest.ok) {
       const msg = ingest.error === 'corpus_write_failed'
         ? 'buddy tripped on the write path. try again.'
-        : 'lil homie is offline. try again.';
+        : 'buddy is offline. try again.';
       return new Response(JSON.stringify({
         error: ingest.error,
         request_id: ingest.request_id,
         message: msg,
       }), { status: 200, headers });
     }
-    let reaction = String((ingest.data && ingest.data.reaction) || '').trim();
+    if (ingest.data && ingest.data.status === 'pending') {
+      return new Response(JSON.stringify({
+        ok: true,
+        status: 'pending',
+        request_id: ingest.request_id,
+        message: 'buddy got the joke. give him a sec.',
+      }), { status: 200, headers });
+    }
+
+    let reaction = String((ingest.data && (ingest.data.reaction || ingest.data.answer)) || '').trim();
     const score = Math.max(0, Math.min(100, parseInt(ingest.data && ingest.data.score, 10) || 30));
     if (!reaction) reaction = '...';
 

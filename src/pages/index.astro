@@ -516,8 +516,9 @@ const totalPapers = papersAll.length;
   const jokeInput = document.getElementById('joke-input');
   const jokeResponse = document.getElementById('joke-response');
 
+  // Legacy key from the old one-joke-per-day browser lock. The lock is gone,
+  // but clear it so previously locked phones unlock on next page load.
   const JOKE_KEY = 'buddy_joke_used';
-  const COOLDOWN_MS = 24 * 60 * 60 * 1000; // 24 hours
 
   const fallbacks = [
     "🫘 I heard that. The winding number on that punchline almost closed.",
@@ -630,78 +631,21 @@ const totalPapers = papersAll.length;
       const p = new URLSearchParams(location.search).get('dev');
       if (p) {
         localStorage.setItem(DEV_KEY, p);
-        localStorage.removeItem(JOKE_KEY);
+        clearLegacyJokeLock();
       }
     } catch (e) {}
   })();
   function getDevBypass() {
     try { return localStorage.getItem(DEV_KEY) || ''; } catch (e) { return ''; }
   }
-  function readJokeRecord() {
-    try { return JSON.parse(localStorage.getItem(JOKE_KEY) || 'null'); } catch (_) { return null; }
-  }
-  function writeJokeRecord(record) {
-    try { localStorage.setItem(JOKE_KEY, JSON.stringify(record)); } catch (_) {}
-  }
-  function clearJokeRecord() {
+  function clearLegacyJokeLock() {
     try { localStorage.removeItem(JOKE_KEY); } catch (_) {}
   }
-
-  function timeUntilReset(usedAt) {
-    const ms = COOLDOWN_MS - (Date.now() - usedAt);
-    if (ms <= 0) return null;
-    const h = Math.floor(ms / 3600000);
-    const m = Math.floor((ms % 3600000) / 60000);
-    return h > 0 ? `${h}h ${m}m` : `${m}m`;
-  }
-
-  function lockWidget(usedAt, savedReply) {
-    jokeBtn.disabled = true;
-    jokeInput.disabled = true;
-    jokeInput.style.opacity = '0.4';
-    const remaining = timeUntilReset(usedAt);
-    if (savedReply) {
-      jokeResponse.className = 'joke-response visible';
-      jokeResponse.textContent = savedReply;
-    }
-    jokeBtn.textContent = remaining ? `Back in ${remaining}` : 'Send →';
-    jokeBtn.title = 'One joke per day — come back tomorrow';
-    // tick the timer every minute
-    if (remaining) {
-      setTimeout(() => {
-        const r2 = timeUntilReset(usedAt);
-        if (r2) { jokeBtn.textContent = `Back in ${r2}`; }
-        else { unlockWidget(); }
-      }, 60000);
-    }
-  }
-
-  function unlockWidget() {
-    jokeBtn.disabled = false;
-    jokeInput.disabled = false;
-    jokeInput.style.opacity = '';
-    jokeBtn.textContent = 'Send →';
-    clearJokeRecord();
-  }
-
-  // Check on load
-  let stored = readJokeRecord();
-  if (stored && /we went|api budget|broke/i.test(stored.reply || '')) {
-    clearJokeRecord();
-    stored = null;
-  }
-  if (stored) {
-    const elapsed = Date.now() - stored.at;
-    if (elapsed < COOLDOWN_MS) {
-      lockWidget(stored.at, stored.reply);
-    } else {
-      clearJokeRecord();
-    }
-  }
+  clearLegacyJokeLock();
 
   function showBroke(message) {
     stopThinking();
-    const detail = message || 'The joke engine is offline right now. The button is still live — try again in a minute.';
+    const detail = message || 'Buddy is offline right now. The button is still live — try again in a minute.';
     jokeResponse.className = 'joke-response visible broke';
     jokeResponse.innerHTML = `<span class="broke-headline">Buddy missed the live answer path.</span><br>
 <span class="broke-sub">${escHtml(detail)}</span><br>
@@ -757,22 +701,59 @@ const totalPapers = papersAll.length;
     if (!btn) return;
     btn.addEventListener('click', async () => {
       const answer = btn.getAttribute('data-answer') || '';
-      const shareText = `buddy: ${answer}\n\naiit-threshold.com`;
-      try {
-        if (navigator.share) {
-          await navigator.share({ text: shareText, url: 'https://aiit-threshold.com' });
+      const original = btn.textContent;
+      if (window.BuddyShare) {
+        const result = await window.BuddyShare.share({
+          answer,
+          pageUrl: 'https://aiit-threshold.com',
+          title: 'ASKBUDDY! - AIIT-THRESHOLD',
+        });
+        if (result === 'shared' || result === 'cancelled') return;
+        if (result === 'copied') {
+          btn.textContent = 'copied card text';
+          setTimeout(() => { btn.textContent = original; }, 1600);
           return;
         }
-      } catch { /* fall through to clipboard */ }
+      }
       try {
+        const shareText = window.BuddyShare
+          ? window.BuddyShare.buildText({ answer, pageUrl: 'https://aiit-threshold.com' })
+          : `buddy: ${answer}\n\naiit-threshold.com`;
         await navigator.clipboard.writeText(shareText);
-        const original = btn.textContent;
-        btn.textContent = 'copied ✓';
+        btn.textContent = 'copied';
         setTimeout(() => { btn.textContent = original; }, 1600);
       } catch {
         btn.textContent = 'copy failed';
       }
     });
+  }
+
+  const JOKE_PENDING_POLL_MS = 3000;
+  const JOKE_PENDING_MAX_POLLS = 100;
+  async function pollJokePending(requestId, sessionId) {
+    for (let attempt = 0; attempt < JOKE_PENDING_MAX_POLLS; attempt++) {
+      if (attempt > 0) {
+        await new Promise(resolve => setTimeout(resolve, JOKE_PENDING_POLL_MS));
+      }
+      let payload = null;
+      try {
+        const res = await fetch('/api/askbuddy_poll', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ request_id: requestId, session_id: sessionId }),
+        });
+        payload = await res.json();
+      } catch {
+        payload = { ok: false, error: 'network_failed' };
+      }
+
+      if (payload && payload.ok && payload.status === 'ready') return payload;
+      if (payload && (payload.error === 'expired' || payload.status === 'expired')) {
+        return { ok: false, error: 'expired', message: 'buddy held this too long. send it again whenever.' };
+      }
+      if (payload && payload.ok && payload.status === 'pending') continue;
+    }
+    return { ok: false, error: 'timeout', message: 'buddy held this too long. send it again whenever.' };
   }
 
   async function sendJoke() {
@@ -805,10 +786,16 @@ const totalPapers = papersAll.length;
       if (elapsed < minShowMs) {
         await new Promise(resolve => setTimeout(resolve, minShowMs - elapsed));
       }
-      if (data.error === 'once_per_day') {
-        payload = { answer: "you already got your one today. 🫘 come back tomorrow.", cta: 'pass it on' };
+      if (data && data.ok && data.status === 'pending' && data.request_id) {
+        payload = await pollJokePending(data.request_id, token);
+        if (!payload || !payload.ok) {
+          showBroke((payload && payload.message) || 'Buddy is still thinking. Try again in a minute.');
+          jokeBtn.disabled = false;
+          jokeBtn.textContent = 'Send →';
+          return;
+        }
       } else if (!res.ok || data.error) {
-        showBroke(data.message || 'The joke engine is offline right now. Try again in a minute.');
+        showBroke(data.message || 'Buddy is offline right now. Try again in a minute.');
         jokeBtn.disabled = false;
         jokeBtn.textContent = 'Send →';
         return;
@@ -823,7 +810,7 @@ const totalPapers = papersAll.length;
       if (elapsed < minShowMs) {
         await new Promise(resolve => setTimeout(resolve, minShowMs - elapsed));
       }
-      showBroke('Your browser could not reach the joke engine. Try again in a minute.');
+      showBroke('Your browser could not reach Buddy. Try again in a minute.');
       jokeBtn.disabled = false;
       jokeBtn.textContent = 'Send →';
       return;
@@ -836,15 +823,9 @@ const totalPapers = papersAll.length;
 
     const savedReply = payload.answer || payload.reply || '';
     if (savedReply) pushJokeTurn(joke, savedReply);
-    if (getDevBypass()) {
-      jokeBtn.disabled = false;
-      jokeBtn.textContent = 'Send →';
-      jokeInput.value = '';
-    } else {
-      const record = { at: Date.now(), reply: savedReply };
-      writeJokeRecord(record);
-      lockWidget(record.at, null);
-    }
+    jokeBtn.disabled = false;
+    jokeBtn.textContent = 'Send →';
+    jokeInput.value = '';
   }
 
   jokeBtn.addEventListener('click', sendJoke);
