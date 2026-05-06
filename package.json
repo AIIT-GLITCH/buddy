@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "node scripts/build-paper-index.mjs && astro build",
+    "build": "node scripts/guard-buddy-routes.mjs && node scripts/build-paper-index.mjs && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "index": "node scripts/build-paper-index.mjs"
+    "index": "node scripts/build-paper-index.mjs",
+    "guard:buddy": "node scripts/guard-buddy-routes.mjs"
   },
   "dependencies": {
     "astro": "^5.0.0"

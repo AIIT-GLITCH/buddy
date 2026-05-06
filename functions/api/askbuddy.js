@@ -15,9 +15,10 @@
 //     → { ok:false, error:"rate_limited" }
 //     → { ok:false, error:"corpus_write_failed" }
 
-import { callBuddy, callLilHomie } from '../_lib/ingest.js';
+import { callBuddy } from '../_lib/ingest.js';
 
 const MAX_QUESTION_LEN = 600;
+const BUDDY_SITE_MAX_TOKENS = 128;
 
 // First-output shape helpers (see DEV_ARCHITECTURE.md → Response Shape)
 const OBSERVATIONS = [
@@ -122,7 +123,7 @@ export async function onRequestPost(context) {
     surface: 'ask',
     userInput: question,
     sessionId,
-    extras: { question, history },
+    extras: { question, history, max_tokens: BUDDY_SITE_MAX_TOKENS, temperature: 0.25 },
   });
 
   if (!ingest.ok) {
