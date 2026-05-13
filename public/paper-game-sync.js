@@ -1,6 +1,8 @@
 (function () {
   const KEY = 'trivia_collected_slugs';
   const URL = '/api/paper-game/collection';
+  let lastSnapshot = '';
+  let syncing = false;
 
   function list(value) {
     const arr = Array.isArray(value) ? value : [];
@@ -25,53 +27,58 @@
     return list([].concat(a || [], b || []));
   }
 
+  function snapshot(slugs) {
+    return list(slugs).sort().join('|');
+  }
+
   function fire(slugs, user) {
     window.dispatchEvent(new CustomEvent('paper-game-collection', {
       detail: { collected_slugs: list(slugs), user: user || null }
     }));
   }
 
-  function same(a, b) {
-    const x = list(a).sort();
-    const y = list(b).sort();
-    return x.length === y.length && x.every((v, i) => v === y[i]);
-  }
-
-  async function sync() {
+  async function sync(force) {
+    if (syncing) return;
     const local = readLocal();
+    const snap = snapshot(local);
+    if (!force && snap === lastSnapshot) return;
+    lastSnapshot = snap;
+    syncing = true;
+
     let data;
     try {
-      const res = await fetch(URL, { cache: 'no-store' });
-      if (!res.ok) { fire(local, null); return { ok: false, collected_slugs: local }; }
+      const res = await fetch(URL, { credentials: 'same-origin', cache: 'no-store' });
+      if (!res.ok) { fire(local, null); return; }
       data = await res.json();
     } catch {
       fire(local, null);
-      return { ok: false, collected_slugs: local };
+      return;
+    } finally {
+      syncing = false;
     }
 
-    if (!data.user) {
+    if (!data || !data.user) {
       fire(local, null);
-      return { ok: true, user: null, collected_slugs: local };
+      return;
     }
 
     const merged = merge(local, data.collected_slugs);
-    if (!same(local, merged)) writeLocal(merged);
+    if (snapshot(merged) !== snapshot(local)) writeLocal(merged);
 
-    if (!same(data.collected_slugs, merged)) {
-      try {
-        const save = await fetch(URL, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ collected_slugs: merged })
-        });
-        if (save.ok) data = await save.json();
-      } catch {}
-    }
+    try {
+      const save = await fetch(URL, {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ collected_slugs: merged })
+      });
+      if (save.ok) data = await save.json();
+    } catch {}
 
-    const finalSlugs = list(data.collected_slugs || merged);
+    const finalSlugs = list((data && data.collected_slugs) || merged);
     writeLocal(finalSlugs);
-    fire(finalSlugs, data.user || null);
-    return { ok: true, user: data.user || null, collected_slugs: finalSlugs };
+    lastSnapshot = snapshot(finalSlugs);
+    fire(finalSlugs, data && data.user);
   }
 
   function saveUnlocked(slug) {
@@ -82,10 +89,20 @@
       writeLocal(current);
       fire(current, null);
     }
-    return sync();
+    return sync(true);
   }
 
   window.BuddyPaperGameSync = { sync, saveUnlocked, readLocal };
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', sync, { once: true });
-  else sync();
+
+  function start() {
+    lastSnapshot = snapshot(readLocal());
+    sync(true);
+    setInterval(function () { sync(false); }, 2000);
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'visible') sync(true);
+    });
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true });
+  else start();
 })();
