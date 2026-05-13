@@ -5,7 +5,8 @@ import { callBuddyPoll } from '../_lib/ingest.js';
 const PRIMARY_ORIGIN = 'https://aiit-threshold.com';
 const ALLOWED_ORIGIN_PATTERNS = [
   /^https:\/\/(www\.)?aiit-threshold\.com$/i,
-  /^https:\/\/[-a-z0-9]+\.pages\.dev$/i,
+  /^https:\/\/[a-f0-9]+\.buddy-bb4\.pages\.dev$/i,
+  /^https:\/\/[-a-z0-9]+\.buddy-bb4\.pages\.dev$/i,
   /^https?:\/\/localhost(?::\d+)?$/i,
   /^https?:\/\/127\.0\.0\.1(?::\d+)?$/i,
   /^capacitor:\/\/localhost$/i,
