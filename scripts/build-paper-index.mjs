@@ -12,6 +12,7 @@ const ROOT       = resolve(__dirname, '..');
 const SOURCE_DIR = '/home/buddy_ai/Desktop/PRINT_READY';
 const OUT_PDF    = resolve(ROOT, 'public/papers');
 const OUT_JSON   = resolve(ROOT, 'src/data/papers.json');
+const CANONICAL_MAX_PAPER = 154;
 
 // Tag assignment from filename keywords — extend as new domains land
 const tagRules = [
@@ -59,6 +60,14 @@ function tagFor(stem) {
   return 'Paper';
 }
 
+function slugPart(stem) {
+  return stem
+    .replace(/^PAPER_\d+[A-Z]?_/i, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 if (!existsSync(SOURCE_DIR)) {
   console.error(`[build-paper-index] missing source dir: ${SOURCE_DIR}`);
   process.exit(1);
@@ -75,34 +84,38 @@ const files = readdirSync(SOURCE_DIR)
     return na - nb || a.localeCompare(b);
   });
 
-const papers = files.map(f => {
+const papers = files.flatMap(f => {
   const stem     = f.replace(/\.pdf$/i, '');
   const numMatch = stem.match(/^PAPER_(\d+)([A-Z]?)/i);
   const num      = numMatch[1].padStart(3, '0');
   const suffix   = numMatch[2] || '';
-  const slug     = (num + suffix).toLowerCase();
+  const sourceNumber = parseInt(num, 10);
+
+  // Do not let bad source files break deploys or leak fake public numbers.
+  // This should be promoted to a hard error once paper-canon.json exists.
+  if (!Number.isFinite(sourceNumber) || sourceNumber < 1 || sourceNumber > CANONICAL_MAX_PAPER) {
+    console.warn(`[build-paper-index] skipping non-canonical paper file: ${f}`);
+    return [];
+  }
+
   const title    = prettify(stem);
   const tag      = tagFor(stem);
-  return { id: stem, num, suffix, slug, title, tag, filename: f };
+  const slugBase = (num + suffix).toLowerCase();
+  return [{ id: stem, num, suffix, slug: slugBase, title, tag, filename: f }];
 });
 
-// Dedupe by num: when multiple PDFs share PAPER_NN_, the LAST one (alphabetically
-// last in PRINT_READY) keeps the original num and matches what's been live.
-// Earlier "loser" entries get reassigned to fresh paper numbers starting at maxNum+1
-// so every entry in papers.json has a unique slug — Astro can build one route per paper.
+// Never invent paper numbers. Duplicate PAPER_NN_* files are collisions/variants,
+// not new 170-series papers. Keep the original paper number for display and make
+// duplicate routes unique by appending a title slug.
 {
-  let maxNum = 0;
-  papers.forEach(p => { const n = parseInt(p.num, 10); if (n > maxNum) maxNum = n; });
-  const lastIdxByKey = {};
-  papers.forEach((p, i) => { lastIdxByKey[p.num + p.suffix] = i; });
-  let nextNum = maxNum + 1;
-  papers.forEach((p, i) => {
-    if (lastIdxByKey[p.num + p.suffix] === i) return;
-    const newNumStr = String(nextNum).padStart(3, '0');
-    p.num  = newNumStr;
-    p.slug = newNumStr + (p.suffix || '').toLowerCase();
-    nextNum++;
-  });
+  const slugCounts = new Map();
+  for (const p of papers) {
+    const seen = slugCounts.get(p.slug) || 0;
+    slugCounts.set(p.slug, seen + 1);
+    if (seen > 0) {
+      p.slug = `${p.slug}-${slugPart(p.id)}`;
+    }
+  }
 }
 
 // Watermark + copyright every PDF into public/papers via stamp_pdf.py.
