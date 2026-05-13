@@ -84,34 +84,37 @@ const files = readdirSync(SOURCE_DIR)
     return na - nb || a.localeCompare(b);
   });
 
-const papers = files.map(f => {
+const papers = files.flatMap(f => {
   const stem     = f.replace(/\.pdf$/i, '');
   const numMatch = stem.match(/^PAPER_(\d+)([A-Z]?)/i);
   const num      = numMatch[1].padStart(3, '0');
   const suffix   = numMatch[2] || '';
+  const sourceNumber = parseInt(num, 10);
+
+  // Do not let bad source files break deploys or leak fake public numbers.
+  // This should be promoted to a hard error once paper-canon.json exists.
+  if (!Number.isFinite(sourceNumber) || sourceNumber < 1 || sourceNumber > CANONICAL_MAX_PAPER) {
+    console.warn(`[build-paper-index] skipping non-canonical paper file: ${f}`);
+    return [];
+  }
+
   const title    = prettify(stem);
   const tag      = tagFor(stem);
-  const sourceNumber = parseInt(num, 10);
   const slugBase = (num + suffix).toLowerCase();
-  return { id: stem, num, suffix, slug: slugBase, title, tag, filename: f, sourceNumber };
+  return [{ id: stem, num, suffix, slug: slugBase, title, tag, filename: f }];
 });
 
-// Never invent paper numbers. The public canon currently stops at 154; duplicate
-// PAPER_NN_* files are collisions/variants, not new 170-series papers.
-// Keep the original paper number for display and make duplicate routes unique by
-// appending a title slug instead of reassigning a fake number.
+// Never invent paper numbers. Duplicate PAPER_NN_* files are collisions/variants,
+// not new 170-series papers. Keep the original paper number for display and make
+// duplicate routes unique by appending a title slug.
 {
   const slugCounts = new Map();
   for (const p of papers) {
-    if (p.sourceNumber > CANONICAL_MAX_PAPER) {
-      throw new Error(`[build-paper-index] illegal paper number ${p.sourceNumber} in ${p.filename}; canonical max is ${CANONICAL_MAX_PAPER}`);
-    }
     const seen = slugCounts.get(p.slug) || 0;
     slugCounts.set(p.slug, seen + 1);
     if (seen > 0) {
       p.slug = `${p.slug}-${slugPart(p.id)}`;
     }
-    delete p.sourceNumber;
   }
 }
 
