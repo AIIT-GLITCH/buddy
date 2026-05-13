@@ -31,9 +31,60 @@
     return list(slugs).sort().join('|');
   }
 
+  function escapeHtml(s) {
+    return String(s || '').replace(/[&<>'"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[c];
+    });
+  }
+
+  function activeFilter() {
+    const active = document.querySelector('[data-filter].active');
+    return active ? active.getAttribute('data-filter') || 'all' : 'all';
+  }
+
+  function refreshHub(slugs) {
+    const papers = Array.isArray(window.__PAPER_GAME_PAPERS) ? window.__PAPER_GAME_PAPERS : [];
+    if (!papers.length) return;
+    const set = new Set(list(slugs));
+    const unlockedCount = papers.filter(function (p) { return set.has(p.slug); }).length;
+    const collectedEl = document.getElementById('pg-collected');
+    const meterText = document.getElementById('pg-meter-text');
+    const meterFill = document.getElementById('pg-meter-fill');
+    const summary = document.getElementById('pg-collection-summary');
+    if (collectedEl) collectedEl.textContent = String(unlockedCount);
+    if (meterText) meterText.textContent = unlockedCount + ' unlocked';
+    if (meterFill) meterFill.style.width = (papers.length ? Math.round((unlockedCount / papers.length) * 100) : 0) + '%';
+    if (summary) summary.textContent = unlockedCount + ' / ' + papers.length + ' unlocked';
+
+    const host = document.getElementById('pg-collection');
+    if (!host) return;
+    const filter = activeFilter();
+    const filtered = papers.filter(function (p) {
+      const unlocked = set.has(p.slug);
+      if (filter === 'unlocked') return unlocked;
+      if (filter === 'locked') return !unlocked;
+      if (filter === 'keystone') return p.tier_key === 'keystone';
+      return true;
+    });
+    host.innerHTML = filtered.map(function (p) {
+      const unlocked = set.has(p.slug);
+      const href = unlocked ? '/papers/' + p.slug : '/trivia';
+      const action = unlocked ? 'open paper →' : 'unlock in game →';
+      return '<a class="pg-card tier-' + escapeHtml(p.tier_key) + (unlocked ? ' unlocked' : ' locked') + '" href="' + href + '">' +
+        '<div class="pg-card-state">' + (unlocked ? 'unlocked' : 'locked') + '</div>' +
+        '<div class="pg-card-num">Paper ' + parseInt(p.num, 10) + (p.suffix || '') + '</div>' +
+        '<div class="pg-card-title">' + escapeHtml(p.title) + '</div>' +
+        '<div class="pg-card-tag">' + escapeHtml(p.tag) + ' · [' + escapeHtml(p.tier_label) + ']</div>' +
+        '<div class="pg-card-action">' + action + '</div>' +
+      '</a>';
+    }).join('') || '<div class="pg-empty">No papers match this filter yet.</div>';
+  }
+
   function fire(slugs, user) {
+    const clean = list(slugs);
+    refreshHub(clean);
     window.dispatchEvent(new CustomEvent('paper-game-collection', {
-      detail: { collected_slugs: list(slugs), user: user || null }
+      detail: { collected_slugs: clean, user: user || null }
     }));
   }
 
