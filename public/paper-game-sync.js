@@ -1,7 +1,9 @@
 (function () {
   const KEY = 'trivia_collected_slugs';
   const URL = '/api/paper-game/collection';
+  const REMOTE_POLL_MS = 15000;
   let lastSnapshot = '';
+  let lastRemotePoll = 0;
   let syncing = false;
 
   function list(value) {
@@ -92,8 +94,12 @@
     if (syncing) return;
     const local = readLocal();
     const snap = snapshot(local);
-    if (!force && snap === lastSnapshot) return;
+    const now = Date.now();
+    const localChanged = snap !== lastSnapshot;
+    const remotePollDue = now - lastRemotePoll >= REMOTE_POLL_MS;
+    if (!force && !localChanged && !remotePollDue) return;
     lastSnapshot = snap;
+    lastRemotePoll = now;
     syncing = true;
 
     let data;
@@ -116,15 +122,17 @@
     const merged = merge(local, data.collected_slugs);
     if (snapshot(merged) !== snapshot(local)) writeLocal(merged);
 
-    try {
-      const save = await fetch(URL, {
-        method: 'POST',
-        credentials: 'same-origin',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ collected_slugs: merged })
-      });
-      if (save.ok) data = await save.json();
-    } catch {}
+    if (snapshot(merged) !== snapshot(data.collected_slugs)) {
+      try {
+        const save = await fetch(URL, {
+          method: 'POST',
+          credentials: 'same-origin',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ collected_slugs: merged })
+        });
+        if (save.ok) data = await save.json();
+      } catch {}
+    }
 
     const finalSlugs = list((data && data.collected_slugs) || merged);
     writeLocal(finalSlugs);
