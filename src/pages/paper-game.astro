@@ -1,0 +1,494 @@
+---
+import Layout from '../layouts/Layout.astro';
+import trivia from '../data/trivia.json';
+import papersAll from '../data/papers.json';
+import { tierForSlug } from '../lib/paperTier.js';
+
+const CANONICAL_PAPER_COUNT = 154;
+const gamePaperSlugs = [...new Set(trivia.map(t => t.paper_slug))];
+const gamePapers = gamePaperSlugs
+  .map(slug => {
+    const p = papersAll.find(paper => paper.slug === slug);
+    if (!p) return null;
+    const tier = tierForSlug(p.slug);
+    return {
+      slug: p.slug,
+      num: p.num,
+      suffix: p.suffix || '',
+      title: p.title,
+      tag: p.tag,
+      tier_key: tier.key,
+      tier_label: tier.label,
+    };
+  })
+  .filter(Boolean)
+  .sort((a, b) => parseInt(a.num) - parseInt(b.num));
+
+const gameQuestions = trivia.map(t => ({
+  id: t.id,
+  giant: t.giant,
+  era: t.era,
+  question: t.question,
+  paper_slug: t.paper_slug,
+}));
+---
+<Layout title="Paper Game · Buddy" description="Unlock AIIT papers by answering the giants. Daily draws, collection progress, streaks, and paper rewards.">
+  <section id="paper-game">
+    <div class="pg-shell">
+      <div class="eyebrow">Paper Game</div>
+      <h1 class="pg-title">unlock the archive.<br><span>answer the giants.</span></h1>
+      <p class="pg-copy">
+        Three questions per day. Every answer unlocks a paper. The game remembers what you have collected on this device.
+      </p>
+
+      <div class="pg-hero-actions">
+        <a class="pg-btn primary" href="/trivia">Play today →</a>
+        <a class="pg-btn" href="/papers">Browse archive</a>
+      </div>
+
+      <div class="pg-stats" aria-label="Paper game stats">
+        <div class="pg-stat">
+          <div class="pg-stat-value" id="pg-collected">0</div>
+          <div class="pg-stat-label">collected</div>
+        </div>
+        <div class="pg-stat">
+          <div class="pg-stat-value">{gamePapers.length}</div>
+          <div class="pg-stat-label">game-linked</div>
+        </div>
+        <div class="pg-stat">
+          <div class="pg-stat-value">{CANONICAL_PAPER_COUNT}</div>
+          <div class="pg-stat-label">canonical archive</div>
+        </div>
+        <div class="pg-stat">
+          <div class="pg-stat-value" id="pg-streak">0</div>
+          <div class="pg-stat-label">day streak</div>
+        </div>
+      </div>
+
+      <div class="pg-meter-wrap">
+        <div class="pg-meter-label"><span id="pg-meter-text">0 unlocked</span><span>{gamePapers.length} paper-game rewards</span></div>
+        <div class="pg-meter"><div class="pg-meter-fill" id="pg-meter-fill"></div></div>
+      </div>
+
+      <div class="pg-grid-two">
+        <section class="pg-panel">
+          <div class="pg-panel-head">
+            <h2>Today’s draw</h2>
+            <span id="pg-today-date">daily</span>
+          </div>
+          <div class="pg-today" id="pg-today"></div>
+          <a class="pg-inline-link" href="/trivia">start the daily draw →</a>
+        </section>
+
+        <section class="pg-panel">
+          <div class="pg-panel-head">
+            <h2>Rules</h2>
+            <span>simple</span>
+          </div>
+          <ol class="pg-rules">
+            <li>Answer three giant questions per day.</li>
+            <li>Every answer unlocks the connected AIIT paper.</li>
+            <li>Unlocked papers stay in your collection on this device.</li>
+            <li>Come back tomorrow for a new draw.</li>
+          </ol>
+        </section>
+      </div>
+
+      <section class="pg-panel pg-collection-panel">
+        <div class="pg-panel-head">
+          <h2>Your collection</h2>
+          <span id="pg-collection-summary">locked</span>
+        </div>
+        <div class="pg-collection-controls">
+          <button class="pg-chip active" data-filter="all">All</button>
+          <button class="pg-chip" data-filter="unlocked">Unlocked</button>
+          <button class="pg-chip" data-filter="locked">Locked</button>
+          <button class="pg-chip" data-filter="keystone">Keystone</button>
+        </div>
+        <div class="pg-collection" id="pg-collection"></div>
+      </section>
+    </div>
+  </section>
+
+  <script is:inline set:html={`window.__PAPER_GAME_PAPERS = ${JSON.stringify(gamePapers)};`}></script>
+  <script is:inline set:html={`window.__PAPER_GAME_QUESTIONS = ${JSON.stringify(gameQuestions)};`}></script>
+
+  <script is:inline>
+    (function () {
+      const PAPERS = window.__PAPER_GAME_PAPERS || [];
+      const QUESTIONS = window.__PAPER_GAME_QUESTIONS || [];
+      const KEY_COLLECTED = 'trivia_collected_slugs';
+      const KEY_STREAK_DAYS = 'trivia_streak_days';
+      const KEY_STREAK_LAST = 'trivia_streak_last_date';
+
+      function todayKey() {
+        const d = new Date();
+        return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+      }
+      function addDays(key, n) {
+        const d = new Date(key + 'T00:00:00Z');
+        d.setUTCDate(d.getUTCDate() + n);
+        return d.toISOString().slice(0, 10);
+      }
+      function collectedSet() {
+        try { return new Set(JSON.parse(localStorage.getItem(KEY_COLLECTED) || '[]')); }
+        catch { return new Set(); }
+      }
+      function currentStreak() {
+        const today = todayKey();
+        const last = localStorage.getItem(KEY_STREAK_LAST);
+        const days = parseInt(localStorage.getItem(KEY_STREAK_DAYS) || '0', 10) || 0;
+        if (!last) return 0;
+        if (last === today || last === addDays(today, -1)) return days;
+        return 0;
+      }
+      function xmur3(str) {
+        let h = 1779033703 ^ str.length;
+        for (let i = 0; i < str.length; i++) {
+          h = Math.imul(h ^ str.charCodeAt(i), 3432918353);
+          h = (h << 13) | (h >>> 19);
+        }
+        return function () {
+          h = Math.imul(h ^ (h >>> 16), 2246822507);
+          h = Math.imul(h ^ (h >>> 13), 3266489909);
+          return (h ^= h >>> 16) >>> 0;
+        };
+      }
+      function sfc32(a, b, c, d) {
+        return function () {
+          a >>>= 0; b >>>= 0; c >>>= 0; d >>>= 0;
+          let t = (a + b) | 0;
+          a = b ^ (b >>> 9);
+          b = (c + (c << 3)) | 0;
+          c = (c << 21) | (c >>> 11);
+          d = (d + 1) | 0;
+          t = (t + d) | 0;
+          c = (c + t) | 0;
+          return (t >>> 0) / 4294967296;
+        };
+      }
+      function todaysQuestions() {
+        const seed = xmur3('trivia-' + todayKey());
+        const rand = sfc32(seed(), seed(), seed(), seed());
+        const deck = QUESTIONS.slice();
+        for (let i = deck.length - 1; i > 0; i--) {
+          const j = Math.floor(rand() * (i + 1));
+          [deck[i], deck[j]] = [deck[j], deck[i]];
+        }
+        return deck.slice(0, 3);
+      }
+      function paperBySlug(slug) {
+        return PAPERS.find(p => p.slug === slug);
+      }
+      function escapeHtml(s) {
+        return String(s || '').replace(/[&<>'"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;' }[c]));
+      }
+
+      function renderToday() {
+        const host = document.getElementById('pg-today');
+        const date = document.getElementById('pg-today-date');
+        if (date) date.textContent = todayKey();
+        if (!host) return;
+        host.innerHTML = todaysQuestions().map((q, idx) => {
+          const p = paperBySlug(q.paper_slug);
+          return '<article class="pg-today-card">' +
+            '<div class="pg-today-kicker">question ' + (idx + 1) + '</div>' +
+            '<div class="pg-today-giant">' + escapeHtml(q.giant) + '</div>' +
+            '<div class="pg-today-question">' + escapeHtml(q.question) + '</div>' +
+            (p ? '<div class="pg-today-reward">Reward: Paper ' + parseInt(p.num, 10) + (p.suffix || '') + ' · ' + escapeHtml(p.title) + '</div>' : '') +
+          '</article>';
+        }).join('');
+      }
+
+      function renderCollection(filter) {
+        const set = collectedSet();
+        const unlockedCount = PAPERS.filter(p => set.has(p.slug)).length;
+        const collectedEl = document.getElementById('pg-collected');
+        const streakEl = document.getElementById('pg-streak');
+        const meterText = document.getElementById('pg-meter-text');
+        const meterFill = document.getElementById('pg-meter-fill');
+        const summary = document.getElementById('pg-collection-summary');
+        if (collectedEl) collectedEl.textContent = String(unlockedCount);
+        if (streakEl) streakEl.textContent = String(currentStreak());
+        if (meterText) meterText.textContent = unlockedCount + ' unlocked';
+        if (meterFill) meterFill.style.width = (PAPERS.length ? Math.round((unlockedCount / PAPERS.length) * 100) : 0) + '%';
+        if (summary) summary.textContent = unlockedCount + ' / ' + PAPERS.length + ' unlocked';
+
+        const host = document.getElementById('pg-collection');
+        if (!host) return;
+        const filtered = PAPERS.filter(p => {
+          const unlocked = set.has(p.slug);
+          if (filter === 'unlocked') return unlocked;
+          if (filter === 'locked') return !unlocked;
+          if (filter === 'keystone') return p.tier_key === 'keystone';
+          return true;
+        });
+
+        host.innerHTML = filtered.map(p => {
+          const unlocked = set.has(p.slug);
+          const href = unlocked ? '/papers/' + p.slug : '/trivia';
+          const action = unlocked ? 'open paper →' : 'unlock in game →';
+          return '<a class="pg-card tier-' + escapeHtml(p.tier_key) + (unlocked ? ' unlocked' : ' locked') + '" href="' + href + '">' +
+            '<div class="pg-card-state">' + (unlocked ? 'unlocked' : 'locked') + '</div>' +
+            '<div class="pg-card-num">Paper ' + parseInt(p.num, 10) + (p.suffix || '') + '</div>' +
+            '<div class="pg-card-title">' + escapeHtml(p.title) + '</div>' +
+            '<div class="pg-card-tag">' + escapeHtml(p.tag) + ' · [' + escapeHtml(p.tier_label) + ']</div>' +
+            '<div class="pg-card-action">' + action + '</div>' +
+          '</a>';
+        }).join('') || '<div class="pg-empty">No papers match this filter yet.</div>';
+      }
+
+      renderToday();
+      renderCollection('all');
+
+      document.querySelectorAll('[data-filter]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderCollection(btn.getAttribute('data-filter') || 'all');
+        });
+      });
+    })();
+  </script>
+
+  <style>
+    #paper-game {
+      min-height: calc(100vh - 64px);
+      padding: 120px 6vw 100px;
+    }
+    .pg-shell {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+    .pg-title {
+      font-family: Georgia, serif;
+      font-size: clamp(42px, 7vw, 88px);
+      line-height: 1.02;
+      margin: 0 0 20px;
+      color: var(--ink);
+    }
+    .pg-title span { color: var(--amber); }
+    .pg-copy {
+      max-width: 720px;
+      font-size: clamp(16px, 1.6vw, 20px);
+      line-height: 1.7;
+      color: var(--ink-soft);
+      margin-bottom: 28px;
+    }
+    .pg-hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 0 0 34px;
+    }
+    .pg-btn, .pg-inline-link {
+      color: var(--amber);
+      text-decoration: none;
+      font-family: 'Courier New', monospace;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+    .pg-btn {
+      border: 1px solid rgba(212,160,96,0.45);
+      border-radius: 999px;
+      padding: 12px 22px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(212,160,96,0.04);
+    }
+    .pg-btn.primary { background: rgba(212,160,96,0.13); }
+    .pg-btn:hover, .pg-inline-link:hover { color: #ffd166; border-color: #ffd166; }
+
+    .pg-stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+      margin: 0 0 26px;
+    }
+    .pg-stat, .pg-panel, .pg-card {
+      border: 1px solid var(--edge);
+      background: rgba(255,255,255,0.025);
+      border-radius: 16px;
+    }
+    .pg-stat { padding: 18px; }
+    .pg-stat-value {
+      font-family: Georgia, serif;
+      font-size: clamp(28px, 4vw, 46px);
+      color: var(--ink);
+    }
+    .pg-stat-label {
+      font-family: 'Courier New', monospace;
+      font-size: 9pt;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .pg-meter-wrap { margin: 10px 0 30px; }
+    .pg-meter-label {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      font-family: 'Courier New', monospace;
+      font-size: 9pt;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .pg-meter {
+      height: 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.05);
+      overflow: hidden;
+      border: 1px solid var(--edge);
+    }
+    .pg-meter-fill {
+      width: 0%;
+      height: 100%;
+      background: linear-gradient(90deg, rgba(212,160,96,0.35), rgba(255,209,102,0.85));
+      transition: width 0.45s ease;
+    }
+
+    .pg-grid-two {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.8fr);
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+    .pg-panel { padding: 22px; }
+    .pg-panel-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 18px;
+    }
+    .pg-panel h2 {
+      font-family: Georgia, serif;
+      font-size: clamp(22px, 2.5vw, 34px);
+      margin: 0;
+      color: var(--ink);
+    }
+    .pg-panel-head span {
+      font-family: 'Courier New', monospace;
+      font-size: 9pt;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .pg-today { display: grid; gap: 10px; margin-bottom: 18px; }
+    .pg-today-card {
+      border-left: 2px solid rgba(212,160,96,0.4);
+      padding: 12px 14px;
+      background: rgba(212,160,96,0.035);
+      border-radius: 8px;
+    }
+    .pg-today-kicker, .pg-today-reward {
+      font-family: 'Courier New', monospace;
+      font-size: 8.5pt;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .pg-today-giant {
+      font-family: Georgia, serif;
+      font-size: 18px;
+      color: var(--amber);
+      margin-top: 4px;
+    }
+    .pg-today-question {
+      color: var(--ink-soft);
+      line-height: 1.55;
+      margin: 6px 0;
+    }
+    .pg-rules {
+      margin: 0;
+      padding-left: 22px;
+      color: var(--ink-soft);
+      line-height: 1.75;
+    }
+
+    .pg-collection-panel { margin-top: 18px; }
+    .pg-collection-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+    .pg-chip {
+      border: 1px solid var(--edge);
+      background: rgba(255,255,255,0.02);
+      color: var(--muted-hi, #aaa);
+      border-radius: 999px;
+      padding: 8px 13px;
+      font-family: 'Courier New', monospace;
+      font-size: 9pt;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .pg-chip.active, .pg-chip:hover {
+      border-color: rgba(212,160,96,0.5);
+      color: var(--amber);
+    }
+    .pg-collection {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .pg-card {
+      display: block;
+      padding: 16px;
+      text-decoration: none;
+      color: var(--ink-soft);
+      position: relative;
+      min-height: 150px;
+    }
+    .pg-card.locked { opacity: 0.48; filter: grayscale(0.25); }
+    .pg-card.unlocked { border-color: rgba(212,160,96,0.34); background: rgba(212,160,96,0.035); }
+    .pg-card.tier-keystone.unlocked { border-color: rgba(255,209,102,0.55); box-shadow: 0 0 24px rgba(255,209,102,0.08); }
+    .pg-card-state {
+      position: absolute;
+      right: 12px;
+      top: 12px;
+      font-family: 'Courier New', monospace;
+      font-size: 8pt;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .pg-card-num {
+      font-family: 'Courier New', monospace;
+      font-size: 10pt;
+      letter-spacing: 0.12em;
+      color: var(--amber);
+      margin-bottom: 10px;
+    }
+    .pg-card-title {
+      font-family: Georgia, serif;
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1.25;
+      padding-right: 58px;
+    }
+    .pg-card-tag, .pg-card-action {
+      font-family: 'Courier New', monospace;
+      font-size: 8.5pt;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-top: 12px;
+    }
+    .pg-card-action { color: var(--amber); }
+    .pg-empty { color: var(--muted); padding: 18px; }
+
+    @media (max-width: 860px) {
+      #paper-game { padding-top: 100px; }
+      .pg-stats, .pg-grid-two, .pg-collection { grid-template-columns: 1fr; }
+      .pg-meter-label { flex-direction: column; }
+    }
+  </style>
+</Layout>
