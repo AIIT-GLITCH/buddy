@@ -3,37 +3,62 @@ import Layout from '../../layouts/Layout.astro';
 import papers from '../../data/papers.json';
 import { tierForSlug } from '../../lib/paperTier.js';
 
-// build unique tag set for filters
-const tags = [...new Set(papers.map(p => p.tag))].sort();
+const CANONICAL_PAPER_COUNT = 154;
+const CANONICAL_MAX_PAPER = 154;
+const MISSING_PAPER_NUMBERS = new Set([12, 15]);
+
+function sourceNumber(p) {
+  const match = String(p.filename || p.id || '').match(/^PAPER_(\d+)/i);
+  return match ? parseInt(match[1], 10) : parseInt(p.num, 10);
+}
+
+function displayNumber(p) {
+  const n = sourceNumber(p);
+  return Number.isFinite(n) ? n : parseInt(p.num, 10);
+}
+
+// Build unique tag set for filters, excluding impossible generated paper numbers.
+const realPapers = papers.filter(p => {
+  const n = sourceNumber(p);
+  return Number.isFinite(n) && n >= 1 && n <= CANONICAL_MAX_PAPER;
+});
+const tags = [...new Set(realPapers.map(p => p.tag))].sort();
 ---
-<Layout title={`Papers · AIIT-THRESI (${papers.length})`}>
+<Layout title={`Papers · AIIT-THRESI (${CANONICAL_PAPER_COUNT})`}>
   <section style="padding-top: 120px; min-height: auto;">
     <div class="container">
       <div class="eyebrow">Your archive</div>
       <h1 style="font-size: clamp(48px, 7vw, 96px); margin-bottom: 8px;">
-        <span id="archive-unlocked">0</span> <span class="archive-of">/ {papers.length}</span>
+        <span id="archive-unlocked">0</span> <span class="archive-of">/ {CANONICAL_PAPER_COUNT}</span>
       </h1>
       <div class="archive-sub" id="archive-sub">papers unlocked · earn them by answering the giants</div>
       <div class="archive-milestone" id="archive-milestone" hidden></div>
 
       <div class="papers-search">
         <input id="paper-search" type="text" placeholder="Search titles, tags, keywords…" autocomplete="off">
-        <div class="count" id="paper-count">{papers.length} papers</div>
+        <div class="count" id="paper-count">{CANONICAL_PAPER_COUNT} papers</div>
       </div>
       <div class="tag-filters" id="tag-filters">
         <div class="tag-filter active" data-tag="">All</div>
         {tags.map(t => <div class="tag-filter" data-tag={t}>{t}</div>)}
       </div>
 
+      <div class="papers-note">
+        Canonical archive: 154 numbered papers. Missing slots: 12 and 15. Collision files keep their source paper number; no generated 170-series numbers are valid.
+      </div>
+
       <div class="papers-grid" id="papers-grid" style="margin-top: 40px;">
-        {papers.map(p => {
+        {realPapers.map(p => {
           const tier = tierForSlug(p.slug);
+          const paperNum = displayNumber(p);
+          const isMissing = MISSING_PAPER_NUMBERS.has(paperNum);
           return (
-            <a class={`paper-card tier-${tier.key}`} href={`/papers/${p.slug}`} data-title={p.title.toLowerCase()} data-tag={p.tag} data-slug={p.slug} data-tier={tier.key}>
-              <div class="paper-num">Paper {parseInt(p.num)}{p.suffix}</div>
+            <a class={`paper-card tier-${tier.key}`} href={`/papers/${p.slug}`} data-title={p.title.toLowerCase()} data-tag={p.tag} data-slug={p.slug} data-tier={tier.key} data-paper-num={paperNum}>
+              <div class="paper-num">Paper {paperNum}{p.suffix}</div>
               <div class="paper-title">{p.title}</div>
               <div class="paper-tag">{p.tag}</div>
               <div class="paper-tier">[{tier.label}]</div>
+              {isMissing && <div class="paper-note">missing source slot</div>}
             </a>
           );
         })}
@@ -61,7 +86,26 @@ const tags = [...new Set(papers.map(p => p.tag))].sort();
     text-shadow: 0 0 10px rgba(255,209,102,0.35);
   }
 
+  .papers-note {
+    margin-top: 18px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.78em;
+    line-height: 1.55;
+    letter-spacing: 0.08em;
+    color: #888;
+    max-width: 780px;
+  }
+
   .paper-card { position: relative; }
+
+  .paper-note {
+    margin-top: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 8pt;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #b48a00;
+  }
 
   .paper-tier {
     margin-top: 8px;
