@@ -3,8 +3,23 @@ import Layout from '../../layouts/Layout.astro';
 import papers from '../../data/papers.json';
 import { tierForSlug } from '../../lib/paperTier.js';
 
+const CANONICAL_MAX_PAPER = 154;
+
+function sourceNumber(p) {
+  const match = String(p.filename || p.id || '').match(/^PAPER_(\d+)/i);
+  return match ? parseInt(match[1], 10) : parseInt(p.num, 10);
+}
+
+function displayNumber(p) {
+  const n = sourceNumber(p);
+  return Number.isFinite(n) ? n : parseInt(p.num, 10);
+}
+
 export async function getStaticPaths() {
-  const all = papers as any[];
+  const all = (papers as any[]).filter(p => {
+    const n = sourceNumber(p);
+    return Number.isFinite(n) && n >= 1 && n <= CANONICAL_MAX_PAPER;
+  });
   return all.map(p => ({
     params: { slug: p.slug },
     props:  { paper: p, all },
@@ -12,11 +27,12 @@ export async function getStaticPaths() {
 }
 
 const { paper, all } = Astro.props;
+const paperNumber = displayNumber(paper);
 
 // Related = same tag, nearest paper numbers, excluding self
 const related = (all as any[])
   .filter(p => p.slug !== paper.slug && p.tag === paper.tag)
-  .sort((a, b) => Math.abs(parseInt(a.num) - parseInt(paper.num)) - Math.abs(parseInt(b.num) - parseInt(paper.num)))
+  .sort((a, b) => Math.abs(displayNumber(a) - paperNumber) - Math.abs(displayNumber(b) - paperNumber))
   .slice(0, 4);
 
 const pdfUrl = `/papers/${paper.filename}`;
@@ -30,7 +46,7 @@ const status         = paper.status         || '';
 const keyNumbers     = (paper.key_numbers as Record<string,string>) || {};
 const connectedPages = (paper.connected_domain_pages as string[]) || [];
 
-const pageTitle = `Paper ${parseInt(paper.num)}${paper.suffix} · ${paper.title} · AIIT-THRESI`;
+const pageTitle = `Paper ${paperNumber}${paper.suffix} · ${paper.title} · AIIT-THRESI`;
 const pageDescription = coreClaim || abstract.slice(0, 200) || `${paper.title} — ${paper.tag} domain · AIIT-THRESI`;
 const tier = tierForSlug(paper.slug);
 ---
@@ -43,7 +59,7 @@ const tier = tierForSlug(paper.slug);
       <span class="pul-earned">— you earned this</span>
     </div>
 
-    <div class="paper-head-num">Paper {parseInt(paper.num)}{paper.suffix}</div>
+    <div class="paper-head-num">Paper {paperNumber}{paper.suffix}</div>
     <h1>{paper.title}</h1>
     <div class="paper-head-tag">
       {paper.tag}
@@ -123,7 +139,7 @@ const tier = tierForSlug(paper.slug);
         <div class="papers-grid">
           {related.map(p => (
             <a class="paper-card" href={`/papers/${p.slug}`}>
-              <div class="paper-num">Paper {parseInt(p.num)}{p.suffix}</div>
+              <div class="paper-num">Paper {displayNumber(p)}{p.suffix}</div>
               <div class="paper-title">{p.title}</div>
               <div class="paper-tag">{p.tag}</div>
             </a>
