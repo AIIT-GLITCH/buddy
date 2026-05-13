@@ -16,6 +16,12 @@ const tags = [...new Set(papers.map(p => p.tag))].sort();
       <div class="archive-sub" id="archive-sub">papers unlocked · earn them by answering the giants</div>
       <div class="archive-milestone" id="archive-milestone" hidden></div>
 
+      <a class="paper-game-callout" href="/paper-game">
+        <span class="pgc-kicker">Paper Game</span>
+        <span class="pgc-main">unlock papers through the daily giant questions</span>
+        <span class="pgc-action">play →</span>
+      </a>
+
       <div class="papers-search">
         <input id="paper-search" type="text" placeholder="Search titles, tags, keywords…" autocomplete="off">
         <div class="count" id="paper-count">{papers.length} papers</div>
@@ -61,6 +67,29 @@ const tags = [...new Set(papers.map(p => p.tag))].sort();
     text-shadow: 0 0 10px rgba(255,209,102,0.35);
   }
 
+  .paper-game-callout {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 14px;
+    align-items: center;
+    margin: 28px 0;
+    padding: 16px 18px;
+    border: 1px solid rgba(212,160,96,0.32);
+    border-radius: 14px;
+    background: rgba(212,160,96,0.045);
+    text-decoration: none;
+    color: var(--ink-soft);
+  }
+  .paper-game-callout:hover { border-color: rgba(255,209,102,0.58); background: rgba(212,160,96,0.075); }
+  .pgc-kicker, .pgc-action {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--amber);
+  }
+  .pgc-main { font-family: Georgia, serif; font-size: 1rem; color: var(--ink); }
+
   .paper-card { position: relative; }
 
   .paper-tier {
@@ -93,6 +122,10 @@ const tags = [...new Set(papers.map(p => p.tag))].sort();
   .paper-card.tier-keystone.unlocked {
     border-color: rgba(255,209,102,0.55) !important;
     box-shadow: 0 0 0 1px rgba(255,209,102,0.2), 0 8px 22px rgba(255,209,102,0.12);
+  }
+
+  @media (max-width: 720px) {
+    .paper-game-callout { grid-template-columns: 1fr; gap: 8px; }
   }
 </style>
 
