@@ -12,16 +12,29 @@ function sourceNumber(p) {
   return match ? parseInt(match[1], 10) : parseInt(p.num, 10);
 }
 
+function publicNumber(p) {
+  return parseInt(String(p.num || '').replace(/\D/g, ''), 10);
+}
+
+function slugNumber(p) {
+  const match = String(p.slug || '').match(/^(\d+)/);
+  return match ? parseInt(match[1], 10) : NaN;
+}
+
+function isCanonicalPaper(p) {
+  const source = sourceNumber(p);
+  const pub = publicNumber(p);
+  const slug = slugNumber(p);
+  return [source, pub, slug].every(n => Number.isFinite(n) && n >= 1 && n <= CANONICAL_MAX_PAPER);
+}
+
 function displayNumber(p) {
   const n = sourceNumber(p);
   return Number.isFinite(n) ? n : parseInt(p.num, 10);
 }
 
 // Build unique tag set for filters, excluding impossible generated paper numbers.
-const realPapers = papers.filter(p => {
-  const n = sourceNumber(p);
-  return Number.isFinite(n) && n >= 1 && n <= CANONICAL_MAX_PAPER;
-});
+const realPapers = papers.filter(isCanonicalPaper);
 const tags = [...new Set(realPapers.map(p => p.tag))].sort();
 ---
 <Layout title={`Papers · AIIT-THRESI (${CANONICAL_PAPER_COUNT})`}>
