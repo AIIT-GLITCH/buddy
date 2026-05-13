@@ -10,7 +10,7 @@ export async function onRequestGet(context) {
   const { request, env } = context;
   const clientId = (env.GITHUB_CLIENT_ID || '').trim();
   if (!clientId) {
-    return new Response('OAuth not configured.', { status: 500 });
+    return new Response('OAuth not configured: missing GITHUB_CLIENT_ID.', { status: 500 });
   }
 
   const url = new URL(request.url);
