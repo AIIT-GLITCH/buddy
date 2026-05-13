@@ -19,6 +19,16 @@ import { callBuddy } from '../_lib/ingest.js';
 
 const MAX_QUESTION_LEN = 600;
 const BUDDY_SITE_MAX_TOKENS = 128;
+const PRIMARY_ORIGIN = 'https://aiit-threshold.com';
+const ALLOWED_ORIGIN_PATTERNS = [
+  /^https:\/\/(www\.)?aiit-threshold\.com$/i,
+  /^https:\/\/[a-f0-9]+\.buddy-bb4\.pages\.dev$/i,
+  /^https:\/\/[-a-z0-9]+\.buddy-bb4\.pages\.dev$/i,
+  /^https?:\/\/localhost(?::\d+)?$/i,
+  /^https?:\/\/127\.0\.0\.1(?::\d+)?$/i,
+  /^capacitor:\/\/localhost$/i,
+  /^ionic:\/\/localhost$/i,
+];
 
 // First-output shape helpers (see DEV_ARCHITECTURE.md → Response Shape)
 const OBSERVATIONS = [
@@ -41,17 +51,44 @@ function rollObservation() {
   return null;
 }
 
-function corsHeaders() {
+function isAllowedOrigin(value) {
+  if (!value || value === 'null') return false;
+  return ALLOWED_ORIGIN_PATTERNS.some(re => re.test(value));
+}
+
+function isAllowedReferer(value) {
+  if (!value) return false;
+  try {
+    return isAllowedOrigin(new URL(value).origin);
+  } catch {
+    return false;
+  }
+}
+
+function requestFromAllowedSurface(request) {
+  const origin = request.headers.get('origin') || '';
+  const referer = request.headers.get('referer') || '';
+
+  // Browser traffic must come from an allowed surface. Direct server-side calls
+  // usually have neither header; leave those to IP/KV throttling instead of
+  // breaking health checks or native wrappers.
+  if (!origin && !referer) return true;
+  return isAllowedOrigin(origin) || isAllowedReferer(referer);
+}
+
+function corsHeaders(request) {
+  const origin = request.headers.get('origin') || '';
   return {
     'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Origin': isAllowedOrigin(origin) ? origin : PRIMARY_ORIGIN,
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Headers': 'Content-Type, X-Dev-Bypass',
+    'Vary': 'Origin',
   };
 }
 
-export async function onRequestOptions() {
-  return new Response(null, { status: 204, headers: corsHeaders() });
+export async function onRequestOptions({ request }) {
+  return new Response(null, { status: 204, headers: corsHeaders(request) });
 }
 
 async function sha256Hex(s) {
@@ -65,7 +102,11 @@ function todayKey() {
 }
 export async function onRequestPost(context) {
   const { request, env } = context;
-  const headers = corsHeaders();
+  const headers = corsHeaders(request);
+
+  if (!requestFromAllowedSurface(request)) {
+    return new Response(JSON.stringify({ ok: false, error: 'forbidden_origin' }), { status: 403, headers });
+  }
 
   if (!env.BUDDY_BACKEND_URL || !env.BUDDY_CF_ACCESS_CLIENT_ID || !env.BUDDY_CF_ACCESS_CLIENT_SECRET) {
     return new Response(JSON.stringify({
