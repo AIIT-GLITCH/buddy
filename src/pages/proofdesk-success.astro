@@ -6,7 +6,7 @@ import Layout from '../layouts/Layout.astro';
 <section style="padding-top: 180px; min-height: 80vh;">
   <div class="container narrow" style="max-width: 760px; margin: 0 auto; padding: 0 5vw;">
 
-    <!-- HERO -->
+    <!-- SHARED HERO -->
     <div class="eyebrow">ProofDesk Intake</div>
     <h1 class="pd-h1">Your ProofDesk run<br>has started.</h1>
     <p class="pd-sub">Now send the folder. We'll turn the mess into a sealed review packet another human can trust and inspect.</p>
@@ -18,37 +18,16 @@ import Layout from '../layouts/Layout.astro';
 
     <p class="pd-note">Use the same email address you used at checkout if possible. If not, include your payment email in the message.</p>
 
-    <!-- LAYER 1: IMMEDIATE NEXT STEPS -->
-    <div class="pd-layer">
-      <div class="eyebrow">Do these three things first</div>
-      <div class="pd-cards-3">
-        <div class="pd-card-num">
-          <div class="pd-num">1</div>
-          <h3>Email your intake</h3>
-          <p>Send your evidence materials to <strong>ProofDeskService@aiitcorp.com</strong>.<br>Use subject line: <em>ProofDesk Intake — [Your Name / Project Name]</em>.</p>
-          <a href="mailto:ProofDeskService@aiitcorp.com?subject=ProofDesk%20Intake%20%E2%80%94%20Project%20Name" class="pd-card-btn">Open email →</a>
-        </div>
-        <div class="pd-card-num">
-          <div class="pd-num">2</div>
-          <h3>Attach the folder or link</h3>
-          <p>One ZIP file is best. If the folder is too large for email, send a Google Drive, Dropbox, OneDrive, iCloud, or WeTransfer link with download access enabled.</p>
-        </div>
-        <div class="pd-card-num">
-          <div class="pd-num">3</div>
-          <h3>Add a short note</h3>
-          <p>Tell us what the packet is for: attorney review, investor review, client handoff, invention timeline, AI-output review, dispute prep, or something else.</p>
-        </div>
-      </div>
-    </div>
+    <!-- TIER-SPECIFIC SECTION -->
+    <div id="tier-content"></div>
 
-    <!-- LAYER 2: WHAT TO SEND -->
+    <!-- SHARED: WHAT TO SEND -->
     <div id="what-to-send" class="pd-layer">
-      <div class="eyebrow">What to send us</div>
+      <div class="eyebrow">Accepted materials</div>
       <p class="pd-lead">Send the mess. Do not spend six hours making it pretty first. ProofDesk exists because evidence usually arrives messy.</p>
-
       <div class="pd-two-col">
         <div>
-          <h4>Accepted materials</h4>
+          <h4>File types</h4>
           <ul class="pd-checklist">
             <li>PDFs</li><li>Screenshots</li><li>Photos</li><li>Scans</li>
             <li>Word docs</li><li>Google Doc exports</li><li>Spreadsheets</li>
@@ -67,154 +46,56 @@ import Layout from '../layouts/Layout.astro';
             <li>What is the deadline?</li>
             <li>Which files matter most?</li>
             <li>Which claims feel weakest?</li>
-            <li>Are there known disputes or contradictions?</li>
-            <li>Is anything confidential or sensitive?</li>
+            <li>Are there known disputes?</li>
+            <li>Is anything confidential?</li>
           </ul>
         </div>
       </div>
     </div>
 
-    <!-- LAYER 3: FOLDER STRUCTURE -->
-    <div class="pd-layer">
-      <div class="eyebrow">If you want to organize it, use this structure</div>
-      <p class="pd-lead">This is optional. If your folder is a mess, send it anyway.</p>
-
-      <pre class="pd-tree">project-name/
-  README-FIRST.txt
-  claims/
-  screenshots/
-  citations/
-  contracts/
-  receipts/
-  code/
-  ai-outputs/
-  emails/
-  timelines/
-  notes/
-  raw/</pre>
-
-      <a href="/proofdesk-intake-template.txt" download class="pd-card-btn" style="margin-top: 16px;">Download intake template →</a>
-    </div>
-
-    <!-- LAYER 4: LARGE FILES -->
+    <!-- SHARED: LARGE FILES -->
     <div class="pd-layer">
       <div class="eyebrow">How to send large files</div>
       <div class="pd-cards-3">
-        <div class="pd-card-num">
-          <h3>Email attachment</h3>
-          <p>Best for files under 25MB. Attach ZIP or individual files.</p>
-        </div>
-        <div class="pd-card-num">
-          <h3>Cloud folder link</h3>
-          <p>Best for folders up to 10GB. Use Google Drive, Dropbox, OneDrive, iCloud, or WeTransfer. Make sure download access is enabled.</p>
-        </div>
-        <div class="pd-card-num">
-          <h3>Large or sensitive intake</h3>
-          <p>For large, sensitive, or restricted evidence sets, email first with a short description. We'll coordinate a safer handoff path.</p>
-        </div>
+        <div class="pd-card-sm"><h3>Email</h3><p>Best for files under 25MB.</p></div>
+        <div class="pd-card-sm"><h3>Cloud link</h3><p>Google Drive, Dropbox, OneDrive, iCloud, or WeTransfer. Enable download access.</p></div>
+        <div class="pd-card-sm"><h3>Large / sensitive</h3><p>Email first with a short description. We'll coordinate a safer handoff path.</p></div>
       </div>
-      <p class="pd-note">Recommended intake size: under 10GB. Larger packets accepted by coordination. A dedicated upload portal is planned. For now, email intake gives us the cleanest human review path.</p>
+      <p class="pd-note">Recommended intake size: under 10GB. Larger packets accepted by coordination.</p>
     </div>
 
-    <!-- LAYER 5: WHAT HAPPENS NEXT -->
-    <div class="pd-layer">
-      <div class="eyebrow">What happens next</div>
-      <div class="pd-steps">
-        <div class="pd-step">
-          <div class="pd-step-num">1</div>
-          <div class="pd-step-body">
-            <h3>Intake confirmation</h3>
-            <p>We confirm receipt and make sure we can access the materials.</p>
-            <div class="pd-timing">Starter / Founder / Binder: within 2 business hours<br>Emergency: priority confirmation during active coverage</div>
-          </div>
-        </div>
-        <div class="pd-step">
-          <div class="pd-step-num">2</div>
-          <div class="pd-step-body">
-            <h3>Inventory</h3>
-            <p>We index files, preserve originals, and generate the working manifest.</p>
-          </div>
-        </div>
-        <div class="pd-step">
-          <div class="pd-step-num">3</div>
-          <div class="pd-step-body">
-            <h3>Hash + custody</h3>
-            <p>We generate SHA-256 checksums and write the chain-of-custody record.</p>
-          </div>
-        </div>
-        <div class="pd-step">
-          <div class="pd-step-num">4</div>
-          <div class="pd-step-body">
-            <h3>Claim review</h3>
-            <p>We match claims to evidence, flag unsupported claims, and identify risk areas.</p>
-          </div>
-        </div>
-        <div class="pd-step">
-          <div class="pd-step-num">5</div>
-          <div class="pd-step-body">
-            <h3>Handoff packet</h3>
-            <p>You receive a sealed archive with review memo, manifest, checksums, risk register, claim table, source copy, and optional print/binder package.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- LAYER 6: TURNAROUND -->
-    <div class="pd-layer">
-      <div class="eyebrow">Turnaround windows</div>
-      <div class="pd-turnaround">
-        <div class="pd-turn-row">
-          <div class="pd-turn-tier"><strong>Starter Proof Seal</strong><span>3–5 business days</span></div>
-          <div class="pd-turn-desc">Small folder. Fast seal. Clean receipts.</div>
-        </div>
-        <div class="pd-turn-row">
-          <div class="pd-turn-tier"><strong>Founder Review Packet</strong><span>2–3 business days</span></div>
-          <div class="pd-turn-desc">Launch claims, investor packets, client work, and product evidence.</div>
-        </div>
-        <div class="pd-turn-row">
-          <div class="pd-turn-tier"><strong>Patent / AI Evidence Binder</strong><span>5–7 business days</span></div>
-          <div class="pd-turn-desc">Invention timelines, AI-assisted research, technical claims, citations, screenshots, code, and chronology.</div>
-        </div>
-        <div class="pd-turn-row pd-turn-rush">
-          <div class="pd-turn-tier"><strong>Emergency ProofDesk Run</strong><span>24-hour priority target</span></div>
-          <div class="pd-turn-desc">Urgent disputes, deadlines, takedowns, launches, and high-pressure evidence cleanup.</div>
-        </div>
-      </div>
-      <p class="pd-note">Turnaround depends on evidence volume, file access, and whether we need clarification.</p>
-    </div>
-
-    <!-- LAYER 7: WHAT YOU RECEIVE -->
+    <!-- SHARED: WHAT YOU RECEIVE -->
     <div class="pd-layer">
       <div class="eyebrow">Your final packet</div>
       <div class="pd-outputs">
         <div class="pd-output"><strong>MANIFEST.tsv</strong><span>Every file indexed.</span></div>
-        <div class="pd-output"><strong>SHA256SUMS.txt</strong><span>Cryptographic checksums for packet integrity.</span></div>
-        <div class="pd-output"><strong>CHAIN_OF_CUSTODY.md</strong><span>When, where, and how the packet was assembled.</span></div>
-        <div class="pd-output"><strong>CLAIM_REVIEW_TABLE.md</strong><span>Claims mapped against available source evidence.</span></div>
-        <div class="pd-output"><strong>RISK_REGISTER.md</strong><span>Weak claims, missing evidence, contradictions, and uncertainty.</span></div>
-        <div class="pd-output"><strong>HANDOFF_MEMO.md</strong><span>Plain-English summary for attorney, client, investor, reviewer, or partner.</span></div>
-        <div class="pd-output"><strong>source/</strong><span>A preserved copy of the materials used.</span></div>
+        <div class="pd-output"><strong>SHA256SUMS.txt</strong><span>Cryptographic checksums.</span></div>
+        <div class="pd-output"><strong>CHAIN_OF_CUSTODY.md</strong><span>When, where, how assembled.</span></div>
+        <div class="pd-output"><strong>CLAIM_REVIEW_TABLE.md</strong><span>Claims mapped to evidence.</span></div>
+        <div class="pd-output"><strong>RISK_REGISTER.md</strong><span>Weak claims and gaps named.</span></div>
+        <div class="pd-output"><strong>HANDOFF_MEMO.md</strong><span>Plain-English reviewer summary.</span></div>
+        <div class="pd-output"><strong>source/</strong><span>Preserved copy of materials.</span></div>
         <div class="pd-output"><strong>sealed .zip</strong><span>Final packet archive.</span></div>
-        <div class="pd-output"><strong>optional binder</strong><span>Printable review packet if ordered or requested.</span></div>
+        <div class="pd-output"><strong>optional binder</strong><span>Printable if requested.</span></div>
       </div>
     </div>
 
-    <!-- LAYER 8: BOUNDARIES -->
+    <!-- SHARED: BOUNDARIES -->
     <div class="pd-layer">
       <div class="eyebrow">Important boundaries</div>
       <div class="pd-boundary">
         <p><strong>ProofDesk is proof operations.</strong></p>
-        <p>It is not legal advice.<br>It is not patent filing.<br>It is not attorney representation.<br>It is not a guarantee that a claim is legally valid.</p>
+        <p>It is not legal advice. It is not patent filing. It is not attorney representation. It is not a guarantee that a claim is legally valid.</p>
         <p>We organize, hash, review, flag, summarize, and seal the evidence packet so the next human can inspect it faster.</p>
         <p>If you need legal advice, patent strategy, litigation support, or filing decisions, give the finished packet to a qualified attorney.</p>
       </div>
     </div>
 
-    <!-- LAYER 9: PRIVACY -->
+    <!-- SHARED: PRIVACY -->
     <div class="pd-layer">
       <div class="eyebrow">Privacy and retention</div>
       <div class="pd-privacy">
-        <p>We handle evidence as operational material, not public content. Do not send materials you are not authorized to share. Tell us clearly if anything is confidential, privileged, export-controlled, or sensitive.</p>
+        <p>We handle evidence as operational material, not public content. Do not send materials you are not authorized to share.</p>
         <p>Unless otherwise arranged, we retain working materials only as long as needed to complete the packet and resolve delivery/support issues.</p>
         <p><strong>For highly sensitive materials, contact us before sending files.</strong></p>
       </div>
@@ -224,11 +105,99 @@ import Layout from '../layouts/Layout.astro';
     <div class="pd-final">
       <h2>Bring the folder.<br>Leave with receipts.</h2>
       <a href="mailto:ProofDeskService@aiitcorp.com?subject=ProofDesk%20Intake" class="btn-buy">Email ProofDesk Intake →</a>
-      <p class="pd-note" style="margin-top: 24px;">Questions or access issues? <a href="mailto:ProofDeskService@aiitcorp.com" style="color: var(--amber);">ProofDeskService@aiitcorp.com</a></p>
+      <p class="pd-note" style="margin-top: 24px;">Questions? <a href="mailto:ProofDeskService@aiitcorp.com" style="color: var(--amber);">ProofDeskService@aiitcorp.com</a></p>
     </div>
 
   </div>
 </section>
+
+<script is:inline>
+(function() {
+  const params = new URLSearchParams(window.location.search);
+  const tier = params.get('tier') || 'generic';
+  const el = document.getElementById('tier-content');
+  if (!el) return;
+
+  const tiers = {
+    starter: {
+      badge: 'Starter Proof Seal',
+      title: 'Starter Proof Seal intake',
+      promise: 'Small folder. Fast seal. Clean receipts.',
+      turnaround: '3–5 business days',
+      ask: '<p>Send one folder or ZIP containing the source materials you want indexed and sealed.</p><p>Tell us what this packet is for in 2–3 sentences.</p>',
+      bestFor: 'small evidence folder, basic timeline, receipts, screenshots, PDFs, source copy',
+      emphasis: 'manifest, SHA256 checksums, chain of custody, source copy, sealed zip, short intake summary',
+      subject: 'ProofDesk%20Intake%20%E2%80%94%20Starter',
+      cta: 'Send Starter folder →',
+    },
+    founder: {
+      badge: 'Founder Review Packet',
+      title: 'Founder Review Packet intake',
+      promise: 'Your launch claims, client evidence, or investor packet becomes review-ready.',
+      turnaround: '2–3 business days',
+      ask: '<p>Send the folder plus a short list of the claims you need supported.</p><ul><li>Top 3–10 claims</li><li>Target reviewer: investor / client / partner / agency / internal</li><li>Deadline</li><li>Weakest or most disputed claim</li></ul>',
+      bestFor: 'founder claims, product evidence, client reports, AI agency output, consulting packet, launch receipts',
+      emphasis: 'claim review table, risk register, handoff memo, manifest, checksums, sealed archive',
+      subject: 'ProofDesk%20Intake%20%E2%80%94%20Founder',
+      cta: 'Send Founder packet →',
+    },
+    binder: {
+      badge: 'Patent / AI Evidence Binder',
+      title: 'Patent / AI Evidence Binder intake',
+      promise: 'Your invention timeline and AI-assisted research become a structured evidence binder.',
+      turnaround: '5–7 business days',
+      ask: '<p>Send all invention notes, dated files, AI chats, prompt logs, model outputs, screenshots, citations, code, diagrams, and drafts.</p><ul><li>Invention/project name</li><li>Earliest known date</li><li>Major milestones</li><li>People involved</li><li>Top technical claims</li><li>Known prior art or competing systems</li><li>Attorney/reviewer deadline if any</li></ul>',
+      bestFor: 'patent prep, AI-assisted research, invention timelines, model-output evidence, technical claims, code / citations / screenshots',
+      emphasis: 'chronology, claim/evidence mapping, risk register, attorney/expert handoff memo, manifest, checksums, sealed binder, optional printable binder',
+      subject: 'ProofDesk%20Intake%20%E2%80%94%20Binder',
+      cta: 'Send Binder materials →',
+      extraBoundary: 'ProofDesk does not file patents or provide legal advice. The binder is for attorney/expert review.',
+    },
+    emergency: {
+      badge: 'Emergency ProofDesk Run',
+      title: 'Emergency ProofDesk intake',
+      promise: 'Priority proof operations for urgent review.',
+      turnaround: '24-hour priority target',
+      ask: '<div class="pd-emergency-warn">Pause edits if possible. Preserve originals. Send what exists now.</div><p>Send these five things first:</p><ol><li>Deadline</li><li>What happened</li><li>What needs to be proven</li><li>Link to evidence folder</li><li>Best phone/email for rapid clarification</li></ol>',
+      bestFor: 'urgent dispute, deadline, takedown, launch problem, investor request, legal prep, evidence cleanup under pressure',
+      emphasis: 'priority triage, risk flags, fast claim map, sealed archive, handoff memo, chain of custody',
+      subject: 'ProofDesk%20Intake%20%E2%80%94%20EMERGENCY',
+      cta: 'Send Emergency intake →',
+      extraInstructions: '<div class="pd-emergency-box"><strong>Do not:</strong><ul><li>Reorganize for hours</li><li>Overwrite originals</li><li>Keep editing screenshots</li></ul><p>Send the raw folder and a plain-English explanation.</p></div>',
+    },
+  };
+
+  const t = tiers[tier];
+  if (!t) {
+    el.innerHTML = '<div class="pd-layer"><div class="pd-fallback"><div class="eyebrow">Which tier?</div><p>Not sure which tier you purchased? Email <a href="mailto:ProofDeskService@aiitcorp.com" style="color:var(--amber);">ProofDeskService@aiitcorp.com</a> with your payment receipt and project name.</p><div class="pd-cards-3"><a href="?tier=starter" class="pd-card-sm"><h3>Starter</h3><p>$149 — Small folder, fast seal</p></a><a href="?tier=founder" class="pd-card-sm"><h3>Founder</h3><p>$499 — Claims + review packet</p></a><a href="?tier=binder" class="pd-card-sm"><h3>Binder</h3><p>$999 — Patent / AI evidence</p></a><a href="?tier=emergency" class="pd-card-sm"><h3>Emergency</h3><p>$1,999 — 24-hour priority</p></a></div></div></div>';
+    return;
+  }
+
+  let html = '<div class="pd-layer">';
+  html += '<div class="pd-tier-badge">' + t.badge + '</div>';
+  html += '<h2 class="pd-tier-title">' + t.title + '</h2>';
+  html += '<p class="pd-tier-promise">' + t.promise + '</p>';
+
+  html += '<div class="pd-tier-section"><div class="eyebrow">What to send</div>' + t.ask + '</div>';
+
+  if (t.extraInstructions) html += t.extraInstructions;
+
+  html += '<div class="pd-tier-section"><div class="eyebrow">Best for</div><p class="pd-lead">' + t.bestFor + '</p></div>';
+
+  html += '<div class="pd-tier-section"><div class="eyebrow">Turnaround</div><div class="pd-turnaround-single">' + t.turnaround + '</div></div>';
+
+  html += '<div class="pd-tier-section"><div class="eyebrow">Your packet emphasizes</div><p class="pd-lead">' + t.emphasis + '</p></div>';
+
+  if (t.extraBoundary) {
+    html += '<div class="pd-tier-section"><div class="pd-boundary" style="margin-top:12px;"><p>' + t.extraBoundary + '</p></div></div>';
+  }
+
+  html += '<div style="margin-top:24px;"><a href="mailto:ProofDeskService@aiitcorp.com?subject=' + t.subject + '" class="btn-buy">' + t.cta + '</a></div>';
+  html += '</div>';
+
+  el.innerHTML = html;
+})();
+</script>
 
 <style>
   .pd-h1 {
@@ -269,71 +238,94 @@ import Layout from '../layouts/Layout.astro';
     margin-top: 12px;
   }
 
-  .pd-layer {
-    margin-top: 64px;
+  .pd-layer { margin-top: 64px; }
+  .pd-lead { color: var(--slate, #8A9AB5); font-size: 0.95rem; line-height: 1.7; margin-bottom: 16px; }
+
+  /* Tier-specific styles */
+  .pd-tier-badge {
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 4px 14px;
+    border-radius: 4px;
+    background: rgba(167, 139, 250, 0.15);
+    color: #a78bfa;
+    margin-bottom: 16px;
   }
 
-  .pd-lead {
-    color: var(--slate, #8A9AB5);
+  .pd-tier-title {
+    font-size: clamp(1.4rem, 3.5vw, 2rem);
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  .pd-tier-promise {
+    color: var(--amber, #D4AF37);
+    font-family: 'Courier New', monospace;
     font-size: 0.95rem;
-    line-height: 1.7;
     margin-bottom: 24px;
   }
 
-  .pd-cards-3 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 16px;
+  .pd-tier-section {
+    margin-top: 24px;
+  }
+
+  .pd-tier-section p { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.6; margin-bottom: 8px; }
+  .pd-tier-section ul { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.8; padding-left: 20px; }
+  .pd-tier-section ol { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.8; padding-left: 20px; }
+  .pd-tier-section li { margin-bottom: 4px; }
+
+  .pd-turnaround-single {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2rem;
+    color: var(--amber, #D4AF37);
+    font-weight: 700;
+    padding: 12px 0;
+  }
+
+  .pd-emergency-warn {
+    background: rgba(220, 60, 60, 0.12);
+    border-left: 3px solid #dc3c3c;
+    padding: 16px 20px;
+    color: #ff8888;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .pd-emergency-box {
+    background: rgba(220, 60, 60, 0.08);
+    border: 1px solid rgba(220, 60, 60, 0.2);
+    border-radius: 8px;
+    padding: 20px;
     margin-top: 16px;
   }
 
-  .pd-card-num {
+  .pd-emergency-box strong { color: #ff8888; }
+  .pd-emergency-box ul { color: var(--slate, #8A9AB5); padding-left: 20px; }
+  .pd-emergency-box p { color: var(--slate, #8A9AB5); margin-top: 12px; font-size: 0.9rem; }
+
+  /* Shared components */
+  .pd-cards-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .pd-card-sm {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(212, 164, 55, 0.12);
-    border-radius: 10px;
-    padding: 24px 20px;
-  }
-
-  .pd-card-num h3 {
-    color: var(--cream, #E8E0D4);
-    font-size: 1rem;
-    margin-bottom: 8px;
-  }
-
-  .pd-card-num p {
-    color: var(--slate, #8A9AB5);
-    font-size: 0.85rem;
-    line-height: 1.6;
-  }
-
-  .pd-card-num strong { color: var(--amber, #D4AF37); }
-  .pd-card-num em { color: var(--cream, #E8E0D4); font-style: normal; }
-
-  .pd-card-btn {
-    display: inline-block;
-    margin-top: 12px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.8rem;
-    color: var(--amber, #D4AF37);
+    border-radius: 8px;
+    padding: 16px;
     text-decoration: none;
-    border-bottom: 1px solid rgba(212, 164, 55, 0.3);
-    padding-bottom: 2px;
   }
 
-  .pd-num {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: 2px solid var(--amber, #D4AF37);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Courier New', monospace;
-    font-size: 0.9rem;
-    color: var(--amber, #D4AF37);
-    font-weight: 700;
-    margin-bottom: 12px;
-  }
+  .pd-card-sm h3 { color: var(--cream, #E8E0D4); font-size: 0.95rem; margin-bottom: 4px; }
+  .pd-card-sm p { color: var(--slate, #8A9AB5); font-size: 0.8rem; line-height: 1.5; }
 
   .pd-two-col {
     display: grid;
@@ -341,159 +333,34 @@ import Layout from '../layouts/Layout.astro';
     gap: 32px;
   }
 
-  @media (max-width: 600px) {
-    .pd-two-col { grid-template-columns: 1fr; }
-  }
+  @media (max-width: 600px) { .pd-two-col { grid-template-columns: 1fr; } }
 
   .pd-two-col h4 {
     color: var(--amber, #D4AF37);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-family: 'Courier New', monospace;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 12px;
   }
 
-  .pd-checklist {
-    list-style: none;
-    padding: 0;
-  }
+  .pd-checklist { list-style: none; padding: 0; }
+  .pd-checklist li { padding: 3px 0; color: var(--slate, #8A9AB5); font-size: 0.83rem; border-bottom: 1px solid rgba(255,255,255,0.03); }
+  .pd-context li { font-style: italic; padding: 5px 0; }
 
-  .pd-checklist li {
-    padding: 4px 0;
-    color: var(--slate, #8A9AB5);
-    font-size: 0.85rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
-  }
-
-  .pd-context li {
-    padding: 6px 0;
-    font-style: italic;
-  }
-
-  .pd-tree {
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(212, 164, 55, 0.15);
-    border-radius: 8px;
-    padding: 20px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.85rem;
-    color: var(--slate, #8A9AB5);
-    overflow-x: auto;
-    line-height: 1.6;
-  }
-
-  .pd-steps {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 16px;
-  }
-
-  .pd-step {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-  }
-
-  .pd-step-num {
-    flex-shrink: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid var(--amber, #D4AF37);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Courier New', monospace;
-    font-size: 1rem;
-    color: var(--amber, #D4AF37);
-    font-weight: 700;
-  }
-
-  .pd-step-body h3 {
-    color: var(--cream, #E8E0D4);
-    font-size: 1rem;
-    margin-bottom: 4px;
-  }
-
-  .pd-step-body p {
-    color: var(--slate, #8A9AB5);
-    font-size: 0.9rem;
-    line-height: 1.6;
-  }
-
-  .pd-timing {
-    margin-top: 8px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.8rem;
-    color: var(--amber, #D4AF37);
-    line-height: 1.5;
-  }
-
-  .pd-turnaround {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 16px;
-  }
-
-  .pd-turn-row {
-    padding: 16px;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(212, 164, 55, 0.1);
-    border-radius: 8px;
-  }
-
-  .pd-turn-rush {
-    border-color: var(--amber, #D4AF37);
-    background: rgba(212, 164, 55, 0.06);
-  }
-
-  .pd-turn-tier {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 4px;
-  }
-
-  .pd-turn-tier strong { color: var(--cream, #E8E0D4); font-size: 0.95rem; }
-  .pd-turn-tier span { color: var(--amber, #D4AF37); font-family: 'Courier New', monospace; font-size: 0.8rem; }
-
-  .pd-turn-desc {
-    color: var(--slate, #8A9AB5);
-    font-size: 0.8rem;
-    line-height: 1.5;
-  }
-
-  .pd-outputs {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-top: 16px;
-  }
+  .pd-outputs { display: flex; flex-direction: column; gap: 6px; margin-top: 16px; }
 
   .pd-output {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 10px 16px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    padding: 8px 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
     gap: 16px;
   }
 
-  .pd-output strong {
-    color: var(--amber, #D4AF37);
-    font-family: 'Courier New', monospace;
-    font-size: 0.85rem;
-    flex-shrink: 0;
-  }
-
-  .pd-output span {
-    color: var(--slate, #8A9AB5);
-    font-size: 0.8rem;
-    text-align: right;
-  }
+  .pd-output strong { color: var(--amber, #D4AF37); font-family: 'Courier New', monospace; font-size: 0.83rem; flex-shrink: 0; }
+  .pd-output span { color: var(--slate, #8A9AB5); font-size: 0.78rem; text-align: right; }
 
   .pd-boundary {
     padding: 24px;
@@ -502,44 +369,26 @@ import Layout from '../layouts/Layout.astro';
     border-radius: 0 8px 8px 0;
   }
 
-  .pd-boundary p {
-    color: var(--slate, #8A9AB5);
-    font-size: 0.88rem;
-    line-height: 1.7;
-    margin-bottom: 12px;
-  }
-
+  .pd-boundary p { color: var(--slate, #8A9AB5); font-size: 0.85rem; line-height: 1.7; margin-bottom: 12px; }
   .pd-boundary p:last-child { margin-bottom: 0; }
   .pd-boundary strong { color: var(--cream, #E8E0D4); }
 
   .pd-privacy {
     padding: 20px;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(212, 164, 55, 0.08);
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(212,164,55,0.08);
     border-radius: 8px;
   }
 
-  .pd-privacy p {
-    color: var(--slate, #8A9AB5);
-    font-size: 0.85rem;
-    line-height: 1.7;
-    margin-bottom: 12px;
-  }
-
+  .pd-privacy p { color: var(--slate, #8A9AB5); font-size: 0.85rem; line-height: 1.7; margin-bottom: 12px; }
   .pd-privacy p:last-child { margin-bottom: 0; }
   .pd-privacy strong { color: var(--cream, #E8E0D4); }
 
-  .pd-final {
-    margin-top: 64px;
-    padding-bottom: 80px;
-    text-align: center;
-  }
+  .pd-final { margin-top: 64px; padding-bottom: 80px; text-align: center; }
+  .pd-final h2 { font-size: clamp(1.4rem, 3.5vw, 2rem); margin-bottom: 24px; line-height: 1.2; }
 
-  .pd-final h2 {
-    font-size: clamp(1.4rem, 3.5vw, 2rem);
-    margin-bottom: 24px;
-    line-height: 1.2;
-  }
+  .pd-fallback { margin-top: 16px; }
+  .pd-fallback p { color: var(--slate, #8A9AB5); font-size: 0.95rem; line-height: 1.7; margin-bottom: 24px; }
 </style>
 
 </Layout>
