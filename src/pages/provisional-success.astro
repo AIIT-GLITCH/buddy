@@ -1,0 +1,145 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Provisional Patent Draft — Next Steps" description="Your provisional patent draft order is confirmed. Send your materials and we'll deliver a draft in 24 hours.">
+
+<section style="padding-top: 180px; min-height: 80vh;">
+  <div class="container narrow" style="max-width: 760px; margin: 0 auto; padding: 0 5vw;">
+
+    <div class="eyebrow">Provisional Patent Draft</div>
+    <h1 class="pv-h1">Your draft is<br>in motion.</h1>
+    <p class="pv-sub">Send your materials now. You'll have a provisional patent draft package in 24 hours.</p>
+
+    <div class="pv-email-block">
+      <p>Send to: <strong style="color: var(--amber); user-select: all;">ProofDeskService@aiitcorp.com</strong>
+        <button onclick="navigator.clipboard.writeText('ProofDeskService@aiitcorp.com');this.textContent='copied!';setTimeout(()=>this.textContent='copy',2000)" style="background:rgba(167,139,250,0.2);border:1px solid rgba(167,139,250,0.3);color:#a78bfa;padding:4px 12px;border-radius:4px;font-size:0.75rem;cursor:pointer;margin-left:8px;">copy</button>
+      </p>
+    </div>
+
+    <div id="tier-content"></div>
+
+    <!-- SHARED: WHAT HAPPENS NEXT -->
+    <div class="pv-layer">
+      <div class="eyebrow">What happens next</div>
+      <div class="pv-card-grid">
+        <div class="pv-icard">
+          <h3>1. We confirm receipt</h3>
+          <p>Within 2 hours we'll confirm we can access your materials and ask any clarifying questions.</p>
+        </div>
+        <div class="pv-icard">
+          <h3>2. We draft in 24 hours</h3>
+          <p>Technical description, claims outline, figures, evidence binder, and filing guide — all sealed and hashed.</p>
+        </div>
+        <div class="pv-icard">
+          <h3>3. You review and file</h3>
+          <p>Review the draft yourself or hand it to your attorney. File with the USPTO. Your filing date is established.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SHARED: BOUNDARY -->
+    <div class="pv-layer">
+      <div class="pv-boundary">
+        <p><strong>Important:</strong> This is not legal advice, attorney representation, patentability analysis, or a guarantee of protection. We prepare a technical provisional draft package for you or your attorney to review and file.</p>
+      </div>
+    </div>
+
+    <!-- FINAL CTA -->
+    <div style="margin-top: 48px; padding-bottom: 80px; text-align: center;">
+      <h2 style="font-size: clamp(1.4rem, 3.5vw, 2rem); margin-bottom: 12px;">Your idea deserves a date.</h2>
+      <a href="mailto:ProofDeskService@aiitcorp.com?subject=Provisional+Patent+Draft" target="_blank" rel="noopener" class="btn-buy">Send your materials →</a>
+      <p style="color: var(--slate); font-size: 0.8rem; margin-top: 24px;">
+        Questions? <a href="mailto:ProofDeskService@aiitcorp.com" style="color: var(--amber);">ProofDeskService@aiitcorp.com</a>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<script is:inline>
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  var tier = params.get('tier') || 'generic';
+  var el = document.getElementById('tier-content');
+  if (!el) return;
+
+  var tiers = {
+    community: {
+      badge: 'Community — $499',
+      title: 'Community tier intake',
+      promise: 'Protecting early work before you have resources.',
+      cards: [
+        { heading: 'What to send', body: '<p>Send everything you have about your invention — notes, sketches, screenshots, code, descriptions, prior art you know about.</p><p>Include:</p><ul><li>What is the invention?</li><li>How does it work?</li><li>What problem does it solve?</li><li>When did you first have the idea?</li></ul>' },
+        { heading: 'Best for', body: '<ul><li>Students</li><li>Low-income inventors</li><li>Unfunded builders</li><li>Early-stage ideas</li><li>First-time filers</li></ul>' },
+        { heading: 'Turnaround', body: '<p>24 hours after we confirm access to your materials.</p>' },
+        { heading: 'You receive', body: '<ul><li>Technical description draft</li><li>Claims outline</li><li>Reference figures</li><li>Evidence binder (sealed)</li><li>USPTO filing guide</li></ul>' },
+      ],
+    },
+    independent: {
+      badge: 'Independent — $1,499',
+      title: 'Independent tier intake',
+      promise: 'Solo builders and working inventors paying out of pocket.',
+      cards: [
+        { heading: 'What to send', body: '<p>Send your invention materials plus any existing documentation, prototypes, or prior filings.</p><p>Include:</p><ul><li>Invention name and description</li><li>How it works (technical detail)</li><li>Key differentiators from existing solutions</li><li>Timeline of development</li><li>Any prior art searches you have done</li></ul>' },
+        { heading: 'Best for', body: '<ul><li>Solo builders</li><li>Working inventors</li><li>Early founders</li><li>Small teams</li><li>Side projects going serious</li></ul>' },
+        { heading: 'Turnaround', body: '<p>24 hours after we confirm access to your materials.</p>' },
+        { heading: 'You receive', body: '<ul><li>Technical description draft</li><li>Detailed claims outline</li><li>Reference figures and diagrams</li><li>Full evidence binder (sealed)</li><li>USPTO filing guide</li><li>Prior art context notes</li></ul>' },
+      ],
+    },
+    business: {
+      badge: 'Business — $3,499',
+      title: 'Business tier intake',
+      promise: 'Funded founders, companies, agencies, and urgent deadlines.',
+      cards: [
+        { heading: 'What to send', body: '<p>Send all invention materials, technical specifications, competitive landscape notes, and any existing IP documentation.</p><p>Include:</p><ul><li>Full technical specification</li><li>Competitive analysis or prior art</li><li>Team members involved</li><li>Existing patents or applications</li><li>Commercial context and urgency</li><li>Attorney contact if applicable</li></ul>' },
+        { heading: 'Best for', body: '<ul><li>Funded companies</li><li>Commercial launches</li><li>Agency/attorney coordination</li><li>Multiple-claim inventions</li><li>Urgent filing deadlines</li></ul>' },
+        { heading: 'Turnaround', body: '<p>Priority 24-hour turnaround. Complex inventions may require a brief extension — we will communicate immediately.</p>' },
+        { heading: 'You receive', body: '<ul><li>Comprehensive technical description</li><li>Multi-claim outline</li><li>Professional figures and diagrams</li><li>Full evidence binder (sealed)</li><li>USPTO filing guide</li><li>Attorney handoff memo</li><li>Prior art landscape summary</li></ul>' },
+      ],
+    },
+  };
+
+  var t = tiers[tier];
+  if (!t) {
+    el.innerHTML = '<div class="pv-layer"><div class="eyebrow">Which tier?</div><p style="color:var(--slate);margin-bottom:24px;">Not sure which tier you purchased? Email <a href="mailto:ProofDeskService@aiitcorp.com" style="color:var(--amber);">ProofDeskService@aiitcorp.com</a> with your payment receipt.</p><div class="pv-card-grid"><a href="?tier=community" class="pv-icard" style="text-decoration:none;"><h3>Community</h3><p>$499</p></a><a href="?tier=independent" class="pv-icard" style="text-decoration:none;"><h3>Independent</h3><p>$1,499</p></a><a href="?tier=business" class="pv-icard" style="text-decoration:none;"><h3>Business</h3><p>$3,499</p></a></div></div>';
+    return;
+  }
+
+  var html = '<div class="pv-layer">';
+  html += '<div class="pv-tier-badge">' + t.badge + '</div>';
+  html += '<h2 class="pv-tier-title">' + t.title + '</h2>';
+  html += '<p class="pv-tier-promise">' + t.promise + '</p>';
+  html += '<div class="pv-card-grid">';
+  for (var i = 0; i < t.cards.length; i++) {
+    html += '<div class="pv-icard"><h3>' + t.cards[i].heading + '</h3>' + t.cards[i].body + '</div>';
+  }
+  html += '</div></div>';
+  el.innerHTML = html;
+})();
+</script>
+
+<style>
+  .pv-h1 { font-size: clamp(2.2rem, 5.5vw, 4rem); margin-bottom: 16px; line-height: 1.1; }
+  .pv-sub { color: var(--slate, #8A9AB5); font-size: clamp(1rem, 2.5vw, 1.15rem); line-height: 1.8; margin-bottom: 24px; max-width: 600px; }
+  .pv-email-block { margin-bottom: 32px; }
+  .pv-email-block p { color: var(--slate, #8A9AB5); font-size: 0.95rem; }
+  .pv-layer { margin-top: 48px; }
+
+  .pv-tier-badge { display: inline-block; font-family: 'Courier New', monospace; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 14px; border-radius: 4px; background: rgba(167,139,250,0.15); color: #a78bfa; margin-bottom: 16px; }
+  .pv-tier-title { font-size: clamp(1.4rem, 3.5vw, 2rem); margin-bottom: 8px; line-height: 1.2; }
+  .pv-tier-promise { color: var(--amber, #D4AF37); font-family: 'Courier New', monospace; font-size: 0.95rem; margin-bottom: 24px; }
+
+  .pv-card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 16px; }
+  .pv-icard { background: rgba(255,255,255,0.02); border: 1px solid rgba(212,164,55,0.15); border-radius: 10px; padding: 24px; }
+  .pv-icard h3 { color: var(--amber, #D4AF37); font-size: 1rem; font-weight: 600; margin-bottom: 12px; }
+  .pv-icard p { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.6; margin-bottom: 10px; }
+  .pv-icard p:last-child { margin-bottom: 0; }
+  .pv-icard ul { color: var(--slate, #8A9AB5); font-size: 0.88rem; line-height: 1.7; padding-left: 20px; margin: 0; }
+  .pv-icard li { margin-bottom: 4px; }
+
+  .pv-boundary { padding: 20px; border-left: 3px solid rgba(212,164,55,0.3); background: rgba(212,164,55,0.04); border-radius: 0 8px 8px 0; }
+  .pv-boundary p { color: var(--slate, #8A9AB5); font-size: 0.85rem; line-height: 1.7; margin: 0; }
+  .pv-boundary strong { color: var(--cream, #E8E0D4); }
+</style>
+
+</Layout>
