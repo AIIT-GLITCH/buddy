@@ -9,8 +9,12 @@ import Layout from '../layouts/Layout.astro';
     <div class="eyebrow">AnchorForge ProofDesk</div>
     <h1 style="font-size: clamp(2.4rem, 6vw, 5rem); margin-bottom: 20px; line-height: 1.1;">The claim is cheap.<br>The proof trail<br>is missing.</h1>
     <p class="pd-lede">
-      ProofDesk turns messy evidence folders into sealed proof packets: manifests, hashes, chain of custody,
-      claim review, risk register, handoff memo, source copy, sealed archive, and optional printable binder.
+      ProofDesk turns messy folders of evidence, claims, screenshots, notes, scans, AI reports, invention notes,
+      citations, receipts, and code into sealed review packets another human can trust and inspect.
+    </p>
+    <p class="pd-boundary">
+      Not legal advice. Not patent filing. Not replacing attorneys.<br>
+      It is the packet before the expensive person starts billing hours.
     </p>
 
     <div class="pd-cta-row">
@@ -57,25 +61,25 @@ import Layout from '../layouts/Layout.astro';
         <div class="pd-price-card">
           <div class="pd-tier">Starter Proof Seal</div>
           <div class="pd-price">$149</div>
-          <p>Small folder. Manifest, hashes, chain-of-custody, sealed zip. Fast and clean.</p>
+          <p>For small evidence folders that need to be indexed, hashed, sealed, and summarized before review. Manifest, checksums, chain of custody, source copy, sealed zip.</p>
           <a href="https://buy.stripe.com/3cI28l1dobjkdKN0LLew807" target="_blank" rel="noopener" class="btn-buy pd-buy">Get Starter →</a>
         </div>
         <div class="pd-price-card">
           <div class="pd-tier">Founder Proof Packet</div>
           <div class="pd-price">$499</div>
-          <p>Claim table, risk register, handoff memo, sealed packet. For launches, pitches, and investor meetings.</p>
+          <p>For founders, consultants, AI agencies, and builders preparing launch claims, investor materials, or client-facing reports. Claim review table, risk register, handoff memo, hashes, sealed archive.</p>
           <a href="https://buy.stripe.com/cNi28le0abjkfSV2TTew808" target="_blank" rel="noopener" class="btn-buy pd-buy">Get Founder →</a>
         </div>
         <div class="pd-price-card pd-featured">
           <div class="pd-tier">Patent / AI Evidence Binder</div>
           <div class="pd-price">$999</div>
-          <p>Invention disclosure worksheet, citation/source verification, binder-ready output. The full defensive chronology.</p>
+          <p>For invention timelines, AI-assisted research, model outputs, prompt logs, citations, screenshots, and code. Organized into a review-ready binder before attorney or expert review.</p>
           <a href="https://buy.stripe.com/eVqaER1doevwfSV665ew809" target="_blank" rel="noopener" class="btn-buy pd-buy">Get Binder →</a>
         </div>
         <div class="pd-price-card">
           <div class="pd-tier">Emergency Weekend Desk</div>
           <div class="pd-price">$1,999</div>
-          <p>24-hour rush packet. For urgent disputes, deadlines, launches, takedowns, and high-pressure evidence cleanup.</p>
+          <p>Priority proof operations for urgent disputes, deadlines, takedowns, investor requests, launches, or legal-prep situations. Fast sealed packet with full review outputs.</p>
           <a href="https://buy.stripe.com/6oU14h7BMevwcGJ8edew80a" target="_blank" rel="noopener" class="btn-buy pd-buy">Get Emergency →</a>
         </div>
       </div>
@@ -105,6 +109,17 @@ import Layout from '../layouts/Layout.astro';
 </section>
 
 <style>
+  .pd-boundary {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: var(--slate, #8A9AB5);
+    line-height: 1.7;
+    margin-bottom: 32px;
+    padding: 16px 20px;
+    border-left: 3px solid rgba(212, 164, 55, 0.3);
+    background: rgba(212, 164, 55, 0.04);
+  }
+
   .pd-lede {
     font-size: clamp(1rem, 2.5vw, 1.15rem);
     color: var(--slate, #8A9AB5);
