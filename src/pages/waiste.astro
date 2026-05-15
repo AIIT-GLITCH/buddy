@@ -1,0 +1,265 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="wAIste Not — AI Print Formation" description="Waste nothing. Print everything right the first time. Grid-based calibration + brand-locked templates. $5 per printer. Offline. Forever.">
+
+<section style="padding-top: 160px; min-height: 80vh;">
+  <div class="container narrow" style="max-width: 960px; margin: 0 auto; padding: 0 5vw;">
+
+    <div class="eyebrow">wAIste Not</div>
+    <h1 style="font-size: clamp(2.4rem, 6vw, 5rem); margin-bottom: 20px; line-height: 1.1;">Waste nothing.<br>Print everything right<br>the first time.</h1>
+    <p class="wn-lede">
+      AI has no eyes. It can write a letter, design a label, render an invoice — and have no idea
+      if the output prints crooked, crops the footer, or wastes three sheets before someone notices.
+      wAIste Not is the pre-print verification layer that stops blind AI from wasting paper.
+    </p>
+
+    <!-- THE PROBLEM -->
+    <div style="margin-top: 48px;">
+      <div class="eyebrow">The problem</div>
+      <div class="wn-problem">
+        <p>Every printer in your office has a quirk. Every template fights it. Every staff member re-discovers the same problem, calls IT, fills out a ticket, waits for a fix, wastes paper.</p>
+        <p>Letterhead prints 2mm off. Envelopes come out crooked. The signature block lands on the wrong line. The footer gets cropped.</p>
+        <p>Adobe doesn't care. Microsoft Word can't be calibrated. Canva lives in the cloud.</p>
+      </div>
+    </div>
+
+    <!-- THE FIX -->
+    <div style="margin-top: 48px;">
+      <div class="eyebrow">The fix</div>
+      <h2 style="font-size: clamp(1.4rem, 3.5vw, 2rem); margin-bottom: 24px;">Calibrate once. Print forever.</h2>
+
+      <div class="wn-grid">
+        <div class="wn-feat">
+          <div class="wn-feat-icon">📐</div>
+          <h3>Grid calibration</h3>
+          <p>8×11 grid overlay. Columns a–h, rows 1–11. Staff says "signature is at 9a, should be 10c." App fixes it. Forever.</p>
+        </div>
+        <div class="wn-feat">
+          <div class="wn-feat-icon">🏢</div>
+          <h3>Brand-locked templates</h3>
+          <p>Letter, envelope, memo, invoice, shipping label, Avery labels. All pull from one brand.json. Change your address once — every template updates.</p>
+        </div>
+        <div class="wn-feat">
+          <div class="wn-feat-icon">🔒</div>
+          <h3>Fully offline</h3>
+          <p>Nothing leaves your machine. No cloud. No analytics. No phone home. Your letterhead, client addresses, invoices — they stay on your box.</p>
+        </div>
+        <div class="wn-feat">
+          <div class="wn-feat-icon">🖥️</div>
+          <h3>CLI + Web UI</h3>
+          <p>Power users get the CLI. Everyone else gets the web dashboard at localhost:8478. Same vocabulary, same calibration, same outcome.</p>
+        </div>
+        <div class="wn-feat">
+          <div class="wn-feat-icon">🔑</div>
+          <h3>Machine-locked license</h3>
+          <p>Ed25519 signed keys bound to your hardware fingerprint. No subscription. No renewal. Buy it, own it.</p>
+        </div>
+        <div class="wn-feat">
+          <div class="wn-feat-icon">🧪</div>
+          <h3>7-day free trial</h3>
+          <p>No signup. No credit card. Up to 2 printers. Watermarked output. Just install and run.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOW IT WORKS -->
+    <div style="margin-top: 64px;">
+      <div class="eyebrow">60-second calibration</div>
+      <div class="wn-steps">
+        <div class="wn-step">
+          <div class="wn-step-num">1</div>
+          <div class="wn-step-text"><strong>Print a test sheet.</strong> <code>waiste-not test letter</code> sends a grid overlay to the printer.</div>
+        </div>
+        <div class="wn-step">
+          <div class="wn-step-num">2</div>
+          <div class="wn-step-text"><strong>Look at the paper.</strong> Find what's off. Say it in grid coordinates: "the letterhead is at 1b but it should be at 1a."</div>
+        </div>
+        <div class="wn-step">
+          <div class="wn-step-num">3</div>
+          <div class="wn-step-text"><strong>Tell the app.</strong> <code>waiste-not fix letter "letterhead → 1a"</code>. The app saves the delta.</div>
+        </div>
+        <div class="wn-step">
+          <div class="wn-step-num">4</div>
+          <div class="wn-step-text"><strong>Print again.</strong> It's correct. Forever. On this printer. For this template.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRICING -->
+    <div class="wn-pricing" style="margin-top: 64px;">
+      <div class="eyebrow">Pricing</div>
+      <h2 style="font-size: clamp(1.4rem, 3.5vw, 2rem); margin-bottom: 24px;">$5 per printer. One-time. Forever.</h2>
+
+      <div class="wn-price-grid">
+        <div class="wn-price-card">
+          <div class="wn-price">$5</div>
+          <div class="wn-price-label">1 printer</div>
+        </div>
+        <div class="wn-price-card">
+          <div class="wn-price">$25</div>
+          <div class="wn-price-label">5 printers</div>
+        </div>
+        <div class="wn-price-card">
+          <div class="wn-price">$125</div>
+          <div class="wn-price-label">25 printers</div>
+        </div>
+        <div class="wn-price-card wn-price-featured">
+          <div class="wn-price">$499</div>
+          <div class="wn-price-label">Unlimited (small business)</div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 32px;">
+        <a href="STRIPE_LINK_PLACEHOLDER" target="_blank" rel="noopener" class="st-btn" style="display: inline-block; font-size: 1.05rem; padding: 14px 48px;">
+          Get wAIste Not →
+        </a>
+        <p style="color: var(--slate); font-size: 0.8rem; margin-top: 16px;">
+          7-day free trial. No signup. No credit card. Just install and run.
+        </p>
+      </div>
+    </div>
+
+    <!-- INSTALL -->
+    <div style="margin-top: 64px;">
+      <div class="eyebrow">Install</div>
+      <pre class="wn-code">pip install waiste-not
+waiste-not list                  # first run creates defaults
+waiste-not license fingerprint   # copy this
+# email fingerprint with payment → receive license key
+waiste-not license activate WN1-...
+waiste-not serve                 # opens http://localhost:8478</pre>
+    </div>
+
+    <!-- WHY -->
+    <div style="margin-top: 48px; padding-bottom: 80px;">
+      <div class="eyebrow">Why offline. Why local. Why $5.</div>
+      <p style="color: var(--slate); font-size: 0.95rem; line-height: 1.8; max-width: 600px;">
+        Because offices don't need SaaS for printing. Printing is a terminal problem that wants a terminal solution.
+        Because compliance doesn't allow data exfiltration. Because license friction is what kills procurement.
+        Because $5 is less than the cost of the re-print you'd otherwise make tomorrow.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .wn-lede {
+    font-size: clamp(1rem, 2.5vw, 1.15rem);
+    color: var(--slate, #8A9AB5);
+    line-height: 1.8;
+    margin-bottom: 48px;
+    max-width: 680px;
+  }
+
+  .wn-problem p {
+    color: var(--slate, #8A9AB5);
+    line-height: 1.7;
+    margin-bottom: 12px;
+  }
+
+  .wn-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+
+  .wn-feat {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(212, 164, 55, 0.12);
+    border-radius: 10px;
+    padding: 24px 20px;
+    transition: border-color 0.2s;
+  }
+
+  .wn-feat:hover { border-color: rgba(212, 164, 55, 0.35); }
+  .wn-feat-icon { font-size: 1.6rem; margin-bottom: 10px; }
+  .wn-feat h3 { color: var(--cream, #E8E0D4); font-size: 1.05rem; margin-bottom: 6px; }
+  .wn-feat p { color: var(--slate, #8A9AB5); font-size: 0.88rem; line-height: 1.6; }
+
+  .wn-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .wn-step {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .wn-step-num {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--amber, #D4AF37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: var(--amber, #D4AF37);
+  }
+
+  .wn-step-text {
+    color: var(--slate, #8A9AB5);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    padding-top: 6px;
+  }
+
+  .wn-step-text strong { color: var(--cream, #E8E0D4); }
+  .wn-step-text code {
+    color: var(--amber, #D4AF37);
+    font-size: 0.85rem;
+  }
+
+  .wn-price-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 16px;
+    max-width: 640px;
+  }
+
+  .wn-price-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(212, 164, 55, 0.15);
+    border-radius: 8px;
+    padding: 24px 16px;
+    text-align: center;
+  }
+
+  .wn-price-featured {
+    border-color: var(--amber, #D4AF37);
+    background: rgba(212, 164, 55, 0.06);
+  }
+
+  .wn-price {
+    font-size: 1.8rem;
+    color: var(--amber, #D4AF37);
+    font-weight: 700;
+  }
+
+  .wn-price-label {
+    font-size: 0.8rem;
+    color: var(--slate, #8A9AB5);
+    margin-top: 4px;
+  }
+
+  .wn-code {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(212, 164, 55, 0.15);
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: var(--slate, #8A9AB5);
+    overflow-x: auto;
+    line-height: 1.6;
+  }
+</style>
+
+</Layout>
