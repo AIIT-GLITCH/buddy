@@ -1,0 +1,64 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="AIIT-Voice2 — Download" description="Thank you. Download AIIT-Voice2.">
+
+<section style="padding-top: 200px; min-height: 80vh;">
+  <div class="container narrow" style="max-width: 600px; margin: 0 auto; padding: 0 8vw; text-align: center;">
+
+    <div class="eyebrow">You're in</div>
+    <h1 style="font-size: clamp(2.2rem, 5vw, 3.5rem); margin-bottom: 20px; line-height: 1.1;">Thank you.</h1>
+    <p style="color: var(--slate); margin-bottom: 40px; line-height: 1.7;">
+      Download your engine below. Unzip, install dependencies, wire your <code style="color: var(--gold);">ask_fn</code>, and start talking.
+    </p>
+
+    <a href="/aiit-voice2-v1.0.zip" class="st-btn" style="display: inline-block; font-size: 1.1rem; padding: 16px 48px;">
+      Download AIIT-Voice2 →
+    </a>
+
+    <div style="margin-top: 56px; text-align: left; max-width: 480px; margin-left: auto; margin-right: auto;">
+      <div class="eyebrow">Quick start</div>
+      <pre class="v2-code" style="margin-top: 12px;">pip install faster-whisper piper-tts sounddevice numpy
+
+from voice2 import VoiceEngine, VoiceConfig
+
+def my_agent(txt: str) -> str:
+    return "I heard you."
+
+engine = VoiceEngine(VoiceConfig(), ask_fn=my_agent)
+engine.start()
+engine.join()</pre>
+
+      <p style="color: var(--slate); font-size: 0.9rem; margin-top: 24px; line-height: 1.7;">
+        The README inside the zip has the full architecture diagram, all configuration options, and attribution details.
+      </p>
+    </div>
+
+    <div style="margin-top: 40px; padding: 16px; background: rgba(212,164,55,0.06); border-radius: 8px; border: 1px solid rgba(212,164,55,0.15);">
+      <p style="color: var(--slate); font-size: 0.85rem; margin: 0;">
+        <strong style="color: var(--amber);">Support included.</strong> Email <a href="mailto:reliablerestaurantrepair@gmail.com" style="color: var(--amber);">reliablerestaurantrepair@gmail.com</a> with questions, bugs, or to show off what you built.
+      </p>
+    </div>
+
+    <p style="color: var(--slate); font-size: 0.8rem; margin-top: 48px; padding-bottom: 80px;">
+      Now go talk over your AI.
+    </p>
+
+  </div>
+</section>
+
+<style>
+  .v2-code {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(212, 164, 55, 0.15);
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: var(--slate, #8A9AB5);
+    overflow-x: auto;
+    line-height: 1.6;
+  }
+</style>
+
+</Layout>

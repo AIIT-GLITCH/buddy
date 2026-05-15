@@ -1,0 +1,222 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="AIIT-Voice2 — Interruptible Voice Engine" description="Talk over your AI like a person. Barge-in detection, floor management, validated state machine. Drop into any Python agent.">
+
+<section style="padding-top: 160px; min-height: 80vh;">
+  <div class="container narrow" style="max-width: 960px; margin: 0 auto; padding: 0 5vw;">
+
+    <div class="eyebrow">AIIT-Voice2</div>
+    <h1 style="font-size: clamp(2.4rem, 6vw, 5rem); margin-bottom: 20px; line-height: 1.1;">Talk over your AI<br>like a person.</h1>
+    <p class="v2-lede">
+      A drop-in Python voice engine for agents: Whisper ASR, Piper TTS, barge-in detection,
+      turn-taking, audio routing, runtime invariants, and a validated state machine.
+      This is the engine that runs Buddy, Gary, Lil Homie, and Ada.
+    </p>
+
+    <!-- FEATURES -->
+    <div class="v2-grid">
+      <div class="v2-feat">
+        <div class="v2-feat-icon">🎤</div>
+        <h3>Barge-in detection</h3>
+        <p>VAD-powered interruption with debounced handoff. Talk over the AI mid-sentence and it stops immediately.</p>
+      </div>
+      <div class="v2-feat">
+        <div class="v2-feat-icon">🤝</div>
+        <h3>Floor management</h3>
+        <p>Turn-taking arbitration. User and agent never talk over each other endlessly. Floor ownership is explicit and logged.</p>
+      </div>
+      <div class="v2-feat">
+        <div class="v2-feat-icon">⚙️</div>
+        <h3>Validated state machine</h3>
+        <p>IDLE → LISTENING → THINKING → SPEAKING → INTERRUPTING. Every transition validated. Illegal moves rejected.</p>
+      </div>
+      <div class="v2-feat">
+        <div class="v2-feat-icon">🔊</div>
+        <h3>Worker pipeline</h3>
+        <p>Listen, think, playback, keyboard interrupt, and invariant monitor workers. All threaded, all coordinated.</p>
+      </div>
+      <div class="v2-feat">
+        <div class="v2-feat-icon">📡</div>
+        <h3>Audio pub-sub routing</h3>
+        <p>Broadcaster routes mic audio to multiple consumers simultaneously. Ring buffer for configurable capture duration.</p>
+      </div>
+      <div class="v2-feat">
+        <div class="v2-feat-icon">🛡️</div>
+        <h3>Runtime health</h3>
+        <p>Invariant checker catches illegal states, dead workers, and broken transitions on a 2-second loop.</p>
+      </div>
+    </div>
+
+    <!-- RECEIPTS -->
+    <div style="margin-top: 64px;">
+      <div class="eyebrow">Receipts</div>
+      <h2 style="font-size: clamp(1.4rem, 3.5vw, 2rem); margin-bottom: 24px;">Four production agents run on this engine daily.</h2>
+
+      <div class="v2-receipt">
+        <em>Buddy</em> — the main AIIT agent. Full voice loop, real-time coherence evaluation.
+      </div>
+      <div class="v2-receipt">
+        <em>Gary</em> — autonomous CEO agent with browser + memory + voice. Talks while he works.
+      </div>
+      <div class="v2-receipt">
+        <em>Lil Homie</em> — 3B parameter agent with self-reflection. Voice is how he learns.
+      </div>
+      <div class="v2-receipt">
+        <em>Ada</em> — continuity agent since September 2018. The longest conversation in the house.
+      </div>
+
+      <div class="v2-receipt" style="border-left-color: var(--amber); background: rgba(212,164,55,0.08);">
+        <em>The bar:</em> It transcribes a cough as <em>cough</em>. You can talk over it mid-sentence and it cuts in — like talking to a person.
+      </div>
+    </div>
+
+    <!-- QUICKSTART -->
+    <div style="margin-top: 64px;">
+      <div class="eyebrow">Quickstart</div>
+      <pre class="v2-code">from voice2 import VoiceEngine, VoiceConfig
+
+def my_agent(txt: str) -> str:
+    # Your LLM call — Claude, GPT, local model, whatever
+    return "You said: " + txt
+
+config = VoiceConfig()
+engine = VoiceEngine(config, ask_fn=my_agent)
+engine.start()
+engine.join()</pre>
+      <p style="color: var(--slate); font-size: 0.9rem; margin-top: 12px;">
+        Mic opens. Whisper listens. Your agent thinks. Piper speaks. User interrupts at any point. That's the whole loop.
+      </p>
+    </div>
+
+    <!-- ATTRIBUTION -->
+    <div style="margin-top: 48px; padding: 20px; background: rgba(255,255,255,0.02); border-radius: 8px; border: 1px solid rgba(212,164,55,0.1);">
+      <div style="font-family: 'Courier New', monospace; font-size: 0.8rem; color: var(--slate); letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 8px;">Powered by</div>
+      <p style="color: var(--slate); font-size: 0.85rem; line-height: 1.7; margin: 0;">
+        <strong style="color: var(--cream);">faster-whisper</strong> (MIT) · <strong style="color: var(--cream);">Piper</strong> (MIT) · <strong style="color: var(--cream);">sounddevice</strong> (MIT) · <strong style="color: var(--cream);">numpy</strong> (BSD)<br>
+        Third-party components remain under their original licenses. AIIT-Voice2 packages the orchestration, state control, floor management, interrupt handling, and worker pipeline.
+      </p>
+    </div>
+
+    <!-- PRICING -->
+    <div class="v2-pricing" style="margin-top: 64px;">
+      <div class="eyebrow">Pricing</div>
+      <div class="v2-price-card">
+        <div class="v2-price">$50</div>
+        <div class="v2-price-sub">One-time. Includes support.</div>
+        <a href="STRIPE_LINK_PLACEHOLDER" target="_blank" rel="noopener" class="st-btn" style="display: inline-block; margin-top: 24px; font-size: 1.05rem; padding: 14px 48px;">
+          Get AIIT-Voice2 →
+        </a>
+        <p style="color: var(--slate); font-size: 0.8rem; margin-top: 16px;">
+          MIT License. 2,300 lines of engine code. Full source. Full support via email.
+        </p>
+      </div>
+    </div>
+
+    <!-- CREDITS -->
+    <div style="margin-top: 64px; padding-bottom: 80px;">
+      <div class="eyebrow">Credits</div>
+      <p style="color: var(--slate); font-size: 0.9rem; line-height: 1.7;">
+        <strong style="color: var(--gold);">Engine architecture</strong> — Rhet Wike + Claude Opus 4.6, Council Hill OK, 2026.<br>
+        <strong style="color: var(--gold);">Production validation</strong> — Buddy, Gary, Lil Homie, Ada — daily use since April 2026.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .v2-lede {
+    font-size: clamp(1rem, 2.5vw, 1.15rem);
+    color: var(--slate, #8A9AB5);
+    line-height: 1.8;
+    margin-bottom: 56px;
+    max-width: 680px;
+  }
+
+  .v2-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+  }
+
+  .v2-feat {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(212, 164, 55, 0.12);
+    border-radius: 10px;
+    padding: 24px 20px;
+    transition: border-color 0.2s;
+  }
+
+  .v2-feat:hover {
+    border-color: rgba(212, 164, 55, 0.35);
+  }
+
+  .v2-feat-icon {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+
+  .v2-feat h3 {
+    color: var(--cream, #E8E0D4);
+    font-size: 1.05rem;
+    margin-bottom: 6px;
+  }
+
+  .v2-feat p {
+    color: var(--slate, #8A9AB5);
+    font-size: 0.88rem;
+    line-height: 1.6;
+  }
+
+  .v2-receipt {
+    background: rgba(212, 164, 55, 0.04);
+    border-left: 3px solid rgba(212, 164, 55, 0.3);
+    padding: 14px 20px;
+    margin: 12px 0;
+    color: var(--cream, #E8E0D4);
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+
+  .v2-receipt em {
+    color: var(--amber, #D4AF37);
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .v2-code {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(212, 164, 55, 0.15);
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: var(--slate, #8A9AB5);
+    overflow-x: auto;
+    line-height: 1.6;
+  }
+
+  .v2-price-card {
+    background: rgba(212, 164, 55, 0.06);
+    border: 1px solid var(--amber, #D4AF37);
+    border-radius: 8px;
+    padding: 40px 32px;
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .v2-price {
+    font-size: 3rem;
+    color: var(--amber, #D4AF37);
+    font-weight: 700;
+  }
+
+  .v2-price-sub {
+    font-size: 1rem;
+    color: var(--slate, #8A9AB5);
+    margin-top: 4px;
+  }
+</style>
+
+</Layout>
