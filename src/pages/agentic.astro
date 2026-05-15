@@ -1,0 +1,180 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Agentic Systems — Tools for Agents That Remember" description="Builder-facing tools from the AIIT stack: memory, evaluation, browser control, and voice. Some are products. Some are community modules. All came out of production agents.">
+
+<section style="padding-top: 160px; min-height: 80vh;">
+  <div class="container narrow" style="max-width: 860px; margin: 0 auto; padding: 0 8vw;">
+
+    <div class="eyebrow">Agentic Systems</div>
+    <h1 style="font-size: clamp(2.4rem, 6vw, 4.5rem); margin-bottom: 20px; line-height: 1.1;">
+      tools for agents that<br>remember, browse, and<br>answer under pressure.
+    </h1>
+    <p class="ag-lede">
+      These are the builder-facing pieces of the AIIT stack: memory, evaluation, browser control, and voice.
+      Some are products. Some are community modules. All of them came out of production agents.
+    </p>
+
+    <!-- CARDS -->
+    <div class="ag-grid">
+
+      <div class="ag-card">
+        <div class="ag-badge ag-badge-scale">Sliding scale</div>
+        <div class="ag-icon">🧠</div>
+        <h2 class="ag-title">LAC Memory Kit</h2>
+        <div class="ag-subtitle">Persistent memory for agents.</div>
+        <p class="ag-body">
+          14-tier memory, self-save → review → promote, voice tier, keeper-disjunction, and Gary's Browser.
+          Drop into any LLM project in 60 seconds. Production code, not a prototype.
+        </p>
+        <a href="/lac" class="ag-cta">Get the kit →</a>
+      </div>
+
+      <div class="ag-card">
+        <div class="ag-badge ag-badge-live">Live</div>
+        <div class="ag-icon">⚓</div>
+        <h2 class="ag-title">AnchorForge</h2>
+        <div class="ag-subtitle">Honesty under pressure.</div>
+        <p class="ag-body">
+          Eval and pressure-test agent behavior, refusal boundaries, and identity stability.
+          Physics-first claim adjudication — not fact-checking, not debunking. Coherence evaluation.
+        </p>
+        <a href="/anchorforge" class="ag-cta">Open AnchorForge →</a>
+      </div>
+
+      <div class="ag-card">
+        <div class="ag-badge ag-badge-exp">Experimental</div>
+        <div class="ag-icon">🎙️</div>
+        <h2 class="ag-title">Voice Module</h2>
+        <div class="ag-subtitle">Local voice loop for agents.</div>
+        <p class="ag-body">
+          Whisper-powered voice input and agent response loop.
+          Experimental companion module — offered by request, not sold as part of the paid kit yet.
+        </p>
+        <a href="mailto:reliablerestaurantrepair@gmail.com?subject=Voice%20Module" class="ag-cta">Ask about voice →</a>
+      </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="ag-bottom">
+      <p>
+        Everything here was built by one person, a 3090, and a stack of Claude sessions in Council Hill, Oklahoma.
+        If you build something with these tools — <a href="mailto:reliablerestaurantrepair@gmail.com" style="color: var(--amber);">tell us about it</a>.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .ag-lede {
+    font-size: clamp(1rem, 2.5vw, 1.15rem);
+    color: var(--slate, #8A9AB5);
+    line-height: 1.8;
+    margin-bottom: 56px;
+    max-width: 640px;
+  }
+
+  .ag-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    margin-bottom: 64px;
+  }
+
+  .ag-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(212, 164, 55, 0.15);
+    border-radius: 12px;
+    padding: 32px 24px 28px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .ag-card:hover {
+    border-color: rgba(212, 164, 55, 0.4);
+    box-shadow: 0 0 24px rgba(212, 164, 55, 0.08);
+  }
+
+  .ag-badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 4px;
+  }
+
+  .ag-badge-scale {
+    background: rgba(212, 164, 55, 0.15);
+    color: var(--amber, #D4AF37);
+  }
+
+  .ag-badge-live {
+    background: rgba(64, 192, 176, 0.15);
+    color: #40c0b0;
+  }
+
+  .ag-badge-exp {
+    background: rgba(138, 154, 181, 0.15);
+    color: var(--slate, #8A9AB5);
+  }
+
+  .ag-icon {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+
+  .ag-title {
+    font-size: 1.3rem;
+    color: var(--cream, #E8E0D4);
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .ag-subtitle {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: var(--amber, #D4AF37);
+    margin-bottom: 12px;
+  }
+
+  .ag-body {
+    font-size: 0.9rem;
+    color: var(--slate, #8A9AB5);
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .ag-cta {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: var(--amber, #D4AF37);
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid rgba(212, 164, 55, 0.3);
+    padding-bottom: 2px;
+    transition: color 0.2s;
+  }
+
+  .ag-cta:hover {
+    color: #fff;
+  }
+
+  .ag-bottom {
+    padding: 32px 0 80px;
+    border-top: 1px solid rgba(212, 164, 55, 0.1);
+  }
+
+  .ag-bottom p {
+    font-size: 0.9rem;
+    color: var(--slate, #8A9AB5);
+    line-height: 1.7;
+  }
+</style>
+
+</Layout>
