@@ -202,7 +202,7 @@ import Layout from '../layouts/Layout.astro';
     html += '<div class="pd-boundary" style="margin-top:24px;"><p>' + t.extraBoundary + '</p></div>';
   }
 
-  html += '<div style="margin-top:32px;"><a href="mailto:ProofDeskService@aiitcorp.com?subject=' + t.subject + '" class="btn-buy">' + t.cta + '</a></div>';
+  html += '<div style="margin-top:32px;"><a href="mailto:ProofDeskService@aiitcorp.com?subject=' + t.subject + '" target="_blank" rel="noopener" class="btn-buy">' + t.cta + '</a></div>';
   html += '</div>';
 
   el.innerHTML = html;
