@@ -1,0 +1,10 @@
+Project name:
+Your name:
+Payment email:
+ProofDesk tier:
+Deadline:
+Purpose of packet:
+Top 3 claims:
+Known weak spots:
+Reviewer/audience:
+Anything we should avoid:
