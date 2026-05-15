@@ -43,6 +43,11 @@ const totalPapers = papersAll.length;
     <div class="hero-scroll">Scroll</div>
   </section>
 
+  <!-- NEW TAB NOTICE -->
+  <div class="new-tab-notice">
+    <a href="/lac">🧠 New: we've added an <strong>Agentic</strong> tab — model tools, memory kits, and updates. <span style="color:var(--amber);">Check it out →</span></a>
+  </div>
+
   <!-- 1.5 PAPER GAME TEASER — back door into the archive -->
   <section class="paper-game-teaser" aria-labelledby="pgt-head">
     <div class="pgt-inner">
@@ -866,6 +871,22 @@ const totalPapers = papersAll.length;
 </script>
 
 <style>
+  /* ── New tab notice ── */
+  .new-tab-notice {
+    text-align: center;
+    padding: 14px 24px;
+    background: rgba(212, 164, 55, 0.08);
+    border-bottom: 1px solid rgba(212, 164, 55, 0.15);
+    font-size: 0.9rem;
+  }
+  .new-tab-notice a {
+    color: var(--cream, #E8E0D4);
+    text-decoration: none;
+  }
+  .new-tab-notice a:hover {
+    color: var(--amber, #D4AF37);
+  }
+
   /* ── Joke widget (now embedded inside the hero) ── */
   .hero-joke {
     width: 100%;

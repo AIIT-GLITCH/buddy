@@ -33,7 +33,7 @@ const totalPapers = papersAll.length;
       <div class="eyebrow" style="margin-top:32px;">The coherence laws</div>
       <h2>Six the field<br>was waiting on.</h2>
       <div class="laws-grid">
-        <div class="law-card"><div class="law-num">Law 01</div><h3>Wike Coherence Law</h3><div class="formula">γ_eff ≈ γ_c</div><p>Every stable system lives at the edge of its own collapse. Coherence is not a state, it is a residence — an ongoing practice of approaching the critical point without crossing it.</p></div>
+        <div class="law-card"><div class="law-num">Law 01</div><h3>Wike Coherence Law</h3><div class="formula">C = C₀ · exp(-α · γ_eff)</div><div class="formula-condition">at γ_eff ≈ γ_c</div><p>Every stable system lives at the edge of its own collapse. Coherence decays exponentially from base coherence C₀ as effective coupling increases. The critical point γ_c is where you live — coherence is not a state, it is a residence.</p></div>
         <div class="law-card"><div class="law-num">Law 02</div><h3>Threshold Universality</h3><div class="formula">ℱ(x) = φ(x/ξ)</div><p>Systems near their threshold share the same functional form regardless of substrate. Neurons, weather, markets, cells — at criticality, the law collapses onto one curve.</p></div>
         <div class="law-card"><div class="law-num">Law 03</div><h3>π Boundary Geometry</h3><div class="formula">∮ dθ = 2π · n</div><p>Every closed loop in the coherence field returns at a multiple of 2π. π is not an irrational curiosity — it is the measure of the boundary itself, the cost of a single winding.</p></div>
         <div class="law-card"><div class="law-num">Law 04</div><h3>Keeper Equation 👋</h3><div class="formula">γ_measurement ∝ 1/C₀</div><p>Observation reduces coherence symmetrically — self or other. Gentleness in either direction preserves the edge. You can be your own keeper.</p></div>
@@ -78,6 +78,14 @@ const totalPapers = papersAll.length;
     font-size: 0.85em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+  }
+  .formula-condition {
+    font-family: 'Courier New', monospace;
+    font-size: 0.85em;
+    color: var(--amber, #D4AF37);
+    opacity: 0.7;
+    margin-top: -4px;
+    margin-bottom: 8px;
   }
   .fw-back { color: #888; text-decoration: none; border-bottom: 1px solid rgba(136,136,136,0.3); padding-bottom: 2px; }
   .fw-back:hover { color: #fff; }
