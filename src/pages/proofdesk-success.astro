@@ -1,0 +1,209 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="ProofDesk — Order Received" description="Your ProofDesk order is confirmed. Here's what happens next.">
+
+<section style="padding-top: 180px; min-height: 80vh;">
+  <div class="container narrow" style="max-width: 720px; margin: 0 auto; padding: 0 5vw;">
+
+    <div class="eyebrow">AnchorForge ProofDesk</div>
+    <h1 style="font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 16px; line-height: 1.1;">We're on it.</h1>
+    <p style="color: var(--slate); font-size: 1.05rem; line-height: 1.7; margin-bottom: 40px;">
+      Your ProofDesk order is confirmed. Rhet has been notified by text and email.
+      Here's what happens next.
+    </p>
+
+    <!-- NEXT STEPS -->
+    <div class="ps-steps">
+      <div class="ps-step">
+        <div class="ps-num">1</div>
+        <div class="ps-content">
+          <h3>Send your evidence folder</h3>
+          <p>Email everything to <a href="mailto:reliablerestaurantrepair@gmail.com?subject=ProofDesk%20Evidence%20Folder" style="color: var(--amber); font-weight: 600;">reliablerestaurantrepair@gmail.com</a> with subject line <strong>"ProofDesk Evidence Folder"</strong>.</p>
+          <p>Zip it if you can. If it's too big for email, we'll send you a secure upload link.</p>
+        </div>
+      </div>
+
+      <div class="ps-step">
+        <div class="ps-num">2</div>
+        <div class="ps-content">
+          <h3>We confirm receipt</h3>
+          <p>You'll hear back within <strong>2 hours</strong> during business hours. Emergency Weekend Desk: within <strong>1 hour</strong>, any time.</p>
+        </div>
+      </div>
+
+      <div class="ps-step">
+        <div class="ps-num">3</div>
+        <div class="ps-content">
+          <h3>We build your packet</h3>
+          <p>Your evidence gets indexed, hashed, reviewed, and sealed. Every file cataloged, every claim mapped to its source, every gap named.</p>
+        </div>
+      </div>
+
+      <div class="ps-step">
+        <div class="ps-num">4</div>
+        <div class="ps-content">
+          <h3>You receive your sealed packet</h3>
+          <p>Delivered via secure link. Includes manifest, checksums, chain of custody, claim review, risk register, handoff memo, source copy, and sealed zip. Printable binder available on request.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TURNAROUND -->
+    <div class="ps-turnaround">
+      <div class="eyebrow" style="margin-top: 48px;">Turnaround times</div>
+      <div class="ps-tier-grid">
+        <div class="ps-tier"><strong>Starter Proof Seal</strong><span>3–5 business days</span></div>
+        <div class="ps-tier"><strong>Founder Review Packet</strong><span>2–3 business days</span></div>
+        <div class="ps-tier"><strong>Patent / AI Evidence Binder</strong><span>5–7 business days</span></div>
+        <div class="ps-tier ps-tier-rush"><strong>Emergency Weekend Desk</strong><span>24 hours</span></div>
+      </div>
+    </div>
+
+    <!-- WHAT TO SEND -->
+    <div style="margin-top: 48px;">
+      <div class="eyebrow">What to send us</div>
+      <h3 style="color: var(--cream); margin-bottom: 16px;">We accept chaos. That's the point.</h3>
+      <div class="ps-accept-grid">
+        <div class="ps-accept">Screenshots</div>
+        <div class="ps-accept">PDFs & scans</div>
+        <div class="ps-accept">Code files & repos</div>
+        <div class="ps-accept">Notes & drafts</div>
+        <div class="ps-accept">Emails & threads</div>
+        <div class="ps-accept">Receipts & invoices</div>
+        <div class="ps-accept">AI outputs & logs</div>
+        <div class="ps-accept">Provisional patent notes</div>
+        <div class="ps-accept">Photos of whiteboards</div>
+        <div class="ps-accept">Invention notebooks</div>
+        <div class="ps-accept">Contracts & agreements</div>
+        <div class="ps-accept">Anything relevant</div>
+      </div>
+      <p style="color: var(--slate); font-size: 0.85rem; margin-top: 16px;">
+        Don't organize it. Don't clean it up. Don't worry about what's important. That's our job.
+      </p>
+    </div>
+
+    <!-- BOUNDARY -->
+    <div class="ps-boundary" style="margin-top: 48px;">
+      <p>
+        <strong>Important:</strong> ProofDesk is proof operations, not legal advice.
+        We do not file patents, represent you in court, or replace your attorney.
+        We prepare the packet so the expensive person spends less time on intake and more time on your case.
+      </p>
+    </div>
+
+    <!-- CONTACT -->
+    <div style="margin-top: 48px; padding-bottom: 80px; text-align: center;">
+      <p style="color: var(--slate); font-size: 0.95rem;">
+        Questions? Changes to your order? Need to send files?
+      </p>
+      <p style="margin-top: 8px;">
+        <a href="mailto:reliablerestaurantrepair@gmail.com" style="color: var(--amber); font-size: 1.05rem; font-weight: 600;">reliablerestaurantrepair@gmail.com</a>
+      </p>
+      <p style="color: var(--slate); font-size: 0.8rem; margin-top: 24px; font-style: italic;">
+        Bring the folder. Leave with receipts.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .ps-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .ps-step {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .ps-num {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--amber, #D4AF37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    color: var(--amber, #D4AF37);
+    font-weight: 700;
+  }
+
+  .ps-content h3 {
+    color: var(--cream, #E8E0D4);
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+  }
+
+  .ps-content p {
+    color: var(--slate, #8A9AB5);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+
+  .ps-tier-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .ps-tier {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(212, 164, 55, 0.1);
+    border-radius: 6px;
+    font-size: 0.9rem;
+  }
+
+  .ps-tier strong { color: var(--cream, #E8E0D4); }
+  .ps-tier span { color: var(--amber, #D4AF37); font-family: 'Courier New', monospace; font-size: 0.85rem; }
+
+  .ps-tier-rush {
+    border-color: var(--amber, #D4AF37);
+    background: rgba(212, 164, 55, 0.06);
+  }
+
+  .ps-accept-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 8px;
+  }
+
+  .ps-accept {
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(212, 164, 55, 0.08);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: var(--slate, #8A9AB5);
+  }
+
+  .ps-boundary {
+    padding: 20px;
+    border-left: 3px solid rgba(212, 164, 55, 0.3);
+    background: rgba(212, 164, 55, 0.04);
+    border-radius: 0 8px 8px 0;
+  }
+
+  .ps-boundary p {
+    color: var(--slate, #8A9AB5);
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .ps-boundary strong { color: var(--cream, #E8E0D4); }
+</style>
+
+</Layout>
