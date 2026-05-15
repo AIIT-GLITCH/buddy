@@ -56,6 +56,53 @@ async function verifyStripe(payload, sigHeader, secret) {
   return match ? { ok: true } : { ok: false, reason: 'no v1 matches' };
 }
 
+// ── Payment notification: SMS + email blast ──
+
+const NOTIFY_SMS = [
+  '9186369383@txt.att.net',   // Rhet
+  '9183604790@txt.att.net',   // Wife
+];
+
+const NOTIFY_EMAIL = [
+  'boss.agi@aiitcorp.com',
+  'aiitthreshold@gmail.com',
+  'reliablerestaurantrepair@gmail.com',
+  'Wikerdw1@gmail.com',
+  'GAry@aiitcorp.com',
+];
+
+async function sendNotifications(env, product, amount, customerEmail) {
+  const dollars = (amount / 100).toFixed(2);
+  const subject = `SALE: ${product} — $${dollars}`;
+  const body = `${product}\nAmount: $${dollars}\nCustomer: ${customerEmail || 'unknown'}\nTime: ${new Date().toISOString()}`;
+  const smsBody = `SALE $${dollars} — ${product} from ${customerEmail || 'unknown'}`;
+
+  const allRecipients = [
+    ...NOTIFY_SMS.map(addr => ({ to: addr, body: smsBody, isSms: true })),
+    ...NOTIFY_EMAIL.map(addr => ({ to: addr, body, isSms: false })),
+  ];
+
+  const fromAddr = env.NOTIFY_FROM || 'sales@aiit-threshold.com';
+
+  await Promise.allSettled(allRecipients.map(async (r) => {
+    try {
+      const msg = {
+        personalizations: [{ to: [{ email: r.to }] }],
+        from: { email: fromAddr, name: 'AIIT Sales' },
+        subject: r.isSms ? '' : subject,
+        content: [{ type: 'text/plain', value: r.isSms ? r.body : r.body }],
+      };
+      await fetch('https://api.mailchannels.net/tx/v1/send', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(msg),
+      });
+    } catch (e) {
+      console.error('notify failed:', r.to, e);
+    }
+  }));
+}
+
 async function setPro(env, login, data) {
   if (!login || !env.AUTH_KV) return;
   await env.AUTH_KV.put(`pro:${login.toLowerCase()}`, JSON.stringify(data));
@@ -101,6 +148,17 @@ export async function onRequestPost(context) {
           customer_id: customer || null,
           activated_at: new Date().toISOString(),
         });
+
+        // Notify on every payment
+        const productName = obj.metadata?.product
+          || (obj.amount_total >= 199900 ? 'Emergency Weekend Desk'
+            : obj.amount_total >= 99900 ? 'Patent/AI Evidence Binder'
+            : obj.amount_total >= 49900 ? 'Founder Proof Packet'
+            : obj.amount_total >= 14900 ? 'Starter Proof Seal'
+            : obj.amount_total >= 5000 ? 'AIIT-Voice2'
+            : obj.amount_total >= 500 ? 'wAIste Not'
+            : 'AIIT Sale');
+        await sendNotifications(env, productName, obj.amount_total || 0, obj.customer_details?.email || '');
         break;
       }
       case 'customer.subscription.created':
