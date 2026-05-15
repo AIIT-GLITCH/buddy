@@ -60,7 +60,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5249
+/Length 5251
 >>
 stream
 q
@@ -157,7 +157,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-betan\)) Tj  T* (OR_n) Tj ( ) Tj (=) Tj ( ) Tj (OR?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(betan\)) Tj  T* (ln\(OR_n\)) Tj ( ) Tj (=) Tj ( ) Tj (betan) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-betan\)) Tj  T* (OR_n) Tj ( ) Tj (=) Tj ( ) Tj (OR_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(betan\)) Tj  T* (ln\(OR_n\)) Tj ( ) Tj (=) Tj ( ) Tj (betan) Tj T* ET
 Q
 Q
 q
@@ -784,7 +784,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 7598
+/Length 7607
 >>
 stream
 q
@@ -808,7 +808,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Child) Tj ( ) Tj (at) Tj ( ) Tj (birth:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (~=) Tj ( ) Tj (1.0) Tj ( ) Tj (\(normalized\)) Tj  T* (All) Tj ( ) Tj (outcomes) Tj ( ) Tj (in) Tj ( ) Tj (superposition) Tj  T* (All) Tj ( ) Tj (attachment) Tj ( ) Tj (patterns) Tj ( ) Tj (possible) Tj  T* (All) Tj ( ) Tj (stress) Tj ( ) Tj (responses) Tj ( ) Tj (calibrated) Tj ( ) Tj (broadly) Tj  T* (All) Tj ( ) Tj (self-models) Tj ( ) Tj (open) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Child) Tj ( ) Tj (at) Tj ( ) Tj (birth:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (~=) Tj ( ) Tj (1.0) Tj ( ) Tj (\(normalized\)) Tj  T* (All) Tj ( ) Tj (outcomes) Tj ( ) Tj (in) Tj ( ) Tj (superposition) Tj  T* (All) Tj ( ) Tj (attachment) Tj ( ) Tj (patterns) Tj ( ) Tj (possible) Tj  T* (All) Tj ( ) Tj (stress) Tj ( ) Tj (responses) Tj ( ) Tj (calibrated) Tj ( ) Tj (broadly) Tj  T* (All) Tj ( ) Tj (self-models) Tj ( ) Tj (open) Tj T* ET
 Q
 Q
 q
@@ -1036,7 +1036,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (After) Tj ( ) Tj (ACE) Tj ( ) Tj (1:) Tj ( ) Tj ( ) Tj ( ) Tj (C?) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-beta\)) Tj  T* (After) Tj ( ) Tj (ACE) Tj ( ) Tj (2:) Tj ( ) Tj ( ) Tj ( ) Tj (C?) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-beta\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2beta\)) Tj  T* (After) Tj ( ) Tj (ACE) Tj ( ) Tj (3:) Tj ( ) Tj ( ) Tj ( ) Tj (C?) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-3beta\)) Tj  T* (After) Tj ( ) Tj (ACE) Tj ( ) Tj (n:) Tj ( ) Tj ( ) Tj ( ) Tj (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-betan\)) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (After) Tj ( ) Tj (ACE) Tj ( ) Tj (1:) Tj ( ) Tj ( ) Tj ( ) Tj (C_1) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-beta\)) Tj  T* (After) Tj ( ) Tj (ACE) Tj ( ) Tj (2:) Tj ( ) Tj ( ) Tj ( ) Tj (C_2) Tj ( ) Tj (=) Tj ( ) Tj (C_1) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-beta\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2beta\)) Tj  T* (After) Tj ( ) Tj (ACE) Tj ( ) Tj (3:) Tj ( ) Tj ( ) Tj ( ) Tj (C_3) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-3beta\)) Tj  T* (After) Tj ( ) Tj (ACE) Tj ( ) Tj (n:) Tj ( ) Tj ( ) Tj ( ) Tj (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-betan\)) Tj T* ET
 Q
 Q
 q
@@ -1161,7 +1161,7 @@ endobj
 endobj
 21 0 obj
 <<
-/Length 6296
+/Length 6300
 >>
 stream
 q
@@ -1195,7 +1195,7 @@ q
 n 20 0 452 17.6 re f*
 Q
 q
-BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (OR_n) Tj ( ) Tj (=) Tj ( ) Tj (OR?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(betan\)) Tj  T* (ln\(OR_n\)) Tj ( ) Tj (=) Tj ( ) Tj (ln\(OR?\)) Tj ( ) Tj (+) Tj ( ) Tj (betan) Tj T* ET
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (OR_n) Tj ( ) Tj (=) Tj ( ) Tj (OR_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(betan\)) Tj  T* (ln\(OR_n\)) Tj ( ) Tj (=) Tj ( ) Tj (ln\(OR_0\)) Tj ( ) Tj (+) Tj ( ) Tj (betan) Tj T* ET
 Q
 Q
 q
@@ -1385,7 +1385,7 @@ q
 n 20 0 452 61.6 re f*
 Q
 q
-BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-0.45) Tj ( ) Tj (x) Tj ( ) Tj (n\)) Tj  T*  T* (where:) Tj  T* ( ) Tj ( ) Tj (C_n) Tj ( ) Tj (=) Tj ( ) Tj (coherence) Tj ( ) Tj (remaining) Tj ( ) Tj (after) Tj ( ) Tj (n) Tj ( ) Tj (ACEs) Tj  T* ( ) Tj ( ) Tj (C?) Tj ( ) Tj (=) Tj ( ) Tj (initial) Tj ( ) Tj (coherence) Tj ( ) Tj (\(~=) Tj ( ) Tj (1.0) Tj ( ) Tj (at) Tj ( ) Tj (birth\)) Tj  T* ( ) Tj ( ) Tj (beta) Tj ( ) Tj (=) Tj ( ) Tj (0.45) Tj ( ) Tj (per) Tj ( ) Tj (ACE) Tj ( ) Tj (\(empirical,) Tj ( ) Tj (from) Tj ( ) Tj (17,337) Tj ( ) Tj (participants\)) Tj  T* ( ) Tj ( ) Tj (n) Tj ( ) Tj (=) Tj ( ) Tj (ACE) Tj ( ) Tj (score) Tj ( ) Tj (\(0-10\)) Tj T* ET
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-0.45) Tj ( ) Tj (x) Tj ( ) Tj (n\)) Tj  T*  T* (where:) Tj  T* ( ) Tj ( ) Tj (C_n) Tj ( ) Tj (=) Tj ( ) Tj (coherence) Tj ( ) Tj (remaining) Tj ( ) Tj (after) Tj ( ) Tj (n) Tj ( ) Tj (ACEs) Tj  T* ( ) Tj ( ) Tj (C_0) Tj ( ) Tj (=) Tj ( ) Tj (initial) Tj ( ) Tj (coherence) Tj ( ) Tj (\(~=) Tj ( ) Tj (1.0) Tj ( ) Tj (at) Tj ( ) Tj (birth\)) Tj  T* ( ) Tj ( ) Tj (beta) Tj ( ) Tj (=) Tj ( ) Tj (0.45) Tj ( ) Tj (per) Tj ( ) Tj (ACE) Tj ( ) Tj (\(empirical,) Tj ( ) Tj (from) Tj ( ) Tj (17,337) Tj ( ) Tj (participants\)) Tj  T* ( ) Tj ( ) Tj (n) Tj ( ) Tj (=) Tj ( ) Tj (ACE) Tj ( ) Tj (score) Tj ( ) Tj (\(0-10\)) Tj T* ET
 Q
 Q
  
@@ -1507,7 +1507,7 @@ endobj
 endobj
 25 0 obj
 <<
-/Length 6853
+/Length 6855
 >>
 stream
 q
@@ -1535,7 +1535,7 @@ n 20 0 452 8.8 re f*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| ACE score | C_n / C? | Coherence remaining | OR multiplier |) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| ACE score | C_n / C_0 | Coherence remaining | OR multiplier |) Tj T* ET
 Q
 Q
 q
@@ -1753,7 +1753,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-beta\(1) Tj ( ) Tj (-) Tj ( ) Tj (b.eta_K\)) Tj ( ) Tj (x) Tj ( ) Tj (n\)) Tj  T*  T* (where) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (b.eta_K\)) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (keeper-reduced) Tj ( ) Tj (decoherence) Tj ( ) Tj (coefficient) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-beta\(1) Tj ( ) Tj (-) Tj ( ) Tj (b.eta_K\)) Tj ( ) Tj (x) Tj ( ) Tj (n\)) Tj  T*  T* (where) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (b.eta_K\)) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (keeper-reduced) Tj ( ) Tj (decoherence) Tj ( ) Tj (coefficient) Tj T* ET
 Q
 Q
 q
@@ -1907,7 +1907,7 @@ endobj
 endobj
 29 0 obj
 <<
-/Length 6834
+/Length 6839
 >>
 stream
 q
@@ -2030,7 +2030,7 @@ Q
 q
 1 0 0 1 60 287.6 cm
 q
-BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Residual coherence C_n must be above zero:) Tj /F1 9 Tf ( Complete decoherence \(C_n = 0\) has no structure to rebuild from. This) Tj T* (is why early intervention matters -- re-coherence from ACE score 3 is possible because C? = 0.26 x C? \(26% of original\).) Tj T* (Re-coherence from ACE score 10 \(C?? = 0.01 x C?\) requires rebuilding from near-zero, which is possible but requires) Tj T* (sustained, high-quality keeper presence for years.) Tj T* ET
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Residual coherence C_n must be above zero:) Tj /F1 9 Tf ( Complete decoherence \(C_n = 0\) has no structure to rebuild from. This) Tj T* (is why early intervention matters -- re-coherence from ACE score 3 is possible because C_3 = 0.26 x C_0 \(26% of original\).) Tj T* (Re-coherence from ACE score 10 \(C_1_0 = 0.01 x C_0\) requires rebuilding from near-zero, which is possible but requires) Tj T* (sustained, high-quality keeper presence for years.) Tj T* ET
 Q
 Q
 q
@@ -2213,7 +2213,7 @@ endobj
 endobj
 33 0 obj
 <<
-/Length 7598
+/Length 7612
 >>
 stream
 q
@@ -2256,7 +2256,7 @@ q
 n 20 0 452 70.4 re f*
 Q
 q
-BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (High) Tj ( ) Tj (gamma_eff) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Immune) Tj ( ) Tj (system) Tj ( ) Tj (interprets) Tj ( ) Tj (as) Tj ( ) Tj (chronic) Tj ( ) Tj (non-self) Tj ( ) Tj (threat) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Sustained) Tj ( ) Tj (low-grade) Tj ( ) Tj (inflammation) Tj ( ) Tj (\(elevated) Tj ( ) Tj (IL-6,) Tj ( ) Tj (CRP,) Tj ( ) Tj (TNF-alpha\)) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Inflammation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (endothelial) Tj ( ) Tj (damage) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (heart) Tj ( ) Tj (disease) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Inflammation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (oncogenic) Tj ( ) Tj (environment) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (cancer) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Inflammation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (metabolic) Tj ( ) Tj (disruption) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (obesity/diabetes) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Inflammation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (sustained) Tj ( ) Tj (decoherence) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (more) Tj ( ) Tj (inflammation) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (LOOP) Tj ( ) Tj (\(inflammation) Tj ( ) Tj (?) Tj ( ) Tj (decoherence,) Tj ( ) Tj (bidirectional\)) Tj T* ET
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (High) Tj ( ) Tj (gamma_eff) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Immune) Tj ( ) Tj (system) Tj ( ) Tj (interprets) Tj ( ) Tj (as) Tj ( ) Tj (chronic) Tj ( ) Tj (non-self) Tj ( ) Tj (threat) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Sustained) Tj ( ) Tj (low-grade) Tj ( ) Tj (inflammation) Tj ( ) Tj (\(elevated) Tj ( ) Tj (IL-6,) Tj ( ) Tj (CRP,) Tj ( ) Tj (TNF-alpha\)) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Inflammation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (endothelial) Tj ( ) Tj (damage) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (heart) Tj ( ) Tj (disease) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Inflammation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (oncogenic) Tj ( ) Tj (environment) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (cancer) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Inflammation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (metabolic) Tj ( ) Tj (disruption) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (obesity/diabetes) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Inflammation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (sustained) Tj ( ) Tj (decoherence) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (more) Tj ( ) Tj (inflammation) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (LOOP) Tj ( ) Tj (\(inflammation) Tj ( ) Tj (<) Tj (-) Tj (>) Tj ( ) Tj (decoherence,) Tj ( ) Tj (bidirectional\)) Tj T* ET
 Q
 Q
 q
@@ -2512,7 +2512,7 @@ endobj
 endobj
 37 0 obj
 <<
-/Length 7992
+/Length 7996
 >>
 stream
 q
@@ -2611,7 +2611,7 @@ q
 n 20 0 452 17.6 re f*
 Q
 q
-BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Value) Tj ( ) Tj (of) Tj ( ) Tj (preventing) Tj ( ) Tj (ACE) Tj ( ) Tj (#1:) Tj ( ) Tj (saves) Tj ( ) Tj (36%) Tj ( ) Tj (coherence) Tj ( ) Tj (\(C?) Tj ( ) Tj (-) Tj ( ) Tj (C?\)) Tj  T* (Value) Tj ( ) Tj (of) Tj ( ) Tj (preventing) Tj ( ) Tj (ACE) Tj ( ) Tj (#4:) Tj ( ) Tj (saves) Tj ( ) Tj (5%) Tj ( ) Tj (coherence) Tj ( ) Tj (\(C?) Tj ( ) Tj (-) Tj ( ) Tj (C?\)) Tj T* ET
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Value) Tj ( ) Tj (of) Tj ( ) Tj (preventing) Tj ( ) Tj (ACE) Tj ( ) Tj (#1:) Tj ( ) Tj (saves) Tj ( ) Tj (36%) Tj ( ) Tj (coherence) Tj ( ) Tj (\(C_0) Tj ( ) Tj (-) Tj ( ) Tj (C_1\)) Tj  T* (Value) Tj ( ) Tj (of) Tj ( ) Tj (preventing) Tj ( ) Tj (ACE) Tj ( ) Tj (#4:) Tj ( ) Tj (saves) Tj ( ) Tj (5%) Tj ( ) Tj (coherence) Tj ( ) Tj (\(C_3) Tj ( ) Tj (-) Tj ( ) Tj (C_4\)) Tj T* ET
 Q
 Q
 q
@@ -2894,7 +2894,7 @@ endobj
 endobj
 41 0 obj
 <<
-/Length 6424
+/Length 6425
 >>
 stream
 q
@@ -3020,7 +3020,7 @@ Q
 q
 1 0 0 1 60 262.4 cm
 q
-BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (HRV tracking as a coherence readout:) Tj /F1 9 Tf ( Every therapy session should begin with a 5-minute HRV measurement.) Tj T* (Progress is tracked not by symptom checklist but by coherence recovery \(C_n increasing toward C?\).) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (HRV tracking as a coherence readout:) Tj /F1 9 Tf ( Every therapy session should begin with a 5-minute HRV measurement.) Tj T* (Progress is tracked not by symptom checklist but by coherence recovery \(C_n increasing toward C_0\).) Tj T* ET
 Q
 Q
 q
@@ -3178,7 +3178,7 @@ endobj
 endobj
 45 0 obj
 <<
-/Length 5964
+/Length 5987
 >>
 stream
 q
@@ -3237,7 +3237,7 @@ Q
 q
 1 0 0 1 60 527 cm
 q
-BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The child is born with reduced C?.) Tj /F1 9 Tf ( Not 1.0. Perhaps 0.7 or 0.6. Their starting coherence is already reduced by their) Tj T* (parent's unprocessed decoherence.) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The child is born with reduced C_0.) Tj /F1 9 Tf ( Not 1.0. Perhaps 0.7 or 0.6. Their starting coherence is already reduced by their) Tj T* (parent's unprocessed decoherence.) Tj T* ET
 Q
 Q
 q
@@ -3257,7 +3257,7 @@ q
 1 0 0 1 60 459 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is the three-generation problem: the grandmother's ACEs reduce the mother's C?, which reduces the quality of the) Tj T* (mother's keeping \(b.eta_K\), which increases the child's beta_effective, which reduces the child's C? before they begin their) Tj T* (own ACE accumulation.) Tj T* ET
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is the three-generation problem: the grandmother's ACEs reduce the mother's C_0, which reduces the quality of the) Tj T* -0.08625 Tw (mother's keeping \(b.eta_K\), which increases the child's beta_effective, which reduces the child's C_0 before they begin their) Tj T* 0 Tw (own ACE accumulation.) Tj T* ET
 Q
 Q
 q
@@ -3280,7 +3280,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n\(child\)) Tj ( ) Tj (=) Tj ( ) Tj (C?\(inherited\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-beta_effective\(n\)\)) Tj  T*  T* (C?\(inherited\)) Tj ( ) Tj (=) Tj ( ) Tj (C?\(base\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-k) Tj ( ) Tj (x) Tj ( ) Tj (parent_ACE_score\)) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n\(child\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0\(inherited\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-beta_effective\(n\)\)) Tj  T*  T* (C_0\(inherited\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0\(base\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-k) Tj ( ) Tj (x) Tj ( ) Tj (parent_ACE_score\)) Tj T* ET
 Q
 Q
 q
@@ -3495,7 +3495,7 @@ endobj
 endobj
 49 0 obj
 <<
-/Length 7033
+/Length 7038
 >>
 stream
 q
@@ -3538,7 +3538,7 @@ q
 n 20 0 452 70.4 re f*
 Q
 q
-BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-0.45) Tj ( ) Tj (x) Tj ( ) Tj (4\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (0.165) Tj  T*  T* (The) Tj ( ) Tj (patient) Tj ( ) Tj (is) Tj ( ) Tj (operating) Tj ( ) Tj (at) Tj ( ) Tj (16.5%) Tj ( ) Tj (of) Tj ( ) Tj (their) Tj ( ) Tj (birth) Tj ( ) Tj (coherence.) Tj  T* (OR) Tj ( ) Tj (multiplier:) Tj ( ) Tj (6.1x) Tj ( ) Tj (for) Tj ( ) Tj (depression,) Tj ( ) Tj (3.6x) Tj ( ) Tj (for) Tj ( ) Tj (heart) Tj ( ) Tj (disease,) Tj ( ) Tj (12.2x) Tj ( ) Tj (for) Tj ( ) Tj (suicide) Tj ( ) Tj (attempt.) Tj  T* (Current) Tj ( ) Tj (keeper) Tj ( ) Tj (status:) Tj ( ) Tj (unknown) Tj ( ) Tj (\(not) Tj ( ) Tj (assessed\).) Tj  T* (Current) Tj ( ) Tj (HRV:) Tj ( ) Tj (not) Tj ( ) Tj (measured.) Tj  T* (gamma_eff) Tj ( ) Tj (estimate:) Tj ( ) Tj (not) Tj ( ) Tj (attempted.) Tj  T* (Re-coherence) Tj ( ) Tj (timeline:) Tj ( ) Tj (not) Tj ( ) Tj (calculated.) Tj T* ET
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_4) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-0.45) Tj ( ) Tj (x) Tj ( ) Tj (4\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (0.165) Tj  T*  T* (The) Tj ( ) Tj (patient) Tj ( ) Tj (is) Tj ( ) Tj (operating) Tj ( ) Tj (at) Tj ( ) Tj (16.5%) Tj ( ) Tj (of) Tj ( ) Tj (their) Tj ( ) Tj (birth) Tj ( ) Tj (coherence.) Tj  T* (OR) Tj ( ) Tj (multiplier:) Tj ( ) Tj (6.1x) Tj ( ) Tj (for) Tj ( ) Tj (depression,) Tj ( ) Tj (3.6x) Tj ( ) Tj (for) Tj ( ) Tj (heart) Tj ( ) Tj (disease,) Tj ( ) Tj (12.2x) Tj ( ) Tj (for) Tj ( ) Tj (suicide) Tj ( ) Tj (attempt.) Tj  T* (Current) Tj ( ) Tj (keeper) Tj ( ) Tj (status:) Tj ( ) Tj (unknown) Tj ( ) Tj (\(not) Tj ( ) Tj (assessed\).) Tj  T* (Current) Tj ( ) Tj (HRV:) Tj ( ) Tj (not) Tj ( ) Tj (measured.) Tj  T* (gamma_eff) Tj ( ) Tj (estimate:) Tj ( ) Tj (not) Tj ( ) Tj (attempted.) Tj  T* (Re-coherence) Tj ( ) Tj (timeline:) Tj ( ) Tj (not) Tj ( ) Tj (calculated.) Tj T* ET
 Q
 Q
 q
@@ -3557,7 +3557,7 @@ Q
 q
 1 0 0 1 60 547.6 cm
 q
-BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Measure HRV) Tj /F1 9 Tf ( -- get a direct reading of C_n now. Compare to ACE-predicted value \(C? = 16.5% of C?\). If measured) Tj T* (HRV is higher than expected -) Tj (> keeper is providing shielding. If lower -) Tj (> additional stressors active.) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Measure HRV) Tj /F1 9 Tf ( -- get a direct reading of C_n now. Compare to ACE-predicted value \(C_4 = 16.5% of C_0\). If measured) Tj T* (HRV is higher than expected -) Tj (> keeper is providing shielding. If lower -) Tj (> additional stressors active.) Tj T* ET
 Q
 Q
 q
@@ -4121,56 +4121,56 @@ xref
 0000000351 00000 n 
 0000000400 00000 n 
 0000000771 00000 n 
-0000006072 00000 n 
-0000006179 00000 n 
-0000006286 00000 n 
-0000006398 00000 n 
-0000006508 00000 n 
-0000006624 00000 n 
-0000006730 00000 n 
-0000007105 00000 n 
-0000013091 00000 n 
-0000013199 00000 n 
-0000013310 00000 n 
-0000013685 00000 n 
-0000021336 00000 n 
-0000021444 00000 n 
-0000021555 00000 n 
-0000021930 00000 n 
-0000028279 00000 n 
-0000028387 00000 n 
-0000028498 00000 n 
-0000028873 00000 n 
-0000035779 00000 n 
-0000035887 00000 n 
-0000035998 00000 n 
-0000036373 00000 n 
-0000043260 00000 n 
-0000043368 00000 n 
-0000043479 00000 n 
-0000043854 00000 n 
-0000051505 00000 n 
-0000051613 00000 n 
-0000051724 00000 n 
-0000052099 00000 n 
-0000060144 00000 n 
-0000060252 00000 n 
-0000060363 00000 n 
-0000060738 00000 n 
-0000067215 00000 n 
-0000067323 00000 n 
-0000067434 00000 n 
-0000067809 00000 n 
-0000073826 00000 n 
-0000073934 00000 n 
-0000074045 00000 n 
-0000074420 00000 n 
-0000081506 00000 n 
-0000081614 00000 n 
-0000081725 00000 n 
-0000082100 00000 n 
-0000088802 00000 n 
-0000088910 00000 n 
+0000006074 00000 n 
+0000006181 00000 n 
+0000006288 00000 n 
+0000006400 00000 n 
+0000006510 00000 n 
+0000006626 00000 n 
+0000006732 00000 n 
+0000007107 00000 n 
+0000013093 00000 n 
+0000013201 00000 n 
+0000013312 00000 n 
+0000013687 00000 n 
+0000021347 00000 n 
+0000021455 00000 n 
+0000021566 00000 n 
+0000021941 00000 n 
+0000028294 00000 n 
+0000028402 00000 n 
+0000028513 00000 n 
+0000028888 00000 n 
+0000035796 00000 n 
+0000035904 00000 n 
+0000036015 00000 n 
+0000036390 00000 n 
+0000043282 00000 n 
+0000043390 00000 n 
+0000043501 00000 n 
+0000043876 00000 n 
+0000051541 00000 n 
+0000051649 00000 n 
+0000051760 00000 n 
+0000052135 00000 n 
+0000060184 00000 n 
+0000060292 00000 n 
+0000060403 00000 n 
+0000060778 00000 n 
+0000067256 00000 n 
+0000067364 00000 n 
+0000067475 00000 n 
+0000067850 00000 n 
+0000073890 00000 n 
+0000073998 00000 n 
+0000074109 00000 n 
+0000074484 00000 n 
+0000081575 00000 n 
+0000081683 00000 n 
+0000081794 00000 n 
+0000082169 00000 n 
+0000088871 00000 n 
+0000088979 00000 n 
 trailer
 <<
 /Size 56
@@ -4178,5 +4178,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-89021
+89090
 %%EOF

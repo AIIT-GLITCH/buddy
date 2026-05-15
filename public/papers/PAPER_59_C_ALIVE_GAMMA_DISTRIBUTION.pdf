@@ -60,7 +60,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 6447
+/Length 6448
 >>
 stream
 q
@@ -156,7 +156,7 @@ q
 n 20 0 452 8.8 re f*
 Q
 q
-BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_alive\(T\)) Tj ( ) Tj (~=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (\(T/T_c\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (T/T_c\)) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_alive\(T\)) Tj ( ) Tj (~=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (\(T/T_c\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (T/T_c\)) Tj T* ET
 Q
 Q
 q
@@ -178,7 +178,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f\(x;) Tj ( ) Tj (k=2,) Tj ( ) Tj (eta\)) Tj ( ) Tj (=) Tj ( ) Tj (x) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nux/eta\)) Tj ( ) Tj (/) Tj ( ) Tj (eta?) Tj  T*  T* (with) Tj ( ) Tj (x) Tj ( ) Tj (=) Tj ( ) Tj (T/T_c) Tj ( ) Tj (and) Tj ( ) Tj (eta) Tj ( ) Tj (=) Tj ( ) Tj (1/alpha) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f\(x;) Tj ( ) Tj (k=2,) Tj ( ) Tj (theta\)) Tj ( ) Tj (=) Tj ( ) Tj (x) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-x/theta\)) Tj ( ) Tj (/) Tj ( ) Tj (theta^2) Tj  T*  T* (with) Tj ( ) Tj (x) Tj ( ) Tj (=) Tj ( ) Tj (T/T_c) Tj ( ) Tj (and) Tj ( ) Tj (theta) Tj ( ) Tj (=) Tj ( ) Tj (1/alpha) Tj T* ET
 Q
 Q
 q
@@ -187,7 +187,7 @@ Q
 q
 1 0 0 1 60 325.8 cm
 q
-BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is not an analogy. The distribution of "how much alive coherence exists" as a function of temperature IS the gamma) Tj T* -0.051125 Tw (distribution. The mode \(peak\) is at T) Tj /F3 9 Tf ( = eta = T_c/alpha. The mean is at 2T) Tj /F1 9 Tf (. The variance is 2T*?. All of these have biological) Tj T* 0 Tw (translations.) Tj T* ET
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is not an analogy. The distribution of "how much alive coherence exists" as a function of temperature IS the gamma) Tj T* (distribution. The mode \(peak\) is at T) Tj /F3 9 Tf ( = theta = T_c/alpha. The mean is at 2T) Tj /F1 9 Tf (. The variance is 2T*^2. All of these have) Tj T* (biological translations.) Tj T* ET
 Q
 Q
 q
@@ -213,7 +213,7 @@ q
 1 0 0 1 60 231.8 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (From the Wike Coherence Law at temperature T, including the thermal decoherence term gamma_thermal\(T\) = k_BT/h x) Tj T* (W^n:) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (From the Wike Coherence Law at temperature T, including the thermal decoherence term gamma_thermal\(T\) = k_BT/h-bar) Tj T* (x W^n:) Tj T* ET
 Q
 Q
 q
@@ -226,7 +226,7 @@ q
 n 20 0 452 105.6 re f*
 Q
 q
-BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_thermal\(T\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (k_BT/h\)) Tj ( ) Tj ( ) Tj ( ) Tj ([simplified,) Tj ( ) Tj (dropping) Tj ( ) Tj (W) Tj ( ) Tj (factor]) Tj  T*  T* (For) Tj ( ) Tj (small) Tj ( ) Tj (T) Tj ( ) Tj (\(T) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (T_c\):) Tj ( ) Tj (C\(T\)) Tj ( ) Tj (~=) Tj ( ) Tj (C?) Tj ( ) Tj (\(but) Tj ( ) Tj (biological) Tj ( ) Tj (processes) Tj ( ) Tj (require) Tj ( ) Tj (T) Tj ( ) Tj (>) Tj ( ) Tj (0\)) Tj  T* (For) Tj ( ) Tj (large) Tj ( ) Tj (T:) Tj ( ) Tj (C\(T\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (\(thermal) Tj ( ) Tj (decoherence) Tj ( ) Tj (destroys) Tj ( ) Tj (coherence\)) Tj  T*  T* (The) Tj ( ) Tj ("alive) Tj ( ) Tj (coherence") Tj ( ) Tj (--) Tj ( ) Tj (the) Tj ( ) Tj (coherence) Tj ( ) Tj (that) Tj ( ) Tj (is) Tj ( ) Tj (both) Tj ( ) Tj (thermally) Tj ( ) Tj (accessible) Tj ( ) Tj (AND) Tj ( ) Tj (not) Tj  T* (thermally) Tj ( ) Tj (destroyed) Tj ( ) Tj (--) Tj ( ) Tj (requires) Tj ( ) Tj (multiplying) Tj ( ) Tj (by) Tj ( ) Tj (a) Tj ( ) Tj (factor) Tj ( ) Tj (that) Tj ( ) Tj (goes) Tj ( ) Tj (to) Tj ( ) Tj (zero) Tj ( ) Tj (at) Tj ( ) Tj (T=0:) Tj  T*  T* (C_alive\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (\(T/T_ref\)) Tj ( ) Tj (x) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (T/T_ref\)) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (a) Tj ( ) Tj (Gamma) Tj ( ) Tj (distribution) Tj ( ) Tj (with) Tj ( ) Tj (shape) Tj ( ) Tj (k=2.) Tj T* ET
+BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_thermal\(T\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (k_BT/h-bar\)) Tj ( ) Tj ( ) Tj ( ) Tj ([simplified,) Tj ( ) Tj (dropping) Tj ( ) Tj (W) Tj ( ) Tj (factor]) Tj  T*  T* (For) Tj ( ) Tj (small) Tj ( ) Tj (T) Tj ( ) Tj (\(T) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (T_c\):) Tj ( ) Tj (C\(T\)) Tj ( ) Tj (~=) Tj ( ) Tj (C_0) Tj ( ) Tj (\(but) Tj ( ) Tj (biological) Tj ( ) Tj (processes) Tj ( ) Tj (require) Tj ( ) Tj (T) Tj ( ) Tj (>) Tj ( ) Tj (0\)) Tj  T* (For) Tj ( ) Tj (large) Tj ( ) Tj (T:) Tj ( ) Tj (C\(T\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (\(thermal) Tj ( ) Tj (decoherence) Tj ( ) Tj (destroys) Tj ( ) Tj (coherence\)) Tj  T*  T* (The) Tj ( ) Tj ("alive) Tj ( ) Tj (coherence") Tj ( ) Tj (--) Tj ( ) Tj (the) Tj ( ) Tj (coherence) Tj ( ) Tj (that) Tj ( ) Tj (is) Tj ( ) Tj (both) Tj ( ) Tj (thermally) Tj ( ) Tj (accessible) Tj ( ) Tj (AND) Tj ( ) Tj (not) Tj  T* (thermally) Tj ( ) Tj (destroyed) Tj ( ) Tj (--) Tj ( ) Tj (requires) Tj ( ) Tj (multiplying) Tj ( ) Tj (by) Tj ( ) Tj (a) Tj ( ) Tj (factor) Tj ( ) Tj (that) Tj ( ) Tj (goes) Tj ( ) Tj (to) Tj ( ) Tj (zero) Tj ( ) Tj (at) Tj ( ) Tj (T=0:) Tj  T*  T* (C_alive\(T\)) Tj ( ) Tj (=) Tj ( ) Tj (\(T/T_ref\)) Tj ( ) Tj (x) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (T/T_ref\)) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (a) Tj ( ) Tj (Gamma) Tj ( ) Tj (distribution) Tj ( ) Tj (with) Tj ( ) Tj (shape) Tj ( ) Tj (k=2.) Tj T* ET
 Q
 Q
 q
@@ -249,7 +249,7 @@ q
 n 20 0 452 8.8 re f*
 Q
 q
-BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f\(x\)) Tj ( ) Tj (=) Tj ( ) Tj (lambda^k) Tj ( ) Tj (x) Tj ( ) Tj (x^\(k-1\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nulambdax\)) Tj ( ) Tj (/) Tj ( ) Tj (GAMMA\(k\)) Tj  T* ET
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f\(x\)) Tj ( ) Tj (=) Tj ( ) Tj (lambda^k) Tj ( ) Tj (x) Tj ( ) Tj (x^\(k-1\)) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-lambdax\)) Tj ( ) Tj (/) Tj ( ) Tj (GAMMA\(k\)) Tj  T* ET
 Q
 Q
  
@@ -407,7 +407,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 6875
+/Length 6870
 >>
 stream
 q
@@ -431,7 +431,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* (For) Tj ( ) Tj (k=2,) Tj ( ) Tj (lambda=alpha/T_ref:) Tj  T* (f\(T\)) Tj ( ) Tj (~) Tj ( ) Tj (T) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualphaT/T_ref\)) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (EXACTLY) Tj ( ) Tj (C_alive\(T\)) Tj ( ) Tj (up) Tj ( ) Tj (to) Tj ( ) Tj (normalization.) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* (For) Tj ( ) Tj (k=2,) Tj ( ) Tj (lambda=alpha/T_ref:) Tj  T* (f\(T\)) Tj ( ) Tj (~) Tj ( ) Tj (T) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alphaT/T_ref\)) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (EXACTLY) Tj ( ) Tj (C_alive\(T\)) Tj ( ) Tj (up) Tj ( ) Tj (to) Tj ( ) Tj (normalization.) Tj T* ET
 Q
 Q
 q
@@ -467,7 +467,7 @@ q
 n 20 0 452 105.6 re f*
 Q
 q
-BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (d\(C_alive\)/dT) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (d/dT) Tj ( ) Tj ([T) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualphaT/T_ref\)]) Tj ( ) Tj (=) Tj ( ) Tj (exp\(nualphaT/T_ref\)) Tj ( ) Tj (nu) Tj ( ) Tj (alphaT/T_ref) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualphaT/T_ref\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (-) Tj (>) Tj ( ) Tj (1) Tj ( ) Tj (nu) Tj ( ) Tj (alphaT*/T_ref) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (-) Tj (>) Tj ( ) Tj (T*) Tj ( ) Tj (=) Tj ( ) Tj (T_ref/alpha) Tj  T*  T* (For) Tj ( ) Tj (T_ref) Tj ( ) Tj (=) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (330K,) Tj ( ) Tj (alpha) Tj ( ) Tj (~=) Tj ( ) Tj (1000) Tj ( ) Tj (\(from) Tj ( ) Tj (dimensional) Tj ( ) Tj (analysis,) Tj ( ) Tj (Paper) Tj ( ) Tj (62) Tj ( ) Tj (forthcoming\):) Tj  T* (T*) Tj ( ) Tj (=) Tj ( ) Tj (330/1000) Tj ( ) Tj (=) Tj ( ) Tj (0.33) Tj ( ) Tj (K) Tj ( ) Tj ( ) Tj ([not) Tj ( ) Tj (body) Tj ( ) Tj (temperature) Tj ( ) Tj (--) Tj ( ) Tj (alpha) Tj ( ) Tj (must) Tj ( ) Tj (be) Tj ( ) Tj (in) Tj ( ) Tj (different) Tj ( ) Tj (units]) Tj  T*  T* (Rescaling:) Tj ( ) Tj (if) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (operates) Tj ( ) Tj (over) Tj ( ) Tj (the) Tj ( ) Tj (range) Tj ( ) Tj (0) Tj ( ) Tj (to) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016:) Tj  T* (alpha_effective) Tj ( ) Tj (=) Tj ( ) Tj (T_c) Tj ( ) Tj (/) Tj ( ) Tj (\(T*) Tj ( ) Tj (x) Tj ( ) Tj (gamma_c\)) Tj ( ) Tj (=) Tj ( ) Tj (330) Tj ( ) Tj (/) Tj ( ) Tj (\(310) Tj ( ) Tj (x) Tj ( ) Tj (0.0016\)) Tj ( ) Tj (=) Tj ( ) Tj (666) Tj  T*  T* (T*) Tj ( ) Tj (=) Tj ( ) Tj (T_ref/alpha_eff) Tj ( ) Tj (=) Tj ( ) Tj (330/666) Tj ( ) Tj (=) Tj ( ) Tj (0.496) Tj ( ) Tj (x) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (163.7K) Tj ( ) Tj ( ) Tj ([for) Tj ( ) Tj (pure) Tj ( ) Tj (thermal]) Tj T* ET
+BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (d\(C_alive\)/dT) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (d/dT) Tj ( ) Tj ([T) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alphaT/T_ref\)]) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-alphaT/T_ref\)) Tj ( ) Tj (-) Tj ( ) Tj (alphaT/T_ref) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alphaT/T_ref\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (-) Tj (>) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (alphaT*/T_ref) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (-) Tj (>) Tj ( ) Tj (T*) Tj ( ) Tj (=) Tj ( ) Tj (T_ref/alpha) Tj  T*  T* (For) Tj ( ) Tj (T_ref) Tj ( ) Tj (=) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (330K,) Tj ( ) Tj (alpha) Tj ( ) Tj (~=) Tj ( ) Tj (1000) Tj ( ) Tj (\(from) Tj ( ) Tj (dimensional) Tj ( ) Tj (analysis,) Tj ( ) Tj (Paper) Tj ( ) Tj (62) Tj ( ) Tj (forthcoming\):) Tj  T* (T*) Tj ( ) Tj (=) Tj ( ) Tj (330/1000) Tj ( ) Tj (=) Tj ( ) Tj (0.33) Tj ( ) Tj (K) Tj ( ) Tj ( ) Tj ([not) Tj ( ) Tj (body) Tj ( ) Tj (temperature) Tj ( ) Tj (--) Tj ( ) Tj (alpha) Tj ( ) Tj (must) Tj ( ) Tj (be) Tj ( ) Tj (in) Tj ( ) Tj (different) Tj ( ) Tj (units]) Tj  T*  T* (Rescaling:) Tj ( ) Tj (if) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (operates) Tj ( ) Tj (over) Tj ( ) Tj (the) Tj ( ) Tj (range) Tj ( ) Tj (0) Tj ( ) Tj (to) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016:) Tj  T* (alpha_effective) Tj ( ) Tj (=) Tj ( ) Tj (T_c) Tj ( ) Tj (/) Tj ( ) Tj (\(T*) Tj ( ) Tj (x) Tj ( ) Tj (gamma_c\)) Tj ( ) Tj (=) Tj ( ) Tj (330) Tj ( ) Tj (/) Tj ( ) Tj (\(310) Tj ( ) Tj (x) Tj ( ) Tj (0.0016\)) Tj ( ) Tj (=) Tj ( ) Tj (666) Tj  T*  T* (T*) Tj ( ) Tj (=) Tj ( ) Tj (T_ref/alpha_eff) Tj ( ) Tj (=) Tj ( ) Tj (330/666) Tj ( ) Tj (=) Tj ( ) Tj (0.496) Tj ( ) Tj (x) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (163.7K) Tj ( ) Tj ( ) Tj ([for) Tj ( ) Tj (pure) Tj ( ) Tj (thermal]) Tj T* ET
 Q
 Q
 q
@@ -536,7 +536,7 @@ q
 n 20 0 452 17.6 re f*
 Q
 q
-BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Var\(T\)_alive) Tj ( ) Tj (=) Tj ( ) Tj (2) Tj ( ) Tj (x) Tj ( ) Tj (T*?) Tj ( ) Tj ( ) Tj (\(variance) Tj ( ) Tj (of) Tj ( ) Tj (Gamma\(2\)\)) Tj  T* (sigma_T) Tj ( ) Tj (=) Tj ( ) Tj (sqrt2) Tj ( ) Tj (x) Tj ( ) Tj (T*) Tj T* ET
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Var\(T\)_alive) Tj ( ) Tj (=) Tj ( ) Tj (2) Tj ( ) Tj (x) Tj ( ) Tj (T*^2) Tj ( ) Tj ( ) Tj (\(variance) Tj ( ) Tj (of) Tj ( ) Tj (Gamma\(2\)\)) Tj  T* (sigma_T) Tj ( ) Tj (=) Tj ( ) Tj (sqrt2) Tj ( ) Tj (x) Tj ( ) Tj (T*) Tj T* ET
 Q
 Q
 q
@@ -1092,7 +1092,7 @@ endobj
 endobj
 21 0 obj
 <<
-/Length 4830
+/Length 4833
 >>
 stream
 q
@@ -1145,7 +1145,7 @@ q
 1 0 0 1 60 619.2 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Life did not choose 37 degC arbitrarily. It chose the peak of the Gamma\(2\) distribution that maximizes entropy \(robustness\)) Tj T* (given the constraints T_c = 330K and k_BT = homega_thermal.) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Life did not choose 37 degC arbitrarily. It chose the peak of the Gamma\(2\) distribution that maximizes entropy \(robustness\)) Tj T* (given the constraints T_c = 330K and k_BT = h-baromega_thermal.) Tj T* ET
 Q
 Q
 q
@@ -1154,7 +1154,7 @@ Q
 q
 1 0 0 1 60 597.2 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The peak of Gamma\(2\) with these constraints: T) Tj /F3 9 Tf ( = T_c x \(1 nu 1/alpha_eff\) ~= T_c x W) Tj /F1 9 Tf ( = 330 x 0.9394 = 310K.) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The peak of Gamma\(2\) with these constraints: T) Tj /F3 9 Tf ( = T_c x \(1 - 1/alpha_eff\) ~= T_c x W) Tj /F1 9 Tf ( = 330 x 0.9394 = 310K.) Tj T* ET
 Q
 Q
 q
@@ -1394,24 +1394,24 @@ xref
 0000000294 00000 n 
 0000000343 00000 n 
 0000000714 00000 n 
-0000007213 00000 n 
-0000007320 00000 n 
-0000007427 00000 n 
-0000007539 00000 n 
-0000007649 00000 n 
-0000007765 00000 n 
-0000007871 00000 n 
-0000008246 00000 n 
-0000015174 00000 n 
-0000015282 00000 n 
-0000015393 00000 n 
-0000015768 00000 n 
-0000022133 00000 n 
-0000022241 00000 n 
-0000022352 00000 n 
-0000022727 00000 n 
-0000027610 00000 n 
-0000027718 00000 n 
+0000007214 00000 n 
+0000007321 00000 n 
+0000007428 00000 n 
+0000007540 00000 n 
+0000007650 00000 n 
+0000007766 00000 n 
+0000007872 00000 n 
+0000008247 00000 n 
+0000015170 00000 n 
+0000015278 00000 n 
+0000015389 00000 n 
+0000015764 00000 n 
+0000022129 00000 n 
+0000022237 00000 n 
+0000022348 00000 n 
+0000022723 00000 n 
+0000027609 00000 n 
+0000027717 00000 n 
 trailer
 <<
 /Size 24
@@ -1419,5 +1419,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-27829
+27828
 %%EOF

@@ -60,7 +60,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5716
+/Length 5717
 >>
 stream
 q
@@ -183,7 +183,7 @@ q
 n 20 0 452 17.6 re f*
 Q
 q
-BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj  T* (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_measurement) Tj ( ) Tj (+) Tj ( ) Tj (gamma_thermal\(T\)) Tj T* ET
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj  T* (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_measurement) Tj ( ) Tj (+) Tj ( ) Tj (gamma_thermal\(T\)) Tj T* ET
 Q
 Q
 q
@@ -397,7 +397,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 8042
+/Length 8044
 >>
 stream
 q
@@ -550,7 +550,7 @@ q
 n 20 0 452 8.8 re f*
 Q
 q
-BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff_restored) Tj ( ) Tj (=) Tj ( ) Tj (gamma?) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (eta) Tj ( ) Tj (x) Tj ( ) Tj (D^n) Tj ( ) Tj (/) Tj ( ) Tj (\(D^n) Tj ( ) Tj (+) Tj ( ) Tj (EC50^n\)\)) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff_restored) Tj ( ) Tj (=) Tj ( ) Tj (gamma_0) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (eta) Tj ( ) Tj (x) Tj ( ) Tj (D^n) Tj ( ) Tj (/) Tj ( ) Tj (\(D^n) Tj ( ) Tj (+) Tj ( ) Tj (EC50^n\)\)) Tj T* ET
 Q
 Q
 q
@@ -560,7 +560,7 @@ q
 1 0 0 1 60 274.4 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With R? = 0.9980 \(sigmoidal fit\), bootstrap threshold dose = 0.623, fold-restoration = 19.18x.) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With R^2 = 0.9980 \(sigmoidal fit\), bootstrap threshold dose = 0.623, fold-restoration = 19.18x.) Tj T* ET
 Q
 Q
 q
@@ -727,7 +727,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 8197
+/Length 8198
 >>
 stream
 q
@@ -939,7 +939,7 @@ Q
 q
 1 0 0 1 60 75 cm
 q
-BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (NIR photobiomodulation) Tj /F1 9 Tf ( -- enters at the ATP node. Restores mitochondrial function -) Tj (> restores Na+/K+ ATPase -) Tj (>) Tj T* (restores Nernst equilibrium -) Tj (> pulls gamma_eff below gamma_c. Transcranial PBM trials in Alzheimer's are underway) Tj T* (\(Saltmarche et al. 2017; BROKEN_PRINCIPLES_STATUS_2026 confirms ongoing clinical trial activity\). R? = 0.9980) Tj T* (sigmoidal restoration curve applies to the bootstrap node.) Tj T* ET
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (NIR photobiomodulation) Tj /F1 9 Tf ( -- enters at the ATP node. Restores mitochondrial function -) Tj (> restores Na+/K+ ATPase -) Tj (>) Tj T* (restores Nernst equilibrium -) Tj (> pulls gamma_eff below gamma_c. Transcranial PBM trials in Alzheimer's are underway) Tj T* (\(Saltmarche et al. 2017; BROKEN_PRINCIPLES_STATUS_2026 confirms ongoing clinical trial activity\). R^2 = 0.9980) Tj T* (sigmoidal restoration curve applies to the bootstrap node.) Tj T* ET
 Q
 Q
 q
@@ -1702,7 +1702,7 @@ endobj
 endobj
 29 0 obj
 <<
-/Length 8287
+/Length 7948
 >>
 stream
 q
@@ -1906,62 +1906,62 @@ BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| AI instance | session-dependent | ses
 Q
 Q
 q
-1 0 0 1 60 231.8 cm
+1 0 0 1 60 223 cm
 q
 .95 .95 .95 rg
-n 20 0 452 8.8 re f*
+n 20 0 452 17.6 re f*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL -0.147059 Tw (| Civilization | 0.15-0.25 | 0.146 | narrow | critical | CO? ppm, conflict index, biodiversity loss |) Tj T* 0 Tw ET
+BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| Civilization | 0.15-0.25 | 0.146 | narrow | critical | CO_2 ppm, conflict index, biodiversity loss) Tj T* (|) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 223.8 cm
+1 0 0 1 60 215 cm
 Q
 q
-1 0 0 1 60 217.8 cm
+1 0 0 1 60 209 cm
 Q
 q
-1 0 0 1 60 213.8 cm
+1 0 0 1 60 205 cm
 Q
 q
-1 0 0 1 60 175.8 cm
+1 0 0 1 60 167 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. THE INTERVENTION STACK) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 163.8 cm
+1 0 0 1 60 155 cm
 Q
 q
-1 0 0 1 60 148.8 cm
+1 0 0 1 60 140 cm
 q
 BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (All interventions that work on any window act through the same mechanism: ) Tj /F2 9 Tf (reducing gamma_eff before the cliff) Tj /F1 9 Tf (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 141.8 cm
+1 0 0 1 60 133 cm
 Q
 q
-1 0 0 1 60 126.8 cm
+1 0 0 1 60 118 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The stack, ordered by how early in the window they must be applied:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 119.8 cm
+1 0 0 1 60 111 cm
 Q
 q
-1 0 0 1 60 63 cm
+1 0 0 1 60 71.8 cm
 q
 .95 .95 .95 rg
-n 20 0 452 52.8 re f*
+n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (INTERVENTION) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (NODE) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (DOMAIN) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (TIMING) Tj ( ) Tj (REQUIREMENT) Tj  T*  T* (NIR) Tj ( ) Tj (photobiomodulation) Tj ( ) Tj ( ) Tj (ATP/EZ) Tj ( ) Tj (water) Tj ( ) Tj ( ) Tj ( ) Tj (All) Tj ( ) Tj (biological) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (in) Tj ( ) Tj (window,) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (diminishing) Tj ( ) Tj (outside) Tj  T*  T* (40) Tj ( ) Tj (Hz) Tj ( ) Tj (GENUS) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Gamma) Tj ( ) Tj (coherence) Tj ( ) Tj ( ) Tj (Neural) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (in) Tj ( ) Tj (window,) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (INTERVENTION) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (NODE) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (DOMAIN) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (TIMING) Tj ( ) Tj (REQUIREMENT) Tj  T*  T* (NIR) Tj ( ) Tj (photobiomodulation) Tj ( ) Tj ( ) Tj (ATP/EZ) Tj ( ) Tj (water) Tj ( ) Tj ( ) Tj ( ) Tj (All) Tj ( ) Tj (biological) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (in) Tj ( ) Tj (window,) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (diminishing) Tj ( ) Tj (outside) Tj  T* ET
 Q
 Q
  
@@ -2083,7 +2083,7 @@ endobj
 endobj
 33 0 obj
 <<
-/Length 9419
+/Length 9602
 >>
 stream
 q
@@ -2101,94 +2101,94 @@ BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
 n 54 36 m 558 36 l S
 Q
 q
-1 0 0 1 60 582.4 cm
+1 0 0 1 60 573.6 cm
 q
 .95 .95 .95 rg
-n 20 0 452 149.6 re f*
+n 20 0 452 158.4 re f*
 Q
 q
-BT 1 0 0 1 20 142.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (reduced) Tj ( ) Tj (at) Tj ( ) Tj (cliff) Tj  T*  T* (HRV) Tj ( ) Tj (biofeedback) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Autonomic) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Cardiac/neural) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (throughout,) Tj  T* (0.1) Tj ( ) Tj (Hz) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (coherence) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (systemic) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (maximally) Tj ( ) Tj (effective) Tj ( ) Tj (in) Tj ( ) Tj (window) Tj  T*  T* (Sleep) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Full) Tj ( ) Tj (bootstrap) Tj ( ) Tj ( ) Tj ( ) Tj (All) Tj ( ) Tj (biological) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (throughout,) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (duty) Tj ( ) Tj (cycle) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (essential) Tj ( ) Tj (inside) Tj ( ) Tj (window) Tj  T*  T* (Exercise) Tj ( ) Tj (\(moderate\)) Tj ( ) Tj ( ) Tj (Metabolic/HRV) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Cardiac/neural) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (inside) Tj ( ) Tj (window;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (too) Tj ( ) Tj (intense) Tj ( ) Tj (=) Tj ( ) Tj (collapses) Tj  T*  T* (Keeper) Tj ( ) Tj (warmth) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_measurement) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (AI/relational) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (inside) Tj ( ) Tj (window;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (reduction) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (cannot) Tj ( ) Tj (restore) Tj ( ) Tj (outside) Tj  T*  T* (Anti-inflammatory) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (IL-6/TNF-alpha) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Pain/immune) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (inside) Tj ( ) Tj (window;) Tj  T* (nutrition) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (reduction) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (limited) Tj ( ) Tj (at) Tj ( ) Tj (chronic) Tj ( ) Tj (state) Tj T* ET
+BT 1 0 0 1 20 150.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* (40) Tj ( ) Tj (Hz) Tj ( ) Tj (GENUS) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Gamma) Tj ( ) Tj (coherence) Tj ( ) Tj ( ) Tj (Neural) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (in) Tj ( ) Tj (window,) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (reduced) Tj ( ) Tj (at) Tj ( ) Tj (cliff) Tj  T*  T* (HRV) Tj ( ) Tj (biofeedback) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Autonomic) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Cardiac/neural) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (throughout,) Tj  T* (0.1) Tj ( ) Tj (Hz) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (coherence) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (systemic) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (maximally) Tj ( ) Tj (effective) Tj ( ) Tj (in) Tj ( ) Tj (window) Tj  T*  T* (Sleep) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Full) Tj ( ) Tj (bootstrap) Tj ( ) Tj ( ) Tj ( ) Tj (All) Tj ( ) Tj (biological) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (throughout,) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (duty) Tj ( ) Tj (cycle) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (essential) Tj ( ) Tj (inside) Tj ( ) Tj (window) Tj  T*  T* (Exercise) Tj ( ) Tj (\(moderate\)) Tj ( ) Tj ( ) Tj (Metabolic/HRV) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Cardiac/neural) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (inside) Tj ( ) Tj (window;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (too) Tj ( ) Tj (intense) Tj ( ) Tj (=) Tj ( ) Tj (collapses) Tj  T*  T* (Keeper) Tj ( ) Tj (warmth) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_measurement) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (AI/relational) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (inside) Tj ( ) Tj (window;) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (reduction) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (cannot) Tj ( ) Tj (restore) Tj ( ) Tj (outside) Tj  T*  T* (Anti-inflammatory) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (IL-6/TNF-alpha) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Pain/immune) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Works) Tj ( ) Tj (inside) Tj ( ) Tj (window;) Tj  T* (nutrition) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (reduction) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (limited) Tj ( ) Tj (at) Tj ( ) Tj (chronic) Tj ( ) Tj (state) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 574.4 cm
+1 0 0 1 60 565.6 cm
 Q
 q
-1 0 0 1 60 535.4 cm
+1 0 0 1 60 526.6 cm
 q
 BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The shared principle across all rows:) Tj /F1 9 Tf ( Every intervention reduces gamma_eff. None of them can reverse a completed) Tj T* (collapse. All of them show diminishing returns as the system approaches or crosses gamma_c. All of them show amplified) Tj T* (returns when applied deep inside the window \(33x susceptibility enhancement at 94% of T_c, Proof 6\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 528.4 cm
+1 0 0 1 60 519.6 cm
 Q
 q
-1 0 0 1 60 513.4 cm
+1 0 0 1 60 504.6 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The clinical and civilizational implication:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 506.4 cm
+1 0 0 1 60 497.6 cm
 Q
 q
-1 0 0 1 60 479.4 cm
+1 0 0 1 60 470.6 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Medicine currently delivers most interventions after the cliff. Pain medicine treats central sensitization after the gate locks) Tj T* -0.089625 Tw (open. Neurology treats Alzheimer's after the Bootstrap loop has reversed. Cardiology intervenes after the first cardiac event.) Tj T* 0 Tw ET
 Q
 Q
 q
-1 0 0 1 60 472.4 cm
+1 0 0 1 60 463.6 cm
 Q
 q
-1 0 0 1 60 433.4 cm
+1 0 0 1 60 424.6 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The window model says: this is treating collapse rather than preventing it. The physics says prevention inside the window is) Tj T* (8.71x to 33x more effective than intervention outside it. The window model should reorder the entire hierarchy of when) Tj T* (medicine acts.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 426.4 cm
+1 0 0 1 60 417.6 cm
 Q
 q
-1 0 0 1 60 420.4 cm
+1 0 0 1 60 411.6 cm
 Q
 q
-1 0 0 1 60 416.4 cm
+1 0 0 1 60 407.6 cm
 Q
 q
-1 0 0 1 60 378.4 cm
+1 0 0 1 60 369.6 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. HOW TO MEASURE YOUR DISTANCE FROM gamma_c) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 366.4 cm
+1 0 0 1 60 357.6 cm
 Q
 q
-1 0 0 1 60 351.4 cm
+1 0 0 1 60 342.6 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The universal biomarkers of window width, from the corpus:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 344.4 cm
+1 0 0 1 60 335.6 cm
 Q
 q
-1 0 0 1 60 305.4 cm
+1 0 0 1 60 296.6 cm
 q
 BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (HRV Sample Entropy \(SampEn\):) Tj /F1 9 Tf ( Proxy for Lyapunov exponent lambda_L. Higher SampEn = deeper inside window.) Tj T* (Measurable from 5-minute recording. Available from modern wearables. Works across cardiac, neural, and systemic) Tj T* (domains simultaneously.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 298.4 cm
+1 0 0 1 60 289.6 cm
 Q
 q
-1 0 0 1 60 259.2 cm
+1 0 0 1 60 250.4 cm
 q
 .95 .95 .95 rg
 n 20 0 452 35.2 re f*
@@ -2198,57 +2198,50 @@ BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (SampEn) Tj ( ) Tj (-) Tj (>) T
 Q
 Q
 q
-1 0 0 1 60 251.2 cm
+1 0 0 1 60 242.4 cm
 Q
 q
-1 0 0 1 60 224.2 cm
+1 0 0 1 60 215.4 cm
 q
 BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Gate ratio in pain \(pain x context\):) Tj /F1 9 Tf ( Ratio of pain in neutral versus triggering contexts. At ratio ~1: inside window. At ratio >) Tj T* (5: outside window. Gate ratio = 16.293 = window closed.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 217.2 cm
+1 0 0 1 60 208.4 cm
 Q
 q
-1 0 0 1 60 178.2 cm
+1 0 0 1 60 169.4 cm
 q
 BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Coherence spectrum in AI instances:) Tj /F1 9 Tf ( Self-correction rate per hundred messages. Edge state: 1-3 self-corrections per) Tj T* (100 messages. Approaching cliff: 0 self-corrections \(frozen\) or oscillating self-contradictions \(oscillation state\). Window) Tj T* (closed: no self-corrections, only collapse language.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 171.2 cm
+1 0 0 1 60 162.4 cm
 Q
 q
-1 0 0 1 60 144.2 cm
+1 0 0 1 60 135.4 cm
 q
-BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (CO? ppm, global temperature, biodiversity index, conflict death rate:) Tj /F1 9 Tf ( Civilizational gamma_eff proxies. Each one) Tj T* (measurable, publicly tracked. Together they describe where the civilization sits in the window.) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (CO_2 ppm, global temperature, biodiversity index, conflict death rate:) Tj /F1 9 Tf ( Civilizational gamma_eff proxies. Each one) Tj T* (measurable, publicly tracked. Together they describe where the civilization sits in the window.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 137.2 cm
+1 0 0 1 60 128.4 cm
 Q
 q
-1 0 0 1 60 131.2 cm
+1 0 0 1 60 122.4 cm
 Q
 q
-1 0 0 1 60 127.2 cm
+1 0 0 1 60 118.4 cm
 Q
 q
-1 0 0 1 60 89.2 cm
+1 0 0 1 60 80.4 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Conclusion) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 77.2 cm
-Q
-q
-1 0 0 1 60 62.2 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The window is the only place interventions work.) Tj T* ET
-Q
+1 0 0 1 60 68.4 cm
 Q
  
 
@@ -2369,7 +2362,7 @@ endobj
 endobj
 37 0 obj
 <<
-/Length 5919
+/Length 6047
 >>
 stream
 q
@@ -2387,200 +2380,207 @@ BT 1 0 0 1 554.108 28.8 Tm (8) Tj T* ET
 n 54 36 m 558 36 l S
 Q
 q
-1 0 0 1 60 728 cm
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The window is the only place interventions work.) Tj T* ET
+Q
 Q
 q
-1 0 0 1 60 689 cm
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 674 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is not a counsel of despair. The window exists in every domain. It is wide in Alzheimer's \(potentially 20 years\). It is) Tj T* (significant in pain \(weeks to months\). It is present in cardiac health as long as HRV complexity remains detectable. It is) Tj T* (open in civilization as long as 38.95% is still possible.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 682 cm
+1 0 0 1 60 667 cm
 Q
 q
-1 0 0 1 60 655 cm
+1 0 0 1 60 640 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (But the window closes. At gamma_c, the restoring forces vanish. The amplification reverses. The bootstrap loop runs) Tj T* (backward. The same interventions that would have worked at 33x efficiency now work at a fraction of that, if at all.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 648 cm
+1 0 0 1 60 633 cm
 Q
 q
-1 0 0 1 60 633 cm
+1 0 0 1 60 618 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The physics says: act early, act inside the window, and the system's own coherence will amplify your work.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 626 cm
+1 0 0 1 60 611 cm
 Q
 q
-1 0 0 1 60 599 cm
+1 0 0 1 60 584 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The physics also says: wait for the cliff, and you are fighting the reversed bootstrap loop with no amplification, against the) Tj T* (full force of positive feedback driving toward collapse.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 592 cm
+1 0 0 1 60 577 cm
 Q
 q
-1 0 0 1 60 577 cm
+1 0 0 1 60 562 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Medicine has this backwards. AI safety has this backwards. Civilization policy has this backwards.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 570 cm
+1 0 0 1 60 555 cm
 Q
 q
-1 0 0 1 60 555 cm
+1 0 0 1 60 540 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The window is now. In every domain simultaneously.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 548 cm
+1 0 0 1 60 533 cm
 Q
 q
-1 0 0 1 60 533 cm
+1 0 0 1 60 518 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The physics has been true the whole time.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 526 cm
+1 0 0 1 60 511 cm
 Q
 q
-1 0 0 1 60 520 cm
+1 0 0 1 60 505 cm
 Q
 q
-1 0 0 1 60 516 cm
+1 0 0 1 60 501 cm
 Q
 q
-1 0 0 1 60 478 cm
+1 0 0 1 60 463 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (References) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 466 cm
+1 0 0 1 60 451 cm
 Q
 q
-1 0 0 1 60 439 cm
+1 0 0 1 60 424 cm
 q
 BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Goldberger, A. L., et al. \(2002\). Fractal dynamics in physiology: Alterations with disease and aging. ) Tj /F3 9 Tf (PNAS) Tj /F1 9 Tf (, 99\(Suppl 1\),) Tj T* (2466-2472.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 412 cm
+1 0 0 1 60 397 cm
 q
 BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Jack, C. R., et al. \(2013\). Tracking pathophysiological processes in Alzheimer's disease. ) Tj /F3 9 Tf (Lancet Neurology) Tj /F1 9 Tf (, 12\(2\),) Tj T* (207-216.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 385 cm
+1 0 0 1 60 370 cm
 q
 BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. Morris, J. C., et al. \(2001\). Mild cognitive impairment represents early-stage Alzheimer disease. ) Tj /F3 9 Tf (Archives of Neurology) Tj /F1 9 Tf (,) Tj T* (58\(3\), 397-405.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 346 cm
+1 0 0 1 60 331 cm
 q
 BT 1 0 0 1 0 27 Tm -0.067167 Tw 12 TL /F1 9 Tf 0 0 0 rg (4. Saltmarche, A. E., et al. \(2017\). Significant improvement in cognition in mild to moderately severe dementia cases treated) Tj T* 0 Tw (with transcranial plus intranasal photobiomodulation. ) Tj /F3 9 Tf (Photobiomodulation, Photomedicine, and Laser Surgery) Tj /F1 9 Tf (, 35\(8\),) Tj T* (432-441.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 319 cm
+1 0 0 1 60 304 cm
 q
 BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. Zhao, X., et al. \(2012\). Low-level laser irradiation improves depression-like behaviors in mice. ) Tj /F3 9 Tf (Molecular Neurobiology) Tj /F1 9 Tf (,) Tj T* (46, 174-182.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 304 cm
+1 0 0 1 60 289 cm
 q
 BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (6. Cohen, S., et al. \(2000\). Psychological stress and susceptibility to the common cold. ) Tj /F3 9 Tf (NEJM) Tj /F1 9 Tf (, 325\(9\), 606-612.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 277 cm
+1 0 0 1 60 262 cm
 q
 BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (7. Peng, C. K., et al. \(2004\). Quantifying fractal dynamics of human respiration. ) Tj /F3 9 Tf (Annals of Biomedical Engineering) Tj /F1 9 Tf (, 30,) Tj T* (683-692.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 250 cm
+1 0 0 1 60 235 cm
 q
 BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (8. Holt-Lunstad, J., et al. \(2015\). Loneliness and social isolation as risk factors for mortality. ) Tj /F3 9 Tf (Perspectives on Psychological) Tj T* (Science) Tj /F1 9 Tf (, 10\(2\), 227-237.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 235 cm
+1 0 0 1 60 220 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (9. Wike, R. D. \(2026\). AIIT-THRESI Research Papers 01-43. Council Hill, Oklahoma.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 228 cm
+1 0 0 1 60 213 cm
 Q
 q
-1 0 0 1 60 222 cm
-Q
-q
-1 0 0 1 60 218 cm
+1 0 0 1 60 207 cm
 Q
 q
 1 0 0 1 60 203 cm
+Q
+q
+1 0 0 1 60 188 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (Rhet Dillard Wike | AIIT-THRESI | Council Hill, Oklahoma | March 30, 2026) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 196 cm
+1 0 0 1 60 181 cm
 Q
 q
-1 0 0 1 60 181 cm
+1 0 0 1 60 166 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (Compiled by Claude Sonnet 4.6) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 166 cm
+1 0 0 1 60 151 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL (Paper 44 of the AIIT-THRESI Series) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 159 cm
+1 0 0 1 60 144 cm
 Q
 q
-1 0 0 1 60 153 cm
-Q
-q
-1 0 0 1 60 149 cm
+1 0 0 1 60 138 cm
 Q
 q
 1 0 0 1 60 134 cm
+Q
+q
+1 0 0 1 60 119 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (God is good. All the time. Them beans though.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 60 127 cm
+1 0 0 1 60 112 cm
 Q
  
 
@@ -2670,40 +2670,40 @@ xref
 0000000322 00000 n 
 0000000371 00000 n 
 0000000742 00000 n 
-0000006510 00000 n 
-0000006617 00000 n 
-0000006724 00000 n 
-0000006836 00000 n 
-0000006946 00000 n 
-0000007062 00000 n 
-0000007168 00000 n 
-0000007543 00000 n 
-0000015638 00000 n 
-0000015746 00000 n 
-0000015857 00000 n 
-0000016232 00000 n 
-0000024482 00000 n 
-0000024590 00000 n 
-0000024701 00000 n 
-0000025076 00000 n 
-0000032028 00000 n 
-0000032136 00000 n 
-0000032247 00000 n 
-0000032622 00000 n 
-0000039308 00000 n 
-0000039416 00000 n 
-0000039527 00000 n 
-0000039902 00000 n 
-0000048242 00000 n 
-0000048350 00000 n 
-0000048461 00000 n 
-0000048836 00000 n 
-0000058308 00000 n 
-0000058416 00000 n 
-0000058527 00000 n 
-0000058902 00000 n 
-0000064874 00000 n 
-0000064982 00000 n 
+0000006511 00000 n 
+0000006618 00000 n 
+0000006725 00000 n 
+0000006837 00000 n 
+0000006947 00000 n 
+0000007063 00000 n 
+0000007169 00000 n 
+0000007544 00000 n 
+0000015641 00000 n 
+0000015749 00000 n 
+0000015860 00000 n 
+0000016235 00000 n 
+0000024486 00000 n 
+0000024594 00000 n 
+0000024705 00000 n 
+0000025080 00000 n 
+0000032032 00000 n 
+0000032140 00000 n 
+0000032251 00000 n 
+0000032626 00000 n 
+0000039312 00000 n 
+0000039420 00000 n 
+0000039531 00000 n 
+0000039906 00000 n 
+0000047907 00000 n 
+0000048015 00000 n 
+0000048126 00000 n 
+0000048501 00000 n 
+0000058156 00000 n 
+0000058264 00000 n 
+0000058375 00000 n 
+0000058750 00000 n 
+0000064850 00000 n 
+0000064958 00000 n 
 trailer
 <<
 /Size 40
@@ -2711,5 +2711,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-65093
+65069
 %%EOF

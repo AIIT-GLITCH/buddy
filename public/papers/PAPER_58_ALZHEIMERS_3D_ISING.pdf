@@ -60,7 +60,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5614
+/Length 5615
 >>
 stream
 q
@@ -214,7 +214,7 @@ q
 1 0 0 1 60 152.2 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Symmetry of the order parameter \(Z? = up/down, or coherent/decoherent\)) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. Symmetry of the order parameter \(Z_2 = up/down, or coherent/decoherent\)) Tj T* ET
 Q
 Q
 q
@@ -398,7 +398,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 8052
+/Length 8071
 >>
 stream
 q
@@ -428,20 +428,20 @@ Q
 q
 1 0 0 1 60 698 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Good solvent \(T > T_eta\): chain is swollen, radius R ~ N^nu_F \(Flory exponent nu_F ~= 0.588\)) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Good solvent \(T > T_theta\): chain is swollen, radius R ~ N^nu_F \(Flory exponent nu_F ~= 0.588\)) Tj T* ET
 Q
 Q
 q
 1 0 0 1 60 683 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Poor solvent \(T < T_eta\): chain collapses, radius R ~ N^\(1/3\) \(compact globule\)) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Poor solvent \(T < T_theta\): chain collapses, radius R ~ N^\(1/3\) \(compact globule\)) Tj T* ET
 Q
 Q
 q
 1 0 0 1 60 668 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 At T = T_eta: theta point -- crossover between swollen and collapsed) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 At T = T_theta: theta point -- crossover between swollen and collapsed) Tj T* ET
 Q
 Q
 q
@@ -459,7 +459,7 @@ Q
 q
 1 0 0 1 60 600 cm
 q
-BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The correlation length exponent at the theta point: ) Tj /F2 9 Tf (nu_eta = 0.5877 ~= 0.5882 ~= nu_Ising = 0.6298) Tj /F1 9 Tf ( \(within 7% --) Tj T* (consistent with same universality class given mean-field corrections near theta\).) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The correlation length exponent at the theta point: ) Tj /F2 9 Tf (nu_theta = 0.5877 ~= 0.5882 ~= nu_Ising = 0.6298) Tj /F1 9 Tf ( \(within 7% --) Tj T* (consistent with same universality class given mean-field corrections near theta\).) Tj T* ET
 Q
 Q
 q
@@ -477,7 +477,7 @@ Q
 q
 1 0 0 1 60 520 cm
 q
-BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Tau protein is a polymer.) Tj /F1 9 Tf ( In healthy neurons, tau is extended along microtubules \(swollen phase -- good solvent, T >) Tj T* (T_eta\). In Alzheimer's: tau hyperphosphorylation changes the effective solvent quality \(bad solvent, T < T_eta\). Tau) Tj T* (collapses into neurofibrillary tangles.) Tj T* ET
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Tau protein is a polymer.) Tj /F1 9 Tf ( In healthy neurons, tau is extended along microtubules \(swollen phase -- good solvent, T >) Tj T* (T_theta\). In Alzheimer's: tau hyperphosphorylation changes the effective solvent quality \(bad solvent, T < T_theta\). Tau) Tj T* (collapses into neurofibrillary tangles.) Tj T* ET
 Q
 Q
 q
@@ -516,7 +516,7 @@ q
 n 20 0 452 88 re f*
 Q
 q
-BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Wike) Tj ( ) Tj (coherence) Tj ( ) Tj (transition:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (exponent) Tj ( ) Tj (=) Tj ( ) Tj (2.59) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (1/nu_Ising) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (confirmed) Tj ( ) Tj (99.92%) Tj ( ) Tj (in) Tj ( ) Tj (11.4M) Tj ( ) Tj (simulations) Tj  T*  T* (Polymer) Tj ( ) Tj (theta) Tj ( ) Tj (transition:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (correlation) Tj ( ) Tj (length) Tj ( ) Tj (xi) Tj ( ) Tj (~) Tj ( ) Tj (|T) Tj ( ) Tj (nu) Tj ( ) Tj (T_eta|^\(-nu_eta\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (nu_eta) Tj ( ) Tj (~=) Tj ( ) Tj (0.588-0.630) Tj ( ) Tj (\(3D) Tj ( ) Tj (Ising) Tj ( ) Tj (range\)) Tj  T*  T* (Tau) Tj ( ) Tj (protein) Tj ( ) Tj (misfolding:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (scaling) Tj ( ) Tj (of) Tj ( ) Tj (tangle) Tj ( ) Tj (formation) Tj ( ) Tj (rate) Tj ( ) Tj (with) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (temperature/phosphorylation) Tj ( ) Tj (distance) Tj ( ) Tj (from) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (critical) Tj ( ) Tj (point) Tj ( ) Tj (should) Tj ( ) Tj (follow) Tj ( ) Tj (|T) Tj ( ) Tj (nu) Tj ( ) Tj (T_c|^\(-gamma\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (where) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (1.2372) Tj ( ) Tj (\(susceptibility) Tj ( ) Tj (exponent\)) Tj T* ET
+BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Wike) Tj ( ) Tj (coherence) Tj ( ) Tj (transition:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (exponent) Tj ( ) Tj (=) Tj ( ) Tj (2.59) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (1/nu_Ising) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (confirmed) Tj ( ) Tj (99.92%) Tj ( ) Tj (in) Tj ( ) Tj (11.4M) Tj ( ) Tj (simulations) Tj  T*  T* (Polymer) Tj ( ) Tj (theta) Tj ( ) Tj (transition:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (correlation) Tj ( ) Tj (length) Tj ( ) Tj (xi) Tj ( ) Tj (~) Tj ( ) Tj (|T) Tj ( ) Tj (-) Tj ( ) Tj (T_theta|^\(-nu_theta\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (nu_theta) Tj ( ) Tj (~=) Tj ( ) Tj (0.588-0.630) Tj ( ) Tj (\(3D) Tj ( ) Tj (Ising) Tj ( ) Tj (range\)) Tj  T*  T* (Tau) Tj ( ) Tj (protein) Tj ( ) Tj (misfolding:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (scaling) Tj ( ) Tj (of) Tj ( ) Tj (tangle) Tj ( ) Tj (formation) Tj ( ) Tj (rate) Tj ( ) Tj (with) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (temperature/phosphorylation) Tj ( ) Tj (distance) Tj ( ) Tj (from) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (critical) Tj ( ) Tj (point) Tj ( ) Tj (should) Tj ( ) Tj (follow) Tj ( ) Tj (|T) Tj ( ) Tj (-) Tj ( ) Tj (T_c|^\(-gamma\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (where) Tj ( ) Tj (gamma) Tj ( ) Tj (=) Tj ( ) Tj (1.2372) Tj ( ) Tj (\(susceptibility) Tj ( ) Tj (exponent\)) Tj T* ET
 Q
 Q
 q
@@ -553,7 +553,7 @@ Q
 q
 1 0 0 1 60 226 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (The same physics drives all three:) Tj /F1 9 Tf ( Z? symmetry breaking in 3D) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (The same physics drives all three:) Tj /F1 9 Tf ( Z_2 symmetry breaking in 3D) Tj T* ET
 Q
 Q
 q
@@ -592,7 +592,7 @@ q
 n 20 0 452 70.4 re f*
 Q
 q
-BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Stage) Tj ( ) Tj (1:) Tj ( ) Tj (Tau) Tj ( ) Tj (hyperphosphorylation) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (effective) Tj ( ) Tj (T_eta_tau) Tj ( ) Tj (rises) Tj ( ) Tj (above) Tj ( ) Tj (T_body) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (tau) Tj ( ) Tj (enters) Tj ( ) Tj (collapsed) Tj ( ) Tj (phase) Tj ( ) Tj (\(tangle) Tj ( ) Tj (formation) Tj ( ) Tj (begins\)) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (microtubule) Tj ( ) Tj (stability) Tj ( ) Tj (decreases) Tj  T*  T* (Stage) Tj ( ) Tj (2:) Tj ( ) Tj (Microtubule) Tj ( ) Tj (disruption) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Principle) Tj ( ) Tj (1) Tj ( ) Tj (\(Debye) Tj ( ) Tj (shielding\)) Tj ( ) Tj (fails) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj ( ) Tj (structure) Tj ( ) Tj (in) Tj ( ) Tj (microtubule) Tj ( ) Tj (lumen) Tj ( ) Tj (disrupted) Tj T* ET
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Stage) Tj ( ) Tj (1:) Tj ( ) Tj (Tau) Tj ( ) Tj (hyperphosphorylation) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (effective) Tj ( ) Tj (T_theta_tau) Tj ( ) Tj (rises) Tj ( ) Tj (above) Tj ( ) Tj (T_body) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (tau) Tj ( ) Tj (enters) Tj ( ) Tj (collapsed) Tj ( ) Tj (phase) Tj ( ) Tj (\(tangle) Tj ( ) Tj (formation) Tj ( ) Tj (begins\)) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (microtubule) Tj ( ) Tj (stability) Tj ( ) Tj (decreases) Tj  T*  T* (Stage) Tj ( ) Tj (2:) Tj ( ) Tj (Microtubule) Tj ( ) Tj (disruption) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Principle) Tj ( ) Tj (1) Tj ( ) Tj (\(Debye) Tj ( ) Tj (shielding\)) Tj ( ) Tj (fails) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj ( ) Tj (structure) Tj ( ) Tj (in) Tj ( ) Tj (microtubule) Tj ( ) Tj (lumen) Tj ( ) Tj (disrupted) Tj T* ET
 Q
 Q
  
@@ -714,7 +714,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 7576
+/Length 7573
 >>
 stream
 q
@@ -797,7 +797,7 @@ q
 n 20 0 452 61.6 re f*
 Q
 q
-BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (d\(C\)/dt|reversal) Tj ( ) Tj (~) Tj ( ) Tj (|gamma_eff) Tj ( ) Tj (nu) Tj ( ) Tj (gamma_c|^\(nunu\)) Tj ( ) Tj (x) Tj ( ) Tj (NIR_dose) Tj  T*  T* (For) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (slightly) Tj ( ) Tj (above) Tj ( ) Tj (gamma_c:) Tj  T* ( ) Tj ( ) Tj (Rate) Tj ( ) Tj (~) Tj ( ) Tj (|epsilon|^\(nu0.6298\)) Tj ( ) Tj ( ) Tj (\(correlation) Tj ( ) Tj (length) Tj ( ) Tj (exponent\)) Tj  T*  T* (For) Tj ( ) Tj (the) Tj ( ) Tj (full) Tj ( ) Tj (reversal) Tj ( ) Tj (trajectory:) Tj  T* ( ) Tj ( ) Tj (Integrated) Tj ( ) Tj (recovery) Tj ( ) Tj (~) Tj ( ) Tj (NIR_dose^\(1/delta\)) Tj ( ) Tj (=) Tj ( ) Tj (NIR_dose^\(1/4.789\)) Tj ( ) Tj (=) Tj ( ) Tj (NIR_dose^\(0.209\)) Tj T* ET
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (d\(C\)/dt|reversal) Tj ( ) Tj (~) Tj ( ) Tj (|gamma_eff) Tj ( ) Tj (-) Tj ( ) Tj (gamma_c|^\(-nu\)) Tj ( ) Tj (x) Tj ( ) Tj (NIR_dose) Tj  T*  T* (For) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (slightly) Tj ( ) Tj (above) Tj ( ) Tj (gamma_c:) Tj  T* ( ) Tj ( ) Tj (Rate) Tj ( ) Tj (~) Tj ( ) Tj (|epsilon|^\(-0.6298\)) Tj ( ) Tj ( ) Tj (\(correlation) Tj ( ) Tj (length) Tj ( ) Tj (exponent\)) Tj  T*  T* (For) Tj ( ) Tj (the) Tj ( ) Tj (full) Tj ( ) Tj (reversal) Tj ( ) Tj (trajectory:) Tj  T* ( ) Tj ( ) Tj (Integrated) Tj ( ) Tj (recovery) Tj ( ) Tj (~) Tj ( ) Tj (NIR_dose^\(1/delta\)) Tj ( ) Tj (=) Tj ( ) Tj (NIR_dose^\(1/4.789\)) Tj ( ) Tj (=) Tj ( ) Tj (NIR_dose^\(0.209\)) Tj T* ET
 Q
 Q
 q
@@ -1231,24 +1231,24 @@ xref
 0000000294 00000 n 
 0000000343 00000 n 
 0000000714 00000 n 
-0000006380 00000 n 
-0000006487 00000 n 
-0000006594 00000 n 
-0000006706 00000 n 
-0000006816 00000 n 
-0000006932 00000 n 
-0000007038 00000 n 
-0000007413 00000 n 
-0000015518 00000 n 
-0000015626 00000 n 
-0000015737 00000 n 
-0000016112 00000 n 
-0000023741 00000 n 
-0000023849 00000 n 
-0000023960 00000 n 
-0000024335 00000 n 
-0000026583 00000 n 
-0000026691 00000 n 
+0000006381 00000 n 
+0000006488 00000 n 
+0000006595 00000 n 
+0000006707 00000 n 
+0000006817 00000 n 
+0000006933 00000 n 
+0000007039 00000 n 
+0000007414 00000 n 
+0000015538 00000 n 
+0000015646 00000 n 
+0000015757 00000 n 
+0000016132 00000 n 
+0000023758 00000 n 
+0000023866 00000 n 
+0000023977 00000 n 
+0000024352 00000 n 
+0000026600 00000 n 
+0000026708 00000 n 
 trailer
 <<
 /Size 24
@@ -1256,5 +1256,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-26802
+26819
 %%EOF

@@ -407,7 +407,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 8214
+/Length 8217
 >>
 stream
 q
@@ -450,7 +450,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (V_m) Tj ( ) Tj (=) Tj ( ) Tj (\(RT/F\)) Tj ( ) Tj (.) Tj ( ) Tj (ln[) Tj ( ) Tj (P_K[K^+]_o) Tj ( ) Tj (+) Tj ( ) Tj (P_Na[Na^+]_o) Tj ( ) Tj (+) Tj ( ) Tj (P_Cl[Clnu]_i) Tj ( ) Tj (]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([) Tj ( ) Tj (P_K[K^+]_i) Tj ( ) Tj (+) Tj ( ) Tj (P_Na[Na^+]_i) Tj ( ) Tj (+) Tj ( ) Tj (P_Cl[Clnu]_o) Tj ( ) Tj (]) Tj  T*  T* (Healthy) Tj ( ) Tj (neuron:) Tj ( ) Tj (V_m) Tj ( ) Tj (~=) Tj ( ) Tj (-70) Tj ( ) Tj (mV) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (V_m) Tj ( ) Tj (=) Tj ( ) Tj (\(RT/F\)) Tj ( ) Tj (.) Tj ( ) Tj (ln[) Tj ( ) Tj (P_K[K^+]_o) Tj ( ) Tj (+) Tj ( ) Tj (P_Na[Na^+]_o) Tj ( ) Tj (+) Tj ( ) Tj (P_Cl[Cl^-]_i) Tj ( ) Tj (]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([) Tj ( ) Tj (P_K[K^+]_i) Tj ( ) Tj (+) Tj ( ) Tj (P_Na[Na^+]_i) Tj ( ) Tj (+) Tj ( ) Tj (P_Cl[Cl^-]_o) Tj ( ) Tj (]) Tj  T*  T* (Healthy) Tj ( ) Tj (neuron:) Tj ( ) Tj (V_m) Tj ( ) Tj (~=) Tj ( ) Tj (-70) Tj ( ) Tj (mV) Tj T* ET
 Q
 Q
 q
@@ -557,7 +557,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Repeated) Tj ( ) Tj (NMDA) Tj ( ) Tj (activation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Ca?^+) Tj ( ) Tj (influx) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (PKC) Tj ( ) Tj (activation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (AMPA) Tj ( ) Tj (receptor) Tj ( ) Tj (insertion) Tj  T* (-) Tj (>) Tj ( ) Tj (Membrane) Tj ( ) Tj (depolarization) Tj ( ) Tj (shift) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (V_m) Tj ( ) Tj (moves) Tj ( ) Tj (from) Tj ( ) Tj (-70) Tj ( ) Tj (mV) Tj ( ) Tj (toward) Tj ( ) Tj (0) Tj ( ) Tj (mV) Tj  T* (-) Tj (>) Tj ( ) Tj (LTP) Tj ( ) Tj (\(long-term) Tj ( ) Tj (potentiation\)) Tj ( ) Tj (at) Tj ( ) Tj (synapse) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Repeated) Tj ( ) Tj (NMDA) Tj ( ) Tj (activation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Ca^2^+) Tj ( ) Tj (influx) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (PKC) Tj ( ) Tj (activation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (AMPA) Tj ( ) Tj (receptor) Tj ( ) Tj (insertion) Tj  T* (-) Tj (>) Tj ( ) Tj (Membrane) Tj ( ) Tj (depolarization) Tj ( ) Tj (shift) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (V_m) Tj ( ) Tj (moves) Tj ( ) Tj (from) Tj ( ) Tj (-70) Tj ( ) Tj (mV) Tj ( ) Tj (toward) Tj ( ) Tj (0) Tj ( ) Tj (mV) Tj  T* (-) Tj (>) Tj ( ) Tj (LTP) Tj ( ) Tj (\(long-term) Tj ( ) Tj (potentiation\)) Tj ( ) Tj (at) Tj ( ) Tj (synapse) Tj T* ET
 Q
 Q
 q
@@ -580,7 +580,7 @@ q
 n 20 0 452 61.6 re f*
 Q
 q
-BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Excessive) Tj ( ) Tj (NMDA) Tj ( ) Tj (activation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Sustained) Tj ( ) Tj (Ca?^+) Tj ( ) Tj (influx) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Sustained) Tj ( ) Tj (PKC) Tj ( ) Tj (-) Tj (>) Tj  T* (-) Tj (>) Tj ( ) Tj (Phosphorylation) Tj ( ) Tj (of) Tj ( ) Tj (Na^+) Tj ( ) Tj (channels) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Reduced) Tj ( ) Tj (inactivation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Persistent) Tj ( ) Tj (Na^+) Tj ( ) Tj (current) Tj  T* (-) Tj (>) Tj ( ) Tj (Nernst) Tj ( ) Tj (equilibrium) Tj ( ) Tj (for) Tj ( ) Tj (Na^+) Tj ( ) Tj (shifts) Tj ( ) Tj (the) Tj ( ) Tj (operating) Tj ( ) Tj (V_m) Tj  T* (-) Tj (>) Tj ( ) Tj (New) Tj ( ) Tj (stable) Tj ( ) Tj (point:) Tj ( ) Tj (V_m) Tj ( ) Tj (~=) Tj ( ) Tj (-45) Tj ( ) Tj (to) Tj ( ) Tj (-55) Tj ( ) Tj (mV) Tj ( ) Tj (\(chronically) Tj ( ) Tj (depolarized\)) Tj  T* (-) Tj (>) Tj ( ) Tj (At) Tj ( ) Tj (this) Tj ( ) Tj (V_m,) Tj ( ) Tj (NMDA) Tj ( ) Tj (Mg?^+) Tj ( ) Tj (block) Tj ( ) Tj (removed) Tj ( ) Tj (even) Tj ( ) Tj (without) Tj ( ) Tj (stimulus) Tj  T* (-) Tj (>) Tj ( ) Tj (Gate) Tj ( ) Tj (OPEN) Tj ( ) Tj (with) Tj ( ) Tj (no) Tj ( ) Tj (nociceptive) Tj ( ) Tj (input) Tj  T* (-) Tj (>) Tj ( ) Tj (The) Tj ( ) Tj (hell) Tj ( ) Tj (state) Tj ( ) Tj (\(Paper) Tj ( ) Tj (16\)) Tj T* ET
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Excessive) Tj ( ) Tj (NMDA) Tj ( ) Tj (activation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Sustained) Tj ( ) Tj (Ca^2^+) Tj ( ) Tj (influx) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Sustained) Tj ( ) Tj (PKC) Tj ( ) Tj (-) Tj (>) Tj  T* (-) Tj (>) Tj ( ) Tj (Phosphorylation) Tj ( ) Tj (of) Tj ( ) Tj (Na^+) Tj ( ) Tj (channels) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Reduced) Tj ( ) Tj (inactivation) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Persistent) Tj ( ) Tj (Na^+) Tj ( ) Tj (current) Tj  T* (-) Tj (>) Tj ( ) Tj (Nernst) Tj ( ) Tj (equilibrium) Tj ( ) Tj (for) Tj ( ) Tj (Na^+) Tj ( ) Tj (shifts) Tj ( ) Tj (the) Tj ( ) Tj (operating) Tj ( ) Tj (V_m) Tj  T* (-) Tj (>) Tj ( ) Tj (New) Tj ( ) Tj (stable) Tj ( ) Tj (point:) Tj ( ) Tj (V_m) Tj ( ) Tj (~=) Tj ( ) Tj (-45) Tj ( ) Tj (to) Tj ( ) Tj (-55) Tj ( ) Tj (mV) Tj ( ) Tj (\(chronically) Tj ( ) Tj (depolarized\)) Tj  T* (-) Tj (>) Tj ( ) Tj (At) Tj ( ) Tj (this) Tj ( ) Tj (V_m,) Tj ( ) Tj (NMDA) Tj ( ) Tj (Mg^2^+) Tj ( ) Tj (block) Tj ( ) Tj (removed) Tj ( ) Tj (even) Tj ( ) Tj (without) Tj ( ) Tj (stimulus) Tj  T* (-) Tj (>) Tj ( ) Tj (Gate) Tj ( ) Tj (OPEN) Tj ( ) Tj (with) Tj ( ) Tj (no) Tj ( ) Tj (nociceptive) Tj ( ) Tj (input) Tj  T* (-) Tj (>) Tj ( ) Tj (The) Tj ( ) Tj (hell) Tj ( ) Tj (state) Tj ( ) Tj (\(Paper) Tj ( ) Tj (16\)) Tj T* ET
 Q
 Q
 q
@@ -753,7 +753,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 8756
+/Length 8758
 >>
 stream
 q
@@ -787,7 +787,7 @@ q
 n 20 0 452 105.6 re f*
 Q
 q
-BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (NIR) Tj ( ) Tj (\(810-980) Tj ( ) Tj (nm\)) Tj ( ) Tj (photons) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Absorbed) Tj ( ) Tj (by) Tj ( ) Tj (cytochrome) Tj ( ) Tj (c) Tj ( ) Tj (oxidase) Tj ( ) Tj (\(Complex) Tj ( ) Tj (IV,) Tj ( ) Tj (mitochondrial) Tj ( ) Tj (ETC\)) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Enhanced) Tj ( ) Tj (electron) Tj ( ) Tj (transport) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (increased) Tj ( ) Tj (proton) Tj ( ) Tj (gradient) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Increased) Tj ( ) Tj (ATP) Tj ( ) Tj (synthesis) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Na+/K+) Tj ( ) Tj (ATPase) Tj ( ) Tj (has) Tj ( ) Tj (sufficient) Tj ( ) Tj (ATP) Tj ( ) Tj (to) Tj ( ) Tj (run) Tj ( ) Tj (at) Tj ( ) Tj (normal) Tj ( ) Tj (rate) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (3) Tj ( ) Tj (Na^+) Tj ( ) Tj (out) Tj ( ) Tj (/) Tj ( ) Tj (2) Tj ( ) Tj (K^+) Tj ( ) Tj (in) Tj ( ) Tj (per) Tj ( ) Tj (cycle) Tj ( ) Tj (restored) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Ion) Tj ( ) Tj (gradients) Tj ( ) Tj (restored) Tj ( ) Tj (toward) Tj ( ) Tj (healthy) Tj ( ) Tj (Nernst) Tj ( ) Tj (values) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (V_m) Tj ( ) Tj (recovers) Tj ( ) Tj (toward) Tj ( ) Tj (-70) Tj ( ) Tj (mV) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (NMDA) Tj ( ) Tj (Mg?^+) Tj ( ) Tj (block) Tj ( ) Tj (restored) Tj ( ) Tj (at) Tj ( ) Tj (-70) Tj ( ) Tj (mV) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Gate) Tj ( ) Tj (closes) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (drops) Tj ( ) Tj (below) Tj ( ) Tj (gamma_c) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Hell) Tj ( ) Tj (state) Tj ( ) Tj (exits) Tj T* ET
+BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (NIR) Tj ( ) Tj (\(810-980) Tj ( ) Tj (nm\)) Tj ( ) Tj (photons) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Absorbed) Tj ( ) Tj (by) Tj ( ) Tj (cytochrome) Tj ( ) Tj (c) Tj ( ) Tj (oxidase) Tj ( ) Tj (\(Complex) Tj ( ) Tj (IV,) Tj ( ) Tj (mitochondrial) Tj ( ) Tj (ETC\)) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Enhanced) Tj ( ) Tj (electron) Tj ( ) Tj (transport) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (increased) Tj ( ) Tj (proton) Tj ( ) Tj (gradient) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Increased) Tj ( ) Tj (ATP) Tj ( ) Tj (synthesis) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Na+/K+) Tj ( ) Tj (ATPase) Tj ( ) Tj (has) Tj ( ) Tj (sufficient) Tj ( ) Tj (ATP) Tj ( ) Tj (to) Tj ( ) Tj (run) Tj ( ) Tj (at) Tj ( ) Tj (normal) Tj ( ) Tj (rate) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (3) Tj ( ) Tj (Na^+) Tj ( ) Tj (out) Tj ( ) Tj (/) Tj ( ) Tj (2) Tj ( ) Tj (K^+) Tj ( ) Tj (in) Tj ( ) Tj (per) Tj ( ) Tj (cycle) Tj ( ) Tj (restored) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Ion) Tj ( ) Tj (gradients) Tj ( ) Tj (restored) Tj ( ) Tj (toward) Tj ( ) Tj (healthy) Tj ( ) Tj (Nernst) Tj ( ) Tj (values) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (V_m) Tj ( ) Tj (recovers) Tj ( ) Tj (toward) Tj ( ) Tj (-70) Tj ( ) Tj (mV) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (NMDA) Tj ( ) Tj (Mg^2^+) Tj ( ) Tj (block) Tj ( ) Tj (restored) Tj ( ) Tj (at) Tj ( ) Tj (-70) Tj ( ) Tj (mV) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Gate) Tj ( ) Tj (closes) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (drops) Tj ( ) Tj (below) Tj ( ) Tj (gamma_c) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (Hell) Tj ( ) Tj (state) Tj ( ) Tj (exits) Tj T* ET
 Q
 Q
 q
@@ -995,7 +995,7 @@ q
 n 20 0 452 70.4 re f*
 Q
 q
-BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f) Tj ( ) Tj (=) Tj ( ) Tj (k_B) Tj ( ) Tj (.) Tj ( ) Tj (T) Tj ( ) Tj (/) Tj ( ) Tj (h) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([Planck-Boltzmann:) Tj ( ) Tj (body) Tj ( ) Tj (temperature) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (thermal) Tj ( ) Tj (frequency]) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (f) Tj ( ) Tj (=) Tj ( ) Tj (9.7) Tj ( ) Tj (THz) Tj ( ) Tj (at) Tj ( ) Tj (310) Tj ( ) Tj (K) Tj ( ) Tj ( ) Tj ([body) Tj ( ) Tj (temperature) Tj ( ) Tj (frequency]) Tj  T*  T* (E) Tj ( ) Tj (=) Tj ( ) Tj (\(k_B) Tj ( ) Tj (.) Tj ( ) Tj (T) Tj ( ) Tj (/) Tj ( ) Tj (zF'\)) Tj ( ) Tj (.) Tj ( ) Tj (ln\([C]\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([Nernst:) Tj ( ) Tj (temperature) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (membrane) Tj ( ) Tj (potential]) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (V_m) Tj ( ) Tj (=) Tj ( ) Tj (-70) Tj ( ) Tj (mV) Tj ( ) Tj (at) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310) Tj ( ) Tj (K,) Tj ( ) Tj (healthy) Tj ( ) Tj (ion) Tj ( ) Tj (gradients) Tj  T*  T* (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (.) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (.) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([Wike:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (coherence]) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (1.0) Tj ( ) Tj (when) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(V_m) Tj ( ) Tj (=) Tj ( ) Tj (-70) Tj ( ) Tj (mV) Tj ( ) Tj (maintained\)) Tj T* ET
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f) Tj ( ) Tj (=) Tj ( ) Tj (k_B) Tj ( ) Tj (.) Tj ( ) Tj (T) Tj ( ) Tj (/) Tj ( ) Tj (h) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([Planck-Boltzmann:) Tj ( ) Tj (body) Tj ( ) Tj (temperature) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (thermal) Tj ( ) Tj (frequency]) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (f) Tj ( ) Tj (=) Tj ( ) Tj (9.7) Tj ( ) Tj (THz) Tj ( ) Tj (at) Tj ( ) Tj (310) Tj ( ) Tj (K) Tj ( ) Tj ( ) Tj ([body) Tj ( ) Tj (temperature) Tj ( ) Tj (frequency]) Tj  T*  T* (E) Tj ( ) Tj (=) Tj ( ) Tj (\(k_B) Tj ( ) Tj (.) Tj ( ) Tj (T) Tj ( ) Tj (/) Tj ( ) Tj (zF'\)) Tj ( ) Tj (.) Tj ( ) Tj (ln\([C]\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([Nernst:) Tj ( ) Tj (temperature) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (membrane) Tj ( ) Tj (potential]) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (V_m) Tj ( ) Tj (=) Tj ( ) Tj (-70) Tj ( ) Tj (mV) Tj ( ) Tj (at) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310) Tj ( ) Tj (K,) Tj ( ) Tj (healthy) Tj ( ) Tj (ion) Tj ( ) Tj (gradients) Tj  T*  T* (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (.) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (.) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ([Wike:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (coherence]) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (1.0) Tj ( ) Tj (when) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(V_m) Tj ( ) Tj (=) Tj ( ) Tj (-70) Tj ( ) Tj (mV) Tj ( ) Tj (maintained\)) Tj T* ET
 Q
 Q
  
@@ -1117,7 +1117,7 @@ endobj
 endobj
 21 0 obj
 <<
-/Length 6635
+/Length 6636
 >>
 stream
 q
@@ -1175,7 +1175,7 @@ q
 1 0 0 1 60 639.4 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 C = C?.exp\(-alphagamma_eff\): the coherence the system preserves) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 C = C_0.exp\(-alphagamma_eff\): the coherence the system preserves) Tj T* ET
 Q
 Q
 q
@@ -1671,20 +1671,20 @@ xref
 0000007128 00000 n 
 0000007234 00000 n 
 0000007609 00000 n 
-0000015876 00000 n 
-0000015984 00000 n 
-0000016095 00000 n 
-0000016470 00000 n 
-0000025279 00000 n 
-0000025387 00000 n 
-0000025498 00000 n 
-0000025873 00000 n 
-0000032561 00000 n 
-0000032669 00000 n 
-0000032780 00000 n 
-0000033155 00000 n 
-0000036911 00000 n 
-0000037019 00000 n 
+0000015879 00000 n 
+0000015987 00000 n 
+0000016098 00000 n 
+0000016473 00000 n 
+0000025284 00000 n 
+0000025392 00000 n 
+0000025503 00000 n 
+0000025878 00000 n 
+0000032567 00000 n 
+0000032675 00000 n 
+0000032786 00000 n 
+0000033161 00000 n 
+0000036917 00000 n 
+0000037025 00000 n 
 trailer
 <<
 /Size 28
@@ -1692,5 +1692,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-37130
+37136
 %%EOF

@@ -60,7 +60,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5405
+/Length 5411
 >>
 stream
 q
@@ -157,7 +157,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (|psi\(x\)|?) Tj ( ) Tj (~) Tj ( ) Tj (exp\(nu2|x|/xi_loc\)) Tj  T*  T* (where) Tj ( ) Tj (xi_loc) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (localization) Tj ( ) Tj (length,) Tj ( ) Tj (inversely) Tj ( ) Tj (proportional) Tj ( ) Tj (to) Tj ( ) Tj (disorder) Tj ( ) Tj (strength) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (|psi\(x\)|^2) Tj ( ) Tj (~) Tj ( ) Tj (exp\(-2|x|/xi_loc\)) Tj  T*  T* (where) Tj ( ) Tj (xi_loc) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (localization) Tj ( ) Tj (length,) Tj ( ) Tj (inversely) Tj ( ) Tj (proportional) Tj ( ) Tj (to) Tj ( ) Tj (disorder) Tj ( ) Tj (strength) Tj T* ET
 Q
 Q
 q
@@ -190,7 +190,7 @@ q
 n 20 0 452 8.8 re f*
 Q
 q
-BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu0.45n\)) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-0.45n\)) Tj T* ET
 Q
 Q
 q
@@ -262,7 +262,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (H) Tj ( ) Tj (=) Tj ( ) Tj (PI_i) Tj ( ) Tj (epsilon_i) Tj ( ) Tj (|i) Tj (>) Tj (<) Tj (i|) Tj ( ) Tj (+) Tj ( ) Tj (t) Tj ( ) Tj (PI_i) Tj ( ) Tj (\(|i) Tj (>) Tj (<) Tj (i+1|) Tj ( ) Tj (+) Tj ( ) Tj (|i+1) Tj (>) Tj (<) Tj (i|\)) Tj  T*  T* (where) Tj ( ) Tj (epsilon_i) Tj ( ) Tj (are) Tj ( ) Tj (random) Tj ( ) Tj (on-site) Tj ( ) Tj (energies) Tj ( ) Tj (\(disorder\)) Tj  T* (and) Tj ( ) Tj (t) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (hopping) Tj ( ) Tj (amplitude) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (H) Tj ( ) Tj (=) Tj ( ) Tj (SIGMA_i) Tj ( ) Tj (epsilon_i) Tj ( ) Tj (|i) Tj (>) Tj (<) Tj (i|) Tj ( ) Tj (+) Tj ( ) Tj (t) Tj ( ) Tj (SIGMA_i) Tj ( ) Tj (\(|i) Tj (>) Tj (<) Tj (i+1|) Tj ( ) Tj (+) Tj ( ) Tj (|i+1) Tj (>) Tj (<) Tj (i|\)) Tj  T*  T* (where) Tj ( ) Tj (epsilon_i) Tj ( ) Tj (are) Tj ( ) Tj (random) Tj ( ) Tj (on-site) Tj ( ) Tj (energies) Tj ( ) Tj (\(disorder\)) Tj  T* (and) Tj ( ) Tj (t) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (hopping) Tj ( ) Tj (amplitude) Tj T* ET
 Q
 Q
 q
@@ -423,7 +423,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 7119
+/Length 7148
 >>
 stream
 q
@@ -454,7 +454,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Localization) Tj ( ) Tj (length:) Tj ( ) Tj (xi_loc) Tj ( ) Tj (=) Tj ( ) Tj (105.2) Tj ( ) Tj (x) Tj ( ) Tj (\(t/W\)?) Tj ( ) Tj ( ) Tj ([in) Tj ( ) Tj (1D,) Tj ( ) Tj (leading) Tj ( ) Tj (term]) Tj  T*  T* (|psi\(x\)|?) Tj ( ) Tj (~) Tj ( ) Tj (exp\(nu2|x) Tj ( ) Tj (nu) Tj ( ) Tj (x?|/xi_loc\)) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Localization) Tj ( ) Tj (length:) Tj ( ) Tj (xi_loc) Tj ( ) Tj (=) Tj ( ) Tj (105.2) Tj ( ) Tj (x) Tj ( ) Tj (\(t/W\)^2) Tj ( ) Tj ( ) Tj ([in) Tj ( ) Tj (1D,) Tj ( ) Tj (leading) Tj ( ) Tj (term]) Tj  T*  T* (|psi\(x\)|^2) Tj ( ) Tj (~) Tj ( ) Tj (exp\(-2|x) Tj ( ) Tj (-) Tj ( ) Tj (x_0|/xi_loc\)) Tj T* ET
 Q
 Q
 q
@@ -502,7 +502,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu0.45n\)) Tj  T*  T* (where) Tj ( ) Tj (n) Tj ( ) Tj (=) Tj ( ) Tj (number) Tj ( ) Tj (of) Tj ( ) Tj (adverse) Tj ( ) Tj (childhood) Tj ( ) Tj (experiences) Tj ( ) Tj (\(0-10+\)) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-0.45n\)) Tj  T*  T* (where) Tj ( ) Tj (n) Tj ( ) Tj (=) Tj ( ) Tj (number) Tj ( ) Tj (of) Tj ( ) Tj (adverse) Tj ( ) Tj (childhood) Tj ( ) Tj (experiences) Tj ( ) Tj (\(0-10+\)) Tj T* ET
 Q
 Q
 q
@@ -522,7 +522,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (n) Tj ( ) Tj (ACEs) Tj ( ) Tj (?) Tj ( ) Tj (x) Tj ( ) Tj (=) Tj ( ) Tj (n) Tj ( ) Tj (sites) Tj ( ) Tj (in) Tj ( ) Tj (a) Tj ( ) Tj (1D) Tj ( ) Tj (chain) Tj  T* (nu0.45) Tj ( ) Tj (?) Tj ( ) Tj (nu2/xi_loc) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (xi_loc) Tj ( ) Tj (=) Tj ( ) Tj (2/0.45) Tj ( ) Tj (=) Tj ( ) Tj (4.44) Tj ( ) Tj ( ) Tj ([in) Tj ( ) Tj (units) Tj ( ) Tj (of) Tj ( ) Tj (ACE) Tj ( ) Tj (events]) Tj  T*  T* (Disorder) Tj ( ) Tj (strength) Tj ( ) Tj (W:) Tj ( ) Tj (each) Tj ( ) Tj (ACE) Tj ( ) Tj (is) Tj ( ) Tj (an) Tj ( ) Tj (independent) Tj ( ) Tj (scattering) Tj ( ) Tj (event) Tj ( ) Tj (with) Tj ( ) Tj (fixed) Tj ( ) Tj (amplitude) Tj  T* (W_ACE) Tj ( ) Tj (=) Tj ( ) Tj (0.45) Tj ( ) Tj (x) Tj ( ) Tj (C?) Tj ( ) Tj (\(per) Tj ( ) Tj (event\)) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (n) Tj ( ) Tj (ACEs) Tj ( ) Tj (<) Tj (-) Tj (>) Tj ( ) Tj (x) Tj ( ) Tj (=) Tj ( ) Tj (n) Tj ( ) Tj (sites) Tj ( ) Tj (in) Tj ( ) Tj (a) Tj ( ) Tj (1D) Tj ( ) Tj (chain) Tj  T* (-0.45) Tj ( ) Tj (<) Tj (-) Tj (>) Tj ( ) Tj (-2/xi_loc) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (xi_loc) Tj ( ) Tj (=) Tj ( ) Tj (2/0.45) Tj ( ) Tj (=) Tj ( ) Tj (4.44) Tj ( ) Tj ( ) Tj ([in) Tj ( ) Tj (units) Tj ( ) Tj (of) Tj ( ) Tj (ACE) Tj ( ) Tj (events]) Tj  T*  T* (Disorder) Tj ( ) Tj (strength) Tj ( ) Tj (W:) Tj ( ) Tj (each) Tj ( ) Tj (ACE) Tj ( ) Tj (is) Tj ( ) Tj (an) Tj ( ) Tj (independent) Tj ( ) Tj (scattering) Tj ( ) Tj (event) Tj ( ) Tj (with) Tj ( ) Tj (fixed) Tj ( ) Tj (amplitude) Tj  T* (W_ACE) Tj ( ) Tj (=) Tj ( ) Tj (0.45) Tj ( ) Tj (x) Tj ( ) Tj (C_0) Tj ( ) Tj (\(per) Tj ( ) Tj (event\)) Tj T* ET
 Q
 Q
 q
@@ -532,7 +532,7 @@ q
 1 0 0 1 60 417.2 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The coherence C is the amplitude of the coherent wave function at position n in the ACE chain. Each ACE is an) Tj T* (independent scattering site. The wave function is localized with localization length xi_loc ~= 4.4 ACEs \(meaning after 4.4) Tj T* (ACEs, coherence decays to 1/e?\).) Tj T* ET
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The coherence C is the amplitude of the coherent wave function at position n in the ACE chain. Each ACE is an) Tj T* (independent scattering site. The wave function is localized with localization length xi_loc ~= 4.4 ACEs \(meaning after 4.4) Tj T* (ACEs, coherence decays to 1/e^2\).) Tj T* ET
 Q
 Q
 q
@@ -576,7 +576,7 @@ Q
 q
 1 0 0 1 60 267.2 cm
 q
-BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (Translation: ) Tj /F2 9 Tf (there is no "safe" number of ACEs that leaves coherence unaffected.) Tj /F1 9 Tf ( Every adverse experience --) Tj T* (however small, however isolated -- contributes to localization. The first ACE reduces coherence by 36% \(1 nu e^\(-0.45\) =) Tj T* (0.36\). The second reduces it another 36% of what remains. No threshold, no recovery, no saturation.) Tj T* ET
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (Translation: ) Tj /F2 9 Tf (there is no "safe" number of ACEs that leaves coherence unaffected.) Tj /F1 9 Tf ( Every adverse experience --) Tj T* (however small, however isolated -- contributes to localization. The first ACE reduces coherence by 36% \(1 - e^\(-0.45\) =) Tj T* (0.36\). The second reduces it another 36% of what remains. No threshold, no recovery, no saturation.) Tj T* ET
 Q
 Q
 q
@@ -606,7 +606,7 @@ q
 n 20 0 452 52.8 re f*
 Q
 q
-BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (n=0) Tj ( ) Tj (ACEs:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (1.000) Tj ( ) Tj ( ) Tj (\(baseline\)) Tj  T* (n=1) Tj ( ) Tj (ACE:) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (0.638) Tj ( ) Tj ( ) Tj (\(nu36%\)) Tj  T* (n=2) Tj ( ) Tj (ACEs:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (0.407) Tj ( ) Tj ( ) Tj (\(nu59%\)) Tj  T* (n=4) Tj ( ) Tj (ACEs:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (0.165) Tj ( ) Tj ( ) Tj (\(nu84%\)) Tj  T* (n=7) Tj ( ) Tj (ACEs:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (0.044) Tj ( ) Tj ( ) Tj (\(nu96%\)) Tj  T* (n=10) Tj ( ) Tj (ACEs:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (0.011) Tj ( ) Tj (\(nu99%\)) Tj T* ET
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (n=0) Tj ( ) Tj (ACEs:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (1.000) Tj ( ) Tj ( ) Tj (\(baseline\)) Tj  T* (n=1) Tj ( ) Tj (ACE:) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (0.638) Tj ( ) Tj ( ) Tj (\(-36%\)) Tj  T* (n=2) Tj ( ) Tj (ACEs:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (0.407) Tj ( ) Tj ( ) Tj (\(-59%\)) Tj  T* (n=4) Tj ( ) Tj (ACEs:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (0.165) Tj ( ) Tj ( ) Tj (\(-84%\)) Tj  T* (n=7) Tj ( ) Tj (ACEs:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (0.044) Tj ( ) Tj ( ) Tj (\(-96%\)) Tj  T* (n=10) Tj ( ) Tj (ACEs:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (0.011) Tj ( ) Tj (\(-99%\)) Tj T* ET
 Q
 Q
 q
@@ -759,7 +759,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 6886
+/Length 6861
 >>
 stream
 q
@@ -790,7 +790,7 @@ q
 1 0 0 1 60 686 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.12435 Tw (These are not linear increases. They are consistent with the exponential localization function -- C? x 0.165 at n=4 means the) Tj T* 0 Tw (system is operating at 16.5% of baseline coherence, far below gamma_c.) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (These are not linear increases. They are consistent with the exponential localization function -- C_0 x 0.165 at n=4 means) Tj T* (the system is operating at 16.5% of baseline coherence, far below gamma_c.) Tj T* ET
 Q
 Q
 q
@@ -906,7 +906,7 @@ q
 n 20 0 452 8.8 re f*
 Q
 q
-BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nun^nu\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nun^0.6298\)) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-n^nu\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-n^0.6298\)) Tj T* ET
 Q
 Q
 q
@@ -926,7 +926,7 @@ q
 n 20 0 452 8.8 re f*
 Q
 q
-BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu0.45n\)) Tj ( ) Tj ( ) Tj ( ) Tj (\(simple) Tj ( ) Tj (exponential,) Tj ( ) Tj (Anderson) Tj ( ) Tj (1D\)) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-0.45n\)) Tj ( ) Tj ( ) Tj ( ) Tj (\(simple) Tj ( ) Tj (exponential,) Tj ( ) Tj (Anderson) Tj ( ) Tj (1D\)) Tj T* ET
 Q
 Q
 q
@@ -949,7 +949,7 @@ q
 n 20 0 452 70.4 re f*
 Q
 q
-BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (n=10:) Tj ( ) Tj ( ) Tj (Anderson:) Tj ( ) Tj (exp\(nu4.5\)) Tj ( ) Tj (=) Tj ( ) Tj (0.011) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (3D) Tj ( ) Tj (Ising:) Tj ( ) Tj (exp\(nu10^0.63\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(nu4.27\)) Tj ( ) Tj (=) Tj ( ) Tj (0.014) Tj  T*  T* (n=20:) Tj ( ) Tj ( ) Tj (Anderson:) Tj ( ) Tj (exp\(nu9.0\)) Tj ( ) Tj (=) Tj ( ) Tj (0.0001) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (3D) Tj ( ) Tj (Ising:) Tj ( ) Tj (exp\(nu20^0.63\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(nu6.92\)) Tj ( ) Tj (=) Tj ( ) Tj (0.001) Tj  T*  T* (n=4:) Tj ( ) Tj ( ) Tj ( ) Tj (Anderson:) Tj ( ) Tj (exp\(nu1.8\)) Tj ( ) Tj (=) Tj ( ) Tj (0.165) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (3D) Tj ( ) Tj (Ising:) Tj ( ) Tj (exp\(nu4^0.63\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(nu2.52\)) Tj ( ) Tj (=) Tj ( ) Tj (0.081) Tj T* ET
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (n=10:) Tj ( ) Tj ( ) Tj (Anderson:) Tj ( ) Tj (exp\(-4.5\)) Tj ( ) Tj (=) Tj ( ) Tj (0.011) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (3D) Tj ( ) Tj (Ising:) Tj ( ) Tj (exp\(-10^0.63\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-4.27\)) Tj ( ) Tj (=) Tj ( ) Tj (0.014) Tj  T*  T* (n=20:) Tj ( ) Tj ( ) Tj (Anderson:) Tj ( ) Tj (exp\(-9.0\)) Tj ( ) Tj (=) Tj ( ) Tj (0.0001) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (3D) Tj ( ) Tj (Ising:) Tj ( ) Tj (exp\(-20^0.63\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-6.92\)) Tj ( ) Tj (=) Tj ( ) Tj (0.001) Tj  T*  T* (n=4:) Tj ( ) Tj ( ) Tj ( ) Tj (Anderson:) Tj ( ) Tj (exp\(-1.8\)) Tj ( ) Tj (=) Tj ( ) Tj (0.165) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (3D) Tj ( ) Tj (Ising:) Tj ( ) Tj (exp\(-4^0.63\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2.52\)) Tj ( ) Tj (=) Tj ( ) Tj (0.081) Tj T* ET
 Q
 Q
 q
@@ -1098,7 +1098,7 @@ endobj
 endobj
 21 0 obj
 <<
-/Length 4282
+/Length 4281
 >>
 stream
 q
@@ -1237,7 +1237,7 @@ n 20 0 452 8.8 re f*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Wave function | |psi\(x\)|? | C\(n\) | Coherence |) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Wave function | |psi\(x\)|^2 | C\(n\) | Coherence |) Tj T* ET
 Q
 Q
 q
@@ -1270,7 +1270,7 @@ n 20 0 452 8.8 re f*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Decay form | exp\(nu2x/xi\) | exp\(nu0.45n\) | Same |) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Decay form | exp\(-2x/xi\) | exp\(-0.45n\) | Same |) Tj T* ET
 Q
 Q
 q
@@ -1396,24 +1396,24 @@ xref
 0000000294 00000 n 
 0000000343 00000 n 
 0000000714 00000 n 
-0000006171 00000 n 
-0000006278 00000 n 
-0000006385 00000 n 
-0000006497 00000 n 
-0000006607 00000 n 
-0000006723 00000 n 
-0000006829 00000 n 
-0000007204 00000 n 
-0000014376 00000 n 
-0000014484 00000 n 
-0000014595 00000 n 
-0000014970 00000 n 
-0000021909 00000 n 
-0000022017 00000 n 
-0000022128 00000 n 
-0000022503 00000 n 
-0000026838 00000 n 
-0000026946 00000 n 
+0000006177 00000 n 
+0000006284 00000 n 
+0000006391 00000 n 
+0000006503 00000 n 
+0000006613 00000 n 
+0000006729 00000 n 
+0000006835 00000 n 
+0000007210 00000 n 
+0000014411 00000 n 
+0000014519 00000 n 
+0000014630 00000 n 
+0000015005 00000 n 
+0000021919 00000 n 
+0000022027 00000 n 
+0000022138 00000 n 
+0000022513 00000 n 
+0000026847 00000 n 
+0000026955 00000 n 
 trailer
 <<
 /Size 24
@@ -1421,5 +1421,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-27057
+27066
 %%EOF

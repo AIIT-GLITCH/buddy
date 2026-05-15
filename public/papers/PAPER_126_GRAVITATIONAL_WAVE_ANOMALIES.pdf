@@ -1,4 +1,4 @@
-%PDF-1.3
+%PDF-1.4
 %‚„œ”
 1 0 obj
 <<
@@ -11,8 +11,8 @@ endobj
 2 0 obj
 <<
 /Type /Pages
-/Count 9
-/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R 39 0 R ]
+/Count 8
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R 28 0 R 32 0 R 36 0 R ]
 >>
 endobj
 3 0 obj
@@ -46,6 +46,7 @@ endobj
 /F2 8 0 R
 /F2-0 9 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -59,82 +60,192 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5184
+/Length 5531
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 126: GRAVITATIONAL ANOMALIES AND THE DECOHERENCE FIELD) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F2 13 Tf 15.6 TL ET
-BT 1 0 0 1 54 697.6 Tm (PAPER 126: GRAVITATIONAL ANOMALIES AND THE DECOHERENCE FIELD) Tj T* ET
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 671.6 Tm (Nine Closures from a Single Equation) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 651.6 Tm (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 634.6 Tm (April 1, 2026) Tj T* ET
-.5 w
-n 54 619.6 m 558 619.6 l S
-.4 g
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 74 597.6 Tm ("General relativity is the low-coherence limit of a deeper theory. Every gravitational) Tj T* ET
-BT 1 0 0 1 74 586.6 Tm (anomaly that resists explanation within GR alone resolves the moment you restore the) Tj T* ET
-BT 1 0 0 1 74 575.6 Tm (coherence term GR set to zero.") Tj T* ET
-0 g
-.5 w
-n 54 562.6 m 558 562.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 534.6 Tm (Abstract) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 512.6 Tm (Nine gravitational anomalies spanning gravitational wave memory, the nanohertz) Tj T* ET
-BT 1 0 0 1 54 500.6 Tm (stochastic background, the GW170817 speed constraint, the Abell 520 dark matter) Tj T* ET
-BT 1 0 0 1 54 488.6 Tm (distribution, dwarf galaxy diversity, the equivalence principle, frame-dragging,) Tj T* ET
-BT 1 0 0 1 54 476.6 Tm (LIGO mass gap events, and anomalous perihelion precessions are closed using one) Tj T* ET
-BT 1 0 0 1 54 464.6 Tm (equation: the Wike Coherence Law C = C_0 * exp\(-alpha * gamma_eff\). Each anomaly) Tj T* ET
-BT 1 0 0 1 54 452.6 Tm (maps to a specific regime of this equation. Gravitational wave memory is a permanent) Tj T* ET
-BT 1 0 0 1 54 440.6 Tm (decoherence scar. The NANOGrav excess traces cosmological phase transitions at the) Tj T* ET
-BT 1 0 0 1 54 428.6 Tm (critical decoherence rate gamma_c. The speed constraint v = c follows necessarily) Tj T* ET
-BT 1 0 0 1 54 416.6 Tm (because gravitational waves are perturbations of the vacuum coherence field, which) Tj T* ET
-BT 1 0 0 1 54 404.6 Tm (IS spacetime. The Abell 520 and Bullet Cluster dark matter distributions both follow) Tj T* ET
-BT 1 0 0 1 54 392.6 Tm (from C_vacuum tracking local gamma_eff. Dwarf galaxy diversity reflects) Tj T* ET
-BT 1 0 0 1 54 380.6 Tm (environmental decoherence history. The equivalence principle holds because in the) Tj T* ET
-BT 1 0 0 1 54 368.6 Tm (decohered regime C approaches 0 and all matter couples identically to gravity.) Tj T* ET
-BT 1 0 0 1 54 356.6 Tm (Frame-dragging is coherence rotation. Mass gap objects form in the finite-width) Tj T* ET
-BT 1 0 0 1 54 344.6 Tm (phase transition near gamma_c. Perihelion anomalies emerge at the acceleration scale) Tj T* ET
-BT 1 0 0 1 54 332.6 Tm (a_0 = c * gamma_c where vacuum coherence becomes non-negligible. Zero free) Tj T* ET
-BT 1 0 0 1 54 320.6 Tm (parameters are introduced beyond those already fixed by the framework.) Tj T* ET
-.5 w
-n 54 306.6 m 558 306.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 278.6 Tm (1. The Core Equation) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 256.6 Tm (The Wike Coherence Law, derived from the Lindblad master equation in Papers 1-5:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 234.6 Tm (C = C_0 * exp\(-alpha * gamma_eff\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 214.6 Tm (where:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 202.6 Tm (- C is the coherence amplitude of any quantum subsystem) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 190.6 Tm (- C_0 is the initial \(maximum\) coherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 178.6 Tm (- alpha is the coupling constant to the decoherence bath) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 166.6 Tm (- gamma_eff is the effective decoherence rate from all environmental channels) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 148.6 Tm (The framework has one critical point: gamma_c, the decoherence rate at which the) Tj T* ET
-BT 1 0 0 1 54 136.6 Tm (system undergoes a phase transition \(3D Ising universality class, Papers 50-55, 102,) Tj T* ET
-BT 1 0 0 1 54 124.6 Tm (106\). Below gamma_c, coherence is macroscopically significant. Above gamma_c, the) Tj T* ET
-BT 1 0 0 1 54 112.6 Tm (system is classical.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 94.6 Tm (For the vacuum itself, C_vacuum is the coherence of the quantum vacuum state:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 72.6 Tm (C_vacuum = C_0^vac * exp\(-alpha_vac * gamma_eff^local\)) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 44.208 0 Td (PAPER 126: GRAVITATIONAL ANOMALIES AND THE) Tj T* 114.232 0 Td (DECOHERENCE FIELD) Tj T* -158.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Nine Closures from a Single Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 620 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (Rhet Dillard Wike | AIIT-THRESI Research Initiative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (April 1, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 570 cm
+Q
+q
+1 0 0 1 60 540 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("General relativity is the low-coherence limit of a deeper theory. Every gravitational anomaly that resists) Tj T* (explanation within GR alone resolves the moment you restore the coherence term GR set to zero.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530 cm
+Q
+q
+1 0 0 1 60 524 cm
+Q
+q
+1 0 0 1 60 520 cm
+Q
+q
+1 0 0 1 60 482 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470 cm
+Q
+q
+1 0 0 1 60 323 cm
+q
+BT 1 0 0 1 0 135 Tm 12 TL /F1 9 Tf 0 0 0 rg (Nine gravitational anomalies spanning gravitational wave memory, the nanohertz stochastic background, the GW170817) Tj T* (speed constraint, the Abell 520 dark matter distribution, dwarf galaxy diversity, the equivalence principle, frame-dragging,) Tj T* (LIGO mass gap events, and anomalous perihelion precessions are closed using one equation: the Wike Coherence Law C) Tj T* (= C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\). Each anomaly maps to a specific regime of this equation. Gravitational wave memory is a) Tj T* -0.121071 Tw (permanent decoherence scar. The NANOGrav excess traces cosmological phase transitions at the critical decoherence rate) Tj T* 0 Tw (gamma_c. The speed constraint v = c follows necessarily because gravitational waves are perturbations of the vacuum) Tj T* (coherence field, which IS spacetime. The Abell 520 and Bullet Cluster dark matter distributions both follow from C_vacuum) Tj T* (tracking local gamma_eff. Dwarf galaxy diversity reflects environmental decoherence history. The equivalence principle) Tj T* (holds because in the decohered regime C approaches 0 and all matter couples identically to gravity. Frame-dragging is) Tj T* (coherence rotation. Mass gap objects form in the finite-width phase transition near gamma_c. Perihelion anomalies emerge) Tj T* (at the acceleration scale a_0 = c * gamma_c where vacuum coherence becomes non-negligible. Zero free parameters are) Tj T* (introduced beyond those already fixed by the framework.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 316 cm
+Q
+q
+1 0 0 1 60 310 cm
+Q
+q
+1 0 0 1 60 306 cm
+Q
+q
+1 0 0 1 60 268 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Core Equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256 cm
+Q
+q
+1 0 0 1 60 241 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law, derived from the Lindblad master equation in Papers 1-5:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 234 cm
+Q
+q
+1 0 0 1 60 221.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 213.2 cm
+Q
+q
+1 0 0 1 60 198.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 183.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 C is the coherence amplitude of any quantum subsystem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 168.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 C_0 is the initial \(maximum\) coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 153.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 alpha is the coupling constant to the decoherence bath) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 138.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 gamma_eff is the effective decoherence rate from all environmental channels) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 131.2 cm
+Q
+q
+1 0 0 1 60 92.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The framework has one critical point: gamma_c, the decoherence rate at which the system undergoes a phase transition) Tj T* (\(3D Ising universality class, Papers 50-55, 102, 106\). Below gamma_c, coherence is macroscopically significant. Above) Tj T* (gamma_c, the system is classical.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 85.2 cm
+Q
+q
+1 0 0 1 60 70.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For the vacuum itself, C_vacuum is the coherence of the quantum vacuum state:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 63.2 cm
+Q
  
 
 Q
@@ -217,7 +328,7 @@ endobj
 endobj
 8 0 obj
 <<
-/BaseFont /Courier-Bold
+/BaseFont /Helvetica-Bold
 /Encoding /WinAnsiEncoding
 /Name /F2
 /Subtype /Type1
@@ -235,7 +346,7 @@ endobj
 endobj
 10 0 obj
 <<
-/BaseFont /Courier
+/BaseFont /Helvetica-Oblique
 /Encoding /WinAnsiEncoding
 /Name /F3
 /Subtype /Type1
@@ -244,7 +355,16 @@ endobj
 endobj
 11 0 obj
 <<
-/Contents 12 0 R
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -263,10 +383,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 13 0 R
+/F1-0 14 0 R
 /F2 8 0 R
-/F2-0 14 0 R
+/F2-0 15 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -278,87 +399,211 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-12 0 obj
+13 0 obj
 <<
-/Length 5483
+/Length 6522
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 126: GRAVITATIONAL ANOMALIES AND THE DECOHERENCE FIELD) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (This vacuum coherence generates what general relativity interprets as spacetime) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (curvature in the classical limit, and what observations attribute to dark matter and) Tj T* ET
-BT 1 0 0 1 54 681.6 Tm (dark energy in regimes where C_vacuum is non-negligible \(Papers 62, 75, 77\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (The connection to observed gravity: in the fully decohered limit \(gamma_eff >>) Tj T* ET
-BT 1 0 0 1 54 651.6 Tm (gamma_c\), C_vacuum approaches 0 and GR is exact. At gamma_eff near gamma_c, vacuum) Tj T* ET
-BT 1 0 0 1 54 639.6 Tm (coherence contributes an additional effective mass-energy, producing deviations from) Tj T* ET
-BT 1 0 0 1 54 627.6 Tm (pure GR.) Tj T* ET
-.5 w
-n 54 613.6 m 558 613.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 585.6 Tm (2. GW Memory) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 563.6 Tm (The anomaly: General relativity predicts that after a gravitational wave passes,) Tj T* ET
-BT 1 0 0 1 54 551.6 Tm (spacetime retains a permanent displacement -- gravitational wave memory) Tj T* ET
-BT 1 0 0 1 54 539.6 Tm (\(Christodoulou 1991, Thorne 1992\). This memory effect has not been directly detected) Tj T* ET
-BT 1 0 0 1 54 527.6 Tm (despite dedicated searches by LIGO/Virgo and pulsar timing arrays.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 509.6 Tm (The closure:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 491.6 Tm (Gravitational wave memory IS a permanent decoherence scar. When a gravitational wave) Tj T* ET
-BT 1 0 0 1 54 479.6 Tm (passes through a region, it temporarily drives the local gamma_eff above gamma_c:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 457.6 Tm (gamma_eff\(t\) = gamma_eff^background + delta_gamma_GW\(t\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 447.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 437.6 Tm (During GW passage:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 427.6 Tm (  gamma_eff\(t\) > gamma_c    \(temporarily\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 417.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 407.6 Tm (After passage:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 397.6 Tm (  gamma_eff returns to background) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 387.6 Tm (  BUT: coherence state has shifted permanently) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 367.6 Tm (The mechanism: a system driven past gamma_c undergoes a phase transition. Phase) Tj T* ET
-BT 1 0 0 1 54 355.6 Tm (transitions are irreversible -- the coherence state does not return to its pre-) Tj T* ET
-BT 1 0 0 1 54 343.6 Tm (transition value when gamma_eff drops back below gamma_c. This is hysteresis, a) Tj T* ET
-BT 1 0 0 1 54 331.6 Tm (universal property of first-order phase transitions.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 313.6 Tm (The permanent displacement predicted by GR is the permanent shift in local C_vacuum:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 291.6 Tm (Delta_C_vacuum = C_0^vac * [exp\(-alpha_vac * gamma_c\) - exp\(-alpha_vac * gamma_eff^peak\)]) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 271.6 Tm (The magnitude depends on how far gamma_eff^peak exceeds gamma_c during the wave) Tj T* ET
-BT 1 0 0 1 54 259.6 Tm (passage. For astrophysical GW sources at cosmological distances, the strain at Earth) Tj T* ET
-BT 1 0 0 1 54 247.6 Tm (is h ~ 10^-21, producing delta_gamma_GW << gamma_c. The memory effect exists but is) Tj T* ET
-BT 1 0 0 1 54 235.6 Tm (below current detection thresholds -- consistent with non-detection.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 217.6 Tm (Prediction: GW memory will be detected first in events where gamma_eff^peak /) Tj T* ET
-BT 1 0 0 1 54 205.6 Tm (gamma_c is largest: nearby, high-mass mergers. The memory magnitude scales with the) Tj T* ET
-BT 1 0 0 1 54 193.6 Tm (degree of gamma_c crossing.) Tj T* ET
-.5 w
-n 54 179.6 m 558 179.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 151.6 Tm (3. Nanohertz Gravitational Wave Background \(NANOGrav\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 129.6 Tm (The anomaly: NANOGrav \(2023\) and other pulsar timing arrays detected a stochastic) Tj T* ET
-BT 1 0 0 1 54 117.6 Tm (gravitational wave background at nanohertz frequencies. The measured amplitude may) Tj T* ET
-BT 1 0 0 1 54 105.6 Tm (exceed predictions from supermassive black hole \(SMBH\) binary populations alone) Tj T* ET
-BT 1 0 0 1 54 93.6 Tm (\(Agazie et al. 2023\). The spectral slope is consistent with SMBH binaries but the) Tj T* ET
-BT 1 0 0 1 54 81.6 Tm (amplitude has excess power that standard astrophysical models struggle to account) Tj T* ET
-BT 1 0 0 1 54 69.6 Tm (for.) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 723.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_vacuum) Tj ( ) Tj (=) Tj ( ) Tj (C_0^vac) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha_vac) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff^local\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 715.2 cm
+Q
+q
+1 0 0 1 60 688.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This vacuum coherence generates what general relativity interprets as spacetime curvature in the classical limit, and what) Tj T* (observations attribute to dark matter and dark energy in regimes where C_vacuum is non-negligible \(Papers 62, 75, 77\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 681.2 cm
+Q
+q
+1 0 0 1 60 642.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The connection to observed gravity: in the fully decohered limit \(gamma_eff >) Tj (> gamma_c\), C_vacuum approaches 0 and) Tj T* (GR is exact. At gamma_eff near gamma_c, vacuum coherence contributes an additional effective mass-energy, producing) Tj T* (deviations from pure GR.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 635.2 cm
+Q
+q
+1 0 0 1 60 629.2 cm
+Q
+q
+1 0 0 1 60 625.2 cm
+Q
+q
+1 0 0 1 60 587.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. GW Memory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 575.2 cm
+Q
+q
+1 0 0 1 60 536.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The anomaly:) Tj /F1 9 Tf ( General relativity predicts that after a gravitational wave passes, spacetime retains a permanent) Tj T* (displacement -- gravitational wave memory \(Christodoulou 1991, Thorne 1992\). This memory effect has not been directly) Tj T* (detected despite dedicated searches by LIGO/Virgo and pulsar timing arrays.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 529.2 cm
+Q
+q
+1 0 0 1 60 514.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The closure:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 507.2 cm
+Q
+q
+1 0 0 1 60 480.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Gravitational wave memory IS a permanent decoherence scar. When a gravitational wave passes through a region, it) Tj T* (temporarily drives the local gamma_eff above gamma_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 473.2 cm
+Q
+q
+1 0 0 1 60 398.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 70.4 re f*
+Q
+q
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_eff^background) Tj ( ) Tj (+) Tj ( ) Tj (delta_gamma_GW\(t\)) Tj  T*  T* (During) Tj ( ) Tj (GW) Tj ( ) Tj (passage:) Tj  T* ( ) Tj ( ) Tj (gamma_eff\(t\)) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(temporarily\)) Tj  T*  T* (After) Tj ( ) Tj (passage:) Tj  T* ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (returns) Tj ( ) Tj (to) Tj ( ) Tj (background) Tj  T* ( ) Tj ( ) Tj (BUT:) Tj ( ) Tj (coherence) Tj ( ) Tj (state) Tj ( ) Tj (has) Tj ( ) Tj (shifted) Tj ( ) Tj (permanently) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 390.8 cm
+Q
+q
+1 0 0 1 60 351.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The mechanism: a system driven past gamma_c undergoes a phase transition. Phase transitions are irreversible -- the) Tj T* (coherence state does not return to its pre-transition value when gamma_eff drops back below gamma_c. This is hysteresis,) Tj T* (a universal property of first-order phase transitions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 344.8 cm
+Q
+q
+1 0 0 1 60 329.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The permanent displacement predicted by GR is the permanent shift in local C_vacuum:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 322.8 cm
+Q
+q
+1 0 0 1 60 310 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Delta_C_vacuum) Tj ( ) Tj (=) Tj ( ) Tj (C_0^vac) Tj ( ) Tj (*) Tj ( ) Tj ([exp\(-alpha_vac) Tj ( ) Tj (*) Tj ( ) Tj (gamma_c\)) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-alpha_vac) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff^peak\)]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 302 cm
+Q
+q
+1 0 0 1 60 263 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The magnitude depends on how far gamma_eff^peak exceeds gamma_c during the wave passage. For astrophysical GW) Tj T* (sources at cosmological distances, the strain at Earth is h ~ 10^-21, producing delta_gamma_GW <) Tj (< gamma_c. The) Tj T* (memory effect exists but is below current detection thresholds -- consistent with non-detection.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256 cm
+Q
+q
+1 0 0 1 60 229 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction:) Tj /F1 9 Tf ( GW memory will be detected first in events where gamma_eff^peak / gamma_c is largest: nearby, high-mass) Tj T* (mergers. The memory magnitude scales with the degree of gamma_c crossing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 222 cm
+Q
+q
+1 0 0 1 60 216 cm
+Q
+q
+1 0 0 1 60 212 cm
+Q
+q
+1 0 0 1 60 174 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Nanohertz Gravitational Wave Background \(NANOGrav\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 162 cm
+Q
+q
+1 0 0 1 60 111 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (The anomaly:) Tj /F1 9 Tf ( NANOGrav \(2023\) and other pulsar timing arrays detected a stochastic gravitational wave background at) Tj T* (nanohertz frequencies. The measured amplitude may exceed predictions from supermassive black hole \(SMBH\) binary) Tj T* (populations alone \(Agazie et al. 2023\). The spectral slope is consistent with SMBH binaries but the amplitude has excess) Tj T* (power that standard astrophysical models struggle to account for.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 104 cm
+Q
+q
+1 0 0 1 60 89 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The closure:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 82 cm
+Q
+q
+1 0 0 1 60 67 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The excess amplitude comes from cosmological coherence phase transitions in the early universe:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60 cm
+Q
  
 
 Q
@@ -421,27 +666,27 @@ Q
 
 endstream
 endobj
-13 0 obj
+14 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-14 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 15 0 obj
 <<
-/Contents 16 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -460,10 +705,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 17 0 R
+/F1-0 18 0 R
 /F2 8 0 R
-/F2-0 18 0 R
+/F2-0 19 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -475,95 +721,213 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-16 0 obj
+17 0 obj
 <<
-/Length 5450
+/Length 7221
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 126: GRAVITATIONAL ANOMALIES AND THE DECOHERENCE FIELD) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (The closure:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 687.6 Tm (The excess amplitude comes from cosmological coherence phase transitions in the) Tj T* ET
-BT 1 0 0 1 54 675.6 Tm (early universe:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 653.6 Tm (GW background = GW_SMBH + GW_phase_transition) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 643.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 633.6 Tm (GW_phase_transition from:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 623.6 Tm (  gamma_eff^cosmic\(T\) crosses gamma_c at temperature T_transition) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 613.6 Tm (  Coherence energy released: Delta_E = C_0^vac * \(1 - exp\(-alpha_vac * gamma_c\)\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 603.6 Tm (  Energy converts to gravitational radiation) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 583.6 Tm (Phase transitions at gamma_c release coherence energy because the vacuum coherence) Tj T* ET
-BT 1 0 0 1 54 571.6 Tm (field couples to gravity. When C_vacuum changes discontinuously at a phase) Tj T* ET
-BT 1 0 0 1 54 559.6 Tm (transition, the energy difference radiates as gravitational waves.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 541.6 Tm (In the early universe, the cosmic decoherence rate gamma_eff^cosmic decreased as the) Tj T* ET
-BT 1 0 0 1 54 529.6 Tm (universe expanded and cooled:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 507.6 Tm (gamma_eff^cosmic\(T\) proportional to T^n    \(n depends on dominant decoherence channel\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 497.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 487.6 Tm (At T = T_transition:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 477.6 Tm (  gamma_eff^cosmic\(T_transition\) = gamma_c) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 467.6 Tm (  Phase transition occurs) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 457.6 Tm (  Coherence energy released as GWs) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 437.6 Tm (These GWs redshift to nanohertz frequencies today, contributing a stochastic) Tj T* ET
-BT 1 0 0 1 54 425.6 Tm (background on top of the SMBH binary signal. The spectral shape from the phase) Tj T* ET
-BT 1 0 0 1 54 413.6 Tm (transition is similar to SMBH binaries at low frequencies, making the two sources) Tj T* ET
-BT 1 0 0 1 54 401.6 Tm (difficult to disentangle -- consistent with the ambiguity in current data.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 383.6 Tm (Prediction: As PTA sensitivity improves, the spectral slope at f > 30 nHz will) Tj T* ET
-BT 1 0 0 1 54 371.6 Tm (deviate from the f^\(-2/3\) power law expected from SMBH binaries alone. The deviation) Tj T* ET
-BT 1 0 0 1 54 359.6 Tm (encodes the temperature and width of the cosmological gamma_c transition.) Tj T* ET
-.5 w
-n 54 345.6 m 558 345.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 317.6 Tm (4. GW170817 Speed Constraint) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 295.6 Tm (The anomaly: The binary neutron star merger GW170817 \(LIGO/Virgo 2017\) was observed) Tj T* ET
-BT 1 0 0 1 54 283.6 Tm (simultaneously in gravitational waves and electromagnetic radiation \(gamma-ray burst) Tj T* ET
-BT 1 0 0 1 54 271.6 Tm (GRB 170817A, Fermi\). The arrival time difference constrains the speed of gravity:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 249.6 Tm (|v_gravity - c| / c < 10^-15) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 229.6 Tm (This eliminates many modified gravity theories that predict v_gravity != c.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 211.6 Tm (The closure:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 193.6 Tm (This result is not an anomaly within the framework -- it is a direct prediction.) Tj T* ET
-BT 1 0 0 1 54 181.6 Tm (Gravitational waves are perturbations in the vacuum coherence field. The vacuum) Tj T* ET
-BT 1 0 0 1 54 169.6 Tm (coherence field IS spacetime. Perturbations of spacetime propagate at c by) Tj T* ET
-BT 1 0 0 1 54 157.6 Tm (definition:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 135.6 Tm (v_GW = c    \(exact, not approximate\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 125.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 115.6 Tm (Reason: GWs are decoherence waves -- propagating disturbances in C_vacuum) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 105.6 Tm (C_vacuum defines the local metric) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 95.6 Tm (Metric perturbations propagate at c \(from the structure of the Lindblad equation\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 75.6 Tm (Any theory predicting v_gravity != c is predicting that spacetime perturbations) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 679.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (GW) Tj ( ) Tj (background) Tj ( ) Tj (=) Tj ( ) Tj (GW_SMBH) Tj ( ) Tj (+) Tj ( ) Tj (GW_phase_transition) Tj  T*  T* (GW_phase_transition) Tj ( ) Tj (from:) Tj  T* ( ) Tj ( ) Tj (gamma_eff^cosmic\(T\)) Tj ( ) Tj (crosses) Tj ( ) Tj (gamma_c) Tj ( ) Tj (at) Tj ( ) Tj (temperature) Tj ( ) Tj (T_transition) Tj  T* ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj (energy) Tj ( ) Tj (released:) Tj ( ) Tj (Delta_E) Tj ( ) Tj (=) Tj ( ) Tj (C_0^vac) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-alpha_vac) Tj ( ) Tj (*) Tj ( ) Tj (gamma_c\)\)) Tj  T* ( ) Tj ( ) Tj (Energy) Tj ( ) Tj (converts) Tj ( ) Tj (to) Tj ( ) Tj (gravitational) Tj ( ) Tj (radiation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 671.2 cm
+Q
+q
+1 0 0 1 60 644.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Phase transitions at gamma_c release coherence energy because the vacuum coherence field couples to gravity. When) Tj T* (C_vacuum changes discontinuously at a phase transition, the energy difference radiates as gravitational waves.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 637.2 cm
+Q
+q
+1 0 0 1 60 622.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In the early universe, the cosmic decoherence rate gamma_eff^cosmic decreased as the universe expanded and cooled:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 615.2 cm
+Q
+q
+1 0 0 1 60 558.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff^cosmic\(T\)) Tj ( ) Tj (proportional) Tj ( ) Tj (to) Tj ( ) Tj (T^n) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(n) Tj ( ) Tj (depends) Tj ( ) Tj (on) Tj ( ) Tj (dominant) Tj ( ) Tj (decoherence) Tj ( ) Tj (channel\)) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (T_transition:) Tj  T* ( ) Tj ( ) Tj (gamma_eff^cosmic\(T_transition\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c) Tj  T* ( ) Tj ( ) Tj (Phase) Tj ( ) Tj (transition) Tj ( ) Tj (occurs) Tj  T* ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj (energy) Tj ( ) Tj (released) Tj ( ) Tj (as) Tj ( ) Tj (GWs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 550.4 cm
+Q
+q
+1 0 0 1 60 511.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.072706 Tw (These GWs redshift to nanohertz frequencies today, contributing a stochastic background on top of the SMBH binary signal.) Tj T* 0 Tw -0.062211 Tw (The spectral shape from the phase transition is similar to SMBH binaries at low frequencies, making the two sources difficult) Tj T* 0 Tw (to disentangle -- consistent with the ambiguity in current data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 504.4 cm
+Q
+q
+1 0 0 1 60 477.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction:) Tj /F1 9 Tf ( As PTA sensitivity improves, the spectral slope at f > 30 nHz will deviate from the f^\(-2/3\) power law expected) Tj T* (from SMBH binaries alone. The deviation encodes the temperature and width of the cosmological gamma_c transition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470.4 cm
+Q
+q
+1 0 0 1 60 464.4 cm
+Q
+q
+1 0 0 1 60 460.4 cm
+Q
+q
+1 0 0 1 60 422.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. GW170817 Speed Constraint) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 410.4 cm
+Q
+q
+1 0 0 1 60 371.4 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The anomaly:) Tj /F1 9 Tf ( The binary neutron star merger GW170817 \(LIGO/Virgo 2017\) was observed simultaneously in gravitational) Tj T* (waves and electromagnetic radiation \(gamma-ray burst GRB 170817A, Fermi\). The arrival time difference constrains the) Tj T* (speed of gravity:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364.4 cm
+Q
+q
+1 0 0 1 60 351.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (|v_gravity) Tj ( ) Tj (-) Tj ( ) Tj (c|) Tj ( ) Tj (/) Tj ( ) Tj (c) Tj ( ) Tj (<) Tj ( ) Tj (10^-15) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 343.6 cm
+Q
+q
+1 0 0 1 60 328.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This eliminates many modified gravity theories that predict v_gravity != c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 321.6 cm
+Q
+q
+1 0 0 1 60 306.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The closure:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 299.6 cm
+Q
+q
+1 0 0 1 60 272.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This result is not an anomaly within the framework -- it is a direct prediction. Gravitational waves are perturbations in the) Tj T* -0.04575 Tw (vacuum coherence field. The vacuum coherence field IS spacetime. Perturbations of spacetime propagate at c by definition:) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 60 265.6 cm
+Q
+q
+1 0 0 1 60 217.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (v_GW) Tj ( ) Tj (=) Tj ( ) Tj (c) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(exact,) Tj ( ) Tj (not) Tj ( ) Tj (approximate\)) Tj  T*  T* (Reason:) Tj ( ) Tj (GWs) Tj ( ) Tj (are) Tj ( ) Tj (decoherence) Tj ( ) Tj (waves) Tj ( ) Tj (--) Tj ( ) Tj (propagating) Tj ( ) Tj (disturbances) Tj ( ) Tj (in) Tj ( ) Tj (C_vacuum) Tj  T* (C_vacuum) Tj ( ) Tj (defines) Tj ( ) Tj (the) Tj ( ) Tj (local) Tj ( ) Tj (metric) Tj  T* (Metric) Tj ( ) Tj (perturbations) Tj ( ) Tj (propagate) Tj ( ) Tj (at) Tj ( ) Tj (c) Tj ( ) Tj (\(from) Tj ( ) Tj (the) Tj ( ) Tj (structure) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (Lindblad) Tj ( ) Tj (equation\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 209.6 cm
+Q
+q
+1 0 0 1 60 182.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Any theory predicting v_gravity != c is predicting that spacetime perturbations propagate at a speed different from the speed) Tj T* (set by spacetime itself -- a logical contradiction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 175.6 cm
+Q
+q
+1 0 0 1 60 160.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The 10^-15 precision of GW170817 does not constrain the framework. It confirms it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 153.6 cm
+Q
+q
+1 0 0 1 60 147.6 cm
+Q
+q
+1 0 0 1 60 143.6 cm
+Q
+q
+1 0 0 1 60 105.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Abell 520 "Train Wreck" Cluster) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 93.6 cm
+Q
+q
+1 0 0 1 60 66.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The anomaly:) Tj /F1 9 Tf ( In the Bullet Cluster \(1E 0657-56\), dark matter follows the galaxies and is offset from the hot gas -- cited as) Tj T* (evidence for collisionless particle dark matter. In Abell 520, the opposite occurs: a significant dark matter concentration) Tj T* ET
+Q
+Q
  
 
 Q
@@ -626,27 +990,27 @@ Q
 
 endstream
 endobj
-17 0 obj
+18 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-18 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 19 0 obj
 <<
-/Contents 20 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -665,10 +1029,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 21 0 R
+/F1-0 22 0 R
 /F2 8 0 R
-/F2-0 22 0 R
+/F2-0 23 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -680,83 +1045,213 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-20 0 obj
+21 0 obj
 <<
-/Length 5420
+/Length 7569
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 126: GRAVITATIONAL ANOMALIES AND THE DECOHERENCE FIELD) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (propagate at a speed different from the speed set by spacetime itself -- a logical) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (contradiction.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 675.6 Tm (The 10^-15 precision of GW170817 does not constrain the framework. It confirms it.) Tj T* ET
-.5 w
-n 54 661.6 m 558 661.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 633.6 Tm (5. Abell 520 "Train Wreck" Cluster) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 611.6 Tm (The anomaly: In the Bullet Cluster \(1E 0657-56\), dark matter follows the galaxies) Tj T* ET
-BT 1 0 0 1 54 599.6 Tm (and is offset from the hot gas -- cited as evidence for collisionless particle dark) Tj T* ET
-BT 1 0 0 1 54 587.6 Tm (matter. In Abell 520, the opposite occurs: a significant dark matter concentration) Tj T* ET
-BT 1 0 0 1 54 575.6 Tm (coincides with the gas at the collision center, offset from the galaxies \(Mahdavi et) Tj T* ET
-BT 1 0 0 1 54 563.6 Tm (al. 2007, Jee et al. 2012\). If dark matter is collisionless particles, it should not) Tj T* ET
-BT 1 0 0 1 54 551.6 Tm (accumulate with the collisional gas.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 533.6 Tm (The closure:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 515.6 Tm (Both clusters are consistent with C_vacuum responding to local gamma_eff:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 493.6 Tm (Dark matter distribution follows:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 483.6 Tm (  C_vacuum\(x\) = C_0^vac * exp\(-alpha_vac * gamma_eff\(x\)\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 473.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 463.6 Tm (gamma_eff\(x\) is determined by local matter density and temperature:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 453.6 Tm (  gamma_eff proportional to rho * T^\(1/2\)    \(collisional decoherence rate\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 433.6 Tm (Bullet Cluster geometry: Two clusters pass through each other. Gas shocks and piles) Tj T* ET
-BT 1 0 0 1 54 421.6 Tm (up at center \(high rho, high T\). Galaxies pass through \(low interaction cross-) Tj T* ET
-BT 1 0 0 1 54 409.6 Tm (section\). After passage, the highest gamma_eff is at the gas center. But the) Tj T* ET
-BT 1 0 0 1 54 397.6 Tm (galaxies carry their own gamma_eff halos. In the Bullet Cluster geometry \(high) Tj T* ET
-BT 1 0 0 1 54 385.6 Tm (relative velocity, clean separation\), the galaxy halos dominate over the residual) Tj T* ET
-BT 1 0 0 1 54 373.6 Tm (gas contribution. C_vacuum tracks the galaxy halos. Apparent DM follows galaxies.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 355.6 Tm (Abell 520 geometry: More complex merger \(possibly three-body\). Gas remains) Tj T* ET
-BT 1 0 0 1 54 343.6 Tm (concentrated at collision center with high density. In this geometry, the gas) Tj T* ET
-BT 1 0 0 1 54 331.6 Tm (contribution to gamma_eff at the center exceeds the galaxy halo contributions \(which) Tj T* ET
-BT 1 0 0 1 54 319.6 Tm (are more dispersed due to the multi-body dynamics\). C_vacuum tracks the dominant) Tj T* ET
-BT 1 0 0 1 54 307.6 Tm (gamma_eff source -- the gas. Apparent DM follows gas.) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 285.6 Tm (Bullet Cluster: gamma_eff^galaxies > gamma_eff^gas at galaxy positions --> DM follows galaxies) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 275.6 Tm (Abell 520:      gamma_eff^gas > gamma_eff^galaxies at center --> DM follows gas) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 255.6 Tm (Different collision geometries produce different gamma_eff profiles produce) Tj T* ET
-BT 1 0 0 1 54 243.6 Tm (different apparent dark matter distributions. Both are consistent with a single) Tj T* ET
-BT 1 0 0 1 54 231.6 Tm (mechanism.) Tj T* ET
-.5 w
-n 54 217.6 m 558 217.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 189.6 Tm (6. Dwarf Galaxy Dark Matter Diversity) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 167.6 Tm (The anomaly: Dwarf galaxies of similar stellar mass, size, and morphology exhibit) Tj T* ET
-BT 1 0 0 1 54 155.6 Tm (wildly different mass-to-light \(M/L\) ratios -- from M/L ~ 5 \(modest dark matter\) to) Tj T* ET
-BT 1 0 0 1 54 143.6 Tm (M/L > 1000 \(dark matter dominated\). This "diversity problem" \(Oman et al. 2015\) is) Tj T* ET
-BT 1 0 0 1 54 131.6 Tm (difficult to explain with standard CDM, which predicts that halos of similar mass) Tj T* ET
-BT 1 0 0 1 54 119.6 Tm (should produce similar M/L ratios.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 101.6 Tm (The closure:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 83.6 Tm (M/L ratios reflect the environmental decoherence history of each dwarf galaxy:) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (coincides with the gas at the collision center, offset from the galaxies \(Mahdavi et al. 2007, Jee et al. 2012\). If dark matter is) Tj T* (collisionless particles, it should not accumulate with the collisional gas.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 686 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The closure:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 679 cm
+Q
+q
+1 0 0 1 60 664 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Both clusters are consistent with C_vacuum responding to local gamma_eff:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 657 cm
+Q
+q
+1 0 0 1 60 609 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Dark) Tj ( ) Tj (matter) Tj ( ) Tj (distribution) Tj ( ) Tj (follows:) Tj  T* ( ) Tj ( ) Tj (C_vacuum\(x\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0^vac) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha_vac) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\(x\)\)) Tj  T*  T* (gamma_eff\(x\)) Tj ( ) Tj (is) Tj ( ) Tj (determined) Tj ( ) Tj (by) Tj ( ) Tj (local) Tj ( ) Tj (matter) Tj ( ) Tj (density) Tj ( ) Tj (and) Tj ( ) Tj (temperature:) Tj  T* ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (proportional) Tj ( ) Tj (to) Tj ( ) Tj (rho) Tj ( ) Tj (*) Tj ( ) Tj (T^\(1/2\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(collisional) Tj ( ) Tj (decoherence) Tj ( ) Tj (rate\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 601 cm
+Q
+q
+1 0 0 1 60 550 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (Bullet Cluster geometry:) Tj /F1 9 Tf ( Two clusters pass through each other. Gas shocks and piles up at center \(high rho, high T\).) Tj T* (Galaxies pass through \(low interaction cross-section\). After passage, the highest gamma_eff is at the gas center. But the) Tj T* (galaxies carry their own gamma_eff halos. In the Bullet Cluster geometry \(high relative velocity, clean separation\), the) Tj T* -0.044063 Tw (galaxy halos dominate over the residual gas contribution. C_vacuum tracks the galaxy halos. Apparent DM follows galaxies.) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 60 543 cm
+Q
+q
+1 0 0 1 60 492 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (Abell 520 geometry:) Tj /F1 9 Tf ( More complex merger \(possibly three-body\). Gas remains concentrated at collision center with high) Tj T* (density. In this geometry, the gas contribution to gamma_eff at the center exceeds the galaxy halo contributions \(which are) Tj T* (more dispersed due to the multi-body dynamics\). C_vacuum tracks the dominant gamma_eff source -- the gas. Apparent) Tj T* (DM follows gas.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 485 cm
+Q
+q
+1 0 0 1 60 463.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Bullet) Tj ( ) Tj (Cluster:) Tj ( ) Tj (gamma_eff^galaxies) Tj ( ) Tj (>) Tj ( ) Tj (gamma_eff^gas) Tj ( ) Tj (at) Tj ( ) Tj (galaxy) Tj ( ) Tj (positions) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (DM) Tj ( ) Tj (follows) Tj ( ) Tj (galaxies) Tj  T* (Abell) Tj ( ) Tj (520:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_eff^gas) Tj ( ) Tj (>) Tj ( ) Tj (gamma_eff^galaxies) Tj ( ) Tj (at) Tj ( ) Tj (center) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (DM) Tj ( ) Tj (follows) Tj ( ) Tj (gas) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 455.4 cm
+Q
+q
+1 0 0 1 60 428.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Different collision geometries produce different gamma_eff profiles produce different apparent dark matter distributions.) Tj T* (Both are consistent with a single mechanism.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 421.4 cm
+Q
+q
+1 0 0 1 60 415.4 cm
+Q
+q
+1 0 0 1 60 411.4 cm
+Q
+q
+1 0 0 1 60 373.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Dwarf Galaxy Dark Matter Diversity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 361.4 cm
+Q
+q
+1 0 0 1 60 322.4 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The anomaly:) Tj /F1 9 Tf ( Dwarf galaxies of similar stellar mass, size, and morphology exhibit wildly different mass-to-light \(M/L\) ratios) Tj T* (-- from M/L ~ 5 \(modest dark matter\) to M/L > 1000 \(dark matter dominated\). This "diversity problem" \(Oman et al. 2015\) is) Tj T* (difficult to explain with standard CDM, which predicts that halos of similar mass should produce similar M/L ratios.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 315.4 cm
+Q
+q
+1 0 0 1 60 300.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The closure:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 293.4 cm
+Q
+q
+1 0 0 1 60 278.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (M/L ratios reflect the environmental decoherence history of each dwarf galaxy:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 271.4 cm
+Q
+q
+1 0 0 1 60 232.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (M/L) Tj ( ) Tj (proportional) Tj ( ) Tj (to) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (C_vacuum) Tj ( ) Tj (/) Tj ( ) Tj (C_baryonic\)) Tj  T*  T* (C_vacuum) Tj ( ) Tj (depends) Tj ( ) Tj (on) Tj ( ) Tj (the) Tj ( ) Tj (full) Tj ( ) Tj (history) Tj ( ) Tj (of) Tj ( ) Tj (gamma_eff:) Tj  T* ( ) Tj ( ) Tj (C_vacuum\(t_now\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0^vac) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha_vac) Tj ( ) Tj (*) Tj ( ) Tj (integral[gamma_eff\(t'\)) Tj ( ) Tj (dt',) Tj ( ) Tj (0,) Tj ( ) Tj (t_now]\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224.2 cm
+Q
+q
+1 0 0 1 60 197.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.071647 Tw (The integral over the full decoherence history means that two dwarfs with identical present-day properties can have different) Tj T* 0 Tw (C_vacuum \(and therefore different apparent DM content\) if their histories differ:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 190.2 cm
+Q
+q
+1 0 0 1 60 163.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 A dwarf that spent 5 Gyr near a massive galaxy \(high gamma_eff environment\) has lower C_vacuum than one that) Tj T* (evolved in isolation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 136.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 A dwarf that formed stars rapidly \(high internal gamma_eff from supernovae feedback\) has lower C_vacuum than one with) Tj T* (quiescent star formation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 109.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 A dwarf that experienced a close tidal encounter has a permanently altered C_vacuum \(decoherence scar, same) Tj T* (mechanism as GW memory in Section 2\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 102.2 cm
+Q
+q
+1 0 0 1 60 75.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The diversity is not random -- it correlates with environmental history. This is a testable prediction: M/L should correlate with) Tj T* (tidal history, proximity to massive hosts, and star formation history, independently of present-day stellar mass.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 68.2 cm
+Q
+q
+1 0 0 1 60 62.2 cm
+Q
  
 
 Q
@@ -819,27 +1314,27 @@ Q
 
 endstream
 endobj
-21 0 obj
+22 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-22 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 23 0 obj
 <<
-/Contents 24 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -858,10 +1353,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 25 0 R
+/F1-0 26 0 R
 /F2 8 0 R
-/F2-0 26 0 R
+/F2-0 27 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -873,93 +1369,211 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-24 0 obj
+25 0 obj
 <<
-/Length 5464
+/Length 7144
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 126: GRAVITATIONAL ANOMALIES AND THE DECOHERENCE FIELD) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 705.6 Tm (M/L proportional to \(1 + C_vacuum / C_baryonic\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 695.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 685.6 Tm (C_vacuum depends on the full history of gamma_eff:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 675.6 Tm (  C_vacuum\(t_now\) = C_0^vac * exp\(-alpha_vac * integral[gamma_eff\(t'\) dt', 0, t_now]\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 655.6 Tm (The integral over the full decoherence history means that two dwarfs with identical) Tj T* ET
-BT 1 0 0 1 54 643.6 Tm (present-day properties can have different C_vacuum \(and therefore different apparent) Tj T* ET
-BT 1 0 0 1 54 631.6 Tm (DM content\) if their histories differ:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 613.6 Tm (- A dwarf that spent 5 Gyr near a massive galaxy \(high gamma_eff environment\) has) Tj T* ET
-BT 1 0 0 1 64 601.6 Tm (lower C_vacuum than one that evolved in isolation.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 589.6 Tm (- A dwarf that formed stars rapidly \(high internal gamma_eff from supernovae) Tj T* ET
-BT 1 0 0 1 64 577.6 Tm (feedback\) has lower C_vacuum than one with quiescent star formation.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 565.6 Tm (- A dwarf that experienced a close tidal encounter has a permanently altered) Tj T* ET
-BT 1 0 0 1 64 553.6 Tm (C_vacuum \(decoherence scar, same mechanism as GW memory in Section 2\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 535.6 Tm (The diversity is not random -- it correlates with environmental history. This is a) Tj T* ET
-BT 1 0 0 1 54 523.6 Tm (testable prediction: M/L should correlate with tidal history, proximity to massive) Tj T* ET
-BT 1 0 0 1 54 511.6 Tm (hosts, and star formation history, independently of present-day stellar mass.) Tj T* ET
-.5 w
-n 54 497.6 m 558 497.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 469.6 Tm (7. Equivalence Principle) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 447.6 Tm (The anomaly: The MICROSCOPE satellite \(Touboul et al. 2022\) confirmed the weak) Tj T* ET
-BT 1 0 0 1 54 435.6 Tm (equivalence principle to:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 413.6 Tm (eta\(Ti, Pt\) = \(2 * |a_Ti - a_Pt|\) / \(a_Ti + a_Pt\) < 10^-15) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 393.6 Tm (All matter falls the same way in a gravitational field, regardless of composition,) Tj T* ET
-BT 1 0 0 1 54 381.6 Tm (to extraordinary precision.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 363.6 Tm (The closure:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 345.6 Tm (In the fully decohered \(classical\) regime, C approaches 0 for all matter:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 323.6 Tm (Classical regime: gamma_eff >> gamma_c) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 313.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 303.6 Tm (For any material A:   C_A = C_0^A * exp\(-alpha_A * gamma_eff\) --> 0) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 293.6 Tm (For any material B:   C_B = C_0^B * exp\(-alpha_B * gamma_eff\) --> 0) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 283.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 273.6 Tm (Gravitational coupling proportional to mass + f\(C\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 263.6 Tm (When C --> 0 for all matter: coupling proportional to mass only) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 253.6 Tm (--> Universality of free fall \(equivalence principle\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 233.6 Tm (The equivalence principle holds in the classical regime because coherence is) Tj T* ET
-BT 1 0 0 1 54 221.6 Tm (exponentially suppressed. The suppression factor exp\(-alpha * gamma_eff\) drives all) Tj T* ET
-BT 1 0 0 1 54 209.6 Tm (coherence-dependent corrections below any measurable threshold for macroscopic) Tj T* ET
-BT 1 0 0 1 54 197.6 Tm (matter at room temperature.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 179.6 Tm (Violations of the equivalence principle occur only when C > 0 -- at quantum gravity) Tj T* ET
-BT 1 0 0 1 54 167.6 Tm (scales, in ultracold systems, or in the immediate vicinity of gamma_c. MICROSCOPE) Tj T* ET
-BT 1 0 0 1 54 155.6 Tm (operates firmly in the classical regime.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 137.6 Tm (Prediction: Equivalence principle violations at the 10^-17 level or below may appear) Tj T* ET
-BT 1 0 0 1 54 125.6 Tm (in experiments using ultracold atoms \(BEC free-fall tests\), where gamma_eff is low) Tj T* ET
-BT 1 0 0 1 54 113.6 Tm (enough that C remains non-negligible.) Tj T* ET
-.5 w
-n 54 99.6 m 558 99.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 71.6 Tm (8. Frame-Dragging) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 690 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Equivalence Principle) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 678 cm
+Q
+q
+1 0 0 1 60 663 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (The anomaly:) Tj /F1 9 Tf ( The MICROSCOPE satellite \(Touboul et al. 2022\) confirmed the weak equivalence principle to:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 656 cm
+Q
+q
+1 0 0 1 60 643.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (eta\(Ti,) Tj ( ) Tj (Pt\)) Tj ( ) Tj (=) Tj ( ) Tj (\(2) Tj ( ) Tj (*) Tj ( ) Tj (|a_Ti) Tj ( ) Tj (-) Tj ( ) Tj (a_Pt|\)) Tj ( ) Tj (/) Tj ( ) Tj (\(a_Ti) Tj ( ) Tj (+) Tj ( ) Tj (a_Pt\)) Tj ( ) Tj (<) Tj ( ) Tj (10^-15) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 635.2 cm
+Q
+q
+1 0 0 1 60 620.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (All matter falls the same way in a gravitational field, regardless of composition, to extraordinary precision.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 613.2 cm
+Q
+q
+1 0 0 1 60 598.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The closure:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 591.2 cm
+Q
+q
+1 0 0 1 60 576.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In the fully decohered \(classical\) regime, C approaches 0 for all matter:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 569.2 cm
+Q
+q
+1 0 0 1 60 494.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 70.4 re f*
+Q
+q
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Classical) Tj ( ) Tj (regime:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (gamma_c) Tj  T*  T* (For) Tj ( ) Tj (any) Tj ( ) Tj (material) Tj ( ) Tj (A:) Tj ( ) Tj ( ) Tj ( ) Tj (C_A) Tj ( ) Tj (=) Tj ( ) Tj (C_0^A) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha_A) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (0) Tj  T* (For) Tj ( ) Tj (any) Tj ( ) Tj (material) Tj ( ) Tj (B:) Tj ( ) Tj ( ) Tj ( ) Tj (C_B) Tj ( ) Tj (=) Tj ( ) Tj (C_0^B) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha_B) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (0) Tj  T*  T* (Gravitational) Tj ( ) Tj (coupling) Tj ( ) Tj (proportional) Tj ( ) Tj (to) Tj ( ) Tj (mass) Tj ( ) Tj (+) Tj ( ) Tj (f\(C\)) Tj  T* (When) Tj ( ) Tj (C) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (for) Tj ( ) Tj (all) Tj ( ) Tj (matter:) Tj ( ) Tj (coupling) Tj ( ) Tj (proportional) Tj ( ) Tj (to) Tj ( ) Tj (mass) Tj ( ) Tj (only) Tj  T* (--) Tj (>) Tj ( ) Tj (Universality) Tj ( ) Tj (of) Tj ( ) Tj (free) Tj ( ) Tj (fall) Tj ( ) Tj (\(equivalence) Tj ( ) Tj (principle\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 486.8 cm
+Q
+q
+1 0 0 1 60 447.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The equivalence principle holds in the classical regime because coherence is exponentially suppressed. The suppression) Tj T* (factor exp\(-alpha * gamma_eff\) drives all coherence-dependent corrections below any measurable threshold for) Tj T* (macroscopic matter at room temperature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 440.8 cm
+Q
+q
+1 0 0 1 60 413.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (Violations of the equivalence principle occur only when C > 0 -- at quantum gravity scales, in ultracold systems, or in the) Tj T* (immediate vicinity of gamma_c. MICROSCOPE operates firmly in the classical regime.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 406.8 cm
+Q
+q
+1 0 0 1 60 379.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction:) Tj /F1 9 Tf ( Equivalence principle violations at the 10^-17 level or below may appear in experiments using ultracold atoms) Tj T* (\(BEC free-fall tests\), where gamma_eff is low enough that C remains non-negligible.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 372.8 cm
+Q
+q
+1 0 0 1 60 366.8 cm
+Q
+q
+1 0 0 1 60 362.8 cm
+Q
+q
+1 0 0 1 60 324.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Frame-Dragging) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 312.8 cm
+Q
+q
+1 0 0 1 60 285.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The anomaly:) Tj /F1 9 Tf ( Gravity Probe B \(Everitt et al. 2011\) confirmed frame-dragging \(the Lense-Thirring effect\) at the 19% level.) Tj T* (LARES and LAGEOS laser ranging confirm it at the 5% level \(Ciufolini et al. 2019\). Both are consistent with GR.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 278.8 cm
+Q
+q
+1 0 0 1 60 263.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The closure:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256.8 cm
+Q
+q
+1 0 0 1 60 241.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Frame-dragging IS coherence rotation. A rotating mass drags the local vacuum coherence field:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 234.8 cm
+Q
+q
+1 0 0 1 60 169.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 61.6 re f*
+Q
+q
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Rotating) Tj ( ) Tj (mass) Tj ( ) Tj (M) Tj ( ) Tj (with) Tj ( ) Tj (angular) Tj ( ) Tj (momentum) Tj ( ) Tj (J:) Tj  T*  T* (Vacuum) Tj ( ) Tj (coherence) Tj ( ) Tj (field:) Tj  T* ( ) Tj ( ) Tj (C_vacuum\(r,) Tj ( ) Tj (theta\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0^vac) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha_vac) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\(r,) Tj ( ) Tj (theta\)\)) Tj  T*  T* (Rotation) Tj ( ) Tj (of) Tj ( ) Tj (mass) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (rotation) Tj ( ) Tj (of) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (profile) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (rotation) Tj ( ) Tj (of) Tj ( ) Tj (C_vacuum) Tj  T* (This) Tj ( ) Tj (rotation) Tj ( ) Tj (of) Tj ( ) Tj (C_vacuum) Tj ( ) Tj (IS) Tj ( ) Tj (the) Tj ( ) Tj (frame-dragging) Tj ( ) Tj (measured) Tj ( ) Tj (by) Tj ( ) Tj (GP-B) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 161.2 cm
+Q
+q
+1 0 0 1 60 122.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (GR gives the correct frame-dragging prediction because GR IS the low-coherence limit of the framework. In the regime) Tj T* (gamma_eff >) Tj (> gamma_c \(all GP-B and LARES measurements\), the coherence contribution is exponentially small and the) Tj T* (GR prediction is exact.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 115.2 cm
+Q
+q
+1 0 0 1 60 76.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Frame-dragging does not constrain the framework -- it confirms that GR emerges as the correct low-coherence limit.) Tj T* (Deviations from the GR prediction for frame-dragging would appear only near compact objects where gamma_eff) Tj T* (approaches gamma_c \(neutron star surfaces, black hole horizons\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 69.2 cm
+Q
+q
+1 0 0 1 60 63.2 cm
+Q
  
 
 Q
@@ -1022,27 +1636,27 @@ Q
 
 endstream
 endobj
-25 0 obj
+26 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-26 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 27 0 obj
 <<
-/Contents 28 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1061,10 +1675,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 29 0 R
+/F1-0 30 0 R
 /F2 8 0 R
-/F2-0 30 0 R
+/F2-0 31 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1076,98 +1691,200 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-28 0 obj
+29 0 obj
 <<
-/Length 5567
+/Length 6613
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 126: GRAVITATIONAL ANOMALIES AND THE DECOHERENCE FIELD) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (The anomaly: Gravity Probe B \(Everitt et al. 2011\) confirmed frame-dragging \(the) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (Lense-Thirring effect\) at the 19% level. LARES and LAGEOS laser ranging confirm it) Tj T* ET
-BT 1 0 0 1 54 681.6 Tm (at the 5% level \(Ciufolini et al. 2019\). Both are consistent with GR.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (The closure:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 645.6 Tm (Frame-dragging IS coherence rotation. A rotating mass drags the local vacuum) Tj T* ET
-BT 1 0 0 1 54 633.6 Tm (coherence field:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 611.6 Tm (Rotating mass M with angular momentum J:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 601.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 591.6 Tm (Vacuum coherence field:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 581.6 Tm (  C_vacuum\(r, theta\) = C_0^vac * exp\(-alpha_vac * gamma_eff\(r, theta\)\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 571.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 561.6 Tm (Rotation of mass --> rotation of gamma_eff profile --> rotation of C_vacuum) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 551.6 Tm (This rotation of C_vacuum IS the frame-dragging measured by GP-B) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 531.6 Tm (GR gives the correct frame-dragging prediction because GR IS the low-coherence limit) Tj T* ET
-BT 1 0 0 1 54 519.6 Tm (of the framework. In the regime gamma_eff >> gamma_c \(all GP-B and LARES) Tj T* ET
-BT 1 0 0 1 54 507.6 Tm (measurements\), the coherence contribution is exponentially small and the GR) Tj T* ET
-BT 1 0 0 1 54 495.6 Tm (prediction is exact.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 477.6 Tm (Frame-dragging does not constrain the framework -- it confirms that GR emerges as) Tj T* ET
-BT 1 0 0 1 54 465.6 Tm (the correct low-coherence limit. Deviations from the GR prediction for frame-) Tj T* ET
-BT 1 0 0 1 54 453.6 Tm (dragging would appear only near compact objects where gamma_eff approaches gamma_c) Tj T* ET
-BT 1 0 0 1 54 441.6 Tm (\(neutron star surfaces, black hole horizons\).) Tj T* ET
-.5 w
-n 54 427.6 m 558 427.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 399.6 Tm (9. LIGO Mass Gap Events) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 377.6 Tm (The anomaly: LIGO/Virgo detected objects in the "mass gaps" where stellar physics) Tj T* ET
-BT 1 0 0 1 54 365.6 Tm (predicts no compact objects should form:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 347.6 Tm (- GW190814 \(Abbott et al. 2020\): Contains a 2.6 M_sun object -- in the "lower mass) Tj T* ET
-BT 1 0 0 1 64 335.6 Tm (gap" between the heaviest neutron stars \(~2.2 M_sun\) and lightest black holes \(~5) Tj T* ET
-BT 1 0 0 1 64 323.6 Tm (M_sun\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 311.6 Tm (- GW190521 \(Abbott et al. 2020\): Two black holes of ~85 M_sun and ~66 M_sun -- in) Tj T* ET
-BT 1 0 0 1 64 299.6 Tm (the "upper mass gap" \(65-120 M_sun\) where pair-instability supernovae should) Tj T* ET
-BT 1 0 0 1 64 287.6 Tm (prevent black hole formation.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 269.6 Tm (The closure:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 251.6 Tm (The mass gaps correspond to unstable regions near gamma_c for nuclear and stellar) Tj T* ET
-BT 1 0 0 1 54 239.6 Tm (matter:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 217.6 Tm (Nuclear matter phase transition at gamma_c:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 207.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 197.6 Tm (For neutron star matter:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 187.6 Tm (  gamma_eff\(rho, T\) crosses gamma_c at specific \(rho, T\) combinations) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 177.6 Tm (  The phase transition has finite width Delta_gamma around gamma_c) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 167.6 Tm (  In the transition region: matter is metastable, not forbidden) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 157.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 147.6 Tm (Mass gap = region where:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 137.6 Tm (  |gamma_eff - gamma_c| < Delta_gamma) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 127.6 Tm (  Objects CAN form but are metastable) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 117.6 Tm (  Formation is rare but not impossible) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 97.6 Tm (Lower mass gap \(2.2-5 M_sun\): At these masses, the central density places gamma_eff) Tj T* ET
-BT 1 0 0 1 54 85.6 Tm (within Delta_gamma of gamma_c for nuclear matter. The neutron star equation of state) Tj T* ET
-BT 1 0 0 1 54 73.6 Tm (is in the transition region. Most formation channels avoid this region \(they produce) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 690 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. LIGO Mass Gap Events) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 678 cm
+Q
+q
+1 0 0 1 60 651 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The anomaly:) Tj /F1 9 Tf ( LIGO/Virgo detected objects in the "mass gaps" where stellar physics predicts no compact objects should) Tj T* (form:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 644 cm
+Q
+q
+1 0 0 1 60 617 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (GW190814) Tj /F1 9 Tf ( \(Abbott et al. 2020\): Contains a 2.6 M_sun object -- in the "lower mass gap" between the heaviest neutron) Tj T* (stars \(~2.2 M_sun\) and lightest black holes \(~5 M_sun\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+q
+BT 1 0 0 1 0 15 Tm -0.103636 Tw 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (GW190521) Tj /F1 9 Tf ( \(Abbott et al. 2020\): Two black holes of ~85 M_sun and ~66 M_sun -- in the "upper mass gap" \(65-120 M_sun\)) Tj T* 0 Tw (where pair-instability supernovae should prevent black hole formation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 583 cm
+Q
+q
+1 0 0 1 60 568 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The closure:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 561 cm
+Q
+q
+1 0 0 1 60 546 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The mass gaps correspond to unstable regions near gamma_c for nuclear and stellar matter:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 539 cm
+Q
+q
+1 0 0 1 60 438.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 96.8 re f*
+Q
+q
+BT 1 0 0 1 20 89.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Nuclear) Tj ( ) Tj (matter) Tj ( ) Tj (phase) Tj ( ) Tj (transition) Tj ( ) Tj (at) Tj ( ) Tj (gamma_c:) Tj  T*  T* (For) Tj ( ) Tj (neutron) Tj ( ) Tj (star) Tj ( ) Tj (matter:) Tj  T* ( ) Tj ( ) Tj (gamma_eff\(rho,) Tj ( ) Tj (T\)) Tj ( ) Tj (crosses) Tj ( ) Tj (gamma_c) Tj ( ) Tj (at) Tj ( ) Tj (specific) Tj ( ) Tj (\(rho,) Tj ( ) Tj (T\)) Tj ( ) Tj (combinations) Tj  T* ( ) Tj ( ) Tj (The) Tj ( ) Tj (phase) Tj ( ) Tj (transition) Tj ( ) Tj (has) Tj ( ) Tj (finite) Tj ( ) Tj (width) Tj ( ) Tj (Delta_gamma) Tj ( ) Tj (around) Tj ( ) Tj (gamma_c) Tj  T* ( ) Tj ( ) Tj (In) Tj ( ) Tj (the) Tj ( ) Tj (transition) Tj ( ) Tj (region:) Tj ( ) Tj (matter) Tj ( ) Tj (is) Tj ( ) Tj (metastable,) Tj ( ) Tj (not) Tj ( ) Tj (forbidden) Tj  T*  T* (Mass) Tj ( ) Tj (gap) Tj ( ) Tj (=) Tj ( ) Tj (region) Tj ( ) Tj (where:) Tj  T* ( ) Tj ( ) Tj (|gamma_eff) Tj ( ) Tj (-) Tj ( ) Tj (gamma_c|) Tj ( ) Tj (<) Tj ( ) Tj (Delta_gamma) Tj  T* ( ) Tj ( ) Tj (Objects) Tj ( ) Tj (CAN) Tj ( ) Tj (form) Tj ( ) Tj (but) Tj ( ) Tj (are) Tj ( ) Tj (metastable) Tj  T* ( ) Tj ( ) Tj (Formation) Tj ( ) Tj (is) Tj ( ) Tj (rare) Tj ( ) Tj (but) Tj ( ) Tj (not) Tj ( ) Tj (impossible) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 430.2 cm
+Q
+q
+1 0 0 1 60 379.2 cm
+q
+BT 1 0 0 1 0 39 Tm -0.042375 Tw 12 TL /F2 9 Tf 0 0 0 rg (Lower mass gap \(2.2-5 M_sun\):) Tj /F1 9 Tf ( At these masses, the central density places gamma_eff within Delta_gamma of gamma_c) Tj T* 0 Tw (for nuclear matter. The neutron star equation of state is in the transition region. Most formation channels avoid this region) Tj T* (\(they produce objects above or below it\), but rare channels -- such as accretion onto a neutron star or secondary collapse) Tj T* (during merger -- can place objects in the gap.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 372.2 cm
+Q
+q
+1 0 0 1 60 321.2 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (Upper mass gap \(65-120 M_sun\):) Tj /F1 9 Tf ( Pair-instability physics depends on the nuclear reaction rates, which are sensitive to the) Tj T* (coherence state of the stellar core plasma. Near gamma_c, the effective nuclear rates shift, widening the window for black) Tj T* (hole formation through the pair-instability region. The suppression is weakened, not eliminated -- gap objects are rare,) Tj T* (consistent with observation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314.2 cm
+Q
+q
+1 0 0 1 60 287.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction:) Tj /F1 9 Tf ( Mass gap objects should show a clustering near the boundaries of the gaps \(where Delta_gamma is largest\)) Tj T* (rather than uniform distribution within the gaps.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 280.2 cm
+Q
+q
+1 0 0 1 60 274.2 cm
+Q
+q
+1 0 0 1 60 270.2 cm
+Q
+q
+1 0 0 1 60 232.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (10. Anomalous Perihelion Precessions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 220.2 cm
+Q
+q
+1 0 0 1 60 193.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The anomaly:) Tj /F1 9 Tf ( After accounting for all known Newtonian and GR effects, some solar system bodies show residual) Tj T* (unmodeled accelerations at the scale:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 186.2 cm
+Q
+q
+1 0 0 1 60 173.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (a_residual) Tj ( ) Tj (~) Tj ( ) Tj (10^-10) Tj ( ) Tj (m/s^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 165.4 cm
+Q
+q
+1 0 0 1 60 138.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is the same order as the MOND acceleration scale a_0 = 1.2 * 10^-10 m/s^2 \(Milgrom 1983\). The Pioneer anomaly) Tj T* (\(since resolved by thermal recoil\) and ongoing residuals in outer solar system orbit fits both point to this scale.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 131.4 cm
+Q
+q
+1 0 0 1 60 116.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The closure:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 109.4 cm
+Q
+q
+1 0 0 1 60 94.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The acceleration scale a_0 marks where vacuum coherence becomes non-negligible:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 87.4 cm
+Q
+q
+1 0 0 1 60 74.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (a_0) Tj ( ) Tj (=) Tj ( ) Tj (c) Tj ( ) Tj (*) Tj ( ) Tj (gamma_c) Tj  T* ET
+Q
+Q
  
 
 Q
@@ -1230,27 +1947,27 @@ Q
 
 endstream
 endobj
-29 0 obj
+30 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-30 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 31 0 obj
 <<
-/Contents 32 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+32 0 obj
+<<
+/Contents 33 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1269,10 +1986,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 33 0 R
+/F1-0 34 0 R
 /F2 8 0 R
-/F2-0 34 0 R
+/F2-0 35 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1284,96 +2002,266 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-32 0 obj
+33 0 obj
 <<
-/Length 5398
+/Length 7572
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 126: GRAVITATIONAL ANOMALIES AND THE DECOHERENCE FIELD) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (objects above or below it\), but rare channels -- such as accretion onto a neutron) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (star or secondary collapse during merger -- can place objects in the gap.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 675.6 Tm (Upper mass gap \(65-120 M_sun\): Pair-instability physics depends on the nuclear) Tj T* ET
-BT 1 0 0 1 54 663.6 Tm (reaction rates, which are sensitive to the coherence state of the stellar core) Tj T* ET
-BT 1 0 0 1 54 651.6 Tm (plasma. Near gamma_c, the effective nuclear rates shift, widening the window for) Tj T* ET
-BT 1 0 0 1 54 639.6 Tm (black hole formation through the pair-instability region. The suppression is) Tj T* ET
-BT 1 0 0 1 54 627.6 Tm (weakened, not eliminated -- gap objects are rare, consistent with observation.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 609.6 Tm (Prediction: Mass gap objects should show a clustering near the boundaries of the) Tj T* ET
-BT 1 0 0 1 54 597.6 Tm (gaps \(where Delta_gamma is largest\) rather than uniform distribution within the) Tj T* ET
-BT 1 0 0 1 54 585.6 Tm (gaps.) Tj T* ET
-.5 w
-n 54 571.6 m 558 571.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 543.6 Tm (10. Anomalous Perihelion Precessions) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 521.6 Tm (The anomaly: After accounting for all known Newtonian and GR effects, some solar) Tj T* ET
-BT 1 0 0 1 54 509.6 Tm (system bodies show residual unmodeled accelerations at the scale:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 487.6 Tm (a_residual ~ 10^-10 m/s^2) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 467.6 Tm (This is the same order as the MOND acceleration scale a_0 = 1.2 * 10^-10 m/s^2) Tj T* ET
-BT 1 0 0 1 54 455.6 Tm (\(Milgrom 1983\). The Pioneer anomaly \(since resolved by thermal recoil\) and ongoing) Tj T* ET
-BT 1 0 0 1 54 443.6 Tm (residuals in outer solar system orbit fits both point to this scale.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 425.6 Tm (The closure:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 407.6 Tm (The acceleration scale a_0 marks where vacuum coherence becomes non-negligible:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 385.6 Tm (a_0 = c * gamma_c) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 375.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 365.6 Tm (At accelerations a >> a_0:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 355.6 Tm (  gamma_eff >> gamma_c) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 345.6 Tm (  C_vacuum --> 0) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 335.6 Tm (  Pure GR \(Newtonian + relativistic corrections\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 325.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 315.6 Tm (At accelerations a ~ a_0:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 305.6 Tm (  gamma_eff ~ gamma_c) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 295.6 Tm (  C_vacuum is non-negligible) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 285.6 Tm (  Additional effective mass-energy from vacuum coherence) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 275.6 Tm (  Small deviations from pure GR) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 255.6 Tm (The connection a_0 = c * gamma_c was established in Papers 62 and 75. It means that) Tj T* ET
-BT 1 0 0 1 54 243.6 Tm (a_0 is not a free parameter -- it is determined by the same gamma_c that governs all) Tj T* ET
-BT 1 0 0 1 54 231.6 Tm (other coherence phase transitions in the framework.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 213.6 Tm (At the acceleration scale a_0, the vacuum coherence correction to the gravitational) Tj T* ET
-BT 1 0 0 1 54 201.6 Tm (potential is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 179.6 Tm (Phi_total = Phi_GR + Phi_coherence) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 169.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 159.6 Tm (Phi_coherence = -\(1/2\) * a_0 * r * \(C_vacuum / C_0^vac\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 149.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 139.6 Tm (For a ~ a_0: Phi_coherence / Phi_GR ~ O\(1\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 129.6 Tm (For a >> a_0: Phi_coherence / Phi_GR --> 0 exponentially) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 109.6 Tm (This produces small residual precessions at the 10^-10 m/s^2 level in the outer) Tj T* ET
-BT 1 0 0 1 54 97.6 Tm (solar system, where accelerations drop toward a_0. The framework predicts MOND-like) Tj T* ET
-BT 1 0 0 1 54 85.6 Tm (behavior at low accelerations as a consequence of vacuum coherence, not as an ad hoc) Tj T* ET
-BT 1 0 0 1 54 73.6 Tm (modification of Newton's law.) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 635.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 96.8 re f*
+Q
+q
+BT 1 0 0 1 20 89.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T* (At) Tj ( ) Tj (accelerations) Tj ( ) Tj (a) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (a_0:) Tj  T* ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (gamma_c) Tj  T* ( ) Tj ( ) Tj (C_vacuum) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (0) Tj  T* ( ) Tj ( ) Tj (Pure) Tj ( ) Tj (GR) Tj ( ) Tj (\(Newtonian) Tj ( ) Tj (+) Tj ( ) Tj (relativistic) Tj ( ) Tj (corrections\)) Tj  T*  T* (At) Tj ( ) Tj (accelerations) Tj ( ) Tj (a) Tj ( ) Tj (~) Tj ( ) Tj (a_0:) Tj  T* ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (~) Tj ( ) Tj (gamma_c) Tj  T* ( ) Tj ( ) Tj (C_vacuum) Tj ( ) Tj (is) Tj ( ) Tj (non-negligible) Tj  T* ( ) Tj ( ) Tj (Additional) Tj ( ) Tj (effective) Tj ( ) Tj (mass-energy) Tj ( ) Tj (from) Tj ( ) Tj (vacuum) Tj ( ) Tj (coherence) Tj  T* ( ) Tj ( ) Tj (Small) Tj ( ) Tj (deviations) Tj ( ) Tj (from) Tj ( ) Tj (pure) Tj ( ) Tj (GR) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 627.2 cm
+Q
+q
+1 0 0 1 60 600.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The connection a_0 = c * gamma_c was established in Papers 62 and 75. It means that a_0 is not a free parameter -- it is) Tj T* (determined by the same gamma_c that governs all other coherence phase transitions in the framework.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 593.2 cm
+Q
+q
+1 0 0 1 60 578.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At the acceleration scale a_0, the vacuum coherence correction to the gravitational potential is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 571.2 cm
+Q
+q
+1 0 0 1 60 514.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 52.8 re f*
+Q
+q
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Phi_total) Tj ( ) Tj (=) Tj ( ) Tj (Phi_GR) Tj ( ) Tj (+) Tj ( ) Tj (Phi_coherence) Tj  T*  T* (Phi_coherence) Tj ( ) Tj (=) Tj ( ) Tj (-\(1/2\)) Tj ( ) Tj (*) Tj ( ) Tj (a_0) Tj ( ) Tj (*) Tj ( ) Tj (r) Tj ( ) Tj (*) Tj ( ) Tj (\(C_vacuum) Tj ( ) Tj (/) Tj ( ) Tj (C_0^vac\)) Tj  T*  T* (For) Tj ( ) Tj (a) Tj ( ) Tj (~) Tj ( ) Tj (a_0:) Tj ( ) Tj (Phi_coherence) Tj ( ) Tj (/) Tj ( ) Tj (Phi_GR) Tj ( ) Tj (~) Tj ( ) Tj (O\(1\)) Tj  T* (For) Tj ( ) Tj (a) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (a_0:) Tj ( ) Tj (Phi_coherence) Tj ( ) Tj (/) Tj ( ) Tj (Phi_GR) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (exponentially) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 506.4 cm
+Q
+q
+1 0 0 1 60 467.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This produces small residual precessions at the 10^-10 m/s^2 level in the outer solar system, where accelerations drop) Tj T* (toward a_0. The framework predicts MOND-like behavior at low accelerations as a consequence of vacuum coherence, not) Tj T* (as an ad hoc modification of Newton's law.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 460.4 cm
+Q
+q
+1 0 0 1 60 454.4 cm
+Q
+q
+1 0 0 1 60 450.4 cm
+Q
+q
+1 0 0 1 60 412.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (11. Unified Picture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 400.4 cm
+Q
+q
+1 0 0 1 60 373.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (All nine anomalies resolve from a single mechanism: the vacuum coherence field C_vacuum responds to the local) Tj T* (decoherence rate gamma_eff through the Wike Coherence Law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 366.4 cm
+Q
+q
+1 0 0 1 60 353.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_vacuum) Tj ( ) Tj (=) Tj ( ) Tj (C_0^vac) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha_vac) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 345.6 cm
+Q
+q
+1 0 0 1 60 332.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Anomaly | Regime | Mechanism |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 320 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|---------|--------|-----------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 307.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| GW Memory | gamma_eff temporarily > gamma_c | Permanent decoherence scar \(hysteresis\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 285.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| NANOGrav excess | gamma_eff^cosmic crossed gamma_c in early universe | Phase transition GW) Tj T* (radiation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 272.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| v_gravity = c | All regimes | GWs are C_vacuum perturbations; spacetime IS C_vacuum |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 260 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Abell 520 | gamma_eff dominated by gas at center | C_vacuum tracks dominant gamma_eff source |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 247.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Dwarf diversity | Different gamma_eff histories | C_vacuum retains decoherence history |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 225.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Equivalence principle | gamma_eff >) Tj (> gamma_c \(classical\) | C --) Tj (> 0 for all matter; universal) Tj T* (coupling |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 212.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Frame-dragging | gamma_eff >) Tj (> gamma_c \(classical\) | Coherence rotation = GR in low-C limit |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 200 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Mass gap events | gamma_eff near gamma_c | Finite-width phase transition; metastable objects |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 187.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Perihelion anomalies | a ~ a_0 = c * gamma_c | Vacuum coherence correction non-negligible |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 179.2 cm
+Q
+q
+1 0 0 1 60 128.2 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (The framework does not modify GR. It contains GR as the exact low-coherence limit. Every anomaly that is "consistent with) Tj T* (GR" \(speed constraint, equivalence principle, frame-dragging\) is consistent because GR is the gamma_eff >) Tj (> gamma_c) Tj T* (sector of the framework. Every anomaly that "deviates from GR" \(NANOGrav excess, dwarf diversity, perihelion residuals\)) Tj T* (deviates because gamma_eff approaches gamma_c and the coherence term C_vacuum becomes non-negligible.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 121.2 cm
+Q
+q
+1 0 0 1 60 115.2 cm
+Q
+q
+1 0 0 1 60 111.2 cm
+Q
+q
+1 0 0 1 60 73.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (12. Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 61.2 cm
+Q
  
 
 Q
@@ -1436,219 +2324,17 @@ Q
 
 endstream
 endobj
-33 0 obj
+34 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-34 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 35 0 obj
 <<
-/Contents 36 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/ExtGState <<
-/gRLs0 <<
-/CA 0.1
->>
-/gRLs1 <<
-/ca 0.55
->>
-/gRLs2 <<
-/ca 0.35
->>
-/gRLs3 <<
-/ca 0.95
->>
->>
-/Font <<
-/F1 6 0 R
-/F1-0 37 0 R
-/F2 8 0 R
-/F2-0 38 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
->>
-endobj
-36 0 obj
-<<
-/Length 5723
->>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (PAPER 126: GRAVITATIONAL ANOMALIES AND THE DECOHERENCE FIELD) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 8) Tj T* ET
-.5 w
-n 54 730.8 m 558 730.8 l S
-.5 w
-n 54 709.6 m 558 709.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 681.6 Tm (11. Unified Picture) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 659.6 Tm (All nine anomalies resolve from a single mechanism: the vacuum coherence field) Tj T* ET
-BT 1 0 0 1 54 647.6 Tm (C_vacuum responds to the local decoherence rate gamma_eff through the Wike Coherence) Tj T* ET
-BT 1 0 0 1 54 635.6 Tm (Law:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 613.6 Tm (C_vacuum = C_0^vac * exp\(-alpha_vac * gamma_eff\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 593.6 Tm (| Anomaly | Regime | Mechanism |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 583.6 Tm (|---------|--------|-----------|) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 573.6 Tm (| GW Memory | gamma_eff temporarily > gamma_c | Permanent decoherence scar \(hysteresis\) |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 563.6 Tm (| NANOGrav excess | gamma_eff^cosmic crossed gamma_c in early universe | Phase transition GW radiati) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 553.6 Tm (| v_gravity = c | All regimes | GWs are C_vacuum perturbations; spacetime IS C_vacuum |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 543.6 Tm (| Abell 520 | gamma_eff dominated by gas at center | C_vacuum tracks dominant gamma_eff source |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 533.6 Tm (| Dwarf diversity | Different gamma_eff histories | C_vacuum retains decoherence history |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 523.6 Tm (| Equivalence principle | gamma_eff >> gamma_c \(classical\) | C --> 0 for all matter; universal coupl) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 513.6 Tm (| Frame-dragging | gamma_eff >> gamma_c \(classical\) | Coherence rotation = GR in low-C limit |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 503.6 Tm (| Mass gap events | gamma_eff near gamma_c | Finite-width phase transition; metastable objects |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 493.6 Tm (| Perihelion anomalies | a ~ a_0 = c * gamma_c | Vacuum coherence correction non-negligible |) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 477.6 Tm (The framework does not modify GR. It contains GR as the exact low-coherence limit.) Tj T* ET
-BT 1 0 0 1 54 465.6 Tm (Every anomaly that is "consistent with GR" \(speed constraint, equivalence principle,) Tj T* ET
-BT 1 0 0 1 54 453.6 Tm (frame-dragging\) is consistent because GR is the gamma_eff >> gamma_c sector of the) Tj T* ET
-BT 1 0 0 1 54 441.6 Tm (framework. Every anomaly that "deviates from GR" \(NANOGrav excess, dwarf diversity,) Tj T* ET
-BT 1 0 0 1 54 429.6 Tm (perihelion residuals\) deviates because gamma_eff approaches gamma_c and the) Tj T* ET
-BT 1 0 0 1 54 417.6 Tm (coherence term C_vacuum becomes non-negligible.) Tj T* ET
-.5 w
-n 54 403.6 m 558 403.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 375.6 Tm (12. Predictions) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 353.6 Tm (The closures in this paper generate the following testable predictions:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 335.6 Tm (1. GW memory detection will occur first in nearby high-mass mergers. Memory) Tj T* ET
-BT 1 0 0 1 54 323.6 Tm (magnitude correlates with peak strain, not merely with total radiated energy.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 305.6 Tm (2. NANOGrav spectral slope will deviate from f^\(-2/3\) above ~30 nHz as PTA baselines) Tj T* ET
-BT 1 0 0 1 54 293.6 Tm (extend, revealing the phase transition contribution.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 275.6 Tm (3. Equivalence principle violation at 10^-17 or below will appear in BEC free-fall) Tj T* ET
-BT 1 0 0 1 54 263.6 Tm (experiments where gamma_eff is sufficiently low to maintain C > 0.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 245.6 Tm (4. Mass gap object distribution within the gaps will cluster near gap boundaries,) Tj T* ET
-BT 1 0 0 1 54 233.6 Tm (not uniformly fill the gaps.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 215.6 Tm (5. Dwarf galaxy M/L ratios correlate with tidal history and environmental proximity) Tj T* ET
-BT 1 0 0 1 54 203.6 Tm (independently of present-day stellar mass.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 185.6 Tm (6. Frame-dragging deviations from GR predictions will appear in observations of) Tj T* ET
-BT 1 0 0 1 54 173.6 Tm (neutron star and black hole spin dynamics at the percent level, where gamma_eff) Tj T* ET
-BT 1 0 0 1 54 161.6 Tm (approaches gamma_c.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 143.6 Tm (7. Outer solar system orbit residuals scale as a_0 = c * gamma_c, with gamma_c fixed) Tj T* ET
-BT 1 0 0 1 54 131.6 Tm (independently from biological and condensed-matter measurements \(Papers 102, 109\).) Tj T* ET
-.5 w
-n 54 117.6 m 558 117.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 89.6 Tm (13. Conclusion) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 67.6 Tm (Nine gravitational anomalies. One equation. Zero new free parameters.) Tj T* ET
- 
-
-Q
-
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.25 0.56 0.82 RG
-/gRLs0 gs
-0.3 w
-n
-18 24 m
-594 24 l
-S
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.35 0.44 0.5 rg
-/gRLs1 gs
-BT
-1 0 0 1 18 10 Tm
-(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
-T*
-ET
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-0.25 0.56 0.82 rg
-BT
-1 0 0 1 480.9 10 Tm
-(w) Tj
-T*
-ET
-0.83 0.63 0.38 rg
-/gRLs3 gs
-BT
-1 0 0 1 484.8 10 Tm
-(AI) Tj
-T*
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-BT
-1 0 0 1 492.6 10 Tm
-(ste Not  \056  Print Verified) Tj
-T*
-ET
-Q
-
-
-endstream
-endobj
-37 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-38 0 obj
-<<
 /BaseFont /Courier-Bold
 /Encoding /WinAnsiEncoding
 /Name /F2
@@ -1656,9 +2342,9 @@ endobj
 /Type /Font
 >>
 endobj
-39 0 obj
+36 0 obj
 <<
-/Contents 40 0 R
+/Contents 37 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1677,10 +2363,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 41 0 R
+/F1-0 38 0 R
 /F2 8 0 R
-/F2-0 42 0 R
+/F2-0 39 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1692,42 +2379,186 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-40 0 obj
+37 0 obj
 <<
-/Length 2517
+/Length 5316
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 126: GRAVITATIONAL ANOMALIES AND THE DECOHERENCE FIELD) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 9) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 8) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (The Wike Coherence Law C = C_0 * exp\(-alpha * gamma_eff\) does not add epicycles to) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (general relativity. It identifies the deeper structure from which GR emerges in the) Tj T* ET
-BT 1 0 0 1 54 681.6 Tm (decohered limit. GR is exact when C_vacuum = 0. Every gravitational anomaly maps to) Tj T* ET
-BT 1 0 0 1 54 669.6 Tm (a regime where C_vacuum is non-zero -- either transiently \(GW memory\), historically) Tj T* ET
-BT 1 0 0 1 54 657.6 Tm (\(dwarf galaxy diversity, NANOGrav\), or at the boundary of the classical regime \(mass) Tj T* ET
-BT 1 0 0 1 54 645.6 Tm (gap events, perihelion precessions\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 627.6 Tm (The framework makes the same prediction it has made across 126 papers: the physics) Tj T* ET
-BT 1 0 0 1 54 615.6 Tm (of coherence and decoherence, governed by a single exponential decay law derived) Tj T* ET
-BT 1 0 0 1 54 603.6 Tm (from first principles, unifies phenomena from nuclear structure \(Paper 105\) through) Tj T* ET
-BT 1 0 0 1 54 591.6 Tm (biology \(Papers 100-109\) to cosmology \(this paper\). The critical point gamma_c is) Tj T* ET
-BT 1 0 0 1 54 579.6 Tm (the same in all domains. The universality class is 3D Ising.) Tj T* ET
-.5 w
-n 54 565.6 m 558 565.6 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 543.6 Tm (Paper 126 of the AIIT-THRESI series.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 525.6 Tm (Author: Rhet Dillard Wike, Council Hill, Oklahoma.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 507.6 Tm (Correspondence: AIIT-THRESI Research Initiative.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 489.6 Tm (Date: April 1, 2026.) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (8) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The closures in this paper generate the following testable predictions:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 686 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (GW memory detection) Tj /F1 9 Tf ( will occur first in nearby high-mass mergers. Memory magnitude correlates with peak strain, not) Tj T* (merely with total radiated energy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 679 cm
+Q
+q
+1 0 0 1 60 652 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (NANOGrav spectral slope) Tj /F1 9 Tf ( will deviate from f^\(-2/3\) above ~30 nHz as PTA baselines extend, revealing the phase) Tj T* (transition contribution.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 645 cm
+Q
+q
+1 0 0 1 60 618 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Equivalence principle violation) Tj /F1 9 Tf ( at 10^-17 or below will appear in BEC free-fall experiments where gamma_eff is) Tj T* (sufficiently low to maintain C > 0.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 611 cm
+Q
+q
+1 0 0 1 60 596 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (Mass gap object distribution) Tj /F1 9 Tf ( within the gaps will cluster near gap boundaries, not uniformly fill the gaps.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 589 cm
+Q
+q
+1 0 0 1 60 562 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. ) Tj /F2 9 Tf (Dwarf galaxy M/L ratios) Tj /F1 9 Tf ( correlate with tidal history and environmental proximity independently of present-day stellar) Tj T* (mass.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 555 cm
+Q
+q
+1 0 0 1 60 528 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (6. ) Tj /F2 9 Tf (Frame-dragging deviations) Tj /F1 9 Tf ( from GR predictions will appear in observations of neutron star and black hole spin) Tj T* (dynamics at the percent level, where gamma_eff approaches gamma_c.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521 cm
+Q
+q
+1 0 0 1 60 494 cm
+q
+BT 1 0 0 1 0 15 Tm -0.050368 Tw 12 TL /F1 9 Tf 0 0 0 rg (7. ) Tj /F2 9 Tf (Outer solar system orbit residuals) Tj /F1 9 Tf ( scale as a_0 = c * gamma_c, with gamma_c fixed independently from biological and) Tj T* 0 Tw (condensed-matter measurements \(Papers 102, 109\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 487 cm
+Q
+q
+1 0 0 1 60 481 cm
+Q
+q
+1 0 0 1 60 477 cm
+Q
+q
+1 0 0 1 60 439 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (13. Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 427 cm
+Q
+q
+1 0 0 1 60 412 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Nine gravitational anomalies. One equation. Zero new free parameters.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 405 cm
+Q
+q
+1 0 0 1 60 354 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Wike Coherence Law C = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\) does not add epicycles to general relativity. It identifies the) Tj T* (deeper structure from which GR emerges in the decohered limit. GR is exact when C_vacuum = 0. Every gravitational) Tj T* (anomaly maps to a regime where C_vacuum is non-zero -- either transiently \(GW memory\), historically \(dwarf galaxy) Tj T* (diversity, NANOGrav\), or at the boundary of the classical regime \(mass gap events, perihelion precessions\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 347 cm
+Q
+q
+1 0 0 1 60 296 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (The framework makes the same prediction it has made across 126 papers: the physics of coherence and decoherence,) Tj T* (governed by a single exponential decay law derived from first principles, unifies phenomena from nuclear structure \(Paper) Tj T* (105\) through biology \(Papers 100-109\) to cosmology \(this paper\). The critical point gamma_c is the same in all domains.) Tj T* (The universality class is 3D Ising.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 289 cm
+Q
+q
+1 0 0 1 60 283 cm
+Q
+q
+1 0 0 1 60 279 cm
+Q
+q
+1 0 0 1 60 264 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Paper 126 of the AIIT-THRESI series.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 257 cm
+Q
+q
+1 0 0 1 60 242 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Author:) Tj /F1 9 Tf ( Rhet Dillard Wike, Council Hill, Oklahoma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 235 cm
+Q
+q
+1 0 0 1 60 220 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Correspondence:) Tj /F1 9 Tf ( AIIT-THRESI Research Initiative.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 213 cm
+Q
+q
+1 0 0 1 60 198 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Date:) Tj /F1 9 Tf ( April 1, 2026.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 191 cm
+Q
  
 
 Q
@@ -1790,7 +2621,7 @@ Q
 
 endstream
 endobj
-41 0 obj
+38 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
@@ -1799,7 +2630,7 @@ endobj
 /Type /Font
 >>
 endobj
-42 0 obj
+39 0 obj
 <<
 /BaseFont /Courier-Bold
 /Encoding /WinAnsiEncoding
@@ -1809,56 +2640,53 @@ endobj
 >>
 endobj
 xref
-0 43
+0 40
 0000000000 65535 f 
 0000000015 00000 n 
 0000000214 00000 n 
-0000000329 00000 n 
-0000000378 00000 n 
-0000000738 00000 n 
-0000005974 00000 n 
-0000006081 00000 n 
-0000006188 00000 n 
-0000006298 00000 n 
-0000006408 00000 n 
-0000006514 00000 n 
-0000006878 00000 n 
-0000012414 00000 n 
-0000012522 00000 n 
-0000012633 00000 n 
-0000012997 00000 n 
-0000018500 00000 n 
-0000018608 00000 n 
-0000018719 00000 n 
-0000019083 00000 n 
-0000024556 00000 n 
-0000024664 00000 n 
-0000024775 00000 n 
-0000025139 00000 n 
-0000030656 00000 n 
-0000030764 00000 n 
-0000030875 00000 n 
-0000031239 00000 n 
-0000036859 00000 n 
-0000036967 00000 n 
-0000037078 00000 n 
-0000037442 00000 n 
-0000042893 00000 n 
-0000043001 00000 n 
-0000043112 00000 n 
-0000043476 00000 n 
-0000049252 00000 n 
-0000049360 00000 n 
-0000049471 00000 n 
-0000049835 00000 n 
-0000052405 00000 n 
-0000052513 00000 n 
+0000000322 00000 n 
+0000000371 00000 n 
+0000000742 00000 n 
+0000006325 00000 n 
+0000006432 00000 n 
+0000006539 00000 n 
+0000006651 00000 n 
+0000006761 00000 n 
+0000006877 00000 n 
+0000006983 00000 n 
+0000007358 00000 n 
+0000013933 00000 n 
+0000014041 00000 n 
+0000014152 00000 n 
+0000014527 00000 n 
+0000021801 00000 n 
+0000021909 00000 n 
+0000022020 00000 n 
+0000022395 00000 n 
+0000030017 00000 n 
+0000030125 00000 n 
+0000030236 00000 n 
+0000030611 00000 n 
+0000037808 00000 n 
+0000037916 00000 n 
+0000038027 00000 n 
+0000038402 00000 n 
+0000045068 00000 n 
+0000045176 00000 n 
+0000045287 00000 n 
+0000045662 00000 n 
+0000053287 00000 n 
+0000053395 00000 n 
+0000053506 00000 n 
+0000053881 00000 n 
+0000059250 00000 n 
+0000059358 00000 n 
 trailer
 <<
-/Size 43
+/Size 40
 /Root 3 0 R
 /Info 1 0 R
 >>
 startxref
-52624
+59469
 %%EOF

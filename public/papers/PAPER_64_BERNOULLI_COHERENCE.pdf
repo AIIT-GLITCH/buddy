@@ -60,7 +60,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5906
+/Length 5952
 >>
 stream
 q
@@ -157,7 +157,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Fluid) Tj ( ) Tj (velocity) Tj ( ) Tj (v) Tj ( ) Tj ( ) Tj (?) Tj ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj (propagation) Tj ( ) Tj (velocity) Tj ( ) Tj (v_C) Tj  T* (Static) Tj ( ) Tj (pressure) Tj ( ) Tj (P) Tj ( ) Tj (?) Tj ( ) Tj ( ) Tj (Decoherence) Tj ( ) Tj (pressure) Tj ( ) Tj (P_gamma) Tj ( ) Tj (=) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj  T* (Dynamic) Tj ( ) Tj (pressure) Tj ( ) Tj ( ) Tj (?) Tj ( ) Tj ( ) Tj (Kinetic) Tj ( ) Tj (coherence) Tj ( ) Tj (energy) Tj ( ) Tj (=) Tj ( ) Tj (1/2rho_C) Tj ( ) Tj (x) Tj ( ) Tj (v_C?) Tj  T*  T* (Bernoulli:) Tj ( ) Tj ( ) Tj (P) Tj ( ) Tj (+) Tj ( ) Tj (1/2rhov?) Tj ( ) Tj (+) Tj ( ) Tj (rhogz) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (P_gamma) Tj ( ) Tj (+) Tj ( ) Tj (1/2rho_C) Tj ( ) Tj (x) Tj ( ) Tj (v_C?) Tj ( ) Tj (=) Tj ( ) Tj (E_C) Tj ( ) Tj (\(conserved\)) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Fluid) Tj ( ) Tj (velocity) Tj ( ) Tj (v) Tj ( ) Tj ( ) Tj (<) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (Coherence) Tj ( ) Tj (propagation) Tj ( ) Tj (velocity) Tj ( ) Tj (v_C) Tj  T* (Static) Tj ( ) Tj (pressure) Tj ( ) Tj (P) Tj ( ) Tj (<) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (Decoherence) Tj ( ) Tj (pressure) Tj ( ) Tj (P_gamma) Tj ( ) Tj (=) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj  T* (Dynamic) Tj ( ) Tj (pressure) Tj ( ) Tj ( ) Tj (<) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (Kinetic) Tj ( ) Tj (coherence) Tj ( ) Tj (energy) Tj ( ) Tj (=) Tj ( ) Tj (1/2rho_C) Tj ( ) Tj (x) Tj ( ) Tj (v_C^2) Tj  T*  T* (Bernoulli:) Tj ( ) Tj ( ) Tj (P) Tj ( ) Tj (+) Tj ( ) Tj (1/2rhov^2) Tj ( ) Tj (+) Tj ( ) Tj (rhogz) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (P_gamma) Tj ( ) Tj (+) Tj ( ) Tj (1/2rho_C) Tj ( ) Tj (x) Tj ( ) Tj (v_C^2) Tj ( ) Tj (=) Tj ( ) Tj (E_C) Tj ( ) Tj (\(conserved\)) Tj T* ET
 Q
 Q
 q
@@ -205,7 +205,7 @@ q
 n 20 0 452 61.6 re f*
 Q
 q
-BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P) Tj ( ) Tj (+) Tj ( ) Tj (1/2rhov?) Tj ( ) Tj (+) Tj ( ) Tj (rhogz) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj  T*  T* (P) Tj ( ) Tj (=) Tj ( ) Tj (static) Tj ( ) Tj (pressure) Tj ( ) Tj (\(force) Tj ( ) Tj (per) Tj ( ) Tj (area\)) Tj  T* (rho) Tj ( ) Tj (=) Tj ( ) Tj (fluid) Tj ( ) Tj (density) Tj  T* (v) Tj ( ) Tj (=) Tj ( ) Tj (flow) Tj ( ) Tj (velocity) Tj  T* (g) Tj ( ) Tj (=) Tj ( ) Tj (gravitational) Tj ( ) Tj (acceleration) Tj  T* (z) Tj ( ) Tj (=) Tj ( ) Tj (height) Tj T* ET
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P) Tj ( ) Tj (+) Tj ( ) Tj (1/2rhov^2) Tj ( ) Tj (+) Tj ( ) Tj (rhogz) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj  T*  T* (P) Tj ( ) Tj (=) Tj ( ) Tj (static) Tj ( ) Tj (pressure) Tj ( ) Tj (\(force) Tj ( ) Tj (per) Tj ( ) Tj (area\)) Tj  T* (rho) Tj ( ) Tj (=) Tj ( ) Tj (fluid) Tj ( ) Tj (density) Tj  T* (v) Tj ( ) Tj (=) Tj ( ) Tj (flow) Tj ( ) Tj (velocity) Tj  T* (g) Tj ( ) Tj (=) Tj ( ) Tj (gravitational) Tj ( ) Tj (acceleration) Tj  T* (z) Tj ( ) Tj (=) Tj ( ) Tj (height) Tj T* ET
 Q
 Q
 q
@@ -402,7 +402,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 6640
+/Length 6657
 >>
 stream
 q
@@ -455,7 +455,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (??C) Tj ( ) Tj (nu) Tj ( ) Tj (alpha) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (C) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (convection-diffusion) Tj ( ) Tj (equation) Tj ( ) Tj (for) Tj ( ) Tj (a) Tj ( ) Tj (fluid) Tj ( ) Tj (with:) Tj  T* ( ) Tj ( ) Tj (Diffusion) Tj ( ) Tj (coefficient:) Tj ( ) Tj (D_C) Tj  T* ( ) Tj ( ) Tj ("Drift") Tj ( ) Tj (due) Tj ( ) Tj (to) Tj ( ) Tj (decoherence:) Tj ( ) Tj (nualpha) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (C) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (del^2C) Tj ( ) Tj (-) Tj ( ) Tj (alpha) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (C) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (the) Tj ( ) Tj (convection-diffusion) Tj ( ) Tj (equation) Tj ( ) Tj (for) Tj ( ) Tj (a) Tj ( ) Tj (fluid) Tj ( ) Tj (with:) Tj  T* ( ) Tj ( ) Tj (Diffusion) Tj ( ) Tj (coefficient:) Tj ( ) Tj (D_C) Tj  T* ( ) Tj ( ) Tj ("Drift") Tj ( ) Tj (due) Tj ( ) Tj (to) Tj ( ) Tj (decoherence:) Tj ( ) Tj (-alpha) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (C) Tj T* ET
 Q
 Q
 q
@@ -465,7 +465,7 @@ q
 1 0 0 1 60 575 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For regions where the coherence gradient ?C is large \(fast-moving coherence\), we can define:) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For regions where the coherence gradient delC is large \(fast-moving coherence\), we can define:) Tj T* ET
 Q
 Q
 q
@@ -478,7 +478,7 @@ q
 n 20 0 452 17.6 re f*
 Q
 q
-BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Coherence) Tj ( ) Tj (flux) Tj ( ) Tj (density:) Tj ( ) Tj (J_C) Tj ( ) Tj (=) Tj ( ) Tj (nuD_C) Tj ( ) Tj (?C) Tj ( ) Tj ( ) Tj (\(from) Tj ( ) Tj (Paper) Tj ( ) Tj (54\)) Tj  T* (Coherence) Tj ( ) Tj (velocity:) Tj ( ) Tj (v_C) Tj ( ) Tj (=) Tj ( ) Tj (J_C) Tj ( ) Tj (/) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (nuD_C) Tj ( ) Tj (?C) Tj ( ) Tj (/) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (nuD_C) Tj ( ) Tj (?\(ln) Tj ( ) Tj (C\)) Tj T* ET
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Coherence) Tj ( ) Tj (flux) Tj ( ) Tj (density:) Tj ( ) Tj (J_C) Tj ( ) Tj (=) Tj ( ) Tj (-D_C) Tj ( ) Tj (delC) Tj ( ) Tj ( ) Tj (\(from) Tj ( ) Tj (Paper) Tj ( ) Tj (54\)) Tj  T* (Coherence) Tj ( ) Tj (velocity:) Tj ( ) Tj (v_C) Tj ( ) Tj (=) Tj ( ) Tj (J_C) Tj ( ) Tj (/) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (-D_C) Tj ( ) Tj (delC) Tj ( ) Tj (/) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (-D_C) Tj ( ) Tj (del\(ln) Tj ( ) Tj (C\)) Tj T* ET
 Q
 Q
 q
@@ -527,7 +527,7 @@ q
 n 20 0 452 8.8 re f*
 Q
 q
-BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_gamma) Tj ( ) Tj (=) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj ( ) Tj (x) Tj ( ) Tj (D_C) Tj ( ) Tj (/) Tj ( ) Tj (v_C?) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_gamma) Tj ( ) Tj (=) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj ( ) Tj (x) Tj ( ) Tj (D_C) Tj ( ) Tj (/) Tj ( ) Tj (v_C^2) Tj T* ET
 Q
 Q
 q
@@ -537,7 +537,7 @@ q
 1 0 0 1 60 398.6 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(This has units of [coherence x diffusion / velocity?] = dimensionless pressure in the coherence fluid.\)) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(This has units of [coherence x diffusion / velocity^2] = dimensionless pressure in the coherence fluid.\)) Tj T* ET
 Q
 Q
 q
@@ -547,7 +547,7 @@ q
 1 0 0 1 60 376.6 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a conserved coherence current \(steady state, ?.J_C = 0\):) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a conserved coherence current \(steady state, del.J_C = 0\):) Tj T* ET
 Q
 Q
 q
@@ -560,7 +560,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Conservation:) Tj ( ) Tj (?) Tj ( ) Tj (.) Tj ( ) Tj (\(rho_C) Tj ( ) Tj (v_C\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (where) Tj ( ) Tj (rho_C) Tj ( ) Tj (=) Tj ( ) Tj (C) Tj ( ) Tj (\(coherence) Tj ( ) Tj (density\)) Tj  T*  T* (Energy) Tj ( ) Tj (conservation) Tj ( ) Tj (along) Tj ( ) Tj (a) Tj ( ) Tj (coherence) Tj ( ) Tj (streamline:) Tj  T* (P_gamma) Tj ( ) Tj (+) Tj ( ) Tj (1/2) Tj ( ) Tj (C) Tj ( ) Tj (v_C?) Tj ( ) Tj (=) Tj ( ) Tj (E_C) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Conservation:) Tj ( ) Tj (del) Tj ( ) Tj (.) Tj ( ) Tj (\(rho_C) Tj ( ) Tj (v_C\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (where) Tj ( ) Tj (rho_C) Tj ( ) Tj (=) Tj ( ) Tj (C) Tj ( ) Tj (\(coherence) Tj ( ) Tj (density\)) Tj  T*  T* (Energy) Tj ( ) Tj (conservation) Tj ( ) Tj (along) Tj ( ) Tj (a) Tj ( ) Tj (coherence) Tj ( ) Tj (streamline:) Tj  T* (P_gamma) Tj ( ) Tj (+) Tj ( ) Tj (1/2) Tj ( ) Tj (C) Tj ( ) Tj (v_C^2) Tj ( ) Tj (=) Tj ( ) Tj (E_C) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj T* ET
 Q
 Q
 q
@@ -582,7 +582,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (C) Tj ( ) Tj (D_C/v_C?) Tj ( ) Tj (+) Tj ( ) Tj (1/2) Tj ( ) Tj (C) Tj ( ) Tj (v_C?) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj  T*  T* (Dividing) Tj ( ) Tj (by) Tj ( ) Tj (C:) Tj  T* (alpha) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (D_C/v_C?) Tj ( ) Tj (+) Tj ( ) Tj (1/2) Tj ( ) Tj (v_C?) Tj ( ) Tj (=) Tj ( ) Tj (E_C/C) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj ( ) Tj (per) Tj ( ) Tj (unit) Tj ( ) Tj (coherence) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (C) Tj ( ) Tj (D_C/v_C^2) Tj ( ) Tj (+) Tj ( ) Tj (1/2) Tj ( ) Tj (C) Tj ( ) Tj (v_C^2) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj  T*  T* (Dividing) Tj ( ) Tj (by) Tj ( ) Tj (C:) Tj  T* (alpha) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (D_C/v_C^2) Tj ( ) Tj (+) Tj ( ) Tj (1/2) Tj ( ) Tj (v_C^2) Tj ( ) Tj (=) Tj ( ) Tj (E_C/C) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj ( ) Tj (per) Tj ( ) Tj (unit) Tj ( ) Tj (coherence) Tj T* ET
 Q
 Q
 q
@@ -1114,7 +1114,7 @@ endobj
 endobj
 21 0 obj
 <<
-/Length 7066
+/Length 7074
 >>
 stream
 q
@@ -1183,7 +1183,7 @@ q
 n 20 0 452 61.6 re f*
 Q
 q
-BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (FICK) Tj ( ) Tj (\(Paper) Tj ( ) Tj (54\):) Tj ( ) Tj ( ) Tj ( ) Tj (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (??C) Tj ( ) Tj (nu) Tj ( ) Tj (alphagamma_eff) Tj ( ) Tj (C) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(diffusion,) Tj ( ) Tj (no) Tj ( ) Tj (flow\)) Tj  T* (BERNOULLI:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (P_gamma) Tj ( ) Tj (+) Tj ( ) Tj (1/2Cv_C?) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(conservation) Tj ( ) Tj (along) Tj ( ) Tj (streamlines\)) Tj  T* (COMBINED:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Full) Tj ( ) Tj (Navier-Stokes) Tj ( ) Tj (analog) Tj ( ) Tj (for) Tj ( ) Tj (the) Tj ( ) Tj (coherence) Tj ( ) Tj (fluid) Tj  T*  T* (d\(Cv_C\)/dt) Tj ( ) Tj (+) Tj ( ) Tj (\(Cv_C.?\)v_C) Tj ( ) Tj (=) Tj ( ) Tj (nu?P_gamma) Tj ( ) Tj (+) Tj ( ) Tj (D_C) Tj ( ) Tj (??\(Cv_C\)) Tj ( ) Tj (nu) Tj ( ) Tj (alphagamma_eff\(Cv_C\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\\_____________/) Tj ( ) Tj ( ) Tj ( ) Tj (\\________________________/) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (viscous) Tj ( ) Tj (diffusion) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (decoherence) Tj ( ) Tj (damping) Tj T* ET
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (FICK) Tj ( ) Tj (\(Paper) Tj ( ) Tj (54\):) Tj ( ) Tj ( ) Tj ( ) Tj (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (del^2C) Tj ( ) Tj (-) Tj ( ) Tj (alphagamma_eff) Tj ( ) Tj (C) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(diffusion,) Tj ( ) Tj (no) Tj ( ) Tj (flow\)) Tj  T* (BERNOULLI:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (P_gamma) Tj ( ) Tj (+) Tj ( ) Tj (1/2Cv_C^2) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(conservation) Tj ( ) Tj (along) Tj ( ) Tj (streamlines\)) Tj  T* (COMBINED:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Full) Tj ( ) Tj (Navier-Stokes) Tj ( ) Tj (analog) Tj ( ) Tj (for) Tj ( ) Tj (the) Tj ( ) Tj (coherence) Tj ( ) Tj (fluid) Tj  T*  T* (d\(Cv_C\)/dt) Tj ( ) Tj (+) Tj ( ) Tj (\(Cv_C.del\)v_C) Tj ( ) Tj (=) Tj ( ) Tj (-delP_gamma) Tj ( ) Tj (+) Tj ( ) Tj (D_C) Tj ( ) Tj (del^2\(Cv_C\)) Tj ( ) Tj (-) Tj ( ) Tj (alphagamma_eff\(Cv_C\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\\_____________/) Tj ( ) Tj ( ) Tj ( ) Tj (\\________________________/) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (viscous) Tj ( ) Tj (diffusion) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (decoherence) Tj ( ) Tj (damping) Tj T* ET
 Q
 Q
 q
@@ -1458,24 +1458,24 @@ xref
 0000000294 00000 n 
 0000000343 00000 n 
 0000000714 00000 n 
-0000006672 00000 n 
-0000006779 00000 n 
-0000006886 00000 n 
-0000006998 00000 n 
-0000007108 00000 n 
-0000007224 00000 n 
-0000007330 00000 n 
-0000007705 00000 n 
-0000014398 00000 n 
-0000014506 00000 n 
-0000014617 00000 n 
-0000014992 00000 n 
-0000021498 00000 n 
-0000021606 00000 n 
-0000021717 00000 n 
-0000022092 00000 n 
-0000029211 00000 n 
-0000029319 00000 n 
+0000006718 00000 n 
+0000006825 00000 n 
+0000006932 00000 n 
+0000007044 00000 n 
+0000007154 00000 n 
+0000007270 00000 n 
+0000007376 00000 n 
+0000007751 00000 n 
+0000014461 00000 n 
+0000014569 00000 n 
+0000014680 00000 n 
+0000015055 00000 n 
+0000021561 00000 n 
+0000021669 00000 n 
+0000021780 00000 n 
+0000022155 00000 n 
+0000029282 00000 n 
+0000029390 00000 n 
 trailer
 <<
 /Size 24
@@ -1483,5 +1483,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-29430
+29501
 %%EOF

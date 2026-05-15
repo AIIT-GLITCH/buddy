@@ -61,7 +61,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5691
+/Length 5661
 >>
 stream
 q
@@ -144,7 +144,7 @@ Q
 q
 1 0 0 1 60 313 cm
 q
-BT 1 0 0 1 0 123 Tm 12 TL /F1 9 Tf 0 0 0 rg (The AIIT-THRESI 100K simulation suite measured the Hahn Echo and CPMG 4-pulse dynamical decoupling corrections on) Tj T* (stressed biological systems. Result: coherence improved by 1.1% \(Hahn\) and 0.8% \(CPMG\). Survival rate ) Tj /F3 9 Tf (decreased) Tj /F1 9 Tf ( by) Tj T* (0.1-0.3%. This paradox -- interventions that improve the average metric while worsening the survival outcome -- is the) Tj T* (signature of the ) Tj /F2 9 Tf (quantum anti-Zeno effect) Tj /F1 9 Tf ( \(Misra & Sudarshan, 1977; Kofman & Kurizki, 2000\): frequent intervention can) Tj T* (accelerate the rare catastrophic collapse events that the survival metric captures. The same paper contains an even more) Tj T* (extreme case: the Detuned Force produces mean coherence 0.3356 \(higher than stressed biology\) with 0% survival. Every) Tj T* (trajectory collapsed at t=0.80 while averaging high. This is a ) Tj /F2 9 Tf (coherence trap) Tj /F1 9 Tf ( -- the drive populates a high-coherence) Tj T* (subspace before inevitable total collapse. These two findings have direct medical translations: \(1\) some standard) Tj T* (interventions may improve average biomarkers while worsening outcomes in the most vulnerable subgroup; \(2\) aggregate) Tj T* (population metrics can mask universal trajectory failure in a coherence trap. Both failures are currently happening in clinical) Tj T* (medicine.) Tj T* ET
+BT 1 0 0 1 0 123 Tm 12 TL /F1 9 Tf 0 0 0 rg (The AIIT-THRESI 100K simulation suite measured the Hahn Echo and CPMG 4-pulse dynamical decoupling corrections on) Tj T* (stressed biological systems. Result: coherence improved by 1.1% \(Hahn\) and 0.8% \(CPMG\). Survival rate decreased by) Tj T* (0.1-0.3%. This paradox -- interventions that improve the average metric while worsening the survival outcome -- is the) Tj T* (signature of the ) Tj /F2 9 Tf (quantum anti-Zeno effect) Tj /F1 9 Tf ( \(Misra & Sudarshan, 1977; Kofman & Kurizki, 2000\): frequent intervention can) Tj T* (accelerate the rare catastrophic collapse events that the survival metric captures. The same paper contains an even more) Tj T* (extreme case: the Detuned Force produces mean coherence 0.3356 \(higher than stressed biology\) with 0% survival. Every) Tj T* (trajectory collapsed at t=0.80 while averaging high. This is a ) Tj /F2 9 Tf (coherence trap) Tj /F1 9 Tf ( -- the drive populates a high-coherence) Tj T* (subspace before inevitable total collapse. These two findings have direct medical translations: \(1\) some standard) Tj T* (interventions may improve average biomarkers while worsening outcomes in the most vulnerable subgroup; \(2\) aggregate) Tj T* (population metrics can mask universal trajectory failure in a coherence trap. Both failures are currently happening in clinical) Tj T* (medicine.) Tj T* ET
 Q
 Q
 q
@@ -1939,33 +1939,33 @@ xref
 0000000308 00000 n 
 0000000357 00000 n 
 0000000739 00000 n 
-0000006482 00000 n 
-0000006589 00000 n 
-0000006696 00000 n 
-0000006808 00000 n 
-0000006918 00000 n 
-0000007034 00000 n 
-0000007140 00000 n 
-0000007251 00000 n 
-0000007637 00000 n 
-0000014558 00000 n 
-0000014666 00000 n 
-0000014777 00000 n 
-0000015163 00000 n 
-0000022186 00000 n 
-0000022294 00000 n 
-0000022405 00000 n 
-0000022791 00000 n 
-0000030085 00000 n 
-0000030193 00000 n 
-0000030304 00000 n 
-0000030690 00000 n 
-0000036285 00000 n 
-0000036393 00000 n 
-0000036504 00000 n 
-0000036890 00000 n 
-0000039936 00000 n 
-0000040044 00000 n 
+0000006452 00000 n 
+0000006559 00000 n 
+0000006666 00000 n 
+0000006778 00000 n 
+0000006888 00000 n 
+0000007004 00000 n 
+0000007110 00000 n 
+0000007221 00000 n 
+0000007607 00000 n 
+0000014528 00000 n 
+0000014636 00000 n 
+0000014747 00000 n 
+0000015133 00000 n 
+0000022156 00000 n 
+0000022264 00000 n 
+0000022375 00000 n 
+0000022761 00000 n 
+0000030055 00000 n 
+0000030163 00000 n 
+0000030274 00000 n 
+0000030660 00000 n 
+0000036255 00000 n 
+0000036363 00000 n 
+0000036474 00000 n 
+0000036860 00000 n 
+0000039906 00000 n 
+0000040014 00000 n 
 trailer
 <<
 /Size 33
@@ -1973,5 +1973,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-40155
+40125
 %%EOF

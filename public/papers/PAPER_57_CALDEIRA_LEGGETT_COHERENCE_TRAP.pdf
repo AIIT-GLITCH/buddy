@@ -399,7 +399,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 7461
+/Length 7457
 >>
 stream
 q
@@ -423,7 +423,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (H) Tj ( ) Tj (=) Tj ( ) Tj (p?/2m) Tj ( ) Tj (+) Tj ( ) Tj (V\(q\)) Tj ( ) Tj (+) Tj ( ) Tj (PI_k) Tj ( ) Tj ([p_k?/2m_k) Tj ( ) Tj (+) Tj ( ) Tj (m_k) Tj ( ) Tj (omega_k?/2) Tj ( ) Tj (\(x_k) Tj ( ) Tj (nu) Tj ( ) Tj (c_k) Tj ( ) Tj (q/m_k) Tj ( ) Tj (omega_k?\)?]) Tj  T*  T* (J\(omega\)) Tj ( ) Tj (=) Tj ( ) Tj (pi/2) Tj ( ) Tj (x) Tj ( ) Tj (PI_k) Tj ( ) Tj (c_k?/\(m_k) Tj ( ) Tj (omega_k\)) Tj ( ) Tj (x) Tj ( ) Tj (delta\(omega) Tj ( ) Tj (nu) Tj ( ) Tj (omega_k\)) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (H) Tj ( ) Tj (=) Tj ( ) Tj (p^2/2m) Tj ( ) Tj (+) Tj ( ) Tj (V\(q\)) Tj ( ) Tj (+) Tj ( ) Tj (SIGMA_k) Tj ( ) Tj ([p_k^2/2m_k) Tj ( ) Tj (+) Tj ( ) Tj (m_k) Tj ( ) Tj (omega_k^2/2) Tj ( ) Tj (\(x_k) Tj ( ) Tj (-) Tj ( ) Tj (c_k) Tj ( ) Tj (q/m_k) Tj ( ) Tj (omega_k^2\)^2]) Tj  T*  T* (J\(omega\)) Tj ( ) Tj (=) Tj ( ) Tj (pi/2) Tj ( ) Tj (x) Tj ( ) Tj (SIGMA_k) Tj ( ) Tj (c_k^2/\(m_k) Tj ( ) Tj (omega_k\)) Tj ( ) Tj (x) Tj ( ) Tj (delta\(omega) Tj ( ) Tj (-) Tj ( ) Tj (omega_k\)) Tj T* ET
 Q
 Q
 q
@@ -441,7 +441,7 @@ Q
 q
 1 0 0 1 60 648.6 cm
 q
-BT 1 0 0 1 0 15 Tm -0.065143 Tw 12 TL /F1 9 Tf 0 0 0 rg (For ) Tj /F2 9 Tf (off-resonant structured bath) Tj /F1 9 Tf ( \(J\(omega\) = J?delta\(omega nu omega_drive\)\): a single resonance peak at omega_drive.) Tj T* 0 Tw (If omega_drive != omega_system:) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (For ) Tj /F2 9 Tf (off-resonant structured bath) Tj /F1 9 Tf ( \(J\(omega\) = J_0delta\(omega - omega_drive\)\): a single resonance peak at omega_drive.) Tj T* (If omega_drive != omega_system:) Tj T* ET
 Q
 Q
 q
@@ -454,7 +454,7 @@ q
 n 20 0 452 52.8 re f*
 Q
 q
-BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (The) Tj ( ) Tj (system) Tj ( ) Tj (couples) Tj ( ) Tj (primarily) Tj ( ) Tj (to) Tj ( ) Tj (the) Tj ( ) Tj (bath) Tj ( ) Tj (mode) Tj ( ) Tj (at) Tj ( ) Tj (omega_drive.) Tj  T* (Energy) Tj ( ) Tj (exchange:) Tj ( ) Tj (maximized) Tj ( ) Tj (at) Tj ( ) Tj (resonance,) Tj ( ) Tj (suppressed) Tj ( ) Tj (off-resonance.) Tj  T* (But:) Tj ( ) Tj (the) Tj ( ) Tj (coupling) Tj ( ) Tj (creates) Tj ( ) Tj (a) Tj ( ) Tj (NEW) Tj ( ) Tj (effective) Tj ( ) Tj (frequency) Tj ( ) Tj (for) Tj ( ) Tj (the) Tj ( ) Tj (system) Tj ( ) Tj (--) Tj  T* (a) Tj ( ) Tj (dressed) Tj ( ) Tj (state) Tj ( ) Tj (at) Tj ( ) Tj (omega_dressed) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(omega_system?) Tj ( ) Tj (+) Tj ( ) Tj (DELTAomega?\)) Tj  T*  T* (where) Tj ( ) Tj (DELTAomega) Tj ( ) Tj (=) Tj ( ) Tj (|omega_drive) Tj ( ) Tj (nu) Tj ( ) Tj (omega_system|) Tj T* ET
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (The) Tj ( ) Tj (system) Tj ( ) Tj (couples) Tj ( ) Tj (primarily) Tj ( ) Tj (to) Tj ( ) Tj (the) Tj ( ) Tj (bath) Tj ( ) Tj (mode) Tj ( ) Tj (at) Tj ( ) Tj (omega_drive.) Tj  T* (Energy) Tj ( ) Tj (exchange:) Tj ( ) Tj (maximized) Tj ( ) Tj (at) Tj ( ) Tj (resonance,) Tj ( ) Tj (suppressed) Tj ( ) Tj (off-resonance.) Tj  T* (But:) Tj ( ) Tj (the) Tj ( ) Tj (coupling) Tj ( ) Tj (creates) Tj ( ) Tj (a) Tj ( ) Tj (NEW) Tj ( ) Tj (effective) Tj ( ) Tj (frequency) Tj ( ) Tj (for) Tj ( ) Tj (the) Tj ( ) Tj (system) Tj ( ) Tj (--) Tj  T* (a) Tj ( ) Tj (dressed) Tj ( ) Tj (state) Tj ( ) Tj (at) Tj ( ) Tj (omega_dressed) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(omega_system^2) Tj ( ) Tj (+) Tj ( ) Tj (DELTAomega^2\)) Tj  T*  T* (where) Tj ( ) Tj (DELTAomega) Tj ( ) Tj (=) Tj ( ) Tj (|omega_drive) Tj ( ) Tj (-) Tj ( ) Tj (omega_system|) Tj T* ET
 Q
 Q
 q
@@ -512,7 +512,7 @@ q
 n 20 0 452 158.4 re f*
 Q
 q
-BT 1 0 0 1 20 150.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Survival) Tj ( ) Tj (requires:) Tj ( ) Tj (C\(t_final\)) Tj ( ) Tj (>) Tj ( ) Tj (C_threshold) Tj  T*  T* (All) Tj ( ) Tj (5000) Tj ( ) Tj (trajectories:) Tj ( ) Tj (C\(t_final\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T*  T* (Mean) Tj ( ) Tj (C) Tj ( ) Tj (at) Tj ( ) Tj (t=20:) Tj ( ) Tj (0.3356) Tj  T*  T* (This) Tj ( ) Tj (means:) Tj ( ) Tj (between) Tj ( ) Tj (t=0) Tj ( ) Tj (and) Tj ( ) Tj (t=20,) Tj ( ) Tj (trajectories) Tj ( ) Tj (spend) Tj ( ) Tj (significant) Tj ( ) Tj (time) Tj  T* (at) Tj ( ) Tj (high) Tj ( ) Tj (C) Tj ( ) Tj (values) Tj ( ) Tj (before) Tj ( ) Tj (collapsing.) Tj  T*  T* (The) Tj ( ) Tj (mean) Tj ( ) Tj (integrates) Tj ( ) Tj (C) Tj ( ) Tj (over) Tj ( ) Tj (time:) Tj  T* (<) Tj (C\(20\)) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (\(1/N\)) Tj ( ) Tj (PI_i) Tj ( ) Tj (C_i\(20\)) Tj  T*  T* (If) Tj ( ) Tj (all) Tj ( ) Tj (trajectories) Tj ( ) Tj (collapse) Tj ( ) Tj (AT) Tj ( ) Tj (t=20:) Tj ( ) Tj (<) Tj (C\(20\)) Tj (>) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj  T* (If) Tj ( ) Tj (all) Tj ( ) Tj (trajectories) Tj ( ) Tj (collapse) Tj ( ) Tj (BEFORE) Tj ( ) Tj (t=20) Tj ( ) Tj (\(at) Tj ( ) Tj (t_collapse) Tj ( ) Tj (<) Tj ( ) Tj (20\):) Tj  T* ( ) Tj ( ) Tj (C_i\(t\)) Tj ( ) Tj (is) Tj ( ) Tj (HIGH) Tj ( ) Tj (for) Tj ( ) Tj (t) Tj ( ) Tj (<) Tj ( ) Tj (t_collapse) Tj  T* ( ) Tj ( ) Tj (C_i\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (\(already) Tj ( ) Tj (collapsed\)) Tj  T*  T* (The) Tj ( ) Tj (measurement) Tj ( ) Tj (at) Tj ( ) Tj (t=20) Tj ( ) Tj (catches) Tj ( ) Tj (every) Tj ( ) Tj (trajectory) Tj ( ) Tj (at) Tj ( ) Tj (C=0.) Tj T* ET
+BT 1 0 0 1 20 150.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Survival) Tj ( ) Tj (requires:) Tj ( ) Tj (C\(t_final\)) Tj ( ) Tj (>) Tj ( ) Tj (C_threshold) Tj  T*  T* (All) Tj ( ) Tj (5000) Tj ( ) Tj (trajectories:) Tj ( ) Tj (C\(t_final\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T*  T* (Mean) Tj ( ) Tj (C) Tj ( ) Tj (at) Tj ( ) Tj (t=20:) Tj ( ) Tj (0.3356) Tj  T*  T* (This) Tj ( ) Tj (means:) Tj ( ) Tj (between) Tj ( ) Tj (t=0) Tj ( ) Tj (and) Tj ( ) Tj (t=20,) Tj ( ) Tj (trajectories) Tj ( ) Tj (spend) Tj ( ) Tj (significant) Tj ( ) Tj (time) Tj  T* (at) Tj ( ) Tj (high) Tj ( ) Tj (C) Tj ( ) Tj (values) Tj ( ) Tj (before) Tj ( ) Tj (collapsing.) Tj  T*  T* (The) Tj ( ) Tj (mean) Tj ( ) Tj (integrates) Tj ( ) Tj (C) Tj ( ) Tj (over) Tj ( ) Tj (time:) Tj  T* (<) Tj (C\(20\)) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (\(1/N\)) Tj ( ) Tj (SIGMA_i) Tj ( ) Tj (C_i\(20\)) Tj  T*  T* (If) Tj ( ) Tj (all) Tj ( ) Tj (trajectories) Tj ( ) Tj (collapse) Tj ( ) Tj (AT) Tj ( ) Tj (t=20:) Tj ( ) Tj (<) Tj (C\(20\)) Tj (>) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj  T* (If) Tj ( ) Tj (all) Tj ( ) Tj (trajectories) Tj ( ) Tj (collapse) Tj ( ) Tj (BEFORE) Tj ( ) Tj (t=20) Tj ( ) Tj (\(at) Tj ( ) Tj (t_collapse) Tj ( ) Tj (<) Tj ( ) Tj (20\):) Tj  T* ( ) Tj ( ) Tj (C_i\(t\)) Tj ( ) Tj (is) Tj ( ) Tj (HIGH) Tj ( ) Tj (for) Tj ( ) Tj (t) Tj ( ) Tj (<) Tj ( ) Tj (t_collapse) Tj  T* ( ) Tj ( ) Tj (C_i\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (\(already) Tj ( ) Tj (collapsed\)) Tj  T*  T* (The) Tj ( ) Tj (measurement) Tj ( ) Tj (at) Tj ( ) Tj (t=20) Tj ( ) Tj (catches) Tj ( ) Tj (every) Tj ( ) Tj (trajectory) Tj ( ) Tj (at) Tj ( ) Tj (C=0.) Tj T* ET
 Q
 Q
 q
@@ -700,7 +700,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 6795
+/Length 6796
 >>
 stream
 q
@@ -823,7 +823,7 @@ q
 1 0 0 1 60 347 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From FINDING 1.3 in the simulation data: NIR dose-response fits Hill equation with n=3, R?=0.9980.) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From FINDING 1.3 in the simulation data: NIR dose-response fits Hill equation with n=3, R^2=0.9980.) Tj T* ET
 Q
 Q
 q
@@ -1044,7 +1044,7 @@ endobj
 endobj
 21 0 obj
 <<
-/Length 2671
+/Length 2672
 >>
 stream
 q
@@ -1137,7 +1137,7 @@ n 20 0 452 8.8 re f*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Hill n=3 = mean-field delta=3 | R?=0.9980 fit | NIR simulation, 30,000 runs |) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Hill n=3 = mean-field delta=3 | R^2=0.9980 fit | NIR simulation, 30,000 runs |) Tj T* ET
 Q
 Q
 q
@@ -1260,16 +1260,16 @@ xref
 0000006564 00000 n 
 0000006670 00000 n 
 0000007045 00000 n 
-0000014559 00000 n 
-0000014667 00000 n 
-0000014778 00000 n 
-0000015153 00000 n 
-0000022001 00000 n 
-0000022109 00000 n 
-0000022220 00000 n 
-0000022595 00000 n 
-0000025319 00000 n 
-0000025427 00000 n 
+0000014555 00000 n 
+0000014663 00000 n 
+0000014774 00000 n 
+0000015149 00000 n 
+0000021998 00000 n 
+0000022106 00000 n 
+0000022217 00000 n 
+0000022592 00000 n 
+0000025317 00000 n 
+0000025425 00000 n 
 trailer
 <<
 /Size 24
@@ -1277,5 +1277,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-25538
+25536
 %%EOF

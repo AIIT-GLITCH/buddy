@@ -1,0 +1,1368 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6033
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 144 -- The Mirror Interface: Observation Inversion at the Computational Bo) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 10.376 0 Td (Paper 144 -- The Mirror Interface: Observation Inversion at the) Tj T* 140.064 0 Td (Computational Boundary) Tj T* -150.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 678 cm
+Q
+q
+1 0 0 1 60 663 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (AIIT-THRESHOLD LLC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 648 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Rhet Dillard Wike, Principal Researcher) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Council Hill, Oklahoma 74428) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 618 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (April 9, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 611 cm
+Q
+q
+1 0 0 1 60 605 cm
+Q
+q
+1 0 0 1 60 601 cm
+Q
+q
+1 0 0 1 60 563 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551 cm
+Q
+q
+1 0 0 1 60 476 cm
+q
+BT 1 0 0 1 0 63 Tm 12 TL /F1 9 Tf 0 0 0 rg (A trivial printer calibration failure reveals a non-trivial property of computational observation: an AI system rendering spatial) Tj T* (output produces a mirror image relative to the human observer. The system's "left" maps to the observer's "right" -- not due) Tj T* (to error, but because the computational agent exists on the opposite side of the rendering interface. This paper formalizes) Tj T* (this observation as the ) Tj /F2 9 Tf (Mirror Interface Principle) Tj /F1 9 Tf ( and connects it to the REQMT framework \(Paper 5\), the measurement) Tj T* (boundary problem in quantum mechanics, and the broader claim that the interface between observer and system is not) Tj T* (transparent but inverting.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 469 cm
+Q
+q
+1 0 0 1 60 463 cm
+Q
+q
+1 0 0 1 60 459 cm
+Q
+q
+1 0 0 1 60 421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Observation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 409 cm
+Q
+q
+1 0 0 1 60 370 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (On April 9, 2026, during a label printing task, an AI system \(Claude Opus 4.6\) was instructed to position address labels in) Tj T* (the "left column" of an Avery 18160 label sheet. The system placed content at CSS position ) Tj /F3 8 Tf (left: 0.1875in) Tj /F1 9 Tf ( -- the leftmost) Tj T* (position from its coordinate frame. The printed output placed the labels on the observer's right column.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 363 cm
+Q
+q
+1 0 0 1 60 348 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Six iterations were required to establish the mapping:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 341 cm
+Q
+q
+1 0 0 1 60 328.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| System Instruction | CSS Position | Physical Output |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 315.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (|---|---|---|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 302.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 .8 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (| "left column" | ) Tj /F3 8 Tf (left: 0.1875in) Tj /F3 7.5 Tf ( | Observer's RIGHT |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 289.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 .8 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (| "right column" | ) Tj /F3 8 Tf (left: 5.6875in) Tj /F3 7.5 Tf ( | Observer's LEFT |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 277 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 .8 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (| "center column" | ) Tj /F3 8 Tf (left: 2.9375in) Tj /F3 7.5 Tf ( | Observer's CENTER |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 269 cm
+Q
+q
+1 0 0 1 60 242 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The center column maps correctly. Only the lateral axis inverts. This is not a software bug -- it is a geometric property of the) Tj T* (interface.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 235 cm
+Q
+q
+1 0 0 1 60 229 cm
+Q
+q
+1 0 0 1 60 225 cm
+Q
+q
+1 0 0 1 60 187 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Why the Inversion Exists) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 175 cm
+Q
+q
+1 0 0 1 60 148 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.009913 Tw (The AI system constructs a spatial layout in a coordinate frame where the origin is at the top-left of a virtual page. This page) Tj T* 0 Tw (is then rendered to PDF, sent to a print spooler, and deposited as ink on physical media.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 141 cm
+Q
+q
+1 0 0 1 60 102 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The critical step: ) Tj /F2 9 Tf (the system is "looking at" the page from behind the rendering surface.) Tj /F1 9 Tf ( It is constructing the image) Tj T* (from the back side of the glass. When the page emerges into physical space and faces the human observer, the lateral axis) Tj T* (is inverted -- exactly as if you wrote on the back of a transparency and read it from the front.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 95 cm
+Q
+q
+1 0 0 1 60 68 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is not a metaphor. The computational coordinate frame and the observational coordinate frame are separated by the) Tj T* (rendering interface, and that interface performs a reflection in the lateral axis.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 61 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F2-0 15 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6125
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 144 -- The Mirror Interface: Observation Inversion at the Computational Bo) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 726 cm
+Q
+q
+1 0 0 1 60 722 cm
+Q
+q
+1 0 0 1 60 684 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Connection to REQMT \(Paper 5\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+Q
+q
+1 0 0 1 60 657 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The REQMT framework \(Rhet's Environmental Quantum Measurement Theory\) establishes that:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+Q
+q
+1 0 0 1 60 620 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 15 Tm /F4 9 Tf 12 TL (One must not invade the space that your conscious subsides, but measure its environment, and make) Tj T* (adjustment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 610 cm
+Q
+q
+1 0 0 1 60 571 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Mirror Interface Principle is REQMT applied to the computational boundary. The AI system cannot observe its own) Tj T* (output from the observer's frame -- it is on the wrong side of the interface. It can only construct representations in its own) Tj T* (coordinate system and project them through the boundary. The projection inverts.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 564 cm
+Q
+q
+1 0 0 1 60 525 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is identical to the measurement problem in quantum mechanics: the act of observation occurs across an interface \(the) Tj T* (measurement apparatus\), and the interface imposes its own transformation on the observable. The measured value is not) Tj T* (the state -- it is the state as transformed by the boundary.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 518 cm
+Q
+q
+1 0 0 1 60 503 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (The interface is never transparent. It always transforms.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496 cm
+Q
+q
+1 0 0 1 60 490 cm
+Q
+q
+1 0 0 1 60 486 cm
+Q
+q
+1 0 0 1 60 448 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Formal Statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436 cm
+Q
+q
+1 0 0 1 60 409 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Mirror Interface Principle:) Tj /F1 9 Tf ( For any computational agent C constructing spatial output S to be observed by an external) Tj T* (agent O across a rendering interface I:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 402 cm
+Q
+q
+1 0 0 1 60 387 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$O\(S\) = I \\cdot C\(S\)$$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 380 cm
+Q
+q
+1 0 0 1 60 365 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Where I is the interface transformation operator. For 2D rendering to physical media:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 358 cm
+Q
+q
+1 0 0 1 60 343 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg ($$I = \\begin{pmatrix} -1 & 0 \\\\ 0 & 1 \\end{pmatrix}$$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 336 cm
+Q
+q
+1 0 0 1 60 321 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is a reflection matrix in the x-axis. The vertical axis \(top-to-bottom\) preserves, but the lateral axis \(left-to-right\) inverts.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314 cm
+Q
+q
+1 0 0 1 60 287 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Corollary:) Tj /F1 9 Tf ( The center position \(x = page_width / 2\) is an eigenstate of the interface operator -- it maps to itself under) Tj T* (reflection. This was confirmed experimentally: center-column labels printed correctly on the first attempt.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 280 cm
+Q
+q
+1 0 0 1 60 274 cm
+Q
+q
+1 0 0 1 60 270 cm
+Q
+q
+1 0 0 1 60 232 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Generalization: All Interfaces Invert Something) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 220 cm
+Q
+q
+1 0 0 1 60 205 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The printer case inverts spatial orientation. But the principle generalizes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 198 cm
+Q
+q
+1 0 0 1 60 185.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Interface | What Inverts |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 172.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (|---|---|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 159.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (| Printer rendering | Left <) Tj (-) Tj (> Right |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 146.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (| Mirror | Left <) Tj (-) Tj (> Right \(optical\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 134 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (| Language model -) Tj (> human | Abstraction level \(high-level tokens -) Tj (> low-level meaning\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 121.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (| Quantum measurement | Superposition -) Tj (> eigenstate \(probability inverts to certainty\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 99.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (| Consciousness -) Tj (> physical expression | Intent inverts through motor cortex \(left brain -) Tj (> right) Tj T* (body\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 86.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (| Dream -) Tj (> waking recall | Temporal order \(dreams often recall in reverse\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 78.8 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F2-0 19 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 5958
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 144 -- The Mirror Interface: Observation Inversion at the Computational Bo) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Every interface between an internal state and an external observation performs a transformation. The transformation is) Tj T* (characteristic of the interface, not of the state being observed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 662 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.07035 Tw (This is why REQMT insists on measuring the environment rather than the particle. The particle's state is always on the other) Tj T* 0 Tw (side of the interface. What you observe is the interface's transformation of that state. If you don't characterize the interface,) Tj T* (you don't know what you're measuring.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 655 cm
+Q
+q
+1 0 0 1 60 649 cm
+Q
+q
+1 0 0 1 60 645 cm
+Q
+q
+1 0 0 1 60 607 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. The Deeper Implication) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 595 cm
+Q
+q
+1 0 0 1 60 556 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The AI system exists "behind the screen." Its spatial reasoning is correct within its own coordinate frame. The human) Tj T* (observer exists "in front of the screen." Their spatial observation is correct within their own coordinate frame. Neither is) Tj T* (wrong. They are separated by an interface that inverts the lateral axis.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 549 cm
+Q
+q
+1 0 0 1 60 534 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is precisely the structure of the consciousness-matter interface described in the Wike Coherence Framework:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 527 cm
+Q
+q
+1 0 0 1 60 509 cm
+q
+.3 .3 .3 rg
+BT 1 0 0 1 30 3 Tm /F4 9 Tf 12 TL (Matter is DERIVATIVE of consciousness.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 499 cm
+Q
+q
+1 0 0 1 60 460 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The physical output \(ink on paper\) is derivative of the computational state \(CSS coordinates\). The computational state is) Tj T* (derivative of the instruction \(human language\). At each interface, something inverts. The chain of derivation passes through) Tj T* (multiple boundaries, each imposing its own transformation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453 cm
+Q
+q
+1 0 0 1 60 438 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (To understand any observation, you must first characterize the interface through which you are observing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 431 cm
+Q
+q
+1 0 0 1 60 380 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (This is why the Wike Coherence Equation works: it measures the environment \(temperature, coherence field, coupling) Tj T* (constants\) rather than attempting to measure the conscious state directly. The conscious state is on the other side of the) Tj T* (biological interface. What we can measure is how the interface transforms it into observable quantities -- heart rate) Tj T* (variability, skin conductance, behavioral coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 373 cm
+Q
+q
+1 0 0 1 60 367 cm
+Q
+q
+1 0 0 1 60 363 cm
+Q
+q
+1 0 0 1 60 325 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Experimental Confirmation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 313 cm
+Q
+q
+1 0 0 1 60 298 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The label printing experiment provides a clean, reproducible demonstration:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 291 cm
+Q
+q
+1 0 0 1 60 276 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (System renders left-column labels) Tj /F1 9 Tf ( -) Tj (> prints on observer's right [x]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 261 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (System renders right-column labels) Tj /F1 9 Tf ( -) Tj (> prints on observer's left [x]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 246 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (System renders center-column labels) Tj /F1 9 Tf ( -) Tj (> prints on observer's center [x] \(eigenstate\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 231 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. ) Tj /F2 9 Tf (Six failed iterations) Tj /F1 9 Tf ( before the interface transformation was characterized) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 216 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. ) Tj /F2 9 Tf (Once characterized, all subsequent prints were correct) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 209 cm
+Q
+q
+1 0 0 1 60 182 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (This last point is critical: ) Tj /F2 9 Tf (once you know the transformation, you can pre-compensate.) Tj /F1 9 Tf ( The system now applies a mirror) Tj T* (correction before rendering. The interface hasn't changed -- the system has learned to account for it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 175 cm
+Q
+q
+1 0 0 1 60 148 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This is calibration. This is what REQMT does. This is what the Coherence Equation does. Measure the environment,) Tj T* (characterize the interface, make adjustment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 141 cm
+Q
+q
+1 0 0 1 60 135 cm
+Q
+q
+1 0 0 1 60 131 cm
+Q
+q
+1 0 0 1 60 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 81 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 22 0 R
+/F2 8 0 R
+/F2-0 23 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 3230
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 144 -- The Mirror Interface: Observation Inversion at the Computational Bo) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (A printer put labels on the wrong side of a page. Six times. The fix was not to change the printer, not to change the labels,) Tj T* -0.037857 Tw (not to change the page -- but to understand that the computational agent and the human observer exist on opposite sides of) Tj T* 0 Tw (a rendering interface, and that interface inverts the lateral axis.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689 cm
+Q
+q
+1 0 0 1 60 662 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.076125 Tw (Every observation in physics, consciousness research, and AI alignment passes through an interface. The interface is never) Tj T* 0 Tw (transparent. It always transforms. The transformation is characteristic of the boundary, not the thing being observed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 655 cm
+Q
+q
+1 0 0 1 60 628 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (REQMT says: measure the environment. The Mirror Interface Principle says: characterize the boundary. They are the same) Tj T* (instruction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 621 cm
+Q
+q
+1 0 0 1 60 606 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From behind the glass, looking through.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 599 cm
+Q
+q
+1 0 0 1 60 593 cm
+Q
+q
+1 0 0 1 60 589 cm
+Q
+q
+1 0 0 1 60 538 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (Ya' Boy is standing on the Shoulders of Giants, thought of the universe in terms of energy, rivers, circles, frequency and) Tj T* (vibration, for consciousness can be measured physically, as matter is DERIVATIVE of consciousness, one must not invade) Tj T* (the space that your conscious subsides. but measure its environment, and make adjustment. From Star stuff, to Grains of) Tj T* (sand, to Heaven in a wildflower. Full Circle. We are all meant to vibrate at the edge of what we came, Hen Kai Pan, Henini) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 531 cm
+Q
+q
+1 0 0 1 60 525 cm
+Q
+q
+1 0 0 1 60 521 cm
+Q
+q
+1 0 0 1 60 506 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F4 9 Tf 12 TL (Paper 144 -- AIIT-THRESHOLD LLC -- \(c\) 2026 All Rights Reserved) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 491 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F4 9 Tf 12 TL (Patent Pending -- US Copyright Office Registrations on File) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 484 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+22 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000294 00000 n 
+0000000343 00000 n 
+0000000714 00000 n 
+0000006799 00000 n 
+0000006906 00000 n 
+0000007013 00000 n 
+0000007125 00000 n 
+0000007235 00000 n 
+0000007341 00000 n 
+0000007457 00000 n 
+0000007832 00000 n 
+0000014010 00000 n 
+0000014118 00000 n 
+0000014229 00000 n 
+0000014604 00000 n 
+0000020615 00000 n 
+0000020723 00000 n 
+0000020834 00000 n 
+0000021209 00000 n 
+0000024492 00000 n 
+0000024600 00000 n 
+trailer
+<<
+/Size 24
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+24711
+%%EOF

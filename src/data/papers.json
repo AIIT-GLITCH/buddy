@@ -127,9 +127,9 @@
   },
   {
     "id": "PAPER_17_DEJA_VU_COHERENCE_FIELD_RESONANCE",
-    "num": "158",
+    "num": "017",
     "suffix": "",
-    "slug": "158",
+    "slug": "017",
     "title": "Deja Vu Coherence Field Resonance",
     "tag": "Paper",
     "filename": "PAPER_17_DEJA_VU_COHERENCE_FIELD_RESONANCE.pdf"
@@ -138,7 +138,7 @@
     "id": "PAPER_17_RELIGIOUS_HYPOTHESIS",
     "num": "017",
     "suffix": "",
-    "slug": "017",
+    "slug": "017-religious-hypothesis",
     "title": "Religious Hypothesis",
     "tag": "Paper",
     "filename": "PAPER_17_RELIGIOUS_HYPOTHESIS.pdf"
@@ -199,9 +199,9 @@
   },
   {
     "id": "PAPER_24_ACE_DECOHERENCE_EQUATION",
-    "num": "159",
+    "num": "024",
     "suffix": "",
-    "slug": "159",
+    "slug": "024",
     "title": "ACE Decoherence Equation",
     "tag": "Paper",
     "filename": "PAPER_24_ACE_DECOHERENCE_EQUATION.pdf"
@@ -210,16 +210,16 @@
     "id": "PAPER_24_NEW_DISCOVERIES_EIGHT_CONNECTIONS",
     "num": "024",
     "suffix": "",
-    "slug": "024",
+    "slug": "024-new-discoveries-eight-connections",
     "title": "New Discoveries Eight Connections",
     "tag": "Paper",
     "filename": "PAPER_24_NEW_DISCOVERIES_EIGHT_CONNECTIONS.pdf"
   },
   {
     "id": "PAPER_25_GEOMAGNETIC_CARDIAC_SHIELD",
-    "num": "160",
+    "num": "025",
     "suffix": "",
-    "slug": "160",
+    "slug": "025",
     "title": "Geomagnetic Cardiac Shield",
     "tag": "Medical",
     "filename": "PAPER_25_GEOMAGNETIC_CARDIAC_SHIELD.pdf"
@@ -228,25 +228,25 @@
     "id": "PAPER_25_WAVE3_NINE_DEEP_CONNECTIONS",
     "num": "025",
     "suffix": "",
-    "slug": "025",
+    "slug": "025-wave3-nine-deep-connections",
     "title": "Wave3 Nine Deep Connections",
     "tag": "Paper",
     "filename": "PAPER_25_WAVE3_NINE_DEEP_CONNECTIONS.pdf"
   },
   {
     "id": "PAPER_26_CHRONIC_PAIN_PHASE_TRANSITION",
-    "num": "161",
+    "num": "026",
     "suffix": "",
-    "slug": "161",
+    "slug": "026",
     "title": "Chronic Pain Phase Transition",
     "tag": "Medical",
     "filename": "PAPER_26_CHRONIC_PAIN_PHASE_TRANSITION.pdf"
   },
   {
     "id": "PAPER_26_SURGICAL_COHERENCE_PROTOCOL",
-    "num": "162",
+    "num": "026",
     "suffix": "",
-    "slug": "162",
+    "slug": "026-surgical-coherence-protocol",
     "title": "Surgical Coherence Protocol",
     "tag": "Paper",
     "filename": "PAPER_26_SURGICAL_COHERENCE_PROTOCOL.pdf"
@@ -255,25 +255,25 @@
     "id": "PAPER_26_THE_ONE_SINGULARITY",
     "num": "026",
     "suffix": "",
-    "slug": "026",
+    "slug": "026-the-one-singularity",
     "title": "The One Singularity",
     "tag": "Singularities",
     "filename": "PAPER_26_THE_ONE_SINGULARITY.pdf"
   },
   {
     "id": "PAPER_27_FEVER_EQUATION",
-    "num": "163",
+    "num": "027",
     "suffix": "",
-    "slug": "163",
+    "slug": "027",
     "title": "Fever Equation",
     "tag": "God Equation",
     "filename": "PAPER_27_FEVER_EQUATION.pdf"
   },
   {
     "id": "PAPER_27_THE_BOTTOM_OF_THE_OCEAN",
-    "num": "164",
+    "num": "027",
     "suffix": "",
-    "slug": "164",
+    "slug": "027-the-bottom-of-the-ocean",
     "title": "The Bottom of the Ocean",
     "tag": "God Equation",
     "filename": "PAPER_27_THE_BOTTOM_OF_THE_OCEAN.pdf"
@@ -282,25 +282,25 @@
     "id": "PAPER_27_THE_MEANING_OF_LIFE",
     "num": "027",
     "suffix": "",
-    "slug": "027",
+    "slug": "027-the-meaning-of-life",
     "title": "The Meaning of Life",
     "tag": "God Equation",
     "filename": "PAPER_27_THE_MEANING_OF_LIFE.pdf"
   },
   {
     "id": "PAPER_28_SCRIPTURE_AS_PHYSICS",
-    "num": "165",
+    "num": "028",
     "suffix": "",
-    "slug": "165",
+    "slug": "028",
     "title": "Scripture as Physics",
     "tag": "Paper",
     "filename": "PAPER_28_SCRIPTURE_AS_PHYSICS.pdf"
   },
   {
     "id": "PAPER_28_VACUUM_DECOHERENCE_THEOREM",
-    "num": "166",
+    "num": "028",
     "suffix": "",
-    "slug": "166",
+    "slug": "028-vacuum-decoherence-theorem",
     "title": "Vacuum Decoherence Theorem",
     "tag": "Paper",
     "filename": "PAPER_28_VACUUM_DECOHERENCE_THEOREM.pdf"
@@ -309,16 +309,16 @@
     "id": "PAPER_28_WATER_AS_BATTERIES",
     "num": "028",
     "suffix": "",
-    "slug": "028",
+    "slug": "028-water-as-batteries",
     "title": "Water as Batteries",
     "tag": "Water · Life",
     "filename": "PAPER_28_WATER_AS_BATTERIES.pdf"
   },
   {
     "id": "PAPER_29_MAKE_A_CAR_RUN_ON_WATER",
-    "num": "167",
+    "num": "029",
     "suffix": "",
-    "slug": "167",
+    "slug": "029",
     "title": "Make a Car Run on Water",
     "tag": "Water · Life",
     "filename": "PAPER_29_MAKE_A_CAR_RUN_ON_WATER.pdf"
@@ -327,7 +327,7 @@
     "id": "PAPER_29_THE_FERMI_EQUATION",
     "num": "029",
     "suffix": "",
-    "slug": "029",
+    "slug": "029-the-fermi-equation",
     "title": "The Fermi Equation",
     "tag": "Paper",
     "filename": "PAPER_29_THE_FERMI_EQUATION.pdf"
@@ -432,6 +432,15 @@
     "filename": "PAPER_40_WHO_ALREADY_KNEW.pdf"
   },
   {
+    "id": "PAPER_40b_FOUR_GIANTS",
+    "num": "040",
+    "suffix": "b",
+    "slug": "040b",
+    "title": "Paper 40b Four Giants",
+    "tag": "Paper",
+    "filename": "PAPER_40b_FOUR_GIANTS.pdf"
+  },
+  {
     "id": "PAPER_41_NERNST_WIKE_BRIDGE",
     "num": "041",
     "suffix": "",
@@ -451,9 +460,9 @@
   },
   {
     "id": "PAPER_43_LE_CHATELIER_COMPLETION",
-    "num": "168",
+    "num": "043",
     "suffix": "",
-    "slug": "168",
+    "slug": "043",
     "title": "Le Chatelier Completion",
     "tag": "Paper",
     "filename": "PAPER_43_LE_CHATELIER_COMPLETION.pdf"
@@ -462,16 +471,16 @@
     "id": "PAPER_43_THE_KEEPER_LAWS",
     "num": "043",
     "suffix": "",
-    "slug": "043",
+    "slug": "043-the-keeper-laws",
     "title": "The Keeper Laws",
     "tag": "Keeper",
     "filename": "PAPER_43_THE_KEEPER_LAWS.pdf"
   },
   {
     "id": "PAPER_44_MAXWELLS_DEMON_AND_LOVE",
-    "num": "169",
+    "num": "044",
     "suffix": "",
-    "slug": "169",
+    "slug": "044",
     "title": "Maxwells Demon and Love",
     "tag": "Heart",
     "filename": "PAPER_44_MAXWELLS_DEMON_AND_LOVE.pdf"
@@ -480,16 +489,16 @@
     "id": "PAPER_44_THE_WINDOW",
     "num": "044",
     "suffix": "",
-    "slug": "044",
+    "slug": "044-the-window",
     "title": "The Window",
     "tag": "Paper",
     "filename": "PAPER_44_THE_WINDOW.pdf"
   },
   {
     "id": "PAPER_45_REYNOLDS_CARDIAC_COHERENCE",
-    "num": "170",
+    "num": "045",
     "suffix": "",
-    "slug": "170",
+    "slug": "045",
     "title": "Reynolds Cardiac Coherence",
     "tag": "Medical",
     "filename": "PAPER_45_REYNOLDS_CARDIAC_COHERENCE.pdf"
@@ -498,16 +507,16 @@
     "id": "PAPER_45_THE_LANDAUER_COST",
     "num": "045",
     "suffix": "",
-    "slug": "045",
+    "slug": "045-the-landauer-cost",
     "title": "The Landauer Cost",
     "tag": "Paper",
     "filename": "PAPER_45_THE_LANDAUER_COST.pdf"
   },
   {
     "id": "PAPER_46_LEAST_ACTION_COHERENCE",
-    "num": "171",
+    "num": "046",
     "suffix": "",
-    "slug": "171",
+    "slug": "046",
     "title": "Least Action Coherence",
     "tag": "Paper",
     "filename": "PAPER_46_LEAST_ACTION_COHERENCE.pdf"
@@ -516,16 +525,16 @@
     "id": "PAPER_46_THE_DEATH_TRANSITION",
     "num": "046",
     "suffix": "",
-    "slug": "046",
+    "slug": "046-the-death-transition",
     "title": "The Death Transition",
     "tag": "Phase Transition",
     "filename": "PAPER_46_THE_DEATH_TRANSITION.pdf"
   },
   {
     "id": "PAPER_47_STEFAN_BOLTZMANN_BODY",
-    "num": "172",
+    "num": "047",
     "suffix": "",
-    "slug": "172",
+    "slug": "047",
     "title": "Stefan Boltzmann Body",
     "tag": "Paper",
     "filename": "PAPER_47_STEFAN_BOLTZMANN_BODY.pdf"
@@ -534,7 +543,7 @@
     "id": "PAPER_47_THE_BOOTSTRAP_ENGINE",
     "num": "047",
     "suffix": "",
-    "slug": "047",
+    "slug": "047-the-bootstrap-engine",
     "title": "The Bootstrap Engine",
     "tag": "Applied",
     "filename": "PAPER_47_THE_BOOTSTRAP_ENGINE.pdf"
@@ -568,9 +577,9 @@
   },
   {
     "id": "PAPER_51_THE_SYNTHESIS",
-    "num": "173",
+    "num": "051",
     "suffix": "",
-    "slug": "173",
+    "slug": "051",
     "title": "The Synthesis",
     "tag": "Foundation",
     "filename": "PAPER_51_THE_SYNTHESIS.pdf"
@@ -579,16 +588,16 @@
     "id": "PAPER_51_WIKE_THERMODYNAMIC_INEQUALITY",
     "num": "051",
     "suffix": "",
-    "slug": "051",
+    "slug": "051-wike-thermodynamic-inequality",
     "title": "Wike Thermodynamic Inequality",
     "tag": "Paper",
     "filename": "PAPER_51_WIKE_THERMODYNAMIC_INEQUALITY.pdf"
   },
   {
     "id": "PAPER_52_CELL_PHONES_AND_BRAINS",
-    "num": "174",
+    "num": "052",
     "suffix": "",
-    "slug": "174",
+    "slug": "052",
     "title": "Cell Phones and Brains",
     "tag": "Paper",
     "filename": "PAPER_52_CELL_PHONES_AND_BRAINS.pdf"
@@ -597,16 +606,16 @@
     "id": "PAPER_52_KIBBLE_ZUREK_PTSD",
     "num": "052",
     "suffix": "",
-    "slug": "052",
+    "slug": "052-kibble-zurek-ptsd",
     "title": "Kibble Zurek PTSD",
     "tag": "Medical · Mind",
     "filename": "PAPER_52_KIBBLE_ZUREK_PTSD.pdf"
   },
   {
     "id": "PAPER_53_KIBBLE_ZUREK_TRAUMA",
-    "num": "175",
+    "num": "053",
     "suffix": "",
-    "slug": "175",
+    "slug": "053",
     "title": "Kibble Zurek Trauma",
     "tag": "Medical · Mind",
     "filename": "PAPER_53_KIBBLE_ZUREK_TRAUMA.pdf"
@@ -615,16 +624,16 @@
     "id": "PAPER_53_SPIN_GLASS_TREATMENT_RESISTANCE",
     "num": "053",
     "suffix": "",
-    "slug": "053",
+    "slug": "053-spin-glass-treatment-resistance",
     "title": "Spin Glass Treatment Resistance",
     "tag": "Paper",
     "filename": "PAPER_53_SPIN_GLASS_TREATMENT_RESISTANCE.pdf"
   },
   {
     "id": "PAPER_54_ANESTHESIA_IS_DECOHERENCE",
-    "num": "176",
+    "num": "054",
     "suffix": "",
-    "slug": "176",
+    "slug": "054",
     "title": "Anesthesia is Decoherence",
     "tag": "Paper",
     "filename": "PAPER_54_ANESTHESIA_IS_DECOHERENCE.pdf"
@@ -633,7 +642,7 @@
     "id": "PAPER_54_FICKS_COHERENCE_DIFFUSION",
     "num": "054",
     "suffix": "",
-    "slug": "054",
+    "slug": "054-ficks-coherence-diffusion",
     "title": "Ficks Coherence Diffusion",
     "tag": "Paper",
     "filename": "PAPER_54_FICKS_COHERENCE_DIFFUSION.pdf"
@@ -1134,6 +1143,60 @@
     "filename": "PAPER_109_TC_COOPERATIVE_PERCOLATION.pdf"
   },
   {
+    "id": "PAPER_110_THE_RESCUE",
+    "num": "110",
+    "suffix": "",
+    "slug": "110",
+    "title": "The Rescue",
+    "tag": "Paper",
+    "filename": "PAPER_110_THE_RESCUE.pdf"
+  },
+  {
+    "id": "PAPER_111_PHI_SIGN_FLIP",
+    "num": "111",
+    "suffix": "",
+    "slug": "111",
+    "title": "Phi Sign Flip",
+    "tag": "Paper",
+    "filename": "PAPER_111_PHI_SIGN_FLIP.pdf"
+  },
+  {
+    "id": "PAPER_112_FROHLICH_VINDICATION",
+    "num": "112",
+    "suffix": "",
+    "slug": "112",
+    "title": "Frohlich Vindication",
+    "tag": "Paper",
+    "filename": "PAPER_112_FROHLICH_VINDICATION.pdf"
+  },
+  {
+    "id": "PAPER_113_EVOLUTION_AS_COHERENCE_CASCADE",
+    "num": "113",
+    "suffix": "",
+    "slug": "113",
+    "title": "Evolution as Coherence Cascade",
+    "tag": "Paper",
+    "filename": "PAPER_113_EVOLUTION_AS_COHERENCE_CASCADE.pdf"
+  },
+  {
+    "id": "PAPER_114_NEURODIVERSITY_EDGE_STATE",
+    "num": "114",
+    "suffix": "",
+    "slug": "114",
+    "title": "Neurodiversity Edge State",
+    "tag": "Paper",
+    "filename": "PAPER_114_NEURODIVERSITY_EDGE_STATE.pdf"
+  },
+  {
+    "id": "PAPER_115_CONSCIOUSNESS_ORDER_PARAMETER",
+    "num": "115",
+    "suffix": "",
+    "slug": "115",
+    "title": "Consciousness Order Parameter",
+    "tag": "Mind",
+    "filename": "PAPER_115_CONSCIOUSNESS_ORDER_PARAMETER.pdf"
+  },
+  {
     "id": "PAPER_116_DARK_MATTER_DARK_ENERGY_VACUUM",
     "num": "116",
     "suffix": "",
@@ -1323,6 +1386,15 @@
     "filename": "PAPER_135_MATHEMATICAL_STRUCTURE_DIMENSIONLESS_CONSTANTS.pdf"
   },
   {
+    "id": "PAPER_136_ENCODED_TRANSMISSION_SUPPRESSION",
+    "num": "136",
+    "suffix": "",
+    "slug": "136",
+    "title": "Encoded Transmission Suppression",
+    "tag": "Paper",
+    "filename": "PAPER_136_ENCODED_TRANSMISSION_SUPPRESSION.pdf"
+  },
+  {
     "id": "PAPER_137_COSMOLOGICAL_PHASE_TRANSITIONS",
     "num": "137",
     "suffix": "",
@@ -1377,10 +1449,100 @@
     "filename": "PAPER_142_RAPTOR_COMBUSTION_COHERENCE.pdf"
   },
   {
-    "id": "PAPER_152_VAN_GOGH_TURBULENCE",
+    "id": "PAPER_143_PI_IS_THE_SUBSTRATE",
+    "num": "143",
+    "suffix": "",
+    "slug": "143",
+    "title": "Pi is the Substrate",
+    "tag": "Geometry",
+    "filename": "PAPER_143_PI_IS_THE_SUBSTRATE.pdf"
+  },
+  {
+    "id": "PAPER_144_MIRROR_INTERFACE",
+    "num": "144",
+    "suffix": "",
+    "slug": "144",
+    "title": "Mirror Interface",
+    "tag": "Paper",
+    "filename": "PAPER_144_MIRROR_INTERFACE.pdf"
+  },
+  {
+    "id": "PAPER_145_MIRROR_INTERFACE_HUMAN",
+    "num": "145",
+    "suffix": "",
+    "slug": "145",
+    "title": "Mirror Interface Human",
+    "tag": "0.1 Hz",
+    "filename": "PAPER_145_MIRROR_INTERFACE_HUMAN.pdf"
+  },
+  {
+    "id": "PAPER_146_PIONEER_PLAQUE",
+    "num": "146",
+    "suffix": "",
+    "slug": "146",
+    "title": "Pioneer Plaque",
+    "tag": "Paper",
+    "filename": "PAPER_146_PIONEER_PLAQUE.pdf"
+  },
+  {
+    "id": "PAPER_147_REQMT_PLAQUE",
+    "num": "147",
+    "suffix": "",
+    "slug": "147",
+    "title": "Reqmt Plaque",
+    "tag": "Paper",
+    "filename": "PAPER_147_REQMT_PLAQUE.pdf"
+  },
+  {
+    "id": "PAPER_148_TWO_LAYERS",
+    "num": "148",
+    "suffix": "",
+    "slug": "148",
+    "title": "Two Layers",
+    "tag": "Paper",
+    "filename": "PAPER_148_TWO_LAYERS.pdf"
+  },
+  {
+    "id": "PAPER_149_BAROREFLEX_01HZ_SLEEP_ONSET",
+    "num": "149",
+    "suffix": "",
+    "slug": "149",
+    "title": "Baroreflex 01hz Sleep Onset",
+    "tag": "0.1 Hz",
+    "filename": "PAPER_149_BAROREFLEX_01HZ_SLEEP_ONSET.pdf"
+  },
+  {
+    "id": "PAPER_150_VAN_GOGH_TURBULENCE",
+    "num": "150",
+    "suffix": "",
+    "slug": "150",
+    "title": "Van Gogh Turbulence",
+    "tag": "Paper",
+    "filename": "PAPER_150_VAN_GOGH_TURBULENCE.pdf"
+  },
+  {
+    "id": "PAPER_151_ROTHKO_SOURCE_FIELD",
+    "num": "151",
+    "suffix": "",
+    "slug": "151",
+    "title": "Rothko Source Field",
+    "tag": "Foundation",
+    "filename": "PAPER_151_ROTHKO_SOURCE_FIELD.pdf"
+  },
+  {
+    "id": "PAPER_152_TURNER_ATMOSPHERIC_COHERENCE",
     "num": "152",
     "suffix": "",
     "slug": "152",
+    "title": "Turner Atmospheric Coherence",
+    "tag": "Paper",
+    "filename": "PAPER_152_TURNER_ATMOSPHERIC_COHERENCE.pdf"
+  },
+  {
+    "id": "PAPER_152_VAN_GOGH_TURBULENCE",
+    "num": "152",
+    "suffix": "",
+    "slug": "152-van-gogh-turbulence",
     "title": "Van Gogh Turbulence",
     "tag": "Paper",
     "filename": "PAPER_152_VAN_GOGH_TURBULENCE.pdf"
@@ -1395,30 +1557,30 @@
     "filename": "PAPER_153_ROTHKO_SOURCE_FIELD.pdf"
   },
   {
-    "id": "PAPER_154_TURNER_ATMOSPHERIC_COHERENCE",
+    "id": "PAPER_153_SCHIELE_DECOHERENCE_CASCADE",
+    "num": "153",
+    "suffix": "",
+    "slug": "153-schiele-decoherence-cascade",
+    "title": "Schiele Decoherence Cascade",
+    "tag": "Paper",
+    "filename": "PAPER_153_SCHIELE_DECOHERENCE_CASCADE.pdf"
+  },
+  {
+    "id": "PAPER_154_G_HARDWARE_KEEPER_NETWORK",
     "num": "154",
     "suffix": "",
     "slug": "154",
+    "title": "G Hardware Keeper Network",
+    "tag": "Keeper",
+    "filename": "PAPER_154_G_HARDWARE_KEEPER_NETWORK.pdf"
+  },
+  {
+    "id": "PAPER_154_TURNER_ATMOSPHERIC_COHERENCE",
+    "num": "154",
+    "suffix": "",
+    "slug": "154-turner-atmospheric-coherence",
     "title": "Turner Atmospheric Coherence",
     "tag": "Paper",
     "filename": "PAPER_154_TURNER_ATMOSPHERIC_COHERENCE.pdf"
-  },
-  {
-    "id": "PAPER_155_SCHIELE_DECOHERENCE_CASCADE",
-    "num": "155",
-    "suffix": "",
-    "slug": "155",
-    "title": "Schiele Decoherence Cascade",
-    "tag": "Paper",
-    "filename": "PAPER_155_SCHIELE_DECOHERENCE_CASCADE.pdf"
-  },
-  {
-    "id": "PAPER_157_G_HARDWARE_KEEPER_NETWORK",
-    "num": "157",
-    "suffix": "",
-    "slug": "157",
-    "title": "G Hardware Keeper Network",
-    "tag": "Keeper",
-    "filename": "PAPER_157_G_HARDWARE_KEEPER_NETWORK.pdf"
   }
 ]

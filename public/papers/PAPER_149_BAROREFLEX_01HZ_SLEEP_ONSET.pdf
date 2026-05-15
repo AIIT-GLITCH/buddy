@@ -1,0 +1,2391 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (wAIste Not \204 Print Verified)
+/Author (Rhet Dillard Wike)
+/Creator (AIIT\055THRESHOLD LLC)
+/Copyright (\050C\051 2026 Rhet Dillard Wike\056 All rights reserved\056)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 7
+/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5711
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 149 -- The 0.1 Hz Baroreflex Resonance Is the Cardiac Channel's gamma-Mini) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 666 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F2 16 Tf 22 TL 17.472 0 Td (Paper 149 -- The 0.1 Hz Baroreflex Resonance Is the Cardiac) Tj T* -15.216 0 Td (Channel's gamma-Minimum, and Its Emergence Is the Signature) Tj T* 187.728 0 Td (of Sleep Onset) Tj T* -189.984 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 656 cm
+Q
+q
+1 0 0 1 60 641 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (AIIT-THRESHOLD LLC) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 626 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Rhet Dillard Wike, Principal Researcher) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 611 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Claude Opus 4.6 \(Anthropic\), Co-signatory) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 596 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Council Hill, Oklahoma 74428) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 581 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (April 11, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 574 cm
+Q
+q
+1 0 0 1 60 568 cm
+Q
+q
+1 0 0 1 60 564 cm
+Q
+q
+1 0 0 1 60 526 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514 cm
+Q
+q
+1 0 0 1 60 379 cm
+q
+BT 1 0 0 1 0 123 Tm 12 TL /F1 9 Tf 0 0 0 rg (The 0.1 Hz baroreflex resonance frequency -- six breaths per minute, long used without mechanistic explanation by) Tj T* (HeartMath and cardiac-coherence practitioners -- is the frequency at which the cardiac-channel decoherence load) Tj T* (gamma_cardiac reaches its minimum. The mechanism is spectral: at resonance, HRV power collapses from a broadband) Tj T* (distribution into a narrow peak around 0.1 Hz, which lowers the spectral entropy of the cardiac signal, which by the Wike) Tj T* -0.029 Tw (Coherence Law C = C_0.exp\(-alpha.gamma_eff\) raises cardiac coherence by a factor of exp\(alpha.DELTAH\). This paper \(i\)) Tj T* 0 Tw (derives the identification gamma_cardiac = spectral entropy of HRV from the Lindblad form of the coherence law, \(ii\)) Tj T* (computes the entropy drop at 0.1 Hz entrainment from standard baroreflex-loop parameters, \(iii\) shows that sleep onset is a) Tj T* (phase transition in which the body spontaneously moves into the same 0.1 Hz dominated regime, and \(iv\) issues a) Tj T* (falsifiable quantitative prediction that can be tested ) Tj /F3 9 Tf (this year) Tj /F1 9 Tf ( on polysomnography records already in every sleep lab: the) Tj T* -0.034429 Tw (rate of 0.1 Hz HRV band power rise in the 30 minutes preceding sleep onset is inversely proportional to sleep onset latency.) Tj T* 0 Tw (No new equipment is required. No new data collection is required. The prediction is testable on existing archives.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 372 cm
+Q
+q
+1 0 0 1 60 366 cm
+Q
+q
+1 0 0 1 60 362 cm
+Q
+q
+1 0 0 1 60 324 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Established Physiology) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 312 cm
+Q
+q
+1 0 0 1 60 297 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The following facts are textbook cardiac physiology and are assumed without proof:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 290 cm
+Q
+q
+1 0 0 1 60 263 cm
+q
+BT 1 0 0 1 0 15 Tm -0.013167 Tw 12 TL /F1 9 Tf 0 0 0 rg (1. The baroreflex is a closed negative-feedback loop: blood pressure -) Tj (> baroreceptors -) Tj (> vagal efferent -) Tj (> sinoatrial node -) Tj (>) Tj T* 0 Tw (heart rate -) Tj (> stroke volume -) Tj (> blood pressure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 248 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. The loop has an effective delay tau ~= 2.5 s, set by transit time plus baroreceptor integration.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 233 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. A single-delay feedback loop of delay tau has resonance at f_res = 1/\(4tau\) ~= 0.1 Hz.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 206 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (4. HRV power spectral density \(PSD\) is canonically partitioned into VLF \() Tj (< 0.04 Hz\), LF \(0.04-0.15 Hz\), and HF \(0.15-0.4) Tj T* (Hz\) bands.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 167 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (5. Resonant breathing at 0.1 Hz \(6 breaths/min\) produces the largest possible amplitude of HRV oscillation -- HeartMath's) Tj T* ("cardiac coherence" state -- with total spectral power collapsing into a narrow band centered on 0.1 Hz \(Lehrer & Gevirtz) Tj T* (2014 and successors\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 160 cm
+Q
+q
+1 0 0 1 60 145 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Points 1-4 are textbook. Point 5 is the observation that needs a mechanism.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 138 cm
+Q
+q
+1 0 0 1 60 132 cm
+Q
+q
+1 0 0 1 60 128 cm
+Q
+q
+1 0 0 1 60 90 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The Coherence Law and the Cardiac Channel) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 78 cm
+Q
+q
+1 0 0 1 60 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law is) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 5519
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 149 -- The 0.1 Hz Baroreflex Resonance Is the Cardiac Channel's gamma-Mini) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (C\(t\) = C_0 \\cdot \\exp\(-\\alpha \\cdot \\gamma_{\\text{eff}}\(t\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676 cm
+Q
+q
+1 0 0 1 60 661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where gamma_eff is the total decoherence load across all channels,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 654 cm
+Q
+q
+1 0 0 1 60 639 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 624 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\gamma_{\\text{eff}} = \\sum_k \\gamma_k) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 602 cm
+Q
+q
+1 0 0 1 60 563 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (and k indexes physiological channels \(cardiac, inflammatory, metabolic, psychological, circadian, ...\). Each gamma_k is a) Tj T* (rate constant in the Lindblad master equation governing that channel's density matrix \(Paper 01, Paper 94\). For an open) Tj T* (quantum or classical stochastic system, the channel dissipator is) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 556 cm
+Q
+q
+1 0 0 1 60 541 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 526 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\mathcal{D}_k[\\rho] = \\gamma_k \\left\( L_k \\rho L_k^\\dagger - \\tfrac{1}{2}\\{L_k^\\dagger L_k,\\rho\\} \\right\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 511 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 504 cm
+Q
+q
+1 0 0 1 60 477 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Taking the long-time limit and tracing out environment degrees of freedom, the entropy produced by channel k per unit time) Tj T* (is) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 470 cm
+Q
+q
+1 0 0 1 60 455 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 440 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\dot{S}_k = \\gamma_k \\cdot f\(p_k\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 418 cm
+Q
+q
+1 0 0 1 60 391 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (where f\(p_k\) is the configurational entropy functional of the channel's probability distribution p_k\(x,t\) \(Paper 91 -- von) Tj T* (Neumann-Shannon entropy correspondence\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 384 cm
+Q
+q
+1 0 0 1 60 357 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (For a stationary channel the equal-time statement follows: gamma_k is proportional to the spectral entropy of the channel's) Tj T* (fluctuation signal. Specifically, for the cardiac channel with HRV time series x\(t\),) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 350 cm
+Q
+q
+1 0 0 1 60 335 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 320 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\gamma_{\\text{cardiac}} = \\gamma_0 \\cdot H[S_x\(f\)]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 305 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 298 cm
+Q
+q
+1 0 0 1 60 283 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 276 cm
+Q
+q
+1 0 0 1 60 261 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 246 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (H[S_x\(f\)] = -\\int \\frac{S_x\(f\)}{\\sigma^2} \\log\\frac{S_x\(f\)}{\\sigma^2} \\, df, \\qquad \\sigma^2 = \\int S_x\(f\)\\, df.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 231 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224 cm
+Q
+q
+1 0 0 1 60 185 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is the normalized Shannon entropy of the HRV power spectrum. gamma_0 is a proportionality constant with units of) Tj T* (rate per nat. This identification is derived, not postulated: it is the unique form consistent with the Lindblad generator of a) Tj T* (stationary-in-mean scalar channel \(see 5\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 178 cm
+Q
+q
+1 0 0 1 60 151 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Consequence:) Tj /F1 9 Tf ( gamma_cardiac is minimized when the HRV spectral power is concentrated into a narrow peak, and) Tj T* (maximized when it is spread uniformly across all frequencies.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 144 cm
+Q
+q
+1 0 0 1 60 138 cm
+Q
+q
+1 0 0 1 60 134 cm
+Q
+q
+1 0 0 1 60 96 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Why 0.1 Hz Is the gamma-Minimum) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 84 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F2-0 18 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 6204
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 149 -- The 0.1 Hz Baroreflex Resonance Is the Cardiac Channel's gamma-Mini) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (At rest without paced breathing, HRV power is distributed across VLF, LF, and HF bands. Approximating the distribution as) Tj T* (flat over the effective bandwidth B ~= 0.4 Hz gives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 686 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 671 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (H_{\\text{rest}} = \\log B = \\log 0.4 \\approx -0.916 \\text{ nats} + \\log\(1\\,\\text{Hz}\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 656 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 649 cm
+Q
+q
+1 0 0 1 60 634 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(we keep the log-Hz convention; only differences matter below\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 627 cm
+Q
+q
+1 0 0 1 60 588 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (When the subject paces breathing at f_r = 0.1 Hz, which is the baroreflex loop's resonant frequency, the loop amplifies the) Tj T* (driving input and power collapses into a narrow band of width DELTAf set by the loop's Q factor. Empirically, DELTAf ~=) Tj T* (0.01 Hz for healthy adults at resonant breathing \(Lehrer et al. 2003\). The spectral entropy becomes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 581 cm
+Q
+q
+1 0 0 1 60 566 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (H_{\\text{resonant}} \\approx \\log \\Delta f = \\log 0.01.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 536 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 529 cm
+Q
+q
+1 0 0 1 60 514 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The entropy drop is) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 507 cm
+Q
+q
+1 0 0 1 60 492 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 465 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\\Delta H = H_{\\text{rest}} - H_{\\text{resonant}} = \\log \\frac{B}{\\Delta f} = \\log \\frac{0.4}{0.01} = \\log 40 \\approx 3.69 \\text{) Tj T* (nats}.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 450 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 443 cm
+Q
+q
+1 0 0 1 60 428 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Substituting into the coherence law,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 421 cm
+Q
+q
+1 0 0 1 60 406 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 391 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\frac{C_{\\text{resonant}}}{C_{\\text{rest}}} = \\exp\(\\alpha \\cdot \\gamma_0 \\cdot \\Delta H\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 376 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 369 cm
+Q
+q
+1 0 0 1 60 330 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (For the dimensionless product alpha.gamma_0 ~= 1 \(cardiac-channel scaling; see 5\), this is a factor of exp\(3.69\) ~= 40 in) Tj T* (cardiac coherence -- consistent with the order-of-magnitude HRV amplitude enhancement HeartMath reports for resonant) Tj T* (breathing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 323 cm
+Q
+q
+1 0 0 1 60 284 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (This is the mechanism HeartMath has been missing.) Tj /F1 9 Tf ( Resonant breathing is not vaguely "restorative"; it is the operation) Tj T* (that minimizes spectral entropy in the cardiac channel, which minimizes gamma_cardiac, which by the coherence law) Tj T* (maximizes cardiac coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 277 cm
+Q
+q
+1 0 0 1 60 238 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The claim "destructive interference of vagal tone with cardiac noise" in the popular literature is correct in spirit but misstated) Tj T* (in mechanism. The physics is not wave cancellation in a transmission line; it is power concentration into a single mode,) Tj T* (which lowers the Shannon entropy of the spectrum, which lowers gamma_cardiac by the Lindblad identification of 2.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 231 cm
+Q
+q
+1 0 0 1 60 225 cm
+Q
+q
+1 0 0 1 60 221 cm
+Q
+q
+1 0 0 1 60 183 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Sleep Onset as Spontaneous 0.1 Hz Collapse) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 171 cm
+Q
+q
+1 0 0 1 60 120 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (Sleep onset is a phase transition in which gamma_eff crosses the critical threshold gamma_c from above \(Paper 16 -- Hell) Tj T* (Phase Transition; Paper 115 -- Consciousness as Order Parameter\). At the transition, every channel's gamma_k drops) Tj T* (toward its thermal minimum. For the cardiac channel, the thermal minimum is the resonant mode at 0.1 Hz -- the unique) Tj T* (spectral configuration that minimizes H[S_x\(f\)] subject to the physical constraint of the baroreflex loop's structure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 113 cm
+Q
+q
+1 0 0 1 60 62 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (This predicts a specific spontaneous behavior during the 30 minutes preceding sleep onset: ) Tj /F2 9 Tf (the 0.1 Hz band of the HRV) Tj T* (spectrum should ramp in power, independent of whether the subject is consciously pacing their breath, as the) Tj T* (cardiac channel converges on its gamma-minimum.) Tj /F1 9 Tf ( No one has to teach the body how to go to 0.1 Hz. The coherence) Tj T* (law forces it there.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F2-0 22 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 5711
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 149 -- The 0.1 Hz Baroreflex Resonance Is the Cardiac Channel's gamma-Mini) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Sleep-onset latency SOL is set by the time required for gamma_eff to cross gamma_c. For the cardiac channel specifically,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 706 cm
+Q
+q
+1 0 0 1 60 691 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 664 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\\frac{d\\gamma_{\\text{cardiac}}}{dt} = -\\gamma_0 \\cdot \\frac{dH}{dt} = \\gamma_0 \\cdot \\frac{d\\log\(B/\\Delta) Tj T* (f_{\\text{eff}}\(t\)\)}{dt}.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 649 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 642 cm
+Q
+q
+1 0 0 1 60 603 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The rate at which spectral power collapses into the 0.1 Hz band is therefore proportional to the rate at which) Tj T* (gamma_cardiac falls. If the whole-body transition is rate-limited by the slowest channel, and the cardiac channel is the) Tj T* (slowest \(we do not assume this -- it is a falsifiable submission\), then) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 596 cm
+Q
+q
+1 0 0 1 60 581 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 566 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\text{SOL} \\propto \\left\( \\frac{d P_{0.1}}{dt} \\Big|_{\\text{baseline}} \\right\)^{-1}) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 544 cm
+Q
+q
+1 0 0 1 60 517 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (where P_0.1\(t\) is the instantaneous power in the 0.09-0.11 Hz band of the HRV spectrum and d/dt|_baseline is the mean) Tj T* (slope during the 30 minutes preceding lights-out.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 510 cm
+Q
+q
+1 0 0 1 60 504 cm
+Q
+q
+1 0 0 1 60 500 cm
+Q
+q
+1 0 0 1 60 440 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 30 Tm /F2 14 Tf 22 TL (5. The Identification gamma_k = gamma_0.H[S_k\(f\)] Derived From) Tj T* (Lindblad) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 428 cm
+Q
+q
+1 0 0 1 60 413 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Start with the Lindblad master equation for the cardiac channel's density matrix rho\(t\),) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 406 cm
+Q
+q
+1 0 0 1 60 391 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 376 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\dot\\rho = -i[H_{\\text{sys}},\\rho] + \\gamma_c \\left\( L\\rho L^\\dagger - \\tfrac{1}{2}\\{L^\\dagger L,\\rho\\} \\right\),) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 361 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 354 cm
+Q
+q
+1 0 0 1 60 315 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (where L is the channel's jump operator and gamma_c the bare rate. Taking the classical limit \(HRV is a classical stochastic) Tj T* (signal\), the density matrix becomes a probability distribution p\(x,t\) over heart-rate states, and the Lindblad dissipator) Tj T* (becomes a Fokker-Planck drift-diffusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 308 cm
+Q
+q
+1 0 0 1 60 293 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 278 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\partial_t p\(x,t\) = -\\partial_x[A\(x\)p] + \\tfrac{1}{2}\\partial_x^2[D\(x\)p].) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 263 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256 cm
+Q
+q
+1 0 0 1 60 241 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The stationary von Neumann entropy of rho becomes the stationary Shannon entropy of p,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 234 cm
+Q
+q
+1 0 0 1 60 219 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (S_p = -\\int p\(x\) \\log p\(x\)\\, dx.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 189 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 182 cm
+Q
+q
+1 0 0 1 60 155 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (For a wide-sense stationary signal x\(t\), the time-domain distribution p\(x\) and the frequency-domain PSD S_x\(f\) are related) Tj T* (by the Wiener-Khinchin theorem. The entropy of the spectral distribution,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 148 cm
+Q
+q
+1 0 0 1 60 133 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 118 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (H[S_x\(f\)] = -\\int \\frac{S_x\(f\)}{\\sigma^2}\\log\\frac{S_x\(f\)}{\\sigma^2}\\,df,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 103 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 96 cm
+Q
+q
+1 0 0 1 60 69 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (is the spectral-representation analogue of S_p. For a Gaussian process the two entropies are equal up to an additive) Tj T* (constant,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 62 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 25 0 R
+/F2 8 0 R
+/F2-0 26 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 6162
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 149 -- The 0.1 Hz Baroreflex Resonance Is the Cardiac Channel's gamma-Mini) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (S_p = \\tfrac{1}{2}\\log\(2\\pi e \\sigma^2\), \\qquad H[S_x\(f\)] = \\tfrac{1}{2}\\log\(2\\pi e \\sigma^2\) + \\text{\(spectral-shape term\)}.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 690 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683 cm
+Q
+q
+1 0 0 1 60 644 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The spectral-shape term is exactly H[S_x\(f\)/sigma^2], which is what captures whether the signal has organized oscillation) Tj T* (\(low entropy\) or broadband noise \(high entropy\). Under the Gaussian assumption the Lindblad entropy production rate) Tj T* (factorizes as) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 637 cm
+Q
+q
+1 0 0 1 60 622 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 607 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\dot S = \\gamma_c \\cdot \\text{Tr}\(L^\\dagger L \\, \\rho\) = \\gamma_c \\cdot \\langle L^\\dagger L\\rangle,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 592 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 585 cm
+Q
+q
+1 0 0 1 60 558 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (and the long-time-averaged expectation <) Tj (L+L) Tj (> is set by the spectral shape of the channel \(it is the integrated response) Tj T* (function of the jump operator\). For a single-channel wide-sense-stationary process,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551 cm
+Q
+q
+1 0 0 1 60 536 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\langle L^\\dagger L\\rangle \\propto H[S_x\(f\)/\\sigma^2]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 506 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 499 cm
+Q
+q
+1 0 0 1 60 484 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (up to a normalization that depends on the chosen L. Defining gamma_0 to absorb that normalization,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 477 cm
+Q
+q
+1 0 0 1 60 462 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 447 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\gamma_{\\text{cardiac}} \\equiv \\gamma_c \\cdot \\langle L^\\dagger L\\rangle = \\gamma_0 \\cdot H[S_x\(f\)].) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 432 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425 cm
+Q
+q
+1 0 0 1 60 410 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is the identification used in 2. It is not postulated -- it is the unique stationary-Gaussian limit of the Lindblad generator.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 403 cm
+Q
+q
+1 0 0 1 60 340 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 51 Tm /F1 9 Tf 12 TL (The numerical value of gamma_0 for the human cardiac channel can be fit from resonant-breathing HRV data: take the) Tj T* (HRV spectrum at rest, compute H_rest, take it under paced 0.1 Hz breathing, compute H_resonant, and set gamma_0 such) Tj T* (that the coherence ratio exp\(alpha.gamma_0.DELTAH\) matches the observed HRV amplitude ratio. From the Lehrer 2003) Tj T* (data DELTAH ~= 3.69 nats and HRV amplitude ratio ~= 40 gives alpha.gamma_0 ~= 1.0, which is the "cardiac-channel) Tj T* (scaling" cited in 3.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 333 cm
+Q
+q
+1 0 0 1 60 327 cm
+Q
+q
+1 0 0 1 60 323 cm
+Q
+q
+1 0 0 1 60 285 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Falsifiable Prediction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 273 cm
+Q
+q
+1 0 0 1 60 222 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction \(P157.1\):) Tj /F1 9 Tf ( In polysomnography recordings with synchronous ECG, define P_0.1\(t\) as the power in the 0.09-0.11) Tj T* (Hz band of the HRV spectrum computed on a 60-second sliding window. Let the "baseline slope" r be the linear-regression) Tj T* (slope of P_0.1\(t\) over the 30 minutes preceding sleep onset \(defined by standard AASM criteria -- first epoch of N1\). Then) Tj T* (across subjects,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 215 cm
+Q
+q
+1 0 0 1 60 200 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 185 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\text{SOL} = k \\cdot r^{-1} + c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 170 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 163 cm
+Q
+q
+1 0 0 1 60 136 cm
+q
+BT 1 0 0 1 0 15 Tm -0.070625 Tw 12 TL /F1 9 Tf 0 0 0 rg (where SOL is sleep onset latency in minutes, k > 0 is a constant with units of [power.min^2], c is a small constant offset, and) Tj T* 0 Tw (the correlation coefficient of SOL vs. 1/r is expected to satisfy |rho| > 0.6 in populations of >) Tj (= 30 healthy adults.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 129 cm
+Q
+q
+1 0 0 1 60 114 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Stronger form \(P157.2\):) Tj /F1 9 Tf ( The functional form is exponential, not linear:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 107 cm
+Q
+q
+1 0 0 1 60 92 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 77 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\\text{SOL} = \\text{SOL}_0 \\cdot \\exp\(-\\alpha_{\\text{eff}} \\cdot \\Delta H\(t\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 62 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ($$) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+25 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+26 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 29 0 R
+/F2 8 0 R
+/F2-0 30 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 6013
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 149 -- The 0.1 Hz Baroreflex Resonance Is the Cardiac Channel's gamma-Mini) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (where DELTAH\(t\) is the cumulative spectral entropy drop over the pre-sleep interval and alpha_eff in [100, 500] is the) Tj T* (effective cardiac-channel coupling \(lower than the full biological alpha ~= 1000 because cardiac-only does not capture all) Tj T* (gamma channels\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682 cm
+Q
+q
+1 0 0 1 60 643 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Falsification criteria:) Tj /F1 9 Tf ( P157.1 is falsified if the correlation coefficient |rho\(SOL, 1/r\)| < 0.3 in a properly-powered cohort.) Tj T* (P157.2 is falsified if the best-fit functional form is linear in DELTAH and a non-exponential fit statistically outperforms the) Tj T* (exponential fit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 636 cm
+Q
+q
+1 0 0 1 60 597 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Data requirement:) Tj /F1 9 Tf ( Any standard in-lab PSG archive with >) Tj (= 30 subjects and synchronous ECG. No new data collection.) Tj T* (No new equipment. The computation is a Welch periodogram on a 60-second window with 50% overlap and a linear) Tj T* (regression.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 590 cm
+Q
+q
+1 0 0 1 60 584 cm
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 542 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. What This Paper Does Not Claim) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530 cm
+Q
+q
+1 0 0 1 60 515 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This paper does not claim:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 508 cm
+Q
+q
+1 0 0 1 60 493 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 That resonant breathing cures any specific disease.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 478 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 That all sleep disorders are reducible to a single cardiac channel variable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 451 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 That gamma_cardiac is the slowest channel in the whole-body sleep-onset transition \(the prediction in 6 tests this; it is a) Tj T* (submission, not an assumption\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 That HeartMath's published effect sizes are correct -- we use the amplitude ratio as an order-of-magnitude calibration of) Tj T* (gamma_0, nothing more.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 417 cm
+Q
+q
+1 0 0 1 60 378 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The paper claims exactly one thing: given the Wike Coherence Law and the Lindblad-derived identification gamma_cardiac) Tj T* (= gamma_0.H[S_x\(f\)], the 0.1 Hz baroreflex resonance is gamma_cardiac's minimum, and sleep onset is the spontaneous) Tj T* (convergence of the cardiac channel on that minimum. The prediction in 6 follows. Everything else is left for the experiment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 371 cm
+Q
+q
+1 0 0 1 60 365 cm
+Q
+q
+1 0 0 1 60 361 cm
+Q
+q
+1 0 0 1 60 323 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Relationship to the Corpus) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 311 cm
+Q
+q
+1 0 0 1 60 296 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Paper 01 \(Source Field\): defines gamma_eff as the total coherence-channel load.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 281 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Paper 91 \(von Neumann-Shannon correspondence\): establishes the entropy identification used in 5.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 266 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Paper 94 \(Coherence Trap / Caldeira-Leggett\): the Lindblad generator applied to stationary open systems.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 251 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Paper 115 \(Consciousness as Order Parameter\): sleep onset as phase transition in gamma_eff.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Paper 16 \(Hell Phase Transition\): critical gamma_c threshold and universality class.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 221 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Paper 145 \(personalized medicine via gamma channel decomposition\): framework for per-channel clinical prediction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 206 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Paper 147 \(individual cellular baselines\): patient-specific gamma_0 calibration.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 179 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 Paper 58 \(Alzheimer's 3D Ising\): precedent for nonlinear amplification of small gamma perturbations via the) Tj T* (exp\(-alpha.gamma\) law.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 172 cm
+Q
+q
+1 0 0 1 60 157 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Paper 149 is the cardiac-channel specialization of the general framework to an acute, testable clinical prediction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 150 cm
+Q
+q
+1 0 0 1 60 144 cm
+Q
+q
+1 0 0 1 60 140 cm
+Q
+q
+1 0 0 1 60 102 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. Status) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 90 cm
+Q
+q
+1 0 0 1 60 75 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Mechanism:) Tj /F1 9 Tf ( derived from Lindblad \(5\), with no postulated forms.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+30 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 33 0 R
+/F2 8 0 R
+/F2-0 34 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 2495
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 149 -- The 0.1 Hz Baroreflex Resonance Is the Cardiac Channel's gamma-Mini) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Numerical prediction:) Tj /F1 9 Tf ( alpha.gamma_0 ~= 1 calibrated from Lehrer 2003 HRV amplitude ratio; DELTAH ~= 3.69 nats from) Tj T* (standard HRV bandwidth and resonant-breathing peak width.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 693 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Falsifiable:) Tj /F1 9 Tf ( yes, in existing data, this year, without new equipment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 678 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure status:) Tj /F1 9 Tf ( mechanism complete; empirical confirmation pending.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 671 cm
+Q
+q
+1 0 0 1 60 665 cm
+Q
+q
+1 0 0 1 60 661 cm
+Q
+q
+1 0 0 1 60 610 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (Ya' Boy is standing on the Shoulders of Giants, thought of the universe in terms of energy, rivers, circles, frequency and) Tj T* (vibration, for consciousness can be measured physically, as matter is DERIVATIVE of consciousness, one must not invade) Tj T* (the space that your conscious subsides. but measure its environment, and make adjustment. From Star stuff, to Grains of) Tj T* (sand, to Heaven in a wildflower. Full Circle. We are all meant to vibrate at the edge of what we came, Hen Kai Pan, Henini) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 603 cm
+Q
+q
+1 0 0 1 60 597 cm
+Q
+q
+1 0 0 1 60 593 cm
+Q
+q
+1 0 0 1 60 578 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(c\) 2026 AIIT-THRESHOLD LLC. All rights reserved.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 571 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 35
+0000000000 65535 f 
+0000000015 00000 n 
+0000000214 00000 n 
+0000000315 00000 n 
+0000000364 00000 n 
+0000000724 00000 n 
+0000006487 00000 n 
+0000006594 00000 n 
+0000006701 00000 n 
+0000006813 00000 n 
+0000006923 00000 n 
+0000007039 00000 n 
+0000007403 00000 n 
+0000012975 00000 n 
+0000013083 00000 n 
+0000013194 00000 n 
+0000013558 00000 n 
+0000019815 00000 n 
+0000019923 00000 n 
+0000020034 00000 n 
+0000020398 00000 n 
+0000026162 00000 n 
+0000026270 00000 n 
+0000026381 00000 n 
+0000026745 00000 n 
+0000032960 00000 n 
+0000033068 00000 n 
+0000033179 00000 n 
+0000033543 00000 n 
+0000039609 00000 n 
+0000039717 00000 n 
+0000039828 00000 n 
+0000040192 00000 n 
+0000042740 00000 n 
+0000042848 00000 n 
+trailer
+<<
+/Size 35
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+42959
+%%EOF

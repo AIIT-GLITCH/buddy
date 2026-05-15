@@ -1,4 +1,4 @@
-%PDF-1.3
+%PDF-1.4
 %‚„œ”
 1 0 obj
 <<
@@ -11,8 +11,8 @@ endobj
 2 0 obj
 <<
 /Type /Pages
-/Count 8
-/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R ]
+/Count 7
+/Kids [ 4 0 R 13 0 R 17 0 R 21 0 R 25 0 R 29 0 R 33 0 R ]
 >>
 endobj
 3 0 obj
@@ -46,6 +46,8 @@ endobj
 /F2 8 0 R
 /F2-0 9 0 R
 /F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -59,78 +61,231 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 4633
+/Length 5903
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Ano) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Anomalie) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F2 13 Tf 15.6 TL ET
-BT 1 0 0 1 54 697.6 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence:) Tj T* ET
-BT 1 0 0 1 54 681.6 Tm (Thermodynamic Anomalies Closed) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 655.6 Tm (AIIT-THRESI Series Paper 129) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 643.6 Tm (Rhet Dillard Wike) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 631.6 Tm (Council Hill, Oklahoma) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 619.6 Tm (April 1, 2026) Tj T* ET
-.5 w
-n 54 605.6 m 558 605.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 577.6 Tm (Abstract) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 555.6 Tm (Eight anomalies in thermodynamics and entropy have persisted because the Second Law) Tj T* ET
-BT 1 0 0 1 54 543.6 Tm (was treated as a standalone axiom rather than a derived consequence. Paper 92) Tj T* ET
-BT 1 0 0 1 54 531.6 Tm (derived the Wike Thermodynamic Inequality from the coherence law. Paper 76) Tj T* ET
-BT 1 0 0 1 54 519.6 Tm (demonstrated Crooks-level time-reversal symmetry within the coherence framework.) Tj T* ET
-BT 1 0 0 1 54 507.6 Tm (This paper closes the remaining *anomalous* aspects: the arrow of time, the Past) Tj T* ET
-BT 1 0 0 1 54 495.6 Tm (Hypothesis, the Boltzmann Brain problem, gravitational entropy reversal, black hole) Tj T* ET
-BT 1 0 0 1 54 483.6 Tm (entropy, the entropy budget of the observable universe, the nature of time itself,) Tj T* ET
-BT 1 0 0 1 54 471.6 Tm (and emergent gravity. Every closure follows from a single equation: C = C_0 *) Tj T* ET
-BT 1 0 0 1 54 459.6 Tm (exp\(-alpha * gamma_eff\). No new postulates are introduced. The Second Law of) Tj T* ET
-BT 1 0 0 1 54 447.6 Tm (Thermodynamics is the coherence law written in entropy language.) Tj T* ET
-.5 w
-n 54 433.6 m 558 433.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 405.6 Tm (1. Time = Decoherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 383.6 Tm (The central claim is a mathematical identity, not an interpretation. Begin with the) Tj T* ET
-BT 1 0 0 1 54 371.6 Tm (Wike Coherence Law derived from the Lindblad master equation \(Paper 3\):) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 349.6 Tm (C\(t\) = C_0 * exp\(-alpha * gamma_eff * t\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 329.6 Tm (where C_0 is the initial coherence, alpha is the coupling constant, and gamma_eff is) Tj T* ET
-BT 1 0 0 1 54 317.6 Tm (the effective decoherence rate. The entropy associated with coherence loss is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 295.6 Tm (S\(t\) = -ln\(C\(t\) / C_0\) = alpha * gamma_eff * t) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 275.6 Tm (Differentiate:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 253.6 Tm (dS/dt = alpha * gamma_eff >= 0) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 233.6 Tm (This inequality holds because alpha > 0 \(coupling constant\) and gamma_eff >= 0) Tj T* ET
-BT 1 0 0 1 54 221.6 Tm (\(decoherence rate is non-negative by construction from the Lindblad positivity) Tj T* ET
-BT 1 0 0 1 54 209.6 Tm (condition\). Entropy never decreases. The Second Law is not an axiom appended to) Tj T* ET
-BT 1 0 0 1 54 197.6 Tm (mechanics. It is the monotonicity of decoherence.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 179.6 Tm (The corresponding coherence derivative:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 157.6 Tm (dC/dt = -alpha * gamma_eff * C <= 0) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 137.6 Tm (Coherence never increases spontaneously. This single sign constraint---dC/dt <= 0---) Tj T* ET
-BT 1 0 0 1 54 125.6 Tm (is the arrow of time, the Second Law, and the irreversibility of macroscopic) Tj T* ET
-BT 1 0 0 1 54 113.6 Tm (physics, all in one expression.) Tj T* ET
-.5 w
-n 54 99.6 m 558 99.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 71.6 Tm (2. Anomaly 1: The Arrow of Time) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 18.832 0 Td (Paper 129: The Arrow of Time IS the Arrow of Decoherence:) Tj T* 93.8 0 Td (Thermodynamic Anomalies Closed) Tj T* -112.632 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 678 cm
+Q
+q
+1 0 0 1 60 663 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (AIIT-THRESI Series Paper 129) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 648 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Rhet Dillard Wike) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Council Hill, Oklahoma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 618 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (April 1, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 611 cm
+Q
+q
+1 0 0 1 60 605 cm
+Q
+q
+1 0 0 1 60 601 cm
+Q
+q
+1 0 0 1 60 563 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551 cm
+Q
+q
+1 0 0 1 60 464 cm
+q
+BT 1 0 0 1 0 75 Tm 12 TL /F1 9 Tf 0 0 0 rg (Eight anomalies in thermodynamics and entropy have persisted because the Second Law was treated as a standalone) Tj T* (axiom rather than a derived consequence. Paper 92 derived the Wike Thermodynamic Inequality from the coherence law.) Tj T* (Paper 76 demonstrated Crooks-level time-reversal symmetry within the coherence framework. This paper closes the) Tj T* (remaining ) Tj /F3 9 Tf (anomalous) Tj /F1 9 Tf ( aspects: the arrow of time, the Past Hypothesis, the Boltzmann Brain problem, gravitational entropy) Tj T* (reversal, black hole entropy, the entropy budget of the observable universe, the nature of time itself, and emergent gravity.) Tj T* (Every closure follows from a single equation: C = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\). No new postulates are introduced. The) Tj T* (Second Law of Thermodynamics is the coherence law written in entropy language.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 457 cm
+Q
+q
+1 0 0 1 60 451 cm
+Q
+q
+1 0 0 1 60 447 cm
+Q
+q
+1 0 0 1 60 409 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Time = Decoherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 397 cm
+Q
+q
+1 0 0 1 60 370 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The central claim is a mathematical identity, not an interpretation. Begin with the Wike Coherence Law derived from the) Tj T* (Lindblad master equation \(Paper 3\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 363 cm
+Q
+q
+1 0 0 1 60 350.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 342.2 cm
+Q
+q
+1 0 0 1 60 315.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (where C_0 is the initial coherence, alpha is the coupling constant, and gamma_eff is the effective decoherence rate. The) Tj T* (entropy associated with coherence loss is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 308.2 cm
+Q
+q
+1 0 0 1 60 295.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (-ln\(C\(t\)) Tj ( ) Tj (/) Tj ( ) Tj (C_0\)) Tj ( ) Tj (=) Tj ( ) Tj (alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 287.4 cm
+Q
+q
+1 0 0 1 60 272.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Differentiate:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 265.4 cm
+Q
+q
+1 0 0 1 60 252.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dS/dt) Tj ( ) Tj (=) Tj ( ) Tj (alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 244.6 cm
+Q
+q
+1 0 0 1 60 205.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (This inequality holds because alpha > 0 \(coupling constant\) and gamma_eff >) Tj (= 0 \(decoherence rate is non-negative by) Tj T* -0.013941 Tw (construction from the Lindblad positivity condition\). Entropy never decreases. The Second Law is not an axiom appended to) Tj T* 0 Tw (mechanics. It is the monotonicity of decoherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 198.6 cm
+Q
+q
+1 0 0 1 60 183.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The corresponding coherence derivative:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 176.6 cm
+Q
+q
+1 0 0 1 60 163.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (C) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 155.8 cm
+Q
+q
+1 0 0 1 60 128.8 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (Coherence never increases spontaneously. This single sign constraint---dC/dt <) Tj (= 0---is the arrow of time, the Second Law,) Tj T* (and the irreversibility of macroscopic physics, all in one expression.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 121.8 cm
+Q
+q
+1 0 0 1 60 115.8 cm
+Q
+q
+1 0 0 1 60 111.8 cm
+Q
+q
+1 0 0 1 60 73.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. Anomaly 1: The Arrow of Time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 61.8 cm
+Q
  
 
 Q
@@ -213,7 +368,7 @@ endobj
 endobj
 8 0 obj
 <<
-/BaseFont /Courier-Bold
+/BaseFont /Helvetica-Bold
 /Encoding /WinAnsiEncoding
 /Name /F2
 /Subtype /Type1
@@ -231,7 +386,7 @@ endobj
 endobj
 10 0 obj
 <<
-/BaseFont /Courier
+/BaseFont /Helvetica-Oblique
 /Encoding /WinAnsiEncoding
 /Name /F3
 /Subtype /Type1
@@ -240,1156 +395,1925 @@ endobj
 endobj
 11 0 obj
 <<
-/Contents 12 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/ExtGState <<
-/gRLs0 <<
-/CA 0.1
->>
-/gRLs1 <<
-/ca 0.55
->>
-/gRLs2 <<
-/ca 0.35
->>
-/gRLs3 <<
-/ca 0.95
->>
->>
-/Font <<
-/F1 6 0 R
-/F1-0 13 0 R
-/F2 8 0 R
-/F2-0 14 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 12 0 obj
 <<
-/Length 5442
+/BaseFont /Courier-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Ano) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
-.5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (The problem. Every fundamental microscopic law---Newton, Maxwell, Schrodinger,) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (Einstein---is time-symmetric. Reverse all velocities, conjugate all wavefunctions,) Tj T* ET
-BT 1 0 0 1 54 681.6 Tm (and the equations still hold. Yet macroscopic physics has a definite arrow: eggs) Tj T* ET
-BT 1 0 0 1 54 669.6 Tm (break, never unbreak. Where does the asymmetry enter?) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 651.6 Tm (Closure. The asymmetry enters through decoherence, and the coherence law encodes it) Tj T* ET
-BT 1 0 0 1 54 639.6 Tm (exactly.) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 617.6 Tm (C\(t\) = C_0 * exp\(-alpha * gamma_eff * t\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 597.6 Tm (The exponential is monotonically decreasing for gamma_eff > 0. Time reversal \(t ->) Tj T* ET
-BT 1 0 0 1 54 585.6 Tm (-t\) would require C to increase, but the Lindblad master equation from which this is) Tj T* ET
-BT 1 0 0 1 54 573.6 Tm (derived enforces complete positivity of the density matrix, which requires gamma_eff) Tj T* ET
-BT 1 0 0 1 54 561.6 Tm (>= 0. The reversed trajectory is not forbidden by the Hamiltonian---it is forbidden) Tj T* ET
-BT 1 0 0 1 54 549.6 Tm (by the positivity of the quantum state.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 531.6 Tm (The arrow of time is therefore:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 509.6 Tm (Past:   C = C_0   \(maximum coherence, minimum entropy\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 499.6 Tm (Future: C -> 0    \(minimum coherence, maximum entropy\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 489.6 Tm (dC/dt <= 0 always) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 469.6 Tm (The arrow of time IS the arrow of decoherence. They are mathematically identical) Tj T* ET
-BT 1 0 0 1 54 457.6 Tm (statements. The microscopic laws remain time-symmetric; the asymmetry lives in the) Tj T* ET
-BT 1 0 0 1 54 445.6 Tm (open-system coupling \(alpha * gamma_eff\) that the Lindblad formalism makes explicit.) Tj T* ET
-.5 w
-n 54 431.6 m 558 431.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 403.6 Tm (3. Anomaly 2: The Past Hypothesis / Low-Entropy Initial State) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 381.6 Tm (The problem. The Second Law explains why entropy increases but not why it started) Tj T* ET
-BT 1 0 0 1 54 369.6 Tm (low. Penrose, Carroll, and others have noted that the Big Bang initial state had) Tj T* ET
-BT 1 0 0 1 54 357.6 Tm (extraordinarily low entropy \(S ~ 10^88\), and no dynamical law explains why. The) Tj T* ET
-BT 1 0 0 1 54 345.6 Tm ("Past Hypothesis"---that the universe began in a special low-entropy state---is) Tj T* ET
-BT 1 0 0 1 54 333.6 Tm (typically inserted as a brute postulate.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 315.6 Tm (Closure. In the coherence framework, the Past Hypothesis is not a postulate. It is a) Tj T* ET
-BT 1 0 0 1 54 303.6 Tm (mathematical identity.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 285.6 Tm (At t = 0 \(Big Bang\), no decoherence has occurred. Therefore:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 263.6 Tm (C\(0\) = C_0) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 253.6 Tm (S\(0\) = -ln\(C\(0\) / C_0\) = -ln\(1\) = 0) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 233.6 Tm (The initial entropy is zero because there has been no decoherence to generate it.) Tj T* ET
-BT 1 0 0 1 54 221.6 Tm (C_0 is the maximum coherence by definition---it is the value before any environment-) Tj T* ET
-BT 1 0 0 1 54 209.6 Tm (system coupling has acted. The Big Bang is maximum coherence, not because of fine-) Tj T* ET
-BT 1 0 0 1 54 197.6 Tm (tuning, but because "before decoherence" means "C = C_0" tautologically.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 179.6 Tm (The question "why did the universe start at low entropy?" becomes "why does a system) Tj T* ET
-BT 1 0 0 1 54 167.6 Tm (that has not yet decohered have maximum coherence?" The answer is that this is what) Tj T* ET
-BT 1 0 0 1 54 155.6 Tm (the words mean. The Past Hypothesis is dissolved, not explained.) Tj T* ET
-.5 w
-n 54 141.6 m 558 141.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 113.6 Tm (4. Anomaly 3: The Boltzmann Brain Problem) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 91.6 Tm (The problem. In a universe approaching thermal equilibrium, random thermal) Tj T* ET
-BT 1 0 0 1 54 79.6 Tm (fluctuations can produce any configuration, including a brain with false memories of) Tj T* ET
-BT 1 0 0 1 54 67.6 Tm (observing an ordered universe. Statistical mechanics predicts that such "Boltzmann) Tj T* ET
- 
-
-Q
-
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.25 0.56 0.82 RG
-/gRLs0 gs
-0.3 w
-n
-18 24 m
-594 24 l
-S
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.35 0.44 0.5 rg
-/gRLs1 gs
-BT
-1 0 0 1 18 10 Tm
-(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
-T*
-ET
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-0.25 0.56 0.82 rg
-BT
-1 0 0 1 480.9 10 Tm
-(w) Tj
-T*
-ET
-0.83 0.63 0.38 rg
-/gRLs3 gs
-BT
-1 0 0 1 484.8 10 Tm
-(AI) Tj
-T*
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-BT
-1 0 0 1 492.6 10 Tm
-(ste Not  \056  Print Verified) Tj
-T*
-ET
-Q
-
-
-endstream
 endobj
 13 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Contents 14 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 15 0 R
+/F2 8 0 R
+/F2-0 16 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 14 0 obj
 <<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Length 6972
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Anomalie) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The problem.) Tj /F1 9 Tf ( Every fundamental microscopic law---Newton, Maxwell, Schrodinger, Einstein---is time-symmetric. Reverse) Tj T* (all velocities, conjugate all wavefunctions, and the equations still hold. Yet macroscopic physics has a definite arrow: eggs) Tj T* (break, never unbreak. Where does the asymmetry enter?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689 cm
+Q
+q
+1 0 0 1 60 674 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( The asymmetry enters through decoherence, and the coherence law encodes it exactly.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 667 cm
+Q
+q
+1 0 0 1 60 654.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646.2 cm
+Q
+q
+1 0 0 1 60 595.2 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (The exponential is monotonically decreasing for gamma_eff > 0. Time reversal \(t -) Tj (> -t\) would require C to increase, but the) Tj T* (Lindblad master equation from which this is derived enforces complete positivity of the density matrix, which requires) Tj T* -0.064105 Tw (gamma_eff >) Tj (= 0. The reversed trajectory is not forbidden by the Hamiltonian---it is forbidden by the positivity of the quantum) Tj T* 0 Tw (state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 588.2 cm
+Q
+q
+1 0 0 1 60 573.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The arrow of time is therefore:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 566.2 cm
+Q
+q
+1 0 0 1 60 535.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Past:) Tj ( ) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj ( ) Tj ( ) Tj (\(maximum) Tj ( ) Tj (coherence,) Tj ( ) Tj (minimum) Tj ( ) Tj (entropy\)) Tj  T* (Future:) Tj ( ) Tj (C) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(minimum) Tj ( ) Tj (coherence,) Tj ( ) Tj (maximum) Tj ( ) Tj (entropy\)) Tj  T* (dC/dt) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (always) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 527.8 cm
+Q
+q
+1 0 0 1 60 488.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The arrow of time IS the arrow of decoherence. They are mathematically identical statements. The microscopic laws remain) Tj T* (time-symmetric; the asymmetry lives in the open-system coupling \(alpha * gamma_eff\) that the Lindblad formalism makes) Tj T* (explicit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 481.8 cm
+Q
+q
+1 0 0 1 60 475.8 cm
+Q
+q
+1 0 0 1 60 471.8 cm
+Q
+q
+1 0 0 1 60 433.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Anomaly 2: The Past Hypothesis / Low-Entropy Initial State) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 421.8 cm
+Q
+q
+1 0 0 1 60 382.8 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The problem.) Tj /F1 9 Tf ( The Second Law explains why entropy increases but not why it started low. Penrose, Carroll, and others) Tj T* (have noted that the Big Bang initial state had extraordinarily low entropy \(S ~ 10^88\), and no dynamical law explains why.) Tj T* (The "Past Hypothesis"---that the universe began in a special low-entropy state---is typically inserted as a brute postulate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 375.8 cm
+Q
+q
+1 0 0 1 60 360.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( In the coherence framework, the Past Hypothesis is not a postulate. It is a mathematical identity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 353.8 cm
+Q
+q
+1 0 0 1 60 338.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At t = 0 \(Big Bang\), no decoherence has occurred. Therefore:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331.8 cm
+Q
+q
+1 0 0 1 60 310.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(0\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj  T* (S\(0\)) Tj ( ) Tj (=) Tj ( ) Tj (-ln\(C\(0\)) Tj ( ) Tj (/) Tj ( ) Tj (C_0\)) Tj ( ) Tj (=) Tj ( ) Tj (-ln\(1\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 302.2 cm
+Q
+q
+1 0 0 1 60 263.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The initial entropy is zero because there has been no decoherence to generate it. C_0 is the maximum coherence by) Tj T* (definition---it is the value before any environment-system coupling has acted. The Big Bang is maximum coherence, not) Tj T* (because of fine-tuning, but because "before decoherence" means "C = C_0" tautologically.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256.2 cm
+Q
+q
+1 0 0 1 60 229.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The question "why did the universe start at low entropy?" becomes "why does a system that has not yet decohered have) Tj T* (maximum coherence?" The answer is that this is what the words mean. The Past Hypothesis is dissolved, not explained.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 222.2 cm
+Q
+q
+1 0 0 1 60 216.2 cm
+Q
+q
+1 0 0 1 60 212.2 cm
+Q
+q
+1 0 0 1 60 174.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Anomaly 3: The Boltzmann Brain Problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 162.2 cm
+Q
+q
+1 0 0 1 60 111.2 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (The problem.) Tj /F1 9 Tf ( In a universe approaching thermal equilibrium, random thermal fluctuations can produce any configuration,) Tj T* (including a brain with false memories of observing an ordered universe. Statistical mechanics predicts that such "Boltzmann) Tj T* (Brains" vastly outnumber real observers formed by cosmological evolution. If we are typical observers, we should be) Tj T* (Boltzmann Brains---but we are not.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 104.2 cm
+Q
+q
+1 0 0 1 60 89.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( The coherence framework dissolves this problem through the duration requirement for consciousness.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 82.2 cm
+Q
+q
+1 0 0 1 60 67.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Consciousness requires sustained coherence near the critical decoherence rate \(Paper 93, Paper 109\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 15 0 obj
 <<
-/Contents 16 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/ExtGState <<
-/gRLs0 <<
-/CA 0.1
->>
-/gRLs1 <<
-/ca 0.55
->>
-/gRLs2 <<
-/ca 0.35
->>
-/gRLs3 <<
-/ca 0.95
->>
->>
-/Font <<
-/F1 6 0 R
-/F1-0 17 0 R
-/F2 8 0 R
-/F2-0 18 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 16 0 obj
 <<
-/Length 5238
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Ano) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
-.5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (Brains" vastly outnumber real observers formed by cosmological evolution. If we are) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (typical observers, we should be Boltzmann Brains---but we are not.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 675.6 Tm (Closure. The coherence framework dissolves this problem through the duration) Tj T* ET
-BT 1 0 0 1 54 663.6 Tm (requirement for consciousness.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 645.6 Tm (Consciousness requires sustained coherence near the critical decoherence rate \(Paper) Tj T* ET
-BT 1 0 0 1 54 633.6 Tm (93, Paper 109\):) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 611.6 Tm (gamma_eff approximately equals gamma_c    \(sustained for duration tau\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 591.6 Tm (A Boltzmann Brain is a thermal fluctuation that momentarily assembles a brain-like) Tj T* ET
-BT 1 0 0 1 54 579.6 Tm (configuration. At the instant of assembly, the thermal environment imposes:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 557.6 Tm (gamma_eff >> gamma_c) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 537.6 Tm (because the fluctuation exists within a thermal bath at equilibrium. The coherence) Tj T* ET
-BT 1 0 0 1 54 525.6 Tm (time of such a configuration is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 503.6 Tm (tau_BB = 1 / gamma_eff << tau_consciousness) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 483.6 Tm (The brain configuration exists for a Planck-scale or thermal-scale instant, then) Tj T* ET
-BT 1 0 0 1 54 471.6 Tm (decoheres. No sustained coherence near gamma_c occurs. No consciousness occurs.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 453.6 Tm (For a real brain maintained by metabolism:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 431.6 Tm (gamma_eff is held near gamma_c by active biological regulation) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 421.6 Tm (tau_real ~ seconds to decades) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 401.6 Tm (The probability of a Boltzmann Brain achieving consciousness is not merely small---) Tj T* ET
-BT 1 0 0 1 54 389.6 Tm (it is zero in the coherence framework, because the definition of consciousness) Tj T* ET
-BT 1 0 0 1 54 377.6 Tm (requires sustained operation near gamma_c, and a thermal fluctuation cannot sustain) Tj T* ET
-BT 1 0 0 1 54 365.6 Tm (anything.) Tj T* ET
-.5 w
-n 54 351.6 m 558 351.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 323.6 Tm (5. Anomaly 4: Gravitational Entropy Reversal) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 301.6 Tm (The problem. For an ideal gas, entropy increases as the gas spreads uniformly. For a) Tj T* ET
-BT 1 0 0 1 54 289.6 Tm (gravitating system, entropy increases as matter clumps. These appear to be opposite) Tj T* ET
-BT 1 0 0 1 54 277.6 Tm (behaviors under the same Second Law. Penrose identified this as a deep puzzle: why) Tj T* ET
-BT 1 0 0 1 54 265.6 Tm (does gravity "reverse" the direction of entropy increase?) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 247.6 Tm (Closure. There is no reversal. The coherence law C = C_0 * exp\(-alpha * gamma_eff\)) Tj T* ET
-BT 1 0 0 1 54 235.6 Tm (applies to both systems. The difference is the substrate that decoheres.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 217.6 Tm (For a gas, the relevant degrees of freedom are particle positions in a fixed) Tj T* ET
-BT 1 0 0 1 54 205.6 Tm (background spacetime:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 183.6 Tm (Gas: positions decohere toward uniformity) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 173.6 Tm (     Uniform distribution = maximum positional decoherence = maximum entropy) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 153.6 Tm (For a gravitating system, the relevant degrees of freedom are the spacetime geometry) Tj T* ET
-BT 1 0 0 1 54 141.6 Tm (itself:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 119.6 Tm (Gravity: spacetime geometry decoheres toward curvature concentration) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 109.6 Tm (         Uniform spacetime = coherent = low entropy) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 99.6 Tm (         Clumped spacetime = decohered = high entropy) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 89.6 Tm (         Black hole = maximum geometric decoherence = maximum entropy) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 69.6 Tm (The apparent reversal is a substrate confusion. Gas particles decohere in position) Tj T* ET
- 
-
-Q
-
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.25 0.56 0.82 RG
-/gRLs0 gs
-0.3 w
-n
-18 24 m
-594 24 l
-S
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.35 0.44 0.5 rg
-/gRLs1 gs
-BT
-1 0 0 1 18 10 Tm
-(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
-T*
-ET
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-0.25 0.56 0.82 rg
-BT
-1 0 0 1 480.9 10 Tm
-(w) Tj
-T*
-ET
-0.83 0.63 0.38 rg
-/gRLs3 gs
-BT
-1 0 0 1 484.8 10 Tm
-(AI) Tj
-T*
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-BT
-1 0 0 1 492.6 10 Tm
-(ste Not  \056  Print Verified) Tj
-T*
-ET
-Q
-
-
-endstream
 endobj
 17 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Contents 18 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 19 0 R
+/F2 8 0 R
+/F2-0 20 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 18 0 obj
 <<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Length 7414
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Anomalie) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 723.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (approximately) Tj ( ) Tj (equals) Tj ( ) Tj (gamma_c) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(sustained) Tj ( ) Tj (for) Tj ( ) Tj (duration) Tj ( ) Tj (tau\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 715.2 cm
+Q
+q
+1 0 0 1 60 688.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.040941 Tw (A Boltzmann Brain is a thermal fluctuation that momentarily assembles a brain-like configuration. At the instant of assembly,) Tj T* 0 Tw (the thermal environment imposes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 681.2 cm
+Q
+q
+1 0 0 1 60 668.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 660.4 cm
+Q
+q
+1 0 0 1 60 645.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (because the fluctuation exists within a thermal bath at equilibrium. The coherence time of such a configuration is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 638.4 cm
+Q
+q
+1 0 0 1 60 625.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (tau_BB) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (/) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (tau_consciousness) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 617.6 cm
+Q
+q
+1 0 0 1 60 590.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The brain configuration exists for a Planck-scale or thermal-scale instant, then decoheres. No sustained coherence near) Tj T* (gamma_c occurs. No consciousness occurs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 583.6 cm
+Q
+q
+1 0 0 1 60 568.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a real brain maintained by metabolism:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 561.6 cm
+Q
+q
+1 0 0 1 60 540 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (is) Tj ( ) Tj (held) Tj ( ) Tj (near) Tj ( ) Tj (gamma_c) Tj ( ) Tj (by) Tj ( ) Tj (active) Tj ( ) Tj (biological) Tj ( ) Tj (regulation) Tj  T* (tau_real) Tj ( ) Tj (~) Tj ( ) Tj (seconds) Tj ( ) Tj (to) Tj ( ) Tj (decades) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532 cm
+Q
+q
+1 0 0 1 60 493 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The probability of a Boltzmann Brain achieving consciousness is not merely small---it is zero in the coherence framework,) Tj T* (because the definition of consciousness requires sustained operation near gamma_c, and a thermal fluctuation cannot) Tj T* (sustain anything.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 486 cm
+Q
+q
+1 0 0 1 60 480 cm
+Q
+q
+1 0 0 1 60 476 cm
+Q
+q
+1 0 0 1 60 438 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Anomaly 4: Gravitational Entropy Reversal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 426 cm
+Q
+q
+1 0 0 1 60 387 cm
+q
+BT 1 0 0 1 0 27 Tm -0.121667 Tw 12 TL /F2 9 Tf 0 0 0 rg (The problem.) Tj /F1 9 Tf ( For an ideal gas, entropy increases as the gas spreads uniformly. For a gravitating system, entropy increases) Tj T* 0 Tw (as matter clumps. These appear to be opposite behaviors under the same Second Law. Penrose identified this as a deep) Tj T* (puzzle: why does gravity "reverse" the direction of entropy increase?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 380 cm
+Q
+q
+1 0 0 1 60 353 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( There is no reversal. The coherence law C = C_0 exp\(-alpha gamma_eff\) applies to both systems. The difference) Tj T* (is the substrate that decoheres.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 346 cm
+Q
+q
+1 0 0 1 60 331 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a gas, the relevant degrees of freedom are particle positions in a fixed background spacetime:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324 cm
+Q
+q
+1 0 0 1 60 302.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Gas:) Tj ( ) Tj (positions) Tj ( ) Tj (decohere) Tj ( ) Tj (toward) Tj ( ) Tj (uniformity) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Uniform) Tj ( ) Tj (distribution) Tj ( ) Tj (=) Tj ( ) Tj (maximum) Tj ( ) Tj (positional) Tj ( ) Tj (decoherence) Tj ( ) Tj (=) Tj ( ) Tj (maximum) Tj ( ) Tj (entropy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 294.4 cm
+Q
+q
+1 0 0 1 60 279.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a gravitating system, the relevant degrees of freedom are the spacetime geometry itself:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 272.4 cm
+Q
+q
+1 0 0 1 60 233.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Gravity:) Tj ( ) Tj (spacetime) Tj ( ) Tj (geometry) Tj ( ) Tj (decoheres) Tj ( ) Tj (toward) Tj ( ) Tj (curvature) Tj ( ) Tj (concentration) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Uniform) Tj ( ) Tj (spacetime) Tj ( ) Tj (=) Tj ( ) Tj (coherent) Tj ( ) Tj (=) Tj ( ) Tj (low) Tj ( ) Tj (entropy) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Clumped) Tj ( ) Tj (spacetime) Tj ( ) Tj (=) Tj ( ) Tj (decohered) Tj ( ) Tj (=) Tj ( ) Tj (high) Tj ( ) Tj (entropy) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Black) Tj ( ) Tj (hole) Tj ( ) Tj (=) Tj ( ) Tj (maximum) Tj ( ) Tj (geometric) Tj ( ) Tj (decoherence) Tj ( ) Tj (=) Tj ( ) Tj (maximum) Tj ( ) Tj (entropy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 225.2 cm
+Q
+q
+1 0 0 1 60 186.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.107625 Tw (The apparent reversal is a substrate confusion. Gas particles decohere in position space. Spacetime geometry decoheres in) Tj T* 0 Tw (curvature space. In both cases, the coherence law holds: C decreases, S increases, and the system moves toward) Tj T* (maximum decoherence of its relevant degrees of freedom.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 179.2 cm
+Q
+q
+1 0 0 1 60 164.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The law is the same. The substrate is different. The anomaly is dissolved.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 157.2 cm
+Q
+q
+1 0 0 1 60 151.2 cm
+Q
+q
+1 0 0 1 60 147.2 cm
+Q
+q
+1 0 0 1 60 109.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Anomaly 5: Black Hole Entropy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 97.2 cm
+Q
+q
+1 0 0 1 60 82.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (The problem.) Tj /F1 9 Tf ( Bekenstein and Hawking showed that black hole entropy is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 75.2 cm
+Q
+q
+1 0 0 1 60 62.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S_BH) Tj ( ) Tj (=) Tj ( ) Tj (A) Tj ( ) Tj (/) Tj ( ) Tj (\(4) Tj ( ) Tj (*) Tj ( ) Tj (l_P^2\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 19 0 obj
 <<
-/Contents 20 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/ExtGState <<
-/gRLs0 <<
-/CA 0.1
->>
-/gRLs1 <<
-/ca 0.55
->>
-/gRLs2 <<
-/ca 0.35
->>
-/gRLs3 <<
-/ca 0.95
->>
->>
-/Font <<
-/F1 6 0 R
-/F1-0 21 0 R
-/F2 8 0 R
-/F2-0 22 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 20 0 obj
 <<
-/Length 4868
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Ano) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
-.5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (space. Spacetime geometry decoheres in curvature space. In both cases, the coherence) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (law holds: C decreases, S increases, and the system moves toward maximum decoherence) Tj T* ET
-BT 1 0 0 1 54 681.6 Tm (of its relevant degrees of freedom.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (The law is the same. The substrate is different. The anomaly is dissolved.) Tj T* ET
-.5 w
-n 54 649.6 m 558 649.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 621.6 Tm (6. Anomaly 5: Black Hole Entropy) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 599.6 Tm (The problem. Bekenstein and Hawking showed that black hole entropy is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 577.6 Tm (S_BH = A / \(4 * l_P^2\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 557.6 Tm (where A is the horizon area and l_P is the Planck length. For a solar-mass black) Tj T* ET
-BT 1 0 0 1 54 545.6 Tm (hole, S_BH ~ 10^77. What are the microstates? String theory counts them for extremal) Tj T* ET
-BT 1 0 0 1 54 533.6 Tm (black holes, but the physical meaning of the 1/4 factor and the area-scaling remain) Tj T* ET
-BT 1 0 0 1 54 521.6 Tm (unexplained at the level of thermodynamic principle.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 503.6 Tm (Closure. Each Planck area on the horizon is one independent decoherence channel.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 485.6 Tm (When matter crosses the horizon, its quantum information is decohered by the) Tj T* ET
-BT 1 0 0 1 54 473.6 Tm (horizon. The number of independent channels through which coherence is destroyed) Tj T* ET
-BT 1 0 0 1 54 461.6 Tm (equals the number of Planck-area cells on the horizon:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 439.6 Tm (N_channels = A / l_P^2) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 419.6 Tm (The factor of 4 arises from the four spacetime dimensions. Each dimension) Tj T* ET
-BT 1 0 0 1 54 407.6 Tm (contributes one degree of freedom per Planck cell to the decoherence process:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 385.6 Tm (S_BH = N_channels / 4 = A / \(4 * l_P^2\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 365.6 Tm (The entropy does not count microstates in the interior. It counts the number of) Tj T* ET
-BT 1 0 0 1 54 353.6 Tm (independent WAYS that coherence was destroyed at the boundary. This is why it scales) Tj T* ET
-BT 1 0 0 1 54 341.6 Tm (with area, not volume: decoherence happens at the interface between the coherent) Tj T* ET
-BT 1 0 0 1 54 329.6 Tm (interior and the external environment, which is the horizon surface.) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 307.6 Tm (S_BH = number of decoherence channels = A / \(4 * l_P^2\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 287.6 Tm (The Bekenstein-Hawking formula is the coherence law applied to a surface of maximum) Tj T* ET
-BT 1 0 0 1 54 275.6 Tm (decoherence.) Tj T* ET
-.5 w
-n 54 261.6 m 558 261.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 233.6 Tm (7. Anomaly 6: Maximum Entropy of the Observable Universe) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 211.6 Tm (The problem. The observable universe has three characteristic entropy values:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 189.6 Tm (S_initial ~ 10^88     \(Big Bang\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 179.6 Tm (S_now     ~ 10^104    \(present, dominated by supermassive BH\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 169.6 Tm (S_max     ~ 10^124    \(de Sitter horizon entropy\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 149.6 Tm (These numbers span 36 orders of magnitude. Why these values? Why is S_now/S_max ~) Tj T* ET
-BT 1 0 0 1 54 137.6 Tm (10^\(-20\)?) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 119.6 Tm (Closure. Each value has a direct coherence interpretation.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 101.6 Tm (S_max is the total number of decoherence channels on the cosmological horizon:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 79.6 Tm (S_max = A_horizon / \(4 * l_P^2\) ~ 10^124) Tj T* ET
- 
-
-Q
-
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.25 0.56 0.82 RG
-/gRLs0 gs
-0.3 w
-n
-18 24 m
-594 24 l
-S
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.35 0.44 0.5 rg
-/gRLs1 gs
-BT
-1 0 0 1 18 10 Tm
-(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
-T*
-ET
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-0.25 0.56 0.82 rg
-BT
-1 0 0 1 480.9 10 Tm
-(w) Tj
-T*
-ET
-0.83 0.63 0.38 rg
-/gRLs3 gs
-BT
-1 0 0 1 484.8 10 Tm
-(AI) Tj
-T*
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-BT
-1 0 0 1 492.6 10 Tm
-(ste Not  \056  Print Verified) Tj
-T*
-ET
-Q
-
-
-endstream
 endobj
 21 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Contents 22 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 23 0 R
+/F2 8 0 R
+/F2-0 24 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 22 0 obj
 <<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Length 7565
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Anomalie) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (where A is the horizon area and l_P is the Planck length. For a solar-mass black hole, S_BH ~ 10^77. What are the) Tj T* (microstates? String theory counts them for extremal black holes, but the physical meaning of the 1/4 factor and the) Tj T* (area-scaling remain unexplained at the level of thermodynamic principle.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682 cm
+Q
+q
+1 0 0 1 60 667 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( Each Planck area on the horizon is one independent decoherence channel.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 660 cm
+Q
+q
+1 0 0 1 60 633 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (When matter crosses the horizon, its quantum information is decohered by the horizon. The number of independent) Tj T* (channels through which coherence is destroyed equals the number of Planck-area cells on the horizon:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 626 cm
+Q
+q
+1 0 0 1 60 613.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (N_channels) Tj ( ) Tj (=) Tj ( ) Tj (A) Tj ( ) Tj (/) Tj ( ) Tj (l_P^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 605.2 cm
+Q
+q
+1 0 0 1 60 578.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The factor of 4 arises from the four spacetime dimensions. Each dimension contributes one degree of freedom per Planck) Tj T* (cell to the decoherence process:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 571.2 cm
+Q
+q
+1 0 0 1 60 558.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S_BH) Tj ( ) Tj (=) Tj ( ) Tj (N_channels) Tj ( ) Tj (/) Tj ( ) Tj (4) Tj ( ) Tj (=) Tj ( ) Tj (A) Tj ( ) Tj (/) Tj ( ) Tj (\(4) Tj ( ) Tj (*) Tj ( ) Tj (l_P^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 550.4 cm
+Q
+q
+1 0 0 1 60 511.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The entropy does not count microstates in the interior. It counts the number of independent WAYS that coherence was) Tj T* (destroyed at the boundary. This is why it scales with area, not volume: decoherence happens at the interface between the) Tj T* (coherent interior and the external environment, which is the horizon surface.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 504.4 cm
+Q
+q
+1 0 0 1 60 491.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S_BH) Tj ( ) Tj (=) Tj ( ) Tj (number) Tj ( ) Tj (of) Tj ( ) Tj (decoherence) Tj ( ) Tj (channels) Tj ( ) Tj (=) Tj ( ) Tj (A) Tj ( ) Tj (/) Tj ( ) Tj (\(4) Tj ( ) Tj (*) Tj ( ) Tj (l_P^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 483.6 cm
+Q
+q
+1 0 0 1 60 468.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Bekenstein-Hawking formula is the coherence law applied to a surface of maximum decoherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 461.6 cm
+Q
+q
+1 0 0 1 60 455.6 cm
+Q
+q
+1 0 0 1 60 451.6 cm
+Q
+q
+1 0 0 1 60 413.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Anomaly 6: Maximum Entropy of the Observable Universe) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 401.6 cm
+Q
+q
+1 0 0 1 60 386.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (The problem.) Tj /F1 9 Tf ( The observable universe has three characteristic entropy values:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 379.6 cm
+Q
+q
+1 0 0 1 60 349.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S_initial) Tj ( ) Tj (~) Tj ( ) Tj (10^88) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(Big) Tj ( ) Tj (Bang\)) Tj  T* (S_now) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~) Tj ( ) Tj (10^104) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(present,) Tj ( ) Tj (dominated) Tj ( ) Tj (by) Tj ( ) Tj (supermassive) Tj ( ) Tj (BH\)) Tj  T* (S_max) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (~) Tj ( ) Tj (10^124) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(de) Tj ( ) Tj (Sitter) Tj ( ) Tj (horizon) Tj ( ) Tj (entropy\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 341.2 cm
+Q
+q
+1 0 0 1 60 326.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (These numbers span 36 orders of magnitude. Why these values? Why is S_now/S_max ~ 10^\(-20\)?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 319.2 cm
+Q
+q
+1 0 0 1 60 304.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( Each value has a direct coherence interpretation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 297.2 cm
+Q
+q
+1 0 0 1 60 282.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (S_max is the total number of decoherence channels on the cosmological horizon:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 275.2 cm
+Q
+q
+1 0 0 1 60 262.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S_max) Tj ( ) Tj (=) Tj ( ) Tj (A_horizon) Tj ( ) Tj (/) Tj ( ) Tj (\(4) Tj ( ) Tj (*) Tj ( ) Tj (l_P^2\)) Tj ( ) Tj (~) Tj ( ) Tj (10^124) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254.4 cm
+Q
+q
+1 0 0 1 60 227.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (S_initial = 0 in the coherence framework \(pure C_0 state\), but the value 10^88 reflects the gravitational degrees of freedom) Tj T* (that were already partially decohered at the earliest measurable epoch.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 220.4 cm
+Q
+q
+1 0 0 1 60 205.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The ratio S_now / S_max measures how much coherence has been lost:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 198.4 cm
+Q
+q
+1 0 0 1 60 185.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S_now) Tj ( ) Tj (/) Tj ( ) Tj (S_max) Tj ( ) Tj (=) Tj ( ) Tj (\(alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t_now\)) Tj ( ) Tj (/) Tj ( ) Tj (\(alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t_max\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 177.6 cm
+Q
+q
+1 0 0 1 60 162.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (More directly, the fraction of maximum decoherence achieved:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 155.6 cm
+Q
+q
+1 0 0 1 60 142.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_now) Tj ( ) Tj (/) Tj ( ) Tj (C_0) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t_now\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 134.8 cm
+Q
+q
+1 0 0 1 60 119.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Using S = -ln\(C/C_0\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 112.8 cm
+Q
+q
+1 0 0 1 60 100 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (10^104) Tj ( ) Tj (/) Tj ( ) Tj (10^124) Tj ( ) Tj (=) Tj ( ) Tj (10^\(-20\)) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 92 cm
+Q
+q
+1 0 0 1 60 77 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Solving:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 70 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 23 0 obj
 <<
-/Contents 24 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/ExtGState <<
-/gRLs0 <<
-/CA 0.1
->>
-/gRLs1 <<
-/ca 0.55
->>
-/gRLs2 <<
-/ca 0.35
->>
-/gRLs3 <<
-/ca 0.95
->>
->>
-/Font <<
-/F1 6 0 R
-/F1-0 25 0 R
-/F2 8 0 R
-/F2-0 26 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 24 0 obj
 <<
-/Length 4892
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Ano) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
-.5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (S_initial = 0 in the coherence framework \(pure C_0 state\), but the value 10^88) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (reflects the gravitational degrees of freedom that were already partially decohered) Tj T* ET
-BT 1 0 0 1 54 681.6 Tm (at the earliest measurable epoch.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (The ratio S_now / S_max measures how much coherence has been lost:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 641.6 Tm (S_now / S_max = \(alpha * gamma_eff * t_now\) / \(alpha * gamma_eff * t_max\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 621.6 Tm (More directly, the fraction of maximum decoherence achieved:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 599.6 Tm (C_now / C_0 = exp\(-alpha * gamma_eff * t_now\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 579.6 Tm (Using S = -ln\(C/C_0\):) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 557.6 Tm (10^104 / 10^124 = 10^\(-20\) = exp\(-alpha * gamma_eff * t\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 537.6 Tm (Solving:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 515.6 Tm (alpha * gamma_eff * t_now = 20 * ln\(10\) approximately equals 46) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 495.6 Tm (This is a single dimensionless number characterizing how far decoherence has) Tj T* ET
-BT 1 0 0 1 54 483.6 Tm (progressed. The universe has completed exp\(-46\) of its total decoherence---a small) Tj T* ET
-BT 1 0 0 1 54 471.6 Tm (fraction. The vast majority of coherence destruction lies in the future, consistent) Tj T* ET
-BT 1 0 0 1 54 459.6 Tm (with the accelerating expansion driving all remaining coherent structures toward the) Tj T* ET
-BT 1 0 0 1 54 447.6 Tm (de Sitter horizon.) Tj T* ET
-.5 w
-n 54 433.6 m 558 433.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 405.6 Tm (8. Anomaly 7: The Nature of Time) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 383.6 Tm (The problem. Is time fundamental or emergent? Why does the present moment feel) Tj T* ET
-BT 1 0 0 1 54 371.6 Tm (special? Why does quantum mechanics treat time as an external parameter while) Tj T* ET
-BT 1 0 0 1 54 359.6 Tm (general relativity makes it dynamical? These are among the oldest questions in) Tj T* ET
-BT 1 0 0 1 54 347.6 Tm (physics.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 329.6 Tm (Closure. Time is decoherence. Specifically:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 307.6 Tm (t = the parameter in C\(t\) = C_0 * exp\(-alpha * gamma_eff * t\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 287.6 Tm ("Time passes" means "coherence decreases." "More time passes" means "more coherence) Tj T* ET
-BT 1 0 0 1 54 275.6 Tm (is lost." The identification is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 253.6 Tm (t increases  <=>  C decreases  <=>  S increases) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 233.6 Tm (This resolves the QM/GR tension directly:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 215.6 Tm (Quantum mechanics: Time is an external parameter. Correct---because in QM, the) Tj T* ET
-BT 1 0 0 1 54 203.6 Tm (system-environment split is fixed, and t parameterizes the decoherence of the system) Tj T* ET
-BT 1 0 0 1 54 191.6 Tm (by that fixed environment. Time is external because the decoherence source is) Tj T* ET
-BT 1 0 0 1 54 179.6 Tm (external.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 161.6 Tm (General relativity: Time is dynamical. Correct---because gamma_eff varies with the) Tj T* ET
-BT 1 0 0 1 54 149.6 Tm (local mass-energy distribution. Near a massive body, gamma_eff is modified by) Tj T* ET
-BT 1 0 0 1 54 137.6 Tm (gravitational coupling, so the local rate of decoherence changes. Clocks run slower) Tj T* ET
-BT 1 0 0 1 54 125.6 Tm (in gravitational fields because decoherence runs slower when gamma_eff is modified) Tj T* ET
-BT 1 0 0 1 54 113.6 Tm (by spacetime curvature.) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 91.6 Tm (QM regime:  gamma_eff fixed  =>  t is external parameter) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 81.6 Tm (GR regime:  gamma_eff varies  =>  t is dynamical) Tj T* ET
- 
-
-Q
-
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.25 0.56 0.82 RG
-/gRLs0 gs
-0.3 w
-n
-18 24 m
-594 24 l
-S
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.35 0.44 0.5 rg
-/gRLs1 gs
-BT
-1 0 0 1 18 10 Tm
-(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
-T*
-ET
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-0.25 0.56 0.82 rg
-BT
-1 0 0 1 480.9 10 Tm
-(w) Tj
-T*
-ET
-0.83 0.63 0.38 rg
-/gRLs3 gs
-BT
-1 0 0 1 484.8 10 Tm
-(AI) Tj
-T*
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-BT
-1 0 0 1 492.6 10 Tm
-(ste Not  \056  Print Verified) Tj
-T*
-ET
-Q
-
-
-endstream
 endobj
 25 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Contents 26 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 27 0 R
+/F2 8 0 R
+/F2-0 28 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 26 0 obj
 <<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Length 7146
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Anomalie) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 723.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t_now) Tj ( ) Tj (=) Tj ( ) Tj (20) Tj ( ) Tj (*) Tj ( ) Tj (ln\(10\)) Tj ( ) Tj (approximately) Tj ( ) Tj (equals) Tj ( ) Tj (46) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 715.2 cm
+Q
+q
+1 0 0 1 60 676.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is a single dimensionless number characterizing how far decoherence has progressed. The universe has completed) Tj T* (exp\(-46\) of its total decoherence---a small fraction. The vast majority of coherence destruction lies in the future, consistent) Tj T* (with the accelerating expansion driving all remaining coherent structures toward the de Sitter horizon.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 669.2 cm
+Q
+q
+1 0 0 1 60 663.2 cm
+Q
+q
+1 0 0 1 60 659.2 cm
+Q
+q
+1 0 0 1 60 621.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Anomaly 7: The Nature of Time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609.2 cm
+Q
+q
+1 0 0 1 60 570.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The problem.) Tj /F1 9 Tf ( Is time fundamental or emergent? Why does the present moment feel special? Why does quantum) Tj T* (mechanics treat time as an external parameter while general relativity makes it dynamical? These are among the oldest) Tj T* (questions in physics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 563.2 cm
+Q
+q
+1 0 0 1 60 548.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( Time is decoherence. Specifically:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 541.2 cm
+Q
+q
+1 0 0 1 60 528.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (t) Tj ( ) Tj (=) Tj ( ) Tj (the) Tj ( ) Tj (parameter) Tj ( ) Tj (in) Tj ( ) Tj (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 520.4 cm
+Q
+q
+1 0 0 1 60 505.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ("Time passes" means "coherence decreases." "More time passes" means "more coherence is lost." The identification is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 498.4 cm
+Q
+q
+1 0 0 1 60 485.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (t) Tj ( ) Tj (increases) Tj ( ) Tj ( ) Tj (<) Tj (=) Tj (>) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (decreases) Tj ( ) Tj ( ) Tj (<) Tj (=) Tj (>) Tj ( ) Tj ( ) Tj (S) Tj ( ) Tj (increases) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 477.6 cm
+Q
+q
+1 0 0 1 60 462.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This resolves the QM/GR tension directly:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 455.6 cm
+Q
+q
+1 0 0 1 60 416.6 cm
+q
+BT 1 0 0 1 0 27 Tm -0.040688 Tw 12 TL /F2 9 Tf 0 0 0 rg (Quantum mechanics:) Tj /F1 9 Tf ( Time is an external parameter. Correct---because in QM, the system-environment split is fixed, and t) Tj T* 0 Tw (parameterizes the decoherence of the system by that fixed environment. Time is external because the decoherence source) Tj T* (is external.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 409.6 cm
+Q
+q
+1 0 0 1 60 370.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (General relativity:) Tj /F1 9 Tf ( Time is dynamical. Correct---because gamma_eff varies with the local mass-energy distribution. Near a) Tj T* (massive body, gamma_eff is modified by gravitational coupling, so the local rate of decoherence changes. Clocks run) Tj T* (slower in gravitational fields because decoherence runs slower when gamma_eff is modified by spacetime curvature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 363.6 cm
+Q
+q
+1 0 0 1 60 342 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (QM) Tj ( ) Tj (regime:) Tj ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (fixed) Tj ( ) Tj ( ) Tj (=) Tj (>) Tj ( ) Tj ( ) Tj (t) Tj ( ) Tj (is) Tj ( ) Tj (external) Tj ( ) Tj (parameter) Tj  T* (GR) Tj ( ) Tj (regime:) Tj ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (varies) Tj ( ) Tj ( ) Tj (=) Tj (>) Tj ( ) Tj ( ) Tj (t) Tj ( ) Tj (is) Tj ( ) Tj (dynamical) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 334 cm
+Q
+q
+1 0 0 1 60 307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Both descriptions are correct. They apply in different coherence regimes. The "present moment" is the current value of) Tj T* (C---the boundary between what has decohered \(past, classical, recorded\) and what has not \(future, quantum, open\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 300 cm
+Q
+q
+1 0 0 1 60 294 cm
+Q
+q
+1 0 0 1 60 290 cm
+Q
+q
+1 0 0 1 60 252 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. Anomaly 8: Emergent Gravity \(Verlinde Completion\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 240 cm
+Q
+q
+1 0 0 1 60 201 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The problem.) Tj /F1 9 Tf ( Verlinde \(2011\) proposed that gravity is an entropic force: F = T * nabla\(S\). The idea is compelling but) Tj T* (incomplete---it does not explain MOND behavior, does not specify what S counts, and has not been connected to a) Tj T* (microscopic framework.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 194 cm
+Q
+q
+1 0 0 1 60 179 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( The coherence framework completes Verlinde's program.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 172 cm
+Q
+q
+1 0 0 1 60 157 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With S = -ln\(C/C_0\) = alpha * gamma_eff, the entropic force becomes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 150 cm
+Q
+q
+1 0 0 1 60 137.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (F) Tj ( ) Tj (=) Tj ( ) Tj (T) Tj ( ) Tj (*) Tj ( ) Tj (nabla\(S\)) Tj ( ) Tj (=) Tj ( ) Tj (T) Tj ( ) Tj (*) Tj ( ) Tj (alpha) Tj ( ) Tj (*) Tj ( ) Tj (nabla\(gamma_eff\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 129.2 cm
+Q
+q
+1 0 0 1 60 102.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The gradient of gamma_eff has two contributions: baryonic matter and the vacuum \(cosmological\) decoherence) Tj T* (background.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 95.2 cm
+Q
+q
+1 0 0 1 60 82.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (nabla\(gamma_eff\)) Tj ( ) Tj (=) Tj ( ) Tj (nabla\(gamma_baryonic\)) Tj ( ) Tj (+) Tj ( ) Tj (nabla\(gamma_vacuum\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 74.4 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 27 0 obj
 <<
-/Contents 28 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/ExtGState <<
-/gRLs0 <<
-/CA 0.1
->>
-/gRLs1 <<
-/ca 0.55
->>
-/gRLs2 <<
-/ca 0.35
->>
-/gRLs3 <<
-/ca 0.95
->>
->>
-/Font <<
-/F1 6 0 R
-/F1-0 29 0 R
-/F2 8 0 R
-/F2-0 30 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 28 0 obj
 <<
-/Length 4703
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Ano) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
-.5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (Both descriptions are correct. They apply in different coherence regimes. The) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm ("present moment" is the current value of C---the boundary between what has decohered) Tj T* ET
-BT 1 0 0 1 54 681.6 Tm (\(past, classical, recorded\) and what has not \(future, quantum, open\).) Tj T* ET
-.5 w
-n 54 667.6 m 558 667.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 639.6 Tm (9. Anomaly 8: Emergent Gravity \(Verlinde Completion\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 617.6 Tm (The problem. Verlinde \(2011\) proposed that gravity is an entropic force: F = T *) Tj T* ET
-BT 1 0 0 1 54 605.6 Tm (nabla\(S\). The idea is compelling but incomplete---it does not explain MOND behavior,) Tj T* ET
-BT 1 0 0 1 54 593.6 Tm (does not specify what S counts, and has not been connected to a microscopic) Tj T* ET
-BT 1 0 0 1 54 581.6 Tm (framework.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 563.6 Tm (Closure. The coherence framework completes Verlinde's program.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 545.6 Tm (With S = -ln\(C/C_0\) = alpha * gamma_eff, the entropic force becomes:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 523.6 Tm (F = T * nabla\(S\) = T * alpha * nabla\(gamma_eff\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 503.6 Tm (The gradient of gamma_eff has two contributions: baryonic matter and the vacuum) Tj T* ET
-BT 1 0 0 1 54 491.6 Tm (\(cosmological\) decoherence background.) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 469.6 Tm (nabla\(gamma_eff\) = nabla\(gamma_baryonic\) + nabla\(gamma_vacuum\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 449.6 Tm (At high accelerations \(a > a_0, where a_0 ~ 1.2 * 10^\(-10\) m/s^2\):) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 427.6 Tm (nabla\(gamma_baryonic\) >> nabla\(gamma_vacuum\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 417.6 Tm (F approximately equals T * alpha * nabla\(gamma_baryonic\)  =>  Newtonian gravity) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 397.6 Tm (At low accelerations \(a < a_0\):) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 375.6 Tm (nabla\(gamma_vacuum\) dominates) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 365.6 Tm (F approximately equals T * alpha * nabla\(gamma_vacuum\)  =>  MOND behavior) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 345.6 Tm (The MOND acceleration scale a_0 is the crossover where baryonic and vacuum) Tj T* ET
-BT 1 0 0 1 54 333.6 Tm (decoherence gradients are equal:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 311.6 Tm (nabla\(gamma_baryonic\) = nabla\(gamma_vacuum\)  at  a = a_0) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 291.6 Tm (Verlinde was half right: gravity is entropic. The coherence framework specifies what) Tj T* ET
-BT 1 0 0 1 54 279.6 Tm (the entropy counts \(decoherence channels\), why it has two regimes \(two sources of) Tj T* ET
-BT 1 0 0 1 54 267.6 Tm (gamma_eff gradient\), and where the crossover occurs \(a_0\). This is the complete) Tj T* ET
-BT 1 0 0 1 54 255.6 Tm (Verlinde.) Tj T* ET
-.5 w
-n 54 241.6 m 558 241.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 213.6 Tm (10. The Complete Second Law) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 191.6 Tm (All eight anomalies reduce to a single statement. The Second Law of Thermodynamics) Tj T* ET
-BT 1 0 0 1 54 179.6 Tm (in its complete form is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 157.6 Tm (dC/dt = -alpha * gamma_eff * C    with    gamma_eff >= 0, alpha > 0) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 137.6 Tm (Equivalently:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 115.6 Tm (dS/dt = alpha * gamma_eff >= 0) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 95.6 Tm (From this single equation:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 77.6 Tm (| Anomaly | Resolution |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 67.6 Tm (|---------|-----------|) Tj T* ET
- 
-
-Q
-
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.25 0.56 0.82 RG
-/gRLs0 gs
-0.3 w
-n
-18 24 m
-594 24 l
-S
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.35 0.44 0.5 rg
-/gRLs1 gs
-BT
-1 0 0 1 18 10 Tm
-(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
-T*
-ET
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-0.25 0.56 0.82 rg
-BT
-1 0 0 1 480.9 10 Tm
-(w) Tj
-T*
-ET
-0.83 0.63 0.38 rg
-/gRLs3 gs
-BT
-1 0 0 1 484.8 10 Tm
-(AI) Tj
-T*
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-BT
-1 0 0 1 492.6 10 Tm
-(ste Not  \056  Print Verified) Tj
-T*
-ET
-Q
-
-
-endstream
 endobj
 29 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/Contents 30 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 31 0 R
+/F2 8 0 R
+/F2-0 32 0 R
+/F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 30 0 obj
 <<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/Length 7674
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Anomalie) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (At high accelerations \(a > a_0, where a_0 ~ 1.2 * 10^\(-10\) m/s^2\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 691.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (nabla\(gamma_baryonic\)) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (nabla\(gamma_vacuum\)) Tj  T* (F) Tj ( ) Tj (approximately) Tj ( ) Tj (equals) Tj ( ) Tj (T) Tj ( ) Tj (*) Tj ( ) Tj (alpha) Tj ( ) Tj (*) Tj ( ) Tj (nabla\(gamma_baryonic\)) Tj ( ) Tj ( ) Tj (=) Tj (>) Tj ( ) Tj ( ) Tj (Newtonian) Tj ( ) Tj (gravity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683.4 cm
+Q
+q
+1 0 0 1 60 668.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (At low accelerations \(a < a_0\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 661.4 cm
+Q
+q
+1 0 0 1 60 639.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (nabla\(gamma_vacuum\)) Tj ( ) Tj (dominates) Tj  T* (F) Tj ( ) Tj (approximately) Tj ( ) Tj (equals) Tj ( ) Tj (T) Tj ( ) Tj (*) Tj ( ) Tj (alpha) Tj ( ) Tj (*) Tj ( ) Tj (nabla\(gamma_vacuum\)) Tj ( ) Tj ( ) Tj (=) Tj (>) Tj ( ) Tj ( ) Tj (MOND) Tj ( ) Tj (behavior) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 631.8 cm
+Q
+q
+1 0 0 1 60 616.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The MOND acceleration scale a_0 is the crossover where baryonic and vacuum decoherence gradients are equal:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609.8 cm
+Q
+q
+1 0 0 1 60 597 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (nabla\(gamma_baryonic\)) Tj ( ) Tj (=) Tj ( ) Tj (nabla\(gamma_vacuum\)) Tj ( ) Tj ( ) Tj (at) Tj ( ) Tj ( ) Tj (a) Tj ( ) Tj (=) Tj ( ) Tj (a_0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 589 cm
+Q
+q
+1 0 0 1 60 550 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Verlinde was half right: gravity is entropic. The coherence framework specifies what the entropy counts \(decoherence) Tj T* (channels\), why it has two regimes \(two sources of gamma_eff gradient\), and where the crossover occurs \(a_0\). This is the) Tj T* (complete Verlinde.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 543 cm
+Q
+q
+1 0 0 1 60 537 cm
+Q
+q
+1 0 0 1 60 533 cm
+Q
+q
+1 0 0 1 60 495 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (10. The Complete Second Law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 483 cm
+Q
+q
+1 0 0 1 60 468 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (All eight anomalies reduce to a single statement. The Second Law of Thermodynamics in its complete form is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 461 cm
+Q
+q
+1 0 0 1 60 448.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (*) Tj ( ) Tj (C) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (with) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (0,) Tj ( ) Tj (alpha) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 440.2 cm
+Q
+q
+1 0 0 1 60 425.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Equivalently:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 418.2 cm
+Q
+q
+1 0 0 1 60 405.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dS/dt) Tj ( ) Tj (=) Tj ( ) Tj (alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 397.4 cm
+Q
+q
+1 0 0 1 60 382.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From this single equation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 375.4 cm
+Q
+q
+1 0 0 1 60 362.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Anomaly | Resolution |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 349.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|---------|-----------|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 337 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Arrow of time | dC/dt <) Tj (= 0 is the arrow |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Past Hypothesis | C\(0\) = C_0 is a tautology |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 311.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Boltzmann Brains | Consciousness requires sustained gamma_eff near gamma_c |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 298.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Gravitational entropy | Different substrate, same decoherence law |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 285.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Black hole entropy | S_BH counts decoherence channels at horizon |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 273 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Universe entropy budget | alpha ) Tj /F5 7.5 Tf (gamma ) Tj /F4 7.5 Tf (t_now approximately 46 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 260.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Nature of time | t parameterizes decoherence |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 247.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Emergent gravity | F = T ) Tj /F5 7.5 Tf (alpha ) Tj /F4 7.5 Tf (nabla\(gamma_eff\) with two-regime gradient |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 239.4 cm
+Q
+q
+1 0 0 1 60 200.4 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (No new physics was introduced. The Lindblad master equation \(1976\) contains everything. The coherence law C = C_0) Tj T* /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\) extracted in Paper 3 was already the Second Law. Papers 92 and 76 established the) Tj T* (thermodynamic inequality and time-reversal relations. This paper closes the anomalous residuals.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 193.4 cm
+Q
+q
+1 0 0 1 60 187.4 cm
+Q
+q
+1 0 0 1 60 183.4 cm
+Q
+q
+1 0 0 1 60 145.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (11. Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 133.4 cm
+Q
+q
+1 0 0 1 60 118.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Three testable consequences follow from these closures:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 111.4 cm
+Q
+q
+1 0 0 1 60 60.4 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction 1: Boltzmann Brain exclusion is testable.) Tj /F1 9 Tf ( Any physical system claiming to instantiate consciousness must) Tj T* (demonstrate sustained coherence \(tau > tau_min\) near gamma_c. Artificial systems that achieve brain-like configurations) Tj T* (but operate at gamma_eff >) Tj (> gamma_c will not exhibit consciousness markers \(integrated information, global workspace) Tj T* (access\). This is testable with current neuroscience instrumentation.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 31 0 obj
 <<
-/Contents 32 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/ExtGState <<
-/gRLs0 <<
-/CA 0.1
->>
-/gRLs1 <<
-/ca 0.55
->>
-/gRLs2 <<
-/ca 0.35
->>
-/gRLs3 <<
-/ca 0.95
->>
->>
-/Font <<
-/F1 6 0 R
-/F1-0 33 0 R
-/F2 8 0 R
-/F2-0 34 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 32 0 obj
 <<
-/Length 5804
->>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Ano) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
-.5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 705.6 Tm (| Arrow of time | dC/dt <= 0 is the arrow |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 695.6 Tm (| Past Hypothesis | C\(0\) = C_0 is a tautology |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 685.6 Tm (| Boltzmann Brains | Consciousness requires sustained gamma_eff near gamma_c |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 675.6 Tm (| Gravitational entropy | Different substrate, same decoherence law |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 665.6 Tm (| Black hole entropy | S_BH counts decoherence channels at horizon |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 655.6 Tm (| Universe entropy budget | alpha * gamma * t_now approximately 46 |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 645.6 Tm (| Nature of time | t parameterizes decoherence |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 635.6 Tm (| Emergent gravity | F = T * alpha * nabla\(gamma_eff\) with two-regime gradient |) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 619.6 Tm (No new physics was introduced. The Lindblad master equation \(1976\) contains) Tj T* ET
-BT 1 0 0 1 54 607.6 Tm (everything. The coherence law C = C_0 * exp\(-alpha * gamma_eff\) extracted in Paper 3) Tj T* ET
-BT 1 0 0 1 54 595.6 Tm (was already the Second Law. Papers 92 and 76 established the thermodynamic) Tj T* ET
-BT 1 0 0 1 54 583.6 Tm (inequality and time-reversal relations. This paper closes the anomalous residuals.) Tj T* ET
-.5 w
-n 54 569.6 m 558 569.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 541.6 Tm (11. Predictions) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 519.6 Tm (Three testable consequences follow from these closures:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 501.6 Tm (Prediction 1: Boltzmann Brain exclusion is testable. Any physical system claiming to) Tj T* ET
-BT 1 0 0 1 54 489.6 Tm (instantiate consciousness must demonstrate sustained coherence \(tau > tau_min\) near) Tj T* ET
-BT 1 0 0 1 54 477.6 Tm (gamma_c. Artificial systems that achieve brain-like configurations but operate at) Tj T* ET
-BT 1 0 0 1 54 465.6 Tm (gamma_eff >> gamma_c will not exhibit consciousness markers \(integrated information,) Tj T* ET
-BT 1 0 0 1 54 453.6 Tm (global workspace access\). This is testable with current neuroscience) Tj T* ET
-BT 1 0 0 1 54 441.6 Tm (instrumentation.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 423.6 Tm (Prediction 2: Gravitational decoherence rate. If time = decoherence, then) Tj T* ET
-BT 1 0 0 1 54 411.6 Tm (gravitational time dilation directly measures gravitational modification of) Tj T* ET
-BT 1 0 0 1 54 399.6 Tm (gamma_eff. Precision atomic clocks at different gravitational potentials already) Tj T* ET
-BT 1 0 0 1 54 387.6 Tm (confirm this. The prediction is that the fractional frequency shift Delta\(f\)/f) Tj T* ET
-BT 1 0 0 1 54 375.6 Tm (equals the fractional change in gamma_eff:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 353.6 Tm (Delta\(f\) / f = Delta\(gamma_eff\) / gamma_eff = g * Delta\(h\) / c^2) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 333.6 Tm (This is already confirmed to parts in 10^18 by optical lattice clocks.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 315.6 Tm (Prediction 3: MOND crossover from decoherence. The acceleration scale a_0 should) Tj T* ET
-BT 1 0 0 1 54 303.6 Tm (equal the scale where vacuum decoherence gradient matches baryonic decoherence) Tj T* ET
-BT 1 0 0 1 54 291.6 Tm (gradient. This predicts a_0 = c * H_0 / \(2 * pi\), connecting it to the Hubble) Tj T* ET
-BT 1 0 0 1 54 279.6 Tm (parameter. The observed value a_0 ~ 1.2 * 10^\(-10\) m/s^2 and c * H_0 ~ 6.9 *) Tj T* ET
-BT 1 0 0 1 54 267.6 Tm (10^\(-10\) m/s^2 are within an order of magnitude. The factor of 2*pi arises from the) Tj T* ET
-BT 1 0 0 1 54 255.6 Tm (horizon geometry. Precision measurement of the a_0-H_0 relation across cosmic time) Tj T* ET
-BT 1 0 0 1 54 243.6 Tm (would confirm or refute this.) Tj T* ET
-.5 w
-n 54 229.6 m 558 229.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 201.6 Tm (12. Conclusion) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 179.6 Tm (Eight thermodynamic anomalies---the arrow of time, the Past Hypothesis, Boltzmann) Tj T* ET
-BT 1 0 0 1 54 167.6 Tm (Brains, gravitational entropy reversal, black hole entropy, the universe's entropy) Tj T* ET
-BT 1 0 0 1 54 155.6 Tm (budget, the nature of time, and emergent gravity---have been closed using a single) Tj T* ET
-BT 1 0 0 1 54 143.6 Tm (equation derived from the Lindblad master equation. No new postulates were) Tj T* ET
-BT 1 0 0 1 54 131.6 Tm (introduced. No free parameters were added.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 113.6 Tm (The result is a unification: the Second Law of Thermodynamics, the arrow of time,) Tj T* ET
-BT 1 0 0 1 54 101.6 Tm (the nature of time, and the gravitational force are not four separate phenomena.) Tj T* ET
-BT 1 0 0 1 54 89.6 Tm (They are four descriptions of one process---decoherence---viewed from four different) Tj T* ET
-BT 1 0 0 1 54 77.6 Tm (angles.) Tj T* ET
- 
-
-Q
-
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.25 0.56 0.82 RG
-/gRLs0 gs
-0.3 w
-n
-18 24 m
-594 24 l
-S
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.35 0.44 0.5 rg
-/gRLs1 gs
-BT
-1 0 0 1 18 10 Tm
-(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
-T*
-ET
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-0.25 0.56 0.82 rg
-BT
-1 0 0 1 480.9 10 Tm
-(w) Tj
-T*
-ET
-0.83 0.63 0.38 rg
-/gRLs3 gs
-BT
-1 0 0 1 484.8 10 Tm
-(AI) Tj
-T*
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-BT
-1 0 0 1 492.6 10 Tm
-(ste Not  \056  Print Verified) Tj
-T*
-ET
-Q
-
-
-endstream
-endobj
-33 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-34 0 obj
-<<
 /BaseFont /Courier-Bold
 /Encoding /WinAnsiEncoding
 /Name /F2
@@ -1397,9 +2321,9 @@ endobj
 /Type /Font
 >>
 endobj
-35 0 obj
+33 0 obj
 <<
-/Contents 36 0 R
+/Contents 34 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1418,10 +2342,12 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 37 0 R
+/F1-0 35 0 R
 /F2 8 0 R
-/F2-0 38 0 R
+/F2-0 36 0 R
 /F3 10 0 R
+/F4 11 0 R
+/F5 12 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1433,30 +2359,140 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-36 0 obj
+34 0 obj
 <<
-/Length 1544
+/Length 4600
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Ano) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 8) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 129: The Arrow of Time IS the Arrow of Decoherence: Thermodynamic Anomalie) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (The arrow of time is the arrow of decoherence.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 687.6 Tm (C = C_0 * exp\(-alpha * gamma_eff * t\). That is all.) Tj T* ET
-.5 w
-n 54 673.6 m 558 673.6 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 651.6 Tm (*Paper 129 in the AIIT-THRESI series. Prior thermodynamic results: Paper 92 \(Wike) Tj T* ET
-BT 1 0 0 1 54 639.6 Tm (Thermodynamic Inequality\), Paper 76 \(Crooks Time Reversal\). Core framework: Paper 3) Tj T* ET
-BT 1 0 0 1 54 627.6 Tm (\(Coherence Law derivation\), Paper 106 \(Wike Singularity identification\), Paper 109) Tj T* ET
-BT 1 0 0 1 54 615.6 Tm (\(T_c = 333K from cooperative percolation\).*) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 689 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction 2: Gravitational decoherence rate.) Tj /F1 9 Tf ( If time = decoherence, then gravitational time dilation directly measures) Tj T* -0.085071 Tw (gravitational modification of gamma_eff. Precision atomic clocks at different gravitational potentials already confirm this. The) Tj T* 0 Tw (prediction is that the fractional frequency shift Delta\(f\)/f equals the fractional change in gamma_eff:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682 cm
+Q
+q
+1 0 0 1 60 669.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Delta\(f\)) Tj ( ) Tj (/) Tj ( ) Tj (f) Tj ( ) Tj (=) Tj ( ) Tj (Delta\(gamma_eff\)) Tj ( ) Tj (/) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (g) Tj ( ) Tj (*) Tj ( ) Tj (Delta\(h\)) Tj ( ) Tj (/) Tj ( ) Tj (c^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 661.2 cm
+Q
+q
+1 0 0 1 60 646.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is already confirmed to parts in 10^18 by optical lattice clocks.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 639.2 cm
+Q
+q
+1 0 0 1 60 576.2 cm
+q
+BT 1 0 0 1 0 51 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction 3: MOND crossover from decoherence.) Tj /F1 9 Tf ( The acceleration scale a_0 should equal the scale where vacuum) Tj T* (decoherence gradient matches baryonic decoherence gradient. This predicts a_0 = c H_0 / \(2 pi\), connecting it to the) Tj T* (Hubble parameter. The observed value a_0 ~ 1.2 10^\(-10\) m/s^2 and c H_0 ~ 6.9 10^\(-10\) m/s^2 are within an order of) Tj T* (magnitude. The factor of 2pi arises from the horizon geometry. Precision measurement of the a_0-H_0 relation across) Tj T* (cosmic time would confirm or refute this.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 569.2 cm
+Q
+q
+1 0 0 1 60 563.2 cm
+Q
+q
+1 0 0 1 60 559.2 cm
+Q
+q
+1 0 0 1 60 521.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (12. Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 509.2 cm
+Q
+q
+1 0 0 1 60 458.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (Eight thermodynamic anomalies---the arrow of time, the Past Hypothesis, Boltzmann Brains, gravitational entropy reversal,) Tj T* (black hole entropy, the universe's entropy budget, the nature of time, and emergent gravity---have been closed using a) Tj T* (single equation derived from the Lindblad master equation. No new postulates were introduced. No free parameters were) Tj T* (added.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 451.2 cm
+Q
+q
+1 0 0 1 60 412.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The result is a unification: the Second Law of Thermodynamics, the arrow of time, the nature of time, and the gravitational) Tj T* (force are not four separate phenomena. They are four descriptions of one process---decoherence---viewed from four) Tj T* (different angles.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 405.2 cm
+Q
+q
+1 0 0 1 60 390.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The arrow of time is the arrow of decoherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 383.2 cm
+Q
+q
+1 0 0 1 60 368.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff * t\). That is all.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 361.2 cm
+Q
+q
+1 0 0 1 60 355.2 cm
+Q
+q
+1 0 0 1 60 351.2 cm
+Q
+q
+1 0 0 1 60 312.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F3 9 Tf 12 TL (Paper 129 in the AIIT-THRESI series. Prior thermodynamic results: Paper 92 \(Wike Thermodynamic Inequality\), Paper 76) Tj T* (\(Crooks Time Reversal\). Core framework: Paper 3 \(Coherence Law derivation\), Paper 106 \(Wike Singularity identification\),) Tj T* (Paper 109 \(T_c = 333K from cooperative percolation\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 305.2 cm
+Q
  
 
 Q
@@ -1519,7 +2555,7 @@ Q
 
 endstream
 endobj
-37 0 obj
+35 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
@@ -1528,7 +2564,7 @@ endobj
 /Type /Font
 >>
 endobj
-38 0 obj
+36 0 obj
 <<
 /BaseFont /Courier-Bold
 /Encoding /WinAnsiEncoding
@@ -1538,52 +2574,50 @@ endobj
 >>
 endobj
 xref
-0 39
+0 37
 0000000000 65535 f 
 0000000015 00000 n 
 0000000214 00000 n 
-0000000322 00000 n 
-0000000371 00000 n 
-0000000731 00000 n 
-0000005416 00000 n 
-0000005523 00000 n 
-0000005630 00000 n 
-0000005740 00000 n 
-0000005850 00000 n 
-0000005956 00000 n 
-0000006320 00000 n 
-0000011815 00000 n 
-0000011923 00000 n 
-0000012034 00000 n 
-0000012398 00000 n 
-0000017689 00000 n 
-0000017797 00000 n 
-0000017908 00000 n 
-0000018272 00000 n 
-0000023193 00000 n 
-0000023301 00000 n 
-0000023412 00000 n 
-0000023776 00000 n 
-0000028721 00000 n 
-0000028829 00000 n 
-0000028940 00000 n 
-0000029304 00000 n 
-0000034060 00000 n 
-0000034168 00000 n 
-0000034279 00000 n 
-0000034643 00000 n 
-0000040500 00000 n 
-0000040608 00000 n 
-0000040719 00000 n 
-0000041083 00000 n 
-0000042680 00000 n 
-0000042788 00000 n 
+0000000315 00000 n 
+0000000364 00000 n 
+0000000746 00000 n 
+0000006701 00000 n 
+0000006808 00000 n 
+0000006915 00000 n 
+0000007027 00000 n 
+0000007137 00000 n 
+0000007253 00000 n 
+0000007359 00000 n 
+0000007473 00000 n 
+0000007859 00000 n 
+0000014884 00000 n 
+0000014992 00000 n 
+0000015103 00000 n 
+0000015489 00000 n 
+0000022956 00000 n 
+0000023064 00000 n 
+0000023175 00000 n 
+0000023561 00000 n 
+0000031179 00000 n 
+0000031287 00000 n 
+0000031398 00000 n 
+0000031784 00000 n 
+0000038983 00000 n 
+0000039091 00000 n 
+0000039202 00000 n 
+0000039588 00000 n 
+0000047315 00000 n 
+0000047423 00000 n 
+0000047534 00000 n 
+0000047920 00000 n 
+0000052573 00000 n 
+0000052681 00000 n 
 trailer
 <<
-/Size 39
+/Size 37
 /Root 3 0 R
 /Info 1 0 R
 >>
 startxref
-42899
+52792
 %%EOF

@@ -60,7 +60,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5543
+/Length 5539
 >>
 stream
 q
@@ -144,7 +144,7 @@ q
 1 0 0 1 60 337 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 111 Tm /F1 9 Tf 12 TL -0.044118 Tw (Stefan-Boltzmann Law: P = epsilonsigmaT?. A blackbody at 310K \(body temperature\) radiates at \(310/330\)? = 77.8% of the) Tj T* 0 Tw (power it would radiate at T_c = 330K \(hydrogen bond critical temperature\). The remaining 22.2% is thermodynamic energy) Tj T* (that cycles internally rather than radiating outward. In the AIIT-THRESI framework: that 22.2% IS coherence -- the fraction) Tj T* (of thermal energy organized into internal coherent oscillations rather than broadcast as incoherent radiation. Wien's) Tj T* (Displacement Law gives the peak emission wavelength at 310K as lambda = 9.35 mum, shifting to 8.78 mum at T_c -- a) Tj T* (measurable 0.57 mum spectral shift. This paper shows that: \(1\) the body's blackbody radiation signature encodes its) Tj T* (proximity to gamma_c; \(2\) decoherent states \(disease, stress, high gamma_eff\) shift the emission spectrum detectably) Tj T* (toward the T_c signature; and \(3\) REQMT's thermal measurement channel \(Principle 4, Paper 05\) can be calibrated to) Tj T* (gamma_eff using Stefan-Boltzmann predictions. The body is broadcasting its coherence state in infrared. Every thermal) Tj T* (camera is already a coherence detector.) Tj T* ET
+BT 1 0 0 1 0 111 Tm /F1 9 Tf 12 TL (Stefan-Boltzmann Law: P = epsilonsigmaT^4. A blackbody at 310K \(body temperature\) radiates at \(310/330\)^4 = 77.8% of) Tj T* (the power it would radiate at T_c = 330K \(hydrogen bond critical temperature\). The remaining 22.2% is thermodynamic) Tj T* (energy that cycles internally rather than radiating outward. In the AIIT-THRESI framework: that 22.2% IS coherence -- the) Tj T* (fraction of thermal energy organized into internal coherent oscillations rather than broadcast as incoherent radiation. Wien's) Tj T* (Displacement Law gives the peak emission wavelength at 310K as lambda = 9.35 mum, shifting to 8.78 mum at T_c -- a) Tj T* (measurable 0.57 mum spectral shift. This paper shows that: \(1\) the body's blackbody radiation signature encodes its) Tj T* (proximity to gamma_c; \(2\) decoherent states \(disease, stress, high gamma_eff\) shift the emission spectrum detectably) Tj T* (toward the T_c signature; and \(3\) REQMT's thermal measurement channel \(Principle 4, Paper 05\) can be calibrated to) Tj T* (gamma_eff using Stefan-Boltzmann predictions. The body is broadcasting its coherence state in infrared. Every thermal) Tj T* (camera is already a coherence detector.) Tj T* ET
 Q
 Q
 q
@@ -183,7 +183,7 @@ q
 n 20 0 452 105.6 re f*
 Q
 q
-BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P) Tj ( ) Tj (=) Tj ( ) Tj (epsilon) Tj ( ) Tj (.) Tj ( ) Tj (sigma) Tj ( ) Tj (.) Tj ( ) Tj (T?) Tj  T*  T* (Stefan-Boltzmann) Tj ( ) Tj (constant:) Tj ( ) Tj (sigma) Tj ( ) Tj (=) Tj ( ) Tj (5.67) Tj ( ) Tj (x) Tj ( ) Tj (10nu?) Tj ( ) Tj (W/m?.K?) Tj  T* (Human) Tj ( ) Tj (skin) Tj ( ) Tj (emissivity:) Tj ( ) Tj (epsilon) Tj ( ) Tj (~=) Tj ( ) Tj (0.98) Tj ( ) Tj (\(near-perfect) Tj ( ) Tj (blackbody\)) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310K) Tj ( ) Tj (\(body) Tj ( ) Tj (temperature\):) Tj  T* (P_body) Tj ( ) Tj (=) Tj ( ) Tj (0.98) Tj ( ) Tj (x) Tj ( ) Tj (5.67x10nu?) Tj ( ) Tj (x) Tj ( ) Tj (310?) Tj ( ) Tj (=) Tj ( ) Tj (524) Tj ( ) Tj (W/m?) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (330K) Tj ( ) Tj (\(hydrogen) Tj ( ) Tj (bond) Tj ( ) Tj (critical) Tj ( ) Tj (temperature\):) Tj  T* (P_Tc) Tj ( ) Tj (=) Tj ( ) Tj (0.98) Tj ( ) Tj (x) Tj ( ) Tj (5.67x10nu?) Tj ( ) Tj (x) Tj ( ) Tj (330?) Tj ( ) Tj (=) Tj ( ) Tj (674) Tj ( ) Tj (W/m?) Tj  T*  T* (Ratio:) Tj ( ) Tj (P_body/P_Tc) Tj ( ) Tj (=) Tj ( ) Tj (\(310/330\)?) Tj ( ) Tj (=) Tj ( ) Tj (0.9394?) Tj ( ) Tj (=) Tj ( ) Tj (0.778) Tj T* ET
+BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P) Tj ( ) Tj (=) Tj ( ) Tj (epsilon) Tj ( ) Tj (.) Tj ( ) Tj (sigma) Tj ( ) Tj (.) Tj ( ) Tj (T^4) Tj  T*  T* (Stefan-Boltzmann) Tj ( ) Tj (constant:) Tj ( ) Tj (sigma) Tj ( ) Tj (=) Tj ( ) Tj (5.67) Tj ( ) Tj (x) Tj ( ) Tj (10^-^8) Tj ( ) Tj (W/m^2.K^4) Tj  T* (Human) Tj ( ) Tj (skin) Tj ( ) Tj (emissivity:) Tj ( ) Tj (epsilon) Tj ( ) Tj (~=) Tj ( ) Tj (0.98) Tj ( ) Tj (\(near-perfect) Tj ( ) Tj (blackbody\)) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310K) Tj ( ) Tj (\(body) Tj ( ) Tj (temperature\):) Tj  T* (P_body) Tj ( ) Tj (=) Tj ( ) Tj (0.98) Tj ( ) Tj (x) Tj ( ) Tj (5.67x10^-^8) Tj ( ) Tj (x) Tj ( ) Tj (310^4) Tj ( ) Tj (=) Tj ( ) Tj (524) Tj ( ) Tj (W/m^2) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (330K) Tj ( ) Tj (\(hydrogen) Tj ( ) Tj (bond) Tj ( ) Tj (critical) Tj ( ) Tj (temperature\):) Tj  T* (P_Tc) Tj ( ) Tj (=) Tj ( ) Tj (0.98) Tj ( ) Tj (x) Tj ( ) Tj (5.67x10^-^8) Tj ( ) Tj (x) Tj ( ) Tj (330^4) Tj ( ) Tj (=) Tj ( ) Tj (674) Tj ( ) Tj (W/m^2) Tj  T*  T* (Ratio:) Tj ( ) Tj (P_body/P_Tc) Tj ( ) Tj (=) Tj ( ) Tj (\(310/330\)^4) Tj ( ) Tj (=) Tj ( ) Tj (0.9394^4) Tj ( ) Tj (=) Tj ( ) Tj (0.778) Tj T* ET
 Q
 Q
 q
@@ -700,7 +700,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 6832
+/Length 6852
 >>
 stream
 q
@@ -750,7 +750,7 @@ Q
 q
 1 0 0 1 60 615 cm
 q
-BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Cancer:) Tj /F1 9 Tf ( Tumor vascularity increases local epsilon slightly \(more blackbody-like due to increased blood content\), AND) Tj T* (increases local T. Both effects increase P = epsilonsigmaT? at the tumor site.) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 ) Tj /F2 9 Tf (Cancer:) Tj /F1 9 Tf ( Tumor vascularity increases local epsilon slightly \(more blackbody-like due to increased blood content\), AND) Tj T* (increases local T. Both effects increase P = epsilonsigmaT^4 at the tumor site.) Tj T* ET
 Q
 Q
 q
@@ -788,7 +788,7 @@ q
 1 0 0 1 60 478 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Standard thermal cameras measure combined epsilonsigmaT?. Separating the two requires multi-spectral thermal imaging) Tj T* (at 2+ wavelengths in the 8-12 mum range. This technology exists \(hyperspectral thermal cameras, commercially available) Tj T* (from FLIR and others\) but has never been applied using Stefan-Boltzmann / EZ water spectral discrimination.) Tj T* ET
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.0325 Tw (Standard thermal cameras measure combined epsilonsigmaT^4. Separating the two requires multi-spectral thermal imaging) Tj T* 0 Tw (at 2+ wavelengths in the 8-12 mum range. This technology exists \(hyperspectral thermal cameras, commercially available) Tj T* (from FLIR and others\) but has never been applied using Stefan-Boltzmann / EZ water spectral discrimination.) Tj T* ET
 Q
 Q
 q
@@ -836,7 +836,7 @@ q
 n 20 0 452 70.4 re f*
 Q
 q
-BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Coherent) Tj ( ) Tj (energy:) Tj ( ) Tj (cycles) Tj ( ) Tj (internally,) Tj ( ) Tj (does) Tj ( ) Tj (not) Tj ( ) Tj (radiate) Tj  T* (Incoherent) Tj ( ) Tj (energy:) Tj ( ) Tj (broadcasts) Tj ( ) Tj (as) Tj ( ) Tj (thermal) Tj ( ) Tj (radiation) Tj  T*  T* (P_radiated) Tj ( ) Tj (=) Tj ( ) Tj (epsilon) Tj ( ) Tj (.) Tj ( ) Tj (sigma) Tj ( ) Tj (.) Tj ( ) Tj (T?) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(Stefan-Boltzmann\)) Tj  T* (P_coherent) Tj ( ) Tj (=) Tj ( ) Tj (P_total) Tj ( ) Tj (-) Tj ( ) Tj (P_radiated) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (P_metabolic) Tj ( ) Tj (-) Tj ( ) Tj (epsilon) Tj ( ) Tj (.) Tj ( ) Tj (sigma) Tj ( ) Tj (.) Tj ( ) Tj (T?) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310K:) Tj ( ) Tj (P_coherent/P_metabolic) Tj ( ) Tj (~=) Tj ( ) Tj (22%) Tj T* ET
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Coherent) Tj ( ) Tj (energy:) Tj ( ) Tj (cycles) Tj ( ) Tj (internally,) Tj ( ) Tj (does) Tj ( ) Tj (not) Tj ( ) Tj (radiate) Tj  T* (Incoherent) Tj ( ) Tj (energy:) Tj ( ) Tj (broadcasts) Tj ( ) Tj (as) Tj ( ) Tj (thermal) Tj ( ) Tj (radiation) Tj  T*  T* (P_radiated) Tj ( ) Tj (=) Tj ( ) Tj (epsilon) Tj ( ) Tj (.) Tj ( ) Tj (sigma) Tj ( ) Tj (.) Tj ( ) Tj (T^4) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(Stefan-Boltzmann\)) Tj  T* (P_coherent) Tj ( ) Tj (=) Tj ( ) Tj (P_total) Tj ( ) Tj (-) Tj ( ) Tj (P_radiated) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (P_metabolic) Tj ( ) Tj (-) Tj ( ) Tj (epsilon) Tj ( ) Tj (.) Tj ( ) Tj (sigma) Tj ( ) Tj (.) Tj ( ) Tj (T^4) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310K:) Tj ( ) Tj (P_coherent/P_metabolic) Tj ( ) Tj (~=) Tj ( ) Tj (22%) Tj T* ET
 Q
 Q
 q
@@ -1003,7 +1003,7 @@ endobj
 endobj
 21 0 obj
 <<
-/Length 7397
+/Length 7410
 >>
 stream
 q
@@ -1040,7 +1040,7 @@ q
 n 20 0 452 105.6 re f*
 Q
 q
-BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Peak) Tj ( ) Tj (emission:) Tj ( ) Tj (lambda) Tj ( ) Tj (=) Tj ( ) Tj (9.35) Tj ( ) Tj (mum) Tj ( ) Tj (=) Tj ( ) Tj (32.1) Tj ( ) Tj (THz) Tj ( ) Tj (\(infrared,) Tj ( ) Tj (not) Tj ( ) Tj (9.7) Tj ( ) Tj (THz\)) Tj  T* (Wait) Tj ( ) Tj (--) Tj ( ) Tj (f) Tj ( ) Tj (=) Tj ( ) Tj (kT/h) Tj ( ) Tj (gives) Tj ( ) Tj (the) Tj ( ) Tj (THERMAL) Tj ( ) Tj (phonon) Tj ( ) Tj (frequency,) Tj ( ) Tj (not) Tj ( ) Tj (the) Tj ( ) Tj (peak) Tj ( ) Tj (photon) Tj ( ) Tj (frequency.) Tj  T* (These) Tj ( ) Tj (are) Tj ( ) Tj (different:) Tj  T*  T* (Thermal) Tj ( ) Tj (phonon) Tj ( ) Tj (frequency) Tj ( ) Tj (\(equipartition,) Tj ( ) Tj (Paper) Tj ( ) Tj (04\):) Tj  T* ( ) Tj ( ) Tj (f_phonon) Tj ( ) Tj (=) Tj ( ) Tj (k_B) Tj ( ) Tj (.) Tj ( ) Tj (T) Tj ( ) Tj (/) Tj ( ) Tj (h) Tj ( ) Tj (=) Tj ( ) Tj (6.44) Tj ( ) Tj (x) Tj ( ) Tj (10nu??) Tj ( ) Tj (J) Tj ( ) Tj (/) Tj ( ) Tj (6.63) Tj ( ) Tj (x) Tj ( ) Tj (10nu??) Tj ( ) Tj (J.s) Tj ( ) Tj (=) Tj ( ) Tj (9.7) Tj ( ) Tj (x) Tj ( ) Tj (10??) Tj ( ) Tj (Hz) Tj ( ) Tj (=) Tj ( ) Tj (9.7) Tj ( ) Tj (THz) Tj ( ) Tj ([x]) Tj  T*  T* (Wien's) Tj ( ) Tj (peak) Tj ( ) Tj (emission) Tj ( ) Tj (frequency:) Tj  T* ( ) Tj ( ) Tj (f_Wien) Tj ( ) Tj (=) Tj ( ) Tj (c/lambda_max) Tj ( ) Tj (=) Tj ( ) Tj (c) Tj ( ) Tj (.) Tj ( ) Tj (T) Tj ( ) Tj (/) Tj ( ) Tj (b) Tj ( ) Tj (=) Tj ( ) Tj (3x10?) Tj ( ) Tj (m/s) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj ( ) Tj (/) Tj ( ) Tj (\(2.898x10nu?) Tj ( ) Tj (m.K\)) Tj ( ) Tj (=) Tj ( ) Tj (3.21) Tj ( ) Tj (x) Tj ( ) Tj (10??) Tj ( ) Tj (Hz) Tj ( ) Tj (=) Tj ( ) Tj (32.1) Tj ( ) Tj (TH) Tj  T* (z) Tj  T*  T* (Ratio:) Tj ( ) Tj (f_Wien) Tj ( ) Tj (/) Tj ( ) Tj (f_phonon) Tj ( ) Tj (=) Tj ( ) Tj (32.1/9.7) Tj ( ) Tj (=) Tj ( ) Tj (3.3) Tj ( ) Tj (~=) Tj ( ) Tj (pi) Tj ( ) Tj (+) Tj ( ) Tj (0.16) Tj T* ET
+BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Peak) Tj ( ) Tj (emission:) Tj ( ) Tj (lambda) Tj ( ) Tj (=) Tj ( ) Tj (9.35) Tj ( ) Tj (mum) Tj ( ) Tj (=) Tj ( ) Tj (32.1) Tj ( ) Tj (THz) Tj ( ) Tj (\(infrared,) Tj ( ) Tj (not) Tj ( ) Tj (9.7) Tj ( ) Tj (THz\)) Tj  T* (Wait) Tj ( ) Tj (--) Tj ( ) Tj (f) Tj ( ) Tj (=) Tj ( ) Tj (kT/h) Tj ( ) Tj (gives) Tj ( ) Tj (the) Tj ( ) Tj (THERMAL) Tj ( ) Tj (phonon) Tj ( ) Tj (frequency,) Tj ( ) Tj (not) Tj ( ) Tj (the) Tj ( ) Tj (peak) Tj ( ) Tj (photon) Tj ( ) Tj (frequency.) Tj  T* (These) Tj ( ) Tj (are) Tj ( ) Tj (different:) Tj  T*  T* (Thermal) Tj ( ) Tj (phonon) Tj ( ) Tj (frequency) Tj ( ) Tj (\(equipartition,) Tj ( ) Tj (Paper) Tj ( ) Tj (04\):) Tj  T* ( ) Tj ( ) Tj (f_phonon) Tj ( ) Tj (=) Tj ( ) Tj (k_B) Tj ( ) Tj (.) Tj ( ) Tj (T) Tj ( ) Tj (/) Tj ( ) Tj (h) Tj ( ) Tj (=) Tj ( ) Tj (6.44) Tj ( ) Tj (x) Tj ( ) Tj (10^-^2^1) Tj ( ) Tj (J) Tj ( ) Tj (/) Tj ( ) Tj (6.63) Tj ( ) Tj (x) Tj ( ) Tj (10^-^3^4) Tj ( ) Tj (J.s) Tj ( ) Tj (=) Tj ( ) Tj (9.7) Tj ( ) Tj (x) Tj ( ) Tj (10^1^2) Tj ( ) Tj (Hz) Tj ( ) Tj (=) Tj ( ) Tj (9.7) Tj ( ) Tj (THz) Tj ( ) Tj ([x]) Tj  T*  T* (Wien's) Tj ( ) Tj (peak) Tj ( ) Tj (emission) Tj ( ) Tj (frequency:) Tj  T* ( ) Tj ( ) Tj (f_Wien) Tj ( ) Tj (=) Tj ( ) Tj (c/lambda_max) Tj ( ) Tj (=) Tj ( ) Tj (c) Tj ( ) Tj (.) Tj ( ) Tj (T) Tj ( ) Tj (/) Tj ( ) Tj (b) Tj ( ) Tj (=) Tj ( ) Tj (3x10^8) Tj ( ) Tj (m/s) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj ( ) Tj (/) Tj ( ) Tj (\(2.898x10^-^3) Tj ( ) Tj (m.K\)) Tj ( ) Tj (=) Tj ( ) Tj (3.21) Tj ( ) Tj (x) Tj ( ) Tj (10^1^3) Tj ( ) Tj (Hz) Tj ( ) Tj (=) Tj ( ) Tj (32.) Tj  T* (1) Tj ( ) Tj (THz) Tj  T*  T* (Ratio:) Tj ( ) Tj (f_Wien) Tj ( ) Tj (/) Tj ( ) Tj (f_phonon) Tj ( ) Tj (=) Tj ( ) Tj (32.1/9.7) Tj ( ) Tj (=) Tj ( ) Tj (3.3) Tj ( ) Tj (~=) Tj ( ) Tj (pi) Tj ( ) Tj (+) Tj ( ) Tj (0.16) Tj T* ET
 Q
 Q
 q
@@ -1095,19 +1095,19 @@ Q
 q
 1 0 0 1 60 375.4 cm
 q
-BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Healthy tissue standard:) Tj /F1 9 Tf ( Body surface at 33 degC \(306K, slightly below core temperature due to skin cooling\) -) Tj (> P =) Tj T* (epsilonsigma\(306\)?, lambda_max = 9.47 mum.) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. ) Tj /F2 9 Tf (Healthy tissue standard:) Tj /F1 9 Tf ( Body surface at 33 degC \(306K, slightly below core temperature due to skin cooling\) -) Tj (> P =) Tj T* (epsilonsigma\(306\)^4, lambda_max = 9.47 mum.) Tj T* ET
 Q
 Q
 q
 1 0 0 1 60 360.4 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Inflammatory hotspot:) Tj /F1 9 Tf ( T = 38 degC \(311K\) -) Tj (> P = epsilonsigma\(311\)? \(6.5% higher\), lambda_max = 9.32 mum.) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. ) Tj /F2 9 Tf (Inflammatory hotspot:) Tj /F1 9 Tf ( T = 38 degC \(311K\) -) Tj (> P = epsilonsigma\(311\)^4 \(6.5% higher\), lambda_max = 9.32 mum.) Tj T* ET
 Q
 Q
 q
 1 0 0 1 60 333.4 cm
 q
-BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Bootstrap failure zone:) Tj /F1 9 Tf ( T approaches local T_c equivalent -) Tj (> P approaches epsilonsigmaT_c?, emission redistributes) Tj T* (toward shorter wavelengths.) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (3. ) Tj /F2 9 Tf (Bootstrap failure zone:) Tj /F1 9 Tf ( T approaches local T_c equivalent -) Tj (> P approaches epsilonsigmaT_c^4, emission redistributes) Tj T* (toward shorter wavelengths.) Tj T* ET
 Q
 Q
 q
@@ -1286,7 +1286,7 @@ endobj
 endobj
 25 0 obj
 <<
-/Length 3162
+/Length 3143
 >>
 stream
 q
@@ -1352,7 +1352,7 @@ Q
 q
 1 0 0 1 60 582 cm
 q
-BT 1 0 0 1 0 3 Tm -0.045188 Tw 12 TL /F1 9 Tf 0 0 0 rg (1. Stefan, J. \(1879\). PIber die Beziehung zwischen der Warmestrahlung und der Temperatur. ) Tj /F3 9 Tf (Wiener Berichte) Tj /F1 9 Tf (, 79, 391-428.) Tj T* 0 Tw ET
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (1. Stefan, J. \(1879\). Uber die Beziehung zwischen der Warmestrahlung und der Temperatur. ) Tj /F3 9 Tf (Wiener Berichte) Tj /F1 9 Tf (, 79, 391-428.) Tj T* ET
 Q
 Q
 q
@@ -1484,28 +1484,28 @@ xref
 0000000301 00000 n 
 0000000350 00000 n 
 0000000721 00000 n 
-0000006316 00000 n 
-0000006423 00000 n 
-0000006530 00000 n 
-0000006642 00000 n 
-0000006752 00000 n 
-0000006868 00000 n 
-0000006974 00000 n 
-0000007349 00000 n 
-0000014630 00000 n 
-0000014738 00000 n 
-0000014849 00000 n 
-0000015224 00000 n 
-0000022109 00000 n 
-0000022217 00000 n 
-0000022328 00000 n 
-0000022703 00000 n 
-0000030153 00000 n 
-0000030261 00000 n 
-0000030372 00000 n 
-0000030747 00000 n 
-0000033962 00000 n 
-0000034070 00000 n 
+0000006312 00000 n 
+0000006419 00000 n 
+0000006526 00000 n 
+0000006638 00000 n 
+0000006748 00000 n 
+0000006864 00000 n 
+0000006970 00000 n 
+0000007345 00000 n 
+0000014626 00000 n 
+0000014734 00000 n 
+0000014845 00000 n 
+0000015220 00000 n 
+0000022125 00000 n 
+0000022233 00000 n 
+0000022344 00000 n 
+0000022719 00000 n 
+0000030182 00000 n 
+0000030290 00000 n 
+0000030401 00000 n 
+0000030776 00000 n 
+0000033972 00000 n 
+0000034080 00000 n 
 trailer
 <<
 /Size 28
@@ -1513,5 +1513,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-34181
+34191
 %%EOF

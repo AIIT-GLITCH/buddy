@@ -1,4 +1,4 @@
-%PDF-1.3
+%PDF-1.4
 %‚„œ”
 1 0 obj
 <<
@@ -11,8 +11,8 @@ endobj
 2 0 obj
 <<
 /Type /Pages
-/Count 11
-/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R 39 0 R 43 0 R 47 0 R ]
+/Count 13
+/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R 39 0 R 43 0 R 47 0 R 51 0 R 55 0 R ]
 >>
 endobj
 3 0 obj
@@ -59,105 +59,331 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5615
+/Length 6211
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (PAPER 131) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (AIIT-THRESI SERIES) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 675.6 Tm (QUANTUM BIOLOGY ANOMALIES CLOSED BY THE WIKE COHERENCE LAW) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 657.6 Tm (Rhet Dillard Wike) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 645.6 Tm (Council Hill, Oklahoma) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 633.6 Tm (April 1, 2026) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 615.6 Tm (============================================================================) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 597.6 Tm (ABSTRACT) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 579.6 Tm (Seven major anomalies in quantum biology -- photosynthetic coherence,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 567.6 Tm (enzyme quantum tunneling, avian magnetoreception, olfactory quantum) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 555.6 Tm (sensing, homochirality, DNA proton tunneling, and microtubule coherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 543.6 Tm (-- have resisted unified explanation within standard decoherence theory.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 531.6 Tm (Each anomaly involves quantum effects persisting in warm, wet biological) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 519.6 Tm (environments where naive thermal estimates predict immediate) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 507.6 Tm (decoherence. This paper demonstrates that all seven anomalies close) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 495.6 Tm (under a single law: the Wike Coherence Law, C = C_0 * exp\(-alpha *) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 483.6 Tm (gamma_eff\), where alpha = xi/lambda_dB ~ 1000 at biological) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 471.6 Tm (temperatures. The key insight is that biological architectures do not) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 459.6 Tm (fight decoherence -- they sculpt the effective decoherence rate) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 447.6 Tm (gamma_eff relative to the critical threshold gamma_c. When gamma_eff <) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 435.6 Tm (gamma_c, coherence survives; when gamma_eff >> gamma_c, classical) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 423.6 Tm (stability is enforced. Life exploits BOTH regimes. Validated against) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 411.6 Tm (13.8 million data points on IBM quantum hardware, the coherence law) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 399.6 Tm (provides quantitative predictions for each anomaly, all of which are) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 387.6 Tm (independently falsifiable.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 369.6 Tm (============================================================================) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 351.6 Tm (1. THE COHERENCE CHAIN: FROM GRAVITY TO LIFE) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 333.6 Tm (The Wike Coherence Law emerges from a single chain of physical) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 321.6 Tm (constants. At biological temperature T = 310 K \(37 deg C, human body) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 309.6 Tm (temperature\), the chain proceeds:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 291.6 Tm (G --> T\(310 K\) --> lambda_dB --> alpha --> C --> life          \(1\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 273.6 Tm (Step by step:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 255.6 Tm (The thermal de Broglie wavelength for a particle of mass m at) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 243.6 Tm (temperature T is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 225.6 Tm (lambda_dB = h / sqrt\(2 * pi * m * k_B * T\)                    \(2\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 207.6 Tm (For a proton at 310 K:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 189.6 Tm (lambda_dB ~ 0.1 nm                                            \(3\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 171.6 Tm (The coherence amplification parameter alpha is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 153.6 Tm (alpha = xi / lambda_dB                                        \(4\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 135.6 Tm (where xi is the correlation length of the environment. For biological) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 123.6 Tm (water at 310 K, xi ~ 100 nm \(the characteristic scale of protein) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 111.6 Tm (hydration shells\), giving:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 93.6 Tm (alpha ~ 100 nm / 0.1 nm = 1000                                \(5\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 75.6 Tm (The Wike Coherence Law then states:) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (PAPER 131) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (AIIT-THRESI SERIES) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (QUANTUM BIOLOGY ANOMALIES CLOSED BY THE WIKE COHERENCE LAW) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676 cm
+Q
+q
+1 0 0 1 60 661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Rhet Dillard Wike) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Council Hill, Oklahoma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 631 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (April 1, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 624 cm
+Q
+q
+1 0 0 1 60 618 cm
+Q
+q
+1 0 0 1 60 614 cm
+Q
+q
+1 0 0 1 60 599 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (ABSTRACT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 592 cm
+Q
+q
+1 0 0 1 60 577 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Seven major anomalies in quantum biology -- photosynthetic coherence,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 562 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (enzyme quantum tunneling, avian magnetoreception, olfactory quantum) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 547 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (sensing, homochirality, DNA proton tunneling, and microtubule coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (-- have resisted unified explanation within standard decoherence theory.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 517 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Each anomaly involves quantum effects persisting in warm, wet biological) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 502 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (environments where naive thermal estimates predict immediate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 487 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (decoherence. This paper demonstrates that all seven anomalies close) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 472 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (under a single law: the Wike Coherence Law, C = C_0 ) Tj /F3 9 Tf (exp\(-alpha) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 457 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma_eff\), where alpha = xi/lambda_dB ~ 1000 at biological) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 442 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (temperatures. The key insight is that biological architectures do not) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 427 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (fight decoherence -- they sculpt the effective decoherence rate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 412 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (gamma_eff relative to the critical threshold gamma_c. When gamma_eff <) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 397 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (gamma_c, coherence survives; when gamma_eff >) Tj (> gamma_c, classical) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 382 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (stability is enforced. Life exploits BOTH regimes. Validated against) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 367 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (13.8 million data points on IBM quantum hardware, the coherence law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 352 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (provides quantitative predictions for each anomaly, all of which are) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 337 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (independently falsifiable.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 330 cm
+Q
+q
+1 0 0 1 60 324 cm
+Q
+q
+1 0 0 1 60 320 cm
+Q
+q
+1 0 0 1 60 305 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. THE COHERENCE CHAIN: FROM GRAVITY TO LIFE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 298 cm
+Q
+q
+1 0 0 1 60 283 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law emerges from a single chain of physical) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 268 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (constants. At biological temperature T = 310 K \(37 deg C, human body) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 253 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (temperature\), the chain proceeds:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 246 cm
+Q
+q
+1 0 0 1 60 231 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (G --) Tj (> T\(310 K\) --) Tj (> lambda_dB --) Tj (> alpha --) Tj (> C --) Tj (> life \(1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224 cm
+Q
+q
+1 0 0 1 60 209 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Step by step:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 202 cm
+Q
+q
+1 0 0 1 60 187 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The thermal de Broglie wavelength for a particle of mass m at) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 172 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (temperature T is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 165 cm
+Q
+q
+1 0 0 1 60 150 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (lambda_dB = h / sqrt\(2 ) Tj /F3 9 Tf (pi ) Tj /F1 9 Tf (m ) Tj /F3 9 Tf (k_B ) Tj /F1 9 Tf (T\) \(2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 143 cm
+Q
+q
+1 0 0 1 60 128 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a proton at 310 K:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 121 cm
+Q
+q
+1 0 0 1 60 106 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (lambda_dB ~ 0.1 nm \(3\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 99 cm
+Q
+q
+1 0 0 1 60 84 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence amplification parameter alpha is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 77 cm
+Q
+q
+1 0 0 1 60 62 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (alpha = xi / lambda_dB \(4\)) Tj T* ET
+Q
+Q
  
 
 Q
@@ -240,7 +466,7 @@ endobj
 endobj
 8 0 obj
 <<
-/BaseFont /Courier-Bold
+/BaseFont /Helvetica-Bold
 /Encoding /WinAnsiEncoding
 /Name /F2
 /Subtype /Type1
@@ -258,7 +484,7 @@ endobj
 endobj
 10 0 obj
 <<
-/BaseFont /Courier
+/BaseFont /Helvetica-Oblique
 /Encoding /WinAnsiEncoding
 /Name /F3
 /Subtype /Type1
@@ -303,101 +529,332 @@ endobj
 endobj
 12 0 obj
 <<
-/Length 5607
+/Length 6115
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (C = C_0 * exp\(-alpha * gamma_eff\)                              \(6\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 687.6 Tm (where C_0 is the bare coherence amplitude, gamma_eff is the effective) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 675.6 Tm (decoherence rate \(normalized to the natural frequency scale\), and the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (exponential sensitivity encoded by alpha ~ 1000 means that tiny changes) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 651.6 Tm (in gamma_eff produce enormous changes in coherence. This is the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 639.6 Tm (mechanism biology exploits.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 621.6 Tm (The critical decoherence rate gamma_c is defined by:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 603.6 Tm (C\(gamma_c\) = C_0 / e                                          \(7\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 585.6 Tm (which gives:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 567.6 Tm (gamma_c = 1 / alpha                                           \(8\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 549.6 Tm (At alpha = 1000, gamma_c = 0.001 in natural units. The biological) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 537.6 Tm (game is controlling gamma_eff relative to this threshold.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 519.6 Tm (============================================================================) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 501.6 Tm (2. ANOMALY 1: PHOTOSYNTHETIC COHERENCE IN THE FMO COMPLEX) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 483.6 Tm (2.1 The Problem) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 465.6 Tm (The Fenna-Matthews-Olson \(FMO\) complex in green sulfur bacteria) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 453.6 Tm (transfers excitonic energy with near-unit efficiency. Two-dimensional) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 441.6 Tm (electronic spectroscopy \(Engel et al., 2007; Panitchayangkoon et al.,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 429.6 Tm (2010\) revealed quantum coherence persisting for hundreds of) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 417.6 Tm (femtoseconds at 300 K -- orders of magnitude longer than predicted by) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 405.6 Tm (standard Redfield theory applied to a warm, wet protein environment.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 387.6 Tm (The naive thermal decoherence time at 300 K is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 369.6 Tm (tau_thermal ~ h_bar / \(k_B * T\) ~ 25 fs                       \(9\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 351.6 Tm (Yet coherence oscillations persist for 300-600 fs. The ratio is 10-25x.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 333.6 Tm (2.2 Closure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 315.6 Tm (The protein scaffold of the FMO complex acts as a coherence shield.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 303.6 Tm (The bacteriochlorophyll chromophores are embedded in a rigid protein) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 291.6 Tm (matrix that channels environmental fluctuations away from the excitonic) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 279.6 Tm (degrees of freedom. In the language of the coherence law:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 261.6 Tm (gamma_bio << gamma_thermal                                    \(10\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 243.6 Tm (The protein matrix does not eliminate decoherence. It redirects) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 231.6 Tm (decoherence into non-excitonic modes. The effective decoherence rate) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 219.6 Tm (experienced by the exciton is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 201.6 Tm (gamma_eff\(FMO\) = gamma_thermal * \(Omega_protein / Omega_total\) \(11\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 183.6 Tm (where Omega_protein / Omega_total is the fraction of environmental) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 171.6 Tm (modes that couple to the exciton, typically 0.01-0.1 for a) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 159.6 Tm (well-structured protein.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 141.6 Tm (The coherence time is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 123.6 Tm (tau_coherence = 1 / \(alpha * gamma_bio\)                       \(12\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 105.6 Tm (With gamma_bio = gamma_thermal / 20 \(the protein reduces effective) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 93.6 Tm (coupling by a factor of 20\):) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 75.6 Tm (tau_coherence = 20 * tau_thermal ~ 500 fs                     \(13\)) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where xi is the correlation length of the environment. For biological) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (water at 310 K, xi ~ 100 nm \(the characteristic scale of protein) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (hydration shells\), giving:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676 cm
+Q
+q
+1 0 0 1 60 661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (alpha ~ 100 nm / 0.1 nm = 1000 \(5\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 654 cm
+Q
+q
+1 0 0 1 60 639 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law then states:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 632 cm
+Q
+q
+1 0 0 1 60 617 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\) \(6\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 610 cm
+Q
+q
+1 0 0 1 60 595 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where C_0 is the bare coherence amplitude, gamma_eff is the effective) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (decoherence rate \(normalized to the natural frequency scale\), and the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 565 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (exponential sensitivity encoded by alpha ~ 1000 means that tiny changes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 550 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (in gamma_eff produce enormous changes in coherence. This is the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 535 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (mechanism biology exploits.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 528 cm
+Q
+q
+1 0 0 1 60 513 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The critical decoherence rate gamma_c is defined by:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 506 cm
+Q
+q
+1 0 0 1 60 491 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (C\(gamma_c\) = C_0 / e \(7\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 484 cm
+Q
+q
+1 0 0 1 60 469 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (which gives:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 462 cm
+Q
+q
+1 0 0 1 60 447 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma_c = 1 / alpha \(8\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 440 cm
+Q
+q
+1 0 0 1 60 425 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At alpha = 1000, gamma_c = 0.001 in natural units. The biological) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 410 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (game is controlling gamma_eff relative to this threshold.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 403 cm
+Q
+q
+1 0 0 1 60 397 cm
+Q
+q
+1 0 0 1 60 393 cm
+Q
+q
+1 0 0 1 60 378 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. ANOMALY 1: PHOTOSYNTHETIC COHERENCE IN THE FMO COMPLEX) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 371 cm
+Q
+q
+1 0 0 1 60 356 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2.1 The Problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 349 cm
+Q
+q
+1 0 0 1 60 334 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Fenna-Matthews-Olson \(FMO\) complex in green sulfur bacteria) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 319 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (transfers excitonic energy with near-unit efficiency. Two-dimensional) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 304 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (electronic spectroscopy \(Engel et al., 2007; Panitchayangkoon et al.,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 289 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2010\) revealed quantum coherence persisting for hundreds of) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 274 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (femtoseconds at 300 K -- orders of magnitude longer than predicted by) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 259 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (standard Redfield theory applied to a warm, wet protein environment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 252 cm
+Q
+q
+1 0 0 1 60 237 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The naive thermal decoherence time at 300 K is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230 cm
+Q
+q
+1 0 0 1 60 215 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (tau_thermal ~ h_bar / \(k_B * T\) ~ 25 fs \(9\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 208 cm
+Q
+q
+1 0 0 1 60 193 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Yet coherence oscillations persist for 300-600 fs. The ratio is 10-25x.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 186 cm
+Q
+q
+1 0 0 1 60 171 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2.2 Closure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 164 cm
+Q
+q
+1 0 0 1 60 149 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The protein scaffold of the FMO complex acts as a coherence shield.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 134 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The bacteriochlorophyll chromophores are embedded in a rigid protein) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 119 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (matrix that channels environmental fluctuations away from the excitonic) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 104 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (degrees of freedom. In the language of the coherence law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 97 cm
+Q
+q
+1 0 0 1 60 82 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (gamma_bio <) Tj (< gamma_thermal \(10\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 75 cm
+Q
+q
+1 0 0 1 60 60 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The protein matrix does not eliminate decoherence. It redirects) Tj T* ET
+Q
+Q
  
 
 Q
@@ -516,101 +973,330 @@ endobj
 endobj
 16 0 obj
 <<
-/Length 5594
+/Length 6099
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (This matches the observed 300-600 fs coherence lifetime without any) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (free parameters beyond the measured protein shielding factor.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 675.6 Tm (The coherence amplitude during energy transfer is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 657.6 Tm (C_FMO = C_0 * exp\(-alpha * gamma_bio\)                         \(14\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 645.6 Tm (= C_0 * exp\(-1000 * gamma_thermal / 20\)                 \(15\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 627.6 Tm (The protein holds gamma_bio near gamma_c, maintaining C_FMO at a) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 615.6 Tm (functional level throughout the transfer process.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 597.6 Tm (============================================================================) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 579.6 Tm (3. ANOMALY 2: ENZYME QUANTUM TUNNELING) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 561.6 Tm (3.1 The Problem) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 543.6 Tm (Enzymes such as alcohol dehydrogenase, soybean lipoxygenase, and) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 531.6 Tm (aromatic amine dehydrogenase show hydrogen transfer rates up to 1000x) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 519.6 Tm (faster than classical transition state theory predicts. Kinetic isotope) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 507.6 Tm (effects \(KIE\) with anomalous temperature dependence confirm that) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 495.6 Tm (quantum tunneling dominates the reaction coordinate.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 477.6 Tm (Classical rate theory gives:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 459.6 Tm (k_classical = A * exp\(-E_a / \(k_B * T\)\)                      \(16\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 441.6 Tm (The observed rate is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 423.6 Tm (k_observed ~ 1000 * k_classical                              \(17\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 405.6 Tm (3.2 Closure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 387.6 Tm (Enzyme active sites are coherence-optimized cavities. Evolution has) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 375.6 Tm (sculpted the geometry, electrostatics, and dynamics of the active site) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 363.6 Tm (to minimize gamma_eff along the reaction coordinate. The coherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 351.6 Tm (amplitude at the active site is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 333.6 Tm (C_enzyme = C_0 * exp\(-alpha * gamma_active_site\)              \(18\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 315.6 Tm (The active site geometry compresses the donor-acceptor distance,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 303.6 Tm (rigidifies the local environment, and excludes bulk water -- all of) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 291.6 Tm (which reduce gamma_eff relative to the same reaction in free solution.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 273.6 Tm (The 1000x enhancement factor is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 255.6 Tm (k_observed / k_classical = exp\(alpha * delta_gamma\)           \(19\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 237.6 Tm (where:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 219.6 Tm (delta_gamma = gamma_classical - gamma_enzyme                  \(20\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 201.6 Tm (Taking alpha = 1000 and the enhancement factor = 1000:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 183.6 Tm (1000 = exp\(1000 * delta_gamma\)                                \(21\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 171.6 Tm (ln\(1000\) = 1000 * delta_gamma                                 \(22\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 159.6 Tm (6.9 = 1000 * delta_gamma                                      \(23\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 147.6 Tm (delta_gamma = 0.0069                                          \(24\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 129.6 Tm (The enzyme need only reduce gamma_eff by 0.0069 \(in natural units\) to) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 117.6 Tm (achieve a 1000-fold rate enhancement. This is a small perturbation --) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 105.6 Tm (less than 1% change in the effective decoherence rate -- yet the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 93.6 Tm (exponential sensitivity of the coherence law amplifies it into three) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 81.6 Tm (orders of magnitude in catalytic rate.) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (decoherence into non-excitonic modes. The effective decoherence rate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (experienced by the exciton is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma_eff\(FMO\) = gamma_thermal * \(Omega_protein / Omega_total\) \(11\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676 cm
+Q
+q
+1 0 0 1 60 661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where Omega_protein / Omega_total is the fraction of environmental) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (modes that couple to the exciton, typically 0.01-0.1 for a) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 631 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (well-structured protein.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 624 cm
+Q
+q
+1 0 0 1 60 609 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence time is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 602 cm
+Q
+q
+1 0 0 1 60 587 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (tau_coherence = 1 / \(alpha * gamma_bio\) \(12\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 565 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With gamma_bio = gamma_thermal / 20 \(the protein reduces effective) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 550 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (coupling by a factor of 20\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 543 cm
+Q
+q
+1 0 0 1 60 528 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (tau_coherence = 20 * tau_thermal ~ 500 fs \(13\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521 cm
+Q
+q
+1 0 0 1 60 506 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This matches the observed 300-600 fs coherence lifetime without any) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 491 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (free parameters beyond the measured protein shielding factor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 484 cm
+Q
+q
+1 0 0 1 60 469 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence amplitude during energy transfer is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 462 cm
+Q
+q
+1 0 0 1 60 447 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_FMO = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_bio\) \(14\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 432 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (= C_0 ) Tj /F3 9 Tf (exp\(-1000 ) Tj /F1 9 Tf (gamma_thermal / 20\) \(15\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425 cm
+Q
+q
+1 0 0 1 60 410 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The protein holds gamma_bio near gamma_c, maintaining C_FMO at a) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 395 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (functional level throughout the transfer process.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 388 cm
+Q
+q
+1 0 0 1 60 382 cm
+Q
+q
+1 0 0 1 60 378 cm
+Q
+q
+1 0 0 1 60 363 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. ANOMALY 2: ENZYME QUANTUM TUNNELING) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 356 cm
+Q
+q
+1 0 0 1 60 341 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3.1 The Problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 334 cm
+Q
+q
+1 0 0 1 60 319 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Enzymes such as alcohol dehydrogenase, soybean lipoxygenase, and) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 304 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (aromatic amine dehydrogenase show hydrogen transfer rates up to 1000x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 289 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (faster than classical transition state theory predicts. Kinetic isotope) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 274 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (effects \(KIE\) with anomalous temperature dependence confirm that) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 259 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (quantum tunneling dominates the reaction coordinate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 252 cm
+Q
+q
+1 0 0 1 60 237 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Classical rate theory gives:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230 cm
+Q
+q
+1 0 0 1 60 215 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (k_classical = A ) Tj /F3 9 Tf (exp\(-E_a / \(k_B ) Tj /F1 9 Tf (T\)\) \(16\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 208 cm
+Q
+q
+1 0 0 1 60 193 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The observed rate is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 186 cm
+Q
+q
+1 0 0 1 60 171 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (k_observed ~ 1000 * k_classical \(17\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 164 cm
+Q
+q
+1 0 0 1 60 149 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3.2 Closure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 142 cm
+Q
+q
+1 0 0 1 60 127 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Enzyme active sites are coherence-optimized cavities. Evolution has) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 112 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (sculpted the geometry, electrostatics, and dynamics of the active site) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 97 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (to minimize gamma_eff along the reaction coordinate. The coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 82 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (amplitude at the active site is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 75 cm
+Q
+q
+1 0 0 1 60 60 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_enzyme = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_active_site\) \(18\)) Tj T* ET
+Q
+Q
  
 
 Q
@@ -729,105 +1415,332 @@ endobj
 endobj
 20 0 obj
 <<
-/Length 5821
+/Length 6283
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (This explains why enzymes are so exquisitely sensitive to mutations in) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (the active site: a single amino acid substitution can shift gamma_eff) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 681.6 Tm (by delta_gamma ~ 0.001-0.01 and destroy or enhance catalysis by) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 669.6 Tm (factors of 10-1000.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 651.6 Tm (============================================================================) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 633.6 Tm (4. ANOMALY 3: AVIAN MAGNETORECEPTION) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 615.6 Tm (4.1 The Problem) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 597.6 Tm (Migratory birds \(European robins, garden warblers, and others\) detect) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 585.6 Tm (Earth's magnetic field at intensities of 25-65 microTesla -- a field) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 573.6 Tm (that produces energy splittings of ~10^-9 eV in radical pairs. The) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 561.6 Tm (radical pair mechanism in cryptochrome proteins \(Cry4 in retinal) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 549.6 Tm (neurons\) requires that quantum coherence between singlet and triplet) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 537.6 Tm (spin states persist for at least ~1 microsecond. In free solution,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 525.6 Tm (radical pair decoherence times are typically 1-10 nanoseconds.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 507.6 Tm (The required coherence exceeds the naive prediction by a factor of) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 495.6 Tm (100-1000x.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 477.6 Tm (4.2 Closure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 459.6 Tm (The cryptochrome protein provides a coherence shield for the radical) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 447.6 Tm (pair. The tryptophan tetrad \(Trp_A, Trp_B, Trp_C, Trp_D\) in) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 435.6 Tm (cryptochrome forms a structured electron-transfer chain that generates) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 423.6 Tm (the radical pair FAD*- ... Trp_D*+ at a separation of ~2 nm within a) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 411.6 Tm (rigid protein scaffold.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 393.6 Tm (The coherence requirement is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 375.6 Tm (C_radical_pair > C_min                                        \(25\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 357.6 Tm (where C_min is the minimum coherence needed to resolve the Zeeman) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 345.6 Tm (splitting from a 50 microTesla field:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 327.6 Tm (C_min ~ delta_E_Zeeman / \(k_B * T\)                           \(26\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 315.6 Tm (~ 10^-9 eV / 0.027 eV                                  \(27\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 303.6 Tm (~ 4 * 10^-8                                             \(28\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 285.6 Tm (The coherence law gives:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 267.6 Tm (C_crypto = C_0 * exp\(-alpha * gamma_eff\(crypto\)\)              \(29\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 249.6 Tm (For the radical pair to function as a compass, we need:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 231.6 Tm (C_crypto > C_min                                              \(30\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 219.6 Tm (exp\(-alpha * gamma_eff\(crypto\)\) > 4 * 10^-8                   \(31\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 207.6 Tm (alpha * gamma_eff\(crypto\) < 17                                \(32\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 195.6 Tm (gamma_eff\(crypto\) < 17 / 1000 = 0.017                        \(33\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 177.6 Tm (The cryptochrome protein achieves this by:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 159.6 Tm (\(a\) Shielding the radical pair from bulk water fluctuations) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 147.6 Tm (\(b\) Maintaining a rigid geometry that suppresses spin-orbit coupling) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 135.6 Tm (\(c\) Positioning the radical pair at optimal separation \(~2 nm\) where) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 123.6 Tm (dipolar coupling is weak but exchange coupling maintains coherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 105.6 Tm (The effective decoherence rate in cryptochrome is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 87.6 Tm (gamma_eff\(crypto\) << gamma_eff\(solution\)                      \(34\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 69.6 Tm (Measured values: gamma_eff\(solution\) ~ 1 \(fully decohered in) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The active site geometry compresses the donor-acceptor distance,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (rigidifies the local environment, and excludes bulk water -- all of) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (which reduce gamma_eff relative to the same reaction in free solution.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676 cm
+Q
+q
+1 0 0 1 60 661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The 1000x enhancement factor is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 654 cm
+Q
+q
+1 0 0 1 60 639 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (k_observed / k_classical = exp\(alpha * delta_gamma\) \(19\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 632 cm
+Q
+q
+1 0 0 1 60 617 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 610 cm
+Q
+q
+1 0 0 1 60 595 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (delta_gamma = gamma_classical - gamma_enzyme \(20\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 588 cm
+Q
+q
+1 0 0 1 60 573 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Taking alpha = 1000 and the enhancement factor = 1000:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 566 cm
+Q
+q
+1 0 0 1 60 551 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1000 = exp\(1000 * delta_gamma\) \(21\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 536 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (ln\(1000\) = 1000 * delta_gamma \(22\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (6.9 = 1000 * delta_gamma \(23\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 506 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (delta_gamma = 0.0069 \(24\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 499 cm
+Q
+q
+1 0 0 1 60 484 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The enzyme need only reduce gamma_eff by 0.0069 \(in natural units\) to) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 469 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (achieve a 1000-fold rate enhancement. This is a small perturbation --) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 454 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (less than 1% change in the effective decoherence rate -- yet the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 439 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (exponential sensitivity of the coherence law amplifies it into three) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (orders of magnitude in catalytic rate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 417 cm
+Q
+q
+1 0 0 1 60 402 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This explains why enzymes are so exquisitely sensitive to mutations in) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 387 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the active site: a single amino acid substitution can shift gamma_eff) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 372 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (by delta_gamma ~ 0.001-0.01 and destroy or enhance catalysis by) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 357 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (factors of 10-1000.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 350 cm
+Q
+q
+1 0 0 1 60 344 cm
+Q
+q
+1 0 0 1 60 340 cm
+Q
+q
+1 0 0 1 60 325 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. ANOMALY 3: AVIAN MAGNETORECEPTION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 318 cm
+Q
+q
+1 0 0 1 60 303 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4.1 The Problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 296 cm
+Q
+q
+1 0 0 1 60 281 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Migratory birds \(European robins, garden warblers, and others\) detect) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 266 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Earth's magnetic field at intensities of 25-65 microTesla -- a field) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 251 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (that produces energy splittings of ~10^-9 eV in radical pairs. The) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (radical pair mechanism in cryptochrome proteins \(Cry4 in retinal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 221 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (neurons\) requires that quantum coherence between singlet and triplet) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 206 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (spin states persist for at least ~1 microsecond. In free solution,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 191 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (radical pair decoherence times are typically 1-10 nanoseconds.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 184 cm
+Q
+q
+1 0 0 1 60 169 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The required coherence exceeds the naive prediction by a factor of) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 154 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (100-1000x.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 147 cm
+Q
+q
+1 0 0 1 60 132 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4.2 Closure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 125 cm
+Q
+q
+1 0 0 1 60 110 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The cryptochrome protein provides a coherence shield for the radical) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 95 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (pair. The tryptophan tetrad \(Trp_A, Trp_B, Trp_C, Trp_D\) in) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 80 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (cryptochrome forms a structured electron-transfer chain that generates) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 65 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (the radical pair FAD) Tj /F3 9 Tf (- ... Trp_D) Tj /F1 9 Tf (+ at a separation of ~2 nm within a) Tj T* ET
+Q
+Q
  
 
 Q
@@ -946,103 +1859,325 @@ endobj
 endobj
 24 0 obj
 <<
-/Length 5748
+/Length 6110
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (nanoseconds\), while gamma_eff\(crypto\) ~ 0.01, giving microsecond) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (coherence times sufficient for compass function.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 675.6 Tm (============================================================================) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 657.6 Tm (5. ANOMALY 4: OLFACTORY QUANTUM SENSING) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 639.6 Tm (5.1 The Problem) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 621.6 Tm (Luca Turin proposed \(1996, 2002\) that olfactory receptors detect) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 609.6 Tm (molecular vibrations via inelastic electron tunneling spectroscopy) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 597.6 Tm (\(IETS\), not just molecular shape. Evidence: deuterated molecules) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 585.6 Tm (\(identical shape, different vibrational frequencies\) smell different to) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 573.6 Tm (Drosophila \(Franco et al., 2011\). Humans can distinguish some) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 561.6 Tm (deuterated musks. Shape-only theories cannot explain this.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 543.6 Tm (The puzzle: IETS requires quantum coherent electron transport through a) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 531.6 Tm (molecular junction at 310 K, conditions where most physicists would) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 519.6 Tm (predict complete decoherence.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 501.6 Tm (5.2 Closure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 483.6 Tm (Odorant binding to the receptor creates a coherent vibrational mode) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 471.6 Tm (that mediates tunneling. The receptor acts as a molecular junction where) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 459.6 Tm (the odorant's vibrational frequency nu selects the tunneling channel.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 441.6 Tm (The coherence amplitude for the olfactory process is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 423.6 Tm (C_olfactory = C_0 * exp\(-alpha * gamma_receptor\)              \(35\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 405.6 Tm (When the odorant binds, it modifies gamma_receptor in a) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 393.6 Tm (frequency-dependent manner:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 375.6 Tm (gamma_receptor\(nu\) = gamma_0 - delta_gamma\(nu\)                \(36\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 357.6 Tm (where delta_gamma\(nu\) is the reduction in decoherence rate caused by) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 345.6 Tm (the resonant vibrational mode of the odorant. Different molecular) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 333.6 Tm (vibrations produce different delta_gamma values:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 315.6 Tm (delta_gamma\(nu_1\) =/= delta_gamma\(nu_2\) when nu_1 =/= nu_2   \(37\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 297.6 Tm (This gives different coherence amplitudes:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 279.6 Tm (C\(nu_1\) =/= C\(nu_2\)                                          \(38\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 261.6 Tm (and therefore different tunneling rates:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 243.6 Tm (Gamma_tunnel\(nu\) ~ C_olfactory\(nu\)^2                         \(39\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 225.6 Tm (Different tunneling rates produce different receptor activation levels,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 213.6 Tm (which the brain interprets as different smells. The exponential) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 201.6 Tm (sensitivity of the coherence law \(alpha ~ 1000\) means that even small) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 189.6 Tm (differences in vibrational frequency produce large differences in) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 177.6 Tm (tunneling rate, explaining the extraordinary discriminating power of) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 165.6 Tm (olfaction.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 147.6 Tm (For deuteration: replacing H with D shifts vibrational frequencies by a) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 135.6 Tm (factor of ~1/sqrt\(2\), changing delta_gamma by a measurable amount. At) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 123.6 Tm (alpha = 1000, even a 0.1% shift in gamma_eff produces a factor of) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 111.6 Tm (exp\(1000 * 0.001\) = e ~ 2.7 change in coherence, easily detectable by) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 99.6 Tm (the receptor.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 81.6 Tm (============================================================================) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (rigid protein scaffold.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence requirement is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 691 cm
+Q
+q
+1 0 0 1 60 676 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_radical_pair > C_min \(25\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 669 cm
+Q
+q
+1 0 0 1 60 654 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where C_min is the minimum coherence needed to resolve the Zeeman) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 639 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (splitting from a 50 microTesla field:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 632 cm
+Q
+q
+1 0 0 1 60 617 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (C_min ~ delta_E_Zeeman / \(k_B * T\) \(26\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 602 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (~ 10^-9 eV / 0.027 eV \(27\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 587 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (~ 4 * 10^-8 \(28\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 565 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence law gives:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 558 cm
+Q
+q
+1 0 0 1 60 543 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_crypto = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\(crypto\)\) \(29\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 536 cm
+Q
+q
+1 0 0 1 60 521 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For the radical pair to function as a compass, we need:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514 cm
+Q
+q
+1 0 0 1 60 499 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_crypto > C_min \(30\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 484 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (exp\(-alpha ) Tj /F3 9 Tf (gamma_eff\(crypto\)\) > 4 ) Tj /F1 9 Tf (10^-8 \(31\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 469 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (alpha * gamma_eff\(crypto\) < 17 \(32\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 454 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (gamma_eff\(crypto\) < 17 / 1000 = 0.017 \(33\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 447 cm
+Q
+q
+1 0 0 1 60 432 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The cryptochrome protein achieves this by:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425 cm
+Q
+q
+1 0 0 1 60 410 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(a\) Shielding the radical pair from bulk water fluctuations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 395 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(b\) Maintaining a rigid geometry that suppresses spin-orbit coupling) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 380 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(c\) Positioning the radical pair at optimal separation \(~2 nm\) where) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 365 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (dipolar coupling is weak but exchange coupling maintains coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 358 cm
+Q
+q
+1 0 0 1 60 343 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The effective decoherence rate in cryptochrome is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 336 cm
+Q
+q
+1 0 0 1 60 321 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (gamma_eff\(crypto\) <) Tj (< gamma_eff\(solution\) \(34\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314 cm
+Q
+q
+1 0 0 1 60 299 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Measured values: gamma_eff\(solution\) ~ 1 \(fully decohered in) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 284 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (nanoseconds\), while gamma_eff\(crypto\) ~ 0.01, giving microsecond) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 269 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (coherence times sufficient for compass function.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 262 cm
+Q
+q
+1 0 0 1 60 256 cm
+Q
+q
+1 0 0 1 60 252 cm
+Q
+q
+1 0 0 1 60 237 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. ANOMALY 4: OLFACTORY QUANTUM SENSING) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230 cm
+Q
+q
+1 0 0 1 60 215 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5.1 The Problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 208 cm
+Q
+q
+1 0 0 1 60 193 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Luca Turin proposed \(1996, 2002\) that olfactory receptors detect) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 178 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (molecular vibrations via inelastic electron tunneling spectroscopy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 163 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(IETS\), not just molecular shape. Evidence: deuterated molecules) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 148 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(identical shape, different vibrational frequencies\) smell different to) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 133 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Drosophila \(Franco et al., 2011\). Humans can distinguish some) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 118 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (deuterated musks. Shape-only theories cannot explain this.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 111 cm
+Q
+q
+1 0 0 1 60 96 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The puzzle: IETS requires quantum coherent electron transport through a) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 81 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (molecular junction at 310 K, conditions where most physicists would) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 66 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (predict complete decoherence.) Tj T* ET
+Q
+Q
  
 
 Q
@@ -1161,105 +2296,330 @@ endobj
 endobj
 28 0 obj
 <<
-/Length 5968
+/Length 6113
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (6. ANOMALY 5: HOMOCHIRALITY) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 687.6 Tm (6.1 The Problem) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 669.6 Tm (All known life uses L-amino acids and D-sugars exclusively. Abiotic) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 657.6 Tm (chemistry produces racemic mixtures \(equal L and R\). The parity-) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 645.6 Tm (violating energy difference \(PVED\) between enantiomers from the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 633.6 Tm (electroweak interaction is approximately:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 615.6 Tm (delta_E_parity ~ 10^-17 eV per amino acid                    \(40\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 597.6 Tm (At k_B * T ~ 0.027 eV \(310 K\), the Boltzmann ratio is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 579.6 Tm (N_L / N_R = exp\(delta_E_parity / \(k_B * T\)\)                  \(41\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 567.6 Tm (= exp\(10^-17 / 0.027\)                               \(42\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 555.6 Tm (= exp\(3.7 * 10^-16\)                                 \(43\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 543.6 Tm (~ 1 + 3.7 * 10^-16                                  \(44\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 525.6 Tm (This is an excess of less than one part in 10^15 -- far too small to) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 513.6 Tm (explain homochirality by equilibrium thermodynamics alone.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 495.6 Tm (6.2 Closure: The Coherence Bootstrap) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 477.6 Tm (Near the critical decoherence threshold gamma_c, the coherence law) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 465.6 Tm (provides exponential amplification of tiny energy differences. The) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 453.6 Tm (coherence amplitudes for the two enantiomers differ because parity) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 441.6 Tm (violation produces a tiny difference in their effective decoherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 429.6 Tm (rates:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 411.6 Tm (gamma_eff\(L\) = gamma_0 - epsilon                              \(45\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 399.6 Tm (gamma_eff\(R\) = gamma_0 + epsilon                              \(46\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 381.6 Tm (where epsilon is proportional to delta_E_parity.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 363.6 Tm (The ratio of coherence amplitudes is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 345.6 Tm (C_L / C_R = exp\(-alpha * gamma_eff\(L\)\) / exp\(-alpha * gamma_eff\(R\)\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 333.6 Tm (= exp\(-alpha * \(gamma_eff\(L\) - gamma_eff\(R\)\)\)       \(47\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 321.6 Tm (= exp\(-alpha * \(-2 * epsilon\)\)                      \(48\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 309.6 Tm (= exp\(2 * alpha * epsilon\)                          \(49\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 291.6 Tm (With alpha = 1000 and epsilon proportional to delta_E_parity / \(k_B * T\):) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 273.6 Tm (epsilon ~ delta_E_parity / \(k_B * T\) ~ 3.7 * 10^-16          \(50\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 255.6 Tm (C_L / C_R = exp\(2 * 1000 * 3.7 * 10^-16\)                     \(51\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 243.6 Tm (= exp\(7.4 * 10^-13\)                                  \(52\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 231.6 Tm (~ 1 + 7.4 * 10^-13                                   \(53\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 213.6 Tm (This is still tiny for a SINGLE amplification event. But the coherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 201.6 Tm (bootstrap operates iteratively over geological time. In autocatalytic) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 189.6 Tm (prebiotic chemistry, each generation amplifies the enantiomeric excess) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 177.6 Tm (\(ee\). After n generations of coherence-mediated selection:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 159.6 Tm (ee\(n\) = tanh\(n * alpha * epsilon\)                             \(54\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 141.6 Tm (The number of generations to reach ee > 0.99 \(complete homochirality\):) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 123.6 Tm (n_critical ~ 1 / \(alpha * epsilon\) ~ 1 / \(1000 * 3.7 * 10^-16\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 111.6 Tm (~ 2.7 * 10^12 generations                          \(55\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 93.6 Tm (At one chemical generation per second \(fast prebiotic chemistry\), this) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 81.6 Tm (requires ~85,000 years -- a geological instant. Even at one generation) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 69.6 Tm (per minute, complete homochirality is achieved in ~5 million years, well) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5.2 Closure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 706 cm
+Q
+q
+1 0 0 1 60 691 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Odorant binding to the receptor creates a coherent vibrational mode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (that mediates tunneling. The receptor acts as a molecular junction where) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the odorant's vibrational frequency nu selects the tunneling channel.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 654 cm
+Q
+q
+1 0 0 1 60 639 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence amplitude for the olfactory process is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 632 cm
+Q
+q
+1 0 0 1 60 617 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_olfactory = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_receptor\) \(35\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 610 cm
+Q
+q
+1 0 0 1 60 595 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (When the odorant binds, it modifies gamma_receptor in a) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (frequency-dependent manner:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 573 cm
+Q
+q
+1 0 0 1 60 558 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma_receptor\(nu\) = gamma_0 - delta_gamma\(nu\) \(36\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551 cm
+Q
+q
+1 0 0 1 60 536 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where delta_gamma\(nu\) is the reduction in decoherence rate caused by) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the resonant vibrational mode of the odorant. Different molecular) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 506 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (vibrations produce different delta_gamma values:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 499 cm
+Q
+q
+1 0 0 1 60 484 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (delta_gamma\(nu_1\) =/= delta_gamma\(nu_2\) when nu_1 =/= nu_2 \(37\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 477 cm
+Q
+q
+1 0 0 1 60 462 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This gives different coherence amplitudes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 455 cm
+Q
+q
+1 0 0 1 60 440 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (C\(nu_1\) =/= C\(nu_2\) \(38\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433 cm
+Q
+q
+1 0 0 1 60 418 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (and therefore different tunneling rates:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 411 cm
+Q
+q
+1 0 0 1 60 396 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Gamma_tunnel\(nu\) ~ C_olfactory\(nu\)^2 \(39\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 389 cm
+Q
+q
+1 0 0 1 60 374 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Different tunneling rates produce different receptor activation levels,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 359 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (which the brain interprets as different smells. The exponential) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 344 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (sensitivity of the coherence law \(alpha ~ 1000\) means that even small) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 329 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (differences in vibrational frequency produce large differences in) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (tunneling rate, explaining the extraordinary discriminating power of) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 299 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (olfaction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292 cm
+Q
+q
+1 0 0 1 60 277 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For deuteration: replacing H with D shifts vibrational frequencies by a) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 262 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (factor of ~1/sqrt\(2\), changing delta_gamma by a measurable amount. At) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 247 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (alpha = 1000, even a 0.1% shift in gamma_eff produces a factor of) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 232 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (exp\(1000 * 0.001\) = e ~ 2.7 change in coherence, easily detectable by) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 217 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the receptor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 210 cm
+Q
+q
+1 0 0 1 60 204 cm
+Q
+q
+1 0 0 1 60 200 cm
+Q
+q
+1 0 0 1 60 185 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (6. ANOMALY 5: HOMOCHIRALITY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 178 cm
+Q
+q
+1 0 0 1 60 163 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (6.1 The Problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 156 cm
+Q
+q
+1 0 0 1 60 141 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (All known life uses L-amino acids and D-sugars exclusively. Abiotic) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 126 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (chemistry produces racemic mixtures \(equal L and R\). The parity-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 111 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (violating energy difference \(PVED\) between enantiomers from the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 96 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (electroweak interaction is approximately:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 89 cm
+Q
+q
+1 0 0 1 60 74 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (delta_E_parity ~ 10^-17 eV per amino acid \(40\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 67 cm
+Q
  
 
 Q
@@ -1378,103 +2738,322 @@ endobj
 endobj
 32 0 obj
 <<
-/Length 5608
+/Length 6411
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (within the ~500 million year window between Earth's formation and the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (earliest evidence of life.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 675.6 Tm (The coherence law provides the exponential lever that equilibrium) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (thermodynamics lacks. The weak force sets the direction \(L over R\);) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 651.6 Tm (coherence-mediated autocatalysis provides the amplification.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 633.6 Tm (============================================================================) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 615.6 Tm (7. ANOMALY 6: DNA MUTATION AND PROTON TUNNELING) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 597.6 Tm (7.1 The Problem) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 579.6 Tm (Per-Olov Lowdin proposed in 1963 that proton tunneling between DNA) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 567.6 Tm (base pairs \(tautomeric shifts\) could cause point mutations. Hydrogen) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 555.6 Tm (bonds in Watson-Crick base pairs \(A-T and G-C\) involve protons in) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 543.6 Tm (double-well potentials. Tunneling from the normal to the rare tautomer) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 531.6 Tm (would produce mispairing during replication.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 513.6 Tm (The puzzle is dual:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 501.6 Tm (\(a\) Why is DNA so STABLE? Proton tunneling should cause far more) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 489.6 Tm (mutations than observed \(~10^-9 per base pair per generation\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 477.6 Tm (\(b\) Why do mutations happen at all at rates consistent with quantum) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 465.6 Tm (tunneling signatures?) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 447.6 Tm (7.2 Closure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 429.6 Tm (The coherence law resolves both sides simultaneously. Normal,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 417.6 Tm (undamaged DNA maintains gamma_eff >> gamma_c:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 399.6 Tm (C_base_pair = C_0 * exp\(-alpha * gamma_DNA\)                  \(56\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 381.6 Tm (In healthy DNA, gamma_DNA is large because:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 363.6 Tm (\(a\) The double helix is immersed in structured water) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 351.6 Tm (\(b\) Counterions \(Mg2+, Na+\) provide strong electromagnetic fluctuations) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 339.6 Tm (\(c\) Thermal motion of the backbone disrupts proton coherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 321.6 Tm (This gives:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 303.6 Tm (alpha * gamma_DNA >> 1                                        \(57\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 291.6 Tm (C_base_pair ~ 0 \(negligible coherence\)                        \(58\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 273.6 Tm (Proton tunneling is suppressed. DNA is stable precisely BECAUSE it) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 261.6 Tm (operates in the high-decoherence regime. High decoherence is a feature,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 249.6 Tm (not a bug -- it is the quantum Zeno effect protecting genetic) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 237.6 Tm (information.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 219.6 Tm (When DNA is damaged \(by UV radiation, alkylating agents, oxidative) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 207.6 Tm (stress\), the local environment changes:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 189.6 Tm (gamma_eff\(damaged\) = gamma_DNA - delta_gamma_damage           \(59\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 171.6 Tm (Damage reduces gamma_eff toward gamma_c by:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 153.6 Tm (\(a\) Disrupting local water structure \(UV-induced pyrimidine dimers\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 141.6 Tm (\(b\) Removing counterions \(oxidative damage to phosphate backbone\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 129.6 Tm (\(c\) Distorting base stacking \(intercalating agents\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 111.6 Tm (As gamma_eff approaches gamma_c:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 93.6 Tm (C_damaged = C_0 * exp\(-alpha * \(gamma_DNA - delta_gamma_damage\)\) \(60\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 75.6 Tm (Coherence increases exponentially. Proton tunneling becomes possible.) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At k_B * T ~ 0.027 eV \(310 K\), the Boltzmann ratio is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (N_L / N_R = exp\(delta_E_parity / \(k_B * T\)\) \(41\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (= exp\(10^-17 / 0.027\) \(42\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 668 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (= exp\(3.7 * 10^-16\) \(43\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 653 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (~ 1 + 3.7 * 10^-16 \(44\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+Q
+q
+1 0 0 1 60 631 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is an excess of less than one part in 10^15 -- far too small to) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (explain homochirality by equilibrium thermodynamics alone.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609 cm
+Q
+q
+1 0 0 1 60 594 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (6.2 Closure: The Coherence Bootstrap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 587 cm
+Q
+q
+1 0 0 1 60 572 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Near the critical decoherence threshold gamma_c, the coherence law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 557 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (provides exponential amplification of tiny energy differences. The) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 542 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (coherence amplitudes for the two enantiomers differ because parity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 527 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (violation produces a tiny difference in their effective decoherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 512 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (rates:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 505 cm
+Q
+q
+1 0 0 1 60 490 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma_eff\(L\) = gamma_0 - epsilon \(45\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 475 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma_eff\(R\) = gamma_0 + epsilon \(46\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 468 cm
+Q
+q
+1 0 0 1 60 453 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where epsilon is proportional to delta_E_parity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 446 cm
+Q
+q
+1 0 0 1 60 431 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The ratio of coherence amplitudes is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424 cm
+Q
+q
+1 0 0 1 60 409 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_L / C_R = exp\(-alpha ) Tj /F3 9 Tf (gamma_eff\(L\)\) / exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\(R\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 394 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (= exp\(-alpha * \(gamma_eff\(L\) - gamma_eff\(R\)\)\) \(47\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 379 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (= exp\(-alpha ) Tj /F3 9 Tf (\(-2 ) Tj /F1 9 Tf (epsilon\)\) \(48\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (= exp\(2 ) Tj /F3 9 Tf (alpha ) Tj /F1 9 Tf (epsilon\) \(49\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 357 cm
+Q
+q
+1 0 0 1 60 342 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With alpha = 1000 and epsilon proportional to delta_E_parity / \(k_B * T\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 335 cm
+Q
+q
+1 0 0 1 60 320 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (epsilon ~ delta_E_parity / \(k_B ) Tj /F3 9 Tf (T\) ~ 3.7 ) Tj /F1 9 Tf (10^-16 \(50\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 313 cm
+Q
+q
+1 0 0 1 60 298 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_L / C_R = exp\(2 ) Tj /F3 9 Tf (1000 ) Tj /F1 9 Tf (3.7 * 10^-16\) \(51\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 283 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (= exp\(7.4 * 10^-13\) \(52\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 268 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (~ 1 + 7.4 * 10^-13 \(53\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 261 cm
+Q
+q
+1 0 0 1 60 246 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is still tiny for a SINGLE amplification event. But the coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 231 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (bootstrap operates iteratively over geological time. In autocatalytic) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 216 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (prebiotic chemistry, each generation amplifies the enantiomeric excess) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 201 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(ee\). After n generations of coherence-mediated selection:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 194 cm
+Q
+q
+1 0 0 1 60 179 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (ee\(n\) = tanh\(n ) Tj /F3 9 Tf (alpha ) Tj /F1 9 Tf (epsilon\) \(54\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 172 cm
+Q
+q
+1 0 0 1 60 157 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The number of generations to reach ee > 0.99 \(complete homochirality\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 150 cm
+Q
+q
+1 0 0 1 60 135 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (n_critical ~ 1 / \(alpha ) Tj /F3 9 Tf (epsilon\) ~ 1 / \(1000 ) Tj /F1 9 Tf (3.7 * 10^-16\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (~ 2.7 * 10^12 generations \(55\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 113 cm
+Q
+q
+1 0 0 1 60 98 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At one chemical generation per second \(fast prebiotic chemistry\), this) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 83 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (requires ~85,000 years -- a geological instant. Even at one generation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 68 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (per minute, complete homochirality is achieved in ~5 million years, well) Tj T* ET
+Q
+Q
  
 
 Q
@@ -1593,107 +3172,329 @@ endobj
 endobj
 36 0 obj
 <<
-/Length 5779
+/Length 6131
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 8) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 8) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (The mutation rate at a damaged site scales as:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 687.6 Tm (P_mutation ~ |C_damaged|^2) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 675.6 Tm (= C_0^2 * exp\(-2 * alpha * \(gamma_DNA - delta_gamma_damage\)\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (\(61\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 645.6 Tm (This explains:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 633.6 Tm (-- Normal mutation rate ~10^-9: gamma_DNA >> gamma_c, tunneling is) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 621.6 Tm (exponentially suppressed) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 609.6 Tm (-- Elevated mutation at damage sites: gamma_eff drops, tunneling rate) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 597.6 Tm (increases exponentially) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 585.6 Tm (-- Dose-response curves: more damage --> lower gamma_eff --> higher) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 573.6 Tm (mutation rate, with the characteristic exponential shape observed) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 561.6 Tm (in radiation biology) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 543.6 Tm (============================================================================) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 525.6 Tm (8. ANOMALY 7: MICROTUBULE COHERENCE) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 507.6 Tm (8.1 The Problem) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 489.6 Tm (Penrose and Hameroff \(1994, 2014\) proposed that microtubules in neurons) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 477.6 Tm (support macroscopic quantum coherence, forming the basis for conscious) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 465.6 Tm (experience via "orchestrated objective reduction" \(Orch-OR\). Critics) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 453.6 Tm (\(Tegmark, 2000\) argued that decoherence at 310 K would destroy any) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 441.6 Tm (quantum effects on timescales of ~10^-13 seconds, far shorter than the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 429.6 Tm (~10^-2 second timescales of neural processes.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 411.6 Tm (The debate has been polarized: either microtubules support macroscopic) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 399.6 Tm (quantum states \(Penrose-Hameroff\) or quantum effects are entirely) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 387.6 Tm (irrelevant to neurobiology \(Tegmark\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 369.6 Tm (8.2 Closure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 351.6 Tm (The coherence law provides a quantitative middle ground. Tubulin dimers) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 339.6 Tm (\(alpha-beta heterodimers, ~8 nm in length\) form a quasi-1D lattice in) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 327.6 Tm (the microtubule wall. The coherence length within this lattice is:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 309.6 Tm (L_c = lambda_dB * exp\(C / C_0\)                               \(62\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 291.6 Tm (where C is the local coherence amplitude and lambda_dB is the thermal) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 279.6 Tm (de Broglie wavelength of the relevant degree of freedom.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 261.6 Tm (For a tubulin conformational mode at T = 310 K, the effective mass is) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 249.6 Tm (~1000 Daltons \(a domain-scale motion\), giving:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 231.6 Tm (lambda_dB ~ h / sqrt\(2 * pi * m * k_B * T\)                   \(63\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 219.6 Tm (~ 0.006 nm                                          \(64\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 201.6 Tm (The tubulin protein provides some coherence shielding \(the hydrophobic) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 189.6 Tm (pocket around the GTP binding site\), giving gamma_eff ~ 0.005 in) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 177.6 Tm (natural units. Then:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 159.6 Tm (C_tubulin = C_0 * exp\(-1000 * 0.005\)                          \(65\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 147.6 Tm (= C_0 * exp\(-5\)                                      \(66\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 135.6 Tm (= C_0 * 0.0067                                       \(67\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 117.6 Tm (The coherence length:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 99.6 Tm (L_c = 0.006 nm * exp\(0.0067\)                                  \(68\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 87.6 Tm (~ 0.006 nm * 1.007                                        \(69\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 75.6 Tm (~ 0.006 nm                                                 \(70\)) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (8) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (within the ~500 million year window between Earth's formation and the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (earliest evidence of life.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence law provides the exponential lever that equilibrium) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 668 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (thermodynamics lacks. The weak force sets the direction \(L over R\);) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 653 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (coherence-mediated autocatalysis provides the amplification.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+Q
+q
+1 0 0 1 60 640 cm
+Q
+q
+1 0 0 1 60 636 cm
+Q
+q
+1 0 0 1 60 621 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (7. ANOMALY 6: DNA MUTATION AND PROTON TUNNELING) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 614 cm
+Q
+q
+1 0 0 1 60 599 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (7.1 The Problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 592 cm
+Q
+q
+1 0 0 1 60 577 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Per-Olov Lowdin proposed in 1963 that proton tunneling between DNA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 562 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (base pairs \(tautomeric shifts\) could cause point mutations. Hydrogen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 547 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (bonds in Watson-Crick base pairs \(A-T and G-C\) involve protons in) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (double-well potentials. Tunneling from the normal to the rare tautomer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 517 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (would produce mispairing during replication.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 510 cm
+Q
+q
+1 0 0 1 60 495 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The puzzle is dual:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 480 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(a\) Why is DNA so STABLE? Proton tunneling should cause far more) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 465 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (mutations than observed \(~10^-9 per base pair per generation\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 450 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(b\) Why do mutations happen at all at rates consistent with quantum) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 435 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (tunneling signatures?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 428 cm
+Q
+q
+1 0 0 1 60 413 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (7.2 Closure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 406 cm
+Q
+q
+1 0 0 1 60 391 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence law resolves both sides simultaneously. Normal,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 376 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (undamaged DNA maintains gamma_eff >) Tj (> gamma_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 369 cm
+Q
+q
+1 0 0 1 60 354 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_base_pair = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_DNA\) \(56\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 347 cm
+Q
+q
+1 0 0 1 60 332 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In healthy DNA, gamma_DNA is large because:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 325 cm
+Q
+q
+1 0 0 1 60 310 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(a\) The double helix is immersed in structured water) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 295 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(b\) Counterions \(Mg2+, Na+\) provide strong electromagnetic fluctuations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 280 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(c\) Thermal motion of the backbone disrupts proton coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 273 cm
+Q
+q
+1 0 0 1 60 258 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This gives:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 251 cm
+Q
+q
+1 0 0 1 60 236 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (alpha * gamma_DNA >) Tj (> 1 \(57\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 221 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (C_base_pair ~ 0 \(negligible coherence\) \(58\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 214 cm
+Q
+q
+1 0 0 1 60 199 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Proton tunneling is suppressed. DNA is stable precisely BECAUSE it) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 184 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (operates in the high-decoherence regime. High decoherence is a feature,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 169 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (not a bug -- it is the quantum Zeno effect protecting genetic) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 154 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (information.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 147 cm
+Q
+q
+1 0 0 1 60 132 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (When DNA is damaged \(by UV radiation, alkylating agents, oxidative) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 117 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (stress\), the local environment changes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 110 cm
+Q
+q
+1 0 0 1 60 95 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma_eff\(damaged\) = gamma_DNA - delta_gamma_damage \(59\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 88 cm
+Q
+q
+1 0 0 1 60 73 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Damage reduces gamma_eff toward gamma_c by:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 66 cm
+Q
  
 
 Q
@@ -1812,107 +3613,326 @@ endobj
 endobj
 40 0 obj
 <<
-/Length 5849
+/Length 6296
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 9) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 9) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (This is submonomer scale -- coherence extends over roughly one tubulin) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (domain, not one dimer, and certainly not an entire microtubule \(which) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 681.6 Tm (is ~25 nm in diameter and can be micrometers long\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (However, for electronic degrees of freedom \(pi-electron delocalization) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 651.6 Tm (in aromatic amino acids like tryptophan within tubulin\), the effective) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 639.6 Tm (mass is the electron mass, giving:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 621.6 Tm (lambda_dB\(electron, 310 K\) ~ 6 nm                             \(71\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 603.6 Tm (With the same gamma_eff = 0.005:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 585.6 Tm (C_electron = C_0 * exp\(-1000 * 0.005\) = C_0 * 0.0067          \(72\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 567.6 Tm (L_c\(electron\) = 6 nm * exp\(0.0067\)                            \(73\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 555.6 Tm (~ 6 nm * 1.007                                  \(74\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 543.6 Tm (~ 6 nm                                          \(75\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 525.6 Tm (This is approximately one tubulin monomer \(~4 nm per monomer, ~8 nm per) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 513.6 Tm (dimer\). Electronic coherence CAN extend over a single tubulin monomer) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 501.6 Tm (or at most a single dimer. This is genuine quantum biology at the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 489.6 Tm (monomer scale.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 471.6 Tm (8.3 Assessment of Penrose-Hameroff) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 453.6 Tm (The Wike Coherence Law gives a precise verdict:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 435.6 Tm (-- Penrose-Hameroff is CORRECT that tubulin supports quantum coherence.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 423.6 Tm (-- Penrose-Hameroff OVERCLAIMS by extending this to the whole) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 411.6 Tm (microtubule or to macroscopic quantum states.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 399.6 Tm (-- The actual coherence length is ~6-8 nm \(one monomer/dimer\), not) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 387.6 Tm (micrometers.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 375.6 Tm (-- Whether monomer-scale coherence has functional significance for) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 363.6 Tm (information processing in neurons is an empirical question, not) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 351.6 Tm (settled by the coherence law alone.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 339.6 Tm (-- Tegmark's critique is too strong: it uses bulk-water decoherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 327.6 Tm (rates, ignoring the protein shielding that the coherence law) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 315.6 Tm (quantifies.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 297.6 Tm (============================================================================) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 279.6 Tm (9. UNIFIED PREDICTIONS) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 261.6 Tm (The following predictions are independently falsifiable and) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 249.6 Tm (distinguish the coherence law from ad hoc explanations:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 231.6 Tm (9.1 Photosynthetic Coherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 213.6 Tm (PREDICTION 1: Coherence lifetime in FMO scales as the inverse of the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 201.6 Tm (protein shielding factor. Mutants with disrupted beta-sheets) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 189.6 Tm (surrounding the chromophores will show proportionally reduced coherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 177.6 Tm (times. Specifically, removing one layer of protein shielding should) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 165.6 Tm (reduce tau_coherence by a factor of ~3-5x.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 147.6 Tm (PREDICTION 2: Replacing the protein scaffold with a synthetic rigid) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 135.6 Tm (framework \(e.g., DNA origami\) that provides equivalent shielding) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 123.6 Tm (\(gamma_bio ~ gamma_thermal / 20\) will produce equivalent coherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 111.6 Tm (lifetimes, independent of the chemical identity of the scaffold.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 93.6 Tm (9.2 Enzyme Tunneling) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 75.6 Tm (PREDICTION 3: The catalytic enhancement factor for any enzyme that) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (9) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(a\) Disrupting local water structure \(UV-induced pyrimidine dimers\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(b\) Removing counterions \(oxidative damage to phosphate backbone\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 690 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(c\) Distorting base stacking \(intercalating agents\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683 cm
+Q
+q
+1 0 0 1 60 668 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (As gamma_eff approaches gamma_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 661 cm
+Q
+q
+1 0 0 1 60 646 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_damaged = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (\(gamma_DNA - delta_gamma_damage\)\) \(60\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 639 cm
+Q
+q
+1 0 0 1 60 624 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Coherence increases exponentially. Proton tunneling becomes possible.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The mutation rate at a damaged site scales as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 602 cm
+Q
+q
+1 0 0 1 60 587 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (P_mutation ~ |C_damaged|^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (= C_0^2 ) Tj /F3 9 Tf (exp\(-2 ) Tj /F1 9 Tf (alpha * \(gamma_DNA - delta_gamma_damage\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 557 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(61\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 550 cm
+Q
+q
+1 0 0 1 60 535 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This explains:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 520 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (-- Normal mutation rate ~10^-9: gamma_DNA >) Tj (> gamma_c, tunneling is) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 505 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (exponentially suppressed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 490 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (-- Elevated mutation at damage sites: gamma_eff drops, tunneling rate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 475 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (increases exponentially) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 460 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (-- Dose-response curves: more damage --) Tj (> lower gamma_eff --) Tj (> higher) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 445 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (mutation rate, with the characteristic exponential shape observed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 430 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (in radiation biology) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 423 cm
+Q
+q
+1 0 0 1 60 417 cm
+Q
+q
+1 0 0 1 60 413 cm
+Q
+q
+1 0 0 1 60 398 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (8. ANOMALY 7: MICROTUBULE COHERENCE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 391 cm
+Q
+q
+1 0 0 1 60 376 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (8.1 The Problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 369 cm
+Q
+q
+1 0 0 1 60 354 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Penrose and Hameroff \(1994, 2014\) proposed that microtubules in neurons) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 339 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (support macroscopic quantum coherence, forming the basis for conscious) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (experience via "orchestrated objective reduction" \(Orch-OR\). Critics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 309 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(Tegmark, 2000\) argued that decoherence at 310 K would destroy any) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 294 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (quantum effects on timescales of ~10^-13 seconds, far shorter than the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 279 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (~10^-2 second timescales of neural processes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 272 cm
+Q
+q
+1 0 0 1 60 257 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The debate has been polarized: either microtubules support macroscopic) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 242 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (quantum states \(Penrose-Hameroff\) or quantum effects are entirely) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 227 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (irrelevant to neurobiology \(Tegmark\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 220 cm
+Q
+q
+1 0 0 1 60 205 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (8.2 Closure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 198 cm
+Q
+q
+1 0 0 1 60 183 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence law provides a quantitative middle ground. Tubulin dimers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 168 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(alpha-beta heterodimers, ~8 nm in length\) form a quasi-1D lattice in) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 153 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the microtubule wall. The coherence length within this lattice is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 146 cm
+Q
+q
+1 0 0 1 60 131 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (L_c = lambda_dB * exp\(C / C_0\) \(62\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 124 cm
+Q
+q
+1 0 0 1 60 109 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where C is the local coherence amplitude and lambda_dB is the thermal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 94 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (de Broglie wavelength of the relevant degree of freedom.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 87 cm
+Q
+q
+1 0 0 1 60 72 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For a tubulin conformational mode at T = 310 K, the effective mass is) Tj T* ET
+Q
+Q
  
 
 Q
@@ -2031,109 +4051,331 @@ endobj
 endobj
 44 0 obj
 <<
-/Length 6016
+/Length 6186
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 287.1 738 Tm (Page 10) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 10) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (uses H-tunneling satisfies ln\(k_obs / k_classical\) = alpha *) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (delta_gamma, with alpha ~ 1000 universal. Measuring gamma_eff for the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 681.6 Tm (active site and for the equivalent reaction in solution should give) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 669.6 Tm (delta_gamma = ln\(enhancement\) / 1000 across all tunneling enzymes.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 651.6 Tm (PREDICTION 4: Pressure-dependent kinetic isotope effects will show a) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 639.6 Tm (discontinuity at the pressure where gamma_eff crosses gamma_c, because) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 627.6 Tm (the coherence regime changes qualitatively at the critical point.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 609.6 Tm (9.3 Avian Magnetoreception) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 591.6 Tm (PREDICTION 5: The angular sensitivity of the avian compass satisfies) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 579.6 Tm (delta_theta_min ~ 1 / \(alpha * C_crypto\). Birds with cryptochrome) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 567.6 Tm (mutations that increase gamma_eff by 0.005 will show measurably) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 555.6 Tm (degraded compass accuracy by a factor of ~exp\(5\) ~ 150x.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 537.6 Tm (9.4 Olfaction) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 519.6 Tm (PREDICTION 6: The just-noticeable difference \(JND\) for vibrational) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 507.6 Tm (frequency in olfaction scales as delta_nu_JND ~ 1 / \(alpha *) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 495.6 Tm (dC/d_nu\). For alpha = 1000, the predicted JND is ~0.1% of the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 483.6 Tm (vibrational frequency, corresponding to ~1 cm^-1 for a 1000 cm^-1) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 471.6 Tm (odorant mode.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 453.6 Tm (9.5 Homochirality) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 435.6 Tm (PREDICTION 7: Autocatalytic reactions \(e.g., Soai reaction\) conducted) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 423.6 Tm (near the coherence critical point \(gamma_eff ~ gamma_c\) will show) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 411.6 Tm (faster symmetry breaking than the same reactions in conditions where) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 399.6 Tm (gamma_eff >> gamma_c. The amplification rate should scale as) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 387.6 Tm (exp\(alpha * epsilon\) per generation.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 369.6 Tm (9.6 DNA Stability) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 351.6 Tm (PREDICTION 8: The mutation rate at specific DNA sites correlates with) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 339.6 Tm (local gamma_eff. Sites near bound Mg2+ ions \(high gamma_eff, strong) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 327.6 Tm (decoherence\) will show lower mutation rates than sites far from any) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 315.6 Tm (counterion, with the ratio scaling as exp\(alpha * delta_gamma_ion\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 297.6 Tm (PREDICTION 9: Proton tunneling rates in synthetic DNA analogs with) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 285.6 Tm (modified backbones can be tuned by controlling the local decoherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 273.6 Tm (environment. Replacing phosphodiester with methylphosphonate \(removing) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 261.6 Tm (charge, reducing counterion binding, lowering gamma_eff\) should) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 249.6 Tm (increase tautomeric tunneling rates.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 231.6 Tm (9.7 Microtubules) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 213.6 Tm (PREDICTION 10: Coherence in tubulin is measurable via single-molecule) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 201.6 Tm (fluorescence resonance energy transfer \(smFRET\) between labeled sites) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 189.6 Tm (within one monomer \(~4 nm\) but NOT between sites on adjacent monomers) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 177.6 Tm (\(~8-12 nm\). The coherence length L_c ~ 6-8 nm provides a sharp) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 165.6 Tm (spatial cutoff.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 147.6 Tm (============================================================================) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 129.6 Tm (10. VALIDATION) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 111.6 Tm (The Wike Coherence Law C = C_0 * exp\(-alpha * gamma_eff\) has been) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 99.6 Tm (validated against 13.8 million data points collected on IBM quantum) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 87.6 Tm (hardware \(IBM Brisbane, IBM Osaka, IBM Kyoto processors\) across the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 75.6 Tm (AIIT-THRESI series. The validation spans:) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (10) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (~1000 Daltons \(a domain-scale motion\), giving:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 698 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (lambda_dB ~ h / sqrt\(2 ) Tj /F3 9 Tf (pi ) Tj /F1 9 Tf (m ) Tj /F3 9 Tf (k_B ) Tj /F1 9 Tf (T\) \(63\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (~ 0.006 nm \(64\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676 cm
+Q
+q
+1 0 0 1 60 661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The tubulin protein provides some coherence shielding \(the hydrophobic) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (pocket around the GTP binding site\), giving gamma_eff ~ 0.005 in) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 631 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (natural units. Then:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 624 cm
+Q
+q
+1 0 0 1 60 609 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_tubulin = C_0 ) Tj /F3 9 Tf (exp\(-1000 ) Tj /F1 9 Tf (0.005\) \(65\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (= C_0 * exp\(-5\) \(66\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 579 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (= C_0 * 0.0067 \(67\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572 cm
+Q
+q
+1 0 0 1 60 557 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence length:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 550 cm
+Q
+q
+1 0 0 1 60 535 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (L_c = 0.006 nm * exp\(0.0067\) \(68\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 520 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (~ 0.006 nm * 1.007 \(69\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 505 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (~ 0.006 nm \(70\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 498 cm
+Q
+q
+1 0 0 1 60 483 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is submonomer scale -- coherence extends over roughly one tubulin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 468 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (domain, not one dimer, and certainly not an entire microtubule \(which) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (is ~25 nm in diameter and can be micrometers long\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 446 cm
+Q
+q
+1 0 0 1 60 431 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (However, for electronic degrees of freedom \(pi-electron delocalization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 416 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (in aromatic amino acids like tryptophan within tubulin\), the effective) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 401 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (mass is the electron mass, giving:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 394 cm
+Q
+q
+1 0 0 1 60 379 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (lambda_dB\(electron, 310 K\) ~ 6 nm \(71\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 372 cm
+Q
+q
+1 0 0 1 60 357 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With the same gamma_eff = 0.005:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 350 cm
+Q
+q
+1 0 0 1 60 335 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C_electron = C_0 ) Tj /F3 9 Tf (exp\(-1000 ) Tj /F1 9 Tf (0.005\) = C_0 * 0.0067 \(72\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 328 cm
+Q
+q
+1 0 0 1 60 313 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (L_c\(electron\) = 6 nm * exp\(0.0067\) \(73\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 298 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (~ 6 nm * 1.007 \(74\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 283 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (~ 6 nm \(75\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 276 cm
+Q
+q
+1 0 0 1 60 261 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is approximately one tubulin monomer \(~4 nm per monomer, ~8 nm per) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 246 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (dimer\). Electronic coherence CAN extend over a single tubulin monomer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 231 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (or at most a single dimer. This is genuine quantum biology at the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 216 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (monomer scale.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 209 cm
+Q
+q
+1 0 0 1 60 194 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (8.3 Assessment of Penrose-Hameroff) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 187 cm
+Q
+q
+1 0 0 1 60 172 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The Wike Coherence Law gives a precise verdict:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 165 cm
+Q
+q
+1 0 0 1 60 150 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (-- Penrose-Hameroff is CORRECT that tubulin supports quantum coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (-- Penrose-Hameroff OVERCLAIMS by extending this to the whole) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (microtubule or to macroscopic quantum states.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 105 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (-- The actual coherence length is ~6-8 nm \(one monomer/dimer\), not) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 90 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (micrometers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (-- Whether monomer-scale coherence has functional significance for) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 60 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (information processing in neurons is an empirical question, not) Tj T* ET
+Q
+Q
  
 
 Q
@@ -2252,85 +4494,334 @@ endobj
 endobj
 48 0 obj
 <<
-/Length 4696
+/Length 6396
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 287.1 738 Tm (Page 11) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 11) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (-- Coherence decay curves at multiple temperatures \(50 mK to 300 K\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (-- Decoherence rate measurements across 127-qubit devices) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 681.6 Tm (-- Critical threshold identification at gamma_c = 1/alpha) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 669.6 Tm (-- Exponential sensitivity confirmation: measured slopes match) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 657.6 Tm (alpha = xi / lambda_dB to within 2% across all datasets) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 639.6 Tm (The seven biological anomalies presented in this paper do not introduce) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 627.6 Tm (new physics. They apply the same validated law to biological systems) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 615.6 Tm (where evolution has had 3.8 billion years to optimize gamma_eff for) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 603.6 Tm (specific functions.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 585.6 Tm (============================================================================) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 567.6 Tm (11. CONCLUSION) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 549.6 Tm (The seven quantum biology anomalies share a single resolution. Life) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 537.6 Tm (does not perform miracles of quantum isolation. Life performs precise) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 525.6 Tm (engineering of the effective decoherence rate gamma_eff.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 507.6 Tm (Where coherence is useful \(photosynthesis, enzyme catalysis,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 495.6 Tm (magnetoreception, olfaction\), biology reduces gamma_eff below gamma_c) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 483.6 Tm (via protein scaffolds, hydrophobic pockets, and rigid geometries.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 465.6 Tm (Where decoherence is useful \(DNA stability, genetic information) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 453.6 Tm (storage\), biology maintains gamma_eff well above gamma_c, exploiting) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 441.6 Tm (the quantum Zeno effect to suppress unwanted tunneling.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 423.6 Tm (Where the question is ambiguous \(microtubules\), the coherence law gives) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 411.6 Tm (a quantitative answer: monomer-scale coherence yes, macroscopic) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 399.6 Tm (coherence no.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 381.6 Tm (The coherence bootstrap for homochirality shows that even the origin) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 369.6 Tm (of biological asymmetry follows from the same law, with the weak) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 357.6 Tm (force providing direction and coherence-mediated amplification providing) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 345.6 Tm (magnitude.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 327.6 Tm (One law. Seven anomalies. Zero free parameters beyond the measured) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 315.6 Tm (physical constants G, h, k_B, and the system-specific gamma_eff.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 297.6 Tm (C = C_0 * exp\(-alpha * gamma_eff\)                             \(73\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 279.6 Tm (This is the equation of life.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 261.6 Tm (============================================================================) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 243.6 Tm (END OF PAPER 131) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 225.6 Tm (============================================================================) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (11) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (settled by the coherence law alone.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (-- Tegmark's critique is too strong: it uses bulk-water decoherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 690 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (rates, ignoring the protein shielding that the coherence law) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 675 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (quantifies.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 668 cm
+Q
+q
+1 0 0 1 60 662 cm
+Q
+q
+1 0 0 1 60 658 cm
+Q
+q
+1 0 0 1 60 643 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (9. UNIFIED PREDICTIONS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 636 cm
+Q
+q
+1 0 0 1 60 621 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The following predictions are independently falsifiable and) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 606 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (distinguish the coherence law from ad hoc explanations:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 599 cm
+Q
+q
+1 0 0 1 60 584 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (9.1 Photosynthetic Coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 577 cm
+Q
+q
+1 0 0 1 60 562 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (PREDICTION 1: Coherence lifetime in FMO scales as the inverse of the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 547 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (protein shielding factor. Mutants with disrupted beta-sheets) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 532 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (surrounding the chromophores will show proportionally reduced coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 517 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (times. Specifically, removing one layer of protein shielding should) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 502 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (reduce tau_coherence by a factor of ~3-5x.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 495 cm
+Q
+q
+1 0 0 1 60 480 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (PREDICTION 2: Replacing the protein scaffold with a synthetic rigid) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 465 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (framework \(e.g., DNA origami\) that provides equivalent shielding) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 450 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(gamma_bio ~ gamma_thermal / 20\) will produce equivalent coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 435 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (lifetimes, independent of the chemical identity of the scaffold.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 428 cm
+Q
+q
+1 0 0 1 60 413 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (9.2 Enzyme Tunneling) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 406 cm
+Q
+q
+1 0 0 1 60 391 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (PREDICTION 3: The catalytic enhancement factor for any enzyme that) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 376 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (uses H-tunneling satisfies ln\(k_obs / k_classical\) = alpha *) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 361 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (delta_gamma, with alpha ~ 1000 universal. Measuring gamma_eff for the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 346 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (active site and for the equivalent reaction in solution should give) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (delta_gamma = ln\(enhancement\) / 1000 across all tunneling enzymes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324 cm
+Q
+q
+1 0 0 1 60 309 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (PREDICTION 4: Pressure-dependent kinetic isotope effects will show a) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 294 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (discontinuity at the pressure where gamma_eff crosses gamma_c, because) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 279 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the coherence regime changes qualitatively at the critical point.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 272 cm
+Q
+q
+1 0 0 1 60 257 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (9.3 Avian Magnetoreception) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 250 cm
+Q
+q
+1 0 0 1 60 235 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (PREDICTION 5: The angular sensitivity of the avian compass satisfies) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 220 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (delta_theta_min ~ 1 / \(alpha * C_crypto\). Birds with cryptochrome) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 205 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (mutations that increase gamma_eff by 0.005 will show measurably) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 190 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (degraded compass accuracy by a factor of ~exp\(5\) ~ 150x.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 183 cm
+Q
+q
+1 0 0 1 60 168 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (9.4 Olfaction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 161 cm
+Q
+q
+1 0 0 1 60 146 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (PREDICTION 6: The just-noticeable difference \(JND\) for vibrational) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 131 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (frequency in olfaction scales as delta_nu_JND ~ 1 / \(alpha *) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 116 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (dC/d_nu\). For alpha = 1000, the predicted JND is ~0.1% of the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 101 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (vibrational frequency, corresponding to ~1 cm^-1 for a 1000 cm^-1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 86 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (odorant mode.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 79 cm
+Q
+q
+1 0 0 1 60 64 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (9.5 Homochirality) Tj T* ET
+Q
+Q
  
 
 Q
@@ -2411,65 +4902,826 @@ endobj
 /Type /Font
 >>
 endobj
+51 0 obj
+<<
+/Contents 52 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 53 0 R
+/F2 8 0 R
+/F2-0 54 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+52 0 obj
+<<
+/Length 6542
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 12) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (12) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (PREDICTION 7: Autocatalytic reactions \(e.g., Soai reaction\) conducted) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (near the coherence critical point \(gamma_eff ~ gamma_c\) will show) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (faster symmetry breaking than the same reactions in conditions where) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 668 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (gamma_eff >) Tj (> gamma_c. The amplification rate should scale as) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 653 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (exp\(alpha * epsilon\) per generation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+Q
+q
+1 0 0 1 60 631 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (9.6 DNA Stability) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 624 cm
+Q
+q
+1 0 0 1 60 609 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (PREDICTION 8: The mutation rate at specific DNA sites correlates with) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (local gamma_eff. Sites near bound Mg2+ ions \(high gamma_eff, strong) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 579 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (decoherence\) will show lower mutation rates than sites far from any) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 564 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (counterion, with the ratio scaling as exp\(alpha * delta_gamma_ion\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 557 cm
+Q
+q
+1 0 0 1 60 542 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (PREDICTION 9: Proton tunneling rates in synthetic DNA analogs with) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 527 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (modified backbones can be tuned by controlling the local decoherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 512 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (environment. Replacing phosphodiester with methylphosphonate \(removing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 497 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (charge, reducing counterion binding, lowering gamma_eff\) should) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (increase tautomeric tunneling rates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 475 cm
+Q
+q
+1 0 0 1 60 460 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (9.7 Microtubules) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453 cm
+Q
+q
+1 0 0 1 60 438 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (PREDICTION 10: Coherence in tubulin is measurable via single-molecule) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 423 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (fluorescence resonance energy transfer \(smFRET\) between labeled sites) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 408 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (within one monomer \(~4 nm\) but NOT between sites on adjacent monomers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 393 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(~8-12 nm\). The coherence length L_c ~ 6-8 nm provides a sharp) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 378 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (spatial cutoff.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 371 cm
+Q
+q
+1 0 0 1 60 365 cm
+Q
+q
+1 0 0 1 60 361 cm
+Q
+q
+1 0 0 1 60 346 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (10. VALIDATION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 339 cm
+Q
+q
+1 0 0 1 60 324 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Wike Coherence Law C = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\) has been) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 309 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (validated against 13.8 million data points collected on IBM quantum) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 294 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (hardware \(IBM Brisbane, IBM Osaka, IBM Kyoto processors\) across the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 279 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (AIIT-THRESI series. The validation spans:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 272 cm
+Q
+q
+1 0 0 1 60 257 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (-- Coherence decay curves at multiple temperatures \(50 mK to 300 K\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 242 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (-- Decoherence rate measurements across 127-qubit devices) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 227 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (-- Critical threshold identification at gamma_c = 1/alpha) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 212 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (-- Exponential sensitivity confirmation: measured slopes match) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 197 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (alpha = xi / lambda_dB to within 2% across all datasets) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 190 cm
+Q
+q
+1 0 0 1 60 175 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The seven biological anomalies presented in this paper do not introduce) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 160 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (new physics. They apply the same validated law to biological systems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 145 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where evolution has had 3.8 billion years to optimize gamma_eff for) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 130 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (specific functions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 123 cm
+Q
+q
+1 0 0 1 60 117 cm
+Q
+q
+1 0 0 1 60 113 cm
+Q
+q
+1 0 0 1 60 98 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (11. CONCLUSION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 91 cm
+Q
+q
+1 0 0 1 60 76 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The seven quantum biology anomalies share a single resolution. Life) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 61 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (does not perform miracles of quantum isolation. Life performs precise) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+53 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+54 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+55 0 obj
+<<
+/Contents 56 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 57 0 R
+/F2 8 0 R
+/F2-0 58 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+56 0 obj
+<<
+/Length 3835
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 131 QUANTUM BIOLOGY COHERENCE IN LIFE) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 13) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (13) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (engineering of the effective decoherence rate gamma_eff.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Where coherence is useful \(photosynthesis, enzyme catalysis,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (magnetoreception, olfaction\), biology reduces gamma_eff below gamma_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 668 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (via protein scaffolds, hydrophobic pockets, and rigid geometries.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 661 cm
+Q
+q
+1 0 0 1 60 646 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Where decoherence is useful \(DNA stability, genetic information) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 631 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (storage\), biology maintains gamma_eff well above gamma_c, exploiting) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the quantum Zeno effect to suppress unwanted tunneling.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 609 cm
+Q
+q
+1 0 0 1 60 594 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Where the question is ambiguous \(microtubules\), the coherence law gives) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 579 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (a quantitative answer: monomer-scale coherence yes, macroscopic) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 564 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (coherence no.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 557 cm
+Q
+q
+1 0 0 1 60 542 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence bootstrap for homochirality shows that even the origin) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 527 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (of biological asymmetry follows from the same law, with the weak) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 512 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (force providing direction and coherence-mediated amplification providing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 497 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (magnitude.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 490 cm
+Q
+q
+1 0 0 1 60 475 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (One law. Seven anomalies. Zero free parameters beyond the measured) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 460 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (physical constants G, h, k_B, and the system-specific gamma_eff.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453 cm
+Q
+q
+1 0 0 1 60 438 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\) \(73\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 431 cm
+Q
+q
+1 0 0 1 60 416 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This is the equation of life.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 409 cm
+Q
+q
+1 0 0 1 60 403 cm
+Q
+q
+1 0 0 1 60 399 cm
+Q
+q
+1 0 0 1 60 384 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (END OF PAPER 131) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 377 cm
+Q
+q
+1 0 0 1 60 371 cm
+Q
+q
+1 0 0 1 60 367 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+57 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+58 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
 xref
-0 51
+0 59
 0000000000 65535 f 
 0000000015 00000 n 
 0000000214 00000 n 
-0000000344 00000 n 
-0000000393 00000 n 
-0000000753 00000 n 
-0000006420 00000 n 
-0000006527 00000 n 
-0000006634 00000 n 
-0000006744 00000 n 
-0000006854 00000 n 
-0000006960 00000 n 
-0000007324 00000 n 
-0000012984 00000 n 
-0000013092 00000 n 
-0000013203 00000 n 
-0000013567 00000 n 
-0000019214 00000 n 
-0000019322 00000 n 
-0000019433 00000 n 
-0000019797 00000 n 
-0000025671 00000 n 
-0000025779 00000 n 
-0000025890 00000 n 
-0000026254 00000 n 
-0000032055 00000 n 
-0000032163 00000 n 
-0000032274 00000 n 
-0000032638 00000 n 
-0000038659 00000 n 
-0000038767 00000 n 
-0000038878 00000 n 
-0000039242 00000 n 
-0000044903 00000 n 
-0000045011 00000 n 
-0000045122 00000 n 
-0000045486 00000 n 
-0000051318 00000 n 
-0000051426 00000 n 
-0000051537 00000 n 
-0000051901 00000 n 
-0000057803 00000 n 
-0000057911 00000 n 
-0000058022 00000 n 
-0000058386 00000 n 
-0000064455 00000 n 
-0000064563 00000 n 
-0000064674 00000 n 
-0000065038 00000 n 
-0000069787 00000 n 
-0000069895 00000 n 
+0000000358 00000 n 
+0000000407 00000 n 
+0000000767 00000 n 
+0000007030 00000 n 
+0000007137 00000 n 
+0000007244 00000 n 
+0000007356 00000 n 
+0000007466 00000 n 
+0000007582 00000 n 
+0000007946 00000 n 
+0000014114 00000 n 
+0000014222 00000 n 
+0000014333 00000 n 
+0000014697 00000 n 
+0000020849 00000 n 
+0000020957 00000 n 
+0000021068 00000 n 
+0000021432 00000 n 
+0000027768 00000 n 
+0000027876 00000 n 
+0000027987 00000 n 
+0000028351 00000 n 
+0000034514 00000 n 
+0000034622 00000 n 
+0000034733 00000 n 
+0000035097 00000 n 
+0000041263 00000 n 
+0000041371 00000 n 
+0000041482 00000 n 
+0000041846 00000 n 
+0000048310 00000 n 
+0000048418 00000 n 
+0000048529 00000 n 
+0000048893 00000 n 
+0000055077 00000 n 
+0000055185 00000 n 
+0000055296 00000 n 
+0000055660 00000 n 
+0000062009 00000 n 
+0000062117 00000 n 
+0000062228 00000 n 
+0000062592 00000 n 
+0000068831 00000 n 
+0000068939 00000 n 
+0000069050 00000 n 
+0000069414 00000 n 
+0000075863 00000 n 
+0000075971 00000 n 
+0000076082 00000 n 
+0000076446 00000 n 
+0000083041 00000 n 
+0000083149 00000 n 
+0000083260 00000 n 
+0000083624 00000 n 
+0000087512 00000 n 
+0000087620 00000 n 
 trailer
 <<
-/Size 51
+/Size 59
 /Root 3 0 R
 /Info 1 0 R
 >>
 startxref
-70006
+87731
 %%EOF

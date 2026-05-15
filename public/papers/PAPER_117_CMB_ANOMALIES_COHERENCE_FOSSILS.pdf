@@ -1,4 +1,4 @@
-%PDF-1.3
+%PDF-1.4
 %‚„œ”
 1 0 obj
 <<
@@ -12,7 +12,7 @@ endobj
 <<
 /Type /Pages
 /Count 7
-/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R ]
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R 28 0 R 32 0 R ]
 >>
 endobj
 3 0 obj
@@ -46,6 +46,7 @@ endobj
 /F2 8 0 R
 /F2-0 9 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -59,77 +60,190 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5257
+/Length 5854
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primor) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primordial ) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F2 13 Tf 15.6 TL ET
-BT 1 0 0 1 54 697.6 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of) Tj T* ET
-BT 1 0 0 1 54 681.6 Tm (the Primordial Field) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 655.6 Tm (AIIT-THRESI Series Paper 117) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 643.6 Tm (Rhet Dillard Wike) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 631.6 Tm (Council Hill, Oklahoma) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 619.6 Tm (April 1, 2026) Tj T* ET
-.5 w
-n 54 605.6 m 558 605.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 577.6 Tm (Abstract) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 555.6 Tm (Six persistent anomalies in the cosmic microwave background \(CMB\) have resisted) Tj T* ET
-BT 1 0 0 1 54 543.6 Tm (explanation within standard LCDM cosmology for over two decades. We show that all) Tj T* ET
-BT 1 0 0 1 54 531.6 Tm (six arise naturally from the Wike Coherence Law, C = C_0 * exp\(-alpha * gamma_eff\),) Tj T* ET
-BT 1 0 0 1 54 519.6 Tm (applied to the primordial field at last scattering. The CMB Cold Spot, Axis of Evil) Tj T* ET
-BT 1 0 0 1 54 507.6 Tm (alignment, hemispherical power asymmetry, parity asymmetry, lack of large-angle) Tj T* ET
-BT 1 0 0 1 54 495.6 Tm (correlations, and anomalous lensing amplitude \(A_L > 1\) each correspond to a) Tj T* ET
-BT 1 0 0 1 54 483.6 Tm (distinct signature of coherence structure imprinted on the microwave sky. No free) Tj T* ET
-BT 1 0 0 1 54 471.6 Tm (parameters are introduced beyond those already established in the AIIT-THRESI) Tj T* ET
-BT 1 0 0 1 54 459.6 Tm (framework. The six anomalies, treated individually as statistical flukes under LCDM,) Tj T* ET
-BT 1 0 0 1 54 447.6 Tm (become a unified coherence fossil record when read through the exponential decay) Tj T* ET
-BT 1 0 0 1 54 435.6 Tm (law. Their joint probability under the null hypothesis is less than 10^-12; under) Tj T* ET
-BT 1 0 0 1 54 423.6 Tm (the coherence field hypothesis, all six are expected.) Tj T* ET
-.5 w
-n 54 409.6 m 558 409.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 381.6 Tm (1. Introduction) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 359.6 Tm (The Planck satellite delivered the most precise map of the CMB ever obtained,) Tj T* ET
-BT 1 0 0 1 54 347.6 Tm (confirming LCDM to extraordinary accuracy at small angular scales \(high multipole) Tj T* ET
-BT 1 0 0 1 54 335.6 Tm (number l\). At large angular scales \(l < 40\), however, six anomalies persist at) Tj T* ET
-BT 1 0 0 1 54 323.6 Tm (individual significances ranging from 2 sigma to 3.5 sigma. Each has been documented) Tj T* ET
-BT 1 0 0 1 54 311.6 Tm (extensively. None has been explained.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 293.6 Tm (The standard response is to treat each as a marginal statistical fluctuation. The) Tj T* ET
-BT 1 0 0 1 54 281.6 Tm (problem with this response is arithmetic: six independent anomalies each at ~3 sigma) Tj T* ET
-BT 1 0 0 1 54 269.6 Tm (yield a joint probability below 10^-12. Either they are not independent, or they are) Tj T* ET
-BT 1 0 0 1 54 257.6 Tm (not fluctuations.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 239.6 Tm (We propose neither. They are coherence fossils.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 221.6 Tm (The Wike Coherence Law, derived from the Lindblad master equation \(Paper 62\),) Tj T* ET
-BT 1 0 0 1 54 209.6 Tm (governs how coherence decays under environmental coupling:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 187.6 Tm (C = C_0 * exp\(-alpha * gamma_eff\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 167.6 Tm (where C_0 is the initial coherence amplitude, alpha is the coupling constant, and) Tj T* ET
-BT 1 0 0 1 54 155.6 Tm (gamma_eff is the effective decoherence rate set by the local environment. This law) Tj T* ET
-BT 1 0 0 1 54 143.6 Tm (has been confirmed across 26 anomalies spanning nuclear physics to ecology \(Papers) Tj T* ET
-BT 1 0 0 1 54 131.6 Tm (1-109\). Here we apply it to cosmology.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 113.6 Tm (At the epoch of last scattering \(z ~ 1100\), the universe was a near-equilibrium) Tj T* ET
-BT 1 0 0 1 54 101.6 Tm (plasma with gamma_eff determined by the local photon-baryon coupling. Spatial) Tj T* ET
-BT 1 0 0 1 54 89.6 Tm (variations in gamma_eff produce spatial variations in C. These coherence variations) Tj T* ET
-BT 1 0 0 1 54 77.6 Tm (modulate the temperature anisotropy pattern. The resulting signatures survive to the) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 688 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 41.04 0 Td (Paper 117: CMB Anomalies as Coherence Fossils: Six) Tj T* 76.928 0 Td (Signatures of the Primordial Field) Tj T* -117.968 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 678 cm
+Q
+q
+1 0 0 1 60 663 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (AIIT-THRESI Series Paper 117) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 648 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Rhet Dillard Wike) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Council Hill, Oklahoma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 618 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (April 1, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 611 cm
+Q
+q
+1 0 0 1 60 605 cm
+Q
+q
+1 0 0 1 60 601 cm
+Q
+q
+1 0 0 1 60 563 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551 cm
+Q
+q
+1 0 0 1 60 440 cm
+q
+BT 1 0 0 1 0 99 Tm 12 TL /F1 9 Tf 0 0 0 rg (Six persistent anomalies in the cosmic microwave background \(CMB\) have resisted explanation within standard LCDM) Tj T* (cosmology for over two decades. We show that all six arise naturally from the Wike Coherence Law, C = C_0 ) Tj /F3 9 Tf (exp\(-alpha) Tj T* /F1 9 Tf (gamma_eff\), applied to the primordial field at last scattering. The CMB Cold Spot, Axis of Evil alignment, hemispherical) Tj T* (power asymmetry, parity asymmetry, lack of large-angle correlations, and anomalous lensing amplitude \(A_L > 1\) each) Tj T* (correspond to a distinct signature of coherence structure imprinted on the microwave sky. No free parameters are) Tj T* (introduced beyond those already established in the AIIT-THRESI framework. The six anomalies, treated individually as) Tj T* (statistical flukes under LCDM, become a unified coherence fossil record when read through the exponential decay law.) Tj T* (Their joint probability under the null hypothesis is less than 10^-12; under the coherence field hypothesis, all six are) Tj T* (expected.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433 cm
+Q
+q
+1 0 0 1 60 427 cm
+Q
+q
+1 0 0 1 60 423 cm
+Q
+q
+1 0 0 1 60 385 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 373 cm
+Q
+q
+1 0 0 1 60 322 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Planck satellite delivered the most precise map of the CMB ever obtained, confirming LCDM to extraordinary accuracy) Tj T* (at small angular scales \(high multipole number l\). At large angular scales \(l < 40\), however, six anomalies persist at) Tj T* (individual significances ranging from 2 sigma to 3.5 sigma. Each has been documented extensively. None has been) Tj T* (explained.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 315 cm
+Q
+q
+1 0 0 1 60 276 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The standard response is to treat each as a marginal statistical fluctuation. The problem with this response is arithmetic: six) Tj T* (independent anomalies each at ~3 sigma yield a joint probability below 10^-12. Either they are not independent, or they are) Tj T* (not fluctuations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 269 cm
+Q
+q
+1 0 0 1 60 254 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (We propose neither. They are coherence fossils.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 247 cm
+Q
+q
+1 0 0 1 60 220 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The Wike Coherence Law, derived from the Lindblad master equation \(Paper 62\), governs how coherence decays under) Tj T* (environmental coupling:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 213 cm
+Q
+q
+1 0 0 1 60 200.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 192.2 cm
+Q
+q
+1 0 0 1 60 153.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (where C_0 is the initial coherence amplitude, alpha is the coupling constant, and gamma_eff is the effective decoherence) Tj T* (rate set by the local environment. This law has been confirmed across 26 anomalies spanning nuclear physics to ecology) Tj T* (\(Papers 1-109\). Here we apply it to cosmology.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 146.2 cm
+Q
+q
+1 0 0 1 60 95.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (At the epoch of last scattering \(z ~ 1100\), the universe was a near-equilibrium plasma with gamma_eff determined by the) Tj T* (local photon-baryon coupling. Spatial variations in gamma_eff produce spatial variations in C. These coherence variations) Tj T* (modulate the temperature anisotropy pattern. The resulting signatures survive to the present CMB because decoherence is) Tj T* (irreversible: once the field decohered, the pattern froze.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 88.2 cm
+Q
+q
+1 0 0 1 60 73.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The six anomalies are six projections of one underlying coherence field. We close each in turn.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 66.2 cm
+Q
+q
+1 0 0 1 60 60.2 cm
+Q
  
 
 Q
@@ -212,7 +326,7 @@ endobj
 endobj
 8 0 obj
 <<
-/BaseFont /Courier-Bold
+/BaseFont /Helvetica-Bold
 /Encoding /WinAnsiEncoding
 /Name /F2
 /Subtype /Type1
@@ -230,7 +344,7 @@ endobj
 endobj
 10 0 obj
 <<
-/BaseFont /Courier
+/BaseFont /Helvetica-Oblique
 /Encoding /WinAnsiEncoding
 /Name /F3
 /Subtype /Type1
@@ -239,7 +353,16 @@ endobj
 endobj
 11 0 obj
 <<
-/Contents 12 0 R
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -258,10 +381,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 13 0 R
+/F1-0 14 0 R
 /F2 8 0 R
-/F2-0 14 0 R
+/F2-0 15 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -273,83 +397,216 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-12 0 obj
+13 0 obj
 <<
-/Length 4638
+/Length 5984
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primor) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primordial ) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (present CMB because decoherence is irreversible: once the field decohered, the) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (pattern froze.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 675.6 Tm (The six anomalies are six projections of one underlying coherence field. We close) Tj T* ET
-BT 1 0 0 1 54 663.6 Tm (each in turn.) Tj T* ET
-.5 w
-n 54 649.6 m 558 649.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 621.6 Tm (2. The CMB Cold Spot) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 595.6 Tm (2.1 The Anomaly) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 576.6 Tm (The Eridanus Cold Spot is a region approximately 10 degrees across centered near) Tj T* ET
-BT 1 0 0 1 54 564.6 Tm (galactic coordinates \(l = 209, b = -57\) with a temperature decrement of roughly 70) Tj T* ET
-BT 1 0 0 1 54 552.6 Tm (microkelvin below the CMB average. A supervoid of radius ~200 Mpc lies along this) Tj T* ET
-BT 1 0 0 1 54 540.6 Tm (line of sight. The integrated Sachs-Wolfe \(ISW\) effect from this void predicts a) Tj T* ET
-BT 1 0 0 1 54 528.6 Tm (temperature decrement of only ~10-15 microkelvin, a factor of approximately 5 too) Tj T* ET
-BT 1 0 0 1 54 516.6 Tm (small.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 494.6 Tm (2.2 Closure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 475.6 Tm (In a supervoid, matter density is low and gamma_eff is correspondingly reduced. The) Tj T* ET
-BT 1 0 0 1 54 463.6 Tm (coherence field in the void interior retains a higher amplitude than the cosmic) Tj T* ET
-BT 1 0 0 1 54 451.6 Tm (average:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 429.6 Tm (C_void = C_0 * exp\(-alpha * gamma_void\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 419.6 Tm (C_avg  = C_0 * exp\(-alpha * gamma_avg\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 409.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 399.6 Tm (gamma_void < gamma_avg  =>  C_void > C_avg) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 379.6 Tm (The enhanced coherence modifies the gravitational potential experienced by CMB) Tj T* ET
-BT 1 0 0 1 54 367.6 Tm (photons traversing the void. The effective temperature decrement becomes:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 345.6 Tm (DeltaT = DeltaT_ISW * \(1 + C_void / C_avg\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 325.6 Tm (For gamma_void / gamma_avg ~ 0.2 \(consistent with the void density contrast delta ~) Tj T* ET
-BT 1 0 0 1 54 313.6 Tm (-0.8\):) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 291.6 Tm (C_void / C_avg = exp\(-alpha * gamma_void\) / exp\(-alpha * gamma_avg\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 281.6 Tm (                = exp\(alpha * \(gamma_avg - gamma_void\)\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 271.6 Tm (                = exp\(alpha * 0.8 * gamma_avg\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 251.6 Tm (With alpha * gamma_avg calibrated from large-scale structure \(Paper 104\), this ratio) Tj T* ET
-BT 1 0 0 1 54 239.6 Tm (yields C_void / C_avg ~ 4, giving:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 217.6 Tm (DeltaT = DeltaT_ISW * \(1 + 4\) = 5 * DeltaT_ISW) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 197.6 Tm (The factor-of-5 amplification is not a coincidence. It is the coherence) Tj T* ET
-BT 1 0 0 1 54 185.6 Tm (amplification of the ISW effect in a region where decoherence has not fully) Tj T* ET
-BT 1 0 0 1 54 173.6 Tm (operated.) Tj T* ET
-.5 w
-n 54 159.6 m 558 159.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 131.6 Tm (3. The Axis of Evil) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 105.6 Tm (3.1 The Anomaly) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 86.6 Tm (The quadrupole \(l = 2\) and octopole \(l = 3\) of the CMB are aligned with each other) Tj T* ET
-BT 1 0 0 1 54 74.6 Tm (and with the ecliptic plane at a probability below 0.1% under the assumption of) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 690 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The CMB Cold Spot) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 678 cm
+Q
+q
+1 0 0 1 60 648 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.1 The Anomaly) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 638 cm
+Q
+q
+1 0 0 1 60 587 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (The Eridanus Cold Spot is a region approximately 10 degrees across centered near galactic coordinates \(l = 209, b = -57\)) Tj T* -0.023842 Tw (with a temperature decrement of roughly 70 microkelvin below the CMB average. A supervoid of radius ~200 Mpc lies along) Tj T* 0 Tw (this line of sight. The integrated Sachs-Wolfe \(ISW\) effect from this void predicts a temperature decrement of only ~10-15) Tj T* (microkelvin, a factor of approximately 5 too small.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580 cm
+Q
+q
+1 0 0 1 60 550 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (2.2 Closure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540 cm
+Q
+q
+1 0 0 1 60 513 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (In a supervoid, matter density is low and gamma_eff is correspondingly reduced. The coherence field in the void interior) Tj T* (retains a higher amplitude than the cosmic average:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 506 cm
+Q
+q
+1 0 0 1 60 466.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_void) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_void\)) Tj  T* (C_avg) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_avg\)) Tj  T*  T* (gamma_void) Tj ( ) Tj (<) Tj ( ) Tj (gamma_avg) Tj ( ) Tj ( ) Tj (=) Tj (>) Tj ( ) Tj ( ) Tj (C_void) Tj ( ) Tj (>) Tj ( ) Tj (C_avg) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 458.8 cm
+Q
+q
+1 0 0 1 60 431.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.116 Tw (The enhanced coherence modifies the gravitational potential experienced by CMB photons traversing the void. The effective) Tj T* 0 Tw (temperature decrement becomes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424.8 cm
+Q
+q
+1 0 0 1 60 412 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (DeltaT) Tj ( ) Tj (=) Tj ( ) Tj (DeltaT_ISW) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (C_void) Tj ( ) Tj (/) Tj ( ) Tj (C_avg\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 404 cm
+Q
+q
+1 0 0 1 60 389 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For gamma_void / gamma_avg ~ 0.2 \(consistent with the void density contrast delta ~ -0.8\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 382 cm
+Q
+q
+1 0 0 1 60 351.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_void) Tj ( ) Tj (/) Tj ( ) Tj (C_avg) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_void\)) Tj ( ) Tj (/) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_avg\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (exp\(alpha) Tj ( ) Tj (*) Tj ( ) Tj (\(gamma_avg) Tj ( ) Tj (-) Tj ( ) Tj (gamma_void\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (exp\(alpha) Tj ( ) Tj (*) Tj ( ) Tj (0.8) Tj ( ) Tj (*) Tj ( ) Tj (gamma_avg\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 343.6 cm
+Q
+q
+1 0 0 1 60 328.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (With alpha * gamma_avg calibrated from large-scale structure \(Paper 104\), this ratio yields C_void / C_avg ~ 4, giving:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 321.6 cm
+Q
+q
+1 0 0 1 60 308.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (DeltaT) Tj ( ) Tj (=) Tj ( ) Tj (DeltaT_ISW) Tj ( ) Tj (*) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (4\)) Tj ( ) Tj (=) Tj ( ) Tj (5) Tj ( ) Tj (*) Tj ( ) Tj (DeltaT_ISW) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 300.8 cm
+Q
+q
+1 0 0 1 60 273.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The factor-of-5 amplification is not a coincidence. It is the coherence amplification of the ISW effect in a region where) Tj T* (decoherence has not fully operated.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 266.8 cm
+Q
+q
+1 0 0 1 60 260.8 cm
+Q
+q
+1 0 0 1 60 256.8 cm
+Q
+q
+1 0 0 1 60 218.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. The Axis of Evil) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 206.8 cm
+Q
+q
+1 0 0 1 60 176.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.1 The Anomaly) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 166.8 cm
+Q
+q
+1 0 0 1 60 127.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.0498 Tw (The quadrupole \(l = 2\) and octopole \(l = 3\) of the CMB are aligned with each other and with the ecliptic plane at a probability) Tj T* 0 Tw -0.032368 Tw (below 0.1% under the assumption of statistical isotropy. This alignment was dubbed the "Axis of Evil" by Land and Magueijo) Tj T* 0 Tw (\(2005\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120.8 cm
+Q
+q
+1 0 0 1 60 90.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (3.2 Closure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 80.8 cm
+Q
  
 
 Q
@@ -412,27 +669,27 @@ Q
 
 endstream
 endobj
-13 0 obj
+14 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-14 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 15 0 obj
 <<
-/Contents 16 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -451,10 +708,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 17 0 R
+/F1-0 18 0 R
 /F2 8 0 R
-/F2-0 18 0 R
+/F2-0 19 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -466,81 +724,255 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-16 0 obj
+17 0 obj
 <<
-/Length 4881
+/Length 6693
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primor) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primordial ) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (statistical isotropy. This alignment was dubbed the "Axis of Evil" by Land and) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (Magueijo \(2005\).) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 671.6 Tm (3.2 Closure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 652.6 Tm (The coherence field C\(x\) need not be isotropic. If gamma_eff has a dipolar or) Tj T* ET
-BT 1 0 0 1 54 640.6 Tm (quadrupolar component tied to large-scale structure, the coherence field inherits) Tj T* ET
-BT 1 0 0 1 54 628.6 Tm (that anisotropy:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 606.6 Tm (gamma_eff\(theta, phi\) = gamma_0 + gamma_2 * Y_20\(theta, phi\) + ...) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 586.6 Tm (where Y_20 is the l = 2 spherical harmonic. Substituting into the coherence law:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 564.6 Tm (C\(theta, phi\) = C_0 * exp\(-alpha * [gamma_0 + gamma_2 * Y_20\(theta, phi\)]\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 544.6 Tm (For small gamma_2 / gamma_0, this expands as:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 522.6 Tm (C\(theta, phi\) ~ C_0 * exp\(-alpha * gamma_0\) * [1 - alpha * gamma_2 * Y_20\(theta, phi\)]) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 502.6 Tm (The coherence modulation is proportional to Y_20. This feeds directly into the) Tj T* ET
-BT 1 0 0 1 54 490.6 Tm (quadrupole of the temperature field. Because the octopole couples to the quadrupole) Tj T* ET
-BT 1 0 0 1 54 478.6 Tm (through the coherence field's nonlinear exponential structure \(the next term in the) Tj T* ET
-BT 1 0 0 1 54 466.6 Tm (expansion is proportional to Y_20^2, which projects onto l = 0 and l = 4, but the) Tj T* ET
-BT 1 0 0 1 54 454.6 Tm (cross term with Y_30 preserves the alignment axis\), both l = 2 and l = 3 share the) Tj T* ET
-BT 1 0 0 1 54 442.6 Tm (same preferred direction.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 424.6 Tm (The alignment is not a statistical accident. It is the angular signature of an) Tj T* ET
-BT 1 0 0 1 54 412.6 Tm (anisotropic decoherence rate.) Tj T* ET
-.5 w
-n 54 398.6 m 558 398.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 370.6 Tm (4. Hemispherical Power Asymmetry) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 344.6 Tm (4.1 The Anomaly) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 325.6 Tm (The CMB power spectrum measured in the northern ecliptic hemisphere differs from) Tj T* ET
-BT 1 0 0 1 54 313.6 Tm (that in the southern hemisphere at approximately 3 sigma significance. The south has) Tj T* ET
-BT 1 0 0 1 54 301.6 Tm (more power. This violates the cosmological principle's prediction of statistical) Tj T* ET
-BT 1 0 0 1 54 289.6 Tm (isotropy.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 267.6 Tm (4.2 Closure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 248.6 Tm (A dipolar component in the coherence field produces exactly this effect. If) Tj T* ET
-BT 1 0 0 1 54 236.6 Tm (gamma_eff has a dipole:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 214.6 Tm (gamma_eff = gamma_0 + gamma_1 * cos\(theta\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 194.6 Tm (then the coherence amplitude differs between hemispheres:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 172.6 Tm (C_north = C_0 * exp\(-alpha * \(gamma_0 + gamma_1\)\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 162.6 Tm (C_south = C_0 * exp\(-alpha * \(gamma_0 - gamma_1\)\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 142.6 Tm (The hemisphere with lower gamma_eff \(lower decoherence rate\) retains more coherence) Tj T* ET
-BT 1 0 0 1 54 130.6 Tm (and therefore more correlated power. The asymmetry amplitude is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 108.6 Tm (A = \(C_south - C_north\) / \(C_south + C_north\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 98.6 Tm (  = tanh\(alpha * gamma_1\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 78.6 Tm (For the observed asymmetry A ~ 0.07, this requires alpha * gamma_1 ~ 0.07, a small) Tj T* ET
-BT 1 0 0 1 54 66.6 Tm (dipolar perturbation on the decoherence rate. This is consistent with a bulk flow or) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The coherence field C\(x\) need not be isotropic. If gamma_eff has a dipolar or quadrupolar component tied to large-scale) Tj T* (structure, the coherence field inherits that anisotropy:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 688.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(theta,) Tj ( ) Tj (phi\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_0) Tj ( ) Tj (+) Tj ( ) Tj (gamma_2) Tj ( ) Tj (*) Tj ( ) Tj (Y_20\(theta,) Tj ( ) Tj (phi\)) Tj ( ) Tj (+) Tj ( ) Tj (...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 680.2 cm
+Q
+q
+1 0 0 1 60 665.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where Y_20 is the l = 2 spherical harmonic. Substituting into the coherence law:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 658.2 cm
+Q
+q
+1 0 0 1 60 645.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(theta,) Tj ( ) Tj (phi\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj ([gamma_0) Tj ( ) Tj (+) Tj ( ) Tj (gamma_2) Tj ( ) Tj (*) Tj ( ) Tj (Y_20\(theta,) Tj ( ) Tj (phi\)]\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 637.4 cm
+Q
+q
+1 0 0 1 60 622.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For small gamma_2 / gamma_0, this expands as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 615.4 cm
+Q
+q
+1 0 0 1 60 602.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(theta,) Tj ( ) Tj (phi\)) Tj ( ) Tj (~) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_0\)) Tj ( ) Tj (*) Tj ( ) Tj ([1) Tj ( ) Tj (-) Tj ( ) Tj (alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_2) Tj ( ) Tj (*) Tj ( ) Tj (Y_20\(theta,) Tj ( ) Tj (phi\)]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594.6 cm
+Q
+q
+1 0 0 1 60 543.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (The coherence modulation is proportional to Y_20. This feeds directly into the quadrupole of the temperature field. Because) Tj T* (the octopole couples to the quadrupole through the coherence field's nonlinear exponential structure \(the next term in the) Tj T* (expansion is proportional to Y_20^2, which projects onto l = 0 and l = 4, but the cross term with Y_30 preserves the) Tj T* (alignment axis\), both l = 2 and l = 3 share the same preferred direction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 536.6 cm
+Q
+q
+1 0 0 1 60 521.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The alignment is not a statistical accident. It is the angular signature of an anisotropic decoherence rate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514.6 cm
+Q
+q
+1 0 0 1 60 508.6 cm
+Q
+q
+1 0 0 1 60 504.6 cm
+Q
+q
+1 0 0 1 60 466.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. Hemispherical Power Asymmetry) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 454.6 cm
+Q
+q
+1 0 0 1 60 424.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.1 The Anomaly) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 414.6 cm
+Q
+q
+1 0 0 1 60 375.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The CMB power spectrum measured in the northern ecliptic hemisphere differs from that in the southern hemisphere at) Tj T* (approximately 3 sigma significance. The south has more power. This violates the cosmological principle's prediction of) Tj T* (statistical isotropy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 368.6 cm
+Q
+q
+1 0 0 1 60 338.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (4.2 Closure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 328.6 cm
+Q
+q
+1 0 0 1 60 313.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (A dipolar component in the coherence field produces exactly this effect. If gamma_eff has a dipole:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 306.6 cm
+Q
+q
+1 0 0 1 60 293.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_0) Tj ( ) Tj (+) Tj ( ) Tj (gamma_1) Tj ( ) Tj (*) Tj ( ) Tj (cos\(theta\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 285.8 cm
+Q
+q
+1 0 0 1 60 270.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (then the coherence amplitude differs between hemispheres:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 263.8 cm
+Q
+q
+1 0 0 1 60 242.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_north) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (\(gamma_0) Tj ( ) Tj (+) Tj ( ) Tj (gamma_1\)\)) Tj  T* (C_south) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (\(gamma_0) Tj ( ) Tj (-) Tj ( ) Tj (gamma_1\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 234.2 cm
+Q
+q
+1 0 0 1 60 207.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The hemisphere with lower gamma_eff \(lower decoherence rate\) retains more coherence and therefore more correlated) Tj T* (power. The asymmetry amplitude is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 200.2 cm
+Q
+q
+1 0 0 1 60 178.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (A) Tj ( ) Tj (=) Tj ( ) Tj (\(C_south) Tj ( ) Tj (-) Tj ( ) Tj (C_north\)) Tj ( ) Tj (/) Tj ( ) Tj (\(C_south) Tj ( ) Tj (+) Tj ( ) Tj (C_north\)) Tj  T* ( ) Tj ( ) Tj (=) Tj ( ) Tj (tanh\(alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 170.6 cm
+Q
+q
+1 0 0 1 60 131.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (For the observed asymmetry A ~ 0.07, this requires alpha * gamma_1 ~ 0.07, a small dipolar perturbation on the) Tj T* (decoherence rate. This is consistent with a bulk flow or tidal field at the scale of the observable universe modulating) Tj T* (gamma_eff at the percent level.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 124.6 cm
+Q
+q
+1 0 0 1 60 118.6 cm
+Q
+q
+1 0 0 1 60 114.6 cm
+Q
+q
+1 0 0 1 60 76.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Parity Asymmetry) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 64.6 cm
+Q
  
 
 Q
@@ -603,27 +1035,27 @@ Q
 
 endstream
 endobj
-17 0 obj
+18 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-18 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 19 0 obj
 <<
-/Contents 20 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -642,10 +1074,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 21 0 R
+/F1-0 22 0 R
 /F2 8 0 R
-/F2-0 22 0 R
+/F2-0 23 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -657,81 +1090,240 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-20 0 obj
+21 0 obj
 <<
-/Length 4607
+/Length 6480
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primor) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primordial ) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (tidal field at the scale of the observable universe modulating gamma_eff at the) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (percent level.) Tj T* ET
-.5 w
-n 54 679.6 m 558 679.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 651.6 Tm (5. Parity Asymmetry) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 625.6 Tm (5.1 The Anomaly) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 606.6 Tm (At low multipoles \(l < 30\), odd-parity multipoles \(l = 3, 5, 7, ...\) carry) Tj T* ET
-BT 1 0 0 1 54 594.6 Tm (systematically more power than even-parity multipoles \(l = 2, 4, 6, ...\). The) Tj T* ET
-BT 1 0 0 1 54 582.6 Tm (significance is approximately 2.5 sigma. No mechanism within LCDM produces a parity) Tj T* ET
-BT 1 0 0 1 54 570.6 Tm (preference.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 548.6 Tm (5.2 Closure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 529.6 Tm (Even-l spherical harmonics have a nodal plane at the equator and additional nodes) Tj T* ET
-BT 1 0 0 1 54 517.6 Tm (that create symmetric patterns across the sky. These symmetric nodes provide more) Tj T* ET
-BT 1 0 0 1 54 505.6 Tm (surface area where the coherence field couples to the environment, because at each) Tj T* ET
-BT 1 0 0 1 54 493.6 Tm (node the field passes through zero and the local gradient is maximal. Gradients) Tj T* ET
-BT 1 0 0 1 54 481.6 Tm (drive decoherence.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 463.6 Tm (The decoherence rate for mode l is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 441.6 Tm (gamma_eff\(l\) = gamma_0 + delta_gamma * N_nodes\(l\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 421.6 Tm (where N_nodes\(l\) is the number of nodal surfaces. For even l, the equatorial node) Tj T* ET
-BT 1 0 0 1 54 409.6 Tm (adds one additional nodal surface compared to the adjacent odd l:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 387.6 Tm (N_nodes\(even l\) = N_nodes\(odd l\) + 1) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 367.6 Tm (Therefore:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 345.6 Tm (C_even = C_0 * exp\(-alpha * \(gamma_0 + delta_gamma * \(N + 1\)\)\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 335.6 Tm (C_odd  = C_0 * exp\(-alpha * \(gamma_0 + delta_gamma * N\)\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 325.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 315.6 Tm (C_odd / C_even = exp\(alpha * delta_gamma\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 295.6 Tm (The power ratio scales as \(C_odd / C_even\)^2 = exp\(2 * alpha * delta_gamma\). For the) Tj T* ET
-BT 1 0 0 1 54 283.6 Tm (observed excess of roughly 20% in odd-mode power:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 261.6 Tm (exp\(2 * alpha * delta_gamma\) ~ 1.2) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 251.6 Tm (=> alpha * delta_gamma ~ 0.09) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 231.6 Tm (Even modes are more damped because their symmetric node structure provides more) Tj T* ET
-BT 1 0 0 1 54 219.6 Tm (coupling surface for decoherence. Odd modes survive with more power. The parity) Tj T* ET
-BT 1 0 0 1 54 207.6 Tm (asymmetry is a direct measurement of gradient-driven decoherence.) Tj T* ET
-.5 w
-n 54 193.6 m 558 193.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 165.6 Tm (6. Lack of Large-Angle Correlations) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 139.6 Tm (6.1 The Anomaly) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 120.6 Tm (The two-point angular correlation function C\(theta\) of the CMB is observed to be) Tj T* ET
-BT 1 0 0 1 54 108.6 Tm (near zero for angular separations theta > 60 degrees. The statistic S_{1/2}, which) Tj T* ET
-BT 1 0 0 1 54 96.6 Tm (integrates C\(theta\)^2 from 60 to 180 degrees, is anomalously low: only 0.03% of LCDM) Tj T* ET
-BT 1 0 0 1 54 84.6 Tm (simulations produce a value this small.) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 714 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.1 The Anomaly) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 704 cm
+Q
+q
+1 0 0 1 60 677 cm
+q
+BT 1 0 0 1 0 15 Tm -0.055 Tw 12 TL /F1 9 Tf 0 0 0 rg (At low multipoles \(l < 30\), odd-parity multipoles \(l = 3, 5, 7, ...\) carry systematically more power than even-parity multipoles \(l) Tj T* 0 Tw (= 2, 4, 6, ...\). The significance is approximately 2.5 sigma. No mechanism within LCDM produces a parity preference.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 670 cm
+Q
+q
+1 0 0 1 60 640 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (5.2 Closure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 630 cm
+Q
+q
+1 0 0 1 60 591 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Even-l spherical harmonics have a nodal plane at the equator and additional nodes that create symmetric patterns across) Tj T* (the sky. These symmetric nodes provide more surface area where the coherence field couples to the environment, because) Tj T* (at each node the field passes through zero and the local gradient is maximal. Gradients drive decoherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 584 cm
+Q
+q
+1 0 0 1 60 569 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The decoherence rate for mode l is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 562 cm
+Q
+q
+1 0 0 1 60 549.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(l\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_0) Tj ( ) Tj (+) Tj ( ) Tj (delta_gamma) Tj ( ) Tj (*) Tj ( ) Tj (N_nodes\(l\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 541.2 cm
+Q
+q
+1 0 0 1 60 514.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (where N_nodes\(l\) is the number of nodal surfaces. For even l, the equatorial node adds one additional nodal surface) Tj T* (compared to the adjacent odd l:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 507.2 cm
+Q
+q
+1 0 0 1 60 494.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (N_nodes\(even) Tj ( ) Tj (l\)) Tj ( ) Tj (=) Tj ( ) Tj (N_nodes\(odd) Tj ( ) Tj (l\)) Tj ( ) Tj (+) Tj ( ) Tj (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 486.4 cm
+Q
+q
+1 0 0 1 60 471.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Therefore:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 464.4 cm
+Q
+q
+1 0 0 1 60 425.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_even) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (\(gamma_0) Tj ( ) Tj (+) Tj ( ) Tj (delta_gamma) Tj ( ) Tj (*) Tj ( ) Tj (\(N) Tj ( ) Tj (+) Tj ( ) Tj (1\)\)\)) Tj  T* (C_odd) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (\(gamma_0) Tj ( ) Tj (+) Tj ( ) Tj (delta_gamma) Tj ( ) Tj (*) Tj ( ) Tj (N\)\)) Tj  T*  T* (C_odd) Tj ( ) Tj (/) Tj ( ) Tj (C_even) Tj ( ) Tj (=) Tj ( ) Tj (exp\(alpha) Tj ( ) Tj (*) Tj ( ) Tj (delta_gamma\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 417.2 cm
+Q
+q
+1 0 0 1 60 390.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (The power ratio scales as \(C_odd / C_even\)^2 = exp\(2 ) Tj /F3 9 Tf (alpha ) Tj /F1 9 Tf (delta_gamma\). For the observed excess of roughly 20% in) Tj T* (odd-mode power:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 383.2 cm
+Q
+q
+1 0 0 1 60 361.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (exp\(2) Tj ( ) Tj (*) Tj ( ) Tj (alpha) Tj ( ) Tj (*) Tj ( ) Tj (delta_gamma\)) Tj ( ) Tj (~) Tj ( ) Tj (1.2) Tj  T* (=) Tj (>) Tj ( ) Tj (alpha) Tj ( ) Tj (*) Tj ( ) Tj (delta_gamma) Tj ( ) Tj (~) Tj ( ) Tj (0.09) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 353.6 cm
+Q
+q
+1 0 0 1 60 326.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Even modes are more damped because their symmetric node structure provides more coupling surface for decoherence.) Tj T* (Odd modes survive with more power. The parity asymmetry is a direct measurement of gradient-driven decoherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 319.6 cm
+Q
+q
+1 0 0 1 60 313.6 cm
+Q
+q
+1 0 0 1 60 309.6 cm
+Q
+q
+1 0 0 1 60 271.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Lack of Large-Angle Correlations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 259.6 cm
+Q
+q
+1 0 0 1 60 229.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.1 The Anomaly) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 219.6 cm
+Q
+q
+1 0 0 1 60 180.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The two-point angular correlation function C\(theta\) of the CMB is observed to be near zero for angular separations theta >) Tj T* (60 degrees. The statistic S_{1/2}, which integrates C\(theta\)^2 from 60 to 180 degrees, is anomalously low: only 0.03% of) Tj T* (LCDM simulations produce a value this small.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 173.6 cm
+Q
+q
+1 0 0 1 60 143.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (6.2 Closure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 133.6 cm
+Q
+q
+1 0 0 1 60 106.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.123682 Tw (The coherence field has a finite correlation length xi at last scattering. Two points on the CMB sky separated by more than xi) Tj T* 0 Tw (were never coherently coupled. Their temperature fluctuations are therefore uncorrelated.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 99.6 cm
+Q
+q
+1 0 0 1 60 84.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence correlation function falls as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 77.6 cm
+Q
+q
+1 0 0 1 60 64.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (<) Tj (C\(x\)) Tj ( ) Tj (*) Tj ( ) Tj (C\(x'\)) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (C_0^2) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-|x) Tj ( ) Tj (-) Tj ( ) Tj (x'|) Tj ( ) Tj (/) Tj ( ) Tj (xi\)) Tj T* ET
+Q
+Q
  
 
 Q
@@ -794,27 +1386,27 @@ Q
 
 endstream
 endobj
-21 0 obj
+22 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-22 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 23 0 obj
 <<
-/Contents 24 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -833,10 +1425,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 25 0 R
+/F1-0 26 0 R
 /F2 8 0 R
-/F2-0 26 0 R
+/F2-0 27 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -848,82 +1441,257 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-24 0 obj
+25 0 obj
 <<
-/Length 4748
+/Length 6243
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primor) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primordial ) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (6.2 Closure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 686.6 Tm (The coherence field has a finite correlation length xi at last scattering. Two) Tj T* ET
-BT 1 0 0 1 54 674.6 Tm (points on the CMB sky separated by more than xi were never coherently coupled. Their) Tj T* ET
-BT 1 0 0 1 54 662.6 Tm (temperature fluctuations are therefore uncorrelated.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 644.6 Tm (The coherence correlation function falls as:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 622.6 Tm (<C\(x\) * C\(x'\)> = C_0^2 * exp\(-|x - x'| / xi\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 602.6 Tm (At last scattering, the coherence length xi projects onto an angular scale:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 580.6 Tm (theta_xi = xi / D_LSS) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 560.6 Tm (where D_LSS is the comoving distance to last scattering. The observed cutoff at) Tj T* ET
-BT 1 0 0 1 54 548.6 Tm (theta ~ 60 degrees gives:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 526.6 Tm (xi ~ 60 deg * \(pi/180\) * D_LSS) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 516.6 Tm (xi ~ 1.05 * D_LSS) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 496.6 Tm (This is the coherence horizon: the maximum distance over which the primordial) Tj T* ET
-BT 1 0 0 1 54 484.6 Tm (coherence field maintained phase correlations at last scattering. Beyond this scale,) Tj T* ET
-BT 1 0 0 1 54 472.6 Tm (the field had fully decohered before recombination. The lack of large-angle) Tj T* ET
-BT 1 0 0 1 54 460.6 Tm (correlations is not an anomaly. It is the direct measurement of the primordial) Tj T* ET
-BT 1 0 0 1 54 448.6 Tm (coherence length.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 430.6 Tm (This provides an independent determination of xi that can be cross-checked against) Tj T* ET
-BT 1 0 0 1 54 418.6 Tm (the coherence scales derived from large-scale structure \(Paper 104\).) Tj T* ET
-.5 w
-n 54 404.6 m 558 404.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 376.6 Tm (7. Anomalous Lensing Amplitude) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 350.6 Tm (7.1 The Anomaly) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 331.6 Tm (The Planck analysis of CMB lensing finds A_L = 1.18 +/- 0.065, inconsistent with the) Tj T* ET
-BT 1 0 0 1 54 319.6 Tm (LCDM prediction A_L = 1 at approximately 2.8 sigma. A_L parameterizes the amplitude) Tj T* ET
-BT 1 0 0 1 54 307.6 Tm (of the lensing potential power spectrum. A_L > 1 implies more lensing than matter) Tj T* ET
-BT 1 0 0 1 54 295.6 Tm (alone can provide.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 273.6 Tm (7.2 Closure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 254.6 Tm (The lensing potential is sourced by the gravitational potential along the line of) Tj T* ET
-BT 1 0 0 1 54 242.6 Tm (sight. If the coherence field carries energy density, it contributes to the total) Tj T* ET
-BT 1 0 0 1 54 230.6 Tm (potential:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 208.6 Tm (Phi_total = Phi_matter + Phi_coherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 188.6 Tm (The coherence contribution to the lensing amplitude is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 166.6 Tm (A_L = A_matter + A_coherence) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 156.6 Tm (    = 1 + \(rho_coherence / rho_matter\) * f\(z\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 136.6 Tm (where f\(z\) encodes the redshift weighting of the lensing kernel. The coherence) Tj T* ET
-BT 1 0 0 1 54 124.6 Tm (energy density is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 102.6 Tm (rho_coherence = \(1/2\) * C_0^2 * exp\(-2 * alpha * gamma_eff\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 82.6 Tm (In void regions where gamma_eff is small, rho_coherence is maximal. Voids dominate) Tj T* ET
-BT 1 0 0 1 54 70.6 Tm (the volume of the universe. The volume-weighted coherence energy density provides an) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At last scattering, the coherence length xi projects onto an angular scale:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 706 cm
+Q
+q
+1 0 0 1 60 693.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (theta_xi) Tj ( ) Tj (=) Tj ( ) Tj (xi) Tj ( ) Tj (/) Tj ( ) Tj (D_LSS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 685.2 cm
+Q
+q
+1 0 0 1 60 670.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where D_LSS is the comoving distance to last scattering. The observed cutoff at theta ~ 60 degrees gives:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 663.2 cm
+Q
+q
+1 0 0 1 60 641.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (xi) Tj ( ) Tj (~) Tj ( ) Tj (60) Tj ( ) Tj (deg) Tj ( ) Tj (*) Tj ( ) Tj (\(pi/180\)) Tj ( ) Tj (*) Tj ( ) Tj (D_LSS) Tj  T* (xi) Tj ( ) Tj (~) Tj ( ) Tj (1.05) Tj ( ) Tj (*) Tj ( ) Tj (D_LSS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633.6 cm
+Q
+q
+1 0 0 1 60 594.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is the coherence horizon: the maximum distance over which the primordial coherence field maintained phase) Tj T* (correlations at last scattering. Beyond this scale, the field had fully decohered before recombination. The lack of large-angle) Tj T* (correlations is not an anomaly. It is the direct measurement of the primordial coherence length.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 587.6 cm
+Q
+q
+1 0 0 1 60 560.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This provides an independent determination of xi that can be cross-checked against the coherence scales derived from) Tj T* (large-scale structure \(Paper 104\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 553.6 cm
+Q
+q
+1 0 0 1 60 547.6 cm
+Q
+q
+1 0 0 1 60 543.6 cm
+Q
+q
+1 0 0 1 60 505.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. Anomalous Lensing Amplitude) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 493.6 cm
+Q
+q
+1 0 0 1 60 463.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.1 The Anomaly) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453.6 cm
+Q
+q
+1 0 0 1 60 414.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F1 9 Tf 0 0 0 rg (The Planck analysis of CMB lensing finds A_L = 1.18 +/- 0.065, inconsistent with the LCDM prediction A_L = 1 at) Tj T* (approximately 2.8 sigma. A_L parameterizes the amplitude of the lensing potential power spectrum. A_L > 1 implies more) Tj T* (lensing than matter alone can provide.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 407.6 cm
+Q
+q
+1 0 0 1 60 377.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (7.2 Closure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 367.6 cm
+Q
+q
+1 0 0 1 60 340.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The lensing potential is sourced by the gravitational potential along the line of sight. If the coherence field carries energy) Tj T* (density, it contributes to the total potential:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 333.6 cm
+Q
+q
+1 0 0 1 60 320.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Phi_total) Tj ( ) Tj (=) Tj ( ) Tj (Phi_matter) Tj ( ) Tj (+) Tj ( ) Tj (Phi_coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 312.8 cm
+Q
+q
+1 0 0 1 60 297.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence contribution to the lensing amplitude is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 290.8 cm
+Q
+q
+1 0 0 1 60 269.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (A_L) Tj ( ) Tj (=) Tj ( ) Tj (A_matter) Tj ( ) Tj (+) Tj ( ) Tj (A_coherence) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (\(rho_coherence) Tj ( ) Tj (/) Tj ( ) Tj (rho_matter\)) Tj ( ) Tj (*) Tj ( ) Tj (f\(z\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 261.2 cm
+Q
+q
+1 0 0 1 60 246.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where f\(z\) encodes the redshift weighting of the lensing kernel. The coherence energy density is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 239.2 cm
+Q
+q
+1 0 0 1 60 226.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho_coherence) Tj ( ) Tj (=) Tj ( ) Tj (\(1/2\)) Tj ( ) Tj (*) Tj ( ) Tj (C_0^2) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-2) Tj ( ) Tj (*) Tj ( ) Tj (alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 218.4 cm
+Q
+q
+1 0 0 1 60 191.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (In void regions where gamma_eff is small, rho_coherence is maximal. Voids dominate the volume of the universe. The) Tj T* (volume-weighted coherence energy density provides an additional lensing potential that is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 184.4 cm
+Q
+q
+1 0 0 1 60 171.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (A_coherence) Tj ( ) Tj (=) Tj ( ) Tj (<) Tj (rho_coherence) Tj (>) Tj (_V) Tj ( ) Tj (/) Tj ( ) Tj (<) Tj (rho_matter) Tj (>) Tj (_V) Tj ( ) Tj (~) Tj ( ) Tj (0.18) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 163.6 cm
+Q
+q
+1 0 0 1 60 136.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (yielding A_L ~ 1.18, matching the Planck measurement. The excess lensing is the gravitational signature of the residual) Tj T* (coherence field in cosmic voids.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 129.6 cm
+Q
+q
+1 0 0 1 60 123.6 cm
+Q
+q
+1 0 0 1 60 119.6 cm
+Q
+q
+1 0 0 1 60 81.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Unified Interpretation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 69.6 cm
+Q
  
 
 Q
@@ -986,27 +1754,27 @@ Q
 
 endstream
 endobj
-25 0 obj
+26 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-26 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 27 0 obj
 <<
-/Contents 28 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1025,10 +1793,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 29 0 R
+/F1-0 30 0 R
 /F2 8 0 R
-/F2-0 30 0 R
+/F2-0 31 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1040,90 +1809,277 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-28 0 obj
+29 0 obj
 <<
-/Length 5603
+/Length 7141
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primor) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primordial ) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (additional lensing potential that is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 683.6 Tm (A_coherence = <rho_coherence>_V / <rho_matter>_V ~ 0.18) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (yielding A_L ~ 1.18, matching the Planck measurement. The excess lensing is the) Tj T* ET
-BT 1 0 0 1 54 651.6 Tm (gravitational signature of the residual coherence field in cosmic voids.) Tj T* ET
-.5 w
-n 54 637.6 m 558 637.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 609.6 Tm (8. Unified Interpretation) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 587.6 Tm (The six anomalies decompose as follows under the coherence field:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 569.6 Tm (| Anomaly | Coherence Mechanism | Key Parameter |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 559.6 Tm (|---|---|---|) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 549.6 Tm (| Cold Spot | Void coherence amplifies ISW | C_void / C_avg ~ 4 |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 539.6 Tm (| Axis of Evil | Anisotropic gamma_eff -> aligned modes | gamma_2 / gamma_0 |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 529.6 Tm (| Hemispherical asymmetry | Dipolar gamma_eff | alpha * gamma_1 ~ 0.07 |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 519.6 Tm (| Parity asymmetry | Symmetric nodes -> more decoherence | alpha * delta_gamma ~ 0.09 |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 509.6 Tm (| No large-angle correlation | Finite coherence length | xi ~ 1.05 * D_LSS |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 499.6 Tm (| A_L > 1 | Coherence energy density lenses | A_coh ~ 0.18 |) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 483.6 Tm (All six follow from a single equation: C = C_0 * exp\(-alpha * gamma_eff\). The) Tj T* ET
-BT 1 0 0 1 54 471.6 Tm (coherence field at last scattering had:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 453.6 Tm (1. A finite correlation length \(~60 degrees projected\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 441.6 Tm (2. A weak dipolar and quadrupolar anisotropy in gamma_eff.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 429.6 Tm (3. Mode-dependent decoherence rates governed by nodal structure.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 417.6 Tm (4. Energy density sufficient to contribute ~18% additional lensing.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 399.6 Tm (These are not six separate explanations. They are six measurements of one field. The) Tj T* ET
-BT 1 0 0 1 54 387.6 Tm (CMB anomalies are coherence fossils: the imprint of the primordial coherence field) Tj T* ET
-BT 1 0 0 1 54 375.6 Tm (frozen into the microwave sky at recombination.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 357.6 Tm (This extends the AIIT-THRESI framework from laboratory and biological scales \(Papers) Tj T* ET
-BT 1 0 0 1 54 345.6 Tm (1-109\) to cosmological scales. The same exponential decay law that governs) Tj T* ET
-BT 1 0 0 1 54 333.6 Tm (microtubule decoherence \(Paper 62\), determines the biological critical temperature) Tj T* ET
-BT 1 0 0 1 54 321.6 Tm (\(Paper 104\), and fixes the universal constant W = 0.9394 \(Paper 100\) also structures) Tj T* ET
-BT 1 0 0 1 54 309.6 Tm (the CMB.) Tj T* ET
-.5 w
-n 54 295.6 m 558 295.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 267.6 Tm (9. Predictions) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 245.6 Tm (The coherence fossil interpretation generates five testable predictions:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 227.6 Tm (P1. Cold Spot profile. The temperature profile of the Cold Spot should follow the) Tj T* ET
-BT 1 0 0 1 54 215.6 Tm (void density profile convolved with the coherence amplification factor \(1 +) Tj T* ET
-BT 1 0 0 1 54 203.6 Tm (C_void/C_avg\). Future surveys mapping the Eridanus void in three dimensions will) Tj T* ET
-BT 1 0 0 1 54 191.6 Tm (test this.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 173.6 Tm (P2. Axis stability. The preferred axis should correlate with the large-scale tidal) Tj T* ET
-BT 1 0 0 1 54 161.6 Tm (field measured by galaxy surveys. If gamma_eff anisotropy is tied to structure, the) Tj T* ET
-BT 1 0 0 1 54 149.6 Tm (axis must align with the tidal quadrupole, not merely the ecliptic.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 131.6 Tm (P3. Scale-dependent asymmetry. The hemispherical asymmetry amplitude A\(l\) should) Tj T* ET
-BT 1 0 0 1 54 119.6 Tm (decrease with increasing l as higher multipoles probe smaller scales where the) Tj T* ET
-BT 1 0 0 1 54 107.6 Tm (coherence field has fully decohered. Specifically, A\(l\) ~ exp\(-l / l_c\) where l_c is) Tj T* ET
-BT 1 0 0 1 54 95.6 Tm (set by the coherence decay scale.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 77.6 Tm (P4. Parity ratio convergence. The odd/even power ratio should converge to unity for) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The six anomalies decompose as follows under the coherence field:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 700.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Anomaly | Coherence Mechanism | Key Parameter |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 687.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (|---|---|---|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 674.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Cold Spot | Void coherence amplifies ISW | C_void / C_avg ~ 4 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 661.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Axis of Evil | Anisotropic gamma_eff -) Tj (> aligned modes | gamma_2 / gamma_0 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 649 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Hemispherical asymmetry | Dipolar gamma_eff | alpha * gamma_1 ~ 0.07 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 636.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| Parity asymmetry | Symmetric nodes -) Tj (> more decoherence | alpha * delta_gamma ~ 0.09 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 623.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| No large-angle correlation | Finite coherence length | xi ~ 1.05 * D_LSS |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 610.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| A_L > 1 | Coherence energy density lenses | A_coh ~ 0.18 |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 602.6 cm
+Q
+q
+1 0 0 1 60 587.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (All six follow from a single equation: C = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\). The coherence field at last scattering had:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580.6 cm
+Q
+q
+1 0 0 1 60 565.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. A finite correlation length \(~60 degrees projected\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 550.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. A weak dipolar and quadrupolar anisotropy in gamma_eff.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 535.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. Mode-dependent decoherence rates governed by nodal structure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 520.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. Energy density sufficient to contribute ~18% additional lensing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 513.6 cm
+Q
+q
+1 0 0 1 60 486.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (These are not six separate explanations. They are six measurements of one field. The CMB anomalies are coherence) Tj T* (fossils: the imprint of the primordial coherence field frozen into the microwave sky at recombination.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 479.6 cm
+Q
+q
+1 0 0 1 60 440.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This extends the AIIT-THRESI framework from laboratory and biological scales \(Papers 1-109\) to cosmological scales. The) Tj T* (same exponential decay law that governs microtubule decoherence \(Paper 62\), determines the biological critical) Tj T* (temperature \(Paper 104\), and fixes the universal constant W = 0.9394 \(Paper 100\) also structures the CMB.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433.6 cm
+Q
+q
+1 0 0 1 60 427.6 cm
+Q
+q
+1 0 0 1 60 423.6 cm
+Q
+q
+1 0 0 1 60 385.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 373.6 cm
+Q
+q
+1 0 0 1 60 358.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence fossil interpretation generates five testable predictions:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 351.6 cm
+Q
+q
+1 0 0 1 60 312.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (P1. Cold Spot profile.) Tj /F1 9 Tf ( The temperature profile of the Cold Spot should follow the void density profile convolved with the) Tj T* (coherence amplification factor \(1 + C_void/C_avg\). Future surveys mapping the Eridanus void in three dimensions will test) Tj T* (this.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 305.6 cm
+Q
+q
+1 0 0 1 60 278.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (P2. Axis stability.) Tj /F1 9 Tf ( The preferred axis should correlate with the large-scale tidal field measured by galaxy surveys. If) Tj T* (gamma_eff anisotropy is tied to structure, the axis must align with the tidal quadrupole, not merely the ecliptic.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 271.6 cm
+Q
+q
+1 0 0 1 60 232.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (P3. Scale-dependent asymmetry.) Tj /F1 9 Tf ( The hemispherical asymmetry amplitude A\(l\) should decrease with increasing l as) Tj T* (higher multipoles probe smaller scales where the coherence field has fully decohered. Specifically, A\(l\) ~ exp\(-l / l_c\) where) Tj T* (l_c is set by the coherence decay scale.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 225.6 cm
+Q
+q
+1 0 0 1 60 198.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (P4. Parity ratio convergence.) Tj /F1 9 Tf ( The odd/even power ratio should converge to unity for l > l_p where l_p marks the multipole) Tj T* (at which additional nodes no longer increase decoherence \(saturated regime\). We predict l_p ~ 25-35.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 191.6 cm
+Q
+q
+1 0 0 1 60 164.6 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (P5. Void lensing excess.) Tj /F1 9 Tf ( The excess lensing \(A_L - 1\) should correlate spatially with the void distribution along the line of) Tj T* (sight. Stacking CMB lensing maps on known void catalogs should reveal A_coherence concentrated in void directions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 157.6 cm
+Q
+q
+1 0 0 1 60 151.6 cm
+Q
+q
+1 0 0 1 60 147.6 cm
+Q
+q
+1 0 0 1 60 109.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (10. Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 97.6 cm
+Q
+q
+1 0 0 1 60 70.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The six large-angle CMB anomalies are not statistical flukes. They are the fossilized imprint of a coherence field that) Tj T* (permeated the universe at last scattering. Each anomaly maps to a specific property of this field: its correlation length, its) Tj T* ET
+Q
+Q
  
 
 Q
@@ -1186,7 +2142,7 @@ Q
 
 endstream
 endobj
-29 0 obj
+30 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
@@ -1195,7 +2151,7 @@ endobj
 /Type /Font
 >>
 endobj
-30 0 obj
+31 0 obj
 <<
 /BaseFont /Courier-Bold
 /Encoding /WinAnsiEncoding
@@ -1204,9 +2160,9 @@ endobj
 /Type /Font
 >>
 endobj
-31 0 obj
+32 0 obj
 <<
-/Contents 32 0 R
+/Contents 33 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1225,10 +2181,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 33 0 R
+/F1-0 34 0 R
 /F2 8 0 R
-/F2-0 34 0 R
+/F2-0 35 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1240,66 +2197,120 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-32 0 obj
+33 0 obj
 <<
-/Length 4028
+/Length 3346
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primor) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Paper 117: CMB Anomalies as Coherence Fossils: Six Signatures of the Primordial ) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (l > l_p where l_p marks the multipole at which additional nodes no longer increase) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (decoherence \(saturated regime\). We predict l_p ~ 25-35.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 675.6 Tm (P5. Void lensing excess. The excess lensing \(A_L - 1\) should correlate spatially) Tj T* ET
-BT 1 0 0 1 54 663.6 Tm (with the void distribution along the line of sight. Stacking CMB lensing maps on) Tj T* ET
-BT 1 0 0 1 54 651.6 Tm (known void catalogs should reveal A_coherence concentrated in void directions.) Tj T* ET
-.5 w
-n 54 637.6 m 558 637.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 609.6 Tm (10. Conclusion) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 587.6 Tm (The six large-angle CMB anomalies are not statistical flukes. They are the) Tj T* ET
-BT 1 0 0 1 54 575.6 Tm (fossilized imprint of a coherence field that permeated the universe at last) Tj T* ET
-BT 1 0 0 1 54 563.6 Tm (scattering. Each anomaly maps to a specific property of this field: its correlation) Tj T* ET
-BT 1 0 0 1 54 551.6 Tm (length, its anisotropy, its mode-dependent decay rate, and its energy density. All) Tj T* ET
-BT 1 0 0 1 54 539.6 Tm (six closures follow from a single equation with no new free parameters.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 521.6 Tm (The CMB, read through C = C_0 * exp\(-alpha * gamma_eff\), is not merely a snapshot of) Tj T* ET
-BT 1 0 0 1 54 509.6 Tm (primordial density perturbations. It is a coherence fossil record. The anomalies are) Tj T* ET
-BT 1 0 0 1 54 497.6 Tm (the message.) Tj T* ET
-.5 w
-n 54 483.6 m 558 483.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 455.6 Tm (References) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 433.6 Tm (- Paper 62, Wike \(2025\). Derivation of C = C_0 * exp\(-alpha * gamma_eff\) from) Tj T* ET
-BT 1 0 0 1 64 421.6 Tm (Lindblad master equation.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 409.6 Tm (- Paper 100, Wike \(2026\). Universal constant W = 0.9394 from three constraints;) Tj T* ET
-BT 1 0 0 1 64 397.6 Tm (Schumann resonance amplification.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 385.6 Tm (- Paper 104, Wike \(2026\). T_c = 337 K from mean-field + Ginzburg criterion; large-) Tj T* ET
-BT 1 0 0 1 64 373.6 Tm (scale coherence calibration.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 361.6 Tm (- Land, K. and Magueijo, J. \(2005\). Examination of evidence for a preferred axis) Tj T* ET
-BT 1 0 0 1 64 349.6 Tm (in the cosmic microwave background. Physical Review Letters 95, 071301.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 337.6 Tm (- Planck Collaboration \(2020\). Planck 2018 results. VII. Isotropy and statistics.) Tj T* ET
-BT 1 0 0 1 64 325.6 Tm (Astronomy and Astrophysics 641, A7.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 313.6 Tm (- Planck Collaboration \(2020\). Planck 2018 results. VIII. Gravitational lensing.) Tj T* ET
-BT 1 0 0 1 64 301.6 Tm (Astronomy and Astrophysics 641, A8.) Tj T* ET
-.5 w
-n 54 287.6 m 558 287.6 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 265.6 Tm (*AIIT-THRESI Paper 117. All theoretical claims grounded in the Wike Coherence Law.) Tj T* ET
-BT 1 0 0 1 54 253.6 Tm (Experimental predictions in Section 9.*) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.116684 Tw (anisotropy, its mode-dependent decay rate, and its energy density. All six closures follow from a single equation with no new) Tj T* 0 Tw (free parameters.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 701 cm
+Q
+q
+1 0 0 1 60 674 cm
+q
+BT 1 0 0 1 0 15 Tm -0.02265 Tw 12 TL /F1 9 Tf 0 0 0 rg (The CMB, read through C = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\), is not merely a snapshot of primordial density perturbations. It is a) Tj T* 0 Tw (coherence fossil record. The anomalies are the message.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 667 cm
+Q
+q
+1 0 0 1 60 661 cm
+Q
+q
+1 0 0 1 60 657 cm
+Q
+q
+1 0 0 1 60 619 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 607 cm
+Q
+q
+1 0 0 1 60 592 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Paper 62, Wike \(2025\). Derivation of C = C_0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\) from Lindblad master equation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 577 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Paper 100, Wike \(2026\). Universal constant W = 0.9394 from three constraints; Schumann resonance amplification.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 562 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Paper 104, Wike \(2026\). T_c = 337 K from mean-field + Ginzburg criterion; large-scale coherence calibration.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 535 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (\177 Land, K. and Magueijo, J. \(2005\). Examination of evidence for a preferred axis in the cosmic microwave background.) Tj T* (Physical Review Letters 95, 071301.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 520 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Planck Collaboration \(2020\). Planck 2018 results. VII. Isotropy and statistics. Astronomy and Astrophysics 641, A7.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 505 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Planck Collaboration \(2020\). Planck 2018 results. VIII. Gravitational lensing. Astronomy and Astrophysics 641, A8.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 498 cm
+Q
+q
+1 0 0 1 60 492 cm
+Q
+q
+1 0 0 1 60 488 cm
+Q
+q
+1 0 0 1 60 473 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9 Tf 12 TL -0.012 Tw (AIIT-THRESI Paper 117. All theoretical claims grounded in the Wike Coherence Law. Experimental predictions in Section 9.) Tj T* 0 Tw ET
+Q
+Q
+q
+1 0 0 1 60 466 cm
+Q
  
 
 Q
@@ -1362,7 +2373,7 @@ Q
 
 endstream
 endobj
-33 0 obj
+34 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
@@ -1371,7 +2382,7 @@ endobj
 /Type /Font
 >>
 endobj
-34 0 obj
+35 0 obj
 <<
 /BaseFont /Courier-Bold
 /Encoding /WinAnsiEncoding
@@ -1381,48 +2392,49 @@ endobj
 >>
 endobj
 xref
-0 35
+0 36
 0000000000 65535 f 
 0000000015 00000 n 
 0000000214 00000 n 
 0000000315 00000 n 
 0000000364 00000 n 
-0000000724 00000 n 
-0000006033 00000 n 
-0000006140 00000 n 
-0000006247 00000 n 
-0000006357 00000 n 
-0000006467 00000 n 
-0000006573 00000 n 
-0000006937 00000 n 
-0000011628 00000 n 
-0000011736 00000 n 
-0000011847 00000 n 
-0000012211 00000 n 
-0000017145 00000 n 
-0000017253 00000 n 
-0000017364 00000 n 
-0000017728 00000 n 
-0000022388 00000 n 
-0000022496 00000 n 
-0000022607 00000 n 
-0000022971 00000 n 
-0000027772 00000 n 
-0000027880 00000 n 
-0000027991 00000 n 
-0000028355 00000 n 
-0000034011 00000 n 
-0000034119 00000 n 
-0000034230 00000 n 
-0000034594 00000 n 
-0000038675 00000 n 
-0000038783 00000 n 
+0000000735 00000 n 
+0000006641 00000 n 
+0000006748 00000 n 
+0000006855 00000 n 
+0000006967 00000 n 
+0000007077 00000 n 
+0000007193 00000 n 
+0000007299 00000 n 
+0000007674 00000 n 
+0000013711 00000 n 
+0000013819 00000 n 
+0000013930 00000 n 
+0000014305 00000 n 
+0000021051 00000 n 
+0000021159 00000 n 
+0000021270 00000 n 
+0000021645 00000 n 
+0000028178 00000 n 
+0000028286 00000 n 
+0000028397 00000 n 
+0000028772 00000 n 
+0000035068 00000 n 
+0000035176 00000 n 
+0000035287 00000 n 
+0000035662 00000 n 
+0000042856 00000 n 
+0000042964 00000 n 
+0000043075 00000 n 
+0000043450 00000 n 
+0000046849 00000 n 
+0000046957 00000 n 
 trailer
 <<
-/Size 35
+/Size 36
 /Root 3 0 R
 /Info 1 0 R
 >>
 startxref
-38894
+47068
 %%EOF

@@ -1,4 +1,4 @@
-%PDF-1.3
+%PDF-1.4
 %‚„œ”
 1 0 obj
 <<
@@ -11,8 +11,8 @@ endobj
 2 0 obj
 <<
 /Type /Pages
-/Count 9
-/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R 39 0 R ]
+/Count 8
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R 28 0 R 32 0 R 36 0 R ]
 >>
 endobj
 3 0 obj
@@ -46,6 +46,7 @@ endobj
 /F2 8 0 R
 /F2-0 9 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -59,74 +60,172 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5120
+/Length 5517
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 128 -- AIIT-THRESI Series) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Coherence Fossils in the Cosmic Web: Voids, Flows, and Impossible Structures) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F2 13 Tf 15.6 TL ET
-BT 1 0 0 1 54 697.6 Tm (Paper 128 -- AIIT-THRESI Series) Tj T* ET
-BT /F2 13 Tf 15.6 TL ET
-BT 1 0 0 1 54 663.6 Tm (Coherence Fossils in the Cosmic Web: Voids, Flows, and) Tj T* ET
-BT 1 0 0 1 54 647.6 Tm (Impossible Structures) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 621.6 Tm (Rhet Dillard Wike) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 609.6 Tm (Council Hill, Oklahoma) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 597.6 Tm (April 1, 2026) Tj T* ET
-.5 w
-n 54 583.6 m 558 583.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 555.6 Tm (Abstract) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 533.6 Tm (The large-scale structure of the universe contains features that Lambda-CDM) Tj T* ET
-BT 1 0 0 1 54 521.6 Tm (cosmology cannot explain: voids too large, quasar groups too extended, bulk flows) Tj T* ET
-BT 1 0 0 1 54 509.6 Tm (too fast, spin alignments too correlated, and dipoles that disagree. Ten anomalies) Tj T* ET
-BT 1 0 0 1 54 497.6 Tm (spanning scales from individual galaxies to the 1.7 Gpc Giant GRB Ring are resolved) Tj T* ET
-BT 1 0 0 1 54 485.6 Tm (through the vacuum coherence function C = C0 x exp\(-alpha x gamma_eff\). Each anomaly) Tj T* ET
-BT 1 0 0 1 54 473.6 Tm (is identified as a coherence fossil -- a relic of the primordial high-coherence) Tj T* ET
-BT 1 0 0 1 54 461.6 Tm (state preserved in the geometry, kinematics, or composition of cosmic structure. The) Tj T* ET
-BT 1 0 0 1 54 449.6 Tm (KBC Void is a self-stabilizing low-gamma_eff region. Large Quasar Groups are fossils) Tj T* ET
-BT 1 0 0 1 54 437.6 Tm (of primordial coherence domains exceeding 370 Mpc. The Giant GRB Ring traces a) Tj T* ET
-BT 1 0 0 1 54 425.6 Tm (spherical decoherence front. Anomalous bulk flows record coherent velocity memory.) Tj T* ET
-BT 1 0 0 1 54 413.6 Tm (Galaxy spin alignments preserve primordial angular momentum correlations. The cosmic) Tj T* ET
-BT 1 0 0 1 54 401.6 Tm (dipole tension, missing galactic baryons, Lyman-alpha blobs, primordial magnetic) Tj T* ET
-BT 1 0 0 1 54 389.6 Tm (fields, and the cosmic coincidence problem each yield to the same principle: the) Tj T* ET
-BT 1 0 0 1 54 377.6 Tm (universe remembers its coherent past, and these memories are written into its) Tj T* ET
-BT 1 0 0 1 54 365.6 Tm (largest structures. This paper extends Papers 120 \(Structure Formation\), 84 \(Z2) Tj T* ET
-BT 1 0 0 1 54 353.6 Tm (Symmetry\), and 5 \(REQMT\) in the AIIT-THRESI series.) Tj T* ET
-.5 w
-n 54 339.6 m 558 339.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 311.6 Tm (1. The Coherence Fossil Concept) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 285.6 Tm (1.1 Fossils in the Cosmic Web) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 266.6 Tm (A fossil in geology is a structure that preserves information about conditions that) Tj T* ET
-BT 1 0 0 1 54 254.6 Tm (no longer exist. The same concept applies to cosmology. The early universe operated) Tj T* ET
-BT 1 0 0 1 54 242.6 Tm (at high coherence -- low gamma_eff, large C -- as established in Paper 120. As the) Tj T* ET
-BT 1 0 0 1 54 230.6 Tm (universe aged and baryonic complexity increased, gamma_eff rose and coherence) Tj T* ET
-BT 1 0 0 1 54 218.6 Tm (decayed. But the decay was not uniform. Regions of different density, composition,) Tj T* ET
-BT 1 0 0 1 54 206.6 Tm (and thermal history decohere at different rates. The resulting inhomogeneity in) Tj T* ET
-BT 1 0 0 1 54 194.6 Tm (decoherence history is written permanently into the large-scale structure.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 176.6 Tm (A coherence fossil is any large-scale feature whose properties -- size, geometry,) Tj T* ET
-BT 1 0 0 1 54 164.6 Tm (kinematics, composition -- cannot be explained by gravitational evolution under) Tj T* ET
-BT 1 0 0 1 54 152.6 Tm (constant physical laws but are natural consequences of spatially varying coherence) Tj T* ET
-BT 1 0 0 1 54 140.6 Tm (decay.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 118.6 Tm (1.2 The Primordial Coherence Length) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 99.6 Tm (The fundamental scale is the primordial coherence length xi_coherence, defined as) Tj T* ET
-BT 1 0 0 1 54 87.6 Tm (the maximum distance over which vacuum coherence was maintained in the early) Tj T* ET
-BT 1 0 0 1 54 75.6 Tm (universe before decoherence fragmented the state into independent domains:) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 125.072 0 Td (Paper 128 -- AIIT-THRESI Series) Tj T* -125.072 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 700 cm
+Q
+q
+1 0 0 1 60 656 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 16 Tf 22 TL 28.608 0 Td (Coherence Fossils in the Cosmic Web: Voids, Flows, and) Tj T* 133.368 0 Td (Impossible Structures) Tj T* -161.976 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+Q
+q
+1 0 0 1 60 631 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Rhet Dillard Wike) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Council Hill, Oklahoma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 601 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (April 1, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 594 cm
+Q
+q
+1 0 0 1 60 588 cm
+Q
+q
+1 0 0 1 60 584 cm
+Q
+q
+1 0 0 1 60 546 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 534 cm
+Q
+q
+1 0 0 1 60 399 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 123 Tm /F1 9 Tf 12 TL (The large-scale structure of the universe contains features that Lambda-CDM cosmology cannot explain: voids too large,) Tj T* (quasar groups too extended, bulk flows too fast, spin alignments too correlated, and dipoles that disagree. Ten anomalies) Tj T* (spanning scales from individual galaxies to the 1.7 Gpc Giant GRB Ring are resolved through the vacuum coherence) Tj T* (function C = C0 x exp\(-alpha x gamma_eff\). Each anomaly is identified as a coherence fossil -- a relic of the primordial) Tj T* (high-coherence state preserved in the geometry, kinematics, or composition of cosmic structure. The KBC Void is a) Tj T* (self-stabilizing low-gamma_eff region. Large Quasar Groups are fossils of primordial coherence domains exceeding 370) Tj T* (Mpc. The Giant GRB Ring traces a spherical decoherence front. Anomalous bulk flows record coherent velocity memory.) Tj T* (Galaxy spin alignments preserve primordial angular momentum correlations. The cosmic dipole tension, missing galactic) Tj T* (baryons, Lyman-alpha blobs, primordial magnetic fields, and the cosmic coincidence problem each yield to the same) Tj T* (principle: the universe remembers its coherent past, and these memories are written into its largest structures. This paper) Tj T* (extends Papers 120 \(Structure Formation\), 84 \(Z2 Symmetry\), and 5 \(REQMT\) in the AIIT-THRESI series.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 392 cm
+Q
+q
+1 0 0 1 60 386 cm
+Q
+q
+1 0 0 1 60 382 cm
+Q
+q
+1 0 0 1 60 344 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (1. The Coherence Fossil Concept) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 332 cm
+Q
+q
+1 0 0 1 60 302 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.1 Fossils in the Cosmic Web) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 292 cm
+Q
+q
+1 0 0 1 60 229 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 51 Tm /F1 9 Tf 12 TL (A fossil in geology is a structure that preserves information about conditions that no longer exist. The same concept applies) Tj T* (to cosmology. The early universe operated at high coherence -- low gamma_eff, large C -- as established in Paper 120. As) Tj T* (the universe aged and baryonic complexity increased, gamma_eff rose and coherence decayed. But the decay was not) Tj T* (uniform. Regions of different density, composition, and thermal history decohere at different rates. The resulting) Tj T* (inhomogeneity in decoherence history is written permanently into the large-scale structure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 222 cm
+Q
+q
+1 0 0 1 60 183 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (A coherence fossil is any large-scale feature whose properties -- size, geometry, kinematics, composition -- cannot be) Tj T* (explained by gravitational evolution under constant physical laws but are natural consequences of spatially varying) Tj T* (coherence decay.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 176 cm
+Q
+q
+1 0 0 1 60 146 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.2 The Primordial Coherence Length) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 136 cm
+Q
+q
+1 0 0 1 60 97 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The fundamental scale is the primordial coherence length xi_coherence, defined as the maximum distance over which) Tj T* (vacuum coherence was maintained in the early universe before decoherence fragmented the state into independent) Tj T* (domains:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 90 cm
+Q
+q
+1 0 0 1 60 77.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (xi_coherence\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (xi0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(t\)) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 69.2 cm
+Q
  
 
 Q
@@ -209,7 +308,7 @@ endobj
 endobj
 8 0 obj
 <<
-/BaseFont /Courier-Bold
+/BaseFont /Helvetica-Bold
 /Encoding /WinAnsiEncoding
 /Name /F2
 /Subtype /Type1
@@ -236,7 +335,16 @@ endobj
 endobj
 11 0 obj
 <<
-/Contents 12 0 R
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -255,10 +363,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 13 0 R
+/F1-0 14 0 R
 /F2 8 0 R
-/F2-0 14 0 R
+/F2-0 15 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -270,85 +379,197 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-12 0 obj
+13 0 obj
 <<
-/Length 5375
+/Length 6404
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 128 -- AIIT-THRESI Series) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Coherence Fossils in the Cosmic Web: Voids, Flows, and Impossible Structures) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 705.6 Tm (xi_coherence\(t\) = xi0 x exp\(-alpha x gamma_eff\(t\) x t\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 685.6 Tm (At early times, when gamma_eff was small and t was short, xi_coherence approached) Tj T* ET
-BT 1 0 0 1 54 673.6 Tm (xi0, which could exceed the particle horizon because coherence is not limited by the) Tj T* ET
-BT 1 0 0 1 54 661.6 Tm (speed of light -- it is a property of the vacuum state, not a signal. As the) Tj T* ET
-BT 1 0 0 1 54 649.6 Tm (universe evolved, xi_coherence shrank. The boundaries where coherence domains met) Tj T* ET
-BT 1 0 0 1 54 637.6 Tm (became sites of enhanced matter formation, and the interiors of domains retained) Tj T* ET
-BT 1 0 0 1 54 625.6 Tm (correlated properties -- velocities, angular momenta, electromagnetic fluctuations) Tj T* ET
-BT 1 0 0 1 54 613.6 Tm (-- as fossils.) Tj T* ET
-BT /F2 10 Tf 12 TL ET
-BT 1 0 0 1 54 591.6 Tm (1.3 The Decoherence Front) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 572.6 Tm (When gamma_eff at a given location first crosses the critical value gamma_c, a) Tj T* ET
-BT 1 0 0 1 54 560.6 Tm (decoherence phase transition occurs. For a spherical coherence domain of radius xi,) Tj T* ET
-BT 1 0 0 1 54 548.6 Tm (decoherence proceeds from the boundary inward \(because the boundary experiences) Tj T* ET
-BT 1 0 0 1 54 536.6 Tm (higher gamma_eff from interactions with adjacent domains\). This creates a spherical) Tj T* ET
-BT 1 0 0 1 54 524.6 Tm (decoherence front:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 502.6 Tm (R_front\(t\) = xi - v_decoherence x \(t - t_onset\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 492.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 482.6 Tm (v_decoherence = dR/dt = xi x alpha x \(dgamma_eff/dt\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 462.6 Tm (Matter formation is enhanced on this front because the phase transition from) Tj T* ET
-BT 1 0 0 1 54 450.6 Tm (coherent to classical releases energy and concentrates density perturbations. The) Tj T* ET
-BT 1 0 0 1 54 438.6 Tm (front is observable today as rings or shells of enhanced structure.) Tj T* ET
-.5 w
-n 54 424.6 m 558 424.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 396.6 Tm (2. The KBC Void) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 374.6 Tm (Anomaly. The Keenan-Barger-Cowie Void is a local underdensity of radius ~300 Mpc) Tj T* ET
-BT 1 0 0 1 54 362.6 Tm (\(diameter ~600 Mpc\) centered near our location. Its density contrast delta ~ -0.3 to) Tj T* ET
-BT 1 0 0 1 54 350.6 Tm (-0.5 is far larger than LCDM predicts for a void of this size. Standard cosmology) Tj T* ET
-BT 1 0 0 1 54 338.6 Tm (produces voids of this scale at less than 1% probability.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 320.6 Tm (Closure. The KBC Void is a self-stabilizing low-gamma_eff region. Low matter density) Tj T* ET
-BT 1 0 0 1 54 308.6 Tm (means low baryonic complexity, which means low gamma_eff, which means high residual) Tj T* ET
-BT 1 0 0 1 54 296.6 Tm (vacuum coherence. High coherence provides a repulsive effect -- the coherent vacuum) Tj T* ET
-BT 1 0 0 1 54 284.6 Tm (acts as a locally enhanced dark energy:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 262.6 Tm (P_coherence = -rho_vacuum x C^2) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 252.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 242.6 Tm (C = C0 x exp\(-alpha x gamma_eff\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 232.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 222.6 Tm (For low gamma_eff: C ~ C0, P_coherence ~ -rho_vacuum x C0^2) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 202.6 Tm (This negative pressure prevents matter from falling back into the void. The) Tj T* ET
-BT 1 0 0 1 54 190.6 Tm (mechanism is self-reinforcing:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 168.6 Tm (Low density --> low gamma_eff --> high C --> repulsive pressure --> lower density --> lower gamma_ef) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 148.6 Tm (This positive feedback loop drives voids to grow larger than LCDM predicts. The) Tj T* ET
-BT 1 0 0 1 54 136.6 Tm (process saturates when the void boundary reaches regions of sufficient density that) Tj T* ET
-BT 1 0 0 1 54 124.6 Tm (gamma_eff stays above gamma_c regardless of the interior coherence. The equilibrium) Tj T* ET
-BT 1 0 0 1 54 112.6 Tm (void size is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 90.6 Tm (R_void ~ xi_coherence\(t_formation\) x \(C0/C_boundary\)^\(1/3\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 70.6 Tm (For the KBC Void, R_void ~ 300 Mpc is consistent with a primordial coherence domain) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 672 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 51 Tm /F1 9 Tf 12 TL (At early times, when gamma_eff was small and t was short, xi_coherence approached xi0, which could exceed the particle) Tj T* (horizon because coherence is not limited by the speed of light -- it is a property of the vacuum state, not a signal. As the) Tj T* (universe evolved, xi_coherence shrank. The boundaries where coherence domains met became sites of enhanced matter) Tj T* (formation, and the interiors of domains retained correlated properties -- velocities, angular momenta, electromagnetic) Tj T* (fluctuations -- as fossils.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 665 cm
+Q
+q
+1 0 0 1 60 635 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 6 Tm /F2 12 Tf 18 TL (1.3 The Decoherence Front) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 625 cm
+Q
+q
+1 0 0 1 60 586 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (When gamma_eff at a given location first crosses the critical value gamma_c, a decoherence phase transition occurs. For a) Tj T* (spherical coherence domain of radius xi, decoherence proceeds from the boundary inward \(because the boundary) Tj T* (experiences higher gamma_eff from interactions with adjacent domains\). This creates a spherical decoherence front:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 579 cm
+Q
+q
+1 0 0 1 60 548.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (R_front\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (xi) Tj ( ) Tj (-) Tj ( ) Tj (v_decoherence) Tj ( ) Tj (x) Tj ( ) Tj (\(t) Tj ( ) Tj (-) Tj ( ) Tj (t_onset\)) Tj  T*  T* (v_decoherence) Tj ( ) Tj (=) Tj ( ) Tj (dR/dt) Tj ( ) Tj (=) Tj ( ) Tj (xi) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (\(dgamma_eff/dt\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540.6 cm
+Q
+q
+1 0 0 1 60 513.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Matter formation is enhanced on this front because the phase transition from coherent to classical releases energy and) Tj T* (concentrates density perturbations. The front is observable today as rings or shells of enhanced structure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 506.6 cm
+Q
+q
+1 0 0 1 60 500.6 cm
+Q
+q
+1 0 0 1 60 496.6 cm
+Q
+q
+1 0 0 1 60 458.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. The KBC Void) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 446.6 cm
+Q
+q
+1 0 0 1 60 407.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Anomaly.) Tj /F1 9 Tf ( The Keenan-Barger-Cowie Void is a local underdensity of radius ~300 Mpc \(diameter ~600 Mpc\) centered near) Tj T* (our location. Its density contrast delta ~ -0.3 to -0.5 is far larger than LCDM predicts for a void of this size. Standard) Tj T* (cosmology produces voids of this scale at less than 1% probability.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 400.6 cm
+Q
+q
+1 0 0 1 60 361.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( The KBC Void is a self-stabilizing low-gamma_eff region. Low matter density means low baryonic complexity,) Tj T* (which means low gamma_eff, which means high residual vacuum coherence. High coherence provides a repulsive effect --) Tj T* (the coherent vacuum acts as a locally enhanced dark energy:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 354.6 cm
+Q
+q
+1 0 0 1 60 306.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (P_coherence) Tj ( ) Tj (=) Tj ( ) Tj (-rho_vacuum) Tj ( ) Tj (x) Tj ( ) Tj (C^2) Tj  T*  T* (C) Tj ( ) Tj (=) Tj ( ) Tj (C0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj  T*  T* (For) Tj ( ) Tj (low) Tj ( ) Tj (gamma_eff:) Tj ( ) Tj (C) Tj ( ) Tj (~) Tj ( ) Tj (C0,) Tj ( ) Tj (P_coherence) Tj ( ) Tj (~) Tj ( ) Tj (-rho_vacuum) Tj ( ) Tj (x) Tj ( ) Tj (C0^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 298.6 cm
+Q
+q
+1 0 0 1 60 283.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This negative pressure prevents matter from falling back into the void. The mechanism is self-reinforcing:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 276.6 cm
+Q
+q
+1 0 0 1 60 255 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (Low) Tj ( ) Tj (density) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (low) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (high) Tj ( ) Tj (C) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (repulsive) Tj ( ) Tj (pressure) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (lower) Tj ( ) Tj (density) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (lower) Tj ( ) Tj (gamma_ef) Tj  T* (f) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 247 cm
+Q
+q
+1 0 0 1 60 208 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This positive feedback loop drives voids to grow larger than LCDM predicts. The process saturates when the void boundary) Tj T* (reaches regions of sufficient density that gamma_eff stays above gamma_c regardless of the interior coherence. The) Tj T* (equilibrium void size is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 201 cm
+Q
+q
+1 0 0 1 60 188.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (R_void) Tj ( ) Tj (~) Tj ( ) Tj (xi_coherence\(t_formation\)) Tj ( ) Tj (x) Tj ( ) Tj (\(C0/C_boundary\)^\(1/3\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 180.2 cm
+Q
+q
+1 0 0 1 60 153.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (For the KBC Void, R_void ~ 300 Mpc is consistent with a primordial coherence domain that entered the positive feedback) Tj T* (regime early.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 146.2 cm
+Q
+q
+1 0 0 1 60 140.2 cm
+Q
+q
+1 0 0 1 60 136.2 cm
+Q
+q
+1 0 0 1 60 98.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (3. Large Quasar Groups) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 86.2 cm
+Q
  
 
 Q
@@ -411,27 +632,27 @@ Q
 
 endstream
 endobj
-13 0 obj
+14 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-14 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 15 0 obj
 <<
-/Contents 16 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -450,10 +671,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 17 0 R
+/F1-0 18 0 R
 /F2 8 0 R
-/F2-0 18 0 R
+/F2-0 19 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -465,85 +687,200 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-16 0 obj
+17 0 obj
 <<
-/Length 5228
+/Length 7010
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 128 -- AIIT-THRESI Series) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Coherence Fossils in the Cosmic Web: Voids, Flows, and Impossible Structures) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (that entered the positive feedback regime early.) Tj T* ET
-.5 w
-n 54 691.6 m 558 691.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 663.6 Tm (3. Large Quasar Groups) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 641.6 Tm (Anomaly. The Huge-LQG \(Clowes-Campusano LQG\) spans ~500 Mpc. The cosmological) Tj T* ET
-BT 1 0 0 1 54 629.6 Tm (principle asserts homogeneity above ~370 Mpc \(the End of Greatness scale\). Multiple) Tj T* ET
-BT 1 0 0 1 54 617.6 Tm (LQGs exceeding this limit have been identified. They are not gravitationally bound,) Tj T* ET
-BT 1 0 0 1 54 605.6 Tm (yet they exist as statistically significant overdensities.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 587.6 Tm (Closure. Large Quasar Groups are fossils of primordial coherence domains. The) Tj T* ET
-BT 1 0 0 1 54 575.6 Tm (primordial coherence length exceeded 370 Mpc:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 553.6 Tm (xi_coherence\(primordial\) > 370 Mpc) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 533.6 Tm (Quasars within an LQG are not gravitationally bound but coherently correlated. They) Tj T* ET
-BT 1 0 0 1 54 521.6 Tm (formed from matter that shared a common coherence history -- the same primordial) Tj T* ET
-BT 1 0 0 1 54 509.6 Tm (quantum state. The correlations are not gravitational but informational: matter that) Tj T* ET
-BT 1 0 0 1 54 497.6 Tm (decohered from the same domain retains correlated properties.) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 475.6 Tm (C_ij = C0 x exp\(-alpha x gamma_eff\) x f\(r_ij / xi_coherence\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 465.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 455.6 Tm (For r_ij < xi_coherence: f ~ 1 \(correlated\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 445.6 Tm (For r_ij > xi_coherence: f --> 0 \(uncorrelated\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 425.6 Tm (The "End of Greatness" is not a fundamental limit but the present-epoch coherence) Tj T* ET
-BT 1 0 0 1 54 413.6 Tm (length xi_coherence\(t0\). At earlier epochs, xi was larger, and quasars at z ~ 1-2) Tj T* ET
-BT 1 0 0 1 54 401.6 Tm (formed within domains that were still coherent at those scales. The LQG is a fossil) Tj T* ET
-BT 1 0 0 1 54 389.6 Tm (of the coherence domain boundary -- the quasars trace the volume that was once a) Tj T* ET
-BT 1 0 0 1 54 377.6 Tm (single coherent state.) Tj T* ET
-.5 w
-n 54 363.6 m 558 363.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 335.6 Tm (4. The Giant GRB Ring) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 313.6 Tm (Anomaly. A ring of nine gamma-ray bursts at z ~ 0.8 spans 1.7 Gpc in diameter. No) Tj T* ET
-BT 1 0 0 1 54 301.6 Tm (known mechanism produces structure at this scale. It exceeds the cosmological) Tj T* ET
-BT 1 0 0 1 54 289.6 Tm (homogeneity scale by a factor of five.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 271.6 Tm (Closure. The Giant GRB Ring is a spherical decoherence front. A primordial coherence) Tj T* ET
-BT 1 0 0 1 54 259.6 Tm (domain of radius xi ~ 850 Mpc underwent decoherence from its boundary inward. The) Tj T* ET
-BT 1 0 0 1 54 247.6 Tm (shell at radius xi from the domain center is where gamma_eff first crossed gamma_c:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 225.6 Tm (At R = xi: gamma_eff\(R, t_ring\) = gamma_c) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 215.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 205.6 Tm (C\(R = xi\) = C0 x exp\(-alpha x gamma_c\) = C_critical) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 185.6 Tm (On this decoherence front, the phase transition from coherent to classical vacuum) Tj T* ET
-BT 1 0 0 1 54 173.6 Tm (released energy and enhanced density perturbations. Matter formation was amplified.) Tj T* ET
-BT 1 0 0 1 54 161.6 Tm (The massive stars that formed preferentially on this front produced the GRBs we) Tj T* ET
-BT 1 0 0 1 54 149.6 Tm (observe today. The ring geometry is a projection effect -- the structure is a) Tj T* ET
-BT 1 0 0 1 54 137.6 Tm (spherical shell, and we see its cross-section as a ring:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 115.6 Tm (GRB density proportional to delta\(R - xi\) x Theta\(M_star - M_GRB\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 105.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 95.6 Tm (Ring diameter = 2xi ~ 1.7 Gpc --> xi ~ 850 Mpc) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 75.6 Tm (The ring is not a bound structure. It is a fossil of a phase transition surface. The) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Anomaly.) Tj /F1 9 Tf ( The Huge-LQG \(Clowes-Campusano LQG\) spans ~500 Mpc. The cosmological principle asserts homogeneity) Tj T* (above ~370 Mpc \(the End of Greatness scale\). Multiple LQGs exceeding this limit have been identified. They are not) Tj T* (gravitationally bound, yet they exist as statistically significant overdensities.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689 cm
+Q
+q
+1 0 0 1 60 662 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( Large Quasar Groups are fossils of primordial coherence domains. The primordial coherence length exceeded) Tj T* (370 Mpc:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 655 cm
+Q
+q
+1 0 0 1 60 642.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (xi_coherence\(primordial\)) Tj ( ) Tj (>) Tj ( ) Tj (370) Tj ( ) Tj (Mpc) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 634.2 cm
+Q
+q
+1 0 0 1 60 595.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Quasars within an LQG are not gravitationally bound but coherently correlated. They formed from matter that shared a) Tj T* (common coherence history -- the same primordial quantum state. The correlations are not gravitational but informational:) Tj T* (matter that decohered from the same domain retains correlated properties.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 588.2 cm
+Q
+q
+1 0 0 1 60 549 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (C_ij) Tj ( ) Tj (=) Tj ( ) Tj (C0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj (x) Tj ( ) Tj (f\(r_ij) Tj ( ) Tj (/) Tj ( ) Tj (xi_coherence\)) Tj  T*  T* (For) Tj ( ) Tj (r_ij) Tj ( ) Tj (<) Tj ( ) Tj (xi_coherence:) Tj ( ) Tj (f) Tj ( ) Tj (~) Tj ( ) Tj (1) Tj ( ) Tj (\(correlated\)) Tj  T* (For) Tj ( ) Tj (r_ij) Tj ( ) Tj (>) Tj ( ) Tj (xi_coherence:) Tj ( ) Tj (f) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (\(uncorrelated\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 541 cm
+Q
+q
+1 0 0 1 60 502 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The "End of Greatness" is not a fundamental limit but the present-epoch coherence length xi_coherence\(t0\). At earlier) Tj T* (epochs, xi was larger, and quasars at z ~ 1-2 formed within domains that were still coherent at those scales. The LQG is a) Tj T* (fossil of the coherence domain boundary -- the quasars trace the volume that was once a single coherent state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 495 cm
+Q
+q
+1 0 0 1 60 489 cm
+Q
+q
+1 0 0 1 60 485 cm
+Q
+q
+1 0 0 1 60 447 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (4. The Giant GRB Ring) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 435 cm
+Q
+q
+1 0 0 1 60 408 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Anomaly.) Tj /F1 9 Tf ( A ring of nine gamma-ray bursts at z ~ 0.8 spans 1.7 Gpc in diameter. No known mechanism produces structure) Tj T* (at this scale. It exceeds the cosmological homogeneity scale by a factor of five.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 401 cm
+Q
+q
+1 0 0 1 60 362 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( The Giant GRB Ring is a spherical decoherence front. A primordial coherence domain of radius xi ~ 850 Mpc) Tj T* (underwent decoherence from its boundary inward. The shell at radius xi from the domain center is where gamma_eff first) Tj T* (crossed gamma_c:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 355 cm
+Q
+q
+1 0 0 1 60 324.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (At) Tj ( ) Tj (R) Tj ( ) Tj (=) Tj ( ) Tj (xi:) Tj ( ) Tj (gamma_eff\(R,) Tj ( ) Tj (t_ring\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c) Tj  T*  T* (C\(R) Tj ( ) Tj (=) Tj ( ) Tj (xi\)) Tj ( ) Tj (=) Tj ( ) Tj (C0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_c\)) Tj ( ) Tj (=) Tj ( ) Tj (C_critical) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 316.6 cm
+Q
+q
+1 0 0 1 60 265.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (On this decoherence front, the phase transition from coherent to classical vacuum released energy and enhanced density) Tj T* (perturbations. Matter formation was amplified. The massive stars that formed preferentially on this front produced the GRBs) Tj T* (we observe today. The ring geometry is a projection effect -- the structure is a spherical shell, and we see its cross-section) Tj T* (as a ring:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 258.6 cm
+Q
+q
+1 0 0 1 60 228.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (GRB) Tj ( ) Tj (density) Tj ( ) Tj (proportional) Tj ( ) Tj (to) Tj ( ) Tj (delta\(R) Tj ( ) Tj (-) Tj ( ) Tj (xi\)) Tj ( ) Tj (x) Tj ( ) Tj (Theta\(M_star) Tj ( ) Tj (-) Tj ( ) Tj (M_GRB\)) Tj  T*  T* (Ring) Tj ( ) Tj (diameter) Tj ( ) Tj (=) Tj ( ) Tj (2xi) Tj ( ) Tj (~) Tj ( ) Tj (1.7) Tj ( ) Tj (Gpc) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (xi) Tj ( ) Tj (~) Tj ( ) Tj (850) Tj ( ) Tj (Mpc) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 220.2 cm
+Q
+q
+1 0 0 1 60 193.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.056591 Tw (The ring is not a bound structure. It is a fossil of a phase transition surface. The GRBs are independent events that occurred) Tj T* 0 Tw (on a common decoherence front.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 186.2 cm
+Q
+q
+1 0 0 1 60 180.2 cm
+Q
+q
+1 0 0 1 60 176.2 cm
+Q
+q
+1 0 0 1 60 138.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Anomalous Bulk Flows) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 126.2 cm
+Q
+q
+1 0 0 1 60 99.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Anomaly.) Tj /F1 9 Tf ( Observations indicate coherent bulk flows of 600-1000 km/s extending over 300 Mpc or more. LCDM predicts) Tj T* (bulk flows of ~200 km/s at these scales. The observed amplitude exceeds predictions by factors of 3-5.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 92.2 cm
+Q
+q
+1 0 0 1 60 65.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( The anomalous bulk flows are coherence memory. A region of ~300 Mpc was once part of a single coherent) Tj T* (quantum state. Within that state, velocities were correlated -- not by gravitational attraction but by quantum coherence.) Tj T* ET
+Q
+Q
  
 
 Q
@@ -606,27 +943,27 @@ Q
 
 endstream
 endobj
-17 0 obj
+18 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-18 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 19 0 obj
 <<
-/Contents 20 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -645,10 +982,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 21 0 R
+/F1-0 22 0 R
 /F2 8 0 R
-/F2-0 22 0 R
+/F2-0 23 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -660,86 +998,194 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-20 0 obj
+21 0 obj
 <<
-/Length 5183
+/Length 7078
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 128 -- AIIT-THRESI Series) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Coherence Fossils in the Cosmic Web: Voids, Flows, and Impossible Structures) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (GRBs are independent events that occurred on a common decoherence front.) Tj T* ET
-.5 w
-n 54 691.6 m 558 691.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 663.6 Tm (5. Anomalous Bulk Flows) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 641.6 Tm (Anomaly. Observations indicate coherent bulk flows of 600-1000 km/s extending over) Tj T* ET
-BT 1 0 0 1 54 629.6 Tm (300 Mpc or more. LCDM predicts bulk flows of ~200 km/s at these scales. The observed) Tj T* ET
-BT 1 0 0 1 54 617.6 Tm (amplitude exceeds predictions by factors of 3-5.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 599.6 Tm (Closure. The anomalous bulk flows are coherence memory. A region of ~300 Mpc was) Tj T* ET
-BT 1 0 0 1 54 587.6 Tm (once part of a single coherent quantum state. Within that state, velocities were) Tj T* ET
-BT 1 0 0 1 54 575.6 Tm (correlated -- not by gravitational attraction but by quantum coherence. When the) Tj T* ET
-BT 1 0 0 1 54 563.6 Tm (state decohered, the correlated velocities were frozen into the classical matter) Tj T* ET
-BT 1 0 0 1 54 551.6 Tm (distribution:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 529.6 Tm (v_bulk = v_primordial x exp\(-alpha x gamma_eff x Deltat\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 519.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 509.6 Tm (v_primordial = coherent velocity of the primordial state) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 499.6 Tm (Deltat = time since decoherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 479.6 Tm (The bulk flow amplitude decreases with the volume over which it is measured, because) Tj T* ET
-BT 1 0 0 1 54 467.6 Tm (larger volumes average over multiple decoherence domains:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 445.6 Tm (v_bulk\(R\) = v0 x \(xi_coherence / R\)^\(3/2\)    for R > xi_coherence) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 435.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 425.6 Tm (v_bulk\(R\) = v0                                for R < xi_coherence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 405.6 Tm (For xi_coherence ~ 300 Mpc, the full coherent velocity ~800 km/s is maintained) Tj T* ET
-BT 1 0 0 1 54 393.6 Tm (within 300 Mpc. Beyond this scale, averaging reduces the signal. The LCDM prediction) Tj T* ET
-BT 1 0 0 1 54 381.6 Tm (of ~200 km/s is the gravitationally expected component only -- it misses the) Tj T* ET
-BT 1 0 0 1 54 369.6 Tm (coherence memory entirely.) Tj T* ET
-.5 w
-n 54 355.6 m 558 355.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 327.6 Tm (6. Galaxy Spin Alignments) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 305.6 Tm (Anomaly. Galaxy spins are aligned over scales of 200 Mpc or more. Tidal torque) Tj T* ET
-BT 1 0 0 1 54 293.6 Tm (theory predicts alignment only over ~10 Mpc. The observed correlation length exceeds) Tj T* ET
-BT 1 0 0 1 54 281.6 Tm (the prediction by a factor of twenty.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 263.6 Tm (Closure. Primordial coherence had correlated angular momenta across the coherence) Tj T* ET
-BT 1 0 0 1 54 251.6 Tm (length xi ~ 200 Mpc. Galaxies forming from matter that decohered from the same) Tj T* ET
-BT 1 0 0 1 54 239.6 Tm (coherent state inherited aligned spins:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 217.6 Tm (<L_i * L_j> = L0^2 x exp\(-alpha x gamma_eff\) x g\(r_ij / xi_coherence\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 207.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 197.6 Tm (g\(x\) = \(1 - x^2\)    for x < 1) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 187.6 Tm (g\(x\) = 0            for x > 1) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 167.6 Tm (The coherent state carried a well-defined angular momentum structure. When it) Tj T* ET
-BT 1 0 0 1 54 155.6 Tm (decohered, this structure was imprinted on the matter distribution. Individual) Tj T* ET
-BT 1 0 0 1 54 143.6 Tm (galaxies forming from this matter inherited angular momenta aligned with the domain-) Tj T* ET
-BT 1 0 0 1 54 131.6 Tm (scale pattern.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 113.6 Tm (Tidal torque theory accounts only for gravitationally generated angular momentum and) Tj T* ET
-BT 1 0 0 1 54 101.6 Tm (correctly predicts the ~10 Mpc correlation scale for that mechanism. The additional) Tj T* ET
-BT 1 0 0 1 54 89.6 Tm (200 Mpc correlation is the coherence fossil -- angular momentum memory from the) Tj T* ET
-BT 1 0 0 1 54 77.6 Tm (primordial state.) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (When the state decohered, the correlated velocities were frozen into the classical matter distribution:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 673.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (v_bulk) Tj ( ) Tj (=) Tj ( ) Tj (v_primordial) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (Deltat\)) Tj  T*  T* (v_primordial) Tj ( ) Tj (=) Tj ( ) Tj (coherent) Tj ( ) Tj (velocity) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (primordial) Tj ( ) Tj (state) Tj  T* (Deltat) Tj ( ) Tj (=) Tj ( ) Tj (time) Tj ( ) Tj (since) Tj ( ) Tj (decoherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 665.8 cm
+Q
+q
+1 0 0 1 60 638.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The bulk flow amplitude decreases with the volume over which it is measured, because larger volumes average over) Tj T* (multiple decoherence domains:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 631.8 cm
+Q
+q
+1 0 0 1 60 601.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (v_bulk\(R\)) Tj ( ) Tj (=) Tj ( ) Tj (v0) Tj ( ) Tj (x) Tj ( ) Tj (\(xi_coherence) Tj ( ) Tj (/) Tj ( ) Tj (R\)^\(3/2\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (R) Tj ( ) Tj (>) Tj ( ) Tj (xi_coherence) Tj  T*  T* (v_bulk\(R\)) Tj ( ) Tj (=) Tj ( ) Tj (v0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (R) Tj ( ) Tj (<) Tj ( ) Tj (xi_coherence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 593.4 cm
+Q
+q
+1 0 0 1 60 554.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (For xi_coherence ~ 300 Mpc, the full coherent velocity ~800 km/s is maintained within 300 Mpc. Beyond this scale,) Tj T* (averaging reduces the signal. The LCDM prediction of ~200 km/s is the gravitationally expected component only -- it misses) Tj T* (the coherence memory entirely.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 547.4 cm
+Q
+q
+1 0 0 1 60 541.4 cm
+Q
+q
+1 0 0 1 60 537.4 cm
+Q
+q
+1 0 0 1 60 499.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (6. Galaxy Spin Alignments) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 487.4 cm
+Q
+q
+1 0 0 1 60 460.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Anomaly.) Tj /F1 9 Tf ( Galaxy spins are aligned over scales of 200 Mpc or more. Tidal torque theory predicts alignment only over ~10) Tj T* (Mpc. The observed correlation length exceeds the prediction by a factor of twenty.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453.4 cm
+Q
+q
+1 0 0 1 60 426.4 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( Primordial coherence had correlated angular momenta across the coherence length xi ~ 200 Mpc. Galaxies) Tj T* (forming from matter that decohered from the same coherent state inherited aligned spins:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 419.4 cm
+Q
+q
+1 0 0 1 60 380.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (<) Tj (L_i) Tj ( ) Tj (*) Tj ( ) Tj (L_j) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (L0^2) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj (x) Tj ( ) Tj (g\(r_ij) Tj ( ) Tj (/) Tj ( ) Tj (xi_coherence\)) Tj  T*  T* (g\(x\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (x^2\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (x) Tj ( ) Tj (<) Tj ( ) Tj (1) Tj  T* (g\(x\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (x) Tj ( ) Tj (>) Tj ( ) Tj (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 372.2 cm
+Q
+q
+1 0 0 1 60 333.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The coherent state carried a well-defined angular momentum structure. When it decohered, this structure was imprinted on) Tj T* -0.0794 Tw (the matter distribution. Individual galaxies forming from this matter inherited angular momenta aligned with the domain-scale) Tj T* 0 Tw (pattern.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 326.2 cm
+Q
+q
+1 0 0 1 60 287.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (Tidal torque theory accounts only for gravitationally generated angular momentum and correctly predicts the ~10 Mpc) Tj T* (correlation scale for that mechanism. The additional 200 Mpc correlation is the coherence fossil -- angular momentum) Tj T* (memory from the primordial state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 280.2 cm
+Q
+q
+1 0 0 1 60 274.2 cm
+Q
+q
+1 0 0 1 60 270.2 cm
+Q
+q
+1 0 0 1 60 232.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (7. The Cosmic Dipole Tension) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 220.2 cm
+Q
+q
+1 0 0 1 60 181.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Anomaly.) Tj /F1 9 Tf ( The cosmic microwave background dipole implies our velocity is ~370 km/s relative to the CMB rest frame. The) Tj T* (radio galaxy dipole \(from NVSS, TGSS, and VLASS surveys\) implies a dipole 2-5 times larger in the same direction. If both) Tj T* (measure the same motion, they should agree.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 174.2 cm
+Q
+q
+1 0 0 1 60 147.2 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( The CMB dipole measures our velocity relative to the photon field. The radio dipole measures our velocity relative) Tj T* (to matter. These differ because matter has a coherent bulk velocity inherited from primordial coherence:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 140.2 cm
+Q
+q
+1 0 0 1 60 92.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (Dipole_CMB) Tj ( ) Tj (=) Tj ( ) Tj (v_us) Tj ( ) Tj (/) Tj ( ) Tj (c) Tj ( ) Tj (\(relative) Tj ( ) Tj (to) Tj ( ) Tj (photons\)) Tj  T*  T* (Dipole_radio) Tj ( ) Tj (=) Tj ( ) Tj (\(v_us) Tj ( ) Tj (+) Tj ( ) Tj (v_coherent\)) Tj ( ) Tj (/) Tj ( ) Tj (c) Tj ( ) Tj (\(relative) Tj ( ) Tj (to) Tj ( ) Tj (matter\)) Tj  T*  T* (v_coherent) Tj ( ) Tj (=) Tj ( ) Tj (residual) Tj ( ) Tj (coherent) Tj ( ) Tj (bulk) Tj ( ) Tj (flow) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (matter) Tj ( ) Tj (field) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 84.2 cm
+Q
  
 
 Q
@@ -802,27 +1248,27 @@ Q
 
 endstream
 endobj
-21 0 obj
+22 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-22 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 23 0 obj
 <<
-/Contents 24 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -841,10 +1287,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 25 0 R
+/F1-0 26 0 R
 /F2 8 0 R
-/F2-0 26 0 R
+/F2-0 27 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -856,92 +1303,185 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-24 0 obj
+25 0 obj
 <<
-/Length 5258
+/Length 6724
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 128 -- AIIT-THRESI Series) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Coherence Fossils in the Cosmic Web: Voids, Flows, and Impossible Structures) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-.5 w
-n 54 709.6 m 558 709.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 681.6 Tm (7. The Cosmic Dipole Tension) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 659.6 Tm (Anomaly. The cosmic microwave background dipole implies our velocity is ~370 km/s) Tj T* ET
-BT 1 0 0 1 54 647.6 Tm (relative to the CMB rest frame. The radio galaxy dipole \(from NVSS, TGSS, and VLASS) Tj T* ET
-BT 1 0 0 1 54 635.6 Tm (surveys\) implies a dipole 2-5 times larger in the same direction. If both measure) Tj T* ET
-BT 1 0 0 1 54 623.6 Tm (the same motion, they should agree.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 605.6 Tm (Closure. The CMB dipole measures our velocity relative to the photon field. The) Tj T* ET
-BT 1 0 0 1 54 593.6 Tm (radio dipole measures our velocity relative to matter. These differ because matter) Tj T* ET
-BT 1 0 0 1 54 581.6 Tm (has a coherent bulk velocity inherited from primordial coherence:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 559.6 Tm (Dipole_CMB = v_us / c \(relative to photons\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 549.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 539.6 Tm (Dipole_radio = \(v_us + v_coherent\) / c \(relative to matter\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 529.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 519.6 Tm (v_coherent = residual coherent bulk flow of the matter field) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 499.6 Tm (The matter in our cosmic neighborhood participates in a coherent flow that the) Tj T* ET
-BT 1 0 0 1 54 487.6 Tm (photon field does not share. The CMB photons last scattered at z ~ 1100 and reflect) Tj T* ET
-BT 1 0 0 1 54 475.6 Tm (the velocity field at that epoch. The matter has been evolving under both gravity) Tj T* ET
-BT 1 0 0 1 54 463.6 Tm (and coherence memory since then. The excess radio dipole is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 441.6 Tm (Delta_dipole = v_coherent / c) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 431.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 421.6 Tm (v_coherent ~ 400-1500 km/s \(from coherence memory\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 401.6 Tm (This resolves the tension without invoking anisotropic expansion or violations of) Tj T* ET
-BT 1 0 0 1 54 389.6 Tm (the cosmological principle. The universe is isotropic in its photon field. The) Tj T* ET
-BT 1 0 0 1 54 377.6 Tm (matter field carries coherence fossils that break the symmetry.) Tj T* ET
-.5 w
-n 54 363.6 m 558 363.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 335.6 Tm (8. Missing Baryons in Galaxies) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 313.6 Tm (Anomaly. Galaxies retain only ~20% of the baryons expected from the cosmic baryon) Tj T* ET
-BT 1 0 0 1 54 301.6 Tm (fraction. The missing 80% are in the circumgalactic and intergalactic medium.) Tj T* ET
-BT 1 0 0 1 54 289.6 Tm (Standard feedback models \(supernovae, AGN\) struggle to eject this much mass from) Tj T* ET
-BT 1 0 0 1 54 277.6 Tm (deep gravitational potentials.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 259.6 Tm (Closure. High-gamma_eff baryons are expelled by coherence-driven feedback. Star) Tj T* ET
-BT 1 0 0 1 54 247.6 Tm (formation creates regions of intense gamma_eff through radiation, turbulence, and) Tj T* ET
-BT 1 0 0 1 54 235.6 Tm (chemical enrichment. The surrounding gas experiences a coherence gradient:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 213.6 Tm (delC = -alpha x C x delgamma_eff) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 203.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 193.6 Tm (F_coherence = -del\(rho x C^2\) = coherence pressure gradient) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 173.6 Tm (As gamma_eff rises in star-forming regions, coherence energy is converted to kinetic) Tj T* ET
-BT 1 0 0 1 54 161.6 Tm (energy in the surrounding gas. The gas decoheres and expands -- coherence energy) Tj T* ET
-BT 1 0 0 1 54 149.6 Tm (becomes thermal and kinetic energy:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 127.6 Tm (E_kinetic = DeltaC x rho x V = \(C_before^2 - C_after^2\) x rho x V / 2) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 117.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 107.6 Tm (For C_before ~ C0 and C_after ~ 0:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 97.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 87.6 Tm (E_kinetic ~ C0^2 x rho x V / 2) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 67.6 Tm (This coherence-driven ejection supplements standard feedback. It is most effective) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 696 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The matter in our cosmic neighborhood participates in a coherent flow that the photon field does not share. The CMB) Tj T* (photons last scattered at z ~ 1100 and reflect the velocity field at that epoch. The matter has been evolving under both) Tj T* (gravity and coherence memory since then. The excess radio dipole is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 689 cm
+Q
+q
+1 0 0 1 60 658.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (Delta_dipole) Tj ( ) Tj (=) Tj ( ) Tj (v_coherent) Tj ( ) Tj (/) Tj ( ) Tj (c) Tj  T*  T* (v_coherent) Tj ( ) Tj (~) Tj ( ) Tj (400-1500) Tj ( ) Tj (km/s) Tj ( ) Tj (\(from) Tj ( ) Tj (coherence) Tj ( ) Tj (memory\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 650.6 cm
+Q
+q
+1 0 0 1 60 623.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (This resolves the tension without invoking anisotropic expansion or violations of the cosmological principle. The universe is) Tj T* (isotropic in its photon field. The matter field carries coherence fossils that break the symmetry.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616.6 cm
+Q
+q
+1 0 0 1 60 610.6 cm
+Q
+q
+1 0 0 1 60 606.6 cm
+Q
+q
+1 0 0 1 60 568.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (8. Missing Baryons in Galaxies) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 556.6 cm
+Q
+q
+1 0 0 1 60 517.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Anomaly.) Tj /F1 9 Tf ( Galaxies retain only ~20% of the baryons expected from the cosmic baryon fraction. The missing 80% are in the) Tj T* (circumgalactic and intergalactic medium. Standard feedback models \(supernovae, AGN\) struggle to eject this much mass) Tj T* (from deep gravitational potentials.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 510.6 cm
+Q
+q
+1 0 0 1 60 471.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( High-gamma_eff baryons are expelled by coherence-driven feedback. Star formation creates regions of intense) Tj T* (gamma_eff through radiation, turbulence, and chemical enrichment. The surrounding gas experiences a coherence) Tj T* (gradient:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 464.6 cm
+Q
+q
+1 0 0 1 60 434.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (delC) Tj ( ) Tj (=) Tj ( ) Tj (-alpha) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj ( ) Tj (x) Tj ( ) Tj (delgamma_eff) Tj  T*  T* (F_coherence) Tj ( ) Tj (=) Tj ( ) Tj (-del\(rho) Tj ( ) Tj (x) Tj ( ) Tj (C^2\)) Tj ( ) Tj (=) Tj ( ) Tj (coherence) Tj ( ) Tj (pressure) Tj ( ) Tj (gradient) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 426.2 cm
+Q
+q
+1 0 0 1 60 399.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (As gamma_eff rises in star-forming regions, coherence energy is converted to kinetic energy in the surrounding gas. The) Tj T* (gas decoheres and expands -- coherence energy becomes thermal and kinetic energy:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 392.2 cm
+Q
+q
+1 0 0 1 60 344.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (E_kinetic) Tj ( ) Tj (=) Tj ( ) Tj (DeltaC) Tj ( ) Tj (x) Tj ( ) Tj (rho) Tj ( ) Tj (x) Tj ( ) Tj (V) Tj ( ) Tj (=) Tj ( ) Tj (\(C_before^2) Tj ( ) Tj (-) Tj ( ) Tj (C_after^2\)) Tj ( ) Tj (x) Tj ( ) Tj (rho) Tj ( ) Tj (x) Tj ( ) Tj (V) Tj ( ) Tj (/) Tj ( ) Tj (2) Tj  T*  T* (For) Tj ( ) Tj (C_before) Tj ( ) Tj (~) Tj ( ) Tj (C0) Tj ( ) Tj (and) Tj ( ) Tj (C_after) Tj ( ) Tj (~) Tj ( ) Tj (0:) Tj  T*  T* (E_kinetic) Tj ( ) Tj (~) Tj ( ) Tj (C0^2) Tj ( ) Tj (x) Tj ( ) Tj (rho) Tj ( ) Tj (x) Tj ( ) Tj (V) Tj ( ) Tj (/) Tj ( ) Tj (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 336.2 cm
+Q
+q
+1 0 0 1 60 297.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This coherence-driven ejection supplements standard feedback. It is most effective in the early universe when C0 was large) Tj T* (and the available coherence energy was greatest. The 80% baryon deficit reflects the cumulative effect of) Tj T* (coherence-to-kinetic conversion over cosmic time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 290.2 cm
+Q
+q
+1 0 0 1 60 284.2 cm
+Q
+q
+1 0 0 1 60 280.2 cm
+Q
+q
+1 0 0 1 60 242.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (9. Lyman-Alpha Blobs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230.2 cm
+Q
+q
+1 0 0 1 60 191.2 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Anomaly.) Tj /F1 9 Tf ( Giant Lyman-alpha nebulae at z ~ 2-3 extend over 100-300 kpc and emit luminosities of 10^4^3-10^4^4 erg/s.) Tj T* (The energy source is debated: cooling flows, AGN, starbursts, or some combination. No single mechanism explains all) Tj T* (observed properties.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 184.2 cm
+Q
+q
+1 0 0 1 60 133.2 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( Lyman-alpha blobs sit at cosmic web nodes where primordial coherence was highest. These nodes are) Tj T* (convergence points of filaments -- regions where matter density, and therefore gravitational coherence, was maximal.) Tj T* (Pristine gas flowing into these nodes encounters a region of high gamma_eff \(from the existing dense environment\) and) Tj T* (undergoes decoherence:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 126.2 cm
+Q
+q
+1 0 0 1 60 78.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (C\(gas) Tj ( ) Tj (entering) Tj ( ) Tj (node\)) Tj ( ) Tj (~) Tj ( ) Tj (C0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_low\)) Tj ( ) Tj (~) Tj ( ) Tj (C0) Tj ( ) Tj (\(pristine,) Tj ( ) Tj (coherent\)) Tj  T*  T* (C\(gas) Tj ( ) Tj (at) Tj ( ) Tj (node\)) Tj ( ) Tj (=) Tj ( ) Tj (C0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_node\)) Tj ( ) Tj (~) Tj ( ) Tj (0) Tj ( ) Tj (\(decohered\)) Tj  T*  T* (DeltaC) Tj ( ) Tj (=) Tj ( ) Tj (C0) Tj ( ) Tj (-) Tj ( ) Tj (0) Tj ( ) Tj (=) Tj ( ) Tj (C0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 70.2 cm
+Q
  
 
 Q
@@ -1004,27 +1544,27 @@ Q
 
 endstream
 endobj
-25 0 obj
+26 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-26 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 27 0 obj
 <<
-/Contents 28 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1043,10 +1583,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 29 0 R
+/F1-0 30 0 R
 /F2 8 0 R
-/F2-0 30 0 R
+/F2-0 31 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1058,88 +1599,215 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-28 0 obj
+29 0 obj
 <<
-/Length 5293
+/Length 7381
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 128 -- AIIT-THRESI Series) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Coherence Fossils in the Cosmic Web: Voids, Flows, and Impossible Structures) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (in the early universe when C0 was large and the available coherence energy was) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (greatest. The 80% baryon deficit reflects the cumulative effect of coherence-to-) Tj T* ET
-BT 1 0 0 1 54 681.6 Tm (kinetic conversion over cosmic time.) Tj T* ET
-.5 w
-n 54 667.6 m 558 667.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 639.6 Tm (9. Lyman-Alpha Blobs) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 617.6 Tm (Anomaly. Giant Lyman-alpha nebulae at z ~ 2-3 extend over 100-300 kpc and emit) Tj T* ET
-BT 1 0 0 1 54 605.6 Tm (luminosities of 10^4^3-10^4^4 erg/s. The energy source is debated: cooling flows,) Tj T* ET
-BT 1 0 0 1 54 593.6 Tm (AGN, starbursts, or some combination. No single mechanism explains all observed) Tj T* ET
-BT 1 0 0 1 54 581.6 Tm (properties.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 563.6 Tm (Closure. Lyman-alpha blobs sit at cosmic web nodes where primordial coherence was) Tj T* ET
-BT 1 0 0 1 54 551.6 Tm (highest. These nodes are convergence points of filaments -- regions where matter) Tj T* ET
-BT 1 0 0 1 54 539.6 Tm (density, and therefore gravitational coherence, was maximal. Pristine gas flowing) Tj T* ET
-BT 1 0 0 1 54 527.6 Tm (into these nodes encounters a region of high gamma_eff \(from the existing dense) Tj T* ET
-BT 1 0 0 1 54 515.6 Tm (environment\) and undergoes decoherence:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 493.6 Tm (C\(gas entering node\) ~ C0 x exp\(-alpha x gamma_low\) ~ C0 \(pristine, coherent\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 483.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 473.6 Tm (C\(gas at node\) = C0 x exp\(-alpha x gamma_node\) ~ 0 \(decohered\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 463.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 453.6 Tm (DeltaC = C0 - 0 = C0) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 433.6 Tm (The coherence energy released in this transition is radiated:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 411.6 Tm (L_LAB = dM/dt x C0^2 / 2 = accretion rate x coherence energy per unit mass) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 401.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 391.6 Tm (L_LAB ~ \(100 M_sun/yr\) x C0^2 / 2 ~ 10^4^3-10^4^4 erg/s) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 371.6 Tm (The Lyman-alpha emission is decoherence radiation. It is not powered by) Tj T* ET
-BT 1 0 0 1 54 359.6 Tm (gravitational collapse alone, nor by a hidden AGN, but by the conversion of vacuum) Tj T* ET
-BT 1 0 0 1 54 347.6 Tm (coherence to photons as pristine gas crosses the decoherence front at the web node.) Tj T* ET
-BT 1 0 0 1 54 335.6 Tm (The spatial extent of the blob maps the decoherence zone -- the region over which) Tj T* ET
-BT 1 0 0 1 54 323.6 Tm (gamma_eff transitions from low \(filament\) to high \(node\).) Tj T* ET
-.5 w
-n 54 309.6 m 558 309.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 281.6 Tm (10. Primordial Magnetic Fields) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 259.6 Tm (Anomaly. Magnetic fields of strength 10-^1^5 to 10-^1^6 gauss have been inferred in) Tj T* ET
-BT 1 0 0 1 54 247.6 Tm (cosmic voids from blazar observations. These fields cannot be generated by) Tj T* ET
-BT 1 0 0 1 54 235.6 Tm (astrophysical dynamos \(no galaxies in voids to host them\) and require a primordial) Tj T* ET
-BT 1 0 0 1 54 223.6 Tm (origin. Standard inflation produces fields too weak by many orders of magnitude.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 205.6 Tm (Closure. Primordial magnetic fields are decoherence fossils. The primordial coherent) Tj T* ET
-BT 1 0 0 1 54 193.6 Tm (vacuum state had correlated electromagnetic fluctuations across the coherence length) Tj T* ET
-BT 1 0 0 1 54 181.6 Tm (xi. These were quantum fluctuations -- not classical fields. When the vacuum) Tj T* ET
-BT 1 0 0 1 54 169.6 Tm (decohered, these fluctuations were frozen into classical magnetic fields:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 147.6 Tm (B_classical = B_quantum x exp\(-alpha x gamma_eff x t\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 137.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 127.6 Tm (B_quantum ~ \(hbarc/xi^2\) x \(xi/l_Planck\)^n) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 117.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 107.6 Tm (For n ~ 1: B_quantum ~ 10-^9 G at xi ~ 1 Mpc) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 87.6 Tm (The exponential decay reduces B_quantum to the observed 10-^1^5-10-^1^6 G over) Tj T* ET
-BT 1 0 0 1 54 75.6 Tm (cosmic time:) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence energy released in this transition is radiated:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 682.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (L_LAB) Tj ( ) Tj (=) Tj ( ) Tj (dM/dt) Tj ( ) Tj (x) Tj ( ) Tj (C0^2) Tj ( ) Tj (/) Tj ( ) Tj (2) Tj ( ) Tj (=) Tj ( ) Tj (accretion) Tj ( ) Tj (rate) Tj ( ) Tj (x) Tj ( ) Tj (coherence) Tj ( ) Tj (energy) Tj ( ) Tj (per) Tj ( ) Tj (unit) Tj ( ) Tj (mass) Tj  T*  T* (L_LAB) Tj ( ) Tj (~) Tj ( ) Tj (\(100) Tj ( ) Tj (M_sun/yr\)) Tj ( ) Tj (x) Tj ( ) Tj (C0^2) Tj ( ) Tj (/) Tj ( ) Tj (2) Tj ( ) Tj (~) Tj ( ) Tj (10^4^3-10^4^4) Tj ( ) Tj (erg/s) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 674.6 cm
+Q
+q
+1 0 0 1 60 623.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL -0.123667 Tw (The Lyman-alpha emission is decoherence radiation. It is not powered by gravitational collapse alone, nor by a hidden AGN,) Tj T* 0 Tw (but by the conversion of vacuum coherence to photons as pristine gas crosses the decoherence front at the web node. The) Tj T* (spatial extent of the blob maps the decoherence zone -- the region over which gamma_eff transitions from low \(filament\) to) Tj T* (high \(node\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616.6 cm
+Q
+q
+1 0 0 1 60 610.6 cm
+Q
+q
+1 0 0 1 60 606.6 cm
+Q
+q
+1 0 0 1 60 568.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (10. Primordial Magnetic Fields) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 556.6 cm
+Q
+q
+1 0 0 1 60 517.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Anomaly.) Tj /F1 9 Tf ( Magnetic fields of strength 10-^1^5 to 10-^1^6 gauss have been inferred in cosmic voids from blazar) Tj T* (observations. These fields cannot be generated by astrophysical dynamos \(no galaxies in voids to host them\) and require a) Tj T* (primordial origin. Standard inflation produces fields too weak by many orders of magnitude.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 510.6 cm
+Q
+q
+1 0 0 1 60 471.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( Primordial magnetic fields are decoherence fossils. The primordial coherent vacuum state had correlated) Tj T* (electromagnetic fluctuations across the coherence length xi. These were quantum fluctuations -- not classical fields. When) Tj T* (the vacuum decohered, these fluctuations were frozen into classical magnetic fields:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 464.6 cm
+Q
+q
+1 0 0 1 60 416.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (B_classical) Tj ( ) Tj (=) Tj ( ) Tj (B_quantum) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj  T*  T* (B_quantum) Tj ( ) Tj (~) Tj ( ) Tj (\(hbarc/xi^2\)) Tj ( ) Tj (x) Tj ( ) Tj (\(xi/l_Planck\)^n) Tj  T*  T* (For) Tj ( ) Tj (n) Tj ( ) Tj (~) Tj ( ) Tj (1:) Tj ( ) Tj (B_quantum) Tj ( ) Tj (~) Tj ( ) Tj (10-^9) Tj ( ) Tj (G) Tj ( ) Tj (at) Tj ( ) Tj (xi) Tj ( ) Tj (~) Tj ( ) Tj (1) Tj ( ) Tj (Mpc) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 408.6 cm
+Q
+q
+1 0 0 1 60 393.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The exponential decay reduces B_quantum to the observed 10-^1^5-10-^1^6 G over cosmic time:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 386.6 cm
+Q
+q
+1 0 0 1 60 338.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (B_observed) Tj ( ) Tj (=) Tj ( ) Tj (B_quantum) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t0\)) Tj  T*  T* (10-^1^6) Tj ( ) Tj (=) Tj ( ) Tj (10-^9) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t0\)) Tj  T*  T* (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t0) Tj ( ) Tj (~) Tj ( ) Tj (16) Tj ( ) Tj (x) Tj ( ) Tj (ln\(10\)) Tj ( ) Tj (~) Tj ( ) Tj (37) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 330.6 cm
+Q
+q
+1 0 0 1 60 291.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This is consistent with the coherence decay parameters established in Papers 5 and 120. The fields in voids are stronger) Tj T* (than in dense regions because voids have lower gamma_eff and therefore less coherence decay -- the fossil is better) Tj T* (preserved where decoherence has been minimal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 284.6 cm
+Q
+q
+1 0 0 1 60 278.6 cm
+Q
+q
+1 0 0 1 60 274.6 cm
+Q
+q
+1 0 0 1 60 236.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (11. The Cosmic Coincidence Problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224.6 cm
+Q
+q
+1 0 0 1 60 185.6 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Anomaly.) Tj /F1 9 Tf ( The energy densities of dark matter and dark energy are comparable today: rho_DE ~ 2.3 x rho_DM. In LCDM,) Tj T* -0.042273 Tw (dark energy is constant and dark matter dilutes as a-^3. Their ratio was vastly different in the past and will be vastly different) Tj T* 0 Tw (in the future. Why do we happen to exist at the epoch when they are comparable?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 178.6 cm
+Q
+q
+1 0 0 1 60 163.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Closure.) Tj /F1 9 Tf ( Dark matter and dark energy are coupled through the coherence function. They are not independent components:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 156.6 cm
+Q
+q
+1 0 0 1 60 126.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (rho_matter) Tj ( ) Tj (proportional) Tj ( ) Tj (to) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (\(matter) Tj ( ) Tj (generates) Tj ( ) Tj (decoherence\)) Tj  T*  T* (rho_DE) Tj ( ) Tj (proportional) Tj ( ) Tj (to) Tj ( ) Tj (C^2) Tj ( ) Tj (=) Tj ( ) Tj (C0^2) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj (\(dark) Tj ( ) Tj (energy) Tj ( ) Tj (is) Tj ( ) Tj (coherent) Tj ( ) Tj (vacuum) Tj ( ) Tj (energy\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 118.2 cm
+Q
+q
+1 0 0 1 60 103.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The ratio evolves as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 96.2 cm
+Q
+q
+1 0 0 1 60 83.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (rho_DE) Tj ( ) Tj (/) Tj ( ) Tj (rho_matter) Tj ( ) Tj (proportional) Tj ( ) Tj (to) Tj ( ) Tj (exp\(-2alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj (/) Tj ( ) Tj (gamma_eff) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 75.4 cm
+Q
+q
+1 0 0 1 60 60.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This ratio has an attractor. Setting d\(rho_DE/rho_matter\)/dgamma_eff = 0:) Tj T* ET
+Q
+Q
  
 
 Q
@@ -1202,27 +1870,27 @@ Q
 
 endstream
 endobj
-29 0 obj
+30 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-30 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 31 0 obj
 <<
-/Contents 32 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+32 0 obj
+<<
+/Contents 33 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1241,10 +1909,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 33 0 R
+/F1-0 34 0 R
 /F2 8 0 R
-/F2-0 34 0 R
+/F2-0 35 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1256,90 +1925,294 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-32 0 obj
+33 0 obj
 <<
-/Length 5213
+/Length 7823
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 128 -- AIIT-THRESI Series) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Coherence Fossils in the Cosmic Web: Voids, Flows, and Impossible Structures) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 705.6 Tm (B_observed = B_quantum x exp\(-alpha x gamma_eff x t0\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 695.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 685.6 Tm (10-^1^6 = 10-^9 x exp\(-alpha x gamma_eff x t0\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 675.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 665.6 Tm (alpha x gamma_eff x t0 ~ 16 x ln\(10\) ~ 37) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 645.6 Tm (This is consistent with the coherence decay parameters established in Papers 5 and) Tj T* ET
-BT 1 0 0 1 54 633.6 Tm (120. The fields in voids are stronger than in dense regions because voids have lower) Tj T* ET
-BT 1 0 0 1 54 621.6 Tm (gamma_eff and therefore less coherence decay -- the fossil is better preserved where) Tj T* ET
-BT 1 0 0 1 54 609.6 Tm (decoherence has been minimal.) Tj T* ET
-.5 w
-n 54 595.6 m 558 595.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 567.6 Tm (11. The Cosmic Coincidence Problem) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 545.6 Tm (Anomaly. The energy densities of dark matter and dark energy are comparable today:) Tj T* ET
-BT 1 0 0 1 54 533.6 Tm (rho_DE ~ 2.3 x rho_DM. In LCDM, dark energy is constant and dark matter dilutes as) Tj T* ET
-BT 1 0 0 1 54 521.6 Tm (a-^3. Their ratio was vastly different in the past and will be vastly different in) Tj T* ET
-BT 1 0 0 1 54 509.6 Tm (the future. Why do we happen to exist at the epoch when they are comparable?) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 491.6 Tm (Closure. Dark matter and dark energy are coupled through the coherence function.) Tj T* ET
-BT 1 0 0 1 54 479.6 Tm (They are not independent components:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 457.6 Tm (rho_matter proportional to gamma_eff \(matter generates decoherence\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 447.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 437.6 Tm (rho_DE proportional to C^2 = C0^2 x exp\(-2alpha x gamma_eff\) \(dark energy is coherent vacuum energy\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 417.6 Tm (The ratio evolves as:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 395.6 Tm (rho_DE / rho_matter proportional to exp\(-2alpha x gamma_eff\) / gamma_eff) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 375.6 Tm (This ratio has an attractor. Setting d\(rho_DE/rho_matter\)/dgamma_eff = 0:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 353.6 Tm (d/dgamma_eff [exp\(-2alphagamma\) / gamma] = 0) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 343.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 333.6 Tm (-2alpha x exp\(-2alphagamma\) / gamma - exp\(-2alphagamma\) / gamma^2 = 0) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 323.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 313.6 Tm (2alpha x gamma + 1 = 0 --> gamma_attractor = 1 / \(2alpha\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 293.6 Tm (At the attractor:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 271.6 Tm (rho_DE / rho_matter = exp\(-1\) / \(1/2alpha\) = 2alpha / e ~ O\(1\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 251.6 Tm (The ratio is order unity at the attractor regardless of initial conditions. We) Tj T* ET
-BT 1 0 0 1 54 239.6 Tm (observe rho_DE ~ 2.3 x rho_DM because the universe has reached the attractor. This) Tj T* ET
-BT 1 0 0 1 54 227.6 Tm (is not a coincidence -- it is a fixed point of the coherence dynamics. Any universe) Tj T* ET
-BT 1 0 0 1 54 215.6 Tm (governed by C = C0 x exp\(-alpha x gamma_eff\) will eventually reach an epoch where) Tj T* ET
-BT 1 0 0 1 54 203.6 Tm (dark energy and matter densities are comparable, and that epoch is long-lived \(it is) Tj T* ET
-BT 1 0 0 1 54 191.6 Tm (an attractor, not a transient\).) Tj T* ET
-.5 w
-n 54 177.6 m 558 177.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 149.6 Tm (12. Unified Picture: The Coherence Web) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 127.6 Tm (The ten anomalies resolved above are not independent puzzles. They are different) Tj T* ET
-BT 1 0 0 1 54 115.6 Tm (projections of a single underlying structure: the coherence web.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 97.6 Tm (The primordial universe was divided into coherence domains of characteristic size) Tj T* ET
-BT 1 0 0 1 54 85.6 Tm (xi0. Within each domain, the vacuum was in a coherent quantum state with correlated) Tj T* ET
-BT 1 0 0 1 54 73.6 Tm (densities, velocities, angular momenta, and electromagnetic fluctuations. As the) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 680 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (d/dgamma_eff) Tj ( ) Tj ([exp\(-2alphagamma\)) Tj ( ) Tj (/) Tj ( ) Tj (gamma]) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T*  T* (-2alpha) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2alphagamma\)) Tj ( ) Tj (/) Tj ( ) Tj (gamma) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-2alphagamma\)) Tj ( ) Tj (/) Tj ( ) Tj (gamma^2) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T*  T* (2alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma) Tj ( ) Tj (+) Tj ( ) Tj (1) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (gamma_attractor) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (/) Tj ( ) Tj (\(2alpha\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 672 cm
+Q
+q
+1 0 0 1 60 657 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At the attractor:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+Q
+q
+1 0 0 1 60 637.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (rho_DE) Tj ( ) Tj (/) Tj ( ) Tj (rho_matter) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-1\)) Tj ( ) Tj (/) Tj ( ) Tj (\(1/2alpha\)) Tj ( ) Tj (=) Tj ( ) Tj (2alpha) Tj ( ) Tj (/) Tj ( ) Tj (e) Tj ( ) Tj (~) Tj ( ) Tj (O\(1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 629.2 cm
+Q
+q
+1 0 0 1 60 578.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (The ratio is order unity at the attractor regardless of initial conditions. We observe rho_DE ~ 2.3 x rho_DM because the) Tj T* (universe has reached the attractor. This is not a coincidence -- it is a fixed point of the coherence dynamics. Any universe) Tj T* (governed by C = C0 x exp\(-alpha x gamma_eff\) will eventually reach an epoch where dark energy and matter densities are) Tj T* (comparable, and that epoch is long-lived \(it is an attractor, not a transient\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 571.2 cm
+Q
+q
+1 0 0 1 60 565.2 cm
+Q
+q
+1 0 0 1 60 561.2 cm
+Q
+q
+1 0 0 1 60 523.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (12. Unified Picture: The Coherence Web) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 511.2 cm
+Q
+q
+1 0 0 1 60 484.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The ten anomalies resolved above are not independent puzzles. They are different projections of a single underlying) Tj T* (structure: the coherence web.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 477.2 cm
+Q
+q
+1 0 0 1 60 438.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL -0.098647 Tw (The primordial universe was divided into coherence domains of characteristic size xi0. Within each domain, the vacuum was) Tj T* 0 Tw -0.0152 Tw (in a coherent quantum state with correlated densities, velocities, angular momenta, and electromagnetic fluctuations. As the) Tj T* 0 Tw (universe expanded and baryonic complexity increased, these domains decohered from their boundaries inward:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 431.2 cm
+Q
+q
+1 0 0 1 60 383.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F3 7.5 Tf 0 0 0 rg (xi_coherence\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (xi0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(t\)) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj  T*  T* (Domain) Tj ( ) Tj (boundaries:) Tj ( ) Tj (sites) Tj ( ) Tj (of) Tj ( ) Tj (enhanced) Tj ( ) Tj (structure) Tj ( ) Tj (formation) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (cosmic) Tj ( ) Tj (web) Tj ( ) Tj (filaments) Tj  T* (Domain) Tj ( ) Tj (interiors:) Tj ( ) Tj (low-density) Tj ( ) Tj (regions) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (cosmic) Tj ( ) Tj (voids) Tj  T* (Decoherence) Tj ( ) Tj (fronts:) Tj ( ) Tj (spherical) Tj ( ) Tj (shells) Tj ( ) Tj (of) Tj ( ) Tj (enhanced) Tj ( ) Tj (density) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (rings,) Tj ( ) Tj (walls) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 375.2 cm
+Q
+q
+1 0 0 1 60 336.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The cosmic web is the decoherence web. Filaments trace the boundaries of primordial coherence domains. Voids are the) Tj T* (interiors of those domains, still carrying residual coherence. Walls and rings are decoherence fronts frozen into the matter) Tj T* (distribution.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 329.2 cm
+Q
+q
+1 0 0 1 60 314.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Every anomaly maps onto this picture:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 307.2 cm
+Q
+q
+1 0 0 1 60 294.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Anomaly | Coherence Fossil Type |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 281.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (|---|---|) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 268.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| KBC Void | Self-stabilizing domain interior |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Large Quasar Groups | Domain volume correlation |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 243.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Giant GRB Ring | Decoherence front \(shell\) |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Bulk Flows | Velocity memory within domains |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 217.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Spin Alignments | Angular momentum memory |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Dipole Tension | Matter coherence vs. photon field |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 192 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Missing Baryons | Coherence-driven ejection |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 179.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Lyman-Alpha Blobs | Decoherence radiation at nodes |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 166.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Primordial B-fields | Frozen quantum fluctuations |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 153.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 20 1.3 Tm /F3 7.5 Tf 8.8 TL (| Cosmic Coincidence | Coherence attractor dynamics |) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 145.6 cm
+Q
+q
+1 0 0 1 60 94.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (The function C = C0 x exp\(-alpha x gamma_eff\) does not merely resolve these anomalies. It predicts that they must exist. A) Tj T* -0.124667 Tw (decohering universe necessarily produces voids that are too large, correlations that are too extended, flows that are too fast,) Tj T* 0 Tw (and magnetic fields that should not be there. These are not problems for cosmology. They are signatures of the coherence) Tj T* (history of the vacuum.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 87.6 cm
+Q
+q
+1 0 0 1 60 81.6 cm
+Q
+q
+1 0 0 1 60 77.6 cm
+Q
  
 
 Q
@@ -1402,223 +2275,17 @@ Q
 
 endstream
 endobj
-33 0 obj
+34 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-34 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 35 0 obj
 <<
-/Contents 36 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/ExtGState <<
-/gRLs0 <<
-/CA 0.1
->>
-/gRLs1 <<
-/ca 0.55
->>
-/gRLs2 <<
-/ca 0.35
->>
-/gRLs3 <<
-/ca 0.95
->>
->>
-/Font <<
-/F1 6 0 R
-/F1-0 37 0 R
-/F2 8 0 R
-/F2-0 38 0 R
-/F3 10 0 R
->>
-/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Annots [ ]
-/Parent 2 0 R
->>
-endobj
-36 0 obj
-<<
-/Length 6042
->>
-stream
-q
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 128 -- AIIT-THRESI Series) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 8) Tj T* ET
-.5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (universe expanded and baryonic complexity increased, these domains decohered from) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (their boundaries inward:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 671.6 Tm (xi_coherence\(t\) = xi0 x exp\(-alpha x gamma_eff\(t\) x t\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 661.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 651.6 Tm (Domain boundaries: sites of enhanced structure formation --> cosmic web filaments) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 641.6 Tm (Domain interiors: low-density regions --> cosmic voids) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 631.6 Tm (Decoherence fronts: spherical shells of enhanced density --> rings, walls) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 611.6 Tm (The cosmic web is the decoherence web. Filaments trace the boundaries of primordial) Tj T* ET
-BT 1 0 0 1 54 599.6 Tm (coherence domains. Voids are the interiors of those domains, still carrying residual) Tj T* ET
-BT 1 0 0 1 54 587.6 Tm (coherence. Walls and rings are decoherence fronts frozen into the matter) Tj T* ET
-BT 1 0 0 1 54 575.6 Tm (distribution.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 557.6 Tm (Every anomaly maps onto this picture:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 539.6 Tm (| Anomaly | Coherence Fossil Type |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 529.6 Tm (|---|---|) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 519.6 Tm (| KBC Void | Self-stabilizing domain interior |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 509.6 Tm (| Large Quasar Groups | Domain volume correlation |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 499.6 Tm (| Giant GRB Ring | Decoherence front \(shell\) |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 489.6 Tm (| Bulk Flows | Velocity memory within domains |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 479.6 Tm (| Spin Alignments | Angular momentum memory |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 469.6 Tm (| Dipole Tension | Matter coherence vs. photon field |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 459.6 Tm (| Missing Baryons | Coherence-driven ejection |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 449.6 Tm (| Lyman-Alpha Blobs | Decoherence radiation at nodes |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 439.6 Tm (| Primordial B-fields | Frozen quantum fluctuations |) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 429.6 Tm (| Cosmic Coincidence | Coherence attractor dynamics |) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 413.6 Tm (The function C = C0 x exp\(-alpha x gamma_eff\) does not merely resolve these) Tj T* ET
-BT 1 0 0 1 54 401.6 Tm (anomalies. It predicts that they must exist. A decohering universe necessarily) Tj T* ET
-BT 1 0 0 1 54 389.6 Tm (produces voids that are too large, correlations that are too extended, flows that) Tj T* ET
-BT 1 0 0 1 54 377.6 Tm (are too fast, and magnetic fields that should not be there. These are not problems) Tj T* ET
-BT 1 0 0 1 54 365.6 Tm (for cosmology. They are signatures of the coherence history of the vacuum.) Tj T* ET
-.5 w
-n 54 351.6 m 558 351.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 323.6 Tm (13. Predictions) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 301.6 Tm (The coherence fossil framework generates falsifiable predictions:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 283.6 Tm (Prediction 1. Void size distribution. The distribution of void sizes should show an) Tj T* ET
-BT 1 0 0 1 54 271.6 Tm (excess at scales corresponding to xi_coherence at key epochs. LCDM predicts a void) Tj T* ET
-BT 1 0 0 1 54 259.6 Tm (size function determined purely by gravitational dynamics. The coherence framework) Tj T* ET
-BT 1 0 0 1 54 247.6 Tm (predicts a bump at R ~ xi_coherence\(z_decoherence\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 229.6 Tm (Prediction 2. Magnetic field strength vs. void density. In the coherence framework,) Tj T* ET
-BT 1 0 0 1 54 217.6 Tm (B proportional to exp\(-alpha x gamma_eff x t\), and gamma_eff correlates with) Tj T* ET
-BT 1 0 0 1 54 205.6 Tm (density. Therefore B_void > B_filament when normalized to the same epoch.) Tj T* ET
-BT 1 0 0 1 54 193.6 Tm (Observations should confirm that void magnetic fields are systematically stronger) Tj T* ET
-BT 1 0 0 1 54 181.6 Tm (relative to their ambient density than filament fields.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 163.6 Tm (Prediction 3. Bulk flow decay with scale. The bulk flow amplitude should follow v\(R\)) Tj T* ET
-BT 1 0 0 1 54 151.6 Tm (proportional to R-^3/^2 for R > xi_coherence, not the LCDM prediction of v\(R\)) Tj T* ET
-BT 1 0 0 1 54 139.6 Tm (proportional to R-^1/^2 from gravitational clustering alone.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 121.6 Tm (Prediction 4. Spin alignment as a function of redshift. Spin correlations should be) Tj T* ET
-BT 1 0 0 1 54 109.6 Tm (stronger at higher redshift \(when xi_coherence was larger\). Surveys at z > 1 should) Tj T* ET
-BT 1 0 0 1 54 97.6 Tm (detect spin alignment scales exceeding 200 Mpc.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 79.6 Tm (Prediction 5. LAB luminosity and accretion rate. If LAB emission is decoherence) Tj T* ET
-BT 1 0 0 1 54 67.6 Tm (radiation, the luminosity should scale with the accretion rate of pristine \(high-) Tj T* ET
- 
-
-Q
-
-q
-0.0 0.0 612 792 re
-W
-n
-1 0 0 1 0 0 cm
-BT
-/F1-0 12 Tf
-14.4 TL
-ET
-0.25 0.56 0.82 RG
-/gRLs0 gs
-0.3 w
-n
-18 24 m
-594 24 l
-S
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.35 0.44 0.5 rg
-/gRLs1 gs
-BT
-1 0 0 1 18 10 Tm
-(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
-T*
-ET
-BT
-/F2-0 6.5 Tf
-7.8 TL
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-0.25 0.56 0.82 rg
-BT
-1 0 0 1 480.9 10 Tm
-(w) Tj
-T*
-ET
-0.83 0.63 0.38 rg
-/gRLs3 gs
-BT
-1 0 0 1 484.8 10 Tm
-(AI) Tj
-T*
-ET
-0.25 0.56 0.82 rg
-/gRLs2 gs
-BT
-1 0 0 1 492.6 10 Tm
-(ste Not  \056  Print Verified) Tj
-T*
-ET
-Q
-
-
-endstream
-endobj
-37 0 obj
-<<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-38 0 obj
-<<
 /BaseFont /Courier-Bold
 /Encoding /WinAnsiEncoding
 /Name /F2
@@ -1626,9 +2293,9 @@ endobj
 /Type /Font
 >>
 endobj
-39 0 obj
+36 0 obj
 <<
-/Contents 40 0 R
+/Contents 37 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1647,10 +2314,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 41 0 R
+/F1-0 38 0 R
 /F2 8 0 R
-/F2-0 42 0 R
+/F2-0 39 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1662,48 +2330,151 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-40 0 obj
+37 0 obj
 <<
-/Length 2986
+/Length 5247
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
-BT 1 0 0 1 54 756 Tm (Paper 128 -- AIIT-THRESI Series) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 9) Tj T* ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (Coherence Fossils in the Cosmic Web: Voids, Flows, and Impossible Structures) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 8) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT 1 0 0 1 54 705.6 Tm (coherence\) gas, not with AGN luminosity or star formation rate. LABs without) Tj T* ET
-BT 1 0 0 1 54 693.6 Tm (detectable AGN should have the same luminosity per unit accretion rate as those with) Tj T* ET
-BT 1 0 0 1 54 681.6 Tm (AGN.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (Prediction 6. Radio dipole evolution. The radio dipole excess over the CMB dipole) Tj T* ET
-BT 1 0 0 1 54 651.6 Tm (should decrease at higher redshift as coherence memory fades. Surveys at z > 2) Tj T* ET
-BT 1 0 0 1 54 639.6 Tm (should show convergence of the two dipoles.) Tj T* ET
-.5 w
-n 54 625.6 m 558 625.6 l S
-BT /F2 11 Tf 13.2 TL ET
-BT 1 0 0 1 54 597.6 Tm (14. Conclusion) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 575.6 Tm (The large-scale structure of the universe is a fossil record. Every void, filament,) Tj T* ET
-BT 1 0 0 1 54 563.6 Tm (wall, ring, flow, alignment, and magnetic whisper carries information about the) Tj T* ET
-BT 1 0 0 1 54 551.6 Tm (coherence state of the primordial vacuum. Lambda-CDM, by assuming constant physical) Tj T* ET
-BT 1 0 0 1 54 539.6 Tm (laws and independent dark components, cannot read this record. It sees anomalies) Tj T* ET
-BT 1 0 0 1 54 527.6 Tm (where there are signatures.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 509.6 Tm (The coherence decay function C = C0 x exp\(-alpha x gamma_eff\) provides the key. Ten) Tj T* ET
-BT 1 0 0 1 54 497.6 Tm (anomalies in large-scale structure -- from the 600 Mpc KBC Void to the cosmic) Tj T* ET
-BT 1 0 0 1 54 485.6 Tm (coincidence problem -- resolve as coherence fossils: relics of domains, fronts, and) Tj T* ET
-BT 1 0 0 1 54 473.6 Tm (correlations from the high-coherence early universe. The cosmic web is the) Tj T* ET
-BT 1 0 0 1 54 461.6 Tm (decoherence web. The universe remembers its coherent past, and that memory is) Tj T* ET
-BT 1 0 0 1 54 449.6 Tm (written into every structure we observe.) Tj T* ET
-.5 w
-n 54 435.6 m 558 435.6 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 413.6 Tm (*This paper extends Papers 5 \(REQMT\), 84 \(Z2 Symmetry\), 120 \(Structure Formation\),) Tj T* ET
-BT 1 0 0 1 54 401.6 Tm (and 125 \(Quantum Foundations\) in the AIIT-THRESI series.*) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (8) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 710 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (13. Predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence fossil framework generates falsifiable predictions:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 676 cm
+Q
+q
+1 0 0 1 60 637 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction 1.) Tj /F1 9 Tf ( Void size distribution. The distribution of void sizes should show an excess at scales corresponding to) Tj T* (xi_coherence at key epochs. LCDM predicts a void size function determined purely by gravitational dynamics. The) Tj T* (coherence framework predicts a bump at R ~ xi_coherence\(z_decoherence\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 630 cm
+Q
+q
+1 0 0 1 60 579 cm
+q
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction 2.) Tj /F1 9 Tf ( Magnetic field strength vs. void density. In the coherence framework, B proportional to exp\(-alpha x) Tj T* (gamma_eff x t\), and gamma_eff correlates with density. Therefore B_void > B_filament when normalized to the same) Tj T* (epoch. Observations should confirm that void magnetic fields are systematically stronger relative to their ambient density) Tj T* (than filament fields.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 572 cm
+Q
+q
+1 0 0 1 60 545 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction 3.) Tj /F1 9 Tf ( Bulk flow decay with scale. The bulk flow amplitude should follow v\(R\) proportional to R-^3/^2 for R >) Tj T* (xi_coherence, not the LCDM prediction of v\(R\) proportional to R-^1/^2 from gravitational clustering alone.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 538 cm
+Q
+q
+1 0 0 1 60 511 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction 4.) Tj /F1 9 Tf ( Spin alignment as a function of redshift. Spin correlations should be stronger at higher redshift \(when) Tj T* (xi_coherence was larger\). Surveys at z > 1 should detect spin alignment scales exceeding 200 Mpc.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 504 cm
+Q
+q
+1 0 0 1 60 465 cm
+q
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction 5.) Tj /F1 9 Tf ( LAB luminosity and accretion rate. If LAB emission is decoherence radiation, the luminosity should scale with) Tj T* (the accretion rate of pristine \(high-coherence\) gas, not with AGN luminosity or star formation rate. LABs without detectable) Tj T* (AGN should have the same luminosity per unit accretion rate as those with AGN.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 458 cm
+Q
+q
+1 0 0 1 60 431 cm
+q
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Prediction 6.) Tj /F1 9 Tf ( Radio dipole evolution. The radio dipole excess over the CMB dipole should decrease at higher redshift as) Tj T* (coherence memory fades. Surveys at z > 2 should show convergence of the two dipoles.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424 cm
+Q
+q
+1 0 0 1 60 418 cm
+Q
+q
+1 0 0 1 60 414 cm
+Q
+q
+1 0 0 1 60 376 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (14. Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364 cm
+Q
+q
+1 0 0 1 60 325 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The large-scale structure of the universe is a fossil record. Every void, filament, wall, ring, flow, alignment, and magnetic) Tj T* (whisper carries information about the coherence state of the primordial vacuum. Lambda-CDM, by assuming constant) Tj T* (physical laws and independent dark components, cannot read this record. It sees anomalies where there are signatures.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 318 cm
+Q
+q
+1 0 0 1 60 267 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (The coherence decay function C = C0 x exp\(-alpha x gamma_eff\) provides the key. Ten anomalies in large-scale structure) Tj T* (-- from the 600 Mpc KBC Void to the cosmic coincidence problem -- resolve as coherence fossils: relics of domains, fronts,) Tj T* (and correlations from the high-coherence early universe. The cosmic web is the decoherence web. The universe) Tj T* (remembers its coherent past, and that memory is written into every structure we observe.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 260 cm
+Q
+q
+1 0 0 1 60 254 cm
+Q
+q
+1 0 0 1 60 250 cm
+Q
+q
+1 0 0 1 60 223 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15 Tm /F4 9 Tf 12 TL (This paper extends Papers 5 \(REQMT\), 84 \(Z2 Symmetry\), 120 \(Structure Formation\), and 125 \(Quantum Foundations\) in) Tj T* (the AIIT-THRESI series.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 216 cm
+Q
  
 
 Q
@@ -1766,7 +2537,7 @@ Q
 
 endstream
 endobj
-41 0 obj
+38 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
@@ -1775,7 +2546,7 @@ endobj
 /Type /Font
 >>
 endobj
-42 0 obj
+39 0 obj
 <<
 /BaseFont /Courier-Bold
 /Encoding /WinAnsiEncoding
@@ -1785,56 +2556,53 @@ endobj
 >>
 endobj
 xref
-0 43
+0 40
 0000000000 65535 f 
 0000000015 00000 n 
 0000000214 00000 n 
-0000000329 00000 n 
-0000000378 00000 n 
-0000000738 00000 n 
-0000005910 00000 n 
-0000006017 00000 n 
-0000006124 00000 n 
-0000006234 00000 n 
-0000006344 00000 n 
-0000006450 00000 n 
-0000006814 00000 n 
-0000012242 00000 n 
-0000012350 00000 n 
-0000012461 00000 n 
-0000012825 00000 n 
-0000018106 00000 n 
-0000018214 00000 n 
-0000018325 00000 n 
-0000018689 00000 n 
-0000023925 00000 n 
-0000024033 00000 n 
-0000024144 00000 n 
-0000024508 00000 n 
-0000029819 00000 n 
-0000029927 00000 n 
-0000030038 00000 n 
-0000030402 00000 n 
-0000035748 00000 n 
-0000035856 00000 n 
-0000035967 00000 n 
-0000036331 00000 n 
-0000041597 00000 n 
-0000041705 00000 n 
-0000041816 00000 n 
-0000042180 00000 n 
-0000048275 00000 n 
-0000048383 00000 n 
-0000048494 00000 n 
-0000048858 00000 n 
-0000051897 00000 n 
-0000052005 00000 n 
+0000000322 00000 n 
+0000000371 00000 n 
+0000000742 00000 n 
+0000006311 00000 n 
+0000006418 00000 n 
+0000006525 00000 n 
+0000006637 00000 n 
+0000006747 00000 n 
+0000006853 00000 n 
+0000006969 00000 n 
+0000007344 00000 n 
+0000013801 00000 n 
+0000013909 00000 n 
+0000014020 00000 n 
+0000014395 00000 n 
+0000021458 00000 n 
+0000021566 00000 n 
+0000021677 00000 n 
+0000022052 00000 n 
+0000029183 00000 n 
+0000029291 00000 n 
+0000029402 00000 n 
+0000029777 00000 n 
+0000036554 00000 n 
+0000036662 00000 n 
+0000036773 00000 n 
+0000037148 00000 n 
+0000044582 00000 n 
+0000044690 00000 n 
+0000044801 00000 n 
+0000045176 00000 n 
+0000053052 00000 n 
+0000053160 00000 n 
+0000053271 00000 n 
+0000053646 00000 n 
+0000058946 00000 n 
+0000059054 00000 n 
 trailer
 <<
-/Size 43
+/Size 40
 /Root 3 0 R
 /Info 1 0 R
 >>
 startxref
-52116
+59165
 %%EOF

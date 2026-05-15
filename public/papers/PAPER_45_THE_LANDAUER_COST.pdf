@@ -387,7 +387,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 6970
+/Length 6999
 >>
 stream
 q
@@ -487,7 +487,7 @@ q
 n 20 0 452 52.8 re f*
 Q
 q
-BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Landauer's) Tj ( ) Tj (cost) Tj ( ) Tj (per) Tj ( ) Tj (bit:) Tj ( ) Tj ( ) Tj ( ) Tj (E_L) Tj ( ) Tj (=) Tj ( ) Tj (k_B) Tj ( ) Tj (x) Tj ( ) Tj (T) Tj ( ) Tj (x) Tj ( ) Tj (ln\(2\)) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310K) Tj ( ) Tj (\(human) Tj ( ) Tj (body\):) Tj  T* ( ) Tj ( ) Tj (E_L) Tj ( ) Tj (=) Tj ( ) Tj (1.38) Tj ( ) Tj (x) Tj ( ) Tj (10nu??) Tj ( ) Tj (J/K) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj ( ) Tj (K) Tj ( ) Tj (x) Tj ( ) Tj (0.693) Tj  T* ( ) Tj ( ) Tj (E_L) Tj ( ) Tj (=) Tj ( ) Tj (2.97) Tj ( ) Tj (x) Tj ( ) Tj (10nu??) Tj ( ) Tj (J) Tj ( ) Tj (per) Tj ( ) Tj (bit) Tj ( ) Tj (erased) Tj  T* ( ) Tj ( ) Tj (E_L) Tj ( ) Tj (=) Tj ( ) Tj (0.0186) Tj ( ) Tj (eV) Tj ( ) Tj (per) Tj ( ) Tj (bit) Tj ( ) Tj (erased) Tj T* ET
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Landauer's) Tj ( ) Tj (cost) Tj ( ) Tj (per) Tj ( ) Tj (bit:) Tj ( ) Tj ( ) Tj ( ) Tj (E_L) Tj ( ) Tj (=) Tj ( ) Tj (k_B) Tj ( ) Tj (x) Tj ( ) Tj (T) Tj ( ) Tj (x) Tj ( ) Tj (ln\(2\)) Tj  T*  T* (At) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (310K) Tj ( ) Tj (\(human) Tj ( ) Tj (body\):) Tj  T* ( ) Tj ( ) Tj (E_L) Tj ( ) Tj (=) Tj ( ) Tj (1.38) Tj ( ) Tj (x) Tj ( ) Tj (10^-^2^3) Tj ( ) Tj (J/K) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj ( ) Tj (K) Tj ( ) Tj (x) Tj ( ) Tj (0.693) Tj  T* ( ) Tj ( ) Tj (E_L) Tj ( ) Tj (=) Tj ( ) Tj (2.97) Tj ( ) Tj (x) Tj ( ) Tj (10^-^2^1) Tj ( ) Tj (J) Tj ( ) Tj (per) Tj ( ) Tj (bit) Tj ( ) Tj (erased) Tj  T* ( ) Tj ( ) Tj (E_L) Tj ( ) Tj (=) Tj ( ) Tj (0.0186) Tj ( ) Tj (eV) Tj ( ) Tj (per) Tj ( ) Tj (bit) Tj ( ) Tj (erased) Tj T* ET
 Q
 Q
 q
@@ -507,7 +507,7 @@ q
 1 0 0 1 60 357.2 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (A single neuron fires approximately 10 times per second. Each spike represents an information event requiring encoding,) Tj T* (transmission, and eventually erasure from short-term storage. The human brain has ~86 billion neurons. The) Tj T* (information-processing rate of the brain is on the order of 10?? bits per second -- requiring on the order of 10?? x 2.97 x) Tj T* (10nu?? J/s = ~3 x 10nu? W of minimum Landauer cost.) Tj T* ET
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (A single neuron fires approximately 10 times per second. Each spike represents an information event requiring encoding,) Tj T* (transmission, and eventually erasure from short-term storage. The human brain has ~86 billion neurons. The) Tj T* -0.048652 Tw (information-processing rate of the brain is on the order of 10^1^5 bits per second -- requiring on the order of 10^1^5 x 2.97 x) Tj T* 0 Tw (10^-^2^1 J/s = ~3 x 10^-^6 W of minimum Landauer cost.) Tj T* ET
 Q
 Q
 q
@@ -1373,7 +1373,7 @@ endobj
 endobj
 25 0 obj
 <<
-/Length 6312
+/Length 6313
 >>
 stream
 q
@@ -1519,7 +1519,7 @@ q
 1 0 0 1 60 155.4 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (At rest, the body expends ~80 watts. The minimum Landauer cost of neural information processing: ~3 x 10nu? watts. The) Tj T* (gap -- ~seven orders of magnitude -- is the cost of biological implementation overhead.) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (At rest, the body expends ~80 watts. The minimum Landauer cost of neural information processing: ~3 x 10^-^6 watts. The) Tj T* (gap -- ~seven orders of magnitude -- is the cost of biological implementation overhead.) Tj T* ET
 Q
 Q
 q
@@ -2369,7 +2369,7 @@ endobj
 endobj
 37 0 obj
 <<
-/Length 2985
+/Length 2984
 >>
 stream
 q
@@ -2399,7 +2399,7 @@ Q
 q
 1 0 0 1 60 686 cm
 q
-BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Szilard, L. \(1929\). PIber die Entropieverminderung in einem thermodynamischen System bei Eingriffen intelligenter) Tj T* (Wesen. ) Tj /F3 9 Tf (Zeitschrift fur Physik) Tj /F1 9 Tf (, 53, 840-856.) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (2. Szilard, L. \(1929\). Uber die Entropieverminderung in einem thermodynamischen System bei Eingriffen intelligenter) Tj T* (Wesen. ) Tj /F3 9 Tf (Zeitschrift fur Physik) Tj /F1 9 Tf (, 53, 840-856.) Tj T* ET
 Q
 Q
 q
@@ -2575,32 +2575,32 @@ xref
 0000006397 00000 n 
 0000006503 00000 n 
 0000006878 00000 n 
-0000013901 00000 n 
-0000014009 00000 n 
-0000014120 00000 n 
-0000014495 00000 n 
-0000021716 00000 n 
-0000021824 00000 n 
-0000021935 00000 n 
-0000022310 00000 n 
-0000029269 00000 n 
-0000029377 00000 n 
-0000029488 00000 n 
-0000029863 00000 n 
-0000036228 00000 n 
-0000036336 00000 n 
-0000036447 00000 n 
-0000036822 00000 n 
-0000043552 00000 n 
-0000043660 00000 n 
-0000043771 00000 n 
-0000044146 00000 n 
-0000050364 00000 n 
-0000050472 00000 n 
-0000050583 00000 n 
-0000050958 00000 n 
-0000053996 00000 n 
-0000054104 00000 n 
+0000013930 00000 n 
+0000014038 00000 n 
+0000014149 00000 n 
+0000014524 00000 n 
+0000021745 00000 n 
+0000021853 00000 n 
+0000021964 00000 n 
+0000022339 00000 n 
+0000029298 00000 n 
+0000029406 00000 n 
+0000029517 00000 n 
+0000029892 00000 n 
+0000036258 00000 n 
+0000036366 00000 n 
+0000036477 00000 n 
+0000036852 00000 n 
+0000043582 00000 n 
+0000043690 00000 n 
+0000043801 00000 n 
+0000044176 00000 n 
+0000050394 00000 n 
+0000050502 00000 n 
+0000050613 00000 n 
+0000050988 00000 n 
+0000054025 00000 n 
+0000054133 00000 n 
 trailer
 <<
 /Size 40
@@ -2608,5 +2608,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-54215
+54244
 %%EOF

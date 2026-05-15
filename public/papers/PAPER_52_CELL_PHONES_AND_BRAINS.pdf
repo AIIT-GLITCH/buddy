@@ -426,7 +426,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 7766
+/Length 7769
 >>
 stream
 q
@@ -506,7 +506,7 @@ q
 n 20 0 452 70.4 re f*
 Q
 q
-BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (DELTAW) Tj ( ) Tj (=) Tj ( ) Tj (DELTAT) Tj ( ) Tj (/) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (0.1) Tj ( ) Tj (/) Tj ( ) Tj (330) Tj ( ) Tj (=) Tj ( ) Tj (0.000303) Tj  T*  T* (DELTAF_thermal) Tj ( ) Tj (=) Tj ( ) Tj (k_BT) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (DELTAgamma_thermal) Tj  T*  T* (DELTAgamma_thermal) Tj ( ) Tj (from) Tj ( ) Tj (0.1) Tj ( ) Tj (degC) Tj ( ) Tj (~=) Tj ( ) Tj (0.001) Tj ( ) Tj (x) Tj ( ) Tj (\(DELTAT/T\)) Tj ( ) Tj (=) Tj ( ) Tj (0.001) Tj ( ) Tj (x) Tj ( ) Tj (0.0003) Tj ( ) Tj (~=) Tj ( ) Tj (3x10nu?) Tj  T*  T* (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016) Tj  T* (DELTAgamma_RF_thermal) Tj ( ) Tj (~=) Tj ( ) Tj (3x10nu?) Tj ( ) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj ( ) Tj (gamma_c) Tj T* ET
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (DELTAW) Tj ( ) Tj (=) Tj ( ) Tj (DELTAT) Tj ( ) Tj (/) Tj ( ) Tj (T_c) Tj ( ) Tj (=) Tj ( ) Tj (0.1) Tj ( ) Tj (/) Tj ( ) Tj (330) Tj ( ) Tj (=) Tj ( ) Tj (0.000303) Tj  T*  T* (DELTAF_thermal) Tj ( ) Tj (=) Tj ( ) Tj (k_BT) Tj ( ) Tj (x) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (DELTAgamma_thermal) Tj  T*  T* (DELTAgamma_thermal) Tj ( ) Tj (from) Tj ( ) Tj (0.1) Tj ( ) Tj (degC) Tj ( ) Tj (~=) Tj ( ) Tj (0.001) Tj ( ) Tj (x) Tj ( ) Tj (\(DELTAT/T\)) Tj ( ) Tj (=) Tj ( ) Tj (0.001) Tj ( ) Tj (x) Tj ( ) Tj (0.0003) Tj ( ) Tj (~=) Tj ( ) Tj (3x10^-^7) Tj  T*  T* (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016) Tj  T* (DELTAgamma_RF_thermal) Tj ( ) Tj (~=) Tj ( ) Tj (3x10^-^7) Tj ( ) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj ( ) Tj (gamma_c) Tj T* ET
 Q
 Q
 q
@@ -629,7 +629,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_RF_nonthermal) Tj ( ) Tj (~=) Tj ( ) Tj (deltagamma_oscillator_detuning) Tj ( ) Tj (~=) Tj ( ) Tj (10nu?) Tj ( ) Tj ( ) Tj (\(estimated) Tj ( ) Tj (from) Tj ( ) Tj (EEG) Tj ( ) Tj (power) Tj ( ) Tj (shift) Tj ( ) Tj (magn) Tj  T* (itude\)) Tj  T*  T* (Still) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016,) Tj ( ) Tj (but) Tj ( ) Tj (10x) Tj ( ) Tj (larger) Tj ( ) Tj (than) Tj ( ) Tj (thermal) Tj ( ) Tj (contribution) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_RF_nonthermal) Tj ( ) Tj (~=) Tj ( ) Tj (deltagamma_oscillator_detuning) Tj ( ) Tj (~=) Tj ( ) Tj (10^-^4) Tj ( ) Tj ( ) Tj (\(estimated) Tj ( ) Tj (from) Tj ( ) Tj (EEG) Tj ( ) Tj (power) Tj ( ) Tj (shift) Tj ( ) Tj (mag) Tj  T* (nitude\)) Tj  T*  T* (Still) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016,) Tj ( ) Tj (but) Tj ( ) Tj (10x) Tj ( ) Tj (larger) Tj ( ) Tj (than) Tj ( ) Tj (thermal) Tj ( ) Tj (contribution) Tj T* ET
 Q
 Q
 q
@@ -774,7 +774,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 8929
+/Length 8931
 >>
 stream
 q
@@ -798,7 +798,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f_Frohlich) Tj ( ) Tj (~=) Tj ( ) Tj (10??) Tj ( ) Tj (Hz) Tj ( ) Tj (=) Tj ( ) Tj (100) Tj ( ) Tj (GHz) Tj  T*  T* (\(from) Tj ( ) Tj (phonon) Tj ( ) Tj (mode) Tj ( ) Tj (analysis) Tj ( ) Tj (of) Tj ( ) Tj (protein) Tj ( ) Tj (conformational) Tj ( ) Tj (dynamics\)) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f_Frohlich) Tj ( ) Tj (~=) Tj ( ) Tj (10^1^1) Tj ( ) Tj (Hz) Tj ( ) Tj (=) Tj ( ) Tj (100) Tj ( ) Tj (GHz) Tj  T*  T* (\(from) Tj ( ) Tj (phonon) Tj ( ) Tj (mode) Tj ( ) Tj (analysis) Tj ( ) Tj (of) Tj ( ) Tj (protein) Tj ( ) Tj (conformational) Tj ( ) Tj (dynamics\)) Tj T* ET
 Q
 Q
 q
@@ -1782,7 +1782,7 @@ endobj
 endobj
 29 0 obj
 <<
-/Length 7849
+/Length 7831
 >>
 stream
 q
@@ -1806,7 +1806,7 @@ q
 n 20 0 452 88 re f*
 Q
 q
-BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_Frohlich_coupling) Tj ( ) Tj (=) Tj ( ) Tj (gamma?) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(1) Tj ( ) Tj (+) Tj ( ) Tj (\(DELTAomega/kappa\)?\)) Tj  T*  T* (where) Tj ( ) Tj (DELTAomega) Tj ( ) Tj (=) Tj ( ) Tj (detuning) Tj ( ) Tj (from) Tj ( ) Tj (resonance,) Tj ( ) Tj (kappa) Tj ( ) Tj (=) Tj ( ) Tj (linewidth) Tj  T*  T* (At) Tj ( ) Tj (exact) Tj ( ) Tj (resonance) Tj ( ) Tj (\(5G) Tj ( ) Tj (mmWave) Tj ( ) Tj (hits) Tj ( ) Tj (Frohlich) Tj ( ) Tj (mode\):) Tj  T* (gamma_coupling) Tj ( ) Tj (=) Tj ( ) Tj (gamma?) Tj ( ) Tj ( ) Tj (\(maximum) Tj ( ) Tj (coupling,) Tj ( ) Tj (order) Tj ( ) Tj (10nu?) Tj ( ) Tj (--) Tj ( ) Tj (approaching) Tj ( ) Tj (gamma_c) Tj ( ) Tj (range\)) Tj  T*  T* (Specific) Tj ( ) Tj (5G) Tj ( ) Tj (frequencies) Tj ( ) Tj (of) Tj ( ) Tj (concern:) Tj  T* ( ) Tj ( ) Tj (60) Tj ( ) Tj (GHz) Tj ( ) Tj (\(oxygen) Tj ( ) Tj (absorption) Tj ( ) Tj (band) Tj ( ) Tj (--) Tj ( ) Tj (also) Tj ( ) Tj (near) Tj ( ) Tj (Frohlich) Tj ( ) Tj (predictions\)) Tj  T* ( ) Tj ( ) Tj (28) Tj ( ) Tj (GHz) Tj ( ) Tj (\(US) Tj ( ) Tj (5G) Tj ( ) Tj (mmWave) Tj ( ) Tj (deployment) Tj ( ) Tj (frequency\)) Tj T* ET
+BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_Frohlich_coupling) Tj ( ) Tj (=) Tj ( ) Tj (gamma_0) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(1) Tj ( ) Tj (+) Tj ( ) Tj (\(DELTAomega/kappa\)^2\)) Tj  T*  T* (where) Tj ( ) Tj (DELTAomega) Tj ( ) Tj (=) Tj ( ) Tj (detuning) Tj ( ) Tj (from) Tj ( ) Tj (resonance,) Tj ( ) Tj (kappa) Tj ( ) Tj (=) Tj ( ) Tj (linewidth) Tj  T*  T* (At) Tj ( ) Tj (exact) Tj ( ) Tj (resonance) Tj ( ) Tj (\(5G) Tj ( ) Tj (mmWave) Tj ( ) Tj (hits) Tj ( ) Tj (Frohlich) Tj ( ) Tj (mode\):) Tj  T* (gamma_coupling) Tj ( ) Tj (=) Tj ( ) Tj (gamma_0) Tj ( ) Tj ( ) Tj (\(maximum) Tj ( ) Tj (coupling,) Tj ( ) Tj (order) Tj ( ) Tj (10^-^3) Tj ( ) Tj (--) Tj ( ) Tj (approaching) Tj ( ) Tj (gamma_c) Tj ( ) Tj (range\)) Tj  T*  T* (Specific) Tj ( ) Tj (5G) Tj ( ) Tj (frequencies) Tj ( ) Tj (of) Tj ( ) Tj (concern:) Tj  T* ( ) Tj ( ) Tj (60) Tj ( ) Tj (GHz) Tj ( ) Tj (\(oxygen) Tj ( ) Tj (absorption) Tj ( ) Tj (band) Tj ( ) Tj (--) Tj ( ) Tj (also) Tj ( ) Tj (near) Tj ( ) Tj (Frohlich) Tj ( ) Tj (predictions\)) Tj  T* ( ) Tj ( ) Tj (28) Tj ( ) Tj (GHz) Tj ( ) Tj (\(US) Tj ( ) Tj (5G) Tj ( ) Tj (mmWave) Tj ( ) Tj (deployment) Tj ( ) Tj (frequency\)) Tj T* ET
 Q
 Q
 q
@@ -1897,7 +1897,7 @@ n 20 0 452 8.8 re f*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Blue light | Screen off 2h before sleep OR blue-light-blocking glasses | nu0.0003/day |) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Blue light | Screen off 2h before sleep OR blue-light-blocking glasses | -0.0003/day |) Tj T* ET
 Q
 Q
 q
@@ -1908,7 +1908,7 @@ n 20 0 452 8.8 re f*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Behavioral fragmentation | Notification batching \(3x/day check windows\) | nu0.0003/day |) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Behavioral fragmentation | Notification batching \(3x/day check windows\) | -0.0003/day |) Tj T* ET
 Q
 Q
 q
@@ -1919,7 +1919,7 @@ n 20 0 452 8.8 re f*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Dopamine dysregulation | Remove infinite-scroll apps | nu0.0002/day |) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Dopamine dysregulation | Remove infinite-scroll apps | -0.0002/day |) Tj T* ET
 Q
 Q
 q
@@ -1930,7 +1930,7 @@ n 20 0 452 8.8 re f*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Content stress | Curated vs. algorithmic feed | nu0.0001/day |) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| Content stress | Curated vs. algorithmic feed | -0.0001/day |) Tj T* ET
 Q
 Q
 q
@@ -1940,7 +1940,7 @@ q
 n 20 0 452 17.6 re f*
 Q
 q
-BT 1 0 0 1 20 10.1 Tm -0.15625 Tw 8.8 TL /F4 7.5 Tf 0 0 0 rg (| 5G mmWave | Keep device >) Tj (10 cm from head during 5G data transfer | nugamma_Frohlich \(precautionary\)) Tj T* 0 Tw (|) Tj T* ET
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (| 5G mmWave | Keep device >) Tj (10 cm from head during 5G data transfer | -gamma_Frohlich \(precautionary\)) Tj T* (|) Tj T* ET
 Q
 Q
 q
@@ -1951,7 +1951,7 @@ n 20 0 452 17.6 re f*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| Sleep environment | Phone in another room | nu0.0001/day \(removes attentional drain even while) Tj T* (asleep\) |) Tj T* ET
+BT 1 0 0 1 20 10.1 Tm /F4 7.5 Tf 8.8 TL (| Sleep environment | Phone in another room | -0.0001/day \(removes attentional drain even while) Tj T* (asleep\) |) Tj T* ET
 Q
 Q
 q
@@ -1961,7 +1961,7 @@ q
 1 0 0 1 60 321 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Combined: nu0.001/day -- enough to fully offset the gamma_eff pump and return to baseline.) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Combined: -0.001/day -- enough to fully offset the gamma_eff pump and return to baseline.) Tj T* ET
 Q
 Q
 q
@@ -2010,7 +2010,7 @@ q
 n 20 0 452 79.2 re f*
 Q
 q
-BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_c) Tj ( ) Tj (is) Tj ( ) Tj (fixed) Tj ( ) Tj (at) Tj ( ) Tj (0.0016) Tj ( ) Tj (by) Tj ( ) Tj (the) Tj ( ) Tj (physics) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (transition.) Tj  T* (C?) Tj ( ) Tj (\(baseline) Tj ( ) Tj (coherence) Tj ( ) Tj (reserve\)) Tj ( ) Tj (is) Tj ( ) Tj (lower) Tj ( ) Tj (in) Tj ( ) Tj (developing) Tj ( ) Tj (brains.) Tj  T*  T* (Adult:) Tj ( ) Tj (C?) Tj ( ) Tj (~=) Tj ( ) Tj (0.85,) Tj ( ) Tj (gamma_baseline) Tj ( ) Tj (~=) Tj ( ) Tj (0.001) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (buffer) Tj ( ) Tj (=) Tj ( ) Tj (\(gamma_c) Tj ( ) Tj (nu) Tj ( ) Tj (gamma_baseline\)) Tj ( ) Tj (=) Tj ( ) Tj (0.0006) Tj  T* (Child) Tj ( ) Tj (\(10y\):) Tj ( ) Tj (C?) Tj ( ) Tj (~=) Tj ( ) Tj (0.70,) Tj ( ) Tj (gamma_baseline) Tj ( ) Tj (~=) Tj ( ) Tj (0.0008) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (buffer) Tj ( ) Tj (=) Tj ( ) Tj (0.0008) Tj ( ) Tj (\(slightly) Tj ( ) Tj (larger\)) Tj  T* (Adolescent) Tj ( ) Tj (\(15y\):) Tj ( ) Tj (dopamine) Tj ( ) Tj (system) Tj ( ) Tj (at) Tj ( ) Tj (maximum) Tj ( ) Tj (sensitivity) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (behavioral) Tj ( ) Tj (channel) Tj ( ) Tj (gamma) Tj ( ) Tj (multiplier) Tj ( ) Tj (~=) Tj ( ) Tj (2-3x) Tj ( ) Tj (adult) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (effective) Tj ( ) Tj (daily) Tj ( ) Tj (DELTAgamma) Tj ( ) Tj (~=) Tj ( ) Tj (0.002/day) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (crosses) Tj ( ) Tj (gamma_c) Tj ( ) Tj (in) Tj ( ) Tj (0.4) Tj ( ) Tj (days) Tj ( ) Tj (of) Tj ( ) Tj (heavy) Tj ( ) Tj (use) Tj T* ET
+BT 1 0 0 1 20 71.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_c) Tj ( ) Tj (is) Tj ( ) Tj (fixed) Tj ( ) Tj (at) Tj ( ) Tj (0.0016) Tj ( ) Tj (by) Tj ( ) Tj (the) Tj ( ) Tj (physics) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (transition.) Tj  T* (C_0) Tj ( ) Tj (\(baseline) Tj ( ) Tj (coherence) Tj ( ) Tj (reserve\)) Tj ( ) Tj (is) Tj ( ) Tj (lower) Tj ( ) Tj (in) Tj ( ) Tj (developing) Tj ( ) Tj (brains.) Tj  T*  T* (Adult:) Tj ( ) Tj (C_0) Tj ( ) Tj (~=) Tj ( ) Tj (0.85,) Tj ( ) Tj (gamma_baseline) Tj ( ) Tj (~=) Tj ( ) Tj (0.001) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (buffer) Tj ( ) Tj (=) Tj ( ) Tj (\(gamma_c) Tj ( ) Tj (-) Tj ( ) Tj (gamma_baseline\)) Tj ( ) Tj (=) Tj ( ) Tj (0.0006) Tj  T* (Child) Tj ( ) Tj (\(10y\):) Tj ( ) Tj (C_0) Tj ( ) Tj (~=) Tj ( ) Tj (0.70,) Tj ( ) Tj (gamma_baseline) Tj ( ) Tj (~=) Tj ( ) Tj (0.0008) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (buffer) Tj ( ) Tj (=) Tj ( ) Tj (0.0008) Tj ( ) Tj (\(slightly) Tj ( ) Tj (larger\)) Tj  T* (Adolescent) Tj ( ) Tj (\(15y\):) Tj ( ) Tj (dopamine) Tj ( ) Tj (system) Tj ( ) Tj (at) Tj ( ) Tj (maximum) Tj ( ) Tj (sensitivity) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (behavioral) Tj ( ) Tj (channel) Tj ( ) Tj (gamma) Tj ( ) Tj (multiplier) Tj ( ) Tj (~=) Tj ( ) Tj (2-3x) Tj ( ) Tj (adult) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (effective) Tj ( ) Tj (daily) Tj ( ) Tj (DELTAgamma) Tj ( ) Tj (~=) Tj ( ) Tj (0.002/day) Tj  T* ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (crosses) Tj ( ) Tj (gamma_c) Tj ( ) Tj (in) Tj ( ) Tj (0.4) Tj ( ) Tj (days) Tj ( ) Tj (of) Tj ( ) Tj (heavy) Tj ( ) Tj (use) Tj T* ET
 Q
 Q
 q
@@ -2149,7 +2149,7 @@ endobj
 endobj
 33 0 obj
 <<
-/Length 10677
+/Length 10606
 >>
 stream
 q
@@ -2205,7 +2205,7 @@ q
 n 20 0 452 132 re f*
 Q
 q
-BT 1 0 0 1 20 124.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (+------------------------------------------------------------------+) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CELL) Tj ( ) Tj (PHONE) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (CONTRIBUTION) Tj ( ) Tj (HIERARCHY) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (BEHAVIORAL) Tj ( ) Tj (FRAGMENTATION) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (????????????????) Tj ( ) Tj ( ) Tj (0.0005/day) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (BLUE) Tj ( ) Tj (LIGHT) Tj ( ) Tj (/) Tj ( ) Tj (SLEEP) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (????????????) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0003/day) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (CONTENT) Tj ( ) Tj (STRESS) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (????????) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0002/day) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (RF) Tj ( ) Tj (NON-THERMAL) Tj ( ) Tj (\(EEG\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (??) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0001/day) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (5G) Tj ( ) Tj (mmWave) Tj ( ) Tj (Frohlich) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (???) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (UNKNOWN) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (RF) Tj ( ) Tj (THERMAL) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (+) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0000003/day) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016) Tj ( ) Tj (----------------------------------------------) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (The) Tj ( ) Tj (debate) Tj ( ) Tj (is) Tj ( ) Tj (about) Tj ( ) Tj (the) Tj ( ) Tj (bottom) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (list.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (The) Tj ( ) Tj (damage) Tj ( ) Tj (is) Tj ( ) Tj (at) Tj ( ) Tj (the) Tj ( ) Tj (top.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (+------------------------------------------------------------------+) Tj T* ET
+BT 1 0 0 1 20 124.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (+------------------------------------------------------------------+) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CELL) Tj ( ) Tj (PHONE) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (CONTRIBUTION) Tj ( ) Tj (HIERARCHY) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (BEHAVIORAL) Tj ( ) Tj (FRAGMENTATION) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0005/day) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (BLUE) Tj ( ) Tj (LIGHT) Tj ( ) Tj (/) Tj ( ) Tj (SLEEP) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0003/day) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (CONTENT) Tj ( ) Tj (STRESS) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0002/day) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (RF) Tj ( ) Tj (NON-THERMAL) Tj ( ) Tj (\(EEG\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0001/day) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (5G) Tj ( ) Tj (mmWave) Tj ( ) Tj (Frohlich) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (?) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (UNKNOWN) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (RF) Tj ( ) Tj (THERMAL) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0.0000003/day) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016) Tj ( ) Tj (----------------------------------------------) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (The) Tj ( ) Tj (debate) Tj ( ) Tj (is) Tj ( ) Tj (about) Tj ( ) Tj (the) Tj ( ) Tj (bottom) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (list.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (|) Tj ( ) Tj ( ) Tj (The) Tj ( ) Tj (damage) Tj ( ) Tj (is) Tj ( ) Tj (at) Tj ( ) Tj (the) Tj ( ) Tj (top.) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (|) Tj  T* (+------------------------------------------------------------------+) Tj T* ET
 Q
 Q
 q
@@ -2813,32 +2813,32 @@ xref
 0000006722 00000 n 
 0000006828 00000 n 
 0000007203 00000 n 
-0000015022 00000 n 
-0000015130 00000 n 
-0000015241 00000 n 
-0000015616 00000 n 
-0000024598 00000 n 
-0000024706 00000 n 
-0000024817 00000 n 
-0000025192 00000 n 
-0000032635 00000 n 
-0000032743 00000 n 
-0000032854 00000 n 
-0000033229 00000 n 
-0000040450 00000 n 
-0000040558 00000 n 
-0000040669 00000 n 
-0000041044 00000 n 
-0000048946 00000 n 
-0000049054 00000 n 
-0000049165 00000 n 
-0000049540 00000 n 
-0000060271 00000 n 
-0000060379 00000 n 
-0000060490 00000 n 
-0000060865 00000 n 
-0000064675 00000 n 
-0000064783 00000 n 
+0000015025 00000 n 
+0000015133 00000 n 
+0000015244 00000 n 
+0000015619 00000 n 
+0000024603 00000 n 
+0000024711 00000 n 
+0000024822 00000 n 
+0000025197 00000 n 
+0000032640 00000 n 
+0000032748 00000 n 
+0000032859 00000 n 
+0000033234 00000 n 
+0000040455 00000 n 
+0000040563 00000 n 
+0000040674 00000 n 
+0000041049 00000 n 
+0000048933 00000 n 
+0000049041 00000 n 
+0000049152 00000 n 
+0000049527 00000 n 
+0000060187 00000 n 
+0000060295 00000 n 
+0000060406 00000 n 
+0000060781 00000 n 
+0000064591 00000 n 
+0000064699 00000 n 
 trailer
 <<
 /Size 40
@@ -2846,5 +2846,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-64894
+64810
 %%EOF

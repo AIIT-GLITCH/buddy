@@ -60,7 +60,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 4940
+/Length 4945
 >>
 stream
 q
@@ -157,7 +157,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (x) Tj ( ) Tj (??C) Tj ( ) Tj (nu) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(x\)) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj  T*  T* (Fick's) Tj ( ) Tj (diffusion) Tj ( ) Tj (coefficient) Tj ( ) Tj (D_C) Tj ( ) Tj (=) Tj ( ) Tj (v_coherence?) Tj ( ) Tj (x) Tj ( ) Tj (tau_corr) Tj ( ) Tj (/) Tj ( ) Tj (3) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (x) Tj ( ) Tj (del^2C) Tj ( ) Tj (-) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(x\)) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj  T*  T* (Fick's) Tj ( ) Tj (diffusion) Tj ( ) Tj (coefficient) Tj ( ) Tj (D_C) Tj ( ) Tj (=) Tj ( ) Tj (v_coherence^2) Tj ( ) Tj (x) Tj ( ) Tj (tau_corr) Tj ( ) Tj (/) Tj ( ) Tj (3) Tj T* ET
 Q
 Q
 q
@@ -203,7 +203,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (J) Tj ( ) Tj (=) Tj ( ) Tj (nuD) Tj ( ) Tj (x) Tj ( ) Tj (\(dC/dx\)) Tj  T*  T* (Flux) Tj ( ) Tj (flows) Tj ( ) Tj (from) Tj ( ) Tj (HIGH) Tj ( ) Tj (to) Tj ( ) Tj (LOW) Tj ( ) Tj (concentration.) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (J) Tj ( ) Tj (=) Tj ( ) Tj (-D) Tj ( ) Tj (x) Tj ( ) Tj (\(dC/dx\)) Tj  T*  T* (Flux) Tj ( ) Tj (flows) Tj ( ) Tj (from) Tj ( ) Tj (HIGH) Tj ( ) Tj (to) Tj ( ) Tj (LOW) Tj ( ) Tj (concentration.) Tj T* ET
 Q
 Q
 q
@@ -223,7 +223,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (D) Tj ( ) Tj (x) Tj ( ) Tj (??C) Tj  T*  T* (Concentration) Tj ( ) Tj (evolves) Tj ( ) Tj (by) Tj ( ) Tj (diffusion.) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC/dt) Tj ( ) Tj (=) Tj ( ) Tj (D) Tj ( ) Tj (x) Tj ( ) Tj (del^2C) Tj  T*  T* (Concentration) Tj ( ) Tj (evolves) Tj ( ) Tj (by) Tj ( ) Tj (diffusion.) Tj T* ET
 Q
 Q
 q
@@ -410,7 +410,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 7282
+/Length 7294
 >>
 stream
 q
@@ -444,7 +444,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC\(x,t\)/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (x) Tj ( ) Tj (??C) Tj ( ) Tj (nu) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(x\)) Tj ( ) Tj (x) Tj ( ) Tj (C\(x,t\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\\_________/) Tj ( ) Tj ( ) Tj ( ) Tj (\\______________________/) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (diffusion) Tj ( ) Tj (term) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (decay) Tj ( ) Tj (term) Tj ( ) Tj (\(Wike) Tj ( ) Tj (Law\)) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC\(x,t\)/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (x) Tj ( ) Tj (del^2C) Tj ( ) Tj (-) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(x\)) Tj ( ) Tj (x) Tj ( ) Tj (C\(x,t\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\\_________/) Tj ( ) Tj ( ) Tj ( ) Tj (\\______________________/) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (diffusion) Tj ( ) Tj (term) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (decay) Tj ( ) Tj (term) Tj ( ) Tj (\(Wike) Tj ( ) Tj (Law\)) Tj T* ET
 Q
 Q
 q
@@ -484,7 +484,7 @@ q
 1 0 0 1 60 581.6 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In steady state \(dC/dt = 0\), near a keeper at x = 0 with C\(0\) = C?:) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In steady state \(dC/dt = 0\), near a keeper at x = 0 with C\(0\) = C_0:) Tj T* ET
 Q
 Q
 q
@@ -497,7 +497,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(x\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nux) Tj ( ) Tj (/) Tj ( ) Tj (lambda_C\)) Tj  T*  T* (where) Tj ( ) Tj (lambda_C) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(D_C) Tj ( ) Tj (/) Tj ( ) Tj (\(alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)\)) Tj ( ) Tj ( ) Tj ([coherence) Tj ( ) Tj (length]) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(x\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-x) Tj ( ) Tj (/) Tj ( ) Tj (lambda_C\)) Tj  T*  T* (where) Tj ( ) Tj (lambda_C) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(D_C) Tj ( ) Tj (/) Tj ( ) Tj (\(alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)\)) Tj ( ) Tj ( ) Tj ([coherence) Tj ( ) Tj (length]) Tj T* ET
 Q
 Q
 q
@@ -532,7 +532,7 @@ q
 1 0 0 1 60 427.2 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (D_C has units of m?/s, same as all diffusion coefficients.) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (D_C has units of m^2/s, same as all diffusion coefficients.) Tj T* ET
 Q
 Q
 q
@@ -555,7 +555,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (D_C) Tj ( ) Tj (=) Tj ( ) Tj (v_coherence?) Tj ( ) Tj (x) Tj ( ) Tj (tau_corr) Tj ( ) Tj (/) Tj ( ) Tj (3) Tj  T*  T* (where:) Tj  T* ( ) Tj ( ) Tj (v_coherence) Tj ( ) Tj (=) Tj ( ) Tj (propagation) Tj ( ) Tj (velocity) Tj ( ) Tj (of) Tj ( ) Tj (coherent) Tj ( ) Tj (oscillations) Tj  T* ( ) Tj ( ) Tj (tau_corr) Tj ( ) Tj (=) Tj ( ) Tj (correlation) Tj ( ) Tj (time) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (coherent) Tj ( ) Tj (mode) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (D_C) Tj ( ) Tj (=) Tj ( ) Tj (v_coherence^2) Tj ( ) Tj (x) Tj ( ) Tj (tau_corr) Tj ( ) Tj (/) Tj ( ) Tj (3) Tj  T*  T* (where:) Tj  T* ( ) Tj ( ) Tj (v_coherence) Tj ( ) Tj (=) Tj ( ) Tj (propagation) Tj ( ) Tj (velocity) Tj ( ) Tj (of) Tj ( ) Tj (coherent) Tj ( ) Tj (oscillations) Tj  T* ( ) Tj ( ) Tj (tau_corr) Tj ( ) Tj (=) Tj ( ) Tj (correlation) Tj ( ) Tj (time) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (coherent) Tj ( ) Tj (mode) Tj T* ET
 Q
 Q
 q
@@ -575,7 +575,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (v_coherence) Tj ( ) Tj (~=) Tj ( ) Tj (0.1) Tj ( ) Tj (-) Tj ( ) Tj (1) Tj ( ) Tj (m/s) Tj ( ) Tj ( ) Tj (\(cortical) Tj ( ) Tj (propagation) Tj ( ) Tj (speed) Tj ( ) Tj (of) Tj ( ) Tj (40) Tj ( ) Tj (Hz) Tj ( ) Tj (oscillations\)) Tj  T* (tau_corr) Tj ( ) Tj (~=) Tj ( ) Tj (1/40) Tj ( ) Tj (Hz) Tj ( ) Tj (=) Tj ( ) Tj (0.025) Tj ( ) Tj (s) Tj  T*  T* (D_C) Tj ( ) Tj (=) Tj ( ) Tj (\(0.5\)?) Tj ( ) Tj (x) Tj ( ) Tj (0.025) Tj ( ) Tj (/) Tj ( ) Tj (3) Tj ( ) Tj (=) Tj ( ) Tj (0.0021) Tj ( ) Tj (m?/s) Tj ( ) Tj (=) Tj ( ) Tj (21) Tj ( ) Tj (cm?/s) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (v_coherence) Tj ( ) Tj (~=) Tj ( ) Tj (0.1) Tj ( ) Tj (-) Tj ( ) Tj (1) Tj ( ) Tj (m/s) Tj ( ) Tj ( ) Tj (\(cortical) Tj ( ) Tj (propagation) Tj ( ) Tj (speed) Tj ( ) Tj (of) Tj ( ) Tj (40) Tj ( ) Tj (Hz) Tj ( ) Tj (oscillations\)) Tj  T* (tau_corr) Tj ( ) Tj (~=) Tj ( ) Tj (1/40) Tj ( ) Tj (Hz) Tj ( ) Tj (=) Tj ( ) Tj (0.025) Tj ( ) Tj (s) Tj  T*  T* (D_C) Tj ( ) Tj (=) Tj ( ) Tj (\(0.5\)^2) Tj ( ) Tj (x) Tj ( ) Tj (0.025) Tj ( ) Tj (/) Tj ( ) Tj (3) Tj ( ) Tj (=) Tj ( ) Tj (0.0021) Tj ( ) Tj (m^2/s) Tj ( ) Tj (=) Tj ( ) Tj (21) Tj ( ) Tj (cm^2/s) Tj T* ET
 Q
 Q
 q
@@ -595,7 +595,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (v_coherence) Tj ( ) Tj (~=) Tj ( ) Tj (0.5) Tj ( ) Tj (m/s) Tj ( ) Tj (\(nerve) Tj ( ) Tj (conduction\)) Tj  T* (tau_corr) Tj ( ) Tj (~=) Tj ( ) Tj (10) Tj ( ) Tj (s) Tj  T*  T* (D_C) Tj ( ) Tj (=) Tj ( ) Tj (\(0.5\)?) Tj ( ) Tj (x) Tj ( ) Tj (10) Tj ( ) Tj (/) Tj ( ) Tj (3) Tj ( ) Tj (=) Tj ( ) Tj (0.83) Tj ( ) Tj (m?/s) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (v_coherence) Tj ( ) Tj (~=) Tj ( ) Tj (0.5) Tj ( ) Tj (m/s) Tj ( ) Tj (\(nerve) Tj ( ) Tj (conduction\)) Tj  T* (tau_corr) Tj ( ) Tj (~=) Tj ( ) Tj (10) Tj ( ) Tj (s) Tj  T*  T* (D_C) Tj ( ) Tj (=) Tj ( ) Tj (\(0.5\)^2) Tj ( ) Tj (x) Tj ( ) Tj (10) Tj ( ) Tj (/) Tj ( ) Tj (3) Tj ( ) Tj (=) Tj ( ) Tj (0.83) Tj ( ) Tj (m^2/s) Tj T* ET
 Q
 Q
 q
@@ -605,7 +605,7 @@ q
 1 0 0 1 60 190.8 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (These are large diffusion coefficients -- much larger than chemical diffusion \(D_chemical ~ 10nu? m?/s\). This makes sense:) Tj T* (neural coherence propagates at signal speeds \(0.1-10 m/s\), not at molecular speeds \(mum/s\).) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (These are large diffusion coefficients -- much larger than chemical diffusion \(D_chemical ~ 10^-^9 m^2/s\). This makes) Tj T* (sense: neural coherence propagates at signal speeds \(0.1-10 m/s\), not at molecular speeds \(mum/s\).) Tj T* ET
 Q
 Q
 q
@@ -766,7 +766,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 7038
+/Length 7031
 >>
 stream
 q
@@ -883,7 +883,7 @@ q
 n 20 0 452 8.8 re f*
 Q
 q
-BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(S|K\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (nu) Tj ( ) Tj (b) Tj ( ) Tj (x) Tj ( ) Tj (eta_K\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(S|K\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_thermal) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (b) Tj ( ) Tj (x) Tj ( ) Tj (eta_K\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_env) Tj T* ET
 Q
 Q
 q
@@ -905,7 +905,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(0,) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_K) Tj ( ) Tj ( ) Tj (\(keeper) Tj ( ) Tj (holds) Tj ( ) Tj (the) Tj ( ) Tj (boundary) Tj ( ) Tj (at) Tj ( ) Tj (C_K\)) Tj  T*  T* (Solution) Tj ( ) Tj (inside) Tj ( ) Tj (the) Tj ( ) Tj (system:) Tj  T* (C\(x,) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_K) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nux/lambda_C\)) Tj ( ) Tj (+) Tj ( ) Tj ([C_initial) Tj ( ) Tj (nu) Tj ( ) Tj (C_K) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nux/lambda_C\)]) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nut/tau_relax\)) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(0,) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_K) Tj ( ) Tj ( ) Tj (\(keeper) Tj ( ) Tj (holds) Tj ( ) Tj (the) Tj ( ) Tj (boundary) Tj ( ) Tj (at) Tj ( ) Tj (C_K\)) Tj  T*  T* (Solution) Tj ( ) Tj (inside) Tj ( ) Tj (the) Tj ( ) Tj (system:) Tj  T* (C\(x,) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_K) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-x/lambda_C\)) Tj ( ) Tj (+) Tj ( ) Tj ([C_initial) Tj ( ) Tj (-) Tj ( ) Tj (C_K) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-x/lambda_C\)]) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-t/tau_relax\)) Tj T* ET
 Q
 Q
 q
@@ -914,7 +914,7 @@ Q
 q
 1 0 0 1 60 385.2 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (At long times: C\(x\) -) Tj (> C_K x exp\(nux/lambda_C\)) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (At long times: C\(x\) -) Tj (> C_K x exp\(-x/lambda_C\)) Tj T* ET
 Q
 Q
 q
@@ -940,7 +940,7 @@ Q
 q
 1 0 0 1 60 314.2 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 bxeta_K -) Tj (> 1: perfect keeper, C\(0\) = C?, full boundary condition) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 bxeta_K -) Tj (> 1: perfect keeper, C\(0\) = C_0, full boundary condition) Tj T* ET
 Q
 Q
 q
@@ -985,7 +985,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(x\)) Tj ( ) Tj (=) Tj ( ) Tj (A) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nux/lambda_C\)) Tj ( ) Tj (+) Tj ( ) Tj (B) Tj ( ) Tj (x) Tj ( ) Tj (exp\(+x/lambda_C\)) Tj  T*  T* (where) Tj ( ) Tj (A) Tj ( ) Tj (and) Tj ( ) Tj (B) Tj ( ) Tj (are) Tj ( ) Tj (set) Tj ( ) Tj (by) Tj ( ) Tj (boundary) Tj ( ) Tj (conditions) Tj ( ) Tj (C\(0\)) Tj ( ) Tj (=) Tj ( ) Tj (C_K1) Tj ( ) Tj (and) Tj ( ) Tj (C\(L\)) Tj ( ) Tj (=) Tj ( ) Tj (C_K2) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(x\)) Tj ( ) Tj (=) Tj ( ) Tj (A) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-x/lambda_C\)) Tj ( ) Tj (+) Tj ( ) Tj (B) Tj ( ) Tj (x) Tj ( ) Tj (exp\(+x/lambda_C\)) Tj  T*  T* (where) Tj ( ) Tj (A) Tj ( ) Tj (and) Tj ( ) Tj (B) Tj ( ) Tj (are) Tj ( ) Tj (set) Tj ( ) Tj (by) Tj ( ) Tj (boundary) Tj ( ) Tj (conditions) Tj ( ) Tj (C\(0\)) Tj ( ) Tj (=) Tj ( ) Tj (C_K1) Tj ( ) Tj (and) Tj ( ) Tj (C\(L\)) Tj ( ) Tj (=) Tj ( ) Tj (C_K2) Tj T* ET
 Q
 Q
 q
@@ -1025,7 +1025,7 @@ q
 n 20 0 452 8.8 re f*
 Q
 q
-BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_min) Tj ( ) Tj (=) Tj ( ) Tj (2) Tj ( ) Tj (x) Tj ( ) Tj (C_K) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nuL/\(2lambda_C\)\)) Tj ( ) Tj (/) Tj ( ) Tj (cosh\(L/\(2lambda_C\)\)) Tj ( ) Tj ( ) Tj (~=) Tj ( ) Tj (C_K) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (L) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (lambda_C) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_min) Tj ( ) Tj (=) Tj ( ) Tj (2) Tj ( ) Tj (x) Tj ( ) Tj (C_K) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-L/\(2lambda_C\)\)) Tj ( ) Tj (/) Tj ( ) Tj (cosh\(L/\(2lambda_C\)\)) Tj ( ) Tj ( ) Tj (~=) Tj ( ) Tj (C_K) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (L) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (lambda_C) Tj T* ET
 Q
 Q
 q
@@ -1150,7 +1150,7 @@ endobj
 endobj
 21 0 obj
 <<
-/Length 6383
+/Length 6387
 >>
 stream
 q
@@ -1180,7 +1180,7 @@ Q
 q
 1 0 0 1 60 662 cm
 q
-BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The structure of a coherent family is a diffusion boundary value problem.) Tj /F1 9 Tf ( Two coherent parents create a coherence) Tj T* (field between them. A child in that field has C > C?_child because they are bathed in diffused coherence from both) Tj T* (boundaries. This is why family coherence matters -- not metaphor, Fick.) Tj T* ET
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (The structure of a coherent family is a diffusion boundary value problem.) Tj /F1 9 Tf ( Two coherent parents create a coherence) Tj T* (field between them. A child in that field has C > C_0_child because they are bathed in diffused coherence from both) Tj T* (boundaries. This is why family coherence matters -- not metaphor, Fick.) Tj T* ET
 Q
 Q
 q
@@ -1219,7 +1219,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC\(x,t\)/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (x) Tj ( ) Tj (??C) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (nu) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj ([gamma_thermal\(x\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m\(x\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_ACE\(x\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_storm\(x\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_inflam) Tj  T* (mation\(x\)]) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj  T*  T* (=) Tj ( ) Tj (D_C) Tj ( ) Tj (x) Tj ( ) Tj (??C) Tj ( ) Tj (nu) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(x,t\)) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (dC\(x,t\)/dt) Tj ( ) Tj (=) Tj ( ) Tj (D_C) Tj ( ) Tj (x) Tj ( ) Tj (del^2C) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (-) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj ([gamma_thermal\(x\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_m\(x\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_ACE\(x\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_storm\(x\)) Tj ( ) Tj (+) Tj ( ) Tj (gamma_inflamm) Tj  T* (ation\(x\)]) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj  T*  T* (=) Tj ( ) Tj (D_C) Tj ( ) Tj (x) Tj ( ) Tj (del^2C) Tj ( ) Tj (-) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\(x,t\)) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj T* ET
 Q
 Q
 q
@@ -1249,7 +1249,7 @@ q
 n 20 0 452 88 re f*
 Q
 q
-BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Geometry:) Tj ( ) Tj (1D,) Tj ( ) Tj (x) Tj ( ) Tj (in) Tj ( ) Tj ([0,) Tj ( ) Tj (5m]) Tj  T* (Therapist) Tj ( ) Tj (at) Tj ( ) Tj (x=0:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.0007) Tj ( ) Tj (\(highly) Tj ( ) Tj (trained,) Tj ( ) Tj (regulated\)) Tj  T* (Patient) Tj ( ) Tj (at) Tj ( ) Tj (x=1m:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.0020) Tj ( ) Tj (\(above) Tj ( ) Tj (gamma_c,) Tj ( ) Tj (seeking) Tj ( ) Tj (help\)) Tj  T*  T* (D_C) Tj ( ) Tj (\(HRV) Tj ( ) Tj (band\)) Tj ( ) Tj (~=) Tj ( ) Tj (0.83) Tj ( ) Tj (m?/s) Tj  T*  T* (Steady) Tj ( ) Tj (state) Tj ( ) Tj (at) Tj ( ) Tj (x=1m:) Tj  T* (C_patient) Tj ( ) Tj (=) Tj ( ) Tj (C_therapist) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu1m) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(0.83/\(1000x0.0007\)\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (C_therapist) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu1) Tj ( ) Tj (/) Tj ( ) Tj (1.09\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (C_therapist) Tj ( ) Tj (x) Tj ( ) Tj (0.40) Tj T* ET
+BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Geometry:) Tj ( ) Tj (1D,) Tj ( ) Tj (x) Tj ( ) Tj (in) Tj ( ) Tj ([0,) Tj ( ) Tj (5m]) Tj  T* (Therapist) Tj ( ) Tj (at) Tj ( ) Tj (x=0:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.0007) Tj ( ) Tj (\(highly) Tj ( ) Tj (trained,) Tj ( ) Tj (regulated\)) Tj  T* (Patient) Tj ( ) Tj (at) Tj ( ) Tj (x=1m:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.0020) Tj ( ) Tj (\(above) Tj ( ) Tj (gamma_c,) Tj ( ) Tj (seeking) Tj ( ) Tj (help\)) Tj  T*  T* (D_C) Tj ( ) Tj (\(HRV) Tj ( ) Tj (band\)) Tj ( ) Tj (~=) Tj ( ) Tj (0.83) Tj ( ) Tj (m^2/s) Tj  T*  T* (Steady) Tj ( ) Tj (state) Tj ( ) Tj (at) Tj ( ) Tj (x=1m:) Tj  T* (C_patient) Tj ( ) Tj (=) Tj ( ) Tj (C_therapist) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-1m) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(0.83/\(1000x0.0007\)\)\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (C_therapist) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-1) Tj ( ) Tj (/) Tj ( ) Tj (1.09\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (C_therapist) Tj ( ) Tj (x) Tj ( ) Tj (0.40) Tj T* ET
 Q
 Q
 q
@@ -1463,7 +1463,7 @@ endobj
 endobj
 25 0 obj
 <<
-/Length 2646
+/Length 2649
 >>
 stream
 q
@@ -1510,7 +1510,7 @@ n 20 0 452 8.8 re f*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| dC/dt = D_C??C nu alphagamma_eff.C | Wike-Fick coherence diffusion equation |) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| dC/dt = D_Cdel^2C - alphagamma_eff.C | Wike-Fick coherence diffusion equation |) Tj T* ET
 Q
 Q
 q
@@ -1521,7 +1521,7 @@ n 20 0 452 8.8 re f*
 Q
 q
 0 0 0 rg
-BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| D_C ~= 0.002 m?/s \(neural gamma\) | Coherence diffusion coefficient |) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm /F4 7.5 Tf 8.8 TL (| D_C ~= 0.002 m^2/s \(neural gamma\) | Coherence diffusion coefficient |) Tj T* ET
 Q
 Q
 q
@@ -1669,28 +1669,28 @@ xref
 0000000301 00000 n 
 0000000350 00000 n 
 0000000721 00000 n 
-0000005713 00000 n 
-0000005820 00000 n 
-0000005927 00000 n 
-0000006039 00000 n 
-0000006149 00000 n 
-0000006265 00000 n 
-0000006371 00000 n 
-0000006746 00000 n 
-0000014081 00000 n 
-0000014189 00000 n 
-0000014300 00000 n 
-0000014675 00000 n 
-0000021766 00000 n 
-0000021874 00000 n 
-0000021985 00000 n 
-0000022360 00000 n 
-0000028796 00000 n 
-0000028904 00000 n 
-0000029015 00000 n 
-0000029390 00000 n 
-0000032089 00000 n 
-0000032197 00000 n 
+0000005718 00000 n 
+0000005825 00000 n 
+0000005932 00000 n 
+0000006044 00000 n 
+0000006154 00000 n 
+0000006270 00000 n 
+0000006376 00000 n 
+0000006751 00000 n 
+0000014098 00000 n 
+0000014206 00000 n 
+0000014317 00000 n 
+0000014692 00000 n 
+0000021776 00000 n 
+0000021884 00000 n 
+0000021995 00000 n 
+0000022370 00000 n 
+0000028810 00000 n 
+0000028918 00000 n 
+0000029029 00000 n 
+0000029404 00000 n 
+0000032106 00000 n 
+0000032214 00000 n 
 trailer
 <<
 /Size 28
@@ -1698,5 +1698,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-32308
+32325
 %%EOF

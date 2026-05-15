@@ -60,7 +60,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5566
+/Length 5567
 >>
 stream
 q
@@ -144,7 +144,7 @@ q
 1 0 0 1 60 431 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Wike Coherence Law: C = C? x exp\(nualpha x gamma_eff\). The parameter alpha has appeared in every paper without) Tj T* (a physical derivation. It was fit to simulation data at alpha ~= 1000. This paper derives alpha from dimensional analysis and) Tj T* (first principles:) Tj T* ET
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Wike Coherence Law: C = C_0 x exp\(-alpha x gamma_eff\). The parameter alpha has appeared in every paper without) Tj T* (a physical derivation. It was fit to simulation data at alpha ~= 1000. This paper derives alpha from dimensional analysis and) Tj T* (first principles:) Tj T* ET
 Q
 Q
 q
@@ -226,7 +226,7 @@ q
 n 20 0 452 8.8 re f*
 Q
 q
-BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj T* ET
 Q
 Q
 q
@@ -259,7 +259,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg ([gamma_eff]) Tj ( ) Tj (=) Tj ( ) Tj (snu?) Tj  T* ([alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff]) Tj ( ) Tj (=) Tj ( ) Tj (dimensionless) Tj  T* (-) Tj (>) Tj ( ) Tj ([alpha]) Tj ( ) Tj (=) Tj ( ) Tj (s) Tj ( ) Tj (=) Tj ( ) Tj (seconds) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg ([gamma_eff]) Tj ( ) Tj (=) Tj ( ) Tj (s^-^1) Tj  T* ([alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff]) Tj ( ) Tj (=) Tj ( ) Tj (dimensionless) Tj  T* (-) Tj (>) Tj ( ) Tj ([alpha]) Tj ( ) Tj (=) Tj ( ) Tj (s) Tj ( ) Tj (=) Tj ( ) Tj (seconds) Tj T* ET
 Q
 Q
 q
@@ -420,7 +420,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 8592
+/Length 8638
 >>
 stream
 q
@@ -441,7 +441,7 @@ q
 1 0 0 1 60 708 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL -0.101591 Tw (Wait -- if alpha has units of seconds, and gamma_eff has units of snu?, then alpha x gamma_eff is dimensionless. alpha is a) Tj T* 0 Tw (time scale.) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (Wait -- if alpha has units of seconds, and gamma_eff has units of s^-^1, then alpha x gamma_eff is dimensionless. alpha is) Tj T* (a time scale.) Tj T* ET
 Q
 Q
 q
@@ -484,7 +484,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (v_coherence) Tj ( ) Tj (=) Tj ( ) Tj (c_sound_protein) Tj ( ) Tj (~=) Tj ( ) Tj (10?) Tj ( ) Tj (m/s) Tj ( ) Tj ( ) Tj (\(speed) Tj ( ) Tj (of) Tj ( ) Tj (sound) Tj ( ) Tj (in) Tj ( ) Tj (protein\)) Tj  T* (xi_coherence) Tj ( ) Tj (=) Tj ( ) Tj (40) Tj ( ) Tj (nm) Tj ( ) Tj (\(microtubule) Tj ( ) Tj (outer) Tj ( ) Tj (radius\)) Tj  T*  T* (tau_coherence) Tj ( ) Tj (=) Tj ( ) Tj (40x10nu?) Tj ( ) Tj (m) Tj ( ) Tj (/) Tj ( ) Tj (10?) Tj ( ) Tj (m/s) Tj ( ) Tj (=) Tj ( ) Tj (4x10nu??) Tj ( ) Tj (s) Tj ( ) Tj (=) Tj ( ) Tj (40) Tj ( ) Tj (picoseconds) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (v_coherence) Tj ( ) Tj (=) Tj ( ) Tj (c_sound_protein) Tj ( ) Tj (~=) Tj ( ) Tj (10^3) Tj ( ) Tj (m/s) Tj ( ) Tj ( ) Tj (\(speed) Tj ( ) Tj (of) Tj ( ) Tj (sound) Tj ( ) Tj (in) Tj ( ) Tj (protein\)) Tj  T* (xi_coherence) Tj ( ) Tj (=) Tj ( ) Tj (40) Tj ( ) Tj (nm) Tj ( ) Tj (\(microtubule) Tj ( ) Tj (outer) Tj ( ) Tj (radius\)) Tj  T*  T* (tau_coherence) Tj ( ) Tj (=) Tj ( ) Tj (40x10^-^9) Tj ( ) Tj (m) Tj ( ) Tj (/) Tj ( ) Tj (10^3) Tj ( ) Tj (m/s) Tj ( ) Tj (=) Tj ( ) Tj (4x10^-^1^1) Tj ( ) Tj (s) Tj ( ) Tj (=) Tj ( ) Tj (40) Tj ( ) Tj (picoseconds) Tj T* ET
 Q
 Q
 q
@@ -494,7 +494,7 @@ q
 1 0 0 1 60 551.4 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (And gamma_eff in the simulations is in units of \(simulation time steps\)nu?, not physical Hz. The dimensionless alpha in the) Tj T* (simulation is:) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (And gamma_eff in the simulations is in units of \(simulation time steps\)^-^1, not physical Hz. The dimensionless alpha in the) Tj T* (simulation is:) Tj T* ET
 Q
 Q
 q
@@ -530,7 +530,7 @@ q
 n 20 0 452 52.8 re f*
 Q
 q
-BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (tau_dB) Tj ( ) Tj (=) Tj ( ) Tj (lambda_dB) Tj ( ) Tj (/) Tj ( ) Tj (v_thermal) Tj ( ) Tj (=) Tj ( ) Tj (\(0.043x10nu?\)) Tj ( ) Tj (/) Tj ( ) Tj (\(v_rms) Tj ( ) Tj (at) Tj ( ) Tj (310K\)) Tj  T*  T* (v_rms\(proton,) Tj ( ) Tj (310K\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(3k_BT/m_p\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(3) Tj ( ) Tj (x) Tj ( ) Tj (1.381x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj ( ) Tj (/) Tj ( ) Tj (1.673x10nu??\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(7.66x10?\)) Tj ( ) Tj (=) Tj ( ) Tj (2769) Tj ( ) Tj (m/s) Tj  T*  T* (tau_dB) Tj ( ) Tj (=) Tj ( ) Tj (0.043x10nu?) Tj ( ) Tj (/) Tj ( ) Tj (2769) Tj ( ) Tj (=) Tj ( ) Tj (1.55x10nu??) Tj ( ) Tj (s) Tj ( ) Tj (=) Tj ( ) Tj (15.5) Tj ( ) Tj (femtoseconds) Tj T* ET
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (tau_dB) Tj ( ) Tj (=) Tj ( ) Tj (lambda_dB) Tj ( ) Tj (/) Tj ( ) Tj (v_thermal) Tj ( ) Tj (=) Tj ( ) Tj (\(0.043x10^-^9\)) Tj ( ) Tj (/) Tj ( ) Tj (\(v_rms) Tj ( ) Tj (at) Tj ( ) Tj (310K\)) Tj  T*  T* (v_rms\(proton,) Tj ( ) Tj (310K\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(3k_BT/m_p\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(3) Tj ( ) Tj (x) Tj ( ) Tj (1.381x10^-^2^3) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj ( ) Tj (/) Tj ( ) Tj (1.673x10^-^2^7\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(7.66x10^6\)) Tj ( ) Tj (=) Tj ( ) Tj (2769) Tj ( ) Tj (m/s) Tj  T*  T* (tau_dB) Tj ( ) Tj (=) Tj ( ) Tj (0.043x10^-^9) Tj ( ) Tj (/) Tj ( ) Tj (2769) Tj ( ) Tj (=) Tj ( ) Tj (1.55x10^-^1^4) Tj ( ) Tj (s) Tj ( ) Tj (=) Tj ( ) Tj (15.5) Tj ( ) Tj (femtoseconds) Tj T* ET
 Q
 Q
 q
@@ -543,7 +543,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (=) Tj ( ) Tj (tau_coherence) Tj ( ) Tj (/) Tj ( ) Tj (tau_dB) Tj ( ) Tj (=) Tj ( ) Tj (40x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (15.5x10nu??) Tj ( ) Tj (=) Tj ( ) Tj (2580) Tj ( ) Tj (~=) Tj ( ) Tj (1000) Tj  T*  T* (\(within) Tj ( ) Tj (order) Tj ( ) Tj (of) Tj ( ) Tj (magnitude) Tj ( ) Tj (--) Tj ( ) Tj (the) Tj ( ) Tj (exact) Tj ( ) Tj (value) Tj ( ) Tj (depends) Tj ( ) Tj (on) Tj ( ) Tj (which) Tj ( ) Tj (velocity) Tj ( ) Tj (is) Tj ( ) Tj (used\)) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (=) Tj ( ) Tj (tau_coherence) Tj ( ) Tj (/) Tj ( ) Tj (tau_dB) Tj ( ) Tj (=) Tj ( ) Tj (40x10^-^1^2) Tj ( ) Tj (/) Tj ( ) Tj (15.5x10^-^1^5) Tj ( ) Tj (=) Tj ( ) Tj (2580) Tj ( ) Tj (~=) Tj ( ) Tj (1000) Tj  T*  T* (\(within) Tj ( ) Tj (order) Tj ( ) Tj (of) Tj ( ) Tj (magnitude) Tj ( ) Tj (--) Tj ( ) Tj (the) Tj ( ) Tj (exact) Tj ( ) Tj (value) Tj ( ) Tj (depends) Tj ( ) Tj (on) Tj ( ) Tj (which) Tj ( ) Tj (velocity) Tj ( ) Tj (is) Tj ( ) Tj (used\)) Tj T* ET
 Q
 Q
 q
@@ -582,7 +582,7 @@ q
 n 20 0 452 70.4 re f*
 Q
 q
-BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (=) Tj ( ) Tj (xi_coherence) Tj ( ) Tj (/) Tj ( ) Tj (lambda_dB\(proton,) Tj ( ) Tj (T\)) Tj  T*  T* (lambda_dB\(proton,) Tj ( ) Tj (310K\)) Tj ( ) Tj (=) Tj ( ) Tj (h) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pi) Tj ( ) Tj (m_p) Tj ( ) Tj (k_BT\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pi) Tj ( ) Tj (x) Tj ( ) Tj (1.673x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (1.381x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (310\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pi) Tj ( ) Tj (x) Tj ( ) Tj (7.162x10nu??\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(4.499x10nu??\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (6.707x10nu??) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (9.88x10nu??) Tj ( ) Tj (m) Tj ( ) Tj (=) Tj ( ) Tj (0.099) Tj ( ) Tj (nm) Tj T* ET
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (alpha) Tj ( ) Tj (=) Tj ( ) Tj (xi_coherence) Tj ( ) Tj (/) Tj ( ) Tj (lambda_dB\(proton,) Tj ( ) Tj (T\)) Tj  T*  T* (lambda_dB\(proton,) Tj ( ) Tj (310K\)) Tj ( ) Tj (=) Tj ( ) Tj (h) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pi) Tj ( ) Tj (m_p) Tj ( ) Tj (k_BT\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10^-^3^4) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pi) Tj ( ) Tj (x) Tj ( ) Tj (1.673x10^-^2^7) Tj ( ) Tj (x) Tj ( ) Tj (1.381x10^-^2^3) Tj ( ) Tj (x) Tj ( ) Tj (310\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10^-^3^4) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pi) Tj ( ) Tj (x) Tj ( ) Tj (7.162x10^-^4^8\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10^-^3^4) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(4.499x10^-^4^7\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10^-^3^4) Tj ( ) Tj (/) Tj ( ) Tj (6.707x10^-^2^4) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (9.88x10^-^1^1) Tj ( ) Tj (m) Tj ( ) Tj (=) Tj ( ) Tj (0.099) Tj ( ) Tj (nm) Tj T* ET
 Q
 Q
 q
@@ -605,7 +605,7 @@ q
 n 20 0 452 123.2 re f*
 Q
 q
-BT 1 0 0 1 20 115.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (lambda_dB) Tj ( ) Tj (=) Tj ( ) Tj (h) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pi) Tj ( ) Tj (m) Tj ( ) Tj (k_BT\)) Tj  T*  T* (h) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (J.s) Tj  T* (m_p) Tj ( ) Tj (=) Tj ( ) Tj (1.673x10nu??) Tj ( ) Tj (kg) Tj  T* (k_B) Tj ( ) Tj (=) Tj ( ) Tj (1.381x10nu??) Tj ( ) Tj (J/K) Tj  T* (T) Tj ( ) Tj (=) Tj ( ) Tj (310) Tj ( ) Tj (K) Tj  T*  T* (2pi) Tj ( ) Tj (x) Tj ( ) Tj (m_p) Tj ( ) Tj (x) Tj ( ) Tj (k_B) Tj ( ) Tj (x) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (2pi) Tj ( ) Tj (x) Tj ( ) Tj (1.673x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (1.381x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (2pi) Tj ( ) Tj (x) Tj ( ) Tj (7.162x10nu??) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (4.500x10nu??) Tj  T*  T* (sqrt\(4.500x10nu??\)) Tj ( ) Tj (=) Tj ( ) Tj (6.708x10nu??) Tj ( ) Tj (kg.m/s) Tj  T*  T* (lambda_dB) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (6.708x10nu??) Tj ( ) Tj (=) Tj ( ) Tj (9.88x10nu??) Tj ( ) Tj (m) Tj ( ) Tj (~=) Tj ( ) Tj (0.1) Tj ( ) Tj (nm) Tj T* ET
+BT 1 0 0 1 20 115.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (lambda_dB) Tj ( ) Tj (=) Tj ( ) Tj (h) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2pi) Tj ( ) Tj (m) Tj ( ) Tj (k_BT\)) Tj  T*  T* (h) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10^-^3^4) Tj ( ) Tj (J.s) Tj  T* (m_p) Tj ( ) Tj (=) Tj ( ) Tj (1.673x10^-^2^7) Tj ( ) Tj (kg) Tj  T* (k_B) Tj ( ) Tj (=) Tj ( ) Tj (1.381x10^-^2^3) Tj ( ) Tj (J/K) Tj  T* (T) Tj ( ) Tj (=) Tj ( ) Tj (310) Tj ( ) Tj (K) Tj  T*  T* (2pi) Tj ( ) Tj (x) Tj ( ) Tj (m_p) Tj ( ) Tj (x) Tj ( ) Tj (k_B) Tj ( ) Tj (x) Tj ( ) Tj (T) Tj ( ) Tj (=) Tj ( ) Tj (2pi) Tj ( ) Tj (x) Tj ( ) Tj (1.673x10^-^2^7) Tj ( ) Tj (x) Tj ( ) Tj (1.381x10^-^2^3) Tj ( ) Tj (x) Tj ( ) Tj (310) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (2pi) Tj ( ) Tj (x) Tj ( ) Tj (7.162x10^-^4^8) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (4.500x10^-^4^7) Tj  T*  T* (sqrt\(4.500x10^-^4^7\)) Tj ( ) Tj (=) Tj ( ) Tj (6.708x10^-^2^4) Tj ( ) Tj (kg.m/s) Tj  T*  T* (lambda_dB) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10^-^3^4) Tj ( ) Tj (/) Tj ( ) Tj (6.708x10^-^2^4) Tj ( ) Tj (=) Tj ( ) Tj (9.88x10^-^1^1) Tj ( ) Tj (m) Tj ( ) Tj (~=) Tj ( ) Tj (0.1) Tj ( ) Tj (nm) Tj T* ET
 Q
 Q
 q
@@ -737,7 +737,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 9243
+/Length 9257
 >>
 stream
 q
@@ -876,7 +876,7 @@ q
 n 20 0 452 61.6 re f*
 Q
 q
-BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Exponential) Tj ( ) Tj (sensitivity:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj  T*  T* (dC/dgamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (nualpha) Tj ( ) Tj (x) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj (=) Tj ( ) Tj (nualpha) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj  T*  T* (A) Tj ( ) Tj (1%) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (produces) Tj ( ) Tj (an) Tj ( ) Tj (alpha%) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (dC/dgamma_eff.) Tj  T* (With) Tj ( ) Tj (alpha) Tj ( ) Tj (=) Tj ( ) Tj (1000:) Tj ( ) Tj (a) Tj ( ) Tj (0.001) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (1000) Tj ( ) Tj (x) Tj ( ) Tj (0.001) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (unit) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (the) Tj ( ) Tj (exponent.) Tj  T* (At) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016:) Tj ( ) Tj (the) Tj ( ) Tj (exponent) Tj ( ) Tj (is) Tj ( ) Tj (1000) Tj ( ) Tj (x) Tj ( ) Tj (0.0016) Tj ( ) Tj (=) Tj ( ) Tj (1.6) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (e^\(nu1.6\)) Tj ( ) Tj (=) Tj ( ) Tj (0.20) Tj ( ) Tj (x) Tj ( ) Tj (C?) Tj T* ET
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Exponential) Tj ( ) Tj (sensitivity:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj  T*  T* (dC/dgamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (-alpha) Tj ( ) Tj (x) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj (=) Tj ( ) Tj (-alpha) Tj ( ) Tj (x) Tj ( ) Tj (C) Tj  T*  T* (A) Tj ( ) Tj (1%) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (produces) Tj ( ) Tj (an) Tj ( ) Tj (alpha%) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (dC/dgamma_eff.) Tj  T* (With) Tj ( ) Tj (alpha) Tj ( ) Tj (=) Tj ( ) Tj (1000:) Tj ( ) Tj (a) Tj ( ) Tj (0.001) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (1000) Tj ( ) Tj (x) Tj ( ) Tj (0.001) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (unit) Tj ( ) Tj (change) Tj ( ) Tj (in) Tj ( ) Tj (the) Tj ( ) Tj (exponent.) Tj  T* (At) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016:) Tj ( ) Tj (the) Tj ( ) Tj (exponent) Tj ( ) Tj (is) Tj ( ) Tj (1000) Tj ( ) Tj (x) Tj ( ) Tj (0.0016) Tj ( ) Tj (=) Tj ( ) Tj (1.6) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (e^\(-1.6\)) Tj ( ) Tj (=) Tj ( ) Tj (0.20) Tj ( ) Tj (x) Tj ( ) Tj (C_0) Tj T* ET
 Q
 Q
 q
@@ -948,7 +948,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (lambda_dB\(electron,) Tj ( ) Tj (310K\)) Tj ( ) Tj (=) Tj ( ) Tj (h/sqrt\(2pi) Tj ( ) Tj (x) Tj ( ) Tj (m_e) Tj ( ) Tj (x) Tj ( ) Tj (k_BT\)) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??/sqrt\(2pi) Tj ( ) Tj (x) Tj ( ) Tj (9.109x10nu??) Tj ( ) Tj (x) Tj ( ) Tj (1.381x) Tj  T* (10nu??) Tj ( ) Tj (x) Tj ( ) Tj (310\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2.446x10nu??\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10nu??) Tj ( ) Tj (/) Tj ( ) Tj (4.946x10nu??) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (1.34x10nu?) Tj ( ) Tj (m) Tj ( ) Tj (=) Tj ( ) Tj (13.4) Tj ( ) Tj (nm) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (lambda_dB\(electron,) Tj ( ) Tj (310K\)) Tj ( ) Tj (=) Tj ( ) Tj (h/sqrt\(2pi) Tj ( ) Tj (x) Tj ( ) Tj (m_e) Tj ( ) Tj (x) Tj ( ) Tj (k_BT\)) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10^-^3^4/sqrt\(2pi) Tj ( ) Tj (x) Tj ( ) Tj (9.109x10^-^3^1) Tj ( ) Tj (x) Tj ( ) Tj (1.) Tj  T* (381x10^-^2^3) Tj ( ) Tj (x) Tj ( ) Tj (310\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10^-^3^4) Tj ( ) Tj (/) Tj ( ) Tj (sqrt\(2.446x10^-^5^0\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (6.626x10^-^3^4) Tj ( ) Tj (/) Tj ( ) Tj (4.946x10^-^2^6) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (1.34x10^-^8) Tj ( ) Tj (m) Tj ( ) Tj (=) Tj ( ) Tj (13.4) Tj ( ) Tj (nm) Tj T* ET
 Q
 Q
 q
@@ -1090,7 +1090,7 @@ endobj
 endobj
 21 0 obj
 <<
-/Length 5763
+/Length 5767
 >>
 stream
 q
@@ -1139,7 +1139,7 @@ q
 1 0 0 1 60 588 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. C? from alpha) Tj T* ET
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. C_0 from alpha) Tj T* ET
 Q
 Q
 q
@@ -1162,7 +1162,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (nu) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_thermal_min) Tj ( ) Tj (/) Tj ( ) Tj (alpha_max) Tj  T*  T* (where) Tj ( ) Tj (gamma_thermal_min) Tj ( ) Tj (=) Tj ( ) Tj (k_BT/h) Tj ( ) Tj (at) Tj ( ) Tj (body) Tj ( ) Tj (temperature) Tj  T* (and) Tj ( ) Tj (alpha_max) Tj ( ) Tj (=) Tj ( ) Tj (maximum) Tj ( ) Tj (possible) Tj ( ) Tj (alpha) Tj ( ) Tj (\(set) Tj ( ) Tj (by) Tj ( ) Tj (xi_max) Tj ( ) Tj (=) Tj ( ) Tj (percolation) Tj ( ) Tj (cluster) Tj ( ) Tj (size) Tj ( ) Tj (at) Tj ( ) Tj (phi_c\)) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_0) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_thermal_min) Tj ( ) Tj (/) Tj ( ) Tj (alpha_max) Tj  T*  T* (where) Tj ( ) Tj (gamma_thermal_min) Tj ( ) Tj (=) Tj ( ) Tj (k_BT/h-bar) Tj ( ) Tj (at) Tj ( ) Tj (body) Tj ( ) Tj (temperature) Tj  T* (and) Tj ( ) Tj (alpha_max) Tj ( ) Tj (=) Tj ( ) Tj (maximum) Tj ( ) Tj (possible) Tj ( ) Tj (alpha) Tj ( ) Tj (\(set) Tj ( ) Tj (by) Tj ( ) Tj (xi_max) Tj ( ) Tj (=) Tj ( ) Tj (percolation) Tj ( ) Tj (cluster) Tj ( ) Tj (size) Tj ( ) Tj (at) Tj ( ) Tj (phi_c\)) Tj T* ET
 Q
 Q
 q
@@ -1185,7 +1185,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (xi_perc) Tj ( ) Tj (=) Tj ( ) Tj (lambda_dB) Tj ( ) Tj (x) Tj ( ) Tj (phi_c^\(nunu_perc/d\)) Tj ( ) Tj (=) Tj ( ) Tj (0.1) Tj ( ) Tj (nm) Tj ( ) Tj (x) Tj ( ) Tj (\(0.590\)^\(nu0.41/3\)) Tj  T*  T* (nu_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (\(3D) Tj ( ) Tj (percolation) Tj ( ) Tj (order) Tj ( ) Tj (parameter) Tj ( ) Tj (exponent\)) Tj  T* (xi_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.1) Tj ( ) Tj (x) Tj ( ) Tj (\(0.590\)^\(nu0.137\)) Tj ( ) Tj (=) Tj ( ) Tj (0.1) Tj ( ) Tj (x) Tj ( ) Tj (1.077) Tj ( ) Tj (=) Tj ( ) Tj (0.108) Tj ( ) Tj (nm) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (xi_perc) Tj ( ) Tj (=) Tj ( ) Tj (lambda_dB) Tj ( ) Tj (x) Tj ( ) Tj (phi_c^\(-nu_perc/d\)) Tj ( ) Tj (=) Tj ( ) Tj (0.1) Tj ( ) Tj (nm) Tj ( ) Tj (x) Tj ( ) Tj (\(0.590\)^\(-0.41/3\)) Tj  T*  T* (nu_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (\(3D) Tj ( ) Tj (percolation) Tj ( ) Tj (order) Tj ( ) Tj (parameter) Tj ( ) Tj (exponent\)) Tj  T* (xi_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.1) Tj ( ) Tj (x) Tj ( ) Tj (\(0.590\)^\(-0.137\)) Tj ( ) Tj (=) Tj ( ) Tj (0.1) Tj ( ) Tj (x) Tj ( ) Tj (1.077) Tj ( ) Tj (=) Tj ( ) Tj (0.108) Tj ( ) Tj (nm) Tj T* ET
 Q
 Q
 q
@@ -1194,7 +1194,7 @@ Q
 q
 1 0 0 1 60 410.6 cm
 q
-BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is smaller than the microtubule, consistent with C? < 1 -- the percolation threshold limits the maximum coherence) Tj T* (below the theoretical maximum. The full C? calculation requires Paper 63.) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F1 9 Tf 0 0 0 rg (This is smaller than the microtubule, consistent with C_0 < 1 -- the percolation threshold limits the maximum coherence) Tj T* (below the theoretical maximum. The full C_0 calculation requires Paper 63.) Tj T* ET
 Q
 Q
 q
@@ -1404,24 +1404,24 @@ xref
 0000000294 00000 n 
 0000000343 00000 n 
 0000000714 00000 n 
-0000006332 00000 n 
-0000006439 00000 n 
-0000006546 00000 n 
-0000006658 00000 n 
-0000006768 00000 n 
-0000006884 00000 n 
-0000006990 00000 n 
-0000007365 00000 n 
-0000016010 00000 n 
-0000016118 00000 n 
-0000016229 00000 n 
-0000016604 00000 n 
-0000025900 00000 n 
-0000026008 00000 n 
-0000026119 00000 n 
-0000026494 00000 n 
-0000032310 00000 n 
-0000032418 00000 n 
+0000006333 00000 n 
+0000006440 00000 n 
+0000006547 00000 n 
+0000006659 00000 n 
+0000006769 00000 n 
+0000006885 00000 n 
+0000006991 00000 n 
+0000007366 00000 n 
+0000016057 00000 n 
+0000016165 00000 n 
+0000016276 00000 n 
+0000016651 00000 n 
+0000025961 00000 n 
+0000026069 00000 n 
+0000026180 00000 n 
+0000026555 00000 n 
+0000032375 00000 n 
+0000032483 00000 n 
 trailer
 <<
 /Size 24
@@ -1429,5 +1429,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-32529
+32594
 %%EOF

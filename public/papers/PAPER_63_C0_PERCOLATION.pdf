@@ -60,14 +60,14 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 6213
+/Length 6226
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
 BT /F2 8 Tf 9.6 TL ET
-BT 1 0 0 1 54 756 Tm (PAPER 63: WHAT SETS C? -- THE PERCOLATION MODEL) Tj T* ET
+BT 1 0 0 1 54 756 Tm (PAPER 63: WHAT SETS C_0 -- THE PERCOLATION MODEL) Tj T* ET
 BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
 0 0 0 RG
 .5 w
@@ -81,7 +81,7 @@ q
 1 0 0 1 60 710 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 25.096 0 Td (PAPER 63: WHAT SETS C? -- THE PERCOLATION MODEL) Tj T* -25.096 0 Td ET
+BT 1 0 0 1 0 6 Tm /F2 16 Tf 22 TL 21.088 0 Td (PAPER 63: WHAT SETS C_0 -- THE PERCOLATION MODEL) Tj T* -21.088 0 Td ET
 Q
 Q
 q
@@ -118,7 +118,7 @@ q
 1 0 0 1 60 540 cm
 q
 .3 .3 .3 rg
-BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("You cannot have more coherence than your water network can carry. The threshold is phi_c = 0.590. Below) Tj T* (it, the network is disconnected. C? is zero.") Tj T* ET
+BT 1 0 0 1 30 15 Tm /F3 9 Tf 12 TL ("You cannot have more coherence than your water network can carry. The threshold is phi_c = 0.590. Below) Tj T* (it, the network is disconnected. C_0 is zero.") Tj T* ET
 Q
 Q
 q
@@ -144,7 +144,7 @@ q
 1 0 0 1 60 419 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (C? -- the maximum coherence reserve in the Wike Coherence Law -- has appeared in every paper as a given parameter.) Tj T* (This paper derives it. C? is set by the fraction phi of water molecules in the coherent EZ/structured phase. The percolation) Tj T* (threshold in 3D is phi_c = 0.590 \(site percolation on FCC lattice\). Below phi_c, no spanning coherent network exists and C?) Tj T* (= 0. Above phi_c, C? grows as:) Tj T* ET
+BT 1 0 0 1 0 39 Tm /F1 9 Tf 12 TL (C_0 -- the maximum coherence reserve in the Wike Coherence Law -- has appeared in every paper as a given parameter.) Tj T* (This paper derives it. C_0 is set by the fraction phi of water molecules in the coherent EZ/structured phase. The percolation) Tj T* (threshold in 3D is phi_c = 0.590 \(site percolation on FCC lattice\). Below phi_c, no spanning coherent network exists and) Tj T* (C_0 = 0. Above phi_c, C_0 grows as:) Tj T* ET
 Q
 Q
 q
@@ -157,7 +157,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?) Tj ( ) Tj (=) Tj ( ) Tj (\(phi) Tj ( ) Tj (nu) Tj ( ) Tj (phi_c\)^beta_perc) Tj ( ) Tj (x) Tj ( ) Tj (C?_max) Tj  T*  T* (where) Tj ( ) Tj (beta_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (\(3D) Tj ( ) Tj (percolation) Tj ( ) Tj (order) Tj ( ) Tj (parameter) Tj ( ) Tj (exponent\)) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_0) Tj ( ) Tj (=) Tj ( ) Tj (\(phi) Tj ( ) Tj (-) Tj ( ) Tj (phi_c\)^beta_perc) Tj ( ) Tj (x) Tj ( ) Tj (C_0_max) Tj  T*  T* (where) Tj ( ) Tj (beta_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (\(3D) Tj ( ) Tj (percolation) Tj ( ) Tj (order) Tj ( ) Tj (parameter) Tj ( ) Tj (exponent\)) Tj T* ET
 Q
 Q
 q
@@ -166,7 +166,7 @@ Q
 q
 1 0 0 1 60 322.6 cm
 q
-BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (At healthy hydration and NIR exposure: phi ~= 0.65-0.70 -) Tj (> C? ~= 0.77-0.86 x C?_max. Dehydration, aging, and disease) Tj T* (reduce phi -) Tj (> reduce C?. This model predicts: \(1\) a critical hydration level below which coherence is structurally impossible,) Tj T* (\(2\) C? restoration as an acute response to rehydration above threshold, and \(3\) the reason elderly individuals have lower) Tj T* (resilience -- reduced EZ water fraction.) Tj T* ET
+BT 1 0 0 1 0 39 Tm 12 TL /F1 9 Tf 0 0 0 rg (At healthy hydration and NIR exposure: phi ~= 0.65-0.70 -) Tj (> C_0 ~= 0.77-0.86 x C_0_max. Dehydration, aging, and disease) Tj T* (reduce phi -) Tj (> reduce C_0. This model predicts: \(1\) a critical hydration level below which coherence is structurally) Tj T* (impossible, \(2\) C_0 restoration as an acute response to rehydration above threshold, and \(3\) the reason elderly individuals) Tj T* (have lower resilience -- reduced EZ water fraction.) Tj T* ET
 Q
 Q
 q
@@ -211,7 +211,7 @@ q
 n 20 0 452 70.4 re f*
 Q
 q
-BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.198) Tj ( ) Tj ( ) Tj (\(bond) Tj ( ) Tj (percolation\)) Tj  T* (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.198) Tj ( ) Tj ( ) Tj (\(site) Tj ( ) Tj (percolation,) Tj ( ) Tj (FCC\)) Tj  T*  T* (More) Tj ( ) Tj (relevantly,) Tj ( ) Tj (for) Tj ( ) Tj (random) Tj ( ) Tj (packing) Tj ( ) Tj (of) Tj ( ) Tj (spheres) Tj ( ) Tj (\(water) Tj ( ) Tj (molecules) Tj ( ) Tj (in) Tj ( ) Tj (bulk\):) Tj  T* (phi_c) Tj ( ) Tj (~=) Tj ( ) Tj (0.29) Tj ( ) Tj (\(random) Tj ( ) Tj (sequential) Tj ( ) Tj (packing,) Tj ( ) Tj (site) Tj ( ) Tj (perc.\)) Tj  T*  T* (For) Tj ( ) Tj (hydrogen-bonded) Tj ( ) Tj (network) Tj ( ) Tj (\(each) Tj ( ) Tj (H?O) Tj ( ) Tj (has) Tj ( ) Tj (4) Tj ( ) Tj (bonds,) Tj ( ) Tj (coordination) Tj ( ) Tj (number) Tj ( ) Tj (z=4\):) Tj  T* (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (1/\(z-1\)) Tj ( ) Tj (=) Tj ( ) Tj (1/3) Tj ( ) Tj (=) Tj ( ) Tj (0.333) Tj ( ) Tj ( ) Tj (\(Bethe) Tj ( ) Tj (lattice,) Tj ( ) Tj (mean) Tj ( ) Tj (field\)) Tj T* ET
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.198) Tj ( ) Tj ( ) Tj (\(bond) Tj ( ) Tj (percolation\)) Tj  T* (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.198) Tj ( ) Tj ( ) Tj (\(site) Tj ( ) Tj (percolation,) Tj ( ) Tj (FCC\)) Tj  T*  T* (More) Tj ( ) Tj (relevantly,) Tj ( ) Tj (for) Tj ( ) Tj (random) Tj ( ) Tj (packing) Tj ( ) Tj (of) Tj ( ) Tj (spheres) Tj ( ) Tj (\(water) Tj ( ) Tj (molecules) Tj ( ) Tj (in) Tj ( ) Tj (bulk\):) Tj  T* (phi_c) Tj ( ) Tj (~=) Tj ( ) Tj (0.29) Tj ( ) Tj (\(random) Tj ( ) Tj (sequential) Tj ( ) Tj (packing,) Tj ( ) Tj (site) Tj ( ) Tj (perc.\)) Tj  T*  T* (For) Tj ( ) Tj (hydrogen-bonded) Tj ( ) Tj (network) Tj ( ) Tj (\(each) Tj ( ) Tj (H_2O) Tj ( ) Tj (has) Tj ( ) Tj (4) Tj ( ) Tj (bonds,) Tj ( ) Tj (coordination) Tj ( ) Tj (number) Tj ( ) Tj (z=4\):) Tj  T* (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (1/\(z-1\)) Tj ( ) Tj (=) Tj ( ) Tj (1/3) Tj ( ) Tj (=) Tj ( ) Tj (0.333) Tj ( ) Tj ( ) Tj (\(Bethe) Tj ( ) Tj (lattice,) Tj ( ) Tj (mean) Tj ( ) Tj (field\)) Tj T* ET
 Q
 Q
 q
@@ -394,14 +394,14 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 6811
+/Length 6832
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
 BT /F2 8 Tf 9.6 TL ET
-BT 1 0 0 1 54 756 Tm (PAPER 63: WHAT SETS C? -- THE PERCOLATION MODEL) Tj T* ET
+BT 1 0 0 1 54 756 Tm (PAPER 63: WHAT SETS C_0 -- THE PERCOLATION MODEL) Tj T* ET
 BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
 0 0 0 RG
 .5 w
@@ -425,7 +425,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_inf\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (\(phi) Tj ( ) Tj (nu) Tj ( ) Tj (phi_c\)^beta_perc) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (>) Tj ( ) Tj (phi_c) Tj  T*  T* (where) Tj ( ) Tj (beta_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (for) Tj ( ) Tj (3D) Tj ( ) Tj (percolation) Tj ( ) Tj (\(Lorenz) Tj ( ) Tj (&) Tj ( ) Tj (Ziff,) Tj ( ) Tj (1998\)) Tj  T* (P_inf) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (<) Tj ( ) Tj (phi_c) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P_inf\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (\(phi) Tj ( ) Tj (-) Tj ( ) Tj (phi_c\)^beta_perc) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (>) Tj ( ) Tj (phi_c) Tj  T*  T* (where) Tj ( ) Tj (beta_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (for) Tj ( ) Tj (3D) Tj ( ) Tj (percolation) Tj ( ) Tj (\(Lorenz) Tj ( ) Tj (&) Tj ( ) Tj (Ziff,) Tj ( ) Tj (1998\)) Tj  T* (P_inf) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (<) Tj ( ) Tj (phi_c) Tj T* ET
 Q
 Q
 q
@@ -441,7 +441,7 @@ q
 1 0 0 1 60 624.8 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. C? as a Percolation Order Parameter) Tj T* ET
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (2. C_0 as a Percolation Order Parameter) Tj T* ET
 Q
 Q
 q
@@ -488,7 +488,7 @@ Q
 q
 1 0 0 1 60 503.8 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Therefore: ) Tj /F2 9 Tf (C? is bounded above by the percolation order parameter P_inf\(phi\).) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Therefore: ) Tj /F2 9 Tf (C_0 is bounded above by the percolation order parameter P_inf\(phi\).) Tj T* ET
 Q
 Q
 q
@@ -501,7 +501,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (P_inf\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (\(phi) Tj ( ) Tj (nu) Tj ( ) Tj (phi_c\)^0.41) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (>) Tj ( ) Tj (phi_c) Tj  T*  T* (C?\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (phi_c) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_0\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0_max) Tj ( ) Tj (x) Tj ( ) Tj (P_inf\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0_max) Tj ( ) Tj (x) Tj ( ) Tj (\(phi) Tj ( ) Tj (-) Tj ( ) Tj (phi_c\)^0.41) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (>) Tj ( ) Tj (phi_c) Tj  T*  T* (C_0\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (phi_c) Tj T* ET
 Q
 Q
 q
@@ -511,7 +511,7 @@ q
 1 0 0 1 60 431.4 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (where C?_max is the theoretical maximum coherence if the water network were perfectly percolating \(phi = 1, all water in) Tj T* (EZ phase\).) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (where C_0_max is the theoretical maximum coherence if the water network were perfectly percolating \(phi = 1, all water in) Tj T* (EZ phase\).) Tj T* ET
 Q
 Q
 q
@@ -547,7 +547,7 @@ q
 n 20 0 452 61.6 re f*
 Q
 q
-BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Estimated) Tj ( ) Tj (phi) Tj ( ) Tj (\(EZ) Tj ( ) Tj (water) Tj ( ) Tj (fraction) Tj ( ) Tj (in) Tj ( ) Tj (biological) Tj ( ) Tj (tissue\):) Tj ( ) Tj (0.65-0.70) Tj  T* (phi) Tj ( ) Tj (nu) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.65) Tj ( ) Tj (nu) Tj ( ) Tj (0.590) Tj ( ) Tj (=) Tj ( ) Tj (0.060) Tj ( ) Tj ( ) Tj (to) Tj ( ) Tj ( ) Tj (0.70) Tj ( ) Tj (nu) Tj ( ) Tj (0.590) Tj ( ) Tj (=) Tj ( ) Tj (0.110) Tj  T*  T* (C?) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (\(0.060\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (0.332) Tj  T* (C?) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (\(0.110\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (0.406) Tj  T*  T* (Mean:) Tj ( ) Tj (C?) Tj ( ) Tj (~=) Tj ( ) Tj (0.37) Tj ( ) Tj (x) Tj ( ) Tj (C?_max) Tj T* ET
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Estimated) Tj ( ) Tj (phi) Tj ( ) Tj (\(EZ) Tj ( ) Tj (water) Tj ( ) Tj (fraction) Tj ( ) Tj (in) Tj ( ) Tj (biological) Tj ( ) Tj (tissue\):) Tj ( ) Tj (0.65-0.70) Tj  T* (phi) Tj ( ) Tj (-) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.65) Tj ( ) Tj (-) Tj ( ) Tj (0.590) Tj ( ) Tj (=) Tj ( ) Tj (0.060) Tj ( ) Tj ( ) Tj (to) Tj ( ) Tj ( ) Tj (0.70) Tj ( ) Tj (-) Tj ( ) Tj (0.590) Tj ( ) Tj (=) Tj ( ) Tj (0.110) Tj  T*  T* (C_0) Tj ( ) Tj (=) Tj ( ) Tj (C_0_max) Tj ( ) Tj (x) Tj ( ) Tj (\(0.060\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (C_0_max) Tj ( ) Tj (x) Tj ( ) Tj (0.332) Tj  T* (C_0) Tj ( ) Tj (=) Tj ( ) Tj (C_0_max) Tj ( ) Tj (x) Tj ( ) Tj (\(0.110\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (C_0_max) Tj ( ) Tj (x) Tj ( ) Tj (0.406) Tj  T*  T* (Mean:) Tj ( ) Tj (C_0) Tj ( ) Tj (~=) Tj ( ) Tj (0.37) Tj ( ) Tj (x) Tj ( ) Tj (C_0_max) Tj T* ET
 Q
 Q
 q
@@ -557,7 +557,7 @@ q
 1 0 0 1 60 236.8 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This seems low -- but C?_max is the theoretical maximum, which requires ALL water in EZ phase, which is physically) Tj T* (impossible. The dimensionless C? in the simulation suite is defined as a fraction of the MEASURED baseline, not of the) Tj T* (theoretical maximum. If C?_sim ? 0.85 corresponds to phi ~= 0.68:) Tj T* ET
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This seems low -- but C_0_max is the theoretical maximum, which requires ALL water in EZ phase, which is physically) Tj T* (impossible. The dimensionless C_0 in the simulation suite is defined as a fraction of the MEASURED baseline, not of the) Tj T* (theoretical maximum. If C_0_sim === 0.85 corresponds to phi ~= 0.68:) Tj T* ET
 Q
 Q
 q
@@ -570,7 +570,7 @@ q
 n 20 0 452 8.8 re f*
 Q
 q
-BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?_sim) Tj ( ) Tj (=) Tj ( ) Tj (0.85) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (phi_effective) Tj ( ) Tj (=) Tj ( ) Tj (phi_c) Tj ( ) Tj (+) Tj ( ) Tj (\(0.85/C?_max_sim\)^\(1/0.41\)) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_0_sim) Tj ( ) Tj (=) Tj ( ) Tj (0.85) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (phi_effective) Tj ( ) Tj (=) Tj ( ) Tj (phi_c) Tj ( ) Tj (+) Tj ( ) Tj (\(0.85/C_0_max_sim\)^\(1/0.41\)) Tj T* ET
 Q
 Q
 q
@@ -580,7 +580,7 @@ q
 1 0 0 1 60 182 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The exact mapping between the simulation's dimensionless C? and phi requires calibration. What the model gives without) Tj T* (calibration is:) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The exact mapping between the simulation's dimensionless C_0 and phi requires calibration. What the model gives without) Tj T* (calibration is:) Tj T* ET
 Q
 Q
 q
@@ -589,7 +589,7 @@ Q
 q
 1 0 0 1 60 160 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (The shape of the C?\(phi\) curve) Tj /F1 9 Tf ( -- power law with exponent 0.41, zero below threshold.) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (The shape of the C_0\(phi\) curve) Tj /F1 9 Tf ( -- power law with exponent 0.41, zero below threshold.) Tj T* ET
 Q
 Q
 q
@@ -615,7 +615,7 @@ q
 1 0 0 1 60 78 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Below phi_c = 0.590, C? = 0 regardless of all other factors.) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Below phi_c = 0.590, C_0 = 0 regardless of all other factors.) Tj T* ET
 Q
 Q
 q
@@ -740,14 +740,14 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 6340
+/Length 6349
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
 BT /F2 8 Tf 9.6 TL ET
-BT 1 0 0 1 54 756 Tm (PAPER 63: WHAT SETS C? -- THE PERCOLATION MODEL) Tj T* ET
+BT 1 0 0 1 54 756 Tm (PAPER 63: WHAT SETS C_0 -- THE PERCOLATION MODEL) Tj T* ET
 BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
 0 0 0 RG
 .5 w
@@ -814,7 +814,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi_critical) Tj ( ) Tj (=) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.590) Tj  T*  T* (Dehydration) Tj ( ) Tj (fraction) Tj ( ) Tj (required:) Tj ( ) Tj (\(0.68) Tj ( ) Tj (nu) Tj ( ) Tj (0.590\)) Tj ( ) Tj (/) Tj ( ) Tj (0.68) Tj ( ) Tj (=) Tj ( ) Tj (0.132) Tj ( ) Tj (=) Tj ( ) Tj (13.2%) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi_critical) Tj ( ) Tj (=) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.590) Tj  T*  T* (Dehydration) Tj ( ) Tj (fraction) Tj ( ) Tj (required:) Tj ( ) Tj (\(0.68) Tj ( ) Tj (-) Tj ( ) Tj (0.590\)) Tj ( ) Tj (/) Tj ( ) Tj (0.68) Tj ( ) Tj (=) Tj ( ) Tj (0.132) Tj ( ) Tj (=) Tj ( ) Tj (13.2%) Tj T* ET
 Q
 Q
 q
@@ -824,7 +824,7 @@ q
 1 0 0 1 60 535.6 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (A 13% reduction in structured water fraction pushes the coherent network below the percolation threshold. C? drops) Tj T* (discontinuously to zero.) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (A 13% reduction in structured water fraction pushes the coherent network below the percolation threshold. C_0 drops) Tj T* (discontinuously to zero.) Tj T* ET
 Q
 Q
 q
@@ -858,7 +858,7 @@ q
 1 0 0 1 60 400.6 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Age, Disease, and C?) Tj T* ET
+BT 1 0 0 1 0 8 Tm /F2 14 Tf 22 TL (5. Age, Disease, and C_0) Tj T* ET
 Q
 Q
 q
@@ -880,7 +880,7 @@ q
 n 20 0 452 52.8 re f*
 Q
 q
-BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?\(young\)) Tj ( ) Tj (~) Tj ( ) Tj (\(0.68) Tj ( ) Tj (nu) Tj ( ) Tj (0.590\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (\(0.090\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (0.368) Tj  T* (C?\(elderly\)) Tj ( ) Tj (~) Tj ( ) Tj (\(0.62) Tj ( ) Tj (nu) Tj ( ) Tj (0.590\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (\(0.030\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (0.235) Tj  T*  T* (C?_ratio) Tj ( ) Tj (=) Tj ( ) Tj (0.235/0.368) Tj ( ) Tj (=) Tj ( ) Tj (0.639) Tj  T*  T* (Elderly) Tj ( ) Tj (C?) Tj ( ) Tj (~=) Tj ( ) Tj (64%) Tj ( ) Tj (of) Tj ( ) Tj (young) Tj ( ) Tj (adult) Tj ( ) Tj (C?) Tj T* ET
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_0\(young\)) Tj ( ) Tj (~) Tj ( ) Tj (\(0.68) Tj ( ) Tj (-) Tj ( ) Tj (0.590\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (\(0.090\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (0.368) Tj  T* (C_0\(elderly\)) Tj ( ) Tj (~) Tj ( ) Tj (\(0.62) Tj ( ) Tj (-) Tj ( ) Tj (0.590\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (\(0.030\)^0.41) Tj ( ) Tj (=) Tj ( ) Tj (0.235) Tj  T*  T* (C_0_ratio) Tj ( ) Tj (=) Tj ( ) Tj (0.235/0.368) Tj ( ) Tj (=) Tj ( ) Tj (0.639) Tj  T*  T* (Elderly) Tj ( ) Tj (C_0) Tj ( ) Tj (~=) Tj ( ) Tj (64%) Tj ( ) Tj (of) Tj ( ) Tj (young) Tj ( ) Tj (adult) Tj ( ) Tj (C_0) Tj T* ET
 Q
 Q
 q
@@ -890,7 +890,7 @@ q
 1 0 0 1 60 250.8 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This 36% reduction in C? from aging, independent of any change in gamma_eff, means the elderly system has 36% less) Tj T* (coherence reserve against perturbations. The cliff \(gamma_c\) is the same distance away in absolute gamma_eff terms, but) Tj T* (the system starts much closer to it.) Tj T* ET
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (This 36% reduction in C_0 from aging, independent of any change in gamma_eff, means the elderly system has 36% less) Tj T* (coherence reserve against perturbations. The cliff \(gamma_c\) is the same distance away in absolute gamma_eff terms, but) Tj T* (the system starts much closer to it.) Tj T* ET
 Q
 Q
 q
@@ -899,7 +899,7 @@ Q
 q
 1 0 0 1 60 192.8 cm
 q
-BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (Disease:) Tj /F1 9 Tf ( Chronic inflammation reduces EZ water formation \(inflammatory cytokines disrupt structured water networks\).) Tj T* (Alzheimer's tissue shows degraded NIR scattering \(Hanlon 2008\), consistent with phi reduction. Fibromyalgia, chronic) Tj T* (fatigue, and similar conditions may involve phi below healthy norms, reducing C? and making gamma_c approach the) Tj T* (operating point from the C? side \(not just the gamma_eff side\).) Tj T* ET
+BT 1 0 0 1 0 39 Tm 12 TL /F2 9 Tf 0 0 0 rg (Disease:) Tj /F1 9 Tf ( Chronic inflammation reduces EZ water formation \(inflammatory cytokines disrupt structured water networks\).) Tj T* (Alzheimer's tissue shows degraded NIR scattering \(Hanlon 2008\), consistent with phi reduction. Fibromyalgia, chronic) Tj T* (fatigue, and similar conditions may involve phi below healthy norms, reducing C_0 and making gamma_c approach the) Tj T* (operating point from the C_0 side \(not just the gamma_eff side\).) Tj T* ET
 Q
 Q
 q
@@ -925,7 +925,7 @@ q
 1 0 0 1 60 110.8 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From the percolation model, C? is acutely restorable by increasing phi above phi_c.) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (From the percolation model, C_0 is acutely restorable by increasing phi above phi_c.) Tj T* ET
 Q
 Q
 q
@@ -1064,14 +1064,14 @@ endobj
 endobj
 21 0 obj
 <<
-/Length 5324
+/Length 5355
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
 BT /F2 8 Tf 9.6 TL ET
-BT 1 0 0 1 54 756 Tm (PAPER 63: WHAT SETS C? -- THE PERCOLATION MODEL) Tj T* ET
+BT 1 0 0 1 54 756 Tm (PAPER 63: WHAT SETS C_0 -- THE PERCOLATION MODEL) Tj T* ET
 BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
 0 0 0 RG
 .5 w
@@ -1105,7 +1105,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (DELTAC?/DELTANIRdose) Tj ( ) Tj (=) Tj ( ) Tj (dC?/dphi) Tj ( ) Tj (x) Tj ( ) Tj (dphi/dNIR) Tj  T*  T* (dC?/dphi) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (x) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (\(phi) Tj ( ) Tj (nu) Tj ( ) Tj (phi_c\)^\(-0.59\)) Tj  T*  T* (Near) Tj ( ) Tj (percolation) Tj ( ) Tj (threshold) Tj ( ) Tj (\(phi) Tj ( ) Tj (near) Tj ( ) Tj (phi_c\):) Tj ( ) Tj (dC?/dphi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj ( ) Tj ( ) Tj (\(diverges) Tj ( ) Tj (at) Tj ( ) Tj (threshold\)) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (DELTAC_0/DELTANIRdose) Tj ( ) Tj (=) Tj ( ) Tj (dC_0/dphi) Tj ( ) Tj (x) Tj ( ) Tj (dphi/dNIR) Tj  T*  T* (dC_0/dphi) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (x) Tj ( ) Tj (C_0_max) Tj ( ) Tj (x) Tj ( ) Tj (\(phi) Tj ( ) Tj (-) Tj ( ) Tj (phi_c\)^\(-0.59\)) Tj  T*  T* (Near) Tj ( ) Tj (percolation) Tj ( ) Tj (threshold) Tj ( ) Tj (\(phi) Tj ( ) Tj (near) Tj ( ) Tj (phi_c\):) Tj ( ) Tj (dC_0/dphi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj ( ) Tj ( ) Tj (\(diverges) Tj ( ) Tj (at) Tj ( ) Tj (threshold\)) Tj T* ET
 Q
 Q
 q
@@ -1114,7 +1114,7 @@ Q
 q
 1 0 0 1 60 603 cm
 q
-BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Near the threshold, small amounts of NIR produce large increases in C?.) Tj /F1 9 Tf ( Systems that are just below the percolation) Tj T* (threshold get disproportionate benefit from NIR. Systems well above it \(healthy\) get modest benefit. Systems well below it) Tj T* (\(severe dehydration\) may not reach threshold even with NIR.) Tj T* ET
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Near the threshold, small amounts of NIR produce large increases in C_0.) Tj /F1 9 Tf ( Systems that are just below the percolation) Tj T* (threshold get disproportionate benefit from NIR. Systems well above it \(healthy\) get modest benefit. Systems well below it) Tj T* (\(severe dehydration\) may not reach threshold even with NIR.) Tj T* ET
 Q
 Q
 q
@@ -1153,7 +1153,7 @@ q
 n 20 0 452 123.2 re f*
 Q
 q
-BT 1 0 0 1 20 115.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C?\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (C?_max) Tj ( ) Tj (x) Tj ( ) Tj (\(phi) Tj ( ) Tj (nu) Tj ( ) Tj (phi_c\)^0.41) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (>) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.590) Tj  T* (C?\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (phi_c) Tj  T*  T* (Physical) Tj ( ) Tj (meaning:) Tj  T* ( ) Tj ( ) Tj (phi) Tj ( ) Tj (=) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj ( ) Tj (fraction) Tj ( ) Tj (in) Tj ( ) Tj (tissue) Tj  T* ( ) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.590) Tj ( ) Tj (=) Tj ( ) Tj (3D) Tj ( ) Tj (percolation) Tj ( ) Tj (threshold) Tj ( ) Tj (for) Tj ( ) Tj (H-bond) Tj ( ) Tj (network) Tj  T* ( ) Tj ( ) Tj (beta_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (=) Tj ( ) Tj (3D) Tj ( ) Tj (percolation) Tj ( ) Tj (order) Tj ( ) Tj (parameter) Tj ( ) Tj (exponent) Tj  T* ( ) Tj ( ) Tj (C?_max) Tj ( ) Tj (=) Tj ( ) Tj (theoretical) Tj ( ) Tj (maximum) Tj ( ) Tj (coherence) Tj  T*  T* (Predictions:) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (13%) Tj ( ) Tj (reduction) Tj ( ) Tj (in) Tj ( ) Tj (structured) Tj ( ) Tj (water) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (approach) Tj ( ) Tj (phi_c) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C?) Tj ( ) Tj (collapses) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (Elderly:) Tj ( ) Tj (36%) Tj ( ) Tj (lower) Tj ( ) Tj (C?) Tj ( ) Tj (due) Tj ( ) Tj (to) Tj ( ) Tj (reduced) Tj ( ) Tj (phi) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (NIR) Tj ( ) Tj (benefit) Tj ( ) Tj (largest) Tj ( ) Tj (near) Tj ( ) Tj (percolation) Tj ( ) Tj (threshold) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (Critical) Tj ( ) Tj (dehydration) Tj ( ) Tj (=) Tj ( ) Tj (phi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (discontinuous) Tj ( ) Tj (C?) Tj ( ) Tj (drop) Tj T* ET
+BT 1 0 0 1 20 115.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_0\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0_max) Tj ( ) Tj (x) Tj ( ) Tj (\(phi) Tj ( ) Tj (-) Tj ( ) Tj (phi_c\)^0.41) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (>) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.590) Tj  T* (C_0\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (for) Tj ( ) Tj (phi) Tj ( ) Tj (<) Tj (=) Tj ( ) Tj (phi_c) Tj  T*  T* (Physical) Tj ( ) Tj (meaning:) Tj  T* ( ) Tj ( ) Tj (phi) Tj ( ) Tj (=) Tj ( ) Tj (EZ) Tj ( ) Tj (water) Tj ( ) Tj (fraction) Tj ( ) Tj (in) Tj ( ) Tj (tissue) Tj  T* ( ) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (0.590) Tj ( ) Tj (=) Tj ( ) Tj (3D) Tj ( ) Tj (percolation) Tj ( ) Tj (threshold) Tj ( ) Tj (for) Tj ( ) Tj (H-bond) Tj ( ) Tj (network) Tj  T* ( ) Tj ( ) Tj (beta_perc) Tj ( ) Tj (=) Tj ( ) Tj (0.41) Tj ( ) Tj (=) Tj ( ) Tj (3D) Tj ( ) Tj (percolation) Tj ( ) Tj (order) Tj ( ) Tj (parameter) Tj ( ) Tj (exponent) Tj  T* ( ) Tj ( ) Tj (C_0_max) Tj ( ) Tj (=) Tj ( ) Tj (theoretical) Tj ( ) Tj (maximum) Tj ( ) Tj (coherence) Tj  T*  T* (Predictions:) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (13%) Tj ( ) Tj (reduction) Tj ( ) Tj (in) Tj ( ) Tj (structured) Tj ( ) Tj (water) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (approach) Tj ( ) Tj (phi_c) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C_0) Tj ( ) Tj (collapses) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (Elderly:) Tj ( ) Tj (36%) Tj ( ) Tj (lower) Tj ( ) Tj (C_0) Tj ( ) Tj (due) Tj ( ) Tj (to) Tj ( ) Tj (reduced) Tj ( ) Tj (phi) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (NIR) Tj ( ) Tj (benefit) Tj ( ) Tj (largest) Tj ( ) Tj (near) Tj ( ) Tj (percolation) Tj ( ) Tj (threshold) Tj  T* ( ) Tj ( ) Tj (-) Tj ( ) Tj (Critical) Tj ( ) Tj (dehydration) Tj ( ) Tj (=) Tj ( ) Tj (phi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (phi_c) Tj ( ) Tj (=) Tj ( ) Tj (discontinuous) Tj ( ) Tj (C_0) Tj ( ) Tj (drop) Tj T* ET
 Q
 Q
 q
@@ -1163,7 +1163,7 @@ q
 1 0 0 1 60 339.8 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F2 9 Tf 12 TL (C? is not a given. It is set by the fraction of water in coherent phase relative to the percolation threshold. The body) Tj T* (cannot have more coherence than its water network can carry.) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F2 9 Tf 12 TL -0.097091 Tw (C_0 is not a given. It is set by the fraction of water in coherent phase relative to the percolation threshold. The body) Tj T* 0 Tw (cannot have more coherence than its water network can carry.) Tj T* ET
 Q
 Q
 q
@@ -1267,24 +1267,24 @@ xref
 0000000294 00000 n 
 0000000343 00000 n 
 0000000714 00000 n 
-0000006979 00000 n 
-0000007086 00000 n 
-0000007193 00000 n 
-0000007305 00000 n 
-0000007415 00000 n 
-0000007531 00000 n 
-0000007637 00000 n 
-0000008012 00000 n 
-0000014876 00000 n 
-0000014984 00000 n 
-0000015095 00000 n 
-0000015470 00000 n 
-0000021863 00000 n 
-0000021971 00000 n 
-0000022082 00000 n 
-0000022457 00000 n 
-0000027834 00000 n 
-0000027942 00000 n 
+0000006992 00000 n 
+0000007099 00000 n 
+0000007206 00000 n 
+0000007318 00000 n 
+0000007428 00000 n 
+0000007544 00000 n 
+0000007650 00000 n 
+0000008025 00000 n 
+0000014910 00000 n 
+0000015018 00000 n 
+0000015129 00000 n 
+0000015504 00000 n 
+0000021906 00000 n 
+0000022014 00000 n 
+0000022125 00000 n 
+0000022500 00000 n 
+0000027908 00000 n 
+0000028016 00000 n 
 trailer
 <<
 /Size 24
@@ -1292,5 +1292,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-28053
+28127
 %%EOF

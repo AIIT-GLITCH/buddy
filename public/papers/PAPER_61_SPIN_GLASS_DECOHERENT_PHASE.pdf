@@ -60,7 +60,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5727
+/Length 5731
 >>
 stream
 q
@@ -227,7 +227,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (H) Tj ( ) Tj (=) Tj ( ) Tj (nuPI_{ij}) Tj ( ) Tj (J_{ij}) Tj ( ) Tj (S_i) Tj ( ) Tj (S_j) Tj  T*  T* (where) Tj ( ) Tj (J_{ij}) Tj ( ) Tj (are) Tj ( ) Tj (random) Tj ( ) Tj (\(some) Tj ( ) Tj (ferromagnetic,) Tj ( ) Tj (some) Tj ( ) Tj (antiferromagnetic\)) Tj  T* (with) Tj ( ) Tj (<) Tj (J_{ij}) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (and) Tj ( ) Tj (<) Tj (J_{ij}?) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (J?) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (H) Tj ( ) Tj (=) Tj ( ) Tj (-SIGMA_{ij}) Tj ( ) Tj (J_{ij}) Tj ( ) Tj (S_i) Tj ( ) Tj (S_j) Tj  T*  T* (where) Tj ( ) Tj (J_{ij}) Tj ( ) Tj (are) Tj ( ) Tj (random) Tj ( ) Tj (\(some) Tj ( ) Tj (ferromagnetic,) Tj ( ) Tj (some) Tj ( ) Tj (antiferromagnetic\)) Tj  T* (with) Tj ( ) Tj (<) Tj (J_{ij}) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj ( ) Tj (and) Tj ( ) Tj (<) Tj (J_{ij}^2) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (J^2) Tj T* ET
 Q
 Q
 q
@@ -423,7 +423,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 6910
+/Length 6968
 >>
 stream
 q
@@ -450,7 +450,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (q_EA) Tj ( ) Tj (=) Tj ( ) Tj ([) Tj (<) Tj (S_i) Tj (>) Tj (?]_disorder) Tj  T*  T* (q_EA) Tj ( ) Tj (=) Tj ( ) Tj (0:) Tj ( ) Tj (paramagnetic) Tj ( ) Tj (\(disordered,) Tj ( ) Tj (thermal\)) Tj  T* (q_EA) Tj ( ) Tj (!=) Tj ( ) Tj (0:) Tj ( ) Tj (spin) Tj ( ) Tj (glass) Tj ( ) Tj (\(frozen,) Tj ( ) Tj (disordered\)) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (q_EA) Tj ( ) Tj (=) Tj ( ) Tj ([) Tj (<) Tj (S_i) Tj (>) Tj (^2]_disorder) Tj  T*  T* (q_EA) Tj ( ) Tj (=) Tj ( ) Tj (0:) Tj ( ) Tj (paramagnetic) Tj ( ) Tj (\(disordered,) Tj ( ) Tj (thermal\)) Tj  T* (q_EA) Tj ( ) Tj (!=) Tj ( ) Tj (0:) Tj ( ) Tj (spin) Tj ( ) Tj (glass) Tj ( ) Tj (\(frozen,) Tj ( ) Tj (disordered\)) Tj T* ET
 Q
 Q
 q
@@ -543,7 +543,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Mapping:) Tj  T* (Spin) Tj ( ) Tj (S_i) Tj ( ) Tj (?) Tj ( ) Tj (Local) Tj ( ) Tj (coherence) Tj ( ) Tj (patch) Tj ( ) Tj (i) Tj ( ) Tj (\(region) Tj ( ) Tj (of) Tj ( ) Tj (neural) Tj ( ) Tj (tissue\)) Tj  T* (J_{ij}) Tj ( ) Tj (?) Tj ( ) Tj (Coupling) Tj ( ) Tj (strength) Tj ( ) Tj (between) Tj ( ) Tj (coherence) Tj ( ) Tj (patches) Tj  T* (Random) Tj ( ) Tj (J) Tj ( ) Tj (?) Tj ( ) Tj (Heterogeneous) Tj ( ) Tj (damage) Tj ( ) Tj (from) Tj ( ) Tj (ACEs,) Tj ( ) Tj (inflammation,) Tj ( ) Tj (etc.) Tj  T* (q_EA) Tj ( ) Tj (!=) Tj ( ) Tj (0) Tj ( ) Tj (?) Tj ( ) Tj (Frozen) Tj ( ) Tj (pattern) Tj ( ) Tj (of) Tj ( ) Tj (local) Tj ( ) Tj (coherence) Tj ( ) Tj (\(specific) Tj ( ) Tj (symptom) Tj ( ) Tj (cluster\)) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Mapping:) Tj  T* (Spin) Tj ( ) Tj (S_i) Tj ( ) Tj (<) Tj (-) Tj (>) Tj ( ) Tj (Local) Tj ( ) Tj (coherence) Tj ( ) Tj (patch) Tj ( ) Tj (i) Tj ( ) Tj (\(region) Tj ( ) Tj (of) Tj ( ) Tj (neural) Tj ( ) Tj (tissue\)) Tj  T* (J_{ij}) Tj ( ) Tj (<) Tj (-) Tj (>) Tj ( ) Tj (Coupling) Tj ( ) Tj (strength) Tj ( ) Tj (between) Tj ( ) Tj (coherence) Tj ( ) Tj (patches) Tj  T* (Random) Tj ( ) Tj (J) Tj ( ) Tj (<) Tj (-) Tj (>) Tj ( ) Tj (Heterogeneous) Tj ( ) Tj (damage) Tj ( ) Tj (from) Tj ( ) Tj (ACEs,) Tj ( ) Tj (inflammation,) Tj ( ) Tj (etc.) Tj  T* (q_EA) Tj ( ) Tj (!=) Tj ( ) Tj (0) Tj ( ) Tj (<) Tj (-) Tj (>) Tj ( ) Tj (Frozen) Tj ( ) Tj (pattern) Tj ( ) Tj (of) Tj ( ) Tj (local) Tj ( ) Tj (coherence) Tj ( ) Tj (\(specific) Tj ( ) Tj (symptom) Tj ( ) Tj (cluster\)) Tj T* ET
 Q
 Q
 q
@@ -591,7 +591,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (H_perturb) Tj ( ) Tj (=) Tj ( ) Tj (nuh) Tj ( ) Tj (x) Tj ( ) Tj (PI_i) Tj ( ) Tj (S_i) Tj  T*  T* (Response:) Tj ( ) Tj (delta) Tj (<) Tj (S_i) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (chi_SG) Tj ( ) Tj (x) Tj ( ) Tj (h) Tj  T*  T* (Spin) Tj ( ) Tj (glass) Tj ( ) Tj (susceptibility:) Tj ( ) Tj (chi_SG) Tj ( ) Tj (=) Tj ( ) Tj (\(1/T\)) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (nu) Tj ( ) Tj (q_EA\)) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (H_perturb) Tj ( ) Tj (=) Tj ( ) Tj (-h) Tj ( ) Tj (x) Tj ( ) Tj (SIGMA_i) Tj ( ) Tj (S_i) Tj  T*  T* (Response:) Tj ( ) Tj (delta) Tj (<) Tj (S_i) Tj (>) Tj ( ) Tj (=) Tj ( ) Tj (chi_SG) Tj ( ) Tj (x) Tj ( ) Tj (h) Tj  T*  T* (Spin) Tj ( ) Tj (glass) Tj ( ) Tj (susceptibility:) Tj ( ) Tj (chi_SG) Tj ( ) Tj (=) Tj ( ) Tj (\(1/T\)) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (q_EA\)) Tj T* ET
 Q
 Q
 q
@@ -1363,24 +1363,24 @@ xref
 0000000294 00000 n 
 0000000343 00000 n 
 0000000714 00000 n 
-0000006493 00000 n 
-0000006600 00000 n 
-0000006707 00000 n 
-0000006819 00000 n 
-0000006929 00000 n 
-0000007045 00000 n 
-0000007151 00000 n 
-0000007526 00000 n 
-0000014489 00000 n 
-0000014597 00000 n 
-0000014708 00000 n 
-0000015083 00000 n 
-0000022801 00000 n 
-0000022909 00000 n 
-0000023020 00000 n 
-0000023395 00000 n 
-0000029532 00000 n 
-0000029640 00000 n 
+0000006497 00000 n 
+0000006604 00000 n 
+0000006711 00000 n 
+0000006823 00000 n 
+0000006933 00000 n 
+0000007049 00000 n 
+0000007155 00000 n 
+0000007530 00000 n 
+0000014551 00000 n 
+0000014659 00000 n 
+0000014770 00000 n 
+0000015145 00000 n 
+0000022863 00000 n 
+0000022971 00000 n 
+0000023082 00000 n 
+0000023457 00000 n 
+0000029594 00000 n 
+0000029702 00000 n 
 trailer
 <<
 /Size 24
@@ -1388,5 +1388,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-29751
+29813
 %%EOF

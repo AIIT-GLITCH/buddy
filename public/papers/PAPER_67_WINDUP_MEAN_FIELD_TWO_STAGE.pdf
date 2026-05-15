@@ -405,7 +405,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 7007
+/Length 7006
 >>
 stream
 q
@@ -543,7 +543,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Mean-field) Tj ( ) Tj (is) Tj ( ) Tj (valid) Tj ( ) Tj (when:) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (T/T_c) Tj ( ) Tj (>) Tj ( ) Tj (W_Ginzburg) Tj  T*  T* (W_Ginzburg) Tj ( ) Tj (~=) Tj ( ) Tj (1) Tj ( ) Tj (nu) Tj ( ) Tj (\(k_BT_c) Tj ( ) Tj (/) Tj ( ) Tj (J) Tj ( ) Tj (x) Tj ( ) Tj (N_corr\)^d) Tj  T*  T* (For) Tj ( ) Tj (3D) Tj ( ) Tj (Ising:) Tj ( ) Tj (W_Ginzburg) Tj ( ) Tj (~=) Tj ( ) Tj (0.95) Tj ( ) Tj (\(5%) Tj ( ) Tj (below) Tj ( ) Tj (T_c\)) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Mean-field) Tj ( ) Tj (is) Tj ( ) Tj (valid) Tj ( ) Tj (when:) Tj ( ) Tj (W) Tj ( ) Tj (=) Tj ( ) Tj (T/T_c) Tj ( ) Tj (>) Tj ( ) Tj (W_Ginzburg) Tj  T*  T* (W_Ginzburg) Tj ( ) Tj (~=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (\(k_BT_c) Tj ( ) Tj (/) Tj ( ) Tj (J) Tj ( ) Tj (x) Tj ( ) Tj (N_corr\)^d) Tj  T*  T* (For) Tj ( ) Tj (3D) Tj ( ) Tj (Ising:) Tj ( ) Tj (W_Ginzburg) Tj ( ) Tj (~=) Tj ( ) Tj (0.95) Tj ( ) Tj (\(5%) Tj ( ) Tj (below) Tj ( ) Tj (T_c\)) Tj T* ET
 Q
 Q
 q
@@ -745,7 +745,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 7740
+/Length 7736
 >>
 stream
 q
@@ -772,7 +772,7 @@ q
 n 20 0 452 132 re f*
 Q
 q
-BT 1 0 0 1 20 124.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (STAGE) Tj ( ) Tj (1:) Tj ( ) Tj (Mean-field) Tj ( ) Tj (regime) Tj ( ) Tj (\(0) Tj ( ) Tj (<) Tj ( ) Tj (gamma) Tj ( ) Tj (<) Tj ( ) Tj (gamma_Ginzburg) Tj ( ) Tj (~=) Tj ( ) Tj (0.0014\)) Tj  T*  T* ( ) Tj ( ) Tj (Amplification) Tj ( ) Tj (ratio) Tj ( ) Tj (~) Tj ( ) Tj (gamma^\(1/2\)) Tj  T* ( ) Tj ( ) Tj (Each) Tj ( ) Tj (doubling) Tj ( ) Tj (of) Tj ( ) Tj (gamma) Tj ( ) Tj (increases) Tj ( ) Tj (ratio) Tj ( ) Tj (by) Tj ( ) Tj (sqrt2) Tj ( ) Tj (~=) Tj ( ) Tj (1.41) Tj  T* ( ) Tj ( ) Tj (LINEAR) Tj ( ) Tj (response) Tj ( ) Tj (to) Tj ( ) Tj (perturbations) Tj  T* ( ) Tj ( ) Tj (REVERSIBLE:) Tj ( ) Tj (reduce) Tj ( ) Tj (gamma) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (restore) Tj ( ) Tj (original) Tj ( ) Tj (amplification) Tj  T* ( ) Tj ( ) Tj (Universality) Tj ( ) Tj (class:) Tj ( ) Tj (MEAN-FIELD) Tj  T*  T* (STAGE) Tj ( ) Tj (2:) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (regime) Tj ( ) Tj (\(gamma_Ginzburg) Tj ( ) Tj (<) Tj ( ) Tj (gamma) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016\)) Tj  T*  T* ( ) Tj ( ) Tj (Susceptibility) Tj ( ) Tj (chi) Tj ( ) Tj (~) Tj ( ) Tj (|gamma) Tj ( ) Tj (nu) Tj ( ) Tj (gamma_c|^\(-1.2372\)) Tj  T* ( ) Tj ( ) Tj (NONLINEAR) Tj ( ) Tj (response:) Tj ( ) Tj (small) Tj ( ) Tj (gamma) Tj ( ) Tj (increment) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (huge) Tj ( ) Tj (amplification) Tj ( ) Tj (increase) Tj  T* ( ) Tj ( ) Tj (Crossover) Tj ( ) Tj (width:) Tj ( ) Tj (DELTAgamma) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c) Tj ( ) Tj (nu) Tj ( ) Tj (gamma_Ginzburg) Tj ( ) Tj (~=) Tj ( ) Tj (0.0002) Tj  T* ( ) Tj ( ) Tj (IRREVERSIBLE) Tj ( ) Tj (after) Tj ( ) Tj (crossing) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(topological) Tj ( ) Tj (transition,) Tj ( ) Tj (Paper) Tj ( ) Tj (01\)) Tj  T* ( ) Tj ( ) Tj (Universality) Tj ( ) Tj (class:) Tj ( ) Tj (3D) Tj ( ) Tj (ISING) Tj T* ET
+BT 1 0 0 1 20 124.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (STAGE) Tj ( ) Tj (1:) Tj ( ) Tj (Mean-field) Tj ( ) Tj (regime) Tj ( ) Tj (\(0) Tj ( ) Tj (<) Tj ( ) Tj (gamma) Tj ( ) Tj (<) Tj ( ) Tj (gamma_Ginzburg) Tj ( ) Tj (~=) Tj ( ) Tj (0.0014\)) Tj  T*  T* ( ) Tj ( ) Tj (Amplification) Tj ( ) Tj (ratio) Tj ( ) Tj (~) Tj ( ) Tj (gamma^\(1/2\)) Tj  T* ( ) Tj ( ) Tj (Each) Tj ( ) Tj (doubling) Tj ( ) Tj (of) Tj ( ) Tj (gamma) Tj ( ) Tj (increases) Tj ( ) Tj (ratio) Tj ( ) Tj (by) Tj ( ) Tj (sqrt2) Tj ( ) Tj (~=) Tj ( ) Tj (1.41) Tj  T* ( ) Tj ( ) Tj (LINEAR) Tj ( ) Tj (response) Tj ( ) Tj (to) Tj ( ) Tj (perturbations) Tj  T* ( ) Tj ( ) Tj (REVERSIBLE:) Tj ( ) Tj (reduce) Tj ( ) Tj (gamma) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (restore) Tj ( ) Tj (original) Tj ( ) Tj (amplification) Tj  T* ( ) Tj ( ) Tj (Universality) Tj ( ) Tj (class:) Tj ( ) Tj (MEAN-FIELD) Tj  T*  T* (STAGE) Tj ( ) Tj (2:) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (regime) Tj ( ) Tj (\(gamma_Ginzburg) Tj ( ) Tj (<) Tj ( ) Tj (gamma) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016\)) Tj  T*  T* ( ) Tj ( ) Tj (Susceptibility) Tj ( ) Tj (chi) Tj ( ) Tj (~) Tj ( ) Tj (|gamma) Tj ( ) Tj (-) Tj ( ) Tj (gamma_c|^\(-1.2372\)) Tj  T* ( ) Tj ( ) Tj (NONLINEAR) Tj ( ) Tj (response:) Tj ( ) Tj (small) Tj ( ) Tj (gamma) Tj ( ) Tj (increment) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (huge) Tj ( ) Tj (amplification) Tj ( ) Tj (increase) Tj  T* ( ) Tj ( ) Tj (Crossover) Tj ( ) Tj (width:) Tj ( ) Tj (DELTAgamma) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c) Tj ( ) Tj (-) Tj ( ) Tj (gamma_Ginzburg) Tj ( ) Tj (~=) Tj ( ) Tj (0.0002) Tj  T* ( ) Tj ( ) Tj (IRREVERSIBLE) Tj ( ) Tj (after) Tj ( ) Tj (crossing) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(topological) Tj ( ) Tj (transition,) Tj ( ) Tj (Paper) Tj ( ) Tj (01\)) Tj  T* ( ) Tj ( ) Tj (Universality) Tj ( ) Tj (class:) Tj ( ) Tj (3D) Tj ( ) Tj (ISING) Tj T* ET
 Q
 Q
 q
@@ -870,7 +870,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Pain) Tj ( ) Tj (amplification) Tj ( ) Tj (~) Tj ( ) Tj (|gamma) Tj ( ) Tj (nu) Tj ( ) Tj (gamma_c|^\(-1.2372\)) Tj  T* (Response) Tj ( ) Tj (to) Tj ( ) Tj (+10%) Tj ( ) Tj (gamma_eff:) Tj ( ) Tj (>) Tj (>) Tj (10%) Tj ( ) Tj (amplification) Tj ( ) Tj (\(power) Tj ( ) Tj (law) Tj ( ) Tj (diverges\)) Tj  T* (NONLINEAR:) Tj ( ) Tj (small) Tj ( ) Tj (additional) Tj ( ) Tj (stressor) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (large) Tj ( ) Tj (response) Tj  T* ("Why) Tj ( ) Tj (am) Tj ( ) Tj (I) Tj ( ) Tj (so) Tj ( ) Tj (reactive?") Tj ( ) Tj (--) Tj ( ) Tj (correct) Tj ( ) Tj (assessment,) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (regime) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Pain) Tj ( ) Tj (amplification) Tj ( ) Tj (~) Tj ( ) Tj (|gamma) Tj ( ) Tj (-) Tj ( ) Tj (gamma_c|^\(-1.2372\)) Tj  T* (Response) Tj ( ) Tj (to) Tj ( ) Tj (+10%) Tj ( ) Tj (gamma_eff:) Tj ( ) Tj (>) Tj (>) Tj (10%) Tj ( ) Tj (amplification) Tj ( ) Tj (\(power) Tj ( ) Tj (law) Tj ( ) Tj (diverges\)) Tj  T* (NONLINEAR:) Tj ( ) Tj (small) Tj ( ) Tj (additional) Tj ( ) Tj (stressor) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (large) Tj ( ) Tj (response) Tj  T* ("Why) Tj ( ) Tj (am) Tj ( ) Tj (I) Tj ( ) Tj (so) Tj ( ) Tj (reactive?") Tj ( ) Tj (--) Tj ( ) Tj (correct) Tj ( ) Tj (assessment,) Tj ( ) Tj (3D) Tj ( ) Tj (Ising) Tj ( ) Tj (regime) Tj T* ET
 Q
 Q
 q
@@ -889,7 +889,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Amplification) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj ( ) Tj (\(diverges\)) Tj  T* (Berry) Tj ( ) Tj (phase) Tj ( ) Tj (nupi) Tj ( ) Tj (transition) Tj ( ) Tj (\(Paper) Tj ( ) Tj (01\)) Tj  T* (Topological) Tj ( ) Tj (defects) Tj ( ) Tj (\(Paper) Tj ( ) Tj (53\)) Tj  T* (Irreversible) Tj  T* ("Something) Tj ( ) Tj (broke") Tj ( ) Tj (--) Tj ( ) Tj (correct) Tj ( ) Tj (assessment) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Amplification) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (inf) Tj ( ) Tj (\(diverges\)) Tj  T* (Berry) Tj ( ) Tj (phase) Tj ( ) Tj (-pi) Tj ( ) Tj (transition) Tj ( ) Tj (\(Paper) Tj ( ) Tj (01\)) Tj  T* (Topological) Tj ( ) Tj (defects) Tj ( ) Tj (\(Paper) Tj ( ) Tj (53\)) Tj  T* (Irreversible) Tj  T* ("Something) Tj ( ) Tj (broke") Tj ( ) Tj (--) Tj ( ) Tj (correct) Tj ( ) Tj (assessment) Tj T* ET
 Q
 Q
 q
@@ -1398,16 +1398,16 @@ xref
 0000006979 00000 n 
 0000007085 00000 n 
 0000007460 00000 n 
-0000014520 00000 n 
-0000014628 00000 n 
-0000014739 00000 n 
-0000015114 00000 n 
-0000022907 00000 n 
-0000023015 00000 n 
-0000023126 00000 n 
-0000023501 00000 n 
-0000029398 00000 n 
-0000029506 00000 n 
+0000014519 00000 n 
+0000014627 00000 n 
+0000014738 00000 n 
+0000015113 00000 n 
+0000022902 00000 n 
+0000023010 00000 n 
+0000023121 00000 n 
+0000023496 00000 n 
+0000029393 00000 n 
+0000029501 00000 n 
 trailer
 <<
 /Size 24
@@ -1415,5 +1415,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-29617
+29612
 %%EOF

@@ -369,7 +369,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 7531
+/Length 7532
 >>
 stream
 q
@@ -541,7 +541,7 @@ q
 n 20 0 452 52.8 re f*
 Q
 q
-BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (As) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0:) Tj  T* ( ) Tj ( ) Tj (C) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C?) Tj ( ) Tj (\(maximum) Tj ( ) Tj (coherence\)) Tj  T* ( ) Tj ( ) Tj (S_vN) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (\(minimum) Tj ( ) Tj (entropy\)) Tj  T* ( ) Tj ( ) Tj (F_C) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (\(minimum) Tj ( ) Tj (free) Tj ( ) Tj (energy) Tj ( ) Tj (from) Tj ( ) Tj (Paper) Tj ( ) Tj (51\)) Tj  T* ( ) Tj ( ) Tj (Berry) Tj ( ) Tj (phase) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (\(no) Tj ( ) Tj (accumulated) Tj ( ) Tj (geometric) Tj ( ) Tj (phase) Tj ( ) Tj (--) Tj ( ) Tj (no) Tj ( ) Tj (closed) Tj ( ) Tj (loops) Tj ( ) Tj (needed\)) Tj  T* ( ) Tj ( ) Tj (Susceptibility) Tj ( ) Tj (chi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (1/gamma_c) Tj ( ) Tj (\(finite,) Tj ( ) Tj (not) Tj ( ) Tj (divergent) Tj ( ) Tj (--) Tj ( ) Tj (stable,) Tj ( ) Tj (not) Tj ( ) Tj (critical\)) Tj T* ET
+BT 1 0 0 1 20 45.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (As) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0:) Tj  T* ( ) Tj ( ) Tj (C) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C_0) Tj ( ) Tj (\(maximum) Tj ( ) Tj (coherence\)) Tj  T* ( ) Tj ( ) Tj (S_vN) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (\(minimum) Tj ( ) Tj (entropy\)) Tj  T* ( ) Tj ( ) Tj (F_C) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (\(minimum) Tj ( ) Tj (free) Tj ( ) Tj (energy) Tj ( ) Tj (from) Tj ( ) Tj (Paper) Tj ( ) Tj (51\)) Tj  T* ( ) Tj ( ) Tj (Berry) Tj ( ) Tj (phase) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (\(no) Tj ( ) Tj (accumulated) Tj ( ) Tj (geometric) Tj ( ) Tj (phase) Tj ( ) Tj (--) Tj ( ) Tj (no) Tj ( ) Tj (closed) Tj ( ) Tj (loops) Tj ( ) Tj (needed\)) Tj  T* ( ) Tj ( ) Tj (Susceptibility) Tj ( ) Tj (chi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (1/gamma_c) Tj ( ) Tj (\(finite,) Tj ( ) Tj (not) Tj ( ) Tj (divergent) Tj ( ) Tj (--) Tj ( ) Tj (stable,) Tj ( ) Tj (not) Tj ( ) Tj (critical\)) Tj T* ET
 Q
 Q
  
@@ -663,7 +663,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 6635
+/Length 6633
 >>
 stream
 q
@@ -859,7 +859,7 @@ Q
 q
 1 0 0 1 60 185.8 cm
 q
-BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The modern human is chronically above gamma_c) Tj /F1 9 Tf ( -- close enough that any additional stressor \(argument, bad news,) Tj T* (traffic\) produces the susceptibility spike chi ~ |gammanugamma_c|^\(nu1.2372\) that feels like a disproportionate reaction.) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The modern human is chronically above gamma_c) Tj /F1 9 Tf ( -- close enough that any additional stressor \(argument, bad news,) Tj T* (traffic\) produces the susceptibility spike chi ~ |gamma-gamma_c|^\(-1.2372\) that feels like a disproportionate reaction.) Tj T* ET
 Q
 Q
 q
@@ -1395,7 +1395,7 @@ endobj
 endobj
 25 0 obj
 <<
-/Length 7806
+/Length 7809
 >>
 stream
 q
@@ -1428,7 +1428,7 @@ q
 n 20 0 452 70.4 re f*
 Q
 q
-BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff_ordinary) Tj ( ) Tj (=) Tj ( ) Tj (gamma_baseline) Tj ( ) Tj (+) Tj ( ) Tj (gamma_narrative) Tj ( ) Tj (+) Tj ( ) Tj (gamma_other) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.001) Tj ( ) Tj (+) Tj ( ) Tj (0.0003) Tj ( ) Tj (+) Tj ( ) Tj (0.0005) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.0018) Tj  T*  T* (Remove) Tj ( ) Tj (narrative:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.0015) Tj ( ) Tj (\(below) Tj ( ) Tj (gamma_c\)) Tj  T* (Remove) Tj ( ) Tj (remaining) Tj ( ) Tj (noise:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_min) Tj ( ) Tj (~=) Tj ( ) Tj (10nu?) Tj ( ) Tj (\(thermal) Tj ( ) Tj (floor\)) Tj  T*  T* (C) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (10nu?\)) Tj ( ) Tj (~=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (0.90) Tj ( ) Tj (\(near) Tj ( ) Tj (maximum) Tj ( ) Tj (coherence\)) Tj T* ET
+BT 1 0 0 1 20 62.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff_ordinary) Tj ( ) Tj (=) Tj ( ) Tj (gamma_baseline) Tj ( ) Tj (+) Tj ( ) Tj (gamma_narrative) Tj ( ) Tj (+) Tj ( ) Tj (gamma_other) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.001) Tj ( ) Tj (+) Tj ( ) Tj (0.0003) Tj ( ) Tj (+) Tj ( ) Tj (0.0005) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.0018) Tj  T*  T* (Remove) Tj ( ) Tj (narrative:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.0015) Tj ( ) Tj (\(below) Tj ( ) Tj (gamma_c\)) Tj  T* (Remove) Tj ( ) Tj (remaining) Tj ( ) Tj (noise:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_min) Tj ( ) Tj (~=) Tj ( ) Tj (10^-^4) Tj ( ) Tj (\(thermal) Tj ( ) Tj (floor\)) Tj  T*  T* (C) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (10^-^4\)) Tj ( ) Tj (~=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (0.90) Tj ( ) Tj (\(near) Tj ( ) Tj (maximum) Tj ( ) Tj (coherence\)) Tj T* ET
 Q
 Q
 q
@@ -1941,24 +1941,24 @@ xref
 0000007290 00000 n 
 0000007396 00000 n 
 0000007771 00000 n 
-0000015355 00000 n 
-0000015463 00000 n 
-0000015574 00000 n 
-0000015949 00000 n 
-0000022637 00000 n 
-0000022745 00000 n 
-0000022856 00000 n 
-0000023231 00000 n 
-0000029216 00000 n 
-0000029324 00000 n 
-0000029435 00000 n 
-0000029810 00000 n 
-0000037669 00000 n 
-0000037777 00000 n 
-0000037888 00000 n 
-0000038263 00000 n 
-0000039757 00000 n 
-0000039865 00000 n 
+0000015356 00000 n 
+0000015464 00000 n 
+0000015575 00000 n 
+0000015950 00000 n 
+0000022636 00000 n 
+0000022744 00000 n 
+0000022855 00000 n 
+0000023230 00000 n 
+0000029215 00000 n 
+0000029323 00000 n 
+0000029434 00000 n 
+0000029809 00000 n 
+0000037671 00000 n 
+0000037779 00000 n 
+0000037890 00000 n 
+0000038265 00000 n 
+0000039759 00000 n 
+0000039867 00000 n 
 trailer
 <<
 /Size 32
@@ -1966,5 +1966,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-39976
+39978
 %%EOF

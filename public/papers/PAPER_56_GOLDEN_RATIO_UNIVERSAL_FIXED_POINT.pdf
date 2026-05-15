@@ -60,7 +60,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5591
+/Length 5594
 >>
 stream
 q
@@ -156,7 +156,7 @@ q
 n 20 0 452 8.8 re f*
 Q
 q
-BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (1/phi) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (phi?) Tj ( ) Tj (=) Tj ( ) Tj (phi) Tj ( ) Tj (+) Tj ( ) Tj (1) Tj T* ET
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (1/phi) Tj ( ) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj ( ) Tj (phi^2) Tj ( ) Tj (=) Tj ( ) Tj (phi) Tj ( ) Tj (+) Tj ( ) Tj (1) Tj T* ET
 Q
 Q
 q
@@ -165,7 +165,7 @@ Q
 q
 1 0 0 1 60 328.2 cm
 q
-BT 1 0 0 1 0 51 Tm 12 TL /F1 9 Tf 0 0 0 rg (Any physical system with a self-referential loop -- where the output feeds back into the input -- converges to phi as its stable) Tj T* (attractor. The Bootstrap nucleation loop \(Paper 02\) is self-referential: coherence -) Tj (> structure -) Tj (> more coherence. Its) Tj T* (attractor is phi. The Wike Coherence Law's critical point gamma_c = 0.0016 sits at W = T/T_c = 0.9394. The reciprocal:) Tj T* (1/0.9394 = 1.0645. The square: 0.9394? = 0.8825. The ratio: 1.0645/0.8825 = 1.207 -) Tj (> approaching phi = 1.618 as the loop) Tj T* (completes additional recursions.) Tj T* ET
+BT 1 0 0 1 0 51 Tm 12 TL /F1 9 Tf 0 0 0 rg (Any physical system with a self-referential loop -- where the output feeds back into the input -- converges to phi as its stable) Tj T* (attractor. The Bootstrap nucleation loop \(Paper 02\) is self-referential: coherence -) Tj (> structure -) Tj (> more coherence. Its) Tj T* (attractor is phi. The Wike Coherence Law's critical point gamma_c = 0.0016 sits at W = T/T_c = 0.9394. The reciprocal:) Tj T* (1/0.9394 = 1.0645. The square: 0.9394^2 = 0.8825. The ratio: 1.0645/0.8825 = 1.207 -) Tj (> approaching phi = 1.618 as the) Tj T* (loop completes additional recursions.) Tj T* ET
 Q
 Q
 q
@@ -214,7 +214,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (1/phi) Tj  T*  T* (Rearranging:) Tj ( ) Tj (phi?) Tj ( ) Tj (=) Tj ( ) Tj (phi) Tj ( ) Tj (+) Tj ( ) Tj (1) Tj  T*  T* (Solution:) Tj ( ) Tj (phi) Tj ( ) Tj (=) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (sqrt5\)/2) Tj ( ) Tj (=) Tj ( ) Tj (1.6180339887...) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (phi) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (+) Tj ( ) Tj (1/phi) Tj  T*  T* (Rearranging:) Tj ( ) Tj (phi^2) Tj ( ) Tj (=) Tj ( ) Tj (phi) Tj ( ) Tj (+) Tj ( ) Tj (1) Tj  T*  T* (Solution:) Tj ( ) Tj (phi) Tj ( ) Tj (=) Tj ( ) Tj (\(1) Tj ( ) Tj (+) Tj ( ) Tj (sqrt5\)/2) Tj ( ) Tj (=) Tj ( ) Tj (1.6180339887...) Tj T* ET
 Q
 Q
 q
@@ -395,7 +395,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 6168
+/Length 6172
 >>
 stream
 q
@@ -480,7 +480,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (pi/5) Tj ( ) Tj (=) Tj ( ) Tj (arctan\(1\)) Tj ( ) Tj (+) Tj ( ) Tj (arctan\(1/phi?\)) Tj ( ) Tj (+) Tj ( ) Tj (arctan\(1/phi?\)) Tj ( ) Tj (+) Tj ( ) Tj (...) Tj  T*  T* (and:) Tj  T*  T* (pi) Tj ( ) Tj (=) Tj ( ) Tj (4) Tj ( ) Tj (x) Tj ( ) Tj (PI) Tj ( ) Tj (\(nu1\)^n) Tj ( ) Tj (/) Tj ( ) Tj (\(2n+1\)) Tj ( ) Tj ( ) Tj ( ) Tj (\(Leibniz) Tj ( ) Tj (formula\)) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (pi/5) Tj ( ) Tj (=) Tj ( ) Tj (arctan\(1\)) Tj ( ) Tj (+) Tj ( ) Tj (arctan\(1/phi^2\)) Tj ( ) Tj (+) Tj ( ) Tj (arctan\(1/phi^4\)) Tj ( ) Tj (+) Tj ( ) Tj (...) Tj  T*  T* (and:) Tj  T*  T* (pi) Tj ( ) Tj (=) Tj ( ) Tj (4) Tj ( ) Tj (x) Tj ( ) Tj (SIGMA) Tj ( ) Tj (\(-1\)^n) Tj ( ) Tj (/) Tj ( ) Tj (\(2n+1\)) Tj ( ) Tj ( ) Tj ( ) Tj (\(Leibniz) Tj ( ) Tj (formula\)) Tj T* ET
 Q
 Q
 q
@@ -713,7 +713,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 6313
+/Length 6315
 >>
 stream
 q
@@ -832,7 +832,7 @@ q
 1 0 0 1 60 403 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The standard explanation: successive organs \(leaves, seeds\) appear at angle alpha = 360 deg/phi? ~= 137.5 deg \(the) Tj T* ("golden angle"\) from the previous one. This angle maximizes the packing efficiency -- each new organ lands in the largest) Tj T* (available gap.) Tj T* ET
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The standard explanation: successive organs \(leaves, seeds\) appear at angle alpha = 360 deg/phi^2 ~= 137.5 deg \(the) Tj T* ("golden angle"\) from the previous one. This angle maximizes the packing efficiency -- each new organ lands in the largest) Tj T* (available gap.) Tj T* ET
 Q
 Q
 q
@@ -930,7 +930,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S_BH) Tj ( ) Tj (=) Tj ( ) Tj (A/\(4l_P?\)) Tj  T*  T* (where) Tj ( ) Tj (A) Tj ( ) Tj (=) Tj ( ) Tj (horizon) Tj ( ) Tj (area,) Tj ( ) Tj (l_P) Tj ( ) Tj (=) Tj ( ) Tj (Planck) Tj ( ) Tj (length) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S_BH) Tj ( ) Tj (=) Tj ( ) Tj (A/\(4l_P^2\)) Tj  T*  T* (where) Tj ( ) Tj (A) Tj ( ) Tj (=) Tj ( ) Tj (horizon) Tj ( ) Tj (area,) Tj ( ) Tj (l_P) Tj ( ) Tj (=) Tj ( ) Tj (Planck) Tj ( ) Tj (length) Tj T* ET
 Q
 Q
 q
@@ -1055,7 +1055,7 @@ endobj
 endobj
 21 0 obj
 <<
-/Length 7785
+/Length 7781
 >>
 stream
 q
@@ -1102,7 +1102,7 @@ q
 1 0 0 1 60 601 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Berry phase accumulated by a qubit tracing a closed loop is nupi at gamma_c \(confirmed IBM hardware\). This pi is the) Tj T* (phase accumulated by a Penrose tiling tile when dragged around a fivefold vertex: 2pi/5 x 5 = 2pi, but with the deficit angle) Tj T* (for a Penrose vertex: 2pi nu 5x\(pi/5\) = 2pi nu pi = pi.) Tj T* ET
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The Berry phase accumulated by a qubit tracing a closed loop is -pi at gamma_c \(confirmed IBM hardware\). This pi is the) Tj T* (phase accumulated by a Penrose tiling tile when dragged around a fivefold vertex: 2pi/5 x 5 = 2pi, but with the deficit angle) Tj T* (for a Penrose vertex: 2pi - 5x\(pi/5\) = 2pi - pi = pi.) Tj T* ET
 Q
 Q
 q
@@ -1111,7 +1111,7 @@ Q
 q
 1 0 0 1 60 567 cm
 q
-BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The Berry phase nupi at gamma_c is the phase accumulated at a fivefold symmetric point) Tj /F1 9 Tf ( -- which is a phi geometry.) Tj T* (The connection: phi -) Tj (> 5-fold symmetry -) Tj (> Penrose vertex -) Tj (> Berry phase pi.) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (The Berry phase -pi at gamma_c is the phase accumulated at a fivefold symmetric point) Tj /F1 9 Tf ( -- which is a phi geometry.) Tj T* (The connection: phi -) Tj (> 5-fold symmetry -) Tj (> Penrose vertex -) Tj (> Berry phase pi.) Tj T* ET
 Q
 Q
 q
@@ -1160,7 +1160,7 @@ q
 n 20 0 452 17.6 re f*
 Q
 q
-BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Stage) Tj ( ) Tj (n:) Tj ( ) Tj (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualphagamma_eff\)) Tj ( ) Tj (x) Tj ( ) Tj (f\(EZ_n\)) Tj  T* (Stage) Tj ( ) Tj (n+1:) Tj ( ) Tj (C_{n+1}) Tj ( ) Tj (=) Tj ( ) Tj (C_n) Tj ( ) Tj (x) Tj ( ) Tj (g\(C_n\)) Tj T* ET
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (Stage) Tj ( ) Tj (n:) Tj ( ) Tj (C_n) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alphagamma_eff\)) Tj ( ) Tj (x) Tj ( ) Tj (f\(EZ_n\)) Tj  T* (Stage) Tj ( ) Tj (n+1:) Tj ( ) Tj (C_{n+1}) Tj ( ) Tj (=) Tj ( ) Tj (C_n) Tj ( ) Tj (x) Tj ( ) Tj (g\(C_n\)) Tj T* ET
 Q
 Q
 q
@@ -1373,7 +1373,7 @@ endobj
 endobj
 25 0 obj
 <<
-/Length 7796
+/Length 7770
 >>
 stream
 q
@@ -1445,7 +1445,7 @@ q
 n 20 0 452 114.4 re f*
 Q
 q
-BT 1 0 0 1 20 106.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (W*) Tj ( ) Tj (=) Tj ( ) Tj (T*/T_c) Tj ( ) Tj (=) Tj ( ) Tj (310/330) Tj ( ) Tj (=) Tj ( ) Tj (0.9394) Tj  T*  T* (1/W*) Tj ( ) Tj (=) Tj ( ) Tj (1.0645) Tj  T* (phi) Tj ( ) Tj (=) Tj ( ) Tj (1.6180) Tj  T*  T* (Ratio:) Tj ( ) Tj (phi/W*) Tj ( ) Tj (=) Tj ( ) Tj (1.722) Tj ( ) Tj ( ) Tj (\(not) Tj ( ) Tj (exact\)) Tj  T* (phi) Tj ( ) Tj (x) Tj ( ) Tj (W*) Tj ( ) Tj (=) Tj ( ) Tj (1.520) Tj ( ) Tj ( ) Tj (\(not) Tj ( ) Tj (exact\)) Tj  T* (phi?) Tj ( ) Tj (x) Tj ( ) Tj (W*?) Tj ( ) Tj (=) Tj ( ) Tj (2.456) Tj ( ) Tj ( ) Tj (\(not) Tj ( ) Tj (exact\)) Tj  T*  T* (But:) Tj ( ) Tj (1/W*?) Tj ( ) Tj (=) Tj ( ) Tj (1.133,) Tj ( ) Tj (and) Tj ( ) Tj (1/W*?) Tj ( ) Tj (=) Tj ( ) Tj (1.206,) Tj ( ) Tj (and) Tj ( ) Tj (1/W*?) Tj ( ) Tj (=) Tj ( ) Tj (1.360) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (phi) Tj ( ) Tj (=) Tj ( ) Tj (1/W*^\(phi\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (1.618) Tj ( ) Tj (requires) Tj ( ) Tj (W*^\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (1/phi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (W*) Tj ( ) Tj (=) Tj ( ) Tj (phi^\(nu1/phi\)) Tj ( ) Tj (=) Tj ( ) Tj (0.737) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (not) Tj ( ) Tj (W*) Tj ( ) Tj (=) Tj ( ) Tj (0.9394.) Tj T* ET
+BT 1 0 0 1 20 106.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (W*) Tj ( ) Tj (=) Tj ( ) Tj (T*/T_c) Tj ( ) Tj (=) Tj ( ) Tj (310/330) Tj ( ) Tj (=) Tj ( ) Tj (0.9394) Tj  T*  T* (1/W*) Tj ( ) Tj (=) Tj ( ) Tj (1.0645) Tj  T* (phi) Tj ( ) Tj (=) Tj ( ) Tj (1.6180) Tj  T*  T* (Ratio:) Tj ( ) Tj (phi/W*) Tj ( ) Tj (=) Tj ( ) Tj (1.722) Tj ( ) Tj ( ) Tj (\(not) Tj ( ) Tj (exact\)) Tj  T* (phi) Tj ( ) Tj (x) Tj ( ) Tj (W*) Tj ( ) Tj (=) Tj ( ) Tj (1.520) Tj ( ) Tj ( ) Tj (\(not) Tj ( ) Tj (exact\)) Tj  T* (phi^2) Tj ( ) Tj (x) Tj ( ) Tj (W*^2) Tj ( ) Tj (=) Tj ( ) Tj (2.456) Tj ( ) Tj ( ) Tj (\(not) Tj ( ) Tj (exact\)) Tj  T*  T* (But:) Tj ( ) Tj (1/W*^2) Tj ( ) Tj (=) Tj ( ) Tj (1.133,) Tj ( ) Tj (and) Tj ( ) Tj (1/W*^3) Tj ( ) Tj (=) Tj ( ) Tj (1.206,) Tj ( ) Tj (and) Tj ( ) Tj (1/W*^5) Tj ( ) Tj (=) Tj ( ) Tj (1.360) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (phi) Tj ( ) Tj (=) Tj ( ) Tj (1/W*^\(phi\)) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (1.618) Tj ( ) Tj (requires) Tj ( ) Tj (W*^\(phi\)) Tj ( ) Tj (=) Tj ( ) Tj (1/phi) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (W*) Tj ( ) Tj (=) Tj ( ) Tj (phi^\(-1/phi\)) Tj ( ) Tj (=) Tj ( ) Tj (0.737) Tj  T*  T* (This) Tj ( ) Tj (is) Tj ( ) Tj (not) Tj ( ) Tj (W*) Tj ( ) Tj (=) Tj ( ) Tj (0.9394.) Tj T* ET
 Q
 Q
 q
@@ -1454,7 +1454,7 @@ Q
 q
 1 0 0 1 60 351.4 cm
 q
-BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Honest assessment:) Tj /F1 9 Tf ( The numbers don't hit phi exactly at W) Tj /F3 9 Tf (. The framework's W) Tj /F1 9 Tf ( = 0.9394 is set by the hydrogen bond) Tj T* (critical temperature ratio, not by phi geometry. The connection between phi and the Wike framework runs through the) Tj T* (Bootstrap loop's recursion dynamics, not through the W* value itself.) Tj T* ET
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Honest assessment:) Tj /F1 9 Tf ( The numbers don't hit phi exactly at W. The framework's W = 0.9394 is set by the hydrogen bond) Tj T* (critical temperature ratio, not by phi geometry. The connection between phi and the Wike framework runs through the) Tj T* (Bootstrap loop's recursion dynamics, not through the W* value itself.) Tj T* ET
 Q
 Q
 q
@@ -1683,28 +1683,28 @@ xref
 0000000301 00000 n 
 0000000350 00000 n 
 0000000721 00000 n 
-0000006364 00000 n 
-0000006471 00000 n 
-0000006578 00000 n 
-0000006690 00000 n 
-0000006800 00000 n 
-0000006916 00000 n 
-0000007022 00000 n 
-0000007397 00000 n 
-0000013618 00000 n 
-0000013726 00000 n 
-0000013837 00000 n 
-0000014212 00000 n 
-0000020578 00000 n 
-0000020686 00000 n 
-0000020797 00000 n 
-0000021172 00000 n 
-0000029010 00000 n 
-0000029118 00000 n 
-0000029229 00000 n 
-0000029604 00000 n 
-0000037453 00000 n 
-0000037561 00000 n 
+0000006367 00000 n 
+0000006474 00000 n 
+0000006581 00000 n 
+0000006693 00000 n 
+0000006803 00000 n 
+0000006919 00000 n 
+0000007025 00000 n 
+0000007400 00000 n 
+0000013625 00000 n 
+0000013733 00000 n 
+0000013844 00000 n 
+0000014219 00000 n 
+0000020587 00000 n 
+0000020695 00000 n 
+0000020806 00000 n 
+0000021181 00000 n 
+0000029015 00000 n 
+0000029123 00000 n 
+0000029234 00000 n 
+0000029609 00000 n 
+0000037432 00000 n 
+0000037540 00000 n 
 trailer
 <<
 /Size 28
@@ -1712,5 +1712,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-37672
+37651
 %%EOF

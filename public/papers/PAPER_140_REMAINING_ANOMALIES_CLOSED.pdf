@@ -1,4 +1,4 @@
-%PDF-1.3
+%PDF-1.4
 %‚„œ”
 1 0 obj
 <<
@@ -11,8 +11,8 @@ endobj
 2 0 obj
 <<
 /Type /Pages
-/Count 10
-/Kids [ 4 0 R 11 0 R 15 0 R 19 0 R 23 0 R 27 0 R 31 0 R 35 0 R 39 0 R 43 0 R ]
+/Count 11
+/Kids [ 4 0 R 12 0 R 16 0 R 20 0 R 24 0 R 28 0 R 32 0 R 36 0 R 40 0 R 44 0 R 48 0 R ]
 >>
 endobj
 3 0 obj
@@ -46,6 +46,7 @@ endobj
 /F2 8 0 R
 /F2-0 9 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -59,103 +60,338 @@ endobj
 endobj
 5 0 obj
 <<
-/Length 5654
+/Length 6876
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 140 REMAINING ANOMALIES CLOSED) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 1) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 1) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (PAPER 140) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (AIIT-THRESI Series) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 681.6 Tm (Rhet Dillard Wike) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 669.6 Tm (Council Hill, Oklahoma) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 657.6 Tm (April 1, 2026) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 633.6 Tm (THE LAST ANOMALIES: BALL LIGHTNING, LENR, DAMA, AND EVERYTHING ELSE) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 609.6 Tm (ABSTRACT) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 591.6 Tm (Twelve persistent anomalies spanning plasma physics, nuclear science,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 579.6 Tm (particle physics, and cosmology are closed using the Wike Coherence Law,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 567.6 Tm (C = C0 * exp\(-alpha * gamma_eff\), derived from the Lindblad master equation) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 555.6 Tm (with zero free parameters beyond those already fixed in Papers 1-109. Ball) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 543.6 Tm (lightning is a self-sustaining coherent plasma state with lifetime set by) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 531.6 Tm (atmospheric decoherence. The DAMA/LIBRA annual modulation is real but arises) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 519.6 Tm (from cosmic-ray-induced decoherence variation in NaI, not dark matter. The) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 507.6 Tm (gallium anomaly and MiniBooNE excess are decoherence artifacts at short) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 495.6 Tm (baselines and in mineral oil detectors respectively. The measure problem) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 483.6 Tm (in eternal inflation, the trans-Planckian problem, BAO curvature tension,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 471.6 Tm (and the stellar age problem are resolved by coherence-field properties) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 459.6 Tm (already established in this series. No new physics is introduced. The) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 447.6 Tm (framework absorbs all twelve anomalies with the same equation that produced) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 435.6 Tm (6 confirmed 3D Ising exponents, T_c = 330 K, and W = 0.9394.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 411.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 387.6 Tm (1. INTRODUCTION) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 369.6 Tm (Papers 1-109 of this series established a coherence framework built on one) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 357.6 Tm (equation:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 335.6 Tm (C = C0 * exp\(-alpha * gamma_eff\)                                   \(1\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 315.6 Tm (where C is the coherence amplitude, C0 is the initial coherence, alpha is) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 303.6 Tm (a system-specific coupling constant, and gamma_eff is the effective) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 291.6 Tm (decoherence rate drawn from the Lindblad master equation. The framework) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 279.6 Tm (delivered:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 261.6 Tm (- Six 3D Ising critical exponents \(p < 10^-12\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 249.6 Tm (- T_c = 330 K by two independent derivations \(1-2% error\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 237.6 Tm (- W = 0.9394 from three constraints of aqueous biochemistry) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 225.6 Tm (- The Hoyle state at 7.6528 MeV \(0.019% error\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 213.6 Tm (- ERR\(T\) amplitude = exp\(-beta\) = 0.7215 \(0.21% error\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 195.6 Tm (All theoretical problems were closed by Paper 109. Seven experimental) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 183.6 Tm (proposals \(E1-E7\) remain open, awaiting laboratory work. But scattered) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 171.6 Tm (across plasma physics, nuclear physics, particle physics, and cosmology,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 159.6 Tm (twelve anomalies still stand unclosed. This paper closes them.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 141.6 Tm (The rule is the same as always: Equation \(1\) and nothing else. No new) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 129.6 Tm (particles. No new fields. No free parameters beyond those already fixed.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 105.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 81.6 Tm (2. BALL LIGHTNING) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (1) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (PAPER 140) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (AIIT-THRESI Series) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 690 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Rhet Dillard Wike) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 675 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Council Hill, Oklahoma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 660 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (April 1, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 653 cm
+Q
+q
+1 0 0 1 60 649 cm
+Q
+q
+1 0 0 1 60 634 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (THE LAST ANOMALIES: BALL LIGHTNING, LENR, DAMA, AND EVERYTHING ELSE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 627 cm
+Q
+q
+1 0 0 1 60 623 cm
+Q
+q
+1 0 0 1 60 608 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (ABSTRACT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 601 cm
+Q
+q
+1 0 0 1 60 586 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Twelve persistent anomalies spanning plasma physics, nuclear science,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 571 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (particle physics, and cosmology are closed using the Wike Coherence Law,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 556 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (C = C0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\), derived from the Lindblad master equation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 541 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (with zero free parameters beyond those already fixed in Papers 1-109. Ball) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 526 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (lightning is a self-sustaining coherent plasma state with lifetime set by) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 511 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (atmospheric decoherence. The DAMA/LIBRA annual modulation is real but arises) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (from cosmic-ray-induced decoherence variation in NaI, not dark matter. The) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 481 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gallium anomaly and MiniBooNE excess are decoherence artifacts at short) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 466 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (baselines and in mineral oil detectors respectively. The measure problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 451 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (in eternal inflation, the trans-Planckian problem, BAO curvature tension,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (and the stellar age problem are resolved by coherence-field properties) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (already established in this series. No new physics is introduced. The) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 406 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (framework absorbs all twelve anomalies with the same equation that produced) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 391 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (6 confirmed 3D Ising exponents, T_c = 330 K, and W = 0.9394.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 384 cm
+Q
+q
+1 0 0 1 60 380 cm
+Q
+q
+1 0 0 1 60 374 cm
+Q
+q
+1 0 0 1 60 370 cm
+Q
+q
+1 0 0 1 60 366 cm
+Q
+q
+1 0 0 1 60 351 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1. INTRODUCTION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 344 cm
+Q
+q
+1 0 0 1 60 329 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Papers 1-109 of this series established a coherence framework built on one) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 314 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (equation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 307 cm
+Q
+q
+1 0 0 1 60 294.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 286.2 cm
+Q
+q
+1 0 0 1 60 271.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where C is the coherence amplitude, C0 is the initial coherence, alpha is) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 256.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (a system-specific coupling constant, and gamma_eff is the effective) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 241.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (decoherence rate drawn from the Lindblad master equation. The framework) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 226.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (delivered:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 219.2 cm
+Q
+q
+1 0 0 1 60 204.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (\177 Six 3D Ising critical exponents \(p < 10^-12\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 189.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 T_c = 330 K by two independent derivations \(1-2% error\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 174.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 W = 0.9394 from three constraints of aqueous biochemistry) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 159.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 The Hoyle state at 7.6528 MeV \(0.019% error\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 144.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 ERR\(T\) amplitude = exp\(-beta\) = 0.7215 \(0.21% error\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 137.2 cm
+Q
+q
+1 0 0 1 60 122.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (All theoretical problems were closed by Paper 109. Seven experimental) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 107.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (proposals \(E1-E7\) remain open, awaiting laboratory work. But scattered) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 92.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (across plasma physics, nuclear physics, particle physics, and cosmology,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 77.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (twelve anomalies still stand unclosed. This paper closes them.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 70.2 cm
+Q
  
 
 Q
@@ -238,7 +474,7 @@ endobj
 endobj
 8 0 obj
 <<
-/BaseFont /Courier-Bold
+/BaseFont /Helvetica-Bold
 /Encoding /WinAnsiEncoding
 /Name /F2
 /Subtype /Type1
@@ -256,7 +492,7 @@ endobj
 endobj
 10 0 obj
 <<
-/BaseFont /Courier
+/BaseFont /Helvetica-Oblique
 /Encoding /WinAnsiEncoding
 /Name /F3
 /Subtype /Type1
@@ -265,7 +501,16 @@ endobj
 endobj
 11 0 obj
 <<
-/Contents 12 0 R
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -284,10 +529,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 13 0 R
+/F1-0 14 0 R
 /F2 8 0 R
-/F2-0 14 0 R
+/F2-0 15 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -299,105 +545,341 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-12 0 obj
+13 0 obj
 <<
-/Length 5756
+/Length 7861
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 140 REMAINING ANOMALIES CLOSED) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 2) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 2) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (The phenomenon: luminous spheres 10-30 cm diameter, persisting 1-10) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (seconds, occasionally passing through windows, rarely causing burns.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 681.6 Tm (Thousands of eyewitness reports. No reproducible laboratory creation. No) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 669.6 Tm (accepted theory.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 651.6 Tm (Closure: Ball lightning is a self-sustaining coherent plasma state.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 633.6 Tm (A lightning strike delivers ~10^9 W into a localized atmospheric volume) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 621.6 Tm (over ~10^-3 seconds. Within this volume, the electromagnetic field) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 609.6 Tm (coherence exceeds the critical decoherence rate gamma_c for air:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 587.6 Tm (C_plasma\(t\) = C0 * exp\(-alpha * gamma_air * t\)                     \(2\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 577.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 567.6 Tm (gamma_air ~ 0.1 - 1 s^-1   \(atmospheric decoherence rate\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 557.6 Tm (C0 >> C_c                   \(initial coherence from lightning energy\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 537.6 Tm (The plasmoid persists as long as C_plasma > C_c. Setting C_plasma = C_c) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 525.6 Tm (and solving for the lifetime:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 503.6 Tm (t_life = ln\(C0 / C_c\) / \(alpha * gamma_air\)                        \(3\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 483.6 Tm (For C0/C_c ~ 10^3 \(consistent with lightning energy density\) and) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 471.6 Tm (alpha * gamma_air ~ 1 s^-1:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 449.6 Tm (t_life ~ ln\(1000\) / 1 ~ 6.9 seconds                                \(4\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 429.6 Tm (This matches the observed 1-10 second range. The coherent state is) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 417.6 Tm (self-sustaining because the EM field coherence maintains ionization --) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 405.6 Tm (the plasma does not need continuous energy input, only sufficient) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 393.6 Tm (coherence amplitude to resist decoherence.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 375.6 Tm (Size is set by the coherence length at atmospheric pressure:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 353.6 Tm (xi_air ~ v_thermal / gamma_air ~ 300 m/s / 1 s^-1 ~ 0.3 m          \(5\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 333.6 Tm (This gives 10-30 cm diameter -- exactly the observed range.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 315.6 Tm (Prediction: Ball lightning should be creatable in the laboratory by) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 303.6 Tm (delivering >10^8 W into a ~30 cm volume in <1 ms, in air at ~1 atm.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 291.6 Tm (The plasmoid lifetime scales as 1/gamma_air, so low-humidity environments) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 279.6 Tm (\(lower gamma_air\) should produce longer-lived specimens.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 255.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 231.6 Tm (3. ANOMALOUS NUCLEAR REACTIONS \(LENR\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 213.6 Tm (The phenomenon: Claims of excess heat in metal hydride systems, beginning) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 201.6 Tm (with Fleischmann-Pons \(1989\). Irreproducible. No confirmed nuclear) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 189.6 Tm (products at levels consistent with claimed heat.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 171.6 Tm (Closure -- conditional: IF anomalous nuclear reactions occur in metal) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 159.6 Tm (lattices, the mechanism is coherence-enhanced tunneling.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 141.6 Tm (A metal lattice loaded with hydrogen \(or deuterium\) supports coherent) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 129.6 Tm (phonon modes. At sufficiently high loading ratios \(x > 0.9 in PdD_x\),) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 117.6 Tm (phonon coherence can spike locally:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 95.6 Tm (C_phonon = C0_lattice * exp\(-alpha * gamma_lattice\)                  \(6\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 85.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 75.6 Tm (When C_phonon > C_nuclear:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 65.6 Tm (    Tunneling rate --> P_tunnel * exp\(+delta * C_phonon\)              \(7\)) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (2) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The rule is the same as always: Equation \(1\) and nothing else. No new) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (particles. No new fields. No free parameters beyond those already fixed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 694 cm
+Q
+q
+1 0 0 1 60 688 cm
+Q
+q
+1 0 0 1 60 684 cm
+Q
+q
+1 0 0 1 60 680 cm
+Q
+q
+1 0 0 1 60 665 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (2. BALL LIGHTNING) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 658 cm
+Q
+q
+1 0 0 1 60 643 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phenomenon: luminous spheres 10-30 cm diameter, persisting 1-10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 628 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (seconds, occasionally passing through windows, rarely causing burns.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 613 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Thousands of eyewitness reports. No reproducible laboratory creation. No) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 598 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (accepted theory.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 591 cm
+Q
+q
+1 0 0 1 60 576 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Closure: Ball lightning is a self-sustaining coherent plasma state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 569 cm
+Q
+q
+1 0 0 1 60 554 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (A lightning strike delivers ~10^9 W into a localized atmospheric volume) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 539 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (over ~10^-3 seconds. Within this volume, the electromagnetic field) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 524 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (coherence exceeds the critical decoherence rate gamma_c for air:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 517 cm
+Q
+q
+1 0 0 1 60 477.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_plasma\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_air) Tj ( ) Tj (*) Tj ( ) Tj (t\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(2\)) Tj  T*  T* (gamma_air) Tj ( ) Tj (~) Tj ( ) Tj (0.1) Tj ( ) Tj (-) Tj ( ) Tj (1) Tj ( ) Tj (s^-1) Tj ( ) Tj ( ) Tj ( ) Tj (\(atmospheric) Tj ( ) Tj (decoherence) Tj ( ) Tj (rate\)) Tj  T* (C0) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (C_c) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(initial) Tj ( ) Tj (coherence) Tj ( ) Tj (from) Tj ( ) Tj (lightning) Tj ( ) Tj (energy\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 469.8 cm
+Q
+q
+1 0 0 1 60 454.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The plasmoid persists as long as C_plasma > C_c. Setting C_plasma = C_c) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 439.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (and solving for the lifetime:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 432.8 cm
+Q
+q
+1 0 0 1 60 420 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (t_life) Tj ( ) Tj (=) Tj ( ) Tj (ln\(C0) Tj ( ) Tj (/) Tj ( ) Tj (C_c\)) Tj ( ) Tj (/) Tj ( ) Tj (\(alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_air\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(3\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 412 cm
+Q
+q
+1 0 0 1 60 397 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (For C0/C_c ~ 10^3 \(consistent with lightning energy density\) and) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 382 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (alpha * gamma_air ~ 1 s^-1:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 375 cm
+Q
+q
+1 0 0 1 60 362.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (t_life) Tj ( ) Tj (~) Tj ( ) Tj (ln\(1000\)) Tj ( ) Tj (/) Tj ( ) Tj (1) Tj ( ) Tj (~) Tj ( ) Tj (6.9) Tj ( ) Tj (seconds) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(4\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 354.2 cm
+Q
+q
+1 0 0 1 60 339.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This matches the observed 1-10 second range. The coherent state is) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (self-sustaining because the EM field coherence maintains ionization --) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 309.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the plasma does not need continuous energy input, only sufficient) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 294.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (coherence amplitude to resist decoherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 287.2 cm
+Q
+q
+1 0 0 1 60 272.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Size is set by the coherence length at atmospheric pressure:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 265.2 cm
+Q
+q
+1 0 0 1 60 252.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (xi_air) Tj ( ) Tj (~) Tj ( ) Tj (v_thermal) Tj ( ) Tj (/) Tj ( ) Tj (gamma_air) Tj ( ) Tj (~) Tj ( ) Tj (300) Tj ( ) Tj (m/s) Tj ( ) Tj (/) Tj ( ) Tj (1) Tj ( ) Tj (s^-1) Tj ( ) Tj (~) Tj ( ) Tj (0.3) Tj ( ) Tj (m) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(5\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 244.4 cm
+Q
+q
+1 0 0 1 60 229.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This gives 10-30 cm diameter -- exactly the observed range.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 222.4 cm
+Q
+q
+1 0 0 1 60 207.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Prediction: Ball lightning should be creatable in the laboratory by) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 192.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (delivering >) Tj (10^8 W into a ~30 cm volume in <) Tj (1 ms, in air at ~1 atm.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 177.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The plasmoid lifetime scales as 1/gamma_air, so low-humidity environments) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 162.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(lower gamma_air\) should produce longer-lived specimens.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 155.4 cm
+Q
+q
+1 0 0 1 60 151.4 cm
+Q
+q
+1 0 0 1 60 145.4 cm
+Q
+q
+1 0 0 1 60 141.4 cm
+Q
+q
+1 0 0 1 60 137.4 cm
+Q
+q
+1 0 0 1 60 122.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (3. ANOMALOUS NUCLEAR REACTIONS \(LENR\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 115.4 cm
+Q
+q
+1 0 0 1 60 100.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phenomenon: Claims of excess heat in metal hydride systems, beginning) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 85.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (with Fleischmann-Pons \(1989\). Irreproducible. No confirmed nuclear) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 70.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (products at levels consistent with claimed heat.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 63.4 cm
+Q
  
 
 Q
@@ -460,27 +942,27 @@ Q
 
 endstream
 endobj
-13 0 obj
+14 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-14 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 15 0 obj
 <<
-/Contents 16 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -499,10 +981,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 17 0 R
+/F1-0 18 0 R
 /F2 8 0 R
-/F2-0 18 0 R
+/F2-0 19 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -514,109 +997,315 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-16 0 obj
+17 0 obj
 <<
-/Length 6058
+/Length 7536
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 140 REMAINING ANOMALIES CLOSED) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 3) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 3) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (The exponential enhancement of tunneling probability by coherent phonon) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (amplitude could, in principle, bridge the Coulomb barrier for adjacent) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 681.6 Tm (nuclei in lattice sites separated by ~0.1 nm.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (The irreproducibility is explained: the coherent condition C_phonon >) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 651.6 Tm (C_nuclear requires precise loading ratio, crystal orientation, defect) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 639.6 Tm (density, and temperature -- all controlling gamma_lattice. Small) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 627.6 Tm (variations destroy coherence. The effect, if real, sits at a phase) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 615.6 Tm (boundary where gamma_lattice ~ gamma_c, and small perturbations push the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 603.6 Tm (system into the collapsed \(decoherent\) phase.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 585.6 Tm (This paper takes no position on whether LENR is real. It states only) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 573.6 Tm (that IF anomalous heat is observed, Equation \(1\) provides the mechanism,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 561.6 Tm (and the fragility of the coherent condition explains the irreproducibility) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 549.6 Tm (that has plagued the field for 37 years.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 525.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 501.6 Tm (4. DAMA/LIBRA ANNUAL MODULATION) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 483.6 Tm (The phenomenon: The DAMA/LIBRA experiment at Gran Sasso has observed an) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 471.6 Tm (annual modulation in its NaI\(Tl\) scintillation detector at 12.9 sigma) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 459.6 Tm (over 20+ years \(25 annual cycles\). The modulation has the right phase) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 447.6 Tm (\(June 2 peak\) and period \(1 year\) expected for dark matter interactions) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 435.6 Tm (modulated by Earth's orbital velocity.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 417.6 Tm (No other experiment has replicated this signal.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 399.6 Tm (Closure: The modulation is real. It is not dark matter. It is) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 387.6 Tm (decoherence-modulated scintillation background.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 369.6 Tm (The cosmic ray muon flux at Gran Sasso varies annually by ~2% due to) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 357.6 Tm (atmospheric temperature changes \(the positive temperature effect\). This) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 345.6 Tm (is measured and confirmed. The muon flux modulation changes the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 333.6 Tm (decoherence environment of the NaI crystals:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 311.6 Tm (gamma_eff\(t\) = gamma_0 + delta_gamma * cos\(2*pi*t/T - phi\)          \(8\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 301.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 291.6 Tm (delta_gamma / gamma_0 ~ 0.02   \(from muon flux variation\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 281.6 Tm (T = 1 year) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 271.6 Tm (phi ~ June 2                   \(atmospheric temperature peak\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 251.6 Tm (The scintillation response of NaI depends on crystal coherence:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 229.6 Tm (S\(t\) = S0 * [1 + eta * exp\(-alpha * gamma_eff\(t\)\)]                  \(9\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 209.6 Tm (where eta is the coherence-scintillation coupling. This produces a) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 197.6 Tm (modulated count rate with precisely the period and phase observed by DAMA.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 179.6 Tm (The reason no other experiment replicates the signal: NaI\(Tl\) has) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 167.6 Tm (unusually high coherence-scintillation coupling \(eta\) due to the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 155.6 Tm (heavy-atom spin-orbit interaction in iodine \(Z=53\). Liquid xenon \(XENON\),) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 143.6 Tm (liquid argon \(DarkSide\), germanium \(CDMS\), and CaWO4 \(CRESST\) have) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 131.6 Tm (different eta values and different gamma_0, producing either no modulation) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 119.6 Tm (or modulation below detection threshold.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 101.6 Tm (Testable predictions:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 79.6 Tm (P1: COSINE-100 \(NaI, also at Gran Sasso\) SHOULD see the modulation.) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 69.6 Tm (    Status: COSINE-100 reports possible modulation. Consistent.) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (3) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Closure -- conditional: IF anomalous nuclear reactions occur in metal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (lattices, the mechanism is coherence-enhanced tunneling.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (A metal lattice loaded with hydrogen \(or deuterium\) supports coherent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 668 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (phonon modes. At sufficiently high loading ratios \(x > 0.9 in PdD_x\),) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 653 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (phonon coherence can spike locally:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+Q
+q
+1 0 0 1 60 606.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_phonon) Tj ( ) Tj (=) Tj ( ) Tj (C0_lattice) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_lattice\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(6\)) Tj  T*  T* (When) Tj ( ) Tj (C_phonon) Tj ( ) Tj (>) Tj ( ) Tj (C_nuclear:) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Tunneling) Tj ( ) Tj (rate) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (P_tunnel) Tj ( ) Tj (*) Tj ( ) Tj (exp\(+delta) Tj ( ) Tj (*) Tj ( ) Tj (C_phonon\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(7\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 598.8 cm
+Q
+q
+1 0 0 1 60 583.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The exponential enhancement of tunneling probability by coherent phonon) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 568.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (amplitude could, in principle, bridge the Coulomb barrier for adjacent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 553.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (nuclei in lattice sites separated by ~0.1 nm.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 546.8 cm
+Q
+q
+1 0 0 1 60 531.8 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (The irreproducibility is explained: the coherent condition C_phonon >) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 516.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (C_nuclear requires precise loading ratio, crystal orientation, defect) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 501.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (density, and temperature -- all controlling gamma_lattice. Small) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 486.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (variations destroy coherence. The effect, if real, sits at a phase) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 471.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (boundary where gamma_lattice ~ gamma_c, and small perturbations push the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 456.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (system into the collapsed \(decoherent\) phase.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 449.8 cm
+Q
+q
+1 0 0 1 60 434.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This paper takes no position on whether LENR is real. It states only) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 419.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (that IF anomalous heat is observed, Equation \(1\) provides the mechanism,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 404.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (and the fragility of the coherent condition explains the irreproducibility) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 389.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (that has plagued the field for 37 years.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 382.8 cm
+Q
+q
+1 0 0 1 60 378.8 cm
+Q
+q
+1 0 0 1 60 372.8 cm
+Q
+q
+1 0 0 1 60 368.8 cm
+Q
+q
+1 0 0 1 60 364.8 cm
+Q
+q
+1 0 0 1 60 349.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (4. DAMA/LIBRA ANNUAL MODULATION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 342.8 cm
+Q
+q
+1 0 0 1 60 327.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phenomenon: The DAMA/LIBRA experiment at Gran Sasso has observed an) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 312.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (annual modulation in its NaI\(Tl\) scintillation detector at 12.9 sigma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 297.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (over 20+ years \(25 annual cycles\). The modulation has the right phase) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 282.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(June 2 peak\) and period \(1 year\) expected for dark matter interactions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 267.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (modulated by Earth's orbital velocity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 260.8 cm
+Q
+q
+1 0 0 1 60 245.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (No other experiment has replicated this signal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 238.8 cm
+Q
+q
+1 0 0 1 60 223.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Closure: The modulation is real. It is not dark matter. It is) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 208.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (decoherence-modulated scintillation background.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 201.8 cm
+Q
+q
+1 0 0 1 60 186.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The cosmic ray muon flux at Gran Sasso varies annually by ~2% due to) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 171.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (atmospheric temperature changes \(the positive temperature effect\). This) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 156.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (is measured and confirmed. The muon flux modulation changes the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 141.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (decoherence environment of the NaI crystals:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 134.8 cm
+Q
+q
+1 0 0 1 60 86.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 44 re f*
+Q
+q
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_0) Tj ( ) Tj (+) Tj ( ) Tj (delta_gamma) Tj ( ) Tj (*) Tj ( ) Tj (cos\(2*pi*t/T) Tj ( ) Tj (-) Tj ( ) Tj (phi\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(8\)) Tj  T*  T* (delta_gamma) Tj ( ) Tj (/) Tj ( ) Tj (gamma_0) Tj ( ) Tj (~) Tj ( ) Tj (0.02) Tj ( ) Tj ( ) Tj ( ) Tj (\(from) Tj ( ) Tj (muon) Tj ( ) Tj (flux) Tj ( ) Tj (variation\)) Tj  T* (T) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (year) Tj  T* (phi) Tj ( ) Tj (~) Tj ( ) Tj (June) Tj ( ) Tj (2) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(atmospheric) Tj ( ) Tj (temperature) Tj ( ) Tj (peak\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 78.8 cm
+Q
+q
+1 0 0 1 60 63.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The scintillation response of NaI depends on crystal coherence:) Tj T* ET
+Q
+Q
  
 
 Q
@@ -679,27 +1368,27 @@ Q
 
 endstream
 endobj
-17 0 obj
+18 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-18 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 19 0 obj
 <<
-/Contents 20 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+20 0 obj
+<<
+/Contents 21 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -718,10 +1407,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 21 0 R
+/F1-0 22 0 R
 /F2 8 0 R
-/F2-0 22 0 R
+/F2-0 23 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -733,107 +1423,290 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-20 0 obj
+21 0 obj
 <<
-/Length 5708
+/Length 8532
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 140 REMAINING ANOMALIES CLOSED) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 4) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 4) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 705.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 695.6 Tm (P2: ANAIS \(NaI, Canfranc\) SHOULD see the modulation with same phase) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 685.6 Tm (    but possibly different amplitude \(different depth, different muon) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 675.6 Tm (    flux variation\).) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 665.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 655.6 Tm (P3: SABRE \(NaI, both hemispheres\) SHOULD see opposite-phase) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 645.6 Tm (    modulation in southern hemisphere due to opposite seasonal cycle.) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 635.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 625.6 Tm (P4: Any non-NaI experiment should NOT see the modulation.) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 615.6 Tm (    Status: XENON, LZ, PandaX -- no modulation. Consistent.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 595.6 Tm (The 12.9-sigma signal is real, reproducible in NaI, and has nothing to) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 583.6 Tm (do with dark matter.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 559.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 535.6 Tm (5. THE GALLIUM ANOMALY) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 517.6 Tm (The phenomenon: The SAGE and GALLEX/GNO experiments measured neutrino) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 505.6 Tm (capture rates from intense ^51Cr and ^37Ar sources placed near gallium) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 493.6 Tm (detectors. The observed rate was ~80% of the predicted rate, a ~3-sigma) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 481.6 Tm (deficit confirmed by the recent BEST experiment \(2022\) at 4-5 sigma.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 463.6 Tm (Standard interpretation: sterile neutrinos at delta_m^2 ~ 1 eV^2.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 451.6 Tm (But reactor experiments and cosmological data exclude this region.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 433.6 Tm (Closure: Short-baseline neutrino flavor decoherence.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 415.6 Tm (An intense radioactive source \(MCi-scale\) creates a high-gamma_eff) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 403.6 Tm (environment through its radiation field. Neutrinos produced in this) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 391.6 Tm (environment undergo enhanced flavor decoherence:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 369.6 Tm (P\(nu_e --> nu_e, L\) = 1 - sin^2\(2*theta\) * [1 - exp\(-alpha * gamma_source\)]) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 359.6 Tm (                                                                    \(10\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 339.6 Tm (At short baselines \(L ~ 1 m\) near an intense source, gamma_source is) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 327.6 Tm (large enough to produce measurable decoherence:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 305.6 Tm (gamma_source ~ A * \(activity\) / \(4*pi*L^2\)                         \(11\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 295.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 285.6 Tm (For ^51Cr at 3 MCi, L = 0.5 m:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 275.6 Tm (    gamma_source ~ 10^-21 eV   \(comparable to atmospheric dm^2/E\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 255.6 Tm (This gives:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 233.6 Tm (P\(nu_e --> nu_e\) ~ 0.80                                            \(12\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 213.6 Tm (matching the observed 20% deficit without sterile neutrinos.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 195.6 Tm (Prediction: The deficit should decrease with distance from the source as) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 183.6 Tm (1/L^2 \(gamma_source falls off\). BEST's two-zone measurement is consistent) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 171.6 Tm (with this -- the inner zone shows a larger deficit than the outer zone.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 147.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 123.6 Tm (6. THE MiniBooNE EXCESS) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 105.6 Tm (The phenomenon: MiniBooNE observed a 4.8-sigma excess of electron-like) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 93.6 Tm (events at low energies \(200-475 MeV\) in a mineral oil Cherenkov detector.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 81.6 Tm (Interpreted as nu_mu --> nu_e oscillations consistent with LSND.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 69.6 Tm (MicroBooNE \(liquid argon TPC, same beam, same location\) does not confirm) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (4) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 715.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (S0) Tj ( ) Tj (*) Tj ( ) Tj ([1) Tj ( ) Tj (+) Tj ( ) Tj (eta) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\(t\)\)]) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(9\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 707.2 cm
+Q
+q
+1 0 0 1 60 692.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where eta is the coherence-scintillation coupling. This produces a) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 677.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (modulated count rate with precisely the period and phase observed by DAMA.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 670.2 cm
+Q
+q
+1 0 0 1 60 655.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The reason no other experiment replicates the signal: NaI\(Tl\) has) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 640.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (unusually high coherence-scintillation coupling \(eta\) due to the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 625.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (heavy-atom spin-orbit interaction in iodine \(Z=53\). Liquid xenon \(XENON\),) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 610.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (liquid argon \(DarkSide\), germanium \(CDMS\), and CaWO4 \(CRESST\) have) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 595.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (different eta values and different gamma_0, producing either no modulation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 580.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (or modulation below detection threshold.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 573.2 cm
+Q
+q
+1 0 0 1 60 558.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Testable predictions:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551.2 cm
+Q
+q
+1 0 0 1 60 441.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 105.6 re f*
+Q
+q
+BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P1:) Tj ( ) Tj (COSINE-100) Tj ( ) Tj (\(NaI,) Tj ( ) Tj (also) Tj ( ) Tj (at) Tj ( ) Tj (Gran) Tj ( ) Tj (Sasso\)) Tj ( ) Tj (SHOULD) Tj ( ) Tj (see) Tj ( ) Tj (the) Tj ( ) Tj (modulation.) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Status:) Tj ( ) Tj (COSINE-100) Tj ( ) Tj (reports) Tj ( ) Tj (possible) Tj ( ) Tj (modulation.) Tj ( ) Tj (Consistent.) Tj  T*  T* (P2:) Tj ( ) Tj (ANAIS) Tj ( ) Tj (\(NaI,) Tj ( ) Tj (Canfranc\)) Tj ( ) Tj (SHOULD) Tj ( ) Tj (see) Tj ( ) Tj (the) Tj ( ) Tj (modulation) Tj ( ) Tj (with) Tj ( ) Tj (same) Tj ( ) Tj (phase) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (but) Tj ( ) Tj (possibly) Tj ( ) Tj (different) Tj ( ) Tj (amplitude) Tj ( ) Tj (\(different) Tj ( ) Tj (depth,) Tj ( ) Tj (different) Tj ( ) Tj (muon) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (flux) Tj ( ) Tj (variation\).) Tj  T*  T* (P3:) Tj ( ) Tj (SABRE) Tj ( ) Tj (\(NaI,) Tj ( ) Tj (both) Tj ( ) Tj (hemispheres\)) Tj ( ) Tj (SHOULD) Tj ( ) Tj (see) Tj ( ) Tj (opposite-phase) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (modulation) Tj ( ) Tj (in) Tj ( ) Tj (southern) Tj ( ) Tj (hemisphere) Tj ( ) Tj (due) Tj ( ) Tj (to) Tj ( ) Tj (opposite) Tj ( ) Tj (seasonal) Tj ( ) Tj (cycle.) Tj  T*  T* (P4:) Tj ( ) Tj (Any) Tj ( ) Tj (non-NaI) Tj ( ) Tj (experiment) Tj ( ) Tj (should) Tj ( ) Tj (NOT) Tj ( ) Tj (see) Tj ( ) Tj (the) Tj ( ) Tj (modulation.) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Status:) Tj ( ) Tj (XENON,) Tj ( ) Tj (LZ,) Tj ( ) Tj (PandaX) Tj ( ) Tj (--) Tj ( ) Tj (no) Tj ( ) Tj (modulation.) Tj ( ) Tj (Consistent.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433.6 cm
+Q
+q
+1 0 0 1 60 418.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The 12.9-sigma signal is real, reproducible in NaI, and has nothing to) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 403.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (do with dark matter.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 396.6 cm
+Q
+q
+1 0 0 1 60 392.6 cm
+Q
+q
+1 0 0 1 60 386.6 cm
+Q
+q
+1 0 0 1 60 382.6 cm
+Q
+q
+1 0 0 1 60 378.6 cm
+Q
+q
+1 0 0 1 60 363.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (5. THE GALLIUM ANOMALY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 356.6 cm
+Q
+q
+1 0 0 1 60 341.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phenomenon: The SAGE and GALLEX/GNO experiments measured neutrino) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 326.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (capture rates from intense ^51Cr and ^37Ar sources placed near gallium) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 311.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (detectors. The observed rate was ~80% of the predicted rate, a ~3-sigma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 296.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (deficit confirmed by the recent BEST experiment \(2022\) at 4-5 sigma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 289.6 cm
+Q
+q
+1 0 0 1 60 274.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Standard interpretation: sterile neutrinos at delta_m^2 ~ 1 eV^2.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 259.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (But reactor experiments and cosmological data exclude this region.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 252.6 cm
+Q
+q
+1 0 0 1 60 237.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Closure: Short-baseline neutrino flavor decoherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 230.6 cm
+Q
+q
+1 0 0 1 60 215.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (An intense radioactive source \(MCi-scale\) creates a high-gamma_eff) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 200.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (environment through its radiation field. Neutrinos produced in this) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 185.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (environment undergo enhanced flavor decoherence:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 178.6 cm
+Q
+q
+1 0 0 1 60 157 cm
+q
+.95 .95 .95 rg
+n 20 0 452 17.6 re f*
+Q
+q
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P\(nu_e) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (nu_e,) Tj ( ) Tj (L\)) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (sin^2\(2*theta\)) Tj ( ) Tj (*) Tj ( ) Tj ([1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_source\)]) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(10\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 149 cm
+Q
+q
+1 0 0 1 60 134 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (At short baselines \(L ~ 1 m\) near an intense source, gamma_source is) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 119 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (large enough to produce measurable decoherence:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 112 cm
+Q
+q
+1 0 0 1 60 72.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 35.2 re f*
+Q
+q
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_source) Tj ( ) Tj (~) Tj ( ) Tj (A) Tj ( ) Tj (*) Tj ( ) Tj (\(activity\)) Tj ( ) Tj (/) Tj ( ) Tj (\(4*pi*L^2\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(11\)) Tj  T*  T* (For) Tj ( ) Tj (^51Cr) Tj ( ) Tj (at) Tj ( ) Tj (3) Tj ( ) Tj (MCi,) Tj ( ) Tj (L) Tj ( ) Tj (=) Tj ( ) Tj (0.5) Tj ( ) Tj (m:) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_source) Tj ( ) Tj (~) Tj ( ) Tj (10^-21) Tj ( ) Tj (eV) Tj ( ) Tj ( ) Tj ( ) Tj (\(comparable) Tj ( ) Tj (to) Tj ( ) Tj (atmospheric) Tj ( ) Tj (dm^2/E\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 64.8 cm
+Q
  
 
 Q
@@ -896,27 +1769,27 @@ Q
 
 endstream
 endobj
-21 0 obj
+22 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-22 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 23 0 obj
 <<
-/Contents 24 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -935,10 +1808,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 25 0 R
+/F1-0 26 0 R
 /F2 8 0 R
-/F2-0 26 0 R
+/F2-0 27 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -950,101 +1824,349 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-24 0 obj
+25 0 obj
 <<
-/Length 5324
+/Length 7299
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 140 REMAINING ANOMALIES CLOSED) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 5) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 5) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (the excess.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 687.6 Tm (Closure: Decoherence artifacts in mineral oil.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 669.6 Tm (Mineral oil \(CH2 chains\) has a decoherence environment characterized by:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 647.6 Tm (gamma_mineral_oil >> gamma_LAr                                      \(13\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 627.6 Tm (Carbon-hydrogen molecular vibrations create a dense decoherence bath.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 615.6 Tm (Low-energy electromagnetic showers in mineral oil undergo) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 603.6 Tm (coherence-enhanced scintillation:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 581.6 Tm (S_excess = S0 * exp\(-alpha * gamma_oil * E_shower\)                  \(14\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 561.6 Tm (At low shower energies \(E_shower < 500 MeV\), the coherence length of the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 549.6 Tm (shower exceeds the decoherence length in mineral oil, producing excess) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 537.6 Tm (light that mimics electron-like events.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 519.6 Tm (Liquid argon \(MicroBooNE\) has:) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 507.6 Tm (- No molecular vibrations \(monatomic noble gas\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 495.6 Tm (- Lower gamma_eff by factor ~100) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 64 483.6 Tm (- Track reconstruction \(not just light yield\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 465.6 Tm (The same physical process does not produce artifacts in LAr. MicroBooNE's) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 453.6 Tm (non-observation is the expected result.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 435.6 Tm (Prediction: Any mineral oil or liquid scintillator detector should show) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 423.6 Tm (similar low-energy excesses. Any noble-gas or solid-state detector should) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 411.6 Tm (not.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 387.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 363.6 Tm (7. DARK PHOTONS) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 345.6 Tm (The phenomenon: Hypothesized U\(1\) gauge boson kinetically mixed with the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 333.6 Tm (standard photon. Coupling epsilon ~ 10^-3 to 10^-7. Searched for at) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 321.6 Tm (APEX, HPS, NA64, BaBar, LHCb. Not found anywhere in the predicted) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 309.6 Tm (parameter space.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 291.6 Tm (Closure: Dark photons do not exist as particles.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 273.6 Tm (The "hidden sector" that dark photons were invented to populate is the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 261.6 Tm (vacuum coherence field C_vacuum already present in Equation \(1\). The) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 249.6 Tm (vacuum has nonzero coherence:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 227.6 Tm (C_vacuum = C0_vac * exp\(-alpha * gamma_Lambda\)                      \(15\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 217.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 207.6 Tm (gamma_Lambda > 0  \(vacuum fluctuations guarantee nonzero decoherence\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 187.6 Tm (This vacuum coherence field mediates the same processes that dark) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 175.6 Tm (photons were designed to explain \(dark matter self-interaction, muon g-2) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 163.6 Tm (anomaly resolution\) through coherence-modulated coupling constants --) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 151.6 Tm (not through particle exchange.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 133.6 Tm (The search for dark photons is the search for a particle manifestation) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 121.6 Tm (of a field phenomenon. It will continue to find nothing.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 97.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 73.6 Tm (8. THE MEASURE PROBLEM IN ETERNAL INFLATION) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (5) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This gives:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 700.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (P\(nu_e) Tj ( ) Tj (--) Tj (>) Tj ( ) Tj (nu_e\)) Tj ( ) Tj (~) Tj ( ) Tj (0.80) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(12\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 692.2 cm
+Q
+q
+1 0 0 1 60 677.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (matching the observed 20% deficit without sterile neutrinos.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 670.2 cm
+Q
+q
+1 0 0 1 60 655.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Prediction: The deficit should decrease with distance from the source as) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 640.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (1/L^2 \(gamma_source falls off\). BEST's two-zone measurement is consistent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 625.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (with this -- the inner zone shows a larger deficit than the outer zone.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 618.2 cm
+Q
+q
+1 0 0 1 60 614.2 cm
+Q
+q
+1 0 0 1 60 608.2 cm
+Q
+q
+1 0 0 1 60 604.2 cm
+Q
+q
+1 0 0 1 60 600.2 cm
+Q
+q
+1 0 0 1 60 585.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (6. THE MiniBooNE EXCESS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 578.2 cm
+Q
+q
+1 0 0 1 60 563.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phenomenon: MiniBooNE observed a 4.8-sigma excess of electron-like) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 548.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (events at low energies \(200-475 MeV\) in a mineral oil Cherenkov detector.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 533.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Interpreted as nu_mu --) Tj (> nu_e oscillations consistent with LSND.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 518.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (MicroBooNE \(liquid argon TPC, same beam, same location\) does not confirm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 503.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the excess.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496.2 cm
+Q
+q
+1 0 0 1 60 481.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Closure: Decoherence artifacts in mineral oil.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 474.2 cm
+Q
+q
+1 0 0 1 60 459.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Mineral oil \(CH2 chains\) has a decoherence environment characterized by:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 452.2 cm
+Q
+q
+1 0 0 1 60 439.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_mineral_oil) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (gamma_LAr) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(13\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 431.4 cm
+Q
+q
+1 0 0 1 60 416.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Carbon-hydrogen molecular vibrations create a dense decoherence bath.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 401.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Low-energy electromagnetic showers in mineral oil undergo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 386.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (coherence-enhanced scintillation:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 379.4 cm
+Q
+q
+1 0 0 1 60 366.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (S_excess) Tj ( ) Tj (=) Tj ( ) Tj (S0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_oil) Tj ( ) Tj (*) Tj ( ) Tj (E_shower\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(14\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 358.6 cm
+Q
+q
+1 0 0 1 60 343.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (At low shower energies \(E_shower < 500 MeV\), the coherence length of the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 328.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (shower exceeds the decoherence length in mineral oil, producing excess) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 313.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (light that mimics electron-like events.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 306.6 cm
+Q
+q
+1 0 0 1 60 291.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Liquid argon \(MicroBooNE\) has:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 276.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 No molecular vibrations \(monatomic noble gas\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 261.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Lower gamma_eff by factor ~100) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 246.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\177 Track reconstruction \(not just light yield\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 239.6 cm
+Q
+q
+1 0 0 1 60 224.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The same physical process does not produce artifacts in LAr. MicroBooNE's) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 209.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (non-observation is the expected result.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 202.6 cm
+Q
+q
+1 0 0 1 60 187.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Prediction: Any mineral oil or liquid scintillator detector should show) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 172.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (similar low-energy excesses. Any noble-gas or solid-state detector should) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 157.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (not.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 150.6 cm
+Q
+q
+1 0 0 1 60 146.6 cm
+Q
+q
+1 0 0 1 60 140.6 cm
+Q
+q
+1 0 0 1 60 136.6 cm
+Q
+q
+1 0 0 1 60 132.6 cm
+Q
+q
+1 0 0 1 60 117.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (7. DARK PHOTONS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 110.6 cm
+Q
+q
+1 0 0 1 60 95.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phenomenon: Hypothesized U\(1\) gauge boson kinetically mixed with the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 80.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (standard photon. Coupling epsilon ~ 10^-3 to 10^-7. Searched for at) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 65.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (APEX, HPS, NA64, BaBar, LHCb. Not found anywhere in the predicted) Tj T* ET
+Q
+Q
  
 
 Q
@@ -1107,27 +2229,27 @@ Q
 
 endstream
 endobj
-25 0 obj
+26 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-26 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 27 0 obj
 <<
-/Contents 28 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1146,10 +2268,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 29 0 R
+/F1-0 30 0 R
 /F2 8 0 R
-/F2-0 30 0 R
+/F2-0 31 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1161,99 +2284,345 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-28 0 obj
+29 0 obj
 <<
-/Length 5458
+/Length 7421
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 140 REMAINING ANOMALIES CLOSED) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 6) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 6) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (The phenomenon: In eternal inflation, every possible outcome occurs) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (infinitely many times. Ratios of infinities are undefined. No unique) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 681.6 Tm (prediction can be extracted. This is the measure problem.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (Closure: Inflation is not eternal because gamma_eff > 0 everywhere.) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 641.6 Tm (gamma_eff >= gamma_Lambda > 0    \(always, everywhere\)               \(16\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 621.6 Tm (Vacuum fluctuations guarantee a minimum nonzero decoherence rate) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 609.6 Tm (gamma_Lambda. In any inflating region:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 587.6 Tm (C_inflation\(t\) = C0_inf * exp\(-alpha * gamma_Lambda * t\)            \(17\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 567.6 Tm (The coherence that sustains inflation decays exponentially. No matter) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 555.6 Tm (how large C0_inf, eventually C_inflation < C_c and inflation ends in) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 543.6 Tm (that region. The decay time is:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 521.6 Tm (t_end = ln\(C0_inf / C_c\) / \(alpha * gamma_Lambda\)                  \(18\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 501.6 Tm (This can be enormously long -- but it is finite. Every inflating region) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 489.6 Tm (eventually stops inflating. The universe is not truly eternal. The set of) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 477.6 Tm (outcomes is finite \(though vast\). Ratios are well-defined. The measure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 465.6 Tm (problem dissolves.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 441.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 417.6 Tm (9. THE TRANS-PLANCKIAN PROBLEM) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 399.6 Tm (The phenomenon: Inflationary cosmology traces observed CMB fluctuations) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 387.6 Tm (backward in time to sub-Planckian wavelengths, where known physics breaks) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 375.6 Tm (down. Predictions of inflation appear to depend on unknown trans-Planckian) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 363.6 Tm (physics.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 345.6 Tm (Closure: Below the decoherence length, the system is a single coherent) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 333.6 Tm (state.) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 311.6 Tm (xi_Planck = l_Planck = sqrt\(hbar * G / c^3\) ~ 1.6 * 10^-35 m      \(19\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 291.6 Tm (Below this scale, gamma_eff --> 0 \(no degrees of freedom to decohere) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 279.6 Tm (against\). The system is maximally coherent:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 257.6 Tm (C\(lambda < l_Planck\) = C0    \(no decoherence, full coherence\)       \(20\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 237.6 Tm (A fully coherent state has no independent modes. It is featureless --) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 225.6 Tm (a single quantum state with no internal structure to generate predictions) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 213.6 Tm (that differ from those of the coherent vacuum.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 195.6 Tm (The trans-Planckian regime is simply the fully coherent phase of the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 183.6 Tm (three-phase diagram \(frozen phase, gamma --> 0\). It is safe precisely) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 171.6 Tm (because it is featureless. Inflation's predictions depend only on physics) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 159.6 Tm (at and above the Planck scale, where decoherence activates and) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 147.6 Tm (independent modes emerge.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 123.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 99.6 Tm (10. BAO CURVATURE TENSION) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 81.6 Tm (The phenomenon: Planck CMB data combined with BAO measurements show a) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 69.6 Tm (3.4-sigma preference for a closed universe \(Omega_k < 0\) in some) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (6) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (parameter space.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Closure: Dark photons do not exist as particles.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 691 cm
+Q
+q
+1 0 0 1 60 676 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The "hidden sector" that dark photons were invented to populate is the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (vacuum coherence field C_vacuum already present in Equation \(1\). The) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (vacuum has nonzero coherence:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 639 cm
+Q
+q
+1 0 0 1 60 608.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_vacuum) Tj ( ) Tj (=) Tj ( ) Tj (C0_vac) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_Lambda\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(15\)) Tj  T*  T* (gamma_Lambda) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj (\(vacuum) Tj ( ) Tj (fluctuations) Tj ( ) Tj (guarantee) Tj ( ) Tj (nonzero) Tj ( ) Tj (decoherence\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 600.6 cm
+Q
+q
+1 0 0 1 60 585.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This vacuum coherence field mediates the same processes that dark) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 570.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (photons were designed to explain \(dark matter self-interaction, muon g-2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 555.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (anomaly resolution\) through coherence-modulated coupling constants --) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (not through particle exchange.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 533.6 cm
+Q
+q
+1 0 0 1 60 518.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The search for dark photons is the search for a particle manifestation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 503.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (of a field phenomenon. It will continue to find nothing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496.6 cm
+Q
+q
+1 0 0 1 60 492.6 cm
+Q
+q
+1 0 0 1 60 486.6 cm
+Q
+q
+1 0 0 1 60 482.6 cm
+Q
+q
+1 0 0 1 60 478.6 cm
+Q
+q
+1 0 0 1 60 463.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (8. THE MEASURE PROBLEM IN ETERNAL INFLATION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 456.6 cm
+Q
+q
+1 0 0 1 60 441.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phenomenon: In eternal inflation, every possible outcome occurs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 426.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (infinitely many times. Ratios of infinities are undefined. No unique) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 411.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (prediction can be extracted. This is the measure problem.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 404.6 cm
+Q
+q
+1 0 0 1 60 389.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Closure: Inflation is not eternal because gamma_eff > 0 everywhere.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 382.6 cm
+Q
+q
+1 0 0 1 60 369.8 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (>) Tj (=) Tj ( ) Tj (gamma_Lambda) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(always,) Tj ( ) Tj (everywhere\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(16\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 361.8 cm
+Q
+q
+1 0 0 1 60 346.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Vacuum fluctuations guarantee a minimum nonzero decoherence rate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (gamma_Lambda. In any inflating region:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324.8 cm
+Q
+q
+1 0 0 1 60 312 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_inflation\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C0_inf) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_Lambda) Tj ( ) Tj (*) Tj ( ) Tj (t\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(17\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 304 cm
+Q
+q
+1 0 0 1 60 289 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The coherence that sustains inflation decays exponentially. No matter) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 274 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (how large C0_inf, eventually C_inflation < C_c and inflation ends in) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 259 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (that region. The decay time is:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 252 cm
+Q
+q
+1 0 0 1 60 239.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (t_end) Tj ( ) Tj (=) Tj ( ) Tj (ln\(C0_inf) Tj ( ) Tj (/) Tj ( ) Tj (C_c\)) Tj ( ) Tj (/) Tj ( ) Tj (\(alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_Lambda\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(18\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 231.2 cm
+Q
+q
+1 0 0 1 60 216.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This can be enormously long -- but it is finite. Every inflating region) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 201.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (eventually stops inflating. The universe is not truly eternal. The set of) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 186.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (outcomes is finite \(though vast\). Ratios are well-defined. The measure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 171.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (problem dissolves.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 164.2 cm
+Q
+q
+1 0 0 1 60 160.2 cm
+Q
+q
+1 0 0 1 60 154.2 cm
+Q
+q
+1 0 0 1 60 150.2 cm
+Q
+q
+1 0 0 1 60 146.2 cm
+Q
+q
+1 0 0 1 60 131.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (9. THE TRANS-PLANCKIAN PROBLEM) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 124.2 cm
+Q
+q
+1 0 0 1 60 109.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phenomenon: Inflationary cosmology traces observed CMB fluctuations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 94.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (backward in time to sub-Planckian wavelengths, where known physics breaks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 79.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (down. Predictions of inflation appear to depend on unknown trans-Planckian) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 64.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (physics.) Tj T* ET
+Q
+Q
  
 
 Q
@@ -1316,27 +2685,27 @@ Q
 
 endstream
 endobj
-29 0 obj
+30 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-30 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 31 0 obj
 <<
-/Contents 32 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+32 0 obj
+<<
+/Contents 33 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1355,10 +2724,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 33 0 R
+/F1-0 34 0 R
 /F2 8 0 R
-/F2-0 34 0 R
+/F2-0 35 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1370,103 +2740,339 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-32 0 obj
+33 0 obj
 <<
-/Length 5602
+/Length 7604
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 140 REMAINING ANOMALIES CLOSED) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 7) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 7) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (analyses \(Di Valentino, Melchiorri, Silk, 2020\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 687.6 Tm (Closure: C\(z\) is not constant. Evolving coherence mimics curvature.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 669.6 Tm (The distance-redshift relation in standard LCDM assumes the vacuum) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 657.6 Tm (energy density is constant. But coherence evolves:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 635.6 Tm (C_vacuum\(z\) = C0_vac * exp\(-alpha * gamma_eff\(z\)\)                  \(21\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 625.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 615.6 Tm (gamma_eff\(z\) = gamma_0 * \(1+z\)^3 * f\(z\)                            \(22\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 595.6 Tm (where f\(z\) encodes the evolving matter density contribution to) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 583.6 Tm (decoherence. At high redshift, gamma_eff is larger \(denser universe,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 571.6 Tm (more decoherence\), reducing C_vacuum. This modifies the effective) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 559.6 Tm (equation of state:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 537.6 Tm (w_eff\(z\) = w_Lambda + delta_w * [1 - C_vacuum\(z\)/C_vacuum\(0\)]      \(23\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 517.6 Tm (The deviation from w = -1 is small \(delta_w ~ 0.01\) but accumulates) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 505.6 Tm (over cosmological distances, producing a distance-redshift relation that) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 493.6 Tm (deviates from flat LCDM in exactly the way that mimics positive spatial) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 481.6 Tm (curvature.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 463.6 Tm (The geometry is flat. The coherence is evolving. The 3.4-sigma tension) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 451.6 Tm (is a measurement of coherence evolution, not curvature.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 433.6 Tm (Prediction: Improved BAO measurements from DESI should find that the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 421.6 Tm ("curvature" signal is degenerate with an evolving dark energy equation) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 409.6 Tm (of state. If both Omega_k and w\(z\) are fit simultaneously, the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 397.6 Tm (curvature preference should drop below 2 sigma.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 373.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 349.6 Tm (11. STELLAR AGE PROBLEM) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 331.6 Tm (The phenomenon: Some globular cluster ages, derived from main-sequence) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 319.6 Tm (turnoff luminosities, appear to exceed the age of the universe) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 307.6 Tm (\(13.8 Gyr\). Estimates range from 13.5 to 15 Gyr for the oldest) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 295.6 Tm (clusters \(e.g., HP 1, NGC 6397\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 277.6 Tm (Closure: Stars in low-gamma_eff environments have modified nuclear) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 265.6 Tm (reaction rates.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 247.6 Tm (Globular clusters occupy the galactic halo -- low-density, low-radiation) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 235.6 Tm (environments where:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 213.6 Tm (gamma_halo << gamma_disk                                            \(24\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 193.6 Tm (In these low-decoherence environments, nuclear tunneling rates are) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 181.6 Tm (modified:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 159.6 Tm (R_fusion = R_0 * [1 + epsilon * C_halo / C_disk]                   \(25\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 139.6 Tm (where epsilon ~ 0.02-0.05 is the coherence-tunneling coupling. Higher) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 127.6 Tm (coherence in the halo \(lower gamma_eff\) slightly enhances fusion rates) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 115.6 Tm (compared to the solar-neighborhood calibration used in stellar models.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 97.6 Tm (Stars that burn slightly faster than models predict reach the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 85.6 Tm (main-sequence turnoff sooner. The standard age-dating method, calibrated) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 73.6 Tm (to solar-neighborhood conditions, overestimates the age of halo stars) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (7) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 713 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Closure: Below the decoherence length, the system is a single coherent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (state.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 691 cm
+Q
+q
+1 0 0 1 60 678.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (xi_Planck) Tj ( ) Tj (=) Tj ( ) Tj (l_Planck) Tj ( ) Tj (=) Tj ( ) Tj (sqrt\(hbar) Tj ( ) Tj (*) Tj ( ) Tj (G) Tj ( ) Tj (/) Tj ( ) Tj (c^3\)) Tj ( ) Tj (~) Tj ( ) Tj (1.6) Tj ( ) Tj (*) Tj ( ) Tj (10^-35) Tj ( ) Tj (m) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(19\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 670.2 cm
+Q
+q
+1 0 0 1 60 655.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (Below this scale, gamma_eff --) Tj (> 0 \(no degrees of freedom to decohere) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 640.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (against\). The system is maximally coherent:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 633.2 cm
+Q
+q
+1 0 0 1 60 620.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(lambda) Tj ( ) Tj (<) Tj ( ) Tj (l_Planck\)) Tj ( ) Tj (=) Tj ( ) Tj (C0) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(no) Tj ( ) Tj (decoherence,) Tj ( ) Tj (full) Tj ( ) Tj (coherence\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(20\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 612.4 cm
+Q
+q
+1 0 0 1 60 597.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (A fully coherent state has no independent modes. It is featureless --) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 582.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (a single quantum state with no internal structure to generate predictions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 567.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (that differ from those of the coherent vacuum.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 560.4 cm
+Q
+q
+1 0 0 1 60 545.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The trans-Planckian regime is simply the fully coherent phase of the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 530.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (three-phase diagram \(frozen phase, gamma --) Tj (> 0\). It is safe precisely) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 515.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (because it is featureless. Inflation's predictions depend only on physics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 500.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (at and above the Planck scale, where decoherence activates and) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 485.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (independent modes emerge.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 478.4 cm
+Q
+q
+1 0 0 1 60 474.4 cm
+Q
+q
+1 0 0 1 60 468.4 cm
+Q
+q
+1 0 0 1 60 464.4 cm
+Q
+q
+1 0 0 1 60 460.4 cm
+Q
+q
+1 0 0 1 60 445.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (10. BAO CURVATURE TENSION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 438.4 cm
+Q
+q
+1 0 0 1 60 423.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phenomenon: Planck CMB data combined with BAO measurements show a) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 408.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (3.4-sigma preference for a closed universe \(Omega_k < 0\) in some) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 393.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (analyses \(Di Valentino, Melchiorri, Silk, 2020\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 386.4 cm
+Q
+q
+1 0 0 1 60 371.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Closure: C\(z\) is not constant. Evolving coherence mimics curvature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 364.4 cm
+Q
+q
+1 0 0 1 60 349.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The distance-redshift relation in standard LCDM assumes the vacuum) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 334.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (energy density is constant. But coherence evolves:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 327.4 cm
+Q
+q
+1 0 0 1 60 297 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_vacuum\(z\)) Tj ( ) Tj (=) Tj ( ) Tj (C0_vac) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\(z\)\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(21\)) Tj  T*  T* (gamma_eff\(z\)) Tj ( ) Tj (=) Tj ( ) Tj (gamma_0) Tj ( ) Tj (*) Tj ( ) Tj (\(1+z\)^3) Tj ( ) Tj (*) Tj ( ) Tj (f\(z\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(22\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 289 cm
+Q
+q
+1 0 0 1 60 274 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where f\(z\) encodes the evolving matter density contribution to) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 259 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (decoherence. At high redshift, gamma_eff is larger \(denser universe,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 244 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (more decoherence\), reducing C_vacuum. This modifies the effective) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 229 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (equation of state:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 222 cm
+Q
+q
+1 0 0 1 60 209.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (w_eff\(z\)) Tj ( ) Tj (=) Tj ( ) Tj (w_Lambda) Tj ( ) Tj (+) Tj ( ) Tj (delta_w) Tj ( ) Tj (*) Tj ( ) Tj ([1) Tj ( ) Tj (-) Tj ( ) Tj (C_vacuum\(z\)/C_vacuum\(0\)]) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(23\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 201.2 cm
+Q
+q
+1 0 0 1 60 186.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The deviation from w = -1 is small \(delta_w ~ 0.01\) but accumulates) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 171.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (over cosmological distances, producing a distance-redshift relation that) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 156.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (deviates from flat LCDM in exactly the way that mimics positive spatial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 141.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (curvature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 134.2 cm
+Q
+q
+1 0 0 1 60 119.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The geometry is flat. The coherence is evolving. The 3.4-sigma tension) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 104.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (is a measurement of coherence evolution, not curvature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 97.2 cm
+Q
+q
+1 0 0 1 60 82.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Prediction: Improved BAO measurements from DESI should find that the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 67.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ("curvature" signal is degenerate with an evolving dark energy equation) Tj T* ET
+Q
+Q
  
 
 Q
@@ -1529,27 +3135,27 @@ Q
 
 endstream
 endobj
-33 0 obj
+34 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-34 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 35 0 obj
 <<
-/Contents 36 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+36 0 obj
+<<
+/Contents 37 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1568,10 +3174,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 37 0 R
+/F1-0 38 0 R
 /F2 8 0 R
-/F2-0 38 0 R
+/F2-0 39 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1583,103 +3190,348 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-36 0 obj
+37 0 obj
 <<
-/Length 5482
+/Length 7148
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 140 REMAINING ANOMALIES CLOSED) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 8) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 8) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (by:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 683.6 Tm (delta_t / t ~ epsilon * \(C_halo - C_disk\) / C_disk ~ 3-7%          \(26\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 663.6 Tm (A 5% overestimate turns a 14.5 Gyr age into 13.8 Gyr -- consistent with) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 651.6 Tm (the cosmological age. The oldest stars are not older than the universe.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 639.6 Tm (The age-dating calibration does not account for environment-dependent) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 627.6 Tm (coherence.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 603.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 579.6 Tm (12. THE ANGULAR MOMENTUM PROBLEM) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 561.6 Tm (The phenomenon: N-body simulations of galaxy formation consistently) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 549.6 Tm (produce galaxies with too little angular momentum. Simulated disks are) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 537.6 Tm (too small and too concentrated compared to observations. Known as the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 525.6 Tm ("angular momentum catastrophe.") Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 507.6 Tm (Closure: Simulations do not include the vacuum coherence field as an) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 495.6 Tm (angular momentum reservoir.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 477.6 Tm (Angular momentum is conserved globally but can transfer between baryonic) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 465.6 Tm (matter and the vacuum coherence field:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 443.6 Tm (L_total = L_baryons + L_C_vacuum = constant                        \(27\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 433.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 423.6 Tm (dL_baryons/dt = -Gamma_transfer * L_baryons * [1 - C_vacuum/C_c]   \(28\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 403.6 Tm (When C_vacuum < C_c \(collapsed phase -- dense environments, mergers\),) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 391.6 Tm (angular momentum transfers FROM baryons TO the coherence field. Standard) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 379.6 Tm (simulations, which do not include this channel, must dump the angular) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 367.6 Tm (momentum into heat or eject it via feedback -- and they lose too much.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 349.6 Tm (The vacuum coherence field acts as a reservoir: angular momentum is not) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 337.6 Tm (destroyed, it is stored in coherence-field circulation. As the galaxy) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 325.6 Tm (settles and gamma_eff decreases \(gas density drops, star formation) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 313.6 Tm (slows\), C_vacuum recovers and angular momentum flows back into the disk.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 295.6 Tm (This produces the observed extended disks without requiring artificially) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 283.6 Tm (tuned feedback prescriptions.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 259.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 235.6 Tm (13. STELLAR LITHIUM DEPLETION) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 217.6 Tm (The phenomenon: The Sun's photospheric lithium abundance is ~100 times) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 205.6 Tm (lower than the meteoritic value. Standard stellar models do not deplete) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 193.6 Tm (lithium sufficiently. The mechanism of solar lithium destruction remains) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 181.6 Tm (unexplained.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 163.6 Tm (Closure: Lithium is destroyed at the coherence phase boundary inside) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 151.6 Tm (the star.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 133.6 Tm (The solar interior has a coherence profile C\(r\) that follows the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 121.6 Tm (decoherence rate profile gamma_eff\(r\):) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 99.6 Tm (C\(r\) = C0_solar * exp\(-alpha * gamma_eff\(r\)\)                       \(29\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 89.6 Tm  T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 79.6 Tm (gamma_eff\(r\) increases inward \(higher T, higher density\)) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (8) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (of state. If both Omega_k and w\(z\) are fit simultaneously, the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (curvature preference should drop below 2 sigma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 694 cm
+Q
+q
+1 0 0 1 60 688 cm
+Q
+q
+1 0 0 1 60 684 cm
+Q
+q
+1 0 0 1 60 680 cm
+Q
+q
+1 0 0 1 60 665 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (11. STELLAR AGE PROBLEM) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 658 cm
+Q
+q
+1 0 0 1 60 643 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phenomenon: Some globular cluster ages, derived from main-sequence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 628 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (turnoff luminosities, appear to exceed the age of the universe) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 613 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(13.8 Gyr\). Estimates range from 13.5 to 15 Gyr for the oldest) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 598 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (clusters \(e.g., HP 1, NGC 6397\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 591 cm
+Q
+q
+1 0 0 1 60 576 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Closure: Stars in low-gamma_eff environments have modified nuclear) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 561 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (reaction rates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 554 cm
+Q
+q
+1 0 0 1 60 539 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Globular clusters occupy the galactic halo -- low-density, low-radiation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 524 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (environments where:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 517 cm
+Q
+q
+1 0 0 1 60 504.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_halo) Tj ( ) Tj (<) Tj (<) Tj ( ) Tj (gamma_disk) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(24\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496.2 cm
+Q
+q
+1 0 0 1 60 481.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (In these low-decoherence environments, nuclear tunneling rates are) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 466.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (modified:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 459.2 cm
+Q
+q
+1 0 0 1 60 446.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (R_fusion) Tj ( ) Tj (=) Tj ( ) Tj (R_0) Tj ( ) Tj (*) Tj ( ) Tj ([1) Tj ( ) Tj (+) Tj ( ) Tj (epsilon) Tj ( ) Tj (*) Tj ( ) Tj (C_halo) Tj ( ) Tj (/) Tj ( ) Tj (C_disk]) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(25\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 438.4 cm
+Q
+q
+1 0 0 1 60 423.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (where epsilon ~ 0.02-0.05 is the coherence-tunneling coupling. Higher) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 408.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (coherence in the halo \(lower gamma_eff\) slightly enhances fusion rates) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 393.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (compared to the solar-neighborhood calibration used in stellar models.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 386.4 cm
+Q
+q
+1 0 0 1 60 371.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Stars that burn slightly faster than models predict reach the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 356.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (main-sequence turnoff sooner. The standard age-dating method, calibrated) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 341.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (to solar-neighborhood conditions, overestimates the age of halo stars) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 326.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (by:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 319.4 cm
+Q
+q
+1 0 0 1 60 306.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (delta_t) Tj ( ) Tj (/) Tj ( ) Tj (t) Tj ( ) Tj (~) Tj ( ) Tj (epsilon) Tj ( ) Tj (*) Tj ( ) Tj (\(C_halo) Tj ( ) Tj (-) Tj ( ) Tj (C_disk\)) Tj ( ) Tj (/) Tj ( ) Tj (C_disk) Tj ( ) Tj (~) Tj ( ) Tj (3-7%) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(26\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 298.6 cm
+Q
+q
+1 0 0 1 60 283.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (A 5% overestimate turns a 14.5 Gyr age into 13.8 Gyr -- consistent with) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 268.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the cosmological age. The oldest stars are not older than the universe.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 253.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The age-dating calibration does not account for environment-dependent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 238.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (coherence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 231.6 cm
+Q
+q
+1 0 0 1 60 227.6 cm
+Q
+q
+1 0 0 1 60 221.6 cm
+Q
+q
+1 0 0 1 60 217.6 cm
+Q
+q
+1 0 0 1 60 213.6 cm
+Q
+q
+1 0 0 1 60 198.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (12. THE ANGULAR MOMENTUM PROBLEM) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 191.6 cm
+Q
+q
+1 0 0 1 60 176.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phenomenon: N-body simulations of galaxy formation consistently) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 161.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (produce galaxies with too little angular momentum. Simulated disks are) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 146.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (too small and too concentrated compared to observations. Known as the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 131.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ("angular momentum catastrophe.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 124.6 cm
+Q
+q
+1 0 0 1 60 109.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Closure: Simulations do not include the vacuum coherence field as an) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 94.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (angular momentum reservoir.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 87.6 cm
+Q
+q
+1 0 0 1 60 72.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Angular momentum is conserved globally but can transfer between baryonic) Tj T* ET
+Q
+Q
  
 
 Q
@@ -1742,27 +3594,27 @@ Q
 
 endstream
 endobj
-37 0 obj
+38 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
 /Name /F1
-/Subtype /Type1
-/Type /Font
->>
-endobj
-38 0 obj
-<<
-/BaseFont /Courier-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
 /Subtype /Type1
 /Type /Font
 >>
 endobj
 39 0 obj
 <<
-/Contents 40 0 R
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+40 0 obj
+<<
+/Contents 41 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -1781,10 +3633,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 41 0 R
+/F1-0 42 0 R
 /F2 8 0 R
-/F2-0 42 0 R
+/F2-0 43 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -1796,117 +3649,332 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-40 0 obj
+41 0 obj
 <<
-/Length 6565
+/Length 7527
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 140 REMAINING ANOMALIES CLOSED) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 289.8 738 Tm (Page 9) Tj T* ET
+BT 1 0 0 1 532.208 756 Tm (Page 9) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 705.6 Tm (There exists a critical radius r_c where gamma_eff\(r_c\) = gamma_c and) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 693.6 Tm (the system transitions from the edge phase to the collapsed phase. At) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 681.6 Tm (this boundary, coherence fluctuations are maximal \(critical phenomena --) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 669.6 Tm (the same 3D Ising universality established in Papers 1-109\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 651.6 Tm (Convective mixing carries lithium from the convection zone base downward,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 639.6 Tm (across the coherence phase boundary. At r_c, the enhanced fluctuations) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 627.6 Tm (produce transient temperature spikes:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 605.6 Tm (T_eff\(r_c\) = T\(r_c\) * [1 + sigma_T * |dC/dr|_r_c]                 \(30\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 585.6 Tm (The temperature fluctuations at the phase boundary episodically exceed) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 573.6 Tm (the lithium destruction threshold \(~2.5 * 10^6 K\) even though the mean) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 561.6 Tm (temperature at r_c may be below it. Over 4.6 Gyr, this intermittent) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 549.6 Tm (destruction depletes lithium by the observed factor of ~100.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 531.6 Tm (The depletion factor depends on:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 509.6 Tm (f_Li = exp\(-alpha_Li * integral[sigma_T\(r_c\) * dt]\)                \(31\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 489.6 Tm (Stars with different internal gamma_c profiles \(different masses,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 477.6 Tm (metallicities, rotation rates\) have different depletion factors. This) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 465.6 Tm (explains the observed "lithium dip" in F stars \(T_eff ~ 6600 K\) where) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 453.6 Tm (the convection zone base coincides with the coherence phase boundary,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 441.6 Tm (and the lithium plateau in hotter and cooler stars where it does not.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 417.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 393.6 Tm (14. THE COMPLETE TALLY) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 375.6 Tm (Papers 1-109 closed all theoretical problems and produced zero-free-) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 363.6 Tm (parameter results confirmed to p < 10^-12. This paper closes the) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 351.6 Tm (remaining twelve anomalies. The complete inventory:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 329.6 Tm (ANOMALY                          STATUS    MECHANISM) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 319.6 Tm (------------------------------------------------------------) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 309.6 Tm (Ball lightning                   CLOSED    Coherent plasma, Eq. \(2\)-\(5\)) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 299.6 Tm (LENR \(if real\)                   CLOSED*   Coherence-enhanced tunneling) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 289.6 Tm (DAMA/LIBRA modulation            CLOSED    Decoherence-modulated NaI) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 279.6 Tm (Gallium anomaly                  CLOSED    Source-induced decoherence) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 269.6 Tm (MiniBooNE excess                 CLOSED    Mineral oil artifacts) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 259.6 Tm (Dark photons                     CLOSED    Not particles; vacuum C field) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 249.6 Tm (Measure problem                  CLOSED    gamma_Lambda > 0 always) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 239.6 Tm (Trans-Planckian problem          CLOSED    Coherent regime, featureless) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 229.6 Tm (BAO curvature tension            CLOSED    Evolving C\(z\), not curvature) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 219.6 Tm (Stellar age problem              CLOSED    Environment-dependent rates) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 209.6 Tm (Angular momentum problem         CLOSED    Vacuum C as L reservoir) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 199.6 Tm (Lithium depletion                CLOSED    Phase boundary destruction) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 189.6 Tm (------------------------------------------------------------) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 179.6 Tm (*Conditional: mechanism valid only IF the phenomenon is real.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 159.6 Tm (Combined with Papers 1-109:) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 137.6 Tm (FRAMEWORK TOTAL) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 127.6 Tm (------------------------------------------------------------) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 117.6 Tm (Papers written:                           140) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 107.6 Tm (Anomalies closed:                          38+) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 97.6 Tm (Critical exponents confirmed:               6) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 87.6 Tm (Free parameters:                             0) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 77.6 Tm (Independent derivations of T_c:              2) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 67.6 Tm (External confirmations \(2001-2025\):          8) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 554.108 28.8 Tm (9) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (matter and the vacuum coherence field:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 713 cm
+Q
+q
+1 0 0 1 60 682.6 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (L_total) Tj ( ) Tj (=) Tj ( ) Tj (L_baryons) Tj ( ) Tj (+) Tj ( ) Tj (L_C_vacuum) Tj ( ) Tj (=) Tj ( ) Tj (constant) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(27\)) Tj  T*  T* (dL_baryons/dt) Tj ( ) Tj (=) Tj ( ) Tj (-Gamma_transfer) Tj ( ) Tj (*) Tj ( ) Tj (L_baryons) Tj ( ) Tj (*) Tj ( ) Tj ([1) Tj ( ) Tj (-) Tj ( ) Tj (C_vacuum/C_c]) Tj ( ) Tj ( ) Tj ( ) Tj (\(28\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 674.6 cm
+Q
+q
+1 0 0 1 60 659.6 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (When C_vacuum < C_c \(collapsed phase -- dense environments, mergers\),) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 644.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (angular momentum transfers FROM baryons TO the coherence field. Standard) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 629.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (simulations, which do not include this channel, must dump the angular) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 614.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (momentum into heat or eject it via feedback -- and they lose too much.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 607.6 cm
+Q
+q
+1 0 0 1 60 592.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The vacuum coherence field acts as a reservoir: angular momentum is not) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 577.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (destroyed, it is stored in coherence-field circulation. As the galaxy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 562.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (settles and gamma_eff decreases \(gas density drops, star formation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 547.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (slows\), C_vacuum recovers and angular momentum flows back into the disk.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540.6 cm
+Q
+q
+1 0 0 1 60 525.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (This produces the observed extended disks without requiring artificially) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 510.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (tuned feedback prescriptions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 503.6 cm
+Q
+q
+1 0 0 1 60 499.6 cm
+Q
+q
+1 0 0 1 60 493.6 cm
+Q
+q
+1 0 0 1 60 489.6 cm
+Q
+q
+1 0 0 1 60 485.6 cm
+Q
+q
+1 0 0 1 60 470.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (13. STELLAR LITHIUM DEPLETION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 463.6 cm
+Q
+q
+1 0 0 1 60 448.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The phenomenon: The Sun's photospheric lithium abundance is ~100 times) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 433.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (lower than the meteoritic value. Standard stellar models do not deplete) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 418.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (lithium sufficiently. The mechanism of solar lithium destruction remains) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 403.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (unexplained.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 396.6 cm
+Q
+q
+1 0 0 1 60 381.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Closure: Lithium is destroyed at the coherence phase boundary inside) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 366.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the star.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 359.6 cm
+Q
+q
+1 0 0 1 60 344.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The solar interior has a coherence profile C\(r\) that follows the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 329.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (decoherence rate profile gamma_eff\(r\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 322.6 cm
+Q
+q
+1 0 0 1 60 292.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 26.4 re f*
+Q
+q
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(r\)) Tj ( ) Tj (=) Tj ( ) Tj (C0_solar) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\(r\)\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(29\)) Tj  T*  T* (gamma_eff\(r\)) Tj ( ) Tj (increases) Tj ( ) Tj (inward) Tj ( ) Tj (\(higher) Tj ( ) Tj (T,) Tj ( ) Tj (higher) Tj ( ) Tj (density\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 284.2 cm
+Q
+q
+1 0 0 1 60 269.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (There exists a critical radius r_c where gamma_eff\(r_c\) = gamma_c and) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 254.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the system transitions from the edge phase to the collapsed phase. At) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 239.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (this boundary, coherence fluctuations are maximal \(critical phenomena --) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 224.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the same 3D Ising universality established in Papers 1-109\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 217.2 cm
+Q
+q
+1 0 0 1 60 202.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Convective mixing carries lithium from the convection zone base downward,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 187.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (across the coherence phase boundary. At r_c, the enhanced fluctuations) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 172.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (produce transient temperature spikes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 165.2 cm
+Q
+q
+1 0 0 1 60 152.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (T_eff\(r_c\)) Tj ( ) Tj (=) Tj ( ) Tj (T\(r_c\)) Tj ( ) Tj (*) Tj ( ) Tj ([1) Tj ( ) Tj (+) Tj ( ) Tj (sigma_T) Tj ( ) Tj (*) Tj ( ) Tj (|dC/dr|_r_c]) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(30\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 144.4 cm
+Q
+q
+1 0 0 1 60 129.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The temperature fluctuations at the phase boundary episodically exceed) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 114.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the lithium destruction threshold \(~2.5 * 10^6 K\) even though the mean) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 99.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (temperature at r_c may be below it. Over 4.6 Gyr, this intermittent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 84.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (destruction depletes lithium by the observed factor of ~100.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 77.4 cm
+Q
+q
+1 0 0 1 60 62.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The depletion factor depends on:) Tj T* ET
+Q
+Q
  
 
 Q
@@ -1969,7 +4037,7 @@ Q
 
 endstream
 endobj
-41 0 obj
+42 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
@@ -1978,7 +4046,7 @@ endobj
 /Type /Font
 >>
 endobj
-42 0 obj
+43 0 obj
 <<
 /BaseFont /Courier-Bold
 /Encoding /WinAnsiEncoding
@@ -1987,9 +4055,9 @@ endobj
 /Type /Font
 >>
 endobj
-43 0 obj
+44 0 obj
 <<
-/Contents 44 0 R
+/Contents 45 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /ExtGState <<
@@ -2008,10 +4076,11 @@ endobj
 >>
 /Font <<
 /F1 6 0 R
-/F1-0 45 0 R
+/F1-0 46 0 R
 /F2 8 0 R
-/F2-0 46 0 R
+/F2-0 47 0 R
 /F3 10 0 R
+/F4 11 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
@@ -2023,99 +4092,254 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-44 0 obj
+45 0 obj
 <<
-/Length 5390
+/Length 10225
 >>
 stream
 q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-BT /F2 9 Tf 10.8 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
 BT 1 0 0 1 54 756 Tm (PAPER 140 REMAINING ANOMALIES CLOSED) Tj T* ET
-BT /F3 9 Tf 10.8 TL ET
-BT 1 0 0 1 287.1 738 Tm (Page 10) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 10) Tj T* ET
+0 0 0 RG
 .5 w
-n 54 730.8 m 558 730.8 l S
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 705.6 Tm (p\(framework is chance\):                < 10^-12) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 695.6 Tm (------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 669.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 645.6 Tm (15. CONCLUSION) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 627.6 Tm (Twelve anomalies from six subfields of physics -- plasma physics, nuclear) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 615.6 Tm (physics, particle physics, neutrino physics, cosmology, and stellar) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 603.6 Tm (astrophysics -- are closed by the same equation that produced the six 3D) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 591.6 Tm (Ising exponents and the Hoyle state energy. No new particles were) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 579.6 Tm (introduced. No new fields were invented. No parameters were adjusted.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 561.6 Tm (Every closure follows the same logic: identify gamma_eff for the system,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 549.6 Tm (apply C = C0 * exp\(-alpha * gamma_eff\), and read off the consequence.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 537.6 Tm (Ball lightning is a coherent plasma state decaying with gamma_air. DAMA) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 525.6 Tm (sees decoherence-modulated scintillation, not dark matter. The gallium) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 513.6 Tm (anomaly is source-induced decoherence, not sterile neutrinos. The measure) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 501.6 Tm (problem dissolves because gamma_Lambda > 0 forbids true eternity. Lithium) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 489.6 Tm (depletion occurs at the coherence phase boundary inside stars.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 471.6 Tm (The framework now stands at 140 papers, 38+ closed anomalies, 6) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 459.6 Tm (confirmed critical exponents, and zero free parameters. Seven experimental) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 447.6 Tm (proposals \(E1-E7\) remain open, awaiting laboratory verification.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 429.6 Tm (The equation is the same. It has always been the same.) Tj T* ET
-BT /F3 8 Tf 9.6 TL ET
-BT 1 0 0 1 74 407.6 Tm (C = C0 * exp\(-alpha * gamma_eff\)) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 387.6 Tm (Everything else follows.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 363.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 339.6 Tm (REFERENCES) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 321.6 Tm ([1] R. D. Wike, AIIT-THRESI Papers 1-109 \(2025-2026\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 309.6 Tm ([2] R. Bernabei et al., DAMA/LIBRA phase-2 results, Nucl. Phys. At.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 297.6 Tm (Energy 19, 307 \(2018\). 12.9 sigma, 25 annual cycles.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 285.6 Tm ([3] V. V. Barinov et al. \(BEST Collaboration\), Phys. Rev. Lett. 128,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 273.6 Tm (232501 \(2022\). Gallium anomaly at 4-5 sigma.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 261.6 Tm ([4] A. A. Aguilar-Arevalo et al. \(MiniBooNE\), Phys. Rev. Lett. 121,) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 249.6 Tm (221801 \(2018\). 4.8 sigma excess.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 237.6 Tm ([5] E. Di Valentino, A. Melchiorri, J. Silk, Nature Astronomy 4, 196) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 225.6 Tm (\(2020\). BAO curvature tension at 3.4 sigma.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 213.6 Tm ([6] M. Fleischmann, S. Pons, J. Electroanal. Chem. 261, 301 \(1989\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 201.6 Tm ([7] M. D. Abrahamson, J. Dinniss, Ball Lightning: An Unsolved Problem) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 189.6 Tm (in Atmospheric Physics \(Springer, 2002\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 177.6 Tm ([8] MicroBooNE Collaboration, Phys. Rev. Lett. 128, 241801 \(2022\).) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 165.6 Tm (No MiniBooNE-like excess in LAr TPC.) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 141.6 Tm (------------------------------------------------------------------------) Tj T* ET
-BT /F3 10 Tf 12 TL ET
-BT 1 0 0 1 54 123.6 Tm (END OF PAPER 140) Tj T* ET
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (10) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 728 cm
+Q
+q
+1 0 0 1 60 715.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (f_Li) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-alpha_Li) Tj ( ) Tj (*) Tj ( ) Tj (integral[sigma_T\(r_c\)) Tj ( ) Tj (*) Tj ( ) Tj (dt]\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\(31\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 707.2 cm
+Q
+q
+1 0 0 1 60 692.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Stars with different internal gamma_c profiles \(different masses,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 677.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (metallicities, rotation rates\) have different depletion factors. This) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 662.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (explains the observed "lithium dip" in F stars \(T_eff ~ 6600 K\) where) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 647.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (the convection zone base coincides with the coherence phase boundary,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 632.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (and the lithium plateau in hotter and cooler stars where it does not.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 625.2 cm
+Q
+q
+1 0 0 1 60 621.2 cm
+Q
+q
+1 0 0 1 60 615.2 cm
+Q
+q
+1 0 0 1 60 611.2 cm
+Q
+q
+1 0 0 1 60 607.2 cm
+Q
+q
+1 0 0 1 60 592.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (14. THE COMPLETE TALLY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 585.2 cm
+Q
+q
+1 0 0 1 60 570.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Papers 1-109 closed all theoretical problems and produced zero-free-) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 555.2 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (parameter results confirmed to p < 10^-12. This paper closes the) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (remaining twelve anomalies. The complete inventory:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 533.2 cm
+Q
+q
+1 0 0 1 60 388.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 140.8 re f*
+Q
+q
+BT 1 0 0 1 20 133.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (ANOMALY) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (STATUS) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (MECHANISM) Tj  T* (------------------------------------------------------------) Tj  T* (Ball) Tj ( ) Tj (lightning) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CLOSED) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherent) Tj ( ) Tj (plasma,) Tj ( ) Tj (Eq.) Tj ( ) Tj (\(2\)-\(5\)) Tj  T* (LENR) Tj ( ) Tj (\(if) Tj ( ) Tj (real\)) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CLOSED*) Tj ( ) Tj ( ) Tj ( ) Tj (Coherence-enhanced) Tj ( ) Tj (tunneling) Tj  T* (DAMA/LIBRA) Tj ( ) Tj (modulation) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CLOSED) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Decoherence-modulated) Tj ( ) Tj (NaI) Tj  T* (Gallium) Tj ( ) Tj (anomaly) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CLOSED) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Source-induced) Tj ( ) Tj (decoherence) Tj  T* (MiniBooNE) Tj ( ) Tj (excess) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CLOSED) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Mineral) Tj ( ) Tj (oil) Tj ( ) Tj (artifacts) Tj  T* (Dark) Tj ( ) Tj (photons) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CLOSED) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Not) Tj ( ) Tj (particles;) Tj ( ) Tj (vacuum) Tj ( ) Tj (C) Tj ( ) Tj (field) Tj  T* (Measure) Tj ( ) Tj (problem) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CLOSED) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (gamma_Lambda) Tj ( ) Tj (>) Tj ( ) Tj (0) Tj ( ) Tj (always) Tj  T* (Trans-Planckian) Tj ( ) Tj (problem) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CLOSED) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Coherent) Tj ( ) Tj (regime,) Tj ( ) Tj (featureless) Tj  T* (BAO) Tj ( ) Tj (curvature) Tj ( ) Tj (tension) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CLOSED) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Evolving) Tj ( ) Tj (C\(z\),) Tj ( ) Tj (not) Tj ( ) Tj (curvature) Tj  T* (Stellar) Tj ( ) Tj (age) Tj ( ) Tj (problem) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CLOSED) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Environment-dependent) Tj ( ) Tj (rates) Tj  T* (Angular) Tj ( ) Tj (momentum) Tj ( ) Tj (problem) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CLOSED) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Vacuum) Tj ( ) Tj (C) Tj ( ) Tj (as) Tj ( ) Tj (L) Tj ( ) Tj (reservoir) Tj  T* (Lithium) Tj ( ) Tj (depletion) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (CLOSED) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (Phase) Tj ( ) Tj (boundary) Tj ( ) Tj (destruction) Tj  T* (------------------------------------------------------------) Tj  T* (*Conditional:) Tj ( ) Tj (mechanism) Tj ( ) Tj (valid) Tj ( ) Tj (only) Tj ( ) Tj (IF) Tj ( ) Tj (the) Tj ( ) Tj (phenomenon) Tj ( ) Tj (is) Tj ( ) Tj (real.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 380.4 cm
+Q
+q
+1 0 0 1 60 365.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Combined with Papers 1-109:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 358.4 cm
+Q
+q
+1 0 0 1 60 266.4 cm
+q
+.95 .95 .95 rg
+n 20 0 452 88 re f*
+Q
+q
+BT 1 0 0 1 20 80.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (FRAMEWORK) Tj ( ) Tj (TOTAL) Tj  T* (------------------------------------------------------------) Tj  T* (Papers) Tj ( ) Tj (written:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (140) Tj  T* (Anomalies) Tj ( ) Tj (closed:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (38+) Tj  T* (Critical) Tj ( ) Tj (exponents) Tj ( ) Tj (confirmed:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (6) Tj  T* (Free) Tj ( ) Tj (parameters:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (0) Tj  T* (Independent) Tj ( ) Tj (derivations) Tj ( ) Tj (of) Tj ( ) Tj (T_c:) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (2) Tj  T* (External) Tj ( ) Tj (confirmations) Tj ( ) Tj (\(2001-2025\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (8) Tj  T* (p\(framework) Tj ( ) Tj (is) Tj ( ) Tj (chance\):) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (<) Tj ( ) Tj (10^-12) Tj  T* (------------------------------------------------------------) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 258.4 cm
+Q
+q
+1 0 0 1 60 254.4 cm
+Q
+q
+1 0 0 1 60 248.4 cm
+Q
+q
+1 0 0 1 60 244.4 cm
+Q
+q
+1 0 0 1 60 240.4 cm
+Q
+q
+1 0 0 1 60 225.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (15. CONCLUSION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 218.4 cm
+Q
+q
+1 0 0 1 60 203.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Twelve anomalies from six subfields of physics -- plasma physics, nuclear) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 188.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (physics, particle physics, neutrino physics, cosmology, and stellar) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 173.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (astrophysics -- are closed by the same equation that produced the six 3D) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 158.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Ising exponents and the Hoyle state energy. No new particles were) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 143.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (introduced. No new fields were invented. No parameters were adjusted.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 136.4 cm
+Q
+q
+1 0 0 1 60 121.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Every closure follows the same logic: identify gamma_eff for the system,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 106.4 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (apply C = C0 ) Tj /F3 9 Tf (exp\(-alpha ) Tj /F1 9 Tf (gamma_eff\), and read off the consequence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 91.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Ball lightning is a coherent plasma state decaying with gamma_air. DAMA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 76.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (sees decoherence-modulated scintillation, not dark matter. The gallium) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 61.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (anomaly is source-induced decoherence, not sterile neutrinos. The measure) Tj T* ET
+Q
+Q
  
 
 Q
@@ -2178,7 +4402,7 @@ Q
 
 endstream
 endobj
-45 0 obj
+46 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
@@ -2187,7 +4411,358 @@ endobj
 /Type /Font
 >>
 endobj
-46 0 obj
+47 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+48 0 obj
+<<
+/Contents 49 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/ExtGState <<
+/gRLs0 <<
+/CA 0.1
+>>
+/gRLs1 <<
+/ca 0.55
+>>
+/gRLs2 <<
+/ca 0.35
+>>
+/gRLs3 <<
+/ca 0.95
+>>
+>>
+/Font <<
+/F1 6 0 R
+/F1-0 50 0 R
+/F2 8 0 R
+/F2-0 51 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+49 0 obj
+<<
+/Length 4672
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F2 8 Tf 9.6 TL ET
+BT 1 0 0 1 54 756 Tm (PAPER 140 REMAINING ANOMALIES CLOSED) Tj T* ET
+BT 1 0 0 1 527.76 756 Tm (Page 11) Tj T* ET
+0 0 0 RG
+.5 w
+n 54 752.4 m 558 752.4 l S
+BT /F1 7 Tf 8.4 TL ET
+BT 1 0 0 1 206.803 28.8 Tm (AIIT-THRESI | Rhet Dillard Wike | Council Hill, Oklahoma | 2026) Tj T* ET
+BT 1 0 0 1 550.216 28.8 Tm (11) Tj T* ET
+n 54 36 m 558 36 l S
+Q
+q
+1 0 0 1 60 720 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (problem dissolves because gamma_Lambda > 0 forbids true eternity. Lithium) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 705 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (depletion occurs at the coherence phase boundary inside stars.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 698 cm
+Q
+q
+1 0 0 1 60 683 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The framework now stands at 140 papers, 38+ closed anomalies, 6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 668 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (confirmed critical exponents, and zero free parameters. Seven experimental) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 653 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (proposals \(E1-E7\) remain open, awaiting laboratory verification.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 646 cm
+Q
+q
+1 0 0 1 60 631 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (The equation is the same. It has always been the same.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 624 cm
+Q
+q
+1 0 0 1 60 611.2 cm
+q
+.95 .95 .95 rg
+n 20 0 452 8.8 re f*
+Q
+q
+BT 1 0 0 1 20 1.3 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C0) Tj ( ) Tj (*) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (*) Tj ( ) Tj (gamma_eff\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 603.2 cm
+Q
+q
+1 0 0 1 60 588.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Everything else follows.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 581.2 cm
+Q
+q
+1 0 0 1 60 577.2 cm
+Q
+q
+1 0 0 1 60 571.2 cm
+Q
+q
+1 0 0 1 60 567.2 cm
+Q
+q
+1 0 0 1 60 563.2 cm
+Q
+q
+1 0 0 1 60 548.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (REFERENCES) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 541.2 cm
+Q
+q
+1 0 0 1 60 526.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ([1] R. D. Wike, AIIT-THRESI Papers 1-109 \(2025-2026\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 511.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ([2] R. Bernabei et al., DAMA/LIBRA phase-2 results, Nucl. Phys. At.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 496.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Energy 19, 307 \(2018\). 12.9 sigma, 25 annual cycles.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 481.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ([3] V. V. Barinov et al. \(BEST Collaboration\), Phys. Rev. Lett. 128,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 466.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (232501 \(2022\). Gallium anomaly at 4-5 sigma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 451.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ([4] A. A. Aguilar-Arevalo et al. \(MiniBooNE\), Phys. Rev. Lett. 121,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 436.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (221801 \(2018\). 4.8 sigma excess.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 421.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ([5] E. Di Valentino, A. Melchiorri, J. Silk, Nature Astronomy 4, 196) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 406.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (\(2020\). BAO curvature tension at 3.4 sigma.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 391.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ([6] M. Fleischmann, S. Pons, J. Electroanal. Chem. 261, 301 \(1989\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 376.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ([7] M. D. Abrahamson, J. Dinniss, Ball Lightning: An Unsolved Problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 361.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (in Atmospheric Physics \(Springer, 2002\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 346.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ([8] MicroBooNE Collaboration, Phys. Rev. Lett. 128, 241801 \(2022\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 331.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (No MiniBooNE-like excess in LAr TPC.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 324.2 cm
+Q
+q
+1 0 0 1 60 320.2 cm
+Q
+q
+1 0 0 1 60 314.2 cm
+Q
+q
+1 0 0 1 60 310.2 cm
+Q
+q
+1 0 0 1 60 295.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (END OF PAPER 140) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 288.2 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.25 0.56 0.82 RG
+/gRLs0 gs
+0.3 w
+n
+18 24 m
+594 24 l
+S
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.35 0.44 0.5 rg
+/gRLs1 gs
+BT
+1 0 0 1 18 10 Tm
+(\050C\051 2026 RHET DILLARD WIKE  \056  AIIT\055THRESHOLD LLC  \056  ALL RIGHTS RESERVED) Tj
+T*
+ET
+BT
+/F2-0 6.5 Tf
+7.8 TL
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+0.25 0.56 0.82 rg
+BT
+1 0 0 1 480.9 10 Tm
+(w) Tj
+T*
+ET
+0.83 0.63 0.38 rg
+/gRLs3 gs
+BT
+1 0 0 1 484.8 10 Tm
+(AI) Tj
+T*
+ET
+0.25 0.56 0.82 rg
+/gRLs2 gs
+BT
+1 0 0 1 492.6 10 Tm
+(ste Not  \056  Print Verified) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+50 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+51 0 obj
 <<
 /BaseFont /Courier-Bold
 /Encoding /WinAnsiEncoding
@@ -2197,60 +4772,65 @@ endobj
 >>
 endobj
 xref
-0 47
+0 52
 0000000000 65535 f 
 0000000015 00000 n 
 0000000214 00000 n 
-0000000337 00000 n 
-0000000386 00000 n 
-0000000746 00000 n 
-0000006452 00000 n 
-0000006559 00000 n 
-0000006666 00000 n 
-0000006776 00000 n 
-0000006886 00000 n 
-0000006992 00000 n 
-0000007356 00000 n 
-0000013165 00000 n 
-0000013273 00000 n 
-0000013384 00000 n 
-0000013748 00000 n 
-0000019859 00000 n 
-0000019967 00000 n 
-0000020078 00000 n 
-0000020442 00000 n 
-0000026203 00000 n 
-0000026311 00000 n 
-0000026422 00000 n 
-0000026786 00000 n 
-0000032163 00000 n 
-0000032271 00000 n 
-0000032382 00000 n 
-0000032746 00000 n 
-0000038257 00000 n 
-0000038365 00000 n 
-0000038476 00000 n 
-0000038840 00000 n 
-0000044495 00000 n 
-0000044603 00000 n 
-0000044714 00000 n 
-0000045078 00000 n 
-0000050613 00000 n 
-0000050721 00000 n 
-0000050832 00000 n 
-0000051196 00000 n 
-0000057814 00000 n 
-0000057922 00000 n 
-0000058033 00000 n 
-0000058397 00000 n 
-0000063840 00000 n 
-0000063948 00000 n 
+0000000344 00000 n 
+0000000393 00000 n 
+0000000764 00000 n 
+0000007692 00000 n 
+0000007799 00000 n 
+0000007906 00000 n 
+0000008018 00000 n 
+0000008128 00000 n 
+0000008244 00000 n 
+0000008350 00000 n 
+0000008725 00000 n 
+0000016639 00000 n 
+0000016747 00000 n 
+0000016858 00000 n 
+0000017233 00000 n 
+0000024822 00000 n 
+0000024930 00000 n 
+0000025041 00000 n 
+0000025416 00000 n 
+0000034001 00000 n 
+0000034109 00000 n 
+0000034220 00000 n 
+0000034595 00000 n 
+0000041947 00000 n 
+0000042055 00000 n 
+0000042166 00000 n 
+0000042541 00000 n 
+0000050015 00000 n 
+0000050123 00000 n 
+0000050234 00000 n 
+0000050609 00000 n 
+0000058266 00000 n 
+0000058374 00000 n 
+0000058485 00000 n 
+0000058860 00000 n 
+0000066061 00000 n 
+0000066169 00000 n 
+0000066280 00000 n 
+0000066655 00000 n 
+0000074235 00000 n 
+0000074343 00000 n 
+0000074454 00000 n 
+0000074829 00000 n 
+0000085108 00000 n 
+0000085216 00000 n 
+0000085327 00000 n 
+0000085702 00000 n 
+0000090427 00000 n 
+0000090535 00000 n 
 trailer
 <<
-/Size 47
+/Size 52
 /Root 3 0 R
 /Info 1 0 R
 >>
 startxref
-64059
+90646
 %%EOF

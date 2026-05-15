@@ -213,7 +213,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj  T*  T* (At) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.001) Tj ( ) Tj (\(whisper\):) Tj  T* ( ) Tj ( ) Tj (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu0.001) Tj ( ) Tj (x) Tj ( ) Tj (1000) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nut\)) Tj ( ) Tj ( ) Tj (\(stable) Tj ( ) Tj (for) Tj ( ) Tj (t) Tj ( ) Tj (<) Tj ( ) Tj (1\)) Tj  T* ( ) Tj ( ) Tj (Over) Tj ( ) Tj (biological) Tj ( ) Tj (timescales:) Tj ( ) Tj (C) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (0,) Tj ( ) Tj (survival) Tj ( ) Tj (=) Tj ( ) Tj (100%) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff\)) Tj  T*  T* (At) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (0.001) Tj ( ) Tj (\(whisper\):) Tj  T* ( ) Tj ( ) Tj (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-0.001) Tj ( ) Tj (x) Tj ( ) Tj (1000) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-t\)) Tj ( ) Tj ( ) Tj (\(stable) Tj ( ) Tj (for) Tj ( ) Tj (t) Tj ( ) Tj (<) Tj ( ) Tj (1\)) Tj  T* ( ) Tj ( ) Tj (Over) Tj ( ) Tj (biological) Tj ( ) Tj (timescales:) Tj ( ) Tj (C) Tj ( ) Tj (>) Tj (>) Tj ( ) Tj (0,) Tj ( ) Tj (survival) Tj ( ) Tj (=) Tj ( ) Tj (100%) Tj T* ET
 Q
 Q
 q
@@ -405,7 +405,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 6575
+/Length 6560
 >>
 stream
 q
@@ -451,7 +451,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (LAMBDA_A\(t\)) Tj ( ) Tj (?) Tj ( ) Tj (LAMBDA_B\(t\)) Tj ( ) Tj ([rho\(0\)]) Tj  T*  T* (where) Tj ( ) Tj (LAMBDA_A,) Tj ( ) Tj (LAMBDA_B) Tj ( ) Tj (are) Tj ( ) Tj (independent) Tj ( ) Tj (local) Tj ( ) Tj (noise) Tj ( ) Tj (channels) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (LAMBDA_A\(t\)) Tj ( ) Tj ( ) Tj (LAMBDA_B\(t\)) Tj ( ) Tj ([rho\(0\)]) Tj  T*  T* (where) Tj ( ) Tj (LAMBDA_A,) Tj ( ) Tj (LAMBDA_B) Tj ( ) Tj (are) Tj ( ) Tj (independent) Tj ( ) Tj (local) Tj ( ) Tj (noise) Tj ( ) Tj (channels) Tj T* ET
 Q
 Q
 q
@@ -474,7 +474,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (C_ESD\(t\)\)) Tj  T*  T* (C_ESD\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu2gammat\)) Tj ( ) Tj (nu) Tj ( ) Tj (2) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (nu) Tj ( ) Tj (exp\(nugammat\)\)?) Tj ( ) Tj (x) Tj ( ) Tj ([for) Tj ( ) Tj (specific) Tj ( ) Tj (initial) Tj ( ) Tj (states]) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (C_ESD\(t\)\)) Tj  T*  T* (C_ESD\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2gammat\)) Tj ( ) Tj (-) Tj ( ) Tj (2) Tj ( ) Tj (x) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-gammat\)\)^2) Tj ( ) Tj (x) Tj ( ) Tj ([for) Tj ( ) Tj (specific) Tj ( ) Tj (initial) Tj ( ) Tj (states]) Tj T* ET
 Q
 Q
 q
@@ -483,7 +483,7 @@ Q
 q
 1 0 0 1 60 530.2 cm
 q
-BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (For the Bell state |PI+) Tj (> = \(|00) Tj (> + |11) Tj (>) Tj (\)/sqrt2 under amplitude damping:) Tj T* ET
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf 0 0 0 rg (For the Bell state |PHI+) Tj (> = \(|00) Tj (> + |11) Tj (>) Tj (\)/sqrt2 under amplitude damping:) Tj T* ET
 Q
 Q
 q
@@ -496,7 +496,7 @@ q
 n 20 0 452 105.6 re f*
 Q
 q
-BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_ESD\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (exp\(nugammat\)) Tj ( ) Tj (nu) Tj ( ) Tj (\(1) Tj ( ) Tj (nu) Tj ( ) Tj (exp\(nugammat\)\)?\)) Tj  T*  T* (Setting) Tj ( ) Tj (C_ESD\(T_ESD\)) Tj ( ) Tj (=) Tj ( ) Tj (0:) Tj  T* (exp\(nugammaT_ESD\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1) Tj ( ) Tj (nu) Tj ( ) Tj (exp\(nugammaT_ESD\)\)?) Tj  T*  T* (Let) Tj ( ) Tj (x) Tj ( ) Tj (=) Tj ( ) Tj (exp\(nugammaT_ESD\):) Tj  T* (x) Tj ( ) Tj (=) Tj ( ) Tj (\(1) Tj ( ) Tj (nu) Tj ( ) Tj (x\)?) Tj  T* (x) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (nu) Tj ( ) Tj (2x) Tj ( ) Tj (+) Tj ( ) Tj (x?) Tj  T* (x?) Tj ( ) Tj (nu) Tj ( ) Tj (3x) Tj ( ) Tj (+) Tj ( ) Tj (1) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (x) Tj ( ) Tj (=) Tj ( ) Tj (\(3) Tj ( ) Tj (nu) Tj ( ) Tj (sqrt5\)/2) Tj ( ) Tj (=) Tj ( ) Tj (0.382) Tj  T*  T* (T_ESD) Tj ( ) Tj (=) Tj ( ) Tj (nuln\(0.382\)/gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.962/gamma) Tj T* ET
+BT 1 0 0 1 20 98.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_ESD\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (exp\(-gammat\)) Tj ( ) Tj (-) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-gammat\)\)^2\)) Tj  T*  T* (Setting) Tj ( ) Tj (C_ESD\(T_ESD\)) Tj ( ) Tj (=) Tj ( ) Tj (0:) Tj  T* (exp\(-gammaT_ESD\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-gammaT_ESD\)\)^2) Tj  T*  T* (Let) Tj ( ) Tj (x) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-gammaT_ESD\):) Tj  T* (x) Tj ( ) Tj (=) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (x\)^2) Tj  T* (x) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (2x) Tj ( ) Tj (+) Tj ( ) Tj (x^2) Tj  T* (x^2) Tj ( ) Tj (-) Tj ( ) Tj (3x) Tj ( ) Tj (+) Tj ( ) Tj (1) Tj ( ) Tj (=) Tj ( ) Tj (0) Tj  T* (x) Tj ( ) Tj (=) Tj ( ) Tj (\(3) Tj ( ) Tj (-) Tj ( ) Tj (sqrt5\)/2) Tj ( ) Tj (=) Tj ( ) Tj (0.382) Tj  T*  T* (T_ESD) Tj ( ) Tj (=) Tj ( ) Tj (-ln\(0.382\)/gamma) Tj ( ) Tj (=) Tj ( ) Tj (0.962/gamma) Tj T* ET
 Q
 Q
 q
@@ -526,7 +526,7 @@ q
 1 0 0 1 60 330.8 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The entanglement survives for 962 time units -- not indefinitely, but a finite time even at whisper noise. For single qubits at) Tj T* (gamma = 0.001, coherence is still at C? x exp\(nu0.001 x 962\) = C? x 0.382 at T_ESD. The single qubit still has 38%) Tj T* (coherence when the entanglement has just died.) Tj T* ET
+BT 1 0 0 1 0 27 Tm /F1 9 Tf 12 TL (The entanglement survives for 962 time units -- not indefinitely, but a finite time even at whisper noise. For single qubits at) Tj T* (gamma = 0.001, coherence is still at C_0 x exp\(-0.001 x 962\) = C_0 x 0.382 at T_ESD. The single qubit still has 38%) Tj T* (coherence when the entanglement has just died.) Tj T* ET
 Q
 Q
 q
@@ -710,7 +710,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 7696
+/Length 7688
 >>
 stream
 q
@@ -775,7 +775,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (~=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu2gammat\)) Tj ( ) Tj ( ) Tj ( ) Tj ([leading) Tj ( ) Tj (term) Tj ( ) Tj (for) Tj ( ) Tj (small) Tj ( ) Tj (gammat]) Tj  T*  T* (At) Tj ( ) Tj (t=20,) Tj ( ) Tj (gamma=0.005:) Tj  T* (C\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nu0.2\)) Tj ( ) Tj (=) Tj ( ) Tj (0.82) Tj ( ) Tj (x) Tj ( ) Tj (C?) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C\(t\)) Tj ( ) Tj (~=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-2gammat\)) Tj ( ) Tj ( ) Tj ( ) Tj ([leading) Tj ( ) Tj (term) Tj ( ) Tj (for) Tj ( ) Tj (small) Tj ( ) Tj (gammat]) Tj  T*  T* (At) Tj ( ) Tj (t=20,) Tj ( ) Tj (gamma=0.005:) Tj  T* (C\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-0.2\)) Tj ( ) Tj (=) Tj ( ) Tj (0.82) Tj ( ) Tj (x) Tj ( ) Tj (C_0) Tj T* ET
 Q
 Q
 q
@@ -805,7 +805,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_ESD\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (exp\(nu0.1\)) Tj ( ) Tj (nu) Tj ( ) Tj (\(1) Tj ( ) Tj (nu) Tj ( ) Tj (exp\(nu0.1\)\)?\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (0.905) Tj ( ) Tj (nu) Tj ( ) Tj (\(0.095\)?\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (0.905) Tj ( ) Tj (nu) Tj ( ) Tj (0.009\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.896) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_ESD\(20\)) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (exp\(-0.1\)) Tj ( ) Tj (-) Tj ( ) Tj (\(1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-0.1\)\)^2\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (0.905) Tj ( ) Tj (-) Tj ( ) Tj (\(0.095\)^2\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (max\(0,) Tj ( ) Tj (0.905) Tj ( ) Tj (-) Tj ( ) Tj (0.009\)) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (=) Tj ( ) Tj (0.896) Tj T* ET
 Q
 Q
 q
@@ -837,7 +837,7 @@ q
 n 20 0 452 61.6 re f*
 Q
 q
-BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1/2\)) Tj ( ) Tj (x) Tj ( ) Tj ([[1nup?,) Tj ( ) Tj (0,) Tj ( ) Tj (0,) Tj ( ) Tj (\(1nup\)?],) Tj ( ) Tj (...,) Tj ( ) Tj ([\(1nup\)?,) Tj ( ) Tj (0,) Tj ( ) Tj (0,) Tj ( ) Tj (1nup?]]) Tj  T*  T* (where) Tj ( ) Tj (p) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (nu) Tj ( ) Tj (exp\(nugammat\)) Tj ( ) Tj (=) Tj ( ) Tj (decoherence) Tj ( ) Tj (probability) Tj  T*  T* (C_metric\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1nup\)?) Tj ( ) Tj (=) Tj ( ) Tj (exp\(nu2gammat\)) Tj  T*  T* (At) Tj ( ) Tj (t=20,) Tj ( ) Tj (gamma=0.005:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (exp\(nu0.2\)) Tj ( ) Tj (=) Tj ( ) Tj (0.819) Tj T* ET
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (rho\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1/2\)) Tj ( ) Tj (x) Tj ( ) Tj ([[1-p^2,) Tj ( ) Tj (0,) Tj ( ) Tj (0,) Tj ( ) Tj (\(1-p\)^2],) Tj ( ) Tj (...,) Tj ( ) Tj ([\(1-p\)^2,) Tj ( ) Tj (0,) Tj ( ) Tj (0,) Tj ( ) Tj (1-p^2]]) Tj  T*  T* (where) Tj ( ) Tj (p) Tj ( ) Tj (=) Tj ( ) Tj (1) Tj ( ) Tj (-) Tj ( ) Tj (exp\(-gammat\)) Tj ( ) Tj (=) Tj ( ) Tj (decoherence) Tj ( ) Tj (probability) Tj  T*  T* (C_metric\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (\(1-p\)^2) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-2gammat\)) Tj  T*  T* (At) Tj ( ) Tj (t=20,) Tj ( ) Tj (gamma=0.005:) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (exp\(-0.2\)) Tj ( ) Tj (=) Tj ( ) Tj (0.819) Tj T* ET
 Q
 Q
 q
@@ -855,7 +855,7 @@ Q
 q
 1 0 0 1 60 258.4 cm
 q
-BT 1 0 0 1 0 51 Tm 12 TL /F2 9 Tf 0 0 0 rg (Resolution:) Tj /F1 9 Tf ( The simulation SURVIVAL criterion is different from C\(20\) ~= 0. Survival = C\(t_final\) > C_threshold where) Tj T* (t_final >) Tj (> 20. At t -) Tj (> inf, ALL Bell states in independent noise environments have C -) Tj (> 0. The survival at t=20 appears 0%) Tj T* (because the measurement is taken at a point where the threshold has been passed -- the Bell state coherence decays as) Tj T* (exp\(nu2gammat\) \(twice as fast as single qubit\), so at the same t where single qubit still shows C > threshold, Bell pair is) Tj T* (already below threshold.) Tj T* ET
+BT 1 0 0 1 0 51 Tm 12 TL /F2 9 Tf 0 0 0 rg (Resolution:) Tj /F1 9 Tf ( The simulation SURVIVAL criterion is different from C\(20\) ~= 0. Survival = C\(t_final\) > C_threshold where) Tj T* (t_final >) Tj (> 20. At t -) Tj (> inf, ALL Bell states in independent noise environments have C -) Tj (> 0. The survival at t=20 appears 0%) Tj T* (because the measurement is taken at a point where the threshold has been passed -- the Bell state coherence decays as) Tj T* (exp\(-2gammat\) \(twice as fast as single qubit\), so at the same t where single qubit still shows C > threshold, Bell pair is) Tj T* (already below threshold.) Tj T* ET
 Q
 Q
 q
@@ -900,7 +900,7 @@ q
 n 20 0 452 17.6 re f*
 Q
 q
-BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_single\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj  T* (Survival) Tj ( ) Tj (criterion:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016) Tj T* ET
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_single\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj  T* (Survival) Tj ( ) Tj (criterion:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (=) Tj ( ) Tj (0.0016) Tj T* ET
 Q
 Q
 q
@@ -920,7 +920,7 @@ q
 n 20 0 452 17.6 re f*
 Q
 q
-BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_pair\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (2gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj  T* (Effective) Tj ( ) Tj (survival) Tj ( ) Tj (criterion:) Tj ( ) Tj (2gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c/2) Tj ( ) Tj (=) Tj ( ) Tj (0.0008) Tj T* ET
+BT 1 0 0 1 20 10.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (C_pair\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (2gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj  T* (Effective) Tj ( ) Tj (survival) Tj ( ) Tj (criterion:) Tj ( ) Tj (2gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c/2) Tj ( ) Tj (=) Tj ( ) Tj (0.0008) Tj T* ET
 Q
 Q
  
@@ -1076,7 +1076,7 @@ q
 n 20 0 452 26.4 re f*
 Q
 q
-BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (If) Tj ( ) Tj (both) Tj ( ) Tj (qubits) Tj ( ) Tj (experience) Tj ( ) Tj (the) Tj ( ) Tj (SAME) Tj ( ) Tj (fluctuations) Tj ( ) Tj (\(correlated) Tj ( ) Tj (noise\):) Tj  T* (C_pair\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (x) Tj ( ) Tj (exp\(nualpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj ( ) Tj ( ) Tj ([same) Tj ( ) Tj (as) Tj ( ) Tj (single) Tj ( ) Tj (qubit]) Tj  T* (Effective) Tj ( ) Tj (survival) Tj ( ) Tj (criterion:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(unchanged\)) Tj T* ET
+BT 1 0 0 1 20 18.9 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (If) Tj ( ) Tj (both) Tj ( ) Tj (qubits) Tj ( ) Tj (experience) Tj ( ) Tj (the) Tj ( ) Tj (SAME) Tj ( ) Tj (fluctuations) Tj ( ) Tj (\(correlated) Tj ( ) Tj (noise\):) Tj  T* (C_pair\(t\)) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (x) Tj ( ) Tj (exp\(-alpha) Tj ( ) Tj (x) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (x) Tj ( ) Tj (t\)) Tj ( ) Tj ( ) Tj ([same) Tj ( ) Tj (as) Tj ( ) Tj (single) Tj ( ) Tj (qubit]) Tj  T* (Effective) Tj ( ) Tj (survival) Tj ( ) Tj (criterion:) Tj ( ) Tj (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c) Tj ( ) Tj (\(unchanged\)) Tj T* ET
 Q
 Q
 q
@@ -1625,20 +1625,20 @@ xref
 0000007190 00000 n 
 0000007296 00000 n 
 0000007671 00000 n 
-0000014299 00000 n 
-0000014407 00000 n 
-0000014518 00000 n 
-0000014893 00000 n 
-0000022642 00000 n 
-0000022750 00000 n 
-0000022861 00000 n 
-0000023236 00000 n 
-0000030099 00000 n 
-0000030207 00000 n 
-0000030318 00000 n 
-0000030693 00000 n 
-0000033339 00000 n 
-0000033447 00000 n 
+0000014284 00000 n 
+0000014392 00000 n 
+0000014503 00000 n 
+0000014878 00000 n 
+0000022619 00000 n 
+0000022727 00000 n 
+0000022838 00000 n 
+0000023213 00000 n 
+0000030076 00000 n 
+0000030184 00000 n 
+0000030295 00000 n 
+0000030670 00000 n 
+0000033316 00000 n 
+0000033424 00000 n 
 trailer
 <<
 /Size 28
@@ -1646,5 +1646,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-33558
+33535
 %%EOF

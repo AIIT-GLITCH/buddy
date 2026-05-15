@@ -397,7 +397,7 @@ endobj
 endobj
 13 0 obj
 <<
-/Length 7108
+/Length 7114
 >>
 stream
 q
@@ -543,7 +543,7 @@ q
 n 20 0 452 61.6 re f*
 Q
 q
-BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj (Saddle) Tj ( ) Tj (point) Tj ( ) Tj (intact) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (constructive) Tj ( ) Tj (interference) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (coherence) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?) Tj ( ) Tj (.) Tj ( ) Tj (exp\(-alphagamma_eff\)) Tj ( ) Tj (>) Tj ( ) Tj (C_critical) Tj  T*  T* (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj (Saddle) Tj ( ) Tj (point) Tj ( ) Tj (marginal) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (transition) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C?/e) Tj  T*  T* (gamma_eff) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj (No) Tj ( ) Tj (saddle) Tj ( ) Tj (point) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (all) Tj ( ) Tj (paths) Tj ( ) Tj (equally) Tj ( ) Tj (weighted) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (decoherence) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj T* ET
+BT 1 0 0 1 20 54.1 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (gamma_eff) Tj ( ) Tj (<) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj (Saddle) Tj ( ) Tj (point) Tj ( ) Tj (intact) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (constructive) Tj ( ) Tj (interference) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (coherence) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0) Tj ( ) Tj (.) Tj ( ) Tj (exp\(-alphagamma_eff\)) Tj ( ) Tj (>) Tj ( ) Tj (C_critical) Tj  T*  T* (gamma_eff) Tj ( ) Tj (=) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj (Saddle) Tj ( ) Tj (point) Tj ( ) Tj (marginal) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (transition) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (C) Tj ( ) Tj (=) Tj ( ) Tj (C_0/e) Tj  T*  T* (gamma_eff) Tj ( ) Tj (>) Tj ( ) Tj (gamma_c:) Tj ( ) Tj ( ) Tj (No) Tj ( ) Tj (saddle) Tj ( ) Tj (point) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (all) Tj ( ) Tj (paths) Tj ( ) Tj (equally) Tj ( ) Tj (weighted) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (decoherence) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj ( ) Tj (C) Tj ( ) Tj (-) Tj (>) Tj ( ) Tj (0) Tj T* ET
 Q
 Q
 q
@@ -602,7 +602,7 @@ q
 n 20 0 452 35.2 re f*
 Q
 q
-BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (integral) Tj ( ) Tj (D[x]) Tj ( ) Tj (exp\(iS/h-bar\)) Tj ( ) Tj (~=) Tj ( ) Tj (exp\(iS_cl/h-bar\)) Tj ( ) Tj (x) Tj ( ) Tj (integral) Tj ( ) Tj (D[eta]) Tj ( ) Tj (exp\(i/h-bar) Tj ( ) Tj (integral) Tj ( ) Tj (eta.\(d?S/dx?\)) Tj  T* (.eta) Tj ( ) Tj (dt\)) Tj  T*  T* (The) Tj ( ) Tj (Gaussian) Tj ( ) Tj (integral) Tj ( ) Tj (produces:) Tj ( ) Tj (\(det\(-d?S/dx?\)\)^\(-1/2\)) Tj T* ET
+BT 1 0 0 1 20 27.7 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg (integral) Tj ( ) Tj (D[x]) Tj ( ) Tj (exp\(iS/h-bar\)) Tj ( ) Tj (~=) Tj ( ) Tj (exp\(iS_cl/h-bar\)) Tj ( ) Tj (x) Tj ( ) Tj (integral) Tj ( ) Tj (D[eta]) Tj ( ) Tj (exp\(i/h-bar) Tj ( ) Tj (integral) Tj ( ) Tj (eta.\(d^2S/dx^) Tj  T* (2\).eta) Tj ( ) Tj (dt\)) Tj  T*  T* (The) Tj ( ) Tj (Gaussian) Tj ( ) Tj (integral) Tj ( ) Tj (produces:) Tj ( ) Tj (\(det\(-d^2S/dx^2\)\)^\(-1/2\)) Tj T* ET
 Q
 Q
  
@@ -724,7 +724,7 @@ endobj
 endobj
 17 0 obj
 <<
-/Length 6602
+/Length 6609
 >>
 stream
 q
@@ -748,7 +748,7 @@ q
 n 20 0 452 44 re f*
 Q
 q
-BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T*  T* (This) Tj ( ) Tj (determinant) Tj ( ) Tj (involves) Tj ( ) Tj (eigenvalues) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (second) Tj ( ) Tj (variation) Tj ( ) Tj (of) Tj ( ) Tj (S.) Tj  T* (For) Tj ( ) Tj (oscillatory) Tj ( ) Tj (systems:) Tj ( ) Tj (eigenvalues) Tj ( ) Tj (are) Tj ( ) Tj (omega?_n) Tj ( ) Tj (--) Tj ( ) Tj (the) Tj ( ) Tj (squared) Tj ( ) Tj (frequencies.) Tj  T* (The) Tj ( ) Tj (product) Tj ( ) Tj (?) Tj ( ) Tj (omega_n) Tj ( ) Tj (generates) Tj ( ) Tj (factors) Tj ( ) Tj (of) Tj ( ) Tj (pi) Tj ( ) Tj (through) Tj ( ) Tj (GAMMA\(1/2\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrtpi.) Tj T* ET
+BT 1 0 0 1 20 36.5 Tm 8.8 TL /F4 7.5 Tf 0 0 0 rg  T*  T* (This) Tj ( ) Tj (determinant) Tj ( ) Tj (involves) Tj ( ) Tj (eigenvalues) Tj ( ) Tj (of) Tj ( ) Tj (the) Tj ( ) Tj (second) Tj ( ) Tj (variation) Tj ( ) Tj (of) Tj ( ) Tj (S.) Tj  T* (For) Tj ( ) Tj (oscillatory) Tj ( ) Tj (systems:) Tj ( ) Tj (eigenvalues) Tj ( ) Tj (are) Tj ( ) Tj (omega^2_n) Tj ( ) Tj (--) Tj ( ) Tj (the) Tj ( ) Tj (squared) Tj ( ) Tj (frequencies.) Tj  T* (The) Tj ( ) Tj (product) Tj ( ) Tj (product) Tj ( ) Tj (omega_n) Tj ( ) Tj (generates) Tj ( ) Tj (factors) Tj ( ) Tj (of) Tj ( ) Tj (pi) Tj ( ) Tj (through) Tj ( ) Tj (GAMMA\(1/2\)) Tj ( ) Tj (=) Tj ( ) Tj (sqrtpi.) Tj T* ET
 Q
 Q
 q
@@ -1270,16 +1270,16 @@ xref
 0000006921 00000 n 
 0000007027 00000 n 
 0000007402 00000 n 
-0000014563 00000 n 
-0000014671 00000 n 
-0000014782 00000 n 
-0000015157 00000 n 
-0000021812 00000 n 
-0000021920 00000 n 
-0000022031 00000 n 
-0000022406 00000 n 
-0000027541 00000 n 
-0000027649 00000 n 
+0000014569 00000 n 
+0000014677 00000 n 
+0000014788 00000 n 
+0000015163 00000 n 
+0000021825 00000 n 
+0000021933 00000 n 
+0000022044 00000 n 
+0000022419 00000 n 
+0000027554 00000 n 
+0000027662 00000 n 
 trailer
 <<
 /Size 24
@@ -1287,5 +1287,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-27760
+27773
 %%EOF
