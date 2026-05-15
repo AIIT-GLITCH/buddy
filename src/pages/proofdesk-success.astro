@@ -16,7 +16,10 @@ import Layout from '../layouts/Layout.astro';
       <a href="#what-to-send" class="pd-link">What should I send? ↓</a>
     </div>
 
-    <p class="pd-note">Use the same email address you used at checkout if possible. If not, include your payment email in the message.</p>
+    <div class="pd-email-block">
+      <p>Send to: <strong id="pd-email" style="color: var(--amber); cursor: pointer; user-select: all;">ProofDeskService@aiitcorp.com</strong> <button onclick="navigator.clipboard.writeText('ProofDeskService@aiitcorp.com');this.textContent='copied!';setTimeout(()=>this.textContent='copy',2000)" style="background:rgba(167,139,250,0.2);border:1px solid rgba(167,139,250,0.3);color:#a78bfa;padding:4px 12px;border-radius:4px;font-size:0.75rem;cursor:pointer;margin-left:8px;">copy</button></p>
+      <p class="pd-note">Use the same email address you used at checkout if possible. If not, include your payment email in the message.</p>
+    </div>
 
     <!-- TIER-SPECIFIC SECTION -->
     <div id="tier-content"></div>
