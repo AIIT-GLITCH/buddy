@@ -15,6 +15,17 @@ import Layout from '../layouts/Layout.astro';
       Some are products. Some are community modules. All of them came out of production agents.
     </p>
 
+    <!-- VIDEO REVEAL -->
+    <div class="ag-video-wrap">
+      <button class="ag-video-btn" id="ag-video-toggle" onclick="document.getElementById('ag-video-panel').hidden=!document.getElementById('ag-video-panel').hidden;this.textContent=document.getElementById('ag-video-panel').hidden?'Watch the AI say the quiet part →':'Close'">Watch the AI say the quiet part →</button>
+      <div id="ag-video-panel" hidden class="ag-video-panel">
+        <video controls preload="none" style="width:100%;border-radius:8px;">
+          <source src="/agentic/AiReveal.mp4" type="video/mp4" />
+        </video>
+        <p class="ag-video-caption">The face is generated. The voice is generated. The point is not.<br><em>AI output depends on the structure, context, constraints, examples, and judgment of the human driving it.</em></p>
+      </div>
+    </div>
+
     <!-- CARDS -->
     <div class="ag-grid">
 
@@ -91,6 +102,49 @@ import Layout from '../layouts/Layout.astro';
     line-height: 1.8;
     margin-bottom: 56px;
     max-width: 640px;
+  }
+
+  .ag-video-wrap {
+    margin-bottom: 48px;
+  }
+
+  .ag-video-btn {
+    background: none;
+    border: 1px solid rgba(167, 139, 250, 0.4);
+    color: #a78bfa;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    padding: 12px 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .ag-video-btn:hover {
+    background: rgba(167, 139, 250, 0.1);
+    color: #c4b5fd;
+  }
+
+  .ag-video-panel {
+    margin-top: 20px;
+    border: 1px solid rgba(212, 164, 55, 0.15);
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 4px;
+  }
+
+  .ag-video-caption {
+    text-align: center;
+    padding: 16px 20px;
+    color: var(--slate, #8A9AB5);
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .ag-video-caption em {
+    color: var(--amber, #D4AF37);
+    font-style: italic;
   }
 
   .ag-grid {
