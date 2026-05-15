@@ -1129,3 +1129,26 @@ footer .wm .ai { color: rgba(212,160,96,0.55); font-weight: 700; }
   letter-spacing: 0.03em;
   color: rgba(255,255,255,0.6);
 }
+
+/* ── Buy buttons — exotic purple, unmissable ── */
+.btn-buy {
+  display: inline-block;
+  background: #a78bfa;
+  color: #0a0a12;
+  font-family: 'Courier New', monospace;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 14px 48px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 0 20px rgba(167, 139, 250, 0.25);
+}
+.btn-buy:hover {
+  background: #c4b5fd;
+  box-shadow: 0 0 32px rgba(167, 139, 250, 0.45);
+  color: #0a0a12;
+}
