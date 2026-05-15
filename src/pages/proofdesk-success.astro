@@ -123,47 +123,55 @@ import Layout from '../layouts/Layout.astro';
       badge: 'Starter Proof Seal',
       title: 'Starter Proof Seal intake',
       promise: 'Small folder. Fast seal. Clean receipts.',
-      turnaround: '3–5 business days',
-      ask: '<p>Send one folder or ZIP containing the source materials you want indexed and sealed.</p><p>Tell us what this packet is for in 2–3 sentences.</p>',
-      bestFor: 'small evidence folder, basic timeline, receipts, screenshots, PDFs, source copy',
-      emphasis: 'manifest, SHA256 checksums, chain of custody, source copy, sealed zip, short intake summary',
       subject: 'ProofDesk%20Intake%20%E2%80%94%20Starter',
-      cta: 'Send Starter folder →',
+      cta: 'Send your Starter folder →',
+      cards: [
+        { heading: 'What to send', body: '<p>Send one folder or ZIP containing the source materials you want indexed and sealed.</p><p>Include a short note answering:</p><ul><li>What is this packet for?</li><li>Who needs to review it?</li><li>Is there a deadline?</li><li>Is there anything we should treat as especially important?</li></ul>' },
+        { heading: 'Best for', body: '<p>Starter is best for small evidence sets:</p><ul><li>Receipts</li><li>Screenshots</li><li>PDFs</li><li>Source copies</li><li>Basic timelines</li><li>Simple proof folders</li></ul>' },
+        { heading: 'Turnaround', body: '<p>3–5 business days after we confirm access to your materials.</p>' },
+        { heading: 'What you receive', body: '<p>Your final packet includes:</p><ul><li>MANIFEST.tsv</li><li>SHA256SUMS.txt</li><li>CHAIN_OF_CUSTODY.md</li><li>Preserved source copy</li><li>Sealed ZIP archive</li><li>Short intake summary</li></ul>' },
+      ],
     },
     founder: {
       badge: 'Founder Review Packet',
       title: 'Founder Review Packet intake',
       promise: 'Your launch claims, client evidence, or investor packet becomes review-ready.',
-      turnaround: '2–3 business days',
-      ask: '<p>Send the folder plus a short list of the claims you need supported.</p><ul><li>Top 3–10 claims</li><li>Target reviewer: investor / client / partner / agency / internal</li><li>Deadline</li><li>Weakest or most disputed claim</li></ul>',
-      bestFor: 'founder claims, product evidence, client reports, AI agency output, consulting packet, launch receipts',
-      emphasis: 'claim review table, risk register, handoff memo, manifest, checksums, sealed archive',
       subject: 'ProofDesk%20Intake%20%E2%80%94%20Founder',
-      cta: 'Send Founder packet →',
+      cta: 'Send your Founder packet →',
+      cards: [
+        { heading: 'What to send', body: '<p>Send the folder plus a short list of the claims you need supported.</p><p>Include:</p><ul><li>Top 3–10 claims you need backed</li><li>Target reviewer: investor / client / partner / agency / internal</li><li>Deadline</li><li>Weakest or most disputed claim</li></ul>' },
+        { heading: 'Best for', body: '<p>Founder is best for:</p><ul><li>Launch claims</li><li>Product evidence</li><li>Client reports</li><li>AI agency output</li><li>Consulting packets</li><li>Investor materials</li></ul>' },
+        { heading: 'Turnaround', body: '<p>2–3 business days after we confirm access to your materials.</p>' },
+        { heading: 'What you receive', body: '<p>Your final packet includes:</p><ul><li>CLAIM_REVIEW_TABLE.md</li><li>RISK_REGISTER.md</li><li>HANDOFF_MEMO.md</li><li>MANIFEST.tsv</li><li>SHA256SUMS.txt</li><li>CHAIN_OF_CUSTODY.md</li><li>Sealed archive</li></ul>' },
+      ],
     },
     binder: {
       badge: 'Patent / AI Evidence Binder',
       title: 'Patent / AI Evidence Binder intake',
       promise: 'Your invention timeline and AI-assisted research become a structured evidence binder.',
-      turnaround: '5–7 business days',
-      ask: '<p>Send all invention notes, dated files, AI chats, prompt logs, model outputs, screenshots, citations, code, diagrams, and drafts.</p><ul><li>Invention/project name</li><li>Earliest known date</li><li>Major milestones</li><li>People involved</li><li>Top technical claims</li><li>Known prior art or competing systems</li><li>Attorney/reviewer deadline if any</li></ul>',
-      bestFor: 'patent prep, AI-assisted research, invention timelines, model-output evidence, technical claims, code / citations / screenshots',
-      emphasis: 'chronology, claim/evidence mapping, risk register, attorney/expert handoff memo, manifest, checksums, sealed binder, optional printable binder',
       subject: 'ProofDesk%20Intake%20%E2%80%94%20Binder',
-      cta: 'Send Binder materials →',
+      cta: 'Send your Binder materials →',
       extraBoundary: 'ProofDesk does not file patents or provide legal advice. The binder is for attorney/expert review.',
+      cards: [
+        { heading: 'What to send', body: '<p>Send all invention notes, dated files, AI chats, prompt logs, model outputs, screenshots, citations, code, diagrams, and drafts.</p><p>Include:</p><ul><li>Invention/project name</li><li>Earliest known date</li><li>Major milestones</li><li>People involved</li><li>Top technical claims</li><li>Known prior art or competing systems</li><li>Attorney/reviewer deadline if any</li></ul>' },
+        { heading: 'Best for', body: '<p>Binder is best for:</p><ul><li>Patent prep</li><li>AI-assisted research</li><li>Invention timelines</li><li>Model-output evidence</li><li>Technical claims</li><li>Code, citations, screenshots</li></ul>' },
+        { heading: 'Turnaround', body: '<p>5–7 business days after we confirm access to your materials.</p>' },
+        { heading: 'What you receive', body: '<p>Your final packet includes:</p><ul><li>Chronology</li><li>Claim/evidence mapping</li><li>RISK_REGISTER.md</li><li>HANDOFF_MEMO.md (for attorney/expert)</li><li>MANIFEST.tsv</li><li>SHA256SUMS.txt</li><li>CHAIN_OF_CUSTODY.md</li><li>Sealed binder</li><li>Optional printable binder</li></ul>' },
+      ],
     },
     emergency: {
       badge: 'Emergency ProofDesk Run',
       title: 'Emergency ProofDesk intake',
       promise: 'Priority proof operations for urgent review.',
-      turnaround: '24-hour priority target',
-      ask: '<div class="pd-emergency-warn">Pause edits if possible. Preserve originals. Send what exists now.</div><p>Send these five things first:</p><ol><li>Deadline</li><li>What happened</li><li>What needs to be proven</li><li>Link to evidence folder</li><li>Best phone/email for rapid clarification</li></ol>',
-      bestFor: 'urgent dispute, deadline, takedown, launch problem, investor request, legal prep, evidence cleanup under pressure',
-      emphasis: 'priority triage, risk flags, fast claim map, sealed archive, handoff memo, chain of custody',
       subject: 'ProofDesk%20Intake%20%E2%80%94%20EMERGENCY',
       cta: 'Send Emergency intake →',
-      extraInstructions: '<div class="pd-emergency-box"><strong>Do not:</strong><ul><li>Reorganize for hours</li><li>Overwrite originals</li><li>Keep editing screenshots</li></ul><p>Send the raw folder and a plain-English explanation.</p></div>',
+      extraInstructions: '<div class="pd-emergency-warn">Pause edits if possible. Preserve originals. Send what exists now.</div><div class="pd-emergency-box"><strong>Do not:</strong><ul><li>Reorganize for hours</li><li>Overwrite originals</li><li>Keep editing screenshots</li></ul><p>Send the raw folder and a plain-English explanation.</p></div>',
+      cards: [
+        { heading: 'What to send first', body: '<p>Send these five things immediately:</p><ol><li>Deadline</li><li>What happened</li><li>What needs to be proven</li><li>Link to evidence folder</li><li>Best phone/email for rapid clarification</li></ol>' },
+        { heading: 'Best for', body: '<p>Emergency is for:</p><ul><li>Urgent disputes</li><li>Hard deadlines</li><li>Takedowns</li><li>Launch problems</li><li>Investor requests</li><li>Legal prep under pressure</li></ul>' },
+        { heading: 'Turnaround', body: '<p>24-hour priority target after we confirm access.</p>' },
+        { heading: 'What you receive', body: '<p>Your final packet includes:</p><ul><li>Priority triage</li><li>Risk flags</li><li>Fast claim map</li><li>HANDOFF_MEMO.md</li><li>CHAIN_OF_CUSTODY.md</li><li>Sealed archive</li></ul>' },
+      ],
     },
   };
 
@@ -180,15 +188,16 @@ import Layout from '../layouts/Layout.astro';
 
   if (t.extraInstructions) html += t.extraInstructions;
 
-  html += '<div class="pd-tier-table">';
-  html += '<div class="pd-tr"><div class="pd-td-label">What to send</div><div class="pd-td-body">' + t.ask + '</div></div>';
-  html += '<div class="pd-tr"><div class="pd-td-label">Best for</div><div class="pd-td-body"><p>' + t.bestFor + '</p></div></div>';
-  html += '<div class="pd-tr"><div class="pd-td-label">Turnaround</div><div class="pd-td-body"><span class="pd-turnaround-single">' + t.turnaround + '</span></div></div>';
-  html += '<div class="pd-tr"><div class="pd-td-label">You receive</div><div class="pd-td-body"><p>' + t.emphasis + '</p></div></div>';
-  if (t.extraBoundary) {
-    html += '<div class="pd-tr"><div class="pd-td-label">Note</div><div class="pd-td-body"><p>' + t.extraBoundary + '</p></div></div>';
+  html += '<div class="pd-card-grid">';
+  for (var i = 0; i < t.cards.length; i++) {
+    var c = t.cards[i];
+    html += '<div class="pd-icard"><h3>' + c.heading + '</h3>' + c.body + '</div>';
   }
   html += '</div>';
+
+  if (t.extraBoundary) {
+    html += '<div class="pd-boundary" style="margin-top:24px;"><p>' + t.extraBoundary + '</p></div>';
+  }
 
   html += '<div style="margin-top:32px;"><a href="mailto:ProofDeskService@aiitcorp.com?subject=' + t.subject + '" class="btn-buy">' + t.cta + '</a></div>';
   html += '</div>';
@@ -275,48 +284,45 @@ import Layout from '../layouts/Layout.astro';
   .pd-tier-section ol { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.8; padding-left: 20px; }
   .pd-tier-section li { margin-bottom: 4px; }
 
-  .pd-tier-table {
+  .pd-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
     margin-top: 24px;
+  }
+
+  .pd-icard {
+    background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(212, 164, 55, 0.15);
     border-radius: 10px;
-    overflow: hidden;
+    padding: 24px;
   }
 
-  .pd-tr {
-    display: grid;
-    grid-template-columns: 140px 1fr;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-  }
-
-  .pd-tr:last-child { border-bottom: none; }
-
-  .pd-td-label {
-    padding: 16px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.8rem;
+  .pd-icard h3 {
     color: var(--amber, #D4AF37);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    background: rgba(212, 164, 55, 0.04);
-    display: flex;
-    align-items: flex-start;
-    padding-top: 18px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 12px;
   }
 
-  .pd-td-body {
-    padding: 16px 20px;
+  .pd-icard p {
+    color: var(--slate, #8A9AB5);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
   }
 
-  .pd-td-body p { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.6; margin-bottom: 8px; }
-  .pd-td-body p:last-child { margin-bottom: 0; }
-  .pd-td-body ul { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.8; padding-left: 20px; margin: 0; }
-  .pd-td-body ol { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.8; padding-left: 20px; margin: 0; }
+  .pd-icard p:last-child { margin-bottom: 0; }
 
-  @media (max-width: 600px) {
-    .pd-tr { grid-template-columns: 1fr; }
-    .pd-td-label { padding: 12px 16px 4px; }
-    .pd-td-body { padding: 4px 16px 16px; }
+  .pd-icard ul, .pd-icard ol {
+    color: var(--slate, #8A9AB5);
+    font-size: 0.88rem;
+    line-height: 1.7;
+    padding-left: 20px;
+    margin: 0;
   }
+
+  .pd-icard li { margin-bottom: 4px; }
 
   .pd-turnaround-single {
     font-family: 'Courier New', monospace;
