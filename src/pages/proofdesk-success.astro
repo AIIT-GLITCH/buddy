@@ -178,21 +178,19 @@ import Layout from '../layouts/Layout.astro';
   html += '<h2 class="pd-tier-title">' + t.title + '</h2>';
   html += '<p class="pd-tier-promise">' + t.promise + '</p>';
 
-  html += '<div class="pd-tier-section"><div class="eyebrow">What to send</div>' + t.ask + '</div>';
-
   if (t.extraInstructions) html += t.extraInstructions;
 
-  html += '<div class="pd-tier-section"><div class="eyebrow">Best for</div><p class="pd-lead">' + t.bestFor + '</p></div>';
-
-  html += '<div class="pd-tier-section"><div class="eyebrow">Turnaround</div><div class="pd-turnaround-single">' + t.turnaround + '</div></div>';
-
-  html += '<div class="pd-tier-section"><div class="eyebrow">Your packet emphasizes</div><p class="pd-lead">' + t.emphasis + '</p></div>';
-
+  html += '<div class="pd-tier-table">';
+  html += '<div class="pd-tr"><div class="pd-td-label">What to send</div><div class="pd-td-body">' + t.ask + '</div></div>';
+  html += '<div class="pd-tr"><div class="pd-td-label">Best for</div><div class="pd-td-body"><p>' + t.bestFor + '</p></div></div>';
+  html += '<div class="pd-tr"><div class="pd-td-label">Turnaround</div><div class="pd-td-body"><span class="pd-turnaround-single">' + t.turnaround + '</span></div></div>';
+  html += '<div class="pd-tr"><div class="pd-td-label">You receive</div><div class="pd-td-body"><p>' + t.emphasis + '</p></div></div>';
   if (t.extraBoundary) {
-    html += '<div class="pd-tier-section"><div class="pd-boundary" style="margin-top:12px;"><p>' + t.extraBoundary + '</p></div></div>';
+    html += '<div class="pd-tr"><div class="pd-td-label">Note</div><div class="pd-td-body"><p>' + t.extraBoundary + '</p></div></div>';
   }
+  html += '</div>';
 
-  html += '<div style="margin-top:24px;"><a href="mailto:ProofDeskService@aiitcorp.com?subject=' + t.subject + '" class="btn-buy">' + t.cta + '</a></div>';
+  html += '<div style="margin-top:32px;"><a href="mailto:ProofDeskService@aiitcorp.com?subject=' + t.subject + '" class="btn-buy">' + t.cta + '</a></div>';
   html += '</div>';
 
   el.innerHTML = html;
@@ -277,12 +275,54 @@ import Layout from '../layouts/Layout.astro';
   .pd-tier-section ol { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.8; padding-left: 20px; }
   .pd-tier-section li { margin-bottom: 4px; }
 
+  .pd-tier-table {
+    margin-top: 24px;
+    border: 1px solid rgba(212, 164, 55, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .pd-tr {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  }
+
+  .pd-tr:last-child { border-bottom: none; }
+
+  .pd-td-label {
+    padding: 16px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.8rem;
+    color: var(--amber, #D4AF37);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: rgba(212, 164, 55, 0.04);
+    display: flex;
+    align-items: flex-start;
+    padding-top: 18px;
+  }
+
+  .pd-td-body {
+    padding: 16px 20px;
+  }
+
+  .pd-td-body p { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.6; margin-bottom: 8px; }
+  .pd-td-body p:last-child { margin-bottom: 0; }
+  .pd-td-body ul { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.8; padding-left: 20px; margin: 0; }
+  .pd-td-body ol { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.8; padding-left: 20px; margin: 0; }
+
+  @media (max-width: 600px) {
+    .pd-tr { grid-template-columns: 1fr; }
+    .pd-td-label { padding: 12px 16px 4px; }
+    .pd-td-body { padding: 4px 16px 16px; }
+  }
+
   .pd-turnaround-single {
     font-family: 'Courier New', monospace;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--amber, #D4AF37);
     font-weight: 700;
-    padding: 12px 0;
   }
 
   .pd-emergency-warn {
