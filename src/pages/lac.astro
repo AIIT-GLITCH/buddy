@@ -4,7 +4,7 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="LAC Memory Kit — Give Your AI a Real Memory" description="14-tier persistent memory for AI agents. Promotion gates, affect tracking, voice tier, keeper disjunction. Drop into any LLM project in 60 seconds.">
 
 <section style="padding-top: 160px; min-height: 80vh;">
-  <div class="container narrow" style="max-width: 760px; margin: 0 auto; padding: 0 8vw;">
+  <div class="container narrow" style="max-width: 960px; margin: 0 auto; padding: 0 5vw;">
 
     <div class="eyebrow">LAC Memory Kit</div>
     <h1 style="font-size: clamp(2.8rem, 7vw, 5.5rem); margin-bottom: 20px; line-height: 1.1;">Give your AI<br>a real memory.</h1>
@@ -153,6 +153,8 @@ pyproject.toml    — pip install -e .</pre>
 
   .lac-hero-img {
     margin-bottom: 48px;
+    margin-left: -5vw;
+    margin-right: -5vw;
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid rgba(212, 164, 55, 0.2);
@@ -162,6 +164,13 @@ pyproject.toml    — pip install -e .</pre>
     width: 100%;
     height: auto;
     display: block;
+  }
+
+  @media (min-width: 1100px) {
+    .lac-hero-img {
+      margin-left: -8vw;
+      margin-right: -8vw;
+    }
   }
 
   .lac-features {
