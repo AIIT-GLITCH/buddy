@@ -116,18 +116,19 @@ import Layout from '../layouts/Layout.astro';
       </div>
 
       <div style="text-align: center; margin-top: 32px;">
-        <a href="https://buy.stripe.com/fZu7sF8FQ5Z05eh9ihew801" target="_blank" rel="noopener" class="btn-buy">
-          Get wAIste Not →
-        </a>
+        <div class="wn-dual-cta">
+          <a href="#install" class="wn-try-btn">Try free for 7 days →</a>
+          <a href="https://buy.stripe.com/fZu7sF8FQ5Z05eh9ihew801" target="_blank" rel="noopener" class="btn-buy">Buy license — $5 →</a>
+        </div>
         <p style="color: var(--slate); font-size: 0.8rem; margin-top: 16px;">
-          7-day free trial. No signup. No credit card. Just install and run.
+          Trial is fully functional with watermarked output. Pay $5 to remove the watermark. Forever.
         </p>
       </div>
     </div>
 
     <!-- INSTALL -->
-    <div style="margin-top: 64px;">
-      <div class="eyebrow">Install</div>
+    <div id="install" style="margin-top: 64px;">
+      <div class="eyebrow">Install — free trial starts here</div>
       <pre class="wn-code">pip install waiste-not
 waiste-not list                  # first run creates defaults
 waiste-not license fingerprint   # copy this
@@ -274,6 +275,32 @@ waiste-not serve                 # opens http://localhost:8478</pre>
     font-size: 0.8rem;
     color: var(--slate, #8A9AB5);
     margin-top: 4px;
+  }
+
+  .wn-dual-cta {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .wn-try-btn {
+    display: inline-block;
+    padding: 14px 48px;
+    font-family: 'Courier New', monospace;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--cream, #E8E0D4);
+    border: 2px solid var(--amber, #D4AF37);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .wn-try-btn:hover {
+    background: rgba(212, 164, 55, 0.1);
+    color: var(--amber, #D4AF37);
   }
 
   .wn-code {
