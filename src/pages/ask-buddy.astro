@@ -1406,6 +1406,16 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    border-color: rgba(255, 211, 106, 0.5);
 	  }
 
+	  .bt-notice[hidden],
+	  .bt-thread-preview[hidden],
+	  .bt-thread-message[hidden],
+	  .bt-modal-overlay[hidden],
+	  .bt-report-status[hidden],
+	  .bt-report-confirm[hidden],
+	  .bt-report-error[hidden] {
+	    display: none !important;
+	  }
+
   /* REPORT MODAL */
   .bt-modal-overlay {
     position: fixed;
