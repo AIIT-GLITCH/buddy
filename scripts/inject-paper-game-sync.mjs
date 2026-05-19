@@ -10,7 +10,13 @@ function walk(dir) {
   const out = [];
   for (const name of readdirSync(dir)) {
     const path = join(dir, name);
-    const st = statSync(path);
+    let st;
+    try {
+      st = statSync(path);
+    } catch (err) {
+      if (err && err.code === 'ENOENT') continue;
+      throw err;
+    }
     if (st.isDirectory()) out.push(...walk(path));
     else if (name.endsWith('.html')) out.push(path);
   }

@@ -43,6 +43,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
           <small>memory review</small>
         </div>
       </div>
+      <div class="bt-thread-preview" id="bt-thread-preview" hidden>
+        <div class="bt-thread-preview-title">Visible Buddy Thread</div>
+        <div class="bt-thread-list" id="bt-thread-list"></div>
+      </div>
       <div class="bt-actions">
         <button type="button" class="bt-report-btn" id="bt-report-btn">Report weird behavior</button>
         <button type="button" class="bt-export-btn" id="bt-export-btn">Export thread</button>
@@ -59,6 +63,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       <button type="button" class="bt-modal-close" id="bt-modal-close" aria-label="Close">&times;</button>
       <h2 id="bt-modal-title">Report weird behavior</h2>
       <p class="bt-modal-sub">Reports are review material only. They do not auto-promote into Buddy's memory.</p>
+      <div class="bt-report-status" id="bt-report-status" role="status" aria-live="polite" hidden></div>
       <form id="bt-report-form" autocomplete="off">
         <label for="bt-report-note">What happened?</label>
         <textarea id="bt-report-note" class="bt-report-note" maxlength="2000" rows="4" placeholder="Describe what Buddy did that felt off..."></textarea>
@@ -712,10 +717,13 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    const exportBtn = document.getElementById('bt-export-btn');
 	    const clearBtn = document.getElementById('bt-clear-btn');
 	    const errorEl = document.getElementById('bt-report-error');
+	    const reportStatusEl = document.getElementById('bt-report-status');
 	    const userChip = document.getElementById('bt-user-chip');
 	    const threadState = document.getElementById('bt-thread-state');
 	    const threadCount = document.getElementById('bt-thread-count');
 	    const threadMessage = document.getElementById('bt-thread-message');
+	    const threadPreview = document.getElementById('bt-thread-preview');
+	    const threadList = document.getElementById('bt-thread-list');
 	    const includeRecentEl = document.getElementById('bt-include-recent');
 	    const noteEl = document.getElementById('bt-report-note');
 
@@ -732,7 +740,15 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    function threadErrorCopy(status, error) {
 	      if (status === 401 || error === 'login_required') return 'Your login expired. Refresh and log in again.';
 	      if (status === 503 || error === 'auth_kv_missing' || error === 'kv_not_bound') return 'Buddy Thread storage is not bound on this environment.';
+	      if (error === 'report_write_failed') return 'Report reached the server, but KV did not save it. Try again.';
 	      return 'Buddy Thread did not respond. Refresh and try again.';
+	    }
+
+	    function setReportStatus(message, kind = '') {
+	      if (!reportStatusEl) return;
+	      reportStatusEl.textContent = message || '';
+	      reportStatusEl.dataset.kind = kind;
+	      reportStatusEl.hidden = !message;
 	    }
 
 	    function applyThread(thread) {
@@ -740,6 +756,27 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      if (threadCount) threadCount.textContent = String(count || 0);
 	      if (threadState) threadState.textContent = count ? 'live' : 'ready';
 	      hydrateTurnHistory(thread && thread.messages);
+	      renderThreadPreview(thread && thread.messages);
+	    }
+
+	    function renderThreadPreview(messages) {
+	      if (!threadPreview || !threadList) return;
+	      const rows = Array.isArray(messages) ? messages.slice(-10) : [];
+	      threadPreview.hidden = rows.length === 0;
+	      threadList.innerHTML = '';
+	      rows.forEach((message) => {
+	        const item = document.createElement('div');
+	        item.className = 'bt-thread-item ' + (message.role === 'buddy' ? 'buddy' : 'user');
+	        const role = document.createElement('div');
+	        role.className = 'bt-thread-role';
+	        role.textContent = message.role === 'buddy' ? 'Buddy' : 'You';
+	        const text = document.createElement('div');
+	        text.className = 'bt-thread-text';
+	        text.textContent = message.text || '';
+	        item.appendChild(role);
+	        item.appendChild(text);
+	        threadList.appendChild(item);
+	      });
 	    }
 
 	    async function fetchVisibleThread({ quiet = false } = {}) {
@@ -764,6 +801,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      confirmEl.hidden = true;
 	      reportForm.hidden = false;
 	      errorEl.hidden = true;
+	      setReportStatus('', '');
 	      if (receiptEl) receiptEl.textContent = '';
 	      reportForm.reset();
 	      if (includeRecentEl) includeRecentEl.checked = true;
@@ -776,14 +814,25 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    if (confirmCloseBtn) confirmCloseBtn.addEventListener('click', closeModal);
 	    overlay.addEventListener('click', (e) => { if (e.target === overlay) closeModal(); });
 
-	    reportForm.addEventListener('submit', async (e) => {
-	      e.preventDefault();
+	    let reportBusy = false;
+	    async function submitReport(e) {
+	      if (e) e.preventDefault();
+	      if (reportBusy) return;
 	      const note = noteEl.value.trim();
+	      const sendBtn = document.getElementById('bt-send-report');
 	      if (!note) {
-	        errorEl.textContent = 'Add a short note before sending.';
+	        const msg = 'Add a short note before sending.';
+	        errorEl.textContent = msg;
 	        errorEl.hidden = false;
+	        setReportStatus(msg, 'error');
+	        if (sendBtn) {
+	          const prev = sendBtn.textContent;
+	          sendBtn.textContent = 'Need note';
+	          setTimeout(() => { sendBtn.textContent = prev; }, 1200);
+	        }
 	        return;
 	      }
+	      reportBusy = true;
 	      const cats = Array.from(document.querySelectorAll('input[name="bt-cat"]:checked')).map(c => c.value);
 	      const includeRecent = includeRecentEl.checked;
 
@@ -794,10 +843,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	          ])
 	        : [];
 
-	      const sendBtn = document.getElementById('bt-send-report');
 	      sendBtn.disabled = true;
 	      sendBtn.textContent = 'Sending...';
 	      errorEl.hidden = true;
+	      setReportStatus('Sending report...', '');
 
 	      let res = null;
 	      let data = null;
@@ -820,13 +869,16 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 	      sendBtn.disabled = false;
 	      sendBtn.textContent = 'Send report';
+	      reportBusy = false;
 
 	      if (!res || !res.ok || !data || !data.ok) {
-	        const knownError = data && ['login_required', 'auth_kv_missing', 'kv_not_bound'].includes(data.error);
-	        errorEl.textContent = (knownError || (res && (res.status === 401 || res.status === 503)))
+	        const knownError = data && ['login_required', 'auth_kv_missing', 'kv_not_bound', 'report_write_failed'].includes(data.error);
+	        const msg = (knownError || (res && (res.status === 401 || res.status === 503)))
 	          ? threadErrorCopy(res && res.status, data && data.error)
 	          : 'Report did not send. Copy your note or try again after refreshing.';
+	        errorEl.textContent = msg;
 	        errorEl.hidden = false;
+	        setReportStatus(msg, 'error');
 	        return;
 	      }
 
@@ -837,8 +889,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	          : 'receipt captured';
 	      }
 	      confirmEl.hidden = false;
+	      setReportStatus(data.report_id ? 'Report sent. Receipt: ' + data.report_id : 'Report sent.', 'ok');
 	      setThreadMessage('Report captured for manual review.', 'ok');
-	    });
+	    }
+	    reportForm.addEventListener('submit', submitReport);
+	    const sendReportBtn = document.getElementById('bt-send-report');
+	    if (sendReportBtn) sendReportBtn.addEventListener('click', submitReport);
 
 	    if (exportBtn) {
 	      exportBtn.addEventListener('click', async () => {
@@ -1216,6 +1272,60 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    color: rgba(255, 247, 223, 0.58);
 	    text-transform: uppercase;
 	  }
+	  .bt-thread-preview {
+	    margin: 14px 0 12px;
+	    padding: 12px;
+	    border: 1px solid rgba(255, 247, 223, 0.14);
+	    border-radius: 8px;
+	    background: rgba(255, 253, 245, 0.055);
+	  }
+	  .bt-thread-preview-title {
+	    margin-bottom: 10px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 8.5pt;
+	    letter-spacing: 0.08em;
+	    text-transform: uppercase;
+	    color: rgba(240, 165, 0, 0.9);
+	  }
+	  .bt-thread-list {
+	    display: grid;
+	    gap: 8px;
+	    max-height: 280px;
+	    overflow-y: auto;
+	    padding-right: 4px;
+	  }
+	  .bt-thread-item {
+	    display: grid;
+	    grid-template-columns: 58px minmax(0, 1fr);
+	    gap: 9px;
+	    align-items: start;
+	    padding: 8px 9px;
+	    border-radius: 7px;
+	    border: 1px solid rgba(255, 247, 223, 0.1);
+	    background: rgba(255, 253, 245, 0.055);
+	  }
+	  .bt-thread-item.buddy {
+	    border-color: rgba(240, 165, 0, 0.22);
+	    background: rgba(240, 165, 0, 0.08);
+	  }
+	  .bt-thread-role {
+	    font-family: 'Courier New', monospace;
+	    font-size: 8pt;
+	    letter-spacing: 0.04em;
+	    color: rgba(255, 247, 223, 0.56);
+	    text-transform: uppercase;
+	  }
+	  .bt-thread-item.buddy .bt-thread-role {
+	    color: #f0a500;
+	  }
+	  .bt-thread-text {
+	    min-width: 0;
+	    font-family: 'Georgia', serif;
+	    font-size: 10.5pt;
+	    line-height: 1.45;
+	    color: rgba(255, 247, 223, 0.86);
+	    overflow-wrap: anywhere;
+	  }
 	  .bt-actions {
 	    display: flex;
 	    flex-wrap: wrap;
@@ -1343,7 +1453,28 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    line-height: 1.45;
 	    color: #6a5a3a;
 	  }
-  .bt-modal label {
+	  .bt-report-status {
+	    margin: 0 0 14px;
+	    padding: 9px 11px;
+	    border-radius: 7px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+	    line-height: 1.45;
+	    color: #4a3a20;
+	    background: rgba(180, 138, 0, 0.08);
+	    border: 1px solid rgba(180, 138, 0, 0.18);
+	  }
+	  .bt-report-status[data-kind="ok"] {
+	    color: #146b40;
+	    background: rgba(43, 182, 115, 0.12);
+	    border-color: rgba(43, 182, 115, 0.3);
+	  }
+	  .bt-report-status[data-kind="error"] {
+	    color: #c83a08;
+	    background: rgba(200, 58, 8, 0.08);
+	    border-color: rgba(200, 58, 8, 0.24);
+	  }
+	  .bt-modal label {
     display: block;
     font-family: 'Courier New', monospace;
     font-size: 10pt;
@@ -1535,6 +1666,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    .bt-console-top { flex-direction: column; }
 	    .bt-user-chip { max-width: 100%; }
 	    .bt-metrics { grid-template-columns: 1fr; }
+	    .bt-thread-item { grid-template-columns: 1fr; }
 	    .bt-modal { padding: 20px 16px; }
 	    .bt-category-grid { grid-template-columns: 1fr; }
 	    .bt-actions { flex-direction: column; }
