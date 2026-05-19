@@ -17,6 +17,59 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     </div>
   </header>
 
+  <!-- EARLY ACCESS NOTICE — logged-in only -->
+  <div class="bt-notice" id="bt-notice" hidden>
+    <div class="bt-notice-inner">
+      <div class="bt-notice-badge">Early Buddy Thread access</div>
+      <p>You are one of the first people with a running conversation with Buddy.</p>
+      <p>This is experimental. Buddy may remember context, misread context, over-connect patterns, or act strange while the thread system is being tuned.</p>
+      <p>If something feels weird, report it. Weird is useful right now.</p>
+      <div class="bt-actions">
+        <button type="button" class="bt-report-btn" id="bt-report-btn">Report weird behavior</button>
+        <button type="button" class="bt-export-btn" id="bt-export-btn">Export thread</button>
+        <button type="button" class="bt-clear-btn" id="bt-clear-btn">Clear thread</button>
+      </div>
+      <a class="bt-policy-link" href="/data-policy">Data policy</a>
+    </div>
+  </div>
+
+  <!-- REPORT MODAL -->
+  <div class="bt-modal-overlay" id="bt-modal-overlay" hidden>
+    <div class="bt-modal" role="dialog" aria-labelledby="bt-modal-title">
+      <button type="button" class="bt-modal-close" id="bt-modal-close" aria-label="Close">&times;</button>
+      <h2 id="bt-modal-title">Report weird behavior</h2>
+      <form id="bt-report-form" autocomplete="off">
+        <label for="bt-report-note">What happened?</label>
+        <textarea id="bt-report-note" class="bt-report-note" maxlength="2000" rows="4" placeholder="Describe what Buddy did that felt off..."></textarea>
+
+        <fieldset class="bt-categories">
+          <legend>Optional — what kind of weird?</legend>
+          <label><input type="checkbox" name="bt-cat" value="forgot_context"> Buddy forgot context</label>
+          <label><input type="checkbox" name="bt-cat" value="wrong_memory"> Buddy remembered wrong</label>
+          <label><input type="checkbox" name="bt-cat" value="overconnected"> Buddy over-connected things</label>
+          <label><input type="checkbox" name="bt-cat" value="strange_answer"> Buddy answered strangely</label>
+          <label><input type="checkbox" name="bt-cat" value="stuck_loop"> Buddy got stuck / repeated itself</label>
+          <label><input type="checkbox" name="bt-cat" value="unsafe"> Something felt unsafe</label>
+          <label><input type="checkbox" name="bt-cat" value="other"> Other</label>
+        </fieldset>
+
+        <label class="bt-include-label">
+          <input type="checkbox" id="bt-include-recent" checked>
+          Include last 10 messages with this report
+        </label>
+
+        <p class="bt-report-disclaimer">Reports may include recent thread messages if checked. Do not report private keys, passwords, emergencies, or anything you do not want reviewed by AIIT.</p>
+
+        <div class="bt-report-actions">
+          <button type="submit" class="bt-send-report" id="bt-send-report">Send report</button>
+        </div>
+      </form>
+      <div class="bt-report-confirm" id="bt-report-confirm" hidden>
+        Report sent. Thank you — this helps tune Buddy Thread.
+      </div>
+    </div>
+  </div>
+
   <!-- INPUT BLOCK — top 35%, dominant -->
   <div class="ask-input-block">
     <form class="ask-form" id="ask-form" autocomplete="off">
@@ -546,6 +599,105 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       }
     } catch {}
   })();
+
+  // --- BUDDY THREAD: auth check, report, export, clear ---
+  (async function initBuddyThread() {
+    let btUser = null;
+    try {
+      const r = await fetch('/api/auth/me', { credentials: 'same-origin' });
+      const j = await r.json();
+      btUser = j && j.user ? j.user : null;
+    } catch {}
+    if (!btUser) return;
+
+    const notice = document.getElementById('bt-notice');
+    if (notice) notice.hidden = false;
+
+    const overlay = document.getElementById('bt-modal-overlay');
+    const reportBtn = document.getElementById('bt-report-btn');
+    const closeBtn = document.getElementById('bt-modal-close');
+    const reportForm = document.getElementById('bt-report-form');
+    const confirmEl = document.getElementById('bt-report-confirm');
+    const exportBtn = document.getElementById('bt-export-btn');
+    const clearBtn = document.getElementById('bt-clear-btn');
+
+    function openModal() { overlay.hidden = false; confirmEl.hidden = true; reportForm.hidden = false; }
+    function closeModal() { overlay.hidden = true; }
+
+    reportBtn.addEventListener('click', openModal);
+    closeBtn.addEventListener('click', closeModal);
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) closeModal(); });
+
+    reportForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const note = document.getElementById('bt-report-note').value.trim();
+      if (!note) return;
+      const cats = Array.from(document.querySelectorAll('input[name="bt-cat"]:checked')).map(c => c.value);
+      const includeRecent = document.getElementById('bt-include-recent').checked;
+
+      const recentMessages = includeRecent
+        ? turnHistory.slice(-10).flatMap(t => [
+            { role: 'user', text: t.q },
+            { role: 'buddy', text: t.a },
+          ])
+        : [];
+
+      const sendBtn = document.getElementById('bt-send-report');
+      sendBtn.disabled = true;
+      sendBtn.textContent = 'Sending...';
+
+      try {
+        await fetch('/api/buddy-thread/report', {
+          method: 'POST',
+          credentials: 'same-origin',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({
+            note,
+            categories: cats,
+            include_recent: includeRecent,
+            recent_messages: recentMessages,
+            thread_id: 'primary',
+            url: location.pathname,
+          }),
+        });
+      } catch {}
+
+      reportForm.hidden = true;
+      confirmEl.hidden = false;
+      sendBtn.disabled = false;
+      sendBtn.textContent = 'Send report';
+    });
+
+    if (exportBtn) {
+      exportBtn.addEventListener('click', () => {
+        const data = {
+          user: btUser.login || btUser.id,
+          exported_at: new Date().toISOString(),
+          turns: turnHistory.slice(),
+          session_id: getSessionId(),
+        };
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'buddy-thread-export.json';
+        a.click();
+        URL.revokeObjectURL(a.href);
+      });
+    }
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        if (!confirm('Clear your visible thread history? This does not undo Kokoro memories Buddy has already formed.')) return;
+        turnHistory.length = 0;
+        try {
+          localStorage.removeItem(SESSION_STORAGE);
+          localStorage.removeItem(PENDING_STORAGE);
+        } catch {}
+        const resp = document.getElementById('ask-response');
+        if (resp) { resp.className = 'ask-response'; resp.innerHTML = ''; }
+      });
+    }
+  })();
 })();
 </script>
 
@@ -766,12 +918,248 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     margin-top: 4px;
   }
 
+  /* BUDDY THREAD NOTICE */
+  .bt-notice {
+    margin-bottom: 20px;
+    border: 1.5px solid rgba(200, 58, 8, 0.2);
+    border-radius: 10px;
+    background: rgba(200, 58, 8, 0.04);
+    overflow: hidden;
+  }
+  .bt-notice-inner {
+    padding: 16px 20px;
+  }
+  .bt-notice-badge {
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #c83a08;
+    background: rgba(200, 58, 8, 0.08);
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .bt-notice p {
+    font-family: 'Georgia', serif;
+    font-size: 11pt;
+    color: #4a3a20;
+    line-height: 1.6;
+    margin: 0 0 6px;
+  }
+  .bt-notice p:last-of-type {
+    margin-bottom: 14px;
+  }
+  .bt-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .bt-report-btn {
+    background: #1a1a1a;
+    color: #f0a500;
+    border: 1.5px solid #1a1a1a;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background 180ms, transform 120ms;
+  }
+  .bt-report-btn:hover {
+    background: #2a2a2a;
+    transform: translateY(-1px);
+  }
+  .bt-export-btn, .bt-clear-btn {
+    background: transparent;
+    color: #6a5a3a;
+    border: 1px solid rgba(106, 90, 58, 0.3);
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: border-color 180ms, color 180ms;
+  }
+  .bt-export-btn:hover, .bt-clear-btn:hover {
+    color: #4a3a20;
+    border-color: rgba(106, 90, 58, 0.6);
+  }
+  .bt-policy-link {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    color: #8a5a00;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(138, 90, 0, 0.2);
+    letter-spacing: 0.04em;
+  }
+  .bt-policy-link:hover {
+    color: #c83a08;
+    border-color: rgba(200, 58, 8, 0.4);
+  }
+
+  /* REPORT MODAL */
+  .bt-modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .bt-modal {
+    background: #fffdf5;
+    border: 1.5px solid rgba(180, 138, 0, 0.22);
+    border-radius: 14px;
+    max-width: 520px;
+    width: 100%;
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: 28px 24px;
+    position: relative;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  }
+  .bt-modal-close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: #8a7a5a;
+    cursor: pointer;
+    line-height: 1;
+  }
+  .bt-modal h2 {
+    font-family: 'Georgia', serif;
+    font-size: 16pt;
+    color: #1a1a1a;
+    margin: 0 0 18px;
+  }
+  .bt-modal label {
+    display: block;
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    color: #4a3a20;
+    letter-spacing: 0.04em;
+    margin-bottom: 6px;
+  }
+  .bt-report-note {
+    width: 100%;
+    border: 1.5px solid rgba(180, 138, 0, 0.22);
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px 12px;
+    font-family: 'Georgia', serif;
+    font-size: 11pt;
+    color: #1a1a1a;
+    resize: vertical;
+    margin-bottom: 16px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  .bt-report-note:focus {
+    border-color: #c83a08;
+    box-shadow: 0 0 0 3px rgba(200, 58, 8, 0.1);
+  }
+  .bt-categories {
+    border: none;
+    padding: 0;
+    margin: 0 0 16px;
+  }
+  .bt-categories legend {
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    color: #6a5a3a;
+    letter-spacing: 0.04em;
+    margin-bottom: 8px;
+  }
+  .bt-categories label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Georgia', serif;
+    font-size: 10.5pt;
+    color: #4a3a20;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  .bt-categories input[type="checkbox"] {
+    accent-color: #c83a08;
+    width: 16px;
+    height: 16px;
+  }
+  .bt-include-label {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Georgia', serif !important;
+    font-size: 10.5pt !important;
+    color: #4a3a20 !important;
+    margin-bottom: 10px !important;
+    cursor: pointer;
+  }
+  .bt-include-label input[type="checkbox"] {
+    accent-color: #c83a08;
+    width: 16px;
+    height: 16px;
+  }
+  .bt-report-disclaimer {
+    font-family: 'Courier New', monospace;
+    font-size: 8.5pt;
+    color: #8a7a5a;
+    line-height: 1.5;
+    margin: 0 0 16px;
+    padding: 8px 10px;
+    background: rgba(180, 138, 0, 0.06);
+    border-radius: 6px;
+  }
+  .bt-report-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .bt-send-report {
+    background: #1a1a1a;
+    color: #f0a500;
+    border: 1.5px solid #1a1a1a;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background 180ms;
+  }
+  .bt-send-report:hover:not(:disabled) {
+    background: #2a2a2a;
+  }
+  .bt-send-report:disabled {
+    opacity: 0.55;
+    cursor: progress;
+  }
+  .bt-report-confirm {
+    font-family: 'Georgia', serif;
+    font-size: 12pt;
+    color: #2bb673;
+    text-align: center;
+    padding: 24px 0;
+    line-height: 1.5;
+  }
+
   @media (max-width: 620px) {
     .ask-page { padding: 90px 5vw 60px; }
     .ask-head { gap: 12px; }
     .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 76px !important; }
     .ask-input { font-size: 12pt; height: 48px; }
     .ask-btn { height: 48px; padding: 0 16px; font-size: 10pt; }
+    .bt-modal { padding: 20px 16px; }
+    .bt-actions { flex-direction: column; }
   }
 </style>
 
