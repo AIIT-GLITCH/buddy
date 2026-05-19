@@ -112,9 +112,13 @@ export async function onRequestPost(context) {
     created_at: now,
   };
 
-  await env.AUTH_KV.put(kvKey, JSON.stringify(report), {
-    expirationTtl: 60 * 60 * 24 * 365,
-  });
+  try {
+    await env.AUTH_KV.put(kvKey, JSON.stringify(report), {
+      expirationTtl: 60 * 60 * 24 * 365,
+    });
+  } catch {
+    return new Response(JSON.stringify({ ok: false, error: 'report_write_failed' }), { status: 500, headers: h });
+  }
 
-  return new Response(JSON.stringify({ ok: true }), { status: 200, headers: h });
+  return new Response(JSON.stringify({ ok: true, report_id: rid, created_at: now }), { status: 200, headers: h });
 }

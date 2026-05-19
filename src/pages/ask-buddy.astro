@@ -108,8 +108,11 @@ import BuddyMascot from '../components/BuddyMascot.astro';
           <button type="submit" class="bt-send-report" id="bt-send-report">Send report</button>
         </div>
       </form>
-      <div class="bt-report-confirm" id="bt-report-confirm" hidden>
-        Report sent. Thank you — this helps tune Buddy Thread.
+      <div class="bt-report-confirm" id="bt-report-confirm" role="status" aria-live="polite" hidden>
+        <strong>Report sent.</strong>
+        <span>Captured for manual AIIT review.</span>
+        <small id="bt-report-receipt"></small>
+        <button type="button" class="bt-confirm-close" id="bt-confirm-close">Close</button>
       </div>
       <div class="bt-report-error" id="bt-report-error" hidden></div>
     </div>
@@ -704,6 +707,8 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    const closeBtn = document.getElementById('bt-modal-close');
 	    const reportForm = document.getElementById('bt-report-form');
 	    const confirmEl = document.getElementById('bt-report-confirm');
+	    const confirmCloseBtn = document.getElementById('bt-confirm-close');
+	    const receiptEl = document.getElementById('bt-report-receipt');
 	    const exportBtn = document.getElementById('bt-export-btn');
 	    const clearBtn = document.getElementById('bt-clear-btn');
 	    const errorEl = document.getElementById('bt-report-error');
@@ -759,6 +764,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      confirmEl.hidden = true;
 	      reportForm.hidden = false;
 	      errorEl.hidden = true;
+	      if (receiptEl) receiptEl.textContent = '';
 	      reportForm.reset();
 	      if (includeRecentEl) includeRecentEl.checked = true;
 	      requestAnimationFrame(() => noteEl && noteEl.focus());
@@ -767,6 +773,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 	    reportBtn.addEventListener('click', openModal);
 	    closeBtn.addEventListener('click', closeModal);
+	    if (confirmCloseBtn) confirmCloseBtn.addEventListener('click', closeModal);
 	    overlay.addEventListener('click', (e) => { if (e.target === overlay) closeModal(); });
 
 	    reportForm.addEventListener('submit', async (e) => {
@@ -824,6 +831,11 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      }
 
 	      reportForm.hidden = true;
+	      if (receiptEl) {
+	        receiptEl.textContent = data.report_id
+	          ? 'receipt: ' + data.report_id
+	          : 'receipt captured';
+	      }
 	      confirmEl.hidden = false;
 	      setThreadMessage('Report captured for manual review.', 'ok');
 	    });
@@ -1460,15 +1472,49 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     opacity: 0.55;
     cursor: progress;
   }
-  .bt-report-confirm {
-    font-family: 'Georgia', serif;
-    font-size: 12pt;
-    color: #2bb673;
-    text-align: center;
-    padding: 24px 0;
-    line-height: 1.5;
-  }
-  .bt-report-error {
+	  .bt-report-confirm {
+	    font-family: 'Georgia', serif;
+	    font-size: 12pt;
+	    color: #1f7d4f;
+	    text-align: center;
+	    padding: 22px 14px;
+	    line-height: 1.5;
+	    background: rgba(43, 182, 115, 0.1);
+	    border: 1px solid rgba(43, 182, 115, 0.28);
+	    border-radius: 8px;
+	  }
+	  .bt-report-confirm strong {
+	    display: block;
+	    font-size: 17pt;
+	    color: #146b40;
+	    margin-bottom: 4px;
+	  }
+	  .bt-report-confirm span {
+	    display: block;
+	  }
+	  .bt-report-confirm small {
+	    display: block;
+	    margin: 10px 0 14px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+	    color: #4d6f5a;
+	    overflow-wrap: anywhere;
+	  }
+	  .bt-confirm-close {
+	    background: #1a1a1a;
+	    color: #f0a500;
+	    border: 1.5px solid #1a1a1a;
+	    padding: 9px 18px;
+	    border-radius: 8px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9.5pt;
+	    letter-spacing: 0.04em;
+	    cursor: pointer;
+	  }
+	  .bt-confirm-close:hover {
+	    background: #2a2a2a;
+	  }
+	  .bt-report-error {
     font-family: 'Courier New', monospace;
     font-size: 9.5pt;
     color: #c83a08;
