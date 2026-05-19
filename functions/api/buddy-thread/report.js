@@ -25,18 +25,24 @@ const MAX_NOTE_LEN = 2000;
 const MAX_RECENT_MESSAGES = 10;
 const MAX_MESSAGE_LEN = 1000;
 
-function corsHeaders() {
+function responseHeaders(request) {
+  const origin = request?.headers?.get('origin') || '';
+  const allowed = /^https:\/\/(www\.)?aiit-threshold\.com$/i.test(origin)
+    || /^https:\/\/[-a-z0-9]+\.buddy-bb4\.pages\.dev$/i.test(origin)
+    || /^https?:\/\/localhost(:\d+)?$/i.test(origin);
   return {
     'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'POST, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type',
-    'Access-Control-Allow-Credentials': 'true',
+    ...(allowed ? {
+      'Access-Control-Allow-Origin': origin,
+      'Access-Control-Allow-Methods': 'POST, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Allow-Credentials': 'true',
+    } : {}),
   };
 }
 
-export async function onRequestOptions() {
-  return new Response(null, { status: 204, headers: corsHeaders() });
+export async function onRequestOptions(context) {
+  return new Response(null, { status: 204, headers: responseHeaders(context.request) });
 }
 
 function parseSessionFromCookie(cookieHeader) {
@@ -69,7 +75,7 @@ function randomId() {
 
 export async function onRequestPost(context) {
   const { request, env } = context;
-  const h = corsHeaders();
+  const h = responseHeaders(request);
 
   const user = await getLoggedInUser(request, env);
   if (!user) {

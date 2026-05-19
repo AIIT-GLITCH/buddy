@@ -67,6 +67,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       <div class="bt-report-confirm" id="bt-report-confirm" hidden>
         Report sent. Thank you — this helps tune Buddy Thread.
       </div>
+      <div class="bt-report-error" id="bt-report-error" hidden></div>
     </div>
   </div>
 
@@ -643,11 +644,15 @@ import BuddyMascot from '../components/BuddyMascot.astro';
         : [];
 
       const sendBtn = document.getElementById('bt-send-report');
+      const errorEl = document.getElementById('bt-report-error');
       sendBtn.disabled = true;
       sendBtn.textContent = 'Sending...';
+      errorEl.hidden = true;
 
+      let res = null;
+      let data = null;
       try {
-        await fetch('/api/buddy-thread/report', {
+        res = await fetch('/api/buddy-thread/report', {
           method: 'POST',
           credentials: 'same-origin',
           headers: { 'content-type': 'application/json' },
@@ -660,12 +665,23 @@ import BuddyMascot from '../components/BuddyMascot.astro';
             url: location.pathname,
           }),
         });
+        data = await res.json().catch(() => null);
       } catch {}
+
+      sendBtn.disabled = false;
+      sendBtn.textContent = 'Send report';
+
+      if (!res || !res.ok || !data || !data.ok) {
+        const loginExpired = res && res.status === 401;
+        errorEl.textContent = loginExpired
+          ? 'Your login expired. Refresh and log in again, then resend the report.'
+          : 'Report did not send. Copy your note or try again after refreshing.';
+        errorEl.hidden = false;
+        return;
+      }
 
       reportForm.hidden = true;
       confirmEl.hidden = false;
-      sendBtn.disabled = false;
-      sendBtn.textContent = 'Send report';
     });
 
     if (exportBtn) {
@@ -1149,6 +1165,17 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     color: #2bb673;
     text-align: center;
     padding: 24px 0;
+    line-height: 1.5;
+  }
+  .bt-report-error {
+    font-family: 'Courier New', monospace;
+    font-size: 9.5pt;
+    color: #c83a08;
+    background: rgba(200, 58, 8, 0.06);
+    border: 1px solid rgba(200, 58, 8, 0.2);
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-top: 12px;
     line-height: 1.5;
   }
 
