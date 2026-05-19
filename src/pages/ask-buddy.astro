@@ -17,7 +17,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     </div>
   </header>
 
-  <!-- EARLY ACCESS NOTICE — logged-in only -->
+  <!-- EARLY ACCESS NOTICE / BUDDY THREAD CONSOLE -->
   <div class="bt-notice" id="bt-notice" hidden>
     <div class="bt-notice-inner">
       <div class="bt-console-top">
@@ -48,6 +48,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
         <div class="bt-thread-list" id="bt-thread-list"></div>
       </div>
       <div class="bt-actions">
+        <a class="bt-login-btn" id="bt-login-btn" href="/api/auth/github/login?redirect=/ask-buddy" hidden>Activate Buddy Thread</a>
         <button type="button" class="bt-report-btn" id="bt-report-btn">Report weird behavior</button>
         <button type="button" class="bt-export-btn" id="bt-export-btn">Export thread</button>
         <button type="button" class="bt-clear-btn" id="bt-clear-btn">Clear thread</button>
@@ -698,16 +699,9 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 	  // --- BUDDY THREAD: auth check, visible thread API, report, export, clear ---
 	  (async function initBuddyThread() {
-	    let btUser = null;
-	    try {
-	      const r = await fetch('/api/auth/me', { credentials: 'same-origin' });
-	      const j = await r.json();
-	      btUser = j && j.user ? j.user : null;
-	    } catch {}
-	    if (!btUser) return;
-
 	    const notice = document.getElementById('bt-notice');
 	    const overlay = document.getElementById('bt-modal-overlay');
+	    const loginBtn = document.getElementById('bt-login-btn');
 	    const reportBtn = document.getElementById('bt-report-btn');
 	    const closeBtn = document.getElementById('bt-modal-close');
 	    const reportForm = document.getElementById('bt-report-form');
@@ -728,7 +722,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    const noteEl = document.getElementById('bt-report-note');
 
 	    if (notice) notice.hidden = false;
-	    if (userChip) userChip.textContent = '@' + (btUser.login || btUser.id || 'logged-in');
+	    if (loginBtn) {
+	      const here = encodeURIComponent(location.pathname + location.search + location.hash || '/ask-buddy');
+	      loginBtn.href = '/api/auth/github/login?redirect=' + here;
+	    }
 
 	    function setThreadMessage(message, kind = '') {
 	      if (!threadMessage) return;
@@ -750,6 +747,30 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      reportStatusEl.dataset.kind = kind;
 	      reportStatusEl.hidden = !message;
 	    }
+
+	    let btUser = null;
+	    try {
+	      const r = await fetch('/api/auth/me', { credentials: 'same-origin' });
+	      const j = await r.json();
+	      btUser = j && j.user ? j.user : null;
+	    } catch {}
+	    if (!btUser) {
+	      if (userChip) userChip.textContent = 'login required';
+	      if (threadState) threadState.textContent = 'locked';
+	      if (threadCount) threadCount.textContent = '0';
+	      if (loginBtn) loginBtn.hidden = false;
+	      [reportBtn, exportBtn, clearBtn].forEach((btn) => {
+	        if (btn) btn.disabled = true;
+	      });
+	      setThreadMessage('Sign in with GitHub to activate persistent Buddy Thread, reports, export, and clear controls.', '');
+	      return;
+	    }
+
+	    if (loginBtn) loginBtn.hidden = true;
+	    [reportBtn, exportBtn, clearBtn].forEach((btn) => {
+	      if (btn) btn.disabled = false;
+	    });
+	    if (userChip) userChip.textContent = '@' + (btUser.login || btUser.id || 'logged-in');
 
 	    function applyThread(thread) {
 	      const count = thread && Number(thread.message_count || 0);
@@ -1332,6 +1353,27 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    gap: 8px;
 	    margin: 12px 0 10px;
 	  }
+	  .bt-login-btn {
+	    display: inline-flex;
+	    align-items: center;
+	    justify-content: center;
+	    background: #f0a500;
+	    color: #1a1a1a;
+	    border: 1.5px solid #f0a500;
+	    padding: 9px 16px;
+	    border-radius: 8px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 10pt;
+	    letter-spacing: 0.04em;
+	    text-decoration: none;
+	    cursor: pointer;
+	    transition: background 180ms, transform 120ms;
+	  }
+	  .bt-login-btn:hover {
+	    background: #ffd36a;
+	    border-color: #ffd36a;
+	    transform: translateY(-1px);
+	  }
 	  .bt-report-btn {
 	    background: #f0a500;
 	    color: #1a1a1a;
@@ -1344,7 +1386,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     cursor: pointer;
     transition: background 180ms, transform 120ms;
 	  }
-	  .bt-report-btn:hover {
+	  .bt-report-btn:hover:not(:disabled) {
 	    background: #ffd36a;
 	    border-color: #ffd36a;
 	    transform: translateY(-1px);
@@ -1361,7 +1403,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     cursor: pointer;
 	    transition: border-color 180ms, color 180ms, background 180ms;
 	  }
-	  .bt-export-btn:hover, .bt-clear-btn:hover {
+	  .bt-export-btn:hover:not(:disabled), .bt-clear-btn:hover:not(:disabled) {
 	    color: #f0a500;
 	    border-color: rgba(240, 165, 0, 0.5);
 	    background: rgba(240, 165, 0, 0.08);
@@ -1407,6 +1449,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	  }
 
 	  .bt-notice[hidden],
+	  .bt-login-btn[hidden],
 	  .bt-thread-preview[hidden],
 	  .bt-thread-message[hidden],
 	  .bt-modal-overlay[hidden],
