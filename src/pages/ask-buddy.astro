@@ -20,37 +20,81 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   <!-- EARLY ACCESS NOTICE — logged-in only -->
   <div class="bt-notice" id="bt-notice" hidden>
     <div class="bt-notice-inner">
-      <div class="bt-notice-badge">Early Buddy Thread access</div>
-      <p>You are one of the first people with a running conversation with Buddy.</p>
-      <p>This is experimental. Buddy may remember context, misread context, over-connect patterns, or act strange while the thread system is being tuned.</p>
-      <p>If something feels weird, report it. Weird is useful right now.</p>
+      <div class="bt-console-top">
+        <div>
+          <div class="bt-notice-badge">Buddy Thread alpha</div>
+          <h2>First look at persistent Buddy.</h2>
+        </div>
+        <div class="bt-user-chip" id="bt-user-chip">checking login</div>
+      </div>
+      <p class="bt-lede">This is not a search box. This is an early account-linked Buddy conversation with continuity, report capture, and manual memory review.</p>
+      <p>Buddy may remember context, misread context, over-connect patterns, or act strange while the thread system is being tuned.</p>
+      <div class="bt-metrics" aria-label="Buddy Thread status">
+        <div class="bt-metric">
+          <span id="bt-thread-state">checking</span>
+          <small>thread state</small>
+        </div>
+        <div class="bt-metric">
+          <span id="bt-thread-count">0</span>
+          <small>stored messages</small>
+        </div>
+        <div class="bt-metric">
+          <span>manual</span>
+          <small>memory review</small>
+        </div>
+      </div>
       <div class="bt-actions">
         <button type="button" class="bt-report-btn" id="bt-report-btn">Report weird behavior</button>
         <button type="button" class="bt-export-btn" id="bt-export-btn">Export thread</button>
         <button type="button" class="bt-clear-btn" id="bt-clear-btn">Clear thread</button>
       </div>
-      <a class="bt-policy-link" href="/data-policy">Data policy</a>
+      <div class="bt-thread-message" id="bt-thread-message" role="status" aria-live="polite" hidden></div>
+      <a class="bt-policy-link" href="/data-policy">Read the Buddy data policy -></a>
     </div>
   </div>
 
   <!-- REPORT MODAL -->
   <div class="bt-modal-overlay" id="bt-modal-overlay" hidden>
-    <div class="bt-modal" role="dialog" aria-labelledby="bt-modal-title">
+    <div class="bt-modal" role="dialog" aria-modal="true" aria-labelledby="bt-modal-title">
       <button type="button" class="bt-modal-close" id="bt-modal-close" aria-label="Close">&times;</button>
       <h2 id="bt-modal-title">Report weird behavior</h2>
+      <p class="bt-modal-sub">Reports are review material only. They do not auto-promote into Buddy's memory.</p>
       <form id="bt-report-form" autocomplete="off">
         <label for="bt-report-note">What happened?</label>
         <textarea id="bt-report-note" class="bt-report-note" maxlength="2000" rows="4" placeholder="Describe what Buddy did that felt off..."></textarea>
 
         <fieldset class="bt-categories">
-          <legend>Optional — what kind of weird?</legend>
-          <label><input type="checkbox" name="bt-cat" value="forgot_context"> Buddy forgot context</label>
-          <label><input type="checkbox" name="bt-cat" value="wrong_memory"> Buddy remembered wrong</label>
-          <label><input type="checkbox" name="bt-cat" value="overconnected"> Buddy over-connected things</label>
-          <label><input type="checkbox" name="bt-cat" value="strange_answer"> Buddy answered strangely</label>
-          <label><input type="checkbox" name="bt-cat" value="stuck_loop"> Buddy got stuck / repeated itself</label>
-          <label><input type="checkbox" name="bt-cat" value="unsafe"> Something felt unsafe</label>
-          <label><input type="checkbox" name="bt-cat" value="other"> Other</label>
+          <legend>Classify the failure</legend>
+          <div class="bt-category-grid">
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="forgot_context">
+              <span><strong>Forgot context</strong><small>Lost something already established.</small></span>
+            </label>
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="wrong_memory">
+              <span><strong>Wrong memory</strong><small>Remembered something incorrectly.</small></span>
+            </label>
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="overconnected">
+              <span><strong>Over-connected</strong><small>Linked patterns too aggressively.</small></span>
+            </label>
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="strange_answer">
+              <span><strong>Strange answer</strong><small>Awkward, broken, or off-tone.</small></span>
+            </label>
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="stuck_loop">
+              <span><strong>Loop or repeat</strong><small>Got stuck saying the same thing.</small></span>
+            </label>
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="unsafe">
+              <span><strong>Unsafe</strong><small>Something felt risky or wrong.</small></span>
+            </label>
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="other">
+              <span><strong>Other</strong><small>Anything that does not fit above.</small></span>
+            </label>
+          </div>
         </fieldset>
 
         <label class="bt-include-label">
@@ -423,14 +467,50 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     }
   }
 
-	  const MAX_HISTORY_PAIRS = 6;
-	  const turnHistory = [];
-	  function pushTurn(q, a) {
-	    turnHistory.push({ q, a });
-	    while (turnHistory.length > MAX_HISTORY_PAIRS) turnHistory.shift();
-	  }
+		  const MAX_HISTORY_PAIRS = 6;
+		  const turnHistory = [];
+		  let refreshBuddyThread = null;
+		  function pushTurn(q, a) {
+		    turnHistory.push({ q, a });
+		    while (turnHistory.length > MAX_HISTORY_PAIRS) turnHistory.shift();
+		  }
+		  function hydrateTurnHistory(messages) {
+		    if (!Array.isArray(messages)) return;
+		    const pairs = [];
+		    let pendingUser = null;
+		    messages.forEach((m) => {
+		      if (!m || typeof m.text !== 'string') return;
+		      if (m.role === 'user') {
+		        pendingUser = m.text;
+		      } else if (m.role === 'buddy' && pendingUser) {
+		        pairs.push({ q: pendingUser, a: m.text });
+		        pendingUser = null;
+		      }
+		    });
+		    turnHistory.length = 0;
+		    pairs.slice(-MAX_HISTORY_PAIRS).forEach(t => turnHistory.push(t));
+		  }
+		  function downloadJson(filename, data) {
+		    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+		    const a = document.createElement('a');
+		    a.href = URL.createObjectURL(blob);
+		    a.download = filename;
+		    a.style.display = 'none';
+		    document.body.appendChild(a);
+		    a.click();
+		    setTimeout(() => {
+		      URL.revokeObjectURL(a.href);
+		      a.remove();
+		    }, 250);
+		  }
+		  function noteThreadPayload(payload) {
+		    if (!payload || !payload.thread || !payload.thread.enabled) return;
+		    if (payload.thread.saved && refreshBuddyThread) {
+		      refreshBuddyThread({ quiet: true });
+		    }
+		  }
 
-	  const PENDING_STORAGE = 'askbuddy_pending_requests';
+		  const PENDING_STORAGE = 'askbuddy_pending_requests';
 	  const PENDING_POLL_MS = 3000;
 	  const PENDING_MAX_POLLS = 100;
 	  function loadPending() {
@@ -468,25 +548,29 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    if (!entry || !entry.request_id) return;
 	    let payload = null;
 	    try {
-	      const res = await fetch('/api/askbuddy_poll', {
-	        method: 'POST',
-	        headers: { 'content-type': 'application/json' },
-	        body: JSON.stringify({
-	          request_id: entry.request_id,
-	          session_id: entry.session_id,
-	        }),
-	      });
+		      const res = await fetch('/api/askbuddy_poll', {
+		        method: 'POST',
+		        credentials: 'same-origin',
+		        headers: { 'content-type': 'application/json' },
+		        body: JSON.stringify({
+		          request_id: entry.request_id,
+		          session_id: entry.session_id,
+		          question: entry.question || '',
+		          account_thread: !!entry.account_thread,
+		        }),
+		      });
 	      payload = await res.json();
 	    } catch {
 	      payload = { ok: false, error: 'network_failed' };
 	    }
 
 	    if (payload && payload.ok && payload.status === 'ready') {
-	      removePending(entry.request_id);
-	      pushTurn(entry.question || '', payload.answer || '');
-	      showFirstOutput(payload);
-	      return;
-	    }
+		      removePending(entry.request_id);
+		      pushTurn(entry.question || '', payload.answer || '');
+		      showFirstOutput(payload);
+		      noteThreadPayload(payload);
+		      return;
+		    }
 	    if (payload && payload.ok && payload.status === 'pending') {
 	      updatePendingMessage(attempt);
 	      if (attempt < PENDING_MAX_POLLS) {
@@ -525,11 +609,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     const t0 = performance.now();
     let payload = null;
     try {
-      const res = await fetch('/api/askbuddy', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({
-          question: q,
+	      const res = await fetch('/api/askbuddy', {
+	        method: 'POST',
+	        credentials: 'same-origin',
+	        headers: { 'content-type': 'application/json' },
+	        body: JSON.stringify({
+	          question: q,
           fingerprint: getFingerprint(),
           session_id: getSessionId(),
           history: turnHistory.slice(),
@@ -546,21 +631,23 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       await new Promise(r => setTimeout(r, minShowMs - elapsed));
     }
 
-	    if (payload && payload.ok && payload.status === 'pending') {
-	      const entry = {
-	        request_id: payload.request_id,
-	        session_id: getSessionId(),
-	        question: q,
-	        ts: Date.now(),
-	      };
+		    if (payload && payload.ok && payload.status === 'pending') {
+		      const entry = {
+		        request_id: payload.request_id,
+		        session_id: payload.session_id || getSessionId(),
+		        question: q,
+		        account_thread: !!(payload.thread && payload.thread.enabled),
+		        ts: Date.now(),
+		      };
 	      addPending(entry);
 	      showPending(q);
 	      input.value = '';
 	      pollPending(entry, 0);
-	    } else if (payload && payload.ok) {
-	      pushTurn(q, payload.answer || '');
-	      showFirstOutput(payload);
-	      input.value = '';
+		    } else if (payload && payload.ok) {
+		      pushTurn(q, payload.answer || '');
+		      showFirstOutput(payload);
+		      noteThreadPayload(payload);
+		      input.value = '';
 	    } else if (payload && payload.error === 'daily_limit_reached') {
 	      showReply(payload.message || "you've used today's question. come back tomorrow.");
 	    } else if (payload && payload.error === 'budget_exhausted') {
@@ -601,119 +688,202 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     } catch {}
   })();
 
-  // --- BUDDY THREAD: auth check, report, export, clear ---
-  (async function initBuddyThread() {
-    let btUser = null;
-    try {
-      const r = await fetch('/api/auth/me', { credentials: 'same-origin' });
-      const j = await r.json();
-      btUser = j && j.user ? j.user : null;
-    } catch {}
-    if (!btUser) return;
+	  // --- BUDDY THREAD: auth check, visible thread API, report, export, clear ---
+	  (async function initBuddyThread() {
+	    let btUser = null;
+	    try {
+	      const r = await fetch('/api/auth/me', { credentials: 'same-origin' });
+	      const j = await r.json();
+	      btUser = j && j.user ? j.user : null;
+	    } catch {}
+	    if (!btUser) return;
 
-    const notice = document.getElementById('bt-notice');
-    if (notice) notice.hidden = false;
+	    const notice = document.getElementById('bt-notice');
+	    const overlay = document.getElementById('bt-modal-overlay');
+	    const reportBtn = document.getElementById('bt-report-btn');
+	    const closeBtn = document.getElementById('bt-modal-close');
+	    const reportForm = document.getElementById('bt-report-form');
+	    const confirmEl = document.getElementById('bt-report-confirm');
+	    const exportBtn = document.getElementById('bt-export-btn');
+	    const clearBtn = document.getElementById('bt-clear-btn');
+	    const errorEl = document.getElementById('bt-report-error');
+	    const userChip = document.getElementById('bt-user-chip');
+	    const threadState = document.getElementById('bt-thread-state');
+	    const threadCount = document.getElementById('bt-thread-count');
+	    const threadMessage = document.getElementById('bt-thread-message');
+	    const includeRecentEl = document.getElementById('bt-include-recent');
+	    const noteEl = document.getElementById('bt-report-note');
 
-    const overlay = document.getElementById('bt-modal-overlay');
-    const reportBtn = document.getElementById('bt-report-btn');
-    const closeBtn = document.getElementById('bt-modal-close');
-    const reportForm = document.getElementById('bt-report-form');
-    const confirmEl = document.getElementById('bt-report-confirm');
-    const exportBtn = document.getElementById('bt-export-btn');
-    const clearBtn = document.getElementById('bt-clear-btn');
+	    if (notice) notice.hidden = false;
+	    if (userChip) userChip.textContent = '@' + (btUser.login || btUser.id || 'logged-in');
 
-    function openModal() { overlay.hidden = false; confirmEl.hidden = true; reportForm.hidden = false; }
-    function closeModal() { overlay.hidden = true; }
+	    function setThreadMessage(message, kind = '') {
+	      if (!threadMessage) return;
+	      threadMessage.textContent = message || '';
+	      threadMessage.dataset.kind = kind;
+	      threadMessage.hidden = !message;
+	    }
 
-    reportBtn.addEventListener('click', openModal);
-    closeBtn.addEventListener('click', closeModal);
-    overlay.addEventListener('click', (e) => { if (e.target === overlay) closeModal(); });
+	    function threadErrorCopy(status, error) {
+	      if (status === 401 || error === 'login_required') return 'Your login expired. Refresh and log in again.';
+	      if (status === 503 || error === 'auth_kv_missing' || error === 'kv_not_bound') return 'Buddy Thread storage is not bound on this environment.';
+	      return 'Buddy Thread did not respond. Refresh and try again.';
+	    }
 
-    reportForm.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const note = document.getElementById('bt-report-note').value.trim();
-      if (!note) return;
-      const cats = Array.from(document.querySelectorAll('input[name="bt-cat"]:checked')).map(c => c.value);
-      const includeRecent = document.getElementById('bt-include-recent').checked;
+	    function applyThread(thread) {
+	      const count = thread && Number(thread.message_count || 0);
+	      if (threadCount) threadCount.textContent = String(count || 0);
+	      if (threadState) threadState.textContent = count ? 'live' : 'ready';
+	      hydrateTurnHistory(thread && thread.messages);
+	    }
 
-      const recentMessages = includeRecent
-        ? turnHistory.slice(-10).flatMap(t => [
-            { role: 'user', text: t.q },
-            { role: 'buddy', text: t.a },
-          ])
-        : [];
+	    async function fetchVisibleThread({ quiet = false } = {}) {
+	      if (!quiet && threadState) threadState.textContent = 'loading';
+	      const res = await fetch('/api/buddy-thread/thread', { credentials: 'same-origin' });
+	      const data = await res.json().catch(() => null);
+	      if (!res.ok || !data || !data.ok) {
+	        throw new Error(threadErrorCopy(res.status, data && data.error));
+	      }
+	      applyThread(data.thread);
+	      if (!quiet) setThreadMessage('Visible account thread loaded.', 'ok');
+	      return data;
+	    }
+	    refreshBuddyThread = fetchVisibleThread;
+	    fetchVisibleThread({ quiet: true }).catch((err) => {
+	      if (threadState) threadState.textContent = 'offline';
+	      setThreadMessage(err.message, 'error');
+	    });
 
-      const sendBtn = document.getElementById('bt-send-report');
-      const errorEl = document.getElementById('bt-report-error');
-      sendBtn.disabled = true;
-      sendBtn.textContent = 'Sending...';
-      errorEl.hidden = true;
+	    function openModal() {
+	      overlay.hidden = false;
+	      confirmEl.hidden = true;
+	      reportForm.hidden = false;
+	      errorEl.hidden = true;
+	      reportForm.reset();
+	      if (includeRecentEl) includeRecentEl.checked = true;
+	      requestAnimationFrame(() => noteEl && noteEl.focus());
+	    }
+	    function closeModal() { overlay.hidden = true; }
 
-      let res = null;
-      let data = null;
-      try {
-        res = await fetch('/api/buddy-thread/report', {
-          method: 'POST',
-          credentials: 'same-origin',
-          headers: { 'content-type': 'application/json' },
-          body: JSON.stringify({
-            note,
-            categories: cats,
-            include_recent: includeRecent,
-            recent_messages: recentMessages,
-            thread_id: 'primary',
-            url: location.pathname,
-          }),
-        });
-        data = await res.json().catch(() => null);
-      } catch {}
+	    reportBtn.addEventListener('click', openModal);
+	    closeBtn.addEventListener('click', closeModal);
+	    overlay.addEventListener('click', (e) => { if (e.target === overlay) closeModal(); });
 
-      sendBtn.disabled = false;
-      sendBtn.textContent = 'Send report';
+	    reportForm.addEventListener('submit', async (e) => {
+	      e.preventDefault();
+	      const note = noteEl.value.trim();
+	      if (!note) {
+	        errorEl.textContent = 'Add a short note before sending.';
+	        errorEl.hidden = false;
+	        return;
+	      }
+	      const cats = Array.from(document.querySelectorAll('input[name="bt-cat"]:checked')).map(c => c.value);
+	      const includeRecent = includeRecentEl.checked;
 
-      if (!res || !res.ok || !data || !data.ok) {
-        const loginExpired = res && res.status === 401;
-        errorEl.textContent = loginExpired
-          ? 'Your login expired. Refresh and log in again, then resend the report.'
-          : 'Report did not send. Copy your note or try again after refreshing.';
-        errorEl.hidden = false;
-        return;
-      }
+	      const recentMessages = includeRecent
+	        ? turnHistory.slice(-10).flatMap(t => [
+	            { role: 'user', text: t.q },
+	            { role: 'buddy', text: t.a },
+	          ])
+	        : [];
 
-      reportForm.hidden = true;
-      confirmEl.hidden = false;
-    });
+	      const sendBtn = document.getElementById('bt-send-report');
+	      sendBtn.disabled = true;
+	      sendBtn.textContent = 'Sending...';
+	      errorEl.hidden = true;
 
-    if (exportBtn) {
-      exportBtn.addEventListener('click', () => {
-        const data = {
-          user: btUser.login || btUser.id,
-          exported_at: new Date().toISOString(),
-          turns: turnHistory.slice(),
-          session_id: getSessionId(),
-        };
-        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-        const a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = 'buddy-thread-export.json';
-        a.click();
-        URL.revokeObjectURL(a.href);
-      });
-    }
+	      let res = null;
+	      let data = null;
+	      try {
+	        res = await fetch('/api/buddy-thread/report', {
+	          method: 'POST',
+	          credentials: 'same-origin',
+	          headers: { 'content-type': 'application/json' },
+	          body: JSON.stringify({
+	            note,
+	            categories: cats,
+	            include_recent: includeRecent,
+	            recent_messages: recentMessages,
+	            thread_id: 'primary',
+	            url: location.pathname,
+	          }),
+	        });
+	        data = await res.json().catch(() => null);
+	      } catch {}
 
-    if (clearBtn) {
-      clearBtn.addEventListener('click', () => {
-        if (!confirm('Clear your visible thread history? This does not undo Kokoro memories Buddy has already formed.')) return;
-        turnHistory.length = 0;
-        try {
-          localStorage.removeItem(SESSION_STORAGE);
-          localStorage.removeItem(PENDING_STORAGE);
-        } catch {}
-        const resp = document.getElementById('ask-response');
-        if (resp) { resp.className = 'ask-response'; resp.innerHTML = ''; }
-      });
-    }
-  })();
+	      sendBtn.disabled = false;
+	      sendBtn.textContent = 'Send report';
+
+	      if (!res || !res.ok || !data || !data.ok) {
+	        const knownError = data && ['login_required', 'auth_kv_missing', 'kv_not_bound'].includes(data.error);
+	        errorEl.textContent = (knownError || (res && (res.status === 401 || res.status === 503)))
+	          ? threadErrorCopy(res && res.status, data && data.error)
+	          : 'Report did not send. Copy your note or try again after refreshing.';
+	        errorEl.hidden = false;
+	        return;
+	      }
+
+	      reportForm.hidden = true;
+	      confirmEl.hidden = false;
+	      setThreadMessage('Report captured for manual review.', 'ok');
+	    });
+
+	    if (exportBtn) {
+	      exportBtn.addEventListener('click', async () => {
+	        const prev = exportBtn.textContent;
+	        exportBtn.disabled = true;
+	        exportBtn.textContent = 'Exporting...';
+	        setThreadMessage('Preparing visible thread export...', '');
+	        try {
+	          const data = await fetchVisibleThread({ quiet: true });
+	          downloadJson('buddy-thread-export.json', {
+	            exported_at: new Date().toISOString(),
+	            user: data.user,
+	            thread: data.thread,
+	            limits: 'This export is the visible account thread only. Corpus records, reports, and Kokoro memory are separate.',
+	          });
+	          setThreadMessage('Visible account thread exported.', 'ok');
+	        } catch (err) {
+	          setThreadMessage(err.message || 'Export failed. Refresh and try again.', 'error');
+	        } finally {
+	          exportBtn.disabled = false;
+	          exportBtn.textContent = prev;
+	        }
+	      });
+	    }
+
+	    if (clearBtn) {
+	      clearBtn.addEventListener('click', async () => {
+	        if (!confirm('Clear the visible Buddy Thread for this login? This does not remove corpus logs, reviewed reports, or Kokoro memories Buddy may have formed.')) return;
+	        const prev = clearBtn.textContent;
+	        clearBtn.disabled = true;
+	        clearBtn.textContent = 'Clearing...';
+	        setThreadMessage('Clearing visible account thread...', '');
+	        try {
+	          const res = await fetch('/api/buddy-thread/thread', {
+	            method: 'DELETE',
+	            credentials: 'same-origin',
+	          });
+	          const data = await res.json().catch(() => null);
+	          if (!res.ok || !data || !data.ok) throw new Error(threadErrorCopy(res.status, data && data.error));
+	          applyThread(data.thread);
+	          turnHistory.length = 0;
+	          try {
+	            localStorage.removeItem(SESSION_STORAGE);
+	            localStorage.removeItem(PENDING_STORAGE);
+	          } catch {}
+	          const resp = document.getElementById('ask-response');
+	          if (resp) { resp.className = 'ask-response'; resp.innerHTML = ''; }
+	          setThreadMessage('Visible account thread cleared.', 'ok');
+	        } catch (err) {
+	          setThreadMessage(err.message || 'Clear failed. Refresh and try again.', 'error');
+	        } finally {
+	          clearBtn.disabled = false;
+	          clearBtn.textContent = prev;
+	        }
+	      });
+	    }
+	  })();
 })();
 </script>
 
@@ -934,89 +1104,185 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     margin-top: 4px;
   }
 
-  /* BUDDY THREAD NOTICE */
-  .bt-notice {
-    margin-bottom: 20px;
-    border: 1.5px solid rgba(200, 58, 8, 0.2);
-    border-radius: 10px;
-    background: rgba(200, 58, 8, 0.04);
-    overflow: hidden;
-  }
-  .bt-notice-inner {
-    padding: 16px 20px;
-  }
-  .bt-notice-badge {
-    display: inline-block;
-    font-family: 'Courier New', monospace;
-    font-size: 9pt;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #c83a08;
-    background: rgba(200, 58, 8, 0.08);
-    padding: 3px 10px;
-    border-radius: 4px;
-    margin-bottom: 10px;
-  }
-  .bt-notice p {
-    font-family: 'Georgia', serif;
-    font-size: 11pt;
-    color: #4a3a20;
-    line-height: 1.6;
-    margin: 0 0 6px;
-  }
-  .bt-notice p:last-of-type {
-    margin-bottom: 14px;
-  }
-  .bt-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 8px;
-  }
-  .bt-report-btn {
-    background: #1a1a1a;
-    color: #f0a500;
-    border: 1.5px solid #1a1a1a;
-    padding: 8px 16px;
-    border-radius: 8px;
-    font-family: 'Courier New', monospace;
-    font-size: 10pt;
+	  /* BUDDY THREAD NOTICE */
+	  .bt-notice {
+	    margin-bottom: 22px;
+	    border: 1px solid rgba(240, 165, 0, 0.42);
+	    border-radius: 8px;
+	    background:
+	      linear-gradient(135deg, rgba(26, 26, 26, 0.98), rgba(55, 34, 17, 0.96)),
+	      #1a1a1a;
+	    overflow: hidden;
+	    box-shadow: 0 18px 40px rgba(40, 24, 10, 0.22);
+	  }
+	  .bt-notice-inner {
+	    padding: 20px;
+	  }
+	  .bt-console-top {
+	    display: flex;
+	    align-items: flex-start;
+	    justify-content: space-between;
+	    gap: 14px;
+	    margin-bottom: 12px;
+	  }
+	  .bt-notice-badge {
+	    display: inline-block;
+	    font-family: 'Courier New', monospace;
+	    font-size: 8.5pt;
+	    letter-spacing: 0.08em;
+	    text-transform: uppercase;
+	    color: #f0a500;
+	    background: rgba(240, 165, 0, 0.1);
+	    border: 1px solid rgba(240, 165, 0, 0.22);
+	    padding: 3px 10px;
+	    border-radius: 4px;
+	    margin-bottom: 8px;
+	  }
+	  .bt-notice h2 {
+	    margin: 0;
+	    font-family: 'Georgia', serif;
+	    font-size: clamp(16pt, 3.2vw, 24pt);
+	    line-height: 1.08;
+	    color: #fff7df;
+	    font-weight: 800;
+	  }
+	  .bt-user-chip {
+	    flex: 0 0 auto;
+	    max-width: 190px;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+	    color: #1a1a1a;
+	    background: #f0a500;
+	    border: 1px solid rgba(255, 247, 223, 0.32);
+	    border-radius: 999px;
+	    padding: 6px 10px;
+	  }
+	  .bt-notice p {
+	    font-family: 'Georgia', serif;
+	    font-size: 11.5pt;
+	    color: rgba(255, 247, 223, 0.82);
+	    line-height: 1.55;
+	    margin: 0 0 8px;
+	  }
+	  .bt-notice .bt-lede {
+	    color: #fff7df;
+	    font-size: 12.5pt;
+	  }
+	  .bt-notice p:last-of-type {
+	    margin-bottom: 12px;
+	  }
+	  .bt-metrics {
+	    display: grid;
+	    grid-template-columns: repeat(3, minmax(0, 1fr));
+	    gap: 8px;
+	    margin: 14px 0;
+	  }
+	  .bt-metric {
+	    min-width: 0;
+	    background: rgba(255, 253, 245, 0.06);
+	    border: 1px solid rgba(255, 253, 245, 0.12);
+	    border-radius: 8px;
+	    padding: 10px;
+	  }
+	  .bt-metric span {
+	    display: block;
+	    overflow-wrap: anywhere;
+	    font-family: 'Courier New', monospace;
+	    font-size: 12pt;
+	    color: #f0a500;
+	    line-height: 1.1;
+	  }
+	  .bt-metric small {
+	    display: block;
+	    margin-top: 4px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 7.5pt;
+	    letter-spacing: 0.04em;
+	    color: rgba(255, 247, 223, 0.58);
+	    text-transform: uppercase;
+	  }
+	  .bt-actions {
+	    display: flex;
+	    flex-wrap: wrap;
+	    gap: 8px;
+	    margin: 12px 0 10px;
+	  }
+	  .bt-report-btn {
+	    background: #f0a500;
+	    color: #1a1a1a;
+	    border: 1.5px solid #f0a500;
+	    padding: 9px 16px;
+	    border-radius: 8px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 10pt;
     letter-spacing: 0.04em;
     cursor: pointer;
     transition: background 180ms, transform 120ms;
-  }
-  .bt-report-btn:hover {
-    background: #2a2a2a;
-    transform: translateY(-1px);
-  }
-  .bt-export-btn, .bt-clear-btn {
-    background: transparent;
-    color: #6a5a3a;
-    border: 1px solid rgba(106, 90, 58, 0.3);
-    padding: 8px 14px;
-    border-radius: 8px;
-    font-family: 'Courier New', monospace;
-    font-size: 9pt;
+	  }
+	  .bt-report-btn:hover {
+	    background: #ffd36a;
+	    border-color: #ffd36a;
+	    transform: translateY(-1px);
+	  }
+	  .bt-export-btn, .bt-clear-btn {
+	    background: rgba(255, 253, 245, 0.05);
+	    color: #fff7df;
+	    border: 1px solid rgba(255, 247, 223, 0.2);
+	    padding: 9px 14px;
+	    border-radius: 8px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
     letter-spacing: 0.04em;
     cursor: pointer;
-    transition: border-color 180ms, color 180ms;
-  }
-  .bt-export-btn:hover, .bt-clear-btn:hover {
-    color: #4a3a20;
-    border-color: rgba(106, 90, 58, 0.6);
-  }
-  .bt-policy-link {
-    font-family: 'Courier New', monospace;
-    font-size: 9pt;
-    color: #8a5a00;
-    text-decoration: none;
-    border-bottom: 1px solid rgba(138, 90, 0, 0.2);
-    letter-spacing: 0.04em;
-  }
-  .bt-policy-link:hover {
-    color: #c83a08;
-    border-color: rgba(200, 58, 8, 0.4);
-  }
+	    transition: border-color 180ms, color 180ms, background 180ms;
+	  }
+	  .bt-export-btn:hover, .bt-clear-btn:hover {
+	    color: #f0a500;
+	    border-color: rgba(240, 165, 0, 0.5);
+	    background: rgba(240, 165, 0, 0.08);
+	  }
+	  .bt-report-btn:disabled,
+	  .bt-export-btn:disabled,
+	  .bt-clear-btn:disabled {
+	    opacity: 0.58;
+	    cursor: progress;
+	  }
+	  .bt-thread-message {
+	    margin: 0 0 8px;
+	    padding: 8px 10px;
+	    border-radius: 6px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 8.5pt;
+	    line-height: 1.45;
+	    color: rgba(255, 247, 223, 0.78);
+	    background: rgba(255, 253, 245, 0.06);
+	    border: 1px solid rgba(255, 253, 245, 0.1);
+	  }
+	  .bt-thread-message[data-kind="ok"] {
+	    color: #b8ffd8;
+	    background: rgba(43, 182, 115, 0.12);
+	    border-color: rgba(43, 182, 115, 0.24);
+	  }
+	  .bt-thread-message[data-kind="error"] {
+	    color: #ffd0c4;
+	    background: rgba(200, 58, 8, 0.12);
+	    border-color: rgba(200, 58, 8, 0.26);
+	  }
+	  .bt-policy-link {
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+	    color: rgba(240, 165, 0, 0.9);
+	    text-decoration: none;
+	    border-bottom: 1px solid rgba(240, 165, 0, 0.28);
+	    letter-spacing: 0.04em;
+	  }
+	  .bt-policy-link:hover {
+	    color: #ffd36a;
+	    border-color: rgba(255, 211, 106, 0.5);
+	  }
 
   /* REPORT MODAL */
   .bt-modal-overlay {
@@ -1029,14 +1295,14 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     justify-content: center;
     padding: 20px;
   }
-  .bt-modal {
-    background: #fffdf5;
-    border: 1.5px solid rgba(180, 138, 0, 0.22);
-    border-radius: 14px;
-    max-width: 520px;
-    width: 100%;
-    max-height: 85vh;
-    overflow-y: auto;
+	  .bt-modal {
+	    background: #fffdf5;
+	    border: 1.5px solid rgba(180, 138, 0, 0.22);
+	    border-radius: 8px;
+	    max-width: 620px;
+	    width: 100%;
+	    max-height: 85vh;
+	    overflow-y: auto;
     padding: 28px 24px;
     position: relative;
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
@@ -1052,12 +1318,19 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     cursor: pointer;
     line-height: 1;
   }
-  .bt-modal h2 {
-    font-family: 'Georgia', serif;
-    font-size: 16pt;
-    color: #1a1a1a;
-    margin: 0 0 18px;
-  }
+	  .bt-modal h2 {
+	    font-family: 'Georgia', serif;
+	    font-size: 16pt;
+	    color: #1a1a1a;
+	    margin: 0 0 6px;
+	  }
+	  .bt-modal-sub {
+	    margin: 0 0 18px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+	    line-height: 1.45;
+	    color: #6a5a3a;
+	  }
   .bt-modal label {
     display: block;
     font-family: 'Courier New', monospace;
@@ -1089,28 +1362,56 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     padding: 0;
     margin: 0 0 16px;
   }
-  .bt-categories legend {
-    font-family: 'Courier New', monospace;
-    font-size: 10pt;
+	  .bt-categories legend {
+	    font-family: 'Courier New', monospace;
+	    font-size: 10pt;
     color: #6a5a3a;
-    letter-spacing: 0.04em;
-    margin-bottom: 8px;
-  }
-  .bt-categories label {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-family: 'Georgia', serif;
-    font-size: 10.5pt;
-    color: #4a3a20;
-    margin-bottom: 5px;
-    cursor: pointer;
-  }
-  .bt-categories input[type="checkbox"] {
-    accent-color: #c83a08;
-    width: 16px;
-    height: 16px;
-  }
+	    letter-spacing: 0.04em;
+	    margin-bottom: 8px;
+	  }
+	  .bt-category-grid {
+	    display: grid;
+	    grid-template-columns: repeat(2, minmax(0, 1fr));
+	    gap: 8px;
+	  }
+	  .bt-categories label.bt-cat-option {
+	    display: flex;
+	    align-items: flex-start;
+	    gap: 8px;
+	    min-height: 58px;
+	    margin: 0;
+	    padding: 9px;
+	    border: 1px solid rgba(180, 138, 0, 0.18);
+	    border-radius: 8px;
+	    background: rgba(180, 138, 0, 0.04);
+	    cursor: pointer;
+	  }
+	  .bt-cat-option span {
+	    display: block;
+	    min-width: 0;
+	  }
+	  .bt-cat-option strong {
+	    display: block;
+	    font-family: 'Georgia', serif;
+	    font-size: 10.5pt;
+	    color: #2a2418;
+	    line-height: 1.2;
+	  }
+	  .bt-cat-option small {
+	    display: block;
+	    margin-top: 3px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 8pt;
+	    line-height: 1.35;
+	    color: #7a6a4a;
+	  }
+	  .bt-categories input[type="checkbox"] {
+	    accent-color: #c83a08;
+	    width: 16px;
+	    height: 16px;
+	    flex: 0 0 auto;
+	    margin-top: 2px;
+	  }
   .bt-include-label {
     display: flex !important;
     align-items: center;
@@ -1179,15 +1480,19 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     line-height: 1.5;
   }
 
-  @media (max-width: 620px) {
-    .ask-page { padding: 90px 5vw 60px; }
-    .ask-head { gap: 12px; }
-    .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 76px !important; }
-    .ask-input { font-size: 12pt; height: 48px; }
-    .ask-btn { height: 48px; padding: 0 16px; font-size: 10pt; }
-    .bt-modal { padding: 20px 16px; }
-    .bt-actions { flex-direction: column; }
-  }
+	  @media (max-width: 620px) {
+	    .ask-page { padding: 90px 5vw 60px; }
+	    .ask-head { gap: 12px; }
+	    .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 76px !important; }
+	    .ask-input { font-size: 12pt; height: 48px; }
+	    .ask-btn { height: 48px; padding: 0 16px; font-size: 10pt; }
+	    .bt-console-top { flex-direction: column; }
+	    .bt-user-chip { max-width: 100%; }
+	    .bt-metrics { grid-template-columns: 1fr; }
+	    .bt-modal { padding: 20px 16px; }
+	    .bt-category-grid { grid-template-columns: 1fr; }
+	    .bt-actions { flex-direction: column; }
+	  }
 </style>
 
 </Layout>

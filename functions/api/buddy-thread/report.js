@@ -11,6 +11,8 @@
 //     Body: { note, categories, include_recent, recent_messages, thread_id, url }
 //     → { ok: true }
 
+import { getLoggedInUser } from '../../_lib/buddyThread.js';
+
 const ALLOWED_CATEGORIES = [
   'forgot_context',
   'wrong_memory',
@@ -45,27 +47,6 @@ export async function onRequestOptions(context) {
   return new Response(null, { status: 204, headers: responseHeaders(context.request) });
 }
 
-function parseSessionFromCookie(cookieHeader) {
-  if (!cookieHeader) return null;
-  const parts = cookieHeader.split(';').map(s => s.trim());
-  for (const p of parts) {
-    if (p.startsWith('aiit_session=')) return p.slice('aiit_session='.length);
-  }
-  return null;
-}
-
-async function getLoggedInUser(request, env) {
-  const session = parseSessionFromCookie(request.headers.get('cookie'));
-  if (!session || !env.AUTH_KV) return null;
-  const raw = await env.AUTH_KV.get(`session:${session}`);
-  if (!raw) return null;
-  try {
-    return JSON.parse(raw);
-  } catch {
-    return null;
-  }
-}
-
 function randomId() {
   const chars = 'abcdefghijklmnopqrstuvwxyz0123456789';
   let out = '';
@@ -77,13 +58,13 @@ export async function onRequestPost(context) {
   const { request, env } = context;
   const h = responseHeaders(request);
 
+  if (!env.AUTH_KV) {
+    return new Response(JSON.stringify({ ok: false, error: 'kv_not_bound' }), { status: 500, headers: h });
+  }
+
   const user = await getLoggedInUser(request, env);
   if (!user) {
     return new Response(JSON.stringify({ ok: false, error: 'login_required' }), { status: 401, headers: h });
-  }
-
-  if (!env.AUTH_KV) {
-    return new Response(JSON.stringify({ ok: false, error: 'kv_not_bound' }), { status: 500, headers: h });
   }
 
   let body;
