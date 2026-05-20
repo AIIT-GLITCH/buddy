@@ -1,0 +1,31 @@
+/*
+  Cache-Control: public, max-age=0, s-maxage=86400, stale-while-revalidate=604800
+  X-Content-Type-Options: nosniff
+
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+  Service-Worker-Allowed: /
+
+/snappy-nav.js
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/paper-game-sync.js
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.png
+  Cache-Control: public, max-age=604800, stale-while-revalidate=604800
+
+/*.jpg
+  Cache-Control: public, max-age=604800, stale-while-revalidate=604800
+
+/*.jpeg
+  Cache-Control: public, max-age=604800, stale-while-revalidate=604800
+
+/*.svg
+  Cache-Control: public, max-age=604800, stale-while-revalidate=604800
