@@ -33,6 +33,18 @@
     return list(slugs).sort().join('|');
   }
 
+  async function postCollection(slugs) {
+    const res = await fetch(URL, {
+      method: 'POST',
+      credentials: 'same-origin',
+      cache: 'no-store',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ collected_slugs: list(slugs) })
+    });
+    if (!res.ok) throw new Error('collection_save_' + res.status);
+    return res.json();
+  }
+
   function escapeHtml(s) {
     return String(s || '').replace(/[&<>'"]/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[c];
@@ -102,42 +114,32 @@
     lastRemotePoll = now;
     syncing = true;
 
-    let data;
     try {
       const res = await fetch(URL, { credentials: 'same-origin', cache: 'no-store' });
       if (!res.ok) { fire(local, null); return; }
-      data = await res.json();
+      let data = await res.json();
+
+      if (!data || !data.user) {
+        fire(local, null);
+        return;
+      }
+
+      const merged = merge(local, data.collected_slugs);
+      if (snapshot(merged) !== snapshot(local)) writeLocal(merged);
+
+      if (snapshot(merged) !== snapshot(data.collected_slugs)) {
+        try { data = await postCollection(merged); } catch {}
+      }
+
+      const finalSlugs = list((data && data.collected_slugs) || merged);
+      writeLocal(finalSlugs);
+      lastSnapshot = snapshot(finalSlugs);
+      fire(finalSlugs, data && data.user);
     } catch {
       fire(local, null);
-      return;
     } finally {
       syncing = false;
     }
-
-    if (!data || !data.user) {
-      fire(local, null);
-      return;
-    }
-
-    const merged = merge(local, data.collected_slugs);
-    if (snapshot(merged) !== snapshot(local)) writeLocal(merged);
-
-    if (snapshot(merged) !== snapshot(data.collected_slugs)) {
-      try {
-        const save = await fetch(URL, {
-          method: 'POST',
-          credentials: 'same-origin',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ collected_slugs: merged })
-        });
-        if (save.ok) data = await save.json();
-      } catch {}
-    }
-
-    const finalSlugs = list((data && data.collected_slugs) || merged);
-    writeLocal(finalSlugs);
-    lastSnapshot = snapshot(finalSlugs);
-    fire(finalSlugs, data && data.user);
   }
 
   function saveUnlocked(slug) {
@@ -148,10 +150,36 @@
       writeLocal(current);
       fire(current, null);
     }
-    return sync(true);
+    return postCollection(current)
+      .then(function (data) {
+        const finalSlugs = merge(current, data && data.collected_slugs);
+        writeLocal(finalSlugs);
+        lastSnapshot = snapshot(finalSlugs);
+        fire(finalSlugs, data && data.user);
+        return finalSlugs;
+      })
+      .catch(function () {
+        return sync(true);
+      });
   }
 
-  window.BuddyPaperGameSync = { sync, saveUnlocked, readLocal };
+  function flush() {
+    const local = readLocal();
+    if (!local.length) return Promise.resolve(local);
+    return postCollection(local)
+      .then(function (data) {
+        const finalSlugs = merge(local, data && data.collected_slugs);
+        writeLocal(finalSlugs);
+        lastSnapshot = snapshot(finalSlugs);
+        fire(finalSlugs, data && data.user);
+        return finalSlugs;
+      })
+      .catch(function () {
+        return sync(true);
+      });
+  }
+
+  window.BuddyPaperGameSync = { sync, saveUnlocked, flush, readLocal };
 
   function start() {
     lastSnapshot = snapshot(readLocal());

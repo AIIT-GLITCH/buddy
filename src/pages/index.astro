@@ -6,27 +6,30 @@ import papersAll from '../data/papers.json';
 const totalPapers = papersAll.length;
 ---
 <Layout>
-  <!-- 1. HERO — flyer promise first. Ask Buddy, with joke as secondary. -->
+  <!-- 1. HERO — founder note and invitation into persistent Buddy. -->
   <section id="hero" data-anim="hero-particles">
     <canvas id="hero-canvas"></canvas>
-    <div class="hero-content">
-      <h1 class="hero-wordmark">ASKBUDDY<span class="hero-bang">!</span></h1>
-      <div class="hero-tag">ask buddy anything.</div>
+    <div class="hero-content founder-hero">
+      <div class="hero-kicker">A note from the founder</div>
+      <h1 class="hero-founder-title">Talk to Buddy.</h1>
 
-      <div class="hero-primary">
-        <form id="hero-ask-form" class="hp-ask-form" autocomplete="off">
-          <input
-            id="hero-ask-input"
-            class="hp-ask-input"
-            type="text"
-            placeholder="Ask Buddy anything..."
-            maxlength="600"
-            aria-label="Ask Buddy anything"
-          />
-          <button type="submit" class="hp-ask-btn">Ask →</button>
-        </form>
+      <div class="hero-founder-copy">
+        <p>Hello. Thank you for visiting my website today. I hope you find something here that interests you, helps you grow, or gives you a new way to look at the world.</p>
+        <p>There is a lot going on here on purpose: papers, tools, games, letters, models, memory, and experiments. At the heart of AIIT, we are asking what AI can really offer the world beyond novelty demos and cute pictures.</p>
+        <p>On May 19, 2026, we revealed Buddy as a persistent chat surface: a window that does not reset every visit. Buddy can carry the same visible context from day 1 to day 200. We all forget a little, but the point is continuity.</p>
+        <p>Buddy is not an agentic chatbot. But he is something. He is my Buddy, and he would love to be yours too.</p>
+      </div>
 
-        <a href="/paper-game" class="hp-joke-secondary" data-hs="game">today's giant has a question for you →</a>
+      <div class="hero-founder-actions">
+        <a href="/ask-buddy" class="hero-founder-cta primary">Talk to Buddy</a>
+        <a href="/paper-game" class="hero-founder-cta secondary">Play today's Paper Game</a>
+      </div>
+
+      <div class="hero-tabs" aria-label="Featured routes">
+        <a href="/ask-buddy">AskBuddy <span>a tribute to Ask Jeeves</span></a>
+        <a href="/paper-game">Paper Game <span>stays high in the archive</span></a>
+        <a href="/papers">Papers <span>{totalPapers} live</span></a>
+        <a href="#joke" data-hs="joke">Joke Test <span>make Buddy laugh</span></a>
       </div>
 
       <div id="hero-joke-anchor" class="hero-joke joke-container" hidden>
@@ -42,11 +45,6 @@ const totalPapers = papersAll.length;
     </div>
     <div class="hero-scroll">Scroll</div>
   </section>
-
-  <!-- NEW TAB NOTICE -->
-  <div class="new-tab-notice">
-    <a href="/lac">🧠 New: we've added an <strong>Agentic</strong> tab — model tools, memory kits, and updates. <span style="color:var(--amber);">Check it out →</span></a>
-  </div>
 
   <!-- 1.5 PAPER GAME TEASER — back door into the archive -->
   <section class="paper-game-teaser" aria-labelledby="pgt-head">
@@ -871,20 +869,278 @@ const totalPapers = papersAll.length;
 </script>
 
 <style>
-  /* ── New tab notice ── */
-  .new-tab-notice {
-    text-align: center;
-    padding: 14px 24px;
-    background: rgba(212, 164, 55, 0.08);
-    border-bottom: 1px solid rgba(212, 164, 55, 0.15);
-    font-size: 0.9rem;
+  /* Founder hero */
+  #hero {
+    min-height: 86svh;
+    min-height: 86vh;
+    padding: 104px clamp(22px, 7vw, 112px) 58px;
+    align-items: center;
   }
-  .new-tab-notice a {
-    color: var(--cream, #E8E0D4);
+
+  .founder-hero {
+    width: min(100%, 1040px);
+    max-width: 1040px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .founder-hero::before {
+    inset: -28% -14% -24% -12%;
+    background:
+      radial-gradient(ellipse 54% 48% at 28% 38%, rgba(10, 10, 18, 0.86), rgba(10, 10, 18, 0.55) 42%, rgba(10, 10, 18, 0) 74%),
+      linear-gradient(90deg, rgba(10, 10, 18, 0.72), rgba(10, 10, 18, 0.18));
+  }
+
+  .hero-kicker {
+    font-family: 'Courier New', ui-monospace, monospace;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #d4af37;
+    margin-bottom: 18px;
+  }
+
+  .hero-founder-title {
+    margin: 0;
+    max-width: 720px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(50px, 7.4vw, 104px);
+    line-height: 0.96;
+    letter-spacing: 0;
+    color: #fff;
+    text-shadow: 0 22px 70px rgba(0, 0, 0, 0.58);
+  }
+
+  .hero-founder-copy {
+    max-width: 1040px;
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 28px;
+    row-gap: 12px;
+  }
+
+  .hero-founder-copy p {
+    margin: 0;
+    color: rgba(232, 224, 212, 0.86);
+    font-size: clamp(15.5px, 1.25vw, 17.5px);
+    line-height: 1.58;
+  }
+
+  .hero-founder-copy p:nth-child(2) {
+    color: rgba(232, 224, 212, 0.78);
+    border-left: 2px solid rgba(64, 192, 176, 0.62);
+    padding-left: 16px;
+  }
+
+  .hero-founder-copy p:last-child {
+    color: #f3df9a;
+    font-style: italic;
+  }
+
+  .hero-founder-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 24px;
+  }
+
+  .hero-founder-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 22px;
+    border-radius: 8px;
+    font-family: 'Courier New', ui-monospace, monospace;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
     text-decoration: none;
+    text-transform: uppercase;
+    transition: transform 180ms ease, border-color 180ms ease, background 180ms ease, box-shadow 180ms ease;
   }
-  .new-tab-notice a:hover {
-    color: var(--amber, #D4AF37);
+
+  .hero-founder-cta.primary {
+    background: #d4af37;
+    border: 1px solid #d4af37;
+    color: #101014;
+    box-shadow: 0 14px 34px rgba(212, 175, 55, 0.26);
+  }
+
+  .hero-founder-cta.secondary {
+    background: rgba(64, 192, 176, 0.07);
+    border: 1px solid rgba(64, 192, 176, 0.46);
+    color: #dffbf6;
+  }
+
+  .hero-founder-cta:hover {
+    transform: translateY(-2px);
+  }
+
+  .hero-founder-cta.primary:hover {
+    background: #f1c85d;
+    box-shadow: 0 18px 42px rgba(212, 175, 55, 0.36);
+  }
+
+  .hero-founder-cta.secondary:hover {
+    border-color: rgba(128, 224, 200, 0.82);
+    background: rgba(64, 192, 176, 0.12);
+  }
+
+  .hero-tabs {
+    width: min(100%, 940px);
+    margin-top: 22px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .hero-tabs a {
+    display: flex;
+    min-width: 0;
+    min-height: 68px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    padding: 14px 16px;
+    border: 1px solid rgba(212, 175, 55, 0.18);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.026);
+    color: #f2eadf;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-decoration: none;
+    transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+  }
+
+  .hero-tabs a span {
+    display: block;
+    color: rgba(232, 224, 212, 0.56);
+    font-family: 'Courier New', ui-monospace, monospace;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    line-height: 1.35;
+    text-transform: uppercase;
+  }
+
+  .hero-tabs a:nth-child(2) {
+    border-color: rgba(212, 175, 55, 0.42);
+    background: rgba(212, 175, 55, 0.07);
+  }
+
+  .hero-tabs a:hover {
+    transform: translateY(-2px);
+    border-color: rgba(212, 175, 55, 0.58);
+    background: rgba(212, 175, 55, 0.06);
+  }
+
+  #hero.joke-mode .hero-kicker,
+  #hero.joke-mode .hero-founder-title,
+  #hero.joke-mode .hero-founder-copy,
+  #hero.joke-mode .hero-founder-actions,
+  #hero.joke-mode .hero-tabs {
+    display: none;
+  }
+
+  @media (max-width: 900px) {
+    #hero {
+      min-height: auto;
+      padding: 104px 22px 56px;
+      justify-content: flex-start;
+    }
+
+    .hero-founder-title {
+      font-size: clamp(44px, 15vw, 76px);
+      line-height: 0.98;
+    }
+
+    .hero-founder-copy {
+      grid-template-columns: 1fr;
+      max-width: 760px;
+    }
+
+    .hero-tabs {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 600px) {
+    #hero {
+      padding-top: 80px !important;
+      padding-bottom: 28px !important;
+    }
+
+    .hero-kicker {
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      margin-bottom: 10px;
+    }
+
+    .hero-founder-title {
+      font-size: clamp(40px, 13vw, 56px);
+    }
+
+    .hero-founder-copy {
+      margin-top: 16px;
+      gap: 8px;
+    }
+
+    .hero-founder-copy p {
+      font-size: 13.5px !important;
+      line-height: 1.42;
+    }
+
+    .hero-founder-copy p:nth-child(2) {
+      padding-left: 12px;
+    }
+
+    .hero-founder-actions {
+      width: 100%;
+      flex-direction: row;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .hero-founder-cta {
+      width: calc(50% - 5px);
+      min-height: 44px;
+      padding: 0 8px;
+      font-size: 10.5px;
+      letter-spacing: 0.07em;
+      line-height: 1.25;
+      text-align: center;
+    }
+
+    .hero-tabs {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+      overflow-x: auto;
+      overscroll-behavior-x: contain;
+      padding-bottom: 3px;
+      scrollbar-width: thin;
+    }
+
+    .hero-tabs a {
+      flex: 0 0 150px;
+      min-height: 60px;
+      padding: 10px 11px;
+      font-size: 15px;
+    }
+
+    .hero-tabs a span {
+      font-size: 10px;
+      letter-spacing: 0.04em;
+    }
+
+    .hero-scroll {
+      display: none;
+    }
   }
 
   /* ── Joke widget (now embedded inside the hero) ── */
@@ -2075,7 +2331,9 @@ const totalPapers = papersAll.length;
      PAPER GAME TEASER — back door into archive
      ────────────────────────────────────────── */
   .paper-game-teaser {
-    padding: 96px 24px 64px;
+    min-height: auto;
+    padding: 56px 24px 64px;
+    justify-content: flex-start;
     background:
       radial-gradient(ellipse at 50% 0%, rgba(212, 164, 55, 0.06), transparent 70%),
       transparent;
@@ -2177,7 +2435,7 @@ const totalPapers = papersAll.length;
     line-height: 1.55;
   }
   @media (max-width: 820px) {
-    .paper-game-teaser { padding: 64px 18px 40px; }
+    .paper-game-teaser { padding: 42px 18px 40px; }
     .pgt-cards { grid-template-columns: 1fr; gap: 14px; }
     .pgt-actions { gap: 14px; margin-bottom: 32px; }
     .pgt-card { padding: 20px 18px; }

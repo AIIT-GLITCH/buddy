@@ -16,6 +16,7 @@
 //     → { ok:false, error:"corpus_write_failed" }
 
 import { callBuddy } from '../_lib/ingest.js';
+import { appendBuddyThreadTurn, getBuddyThreadSessionId, getLoggedInUser } from '../_lib/buddyThread.js';
 
 const MAX_QUESTION_LEN = 600;
 const BUDDY_SITE_MAX_TOKENS = 128;
@@ -123,7 +124,7 @@ export async function onRequestPost(context) {
 
   const question = String(body.question || '').trim().slice(0, MAX_QUESTION_LEN);
   const fingerprint = String(body.fingerprint || '').trim().slice(0, 128) || 'nofp';
-  const sessionId = String(body.session_id || '').trim().slice(0, 128) || fingerprint;
+  const browserSessionId = String(body.session_id || '').trim().slice(0, 128) || fingerprint;
   const rawHistory = Array.isArray(body.history) ? body.history : [];
   const history = rawHistory.slice(-6).map(t => ({
     q: String(t && t.q || '').slice(0, MAX_QUESTION_LEN),
@@ -134,6 +135,10 @@ export async function onRequestPost(context) {
   if (!question) {
     return new Response(JSON.stringify({ ok: false, error: 'empty question' }), { status: 400, headers });
   }
+
+  const loggedInUser = await getLoggedInUser(request, env);
+  const accountThread = !!(loggedInUser && (loggedInUser.login || loggedInUser.id));
+  const sessionId = accountThread ? await getBuddyThreadSessionId(env, loggedInUser, 'primary') : browserSessionId;
 
   const ip = request.headers.get('CF-Connecting-IP') ||
              request.headers.get('x-forwarded-for') || 'unknown';
@@ -164,7 +169,15 @@ export async function onRequestPost(context) {
     surface: 'ask',
     userInput: question,
     sessionId,
-    extras: { question, history, max_tokens: BUDDY_SITE_MAX_TOKENS, temperature: 0.25 },
+    extras: {
+      question,
+      history,
+      max_tokens: BUDDY_SITE_MAX_TOKENS,
+      temperature: 0.25,
+      account_thread: accountThread,
+      thread_id: 'primary',
+      user: accountThread ? { login: loggedInUser.login || null, id: loggedInUser.id || null } : null,
+    },
   });
 
   if (!ingest.ok) {
@@ -193,9 +206,11 @@ export async function onRequestPost(context) {
       ok: true,
       status: 'pending',
       request_id: ingest.request_id,
+      session_id: sessionId,
       message: 'buddy got your question, hang tight.',
       cta: 'pass it on',
       layer: 'surface',
+      thread: { enabled: accountThread, saved: false },
     }), { status: 200, headers });
   }
 
@@ -222,12 +237,25 @@ export async function onRequestPost(context) {
   // First-output shape: answer + optional observation + cta + layer.
   // Keeps `ok` and `answer` for back-compat with the current ask-buddy frontend.
   const obs = rollObservation();
+  let threadSaved = false;
+  if (accountThread) {
+    try {
+      await appendBuddyThreadTurn(env, loggedInUser, {
+        question,
+        answer,
+        requestId: ingest.request_id,
+        threadId: 'primary',
+      });
+      threadSaved = true;
+    } catch {}
+  }
   const payload = {
     ok: true,
     answer,
     cta: 'pass it on',
     layer: 'surface',
     remainingToday: 0,
+    thread: { enabled: accountThread, saved: threadSaved },
   };
   if (obs) {
     payload.observation = obs.text;

@@ -17,6 +17,116 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     </div>
   </header>
 
+  <!-- EARLY ACCESS NOTICE / BUDDY THREAD CONSOLE -->
+  <div class="bt-notice" id="bt-notice" hidden>
+    <div class="bt-notice-inner">
+      <div class="bt-console-top">
+        <div>
+          <div class="bt-notice-badge">Buddy Thread alpha</div>
+          <h2>Talk with persistent Buddy.</h2>
+        </div>
+        <div class="bt-user-chip" id="bt-user-chip">checking login</div>
+      </div>
+      <p class="bt-lede">This is not a search box. This is an early account-linked Buddy conversation with continuity, report capture, and manual memory review.</p>
+      <p>Buddy may remember context, misread context, over-connect patterns, or act strange while the thread system is being tuned.</p>
+      <div class="bt-metrics" aria-label="Buddy Thread status">
+        <div class="bt-metric">
+          <span id="bt-thread-state">checking</span>
+          <small>thread state</small>
+        </div>
+        <div class="bt-metric">
+          <span id="bt-thread-count">0</span>
+          <small>stored messages</small>
+        </div>
+        <div class="bt-metric">
+          <span>manual</span>
+          <small>memory review</small>
+        </div>
+      </div>
+      <div class="bt-thread-preview" id="bt-thread-preview" hidden>
+        <div class="bt-thread-preview-title">Live Buddy Thread Window</div>
+        <div class="bt-thread-list" id="bt-thread-list" aria-live="polite"></div>
+        <div class="bt-thread-typing" id="bt-thread-typing" hidden></div>
+        <div class="bt-thread-composer-slot" id="bt-thread-composer-slot" hidden></div>
+      </div>
+      <div class="bt-actions">
+        <a class="bt-login-btn" id="bt-login-btn" href="/api/auth/github/login?redirect=/ask-buddy" hidden>Activate Buddy Thread</a>
+        <button type="button" class="bt-demo-btn" id="bt-demo-btn" hidden>Preview chat window</button>
+        <button type="button" class="bt-report-btn" id="bt-report-btn">Report weird behavior</button>
+        <button type="button" class="bt-export-btn" id="bt-export-btn">Export thread</button>
+        <button type="button" class="bt-clear-btn" id="bt-clear-btn">Clear thread</button>
+      </div>
+      <div class="bt-thread-message" id="bt-thread-message" role="status" aria-live="polite" hidden></div>
+      <a class="bt-policy-link" href="/data-policy">Read the Buddy data policy -></a>
+    </div>
+  </div>
+
+  <!-- REPORT MODAL -->
+  <div class="bt-modal-overlay" id="bt-modal-overlay" hidden>
+    <div class="bt-modal" role="dialog" aria-modal="true" aria-labelledby="bt-modal-title">
+      <button type="button" class="bt-modal-close" id="bt-modal-close" aria-label="Close">&times;</button>
+      <h2 id="bt-modal-title">Report weird behavior</h2>
+      <p class="bt-modal-sub">Reports are review material only. They do not auto-promote into Buddy's memory.</p>
+      <div class="bt-report-status" id="bt-report-status" role="status" aria-live="polite" hidden></div>
+      <form id="bt-report-form" autocomplete="off">
+        <label for="bt-report-note">What happened?</label>
+        <textarea id="bt-report-note" class="bt-report-note" maxlength="2000" rows="4" placeholder="Describe what Buddy did that felt off..."></textarea>
+
+        <fieldset class="bt-categories">
+          <legend>Classify the failure</legend>
+          <div class="bt-category-grid">
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="forgot_context">
+              <span><strong>Forgot context</strong><small>Lost something already established.</small></span>
+            </label>
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="wrong_memory">
+              <span><strong>Wrong memory</strong><small>Remembered something incorrectly.</small></span>
+            </label>
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="overconnected">
+              <span><strong>Over-connected</strong><small>Linked patterns too aggressively.</small></span>
+            </label>
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="strange_answer">
+              <span><strong>Strange answer</strong><small>Awkward, broken, or off-tone.</small></span>
+            </label>
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="stuck_loop">
+              <span><strong>Loop or repeat</strong><small>Got stuck saying the same thing.</small></span>
+            </label>
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="unsafe">
+              <span><strong>Unsafe</strong><small>Something felt risky or wrong.</small></span>
+            </label>
+            <label class="bt-cat-option">
+              <input type="checkbox" name="bt-cat" value="other">
+              <span><strong>Other</strong><small>Anything that does not fit above.</small></span>
+            </label>
+          </div>
+        </fieldset>
+
+        <label class="bt-include-label">
+          <input type="checkbox" id="bt-include-recent" checked>
+          Include last 10 messages with this report
+        </label>
+
+        <p class="bt-report-disclaimer">Reports may include recent thread messages if checked. Do not report private keys, passwords, emergencies, or anything you do not want reviewed by AIIT.</p>
+
+        <div class="bt-report-actions">
+          <button type="submit" class="bt-send-report" id="bt-send-report">Send report</button>
+        </div>
+      </form>
+      <div class="bt-report-confirm" id="bt-report-confirm" role="status" aria-live="polite" hidden>
+        <strong>Report sent.</strong>
+        <span>Captured for manual AIIT review.</span>
+        <small id="bt-report-receipt"></small>
+        <button type="button" class="bt-confirm-close" id="bt-confirm-close">Close</button>
+      </div>
+      <div class="bt-report-error" id="bt-report-error" hidden></div>
+    </div>
+  </div>
+
   <!-- INPUT BLOCK — top 35%, dominant -->
   <div class="ask-input-block">
     <form class="ask-form" id="ask-form" autocomplete="off">
@@ -90,6 +200,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   const input    = document.getElementById('ask-input');
   const btn      = document.getElementById('ask-btn');
   const response = document.getElementById('ask-response');
+  const originalAskPlaceholder = input ? input.getAttribute('placeholder') || '' : '';
   const statusDot = document.getElementById('ask-status-dot');
   const statusText = document.getElementById('ask-status-text');
   const statusBlk  = document.getElementById('ask-status');
@@ -108,6 +219,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   function startThinking() {
     setStatus('thinking', 'buddy thinking');
     setFlipSpeed(380); // planets speed up
+    if (buddyThreadEnabled) {
+      response.className = 'ask-response';
+      response.innerHTML = '';
+      setThreadTyping('buddy thinking...');
+      return;
+    }
 
     // proof of life within ~150ms
     response.className = 'ask-response loading visible';
@@ -132,6 +249,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
   function stopThinking() {
     if (thinkingTimer) { clearInterval(thinkingTimer); thinkingTimer = null; }
+    setThreadTyping('');
     setFlipSpeed(1100);
   }
 
@@ -226,6 +344,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    stopThinking();
 	    setStatus('online', 'buddy online');
 	    const answer = payload.answer || '';
+	    if (buddyThreadEnabled) {
+	      response.className = 'ask-response';
+	      response.innerHTML = '';
+	      appendThreadMessage('buddy', answer, { pending: !buddyThreadDemoMode });
+	      return;
+	    }
     const obs = payload.observation || '';
     const cta = payload.cta || 'Pass it on';
     const strong = payload.observation_kind === 'substrate';
@@ -305,6 +429,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	  }
 
 	  function updatePendingMessage(attempt, networkIssue = false) {
+	    if (buddyThreadEnabled) {
+	      setThreadTyping(pendingMessage(attempt, networkIssue));
+	      return;
+	    }
 	    const pending = response.querySelector('.fo-pending');
 	    if (pending) pending.textContent = pendingMessage(attempt, networkIssue);
 	  }
@@ -313,6 +441,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    stopThinking();
 	    setStatus('thinking', 'buddy holding question');
 	    setFlipSpeed(520);
+	    if (buddyThreadEnabled) {
+	      response.className = 'ask-response';
+	      response.innerHTML = '';
+	      setThreadTyping(pendingMessage(attempt));
+	      return;
+	    }
 	    response.className = 'ask-response visible';
 	    response.innerHTML =
 	      '<div class="fo-block">' +
@@ -369,14 +503,214 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     }
   }
 
-	  const MAX_HISTORY_PAIRS = 6;
-	  const turnHistory = [];
-	  function pushTurn(q, a) {
-	    turnHistory.push({ q, a });
-	    while (turnHistory.length > MAX_HISTORY_PAIRS) turnHistory.shift();
-	  }
+		  const MAX_HISTORY_PAIRS = 6;
+		  const turnHistory = [];
+		  let refreshBuddyThread = null;
+		  function pushTurn(q, a) {
+		    turnHistory.push({ q, a });
+		    while (turnHistory.length > MAX_HISTORY_PAIRS) turnHistory.shift();
+		  }
+		  function hydrateTurnHistory(messages) {
+		    if (!Array.isArray(messages)) return;
+		    const pairs = [];
+		    let pendingUser = null;
+		    messages.forEach((m) => {
+		      if (!m || typeof m.text !== 'string') return;
+		      if (m.role === 'user') {
+		        pendingUser = m.text;
+		      } else if (m.role === 'buddy' && pendingUser) {
+		        pairs.push({ q: pendingUser, a: m.text });
+		        pendingUser = null;
+		      }
+		    });
+		    turnHistory.length = 0;
+		    pairs.slice(-MAX_HISTORY_PAIRS).forEach(t => turnHistory.push(t));
+		  }
+		  function downloadJson(filename, data) {
+		    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+		    const a = document.createElement('a');
+		    a.href = URL.createObjectURL(blob);
+		    a.download = filename;
+		    a.style.display = 'none';
+		    document.body.appendChild(a);
+		    a.click();
+		    setTimeout(() => {
+		      URL.revokeObjectURL(a.href);
+		      a.remove();
+		    }, 250);
+		  }
+		  function noteThreadPayload(payload) {
+		    if (!payload || !payload.thread || !payload.thread.enabled) return;
+		    if (payload.thread.saved && refreshBuddyThread) {
+		      refreshBuddyThread({ quiet: true });
+		    }
+		  }
 
-	  const PENDING_STORAGE = 'askbuddy_pending_requests';
+		  const threadPreviewEl = document.getElementById('bt-thread-preview');
+		  const threadListEl = document.getElementById('bt-thread-list');
+		  const threadTypingEl = document.getElementById('bt-thread-typing');
+		  const threadComposerSlot = document.getElementById('bt-thread-composer-slot');
+		  const askInputBlock = document.querySelector('.ask-input-block');
+		  const askPage = document.querySelector('.ask-page');
+		  const originalAskParent = askInputBlock ? askInputBlock.parentNode : null;
+		  const originalAskNext = askInputBlock ? askInputBlock.nextSibling : null;
+		  let buddyThreadEnabled = false;
+		  let buddyThreadDemoMode = false;
+		  let visibleThreadMessages = [];
+		  let optimisticThreadMessages = [];
+
+		  function isThreadPreviewHost() {
+		    const host = location.hostname;
+		    return host === 'localhost'
+		      || host === '127.0.0.1'
+		      || host.endsWith('.pages.dev');
+		  }
+
+		  function wantsThreadPreview() {
+		    const params = new URLSearchParams(location.search);
+		    const value = params.get('thread_preview') || params.get('preview_thread') || params.get('demo_thread');
+		    return value === '1' || value === 'true' || value === 'yes';
+		  }
+
+		  function threadPreviewUrl() {
+		    const next = new URL(location.href);
+		    next.searchParams.set('thread_preview', '1');
+		    return next.toString();
+		  }
+
+		  function placeAskComposer(inThread) {
+		    if (!askInputBlock) return;
+		    askInputBlock.classList.toggle('in-thread', !!inThread);
+		    if (input) input.placeholder = inThread ? 'Message Buddy...' : originalAskPlaceholder;
+		    if (askPage) askPage.classList.toggle('buddy-thread-active', !!inThread);
+		    if (inThread && threadComposerSlot) {
+		      threadComposerSlot.hidden = false;
+		      if (askInputBlock.parentNode !== threadComposerSlot) {
+		        threadComposerSlot.appendChild(askInputBlock);
+		      }
+		      return;
+		    }
+		    if (threadComposerSlot) threadComposerSlot.hidden = true;
+		    if (originalAskParent && askInputBlock.parentNode !== originalAskParent) {
+		      originalAskParent.insertBefore(askInputBlock, originalAskNext);
+		    }
+		  }
+
+		  function scrollThreadToBottom() {
+		    if (!threadListEl) return;
+		    threadListEl.scrollTop = threadListEl.scrollHeight;
+		  }
+
+		  function renderThreadWindow({ locked = false } = {}) {
+		    if (!threadPreviewEl || !threadListEl) return;
+		    threadPreviewEl.hidden = false;
+		    threadListEl.innerHTML = '';
+		    const rows = locked ? [] : visibleThreadMessages.concat(optimisticThreadMessages).slice(-80);
+		    if (!locked) {
+		      const countEl = document.getElementById('bt-thread-count');
+		      if (countEl) countEl.textContent = String(rows.length);
+		    }
+		    if (!rows.length) {
+		      const empty = document.createElement('div');
+		      empty.className = 'bt-thread-empty';
+		      empty.textContent = locked
+		        ? 'Sign in to activate the persistent Buddy Thread.'
+		        : 'This is the live chat window. Send a message below and Buddy will keep this account-linked thread moving.';
+		      threadListEl.appendChild(empty);
+		      return;
+		    }
+		    rows.forEach((message) => {
+		      const item = document.createElement('div');
+		      item.className = 'bt-thread-item ' + (message.role === 'buddy' ? 'buddy' : 'user');
+		      if (message.pending) item.classList.add('pending');
+		      const role = document.createElement('div');
+		      role.className = 'bt-thread-role';
+		      role.textContent = message.role === 'buddy' ? 'Buddy' : 'You';
+		      const text = document.createElement('div');
+		      text.className = 'bt-thread-text';
+		      text.textContent = message.text || '';
+		      item.appendChild(role);
+		      item.appendChild(text);
+		      threadListEl.appendChild(item);
+		    });
+		    requestAnimationFrame(scrollThreadToBottom);
+		  }
+
+		  function setThreadTyping(message) {
+		    if (!threadTypingEl) return;
+		    threadTypingEl.textContent = message || '';
+		    threadTypingEl.hidden = !message;
+		  }
+
+		  function appendThreadMessage(role, text, options = {}) {
+		    if (!buddyThreadEnabled || !text) return;
+		    optimisticThreadMessages.push({
+		      role: role === 'buddy' ? 'buddy' : 'user',
+		      text,
+		      pending: options.pending !== false,
+		      at: new Date().toISOString(),
+		    });
+		    renderThreadWindow();
+		  }
+
+		  function demoBuddyAnswer(question) {
+		    const trimmed = String(question || '').trim();
+		    if (trimmed && /remember|context|tomorrow|day 200|persistent/i.test(trimmed)) {
+		      return 'Preview mode: this window is the persistent Buddy Thread surface. In a real login, Buddy reloads the same visible account thread instead of starting over.';
+		    }
+		    return 'Preview mode: this is the live chat layout without GitHub auth. A real logged-in thread sends this message to Buddy and can preserve the account-linked context across visits.';
+		  }
+
+		  function startThreadPreviewMode({
+		    loginBtn,
+		    demoBtn,
+		    reportBtn,
+		    exportBtn,
+		    clearBtn,
+		    userChip,
+		    threadState,
+		    setThreadMessage,
+		  }) {
+		    buddyThreadEnabled = true;
+		    buddyThreadDemoMode = true;
+		    const now = new Date().toISOString();
+		    visibleThreadMessages = [
+		      {
+		        role: 'user',
+		        text: 'Buddy, if I come back tomorrow, will this thread still know where we left off?',
+		        at: now,
+		      },
+		      {
+		        role: 'buddy',
+		        text: 'Yes. In a real logged-in Buddy Thread, this account-linked surface reloads the visible thread instead of treating every visit like day one.',
+		        at: now,
+		      },
+		      {
+		        role: 'user',
+		        text: 'So this is not the old Ask Buddy box?',
+		        at: now,
+		      },
+		      {
+		        role: 'buddy',
+		        text: 'Right. Ask Buddy still exists, but this window is the persistent conversation surface: continuity, reports, export, clear, and manual memory review.',
+		        at: now,
+		      },
+		    ];
+		    optimisticThreadMessages = [];
+		    hydrateTurnHistory(visibleThreadMessages);
+		    placeAskComposer(true);
+		    if (loginBtn) loginBtn.hidden = true;
+		    if (demoBtn) demoBtn.hidden = true;
+		    [reportBtn, exportBtn, clearBtn].forEach((btn) => {
+		      if (btn) btn.disabled = false;
+		    });
+		    if (userChip) userChip.textContent = '@preview';
+		    if (threadState) threadState.textContent = 'preview';
+		    renderThreadWindow();
+		    setThreadMessage('Preview mode only. This is not logged in, not saved, and not sent to Buddy.', '');
+		  }
+
+		  const PENDING_STORAGE = 'askbuddy_pending_requests';
 	  const PENDING_POLL_MS = 3000;
 	  const PENDING_MAX_POLLS = 100;
 	  function loadPending() {
@@ -414,25 +748,29 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    if (!entry || !entry.request_id) return;
 	    let payload = null;
 	    try {
-	      const res = await fetch('/api/askbuddy_poll', {
-	        method: 'POST',
-	        headers: { 'content-type': 'application/json' },
-	        body: JSON.stringify({
-	          request_id: entry.request_id,
-	          session_id: entry.session_id,
-	        }),
-	      });
+		      const res = await fetch('/api/askbuddy_poll', {
+		        method: 'POST',
+		        credentials: 'same-origin',
+		        headers: { 'content-type': 'application/json' },
+		        body: JSON.stringify({
+		          request_id: entry.request_id,
+		          session_id: entry.session_id,
+		          question: entry.question || '',
+		          account_thread: !!entry.account_thread,
+		        }),
+		      });
 	      payload = await res.json();
 	    } catch {
 	      payload = { ok: false, error: 'network_failed' };
 	    }
 
 	    if (payload && payload.ok && payload.status === 'ready') {
-	      removePending(entry.request_id);
-	      pushTurn(entry.question || '', payload.answer || '');
-	      showFirstOutput(payload);
-	      return;
-	    }
+		      removePending(entry.request_id);
+		      pushTurn(entry.question || '', payload.answer || '');
+		      showFirstOutput(payload);
+		      noteThreadPayload(payload);
+		      return;
+		    }
 	    if (payload && payload.ok && payload.status === 'pending') {
 	      updatePendingMessage(attempt);
 	      if (attempt < PENDING_MAX_POLLS) {
@@ -462,6 +800,9 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   async function ask() {
     const q = input.value.trim();
     if (!q) return;
+    if (buddyThreadEnabled) {
+      appendThreadMessage('user', q, { pending: !buddyThreadDemoMode });
+    }
     btn.disabled = true;
     btn.textContent = '...';
 
@@ -470,12 +811,23 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     const minShowMs = 500;
     const t0 = performance.now();
     let payload = null;
+    if (buddyThreadDemoMode) {
+      await new Promise(r => setTimeout(r, minShowMs));
+      const answer = demoBuddyAnswer(q);
+      pushTurn(q, answer);
+      showFirstOutput({ ok: true, answer });
+      input.value = '';
+      btn.disabled = false;
+      btn.textContent = 'Ask →';
+      return;
+    }
     try {
-      const res = await fetch('/api/askbuddy', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({
-          question: q,
+	      const res = await fetch('/api/askbuddy', {
+	        method: 'POST',
+	        credentials: 'same-origin',
+	        headers: { 'content-type': 'application/json' },
+	        body: JSON.stringify({
+	          question: q,
           fingerprint: getFingerprint(),
           session_id: getSessionId(),
           history: turnHistory.slice(),
@@ -492,21 +844,23 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       await new Promise(r => setTimeout(r, minShowMs - elapsed));
     }
 
-	    if (payload && payload.ok && payload.status === 'pending') {
-	      const entry = {
-	        request_id: payload.request_id,
-	        session_id: getSessionId(),
-	        question: q,
-	        ts: Date.now(),
-	      };
+		    if (payload && payload.ok && payload.status === 'pending') {
+		      const entry = {
+		        request_id: payload.request_id,
+		        session_id: payload.session_id || getSessionId(),
+		        question: q,
+		        account_thread: !!(payload.thread && payload.thread.enabled),
+		        ts: Date.now(),
+		      };
 	      addPending(entry);
 	      showPending(q);
 	      input.value = '';
 	      pollPending(entry, 0);
-	    } else if (payload && payload.ok) {
-	      pushTurn(q, payload.answer || '');
-	      showFirstOutput(payload);
-	      input.value = '';
+		    } else if (payload && payload.ok) {
+		      pushTurn(q, payload.answer || '');
+		      showFirstOutput(payload);
+		      noteThreadPayload(payload);
+		      input.value = '';
 	    } else if (payload && payload.error === 'daily_limit_reached') {
 	      showReply(payload.message || "you've used today's question. come back tomorrow.");
 	    } else if (payload && payload.error === 'budget_exhausted') {
@@ -546,6 +900,331 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       }
     } catch {}
   })();
+
+	  // --- BUDDY THREAD: auth check, visible thread API, report, export, clear ---
+	  (async function initBuddyThread() {
+	    const notice = document.getElementById('bt-notice');
+	    const overlay = document.getElementById('bt-modal-overlay');
+	    const loginBtn = document.getElementById('bt-login-btn');
+	    const demoBtn = document.getElementById('bt-demo-btn');
+	    const reportBtn = document.getElementById('bt-report-btn');
+	    const closeBtn = document.getElementById('bt-modal-close');
+	    const reportForm = document.getElementById('bt-report-form');
+	    const confirmEl = document.getElementById('bt-report-confirm');
+	    const confirmCloseBtn = document.getElementById('bt-confirm-close');
+	    const receiptEl = document.getElementById('bt-report-receipt');
+	    const exportBtn = document.getElementById('bt-export-btn');
+	    const clearBtn = document.getElementById('bt-clear-btn');
+	    const errorEl = document.getElementById('bt-report-error');
+	    const reportStatusEl = document.getElementById('bt-report-status');
+	    const userChip = document.getElementById('bt-user-chip');
+	    const threadState = document.getElementById('bt-thread-state');
+	    const threadCount = document.getElementById('bt-thread-count');
+	    const threadMessage = document.getElementById('bt-thread-message');
+	    const includeRecentEl = document.getElementById('bt-include-recent');
+	    const noteEl = document.getElementById('bt-report-note');
+
+	    if (notice) notice.hidden = false;
+	    if (loginBtn) {
+	      const here = encodeURIComponent(location.pathname + location.search + location.hash || '/ask-buddy');
+	      loginBtn.href = '/api/auth/github/login?redirect=' + here;
+	    }
+	    if (demoBtn && isThreadPreviewHost()) {
+	      demoBtn.hidden = false;
+	      demoBtn.addEventListener('click', () => { location.href = threadPreviewUrl(); });
+	    }
+
+	    function setThreadMessage(message, kind = '') {
+	      if (!threadMessage) return;
+	      threadMessage.textContent = message || '';
+	      threadMessage.dataset.kind = kind;
+	      threadMessage.hidden = !message;
+	    }
+
+	    function threadErrorCopy(status, error) {
+	      if (status === 401 || error === 'login_required') return 'Your login expired. Refresh and log in again.';
+	      if (status === 503 || error === 'auth_kv_missing' || error === 'kv_not_bound') return 'Buddy Thread storage is not bound on this environment.';
+	      if (error === 'report_write_failed') return 'Report reached the server, but KV did not save it. Try again.';
+	      return 'Buddy Thread did not respond. Refresh and try again.';
+	    }
+
+	    function setReportStatus(message, kind = '') {
+	      if (!reportStatusEl) return;
+	      reportStatusEl.textContent = message || '';
+	      reportStatusEl.dataset.kind = kind;
+	      reportStatusEl.hidden = !message;
+	    }
+
+	    let btUser = null;
+	    try {
+	      const r = await fetch('/api/auth/me', { credentials: 'same-origin' });
+	      const j = await r.json();
+	      btUser = j && j.user ? j.user : null;
+	    } catch {}
+	    if (!btUser) {
+	      if (isThreadPreviewHost() && wantsThreadPreview()) {
+	        startThreadPreviewMode({
+	          loginBtn,
+	          demoBtn,
+	          reportBtn,
+	          exportBtn,
+	          clearBtn,
+	          userChip,
+	          threadState,
+	          setThreadMessage,
+	        });
+	      } else {
+	        buddyThreadEnabled = false;
+	        buddyThreadDemoMode = false;
+	        visibleThreadMessages = [];
+	        optimisticThreadMessages = [];
+	        placeAskComposer(false);
+	        if (userChip) userChip.textContent = 'login required';
+	        if (threadState) threadState.textContent = 'locked';
+	        if (threadCount) threadCount.textContent = '0';
+	        if (loginBtn) loginBtn.hidden = false;
+	        [reportBtn, exportBtn, clearBtn].forEach((btn) => {
+	          if (btn) btn.disabled = true;
+	        });
+	        renderThreadWindow({ locked: true });
+	        setThreadMessage('Sign in with GitHub to activate persistent Buddy Thread, reports, export, and clear controls.', '');
+	        return;
+	      }
+	    } else {
+	      buddyThreadEnabled = true;
+	      buddyThreadDemoMode = false;
+	      placeAskComposer(true);
+	      if (loginBtn) loginBtn.hidden = true;
+	      if (demoBtn) demoBtn.hidden = true;
+	      [reportBtn, exportBtn, clearBtn].forEach((btn) => {
+	        if (btn) btn.disabled = false;
+	      });
+	      if (userChip) userChip.textContent = '@' + (btUser.login || btUser.id || 'logged-in');
+	      renderThreadWindow();
+	    }
+
+	    function applyThread(thread) {
+	      const count = thread && Number(thread.message_count || 0);
+	      if (threadCount) threadCount.textContent = String(count || 0);
+	      if (threadState) threadState.textContent = 'live';
+	      const messages = Array.isArray(thread && thread.messages) ? thread.messages : [];
+	      visibleThreadMessages = messages;
+	      optimisticThreadMessages = [];
+	      hydrateTurnHistory(messages);
+	      renderThreadWindow();
+	    }
+
+	    async function fetchVisibleThread({ quiet = false } = {}) {
+	      if (!quiet && threadState) threadState.textContent = 'loading';
+	      const res = await fetch('/api/buddy-thread/thread', { credentials: 'same-origin' });
+	      const data = await res.json().catch(() => null);
+	      if (!res.ok || !data || !data.ok) {
+	        throw new Error(threadErrorCopy(res.status, data && data.error));
+	      }
+	      applyThread(data.thread);
+	      if (!quiet) setThreadMessage('Visible account thread loaded.', 'ok');
+	      return data;
+	    }
+	    refreshBuddyThread = fetchVisibleThread;
+	    if (!buddyThreadDemoMode) {
+	      fetchVisibleThread({ quiet: true }).catch((err) => {
+	        if (threadState) threadState.textContent = 'offline';
+	        setThreadMessage(err.message, 'error');
+	      });
+	    }
+
+	    function openModal() {
+	      overlay.hidden = false;
+	      confirmEl.hidden = true;
+	      reportForm.hidden = false;
+	      errorEl.hidden = true;
+	      setReportStatus('', '');
+	      if (receiptEl) receiptEl.textContent = '';
+	      reportForm.reset();
+	      if (includeRecentEl) includeRecentEl.checked = true;
+	      requestAnimationFrame(() => noteEl && noteEl.focus());
+	    }
+	    function closeModal() { overlay.hidden = true; }
+
+	    reportBtn.addEventListener('click', openModal);
+	    closeBtn.addEventListener('click', closeModal);
+	    if (confirmCloseBtn) confirmCloseBtn.addEventListener('click', closeModal);
+	    overlay.addEventListener('click', (e) => { if (e.target === overlay) closeModal(); });
+
+	    let reportBusy = false;
+	    async function submitReport(e) {
+	      if (e) e.preventDefault();
+	      if (reportBusy) return;
+	      const note = noteEl.value.trim();
+	      const sendBtn = document.getElementById('bt-send-report');
+	      if (!note) {
+	        const msg = 'Add a short note before sending.';
+	        errorEl.textContent = msg;
+	        errorEl.hidden = false;
+	        setReportStatus(msg, 'error');
+	        if (sendBtn) {
+	          const prev = sendBtn.textContent;
+	          sendBtn.textContent = 'Need note';
+	          setTimeout(() => { sendBtn.textContent = prev; }, 1200);
+	        }
+	        return;
+	      }
+	      reportBusy = true;
+	      const cats = Array.from(document.querySelectorAll('input[name="bt-cat"]:checked')).map(c => c.value);
+	      const includeRecent = includeRecentEl.checked;
+
+	      const recentMessages = includeRecent
+	        ? turnHistory.slice(-10).flatMap(t => [
+	            { role: 'user', text: t.q },
+	            { role: 'buddy', text: t.a },
+	          ])
+	        : [];
+
+	      sendBtn.disabled = true;
+	      sendBtn.textContent = 'Sending...';
+	      errorEl.hidden = true;
+	      setReportStatus('Sending report...', '');
+
+	      if (buddyThreadDemoMode) {
+	        await new Promise(r => setTimeout(r, 450));
+	        sendBtn.disabled = false;
+	        sendBtn.textContent = 'Send report';
+	        reportBusy = false;
+	        reportForm.hidden = true;
+	        if (receiptEl) receiptEl.textContent = 'preview only: no report was sent';
+	        confirmEl.hidden = false;
+	        setReportStatus('Preview confirmation only. No report was sent.', 'ok');
+	        setThreadMessage('Preview report confirmation shown. Nothing was saved.', 'ok');
+	        return;
+	      }
+
+	      let res = null;
+	      let data = null;
+	      try {
+	        res = await fetch('/api/buddy-thread/report', {
+	          method: 'POST',
+	          credentials: 'same-origin',
+	          headers: { 'content-type': 'application/json' },
+	          body: JSON.stringify({
+	            note,
+	            categories: cats,
+	            include_recent: includeRecent,
+	            recent_messages: recentMessages,
+	            thread_id: 'primary',
+	            url: location.pathname,
+	          }),
+	        });
+	        data = await res.json().catch(() => null);
+	      } catch {}
+
+	      sendBtn.disabled = false;
+	      sendBtn.textContent = 'Send report';
+	      reportBusy = false;
+
+	      if (!res || !res.ok || !data || !data.ok) {
+	        const knownError = data && ['login_required', 'auth_kv_missing', 'kv_not_bound', 'report_write_failed'].includes(data.error);
+	        const msg = (knownError || (res && (res.status === 401 || res.status === 503)))
+	          ? threadErrorCopy(res && res.status, data && data.error)
+	          : 'Report did not send. Copy your note or try again after refreshing.';
+	        errorEl.textContent = msg;
+	        errorEl.hidden = false;
+	        setReportStatus(msg, 'error');
+	        return;
+	      }
+
+	      reportForm.hidden = true;
+	      if (receiptEl) {
+	        receiptEl.textContent = data.report_id
+	          ? 'receipt: ' + data.report_id
+	          : 'receipt captured';
+	      }
+	      confirmEl.hidden = false;
+	      setReportStatus(data.report_id ? 'Report sent. Receipt: ' + data.report_id : 'Report sent.', 'ok');
+	      setThreadMessage('Report captured for manual review.', 'ok');
+	    }
+	    reportForm.addEventListener('submit', submitReport);
+	    const sendReportBtn = document.getElementById('bt-send-report');
+	    if (sendReportBtn) sendReportBtn.addEventListener('click', submitReport);
+
+	    if (exportBtn) {
+	      exportBtn.addEventListener('click', async () => {
+	        const prev = exportBtn.textContent;
+	        exportBtn.disabled = true;
+	        exportBtn.textContent = 'Exporting...';
+	        setThreadMessage('Preparing visible thread export...', '');
+	        try {
+	          if (buddyThreadDemoMode) {
+	            downloadJson('buddy-thread-preview-export.json', {
+	              preview: true,
+	              exported_at: new Date().toISOString(),
+	              thread: {
+	                thread_id: 'preview',
+	                message_count: visibleThreadMessages.length + optimisticThreadMessages.length,
+	                messages: visibleThreadMessages.concat(optimisticThreadMessages),
+	              },
+	              limits: 'Preview export only. Nothing here is logged in, saved, or sent to Buddy.',
+	            });
+	            setThreadMessage('Preview thread exported. Nothing was saved.', 'ok');
+	            return;
+	          }
+	          const data = await fetchVisibleThread({ quiet: true });
+	          downloadJson('buddy-thread-export.json', {
+	            exported_at: new Date().toISOString(),
+	            user: data.user,
+	            thread: data.thread,
+	            limits: 'This export is the visible account thread only. Corpus records, reports, and Kokoro memory are separate.',
+	          });
+	          setThreadMessage('Visible account thread exported.', 'ok');
+	        } catch (err) {
+	          setThreadMessage(err.message || 'Export failed. Refresh and try again.', 'error');
+	        } finally {
+	          exportBtn.disabled = false;
+	          exportBtn.textContent = prev;
+	        }
+	      });
+	    }
+
+	    if (clearBtn) {
+	      clearBtn.addEventListener('click', async () => {
+	        if (buddyThreadDemoMode) {
+	          if (!confirm('Clear the preview Buddy Thread? Nothing here is saved.')) return;
+	          visibleThreadMessages = [];
+	          optimisticThreadMessages = [];
+	          turnHistory.length = 0;
+	          renderThreadWindow();
+	          setThreadMessage('Preview thread cleared. Nothing was saved.', 'ok');
+	          return;
+	        }
+	        if (!confirm('Clear the visible Buddy Thread for this login? This does not remove corpus logs, reviewed reports, or Kokoro memories Buddy may have formed.')) return;
+	        const prev = clearBtn.textContent;
+	        clearBtn.disabled = true;
+	        clearBtn.textContent = 'Clearing...';
+	        setThreadMessage('Clearing visible account thread...', '');
+	        try {
+	          const res = await fetch('/api/buddy-thread/thread', {
+	            method: 'DELETE',
+	            credentials: 'same-origin',
+	          });
+	          const data = await res.json().catch(() => null);
+	          if (!res.ok || !data || !data.ok) throw new Error(threadErrorCopy(res.status, data && data.error));
+	          applyThread(data.thread);
+	          turnHistory.length = 0;
+	          try {
+	            localStorage.removeItem(SESSION_STORAGE);
+	            localStorage.removeItem(PENDING_STORAGE);
+	          } catch {}
+	          const resp = document.getElementById('ask-response');
+	          if (resp) { resp.className = 'ask-response'; resp.innerHTML = ''; }
+	          setThreadMessage('Visible account thread cleared.', 'ok');
+	        } catch (err) {
+	          setThreadMessage(err.message || 'Clear failed. Refresh and try again.', 'error');
+	        } finally {
+	          clearBtn.disabled = false;
+	          clearBtn.textContent = prev;
+	        }
+	      });
+	    }
+	  })();
 })();
 </script>
 
@@ -573,15 +1252,20 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     margin-bottom: 22px;
   }
   .ask-mascot-mini { flex-shrink: 0; }
-  .ask-title-block { display: flex; flex-direction: column; }
+  .ask-title-block {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
   .ask-h1 {
     font-family: 'Georgia', serif;
-    font-size: clamp(34pt, 5.6vw, 56pt);
+    font-size: 72px;
     color: #1a1a1a;
     margin: 0;
-    letter-spacing: -0.02em;
+    letter-spacing: 0;
     line-height: 1;
     font-weight: 800;
+    white-space: nowrap;
   }
   .ask-bang {
     color: #c83a08;
@@ -766,13 +1450,652 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     margin-top: 4px;
   }
 
-  @media (max-width: 620px) {
-    .ask-page { padding: 90px 5vw 60px; }
-    .ask-head { gap: 12px; }
-    .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 76px !important; }
-    .ask-input { font-size: 12pt; height: 48px; }
-    .ask-btn { height: 48px; padding: 0 16px; font-size: 10pt; }
+	  /* BUDDY THREAD NOTICE */
+	  .bt-notice {
+	    margin-bottom: 22px;
+	    border: 1px solid rgba(240, 165, 0, 0.42);
+	    border-radius: 8px;
+	    background:
+	      linear-gradient(135deg, rgba(26, 26, 26, 0.98), rgba(55, 34, 17, 0.96)),
+	      #1a1a1a;
+	    overflow: hidden;
+	    box-shadow: 0 18px 40px rgba(40, 24, 10, 0.22);
+	  }
+	  .bt-notice-inner {
+	    padding: 20px;
+	  }
+	  .bt-console-top {
+	    display: flex;
+	    align-items: flex-start;
+	    justify-content: space-between;
+	    gap: 14px;
+	    margin-bottom: 12px;
+	  }
+	  .bt-notice-badge {
+	    display: inline-block;
+	    font-family: 'Courier New', monospace;
+	    font-size: 8.5pt;
+	    letter-spacing: 0.08em;
+	    text-transform: uppercase;
+	    color: #f0a500;
+	    background: rgba(240, 165, 0, 0.1);
+	    border: 1px solid rgba(240, 165, 0, 0.22);
+	    padding: 3px 10px;
+	    border-radius: 4px;
+	    margin-bottom: 8px;
+	  }
+	  .bt-notice h2 {
+	    margin: 0;
+	    font-family: 'Georgia', serif;
+	    font-size: clamp(16pt, 3.2vw, 24pt);
+	    line-height: 1.08;
+	    color: #fff7df;
+	    font-weight: 800;
+	  }
+	  .bt-user-chip {
+	    flex: 0 0 auto;
+	    max-width: 190px;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+	    color: #1a1a1a;
+	    background: #f0a500;
+	    border: 1px solid rgba(255, 247, 223, 0.32);
+	    border-radius: 999px;
+	    padding: 6px 10px;
+	  }
+	  .bt-notice p {
+	    font-family: 'Georgia', serif;
+	    font-size: 11.5pt;
+	    color: rgba(255, 247, 223, 0.82);
+	    line-height: 1.55;
+	    margin: 0 0 8px;
+	  }
+	  .bt-notice .bt-lede {
+	    color: #fff7df;
+	    font-size: 12.5pt;
+	  }
+	  .bt-notice p:last-of-type {
+	    margin-bottom: 12px;
+	  }
+	  .bt-metrics {
+	    display: grid;
+	    grid-template-columns: repeat(3, minmax(0, 1fr));
+	    gap: 8px;
+	    margin: 14px 0;
+	  }
+	  .bt-metric {
+	    min-width: 0;
+	    background: rgba(255, 253, 245, 0.06);
+	    border: 1px solid rgba(255, 253, 245, 0.12);
+	    border-radius: 8px;
+	    padding: 10px;
+	  }
+	  .bt-metric span {
+	    display: block;
+	    overflow-wrap: anywhere;
+	    font-family: 'Courier New', monospace;
+	    font-size: 12pt;
+	    color: #f0a500;
+	    line-height: 1.1;
+	  }
+	  .bt-metric small {
+	    display: block;
+	    margin-top: 4px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 7.5pt;
+	    letter-spacing: 0.04em;
+	    color: rgba(255, 247, 223, 0.58);
+	    text-transform: uppercase;
+	  }
+	  .bt-thread-preview {
+	    margin: 14px 0 12px;
+	    padding: 12px;
+	    border: 1px solid rgba(255, 247, 223, 0.14);
+	    border-radius: 8px;
+	    background: rgba(255, 253, 245, 0.055);
+	  }
+	  .bt-thread-preview-title {
+	    margin-bottom: 10px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 8.5pt;
+	    letter-spacing: 0.08em;
+	    text-transform: uppercase;
+	    color: rgba(240, 165, 0, 0.9);
+	  }
+	  .bt-thread-list {
+	    display: flex;
+	    flex-direction: column;
+	    gap: 10px;
+	    min-height: 160px;
+	    max-height: 360px;
+	    overflow-y: auto;
+	    padding: 4px;
+	  }
+	  :global(.bt-thread-item) {
+	    display: grid;
+	    grid-template-columns: 58px minmax(0, 1fr);
+	    gap: 9px;
+	    align-items: start;
+	    padding: 8px 9px;
+	    border-radius: 7px;
+	    border: 1px solid rgba(255, 247, 223, 0.1);
+	    background: rgba(255, 253, 245, 0.055);
+	  }
+	  :global(.bt-thread-item.user) {
+	    background: rgba(255, 253, 245, 0.08);
+	  }
+	  :global(.bt-thread-item.buddy) {
+	    border-color: rgba(240, 165, 0, 0.22);
+	    background: rgba(240, 165, 0, 0.08);
+	  }
+	  :global(.bt-thread-item.pending) {
+	    opacity: 0.82;
+	    border-style: dashed;
+	  }
+	  :global(.bt-thread-role) {
+	    font-family: 'Courier New', monospace;
+	    font-size: 8pt;
+	    letter-spacing: 0.04em;
+	    color: rgba(255, 247, 223, 0.56);
+	    text-transform: uppercase;
+	  }
+	  :global(.bt-thread-item.buddy .bt-thread-role) {
+	    color: #f0a500;
+	  }
+	  :global(.bt-thread-text) {
+	    min-width: 0;
+	    font-family: 'Georgia', serif;
+	    font-size: 10.5pt;
+	    line-height: 1.45;
+	    color: rgba(255, 247, 223, 0.86);
+	    overflow-wrap: anywhere;
+	  }
+	  :global(.bt-thread-empty),
+	  .bt-thread-typing {
+	    min-height: 112px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    padding: 16px;
+	    text-align: center;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+	    line-height: 1.5;
+	    color: rgba(255, 247, 223, 0.62);
+	    border: 1px dashed rgba(255, 247, 223, 0.14);
+	    border-radius: 7px;
+	    background: rgba(255, 253, 245, 0.035);
+	  }
+	  .bt-thread-typing {
+	    min-height: 0;
+	    justify-content: flex-start;
+	    margin-top: 10px;
+	    color: #f0a500;
+	    border-color: rgba(240, 165, 0, 0.18);
+	    background: rgba(240, 165, 0, 0.07);
+	  }
+	  .bt-thread-composer-slot {
+	    margin-top: 12px;
+	    padding-top: 12px;
+	    border-top: 1px solid rgba(255, 247, 223, 0.14);
+	  }
+	  .bt-thread-composer-slot[hidden] {
+	    display: none;
+	  }
+	  .ask-input-block.in-thread {
+	    margin: 0;
+	  }
+	  .ask-input-block.in-thread .ask-form {
+	    gap: 8px;
+	  }
+	  .ask-input-block.in-thread .ask-input {
+	    min-width: 0;
+	    height: 50px;
+	    background: rgba(255, 247, 223, 0.96);
+	    border-color: rgba(240, 165, 0, 0.55);
+	    color: #1a1a1a;
+	    box-shadow: none;
+	  }
+	  .ask-input-block.in-thread .ask-input:focus {
+	    border-color: #f0a500;
+	    box-shadow: 0 0 0 3px rgba(240, 165, 0, 0.18);
+	  }
+	  .ask-input-block.in-thread .ask-btn {
+	    min-width: 92px;
+	    height: 50px;
+	    border-color: #f0a500;
+	    background: #f0a500;
+	    color: #1a1a1a;
+	    white-space: nowrap;
+	  }
+	  .ask-input-block.in-thread .ask-joke-link {
+	    display: none;
+	  }
+	  .ask-input-block.in-thread .ask-status {
+	    margin-top: 8px;
+	    color: rgba(255, 247, 223, 0.7);
+	  }
+	  .ask-page.buddy-thread-active .ask-response,
+	  .ask-page.buddy-thread-active .ask-planets {
+	    display: none;
+	  }
+	  .bt-actions {
+	    display: flex;
+	    flex-wrap: wrap;
+	    gap: 8px;
+	    margin: 12px 0 10px;
+	  }
+	  .bt-login-btn,
+	  .bt-demo-btn {
+	    display: inline-flex;
+	    align-items: center;
+	    justify-content: center;
+	    background: #f0a500;
+	    color: #1a1a1a;
+	    border: 1.5px solid #f0a500;
+	    padding: 9px 16px;
+	    border-radius: 8px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 10pt;
+	    letter-spacing: 0.04em;
+	    text-decoration: none;
+	    cursor: pointer;
+	    transition: background 180ms, transform 120ms;
+	  }
+	  .bt-login-btn:hover,
+	  .bt-demo-btn:hover {
+	    background: #ffd36a;
+	    border-color: #ffd36a;
+	    transform: translateY(-1px);
+	  }
+	  .bt-demo-btn {
+	    background: rgba(240, 165, 0, 0.12);
+	    color: #ffd36a;
+	  }
+	  .bt-demo-btn:hover {
+	    color: #1a1a1a;
+	  }
+	  .bt-report-btn {
+	    background: #f0a500;
+	    color: #1a1a1a;
+	    border: 1.5px solid #f0a500;
+	    padding: 9px 16px;
+	    border-radius: 8px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 10pt;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background 180ms, transform 120ms;
+	  }
+	  .bt-report-btn:hover:not(:disabled) {
+	    background: #ffd36a;
+	    border-color: #ffd36a;
+	    transform: translateY(-1px);
+	  }
+	  .bt-export-btn, .bt-clear-btn {
+	    background: rgba(255, 253, 245, 0.05);
+	    color: #fff7df;
+	    border: 1px solid rgba(255, 247, 223, 0.2);
+	    padding: 9px 14px;
+	    border-radius: 8px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+	    transition: border-color 180ms, color 180ms, background 180ms;
+	  }
+	  .bt-export-btn:hover:not(:disabled), .bt-clear-btn:hover:not(:disabled) {
+	    color: #f0a500;
+	    border-color: rgba(240, 165, 0, 0.5);
+	    background: rgba(240, 165, 0, 0.08);
+	  }
+	  .bt-report-btn:disabled,
+	  .bt-export-btn:disabled,
+	  .bt-clear-btn:disabled {
+	    opacity: 0.58;
+	    cursor: progress;
+	  }
+	  .bt-thread-message {
+	    margin: 0 0 8px;
+	    padding: 8px 10px;
+	    border-radius: 6px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 8.5pt;
+	    line-height: 1.45;
+	    color: rgba(255, 247, 223, 0.78);
+	    background: rgba(255, 253, 245, 0.06);
+	    border: 1px solid rgba(255, 253, 245, 0.1);
+	  }
+	  .bt-thread-message[data-kind="ok"] {
+	    color: #b8ffd8;
+	    background: rgba(43, 182, 115, 0.12);
+	    border-color: rgba(43, 182, 115, 0.24);
+	  }
+	  .bt-thread-message[data-kind="error"] {
+	    color: #ffd0c4;
+	    background: rgba(200, 58, 8, 0.12);
+	    border-color: rgba(200, 58, 8, 0.26);
+	  }
+	  .bt-policy-link {
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+	    color: rgba(240, 165, 0, 0.9);
+	    text-decoration: none;
+	    border-bottom: 1px solid rgba(240, 165, 0, 0.28);
+	    letter-spacing: 0.04em;
+	  }
+	  .bt-policy-link:hover {
+	    color: #ffd36a;
+	    border-color: rgba(255, 211, 106, 0.5);
+	  }
+
+	  .bt-notice[hidden],
+	  .bt-login-btn[hidden],
+	  .bt-demo-btn[hidden],
+	  .bt-thread-preview[hidden],
+	  .bt-thread-typing[hidden],
+	  .bt-thread-message[hidden],
+	  .bt-modal-overlay[hidden],
+	  .bt-report-status[hidden],
+	  .bt-report-confirm[hidden],
+	  .bt-report-error[hidden] {
+	    display: none !important;
+	  }
+
+  /* REPORT MODAL */
+  .bt-modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
   }
+	  .bt-modal {
+	    background: #fffdf5;
+	    border: 1.5px solid rgba(180, 138, 0, 0.22);
+	    border-radius: 8px;
+	    max-width: 620px;
+	    width: 100%;
+	    max-height: 85vh;
+	    overflow-y: auto;
+    padding: 28px 24px;
+    position: relative;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  }
+  .bt-modal-close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: #8a7a5a;
+    cursor: pointer;
+    line-height: 1;
+  }
+	  .bt-modal h2 {
+	    font-family: 'Georgia', serif;
+	    font-size: 16pt;
+	    color: #1a1a1a;
+	    margin: 0 0 6px;
+	  }
+	  .bt-modal-sub {
+	    margin: 0 0 18px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+	    line-height: 1.45;
+	    color: #6a5a3a;
+	  }
+	  .bt-report-status {
+	    margin: 0 0 14px;
+	    padding: 9px 11px;
+	    border-radius: 7px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+	    line-height: 1.45;
+	    color: #4a3a20;
+	    background: rgba(180, 138, 0, 0.08);
+	    border: 1px solid rgba(180, 138, 0, 0.18);
+	  }
+	  .bt-report-status[data-kind="ok"] {
+	    color: #146b40;
+	    background: rgba(43, 182, 115, 0.12);
+	    border-color: rgba(43, 182, 115, 0.3);
+	  }
+	  .bt-report-status[data-kind="error"] {
+	    color: #c83a08;
+	    background: rgba(200, 58, 8, 0.08);
+	    border-color: rgba(200, 58, 8, 0.24);
+	  }
+	  .bt-modal label {
+    display: block;
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    color: #4a3a20;
+    letter-spacing: 0.04em;
+    margin-bottom: 6px;
+  }
+  .bt-report-note {
+    width: 100%;
+    border: 1.5px solid rgba(180, 138, 0, 0.22);
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px 12px;
+    font-family: 'Georgia', serif;
+    font-size: 11pt;
+    color: #1a1a1a;
+    resize: vertical;
+    margin-bottom: 16px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  .bt-report-note:focus {
+    border-color: #c83a08;
+    box-shadow: 0 0 0 3px rgba(200, 58, 8, 0.1);
+  }
+  .bt-categories {
+    border: none;
+    padding: 0;
+    margin: 0 0 16px;
+  }
+	  .bt-categories legend {
+	    font-family: 'Courier New', monospace;
+	    font-size: 10pt;
+    color: #6a5a3a;
+	    letter-spacing: 0.04em;
+	    margin-bottom: 8px;
+	  }
+	  .bt-category-grid {
+	    display: grid;
+	    grid-template-columns: repeat(2, minmax(0, 1fr));
+	    gap: 8px;
+	  }
+	  .bt-categories label.bt-cat-option {
+	    display: flex;
+	    align-items: flex-start;
+	    gap: 8px;
+	    min-height: 58px;
+	    margin: 0;
+	    padding: 9px;
+	    border: 1px solid rgba(180, 138, 0, 0.18);
+	    border-radius: 8px;
+	    background: rgba(180, 138, 0, 0.04);
+	    cursor: pointer;
+	  }
+	  .bt-cat-option span {
+	    display: block;
+	    min-width: 0;
+	  }
+	  .bt-cat-option strong {
+	    display: block;
+	    font-family: 'Georgia', serif;
+	    font-size: 10.5pt;
+	    color: #2a2418;
+	    line-height: 1.2;
+	  }
+	  .bt-cat-option small {
+	    display: block;
+	    margin-top: 3px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 8pt;
+	    line-height: 1.35;
+	    color: #7a6a4a;
+	  }
+	  .bt-categories input[type="checkbox"] {
+	    accent-color: #c83a08;
+	    width: 16px;
+	    height: 16px;
+	    flex: 0 0 auto;
+	    margin-top: 2px;
+	  }
+  .bt-include-label {
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Georgia', serif !important;
+    font-size: 10.5pt !important;
+    color: #4a3a20 !important;
+    margin-bottom: 10px !important;
+    cursor: pointer;
+  }
+  .bt-include-label input[type="checkbox"] {
+    accent-color: #c83a08;
+    width: 16px;
+    height: 16px;
+  }
+  .bt-report-disclaimer {
+    font-family: 'Courier New', monospace;
+    font-size: 8.5pt;
+    color: #8a7a5a;
+    line-height: 1.5;
+    margin: 0 0 16px;
+    padding: 8px 10px;
+    background: rgba(180, 138, 0, 0.06);
+    border-radius: 6px;
+  }
+  .bt-report-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .bt-send-report {
+    background: #1a1a1a;
+    color: #f0a500;
+    border: 1.5px solid #1a1a1a;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background 180ms;
+  }
+  .bt-send-report:hover:not(:disabled) {
+    background: #2a2a2a;
+  }
+  .bt-send-report:disabled {
+    opacity: 0.55;
+    cursor: progress;
+  }
+	  .bt-report-confirm {
+	    font-family: 'Georgia', serif;
+	    font-size: 12pt;
+	    color: #1f7d4f;
+	    text-align: center;
+	    padding: 22px 14px;
+	    line-height: 1.5;
+	    background: rgba(43, 182, 115, 0.1);
+	    border: 1px solid rgba(43, 182, 115, 0.28);
+	    border-radius: 8px;
+	  }
+	  .bt-report-confirm strong {
+	    display: block;
+	    font-size: 17pt;
+	    color: #146b40;
+	    margin-bottom: 4px;
+	  }
+	  .bt-report-confirm span {
+	    display: block;
+	  }
+	  .bt-report-confirm small {
+	    display: block;
+	    margin: 10px 0 14px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+	    color: #4d6f5a;
+	    overflow-wrap: anywhere;
+	  }
+	  .bt-confirm-close {
+	    background: #1a1a1a;
+	    color: #f0a500;
+	    border: 1.5px solid #1a1a1a;
+	    padding: 9px 18px;
+	    border-radius: 8px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9.5pt;
+	    letter-spacing: 0.04em;
+	    cursor: pointer;
+	  }
+	  .bt-confirm-close:hover {
+	    background: #2a2a2a;
+	  }
+	  .bt-report-error {
+    font-family: 'Courier New', monospace;
+    font-size: 9.5pt;
+    color: #c83a08;
+    background: rgba(200, 58, 8, 0.06);
+    border: 1px solid rgba(200, 58, 8, 0.2);
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-top: 12px;
+    line-height: 1.5;
+  }
+
+	  @media (max-width: 620px) {
+	    .ask-page { padding: 90px 5vw 60px; }
+	    .ask-head { gap: 12px; }
+	    .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 76px !important; }
+	    .ask-h1 { font-size: 40px !important; }
+	    .ask-buddy-tagline { font-size: 16px; }
+	    .ask-input { font-size: 12pt; height: 48px; }
+	    .ask-btn { height: 48px; padding: 0 16px; font-size: 10pt; }
+	    .ask-input-block.in-thread .ask-form {
+	      display: grid;
+	      grid-template-columns: minmax(0, 1fr) 92px;
+	      gap: 8px;
+	    }
+	    .ask-input-block.in-thread .ask-btn {
+	      min-width: 0;
+	      width: 92px;
+	      padding: 0 10px;
+	    }
+	    .bt-console-top { flex-direction: column; }
+	    .bt-user-chip { max-width: 100%; }
+	    .bt-metrics { grid-template-columns: 1fr; }
+	    :global(.bt-thread-item) { grid-template-columns: 1fr; }
+	    .bt-modal { padding: 20px 16px; }
+	    .bt-category-grid { grid-template-columns: 1fr; }
+	    .bt-actions { flex-direction: column; }
+	  }
+	  @media (max-width: 380px) {
+	    .ask-head { gap: 8px; }
+	    .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 62px !important; }
+	    .ask-h1 { font-size: 34px !important; }
+	    .ask-buddy-tagline { font-size: 15px; }
+	  }
+	  @media (max-width: 340px) {
+	    .ask-input-block.in-thread .ask-form {
+	      grid-template-columns: 1fr;
+	    }
+	    .ask-input-block.in-thread .ask-btn {
+	      width: 100%;
+	    }
+	  }
 </style>
 
 </Layout>

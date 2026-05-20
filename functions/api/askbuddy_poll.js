@@ -1,6 +1,7 @@
 // Cloudflare Pages Function: poll a queued AskBuddy answer.
 
 import { callBuddyPoll } from '../_lib/ingest.js';
+import { appendBuddyThreadTurn, getBuddyThreadSessionId, getLoggedInUser } from '../_lib/buddyThread.js';
 
 const PRIMARY_ORIGIN = 'https://aiit-threshold.com';
 const ALLOWED_ORIGIN_PATTERNS = [
@@ -93,10 +94,16 @@ export async function onRequestPost(context) {
   catch { return new Response(JSON.stringify({ ok: false, error: 'invalid json' }), { status: 400, headers }); }
 
   const requestId = String(body.request_id || body.requestId || '').trim();
-  const sessionId = String(body.session_id || body.sessionId || '').trim();
+  const incomingSessionId = String(body.session_id || body.sessionId || '').trim();
+  const question = String(body.question || '').trim().slice(0, 600);
+  const wantsAccountThread = body.account_thread === true;
   if (!requestId) {
     return new Response(JSON.stringify({ ok: false, error: 'missing_request_id' }), { status: 400, headers });
   }
+
+  const loggedInUser = await getLoggedInUser(request, env);
+  const accountThread = wantsAccountThread && !!(loggedInUser && (loggedInUser.login || loggedInUser.id));
+  const sessionId = accountThread ? await getBuddyThreadSessionId(env, loggedInUser, 'primary') : incomingSessionId;
 
   const ingest = await callBuddyPoll({ env, requestId, sessionId });
   if (!ingest.ok) {
@@ -120,6 +127,18 @@ export async function onRequestPost(context) {
   const answer = String(ingest.data.answer || '').trim();
   if (ingest.data.status === 'ready' && answer) {
     const obs = rollObservation();
+    let threadSaved = false;
+    if (accountThread && question) {
+      try {
+        await appendBuddyThreadTurn(env, loggedInUser, {
+          question,
+          answer,
+          requestId: ingest.request_id,
+          threadId: 'primary',
+        });
+        threadSaved = true;
+      } catch {}
+    }
     const payload = {
       ok: true,
       status: 'ready',
@@ -127,6 +146,7 @@ export async function onRequestPost(context) {
       answer,
       cta: 'pass it on',
       layer: 'surface',
+      thread: { enabled: accountThread, saved: threadSaved },
     };
     if (obs) {
       payload.observation = obs.text;
