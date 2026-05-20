@@ -1,6 +1,6 @@
 'use strict';
 
-var VERSION = '2026-05-20.1';
+var VERSION = '2026-05-20.2';
 var STATIC_CACHE = 'aiit-static-' + VERSION;
 var PAGE_CACHE = 'aiit-pages-' + VERSION;
 var RUNTIME_CACHE = 'aiit-runtime-' + VERSION;
@@ -80,9 +80,20 @@ function isRuntimeAsset(request, url) {
   return /\.(?:js|css|woff2?|png|jpg|jpeg|gif|svg|ico)$/i.test(url.pathname);
 }
 
-function cleanRequestUrl(request) {
+function canonicalPageUrl(request) {
   var url = new URL(request.url);
   url.hash = '';
+  if (needsTrailingSlash(url)) url.pathname += '/';
+  return url;
+}
+
+function needsTrailingSlash(url) {
+  if (url.pathname === '/' || url.pathname.endsWith('/')) return false;
+  return !/\.[a-z0-9]{2,5}$/i.test(url.pathname);
+}
+
+function cleanRequestUrl(request, url) {
+  url = url || new URL(request.url);
   return new Request(url.href, {
     method: 'GET',
     headers: request.headers,
@@ -93,7 +104,15 @@ function cleanRequestUrl(request) {
 }
 
 function staleWhileRevalidatePage(request) {
-  var cleanRequest = cleanRequestUrl(request);
+  var pageUrl = canonicalPageUrl(request);
+  var requestUrl = new URL(request.url);
+  requestUrl.hash = '';
+
+  if (request.mode === 'navigate' && pageUrl.href !== requestUrl.href) {
+    return Promise.resolve(Response.redirect(pageUrl.href, 308));
+  }
+
+  var cleanRequest = cleanRequestUrl(request, pageUrl);
   return caches.open(PAGE_CACHE).then(function (cache) {
     return cache.match(cleanRequest).then(function (cached) {
       var network = fetch(cleanRequest)
