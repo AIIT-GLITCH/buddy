@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  var VERSION = '2026-05-20.1';
+  var VERSION = '2026-05-20.2';
   var PREFETCH_LIMIT = 18;
   var HOVER_DELAY_MS = 45;
   var MAX_PREFETCH_AGE_MS = 10 * 60 * 1000;
@@ -39,10 +39,16 @@
       if (url.pathname.startsWith('/api/') || url.pathname.startsWith('/cdn-cgi/')) return null;
       if (/\.(?:pdf|zip|mp4|webm|mp3|wav|jpg|jpeg|png|gif|svg|ico|css|js|json|xml|txt)$/i.test(url.pathname)) return null;
       url.hash = '';
+      if (needsTrailingSlash(url)) url.pathname += '/';
       return url;
     } catch (error) {
       return null;
     }
+  }
+
+  function needsTrailingSlash(url) {
+    if (url.pathname === '/' || url.pathname.endsWith('/')) return false;
+    return !/\.[a-z0-9]{2,5}$/i.test(url.pathname);
   }
 
   function linkUrl(anchor) {
