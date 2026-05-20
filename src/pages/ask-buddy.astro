@@ -1391,7 +1391,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    overflow-y: auto;
 	    padding: 4px;
 	  }
-	  .bt-thread-item {
+	  :global(.bt-thread-item) {
 	    display: grid;
 	    grid-template-columns: 58px minmax(0, 1fr);
 	    gap: 9px;
@@ -1401,28 +1401,28 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    border: 1px solid rgba(255, 247, 223, 0.1);
 	    background: rgba(255, 253, 245, 0.055);
 	  }
-	  .bt-thread-item.user {
+	  :global(.bt-thread-item.user) {
 	    background: rgba(255, 253, 245, 0.08);
 	  }
-	  .bt-thread-item.buddy {
+	  :global(.bt-thread-item.buddy) {
 	    border-color: rgba(240, 165, 0, 0.22);
 	    background: rgba(240, 165, 0, 0.08);
 	  }
-	  .bt-thread-item.pending {
+	  :global(.bt-thread-item.pending) {
 	    opacity: 0.82;
 	    border-style: dashed;
 	  }
-	  .bt-thread-role {
+	  :global(.bt-thread-role) {
 	    font-family: 'Courier New', monospace;
 	    font-size: 8pt;
 	    letter-spacing: 0.04em;
 	    color: rgba(255, 247, 223, 0.56);
 	    text-transform: uppercase;
 	  }
-	  .bt-thread-item.buddy .bt-thread-role {
+	  :global(.bt-thread-item.buddy .bt-thread-role) {
 	    color: #f0a500;
 	  }
-	  .bt-thread-text {
+	  :global(.bt-thread-text) {
 	    min-width: 0;
 	    font-family: 'Georgia', serif;
 	    font-size: 10.5pt;
@@ -1430,7 +1430,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    color: rgba(255, 247, 223, 0.86);
 	    overflow-wrap: anywhere;
 	  }
-	  .bt-thread-empty,
+	  :global(.bt-thread-empty),
 	  .bt-thread-typing {
 	    min-height: 112px;
 	    display: flex;
@@ -1827,7 +1827,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    .bt-console-top { flex-direction: column; }
 	    .bt-user-chip { max-width: 100%; }
 	    .bt-metrics { grid-template-columns: 1fr; }
-	    .bt-thread-item { grid-template-columns: 1fr; }
+	    :global(.bt-thread-item) { grid-template-columns: 1fr; }
 	    .bt-modal { padding: 20px 16px; }
 	    .bt-category-grid { grid-template-columns: 1fr; }
 	    .bt-actions { flex-direction: column; }
