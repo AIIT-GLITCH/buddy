@@ -122,7 +122,7 @@ export async function appendBuddyThreadTurn(env, user, { question, answer, reque
   const now = new Date().toISOString();
   const record = await loadBuddyThread(env, user, threadId);
 
-  if (requestId && record.messages.some(m => m.role === 'buddy' && m.request_id === requestId)) {
+  if (requestId && record.messages.some(m => m.request_id === requestId)) {
     return record;
   }
 

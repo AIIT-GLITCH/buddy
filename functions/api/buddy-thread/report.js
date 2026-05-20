@@ -31,7 +31,8 @@ function responseHeaders(request) {
   const origin = request?.headers?.get('origin') || '';
   const allowed = /^https:\/\/(www\.)?aiit-threshold\.com$/i.test(origin)
     || /^https:\/\/[-a-z0-9]+\.buddy-bb4\.pages\.dev$/i.test(origin)
-    || /^https?:\/\/localhost(:\d+)?$/i.test(origin);
+    || /^https?:\/\/localhost(:\d+)?$/i.test(origin)
+    || /^https?:\/\/127\.0\.0\.1(:\d+)?$/i.test(origin);
   return {
     'Content-Type': 'application/json',
     ...(allowed ? {
