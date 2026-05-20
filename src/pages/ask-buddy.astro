@@ -23,7 +23,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       <div class="bt-console-top">
         <div>
           <div class="bt-notice-badge">Buddy Thread alpha</div>
-          <h2>First look at persistent Buddy.</h2>
+          <h2>Talk with persistent Buddy.</h2>
         </div>
         <div class="bt-user-chip" id="bt-user-chip">checking login</div>
       </div>
@@ -44,9 +44,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
         </div>
       </div>
       <div class="bt-thread-preview" id="bt-thread-preview" hidden>
-        <div class="bt-thread-preview-title">Persistent Buddy Thread</div>
+        <div class="bt-thread-preview-title">Live Buddy Thread Window</div>
         <div class="bt-thread-list" id="bt-thread-list" aria-live="polite"></div>
         <div class="bt-thread-typing" id="bt-thread-typing" hidden></div>
+        <div class="bt-thread-composer-slot" id="bt-thread-composer-slot" hidden></div>
       </div>
       <div class="bt-actions">
         <a class="bt-login-btn" id="bt-login-btn" href="/api/auth/github/login?redirect=/ask-buddy" hidden>Activate Buddy Thread</a>
@@ -546,9 +547,31 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		  const threadPreviewEl = document.getElementById('bt-thread-preview');
 		  const threadListEl = document.getElementById('bt-thread-list');
 		  const threadTypingEl = document.getElementById('bt-thread-typing');
+		  const threadComposerSlot = document.getElementById('bt-thread-composer-slot');
+		  const askInputBlock = document.querySelector('.ask-input-block');
+		  const askPage = document.querySelector('.ask-page');
+		  const originalAskParent = askInputBlock ? askInputBlock.parentNode : null;
+		  const originalAskNext = askInputBlock ? askInputBlock.nextSibling : null;
 		  let buddyThreadEnabled = false;
 		  let visibleThreadMessages = [];
 		  let optimisticThreadMessages = [];
+
+		  function placeAskComposer(inThread) {
+		    if (!askInputBlock) return;
+		    askInputBlock.classList.toggle('in-thread', !!inThread);
+		    if (askPage) askPage.classList.toggle('buddy-thread-active', !!inThread);
+		    if (inThread && threadComposerSlot) {
+		      threadComposerSlot.hidden = false;
+		      if (askInputBlock.parentNode !== threadComposerSlot) {
+		        threadComposerSlot.appendChild(askInputBlock);
+		      }
+		      return;
+		    }
+		    if (threadComposerSlot) threadComposerSlot.hidden = true;
+		    if (originalAskParent && askInputBlock.parentNode !== originalAskParent) {
+		      originalAskParent.insertBefore(askInputBlock, originalAskNext);
+		    }
+		  }
 
 		  function scrollThreadToBottom() {
 		    if (!threadListEl) return;
@@ -565,7 +588,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		      empty.className = 'bt-thread-empty';
 		      empty.textContent = locked
 		        ? 'Sign in to activate the persistent Buddy Thread.'
-		        : 'No stored messages yet. Ask Buddy and the visible thread will start here.';
+		        : 'This is the live chat window. Send a message below and Buddy will keep this account-linked thread moving.';
 		      threadListEl.appendChild(empty);
 		      return;
 		    }
@@ -843,6 +866,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      buddyThreadEnabled = false;
 	      visibleThreadMessages = [];
 	      optimisticThreadMessages = [];
+	      placeAskComposer(false);
 	      if (userChip) userChip.textContent = 'login required';
 	      if (threadState) threadState.textContent = 'locked';
 	      if (threadCount) threadCount.textContent = '0';
@@ -856,6 +880,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    }
 
 	    buddyThreadEnabled = true;
+	    placeAskComposer(true);
 	    if (loginBtn) loginBtn.hidden = true;
 	    [reportBtn, exportBtn, clearBtn].forEach((btn) => {
 	      if (btn) btn.disabled = false;
@@ -866,7 +891,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    function applyThread(thread) {
 	      const count = thread && Number(thread.message_count || 0);
 	      if (threadCount) threadCount.textContent = String(count || 0);
-	      if (threadState) threadState.textContent = count ? 'live' : 'ready';
+	      if (threadState) threadState.textContent = 'live';
 	      const messages = Array.isArray(thread && thread.messages) ? thread.messages : [];
 	      visibleThreadMessages = messages;
 	      optimisticThreadMessages = [];
@@ -1074,15 +1099,20 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     margin-bottom: 22px;
   }
   .ask-mascot-mini { flex-shrink: 0; }
-  .ask-title-block { display: flex; flex-direction: column; }
+  .ask-title-block {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
   .ask-h1 {
     font-family: 'Georgia', serif;
-    font-size: clamp(34pt, 5.6vw, 56pt);
+    font-size: 72px;
     color: #1a1a1a;
     margin: 0;
-    letter-spacing: -0.02em;
+    letter-spacing: 0;
     line-height: 1;
     font-weight: 800;
+    white-space: nowrap;
   }
   .ask-bang {
     color: #c83a08;
@@ -1454,6 +1484,51 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    border-color: rgba(240, 165, 0, 0.18);
 	    background: rgba(240, 165, 0, 0.07);
 	  }
+	  .bt-thread-composer-slot {
+	    margin-top: 12px;
+	    padding-top: 12px;
+	    border-top: 1px solid rgba(255, 247, 223, 0.14);
+	  }
+	  .bt-thread-composer-slot[hidden] {
+	    display: none;
+	  }
+	  .ask-input-block.in-thread {
+	    margin: 0;
+	  }
+	  .ask-input-block.in-thread .ask-form {
+	    gap: 8px;
+	  }
+	  .ask-input-block.in-thread .ask-input {
+	    min-width: 0;
+	    height: 50px;
+	    background: rgba(255, 247, 223, 0.96);
+	    border-color: rgba(240, 165, 0, 0.55);
+	    color: #1a1a1a;
+	    box-shadow: none;
+	  }
+	  .ask-input-block.in-thread .ask-input:focus {
+	    border-color: #f0a500;
+	    box-shadow: 0 0 0 3px rgba(240, 165, 0, 0.18);
+	  }
+	  .ask-input-block.in-thread .ask-btn {
+	    min-width: 92px;
+	    height: 50px;
+	    border-color: #f0a500;
+	    background: #f0a500;
+	    color: #1a1a1a;
+	    white-space: nowrap;
+	  }
+	  .ask-input-block.in-thread .ask-joke-link {
+	    display: none;
+	  }
+	  .ask-input-block.in-thread .ask-status {
+	    margin-top: 8px;
+	    color: rgba(255, 247, 223, 0.7);
+	  }
+	  .ask-page.buddy-thread-active .ask-response,
+	  .ask-page.buddy-thread-active .ask-planets {
+	    display: none;
+	  }
 	  .bt-actions {
 	    display: flex;
 	    flex-wrap: wrap;
@@ -1822,8 +1897,20 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    .ask-page { padding: 90px 5vw 60px; }
 	    .ask-head { gap: 12px; }
 	    .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 76px !important; }
+	    .ask-h1 { font-size: 40px !important; }
+	    .ask-buddy-tagline { font-size: 16px; }
 	    .ask-input { font-size: 12pt; height: 48px; }
 	    .ask-btn { height: 48px; padding: 0 16px; font-size: 10pt; }
+	    .ask-input-block.in-thread .ask-form {
+	      display: grid;
+	      grid-template-columns: minmax(0, 1fr) 92px;
+	      gap: 8px;
+	    }
+	    .ask-input-block.in-thread .ask-btn {
+	      min-width: 0;
+	      width: 92px;
+	      padding: 0 10px;
+	    }
 	    .bt-console-top { flex-direction: column; }
 	    .bt-user-chip { max-width: 100%; }
 	    .bt-metrics { grid-template-columns: 1fr; }
@@ -1831,6 +1918,20 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    .bt-modal { padding: 20px 16px; }
 	    .bt-category-grid { grid-template-columns: 1fr; }
 	    .bt-actions { flex-direction: column; }
+	  }
+	  @media (max-width: 380px) {
+	    .ask-head { gap: 8px; }
+	    .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 62px !important; }
+	    .ask-h1 { font-size: 34px !important; }
+	    .ask-buddy-tagline { font-size: 15px; }
+	  }
+	  @media (max-width: 340px) {
+	    .ask-input-block.in-thread .ask-form {
+	      grid-template-columns: 1fr;
+	    }
+	    .ask-input-block.in-thread .ask-btn {
+	      width: 100%;
+	    }
 	  }
 </style>
 
