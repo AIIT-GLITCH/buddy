@@ -435,6 +435,26 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
     })();
   </script>
 
+  <script is:inline>
+    (function () {
+      document.addEventListener('click', async function (event) {
+        const link = event.target && event.target.closest ? event.target.closest('a[href="/api/auth/logout"]') : null;
+        if (!link || event.defaultPrevented || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        const sync = window.BuddyPaperGameSync;
+        if (!sync || typeof sync.flush !== 'function') return;
+
+        event.preventDefault();
+        try {
+          await Promise.race([
+            sync.flush(),
+            new Promise(resolve => setTimeout(resolve, 1400)),
+          ]);
+        } catch {}
+        window.location.href = link.href;
+      }, true);
+    })();
+  </script>
+
   <main>
     <slot />
   </main>
@@ -454,6 +474,8 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
   </footer>
 
   {!isHome && <GaryWidget />}
+
+  <script src="/paper-game-sync.js" defer></script>
 
   <!-- Language picker modal -->
   <div id="lang-picker" class="lang-picker" role="dialog" aria-modal="true" aria-label="Choose language" hidden>

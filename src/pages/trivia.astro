@@ -163,6 +163,9 @@ for (const p of papersAll) {
         const arr = getCollected();
         if (!arr.includes(slug)) arr.push(slug);
         localStorage.setItem(KEY_COLLECTED, JSON.stringify(arr));
+        if (window.BuddyPaperGameSync && typeof window.BuddyPaperGameSync.saveUnlocked === 'function') {
+          window.BuddyPaperGameSync.saveUnlocked(slug).catch(function () {});
+        }
       }
       function getSessions() {
         return parseInt(localStorage.getItem(KEY_SESSIONS) || '0', 10) || 0;
