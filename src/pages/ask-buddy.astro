@@ -51,6 +51,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       </div>
       <div class="bt-actions">
         <a class="bt-login-btn" id="bt-login-btn" href="/api/auth/github/login?redirect=/ask-buddy" hidden>Activate Buddy Thread</a>
+        <button type="button" class="bt-demo-btn" id="bt-demo-btn" hidden>Preview chat window</button>
         <button type="button" class="bt-report-btn" id="bt-report-btn">Report weird behavior</button>
         <button type="button" class="bt-export-btn" id="bt-export-btn">Export thread</button>
         <button type="button" class="bt-clear-btn" id="bt-clear-btn">Clear thread</button>
@@ -199,6 +200,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   const input    = document.getElementById('ask-input');
   const btn      = document.getElementById('ask-btn');
   const response = document.getElementById('ask-response');
+  const originalAskPlaceholder = input ? input.getAttribute('placeholder') || '' : '';
   const statusDot = document.getElementById('ask-status-dot');
   const statusText = document.getElementById('ask-status-text');
   const statusBlk  = document.getElementById('ask-status');
@@ -345,7 +347,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    if (buddyThreadEnabled) {
 	      response.className = 'ask-response';
 	      response.innerHTML = '';
-	      appendThreadMessage('buddy', answer);
+	      appendThreadMessage('buddy', answer, { pending: !buddyThreadDemoMode });
 	      return;
 	    }
     const obs = payload.observation || '';
@@ -553,12 +555,33 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		  const originalAskParent = askInputBlock ? askInputBlock.parentNode : null;
 		  const originalAskNext = askInputBlock ? askInputBlock.nextSibling : null;
 		  let buddyThreadEnabled = false;
+		  let buddyThreadDemoMode = false;
 		  let visibleThreadMessages = [];
 		  let optimisticThreadMessages = [];
+
+		  function isThreadPreviewHost() {
+		    const host = location.hostname;
+		    return host === 'localhost'
+		      || host === '127.0.0.1'
+		      || host.endsWith('.pages.dev');
+		  }
+
+		  function wantsThreadPreview() {
+		    const params = new URLSearchParams(location.search);
+		    const value = params.get('thread_preview') || params.get('preview_thread') || params.get('demo_thread');
+		    return value === '1' || value === 'true' || value === 'yes';
+		  }
+
+		  function threadPreviewUrl() {
+		    const next = new URL(location.href);
+		    next.searchParams.set('thread_preview', '1');
+		    return next.toString();
+		  }
 
 		  function placeAskComposer(inThread) {
 		    if (!askInputBlock) return;
 		    askInputBlock.classList.toggle('in-thread', !!inThread);
+		    if (input) input.placeholder = inThread ? 'Message Buddy...' : originalAskPlaceholder;
 		    if (askPage) askPage.classList.toggle('buddy-thread-active', !!inThread);
 		    if (inThread && threadComposerSlot) {
 		      threadComposerSlot.hidden = false;
@@ -583,6 +606,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		    threadPreviewEl.hidden = false;
 		    threadListEl.innerHTML = '';
 		    const rows = locked ? [] : visibleThreadMessages.concat(optimisticThreadMessages).slice(-80);
+		    if (!locked) {
+		      const countEl = document.getElementById('bt-thread-count');
+		      if (countEl) countEl.textContent = String(rows.length);
+		    }
 		    if (!rows.length) {
 		      const empty = document.createElement('div');
 		      empty.className = 'bt-thread-empty';
@@ -615,15 +642,72 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		    threadTypingEl.hidden = !message;
 		  }
 
-		  function appendThreadMessage(role, text) {
+		  function appendThreadMessage(role, text, options = {}) {
 		    if (!buddyThreadEnabled || !text) return;
 		    optimisticThreadMessages.push({
 		      role: role === 'buddy' ? 'buddy' : 'user',
 		      text,
-		      pending: true,
+		      pending: options.pending !== false,
 		      at: new Date().toISOString(),
 		    });
 		    renderThreadWindow();
+		  }
+
+		  function demoBuddyAnswer(question) {
+		    const trimmed = String(question || '').trim();
+		    if (trimmed && /remember|context|tomorrow|day 200|persistent/i.test(trimmed)) {
+		      return 'Preview mode: this window is the persistent Buddy Thread surface. In a real login, Buddy reloads the same visible account thread instead of starting over.';
+		    }
+		    return 'Preview mode: this is the live chat layout without GitHub auth. A real logged-in thread sends this message to Buddy and can preserve the account-linked context across visits.';
+		  }
+
+		  function startThreadPreviewMode({
+		    loginBtn,
+		    demoBtn,
+		    reportBtn,
+		    exportBtn,
+		    clearBtn,
+		    userChip,
+		    threadState,
+		    setThreadMessage,
+		  }) {
+		    buddyThreadEnabled = true;
+		    buddyThreadDemoMode = true;
+		    const now = new Date().toISOString();
+		    visibleThreadMessages = [
+		      {
+		        role: 'user',
+		        text: 'Buddy, if I come back tomorrow, will this thread still know where we left off?',
+		        at: now,
+		      },
+		      {
+		        role: 'buddy',
+		        text: 'Yes. In a real logged-in Buddy Thread, this account-linked surface reloads the visible thread instead of treating every visit like day one.',
+		        at: now,
+		      },
+		      {
+		        role: 'user',
+		        text: 'So this is not the old Ask Buddy box?',
+		        at: now,
+		      },
+		      {
+		        role: 'buddy',
+		        text: 'Right. Ask Buddy still exists, but this window is the persistent conversation surface: continuity, reports, export, clear, and manual memory review.',
+		        at: now,
+		      },
+		    ];
+		    optimisticThreadMessages = [];
+		    hydrateTurnHistory(visibleThreadMessages);
+		    placeAskComposer(true);
+		    if (loginBtn) loginBtn.hidden = true;
+		    if (demoBtn) demoBtn.hidden = true;
+		    [reportBtn, exportBtn, clearBtn].forEach((btn) => {
+		      if (btn) btn.disabled = false;
+		    });
+		    if (userChip) userChip.textContent = '@preview';
+		    if (threadState) threadState.textContent = 'preview';
+		    renderThreadWindow();
+		    setThreadMessage('Preview mode only. This is not logged in, not saved, and not sent to Buddy.', '');
 		  }
 
 		  const PENDING_STORAGE = 'askbuddy_pending_requests';
@@ -717,7 +801,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     const q = input.value.trim();
     if (!q) return;
     if (buddyThreadEnabled) {
-      appendThreadMessage('user', q);
+      appendThreadMessage('user', q, { pending: !buddyThreadDemoMode });
     }
     btn.disabled = true;
     btn.textContent = '...';
@@ -727,6 +811,16 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     const minShowMs = 500;
     const t0 = performance.now();
     let payload = null;
+    if (buddyThreadDemoMode) {
+      await new Promise(r => setTimeout(r, minShowMs));
+      const answer = demoBuddyAnswer(q);
+      pushTurn(q, answer);
+      showFirstOutput({ ok: true, answer });
+      input.value = '';
+      btn.disabled = false;
+      btn.textContent = 'Ask →';
+      return;
+    }
     try {
 	      const res = await fetch('/api/askbuddy', {
 	        method: 'POST',
@@ -812,6 +906,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    const notice = document.getElementById('bt-notice');
 	    const overlay = document.getElementById('bt-modal-overlay');
 	    const loginBtn = document.getElementById('bt-login-btn');
+	    const demoBtn = document.getElementById('bt-demo-btn');
 	    const reportBtn = document.getElementById('bt-report-btn');
 	    const closeBtn = document.getElementById('bt-modal-close');
 	    const reportForm = document.getElementById('bt-report-form');
@@ -833,6 +928,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    if (loginBtn) {
 	      const here = encodeURIComponent(location.pathname + location.search + location.hash || '/ask-buddy');
 	      loginBtn.href = '/api/auth/github/login?redirect=' + here;
+	    }
+	    if (demoBtn && isThreadPreviewHost()) {
+	      demoBtn.hidden = false;
+	      demoBtn.addEventListener('click', () => { location.href = threadPreviewUrl(); });
 	    }
 
 	    function setThreadMessage(message, kind = '') {
@@ -863,30 +962,46 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      btUser = j && j.user ? j.user : null;
 	    } catch {}
 	    if (!btUser) {
-	      buddyThreadEnabled = false;
-	      visibleThreadMessages = [];
-	      optimisticThreadMessages = [];
-	      placeAskComposer(false);
-	      if (userChip) userChip.textContent = 'login required';
-	      if (threadState) threadState.textContent = 'locked';
-	      if (threadCount) threadCount.textContent = '0';
-	      if (loginBtn) loginBtn.hidden = false;
+	      if (isThreadPreviewHost() && wantsThreadPreview()) {
+	        startThreadPreviewMode({
+	          loginBtn,
+	          demoBtn,
+	          reportBtn,
+	          exportBtn,
+	          clearBtn,
+	          userChip,
+	          threadState,
+	          setThreadMessage,
+	        });
+	      } else {
+	        buddyThreadEnabled = false;
+	        buddyThreadDemoMode = false;
+	        visibleThreadMessages = [];
+	        optimisticThreadMessages = [];
+	        placeAskComposer(false);
+	        if (userChip) userChip.textContent = 'login required';
+	        if (threadState) threadState.textContent = 'locked';
+	        if (threadCount) threadCount.textContent = '0';
+	        if (loginBtn) loginBtn.hidden = false;
+	        [reportBtn, exportBtn, clearBtn].forEach((btn) => {
+	          if (btn) btn.disabled = true;
+	        });
+	        renderThreadWindow({ locked: true });
+	        setThreadMessage('Sign in with GitHub to activate persistent Buddy Thread, reports, export, and clear controls.', '');
+	        return;
+	      }
+	    } else {
+	      buddyThreadEnabled = true;
+	      buddyThreadDemoMode = false;
+	      placeAskComposer(true);
+	      if (loginBtn) loginBtn.hidden = true;
+	      if (demoBtn) demoBtn.hidden = true;
 	      [reportBtn, exportBtn, clearBtn].forEach((btn) => {
-	        if (btn) btn.disabled = true;
+	        if (btn) btn.disabled = false;
 	      });
-	      renderThreadWindow({ locked: true });
-	      setThreadMessage('Sign in with GitHub to activate persistent Buddy Thread, reports, export, and clear controls.', '');
-	      return;
+	      if (userChip) userChip.textContent = '@' + (btUser.login || btUser.id || 'logged-in');
+	      renderThreadWindow();
 	    }
-
-	    buddyThreadEnabled = true;
-	    placeAskComposer(true);
-	    if (loginBtn) loginBtn.hidden = true;
-	    [reportBtn, exportBtn, clearBtn].forEach((btn) => {
-	      if (btn) btn.disabled = false;
-	    });
-	    if (userChip) userChip.textContent = '@' + (btUser.login || btUser.id || 'logged-in');
-	    renderThreadWindow();
 
 	    function applyThread(thread) {
 	      const count = thread && Number(thread.message_count || 0);
@@ -911,10 +1026,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      return data;
 	    }
 	    refreshBuddyThread = fetchVisibleThread;
-	    fetchVisibleThread({ quiet: true }).catch((err) => {
-	      if (threadState) threadState.textContent = 'offline';
-	      setThreadMessage(err.message, 'error');
-	    });
+	    if (!buddyThreadDemoMode) {
+	      fetchVisibleThread({ quiet: true }).catch((err) => {
+	        if (threadState) threadState.textContent = 'offline';
+	        setThreadMessage(err.message, 'error');
+	      });
+	    }
 
 	    function openModal() {
 	      overlay.hidden = false;
@@ -967,6 +1084,19 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      sendBtn.textContent = 'Sending...';
 	      errorEl.hidden = true;
 	      setReportStatus('Sending report...', '');
+
+	      if (buddyThreadDemoMode) {
+	        await new Promise(r => setTimeout(r, 450));
+	        sendBtn.disabled = false;
+	        sendBtn.textContent = 'Send report';
+	        reportBusy = false;
+	        reportForm.hidden = true;
+	        if (receiptEl) receiptEl.textContent = 'preview only: no report was sent';
+	        confirmEl.hidden = false;
+	        setReportStatus('Preview confirmation only. No report was sent.', 'ok');
+	        setThreadMessage('Preview report confirmation shown. Nothing was saved.', 'ok');
+	        return;
+	      }
 
 	      let res = null;
 	      let data = null;
@@ -1023,6 +1153,20 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	        exportBtn.textContent = 'Exporting...';
 	        setThreadMessage('Preparing visible thread export...', '');
 	        try {
+	          if (buddyThreadDemoMode) {
+	            downloadJson('buddy-thread-preview-export.json', {
+	              preview: true,
+	              exported_at: new Date().toISOString(),
+	              thread: {
+	                thread_id: 'preview',
+	                message_count: visibleThreadMessages.length + optimisticThreadMessages.length,
+	                messages: visibleThreadMessages.concat(optimisticThreadMessages),
+	              },
+	              limits: 'Preview export only. Nothing here is logged in, saved, or sent to Buddy.',
+	            });
+	            setThreadMessage('Preview thread exported. Nothing was saved.', 'ok');
+	            return;
+	          }
 	          const data = await fetchVisibleThread({ quiet: true });
 	          downloadJson('buddy-thread-export.json', {
 	            exported_at: new Date().toISOString(),
@@ -1042,6 +1186,15 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 	    if (clearBtn) {
 	      clearBtn.addEventListener('click', async () => {
+	        if (buddyThreadDemoMode) {
+	          if (!confirm('Clear the preview Buddy Thread? Nothing here is saved.')) return;
+	          visibleThreadMessages = [];
+	          optimisticThreadMessages = [];
+	          turnHistory.length = 0;
+	          renderThreadWindow();
+	          setThreadMessage('Preview thread cleared. Nothing was saved.', 'ok');
+	          return;
+	        }
 	        if (!confirm('Clear the visible Buddy Thread for this login? This does not remove corpus logs, reviewed reports, or Kokoro memories Buddy may have formed.')) return;
 	        const prev = clearBtn.textContent;
 	        clearBtn.disabled = true;
@@ -1535,7 +1688,8 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    gap: 8px;
 	    margin: 12px 0 10px;
 	  }
-	  .bt-login-btn {
+	  .bt-login-btn,
+	  .bt-demo-btn {
 	    display: inline-flex;
 	    align-items: center;
 	    justify-content: center;
@@ -1551,10 +1705,18 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    cursor: pointer;
 	    transition: background 180ms, transform 120ms;
 	  }
-	  .bt-login-btn:hover {
+	  .bt-login-btn:hover,
+	  .bt-demo-btn:hover {
 	    background: #ffd36a;
 	    border-color: #ffd36a;
 	    transform: translateY(-1px);
+	  }
+	  .bt-demo-btn {
+	    background: rgba(240, 165, 0, 0.12);
+	    color: #ffd36a;
+	  }
+	  .bt-demo-btn:hover {
+	    color: #1a1a1a;
 	  }
 	  .bt-report-btn {
 	    background: #f0a500;
@@ -1632,6 +1794,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 	  .bt-notice[hidden],
 	  .bt-login-btn[hidden],
+	  .bt-demo-btn[hidden],
 	  .bt-thread-preview[hidden],
 	  .bt-thread-typing[hidden],
 	  .bt-thread-message[hidden],
