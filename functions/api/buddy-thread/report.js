@@ -6,7 +6,7 @@
 // KV binding required: AUTH_KV (same namespace as auth system)
 // Optional env:
 //   REPORTS_TO   comma-separated report recipients; defaults to reports@aiitcorp.com
-//   REPORTS_FROM sender address; defaults to NOTIFY_FROM or reports@aiit-threshold.com
+//   REPORTS_FROM sender address; defaults to NOTIFY_FROM or sales@aiit-threshold.com
 //
 // Endpoint:
 //   POST /api/buddy-thread/report
@@ -30,7 +30,7 @@ const MAX_NOTE_LEN = 2000;
 const MAX_RECENT_MESSAGES = 10;
 const MAX_MESSAGE_LEN = 1000;
 const DEFAULT_REPORTS_TO = 'reports@aiitcorp.com';
-const DEFAULT_REPORTS_FROM = 'reports@aiit-threshold.com';
+const DEFAULT_REPORTS_FROM = 'sales@aiit-threshold.com';
 
 function responseHeaders(request) {
   const origin = request?.headers?.get('origin') || '';
@@ -115,7 +115,6 @@ async function sendReportEmail(env, report, rid, kvKey) {
     const msg = {
       personalizations: [{ to: [{ email: to }] }],
       from: { email: fromAddr, name: 'Buddy Reports' },
-      reply_to: { email: DEFAULT_REPORTS_TO, name: 'AIIT Reports' },
       subject,
       content: [{ type: 'text/plain', value: body }],
     };
