@@ -119,7 +119,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       </form>
       <div class="bt-report-confirm" id="bt-report-confirm" role="status" aria-live="polite" hidden>
         <strong>Report sent.</strong>
-        <span>Captured for manual AIIT review.</span>
+        <span id="bt-report-delivery">Captured for manual AIIT review.</span>
         <small id="bt-report-receipt"></small>
         <button type="button" class="bt-confirm-close" id="bt-confirm-close">Close</button>
       </div>
@@ -913,6 +913,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    const confirmEl = document.getElementById('bt-report-confirm');
 	    const confirmCloseBtn = document.getElementById('bt-confirm-close');
 	    const receiptEl = document.getElementById('bt-report-receipt');
+	    const deliveryEl = document.getElementById('bt-report-delivery');
 	    const exportBtn = document.getElementById('bt-export-btn');
 	    const clearBtn = document.getElementById('bt-clear-btn');
 	    const errorEl = document.getElementById('bt-report-error');
@@ -1040,6 +1041,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      errorEl.hidden = true;
 	      setReportStatus('', '');
 	      if (receiptEl) receiptEl.textContent = '';
+	      if (deliveryEl) deliveryEl.textContent = 'Captured for manual AIIT review.';
 	      reportForm.reset();
 	      if (includeRecentEl) includeRecentEl.checked = true;
 	      requestAnimationFrame(() => noteEl && noteEl.focus());
@@ -1092,6 +1094,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	        reportBusy = false;
 	        reportForm.hidden = true;
 	        if (receiptEl) receiptEl.textContent = 'preview only: no report was sent';
+	        if (deliveryEl) deliveryEl.textContent = 'Preview only. No email alert was sent.';
 	        confirmEl.hidden = false;
 	        setReportStatus('Preview confirmation only. No report was sent.', 'ok');
 	        setThreadMessage('Preview report confirmation shown. Nothing was saved.', 'ok');
@@ -1138,9 +1141,24 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	          ? 'receipt: ' + data.report_id
 	          : 'receipt captured';
 	      }
+	      const emailSent = data.email_sent !== false;
+	      if (deliveryEl) {
+	        deliveryEl.textContent = emailSent
+	          ? 'Captured for manual AIIT review and emailed to reports@aiitcorp.com.'
+	          : 'Captured for manual AIIT review. Email alert did not send; the report is still saved.';
+	      }
 	      confirmEl.hidden = false;
-	      setReportStatus(data.report_id ? 'Report sent. Receipt: ' + data.report_id : 'Report sent.', 'ok');
-	      setThreadMessage('Report captured for manual review.', 'ok');
+	      const receiptMsg = data.report_id ? ' Receipt: ' + data.report_id : '';
+	      setReportStatus(
+	        emailSent
+	          ? 'Report sent to reports@aiitcorp.com.' + receiptMsg
+	          : 'Report saved, but email alert did not send.' + receiptMsg,
+	        emailSent ? 'ok' : 'warn'
+	      );
+	      setThreadMessage(
+	        emailSent ? 'Report captured and emailed for manual review.' : 'Report captured. Email alert did not send.',
+	        emailSent ? 'ok' : 'warn'
+	      );
 	    }
 	    reportForm.addEventListener('submit', submitReport);
 	    const sendReportBtn = document.getElementById('bt-send-report');
@@ -1779,6 +1797,11 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    background: rgba(200, 58, 8, 0.12);
 	    border-color: rgba(200, 58, 8, 0.26);
 	  }
+	  .bt-thread-message[data-kind="warn"] {
+	    color: #ffe7aa;
+	    background: rgba(180, 138, 0, 0.13);
+	    border-color: rgba(180, 138, 0, 0.3);
+	  }
 	  .bt-policy-link {
 	    font-family: 'Courier New', monospace;
 	    font-size: 9pt;
@@ -1872,6 +1895,11 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    color: #c83a08;
 	    background: rgba(200, 58, 8, 0.08);
 	    border-color: rgba(200, 58, 8, 0.24);
+	  }
+	  .bt-report-status[data-kind="warn"] {
+	    color: #735600;
+	    background: rgba(180, 138, 0, 0.1);
+	    border-color: rgba(180, 138, 0, 0.28);
 	  }
 	  .bt-modal label {
     display: block;

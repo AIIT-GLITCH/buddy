@@ -4,6 +4,9 @@
 // training data unless manually promoted later.
 //
 // KV binding required: AUTH_KV (same namespace as auth system)
+// Optional env:
+//   REPORTS_TO   comma-separated report recipients; defaults to reports@aiitcorp.com
+//   REPORTS_FROM sender address; defaults to NOTIFY_FROM or reports@aiit-threshold.com
 //
 // Endpoint:
 //   POST /api/buddy-thread/report
@@ -26,6 +29,8 @@ const ALLOWED_CATEGORIES = [
 const MAX_NOTE_LEN = 2000;
 const MAX_RECENT_MESSAGES = 10;
 const MAX_MESSAGE_LEN = 1000;
+const DEFAULT_REPORTS_TO = 'reports@aiitcorp.com';
+const DEFAULT_REPORTS_FROM = 'reports@aiit-threshold.com';
 
 function responseHeaders(request) {
   const origin = request?.headers?.get('origin') || '';
@@ -53,6 +58,87 @@ function randomId() {
   let out = '';
   for (let i = 0; i < 8; i++) out += chars[Math.floor(Math.random() * chars.length)];
   return out;
+}
+
+function reportRecipients(env) {
+  const raw = env.REPORTS_TO || DEFAULT_REPORTS_TO;
+  return raw
+    .split(',')
+    .map(addr => addr.trim())
+    .filter(Boolean);
+}
+
+function formatRecentMessages(messages) {
+  if (!messages.length) return 'No recent messages included.';
+  return messages
+    .map((m, i) => {
+      const role = m.role || 'unknown';
+      const text = m.text || '';
+      return `${i + 1}. ${role}:\n${text}`;
+    })
+    .join('\n\n');
+}
+
+function buildReportEmail(report, rid, kvKey) {
+  const categories = report.categories.length ? report.categories.join(', ') : 'none selected';
+  return [
+    `Buddy Thread report receipt: ${rid}`,
+    '',
+    `Login: ${report.login}`,
+    `User ID: ${report.user_id || 'unknown'}`,
+    `Created: ${report.created_at}`,
+    `Thread: ${report.thread_id}`,
+    `URL: ${report.url || 'unknown'}`,
+    `Categories: ${categories}`,
+    `Include recent messages: ${report.include_recent ? 'yes' : 'no'}`,
+    `KV key: ${kvKey}`,
+    '',
+    'What happened:',
+    report.note,
+    '',
+    'Recent messages:',
+    formatRecentMessages(report.recent_messages),
+    '',
+    'Reports are review material only. They do not auto-promote into Buddy memory.',
+  ].join('\n');
+}
+
+async function sendReportEmail(env, report, rid, kvKey) {
+  const recipients = reportRecipients(env);
+  if (!recipients.length) return { ok: false, error: 'no_recipients' };
+
+  const fromAddr = env.REPORTS_FROM || env.NOTIFY_FROM || DEFAULT_REPORTS_FROM;
+  const subject = `Buddy report ${rid} from ${report.login}`;
+  const body = buildReportEmail(report, rid, kvKey);
+
+  const settled = await Promise.allSettled(recipients.map(async (to) => {
+    const msg = {
+      personalizations: [{ to: [{ email: to }] }],
+      from: { email: fromAddr, name: 'Buddy Reports' },
+      reply_to: { email: DEFAULT_REPORTS_TO, name: 'AIIT Reports' },
+      subject,
+      content: [{ type: 'text/plain', value: body }],
+    };
+
+    const res = await fetch('https://api.mailchannels.net/tx/v1/send', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(msg),
+    });
+
+    if (!res.ok) {
+      const text = await res.text().catch(() => '');
+      throw new Error(`mailchannels_${res.status}${text ? `:${text.slice(0, 200)}` : ''}`);
+    }
+  }));
+
+  const failed = settled.filter(r => r.status === 'rejected');
+  if (failed.length) {
+    console.error('buddy report email failed:', failed.map(f => f.reason?.message || String(f.reason)).join('; '));
+    return { ok: false, error: 'email_send_failed' };
+  }
+
+  return { ok: true };
 }
 
 export async function onRequestPost(context) {
@@ -121,5 +207,13 @@ export async function onRequestPost(context) {
     return new Response(JSON.stringify({ ok: false, error: 'report_write_failed' }), { status: 500, headers: h });
   }
 
-  return new Response(JSON.stringify({ ok: true, report_id: rid, created_at: now }), { status: 200, headers: h });
+  const email = await sendReportEmail(env, report, rid, kvKey);
+
+  return new Response(JSON.stringify({
+    ok: true,
+    report_id: rid,
+    created_at: now,
+    email_sent: email.ok,
+    ...(email.ok ? {} : { email_error: email.error }),
+  }), { status: 200, headers: h });
 }
