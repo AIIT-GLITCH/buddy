@@ -9,6 +9,36 @@ function parseSessionFromCookie(cookieHeader) {
   return null;
 }
 
+const SESSION_TTL_SECONDS = 60 * 60 * 24 * 90;
+
+function persistentSessionCookie(session) {
+  const clean = String(session || '').replace(/[^a-f0-9]/gi, '').slice(0, 128);
+  if (!clean) return null;
+  const expires = new Date(Date.now() + SESSION_TTL_SECONDS * 1000).toUTCString();
+  return [
+    `aiit_session=${clean}`,
+    'Path=/',
+    'HttpOnly',
+    'Secure',
+    'SameSite=Lax',
+    `Max-Age=${SESSION_TTL_SECONDS}`,
+    `Expires=${expires}`,
+    'Priority=High',
+  ].join('; ');
+}
+
+function expireSessionCookie() {
+  return [
+    'aiit_session=',
+    'Path=/',
+    'HttpOnly',
+    'Secure',
+    'SameSite=Lax',
+    'Max-Age=0',
+    'Expires=Thu, 01 Jan 1970 00:00:00 GMT',
+  ].join('; ');
+}
+
 export async function onRequestGet(context) {
   const { request, env } = context;
   const headers = {
@@ -23,7 +53,10 @@ export async function onRequestGet(context) {
 
   const raw = await env.AUTH_KV.get(`session:${session}`);
   if (!raw) {
-    return new Response(JSON.stringify({ user: null }), { status: 200, headers });
+    return new Response(JSON.stringify({ user: null }), {
+      status: 200,
+      headers: { ...headers, 'Set-Cookie': expireSessionCookie() },
+    });
   }
 
   try {
@@ -36,8 +69,15 @@ export async function onRequestGet(context) {
         if (pro.status === 'active' || pro.status === 'trialing') tier = 'pro';
       } catch {}
     }
-    return new Response(JSON.stringify({ user, tier }), { status: 200, headers });
+    const cookie = persistentSessionCookie(session);
+    return new Response(JSON.stringify({ user, tier }), {
+      status: 200,
+      headers: cookie ? { ...headers, 'Set-Cookie': cookie } : headers,
+    });
   } catch {
-    return new Response(JSON.stringify({ user: null }), { status: 200, headers });
+    return new Response(JSON.stringify({ user: null }), {
+      status: 200,
+      headers: { ...headers, 'Set-Cookie': expireSessionCookie() },
+    });
   }
 }
