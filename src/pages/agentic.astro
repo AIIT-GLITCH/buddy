@@ -7,8 +7,18 @@ import Layout from '../layouts/Layout.astro';
   <div class="container narrow" style="max-width: 860px; margin: 0 auto; padding: 0 8vw;">
 
     <div class="eyebrow">Agentic Systems</div>
-    <h1 style="font-size: clamp(2.4rem, 6vw, 4.5rem); margin-bottom: 20px; line-height: 1.1;">
-      tools for agents that<br>remember, browse, and<br>answer under pressure.
+    <h1 class="ag-hero-title" aria-label="Tools for agents that remember, browse, and answer under pressure.">
+      <span aria-hidden="true">
+        <span class="ag-hammer-word">
+          <svg class="ag-hammer-t" viewBox="0 0 90 116" role="img" aria-label="">
+            <path class="ag-hammer-shadow" d="M22 26h48c5 0 9 4 9 9v6c0 5-4 9-9 9H52v51c0 6-5 11-11 11h-3c-6 0-11-5-11-11V50h-5c-5 0-9-4-9-9v-6c0-5 4-9 9-9Z" />
+            <path class="ag-hammer-head" d="M20 15h49c5 0 9 4 9 9v7c0 5-4 9-9 9H20c-5 0-9-4-9-9v-7c0-5 4-9 9-9Z" />
+            <path class="ag-hammer-claw" d="M68 15h9c6 0 11 5 11 11v3c0 6-5 11-11 11h-9c4-4 6-8 6-13s-2-9-6-12Z" />
+            <path class="ag-hammer-handle" d="M33 40h22v63c0 6-5 11-11 11s-11-5-11-11V40Z" />
+            <path class="ag-hammer-glint" d="M20 21h34" />
+          </svg><span>ools</span>
+        </span> for agents that<br>remember, browse, and<br>answer under pressure.
+      </span>
     </h1>
     <p class="ag-lede">
       These are the builder-facing pieces of the AIIT stack: memory, evaluation, browser control, and voice.
@@ -96,6 +106,50 @@ import Layout from '../layouts/Layout.astro';
 </section>
 
 <style>
+  .ag-hero-title {
+    font-size: clamp(2.4rem, 6vw, 4.5rem);
+    margin-bottom: 20px;
+    line-height: 1.08;
+  }
+
+  .ag-hammer-word {
+    display: inline-flex;
+    align-items: baseline;
+    color: var(--cream, #E8E0D4);
+    white-space: nowrap;
+  }
+
+  .ag-hammer-t {
+    width: 0.8em;
+    height: 1.03em;
+    margin-right: -0.03em;
+    transform: translateY(0.14em);
+    overflow: visible;
+    flex: 0 0 auto;
+    filter: drop-shadow(0 0 12px rgba(212, 164, 55, 0.18));
+  }
+
+  .ag-hammer-shadow {
+    fill: rgba(0, 0, 0, 0.38);
+    transform: translate(4px, 3px);
+  }
+
+  .ag-hammer-head,
+  .ag-hammer-claw {
+    fill: var(--amber, #D4AF37);
+  }
+
+  .ag-hammer-handle {
+    fill: #9f7a24;
+  }
+
+  .ag-hammer-glint {
+    fill: none;
+    stroke: rgba(255, 247, 220, 0.7);
+    stroke-width: 4;
+    stroke-linecap: round;
+  }
+
   .ag-lede {
     font-size: clamp(1rem, 2.5vw, 1.15rem);
     color: var(--slate, #8A9AB5);
