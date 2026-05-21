@@ -1305,14 +1305,14 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      const emailSent = data.email_sent !== false;
 	      if (deliveryEl) {
 	        deliveryEl.textContent = emailSent
-	          ? 'Captured for manual AIIT review and emailed to reports@aiitcorp.com.'
+	          ? 'Captured for manual AIIT review and email alert sent.'
 	          : 'Captured for manual AIIT review. Email alert did not send; the report is still saved.';
 	      }
 	      confirmEl.hidden = false;
 	      const receiptMsg = data.report_id ? ' Receipt: ' + data.report_id : '';
 	      setReportStatus(
 	        emailSent
-	          ? 'Report sent to reports@aiitcorp.com.' + receiptMsg
+	          ? 'Report saved and email alert sent.' + receiptMsg
 	          : 'Report saved, but email alert did not send.' + receiptMsg,
 	        emailSent ? 'ok' : 'warn'
 	      );

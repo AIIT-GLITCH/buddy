@@ -7,6 +7,8 @@
 // Optional env:
 //   REPORTS_TO   comma-separated report recipients; defaults to reports@aiitcorp.com
 //   REPORTS_FROM sender address; defaults to NOTIFY_FROM or sales@aiit-threshold.com
+//   REPORT_MAILER Cloudflare service binding to the internal buddy-report-mailer Worker
+//   REPORTS_DELIVERY_TO actual verified destination for REPORT_MAILER; defaults to boss.agi@aiitcorp.com
 //   CF_EMAIL_API_TOKEN or CLOUDFLARE_EMAIL_API_TOKEN sends through Cloudflare Email Sending
 //   CLOUDFLARE_ACCOUNT_ID account id for Cloudflare Email Sending
 //   MAILCHANNELS_API_KEY sends through the current MailChannels Email API
@@ -34,6 +36,7 @@ const MAX_RECENT_MESSAGES = 10;
 const MAX_MESSAGE_LEN = 1000;
 const DEFAULT_REPORTS_TO = 'reports@aiitcorp.com';
 const DEFAULT_REPORTS_FROM = 'sales@aiit-threshold.com';
+const DEFAULT_REPORTS_DELIVERY_TO = 'boss.agi@aiitcorp.com';
 const DEFAULT_CLOUDFLARE_ACCOUNT_ID = '09fdab2a6d6080eca61a1046ab69a57a';
 
 function responseHeaders(request) {
@@ -135,6 +138,36 @@ async function sendViaCloudflareEmail(env, recipients, fromAddr, subject, body) 
   return { ok: true, provider: 'cloudflare_email' };
 }
 
+async function sendViaReportMailer(env, recipients, fromAddr, subject, body) {
+  if (!env.REPORT_MAILER || typeof env.REPORT_MAILER.fetch !== 'function') return null;
+
+  const deliveryTo = env.REPORTS_DELIVERY_TO || DEFAULT_REPORTS_DELIVERY_TO;
+  const alertBody = [
+    body,
+    '',
+    `Requested alert recipient(s): ${recipients.join(', ')}`,
+    `Actual verified delivery target: ${deliveryTo}`,
+  ].join('\n');
+
+  const res = await env.REPORT_MAILER.fetch('https://buddy-report-mailer.internal/send', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      to: deliveryTo,
+      from: fromAddr,
+      subject,
+      text: alertBody,
+    }),
+  });
+
+  const data = await res.json().catch(() => null);
+  if (!res.ok || !data || !data.ok) {
+    throw new Error(data?.detail || data?.error || `report_mailer_${res.status}`);
+  }
+
+  return { ok: true, provider: data.provider || 'report_mailer_worker' };
+}
+
 async function sendViaMailChannels(env, recipients, fromAddr, subject, body) {
   const headers = { 'Content-Type': 'application/json' };
   if (env.MAILCHANNELS_API_KEY) headers['X-Api-Key'] = env.MAILCHANNELS_API_KEY;
@@ -174,21 +207,34 @@ async function sendReportEmail(env, report, rid, kvKey) {
   const fromAddr = env.REPORTS_FROM || env.NOTIFY_FROM || DEFAULT_REPORTS_FROM;
   const subject = `Buddy report ${rid} from ${report.login}`;
   const body = buildReportEmail(report, rid, kvKey);
+  let lastError = null;
+
+  try {
+    const reportMailer = await sendViaReportMailer(env, recipients, fromAddr, subject, body);
+    if (reportMailer) return reportMailer;
+  } catch (e) {
+    console.error('buddy report service mailer failed:', e?.message || e);
+    lastError = 'report_mailer_send_failed';
+  }
 
   try {
     const cloudflareEmail = await sendViaCloudflareEmail(env, recipients, fromAddr, subject, body);
     if (cloudflareEmail) return cloudflareEmail;
   } catch (e) {
     console.error('buddy report Cloudflare Email failed:', e?.message || e);
-    return { ok: false, error: 'cloudflare_email_send_failed' };
+    lastError = 'cloudflare_email_send_failed';
   }
 
-  try {
-    return await sendViaMailChannels(env, recipients, fromAddr, subject, body);
-  } catch (e) {
-    console.error('buddy report MailChannels email failed:', e?.message || e);
-    return { ok: false, error: 'mailchannels_email_send_failed' };
+  if (env.MAILCHANNELS_API_KEY) {
+    try {
+      return await sendViaMailChannels(env, recipients, fromAddr, subject, body);
+    } catch (e) {
+      console.error('buddy report MailChannels email failed:', e?.message || e);
+      lastError = 'mailchannels_email_send_failed';
+    }
   }
+
+  return { ok: false, error: lastError || 'email_provider_not_configured' };
 }
 
 export async function onRequestPost(context) {
