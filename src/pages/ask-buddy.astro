@@ -18,6 +18,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   </header>
 
   <!-- EARLY ACCESS NOTICE / BUDDY THREAD CONSOLE -->
+  <span id="buddy-thread" class="bt-anchor" aria-hidden="true"></span>
   <div class="bt-notice" id="bt-notice" hidden>
     <div class="bt-notice-inner">
       <div class="bt-console-top">
@@ -29,6 +30,9 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       </div>
       <p class="bt-lede">This is not a search box. This is an early account-linked Buddy conversation with continuity, report capture, and manual memory review.</p>
       <p>Buddy may remember context, misread context, over-connect patterns, or act strange while the thread system is being tuned.</p>
+      <div class="bt-share-row">
+        <button type="button" class="bt-share-btn" id="bt-share-btn">Share with a friend</button>
+      </div>
       <div class="bt-metrics" aria-label="Buddy Thread status">
         <div class="bt-metric">
           <span id="bt-thread-state">checking</span>
@@ -417,16 +421,11 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    wireShare(response);
 	  }
 
-	  function pendingMessage(attempt, networkIssue = false) {
-	    const elapsed = Math.max(0, attempt) * PENDING_POLL_MS;
-	    if (networkIssue) return 'connection hiccup — buddy still has your question. retrying…';
-	    if (elapsed < 15000) return 'buddy got your question, hang tight…';
-	    if (elapsed < 30000) return 'buddy is still working — your question is saved.';
-	    if (elapsed < 60000) return 'this is taking longer than usual — no need to resend.';
-	    if (elapsed < 120000) return 'buddy is still holding it. full-memory answers can take a minute.';
-	    if (elapsed < 240000) return 'still saved, still checking. keep this tab open.';
-	    return 'last stretch before the five-minute hold expires — still checking.';
-	  }
+		  const QUEUED_MESSAGE = 'WOAH! more people are talking to buddy than we were ready for! please be patient and he will get you your answer!';
+		  function pendingMessage(attempt, networkIssue = false) {
+		    if (networkIssue) return QUEUED_MESSAGE + ' connection hiccup on our side, still retrying.';
+		    return QUEUED_MESSAGE;
+		  }
 
 	  function updatePendingMessage(attempt, networkIssue = false) {
 	    if (buddyThreadEnabled) {
@@ -907,6 +906,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    const overlay = document.getElementById('bt-modal-overlay');
 	    const loginBtn = document.getElementById('bt-login-btn');
 	    const demoBtn = document.getElementById('bt-demo-btn');
+	    const shareBtn = document.getElementById('bt-share-btn');
 	    const reportBtn = document.getElementById('bt-report-btn');
 	    const closeBtn = document.getElementById('bt-modal-close');
 	    const reportForm = document.getElementById('bt-report-form');
@@ -941,6 +941,76 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      threadMessage.dataset.kind = kind;
 	      threadMessage.hidden = !message;
 	    }
+
+	    function scrollToBuddyThreadFromHash() {
+	      const hash = (location.hash || '').toLowerCase();
+	      if (hash !== '#buddy-thread' && hash !== '#thread' && hash !== '#persistent-chat') return false;
+	      if (!notice || notice.hidden) return false;
+	      const anchor = document.getElementById('buddy-thread') || notice;
+	      requestAnimationFrame(() => {
+	        anchor.scrollIntoView({ block: 'start', behavior: 'smooth' });
+	        if (buddyThreadEnabled && input) {
+	          setTimeout(() => input.focus({ preventScroll: true }), 240);
+	        }
+	      });
+	      return true;
+	    }
+
+	    async function copyBuddyShareText(text) {
+	      if (navigator.clipboard && window.isSecureContext) {
+	        await navigator.clipboard.writeText(text);
+	        return true;
+	      }
+	      const scratch = document.createElement('textarea');
+	      scratch.value = text;
+	      scratch.setAttribute('readonly', '');
+	      scratch.style.position = 'fixed';
+	      scratch.style.left = '-9999px';
+	      document.body.appendChild(scratch);
+	      scratch.select();
+	      const copied = document.execCommand('copy');
+	      scratch.remove();
+	      return copied;
+	    }
+
+	    async function shareBuddyWithFriend() {
+	      if (!shareBtn) return;
+	      const previous = shareBtn.textContent;
+	      const url = 'https://aiit-threshold.com/ask-buddy#buddy-thread';
+	      const payload = {
+	        title: 'Talk to Buddy',
+	        text: "Try Buddy, AIIT-THRESHOLD's persistent chat.",
+	        url,
+	      };
+	      const copyText = payload.text + '\n' + url;
+	      shareBtn.disabled = true;
+	      shareBtn.textContent = 'Sharing...';
+	      try {
+	        if (navigator.share) {
+	          try {
+	            await navigator.share(payload);
+	            setThreadMessage('Buddy share sheet opened.', 'ok');
+	            return;
+	          } catch (err) {
+	            if (err && err.name === 'AbortError') return;
+	          }
+	        }
+	        const copied = await copyBuddyShareText(copyText);
+	        setThreadMessage(
+	          copied ? 'Buddy link copied. Send it to a friend.' : 'Copy this link: ' + url,
+	          copied ? 'ok' : 'warn'
+	        );
+	      } catch {
+	        setThreadMessage('Could not open sharing. Copy this link: ' + url, 'warn');
+	      } finally {
+	        shareBtn.disabled = false;
+	        shareBtn.textContent = previous;
+	      }
+	    }
+
+	    if (shareBtn) shareBtn.addEventListener('click', shareBuddyWithFriend);
+	    window.addEventListener('hashchange', scrollToBuddyThreadFromHash);
+	    scrollToBuddyThreadFromHash();
 
 	    function threadErrorCopy(status, error) {
 	      if (status === 401 || error === 'login_required') return 'Your login expired. Refresh and log in again.';
@@ -988,6 +1058,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	          if (btn) btn.disabled = true;
 	        });
 	        renderThreadWindow({ locked: true });
+	        scrollToBuddyThreadFromHash();
 	        setThreadMessage('Sign in with GitHub to activate persistent Buddy Thread, reports, export, and clear controls.', '');
 	        return;
 	      }
@@ -1002,6 +1073,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      });
 	      if (userChip) userChip.textContent = '@' + (btUser.login || btUser.id || 'logged-in');
 	      renderThreadWindow();
+	      scrollToBuddyThreadFromHash();
 	    }
 
 	    function applyThread(thread) {
@@ -1256,6 +1328,8 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 <style>
   .ask-page {
+    box-sizing: border-box;
+    width: 100%;
     padding: 110px 6vw 80px;
     max-width: 760px;
     margin: 0 auto;
@@ -1469,7 +1543,15 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   }
 
 	  /* BUDDY THREAD NOTICE */
+	  .bt-anchor {
+	    display: block;
+	    height: 0;
+	    scroll-margin-top: 112px;
+	  }
 	  .bt-notice {
+	    box-sizing: border-box;
+	    width: 100%;
+	    max-width: 100%;
 	    margin-bottom: 22px;
 	    border: 1px solid rgba(240, 165, 0, 0.42);
 	    border-radius: 8px;
@@ -1480,7 +1562,13 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    box-shadow: 0 18px 40px rgba(40, 24, 10, 0.22);
 	  }
 	  .bt-notice-inner {
+	    box-sizing: border-box;
 	    padding: 20px;
+	  }
+	  .bt-notice-inner *,
+	  .bt-notice-inner *::before,
+	  .bt-notice-inner *::after {
+	    box-sizing: border-box;
 	  }
 	  .bt-console-top {
 	    display: flex;
@@ -1509,6 +1597,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    line-height: 1.08;
 	    color: #fff7df;
 	    font-weight: 800;
+	    overflow-wrap: anywhere;
 	  }
 	  .bt-user-chip {
 	    flex: 0 0 auto;
@@ -1530,6 +1619,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    color: rgba(255, 247, 223, 0.82);
 	    line-height: 1.55;
 	    margin: 0 0 8px;
+	    overflow-wrap: anywhere;
 	  }
 	  .bt-notice .bt-lede {
 	    color: #fff7df;
@@ -1537,6 +1627,38 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	  }
 	  .bt-notice p:last-of-type {
 	    margin-bottom: 12px;
+	  }
+	  .bt-share-row {
+	    display: flex;
+	    margin: 14px 0 12px;
+	  }
+	  .bt-share-btn {
+	    display: inline-flex;
+	    align-items: center;
+	    justify-content: center;
+	    min-height: 44px;
+	    background: #c83a08;
+	    color: #fff7df;
+	    border: 1.5px solid rgba(255, 211, 106, 0.95);
+	    border-radius: 8px;
+	    padding: 10px 18px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 10pt;
+	    letter-spacing: 0.04em;
+	    cursor: pointer;
+	    box-shadow: 0 10px 22px rgba(200, 58, 8, 0.25);
+	    transition: background 180ms, border-color 180ms, transform 120ms, box-shadow 180ms;
+	  }
+	  .bt-share-btn:hover:not(:disabled) {
+	    background: #e35116;
+	    border-color: #ffd36a;
+	    transform: translateY(-1px);
+	    box-shadow: 0 14px 26px rgba(200, 58, 8, 0.32);
+	  }
+	  .bt-share-btn:disabled {
+	    opacity: 0.72;
+	    cursor: progress;
+	    transform: none;
 	  }
 	  .bt-metrics {
 	    display: grid;
@@ -2102,8 +2224,16 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      width: 92px;
 	      padding: 0 10px;
 	    }
+	    .bt-anchor { scroll-margin-top: 136px; }
 	    .bt-console-top { flex-direction: column; }
+	    .bt-notice h2 { font-size: 30px; }
 	    .bt-user-chip { max-width: 100%; }
+	    .bt-share-row { margin: 14px 0; }
+	    .bt-share-btn {
+	      width: 100%;
+	      min-height: 52px;
+	      font-size: 10.5pt;
+	    }
 	    .bt-metrics { grid-template-columns: 1fr; }
 	    :global(.bt-thread-item) { grid-template-columns: 1fr; }
 	    .bt-modal { padding: 20px 16px; }
@@ -2115,6 +2245,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    .ask-mascot-mini :global(.buddy-mascot-canvas) { width: 62px !important; }
 	    .ask-h1 { font-size: 34px !important; }
 	    .ask-buddy-tagline { font-size: 15px; }
+	    .bt-notice h2 { font-size: 28px; }
 	  }
 	  @media (max-width: 340px) {
 	    .ask-input-block.in-thread .ask-form {
