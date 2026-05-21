@@ -4,6 +4,7 @@ import { callBuddyPoll } from '../_lib/ingest.js';
 import { appendBuddyThreadTurn, getBuddyThreadSessionId, getLoggedInUser } from '../_lib/buddyThread.js';
 
 const PRIMARY_ORIGIN = 'https://aiit-threshold.com';
+const SURGE_MESSAGE = 'WOAH! more people are talking to buddy than we were ready for! please try again in a minute so he can keep answering cleanly.';
 const ALLOWED_ORIGIN_PATTERNS = [
   /^https:\/\/(www\.)?aiit-threshold\.com$/i,
   /^https:\/\/[a-f0-9]+\.buddy-bb4\.pages\.dev$/i,
@@ -82,7 +83,7 @@ export async function onRequestPost(context) {
     return new Response(JSON.stringify({ ok: false, error: 'forbidden_origin' }), { status: 403, headers });
   }
 
-  if (!env.BUDDY_BACKEND_URL || !env.BUDDY_CF_ACCESS_CLIENT_ID || !env.BUDDY_CF_ACCESS_CLIENT_SECRET) {
+  if (!env.BUDDY_BACKEND_URL || !env.BUDDY_CF_ACCESS_CLIENT_ID || !env.BUDDY_CF_ACCESS_CLIENT_SECRET || !env.BUDDY_BACKEND_TOKEN) {
     return new Response(JSON.stringify({
       ok: false,
       error: 'askbuddy not configured (buddy backend missing)',
@@ -113,6 +114,7 @@ export async function onRequestPost(context) {
       status: upstream.status || ingest.error,
       error: ingest.error,
       request_id: ingest.request_id,
+      message: ['queue_full', 'too_many_pending', 'rate_limited', 'traffic_surge'].includes(ingest.error) ? SURGE_MESSAGE : undefined,
     }), { status: 200, headers });
   }
 

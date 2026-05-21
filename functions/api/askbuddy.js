@@ -1,13 +1,12 @@
 // Cloudflare Pages Function: AskBuddy — public website bridge to Buddy v4.
 //
 // Required bindings (set in CF Pages → Settings → Functions):
-//   KV namespace (reused):  ASKBUDDY_USAGE or JOKE_KV (whichever is already
-//     bound — we fall back gracefully. If neither is bound, the daily cap
-//     and rate throttle simply no-op, same pattern as joke.js.)
+//   KV namespace (reused):  ASKBUDDY_USAGE or JOKE_KV.
 //   Env vars:
 //     BUDDY_BACKEND_URL
 //     BUDDY_CF_ACCESS_CLIENT_ID
 //     BUDDY_CF_ACCESS_CLIENT_SECRET
+//     BUDDY_BACKEND_TOKEN
 //
 // Endpoint:
 //   POST /api/askbuddy   { question, fingerprint }
@@ -21,6 +20,10 @@ import { appendBuddyThreadTurn, getBuddyThreadSessionId, getLoggedInUser } from 
 const MAX_QUESTION_LEN = 600;
 const BUDDY_SITE_MAX_TOKENS = 128;
 const PRIMARY_ORIGIN = 'https://aiit-threshold.com';
+const QUEUED_MESSAGE = 'WOAH! more people are talking to buddy than we were ready for! please be patient and he will get you your answer!';
+const SURGE_MESSAGE = 'WOAH! more people are talking to buddy than we were ready for! please try again in a minute so he can keep answering cleanly.';
+const PER_MIN_LIMIT = 4;
+const GLOBAL_PER_MIN_LIMIT = 24;
 const ALLOWED_ORIGIN_PATTERNS = [
   /^https:\/\/(www\.)?aiit-threshold\.com$/i,
   /^https:\/\/[a-f0-9]+\.buddy-bb4\.pages\.dev$/i,
@@ -109,14 +112,19 @@ export async function onRequestPost(context) {
     return new Response(JSON.stringify({ ok: false, error: 'forbidden_origin' }), { status: 403, headers });
   }
 
-  if (!env.BUDDY_BACKEND_URL || !env.BUDDY_CF_ACCESS_CLIENT_ID || !env.BUDDY_CF_ACCESS_CLIENT_SECRET) {
+  if (!env.BUDDY_BACKEND_URL || !env.BUDDY_CF_ACCESS_CLIENT_ID || !env.BUDDY_CF_ACCESS_CLIENT_SECRET || !env.BUDDY_BACKEND_TOKEN) {
     return new Response(JSON.stringify({
       ok: false,
       error: 'askbuddy not configured (buddy backend missing)'
     }), { status: 503, headers });
   }
-  // KV is optional — reuse whatever's already bound, soft-skip if neither.
   const KV = env.ASKBUDDY_USAGE || env.JOKE_KV || null;
+  if (!KV) {
+    return new Response(JSON.stringify({
+      ok: false,
+      error: 'askbuddy not configured (edge throttle missing)'
+    }), { status: 503, headers });
+  }
 
   let body;
   try { body = await request.json(); }
@@ -144,19 +152,29 @@ export async function onRequestPost(context) {
              request.headers.get('x-forwarded-for') || 'unknown';
   const minute = Math.floor(Date.now() / 60000); // current minute bucket
   const throttleKey = 'askbuddy_thr:' + await sha256Hex(ip + '|' + fingerprint + '|' + minute);
+  const globalThrottleKey = 'askbuddy_global:' + minute;
 
-  // ---- Per-minute throttle (10/min/visitor) — Buddy is local, just block bots ----
-  const PER_MIN_LIMIT = 10;
-  if (KV && !isAdmin) {
+  // ---- Cloudflare edge throttle — Buddy is a single local GPU, protect intake. ----
+  if (!isAdmin) {
     const cur = parseInt((await KV.get(throttleKey)) || '0', 10);
     if (cur >= PER_MIN_LIMIT) {
       return new Response(JSON.stringify({
         ok: false,
         error: 'rate_limited',
-        message: 'slow down a sec — try again in a moment.',
+        message: SURGE_MESSAGE,
       }), { status: 200, headers });
     }
     await KV.put(throttleKey, String(cur + 1), { expirationTtl: 90 });
+
+    const globalCur = parseInt((await KV.get(globalThrottleKey)) || '0', 10);
+    if (globalCur >= GLOBAL_PER_MIN_LIMIT) {
+      return new Response(JSON.stringify({
+        ok: false,
+        error: 'traffic_surge',
+        message: SURGE_MESSAGE,
+      }), { status: 200, headers });
+    }
+    await KV.put(globalThrottleKey, String(globalCur + 1), { expirationTtl: 90 });
   }
 
   // ---- Route through the ingestion gate (see functions/_lib/ingest.js). ----
@@ -193,11 +211,12 @@ export async function onRequestPost(context) {
   }
 
   if (ingest.data && ingest.data.ok === false) {
+    const pressureErrors = new Set(['queue_full', 'too_many_pending', 'rate_limited', 'traffic_surge']);
     return new Response(JSON.stringify({
       ok: false,
       error: ingest.data.error || 'buddy_unavailable',
       request_id: ingest.request_id,
-      message: ingest.data.message || 'buddy is offline. try again.',
+      message: pressureErrors.has(ingest.data.error) ? SURGE_MESSAGE : (ingest.data.message || 'buddy is offline. try again.'),
     }), { status: 200, headers });
   }
 
@@ -207,7 +226,7 @@ export async function onRequestPost(context) {
       status: 'pending',
       request_id: ingest.request_id,
       session_id: sessionId,
-      message: 'buddy got your question, hang tight.',
+      message: QUEUED_MESSAGE,
       cta: 'pass it on',
       layer: 'surface',
       thread: { enabled: accountThread, saved: false },
