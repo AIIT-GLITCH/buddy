@@ -7,7 +7,7 @@ import Layout from '../layouts/Layout.astro';
   <div class="container narrow" style="max-width: 960px; margin: 0 auto; padding: 0 5vw;">
 
     <div class="eyebrow">AIIT Patent Services</div>
-    <h1 style="font-size: clamp(2.4rem, 6vw, 5rem); margin-bottom: 20px; line-height: 1.1;">Your idea deserves<br>a filing date.</h1>
+    <h1 class="pv-hero-title">Your idea deserves<br>a <span class="pv-filing-word">f<span class="pv-filing-i">i</span>ling</span> date.</h1>
     <p class="pv-lede">
       We prepare a technical provisional patent draft package from your evidence in 24 hours.
       You or your attorney reviews it and files with the USPTO.
@@ -145,6 +145,21 @@ import Layout from '../layouts/Layout.astro';
 </section>
 
 <style>
+  .pv-hero-title {
+    font-size: clamp(2.4rem, 6vw, 5rem);
+    margin-bottom: 20px;
+    line-height: 1.1;
+    letter-spacing: 0;
+    font-kerning: none;
+    font-variant-ligatures: none;
+    font-feature-settings: "kern" 0, "liga" 0, "clig" 0;
+  }
+
+  .pv-filing-i {
+    display: inline-block;
+    margin-left: 0.09em;
+  }
+
   .pv-lede {
     font-size: clamp(1rem, 2.5vw, 1.15rem);
     color: var(--slate, #8A9AB5);
