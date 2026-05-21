@@ -22,6 +22,24 @@ function decodeLoose(value) {
   return out;
 }
 
+function canonicalBuddyThreadRedirect(target) {
+  try {
+    const parsed = new URL(target, 'https://aiit.local');
+    const path = parsed.pathname.toLowerCase();
+    if (path !== '/ask-buddy' && path !== '/ask-buddy/') return '';
+
+    const hash = parsed.hash.toLowerCase();
+    const mode = (parsed.searchParams.get('mode') || parsed.searchParams.get('view') || '').toLowerCase();
+    const thread = (parsed.searchParams.get('thread') || parsed.searchParams.get('persistent') || '').toLowerCase();
+    const threadHash = hash === '#buddy-thread' || hash === '#thread' || hash === '#persistent-chat';
+    const threadQuery = mode === 'thread' || mode === 'persistent' || thread === '1' || thread === 'true' || thread === 'yes';
+
+    return threadHash || threadQuery ? '/ask-buddy/?thread=1' : '';
+  } catch {
+    return '';
+  }
+}
+
 function normalizeRedirectTarget(raw, origin) {
   let target = decodeLoose(raw || '/');
   try {
@@ -36,6 +54,8 @@ function normalizeRedirectTarget(raw, origin) {
 
   if (!target.startsWith('/') || target.startsWith('//') || /[\u0000-\u001f\\]/.test(target)) return '/';
   if (target.startsWith('/api/')) return '/';
+  const buddyThreadTarget = canonicalBuddyThreadRedirect(target);
+  if (buddyThreadTarget) return buddyThreadTarget;
   if (target === '/ask-buddy') return '/ask-buddy/';
   if (target.startsWith('/ask-buddy#')) return target.replace('/ask-buddy#', '/ask-buddy/#');
   return target;

@@ -1,0 +1,6 @@
+/ask-buddy/%23buddy-thread /ask-buddy/?thread=1 302
+/ask-buddy/%2523buddy-thread /ask-buddy/?thread=1 302
+/ask-buddy/%23thread /ask-buddy/?thread=1 302
+/ask-buddy/%2523thread /ask-buddy/?thread=1 302
+/ask-buddy/%23persistent-chat /ask-buddy/?thread=1 302
+/ask-buddy/%2523persistent-chat /ask-buddy/?thread=1 302

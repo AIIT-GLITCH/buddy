@@ -9,8 +9,9 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     var hash = (location.hash || '').toLowerCase();
     var params = new URLSearchParams(location.search);
     var mode = (params.get('mode') || params.get('view') || '').toLowerCase();
+    var threadParam = (params.get('thread') || params.get('persistent') || '').toLowerCase();
     var classic = hash === '#ask' || hash === '#askbuddy' || hash === '#jeeves' || mode === 'ask' || mode === 'classic';
-    var thread = hash === '#buddy-thread' || hash === '#thread' || hash === '#persistent-chat';
+    var thread = hash === '#buddy-thread' || hash === '#thread' || hash === '#persistent-chat' || mode === 'thread' || mode === 'persistent' || threadParam === '1' || threadParam === 'true' || threadParam === 'yes';
     if (thread && !classic) {
       document.documentElement.classList.add('buddy-thread-route', 'buddy-thread-booting');
     }
@@ -67,7 +68,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
         <div class="bt-thread-composer-slot" id="bt-thread-composer-slot" hidden></div>
       </div>
       <div class="bt-actions">
-        <a class="bt-login-btn" id="bt-login-btn" href="/api/auth/github/login?redirect=/ask-buddy/" hidden>Activate Buddy Thread</a>
+        <a class="bt-login-btn" id="bt-login-btn" href="/api/auth/github/login?redirect=%2Fask-buddy%2F%3Fthread%3D1" hidden>Activate Buddy Thread</a>
         <button type="button" class="bt-demo-btn" id="bt-demo-btn" hidden>Preview chat window</button>
         <button type="button" class="bt-report-btn" id="bt-report-btn">Report weird behavior</button>
         <button type="button" class="bt-export-btn" id="bt-export-btn">Export thread</button>
@@ -593,7 +594,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 		  function wantsBuddyThreadRoute() {
 		    const hash = (location.hash || '').toLowerCase();
-		    return hash === '#buddy-thread' || hash === '#thread' || hash === '#persistent-chat';
+		    const params = new URLSearchParams(location.search);
+		    const mode = (params.get('mode') || params.get('view') || '').toLowerCase();
+		    const thread = (params.get('thread') || params.get('persistent') || '').toLowerCase();
+		    return hash === '#buddy-thread' || hash === '#thread' || hash === '#persistent-chat' || mode === 'thread' || mode === 'persistent' || thread === '1' || thread === 'true' || thread === 'yes';
 		  }
 
 		  function markBuddyThreadReady() {
