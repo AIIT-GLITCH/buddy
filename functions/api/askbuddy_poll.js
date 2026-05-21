@@ -83,7 +83,7 @@ export async function onRequestPost(context) {
     return new Response(JSON.stringify({ ok: false, error: 'forbidden_origin' }), { status: 403, headers });
   }
 
-  if (!env.BUDDY_BACKEND_URL || !env.BUDDY_CF_ACCESS_CLIENT_ID || !env.BUDDY_CF_ACCESS_CLIENT_SECRET || !env.BUDDY_BACKEND_TOKEN) {
+  if (!env.BUDDY_BACKEND_URL || !env.BUDDY_CF_ACCESS_CLIENT_ID || !env.BUDDY_CF_ACCESS_CLIENT_SECRET) {
     return new Response(JSON.stringify({
       ok: false,
       error: 'askbuddy not configured (buddy backend missing)',

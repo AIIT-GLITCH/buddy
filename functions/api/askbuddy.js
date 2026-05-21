@@ -1,12 +1,12 @@
 // Cloudflare Pages Function: AskBuddy — public website bridge to Buddy v4.
 //
 // Required bindings (set in CF Pages → Settings → Functions):
-//   KV namespace (reused):  ASKBUDDY_USAGE or JOKE_KV.
+//   KV namespace (reused):  ASKBUDDY_USAGE or JOKE_KV when available.
 //   Env vars:
 //     BUDDY_BACKEND_URL
 //     BUDDY_CF_ACCESS_CLIENT_ID
 //     BUDDY_CF_ACCESS_CLIENT_SECRET
-//     BUDDY_BACKEND_TOKEN
+//     BUDDY_BACKEND_TOKEN (optional until the Pages secret is configured)
 //
 // Endpoint:
 //   POST /api/askbuddy   { question, fingerprint }
@@ -112,19 +112,13 @@ export async function onRequestPost(context) {
     return new Response(JSON.stringify({ ok: false, error: 'forbidden_origin' }), { status: 403, headers });
   }
 
-  if (!env.BUDDY_BACKEND_URL || !env.BUDDY_CF_ACCESS_CLIENT_ID || !env.BUDDY_CF_ACCESS_CLIENT_SECRET || !env.BUDDY_BACKEND_TOKEN) {
+  if (!env.BUDDY_BACKEND_URL || !env.BUDDY_CF_ACCESS_CLIENT_ID || !env.BUDDY_CF_ACCESS_CLIENT_SECRET) {
     return new Response(JSON.stringify({
       ok: false,
       error: 'askbuddy not configured (buddy backend missing)'
     }), { status: 503, headers });
   }
   const KV = env.ASKBUDDY_USAGE || env.JOKE_KV || null;
-  if (!KV) {
-    return new Response(JSON.stringify({
-      ok: false,
-      error: 'askbuddy not configured (edge throttle missing)'
-    }), { status: 503, headers });
-  }
 
   let body;
   try { body = await request.json(); }
@@ -155,7 +149,7 @@ export async function onRequestPost(context) {
   const globalThrottleKey = 'askbuddy_global:' + minute;
 
   // ---- Cloudflare edge throttle — Buddy is a single local GPU, protect intake. ----
-  if (!isAdmin) {
+  if (KV && !isAdmin) {
     const cur = parseInt((await KV.get(throttleKey)) || '0', 10);
     if (cur >= PER_MIN_LIMIT) {
       return new Response(JSON.stringify({
