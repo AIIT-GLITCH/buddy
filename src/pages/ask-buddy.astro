@@ -132,7 +132,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   </div>
 
   <!-- INPUT BLOCK — top 35%, dominant -->
-  <div class="ask-input-block">
+  <div class="ask-input-block" id="ask">
     <form class="ask-form" id="ask-form" autocomplete="off">
       <input
         id="ask-input"
@@ -571,6 +571,13 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		    return value === '1' || value === 'true' || value === 'yes';
 		  }
 
+		  function wantsClassicAskPage() {
+		    const hash = (location.hash || '').toLowerCase();
+		    const params = new URLSearchParams(location.search);
+		    const mode = (params.get('mode') || params.get('view') || '').toLowerCase();
+		    return hash === '#ask' || hash === '#askbuddy' || hash === '#jeeves' || mode === 'ask' || mode === 'classic';
+		  }
+
 		  function threadPreviewUrl() {
 		    const next = new URL(location.href);
 		    next.searchParams.set('thread_preview', '1');
@@ -924,6 +931,34 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    const threadMessage = document.getElementById('bt-thread-message');
 	    const includeRecentEl = document.getElementById('bt-include-recent');
 	    const noteEl = document.getElementById('bt-report-note');
+
+	    function activateClassicAskMode() {
+	      buddyThreadEnabled = false;
+	      buddyThreadDemoMode = false;
+	      visibleThreadMessages = [];
+	      optimisticThreadMessages = [];
+	      placeAskComposer(false);
+	      if (notice) notice.hidden = true;
+	      requestAnimationFrame(() => input && input.focus({ preventScroll: false }));
+	    }
+
+	    function handleClassicAskHash() {
+	      const hash = (location.hash || '').toLowerCase();
+	      if (wantsClassicAskPage()) {
+	        activateClassicAskMode();
+	        return true;
+	      }
+	      if ((hash === '#buddy-thread' || hash === '#thread' || hash === '#persistent-chat') && notice && notice.hidden) {
+	        location.reload();
+	        return true;
+	      }
+	      return false;
+	    }
+
+	    window.addEventListener('hashchange', handleClassicAskHash);
+	    if (handleClassicAskHash()) {
+	      return;
+	    }
 
 	    if (notice) notice.hidden = false;
 	    if (loginBtn) {
@@ -1377,6 +1412,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   /* INPUT BLOCK — dominant */
   .ask-input-block {
     margin-bottom: 18px;
+    scroll-margin-top: 126px;
   }
   .ask-form {
     display: flex;
