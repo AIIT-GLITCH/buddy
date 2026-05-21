@@ -47,6 +47,13 @@ import BuddyMascot from '../components/BuddyMascot.astro';
       <div class="bt-share-row">
         <button type="button" class="bt-share-btn" id="bt-share-btn">Share with a friend</button>
       </div>
+      <div class="bt-share-fallback" id="bt-share-fallback" hidden>
+        <input class="bt-share-link" id="bt-share-link" type="text" readonly value="https://aiit-threshold.com/ask-buddy/?thread=1" aria-label="Buddy Thread share link">
+        <div class="bt-share-fallback-actions">
+          <button type="button" class="bt-share-copy-btn" id="bt-share-copy-btn">Copy link</button>
+          <a class="bt-share-open-link" id="bt-share-open-link" href="/ask-buddy/?thread=1">Open link</a>
+        </div>
+      </div>
       <div class="bt-metrics" aria-label="Buddy Thread status">
         <div class="bt-metric">
           <span id="bt-thread-state">checking</span>
@@ -947,6 +954,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    const loginBtn = document.getElementById('bt-login-btn');
 	    const demoBtn = document.getElementById('bt-demo-btn');
 	    const shareBtn = document.getElementById('bt-share-btn');
+	    const shareFallback = document.getElementById('bt-share-fallback');
+	    const shareLinkInput = document.getElementById('bt-share-link');
+	    const shareCopyBtn = document.getElementById('bt-share-copy-btn');
+	    const shareOpenLink = document.getElementById('bt-share-open-link');
 	    const reportBtn = document.getElementById('bt-report-btn');
 	    const closeBtn = document.getElementById('bt-modal-close');
 	    const reportForm = document.getElementById('bt-report-form');
@@ -1051,39 +1062,78 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    async function shareBuddyWithFriend() {
 	      if (!shareBtn) return;
 	      const previous = shareBtn.textContent;
-	      const url = 'https://aiit-threshold.com/ask-buddy/#buddy-thread';
+	      const url = new URL('/ask-buddy/', 'https://aiit-threshold.com');
+	      url.searchParams.set('thread', '1');
+	      const shareUrl = url.toString();
 	      const payload = {
 	        title: 'Talk to Buddy',
 	        text: "Try Buddy, AIIT-THRESHOLD's persistent chat.",
-	        url,
+	        url: shareUrl,
 	      };
-	      const copyText = payload.text + '\n' + url;
+	      const copyText = payload.text + '\n' + shareUrl;
+	      const showFallback = () => {
+	        if (shareFallback) shareFallback.hidden = false;
+	        if (shareLinkInput) {
+	          shareLinkInput.value = shareUrl;
+	          shareLinkInput.focus({ preventScroll: true });
+	          shareLinkInput.select();
+	        }
+	        if (shareOpenLink) shareOpenLink.href = shareUrl;
+	      };
 	      shareBtn.disabled = true;
 	      shareBtn.textContent = 'Sharing...';
 	      try {
-	        if (navigator.share) {
+	        if (navigator.share && (!navigator.canShare || navigator.canShare(payload))) {
 	          try {
 	            await navigator.share(payload);
 	            setThreadMessage('Buddy share sheet opened.', 'ok');
+	            shareBtn.textContent = 'Share sheet opened';
 	            return;
 	          } catch (err) {
-	            if (err && err.name === 'AbortError') return;
+	            if (err && err.name === 'AbortError') {
+	              showFallback();
+	              setThreadMessage('Sharing canceled. Link is ready below.', 'warn');
+	              shareBtn.textContent = 'Link ready below';
+	              return;
+	            }
 	          }
 	        }
 	        const copied = await copyBuddyShareText(copyText);
+	        showFallback();
 	        setThreadMessage(
-	          copied ? 'Buddy link copied. Send it to a friend.' : 'Copy this link: ' + url,
+	          copied ? 'Buddy link copied. Send it to a friend.' : 'Copy the Buddy link below.',
 	          copied ? 'ok' : 'warn'
 	        );
+	        shareBtn.textContent = copied ? 'Copied link' : 'Link ready below';
 	      } catch {
-	        setThreadMessage('Could not open sharing. Copy this link: ' + url, 'warn');
+	        showFallback();
+	        setThreadMessage('Could not open sharing. Copy the Buddy link below.', 'warn');
+	        shareBtn.textContent = 'Link ready below';
 	      } finally {
-	        shareBtn.disabled = false;
-	        shareBtn.textContent = previous;
+	        setTimeout(() => {
+	          shareBtn.disabled = false;
+	          shareBtn.textContent = previous;
+	        }, 1200);
 	      }
 	    }
 
 	    if (shareBtn) shareBtn.addEventListener('click', shareBuddyWithFriend);
+	    if (shareCopyBtn) {
+	      shareCopyBtn.addEventListener('click', async () => {
+	        const text = shareLinkInput ? shareLinkInput.value : 'https://aiit-threshold.com/ask-buddy/?thread=1';
+	        const previous = shareCopyBtn.textContent;
+	        try {
+	          const copied = await copyBuddyShareText(text);
+	          shareCopyBtn.textContent = copied ? 'Copied' : 'Select link';
+	          setThreadMessage(copied ? 'Buddy link copied.' : 'Select and copy the Buddy link.', copied ? 'ok' : 'warn');
+	        } catch {
+	          shareCopyBtn.textContent = 'Select link';
+	          setThreadMessage('Select and copy the Buddy link.', 'warn');
+	        } finally {
+	          setTimeout(() => { shareCopyBtn.textContent = previous; }, 1200);
+	        }
+	      });
+	    }
 	    window.addEventListener('hashchange', scrollToBuddyThreadFromHash);
 	    scrollToBuddyThreadFromHash();
 
@@ -1766,6 +1816,57 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    cursor: progress;
 	    transform: none;
 	  }
+	  .bt-share-fallback {
+	    display: grid;
+	    grid-template-columns: minmax(0, 1fr) auto;
+	    gap: 8px;
+	    align-items: center;
+	    margin: -2px 0 12px;
+	    padding: 10px;
+	    border: 1px solid rgba(255, 211, 106, 0.34);
+	    border-radius: 8px;
+	    background: rgba(255, 253, 245, 0.06);
+	  }
+	  .bt-share-link {
+	    min-width: 0;
+	    height: 40px;
+	    padding: 0 10px;
+	    border: 1px solid rgba(255, 247, 223, 0.2);
+	    border-radius: 6px;
+	    background: rgba(255, 247, 223, 0.95);
+	    color: #1a1a1a;
+	    font-family: 'Courier New', monospace;
+	    font-size: 9pt;
+	  }
+	  .bt-share-fallback-actions {
+	    display: inline-flex;
+	    gap: 6px;
+	    align-items: center;
+	  }
+	  .bt-share-copy-btn,
+	  .bt-share-open-link {
+	    display: inline-flex;
+	    align-items: center;
+	    justify-content: center;
+	    min-height: 40px;
+	    padding: 0 12px;
+	    border-radius: 6px;
+	    font-family: 'Courier New', monospace;
+	    font-size: 8.5pt;
+	    letter-spacing: 0.04em;
+	    white-space: nowrap;
+	  }
+	  .bt-share-copy-btn {
+	    background: #f0a500;
+	    color: #1a1a1a;
+	    border: 1px solid #f0a500;
+	    cursor: pointer;
+	  }
+	  .bt-share-open-link {
+	    color: #ffd36a;
+	    border: 1px solid rgba(255, 211, 106, 0.36);
+	    text-decoration: none;
+	  }
 	  .bt-metrics {
 	    display: grid;
 	    grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2054,6 +2155,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	  .bt-thread-preview[hidden],
 	  .bt-thread-typing[hidden],
 	  .bt-thread-message[hidden],
+	  .bt-share-fallback[hidden],
 	  .bt-modal-overlay[hidden],
 	  .bt-report-status[hidden],
 	  .bt-report-confirm[hidden],
@@ -2344,6 +2446,13 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      width: 100%;
 	      min-height: 52px;
 	      font-size: 10.5pt;
+	    }
+	    .bt-share-fallback {
+	      grid-template-columns: 1fr;
+	    }
+	    .bt-share-fallback-actions {
+	      display: grid;
+	      grid-template-columns: 1fr 1fr;
 	    }
 	    .bt-metrics { grid-template-columns: 1fr; }
 	    :global(.bt-thread-item) { grid-template-columns: 1fr; }
