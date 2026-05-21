@@ -6,6 +6,8 @@ function randomState() {
   return Array.from(bytes).map(b => b.toString(16).padStart(2, '0')).join('');
 }
 
+const OAUTH_STATE_TTL_SECONDS = 60 * 60;
+
 function decodeLoose(value) {
   let out = String(value || '').trim();
   for (let i = 0; i < 2; i++) {
@@ -52,7 +54,11 @@ export async function onRequestGet(context) {
   const state = randomState();
 
   if (env.AUTH_KV) {
-    await env.AUTH_KV.put(`state:${state}`, redirect, { expirationTtl: 600 });
+    await env.AUTH_KV.put(`state:${state}`, JSON.stringify({
+      redirect,
+      created_at: Date.now(),
+      consumed: false,
+    }), { expirationTtl: OAUTH_STATE_TTL_SECONDS });
   }
 
   const callback = `${url.origin}/api/auth/github/callback`;

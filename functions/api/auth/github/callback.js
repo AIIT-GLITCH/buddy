@@ -8,6 +8,7 @@ function randomSession() {
 }
 
 const SESSION_TTL_SECONDS = 60 * 60 * 24 * 90;
+const OAUTH_REPLAY_TTL_SECONDS = 15 * 60;
 
 function decodeLoose(value) {
   let out = String(value || '').trim();
@@ -42,6 +43,51 @@ function normalizeRedirectTarget(raw, origin) {
   return target;
 }
 
+function sessionCookie(session) {
+  const expires = new Date(Date.now() + SESSION_TTL_SECONDS * 1000).toUTCString();
+  return [
+    `aiit_session=${session}`,
+    'Path=/',
+    'HttpOnly',
+    'Secure',
+    'SameSite=Lax',
+    `Max-Age=${SESSION_TTL_SECONDS}`,
+    `Expires=${expires}`,
+    'Priority=High',
+  ].join('; ');
+}
+
+function parseStateRecord(stored, origin) {
+  if (!stored) return null;
+  try {
+    const record = JSON.parse(stored);
+    return {
+      redirectTarget: normalizeRedirectTarget(record.redirect || record.redirectTarget || '/', origin),
+      consumed: !!record.consumed,
+      session: record.session ? String(record.session).replace(/[^a-f0-9]/gi, '').slice(0, 128) : '',
+    };
+  } catch {
+    return {
+      redirectTarget: normalizeRedirectTarget(stored, origin),
+      consumed: false,
+      session: '',
+    };
+  }
+}
+
+function restartLogin(url) {
+  const retry = new URL('/api/auth/github/login', url.origin);
+  retry.searchParams.set('redirect', '/ask-buddy/#buddy-thread');
+  retry.searchParams.set('retry', 'state');
+  return new Response(null, {
+    status: 302,
+    headers: {
+      'Location': retry.pathname + retry.search,
+      'Cache-Control': 'no-store',
+    },
+  });
+}
+
 export async function onRequestGet(context) {
   const { request, env } = context;
   const url = new URL(request.url);
@@ -53,13 +99,24 @@ export async function onRequestGet(context) {
   }
 
   let redirectTarget = '/';
+  let stateRecord = null;
   if (env.AUTH_KV) {
     const stored = await env.AUTH_KV.get(`state:${state}`);
     if (!stored) {
-      return new Response('State expired or unknown. Try logging in again.', { status: 400 });
+      return restartLogin(url);
     }
-    redirectTarget = normalizeRedirectTarget(stored, url.origin);
-    await env.AUTH_KV.delete(`state:${state}`);
+    stateRecord = parseStateRecord(stored, url.origin);
+    if (stateRecord && stateRecord.consumed && stateRecord.session) {
+      return new Response(null, {
+        status: 302,
+        headers: {
+          'Location': stateRecord.redirectTarget,
+          'Set-Cookie': sessionCookie(stateRecord.session),
+          'Cache-Control': 'no-store',
+        },
+      });
+    }
+    redirectTarget = stateRecord ? stateRecord.redirectTarget : '/';
   }
 
   const tokenRes = await fetch('https://github.com/login/oauth/access_token', {
@@ -99,19 +156,15 @@ export async function onRequestGet(context) {
 
   if (env.AUTH_KV) {
     await env.AUTH_KV.put(`session:${session}`, JSON.stringify(sessionData), { expirationTtl: SESSION_TTL_SECONDS });
+    await env.AUTH_KV.put(`state:${state}`, JSON.stringify({
+      redirectTarget,
+      consumed: true,
+      session,
+      consumed_at: Date.now(),
+    }), { expirationTtl: OAUTH_REPLAY_TTL_SECONDS });
   }
 
-  const expires = new Date(Date.now() + SESSION_TTL_SECONDS * 1000).toUTCString();
-  const cookie = [
-    `aiit_session=${session}`,
-    'Path=/',
-    'HttpOnly',
-    'Secure',
-    'SameSite=Lax',
-    `Max-Age=${SESSION_TTL_SECONDS}`,
-    `Expires=${expires}`,
-    'Priority=High',
-  ].join('; ');
+  const cookie = sessionCookie(session);
 
   return new Response(null, {
     status: 302,
