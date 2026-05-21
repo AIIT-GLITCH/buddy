@@ -972,15 +972,18 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      requestAnimationFrame(() => input && input.focus({ preventScroll: false }));
 	    }
 
-	    function handleClassicAskHash() {
+	    function handleClassicAskHash(event) {
 	      const hash = (location.hash || '').toLowerCase();
 	      if (wantsClassicAskPage()) {
 	        activateClassicAskMode();
 	        return true;
 	      }
 	      if (wantsBuddyThreadRoute() && notice && notice.hidden) {
-	        location.reload();
-	        return true;
+	        if (event && event.type === 'hashchange') {
+	          location.reload();
+	          return true;
+	        }
+	        return false;
 	      }
 	      return false;
 	    }
@@ -1413,8 +1416,14 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   html.buddy-thread-route body:has(.ask-page) {
     background: #0a0a12 !important;
   }
-  html.buddy-thread-booting .ask-page {
-    visibility: hidden;
+  html.buddy-thread-route #bt-notice[hidden] {
+    display: block;
+  }
+  html.buddy-thread-route .ask-page > .ask-head,
+  html.buddy-thread-route .ask-page > .ask-input-block,
+  html.buddy-thread-route .ask-page > .ask-response,
+  html.buddy-thread-route .ask-page > .ask-planets {
+    display: none;
   }
 </style>
 
