@@ -277,6 +277,7 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
       const verbEl = document.getElementById('nav-loader-verb');
       if (!loader || !verbEl) return;
 
+      const reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       let running = false;
       let verbTimer = null;
       let shardTimer = null;
@@ -304,21 +305,19 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
       function tick() {
         vi = (vi + 1) % VERBS.length;
         verbEl.textContent = VERBS[vi];
-        if (VERBS[vi] === 'Discombobulating') spawnShards(14);
       }
 
       function start() {
-        if (running || openTimer) return;
+        if (running || openTimer || reducedMotion) return;
         openTimer = setTimeout(() => {
           openTimer = null;
           running = true;
           loader.classList.add('open');
           verbEl.textContent = VERBS[vi];
           verbTimer = setInterval(tick, 520);
-          shardTimer = setInterval(() => spawnShards(3), 1400);
           // Safety: never let the overlay sit longer than 6s.
           safetyTimer = setTimeout(stop, 6000);
-        }, 140);
+        }, 650);
       }
 
       function stop() {
@@ -332,6 +331,7 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
 
       function isSameOriginNavLink(a) {
         if (!a) return null;
+        if (a.dataset.noLoader === 'true') return null;
         const href = a.getAttribute('href');
         if (!href) return null;
         if (href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:') || href.startsWith('javascript:')) return null;
@@ -339,6 +339,7 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
         try {
           const url = new URL(a.href, location.origin);
           if (url.origin !== location.origin) return null;
+          if (url.pathname === '/ask-buddy' || url.pathname === '/ask-buddy/') return null;
           if (url.pathname === location.pathname && url.search === location.search) return null;
           return url;
         } catch { return null; }

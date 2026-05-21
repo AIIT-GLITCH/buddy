@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  var VERSION = '2026-05-20.4';
+  var VERSION = '2026-05-20.5';
   var PREFETCH_LIMIT = 18;
   var HOVER_DELAY_MS = 45;
   var MAX_PREFETCH_AGE_MS = 10 * 60 * 1000;

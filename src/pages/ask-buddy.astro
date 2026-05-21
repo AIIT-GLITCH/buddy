@@ -4,6 +4,19 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 ---
 <Layout title="ASKBUDDY! — AIIT-THRESHOLD" description="Ask Buddy anything. He thinks by flipping through planets.">
 
+<script is:inline>
+  (function () {
+    var hash = (location.hash || '').toLowerCase();
+    var params = new URLSearchParams(location.search);
+    var mode = (params.get('mode') || params.get('view') || '').toLowerCase();
+    var classic = hash === '#ask' || hash === '#askbuddy' || hash === '#jeeves' || mode === 'ask' || mode === 'classic';
+    var thread = hash === '#buddy-thread' || hash === '#thread' || hash === '#persistent-chat';
+    if (thread && !classic) {
+      document.documentElement.classList.add('buddy-thread-route', 'buddy-thread-booting');
+    }
+  })();
+</script>
+
 <section class="ask-page">
 
   <!-- Header: small Buddy + title (tight) -->
@@ -578,6 +591,21 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		    return hash === '#ask' || hash === '#askbuddy' || hash === '#jeeves' || mode === 'ask' || mode === 'classic';
 		  }
 
+		  function wantsBuddyThreadRoute() {
+		    const hash = (location.hash || '').toLowerCase();
+		    return hash === '#buddy-thread' || hash === '#thread' || hash === '#persistent-chat';
+		  }
+
+		  function markBuddyThreadReady() {
+		    document.documentElement.classList.remove('buddy-thread-booting');
+		    document.documentElement.classList.add('buddy-thread-ready');
+		  }
+
+		  function clearBuddyThreadRouteState() {
+		    document.documentElement.classList.remove('buddy-thread-route', 'buddy-thread-booting', 'buddy-thread-ready');
+		    if (askPage) askPage.classList.remove('buddy-thread-locked');
+		  }
+
 		  function threadPreviewUrl() {
 		    const next = new URL(location.href);
 		    next.searchParams.set('thread_preview', '1');
@@ -586,6 +614,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 		  function placeAskComposer(inThread) {
 		    if (!askInputBlock) return;
+		    askInputBlock.hidden = false;
 		    askInputBlock.classList.toggle('in-thread', !!inThread);
 		    if (input) input.placeholder = inThread ? 'Message Buddy...' : originalAskPlaceholder;
 		    if (askPage) askPage.classList.toggle('buddy-thread-active', !!inThread);
@@ -937,6 +966,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      buddyThreadDemoMode = false;
 	      visibleThreadMessages = [];
 	      optimisticThreadMessages = [];
+	      clearBuddyThreadRouteState();
 	      placeAskComposer(false);
 	      if (notice) notice.hidden = true;
 	      requestAnimationFrame(() => input && input.focus({ preventScroll: false }));
@@ -948,7 +978,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	        activateClassicAskMode();
 	        return true;
 	      }
-	      if ((hash === '#buddy-thread' || hash === '#thread' || hash === '#persistent-chat') && notice && notice.hidden) {
+	      if (wantsBuddyThreadRoute() && notice && notice.hidden) {
 	        location.reload();
 	        return true;
 	      }
@@ -961,6 +991,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    }
 
 	    if (notice) notice.hidden = false;
+	    if (wantsBuddyThreadRoute()) {
+	      if (askPage) askPage.classList.add('buddy-thread-active');
+	      markBuddyThreadReady();
+	    }
 	    if (loginBtn) {
 	      const here = encodeURIComponent(location.pathname + location.search + location.hash || '/ask-buddy');
 	      loginBtn.href = '/api/auth/github/login?redirect=' + here;
@@ -978,8 +1012,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    }
 
 	    function scrollToBuddyThreadFromHash() {
-	      const hash = (location.hash || '').toLowerCase();
-	      if (hash !== '#buddy-thread' && hash !== '#thread' && hash !== '#persistent-chat') return false;
+	      if (!wantsBuddyThreadRoute()) return false;
 	      if (!notice || notice.hidden) return false;
 	      const anchor = document.getElementById('buddy-thread') || notice;
 	      requestAnimationFrame(() => {
@@ -1054,6 +1087,20 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      return 'Buddy Thread did not respond. Refresh and try again.';
 	    }
 
+	    async function fetchJsonWithTimeout(url, options = {}, timeoutMs = 1800) {
+	      const controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
+	      const timer = controller ? setTimeout(() => controller.abort(), timeoutMs) : null;
+	      try {
+	        const res = await fetch(url, {
+	          ...options,
+	          signal: controller ? controller.signal : options.signal,
+	        });
+	        return await res.json().catch(() => null);
+	      } finally {
+	        if (timer) clearTimeout(timer);
+	      }
+	    }
+
 	    function setReportStatus(message, kind = '') {
 	      if (!reportStatusEl) return;
 	      reportStatusEl.textContent = message || '';
@@ -1063,8 +1110,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 	    let btUser = null;
 	    try {
-	      const r = await fetch('/api/auth/me', { credentials: 'same-origin' });
-	      const j = await r.json();
+	      const j = await fetchJsonWithTimeout('/api/auth/me', { credentials: 'same-origin' }, 1600);
 	      btUser = j && j.user ? j.user : null;
 	    } catch {}
 	    if (!btUser) {
@@ -1085,6 +1131,11 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	        visibleThreadMessages = [];
 	        optimisticThreadMessages = [];
 	        placeAskComposer(false);
+	        if (wantsBuddyThreadRoute()) {
+	          if (askPage) askPage.classList.add('buddy-thread-active', 'buddy-thread-locked');
+	          if (askInputBlock) askInputBlock.hidden = true;
+	          markBuddyThreadReady();
+	        }
 	        if (userChip) userChip.textContent = 'login required';
 	        if (threadState) threadState.textContent = 'locked';
 	        if (threadCount) threadCount.textContent = '0';
@@ -1358,6 +1409,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   body:has(.ask-page) {
     background: #f4ece0 !important;
     color: #1a1a1a;
+  }
+  html.buddy-thread-route body:has(.ask-page) {
+    background: #0a0a12 !important;
+  }
+  html.buddy-thread-booting .ask-page {
+    visibility: hidden;
   }
 </style>
 
@@ -1854,9 +1911,14 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    margin-top: 8px;
 	    color: rgba(255, 247, 223, 0.7);
 	  }
+	  .ask-page.buddy-thread-active > .ask-head,
+	  .ask-page.buddy-thread-active > .ask-input-block,
 	  .ask-page.buddy-thread-active .ask-response,
 	  .ask-page.buddy-thread-active .ask-planets {
 	    display: none;
+	  }
+	  .ask-page.buddy-thread-active .bt-thread-composer-slot .ask-input-block {
+	    display: block;
 	  }
 	  .bt-actions {
 	    display: flex;

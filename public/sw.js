@@ -1,6 +1,6 @@
 'use strict';
 
-var VERSION = '2026-05-20.4';
+var VERSION = '2026-05-20.5';
 var STATIC_CACHE = 'aiit-static-' + VERSION;
 var PAGE_CACHE = 'aiit-pages-' + VERSION;
 var RUNTIME_CACHE = 'aiit-runtime-' + VERSION;
@@ -105,13 +105,6 @@ function cleanRequestUrl(request, url) {
 
 function staleWhileRevalidatePage(request) {
   var pageUrl = canonicalPageUrl(request);
-  var requestUrl = new URL(request.url);
-  requestUrl.hash = '';
-
-  if (request.mode === 'navigate' && pageUrl.href !== requestUrl.href) {
-    return Promise.resolve(Response.redirect(pageUrl.href, 308));
-  }
-
   var cleanRequest = cleanRequestUrl(request, pageUrl);
   return caches.open(PAGE_CACHE).then(function (cache) {
     return cache.match(cleanRequest).then(function (cached) {
