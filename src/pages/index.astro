@@ -21,12 +21,12 @@ const totalPapers = papersAll.length;
       </div>
 
       <div class="hero-founder-actions">
-        <a href="/ask-buddy#buddy-thread" class="hero-founder-cta primary" data-no-loader="true">Talk to Buddy</a>
+        <a href="/ask-buddy/#buddy-thread" class="hero-founder-cta primary" data-no-loader="true">Talk to Buddy</a>
         <a href="/paper-game" class="hero-founder-cta secondary">Play today's Paper Game</a>
       </div>
 
       <div class="hero-tabs" aria-label="Featured routes">
-        <a href="/ask-buddy#ask">AskBuddy <span>a tribute to Ask Jeeves</span></a>
+        <a href="/ask-buddy/#ask">AskBuddy <span>a tribute to Ask Jeeves</span></a>
         <a href="/paper-game">Paper Game <span>stays high in the archive</span></a>
         <a href="/papers">Papers <span>{totalPapers} live</span></a>
         <a href="#joke" data-hs="joke">Joke Test <span>make Buddy laugh</span></a>
@@ -238,7 +238,7 @@ const totalPapers = papersAll.length;
       <p class="fc-prelude">If you made it this far —</p>
       <h2 class="fc-head">you've already been thinking.</h2>
       <p class="fc-body">Ask something real.</p>
-      <a href="/ask-buddy" class="fc-cta">ask buddy →</a>
+      <a href="/ask-buddy/" class="fc-cta">ask buddy →</a>
       <p class="fc-alt"><a href="/join">— or write to us directly</a></p>
     </div>
   </section>
@@ -255,7 +255,7 @@ const totalPapers = papersAll.length;
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       const q = input.value.trim();
-      const target = new URL('/ask-buddy', window.location.origin);
+      const target = new URL('/ask-buddy/', window.location.origin);
       target.hash = 'ask';
       if (q) {
         target.searchParams.set('q', q);
@@ -683,7 +683,7 @@ const totalPapers = papersAll.length;
     jokeResponse.className = 'joke-response visible broke';
     jokeResponse.innerHTML = `<span class="broke-headline">Buddy missed the live answer path.</span><br>
 <span class="broke-sub">${escHtml(detail)}</span><br>
-<a href="/ask-buddy" class="broke-donate">Ask Buddy directly →</a>`;
+<a href="/ask-buddy/" class="broke-donate">Ask Buddy directly →</a>`;
   }
 
   function escHtml(s) {

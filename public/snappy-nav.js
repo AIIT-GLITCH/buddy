@@ -1,13 +1,13 @@
 (function () {
   'use strict';
 
-  var VERSION = '2026-05-20.5';
+  var VERSION = '2026-05-20.6';
   var PREFETCH_LIMIT = 18;
   var HOVER_DELAY_MS = 45;
   var MAX_PREFETCH_AGE_MS = 10 * 60 * 1000;
   var likelyPages = [
     '/',
-    '/ask-buddy',
+    '/ask-buddy/',
     '/apps',
     '/agentic',
     '/lac',

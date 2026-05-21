@@ -67,7 +67,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
         <div class="bt-thread-composer-slot" id="bt-thread-composer-slot" hidden></div>
       </div>
       <div class="bt-actions">
-        <a class="bt-login-btn" id="bt-login-btn" href="/api/auth/github/login?redirect=/ask-buddy" hidden>Activate Buddy Thread</a>
+        <a class="bt-login-btn" id="bt-login-btn" href="/api/auth/github/login?redirect=/ask-buddy/" hidden>Activate Buddy Thread</a>
         <button type="button" class="bt-demo-btn" id="bt-demo-btn" hidden>Preview chat window</button>
         <button type="button" class="bt-report-btn" id="bt-report-btn">Report weird behavior</button>
         <button type="button" class="bt-export-btn" id="bt-export-btn">Export thread</button>
@@ -996,7 +996,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      markBuddyThreadReady();
 	    }
 	    if (loginBtn) {
-	      const here = encodeURIComponent(location.pathname + location.search + location.hash || '/ask-buddy');
+	      const here = encodeURIComponent(location.pathname + location.search + location.hash || '/ask-buddy/');
 	      loginBtn.href = '/api/auth/github/login?redirect=' + here;
 	    }
 	    if (demoBtn && isThreadPreviewHost()) {
@@ -1044,7 +1044,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    async function shareBuddyWithFriend() {
 	      if (!shareBtn) return;
 	      const previous = shareBtn.textContent;
-	      const url = 'https://aiit-threshold.com/ask-buddy#buddy-thread';
+	      const url = 'https://aiit-threshold.com/ask-buddy/#buddy-thread';
 	      const payload = {
 	        title: 'Talk to Buddy',
 	        text: "Try Buddy, AIIT-THRESHOLD's persistent chat.",
