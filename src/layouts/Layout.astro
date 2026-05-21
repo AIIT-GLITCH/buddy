@@ -225,8 +225,6 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
           trigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
           closeAll(g);
         });
-        g.addEventListener('mouseenter', () => { g.classList.add('open'); trigger.setAttribute('aria-expanded','true'); });
-        g.addEventListener('mouseleave', () => { g.classList.remove('open'); trigger.setAttribute('aria-expanded','false'); });
       });
       document.addEventListener('click', () => closeAll(null));
       document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAll(null); });
