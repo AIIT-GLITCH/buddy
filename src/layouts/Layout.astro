@@ -216,14 +216,27 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
         const t = g.querySelector('.nav-trigger');
         if (t) t.setAttribute('aria-expanded','false');
       });
+      const openGroup = (g) => {
+        closeAll(g);
+        g.classList.add('open');
+        const t = g.querySelector('.nav-trigger');
+        if (t) t.setAttribute('aria-expanded','true');
+      };
+      const closeGroup = (g) => {
+        g.classList.remove('open');
+        const t = g.querySelector('.nav-trigger');
+        if (t) t.setAttribute('aria-expanded','false');
+      };
       groups.forEach(g => {
         const trigger = g.querySelector('.nav-trigger');
         if (!trigger) return;
+        g.addEventListener('mouseenter', () => openGroup(g));
+        g.addEventListener('mouseleave', () => closeGroup(g));
+        g.addEventListener('click', (e) => e.stopPropagation());
         trigger.addEventListener('click', (e) => {
+          e.preventDefault();
           e.stopPropagation();
-          const isOpen = g.classList.toggle('open');
-          trigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-          closeAll(g);
+          openGroup(g);
         });
       });
       document.addEventListener('click', () => closeAll(null));
