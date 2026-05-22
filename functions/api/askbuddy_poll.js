@@ -71,6 +71,12 @@ function corsHeaders(request) {
   };
 }
 
+function normalizedIso(value) {
+  if (!value) return null;
+  const date = new Date(String(value));
+  return Number.isFinite(date.getTime()) ? date.toISOString() : null;
+}
+
 export async function onRequestOptions({ request }) {
   return new Response(null, { status: 204, headers: corsHeaders(request) });
 }
@@ -97,6 +103,7 @@ export async function onRequestPost(context) {
   const requestId = String(body.request_id || body.requestId || '').trim();
   const incomingSessionId = String(body.session_id || body.sessionId || '').trim();
   const question = String(body.question || '').trim().slice(0, 600);
+  const askedAt = normalizedIso(body.asked_at);
   const wantsAccountThread = body.account_thread === true;
   if (!requestId) {
     return new Response(JSON.stringify({ ok: false, error: 'missing_request_id' }), { status: 400, headers });
@@ -130,6 +137,7 @@ export async function onRequestPost(context) {
   if (ingest.data.status === 'ready' && answer) {
     const obs = rollObservation();
     let threadSaved = false;
+    const answerAt = new Date().toISOString();
     if (accountThread && question) {
       try {
         await appendBuddyThreadTurn(env, loggedInUser, {
@@ -137,6 +145,8 @@ export async function onRequestPost(context) {
           answer,
           requestId: ingest.request_id,
           threadId: 'primary',
+          questionAt: askedAt,
+          answerAt,
         });
         threadSaved = true;
       } catch {}
@@ -148,7 +158,7 @@ export async function onRequestPost(context) {
       answer,
       cta: 'pass it on',
       layer: 'surface',
-      thread: { enabled: accountThread, saved: threadSaved },
+      thread: { enabled: accountThread, saved: threadSaved, question_at: askedAt, answer_at: answerAt },
     };
     if (obs) {
       payload.observation = obs.text;

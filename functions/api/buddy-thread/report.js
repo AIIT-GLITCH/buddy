@@ -80,8 +80,9 @@ function formatRecentMessages(messages) {
   return messages
     .map((m, i) => {
       const role = m.role || 'unknown';
+      const at = m.at ? ` @ ${m.at}` : '';
       const text = m.text || '';
-      return `${i + 1}. ${role}:\n${text}`;
+      return `${i + 1}. ${role}${at}:\n${text}`;
     })
     .join('\n\n');
 }
@@ -274,6 +275,7 @@ export async function onRequestPost(context) {
       .map(m => ({
         role: String(m.role || '').slice(0, 20),
         text: String(m.text || '').slice(0, MAX_MESSAGE_LEN),
+        at: String(m.at || '').slice(0, 40),
       }));
   }
 

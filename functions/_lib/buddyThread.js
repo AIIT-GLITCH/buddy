@@ -117,7 +117,7 @@ export async function saveBuddyThread(env, user, record, threadId = 'primary') {
   return next;
 }
 
-export async function appendBuddyThreadTurn(env, user, { question, answer, requestId, threadId = 'primary' }) {
+export async function appendBuddyThreadTurn(env, user, { question, answer, requestId, threadId = 'primary', questionAt, answerAt }) {
   if (!env || !env.AUTH_KV || !user) return null;
   const now = new Date().toISOString();
   const record = await loadBuddyThread(env, user, threadId);
@@ -126,8 +126,8 @@ export async function appendBuddyThreadTurn(env, user, { question, answer, reque
     return record;
   }
 
-  const userMessage = normalizeMessage({ role: 'user', text: question, at: now, request_id: requestId });
-  const buddyMessage = normalizeMessage({ role: 'buddy', text: answer, at: now, request_id: requestId });
+  const userMessage = normalizeMessage({ role: 'user', text: question, at: questionAt || now, request_id: requestId });
+  const buddyMessage = normalizeMessage({ role: 'buddy', text: answer, at: answerAt || now, request_id: requestId });
   if (userMessage) record.messages.push(userMessage);
   if (buddyMessage) record.messages.push(buddyMessage);
   record.last_seen = now;

@@ -1,13 +1,12 @@
 'use strict';
 
-var VERSION = '2026-05-20.11';
+var VERSION = '2026-05-21.01';
 var STATIC_CACHE = 'aiit-static-' + VERSION;
 var PAGE_CACHE = 'aiit-pages-' + VERSION;
 var RUNTIME_CACHE = 'aiit-runtime-' + VERSION;
 var MAX_PAGE_ENTRIES = 64;
 var MAX_RUNTIME_ENTRIES = 96;
 var CORE_ASSETS = [
-  '/',
   '/snappy-nav.js',
   '/paper-game-sync.js',
   '/favicon.ico',
@@ -56,7 +55,7 @@ self.addEventListener('fetch', function (event) {
   if (url.pathname.startsWith('/api/') || url.pathname.startsWith('/cdn-cgi/')) return;
 
   if (isHtmlRequest(request, url)) {
-    event.respondWith(staleWhileRevalidatePage(request));
+    event.respondWith(networkFirstPage(request));
     return;
   }
 
@@ -103,22 +102,25 @@ function cleanRequestUrl(request, url) {
   });
 }
 
-function staleWhileRevalidatePage(request) {
+function networkFirstPage(request) {
   var pageUrl = canonicalPageUrl(request);
   var cleanRequest = cleanRequestUrl(request, pageUrl);
   return caches.open(PAGE_CACHE).then(function (cache) {
-    return cache.match(cleanRequest).then(function (cached) {
-      var network = fetch(cleanRequest)
-        .then(function (response) {
-          if (canCache(response)) {
-            cache.put(cleanRequest, response.clone());
-            trimCache(PAGE_CACHE, MAX_PAGE_ENTRIES);
-          }
-          return response;
-        })
-        .catch(function () { return cached; });
-
-      return cached || network;
+    return fetch(cleanRequest)
+      .then(function (response) {
+        if (canCache(response)) {
+          cache.put(cleanRequest, response.clone());
+          trimCache(PAGE_CACHE, MAX_PAGE_ENTRIES);
+        }
+        return response;
+      })
+      .catch(function () {
+        return cache.match(cleanRequest).then(function (cached) {
+          return cached || new Response('Offline', {
+            status: 503,
+            headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+          });
+        });
     });
   });
 }

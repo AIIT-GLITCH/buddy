@@ -372,7 +372,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    if (buddyThreadEnabled) {
 	      response.className = 'ask-response';
 	      response.innerHTML = '';
-	      appendThreadMessage('buddy', answer, { pending: !buddyThreadDemoMode });
+	      appendThreadMessage('buddy', answer, {
+	        pending: !buddyThreadDemoMode,
+	        at: payload && payload.thread && payload.thread.answer_at,
+	      });
 	      return;
 	    }
     const obs = payload.observation || '';
@@ -526,8 +529,58 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		  const MAX_HISTORY_PAIRS = 6;
 		  const turnHistory = [];
 		  let refreshBuddyThread = null;
-		  function pushTurn(q, a) {
-		    turnHistory.push({ q, a });
+
+		  function normalizeIso(value) {
+		    if (!value) return null;
+		    const date = new Date(String(value));
+		    return Number.isFinite(date.getTime()) ? date.toISOString() : null;
+		  }
+
+		  function clientTimeContext(at) {
+		    const iso = normalizeIso(at) || new Date().toISOString();
+		    let timeZone = '';
+		    try {
+		      timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+		    } catch {}
+		    return {
+		      now: iso,
+		      time_zone: timeZone,
+		      utc_offset_minutes: -new Date(iso).getTimezoneOffset(),
+		      locale: navigator.language || '',
+		    };
+		  }
+
+		  function compactThreadMessagesForBuddy() {
+		    return visibleThreadMessages.concat(optimisticThreadMessages).slice(-24).map((m) => ({
+		      role: m && m.role === 'buddy' ? 'buddy' : 'user',
+		      text: String((m && m.text) || '').slice(0, 2000),
+		      at: normalizeIso(m && m.at),
+		    })).filter(m => m.text);
+		  }
+
+		  function formatThreadTime(value) {
+		    const iso = normalizeIso(value);
+		    if (!iso) return '';
+		    const date = new Date(iso);
+		    const now = new Date();
+		    const sameDay = date.toDateString() === now.toDateString();
+		    const options = sameDay
+		      ? { hour: 'numeric', minute: '2-digit' }
+		      : { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' };
+		    try {
+		      return new Intl.DateTimeFormat(undefined, options).format(date);
+		    } catch {
+		      return iso.slice(0, 16).replace('T', ' ');
+		    }
+		  }
+
+		  function pushTurn(q, a, meta = {}) {
+		    turnHistory.push({
+		      q,
+		      a,
+		      q_at: normalizeIso(meta.q_at || meta.asked_at),
+		      a_at: normalizeIso(meta.a_at || meta.answer_at),
+		    });
 		    while (turnHistory.length > MAX_HISTORY_PAIRS) turnHistory.shift();
 		  }
 		  function hydrateTurnHistory(messages) {
@@ -537,9 +590,9 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		    messages.forEach((m) => {
 		      if (!m || typeof m.text !== 'string') return;
 		      if (m.role === 'user') {
-		        pendingUser = m.text;
+		        pendingUser = { text: m.text, at: normalizeIso(m.at) };
 		      } else if (m.role === 'buddy' && pendingUser) {
-		        pairs.push({ q: pendingUser, a: m.text });
+		        pairs.push({ q: pendingUser.text, a: m.text, q_at: pendingUser.at, a_at: normalizeIso(m.at) });
 		        pendingUser = null;
 		      }
 		    });
@@ -669,13 +722,24 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		      const item = document.createElement('div');
 		      item.className = 'bt-thread-item ' + (message.role === 'buddy' ? 'buddy' : 'user');
 		      if (message.pending) item.classList.add('pending');
+		      const meta = document.createElement('div');
+		      meta.className = 'bt-thread-meta';
 		      const role = document.createElement('div');
 		      role.className = 'bt-thread-role';
 		      role.textContent = message.role === 'buddy' ? 'Buddy' : 'You';
+		      meta.appendChild(role);
+		      const timeLabel = formatThreadTime(message.at);
+		      if (timeLabel) {
+		        const time = document.createElement('time');
+		        time.className = 'bt-thread-time';
+		        time.dateTime = normalizeIso(message.at) || '';
+		        time.textContent = timeLabel;
+		        meta.appendChild(time);
+		      }
 		      const text = document.createElement('div');
 		      text.className = 'bt-thread-text';
 		      text.textContent = message.text || '';
-		      item.appendChild(role);
+		      item.appendChild(meta);
 		      item.appendChild(text);
 		      threadListEl.appendChild(item);
 		    });
@@ -694,7 +758,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		      role: role === 'buddy' ? 'buddy' : 'user',
 		      text,
 		      pending: options.pending !== false,
-		      at: new Date().toISOString(),
+		      at: normalizeIso(options.at) || new Date().toISOString(),
 		    });
 		    renderThreadWindow();
 		  }
@@ -802,6 +866,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		          request_id: entry.request_id,
 		          session_id: entry.session_id,
 		          question: entry.question || '',
+		          asked_at: entry.asked_at || '',
 		          account_thread: !!entry.account_thread,
 		        }),
 		      });
@@ -812,7 +877,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 	    if (payload && payload.ok && payload.status === 'ready') {
 		      removePending(entry.request_id);
-		      pushTurn(entry.question || '', payload.answer || '');
+		      pushTurn(entry.question || '', payload.answer || '', {
+		        q_at: entry.asked_at,
+		        a_at: payload && payload.thread && payload.thread.answer_at,
+		      });
 		      showFirstOutput(payload);
 		      noteThreadPayload(payload);
 		      return;
@@ -846,8 +914,9 @@ import BuddyMascot from '../components/BuddyMascot.astro';
   async function ask() {
     const q = input.value.trim();
     if (!q) return;
+    const askedAt = new Date().toISOString();
     if (buddyThreadEnabled) {
-      appendThreadMessage('user', q, { pending: !buddyThreadDemoMode });
+      appendThreadMessage('user', q, { pending: !buddyThreadDemoMode, at: askedAt });
     }
     btn.disabled = true;
     btn.textContent = '...';
@@ -860,8 +929,9 @@ import BuddyMascot from '../components/BuddyMascot.astro';
     if (buddyThreadDemoMode) {
       await new Promise(r => setTimeout(r, minShowMs));
       const answer = demoBuddyAnswer(q);
-      pushTurn(q, answer);
-      showFirstOutput({ ok: true, answer });
+      const answerAt = new Date().toISOString();
+      pushTurn(q, answer, { q_at: askedAt, a_at: answerAt });
+      showFirstOutput({ ok: true, answer, thread: { answer_at: answerAt } });
       input.value = '';
       btn.disabled = false;
       btn.textContent = 'Ask →';
@@ -874,9 +944,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	        headers: { 'content-type': 'application/json' },
 	        body: JSON.stringify({
 	          question: q,
+          asked_at: askedAt,
+          client_time: clientTimeContext(askedAt),
           fingerprint: getFingerprint(),
           session_id: getSessionId(),
           history: turnHistory.slice(),
+          thread_messages: compactThreadMessagesForBuddy(),
           admin: getDevBypass(),
         }),
       });
@@ -895,6 +968,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 		        request_id: payload.request_id,
 		        session_id: payload.session_id || getSessionId(),
 		        question: q,
+		        asked_at: askedAt,
 		        account_thread: !!(payload.thread && payload.thread.enabled),
 		        ts: Date.now(),
 		      };
@@ -903,7 +977,10 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      input.value = '';
 	      pollPending(entry, 0);
 		    } else if (payload && payload.ok) {
-		      pushTurn(q, payload.answer || '');
+		      pushTurn(q, payload.answer || '', {
+		        q_at: askedAt,
+		        a_at: payload && payload.thread && payload.thread.answer_at,
+		      });
 		      showFirstOutput(payload);
 		      noteThreadPayload(payload);
 		      input.value = '';
@@ -1292,8 +1369,8 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 
 	      const recentMessages = includeRecent
 	        ? turnHistory.slice(-10).flatMap(t => [
-	            { role: 'user', text: t.q },
-	            { role: 'buddy', text: t.a },
+	            { role: 'user', text: t.q, at: t.q_at || null },
+	            { role: 'buddy', text: t.a, at: t.a_at || null },
 	          ])
 	        : [];
 
@@ -1942,6 +2019,12 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	    opacity: 0.82;
 	    border-style: dashed;
 	  }
+	  :global(.bt-thread-meta) {
+	    display: flex;
+	    flex-direction: column;
+	    gap: 3px;
+	    min-width: 0;
+	  }
 	  :global(.bt-thread-role) {
 	    font-family: 'Courier New', monospace;
 	    font-size: 8pt;
@@ -1951,6 +2034,14 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	  }
 	  :global(.bt-thread-item.buddy .bt-thread-role) {
 	    color: #f0a500;
+	  }
+	  :global(.bt-thread-time) {
+	    font-family: 'Courier New', monospace;
+	    font-size: 7.5pt;
+	    line-height: 1.2;
+	    color: rgba(255, 247, 223, 0.42);
+	    text-transform: none;
+	    letter-spacing: 0.02em;
 	  }
 	  :global(.bt-thread-text) {
 	    min-width: 0;

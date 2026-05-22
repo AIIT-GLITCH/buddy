@@ -15,7 +15,7 @@
 //     → { ok:false, error:"corpus_write_failed" }
 
 import { callBuddy } from '../_lib/ingest.js';
-import { appendBuddyThreadTurn, getBuddyThreadSessionId, getLoggedInUser } from '../_lib/buddyThread.js';
+import { appendBuddyThreadTurn, getBuddyThreadSessionId, getLoggedInUser, loadBuddyThread } from '../_lib/buddyThread.js';
 
 const MAX_QUESTION_LEN = 600;
 const BUDDY_SITE_MAX_TOKENS = 128;
@@ -104,9 +104,26 @@ function todayKey() {
   // UTC date, fine for daily buckets
   return new Date().toISOString().slice(0, 10);
 }
+
+function normalizedIso(value) {
+  if (!value) return null;
+  const date = new Date(String(value));
+  return Number.isFinite(date.getTime()) ? date.toISOString() : null;
+}
+
+function compactThreadMessages(messages, limit = 24) {
+  if (!Array.isArray(messages)) return [];
+  return messages.slice(-limit).map(m => ({
+    role: m && m.role === 'buddy' ? 'buddy' : 'user',
+    text: String((m && m.text) || '').slice(0, 2000),
+    at: normalizedIso(m && m.at),
+  })).filter(m => m.text);
+}
+
 export async function onRequestPost(context) {
   const { request, env } = context;
   const headers = corsHeaders(request);
+  const serverReceivedAt = new Date().toISOString();
 
   if (!requestFromAllowedSurface(request)) {
     return new Response(JSON.stringify({ ok: false, error: 'forbidden_origin' }), { status: 403, headers });
@@ -125,13 +142,26 @@ export async function onRequestPost(context) {
   catch { return new Response(JSON.stringify({ ok: false, error: 'invalid json' }), { status: 400, headers }); }
 
   const question = String(body.question || '').trim().slice(0, MAX_QUESTION_LEN);
+  const askedAt = normalizedIso(body.asked_at) || serverReceivedAt;
+  const clientTime = body.client_time && typeof body.client_time === 'object' ? body.client_time : {};
+  const timeContext = {
+    server_received_at: serverReceivedAt,
+    client_asked_at: askedAt,
+    client_now: normalizedIso(clientTime.now) || askedAt,
+    client_time_zone: String(clientTime.time_zone || '').slice(0, 80),
+    client_utc_offset_minutes: Number.isFinite(Number(clientTime.utc_offset_minutes)) ? Number(clientTime.utc_offset_minutes) : null,
+    client_locale: String(clientTime.locale || '').slice(0, 40),
+  };
   const fingerprint = String(body.fingerprint || '').trim().slice(0, 128) || 'nofp';
   const browserSessionId = String(body.session_id || '').trim().slice(0, 128) || fingerprint;
   const rawHistory = Array.isArray(body.history) ? body.history : [];
   const history = rawHistory.slice(-6).map(t => ({
     q: String(t && t.q || '').slice(0, MAX_QUESTION_LEN),
     a: String(t && t.a || '').slice(0, 2000),
+    q_at: normalizedIso(t && t.q_at),
+    a_at: normalizedIso(t && t.a_at),
   })).filter(t => t.q && t.a);
+  const clientThreadMessages = compactThreadMessages(body.thread_messages, 24);
   const adminToken = String(body.admin || request.headers.get('x-dev-bypass') || '').trim();
   const isAdmin = !!env.DEV_BYPASS && adminToken === env.DEV_BYPASS;
   if (!question) {
@@ -141,6 +171,13 @@ export async function onRequestPost(context) {
   const loggedInUser = await getLoggedInUser(request, env);
   const accountThread = !!(loggedInUser && (loggedInUser.login || loggedInUser.id));
   const sessionId = accountThread ? await getBuddyThreadSessionId(env, loggedInUser, 'primary') : browserSessionId;
+  let storedThreadMessages = [];
+  if (accountThread) {
+    try {
+      const storedThread = await loadBuddyThread(env, loggedInUser, 'primary');
+      storedThreadMessages = compactThreadMessages(storedThread.messages, 24);
+    } catch {}
+  }
 
   const ip = request.headers.get('CF-Connecting-IP') ||
              request.headers.get('x-forwarded-for') || 'unknown';
@@ -184,6 +221,9 @@ export async function onRequestPost(context) {
     extras: {
       question,
       history,
+      time_context: timeContext,
+      thread_messages: storedThreadMessages.length ? storedThreadMessages : clientThreadMessages,
+      client_thread_messages: clientThreadMessages,
       max_tokens: BUDDY_SITE_MAX_TOKENS,
       temperature: 0.25,
       account_thread: accountThread,
@@ -223,7 +263,7 @@ export async function onRequestPost(context) {
       message: QUEUED_MESSAGE,
       cta: 'pass it on',
       layer: 'surface',
-      thread: { enabled: accountThread, saved: false },
+      thread: { enabled: accountThread, saved: false, question_at: askedAt },
     }), { status: 200, headers });
   }
 
@@ -251,6 +291,7 @@ export async function onRequestPost(context) {
   // Keeps `ok` and `answer` for back-compat with the current ask-buddy frontend.
   const obs = rollObservation();
   let threadSaved = false;
+  const answerAt = new Date().toISOString();
   if (accountThread) {
     try {
       await appendBuddyThreadTurn(env, loggedInUser, {
@@ -258,6 +299,8 @@ export async function onRequestPost(context) {
         answer,
         requestId: ingest.request_id,
         threadId: 'primary',
+        questionAt: askedAt,
+        answerAt,
       });
       threadSaved = true;
     } catch {}
@@ -268,7 +311,7 @@ export async function onRequestPost(context) {
     cta: 'pass it on',
     layer: 'surface',
     remainingToday: 0,
-    thread: { enabled: accountThread, saved: threadSaved },
+    thread: { enabled: accountThread, saved: threadSaved, question_at: askedAt, answer_at: answerAt },
   };
   if (obs) {
     payload.observation = obs.text;

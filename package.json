@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "node scripts/guard-buddy-routes.mjs && node scripts/build-paper-index.mjs && astro build && node scripts/inject-paper-game-sync.mjs",
+    "build": "node scripts/guard-buddy-routes.mjs && node scripts/build-paper-index.mjs && astro build && node scripts/inject-paper-game-sync.mjs && node scripts/write-version.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "index": "node scripts/build-paper-index.mjs",

@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  var VERSION = '2026-05-20.11';
+  var VERSION = '2026-05-21.01';
   var PREFETCH_LIMIT = 18;
   var HOVER_DELAY_MS = 45;
   var MAX_PREFETCH_AGE_MS = 10 * 60 * 1000;
@@ -181,9 +181,17 @@
     window.addEventListener('load', function () {
       navigator.serviceWorker.register('/sw.js', { scope: '/' })
         .then(function (registration) {
-          if (registration && registration.active) {
-            registration.active.postMessage({ type: 'AIIT_SNAPPY_VERSION', version: VERSION });
+          function sendVersion(worker) {
+            if (worker) worker.postMessage({ type: 'AIIT_SNAPPY_VERSION', version: VERSION });
           }
+          if (registration.update) registration.update().catch(function () {});
+          sendVersion(registration.installing);
+          sendVersion(registration.waiting);
+          sendVersion(registration.active);
+          if (navigator.serviceWorker.controller) sendVersion(navigator.serviceWorker.controller);
+          registration.addEventListener('updatefound', function () {
+            sendVersion(registration.installing);
+          });
         })
         .catch(function () {});
     }, { once: true });

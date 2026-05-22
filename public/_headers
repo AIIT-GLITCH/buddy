@@ -2,6 +2,18 @@
   Cache-Control: public, max-age=0, s-maxage=86400, stale-while-revalidate=604800
   X-Content-Type-Options: nosniff
 
+/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/ask-buddy/
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/ask-buddy/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
 /sw.js
   Cache-Control: no-cache, no-store, must-revalidate
   Service-Worker-Allowed: /
