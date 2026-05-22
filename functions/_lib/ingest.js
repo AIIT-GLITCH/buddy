@@ -176,7 +176,8 @@ export async function callBuddy({
     !env ||
     !env.BUDDY_BACKEND_URL ||
     !env.BUDDY_CF_ACCESS_CLIENT_ID ||
-    !env.BUDDY_CF_ACCESS_CLIENT_SECRET
+    !env.BUDDY_CF_ACCESS_CLIENT_SECRET ||
+    !buddyToken
   ) {
     return { ok: false, error: 'buddy_not_configured', request_id: null };
   }
@@ -209,9 +210,7 @@ export async function callBuddy({
       'x-request-id': request_id,
       'x-surface': surface,
     };
-    if (buddyToken) {
-      headers.authorization = 'Bearer ' + buddyToken;
-    }
+    headers.authorization = 'Bearer ' + buddyToken;
     r = await fetch(baseUrl + endpoint, {
       method: 'POST',
       headers,
@@ -270,7 +269,8 @@ export async function callBuddyPoll({
     !env ||
     !env.BUDDY_BACKEND_URL ||
     !env.BUDDY_CF_ACCESS_CLIENT_ID ||
-    !env.BUDDY_CF_ACCESS_CLIENT_SECRET
+    !env.BUDDY_CF_ACCESS_CLIENT_SECRET ||
+    !buddyToken
   ) {
     return { ok: false, error: 'buddy_not_configured', request_id: requestId || null };
   }
@@ -292,9 +292,7 @@ export async function callBuddyPoll({
       'x-request-id': cleanRequestId,
       'x-surface': 'ask_poll',
     };
-    if (buddyToken) {
-      headers.authorization = 'Bearer ' + buddyToken;
-    }
+    headers.authorization = 'Bearer ' + buddyToken;
     r = await fetch(baseUrl + '/ask_poll', {
       method: 'POST',
       headers,
