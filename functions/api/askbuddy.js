@@ -6,7 +6,7 @@
 //     BUDDY_BACKEND_URL
 //     BUDDY_CF_ACCESS_CLIENT_ID
 //     BUDDY_CF_ACCESS_CLIENT_SECRET
-//     BUDDY_BACKEND_TOKEN or legacy BUDDY_WEB_ASK_TOKEN
+//     BUDDY_BACKEND_TOKEN (optional until the Pages secret is configured)
 //
 // Endpoint:
 //   POST /api/askbuddy   { question, fingerprint }
