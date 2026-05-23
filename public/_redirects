@@ -1,3 +1,7 @@
+/appassets/ask-buddy/index.html /ask-buddy/?thread=1 302
+/appassets/ask-buddy/ /ask-buddy/?thread=1 302
+/appassets/index.html / 302
+/appassets/ / 302
 /ask-buddy/%23buddy-thread /ask-buddy/?thread=1 302
 /ask-buddy/%2523buddy-thread /ask-buddy/?thread=1 302
 /ask-buddy/%23thread /ask-buddy/?thread=1 302

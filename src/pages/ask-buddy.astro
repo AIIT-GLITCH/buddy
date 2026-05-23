@@ -1091,8 +1091,7 @@ import BuddyMascot from '../components/BuddyMascot.astro';
 	      markBuddyThreadReady();
 	    }
 	    if (loginBtn) {
-	      const here = encodeURIComponent(location.pathname + location.search + location.hash || '/ask-buddy/');
-	      loginBtn.href = '/api/auth/github/login?redirect=' + here;
+	      loginBtn.href = '/api/auth/github/login?redirect=' + encodeURIComponent('/ask-buddy/?thread=1');
 	    }
 	    if (demoBtn && isThreadPreviewHost()) {
 	      demoBtn.hidden = false;
