@@ -23,5 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Prepare CI paper source directory
+        run: mkdir -p /home/buddy_ai/Desktop/PRINT_READY
+
       - name: Build
         run: npm run build

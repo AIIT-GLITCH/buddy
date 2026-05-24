@@ -57,6 +57,12 @@ npm run build
 `npm run build` runs the Buddy route guard, rebuilds the paper index, runs
 Astro, injects paper-game sync assets, and writes the version stamp.
 
+The paper index script currently expects a build-time source directory at
+`/home/buddy_ai/Desktop/PRINT_READY`. Cloudflare Pages currently has enough
+project context for its deploy to pass. GitHub Actions creates an empty
+placeholder directory before `npm run build` so the CI job verifies the site
+build path without committing private/local paper source files.
+
 ## Expected Cloudflare Behavior
 
 Cloudflare Pages should:
