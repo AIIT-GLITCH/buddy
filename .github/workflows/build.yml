@@ -24,7 +24,7 @@ jobs:
         run: npm ci
 
       - name: Prepare CI paper source directory
-        run: mkdir -p /home/buddy_ai/Desktop/PRINT_READY
+        run: sudo install -d -o "$USER" -g "$USER" /home/buddy_ai/Desktop/PRINT_READY
 
       - name: Build
         run: npm run build
