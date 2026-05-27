@@ -27,9 +27,9 @@ export async function onRequestGet({ request, env }) {
 
   // Voice2 is $50 (5000 cents)
   if (amount === 5000) {
-    return Response.redirect(`${url.origin}/voice2-success`, 302);
+    return Response.redirect(`${url.origin}/voice2-success?session_id=${encodeURIComponent(sessionId)}`, 302);
   }
 
   // LAC is $2-$50 pay what you want
-  return Response.redirect(`${url.origin}/lac-success`, 302);
+  return Response.redirect(`${url.origin}/lac-success?session_id=${encodeURIComponent(sessionId)}`, 302);
 }
