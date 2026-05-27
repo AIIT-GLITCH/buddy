@@ -18,7 +18,7 @@ import { callBuddy } from '../_lib/ingest.js';
 import { appendBuddyThreadTurn, getBuddyThreadSessionId, getLoggedInUser, loadBuddyThread } from '../_lib/buddyThread.js';
 
 const MAX_QUESTION_LEN = 600;
-const BUDDY_SITE_MAX_TOKENS = 128;
+const BUDDY_SITE_MAX_TOKENS = 384;
 const PRIMARY_ORIGIN = 'https://aiit-threshold.com';
 const QUEUED_MESSAGE = 'WOAH! more people are talking to buddy than we were ready for! please be patient and he will get you your answer!';
 const SURGE_MESSAGE = 'WOAH! more people are talking to buddy than we were ready for! please try again in a minute so he can keep answering cleanly.';
