@@ -37,9 +37,12 @@ from typing import Any, Dict, List, Optional
 
 _VALID_ROLES = {"user", "assistant"}
 
-# Defaults chosen to match the surface (compactThreadMessages sends last 24)
-# and to stay comfortably inside the web context budget.
-DEFAULT_MAX_TURNS = 24
+# Default hydration depth. Set above the requested 30-message window so the
+# /ask account-thread window (BUDDY_ACCOUNT_THREAD_WINDOW, default 30) is never
+# starved by hydration. The true ceiling is whatever the surface forwards:
+# compactThreadMessages currently sends the last 24, so to actually deliver 30+
+# the Cloudflare forward cap must be raised in lockstep (see APPLY notes).
+DEFAULT_MAX_TURNS = 40
 DEFAULT_MAX_CHARS = 1000
 
 

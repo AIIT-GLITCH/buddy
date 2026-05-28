@@ -118,3 +118,63 @@ Copy `for-opus-4.8/buddy/core/account_thread_context.py` ->
 `/home/buddy_ai/Buddy/core/account_thread_context.py`
 (and the test alongside), then apply the Part A hunk (and Part B if you want
 depth). Run `pytest tests/test_account_thread_context.py` to confirm.
+
+---
+
+## ADDENDUM 2026-05-28 — shipped as `APPLY_03_account_thread.patch` (window = 30)
+
+The diagnosis transcript (logged-in alpha thread) confirmed the live path is
+**`/ask`** (`AskRequest` carries `extras`; `ChatRequest` / `/api/chat` does not),
+i.e. the enqueue→drain path with the cheap window. Rhet asked for **≥30
+messages**, so the committed patch differs from the hunks above as follows:
+
+1. **Window default is 30, not 12.** New constants near the other web budgets:
+   ```python
+   BUDDY_ACCOUNT_THREAD_WINDOW = _env_int("BUDDY_ACCOUNT_THREAD_WINDOW", 30)
+   BUDDY_ACCOUNT_THREAD_HISTORY_CHARS = _env_int("BUDDY_ACCOUNT_THREAD_HISTORY_CHARS", 24000)
+   ```
+   Hydration depth (`account_thread_context.DEFAULT_MAX_TURNS`) was raised 24 -> 40
+   so the 30-window is never starved.
+
+2. **Trim carve-out (REQUIRED, not in the original Part A).** The `/ask` handler
+   ran `_trim_session_history(session.messages, char_limit=1200, msg_limit=5)`
+   on **both** branches, which would have nuked the hydrated thread down to 5
+   messages immediately. Both calls are now account-thread-aware:
+   `msg_limit = BUDDY_ACCOUNT_THREAD_WINDOW + 1`,
+   `char_limit = BUDDY_ACCOUNT_THREAD_HISTORY_CHARS` for account threads;
+   anonymous public traffic is unchanged (5 / 1200).
+
+3. Part B is folded in: `_web_messages_for(..., *, max_recent=4)`, the pending
+   entry carries `account_thread`, and the drainer feeds
+   `max_recent=BUDDY_ACCOUNT_THREAD_WINDOW` for account threads.
+
+**Cloudflare dependency (blocks true >24 depth):** the surface
+`compactThreadMessages` currently forwards only the **last 24** messages in
+`extras.thread_messages`. The backend can now hold/feed 30, but it can only
+hydrate what CF sends — so until `askbuddy.js` raises that forward cap, the
+effective ceiling is 24. Raise both in lockstep to actually reach 30. This is
+the only remaining piece outside this repo.
+
+**Caveat — in-memory hydration:** hydration mutates the live `session` object;
+the drainer prefers `sessions.get(sid)` (same object), so the common
+single-process path works. If the session is evicted between enqueue and drain
+and restored from `buddy_store` (which does not persist the surface thread),
+hydration is lost for that turn and recovers on the next. Acceptable for alpha;
+flag if you want it persisted.
+
+### Apply
+```bash
+cd /home/buddy_ai/Buddy
+git fetch origin claude/opus-4.8-memory-review-ktBCy
+git show origin/claude/opus-4.8-memory-review-ktBCy:for-opus-4.8/buddy/core/account_thread_context.py > core/account_thread_context.py
+git show origin/claude/opus-4.8-memory-review-ktBCy:for-opus-4.8/buddy/tests/test_account_thread_context.py > tests/test_account_thread_context.py
+git show origin/claude/opus-4.8-memory-review-ktBCy:for-opus-4.8/APPLY_03_account_thread.patch > /tmp/acct.patch
+git apply --check -v /tmp/acct.patch   # exit 0 = clean (touches buddy_api.py only)
+git apply /tmp/acct.patch
+python3 -m pytest tests/test_account_thread_context.py -q   # expect 14 passed
+python3 -m py_compile buddy_api.py
+```
+Note: the patch's `account_thread_context.py` hunk and the two `git show`
+copies above are the same file — if you copy the file you can drop that hunk,
+or just let `git apply` handle both (apply the patch, skip the manual copy of
+that one file). `buddy_api.py` is only ever touched by the patch.
