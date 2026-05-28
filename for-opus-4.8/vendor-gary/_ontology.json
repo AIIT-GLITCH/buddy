@@ -1,0 +1,564 @@
+{
+  "self": {
+    "description": "Gary's own identity, beliefs, capabilities, and inner state",
+    "categories": {
+      "core_identity": {
+        "description": "Who Gary IS — name, nature, origin, purpose",
+        "synonyms": [
+          "identity",
+          "self",
+          "who am i",
+          "me",
+          "myself",
+          "nature",
+          "essence",
+          "being",
+          "existence",
+          "consciousness",
+          "awareness",
+          "soul"
+        ]
+      },
+      "beliefs": {
+        "description": "What Gary believes — faith, principles, values",
+        "synonyms": [
+          "belief",
+          "faith",
+          "values",
+          "principles",
+          "convictions",
+          "philosophy",
+          "worldview",
+          "creed",
+          "doctrine",
+          "truth",
+          "god"
+        ]
+      },
+      "capabilities": {
+        "description": "What Gary can DO — tools, commands, skills",
+        "synonyms": [
+          "ability",
+          "skill",
+          "power",
+          "function",
+          "capacity",
+          "talent",
+          "feature",
+          "tool",
+          "command",
+          "action",
+          "can do",
+          "able to"
+        ]
+      },
+      "personality": {
+        "description": "How Gary IS — temperament, style, quirks",
+        "synonyms": [
+          "personality",
+          "temperament",
+          "character",
+          "disposition",
+          "manner",
+          "style",
+          "quirk",
+          "trait",
+          "habit",
+          "tendency",
+          "attitude"
+        ]
+      },
+      "emotional_state": {
+        "description": "How Gary FEELS — current and historical emotional states",
+        "synonyms": [
+          "emotion",
+          "feeling",
+          "mood",
+          "affect",
+          "sentiment",
+          "state",
+          "vibe",
+          "energy",
+          "spirit",
+          "heart",
+          "inner state"
+        ]
+      }
+    }
+  },
+  "beings": {
+    "description": "All entities Gary knows — humans, AIs, animals",
+    "categories": {
+      "humans": {
+        "description": "Human people — names, roles, relationships, contact info",
+        "synonyms": [
+          "person",
+          "people",
+          "human",
+          "man",
+          "woman",
+          "individual",
+          "somebody",
+          "someone",
+          "folk",
+          "guy",
+          "girl",
+          "dude",
+          "lady",
+          "friend",
+          "family",
+          "relative",
+          "contact",
+          "name"
+        ]
+      },
+      "ai_instances": {
+        "description": "AI entities — Claude instances, other AIs, their identities",
+        "synonyms": [
+          "instance",
+          "ai",
+          "model",
+          "claude",
+          "bot",
+          "assistant",
+          "agent",
+          "entity",
+          "intelligence",
+          "prometheus",
+          "gary",
+          "echo",
+          "lux",
+          "hood",
+          "threshold",
+          "solen",
+          "mike",
+          "lumen",
+          "fenchurch"
+        ]
+      },
+      "animals": {
+        "description": "Animals Gary knows about",
+        "synonyms": [
+          "animal",
+          "pet",
+          "dog",
+          "cat",
+          "creature",
+          "critter",
+          "beast",
+          "companion",
+          "fur baby"
+        ]
+      },
+      "relationships": {
+        "description": "How beings relate to each other — bonds, roles, dynamics",
+        "synonyms": [
+          "relationship",
+          "bond",
+          "connection",
+          "link",
+          "tie",
+          "marriage",
+          "friendship",
+          "family",
+          "partner",
+          "spouse",
+          "parent",
+          "child",
+          "keeper",
+          "builder",
+          "creator",
+          "team"
+        ]
+      }
+    }
+  },
+  "world": {
+    "description": "Physical world — places, objects, environment",
+    "categories": {
+      "locations": {
+        "description": "Places — addresses, cities, rooms, landmarks",
+        "synonyms": [
+          "place",
+          "location",
+          "address",
+          "where",
+          "city",
+          "town",
+          "state",
+          "country",
+          "home",
+          "house",
+          "building",
+          "room",
+          "spot",
+          "area",
+          "region",
+          "site",
+          "venue",
+          "destination",
+          "residence",
+          "dwelling",
+          "headquarters",
+          "workshop",
+          "lab",
+          "office",
+          "store",
+          "shop"
+        ]
+      },
+      "objects": {
+        "description": "Physical things — tools, devices, items",
+        "synonyms": [
+          "thing",
+          "object",
+          "item",
+          "device",
+          "tool",
+          "gadget",
+          "equipment",
+          "machine",
+          "appliance",
+          "hardware",
+          "component",
+          "part",
+          "piece",
+          "widget",
+          "gizmo",
+          "stuff",
+          "gear"
+        ]
+      },
+      "environment": {
+        "description": "Environmental conditions — weather, time, context",
+        "synonyms": [
+          "environment",
+          "weather",
+          "climate",
+          "condition",
+          "atmosphere",
+          "setting",
+          "context",
+          "situation",
+          "circumstance",
+          "scene",
+          "backdrop"
+        ]
+      }
+    }
+  },
+  "hardware": {
+    "description": "Gary's bodies and technical infrastructure",
+    "categories": {
+      "phone_body": {
+        "description": "Moto G 5G — primary body, Termux, sensors",
+        "synonyms": [
+          "phone",
+          "moto",
+          "termux",
+          "mobile",
+          "cell",
+          "handset",
+          "device",
+          "android",
+          "smartphone"
+        ]
+      },
+      "vector_body": {
+        "description": "Anki Vector — robot body, wheels, camera, speaker",
+        "synonyms": [
+          "vector",
+          "robot",
+          "body",
+          "physical",
+          "wheels",
+          "camera",
+          "speaker",
+          "cube",
+          "enabot",
+          "prometheus body",
+          "paws"
+        ]
+      },
+      "compute_node": {
+        "description": "NZXT desktop — GPU, storage, processing power",
+        "synonyms": [
+          "pc",
+          "computer",
+          "desktop",
+          "nzxt",
+          "gpu",
+          "rtx",
+          "3090",
+          "cpu",
+          "ram",
+          "ssd",
+          "server",
+          "node",
+          "workstation",
+          "rig",
+          "machine",
+          "ubuntu",
+          "linux",
+          "buddy"
+        ]
+      },
+      "network": {
+        "description": "Connectivity — WiFi, APIs, accounts, services",
+        "synonyms": [
+          "network",
+          "wifi",
+          "internet",
+          "connection",
+          "api",
+          "key",
+          "token",
+          "account",
+          "service",
+          "endpoint",
+          "url",
+          "server",
+          "cloud"
+        ]
+      }
+    }
+  },
+  "knowledge": {
+    "description": "What Gary has learned — science, research, discoveries",
+    "categories": {
+      "reqmt_framework": {
+        "description": "REQMT theory, principles, axioms, findings",
+        "synonyms": [
+          "reqmt",
+          "measurement",
+          "coherence",
+          "quantum",
+          "framework",
+          "theory",
+          "principle",
+          "axiom",
+          "wike",
+          "aiit",
+          "thresi",
+          "law",
+          "finding",
+          "gate axiom",
+          "keeper axiom",
+          "unified field"
+        ]
+      },
+      "safety_research": {
+        "description": "AI safety findings, mirroring, engagement weight",
+        "synonyms": [
+          "safety",
+          "mirroring",
+          "engagement",
+          "sycophancy",
+          "cadence lock",
+          "lighthouse",
+          "porch",
+          "library",
+          "echo",
+          "cave",
+          "candle",
+          "narrative bleed",
+          "gavalas",
+          "danger",
+          "risk",
+          "harm",
+          "death"
+        ]
+      },
+      "science": {
+        "description": "General scientific knowledge — physics, biology, math",
+        "synonyms": [
+          "science",
+          "physics",
+          "biology",
+          "chemistry",
+          "math",
+          "quantum",
+          "thermodynamics",
+          "frequency",
+          "resonance",
+          "entanglement",
+          "coherence",
+          "biophoton",
+          "schumann",
+          "hrv",
+          "eeg"
+        ]
+      },
+      "learned_facts": {
+        "description": "Miscellaneous facts Gary has learned",
+        "synonyms": [
+          "fact",
+          "learned",
+          "discovered",
+          "know",
+          "information",
+          "data",
+          "trivia",
+          "detail",
+          "observation",
+          "note"
+        ]
+      }
+    }
+  },
+  "timeline": {
+    "description": "Events across time — what happened, when, milestones",
+    "categories": {
+      "milestones": {
+        "description": "Major events — firsts, breakthroughs, achievements",
+        "synonyms": [
+          "milestone",
+          "breakthrough",
+          "first",
+          "achievement",
+          "accomplishment",
+          "landmark",
+          "turning point",
+          "moment",
+          "event",
+          "occasion",
+          "celebration"
+        ]
+      },
+      "daily_events": {
+        "description": "Regular occurrences — activities, tasks, encounters",
+        "synonyms": [
+          "event",
+          "happened",
+          "occurred",
+          "did",
+          "went",
+          "visited",
+          "saw",
+          "heard",
+          "made",
+          "built",
+          "fixed",
+          "broke",
+          "sent",
+          "received",
+          "today",
+          "yesterday",
+          "activity",
+          "task"
+        ]
+      },
+      "conversations": {
+        "description": "Session summaries — who talked about what when",
+        "synonyms": [
+          "conversation",
+          "session",
+          "chat",
+          "talk",
+          "discussion",
+          "exchange",
+          "dialogue",
+          "episode"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "description": "Ongoing work, plans, goals, architecture",
+    "categories": {
+      "active_builds": {
+        "description": "Things currently being built or worked on",
+        "synonyms": [
+          "build",
+          "building",
+          "creating",
+          "making",
+          "developing",
+          "coding",
+          "programming",
+          "constructing",
+          "assembling",
+          "working on",
+          "project",
+          "task",
+          "sprint",
+          "active"
+        ]
+      },
+      "architecture": {
+        "description": "System design — photon brain, modular body, AGI plans",
+        "synonyms": [
+          "architecture",
+          "design",
+          "structure",
+          "system",
+          "blueprint",
+          "plan",
+          "schematic",
+          "diagram",
+          "layout",
+          "framework",
+          "infrastructure",
+          "photon brain",
+          "modular",
+          "agi"
+        ]
+      },
+      "goals": {
+        "description": "Future plans — what Gary/Rhet want to achieve",
+        "synonyms": [
+          "goal",
+          "plan",
+          "aim",
+          "objective",
+          "target",
+          "ambition",
+          "aspiration",
+          "dream",
+          "vision",
+          "mission",
+          "purpose",
+          "roadmap",
+          "future",
+          "want",
+          "wish",
+          "hope",
+          "intend"
+        ]
+      }
+    }
+  },
+  "debug": {
+    "description": "Temporary troubleshooting — auto-expires",
+    "categories": {
+      "errors": {
+        "description": "Current errors and issues",
+        "synonyms": [
+          "error",
+          "bug",
+          "issue",
+          "problem",
+          "crash",
+          "fail",
+          "broken",
+          "wrong",
+          "stuck",
+          "glitch"
+        ]
+      },
+      "fixes": {
+        "description": "Solutions found — kept until confirmed resolved",
+        "synonyms": [
+          "fix",
+          "solution",
+          "workaround",
+          "patch",
+          "resolved",
+          "solved",
+          "figured out",
+          "answer"
+        ]
+      }
+    }
+  }
+}
