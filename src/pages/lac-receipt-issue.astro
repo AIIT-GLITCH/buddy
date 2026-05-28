@@ -1,0 +1,82 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="LAC Memory Kit — receipt hiccup" description="We couldn't confirm your purchase. Here's what to do.">
+
+<section style="padding-top: 200px; min-height: 80vh;">
+  <div class="container narrow" style="max-width: 600px; margin: 0 auto; padding: 0 8vw; text-align: center;">
+
+    <div class="eyebrow">Hold up</div>
+    <h1 style="font-size: clamp(2.0rem, 4.5vw, 3.0rem); margin-bottom: 20px; line-height: 1.15;">We couldn't confirm your purchase yet.</h1>
+
+    <p id="reason-line" style="color: var(--slate); margin-bottom: 32px; line-height: 1.7;">
+      Stripe sometimes takes a moment to settle a charge before our verification can see it as paid. Your card may or may not have been charged — we'll know once you give us the receipt info.
+    </p>
+
+    <div class="lri-card" style="background: rgba(255,255,255,0.03); border: 1px solid rgba(212, 164, 55, 0.15); border-radius: 8px; padding: 24px; margin: 24px 0; text-align: left;">
+      <div class="eyebrow" style="margin-bottom: 8px;">Reference</div>
+      <code id="ref-line" style="color: var(--gold); font-size: 0.85rem; word-break: break-all;">no reference available</code>
+    </div>
+
+    <p style="color: var(--slate); margin-bottom: 32px; line-height: 1.7;">
+      Two things will get you sorted:
+    </p>
+
+    <div style="text-align: left; margin-bottom: 32px;">
+      <p style="color: var(--slate); line-height: 1.7;">
+        <strong style="color: var(--gold);">1. Wait a minute and try the confirmation link again.</strong> Stripe usually settles within 30–60 seconds. The button below re-runs the check using the same reference.
+      </p>
+      <p style="color: var(--slate); line-height: 1.7;">
+        <strong style="color: var(--gold);">2. If it still bounces, email us.</strong> Include the reference above. We'll verify the charge directly with Stripe and send you the kit. No back-and-forth needed.
+      </p>
+    </div>
+
+    <a id="retry-btn" href="#" class="btn-buy" style="font-size: 1.0rem; padding: 14px 36px; margin-right: 12px;">
+      Re-check confirmation →
+    </a>
+    <a id="contact-btn" href="mailto:reliablerestaurantrepair@gmail.com?subject=LAC%20receipt%20issue" class="btn-buy" style="font-size: 1.0rem; padding: 14px 36px; background: transparent; border: 1px solid var(--gold); color: var(--gold);">
+      Email us →
+    </a>
+
+    <p style="color: var(--slate); font-size: 0.85rem; margin-top: 48px; padding-bottom: 80px;">
+      If your card was charged and you don't have the kit within 24h, we'll refund you in full. No questions asked.
+    </p>
+
+  </div>
+</section>
+
+<script is:inline>
+  (function () {
+    const params = new URLSearchParams(window.location.search);
+    const sid = params.get('session_id');
+    const reason = params.get('reason') || '';
+
+    const ref = document.getElementById('ref-line');
+    const retry = document.getElementById('retry-btn');
+    const contact = document.getElementById('contact-btn');
+    const reasonLine = document.getElementById('reason-line');
+
+    const reasonCopy = {
+      missing_session_id: 'We never received a Stripe confirmation id with the redirect. This usually means the Stripe success URL is misconfigured on our end, not anything you did. Email us — we will send the kit.',
+      stripe_unreachable: 'We could not reach Stripe to verify the payment. This is a transient network issue and usually clears within a minute. Try the re-check button below.',
+      not_paid_yet: 'Stripe is still settling the charge. This is normal and usually resolves within 30–60 seconds. Try the re-check button below in a moment.',
+      verify_failed: 'Verification failed for an unexpected reason. Email us with the reference above and we will get you sorted.',
+    };
+    if (reason && reasonCopy[reason]) {
+      reasonLine.textContent = reasonCopy[reason];
+    }
+
+    if (sid) {
+      ref.textContent = sid;
+      retry.href = '/api/verify-purchase?session_id=' + encodeURIComponent(sid);
+      const subj = 'LAC%20receipt%20issue%20%E2%80%94%20' + encodeURIComponent(sid);
+      contact.href = 'mailto:reliablerestaurantrepair@gmail.com?subject=' + subj +
+        '&body=' + encodeURIComponent('Reference: ' + sid + '\nReason: ' + (reason || 'unknown') + '\n\n(Anything else useful, e.g. the email you used at checkout)');
+    } else {
+      ref.textContent = 'no reference available — Stripe did not pass one through';
+      retry.style.display = 'none';
+    }
+  })();
+</script>
+
+</Layout>
