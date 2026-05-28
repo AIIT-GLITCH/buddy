@@ -361,6 +361,137 @@ def _normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text)
 
 
+# ------------------------------------------------------------------------
+# Bracket-scaffolding / token-salad detector
+#
+# Background: a write-time defect let degenerate "kokoro token salad" land in
+# the store and later leak into public answers — e.g.
+#     （）々 / 言「心」「気」魂「言霊」言
+#     「kokoro memory」
+#     ｢｣『』（）／・
+# These are bracket/separator scaffolding with no real clause. They must never
+# be stored, and the already-stored ones must be purged.
+#
+# This detector is deliberately CONSERVATIVE: it fires only on clearly
+# degenerate structure and never on legitimate kanji or bilingual content.
+# In particular the sacred seven-kanji sequence 無→波→気→命→和→愛→魂
+# (build_startup_memory_block) and ordinary Japanese / mixed prose must pass.
+#
+# Pure function, dependency-free.
+# ------------------------------------------------------------------------
+
+# Structural glyphs that carry no meaning on their own.
+_BRACKET_CHARS = "「」『』｢｣（）()【】［］[]〔〕｛｝{}〈〉《》"
+_SEPARATOR_CHARS = "/／・|｜、，,。．.…‥〜~：；:;！!？?＊*＋+＝=－—–_＿"
+_ARROW_CHARS = "→←↑↓⇒⇐⇔➡⬅▶◀»«"
+_ITER_MARKS = "々"
+_WHITESPACE_CHARS = " \t\r\n　 "
+_SCAFFOLD_CHARS = frozenset(
+    _BRACKET_CHARS + _SEPARATOR_CHARS + _ARROW_CHARS + _ITER_MARKS + _WHITESPACE_CHARS
+)
+
+# Latin tokens that are themselves scaffolding labels, not content.
+_SCAFFOLD_WORDS = {"kokoro", "memory"}
+
+# Bare Japanese grammatical particles — meaningless as a standalone fact value.
+_PARTICLES = frozenset("はがをにへとものやかねよでぞぜわ")
+
+# A glyph that can carry meaning (latin/digit, kana, kanji — half- and full-width).
+_CONTENT_RE = re.compile(
+    r"[0-9A-Za-z"
+    r"ぁ-ゖ"       # hiragana
+    r"ァ-ヺー" # katakana (+ long vowel)
+    r"一-鿿"       # CJK unified ideographs (kanji)
+    r"０-９Ａ-Ｚａ-ｚ]"  # full-width digits/letters
+)
+_KANJI_RE = re.compile(r"[一-鿿]")
+_KANA_RUN_RE = re.compile(r"[ぁ-ゖァ-ヺー]{2,}")
+_LATIN_WORD_RE = re.compile(r"[A-Za-z]{3,}")
+# An opening bracket immediately followed (only whitespace between) by a close.
+_EMPTY_BRACKET_RE = re.compile(r"[（(「『｢\[【［〔｛{〈《]\s*[）)」』｣\]】］〕｝}〉》]")
+# A corner bracket wrapping exactly one CJK character: 「心」「気」… salad.
+_SINGLE_CHAR_CORNER_RE = re.compile(
+    r"[「『｢]\s*[ぁ-ゖァ-ヺ一-鿿]\s*[」』｣]"
+)
+# Whole value is just a (possibly bracketed) "kokoro" / "kokoro memory" token.
+_KOKORO_FRAG_RE = re.compile(
+    r"^[\s（()「『｢\[【／/・|｜\"'`]*kokoro(\s+memory)?[\s）)」』｣\]】／/・|｜\"'`]*$",
+    re.IGNORECASE,
+)
+
+
+def _has_real_clause(value: str) -> bool:
+    """True if the value contains real prose (a Latin word ≥3, or a kana run).
+
+    Used as a guard so we never treat legitimate text that merely *mentions*
+    brackets/kanji as scaffolding.
+    """
+    for word in _LATIN_WORD_RE.findall(value):
+        if word.lower() not in _SCAFFOLD_WORDS:
+            return True
+    # A run of 2+ kana is grammatical glue / a real word — i.e. real Japanese.
+    # (Bare 2–3 particle salad is handled before this guard is consulted.)
+    if _KANA_RUN_RE.search(value):
+        return True
+    return False
+
+
+def _is_bare_particles(value: str) -> bool:
+    """True if, stripped of scaffolding, the value is only 1–3 bare particles."""
+    core = "".join(ch for ch in value if ch not in _SCAFFOLD_CHARS)
+    if not core or len(core) > 3:
+        return False
+    return all(ch in _PARTICLES for ch in core)
+
+
+def _has_orphan_iteration_mark(value: str) -> bool:
+    """True if 々 appears without a preceding kanji to repeat (e.g. （）々)."""
+    for i, ch in enumerate(value):
+        if ch == "々":
+            if i == 0 or not _KANJI_RE.match(value[i - 1]):
+                return True
+    return False
+
+
+def _is_bracket_scaffolding(value: str) -> bool:
+    """Conservative detector for kokoro token-salad / bracket scaffolding.
+
+    Returns True only for clearly degenerate, content-free structure. Never
+    flags legitimate kanji, bilingual, or prose values. See module note above.
+    """
+    if not value:
+        return False
+    v = value.strip()
+    if not v:
+        return False
+    # Real prose is long; salad fragments are short. Never judge long text.
+    if len(v) > 160:
+        return False
+
+    # Whole-value degenerate fragments — safe because anchored to the full value.
+    if _KOKORO_FRAG_RE.match(v):
+        return True
+    if _is_bare_particles(v):
+        return True
+    # No content glyph at all → pure punctuation/bracket run (e.g. ｢｣『』（）／・).
+    if _CONTENT_RE.search(v) is None:
+        return True
+
+    # Beyond this point require the ABSENCE of any real clause, so a sentence
+    # that merely contains brackets/kanji (e.g. 'Japanese uses 「」 quotes') is
+    # never purged.
+    if _has_real_clause(v):
+        return False
+
+    if _EMPTY_BRACKET_RE.search(v):                       # （） 「」 …
+        return True
+    if _has_orphan_iteration_mark(v):                     # orphan 々
+        return True
+    if len(_SINGLE_CHAR_CORNER_RE.findall(v)) >= 2:       # 「心」「気」 …
+        return True
+    return False
+
+
 def _is_junk(key: str, value: str) -> bool:
     """Filter out low-quality facts."""
     if not value or not key:
@@ -374,6 +505,9 @@ def _is_junk(key: str, value: str) -> bool:
     junk_ja = {"はい", "いいえ", "うん", "ええ", "ありがとう", "すみません",
                "こんにちは", "さようなら", "おはよう", "おやすみ"}
     if val.lower() in junk_en or val in junk_ja:
+        return True
+    # Bracket scaffolding / kokoro token salad must never be stored.
+    if _is_bracket_scaffolding(val):
         return True
     return False
 
@@ -880,6 +1014,100 @@ def cleanup_stale_entries() -> int:
     if removed:
         print(f"[心] Cleaned up {removed} stale entries.")
     return removed
+
+
+def _is_identity_protected(category: str, key: str,
+                           source: str = "token_salad_cleanup") -> bool:
+    """Identity-safe allowlist gate for the token-salad purge.
+
+    A fact is protected (must NOT be purged) if it is in the 心 identity
+    category, is an IMMUTABLE_KEYS key, or identity_guard refuses its delete.
+    identity_guard is the single source of truth for the allowlist.
+    """
+    # The entire 心 identity category is off-limits to the salad purge.
+    if _resolve_category(category) == "心":
+        return True
+    try:
+        from core.identity_guard import guard_delete, IMMUTABLE_KEYS
+        if key in IMMUTABLE_KEYS:
+            return True
+        allowed, _reason = guard_delete(key, category, source)
+        if not allowed:
+            return True
+    except ImportError:
+        pass  # guard not available — fall back to the 心-category skip above
+    return False
+
+
+def purge_token_salad(dry_run: bool = True,
+                      source: str = "token_salad_cleanup") -> Dict[str, Any]:
+    """Purge already-stored bracket-scaffolding / token-salad facts.
+
+    Identity-safe: never touches the 心 identity category or any
+    IMMUTABLE_KEYS key (see `_is_identity_protected`, backed by
+    identity_guard). Only removes facts whose `value` is detected as
+    bracket scaffolding by `_is_bracket_scaffolding`.
+
+    Defaults to dry_run=True so the candidate list can be reviewed before
+    anything is deleted. Returns a report dict:
+        {
+          "dry_run": bool,
+          "scanned": int,
+          "purged": [{"category","key","value"}...],     # removed (or would be)
+          "protected_skipped": [{"category","key","value"}...],
+          "purged_count": int,
+          "protected_count": int,
+        }
+    """
+    purged: List[Dict[str, str]] = []
+    protected: List[Dict[str, str]] = []
+    scanned = 0
+
+    with _memory_lock:
+        for category in CATEGORIES:
+            folder = os.path.join(MEMORY_ROOT, category)
+            if not os.path.isdir(folder):
+                continue
+            for fname in sorted(os.listdir(folder)):
+                if not fname.endswith(".json"):
+                    continue
+                path = os.path.join(folder, fname)
+                try:
+                    with open(path, "r", encoding="utf-8") as f:
+                        fact = json.load(f)
+                except Exception:
+                    continue
+                scanned += 1
+                key = str(fact.get("key", ""))
+                value = str(fact.get("value", ""))
+                if not _is_bracket_scaffolding(value):
+                    continue
+                entry = {"category": category, "key": key, "value": value}
+                if _is_identity_protected(category, key, source):
+                    protected.append(entry)
+                    continue
+                if not dry_run:
+                    try:
+                        os.remove(path)
+                    except OSError:
+                        continue
+                purged.append(entry)
+
+    if dry_run:
+        print(f"[心] token-salad scan: {len(purged)} would be purged, "
+              f"{len(protected)} protected, {scanned} scanned (dry run)")
+    else:
+        print(f"[心] token-salad purge: removed {len(purged)}, "
+              f"protected {len(protected)}, {scanned} scanned")
+
+    return {
+        "dry_run": dry_run,
+        "scanned": scanned,
+        "purged": purged,
+        "protected_skipped": protected,
+        "purged_count": len(purged),
+        "protected_count": len(protected),
+    }
 
 
 # ==========================================
