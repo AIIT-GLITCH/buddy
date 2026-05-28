@@ -154,10 +154,28 @@ def prepend_anchor_if_relevant(
     Returns (final_response, anchored_record_id_or_None). The record_id is
     returned for logging / API metadata; it does NOT appear in user-facing
     text unless admin_mode=True.
+
+    Public surface: recall is treated as SILENT GROUNDING and is never read
+    out. We still resolve the most relevant eligible record so callers can log
+    which memory was in play, but we do NOT prepend a labeled "From my memory:"
+    payload to the visible reply. Reading recall out as a post-generation
+    payload is what leaked the robotic preamble to visitors and -- because the
+    match is a coarse key-token overlap -- what surfaced loosely-related
+    records (e.g. infra notes) unprompted. On the public surface, recall must
+    flow in BEFORE generation as silent grounding (build_spine_recall_block),
+    not be bolted onto the answer afterward. This also honors the runtime
+    doctrine in buddy_api.py: "Do not inject memory after the user turn; that
+    makes Buddy answer the memory payload instead of the live input."
+
+    admin_mode is exempt: the verbose anchor stays available for operator /
+    debug queries about memory architecture, regardless of is_public.
     """
     record = find_strongly_relevant_record(query, is_public=is_public)
     if record is None:
         return response, None
+    if is_public and not admin_mode:
+        # Silent grounding: report the match for logging, leave the reply as-is.
+        return response, record.get("id")
     anchor = build_memory_anchor(record, admin_mode=admin_mode)
     if not anchor:
         return response, None

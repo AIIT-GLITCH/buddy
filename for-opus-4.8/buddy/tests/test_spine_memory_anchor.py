@@ -156,6 +156,9 @@ def test_public_call_blocks_secret_sensitive(tmp_spine):
 
 
 def test_public_call_allows_project_private(tmp_spine):
+    # An eligible project_private record is still resolved on the public
+    # surface (so the match can be logged), but recall is SILENT grounding:
+    # the value is never read out and the reply is returned untouched.
     _write(tmp_spine, "spine_proj",
            key="mact_v0_2_per_token_axis_conditioning",
            value="Public-safe project content.",
@@ -164,11 +167,13 @@ def test_public_call_allows_project_private(tmp_spine):
     out, rid = sma.prepend_anchor_if_relevant(
         "orig", "mact v0_2 per token axis conditioning", is_public=True
     )
-    assert rid == "spine_proj"
-    assert "Public-safe project content" in out
+    assert rid == "spine_proj"          # match resolved for logging/metadata
+    assert out == "orig"                # reply untouched; no read-out
+    assert "Public-safe project content" not in out
 
 
 def test_public_call_allows_public_ok(tmp_spine):
+    # Same contract for public_ok: resolved for logging, never read out.
     _write(tmp_spine, "spine_pub",
            key="aiit_threshold_public_site_brand",
            value="AIIT-Threshold public brand fact.",
@@ -178,7 +183,49 @@ def test_public_call_allows_public_ok(tmp_spine):
         "orig", "aiit threshold public site brand", is_public=True
     )
     assert rid == "spine_pub"
-    assert "AIIT-Threshold public brand fact" in out
+    assert out == "orig"
+    assert "AIIT-Threshold public brand fact" not in out
+
+
+def test_public_surface_never_reads_out_memory_preamble(tmp_spine):
+    # Regression for the public "From my memory:" leak. Even with a strongly
+    # relevant, public-safe, active_bounded record, the public surface must
+    # NOT prepend a labeled payload to the visible answer.
+    _write(tmp_spine, "spine_ro",
+           key="mact_v0_2_per_token_axis_conditioning",
+           value="MACT v0.2 receipt.",
+           activation_status="active_bounded",
+           privacy_class="public_ok")
+    out, rid = sma.prepend_anchor_if_relevant(
+        "placeholder", "tell me about mact v0_2", is_public=True
+    )
+    assert rid == "spine_ro"                 # match still resolved for logs
+    assert "From my memory:" not in out      # no robotic preamble on public
+    assert out == "placeholder"              # answer untouched
+
+    # admin_mode is the deliberate exception: operators still see the verbose
+    # anchor for debugging, even on a public-flagged call.
+    out_admin, rid_admin = sma.prepend_anchor_if_relevant(
+        "placeholder", "tell me about mact v0_2", is_public=True, admin_mode=True,
+    )
+    assert rid_admin == "spine_ro"
+    assert "record_id" in out_admin.lower()
+
+
+def test_local_surface_still_reads_out_memory(tmp_spine):
+    # The fix is scoped to the public surface. Local/operator voice (is_public
+    # is False) keeps the existing anchor behavior so Rhet's own tooling is
+    # unchanged.
+    _write(tmp_spine, "spine_local",
+           key="mact_v0_2_per_token_axis_conditioning",
+           value="MACT v0.2 receipt.",
+           activation_status="active_bounded")
+    out, rid = sma.prepend_anchor_if_relevant(
+        "placeholder", "tell me about mact v0_2", is_public=False
+    )
+    assert rid == "spine_local"
+    assert out.startswith("From my memory:")
+    assert "MACT v0.2 receipt" in out
 
 
 def test_min_key_overlap_threshold_holds(tmp_spine):
