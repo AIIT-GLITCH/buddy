@@ -1,0 +1,21 @@
+diff --git a/buddy_api.py b/buddy_api.py
+index d0962db..08f4ec1 100644
+--- a/buddy_api.py
++++ b/buddy_api.py
+@@ -4289,10 +4289,15 @@ async def chat(req: ChatRequest, request: Request):
+     # role and don't pollute session.messages across turns.
+     try:
+         from core.spine_recall_context import build_spine_recall_block
++        # Match the public-ness the rest of this handler already computes for
++        # store-tags and the post-gen spine anchor (see _is_loopback_request
++        # below). Hardcoding False injected the LOCAL (unfiltered) spine recall
++        # — incl. personal/family/secret records — into the prompt for remote
++        # callers. Loopback (Rhet's own box) still gets the full local recall.
+         _recall_block = build_spine_recall_block(
+             session_id=session.session_id,
+             query=req.message,
+-            is_public=False,
++            is_public=not _is_loopback_request(request),
+         )
+     except Exception as _spine_err:
+         log.warning(f"spine recall block failed: {_spine_err}")
