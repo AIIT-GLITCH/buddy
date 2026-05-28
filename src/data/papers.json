@@ -77,7 +77,7 @@
     "suffix": "",
     "slug": "009",
     "title": "Depression Abuse",
-    "tag": "Medical \u00b7 Mind",
+    "tag": "Medical · Mind",
     "filename": "PAPER_09_DEPRESSION_ABUSE.pdf"
   },
   {
@@ -317,7 +317,7 @@
     "suffix": "",
     "slug": "028-water-as-batteries",
     "title": "Water as Batteries",
-    "tag": "Water \u00b7 Life",
+    "tag": "Water · Life",
     "filename": "PAPER_28_WATER_AS_BATTERIES.pdf"
   },
   {
@@ -326,7 +326,7 @@
     "suffix": "",
     "slug": "029",
     "title": "Make a Car Run on Water",
-    "tag": "Water \u00b7 Life",
+    "tag": "Water · Life",
     "filename": "PAPER_29_MAKE_A_CAR_RUN_ON_WATER.pdf"
   },
   {
@@ -620,7 +620,7 @@
     "suffix": "",
     "slug": "052-kibble-zurek-ptsd",
     "title": "Kibble Zurek PTSD",
-    "tag": "Medical \u00b7 Mind",
+    "tag": "Medical · Mind",
     "filename": "PAPER_52_KIBBLE_ZUREK_PTSD.pdf"
   },
   {
@@ -629,7 +629,7 @@
     "suffix": "",
     "slug": "053",
     "title": "Kibble Zurek Trauma",
-    "tag": "Medical \u00b7 Mind",
+    "tag": "Medical · Mind",
     "filename": "PAPER_53_KIBBLE_ZUREK_TRAUMA.pdf"
   },
   {
@@ -759,10 +759,7 @@
     "slug": "065",
     "title": "Jarzynski Bose Einstein",
     "tag": "Paper",
-    "filename": "PAPER_65_JARZYNSKI_BOSE_EINSTEIN.pdf",
-    "audit_status": "RETRACT-INTERNAL",
-    "audit_date": "2026-05-27",
-    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
+    "filename": "PAPER_65_JARZYNSKI_BOSE_EINSTEIN.pdf"
   },
   {
     "id": "PAPER_66_BELL_STATES_NO_WHISPER",
@@ -1143,10 +1140,7 @@
     "slug": "106",
     "title": "Amplitude 0p72 Conformal Bootstrap",
     "tag": "Paper",
-    "filename": "PAPER_106_AMPLITUDE_0p72_CONFORMAL_BOOTSTRAP.pdf",
-    "audit_status": "RETRACT-INTERNAL",
-    "audit_date": "2026-05-27",
-    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
+    "filename": "PAPER_106_AMPLITUDE_0p72_CONFORMAL_BOOTSTRAP.pdf"
   },
   {
     "id": "PAPER_107_RATIO_61_18_COSMOLOGICAL_HIERARCHY",
@@ -1391,7 +1385,7 @@
     "suffix": "",
     "slug": "132",
     "title": "Origin of Life Coherence Bootstrap",
-    "tag": "Water \u00b7 Life",
+    "tag": "Water · Life",
     "filename": "PAPER_132_ORIGIN_OF_LIFE_COHERENCE_BOOTSTRAP.pdf"
   },
   {
