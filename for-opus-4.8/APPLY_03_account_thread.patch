@@ -1,0 +1,154 @@
+diff --git a/buddy_api.py b/buddy_api.py
+index 06404c2..d0962db 100644
+--- a/buddy_api.py
++++ b/buddy_api.py
+@@ -164,6 +164,11 @@ BUDDY_APP_HISTORY_CHARS = _env_int("BUDDY_APP_HISTORY_CHARS", 6000)
+ BUDDY_API_MAX_TOKENS = _env_int("BUDDY_API_MAX_TOKENS", 1024)
+ BUDDY_WEB_DEFAULT_TOKENS = _env_int("BUDDY_WEB_DEFAULT_TOKENS", 384)
+ BUDDY_WEB_MAX_TOKENS = _env_int("BUDDY_WEB_MAX_TOKENS", 512)
++# Account-thread (logged-in persistent chat) depth. Anonymous public traffic
++# keeps the cheap last-4 window; a logged-in thread the user can see on screen
++# gets real continuity. 30 turns (~15 exchanges) at 500 chars each is bounded.
++BUDDY_ACCOUNT_THREAD_WINDOW = _env_int("BUDDY_ACCOUNT_THREAD_WINDOW", 30)
++BUDDY_ACCOUNT_THREAD_HISTORY_CHARS = _env_int("BUDDY_ACCOUNT_THREAD_HISTORY_CHARS", 24000)
+ BUDDY_VOICE_MAX_TOKENS = _env_int("BUDDY_VOICE_MAX_TOKENS", 96)
+ BUDDY_TOOL_MAX_TOKENS = _env_int("BUDDY_TOOL_MAX_TOKENS", 128)
+ BUDDY_APP_BACKEND = "local"
+@@ -1124,7 +1129,7 @@ def _prune_pending(now: Optional[float] = None) -> None:
+         _pending_results.pop(rid, None)
+ 
+ 
+-def _web_messages_for(session: Session, user_input: str) -> List[Dict[str, str]]:
++def _web_messages_for(session: Session, user_input: str, *, max_recent: int = 4) -> List[Dict[str, str]]:
+     recent_messages = [
+         {
+             "role": m.get("role", "user"),
+@@ -1132,7 +1137,7 @@ def _web_messages_for(session: Session, user_input: str) -> List[Dict[str, str]]
+         }
+         for m in session.messages[1:]
+         if m.get("role") in {"user", "assistant"} and m.get("content")
+-    ][-4:]
++    ][-max_recent:]
+     if session.messages:
+         system_message = session.messages[0]
+     else:
+@@ -1213,6 +1218,7 @@ async def _enqueue_pending_web_ask(
+     max_tokens: int,
+     temperature: float,
+     is_public: bool = True,
++    account_thread: bool = False,
+ ) -> Dict[str, Any]:
+     if _pending_lock is None or _pending_queue is None:
+         return {
+@@ -1247,6 +1253,7 @@ async def _enqueue_pending_web_ask(
+             "max_tokens": max_tokens,
+             "temperature": temperature,
+             "is_public": is_public,
++            "account_thread": account_thread,
+         }
+ 
+     try:
+@@ -1318,10 +1325,15 @@ async def _pending_drainer():
+                 user_input = str(entry.get("user_input", ""))
+                 max_tokens = int(entry.get("max_tokens", BUDDY_WEB_DEFAULT_TOKENS))
+                 temperature = float(entry.get("temperature", 0.25))
++                # Account threads (logged-in persistent chat) get the deep window
++                # so Buddy reasons from the conversation the user can see;
++                # anonymous public traffic keeps the cheap last-4 window.
++                _account_thread = bool(entry.get("account_thread", False))
++                _recent_window = BUDDY_ACCOUNT_THREAD_WINDOW if _account_thread else 4
+                 _release_cuda_cache()
+                 raw_answer = await _asyncio.to_thread(
+                     engine.chat,
+-                    _web_messages_for(session, user_input),
++                    _web_messages_for(session, user_input, max_recent=_recent_window),
+                     max_new_tokens=max_tokens,
+                     temperature=temperature,
+                     top_p=0.8,
+@@ -1454,6 +1466,32 @@ async def ask(req: AskRequest, request: Request):
+         elif session.mode not in {"phone", "voice_mobile", "voice", "voice2", "driving"}:
+             session.mode = "web"
+ 
++        # --- Account-thread rehydration (logged-in persistent chat) ---------
++        # The website chat box (Cloudflare AUTH_KV) is authoritative for a
++        # logged-in account and is sent as extras.thread_messages. If this
++        # backend session is behind it (epoch change / evicted row / different
++        # instance), seed context from it so the box the user sees is what
++        # Buddy reasons from. Account threads only; never anonymous public.
++        # Must run BEFORE the live user turn is appended and before the trim.
++        is_account_thread = bool(extras.get("account_thread"))
++        if is_account_thread:
++            try:
++                from core.account_thread_context import maybe_hydrate
++                _hydrated = maybe_hydrate(
++                    session.messages,
++                    extras.get("thread_messages"),
++                    max_turns=BUDDY_ACCOUNT_THREAD_WINDOW,
++                )
++                if _hydrated is not None:
++                    session.messages = _hydrated
++                    log.info(
++                        f"[account-thread] hydrated {session_id} from surface "
++                        f"thread -> {len(_hydrated)} msgs"
++                    )
++            except Exception as _hydrate_err:
++                log.warning(f"account-thread hydration failed: {_hydrate_err}")
++        # --------------------------------------------------------------------
++
+         try:
+             max_tokens = int(extras.get("max_tokens", BUDDY_WEB_DEFAULT_TOKENS))
+         except Exception:
+@@ -1491,7 +1529,11 @@ async def ask(req: AskRequest, request: Request):
+         if quick_answer is not None:
+             _touch_activity()
+             _store_user_turn(session, user_input, source="web", request_id=request_id)
+-            session.messages = _trim_session_history(session.messages, char_limit=1200, msg_limit=5)
++            session.messages = _trim_session_history(
++                session.messages,
++                char_limit=(BUDDY_ACCOUNT_THREAD_HISTORY_CHARS if is_account_thread else 1200),
++                msg_limit=(BUDDY_ACCOUNT_THREAD_WINDOW + 1 if is_account_thread else 5),
++            )
+             session.messages.append({"role": "user", "content": user_input})
+             answer = quick_answer
+         else:
+@@ -1505,7 +1547,11 @@ async def ask(req: AskRequest, request: Request):
+ 
+             _touch_activity()
+             _store_user_turn(session, user_input, source="web", request_id=request_id)
+-            session.messages = _trim_session_history(session.messages, char_limit=1200, msg_limit=5)
++            session.messages = _trim_session_history(
++                session.messages,
++                char_limit=(BUDDY_ACCOUNT_THREAD_HISTORY_CHARS if is_account_thread else 1200),
++                msg_limit=(BUDDY_ACCOUNT_THREAD_WINDOW + 1 if is_account_thread else 5),
++            )
+             session.messages.append({"role": "user", "content": user_input})
+             return await _enqueue_pending_web_ask(
+                 session,
+@@ -1514,6 +1560,7 @@ async def ask(req: AskRequest, request: Request):
+                 max_tokens=max_tokens,
+                 temperature=temperature,
+                 is_public=not _is_loopback_request(request),
++                account_thread=is_account_thread,
+             )
+         answer = _strip_trailing_web_followup(answer)
+         if not _ensure_kokoro_exchange(user_input, answer):
+diff --git a/core/account_thread_context.py b/core/account_thread_context.py
+index 527095c..10fbb40 100644
+--- a/core/account_thread_context.py
++++ b/core/account_thread_context.py
+@@ -37,9 +37,12 @@ from typing import Any, Dict, List, Optional
+ 
+ _VALID_ROLES = {"user", "assistant"}
+ 
+-# Defaults chosen to match the surface (compactThreadMessages sends last 24)
+-# and to stay comfortably inside the web context budget.
+-DEFAULT_MAX_TURNS = 24
++# Default hydration depth. Set above the requested 30-message window so the
++# /ask account-thread window (BUDDY_ACCOUNT_THREAD_WINDOW, default 30) is never
++# starved by hydration. The true ceiling is whatever the surface forwards:
++# compactThreadMessages currently sends the last 24, so to actually deliver 30+
++# the Cloudflare forward cap must be raised in lockstep (see APPLY notes).
++DEFAULT_MAX_TURNS = 40
+ DEFAULT_MAX_CHARS = 1000
+ 
+ 
