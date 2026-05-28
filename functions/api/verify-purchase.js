@@ -69,14 +69,25 @@ export async function onRequestGet({ request, env }) {
     return issueRedirect(url.origin, 'not_paid_yet', sessionId);
   }
 
-  // Paid — route to the right success page based on amount.
+  // Paid — route to the right product success page.
+  //
+  // Identify the product the way the Stripe webhook does: by
+  // session.metadata.product, NOT by amount. LAC is pay-what-you-want
+  // ($2–$50) and OVERLAPS Voice2's fixed $50, so amount alone can't tell
+  // them apart — a customer who pays the full $50 for LAC would otherwise be
+  // misrouted to the Voice2 success page (a product they never bought).
+  // LAC is the open default; only send to Voice2 on a positive product match.
+  const product = String(session.metadata?.product || '').toLowerCase();
   const amount = session.amount_total || 0;
 
-  // Voice2 is $50 (5000 cents).
-  if (amount === 5000) {
+  // Voice2 is fixed-price. Match it explicitly via product metadata. The
+  // amount === 5000 check is only a legacy fallback for sessions that predate
+  // metadata.product, and it only applies when no metadata is present at all.
+  const isVoice2 = product.includes('voice') || (!product && amount === 5000);
+  if (isVoice2) {
     return Response.redirect(`${url.origin}/voice2-success?session_id=${encodeURIComponent(sessionId)}`, 302);
   }
 
-  // LAC is $2–$50 pay what you want.
+  // LAC (pay-what-you-want) and anything else — the open default.
   return Response.redirect(`${url.origin}/lac-success?session_id=${encodeURIComponent(sessionId)}`, 302);
 }
