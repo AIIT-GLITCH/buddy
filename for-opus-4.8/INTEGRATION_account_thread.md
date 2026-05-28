@@ -1,6 +1,6 @@
 # Integration: persistent account-thread memory (buddy_api.py)
 
-New module: `core/account_thread_context.py` (+ `tests/test_account_thread_context.py`, 17 tests).
+New module: `core/account_thread_context.py` (+ `tests/test_account_thread_context.py`, 14 tests).
 It is self-contained, pure, dependency-free, and writes nothing. The only edits
 to `buddy_api.py` are the small wiring hunks below. **No system-prompt / prompt-
 loading line is touched** — the system message at `session.messages[0]` is
