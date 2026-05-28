@@ -1,0 +1,54 @@
+diff --git a/buddy_api.py b/buddy_api.py
+index 08f4ec1..c4ed941 100644
+--- a/buddy_api.py
++++ b/buddy_api.py
+@@ -430,9 +430,37 @@ _BLOCK_PATTERNS = [
+     _re.compile(r'\[(?:FORMAT|FINAL|CLEAN|STOP|COMPRESSION|PRINT|R PRINT|COMPLETE|FORMATTED|REDIRECT)[^\]]{0,40}\]', _re.IGNORECASE),
+     _re.compile(r'^\s*\[(?:ASSISTANT|RHET|USER|SYSTEM|HUMAN|HUMA|TOOL|MEMORY)\]\s*$', _re.IGNORECASE | _re.MULTILINE),
+     _re.compile(r'\[PRINT\]', _re.IGNORECASE),
+-    _re.compile(r'---\n.*?---', _re.DOTALL),
++    # NOTE: a blind r'---\n.*?---' DOTALL strip used to live here. It deleted
++    # ANY content a model wrapped in '---' horizontal rules — drafted posts,
++    # quotes, 'Remember:' notes — so Buddy appeared to "write nothing". Replaced
++    # by _strip_scaffold_fenced_blocks() below, which only removes fenced blocks
++    # whose INTERIOR is transcript scaffolding. The bare-rule line strip stays.
+     _re.compile(r'^\s*---\s*$', _re.MULTILINE),
+ ]
++
++# A '---'-fenced block is scaffolding worth stripping ONLY if its interior
++# carries transcript / role / tool markers. Conservative by design: legitimate
++# prose fenced in horizontal rules is left intact (empty-body bug fix).
++_SCAFFOLD_FENCE_INTERIOR_RE = _re.compile(
++    r"(?is)"
++    r"\[(?:ASSIS[A-Z]*|ASSIST[A-Z]*|RHET|USER|SYSTEM|HUM[A-Z]*|TOOL|MEMORY)[^\]]*\]"
++    r"|\{['\"]start_timestamp['\"]"
++    r"|(?:^|\n)\s*(?:stdout|stderr|exit\s+code|debug\s+tip)\s*:"
++    r"|```(?:python|bash|js|json)?\s*(?:import|from|def|class|MEMORY_FILE)"
++)
++_DASH_FENCED_BLOCK_RE = _re.compile(r'-{3,}[ \t]*\n.*?\n[ \t]*-{3,}', _re.DOTALL)
++
++
++def _strip_scaffold_fenced_blocks(text: str) -> str:
++    """Remove only '---'-fenced blocks whose interior is transcript scaffolding.
++
++    A fenced block of legitimate prose (a drafted post, a quote, a 'Remember:'
++    note) is left intact — preventing the empty-body bug where a blind
++    dash-block strip deleted user-facing content.
++    """
++    def _repl(m: "_re.Match") -> str:
++        return "" if _SCAFFOLD_FENCE_INTERIOR_RE.search(m.group(0)) else m.group(0)
++    return _DASH_FENCED_BLOCK_RE.sub(_repl, text or "")
+ _CJK_RE = _re.compile(r'[\u4e00-\u9fff\u3040-\u30ff\u0400-\u04ff\u0600-\u06ff]')
+ _BUDDY_IDENTITY_GLYPHS = set("心気言霊物哀間無波命和愛魂門彼岸縁神豆")
+ _CJK_RE_STRICT = _re.compile(r'[\u4e00-\u9fff\u3040-\u30ff\u0400-\u04ff\u0600-\u06ff]')
+@@ -502,7 +530,9 @@ def _output_guard(text: str) -> tuple[str, bool]:
+         maxsplit=1,
+         flags=_re.IGNORECASE,
+     )[0]
+-    # Strip block patterns
++    # Strip scaffolding-fenced blocks conservatively (keeps real '---'-fenced
++    # content like drafted posts), then the remaining single-line block markers.
++    text = _strip_scaffold_fenced_blocks(text)
+     for pat in _BLOCK_PATTERNS:
+         text = pat.sub('', text)
+     text = _re.split(
