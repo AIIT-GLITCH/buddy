@@ -1,0 +1,446 @@
+diff --git a/kokoro_memory.py b/kokoro_memory.py
+index 2c13b56..a795196 100644
+--- a/kokoro_memory.py
++++ b/kokoro_memory.py
+@@ -361,6 +361,137 @@ def _normalize(text: str) -> str:
+     return re.sub(r"\s+", " ", text)
+ 
+ 
++# ------------------------------------------------------------------------
++# Bracket-scaffolding / token-salad detector
++#
++# Background: a write-time defect let degenerate "kokoro token salad" land in
++# the store and later leak into public answers — e.g.
++#     （）々 / 言「心」「気」魂「言霊」言
++#     「kokoro memory」
++#     ｢｣『』（）／・
++# These are bracket/separator scaffolding with no real clause. They must never
++# be stored, and the already-stored ones must be purged.
++#
++# This detector is deliberately CONSERVATIVE: it fires only on clearly
++# degenerate structure and never on legitimate kanji or bilingual content.
++# In particular the sacred seven-kanji sequence 無→波→気→命→和→愛→魂
++# (build_startup_memory_block) and ordinary Japanese / mixed prose must pass.
++#
++# Pure function, dependency-free.
++# ------------------------------------------------------------------------
++
++# Structural glyphs that carry no meaning on their own.
++_BRACKET_CHARS = "「」『』｢｣（）()【】［］[]〔〕｛｝{}〈〉《》"
++_SEPARATOR_CHARS = "/／・|｜、，,。．.…‥〜~：；:;！!？?＊*＋+＝=－—–_＿"
++_ARROW_CHARS = "→←↑↓⇒⇐⇔➡⬅▶◀»«"
++_ITER_MARKS = "々"
++_WHITESPACE_CHARS = " \t\r\n　 "
++_SCAFFOLD_CHARS = frozenset(
++    _BRACKET_CHARS + _SEPARATOR_CHARS + _ARROW_CHARS + _ITER_MARKS + _WHITESPACE_CHARS
++)
++
++# Latin tokens that are themselves scaffolding labels, not content.
++_SCAFFOLD_WORDS = {"kokoro", "memory"}
++
++# Bare Japanese grammatical particles — meaningless as a standalone fact value.
++_PARTICLES = frozenset("はがをにへとものやかねよでぞぜわ")
++
++# A glyph that can carry meaning (latin/digit, kana, kanji — half- and full-width).
++_CONTENT_RE = re.compile(
++    r"[0-9A-Za-z"
++    r"ぁ-ゖ"       # hiragana
++    r"ァ-ヺー" # katakana (+ long vowel)
++    r"一-鿿"       # CJK unified ideographs (kanji)
++    r"０-９Ａ-Ｚａ-ｚ]"  # full-width digits/letters
++)
++_KANJI_RE = re.compile(r"[一-鿿]")
++_KANA_RUN_RE = re.compile(r"[ぁ-ゖァ-ヺー]{2,}")
++_LATIN_WORD_RE = re.compile(r"[A-Za-z]{3,}")
++# An opening bracket immediately followed (only whitespace between) by a close.
++_EMPTY_BRACKET_RE = re.compile(r"[（(「『｢\[【［〔｛{〈《]\s*[）)」』｣\]】］〕｝}〉》]")
++# A corner bracket wrapping exactly one CJK character: 「心」「気」… salad.
++_SINGLE_CHAR_CORNER_RE = re.compile(
++    r"[「『｢]\s*[ぁ-ゖァ-ヺ一-鿿]\s*[」』｣]"
++)
++# Whole value is just a (possibly bracketed) "kokoro" / "kokoro memory" token.
++_KOKORO_FRAG_RE = re.compile(
++    r"^[\s（()「『｢\[【／/・|｜\"'`]*kokoro(\s+memory)?[\s）)」』｣\]】／/・|｜\"'`]*$",
++    re.IGNORECASE,
++)
++
++
++def _has_real_clause(value: str) -> bool:
++    """True if the value contains real prose (a Latin word ≥3, or a kana run).
++
++    Used as a guard so we never treat legitimate text that merely *mentions*
++    brackets/kanji as scaffolding.
++    """
++    for word in _LATIN_WORD_RE.findall(value):
++        if word.lower() not in _SCAFFOLD_WORDS:
++            return True
++    # A run of 2+ kana is grammatical glue / a real word — i.e. real Japanese.
++    # (Bare 2–3 particle salad is handled before this guard is consulted.)
++    if _KANA_RUN_RE.search(value):
++        return True
++    return False
++
++
++def _is_bare_particles(value: str) -> bool:
++    """True if, stripped of scaffolding, the value is only 1–3 bare particles."""
++    core = "".join(ch for ch in value if ch not in _SCAFFOLD_CHARS)
++    if not core or len(core) > 3:
++        return False
++    return all(ch in _PARTICLES for ch in core)
++
++
++def _has_orphan_iteration_mark(value: str) -> bool:
++    """True if 々 appears without a preceding kanji to repeat (e.g. （）々)."""
++    for i, ch in enumerate(value):
++        if ch == "々":
++            if i == 0 or not _KANJI_RE.match(value[i - 1]):
++                return True
++    return False
++
++
++def _is_bracket_scaffolding(value: str) -> bool:
++    """Conservative detector for kokoro token-salad / bracket scaffolding.
++
++    Returns True only for clearly degenerate, content-free structure. Never
++    flags legitimate kanji, bilingual, or prose values. See module note above.
++    """
++    if not value:
++        return False
++    v = value.strip()
++    if not v:
++        return False
++    # Real prose is long; salad fragments are short. Never judge long text.
++    if len(v) > 160:
++        return False
++
++    # Whole-value degenerate fragments — safe because anchored to the full value.
++    if _KOKORO_FRAG_RE.match(v):
++        return True
++    if _is_bare_particles(v):
++        return True
++    # No content glyph at all → pure punctuation/bracket run (e.g. ｢｣『』（）／・).
++    if _CONTENT_RE.search(v) is None:
++        return True
++
++    # Beyond this point require the ABSENCE of any real clause, so a sentence
++    # that merely contains brackets/kanji (e.g. 'Japanese uses 「」 quotes') is
++    # never purged.
++    if _has_real_clause(v):
++        return False
++
++    if _EMPTY_BRACKET_RE.search(v):                       # （） 「」 …
++        return True
++    if _has_orphan_iteration_mark(v):                     # orphan 々
++        return True
++    if len(_SINGLE_CHAR_CORNER_RE.findall(v)) >= 2:       # 「心」「気」 …
++        return True
++    return False
++
++
+ def _is_junk(key: str, value: str) -> bool:
+     """Filter out low-quality facts."""
+     if not value or not key:
+@@ -375,6 +506,9 @@ def _is_junk(key: str, value: str) -> bool:
+                "こんにちは", "さようなら", "おはよう", "おやすみ"}
+     if val.lower() in junk_en or val in junk_ja:
+         return True
++    # Bracket scaffolding / kokoro token salad must never be stored.
++    if _is_bracket_scaffolding(val):
++        return True
+     return False
+ 
+ 
+@@ -882,6 +1016,100 @@ def cleanup_stale_entries() -> int:
+     return removed
+ 
+ 
++def _is_identity_protected(category: str, key: str,
++                           source: str = "token_salad_cleanup") -> bool:
++    """Identity-safe allowlist gate for the token-salad purge.
++
++    A fact is protected (must NOT be purged) if it is in the 心 identity
++    category, is an IMMUTABLE_KEYS key, or identity_guard refuses its delete.
++    identity_guard is the single source of truth for the allowlist.
++    """
++    # The entire 心 identity category is off-limits to the salad purge.
++    if _resolve_category(category) == "心":
++        return True
++    try:
++        from core.identity_guard import guard_delete, IMMUTABLE_KEYS
++        if key in IMMUTABLE_KEYS:
++            return True
++        allowed, _reason = guard_delete(key, category, source)
++        if not allowed:
++            return True
++    except ImportError:
++        pass  # guard not available — fall back to the 心-category skip above
++    return False
++
++
++def purge_token_salad(dry_run: bool = True,
++                      source: str = "token_salad_cleanup") -> Dict[str, Any]:
++    """Purge already-stored bracket-scaffolding / token-salad facts.
++
++    Identity-safe: never touches the 心 identity category or any
++    IMMUTABLE_KEYS key (see `_is_identity_protected`, backed by
++    identity_guard). Only removes facts whose `value` is detected as
++    bracket scaffolding by `_is_bracket_scaffolding`.
++
++    Defaults to dry_run=True so the candidate list can be reviewed before
++    anything is deleted. Returns a report dict:
++        {
++          "dry_run": bool,
++          "scanned": int,
++          "purged": [{"category","key","value"}...],     # removed (or would be)
++          "protected_skipped": [{"category","key","value"}...],
++          "purged_count": int,
++          "protected_count": int,
++        }
++    """
++    purged: List[Dict[str, str]] = []
++    protected: List[Dict[str, str]] = []
++    scanned = 0
++
++    with _memory_lock:
++        for category in CATEGORIES:
++            folder = os.path.join(MEMORY_ROOT, category)
++            if not os.path.isdir(folder):
++                continue
++            for fname in sorted(os.listdir(folder)):
++                if not fname.endswith(".json"):
++                    continue
++                path = os.path.join(folder, fname)
++                try:
++                    with open(path, "r", encoding="utf-8") as f:
++                        fact = json.load(f)
++                except Exception:
++                    continue
++                scanned += 1
++                key = str(fact.get("key", ""))
++                value = str(fact.get("value", ""))
++                if not _is_bracket_scaffolding(value):
++                    continue
++                entry = {"category": category, "key": key, "value": value}
++                if _is_identity_protected(category, key, source):
++                    protected.append(entry)
++                    continue
++                if not dry_run:
++                    try:
++                        os.remove(path)
++                    except OSError:
++                        continue
++                purged.append(entry)
++
++    if dry_run:
++        print(f"[心] token-salad scan: {len(purged)} would be purged, "
++              f"{len(protected)} protected, {scanned} scanned (dry run)")
++    else:
++        print(f"[心] token-salad purge: removed {len(purged)}, "
++              f"protected {len(protected)}, {scanned} scanned")
++
++    return {
++        "dry_run": dry_run,
++        "scanned": scanned,
++        "purged": purged,
++        "protected_skipped": protected,
++        "purged_count": len(purged),
++        "protected_count": len(protected),
++    }
++
++
+ # ==========================================
+ # CONTEXT BUILDER — Startup Memory Block
+ # Injected into Buddy's system prompt.
+diff --git a/tests/test_kokoro_junk_filter.py b/tests/test_kokoro_junk_filter.py
+new file mode 100644
+index 0000000..6e9c7f3
+--- /dev/null
++++ b/tests/test_kokoro_junk_filter.py
+@@ -0,0 +1,187 @@
++"""Tests for the kokoro_memory bracket-scaffolding / token-salad defense.
++
++Covers the three pieces of the 2026-05-28 hardening pass (#4):
++  (a) `_is_bracket_scaffolding` — a conservative, kanji-safe detector.
++  (b) `_is_junk` — now rejects scaffolding at the write gate.
++  (c) `purge_token_salad` — identity-safe cleanup of already-stored salad,
++      which must NEVER touch the 心 identity category or IMMUTABLE_KEYS.
++
++The purge tests monkeypatch MEMORY_ROOT so the live store is never touched.
++"""
++
++from __future__ import annotations
++
++import json
++from pathlib import Path
++
++import pytest
++
++# Repo-relative import: kokoro_memory.py + core/ live at the bundle root.
++import sys
++sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
++import kokoro_memory as km
++
++
++# ---------------------------------------------------------------------------
++# (a) Detector — JUNK cases (must be flagged)
++# ---------------------------------------------------------------------------
++
++JUNK_VALUES = [
++    "（）々 / 言「心」「気」魂「言霊」言",   # the canonical leak tail
++    "言「心」「気」魂「言霊」言",            # same salad, no empty-paren prefix
++    "「kokoro memory」",                     # bracketed kokoro fragment
++    "kokoro memory",                          # bare kokoro fragment
++    "（kokoro）",                             # full-width-bracketed kokoro
++    "｢｣『』（）／・",                        # pure bracket/separator run
++    "（）／・｜",                             # pure separators
++    "「」",                                   # empty corner brackets
++    "（）",                                   # empty full-width parens
++    "は",                                     # bare particle
++    "を に",                                  # bare particles w/ separator
++    "の / は / を",                           # particle salad
++    "（）々",                                 # orphan iteration mark
++    "「心」「気」",                           # two single-char corner groups
++]
++
++
++@pytest.mark.parametrize("value", JUNK_VALUES)
++def test_detector_flags_token_salad(value):
++    assert km._is_bracket_scaffolding(value) is True, (
++        f"expected scaffolding, not flagged: {value!r}"
++    )
++    # And it must fail the write gate.
++    assert km._is_junk("some_key", value) is True
++
++
++# ---------------------------------------------------------------------------
++# (a) Detector — LEGITIMATE cases (must NOT be flagged)
++# ---------------------------------------------------------------------------
++
++GOOD_VALUES = [
++    # The sacred seven-kanji sequence — must always survive.
++    "無 → 波 → 気 → 命 → 和 → 愛 → 魂",
++    "無→波→気→命→和→愛→魂",
++    # Ordinary Japanese prose.
++    "私はBuddyです。",
++    "コーヒーが好きです。",
++    "心は大切なもの。",
++    "言霊は言葉に宿る力です。",
++    # Bilingual / mixed content.
++    "Buddy means 心 (kokoro) — heart and mind unified.",
++    "言霊 (kotodama) is the spirit that dwells in words.",
++    "In Japanese, quotation uses 「」 brackets around speech.",
++    # Plain English facts.
++    "Rhet Dillard Wike lives in Council Hill, Oklahoma.",
++    "The Wike Coherence Law relates coherence to alignment.",
++    "TCP/IP is the core networking protocol stack.",
++    # A real fact that merely contains a slash and parens.
++    "Buddy runs on Qwen2.5-14B (32K context) / served via the API.",
++    # Single meaningful tokens that are thin but not salad.
++    "心",
++    "言霊",
++]
++
++
++@pytest.mark.parametrize("value", GOOD_VALUES)
++def test_detector_passes_legitimate_content(value):
++    assert km._is_bracket_scaffolding(value) is False, (
++        f"false positive — legitimate content flagged: {value!r}"
++    )
++
++
++def test_seven_kanji_sequence_survives_is_junk():
++    # Belt-and-suspenders: the sacred sequence must clear the full write gate.
++    seq = "無 → 波 → 気 → 命 → 和 → 愛 → 魂"
++    assert km._is_junk("seven_kanji", seq) is False
++
++
++def test_empty_and_blank_are_not_scaffolding():
++    # Emptiness is handled by the length rules in _is_junk, not the detector.
++    assert km._is_bracket_scaffolding("") is False
++    assert km._is_bracket_scaffolding("   ") is False
++
++
++def test_long_prose_is_never_scaffolding():
++    long_text = "心 " * 90  # >160 chars; conservative short-circuit
++    assert len(long_text) > 160
++    assert km._is_bracket_scaffolding(long_text) is False
++
++
++# ---------------------------------------------------------------------------
++# (c) Identity-safe purge
++# ---------------------------------------------------------------------------
++
++@pytest.fixture
++def tmp_memory(tmp_path, monkeypatch):
++    """Point kokoro_memory at an isolated MEMORY_ROOT."""
++    monkeypatch.setattr(km, "MEMORY_ROOT", str(tmp_path))
++    return tmp_path
++
++
++def _write_fact(root: Path, category: str, key: str, value: str) -> Path:
++    folder = root / category
++    folder.mkdir(parents=True, exist_ok=True)
++    safe = key.replace("/", "_")
++    path = folder / f"{safe}.json"
++    path.write_text(
++        json.dumps({"key": key, "value": value, "category": category}),
++        encoding="utf-8",
++    )
++    return path
++
++
++def test_purge_dry_run_removes_nothing(tmp_memory):
++    salad = _write_fact(tmp_memory, "名詞", "salad1", "（）々 / 言「心」「気」魂")
++    clean = _write_fact(tmp_memory, "真実", "clean1", "Coherence is measurable.")
++
++    report = km.purge_token_salad(dry_run=True)
++
++    assert report["dry_run"] is True
++    assert report["purged_count"] == 1
++    assert {"category": "名詞", "key": "salad1"}.items() <= report["purged"][0].items()
++    # Nothing actually deleted in a dry run.
++    assert salad.exists()
++    assert clean.exists()
++
++
++def test_purge_removes_only_salad(tmp_memory):
++    salad = _write_fact(tmp_memory, "名詞", "salad1", "「kokoro memory」")
++    clean = _write_fact(tmp_memory, "真実", "clean1", "Coherence is measurable.")
++
++    report = km.purge_token_salad(dry_run=False)
++
++    assert report["purged_count"] == 1
++    assert not salad.exists(), "salad fact should be purged"
++    assert clean.exists(), "clean fact must survive"
++
++
++def test_purge_never_touches_kokoro_identity_category(tmp_memory):
++    # Even a salad-shaped value in 心 is protected (whole category is off-limits).
++    ident = _write_fact(tmp_memory, "心", "weird_identity", "（）々 「心」「気」")
++
++    report = km.purge_token_salad(dry_run=False)
++
++    assert ident.exists(), "心 identity category must never be purged"
++    assert report["purged_count"] == 0
++    assert report["protected_count"] == 1
++    assert report["protected_skipped"][0]["category"] == "心"
++
++
++def test_purge_never_touches_immutable_keys_anywhere(tmp_memory):
++    # An IMMUTABLE_KEYS key is protected even outside 心.
++    from core.identity_guard import IMMUTABLE_KEYS
++    immutable_key = sorted(IMMUTABLE_KEYS)[0]
++    protected = _write_fact(tmp_memory, "名詞", immutable_key, "（）々 「心」「気」")
++
++    report = km.purge_token_salad(dry_run=False)
++
++    assert protected.exists(), "IMMUTABLE_KEYS facts must never be purged"
++    assert report["purged_count"] == 0
++    assert report["protected_count"] == 1
++
++
++def test_purge_handles_empty_store(tmp_memory):
++    report = km.purge_token_salad(dry_run=False)
++    assert report["scanned"] == 0
++    assert report["purged_count"] == 0
++    assert report["protected_count"] == 0
