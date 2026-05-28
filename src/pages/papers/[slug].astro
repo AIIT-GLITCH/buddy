@@ -30,6 +30,12 @@ const status         = paper.status         || '';
 const keyNumbers     = (paper.key_numbers as Record<string,string>) || {};
 const connectedPages = (paper.connected_domain_pages as string[]) || [];
 
+// Audit status — REPLACE / RETRACT-INTERNAL hide body and show notice
+const auditStatus    = paper.audit_status   || '';
+const auditDate      = paper.audit_date     || '';
+const auditNotice    = paper.audit_notice   || '';
+const isWithdrawn    = auditStatus === 'RETRACT-INTERNAL' || auditStatus === 'REPLACE';
+
 const pageTitle = `Paper ${parseInt(paper.num)}${paper.suffix} · ${paper.title} · AIIT-THRESI`;
 const pageDescription = coreClaim || abstract.slice(0, 200) || `${paper.title} — ${paper.tag} domain · AIIT-THRESI`;
 const tier = tierForSlug(paper.slug);
@@ -51,35 +57,42 @@ const tier = tierForSlug(paper.slug);
       <span class={`paper-tier-badge tier-${tier.key}`}>[{tier.label}]</span>
     </div>
 
-    {coreClaim && (
+    {isWithdrawn && (
+      <div class="audit-notice" data-audit-status={auditStatus}>
+        <div class="audit-notice-label">Withdrawn — internal audit {auditDate}</div>
+        <div class="audit-notice-body">{auditNotice}</div>
+      </div>
+    )}
+
+    {!isWithdrawn && coreClaim && (
       <div class="paper-claim" data-field="core_claim">
         <div class="paper-claim-label">Core claim</div>
         <div class="paper-claim-body">{coreClaim}</div>
       </div>
     )}
 
-    {abstract && (
+    {!isWithdrawn && abstract && (
       <div class="paper-abstract" data-field="abstract">
         <div class="paper-section-label">Abstract</div>
         <div class="paper-section-body">{abstract}</div>
       </div>
     )}
 
-    {keyEquation && (
+    {!isWithdrawn && keyEquation && (
       <div class="paper-equation" data-field="key_equation">
         <div class="paper-section-label">Key equation</div>
         <code class="paper-equation-body">{keyEquation}</code>
       </div>
     )}
 
-    {plainEnglish && (
+    {!isWithdrawn && plainEnglish && (
       <div class="paper-plain" data-field="plain_english">
         <div class="paper-section-label">In plain english</div>
         <div class="paper-section-body">{plainEnglish}</div>
       </div>
     )}
 
-    {Object.keys(keyNumbers).length > 0 && (
+    {!isWithdrawn && Object.keys(keyNumbers).length > 0 && (
       <div class="paper-numbers" data-field="key_numbers">
         <div class="paper-section-label">Key numbers</div>
         <ul class="paper-numbers-list">
@@ -90,7 +103,7 @@ const tier = tierForSlug(paper.slug);
       </div>
     )}
 
-    {connectedPages.length > 0 && (
+    {!isWithdrawn && connectedPages.length > 0 && (
       <div class="paper-connected" data-field="connected_domain_pages">
         <div class="paper-section-label">See also</div>
         <ul class="paper-connected-list">
@@ -108,14 +121,18 @@ const tier = tierForSlug(paper.slug);
       <div><div class="k">Print Status</div><div class="v">wAIste Not · Verified</div></div>
     </div>
 
-    <div class="paper-actions">
-      <a class="btn" href={pdfUrl} target="_blank" rel="noopener">Open PDF</a>
-      <a class="btn ghost" href={pdfUrl} download>Download</a>
-    </div>
+    {!isWithdrawn && (
+      <div class="paper-actions">
+        <a class="btn" href={pdfUrl} target="_blank" rel="noopener">Open PDF</a>
+        <a class="btn ghost" href={pdfUrl} download>Download</a>
+      </div>
+    )}
 
-    <div class="paper-embed-wrap">
-      <iframe class="paper-embed" src={pdfUrl} title={paper.title}></iframe>
-    </div>
+    {!isWithdrawn && (
+      <div class="paper-embed-wrap">
+        <iframe class="paper-embed" src={pdfUrl} title={paper.title}></iframe>
+      </div>
+    )}
 
     {related.length > 0 && (
       <div class="related">
@@ -250,4 +267,25 @@ const tier = tierForSlug(paper.slug);
   }
   .paper-connected-list a { color: var(--teal, #40c0b0); text-decoration: none; }
   .paper-connected-list a:hover { text-decoration: underline; }
+
+  .audit-notice {
+    margin: 28px 0 36px;
+    padding: 22px 26px;
+    border: 2px solid #b48a00;
+    background: rgba(180, 138, 0, 0.08);
+    border-radius: 6px;
+  }
+  .audit-notice-label {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #b48a00;
+    margin-bottom: 10px;
+  }
+  .audit-notice-body {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--ink);
+  }
 </style>

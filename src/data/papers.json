@@ -77,7 +77,7 @@
     "suffix": "",
     "slug": "009",
     "title": "Depression Abuse",
-    "tag": "Medical · Mind",
+    "tag": "Medical \u00b7 Mind",
     "filename": "PAPER_09_DEPRESSION_ABUSE.pdf"
   },
   {
@@ -150,7 +150,10 @@
     "slug": "018",
     "title": "Wike Ginzburg Number",
     "tag": "Paper",
-    "filename": "PAPER_18_WIKE_GINZBURG_NUMBER.pdf"
+    "filename": "PAPER_18_WIKE_GINZBURG_NUMBER.pdf",
+    "audit_status": "RETRACT-INTERNAL",
+    "audit_date": "2026-05-27",
+    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
   },
   {
     "id": "PAPER_19_KEEPER_EQUATION",
@@ -267,7 +270,10 @@
     "slug": "027",
     "title": "Fever Equation",
     "tag": "God Equation",
-    "filename": "PAPER_27_FEVER_EQUATION.pdf"
+    "filename": "PAPER_27_FEVER_EQUATION.pdf",
+    "audit_status": "RETRACT-INTERNAL",
+    "audit_date": "2026-05-27",
+    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
   },
   {
     "id": "PAPER_27_THE_BOTTOM_OF_THE_OCEAN",
@@ -311,7 +317,7 @@
     "suffix": "",
     "slug": "028-water-as-batteries",
     "title": "Water as Batteries",
-    "tag": "Water · Life",
+    "tag": "Water \u00b7 Life",
     "filename": "PAPER_28_WATER_AS_BATTERIES.pdf"
   },
   {
@@ -320,7 +326,7 @@
     "suffix": "",
     "slug": "029",
     "title": "Make a Car Run on Water",
-    "tag": "Water · Life",
+    "tag": "Water \u00b7 Life",
     "filename": "PAPER_29_MAKE_A_CAR_RUN_ON_WATER.pdf"
   },
   {
@@ -339,7 +345,10 @@
     "slug": "030",
     "title": "Wike Scaling Law",
     "tag": "Paper",
-    "filename": "PAPER_30_WIKE_SCALING_LAW.pdf"
+    "filename": "PAPER_30_WIKE_SCALING_LAW.pdf",
+    "audit_status": "RETRACT-INTERNAL",
+    "audit_date": "2026-05-27",
+    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
   },
   {
     "id": "PAPER_31_ENTANGLEMENT_SUDDEN_DEATH",
@@ -564,7 +573,10 @@
     "slug": "049",
     "title": "Crooks Wike Singularity",
     "tag": "Singularities",
-    "filename": "PAPER_49_CROOKS_WIKE_SINGULARITY.pdf"
+    "filename": "PAPER_49_CROOKS_WIKE_SINGULARITY.pdf",
+    "audit_status": "RETRACT-INTERNAL",
+    "audit_date": "2026-05-27",
+    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
   },
   {
     "id": "PAPER_50_HAHN_ECHO_ANTIZENO_TRAP",
@@ -608,7 +620,7 @@
     "suffix": "",
     "slug": "052-kibble-zurek-ptsd",
     "title": "Kibble Zurek PTSD",
-    "tag": "Medical · Mind",
+    "tag": "Medical \u00b7 Mind",
     "filename": "PAPER_52_KIBBLE_ZUREK_PTSD.pdf"
   },
   {
@@ -617,7 +629,7 @@
     "suffix": "",
     "slug": "053",
     "title": "Kibble Zurek Trauma",
-    "tag": "Medical · Mind",
+    "tag": "Medical \u00b7 Mind",
     "filename": "PAPER_53_KIBBLE_ZUREK_TRAUMA.pdf"
   },
   {
@@ -681,7 +693,10 @@
     "slug": "058",
     "title": "Alzheimers 3d Ising",
     "tag": "Medical",
-    "filename": "PAPER_58_ALZHEIMERS_3D_ISING.pdf"
+    "filename": "PAPER_58_ALZHEIMERS_3D_ISING.pdf",
+    "audit_status": "RETRACT-INTERNAL",
+    "audit_date": "2026-05-27",
+    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
   },
   {
     "id": "PAPER_59_C_ALIVE_GAMMA_DISTRIBUTION",
@@ -744,7 +759,10 @@
     "slug": "065",
     "title": "Jarzynski Bose Einstein",
     "tag": "Paper",
-    "filename": "PAPER_65_JARZYNSKI_BOSE_EINSTEIN.pdf"
+    "filename": "PAPER_65_JARZYNSKI_BOSE_EINSTEIN.pdf",
+    "audit_status": "RETRACT-INTERNAL",
+    "audit_date": "2026-05-27",
+    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
   },
   {
     "id": "PAPER_66_BELL_STATES_NO_WHISPER",
@@ -762,7 +780,10 @@
     "slug": "067",
     "title": "Windup Mean Field Two Stage",
     "tag": "Paper",
-    "filename": "PAPER_67_WINDUP_MEAN_FIELD_TWO_STAGE.pdf"
+    "filename": "PAPER_67_WINDUP_MEAN_FIELD_TWO_STAGE.pdf",
+    "audit_status": "RETRACT-INTERNAL",
+    "audit_date": "2026-05-27",
+    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
   },
   {
     "id": "PAPER_68_LINDBLAD_FISHER_INFORMATION",
@@ -843,7 +864,10 @@
     "slug": "076",
     "title": "Crooks Time Reversal",
     "tag": "Paper",
-    "filename": "PAPER_76_CROOKS_TIME_REVERSAL.pdf"
+    "filename": "PAPER_76_CROOKS_TIME_REVERSAL.pdf",
+    "audit_status": "RETRACT-INTERNAL",
+    "audit_date": "2026-05-27",
+    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
   },
   {
     "id": "PAPER_77_POINCARE_RECURRENCES_IBM",
@@ -915,7 +939,10 @@
     "slug": "084",
     "title": "Z2 Symmetry Confirmed",
     "tag": "Paper",
-    "filename": "PAPER_84_Z2_SYMMETRY_CONFIRMED.pdf"
+    "filename": "PAPER_84_Z2_SYMMETRY_CONFIRMED.pdf",
+    "audit_status": "RETRACT-INTERNAL",
+    "audit_date": "2026-05-27",
+    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
   },
   {
     "id": "PAPER_85_HAHN_ECHO_ANTI_ZENO",
@@ -1014,7 +1041,10 @@
     "slug": "095",
     "title": "Protein Folding 3d Ising",
     "tag": "Paper",
-    "filename": "PAPER_95_PROTEIN_FOLDING_3D_ISING.pdf"
+    "filename": "PAPER_95_PROTEIN_FOLDING_3D_ISING.pdf",
+    "audit_status": "RETRACT-INTERNAL",
+    "audit_date": "2026-05-27",
+    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
   },
   {
     "id": "PAPER_96_KEEPER_LEARNING_BOOTSTRAP_REVERSAL",
@@ -1113,7 +1143,10 @@
     "slug": "106",
     "title": "Amplitude 0p72 Conformal Bootstrap",
     "tag": "Paper",
-    "filename": "PAPER_106_AMPLITUDE_0p72_CONFORMAL_BOOTSTRAP.pdf"
+    "filename": "PAPER_106_AMPLITUDE_0p72_CONFORMAL_BOOTSTRAP.pdf",
+    "audit_status": "RETRACT-INTERNAL",
+    "audit_date": "2026-05-27",
+    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
   },
   {
     "id": "PAPER_107_RATIO_61_18_COSMOLOGICAL_HIERARCHY",
@@ -1194,7 +1227,10 @@
     "slug": "115",
     "title": "Consciousness Order Parameter",
     "tag": "Mind",
-    "filename": "PAPER_115_CONSCIOUSNESS_ORDER_PARAMETER.pdf"
+    "filename": "PAPER_115_CONSCIOUSNESS_ORDER_PARAMETER.pdf",
+    "audit_status": "RETRACT-INTERNAL",
+    "audit_date": "2026-05-27",
+    "audit_notice": "An internal audit on 2026-05-27 flagged this document as containing inaccurate or incomplete information. This page has been temporarily withdrawn pending correction. Please check back."
   },
   {
     "id": "PAPER_116_DARK_MATTER_DARK_ENERGY_VACUUM",
@@ -1355,7 +1391,7 @@
     "suffix": "",
     "slug": "132",
     "title": "Origin of Life Coherence Bootstrap",
-    "tag": "Water · Life",
+    "tag": "Water \u00b7 Life",
     "filename": "PAPER_132_ORIGIN_OF_LIFE_COHERENCE_BOOTSTRAP.pdf"
   },
   {
