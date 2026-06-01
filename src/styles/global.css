@@ -1184,3 +1184,7 @@ footer .f-dont a:hover { color: #a78bfa; }
   box-shadow: 0 0 32px rgba(167, 139, 250, 0.45);
   color: #0a0a12;
 }
+
+/* benchmark reference link in founder note */
+.founder-proof-link { color: var(--gold); font-weight: 700; text-decoration: none; border-bottom: 1px solid rgba(200,144,64,0.45); }
+.founder-proof-link:hover { border-bottom-color: var(--gold); }
