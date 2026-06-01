@@ -17,21 +17,32 @@ import ReturnToBuddy from '../components/ReturnToBuddy.astro';
 
       <!-- THE PARIS HOOK -->
       <div style="background: var(--bg-card); border:1px solid #233047; border-radius:16px; padding:28px 30px; max-width:860px;">
-        <div style="font-family:'Courier New',monospace; color:var(--ink-soft); font-size:14px; margin-bottom:18px;">"What is the capital of France?"</div>
-        <div style="margin-bottom:16px;">
-          <div style="display:flex; align-items:center; gap:14px; margin-bottom:6px;">
-            <span style="width:60px; color:var(--gold); font-weight:700;">Buddy</span>
-            <span style="height:18px; width:3%; min-width:10px; background:#5a6b82; border-radius:4px;"></span>
-            <span style="color:var(--ink); font-size:15px;"><strong>7 tokens · 2.0s</strong> → "Paris."</span>
+        <div style="font-family:'Courier New',monospace; color:var(--ink-soft); font-size:14px; margin-bottom:22px;">"What is the capital of France?"</div>
+
+        <!-- Buddy: 7 gold tokens -->
+        <div style="margin-bottom:22px;">
+          <div style="display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:9px;">
+            <span style="color:var(--gold); font-weight:700;">Buddy</span>
+            <span style="color:var(--ink); font-size:14px;"><strong>7 tokens · 2.0s</strong> → "Paris."</span>
           </div>
-          <div style="display:flex; align-items:center; gap:14px;">
-            <span style="width:60px; color:var(--gold); font-weight:700;">R1</span>
-            <span style="height:18px; width:100%; max-width:460px; background:#5a6b82; border-radius:4px;"></span>
-            <span style="color:var(--ink-soft); font-size:15px;"><strong>279 tokens · 7.3s</strong> → "Paris."</span>
+          <div style="display:flex; flex-wrap:wrap; gap:4px; max-width:560px;" aria-label="7 tokens">
+            {Array.from({ length: 7 }).map(() => <span class="tok"></span>)}
           </div>
         </div>
+
+        <!-- R1: 279 gold tokens (same coin, same scale) -->
+        <div style="margin-bottom:20px;">
+          <div style="display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:9px;">
+            <span style="color:var(--gold); font-weight:700;">R1</span>
+            <span style="color:var(--ink-soft); font-size:14px;"><strong>279 tokens · 7.3s</strong> → "Paris."</span>
+          </div>
+          <div style="display:flex; flex-wrap:wrap; gap:4px; max-width:560px;" aria-label="279 tokens">
+            {Array.from({ length: 279 }).map(() => <span class="tok"></span>)}
+          </div>
+        </div>
+
         <div style="color:var(--ink-soft); font-size:15px; border-top:1px solid #233047; padding-top:14px;">
-          Both got <strong style="color:var(--ink);">"Paris."</strong> R1 used ~40× the words and ~3.6× the time to say it.
+          Both got <strong style="color:var(--ink);">"Paris."</strong> — same answer. R1 spent <strong style="color:var(--amber);">~40× the tokens</strong> and ~3.6× the time to say it. <span style="white-space:nowrap;">Each <span class="tok" style="vertical-align:middle;"></span> = one token.</span>
         </div>
       </div>
     </div>
@@ -108,3 +119,17 @@ import ReturnToBuddy from '../components/ReturnToBuddy.astro';
   </section>
 
 </Layout>
+
+<style>
+  /* One gold coin = one token. Same size for both models — honest unit; the
+     count (7 vs 279) carries the comparison, not the color. */
+  .tok {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 34% 30%, #f3d79a 0%, var(--gold) 55%, #a9772b 100%);
+    box-shadow: inset 0 0 0 0.5px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.25);
+    flex: 0 0 auto;
+  }
+</style>
