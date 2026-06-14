@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import papersAll from '../data/papers.json';
+import { BUDDY_IN_TRAINING } from '../lib/buddyStatus.js';
 
 // Preview only the first 9 papers on the homepage
 const totalPapers = papersAll.length;
@@ -26,6 +27,11 @@ const totalPapers = papersAll.length;
         <a href="/ask-buddy/#buddy-thread" class="hero-founder-cta primary" data-no-loader="true">Talk to Buddy</a>
         <a href="/paper-game" class="hero-founder-cta secondary">Play today's Paper Game</a>
       </div>
+      {BUDDY_IN_TRAINING && (
+        <p style="font-family:'Courier New',monospace; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted-hi); margin-top:16px; line-height:1.5;">
+          <span style="display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--teal); margin-right:8px; vertical-align:middle;"></span>Buddy's in the shop — in-house training. <a href="/ask-buddy/" style="color:var(--amber); border-bottom:1px solid rgba(212,160,96,0.4);">see what he's up to →</a>
+        </p>
+      )}
 
       <div class="hero-tabs" aria-label="Featured routes">
         <a href="/ask-buddy/#ask">AskBuddy <span>a tribute to Ask Jeeves</span></a>

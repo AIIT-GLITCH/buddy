@@ -3,12 +3,22 @@
 //
 // Placement: after Interlink, before footer. Quiet invitation, not CTA.
 // Clicking -> /ask-buddy/#ask (ask-buddy.astro auto-focuses input on #ask).
+import { BUDDY_IN_TRAINING } from '../lib/buddyStatus.js';
 ---
 
 <section class="rtb-section">
   <div class="container narrow">
-    <p class="rtb-line">if you're still here — ask something real.</p>
-    <a href="/ask-buddy/#ask" class="rtb-link">ask buddy →</a>
+    {BUDDY_IN_TRAINING ? (
+      <Fragment>
+        <p class="rtb-line">buddy's in the shop — in-house training right now.</p>
+        <a href="/ask-buddy/" class="rtb-link">peek at the shop →</a>
+      </Fragment>
+    ) : (
+      <Fragment>
+        <p class="rtb-line">if you're still here — ask something real.</p>
+        <a href="/ask-buddy/#ask" class="rtb-link">ask buddy →</a>
+      </Fragment>
+    )}
   </div>
 </section>
 

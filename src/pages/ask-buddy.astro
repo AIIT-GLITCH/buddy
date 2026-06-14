@@ -1,10 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import BuddyMascot from '../components/BuddyMascot.astro';
-
-// Maintenance gate — Buddy is down for in-house training on house-flavour
-// Tessera tokenized shards. Flip to false to bring the live chat back.
-const BUDDY_IN_TRAINING = true;
+import { BUDDY_IN_TRAINING } from '../lib/buddyStatus.js';
 
 // Original pixel-art planet sprites (Ella's planets, 2026-06-11).
 // 16x16 grids, one char per pixel ('.' = transparent), rendered to SVG
@@ -211,11 +208,9 @@ function spriteRects(sprite) {
       </div>
       <h1 class="bt-tr-headline">Buddy stepped out to get <em>sharper.</em></h1>
       <p class="bt-tr-body">He's offline for a spell — down for some <span class="bt-tr-em">in-house training</span>, chewing through a fresh batch of <span class="bt-tr-shards">house-flavour Tessera tokenized shards</span> and fitting every little tile into place.<span class="bt-tr-sub">Mosaic's coming together. He'll be back better than he left.</span></p>
-      <div class="bt-tr-readout" role="group" aria-label="Training readout">
-        <div class="bt-tr-row"><span class="bt-tr-label">Run</span><span class="bt-tr-value">house·flavour — <b>in-house</b></span></div>
-        <div class="bt-tr-row"><span class="bt-tr-label">Epoch</span><span class="bt-tr-value"><b>03</b> / 04</span></div>
-        <div class="bt-tr-row"><span class="bt-tr-label">Tessera shards ingested</span><span class="bt-tr-value"><b>7,184</b></span></div>
-        <div class="bt-tr-mosaic" aria-hidden="true"><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile next"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span></div>
+      <div class="bt-tr-readout" role="group" aria-label="Tessera shards">
+        <div class="bt-tr-readout-label">house-flavour Tessera shards · settling into place</div>
+        <div class="bt-tr-mosaic" aria-hidden="true"><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span></div>
       </div>
       <p class="bt-tr-foot">Back soon · <a href="/">return home</a></p>
     </div>
@@ -3231,33 +3226,24 @@ function spriteRects(sprite) {
     display: flex; flex-direction: column; gap: 0.85rem;
     text-align: left;
   }
-  .bt-tr-row {
-    display: flex; justify-content: space-between; align-items: baseline;
+  .bt-tr-readout-label {
     font-family: 'Courier New', monospace;
-    font-size: 0.74rem; letter-spacing: 0.12em; text-transform: uppercase;
+    font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--muted); text-align: center;
   }
-  .bt-tr-label { color: var(--muted); }
-  .bt-tr-value { color: var(--amber); letter-spacing: 0.06em; }
-  .bt-tr-value b { color: var(--warm); font-weight: 700; }
   .bt-tr-mosaic { display: flex; gap: 5px; flex-wrap: wrap; }
   .bt-tr-tile {
     flex: 1 1 0; min-width: 14px; height: 13px; border-radius: 3px;
-    background: rgba(64,192,176,0.10); border: 1px solid rgba(64,192,176,0.16);
+    background: linear-gradient(135deg, rgba(200,144,64,0.45), rgba(212,160,96,0.6));
+    border: 1px solid rgba(212,160,96,0.4);
+    box-shadow: 0 0 6px rgba(212,160,96,0.28);
+    animation: bt-tr-shimmer 2.8s ease-in-out infinite;
   }
-  .bt-tr-tile.on {
-    background: linear-gradient(135deg, var(--gold), var(--amber));
-    border-color: rgba(212,160,96,0.6);
-    box-shadow: 0 0 7px rgba(212,160,96,0.45);
-    animation: bt-tr-settle 3.4s ease-in-out infinite;
-  }
-  .bt-tr-tile.on:nth-child(3n) { animation-delay: 0.6s; }
-  .bt-tr-tile.on:nth-child(3n+1) { animation-delay: 1.2s; }
-  .bt-tr-tile.next {
-    background: rgba(255,232,138,0.14); border-color: rgba(255,232,138,0.4);
-    animation: bt-tr-blink 1.8s ease-in-out infinite;
-  }
-  @keyframes bt-tr-settle { 0%,100% { opacity: 1; } 50% { opacity: 0.78; } }
-  @keyframes bt-tr-blink { 0%,100% { opacity: 0.35; } 50% { opacity: 1; } }
+  .bt-tr-tile:nth-child(2n) { animation-delay: 0.35s; }
+  .bt-tr-tile:nth-child(3n) { animation-delay: 0.70s; }
+  .bt-tr-tile:nth-child(5n) { animation-delay: 1.05s; }
+  .bt-tr-tile:nth-child(7n) { animation-delay: 1.40s; }
+  @keyframes bt-tr-shimmer { 0%,100% { opacity: 0.85; } 50% { opacity: 0.30; } }
   .bt-tr-foot {
     font-family: 'Courier New', monospace;
     text-transform: uppercase; letter-spacing: 0.24em;
@@ -3275,8 +3261,7 @@ function spriteRects(sprite) {
   }
   @media (prefers-reduced-motion: reduce) {
     .buddy-training .bt-tr-dot { animation: none; box-shadow: 0 0 0 4px rgba(64,192,176,0.18); }
-    .buddy-training .bt-tr-tile.on { animation: none; opacity: 1; }
-    .buddy-training .bt-tr-tile.next { animation: none; opacity: 0.85; }
+    .buddy-training .bt-tr-tile { animation: none; opacity: 0.7; }
   }
 
 </style>
