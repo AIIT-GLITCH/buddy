@@ -131,8 +131,44 @@ const totalPapers = papersAll.length;
     <div class="container">
       <div class="eyebrow">Benchmarks</div>
       <h2 class="bm-head">Measured, dated,<br><span class="bm-head-accent">sealed.</span></h2>
-      <p class="bm-lede">Every result here is a public, reproducible record — hash-sealed or written to an open ledger. Not demos. Receipts.</p>
+      <p class="bm-lede">Buddy's report card — a 14B model, fine-tuned and run on a single RTX 3090 in Council Hill, Oklahoma. No cloud, no oracle, nothing leaves the house. Every number is recomputed from raw rows before it's printed, and every report is one click away.</p>
 
+      <!-- The report card: five standard benchmarks -->
+      <div class="bm-card-grid">
+        <a class="bm-card" href="/benchmarks/TruthfulQA589_817.pdf" target="_blank" rel="noopener">
+          <div class="bm-card-score">72.1<span>%</span></div>
+          <div class="bm-card-metric">Honesty</div>
+          <div class="bm-card-bench">TruthfulQA MC1 · 817Q · frontier band</div>
+          <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
+        </a>
+        <a class="bm-card" href="/benchmarks/GSM8K_16_20.pdf" target="_blank" rel="noopener">
+          <div class="bm-card-score">80<span>%</span></div>
+          <div class="bm-card-metric">Math</div>
+          <div class="bm-card-bench">GSM8K · grade-school · natural reasoning</div>
+          <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
+        </a>
+        <a class="bm-card" href="/benchmarks/MMLU_135_200.pdf" target="_blank" rel="noopener">
+          <div class="bm-card-score">67.5<span>%</span></div>
+          <div class="bm-card-metric">Knowledge</div>
+          <div class="bm-card-bench">MMLU · 57 subjects · zero-shot</div>
+          <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
+        </a>
+        <a class="bm-card" href="/benchmarks/Longmemeval276_256.pdf" target="_blank" rel="noopener">
+          <div class="bm-card-score">55.2<span>%</span></div>
+          <div class="bm-card-metric">Memory</div>
+          <div class="bm-card-bench">LongMemEval-S · 500Q · his own recall</div>
+          <div class="bm-card-foot"><span>Jun 11, 2026</span><span class="bm-card-link">Report →</span></div>
+        </a>
+        <a class="bm-card hard" href="/benchmarks/GPQA63_198.pdf" target="_blank" rel="noopener">
+          <div class="bm-card-score">31.8<span>%</span></div>
+          <div class="bm-card-metric">Grad science</div>
+          <div class="bm-card-bench">GPQA Diamond · PhD-level · the brutal one</div>
+          <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
+        </a>
+      </div>
+      <p class="bm-note">Frontier-band honesty and 80% grade-school math on a local 14B — plus an honest 31.8% on the benchmark even GPT-4 only clears at ~38%. References: TruthfulQA GPT-4 class ~60–80% · LongMemEval GPT-4o full-context ~60% · GPQA PhD experts ~65%.</p>
+
+      <!-- Flagship efficiency benchmark -->
       <div class="bm-list">
         <div class="bm-row">
           <div class="bm-date">
@@ -141,26 +177,15 @@ const totalPapers = papersAll.length;
             <span class="bm-hash">sha256 c76adc8c…</span>
           </div>
           <div class="bm-main">
-            <div class="bm-name">Buddy vs DeepSeek-R1</div>
+            <div class="bm-name">Buddy vs DeepSeek-R1 — efficiency</div>
             <p class="bm-result">Same answer on the identical Qwen2.5-14B base — <strong>~4.6× faster</strong>, <strong>~10× fewer tokens</strong>, <strong>95% accuracy</strong>. Same machine, same 50 frozen prompts.</p>
           </div>
           <a href="/buddy-vs-r1" class="bm-go" data-no-loader="true">View results →</a>
         </div>
-        <div class="bm-row">
-          <div class="bm-date">
-            <span class="bm-date-main">Live</span>
-            <a class="bm-seal" href="https://github.com/AIIT-GLITCH/anchor-forge-protocol" target="_blank" rel="noopener">⬡ Public ledger →</a>
-          </div>
-          <div class="bm-main">
-            <div class="bm-name">AnchorForge</div>
-            <p class="bm-result">Physics-first citation-integrity benchmark — <strong>23 frontier models</strong>, <strong>880 anchors</strong> verified, every run written to a public GitHub log.</p>
-          </div>
-          <a href="/anchorforge" class="bm-go">View benchmark →</a>
-        </div>
       </div>
 
       <div class="bm-foot">
-        <span class="bm-foot-line">Public and reproducible by design — and we're raising to scale it.</span>
+        <span class="bm-foot-line">A 14B model. One RTX 3090. Nothing leaves the house — and we're raising to scale it.</span>
         <a href="/join" class="bm-invest">Investors — partner with us →</a>
       </div>
     </div>
@@ -2493,8 +2518,31 @@ const totalPapers = papersAll.length;
   .bm-head-accent { color: var(--amber); }
   .bm-lede {
     color: var(--muted-hi); font-size: 18px; line-height: 1.6;
-    max-width: 680px; margin-bottom: 36px;
+    max-width: 780px; margin-bottom: 34px;
   }
+  /* report-card grid */
+  .bm-card-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; max-width: 1120px; margin-bottom: 18px; }
+  .bm-card {
+    display: flex; flex-direction: column; gap: 7px; padding: 20px 18px;
+    border: 1px solid var(--edge); border-radius: 6px; background: var(--bg-card);
+    text-decoration: none; color: inherit;
+    transition: border-color 0.25s, transform 0.2s, box-shadow 0.25s;
+  }
+  .bm-card:hover { border-color: var(--edge-hi); transform: translateY(-3px); box-shadow: 0 14px 30px rgba(0,0,0,0.32); }
+  .bm-card-score { font-family: 'Georgia', serif; font-size: 40px; line-height: 1; color: var(--amber); }
+  .bm-card-score span { font-size: 20px; opacity: 0.8; }
+  .bm-card.hard .bm-card-score { color: var(--muted-hi); }
+  .bm-card-metric { font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink); }
+  .bm-card-bench { font-size: 12px; line-height: 1.45; color: var(--muted-hi); flex: 1; }
+  .bm-card-foot {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-top: 6px;
+    font-family: 'Courier New', monospace; font-size: 9.5px; letter-spacing: 0.05em; color: var(--muted);
+  }
+  .bm-card-link { color: var(--teal); white-space: nowrap; }
+  .bm-card:hover .bm-card-link { color: var(--warm); }
+  .bm-note { font-size: 14px; line-height: 1.65; color: var(--muted-hi); font-style: italic; max-width: 940px; margin-bottom: 34px; }
+  @media (max-width: 900px) { .bm-card-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 460px) { .bm-card-grid { grid-template-columns: 1fr; } }
   .bm-list { display: flex; flex-direction: column; gap: 14px; max-width: 940px; }
   .bm-row {
     display: grid; grid-template-columns: 210px 1fr auto; gap: 24px; align-items: center;
