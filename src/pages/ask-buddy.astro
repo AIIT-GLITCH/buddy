@@ -2866,6 +2866,242 @@ function spriteRects(sprite) {
 	      width: 100%;
 	    }
 	  }
+
+
+  /* ====== APPENDED: Buddy Thread console declutter (chat-hero) ====== */
+/* =====================================================================
+   BUDDY THREAD — CHAT-HERO DECLUTTER (appended; CSS-only, overrides earlier
+   rules via source-order + equal/higher specificity). No HTML/JS changes.
+   Palette: cream #fff7df / gold #f0a500 / light-gold #ffd36a /
+            burnt-orange #c83a08 / dark #1a1a1a (panel bg ~#1a1a1a->#372211).
+   Reorders the DIRECT children of .bt-notice-inner with flex `order` so the
+   CONVERSATION is the hero; the alpha-disclaimer chrome recedes.
+   Hidden-able children (.bt-share-fallback / .bt-thread-message /
+   .bt-thread-preview) still collapse: the existing
+   [hidden]{display:none!important} beats flex display, and `order` on a
+   display:none box is inert. Nothing is force-displayed.
+   ===================================================================== */
+
+/* ---- 1. Make the console a flex COLUMN + assign visual order ---------- */
+.bt-notice-inner {
+  display: flex;
+  flex-direction: column;
+  /* a touch more air, the chat needs room to breathe */
+  padding: 18px 18px 16px;
+  gap: 0;
+}
+/* order map (source order is ignored visually):
+   10  header row              (compact)
+   20  chat window  <-- HERO
+   30  quiet action strip
+   40  thin metrics strip      } muted
+   45  share (ghost, folded)   } footer
+   50  share fallback (link)   } below
+   60  lede + warning (small)  } the
+   70  policy link             } chat   */
+.bt-notice-inner > .bt-console-top    { order: 10; }
+.bt-notice-inner > .bt-thread-preview { order: 20; }   /* HERO */
+.bt-notice-inner > .bt-actions        { order: 30; }
+.bt-notice-inner > .bt-metrics        { order: 40; }
+.bt-notice-inner > .bt-share-row      { order: 45; }
+.bt-notice-inner > .bt-share-fallback { order: 47; }
+.bt-notice-inner > .bt-lede           { order: 60; }
+.bt-notice-inner > p:not(.bt-lede)    { order: 62; }   /* the warning p */
+.bt-notice-inner > .bt-thread-message { order: 64; }
+.bt-notice-inner > .bt-policy-link    { order: 70; }
+
+/* ---- 2. COMPACT HEADER — smaller badge / title, chip inline & quiet --- */
+.bt-notice .bt-console-top {
+  align-items: center;          /* chip sits inline w/ title block */
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.bt-notice .bt-notice-badge {
+  /* smaller, lower-contrast — it is a status tag, not a focal point */
+  font-size: 7.5pt;
+  padding: 2px 8px;
+  color: rgba(255, 211, 106, 0.85);
+  background: transparent;
+  border-color: rgba(240, 165, 0, 0.30);
+  margin-bottom: 6px;
+}
+.bt-notice .bt-console-top h2 {
+  /* demote the big shouty headline to a compact title */
+  font-size: clamp(15pt, 2.4vw, 18pt);
+  line-height: 1.12;
+  color: #fff7df;
+}
+.bt-notice .bt-user-chip {
+  /* outline chip, not a solid gold slab — removes a competing accent */
+  align-self: center;
+  font-size: 8pt;
+  padding: 4px 10px;
+  color: rgba(255, 247, 223, 0.82);
+  background: transparent;
+  border: 1px solid rgba(240, 165, 0, 0.40);
+}
+
+/* ---- 3. THE CHAT — give the hero a touch more presence --------------- */
+.bt-notice .bt-thread-preview {
+  margin: 0 0 4px;
+  padding: 14px 14px 12px;
+  /* subtle gold framing so the eye lands here first */
+  border: 1px solid rgba(240, 165, 0, 0.26);
+  background: rgba(255, 253, 245, 0.05);
+  box-shadow: 0 10px 30px rgba(40, 24, 10, 0.28);
+}
+.bt-notice .bt-thread-preview-title {
+  /* quieter label above the window */
+  margin-bottom: 12px;
+  font-size: 8pt;
+  color: rgba(255, 211, 106, 0.78);
+}
+
+/* ---- 4. ONE QUIET ACTION STRIP — uniform ghost buttons --------------- */
+.bt-notice .bt-actions {
+  gap: 8px;
+  margin: 12px 0 4px;
+  flex-wrap: wrap;
+}
+/* Report no longer shouts: identical to Export / Clear (quiet ghost) */
+.bt-notice .bt-report-btn,
+.bt-notice .bt-export-btn,
+.bt-notice .bt-clear-btn {
+  background: rgba(255, 253, 245, 0.04);
+  color: rgba(255, 247, 223, 0.86);
+  border: 1px solid rgba(255, 247, 223, 0.18);
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 9pt;
+  letter-spacing: 0.04em;
+  box-shadow: none;
+  transition: border-color 180ms, color 180ms, background 180ms;
+}
+.bt-notice .bt-report-btn:hover:not(:disabled),
+.bt-notice .bt-export-btn:hover:not(:disabled),
+.bt-notice .bt-clear-btn:hover:not(:disabled) {
+  color: #f0a500;
+  border-color: rgba(240, 165, 0, 0.45);
+  background: rgba(240, 165, 0, 0.07);
+  transform: none;
+}
+
+/* ---- 5. DE-SHOUT SHARE — burnt-orange CTA -> small ghost/text button -- */
+.bt-notice .bt-share-row {
+  margin: 0 0 2px;       /* folds quietly into the footer */
+}
+.bt-notice .bt-share-btn {
+  min-height: 0;
+  padding: 6px 4px;
+  background: transparent;
+  color: rgba(255, 211, 106, 0.82);
+  border: 0;
+  border-bottom: 1px solid rgba(240, 165, 0, 0.28);
+  border-radius: 0;
+  font-size: 9pt;
+  box-shadow: none;
+  align-self: flex-start;
+}
+.bt-notice .bt-share-btn:hover:not(:disabled) {
+  background: transparent;
+  color: #ffd36a;
+  border-color: rgba(255, 211, 106, 0.55);
+  transform: none;
+  box-shadow: none;
+}
+.bt-notice .bt-share-fallback {
+  margin: 6px 0 2px;     /* stays put; [hidden] still collapses it */
+}
+
+/* ---- 6. TELEMETRY — thin muted inline strip, not big cards ----------- */
+.bt-notice .bt-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 18px;
+  margin: 8px 0 2px;
+  padding: 8px 2px;
+  border-top: 1px solid rgba(255, 247, 223, 0.10);
+  border-bottom: 1px solid rgba(255, 247, 223, 0.10);
+}
+.bt-notice .bt-metric {
+  /* strip the card chrome -> inline "value label" pairs */
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+.bt-notice .bt-metric span {
+  display: inline;
+  font-size: 9.5pt;
+  /* demote numbers from gold -> muted cream so they stop competing */
+  color: rgba(255, 247, 223, 0.80);
+}
+.bt-notice .bt-metric small {
+  display: inline;
+  margin-top: 0;
+  font-size: 7.5pt;
+  color: rgba(255, 247, 223, 0.46);
+}
+
+/* ---- 7. DISCLAIMERS — meaningful but quiet, recede below the chat ---- */
+.bt-notice .bt-notice-inner > .bt-lede,
+.bt-notice .bt-notice-inner > p:not(.bt-lede) {
+  font-size: 9.5pt;
+  line-height: 1.5;
+  color: rgba(255, 247, 223, 0.58);
+  margin: 6px 0 0;
+}
+.bt-notice .bt-notice-inner > .bt-lede {
+  margin-top: 8px;
+  color: rgba(255, 247, 223, 0.66);
+}
+
+/* ---- 8. POLICY LINK — quiet text link at the very bottom ------------- */
+.bt-notice .bt-policy-link {
+  margin-top: 10px;
+  align-self: flex-start;
+  font-size: 8.5pt;
+  color: rgba(240, 165, 0, 0.78);
+  border-bottom-color: rgba(240, 165, 0, 0.22);
+}
+
+/* status toast (bt-thread-message) — keep quiet, sits in footer order ---- */
+.bt-notice .bt-thread-message {
+  margin: 8px 0 0;
+}
+
+/* ---- 9. RESPONSIVE (<=620px) — keep the reordered layout calm -------- */
+@media (max-width: 620px) {
+  .bt-notice-inner { padding: 16px 14px 14px; }
+  .bt-notice .bt-console-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .bt-notice .bt-user-chip { align-self: flex-start; max-width: 100%; }
+  /* override the earlier stacked-card metrics: keep a thin inline strip */
+  .bt-notice .bt-metrics {
+    grid-template-columns: none;
+    gap: 4px 16px;
+  }
+  /* override the earlier shouty full-width orange share button */
+  .bt-notice .bt-share-row { margin: 0; }
+  .bt-notice .bt-share-btn {
+    width: auto;
+    min-height: 0;
+    font-size: 9pt;
+  }
+  /* keep the quiet action strip wrapping, not a tall stacked column */
+  .bt-notice .bt-actions { flex-direction: row; flex-wrap: wrap; }
+  .bt-notice .bt-report-btn,
+  .bt-notice .bt-export-btn,
+  .bt-notice .bt-clear-btn { flex: 1 1 auto; }
+}
+
 </style>
 
 </Layout>
