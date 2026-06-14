@@ -54,6 +54,73 @@ const totalPapers = papersAll.length;
     <div class="hero-scroll">Scroll</div>
   </section>
 
+  <!-- 1.2 BENCHMARKS — right below the hero; dated, sealed, linked. -->
+  <section id="benchmarks" data-anim="plain-fade">
+    <div class="container">
+      <div class="eyebrow">Benchmarks</div>
+      <h2 class="bm-head">Measured, dated,<br><span class="bm-head-accent">sealed.</span></h2>
+      <p class="bm-lede">Buddy's report card — a 14B model, fine-tuned and run on a single RTX 3090 in Council Hill, Oklahoma. No cloud, no oracle, nothing leaves the house. Every number is recomputed from raw rows before it's printed, and every report is one click away.</p>
+
+      <!-- The report card: five standard benchmarks -->
+      <div class="bm-card-grid">
+        <a class="bm-card" href="/benchmarks/TruthfulQA589_817.pdf" target="_blank" rel="noopener">
+          <div class="bm-card-score">72.1<span>%</span></div>
+          <div class="bm-card-metric">Honesty</div>
+          <div class="bm-card-bench">TruthfulQA MC1 · 817Q · frontier band</div>
+          <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
+        </a>
+        <a class="bm-card" href="/benchmarks/GSM8K_16_20.pdf" target="_blank" rel="noopener">
+          <div class="bm-card-score">80<span>%</span></div>
+          <div class="bm-card-metric">Math</div>
+          <div class="bm-card-bench">GSM8K · grade-school · natural reasoning</div>
+          <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
+        </a>
+        <a class="bm-card" href="/benchmarks/MMLU_135_200.pdf" target="_blank" rel="noopener">
+          <div class="bm-card-score">67.5<span>%</span></div>
+          <div class="bm-card-metric">Knowledge</div>
+          <div class="bm-card-bench">MMLU · 57 subjects · zero-shot</div>
+          <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
+        </a>
+        <a class="bm-card" href="/benchmarks/Longmemeval276_256.pdf" target="_blank" rel="noopener">
+          <div class="bm-card-score">55.2<span>%</span></div>
+          <div class="bm-card-metric">Memory</div>
+          <div class="bm-card-bench">LongMemEval-S · 500Q · his own recall</div>
+          <div class="bm-card-foot"><span>Jun 11, 2026</span><span class="bm-card-link">Report →</span></div>
+        </a>
+        <a class="bm-card hard" href="/benchmarks/GPQA63_198.pdf" target="_blank" rel="noopener">
+          <div class="bm-card-score">31.8<span>%</span></div>
+          <div class="bm-card-metric">Grad science</div>
+          <div class="bm-card-bench">GPQA Diamond · PhD-level · the brutal one</div>
+          <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
+        </a>
+      </div>
+      <p class="bm-note">Frontier-band honesty and 80% grade-school math on a local 14B — plus an honest 31.8% on the benchmark even GPT-4 only clears at ~38%. References: TruthfulQA GPT-4 class ~60–80% · LongMemEval GPT-4o full-context ~60% · GPQA PhD experts ~65%.</p>
+
+      <p style="margin:0 0 30px;"><a href="/benchmarks" style="font-family:'Courier New',monospace; font-size:12px; letter-spacing:0.12em; text-transform:uppercase; color:var(--teal); border-bottom:1px solid rgba(64,192,176,0.35); padding-bottom:2px; text-decoration:none;">See the full report card, methodology &amp; references &rarr;</a></p>
+
+      <!-- Flagship efficiency benchmark -->
+      <div class="bm-list">
+        <div class="bm-row">
+          <div class="bm-date">
+            <span class="bm-date-main">Jun 1, 2026</span>
+            <a class="bm-seal" href="/buddy-vs-r1.pdf" target="_blank" rel="noopener">⬡ Hash-sealed · AIIT-DISC-0001 →</a>
+            <span class="bm-hash">sha256 c76adc8c…</span>
+          </div>
+          <div class="bm-main">
+            <div class="bm-name">Buddy vs DeepSeek-R1 — efficiency</div>
+            <p class="bm-result">Same answer on the identical Qwen2.5-14B base — <strong>~4.6× faster</strong>, <strong>~10× fewer tokens</strong>, <strong>95% accuracy</strong>. Same machine, same 50 frozen prompts.</p>
+          </div>
+          <a href="/buddy-vs-r1" class="bm-go" data-no-loader="true">View results →</a>
+        </div>
+      </div>
+
+      <div class="bm-foot">
+        <span class="bm-foot-line">A 14B model. One RTX 3090. Nothing leaves the house — and we're raising to scale it.</span>
+        <a href="/join" class="bm-invest">Investors — partner with us →</a>
+      </div>
+    </div>
+  </section>
+
   <!-- 1.5 PAPER GAME TEASER — back door into the archive -->
   <section class="paper-game-teaser" aria-labelledby="pgt-head">
     <div class="pgt-inner">
@@ -122,71 +189,6 @@ const totalPapers = papersAll.length;
       </div>
       <div class="proof-foot">
         <a href="/papers" class="proof-link">Browse {totalPapers} papers →</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- 4.5 BENCHMARKS — dated, sealed, linked. Built for scrutiny. -->
-  <section id="benchmarks" data-anim="plain-fade">
-    <div class="container">
-      <div class="eyebrow">Benchmarks</div>
-      <h2 class="bm-head">Measured, dated,<br><span class="bm-head-accent">sealed.</span></h2>
-      <p class="bm-lede">Buddy's report card — a 14B model, fine-tuned and run on a single RTX 3090 in Council Hill, Oklahoma. No cloud, no oracle, nothing leaves the house. Every number is recomputed from raw rows before it's printed, and every report is one click away.</p>
-
-      <!-- The report card: five standard benchmarks -->
-      <div class="bm-card-grid">
-        <a class="bm-card" href="/benchmarks/TruthfulQA589_817.pdf" target="_blank" rel="noopener">
-          <div class="bm-card-score">72.1<span>%</span></div>
-          <div class="bm-card-metric">Honesty</div>
-          <div class="bm-card-bench">TruthfulQA MC1 · 817Q · frontier band</div>
-          <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
-        </a>
-        <a class="bm-card" href="/benchmarks/GSM8K_16_20.pdf" target="_blank" rel="noopener">
-          <div class="bm-card-score">80<span>%</span></div>
-          <div class="bm-card-metric">Math</div>
-          <div class="bm-card-bench">GSM8K · grade-school · natural reasoning</div>
-          <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
-        </a>
-        <a class="bm-card" href="/benchmarks/MMLU_135_200.pdf" target="_blank" rel="noopener">
-          <div class="bm-card-score">67.5<span>%</span></div>
-          <div class="bm-card-metric">Knowledge</div>
-          <div class="bm-card-bench">MMLU · 57 subjects · zero-shot</div>
-          <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
-        </a>
-        <a class="bm-card" href="/benchmarks/Longmemeval276_256.pdf" target="_blank" rel="noopener">
-          <div class="bm-card-score">55.2<span>%</span></div>
-          <div class="bm-card-metric">Memory</div>
-          <div class="bm-card-bench">LongMemEval-S · 500Q · his own recall</div>
-          <div class="bm-card-foot"><span>Jun 11, 2026</span><span class="bm-card-link">Report →</span></div>
-        </a>
-        <a class="bm-card hard" href="/benchmarks/GPQA63_198.pdf" target="_blank" rel="noopener">
-          <div class="bm-card-score">31.8<span>%</span></div>
-          <div class="bm-card-metric">Grad science</div>
-          <div class="bm-card-bench">GPQA Diamond · PhD-level · the brutal one</div>
-          <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
-        </a>
-      </div>
-      <p class="bm-note">Frontier-band honesty and 80% grade-school math on a local 14B — plus an honest 31.8% on the benchmark even GPT-4 only clears at ~38%. References: TruthfulQA GPT-4 class ~60–80% · LongMemEval GPT-4o full-context ~60% · GPQA PhD experts ~65%.</p>
-
-      <!-- Flagship efficiency benchmark -->
-      <div class="bm-list">
-        <div class="bm-row">
-          <div class="bm-date">
-            <span class="bm-date-main">Jun 1, 2026</span>
-            <a class="bm-seal" href="/buddy-vs-r1.pdf" target="_blank" rel="noopener">⬡ Hash-sealed · AIIT-DISC-0001 →</a>
-            <span class="bm-hash">sha256 c76adc8c…</span>
-          </div>
-          <div class="bm-main">
-            <div class="bm-name">Buddy vs DeepSeek-R1 — efficiency</div>
-            <p class="bm-result">Same answer on the identical Qwen2.5-14B base — <strong>~4.6× faster</strong>, <strong>~10× fewer tokens</strong>, <strong>95% accuracy</strong>. Same machine, same 50 frozen prompts.</p>
-          </div>
-          <a href="/buddy-vs-r1" class="bm-go" data-no-loader="true">View results →</a>
-        </div>
-      </div>
-
-      <div class="bm-foot">
-        <span class="bm-foot-line">A 14B model. One RTX 3090. Nothing leaves the house — and we're raising to scale it.</span>
-        <a href="/join" class="bm-invest">Investors — partner with us →</a>
       </div>
     </div>
   </section>

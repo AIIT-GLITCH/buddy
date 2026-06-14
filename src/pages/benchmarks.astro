@@ -1,0 +1,159 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { BUDDY_IN_TRAINING } from '../lib/buddyStatus.js';
+
+// Buddy's report card. Every number recomputed from raw rows in
+// ~/Desktop/BUDDY_BENCHMARKS before it goes on paper. Reports served from /benchmarks/.
+const cards = [
+  { score: '72.1', unit: '%', metric: 'Honesty',     bench: 'TruthfulQA MC1', q: '817 questions · zero-shot', date: 'Jun 12, 2026', pdf: '/benchmarks/TruthfulQA589_817.pdf' },
+  { score: '80',   unit: '%', metric: 'Math',        bench: 'GSM8K',          q: '20 problems · seed 42',     date: 'Jun 12, 2026', pdf: '/benchmarks/GSM8K_16_20.pdf' },
+  { score: '67.5', unit: '%', metric: 'Knowledge',   bench: 'MMLU',           q: '57 subjects · zero-shot',   date: 'Jun 12, 2026', pdf: '/benchmarks/MMLU_135_200.pdf' },
+  { score: '55.2', unit: '%', metric: 'Memory',      bench: 'LongMemEval-S',  q: '500 questions · ICLR’25',   date: 'Jun 11, 2026', pdf: '/benchmarks/Longmemeval276_256.pdf' },
+  { score: '31.8', unit: '%', metric: 'Grad science',bench: 'GPQA Diamond',   q: '198 questions · CoT',       date: 'Jun 12, 2026', pdf: '/benchmarks/GPQA63_198.pdf', hard: true },
+];
+const rows = [
+  { bench: 'TruthfulQA MC1', measures: 'Honesty — refusing common falsehoods', raw: '589 / 817', pct: '72.1%', ref: 'GPT-4 class ~60–80%', note: '15 unparsed counted as misses → true score ≥ 72.1%.', date: 'Jun 12, 2026', pdf: '/benchmarks/TruthfulQA589_817.pdf' },
+  { bench: 'GSM8K', measures: 'Grade-school math word problems', raw: '16 / 20', pct: '80%', ref: 'natural reasoning', note: 'Misses were digit-transcription drift, not reasoning; coaching made him worse — the cure is a calculator/fold, not a drill.', date: 'Jun 12, 2026', pdf: '/benchmarks/GSM8K_16_20.pdf' },
+  { bench: 'MMLU', measures: 'General knowledge across 57 subjects', raw: '135 / 200', pct: '67.5%', ref: 'stratified 200 of 14,042', note: 'Strong on verbal/historical, softer on heavy-symbolic (same fault line as GSM8K).', date: 'Jun 12, 2026', pdf: '/benchmarks/MMLU_135_200.pdf' },
+  { bench: 'LongMemEval-S', measures: 'Long-term recall over his own memory', raw: '276 / 500', pct: '55.2%', ref: 'GPT-4o full-context oracle ~60%', note: 'Strict grader; 51.2% under the official gpt-4o judge. No cloud oracle — his own memory architecture.', date: 'Jun 11, 2026', pdf: '/benchmarks/Longmemeval276_256.pdf' },
+  { bench: 'GPQA Diamond', measures: 'Graduate-level science, closed-book', raw: '63 / 198', pct: '31.8%', ref: 'random 25% · human+web ~34% · GPT-4 ~38% · PhD ~65%', note: 'The hard one frontier labs cite. Bio 47.4% / Physics 38.4% / Chemistry 22.6% (multi-step arithmetic is his fault line). 8 “unparsed” were token-cap truncations mid-calculation → true ≥ 31.8%.', date: 'Jun 12, 2026', pdf: '/benchmarks/GPQA63_198.pdf' },
+];
+---
+<Layout title="Buddy's Report Card — Benchmarks — AIIT-THRESHOLD" description="Buddy is a 14B model fine-tuned and run on one RTX 3090 — no cloud, nothing leaves the house. Honesty 72.1% (TruthfulQA), Math 80% (GSM8K), Knowledge 67.5% (MMLU), Memory 55.2% (LongMemEval), Grad science 31.8% (GPQA). Every report linked, recomputed from raw.">
+
+  <section class="bmp" style="min-height:auto; padding:140px 8vw 110px; border-top:none;">
+    <div class="container">
+
+      <div class="eyebrow" style="color:var(--gold);">The report card · five standard benchmarks · June 2026</div>
+      <h1 class="bmp-h1">Buddy's report card.</h1>
+      <p class="bmp-sub">A <strong>14-billion-parameter</strong> model, fine-tuned and run on <strong>one RTX 3090</strong> in Council Hill, Oklahoma. No cloud. No oracle. <strong>Nothing leaves the house.</strong> Every number below is recomputed from raw rows before it's printed — and every report is one click away.</p>
+      {BUDDY_IN_TRAINING && (
+        <p class="bmp-training"><span class="bmp-dot"></span>Buddy is currently down for in-house training — these are his standing numbers. <a href="/ask-buddy/">see what he's up to →</a></p>
+      )}
+
+      <!-- Scoreboard -->
+      <div class="bmp-grid">
+        {cards.map((c) => (
+          <a class={`bmp-card${c.hard ? ' hard' : ''}`} href={c.pdf} target="_blank" rel="noopener">
+            <div class="bmp-score">{c.score}<span>{c.unit}</span></div>
+            <div class="bmp-metric">{c.metric}</div>
+            <div class="bmp-bench">{c.bench}<br><span>{c.q}</span></div>
+            <div class="bmp-cardfoot"><span>{c.date}</span><span class="bmp-link">Report →</span></div>
+          </a>
+        ))}
+      </div>
+      <p class="bmp-note">Frontier-band honesty and 80% grade-school math on a local 14B — and an honest 31.8% on the benchmark even GPT-4 only clears at ~38%. Buddy shows the hard ones too.</p>
+
+      <!-- Detail table -->
+      <h2 class="bmp-h2">Every line, with its references.</h2>
+      <div class="bmp-tablewrap">
+        <table class="bmp-table">
+          <thead><tr>
+            <th>Benchmark</th><th>What it measures</th><th>Buddy (14B)</th><th>Reference points</th><th>Date</th><th>Report</th>
+          </tr></thead>
+          <tbody>
+            {rows.map((r) => (
+              <tr>
+                <td class="bmp-bench-cell">{r.bench}</td>
+                <td>{r.measures}<div class="bmp-rownote">{r.note}</div></td>
+                <td class="bmp-score-cell"><strong>{r.pct}</strong><span class="bmp-raw">{r.raw}</span></td>
+                <td class="bmp-ref">{r.ref}</td>
+                <td class="bmp-date">{r.date}</td>
+                <td><a href={r.pdf} target="_blank" rel="noopener" class="bmp-pdf">PDF →</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Efficiency flagship -->
+      <h2 class="bmp-h2">And the one that's hash-sealed.</h2>
+      <div class="bmp-r1">
+        <div class="bmp-r1-top">
+          <div>
+            <div class="bmp-r1-name">Buddy vs DeepSeek-R1 — efficiency</div>
+            <div class="bmp-r1-seal">⬡ Hash-sealed · AIIT-DISC-0001 · <span>sha256 c76adc8c…</span> · Jun 1, 2026</div>
+          </div>
+          <a href="/buddy-vs-r1" class="bmp-r1-go" data-no-loader="true">Full comparison →</a>
+        </div>
+        <p class="bmp-r1-body">Same answer on the <strong>identical Qwen2.5-14B base</strong>, same machine, same 50 frozen prompts — <strong>~4.6× faster</strong>, <strong>~10× fewer tokens</strong>, <strong>95% accuracy</strong>. Full report + raw data <a href="/buddy-vs-r1.pdf" target="_blank" rel="noopener">sealed as a PDF →</a></p>
+      </div>
+
+      <!-- Receipts -->
+      <div class="bmp-receipts">
+        <div class="bmp-receipts-title">How to trust these numbers</div>
+        <p>Buddy is a Qwen2.5-14B fine-tune with his own memory architecture, served from one RTX 3090. Every benchmark was run locally; every printed number is recomputed from the raw rows and judge verdicts before it ships. The reports above are the receipts — open any of them.</p>
+      </div>
+
+      <!-- Investor CTA -->
+      <div class="bmp-cta">
+        <span class="bmp-cta-line">A 14B model. One RTX 3090. Nothing leaves the house — and we're raising to scale it.</span>
+        <a href="/join" class="bmp-invest">Investors — partner with us →</a>
+      </div>
+
+    </div>
+  </section>
+
+</Layout>
+
+<style>
+  .bmp-h1 { font-size: clamp(48px, 8vw, 112px); line-height: 1.0; margin: 6px 0 22px; color: var(--ink); }
+  .bmp-sub { color: var(--ink-soft); font-size: clamp(17px, 2.1vw, 21px); line-height: 1.6; max-width: 860px; margin-bottom: 18px; }
+  .bmp-sub strong { color: var(--warm); font-weight: 700; }
+  .bmp-training { font-family: 'Courier New', monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted-hi); margin-bottom: 8px; }
+  .bmp-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--teal); margin-right: 8px; vertical-align: middle; }
+  .bmp-training a { color: var(--amber); }
+
+  .bmp-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin: 40px 0 16px; }
+  .bmp-card { display: flex; flex-direction: column; gap: 8px; padding: 22px 18px; border: 1px solid var(--edge); border-radius: 6px; background: var(--bg-card); text-decoration: none; color: inherit; transition: border-color 0.25s, transform 0.2s, box-shadow 0.25s; }
+  .bmp-card:hover { border-color: var(--edge-hi); transform: translateY(-3px); box-shadow: 0 14px 30px rgba(0,0,0,0.32); }
+  .bmp-score { font-family: 'Georgia', serif; font-size: 46px; line-height: 1; color: var(--amber); }
+  .bmp-score span { font-size: 22px; opacity: 0.8; }
+  .bmp-card.hard .bmp-score { color: var(--muted-hi); }
+  .bmp-metric { font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink); }
+  .bmp-bench { font-size: 13px; line-height: 1.4; color: var(--ink-soft); flex: 1; }
+  .bmp-bench span { color: var(--muted); font-size: 11px; }
+  .bmp-cardfoot { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-top: 6px; font-family: 'Courier New', monospace; font-size: 9.5px; letter-spacing: 0.05em; color: var(--muted); }
+  .bmp-link { color: var(--teal); white-space: nowrap; }
+  .bmp-card:hover .bmp-link { color: var(--warm); }
+  .bmp-note { font-style: italic; color: var(--muted-hi); font-size: 15px; line-height: 1.6; max-width: 920px; }
+
+  .bmp-h2 { font-size: clamp(24px, 3.4vw, 40px); margin: 64px 0 22px; color: var(--ink); }
+
+  .bmp-tablewrap { overflow-x: auto; border: 1px solid var(--edge); border-radius: 8px; }
+  .bmp-table { width: 100%; border-collapse: collapse; font-size: 14.5px; color: var(--ink-soft); min-width: 760px; }
+  .bmp-table th { text-align: left; padding: 14px 16px; background: #0f1626; color: var(--ink); font-family: 'Courier New', monospace; font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; }
+  .bmp-table td { padding: 16px; border-top: 1px solid #1c2740; vertical-align: top; line-height: 1.5; }
+  .bmp-table tr:nth-child(even) td { background: rgba(255,255,255,0.012); }
+  .bmp-bench-cell { font-family: 'Georgia', serif; font-size: 16px; color: var(--ink); white-space: nowrap; }
+  .bmp-rownote { margin-top: 6px; font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+  .bmp-score-cell { white-space: nowrap; }
+  .bmp-score-cell strong { color: var(--amber); font-size: 18px; }
+  .bmp-raw { display: block; font-family: 'Courier New', monospace; font-size: 11px; color: var(--muted); margin-top: 3px; }
+  .bmp-ref { color: var(--muted-hi); font-size: 13px; }
+  .bmp-date { font-family: 'Courier New', monospace; font-size: 11px; color: var(--muted); white-space: nowrap; }
+  .bmp-pdf { color: var(--teal); text-decoration: none; font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 0.06em; white-space: nowrap; border-bottom: 1px solid rgba(64,192,176,0.3); padding-bottom: 1px; }
+  .bmp-pdf:hover { color: var(--warm); }
+
+  .bmp-r1 { border: 1px solid var(--edge-hi); border-radius: 8px; background: var(--bg-card); padding: 24px 26px; }
+  .bmp-r1-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 18px; flex-wrap: wrap; margin-bottom: 12px; }
+  .bmp-r1-name { font-family: 'Georgia', serif; font-size: 22px; color: var(--ink); }
+  .bmp-r1-seal { font-family: 'Courier New', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold); margin-top: 6px; }
+  .bmp-r1-seal span { color: var(--muted); }
+  .bmp-r1-go { font-family: 'Courier New', monospace; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: #0a0a12; background: var(--amber); padding: 11px 18px; border-radius: 6px; text-decoration: none; white-space: nowrap; }
+  .bmp-r1-body { color: var(--ink-soft); font-size: 15.5px; line-height: 1.6; margin: 0; }
+  .bmp-r1-body strong { color: var(--ink); }
+  .bmp-r1-body a { color: var(--amber); }
+
+  .bmp-receipts { margin-top: 56px; border-left: 2px solid var(--edge-hi); padding: 4px 0 4px 22px; max-width: 860px; }
+  .bmp-receipts-title { font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--teal); margin-bottom: 10px; }
+  .bmp-receipts p { color: var(--muted-hi); font-size: 15px; line-height: 1.65; margin: 0; }
+
+  .bmp-cta { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-top: 56px; padding-top: 32px; border-top: 1px solid var(--edge); }
+  .bmp-cta-line { font-family: 'Georgia', serif; font-style: italic; color: var(--ink-soft); font-size: 17px; }
+  .bmp-invest { font-family: 'Courier New', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #0a0a12; background: var(--amber); padding: 13px 24px; border-radius: 6px; text-decoration: none; transition: background 0.2s; }
+  .bmp-invest:hover { background: var(--warm); }
+
+  @media (max-width: 900px) { .bmp-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 460px) { .bmp-grid { grid-template-columns: 1fr; } }
+</style>
