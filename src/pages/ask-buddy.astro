@@ -2,6 +2,10 @@
 import Layout from '../layouts/Layout.astro';
 import BuddyMascot from '../components/BuddyMascot.astro';
 
+// Maintenance gate — Buddy is down for in-house training on house-flavour
+// Tessera tokenized shards. Flip to false to bring the live chat back.
+const BUDDY_IN_TRAINING = true;
+
 // Original pixel-art planet sprites (Ella's planets, 2026-06-11).
 // 16x16 grids, one char per pixel ('.' = transparent), rendered to SVG
 // rects at build time. Drawn in-house in the locked pixel-planets style.
@@ -198,8 +202,31 @@ function spriteRects(sprite) {
 ---
 <Layout title="ASKBUDDY! — AIIT-THRESHOLD" description="Ask Buddy anything. He thinks by flipping through planets.">
 
+{BUDDY_IN_TRAINING && (
+  <section class="buddy-training">
+    <div class="bt-tr-stage">
+      <p class="bt-tr-eyebrow"><span class="bt-tr-dot"></span>STATUS · IN THE SHOP — TRAINING</p>
+      <div class="bt-tr-slot" role="img" aria-label="Buddy mascot, currently in training">
+        <BuddyMascot id="train-buddy-mascot" size={132} animated={true} />
+      </div>
+      <h1 class="bt-tr-headline">Buddy stepped out to get <em>sharper.</em></h1>
+      <p class="bt-tr-body">He's offline for a spell — down for some <span class="bt-tr-em">in-house training</span>, chewing through a fresh batch of <span class="bt-tr-shards">house-flavour Tessera tokenized shards</span> and fitting every little tile into place.<span class="bt-tr-sub">Mosaic's coming together. He'll be back better than he left.</span></p>
+      <div class="bt-tr-readout" role="group" aria-label="Training readout">
+        <div class="bt-tr-row"><span class="bt-tr-label">Run</span><span class="bt-tr-value">house·flavour — <b>in-house</b></span></div>
+        <div class="bt-tr-row"><span class="bt-tr-label">Epoch</span><span class="bt-tr-value"><b>03</b> / 04</span></div>
+        <div class="bt-tr-row"><span class="bt-tr-label">Tessera shards ingested</span><span class="bt-tr-value"><b>7,184</b></span></div>
+        <div class="bt-tr-mosaic" aria-hidden="true"><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile on"></span><span class="bt-tr-tile next"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span><span class="bt-tr-tile"></span></div>
+      </div>
+      <p class="bt-tr-foot">Back soon · <a href="/">return home</a></p>
+    </div>
+  </section>
+)}
+
+<script define:vars={{ buddyTraining: BUDDY_IN_TRAINING }}>window.__BUDDY_TRAINING__ = buddyTraining;</script>
+
 <script is:inline>
   (function () {
+    if (window.__BUDDY_TRAINING__) return;
     var hash = (location.hash || '').toLowerCase();
     var params = new URLSearchParams(location.search);
     var mode = (params.get('mode') || params.get('view') || '').toLowerCase();
@@ -212,7 +239,7 @@ function spriteRects(sprite) {
   })();
 </script>
 
-<section class="ask-page">
+<section class:list={["ask-page", BUDDY_IN_TRAINING && "bt-training-hidden"]}>
 
   <!-- Header: small Buddy + title (tight) -->
   <header class="ask-head">
@@ -391,6 +418,7 @@ function spriteRects(sprite) {
 
 <script is:inline>
 (function () {
+  if (window.__BUDDY_TRAINING__) return;
   if (location.hash === '#ask') {
     const i = document.getElementById('ask-input');
     if (i) { i.focus({ preventScroll: false }); }
@@ -1740,6 +1768,11 @@ function spriteRects(sprite) {
   body:has(.ask-page) {
     background: #f4ece0 !important;
     color: #1a1a1a;
+  }
+  /* Training mode: Buddy's placeholder is dark-themed — paint the page dark. */
+  body:has(.buddy-training) {
+    background: #0a0a12 !important;
+    color: #e8d8c0;
   }
   html.buddy-thread-route body:has(.ask-page) {
     background: #0a0a12 !important;
@@ -3101,6 +3134,150 @@ function spriteRects(sprite) {
   .bt-notice .bt-export-btn,
   .bt-notice .bt-clear-btn { flex: 1 1 auto; }
 }
+
+  /* ====== Buddy in-house training placeholder (gated by BUDDY_IN_TRAINING) ====== */
+  .ask-page.bt-training-hidden { display: none !important; }
+  .buddy-training {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 140px 6vw 90px;
+    border-top: none;
+    overflow: hidden;
+  }
+  .buddy-training * { box-sizing: border-box; }
+  .buddy-training::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(60% 50% at 50% 38%, rgba(200,144,64,0.10), transparent 70%),
+      radial-gradient(45% 40% at 50% 72%, rgba(64,192,176,0.06), transparent 75%);
+    pointer-events: none;
+  }
+  .bt-tr-stage {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(1.4rem, 3.5vh, 2.4rem);
+  }
+  .bt-tr-eyebrow {
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.28em;
+    font-size: clamp(0.62rem, 1.4vw, 0.78rem);
+    color: var(--teal);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.85em;
+  }
+  .bt-tr-dot {
+    width: 0.62em; height: 0.62em; border-radius: 50%;
+    background: var(--teal);
+    box-shadow: 0 0 0 0 rgba(64,192,176,0.55);
+    animation: bt-tr-pulse 2.4s ease-out infinite;
+    flex: none;
+  }
+  @keyframes bt-tr-pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(64,192,176,0.55); opacity: 1; }
+    70%  { box-shadow: 0 0 0 0.9em rgba(64,192,176,0); opacity: 0.75; }
+    100% { box-shadow: 0 0 0 0 rgba(64,192,176,0); opacity: 1; }
+  }
+  .bt-tr-slot {
+    position: relative;
+    width: clamp(120px, 22vw, 168px);
+    height: clamp(120px, 22vw, 168px);
+    border-radius: 26px;
+    display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(160deg, rgba(212,160,96,0.16), rgba(64,192,176,0.05));
+    border: 1px solid rgba(200,144,64,0.45);
+    box-shadow: 0 0 44px rgba(200,144,64,0.20), inset 0 0 30px rgba(0,0,0,0.45);
+  }
+  .bt-tr-headline {
+    font-family: 'Georgia', serif;
+    color: var(--ink);
+    font-weight: 400;
+    font-size: clamp(2.4rem, 7vw, 5rem);
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    max-width: 16ch;
+  }
+  .bt-tr-headline em { font-style: italic; color: var(--amber); }
+  .bt-tr-body {
+    font-family: 'Georgia', serif;
+    color: var(--ink-soft);
+    font-size: clamp(1.02rem, 2.2vw, 1.3rem);
+    line-height: 1.7;
+    max-width: 46ch;
+  }
+  .bt-tr-em { color: var(--amber); }
+  .bt-tr-shards { color: var(--warm); font-style: italic; }
+  .bt-tr-sub { display: block; margin-top: 0.85em; color: var(--muted); font-size: 0.9em; }
+  .bt-tr-readout {
+    width: 100%; max-width: 440px;
+    border: 1px solid rgba(64,192,176,0.22);
+    border-radius: 12px;
+    padding: 1.1rem 1.3rem 1.25rem;
+    background: rgba(255,255,255,0.012);
+    display: flex; flex-direction: column; gap: 0.85rem;
+    text-align: left;
+  }
+  .bt-tr-row {
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-family: 'Courier New', monospace;
+    font-size: 0.74rem; letter-spacing: 0.12em; text-transform: uppercase;
+  }
+  .bt-tr-label { color: var(--muted); }
+  .bt-tr-value { color: var(--amber); letter-spacing: 0.06em; }
+  .bt-tr-value b { color: var(--warm); font-weight: 700; }
+  .bt-tr-mosaic { display: flex; gap: 5px; flex-wrap: wrap; }
+  .bt-tr-tile {
+    flex: 1 1 0; min-width: 14px; height: 13px; border-radius: 3px;
+    background: rgba(64,192,176,0.10); border: 1px solid rgba(64,192,176,0.16);
+  }
+  .bt-tr-tile.on {
+    background: linear-gradient(135deg, var(--gold), var(--amber));
+    border-color: rgba(212,160,96,0.6);
+    box-shadow: 0 0 7px rgba(212,160,96,0.45);
+    animation: bt-tr-settle 3.4s ease-in-out infinite;
+  }
+  .bt-tr-tile.on:nth-child(3n) { animation-delay: 0.6s; }
+  .bt-tr-tile.on:nth-child(3n+1) { animation-delay: 1.2s; }
+  .bt-tr-tile.next {
+    background: rgba(255,232,138,0.14); border-color: rgba(255,232,138,0.4);
+    animation: bt-tr-blink 1.8s ease-in-out infinite;
+  }
+  @keyframes bt-tr-settle { 0%,100% { opacity: 1; } 50% { opacity: 0.78; } }
+  @keyframes bt-tr-blink { 0%,100% { opacity: 0.35; } 50% { opacity: 1; } }
+  .bt-tr-foot {
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase; letter-spacing: 0.24em;
+    font-size: 0.64rem; color: var(--muted); margin-top: 0.4rem;
+  }
+  .bt-tr-foot a {
+    color: var(--teal); text-decoration: none;
+    border-bottom: 1px solid rgba(64,192,176,0.3); padding-bottom: 1px;
+  }
+  .bt-tr-foot a:hover { color: var(--warm); border-color: var(--warm); }
+  @media (max-width: 600px) {
+    .buddy-training { padding: 120px 5vw 70px; }
+    .bt-tr-headline { font-size: clamp(2rem, 9vw, 3rem); }
+    .bt-tr-body { font-size: 1.05rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .buddy-training .bt-tr-dot { animation: none; box-shadow: 0 0 0 4px rgba(64,192,176,0.18); }
+    .buddy-training .bt-tr-tile.on { animation: none; opacity: 1; }
+    .buddy-training .bt-tr-tile.next { animation: none; opacity: 0.85; }
+  }
 
 </style>
 
