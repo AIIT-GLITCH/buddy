@@ -126,6 +126,39 @@ const totalPapers = papersAll.length;
     </div>
   </section>
 
+  <!-- 4.5 BENCHMARKS — dated, sealed, linked. Built for scrutiny. -->
+  <section id="benchmarks" data-anim="plain-fade">
+    <div class="container">
+      <div class="eyebrow">Benchmarks</div>
+      <h2 class="bm-head">Measured, dated,<br><span class="bm-head-accent">sealed.</span></h2>
+      <p class="bm-lede">Every result here is a public, reproducible record — hash-sealed or written to an open ledger. Not demos. Receipts.</p>
+
+      <div class="bm-list">
+        <a href="/buddy-vs-r1" class="bm-row" data-no-loader="true">
+          <div class="bm-date"><span class="bm-date-main">Jun 1, 2026</span><span class="bm-seal">⬡ Hash-sealed · AIIT-DISC-0001</span></div>
+          <div class="bm-main">
+            <div class="bm-name">Buddy vs DeepSeek-R1</div>
+            <p class="bm-result">Same answer on the identical Qwen2.5-14B base — <strong>~4.6× faster</strong>, <strong>~10× fewer tokens</strong>, <strong>95% accuracy</strong>. Same machine, same 50 frozen prompts.</p>
+          </div>
+          <div class="bm-go">View results →</div>
+        </a>
+        <a href="/anchorforge" class="bm-row">
+          <div class="bm-date"><span class="bm-date-main">Live</span><span class="bm-seal">⬡ Public ledger</span></div>
+          <div class="bm-main">
+            <div class="bm-name">AnchorForge</div>
+            <p class="bm-result">Physics-first citation-integrity benchmark — <strong>23 frontier models</strong>, <strong>880 anchors</strong> verified, every run written to a public GitHub log.</p>
+          </div>
+          <div class="bm-go">View benchmark →</div>
+        </a>
+      </div>
+
+      <div class="bm-foot">
+        <span class="bm-foot-line">Public and reproducible by design — and we're raising to scale it.</span>
+        <a href="/join" class="bm-invest">Investors — partner with us →</a>
+      </div>
+    </div>
+  </section>
+
   <!-- 5. FRAMEWORK TEASER -->
   <section id="framework-teaser" data-anim="card-slide-in">
     <div class="container narrow">
@@ -2448,4 +2481,57 @@ const totalPapers = papersAll.length;
     .pgt-actions { gap: 14px; margin-bottom: 32px; }
     .pgt-card { padding: 20px 18px; }
   }
+  /* ===== BENCHMARKS — dated/sealed/linked evidence (investor-facing) ===== */
+  .bm-head { margin-bottom: 18px; }
+  .bm-head-accent { color: var(--amber); }
+  .bm-lede {
+    color: var(--muted-hi); font-size: 18px; line-height: 1.6;
+    max-width: 680px; margin-bottom: 36px;
+  }
+  .bm-list { display: flex; flex-direction: column; gap: 14px; max-width: 940px; }
+  .bm-row {
+    display: grid; grid-template-columns: 210px 1fr auto; gap: 24px; align-items: center;
+    padding: 22px 26px; border: 1px solid var(--edge); border-radius: 6px;
+    background: var(--bg-card); text-decoration: none; color: inherit;
+    transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
+  }
+  .bm-row:hover {
+    border-color: var(--edge-hi); transform: translateY(-2px);
+    box-shadow: 0 14px 34px rgba(0,0,0,0.32);
+  }
+  .bm-date { display: flex; flex-direction: column; gap: 7px; }
+  .bm-date-main {
+    font-family: 'Courier New', monospace; font-size: 13px; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--warm);
+  }
+  .bm-seal {
+    font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 0.07em;
+    text-transform: uppercase; color: var(--teal); line-height: 1.3;
+  }
+  .bm-name { font-family: 'Georgia', serif; font-size: 23px; color: var(--ink); margin-bottom: 7px; }
+  .bm-result { font-size: 15px; line-height: 1.55; color: var(--muted-hi); margin: 0; }
+  .bm-result strong { color: var(--ink); font-weight: 700; }
+  .bm-go {
+    font-family: 'Courier New', monospace; font-size: 12px; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--amber); white-space: nowrap;
+  }
+  .bm-foot {
+    display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
+    margin-top: 30px; max-width: 940px;
+  }
+  .bm-foot-line { font-family: 'Georgia', serif; font-style: italic; color: var(--ink-soft); font-size: 16px; }
+  .bm-invest {
+    font-family: 'Courier New', monospace; font-size: 12px; letter-spacing: 0.12em;
+    text-transform: uppercase; color: #0a0a12; background: var(--amber);
+    padding: 12px 22px; border-radius: 6px; text-decoration: none;
+    transition: background 0.2s, transform 0.12s;
+  }
+  .bm-invest:hover { background: var(--warm); transform: translateY(-1px); }
+  @media (max-width: 720px) {
+    .bm-row { grid-template-columns: 1fr; gap: 12px; padding: 20px; }
+    .bm-date { flex-direction: row; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+    .bm-go { justify-self: start; }
+    .bm-foot { gap: 14px; }
+  }
+
 </style>
