@@ -139,11 +139,67 @@ import Layout from '../layouts/Layout.astro';
   for (const m of history) add(m.role === 'user' ? 'user' : 'jim', m.content, m.ts);
   if (history.length) log.scrollTop = log.scrollHeight;
 
+  const PENDING = 'jk_pending_v1';
+  function randomId() {
+    if (window.crypto && crypto.randomUUID) return crypto.randomUUID().replace(/-/g, '');
+    return 'r' + Date.now().toString(36) + Math.random().toString(36).slice(2, 12);
+  }
+  function memChip(text) {
+    const n = document.createElement('div');
+    n.className = 'jk-mem';
+    n.textContent = '✎ Jim kept a memory: "' + text + '"';
+    log.appendChild(n);
+    log.scrollTop = log.scrollHeight;
+  }
+  // Apply a successful reply payload to a pending bubble — shared by the live send
+  // path and the recovery-on-return path so behavior is identical.
+  function applyReply(bubble, d) {
+    bubble.body.textContent = d.reply;
+    bubble.item.classList.remove('pending');
+    history.push({ role: 'assistant', content: d.reply, ts: Date.now() });
+    persist();
+    if (d.remembered) memChip(d.remembered);
+    const s = d.stats || {};
+    if (s.tok_per_sec) {
+      speeds.push(s.tok_per_sec);
+      speedEl.textContent = s.tok_per_sec + ' tok/s';
+      const avg = speeds.reduce((a, b) => a + b, 0) / speeds.length;
+      avgEl.textContent = 'avg ' + (Math.round(avg * 10) / 10) + ' tok/s';
+    }
+    if (s.msgs_left_today != null) leftEl.textContent = '· ' + s.msgs_left_today + ' msgs left today';
+  }
+
   document.getElementById('jk-clear').addEventListener('click', function () {
     history = [];
     persist();
+    try { localStorage.removeItem(PENDING); } catch (e) {}
     log.querySelectorAll('.jk-item, .jk-mem').forEach((el, i) => { if (i > 0) el.remove(); });
   });
+
+  // Recover a reply the visitor left before receiving. Jim generates server-side
+  // even if you navigate away; the answer is stashed for ~10 min and fetched here.
+  (async function recoverPending() {
+    let p;
+    try { p = JSON.parse(localStorage.getItem(PENDING) || 'null'); } catch (e) { p = null; }
+    if (!p || !p.reqId) return;
+    const stale = Date.now() - (p.ts || 0) > 10 * 60 * 1000;
+    const awaiting = history.length && history[history.length - 1].role === 'user';
+    if (stale || !awaiting) { try { localStorage.removeItem(PENDING); } catch (e) {} return; }
+    const bubble = add('jim', "…catching up on Jim's reply from before…", Date.now(), true);
+    const deadline = Date.now() + 90 * 1000;
+    while (Date.now() < deadline) {
+      try {
+        const r = await fetch('/api/jimkai?poll=' + encodeURIComponent(p.reqId));
+        const d = await r.json();
+        if (d.ok) { try { localStorage.removeItem(PENDING); } catch (e) {} applyReply(bubble, d); return; }
+        if (d.pending === false) break;   // not recoverable (KV unbound) — stop
+      } catch (e) {}
+      await new Promise(res => setTimeout(res, 3000));
+    }
+    try { localStorage.removeItem(PENDING); } catch (e) {}
+    bubble.body.textContent = "Jim's reply from before didn't make it back — ask him again?";
+    bubble.item.classList.remove('pending');
+  })();
 
   form.addEventListener('submit', async function (e) {
     e.preventDefault();
@@ -156,35 +212,22 @@ import Layout from '../layouts/Layout.astro';
     persist();
     const pending = add('jim', '…thinking (CPU box, give him a sec)', Date.now(), true);
     send.disabled = true;
+    const reqId = randomId();
+    try { localStorage.setItem(PENDING, JSON.stringify({ reqId: reqId, ts: now })); } catch (e) {}
     try {
       const r = await fetch('/api/jimkai', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: q, history: history.slice(0, -1) }),
+        body: JSON.stringify({ message: q, history: history.slice(0, -1), req_id: reqId }),
       });
       const d = await r.json();
+      try { localStorage.removeItem(PENDING); } catch (e) {}
       if (!d.ok) { pending.body.textContent = d.error || 'something went wrong.'; pending.item.classList.remove('pending'); return; }
-      pending.body.textContent = d.reply;
-      pending.item.classList.remove('pending');
-      history.push({ role: 'assistant', content: d.reply, ts: Date.now() });
-      persist();
-      if (d.remembered) {
-        const n = document.createElement('div');
-        n.className = 'jk-mem';
-        n.textContent = '✎ Jim kept a memory: "' + d.remembered + '"';
-        log.appendChild(n);
-        log.scrollTop = log.scrollHeight;
-      }
-      const s = d.stats || {};
-      if (s.tok_per_sec) {
-        speeds.push(s.tok_per_sec);
-        speedEl.textContent = s.tok_per_sec + ' tok/s';
-        const avg = speeds.reduce((a, b) => a + b, 0) / speeds.length;
-        avgEl.textContent = 'avg ' + (Math.round(avg * 10) / 10) + ' tok/s';
-      }
-      if (s.msgs_left_today != null) leftEl.textContent = '· ' + s.msgs_left_today + ' msgs left today';
+      applyReply(pending, d);
     } catch (err) {
-      pending.body.textContent = 'network hiccup — try again.';
+      // Connection dropped, but Jim is likely still finishing server-side. Keep the
+      // pending marker so a reload recovers his reply instead of losing it.
+      pending.body.textContent = "connection dropped — reload and Jim's reply will catch up.";
       pending.item.classList.remove('pending');
     } finally {
       send.disabled = false;

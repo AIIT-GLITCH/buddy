@@ -97,31 +97,20 @@ async function makeCookie(used, secret) {
   return `${COOKIE}=${encodeURIComponent(payload + '.' + await sign(payload, secret))}; Path=/; Max-Age=90000; HttpOnly; Secure; SameSite=Lax`;
 }
 
-export async function onRequestPost(context) {
-  const { request, env } = context;
-  const secret = env.BROKE_GARY_SECRET;
-  if (!secret) return new Response(JSON.stringify({ ok: false, error: 'not configured' }), { status: 503, headers: headers() });
+const PENDING_PREFIX = 'jim:pending:';
+const PENDING_TTL = 600;   // seconds a stashed reply survives for a returning visitor
 
-  // rate limit
-  const parsed = await readCookie(request, secret);
-  let used = parsed && parsed.day === dayNum() ? parsed.used : 0;
-  if (used >= DAILY_LIMIT) {
-    return new Response(JSON.stringify({ ok: false, error: `Daily limit reached (${DAILY_LIMIT} messages). Jim runs on one CPU box — come back tomorrow.` }),
-      { status: 429, headers: headers() });
-  }
-
-  let body;
-  try { body = await request.json(); } catch { return new Response(JSON.stringify({ ok: false, error: 'bad json' }), { status: 400, headers: headers() }); }
-
+// Do the actual generation + memory write + result stash. Returns the payload.
+// Runs inside context.waitUntil() so it COMPLETES even if the visitor navigates
+// away mid-reply (Jim is slow on CPU) — the reply and any memory are never lost.
+async function generateReply(env, body, reqId) {
   const history = Array.isArray(body.history) ? body.history.slice(-MAX_TURNS) : [];
 
-  // Jim's own kept memories (cross-visitor, KV-backed; degrade gracefully if unbound)
   let memories = [];
   if (env.AUTH_KV) {
     try { memories = JSON.parse(await env.AUTH_KV.get(MEM_KEY) || '[]'); } catch (e) { memories = []; }
   }
 
-  // Time + spatial/embodiment awareness — computed fresh every message.
   let sys = SYSTEM_PROMPT_BASE +
     `\n\nRIGHT NOW: it is ${currentTimeInCouncilHill()} in Council Hill, Oklahoma, ` +
     'where you are based. Use this if the conversation touches on time, date, or "right now."' +
@@ -138,50 +127,101 @@ export async function onRequestPost(context) {
     msgs.push({ role: m.role === 'assistant' ? 'assistant' : 'user', content: String(m.content).slice(0, MAX_CHARS) });
   }
   const userMsg = String(body.message || '').slice(0, MAX_CHARS).trim();
-  if (!userMsg) return new Response(JSON.stringify({ ok: false, error: 'empty message' }), { status: 400, headers: headers() });
+  if (!userMsg) return { ok: false, error: 'empty message' };
   msgs.push({ role: 'user', content: userMsg });
 
+  let payload;
   const t0 = Date.now();
-  let upstream;
   try {
-    upstream = await fetch(UPSTREAM, {
+    const upstream = await fetch(UPSTREAM, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ model: 'jim-kai', messages: msgs, max_tokens: MAX_TOKENS, temperature: 0.7 }),
       signal: AbortSignal.timeout(120000),
     });
+    if (!upstream.ok) {
+      payload = { ok: false, error: 'Jim had trouble answering (' + upstream.status + ').' };
+    } else {
+      const data = await upstream.json();
+      const wallMs = Date.now() - t0;
+      let reply = data?.choices?.[0]?.message?.content || '…';
+      const usage = data?.usage || {};
+
+      let remembered = null;
+      const memMatch = reply.match(/\[REMEMBER:\s*([^\]]{3,})\]/i);
+      if (memMatch && env.AUTH_KV) {
+        remembered = memMatch[1].trim().slice(0, MEM_MAXLEN);
+        memories.push({ t: remembered, ts: Date.now() });
+        if (memories.length > MEM_CAP) memories = memories.slice(-MEM_CAP);
+        try { await env.AUTH_KV.put(MEM_KEY, JSON.stringify(memories)); } catch (e) { remembered = null; }
+      }
+      reply = reply.replace(/\s*\[REMEMBER:[^\]]*\]\s*/gi, '').trim() || '…';
+      const timings = data?.timings || {};
+      const tokPerSec = timings.predicted_per_second
+        ? Math.round(timings.predicted_per_second * 10) / 10
+        : (usage.completion_tokens ? Math.round((usage.completion_tokens / (wallMs / 1000)) * 10) / 10 : null);
+      payload = {
+        ok: true, reply, remembered,
+        stats: { tok_per_sec: tokPerSec, completion_tokens: usage.completion_tokens ?? null, wall_ms: wallMs },
+      };
+    }
   } catch (e) {
-    return new Response(JSON.stringify({ ok: false, error: 'Jim is unreachable right now (the box may be busy training). Try again soon.' }),
-      { status: 502, headers: headers() });
+    payload = { ok: false, error: 'Jim is unreachable right now (the box may be busy). Try again soon.' };
   }
-  if (!upstream.ok) {
-    return new Response(JSON.stringify({ ok: false, error: 'Jim had trouble answering (' + upstream.status + ').' }), { status: 502, headers: headers() });
-  }
-  const data = await upstream.json();
-  const wallMs = Date.now() - t0;
-  let reply = data?.choices?.[0]?.message?.content || '…';
-  const usage = data?.usage || {};
 
-  // Jim chose to keep a memory — store it, strip it from the visible reply
-  let remembered = null;
-  const memMatch = reply.match(/\[REMEMBER:\s*([^\]]{3,})\]/i);
-  if (memMatch && env.AUTH_KV) {
-    remembered = memMatch[1].trim().slice(0, MEM_MAXLEN);
-    memories.push({ t: remembered, ts: Date.now() });
-    if (memories.length > MEM_CAP) memories = memories.slice(-MEM_CAP);
-    try { await env.AUTH_KV.put(MEM_KEY, JSON.stringify(memories)); } catch (e) { remembered = null; }
+  // Stash the finished reply so a visitor who left mid-generation can recover it.
+  if (reqId && env.AUTH_KV) {
+    try { await env.AUTH_KV.put(PENDING_PREFIX + reqId, JSON.stringify(payload), { expirationTtl: PENDING_TTL }); } catch (e) {}
   }
-  reply = reply.replace(/\s*\[REMEMBER:[^\]]*\]\s*/gi, '').trim() || '…';
-  const timings = data?.timings || {};
-  const tokPerSec = timings.predicted_per_second
-    ? Math.round(timings.predicted_per_second * 10) / 10
-    : (usage.completion_tokens ? Math.round((usage.completion_tokens / (wallMs / 1000)) * 10) / 10 : null);
+  return payload;
+}
 
+export async function onRequestPost(context) {
+  const { request, env } = context;
+  const secret = env.BROKE_GARY_SECRET;
+  if (!secret) return new Response(JSON.stringify({ ok: false, error: 'not configured' }), { status: 503, headers: headers() });
+
+  const parsed = await readCookie(request, secret);
+  let used = parsed && parsed.day === dayNum() ? parsed.used : 0;
+  if (used >= DAILY_LIMIT) {
+    return new Response(JSON.stringify({ ok: false, error: `Daily limit reached (${DAILY_LIMIT} messages). Jim runs on one CPU box — come back tomorrow.` }),
+      { status: 429, headers: headers() });
+  }
+
+  let body;
+  try { body = await request.json(); } catch { return new Response(JSON.stringify({ ok: false, error: 'bad json' }), { status: 400, headers: headers() }); }
+
+  const reqId = (typeof body.req_id === 'string' && /^[A-Za-z0-9_-]{8,64}$/.test(body.req_id)) ? body.req_id : null;
+
+  // Generate as a single promise: waitUntil keeps it alive past client disconnect,
+  // and we also await it to answer the visitor who stayed.
+  const work = generateReply(env, body, reqId);
+  context.waitUntil(work);
+
+  let payload;
+  try { payload = await work; } catch (e) { payload = { ok: false, error: 'Jim had trouble answering.' }; }
+
+  if (!payload.ok) {
+    return new Response(JSON.stringify(payload), { status: 200, headers: headers() });
+  }
   used += 1;
-  return new Response(JSON.stringify({
-    ok: true, reply, remembered,
-    stats: { tok_per_sec: tokPerSec, completion_tokens: usage.completion_tokens ?? null, wall_ms: wallMs, msgs_left_today: DAILY_LIMIT - used },
-  }), { status: 200, headers: { ...headers(), 'Set-Cookie': await makeCookie(used, secret) } });
+  payload.stats.msgs_left_today = DAILY_LIMIT - used;
+  return new Response(JSON.stringify(payload), { status: 200, headers: { ...headers(), 'Set-Cookie': await makeCookie(used, secret) } });
+}
+
+// Recovery poll: a visitor who left mid-reply and came back fetches the stashed
+// answer here. One-shot — deleted once delivered. Does not count against the limit.
+export async function onRequestGet(context) {
+  const { request, env } = context;
+  const id = new URL(request.url).searchParams.get('poll');
+  if (!id || !/^[A-Za-z0-9_-]{8,64}$/.test(id)) {
+    return new Response(JSON.stringify({ ok: false, error: 'bad poll id' }), { status: 400, headers: headers() });
+  }
+  if (!env.AUTH_KV) return new Response(JSON.stringify({ ok: false, pending: false }), { status: 200, headers: headers() });
+  const raw = await env.AUTH_KV.get(PENDING_PREFIX + id);
+  if (!raw) return new Response(JSON.stringify({ ok: false, pending: true }), { status: 200, headers: headers() });
+  context.waitUntil(env.AUTH_KV.delete(PENDING_PREFIX + id));
+  return new Response(raw, { status: 200, headers: headers() });
 }
 
 export async function onRequestOptions() {
