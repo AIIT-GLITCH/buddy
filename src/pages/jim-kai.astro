@@ -112,7 +112,7 @@ import Layout from '../layouts/Layout.astro';
 })();
 </script>
 
-<style>
+<style is:global>
   .jk-page { min-height: auto; display: block; padding: 132px 6vw 110px; border-top: none; text-align: left; }
   .jk-wrap { max-width: 760px; margin: 0 auto; }
   .jk-h1 { margin: 0 0 18px; font-size: clamp(44px, 7vw, 80px); line-height: 1.02; color: var(--ink); }
@@ -129,8 +129,8 @@ import Layout from '../layouts/Layout.astro';
   .jk-chat { border: 1px solid var(--edge); border-radius: 14px; background: rgba(0,0,0,0.18); padding: 18px; }
   .jk-chat-log { max-height: 420px; min-height: 160px; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; padding: 4px 2px 10px; }
   .jk-msg { max-width: 85%; padding: 12px 16px; border-radius: 12px; line-height: 1.6; font-size: 15.5px; white-space: pre-wrap; }
-  .jk-msg.jim { background: rgba(64,192,176,0.08); border: 1px solid rgba(64,192,176,0.25); color: var(--ink-soft); align-self: flex-start; }
-  .jk-msg.user { background: rgba(212,160,96,0.08); border: 1px solid rgba(212,160,96,0.3); color: var(--ink); align-self: flex-end; }
+  .jk-msg.jim { background: rgba(64,192,176,0.08); border: 1px solid rgba(64,192,176,0.25); color: var(--ink-soft); align-self: flex-start; border-bottom-left-radius: 4px; }
+  .jk-msg.user { background: rgba(212,160,96,0.08); border: 1px solid rgba(212,160,96,0.3); color: var(--ink); align-self: flex-end; margin-left: auto; border-bottom-right-radius: 4px; }
   .jk-form { display: flex; gap: 10px; margin-top: 12px; }
   .jk-form textarea { flex: 1; background: rgba(10,10,18,0.6); border: 1px solid var(--edge); border-radius: 10px; padding: 12px 14px; color: var(--ink); font-family: Georgia, serif; font-size: 15px; resize: vertical; outline: none; }
   .jk-form textarea:focus { border-color: var(--teal); }
