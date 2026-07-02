@@ -120,17 +120,43 @@ const sensors = [
   <section>
     <div class="section-num">05</div>
     <div class="container">
-      <div class="eyebrow" style="color: var(--amber);">Forward test · live</div>
-      <h2 style="margin-bottom: 24px;">2026 Atlantic season · prospective.</h2>
+      <div class="eyebrow" style="color: var(--amber);">Forward test · live scoreboard</div>
+      <h2 style="margin-bottom: 24px;">2026 Atlantic season · on the record.</h2>
       <p style="color: var(--muted-hi); font-size: 17px; max-width: 720px; line-height: 1.6; margin-bottom: 36px;">
-        The framework committed a published prediction on April 8, 2026 — <em>before</em> the season began. This is how falsifiability works: the gate is set, the number is locked, the season will judge.
+        On April 8, 2026 — <em>before</em> the season began — the framework committed a public
+        prediction. It is a bold, contrarian call: we forecast a hyperactive season while the
+        official outlooks lean below-normal. That is the point. The number is locked, the
+        consensus disagrees, and the season decides. Win or lose, it stays on the record.
       </p>
-      <div class="wx-forecast">
-        <div class="wx-forecast-label">Classification</div>
-        <div class="wx-forecast-value">HYPERACTIVE</div>
-        <div class="wx-forecast-meta">Formation score 5.65 · baseline scenario · 20+ named storms expected</div>
-        <a class="btn ghost" href="/weather/PREDICTION_2026_HURRICANE_SEASON.md" target="_blank" rel="noopener" style="margin-top: 24px;">Read the prediction</a>
+      <div class="wx-scoreboard">
+        <div class="wx-sb-row wx-sb-ours">
+          <div class="wx-sb-who">AIIT coherence model</div>
+          <div class="wx-sb-call">HYPERACTIVE · 20+ named storms</div>
+          <div class="wx-sb-note">formation score 5.65 · locked Apr 8, 2026</div>
+        </div>
+        <div class="wx-sb-row">
+          <div class="wx-sb-who">NOAA outlook</div>
+          <div class="wx-sb-call">Below-to-near-normal · 8–14 named</div>
+          <div class="wx-sb-note">55% below-normal · 3–6 hurricanes</div>
+        </div>
+        <div class="wx-sb-row">
+          <div class="wx-sb-who">AccuWeather</div>
+          <div class="wx-sb-call">11–16 named storms</div>
+          <div class="wx-sb-note">private-sector seasonal forecast</div>
+        </div>
+        <div class="wx-sb-row wx-sb-actual">
+          <div class="wx-sb-who">Season to date</div>
+          <div class="wx-sb-call">1 named storm — Arthur</div>
+          <div class="wx-sb-note">formed Jun 17 · as of early Jul 2026</div>
+        </div>
       </div>
+      <p style="color: var(--muted); font-size: 14px; max-width: 720px; line-height: 1.6; margin-top: 24px;">
+        Honest status: it is early — roughly one month into a six-month season, and one storm
+        by early July is near the historical pace. Nothing is settled. But our call sits well
+        above the official consensus, so this is a real test: a quiet season proves us wrong, a
+        late surge proves the framework caught something the standard models missed.
+      </p>
+      <a class="btn ghost" href="/weather/PREDICTION_2026_HURRICANE_SEASON.md" target="_blank" rel="noopener" style="margin-top: 28px;">Read the locked prediction</a>
     </div>
   </section>
 
@@ -298,11 +324,15 @@ const sensors = [
 .wx-patent-title h3 { font-size: clamp(20px, 2.4vw, 28px); line-height: 1.25; color: var(--ink); }
 @media (max-width: 780px) { .wx-patent { grid-template-columns: 1fr; } }
 
-/* Forecast */
-.wx-forecast { background: var(--bg-card); border: 1px solid var(--edge); border-left: 3px solid var(--warm); border-radius: 4px; padding: 32px 36px; max-width: 640px; }
-.wx-forecast-label { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.24em; text-transform: uppercase; color: var(--muted); }
-.wx-forecast-value { font-family: 'Georgia', serif; font-size: clamp(36px, 5vw, 56px); color: var(--warm); margin-top: 10px; line-height: 1.0; letter-spacing: 0.04em; }
-.wx-forecast-meta { font-size: 15px; color: var(--muted-hi); margin-top: 14px; }
+/* Forecast scoreboard */
+.wx-scoreboard { display: grid; gap: 10px; max-width: 720px; }
+.wx-sb-row { display: grid; grid-template-columns: 1fr 1.3fr; gap: 6px 20px; background: var(--bg-card); border: 1px solid var(--edge); border-left: 3px solid var(--edge); border-radius: 4px; padding: 18px 22px; align-items: baseline; }
+.wx-sb-row.wx-sb-ours { border-left-color: var(--warm); background: linear-gradient(180deg, rgba(212,160,96,0.06), var(--bg-card)); }
+.wx-sb-row.wx-sb-actual { border-left-color: #5ba8d4; }
+.wx-sb-who { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); }
+.wx-sb-call { font-family: 'Georgia', serif; font-size: clamp(17px, 2vw, 22px); color: var(--ink); line-height: 1.2; }
+.wx-sb-note { grid-column: 1 / -1; font-size: 13px; color: var(--muted-hi); margin-top: 2px; }
+@media (max-width: 640px) { .wx-sb-row { grid-template-columns: 1fr; gap: 4px; } }
 
 /* Deck-request form */
 .wx-form { background: var(--bg-card); border: 1px solid var(--edge); border-left: 3px solid var(--warm); border-radius: 4px; padding: 32px 32px 28px; margin-top: 48px; max-width: 780px; position: relative; }
