@@ -50,7 +50,7 @@ const HF = 'https://huggingface.co/AIIT-Threshold';
       <table class="mdl-table">
         <tbody>
           <tr><td>Parameters</td><td>1.01B (32 layers · d1536 · 16 heads · 4096 context · 65,536 vocab · bf16)</td></tr>
-          <tr><td>Tokenizer</td><td>In-house byte-level BPE (forge64k), English + Japanese</td></tr>
+          <tr><td>Tokenizer</td><td>Tessera tokenizer (byte-level BPE), English + Japanese</td></tr>
           <tr><td>Training data</td><td>24.5B tokens (~1 epoch), ≈24× Chinchilla</td></tr>
           <tr><td>Compute</td><td>1× H100 SXM 80GB (vast.ai, Japan) · 145.7h (~6 days) · ~$315</td></tr>
           <tr><td>Final eval loss</td><td>~3.20 nats (perplexity ≈ 24.5)</td></tr>
