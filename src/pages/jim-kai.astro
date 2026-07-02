@@ -28,16 +28,31 @@ import Layout from '../layouts/Layout.astro';
       </div>
     </div>
 
-    <div class="jk-chat">
-      <div class="jk-chat-log" id="jk-log" aria-live="polite">
-        <div class="jk-msg jim">hey — I'm Jim Kai. research preview, honest answers, modest hardware. what's on your mind?</div>
+    <!-- Thread card — mirrors the Buddy Thread design system exactly -->
+    <div class="jk-card">
+      <div class="jk-card-top">
+        <div class="jk-badge">Jim Kai thread · preview</div>
+        <div class="jk-badge-right" id="jk-speed">— tok/s</div>
       </div>
+      <h2 class="jk-card-title">Talk with Jim Kai.</h2>
+
+      <div class="jk-window-label">live jim thread window</div>
+      <div class="jk-log" id="jk-log" aria-live="polite">
+        <div class="jk-item jim">
+          <div class="jk-meta"><span class="jk-role">Jim Kai</span><span class="jk-time">now</span></div>
+          <div class="jk-text">hey — I'm Jim Kai. research preview, honest answers, modest hardware. what's on your mind?</div>
+        </div>
+      </div>
+
       <form class="jk-form" id="jk-form" autocomplete="off">
-        <textarea id="jk-input" rows="2" maxlength="2000" placeholder="say something real…"></textarea>
-        <button type="submit" id="jk-send">send</button>
+        <input type="text" id="jk-input" class="jk-input" maxlength="2000" placeholder="Message Jim..." />
+        <button type="submit" class="jk-btn" id="jk-send">Ask →</button>
       </form>
-      <div class="jk-meter" id="jk-meter">
-        <span id="jk-speed">— tok/s</span>
+
+      <div class="jk-status">
+        <span class="jk-status-dot"></span>
+        <span class="jk-status-text">jim online</span>
+        <span class="jk-status-sep">·</span>
         <span id="jk-avg"></span>
         <span id="jk-left"></span>
         <button type="button" id="jk-clear" class="jk-clear" title="Start over">new conversation</button>
@@ -86,24 +101,36 @@ import Layout from '../layouts/Layout.astro';
   function persist() {
     try { localStorage.setItem(STORE, JSON.stringify(history.slice(-24))); } catch (e) {}
   }
+  function fmtTime(ts) {
+    try { return new Date(ts || Date.now()).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }); }
+    catch (e) { return ''; }
+  }
 
-  function add(role, text) {
-    const d = document.createElement('div');
-    d.className = 'jk-msg ' + (role === 'user' ? 'user' : 'jim');
-    d.textContent = text;
-    log.appendChild(d);
+  function add(role, text, ts, pending) {
+    const item = document.createElement('div');
+    item.className = 'jk-item ' + (role === 'user' ? 'user' : 'jim') + (pending ? ' pending' : '');
+    const meta = document.createElement('div');
+    meta.className = 'jk-meta';
+    const r = document.createElement('span'); r.className = 'jk-role'; r.textContent = role === 'user' ? 'You' : 'Jim Kai';
+    const t = document.createElement('span'); t.className = 'jk-time'; t.textContent = fmtTime(ts);
+    meta.appendChild(r); meta.appendChild(t);
+    const body = document.createElement('div');
+    body.className = 'jk-text';
+    body.textContent = text;
+    item.appendChild(meta); item.appendChild(body);
+    log.appendChild(item);
     log.scrollTop = log.scrollHeight;
-    return d;
+    return { item, body };
   }
 
   // restore a saved thread (survives refresh; lives only in this browser)
-  for (const m of history) add(m.role === 'user' ? 'user' : 'jim', m.content);
+  for (const m of history) add(m.role === 'user' ? 'user' : 'jim', m.content, m.ts);
   if (history.length) log.scrollTop = log.scrollHeight;
 
   document.getElementById('jk-clear').addEventListener('click', function () {
     history = [];
     persist();
-    log.querySelectorAll('.jk-msg').forEach((el, i) => { if (i > 0) el.remove(); });
+    log.querySelectorAll('.jk-item, .jk-mem').forEach((el, i) => { if (i > 0) el.remove(); });
   });
 
   form.addEventListener('submit', async function (e) {
@@ -111,12 +138,12 @@ import Layout from '../layouts/Layout.astro';
     const q = input.value.trim();
     if (!q || send.disabled) return;
     input.value = '';
-    add('user', q);
-    history.push({ role: 'user', content: q });
+    const now = Date.now();
+    add('user', q, now);
+    history.push({ role: 'user', content: q, ts: now });
     persist();
-    const pending = add('jim', '…thinking (CPU box, give him a sec)');
+    const pending = add('jim', '…thinking (CPU box, give him a sec)', Date.now(), true);
     send.disabled = true;
-    const t0 = Date.now();
     try {
       const r = await fetch('/api/jimkai', {
         method: 'POST',
@@ -124,9 +151,10 @@ import Layout from '../layouts/Layout.astro';
         body: JSON.stringify({ message: q, history: history.slice(0, -1) }),
       });
       const d = await r.json();
-      if (!d.ok) { pending.textContent = d.error || 'something went wrong.'; return; }
-      pending.textContent = d.reply;
-      history.push({ role: 'assistant', content: d.reply });
+      if (!d.ok) { pending.body.textContent = d.error || 'something went wrong.'; pending.item.classList.remove('pending'); return; }
+      pending.body.textContent = d.reply;
+      pending.item.classList.remove('pending');
+      history.push({ role: 'assistant', content: d.reply, ts: Date.now() });
       persist();
       if (d.remembered) {
         const n = document.createElement('div');
@@ -140,11 +168,12 @@ import Layout from '../layouts/Layout.astro';
         speeds.push(s.tok_per_sec);
         speedEl.textContent = s.tok_per_sec + ' tok/s';
         const avg = speeds.reduce((a, b) => a + b, 0) / speeds.length;
-        avgEl.textContent = 'session avg ' + (Math.round(avg * 10) / 10) + ' tok/s';
+        avgEl.textContent = 'avg ' + (Math.round(avg * 10) / 10) + ' tok/s';
       }
-      if (s.msgs_left_today != null) leftEl.textContent = s.msgs_left_today + ' msgs left today';
+      if (s.msgs_left_today != null) leftEl.textContent = '· ' + s.msgs_left_today + ' msgs left today';
     } catch (err) {
-      pending.textContent = 'network hiccup — try again.';
+      pending.body.textContent = 'network hiccup — try again.';
+      pending.item.classList.remove('pending');
     } finally {
       send.disabled = false;
       input.focus();
@@ -155,9 +184,9 @@ import Layout from '../layouts/Layout.astro';
 
 <style is:global>
   .jk-page { min-height: auto; display: block; padding: 132px 6vw 110px; border-top: none; text-align: left; }
-  .jk-wrap { max-width: 760px; margin: 0 auto; }
+  .jk-wrap { max-width: 1000px; margin: 0 auto; }
   .jk-h1 { margin: 0 0 18px; font-size: clamp(44px, 7vw, 80px); line-height: 1.02; color: var(--ink); }
-  .jk-lede { font-size: clamp(16px, 1.6vw, 19px); line-height: 1.75; color: var(--ink-soft); margin: 0 0 30px; }
+  .jk-lede { font-size: clamp(16px, 1.6vw, 19px); line-height: 1.75; color: var(--ink-soft); margin: 0 0 30px; max-width: 760px; }
   .jk-hw { display: grid; grid-template-columns: 1fr auto 1fr; gap: 14px; align-items: stretch; margin: 0 0 34px; }
   .jk-hw-card { border: 1px solid var(--edge); border-radius: 12px; padding: 18px 20px; background: rgba(255,255,255,0.02); }
   .jk-hw-card.now { border-left: 3px solid var(--teal); }
@@ -167,22 +196,172 @@ import Layout from '../layouts/Layout.astro';
   .jk-hw-d { font-size: 13.5px; color: var(--muted-hi); line-height: 1.55; }
   .jk-hw-arrow { align-self: center; font-size: 26px; color: var(--amber); }
   @media (max-width: 700px) { .jk-hw { grid-template-columns: 1fr; } .jk-hw-arrow { text-align: center; transform: rotate(90deg); } }
-  .jk-chat { border: 1px solid var(--edge); border-radius: 14px; background: rgba(0,0,0,0.18); padding: 18px; }
-  .jk-chat-log { max-height: 420px; min-height: 160px; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; padding: 4px 2px 10px; }
-  .jk-msg { max-width: 85%; padding: 12px 16px; border-radius: 12px; line-height: 1.6; font-size: 15.5px; white-space: pre-wrap; }
-  .jk-msg.jim { background: rgba(64,192,176,0.08); border: 1px solid rgba(64,192,176,0.25); color: var(--ink-soft); align-self: flex-start; border-bottom-left-radius: 4px; }
-  .jk-msg.user { background: rgba(212,160,96,0.08); border: 1px solid rgba(212,160,96,0.3); color: var(--ink); align-self: flex-end; margin-left: auto; border-bottom-right-radius: 4px; }
-  .jk-form { display: flex; gap: 10px; margin-top: 12px; }
-  .jk-form textarea { flex: 1; background: rgba(10,10,18,0.6); border: 1px solid var(--edge); border-radius: 10px; padding: 12px 14px; color: var(--ink); font-family: Georgia, serif; font-size: 15px; resize: vertical; outline: none; }
-  .jk-form textarea:focus { border-color: var(--teal); }
-  .jk-form button { background: rgba(64,192,176,0.12); color: var(--teal); border: 1px solid rgba(64,192,176,0.5); border-radius: 10px; padding: 0 22px; font-family: 'Courier New', monospace; letter-spacing: 0.12em; text-transform: uppercase; cursor: pointer; }
-  .jk-form button:disabled { opacity: 0.45; cursor: wait; }
-  .jk-meter { display: flex; gap: 18px; margin-top: 10px; font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
-  #jk-speed { color: var(--teal); }
-  .jk-note { margin-top: 26px; font-size: 14px; line-height: 1.7; color: var(--muted-hi); }
-  .jk-mem { align-self: center; font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.08em; color: var(--amber); opacity: 0.85; padding: 4px 10px; border: 1px dashed rgba(212,160,96,0.4); border-radius: 8px; max-width: 90%; }
-  .jk-clear { margin-left: auto; background: none; border: 1px solid var(--edge); border-radius: 8px; color: var(--muted); font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.12em; text-transform: uppercase; padding: 4px 10px; cursor: pointer; }
-  .jk-clear:hover { color: var(--ink); border-color: var(--muted); }
+
+  /* ── Thread card: Buddy Thread design system, verbatim values ── */
+  .jk-card {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid rgba(240, 165, 0, 0.42);
+    border-radius: 8px;
+    background:
+      linear-gradient(135deg, rgba(26, 26, 26, 0.98), rgba(55, 34, 17, 0.96)),
+      #1a1a1a;
+    overflow: hidden;
+    padding: 18px 20px 16px;
+  }
+  .jk-card-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+  .jk-badge {
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #ffd36a;
+    border: 1px solid rgba(240, 165, 0, 0.42);
+    border-radius: 4px;
+    padding: 4px 10px;
+    background: rgba(240, 165, 0, 0.08);
+  }
+  .jk-badge-right {
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #ffd36a;
+    border: 1px solid rgba(240, 165, 0, 0.22);
+    border-radius: 4px;
+    padding: 4px 10px;
+  }
+  .jk-card-title {
+    font-family: Georgia, serif;
+    font-size: clamp(20px, 2.6vw, 28px);
+    color: #fff7df;
+    margin: 2px 0 14px;
+    font-weight: 600;
+  }
+  .jk-window-label {
+    font-family: 'Courier New', monospace;
+    font-size: 8pt;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgba(255, 247, 223, 0.42);
+    margin-bottom: 8px;
+  }
+  .jk-log {
+    border: 1px solid rgba(240, 165, 0, 0.18);
+    border-radius: 6px;
+    background: rgba(26, 26, 26, 0.55);
+    padding: 14px 12px;
+    max-height: 460px;
+    min-height: 180px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .jk-item { display: flex; flex-direction: column; max-width: 80%; }
+  .jk-item.jim { align-self: flex-start; align-items: flex-start; }
+  .jk-item.user { align-self: flex-end; align-items: flex-end; margin-left: auto; }
+  .jk-meta { display: flex; flex-direction: row; align-items: center; gap: 7px; padding: 0 6px; margin-bottom: 4px; }
+  .jk-role { font-family: 'Georgia', serif; font-size: 9pt; font-weight: 600; color: rgba(255, 247, 223, 0.66); }
+  .jk-item.jim .jk-role { color: #ffd36a; }
+  .jk-item.jim .jk-role::before { content: ''; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #f0a500; margin-right: 6px; vertical-align: middle; }
+  .jk-item.user .jk-role { color: #ffb877; }
+  .jk-time { font-family: 'Georgia', serif; font-size: 8.5pt; color: rgba(255, 247, 223, 0.42); }
+  .jk-text {
+    padding: 11px 14px;
+    font-family: 'Georgia', serif;
+    font-size: 13pt;
+    line-height: 1.55;
+    border-radius: 16px;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .jk-item.jim .jk-text {
+    color: #fff7df;
+    background: rgba(240, 165, 0, 0.12);
+    border: 1px solid rgba(240, 165, 0, 0.28);
+    border-bottom-left-radius: 5px;
+  }
+  .jk-item.user .jk-text {
+    color: #fff7df;
+    background: linear-gradient(135deg, rgba(200, 58, 8, 0.92), rgba(200, 58, 8, 0.78));
+    border: 1px solid rgba(255, 211, 106, 0.30);
+    border-bottom-right-radius: 5px;
+  }
+  .jk-item.pending .jk-text { border-style: dashed; opacity: 0.85; }
+  .jk-mem {
+    align-self: center;
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    letter-spacing: 0.08em;
+    color: #ffd36a;
+    opacity: 0.9;
+    padding: 5px 12px;
+    border: 1px dashed rgba(240, 165, 0, 0.4);
+    border-radius: 8px;
+    max-width: 90%;
+  }
+  .jk-form { display: flex; gap: 10px; margin-top: 14px; }
+  .jk-input {
+    flex: 1;
+    height: 52px;
+    background: #fffdf5;
+    border: 1.5px solid #1a1a1a;
+    border-radius: 10px;
+    color: #1a1a1a;
+    padding: 0 16px;
+    font-family: 'Georgia', serif;
+    font-size: 14pt;
+    outline: none;
+    transition: box-shadow 200ms, border-color 200ms;
+  }
+  .jk-input::placeholder { color: #9a8a6a; font-style: italic; }
+  .jk-input:focus { border-color: #f0a500; box-shadow: 0 0 0 3px rgba(240, 165, 0, 0.18); }
+  .jk-btn {
+    background: #1a1a1a;
+    color: #f0a500;
+    border: 1.5px solid #1a1a1a;
+    height: 52px;
+    padding: 0 22px;
+    border-radius: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 11pt;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    transition: background 200ms, transform 150ms, box-shadow 200ms;
+  }
+  .jk-btn:hover:not(:disabled) { background: #2a2a2a; transform: translateY(-1px); }
+  .jk-btn:disabled { opacity: 0.55; cursor: wait; }
+  .jk-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 9pt;
+    letter-spacing: 0.12em;
+    text-transform: lowercase;
+    color: rgba(255, 247, 223, 0.55);
+  }
+  .jk-status-dot { width: 7px; height: 7px; border-radius: 50%; background: #35c46a; box-shadow: 0 0 6px rgba(53, 196, 106, 0.7); }
+  .jk-status-sep { opacity: 0.5; }
+  #jk-avg, #jk-left { color: rgba(255, 247, 223, 0.45); }
+  .jk-clear {
+    margin-left: auto;
+    background: none;
+    border: 1px solid rgba(255, 247, 223, 0.2);
+    border-radius: 6px;
+    color: rgba(255, 247, 223, 0.55);
+    font-family: 'Courier New', monospace;
+    font-size: 8.5pt;
+    letter-spacing: 0.12em;
+    text-transform: lowercase;
+    padding: 4px 10px;
+    cursor: pointer;
+  }
+  .jk-clear:hover { color: #fff7df; border-color: rgba(255, 247, 223, 0.45); }
+  .jk-note { margin-top: 26px; font-size: 14px; line-height: 1.7; color: var(--muted-hi); max-width: 760px; }
 </style>
 
 </Layout>
