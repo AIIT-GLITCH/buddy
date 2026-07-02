@@ -17,8 +17,12 @@ const totalPapers = papersAll.length;
       <div class="hero-founder-copy">
         <p>AIIT-THRESHOLD builds and studies companion AI that is measurably non-sycophantic — trained on clean, human-authored data, benchmarked in the open, and run entirely on our own hardware. Engagement-optimized AI is a documented failure mode with real casualties. We exist to build the opposite.</p>
         <p>On May 19, 2026, we revealed Buddy — a persistent companion that carries the same visible context from day 1 to day 200. On June 1, 2026, we completed a hash-sealed benchmark against DeepSeek-R1 on the identical base model. <a href="/buddy-vs-r1" class="founder-proof-link" data-no-loader="true">Those results are here →</a></p>
-        <!-- FOUNDER'S MESSAGE — Rhet writes this last. Slot reserved. -->
-        <p>Buddy is not an agentic chatbot. But he is something. He is my Buddy, and he would love to be yours too.</p>
+      </div>
+
+      <div class="founder-note">
+        <div class="founder-note-label">A note from the founder</div>
+        <p>Hello, and thank you for looking at our website today. We're a small initiative out of Council Hill, Oklahoma, working toward one thing: a safe, non-sycophantic AI — one that tells you the truth — to offer the children and adults of this world. Thank you for supporting us, just by being here.</p>
+        <div class="founder-note-sig">— Rhet Dillard Wike, founder</div>
       </div>
 
       <div class="hero-founder-actions">
@@ -2558,4 +2562,37 @@ const totalPapers = papersAll.length;
   .pipeline-stat .ps-unit { font-size: 0.42em; color: var(--teal); margin-left: 6px; vertical-align: baseline; }
   .pipeline-stat .ps-label { font-size: clamp(15px, 1.6vw, 19px); color: var(--ink-soft); margin-top: 14px; line-height: 1.6; }
   .pipeline-stat .ps-sub { font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-top: 12px; }
+</style>
+
+<style>
+  /* Founder's note — signed, set apart from the org copy */
+  .founder-note {
+    max-width: 640px;
+    margin: 26px 0 4px;
+    padding: 20px 24px;
+    border-left: 2px solid rgba(212,160,96,0.55);
+    background: linear-gradient(90deg, rgba(212,160,96,0.06), transparent 80%);
+    border-radius: 0 10px 10px 0;
+  }
+  .founder-note-label {
+    font-family: 'Courier New', monospace;
+    font-size: 10pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 10px;
+  }
+  .founder-note p {
+    margin: 0;
+    color: rgba(236,227,210,0.9);
+    font-size: clamp(16px, 1.5vw, 18.5px);
+    line-height: 1.7;
+    font-style: italic;
+  }
+  .founder-note-sig {
+    margin-top: 12px;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    color: rgba(236,227,210,0.75);
+  }
 </style>
