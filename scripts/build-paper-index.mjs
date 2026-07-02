@@ -2,7 +2,7 @@
 // Scans PRINT_READY for PAPER_*.pdf, emits:
 //   src/data/papers.json  — array of { id, num, slug, title, tag, filename }
 //   public/papers/        — copied PDF files so Astro can serve them
-import { readdirSync, copyFileSync, mkdirSync, writeFileSync, existsSync, statSync } from 'node:fs';
+import { readdirSync, copyFileSync, mkdirSync, writeFileSync, readFileSync, existsSync, statSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
@@ -140,6 +140,24 @@ for (const p of papers) {
     console.warn(`stamp failed for ${p.filename}:`, r.stderr?.toString?.() || r.error);
     // fallback: copy unstamped so the site still works
     try { copyFileSync(src, dst); } catch {}
+  }
+}
+
+// Preserve curation fields (audit_status etc.) from the existing papers.json —
+// regenerating from PDFs must never silently un-withdraw an audit-flagged paper.
+if (existsSync(OUT_JSON)) {
+  try {
+    const prev = JSON.parse(readFileSync(OUT_JSON, 'utf8'));
+    const prevBySlug = new Map(prev.map(p => [p.slug, p]));
+    for (const p of papers) {
+      const old = prevBySlug.get(p.slug);
+      if (!old) continue;
+      for (const [k, v] of Object.entries(old)) {
+        if (!(k in p)) p[k] = v;
+      }
+    }
+  } catch (e) {
+    console.warn('could not merge curation fields from existing papers.json:', e.message);
   }
 }
 

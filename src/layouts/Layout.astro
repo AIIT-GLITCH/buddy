@@ -91,60 +91,34 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
     </button>
     <div class="nav-links">
       <div class="nav-group">
-        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Understand <span class="nav-caret">▾</span></button>
+        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Research <span class="nav-caret">▾</span></button>
+        <div class="nav-menu">
+          <a href="/benchmarks">Benchmarks</a>
+          <a href="/validation">Clinical Validation</a>
+          <a href="/papers">Papers</a>
+          <a href="/buddy-vs-r1">Buddy vs R1</a>
+        </div>
+      </div>
+
+      <div class="nav-group">
+        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Mission <span class="nav-caret">▾</span></button>
+        <div class="nav-menu">
+          <a href="/save-lives">Save Lives</a>
+          <a href="/data-policy">Data Policy</a>
+        </div>
+      </div>
+
+      <div class="nav-group">
+        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Buddy <span class="nav-caret">▾</span></button>
         <div class="nav-menu">
           <a href="/#what">What is Buddy</a>
           <a href="/manifesto">How it works</a>
-        </div>
-      </div>
-
-      <div class="nav-group">
-        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Applications <span class="nav-caret">▾</span></button>
-        <div class="nav-menu">
-          <a href="/apps">All apps</a>
-          <a href="https://victim-advocate.aiit-threshold.com" target="_blank" rel="noopener">Victim Advocate</a>
-          <a href="/apps#debunker">Debunker</a>
-          <a href="/apps#little-lairs">Little Lairs</a>
-        </div>
-      </div>
-
-      <div class="nav-group">
-        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Research <span class="nav-caret">▾</span></button>
-        <div class="nav-menu">
-          <a href="/framework">Laws</a>
-          <a href="/field">Corpus</a>
-          <a href="/#proof">Proof</a>
-          <a href="/papers">Papers</a>
-        </div>
-      </div>
-
-      <div class="nav-group">
-        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Agentic <span class="nav-caret">▾</span></button>
-        <div class="nav-menu">
-          <a href="/agentic">All tools</a>
-          <a href="/lac">LAC Memory Kit</a>
-          <a href="/voice2">AIIT-Voice2</a>
-          <a href="/waiste">wAIste Not</a>
-          <a href="/anchorforge">AnchorForge</a>
-          <a href="/shop">Shop</a>
-        </div>
-      </div>
-
-      <div class="nav-group">
-        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Services <span class="nav-caret">▾</span></button>
-        <div class="nav-menu">
-          <a href="/proofdesk">ProofDesk</a>
-          <a href="/provisional">Provisional Patents</a>
-        </div>
-      </div>
-
-      <div class="nav-group">
-        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Community <span class="nav-caret">▾</span></button>
-        <div class="nav-menu">
-          <a href="/forum">Forum</a>
           <a href="/updates">Updates</a>
-          <a href="/join">Join</a>
         </div>
+      </div>
+
+      <div class="nav-group">
+        <a class="nav-trigger" href="/join">Join</a>
       </div>
 
       <button class="nav-lang" aria-label="Language" title="Language" data-open-lang>
@@ -160,41 +134,25 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
       <span id="mobile-nav-auth" class="mobile-nav-auth"></span>
     </div>
     <div class="mm-section">
-      <div class="mm-label">Understand</div>
+      <div class="mm-label">Research</div>
+      <a href="/benchmarks">Benchmarks</a>
+      <a href="/validation">Clinical Validation</a>
+      <a href="/papers">Papers</a>
+      <a href="/buddy-vs-r1">Buddy vs R1</a>
+    </div>
+    <div class="mm-section">
+      <div class="mm-label">Mission</div>
+      <a href="/save-lives">Save Lives</a>
+      <a href="/data-policy">Data Policy</a>
+    </div>
+    <div class="mm-section">
+      <div class="mm-label">Buddy</div>
       <a href="/#what">What is Buddy</a>
       <a href="/manifesto">How it works</a>
-    </div>
-    <div class="mm-section">
-      <div class="mm-label">Applications</div>
-      <a href="/apps">All apps</a>
-      <a href="https://victim-advocate.aiit-threshold.com" target="_blank" rel="noopener">Victim Advocate</a>
-      <a href="/apps#debunker">Debunker</a>
-      <a href="/apps#little-lairs">Little Lairs</a>
-    </div>
-    <div class="mm-section">
-      <div class="mm-label">Research</div>
-      <a href="/framework">Laws</a>
-      <a href="/field">Corpus</a>
-      <a href="/#proof">Proof</a>
-      <a href="/papers">Papers</a>
-    </div>
-    <div class="mm-section">
-      <div class="mm-label">Agentic</div>
-      <a href="/agentic">All tools</a>
-      <a href="/lac">LAC Memory Kit</a>
-      <a href="/voice2">AIIT-Voice2</a>
-      <a href="/waiste">wAIste Not</a>
-      <a href="/anchorforge">AnchorForge</a>
-      <a href="/shop">Shop</a>
-    </div>
-    <div class="mm-section">
-      <div class="mm-label">Services</div>
-      <a href="/proofdesk">ProofDesk</a>
-    </div>
-    <div class="mm-section">
-      <div class="mm-label">Community</div>
-      <a href="/forum">Forum</a>
       <a href="/updates">Updates</a>
+    </div>
+    <div class="mm-section">
+      <div class="mm-label">Connect</div>
       <a href="/join">Join</a>
     </div>
   </div>
@@ -504,17 +462,13 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
   </main>
 
   <section class="support-cta">
-    <a href="/support" class="support-cta-link">⚡ Help keep the lights on — support our research →</a>
+    <a href="/support" class="support-cta-link">Support our research →</a>
   </section>
 
   <footer>
-    <div class="f-brand">Buddy · AIIT-THRESI · Council Hill, Oklahoma</div>
+    <div class="f-brand">AIIT-THRESHOLD · Independent AI-safety research · Council Hill, Oklahoma</div>
     <div class="f-support">We support <a href="https://www.anthropic.com" target="_blank" rel="noopener">Anthropic</a>.</div>
-    <div>© 2026 AIIT-THRESHOLD LLC · Rhet Dillard Wike · Prometheus · All rights reserved</div>
-    {isHome && <div class="f-gary-dormant"><a href="/gary">wake gary up →</a></div>}
-    <div class="f-quote">Ya' Boy is standing on the Shoulders of Giants, thought of the universe in terms of energy, rivers, circles, frequency and vibration, for consciousness can be measured physically, as matter is DERIVATIVE of consciousness, one must not invade the space that your conscious subsides. but measure its environment, and make adjustment. From Star stuff, to Grains of sand, to Heaven in a wildflower. Full Circle. We are all meant to vibrate at the edge of what we came, Hen Kai Pan, Henini<span class="f-quote-sig">— Sagan, Blake, Newton, Tesla, Heraclitus, Bruno, Einstein, Planck</span></div>
-    <div class="wm">w<span class="ai">AI</span>ste&nbsp;Not&nbsp;·&nbsp;Print&nbsp;Verified</div>
-    <div class="f-dont"><a href="https://buy.stripe.com/6oUaERe0a7347mpgKJew80b" target="_blank" rel="noopener">don't click this</a></div>
+    <div>© 2026 AIIT-THRESHOLD LLC · All rights reserved</div>
   </footer>
 
   {!isHome && <GaryWidget />}
