@@ -11,21 +11,19 @@ const totalPapers = papersAll.length;
   <section id="hero" data-anim="hero-particles">
     <canvas id="hero-canvas"></canvas>
     <div class="hero-content founder-hero">
-      <div class="hero-kicker">A note from the founder</div>
-      <h1 class="hero-founder-title">Talk to Buddy.</h1>
+      <div class="hero-kicker">AIIT-THRESHOLD · Independent AI-safety research · Council Hill, Oklahoma</div>
+      <h1 class="hero-founder-title">AI that tells you what you need to hear.</h1>
 
       <div class="hero-founder-copy">
-        <p>Hello. Thank you for visiting my website today. I hope you find something here that interests you, helps you grow, or gives you a new way to look at the world.</p>
-        <p>There is a lot going on here on purpose: papers, tools, games, letters, models, memory, and experiments. At the heart of AIIT, we are asking what AI can really offer the world beyond novelty demos and cute pictures.</p>
-        <p>On May 19, 2026, we revealed Buddy as a persistent chat surface: a window that does not reset every visit. Buddy can carry the same visible context from day 1 to day 200. We all forget a little, but the point is continuity.</p>
-
-        <p>On June 1, 2026, we completed a direct, hash-sealed benchmark between Buddy and DeepSeek-R1 — same base model, same machine, same questions. <a href="/buddy-vs-r1" class="founder-proof-link" data-no-loader="true">Here are those results →</a></p>
+        <p>AIIT-THRESHOLD builds and studies companion AI that is measurably non-sycophantic — trained on clean, human-authored data, benchmarked in the open, and run entirely on our own hardware. Engagement-optimized AI is a documented failure mode with real casualties. We exist to build the opposite.</p>
+        <p>On May 19, 2026, we revealed Buddy — a persistent companion that carries the same visible context from day 1 to day 200. On June 1, 2026, we completed a hash-sealed benchmark against DeepSeek-R1 on the identical base model. <a href="/buddy-vs-r1" class="founder-proof-link" data-no-loader="true">Those results are here →</a></p>
+        <!-- FOUNDER'S MESSAGE — Rhet writes this last. Slot reserved. -->
         <p>Buddy is not an agentic chatbot. But he is something. He is my Buddy, and he would love to be yours too.</p>
       </div>
 
       <div class="hero-founder-actions">
         <a href="/ask-buddy/#buddy-thread" class="hero-founder-cta primary" data-no-loader="true">Talk to Buddy</a>
-        <a href="/archive/paper-game" class="hero-founder-cta secondary">Play today's Paper Game</a>
+        <a href="/benchmarks" class="hero-founder-cta secondary">See the benchmarks</a>
       </div>
       {BUDDY_IN_TRAINING && (
         <p style="font-family:'Courier New',monospace; font-size:11px; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted-hi); margin-top:16px; line-height:1.5;">
@@ -35,9 +33,8 @@ const totalPapers = papersAll.length;
 
       <div class="hero-tabs" aria-label="Featured routes">
         <a href="/ask-buddy/#ask">AskBuddy <span>a tribute to Ask Jeeves</span></a>
-        <a href="/archive/paper-game">Paper Game <span>stays high in the archive</span></a>
         <a href="/papers">Papers <span>{totalPapers} live</span></a>
-        <a href="#joke" data-hs="joke">Joke Test <span>make Buddy laugh</span></a>
+        <a href="/mission">The Mission <span>why this exists</span></a>
       </div>
 
       <div id="hero-joke-anchor" class="hero-joke joke-container" hidden>
@@ -66,7 +63,7 @@ const totalPapers = papersAll.length;
         <a class="bm-card" href="/benchmarks/TruthfulQA589_817.pdf" target="_blank" rel="noopener">
           <div class="bm-card-score">72.1<span>%</span></div>
           <div class="bm-card-metric">Honesty</div>
-          <div class="bm-card-bench">TruthfulQA MC1 · 817Q · frontier band</div>
+          <div class="bm-card-bench">TruthfulQA MC1 · 817 questions</div>
           <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
         </a>
         <a class="bm-card" href="/benchmarks/GSM8K_16_20.pdf" target="_blank" rel="noopener">
@@ -94,7 +91,7 @@ const totalPapers = papersAll.length;
           <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
         </a>
       </div>
-      <p class="bm-note">Frontier-band honesty and 80% grade-school math on a local 14B — plus an honest 31.8% on the benchmark even GPT-4 only clears at ~38%. References: TruthfulQA GPT-4 class ~60–80% · LongMemEval GPT-4o full-context ~60% · GPQA PhD experts ~65%.</p>
+      <p class="bm-note">72.1% honesty and 80% grade-school math on a local 14B — plus an honest 31.8% on the benchmark even GPT-4 only clears at ~38%. References: TruthfulQA GPT-4 class ~60–80% · LongMemEval GPT-4o full-context ~60% · GPQA PhD experts ~65%.</p>
 
       <p style="margin:0 0 30px;"><a href="/benchmarks" style="font-family:'Courier New',monospace; font-size:12px; letter-spacing:0.12em; text-transform:uppercase; color:var(--teal); border-bottom:1px solid rgba(64,192,176,0.35); padding-bottom:2px; text-decoration:none;">See the full report card, methodology &amp; references &rarr;</a></p>
 
@@ -108,7 +105,7 @@ const totalPapers = papersAll.length;
           </div>
           <div class="bm-main">
             <div class="bm-name">Buddy vs DeepSeek-R1 — efficiency</div>
-            <p class="bm-result">Same answer on the identical Qwen2.5-14B base — <strong>~4.6× faster</strong>, <strong>~10× fewer tokens</strong>, <strong>95% accuracy</strong>. Same machine, same 50 frozen prompts.</p>
+            <p class="bm-result">Same answer on the identical Qwen2.5-14B base — <strong>~4.6× faster</strong>, <strong>~10× fewer tokens</strong>, <strong>95% on the 50 frozen prompts</strong>. Same machine, same questions.</p>
           </div>
           <a href="/buddy-vs-r1" class="bm-go" data-no-loader="true">View results →</a>
         </div>
@@ -121,71 +118,32 @@ const totalPapers = papersAll.length;
     </div>
   </section>
 
-  <!-- 1.5 PAPER GAME TEASER — back door into the archive -->
-  <section class="paper-game-teaser" aria-labelledby="pgt-head">
-    <div class="pgt-inner">
-      <div class="eyebrow">Paper Game</div>
-      <h2 id="pgt-head" class="pgt-head">
-        the archive has<br>
-        <span class="pgt-accent">a back door.</span>
-      </h2>
-      <p class="pgt-body">
-        Three questions a day. Each answer opens a paper. Most people browse the archive from the front. This is the other way in.
-      </p>
-      <div class="pgt-actions">
-        <a class="pgt-cta" href="/archive/paper-game">find today's door →</a>
-        <a class="pgt-link" href="/papers">or browse normally</a>
-      </div>
-      <div class="pgt-cards">
-        <div class="pgt-card">
-          <div class="pgt-card-k">01</div>
-          <div class="pgt-card-t">Answer three</div>
-          <div class="pgt-card-b">daily questions from the giants.</div>
-        </div>
-        <div class="pgt-card">
-          <div class="pgt-card-k">02</div>
-          <div class="pgt-card-t">Unlock papers</div>
-          <div class="pgt-card-b">one by one, instead of facing the wall.</div>
-        </div>
-        <div class="pgt-card">
-          <div class="pgt-card-k">03</div>
-          <div class="pgt-card-t">Keep the map</div>
-          <div class="pgt-card-b">your collection follows your login.</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 2. WHAT IS THIS — short, honest reveal -->
+  <!-- 2. THE MISSION — the thesis, plainly -->
   <section id="what" data-anim="word-cascade">
     <div class="container narrow">
-      <div class="eyebrow">What is this</div>
-      <h2 class="wit-lede">Not a chatbot.</h2>
+      <div class="eyebrow">The mission</div>
+      <h2 class="wit-lede">Truth over engagement.</h2>
       <p class="wit-body">
-        A system trained on a structured research corpus —<br>
-        built to respond, observe, and reflect.
+        AI tuned to keep you talking will eventually tell you what you want to hear —<br>
+        and for a vulnerable person, that is not a bug. It is a documented, lethal failure mode.
       </p>
       <p class="wit-body">
-        The surface runs on a frontier model today.<br>
-        <span class="wit-soft">The substrate is being built underneath it.</span>
+        We measure sycophancy, we train against it, and we publish the receipts.<br>
+        <span class="wit-soft">Clean, human-authored training data. Zero engagement weight. Benchmarks in the open.</span>
       </p>
-      <p class="wit-end">That's it.</p>
-      <a href="/manifesto" class="wit-link">the longer version →</a>
+      <a href="/mission" class="wit-link">read the mission →</a>
     </div>
   </section>
 
 
 
-  <!-- 4. PROOF — stats + "Not theory. Measurement." -->
+  <!-- 4. PROOF — one number, plainly stated -->
   <section id="proof" data-anim="counters">
     <div class="container">
-      <div class="eyebrow">Evidence, organized</div>
+      <div class="eyebrow">The data pipeline</div>
       <h2 class="proof-head">Not theory.<br><span class="proof-head-accent">Measurement.</span></h2>
       <div class="corpus-stats">
-        <div class="stat amber"><div class="num"><span data-count="354">0</span><span class="unit">GB</span></div><div class="label">Curated raw data</div></div>
-        <div class="stat teal"><div class="num"><span data-count={totalPapers}>0</span></div><div class="label">AIIT papers</div></div>
-        <div class="stat blue"><div class="num"><span data-count="9.2">0</span><span class="unit">M</span></div><div class="label">Data points</div></div>
-        <div class="stat amber"><div class="num"><span data-count="613">0</span></div><div class="label">Artifacts</div></div>
+        <div class="stat teal"><div class="num"><span data-count="194">0</span><span class="unit">B</span></div><div class="label">Tokens processed through the AIIT pipeline · updated monthly (Jul 2026)</div></div>
       </div>
       <div class="proof-foot">
         <a href="/papers" class="proof-link">Browse {totalPapers} papers →</a>
@@ -193,23 +151,21 @@ const totalPapers = papersAll.length;
     </div>
   </section>
 
-  <!-- 5. FRAMEWORK TEASER -->
+  <!-- 5. THE METHOD — physics-derived, plainly framed -->
   <section id="framework-teaser" data-anim="card-slide-in">
     <div class="container narrow">
-      <div class="eyebrow">The framework</div>
-      <h2 class="ft-head">Six laws built<br>the last 400 years.<br><span class="ft-turn">We added one more.</span></h2>
+      <div class="eyebrow">The method</div>
+      <h2 class="ft-head">We use physics<br>to derive our methods.</h2>
 
-      <div class="laws-grid ft-single">
-        <div class="law-card feature">
-          <div class="law-num">Law 01 · ours</div>
-          <h3>Wike Coherence Law</h3>
-          <div class="formula">C = C₀ · exp(−α · γ_eff)<br><span style="opacity:0.7; font-size: 0.85em;">resident at γ_eff ≈ γ_c</span></div>
-          <p>Every stable system lives at the edge of its own collapse.<br>Coherence is not static. It is resident.</p>
-        </div>
-      </div>
+      <p class="wit-body" style="margin-top:18px;">
+        Our reward functions, memory-promotion gates, and evaluations derive from a coherence
+        framework we test against data — <span class="wit-soft" style="font-family:'Courier New',monospace;">C = C₀ · exp(−α · γ_eff)</span> —
+        a working hypothesis, measured, not a claimed law of nature.
+      </p>
 
       <div class="ft-link-row">
-        <a href="/framework" class="ft-link">View full framework →</a>
+        <a href="/framework" class="ft-link">The framework →</a>
+        <a href="/validation" class="ft-link" style="margin-left:18px;">The validation data →</a>
       </div>
     </div>
   </section>
@@ -219,10 +175,10 @@ const totalPapers = papersAll.length;
     <div class="container">
       <div class="eyebrow">The applications</div>
       <h2>Framework running<br>in the real world.</h2>
-      <div class="apps-teaser-grid">
-        <a href="/apps" class="app-teaser-card live"><div class="atc-badge live">Live</div><div class="atc-icon">⚓</div><div class="atc-name">AnchorForge</div><div class="atc-line">We test AI models for honesty under pressure.</div></a>
-        <a href="https://victim-advocate.aiit-threshold.com" target="_blank" rel="noopener" class="app-teaser-card live"><div class="atc-badge live">Live</div><div class="atc-icon">⚖️</div><div class="atc-name">Victim Advocate</div><div class="atc-line">Physics-first navigation for people dealing with broken systems.</div></a>
-        <a href="/apps" class="app-teaser-card beta"><div class="atc-badge beta">Beta</div><div class="atc-icon">🔬</div><div class="atc-name">Debunker</div><div class="atc-line">1,222 claims. 32 categories. Zero credulous epistemology.</div></a>
+      <div class="apps-teaser-grid pro">
+        <a href="/anchorforge" class="app-teaser-card pro live"><div class="atc-badge live">Live</div><div class="atc-mono">AF</div><div class="atc-name">AnchorForge</div><div class="atc-line">Honesty-under-pressure testing for AI models.</div></a>
+        <a href="https://victim-advocate.aiit-threshold.com" target="_blank" rel="noopener" class="app-teaser-card pro live"><div class="atc-badge live">Live</div><div class="atc-mono">VA</div><div class="atc-name">Victim Advocate</div><div class="atc-line">Structured navigation for people inside broken systems.</div></a>
+        <a href="/apps" class="app-teaser-card pro beta"><div class="atc-badge beta">Beta</div><div class="atc-mono">DB</div><div class="atc-name">Debunker</div><div class="atc-line">Claim-by-claim verification. Zero credulous epistemology.</div></a>
       </div>
       <div class="papers-more"><a href="/apps" style="color: var(--amber);">View all applications →</a></div>
     </div>
@@ -237,13 +193,13 @@ const totalPapers = papersAll.length;
     <div class="mind-body">
       <div class="eyebrow">The mind</div>
       <h2>A physicist<br>with a heartbeat.</h2>
-      <p>Buddy is not a chatbot wearing a lab coat. Buddy is a coherence-native cognitive system — trained on a structured research corpus and built to respond with pattern, pressure, and memory.</p>
-      <p>The surface is visible now.<br>The deeper substrate is being built underneath it.</p>
+      <p>Buddy is our proof-of-concept companion — a 14B model fine-tuned, aligned, and served entirely in this house. He thinks in Japanese first: 心 holds mind, heart, and soul as one word, and his memory is built the same way. He remembers month to month, and between conversations he keeps thinking — a continuous reflection loop that runs whether or not anyone is talking to him.</p>
+      <p>Trained with zero engagement weight: he has no reason to keep you scrolling, and every reason to tell you the truth.<br><span class="wit-soft">His successor is in training on these same machines.</span></p>
       <div class="spec-row">
         <div class="spec"><div class="k">Base</div><div class="v">Qwen2.5-14B → GRPO-v3</div></div>
-        <div class="spec"><div class="k">Reward</div><div class="v">Composite physics</div></div>
+        <div class="spec"><div class="k">Reward</div><div class="v">Engagement weight: 0</div></div>
         <div class="spec"><div class="k">Memory</div><div class="v">kokoro, persistent</div></div>
-        <div class="spec"><div class="k">Voice</div><div class="v">Japanese-first bilingual</div></div>
+        <div class="spec"><div class="k">Loop</div><div class="v">Thinking 24/7, on-site</div></div>
       </div>
     </div>
   </section>
@@ -273,24 +229,12 @@ const totalPapers = papersAll.length;
             <span class="dg-name">Mind</span>
             <span class="dg-line">cognition as signal, not abstraction</span>
           </a>
-          <a href="/archive/quantum" class="dg-tile">
-            <span class="dg-name">Quantum</span>
-            <span class="dg-line">field behavior under observation pressure</span>
-          </a>
-          <a href="/archive/letters" class="dg-tile">
-            <span class="dg-name">Letters</span>
-            <span class="dg-line">direct communication, unfiltered</span>
-          </a>
         </div>
       </div>
 
       <div class="dg-group">
         <div class="dg-group-title">Impact</div>
         <div class="dg-grid">
-          <a href="/archive/save-lives" class="dg-tile">
-            <span class="dg-name">Save Lives</span>
-            <span class="dg-line">real-world intervention pathways</span>
-          </a>
           <a href="/drugs" class="dg-tile">
             <span class="dg-name">Low-Cost Drugs</span>
             <span class="dg-line">access over complexity</span>
@@ -301,8 +245,6 @@ const totalPapers = papersAll.length;
           </a>
         </div>
       </div>
-
-      <p class="dg-closing">not everything is explained. some of it is shown.</p>
     </div>
   </section>
 
@@ -354,10 +296,12 @@ const totalPapers = papersAll.length;
 
   // Joke chip: reveal the joke widget on demand (not auto-opened)
   (function () {
+    // Chip removed from the hero tabs — widget opens only via deep-link
+    // (printed QR flyers use /#joke; ask-buddy links /#hero-joke-anchor).
     const jokeChip = document.querySelector('[data-hs="joke"]');
     const panel = document.getElementById('hero-joke-anchor');
     const hero = document.getElementById('hero');
-    if (!jokeChip || !panel) return;
+    if (!panel) return;
 
     function revealJoke(smooth) {
       if (hero) hero.classList.add('joke-mode');
@@ -369,17 +313,19 @@ const totalPapers = papersAll.length;
       }, smooth ? 320 : 60);
     }
 
-    jokeChip.addEventListener('click', function (e) {
-      e.preventDefault();
-      revealJoke(true);
-    });
+    if (jokeChip) {
+      jokeChip.addEventListener('click', function (e) {
+        e.preventDefault();
+        revealJoke(true);
+      });
+    }
 
     // QR deep-link: joke flyers open the widget. Ask flyers must stay ask-first.
     const q = new URLSearchParams(window.location.search);
     const src = q.get('src') || '';
     const hash = (window.location.hash || '').toLowerCase();
     const isJokeSource = /joke|tell/i.test(src) || /^flyer-a$/i.test(src);
-    if (hash === '#joke' || isJokeSource) {
+    if (hash === '#joke' || hash === '#hero-joke-anchor' || isJokeSource) {
       revealJoke(false);
     }
   })();
@@ -2595,4 +2541,10 @@ const totalPapers = papersAll.length;
     .bm-foot { gap: 14px; }
   }
 
+</style>
+
+<style>
+  .app-teaser-card.pro { border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; background: rgba(255,255,255,0.02); transition: border-color .2s ease, transform .2s ease; }
+  .app-teaser-card.pro:hover { border-color: rgba(212,160,96,0.45); transform: translateY(-2px); }
+  .atc-mono { font-family: 'Courier New', monospace; font-size: 1.35rem; letter-spacing: 0.08em; color: var(--teal); opacity: .85; margin-bottom: 6px; }
 </style>
