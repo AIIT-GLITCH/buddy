@@ -1,7 +1,6 @@
 ---
 import '../styles/global.css';
 import papersAll from '../data/papers.json';
-import GaryWidget from '../components/GaryWidget.astro';
 export interface Props {
   title?: string;
   description?: string;
@@ -103,7 +102,6 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
       <div class="nav-group">
         <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Mission <span class="nav-caret">▾</span></button>
         <div class="nav-menu">
-          <a href="/save-lives">Save Lives</a>
           <a href="/data-policy">Data Policy</a>
         </div>
       </div>
@@ -111,9 +109,30 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
       <div class="nav-group">
         <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Buddy <span class="nav-caret">▾</span></button>
         <div class="nav-menu">
+          <a href="/ask-buddy">Ask Buddy</a>
           <a href="/#what">What is Buddy</a>
           <a href="/manifesto">How it works</a>
           <a href="/updates">Updates</a>
+        </div>
+      </div>
+
+      <div class="nav-group">
+        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Tools <span class="nav-caret">▾</span></button>
+        <div class="nav-menu">
+          <a href="/agentic">All tools</a>
+          <a href="/lac">LAC Memory Kit</a>
+          <a href="/voice2">AIIT-Voice2</a>
+          <a href="/waiste">wAIste Not</a>
+          <a href="/anchorforge">AnchorForge</a>
+        </div>
+      </div>
+
+      <div class="nav-group">
+        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Services <span class="nav-caret">▾</span></button>
+        <div class="nav-menu">
+          <a href="/proofdesk">ProofDesk</a>
+          <a href="/provisional">Provisional Patents</a>
+          <a href="/shop">Shop</a>
         </div>
       </div>
 
@@ -142,14 +161,28 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
     </div>
     <div class="mm-section">
       <div class="mm-label">Mission</div>
-      <a href="/save-lives">Save Lives</a>
       <a href="/data-policy">Data Policy</a>
     </div>
     <div class="mm-section">
       <div class="mm-label">Buddy</div>
+      <a href="/ask-buddy">Ask Buddy</a>
       <a href="/#what">What is Buddy</a>
       <a href="/manifesto">How it works</a>
       <a href="/updates">Updates</a>
+    </div>
+    <div class="mm-section">
+      <div class="mm-label">Tools</div>
+      <a href="/agentic">All tools</a>
+      <a href="/lac">LAC Memory Kit</a>
+      <a href="/voice2">AIIT-Voice2</a>
+      <a href="/waiste">wAIste Not</a>
+      <a href="/anchorforge">AnchorForge</a>
+    </div>
+    <div class="mm-section">
+      <div class="mm-label">Services</div>
+      <a href="/proofdesk">ProofDesk</a>
+      <a href="/provisional">Provisional Patents</a>
+      <a href="/shop">Shop</a>
     </div>
     <div class="mm-section">
       <div class="mm-label">Connect</div>
@@ -468,10 +501,8 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
   <footer>
     <div class="f-brand">AIIT-THRESHOLD · Independent AI-safety research · Council Hill, Oklahoma</div>
     <div class="f-support">We support <a href="https://www.anthropic.com" target="_blank" rel="noopener">Anthropic</a>.</div>
-    <div>© 2026 AIIT-THRESHOLD LLC · All rights reserved</div>
+    <div>© 2026 AIIT-THRESHOLD LLC · All rights reserved · <a href="/archive">Archive</a></div>
   </footer>
-
-  {!isHome && <GaryWidget />}
 
   <script src="/snappy-nav.js" defer></script>
   <script src="/paper-game-sync.js" defer></script>

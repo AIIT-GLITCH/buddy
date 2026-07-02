@@ -1,8 +1,8 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import trivia from '../data/trivia.json';
-import papersAll from '../data/papers.json';
-import { tierForSlug } from '../lib/paperTier.js';
+import Layout from '../../layouts/Layout.astro';
+import trivia from '../../data/trivia.json';
+import papersAll from '../../data/papers.json';
+import { tierForSlug } from '../../lib/paperTier.js';
 
 const CANONICAL_PAPER_COUNT = 154;
 const gamePaperSlugs = [...new Set(trivia.map(t => t.paper_slug))];
@@ -42,7 +42,7 @@ const gameQuestions = trivia.map(t => ({
       </p>
 
       <div class="pg-hero-actions">
-        <a class="pg-btn primary" href="/trivia">Play today →</a>
+        <a class="pg-btn primary" href="/archive/trivia">Play today →</a>
         <a class="pg-btn" href="/papers">Browse archive</a>
       </div>
 
@@ -77,7 +77,7 @@ const gameQuestions = trivia.map(t => ({
             <span id="pg-today-date">daily</span>
           </div>
           <div class="pg-today" id="pg-today"></div>
-          <a class="pg-inline-link" href="/trivia">start the daily draw →</a>
+          <a class="pg-inline-link" href="/archive/trivia">start the daily draw →</a>
         </section>
 
         <section class="pg-panel">

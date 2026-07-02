@@ -1,8 +1,8 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import trivia from '../data/trivia.json';
-import papersAll from '../data/papers.json';
-import { tierForSlug } from '../lib/paperTier.js';
+import Layout from '../../layouts/Layout.astro';
+import trivia from '../../data/trivia.json';
+import papersAll from '../../data/papers.json';
+import { tierForSlug } from '../../lib/paperTier.js';
 
 // Build a slug → paper lookup so the client can render paper cards without shipping the full corpus
 const paperLookup = {};

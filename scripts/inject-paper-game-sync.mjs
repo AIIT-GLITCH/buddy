@@ -30,8 +30,8 @@ function addSync(html) {
 
 function addNav(html) {
   const papersLink = '<a href="/papers">Papers</a>';
-  if (!html.includes(papersLink) || html.includes('<a href="/paper-game">Paper Game</a>')) return html;
-  return html.replace(papersLink, `${papersLink}\n          <a href="/paper-game">Paper Game</a>`);
+  if (!html.includes(papersLink) || html.includes('<a href="/archive/paper-game">Paper Game</a>')) return html;
+  return html.replace(papersLink, `${papersLink}\n          <a href="/archive/paper-game">Paper Game</a>`);
 }
 
 function removeUpdateStrip(html) {
@@ -41,7 +41,7 @@ function removeUpdateStrip(html) {
 function replaceHeroHook(html) {
   return html
     .replace(/<a href="#hero-joke-anchor" class="hp-joke-secondary" data-hs="joke">or tell buddy a joke\.<\/a>/g,
-      '<a href="/paper-game" class="hp-joke-secondary">there is a back door into the archive →</a>')
+      '<a href="/archive/paper-game" class="hp-joke-secondary">there is a back door into the archive →</a>')
     .replace(/or tell buddy a joke\./g, 'there is a back door into the archive →');
 }
 
@@ -53,21 +53,21 @@ function paperGameBlock() {
       <h2 class="pgh-head">the archive has<br><span>a back door.</span></h2>
       <p class="pgh-body">Three questions a day. Each answer opens a paper. Most people browse the archive from the front. This is the other way in.</p>
       <div class="pgh-actions">
-        <a href="/paper-game" class="pgh-cta">find today's door →</a>
+        <a href="/archive/paper-game" class="pgh-cta">find today's door →</a>
         <a href="/papers" class="pgh-link">or browse normally</a>
       </div>
       <div class="pgh-cards" aria-label="Paper Game features">
-        <a href="/paper-game" class="pgh-card">
+        <a href="/archive/paper-game" class="pgh-card">
           <span class="pgh-card-k">01</span>
           <strong>Answer three</strong>
           <span>daily questions from the giants.</span>
         </a>
-        <a href="/paper-game" class="pgh-card">
+        <a href="/archive/paper-game" class="pgh-card">
           <span class="pgh-card-k">02</span>
           <strong>Unlock papers</strong>
           <span>one by one, instead of facing the wall.</span>
         </a>
-        <a href="/paper-game" class="pgh-card">
+        <a href="/archive/paper-game" class="pgh-card">
           <span class="pgh-card-k">03</span>
           <strong>Keep the map</strong>
           <span>your collection follows your login.</span>
