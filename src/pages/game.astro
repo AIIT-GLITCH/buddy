@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 ---
-<Layout title="Them Beans Though — Buddy" description="You are a coherence particle. Dodge meteors. Collect beans. Find the ring.">
+<Layout title="Ring Run — Buddy" description="You are a coherence particle. Dodge meteors. Collect charges. Find the ring.">
 
 <div id="game-wrap">
   <canvas id="game-canvas"></canvas>
@@ -9,8 +9,8 @@ import Layout from '../layouts/Layout.astro';
   <div id="game-ui">
     <div id="game-start" class="game-screen">
       <div class="gs-label">ἓν καὶ πᾶν</div>
-      <h2>Them Beans Though</h2>
-      <p class="gs-sub">You are a coherence particle.<br>Dodge meteors. Collect beans. Find the ring.</p>
+      <h2>Ring Run</h2>
+      <p class="gs-sub">You are a coherence particle.<br>Dodge meteors. Collect charges. Find the ring.</p>
       <div class="gs-controls" id="gs-controls-txt">
         <span class="ctrl-desktop">Touch to move · WASD / arrows on desktop</span>
         <span class="ctrl-mobile">Drag to move</span>
@@ -24,7 +24,7 @@ import Layout from '../layouts/Layout.astro';
         <div class="hud-bar-wrap"><div id="hud-bar" class="hud-bar"></div></div>
       </div>
       <div class="hud-center">
-        <div class="hud-beans">🫘 <span id="hud-beans">0</span></div>
+        <div class="hud-charges">✦ <span id="hud-charges">0</span></div>
       </div>
       <div class="hud-right">
         <div class="hud-label">SCORE</div>
@@ -40,7 +40,7 @@ import Layout from '../layouts/Layout.astro';
       <p class="gs-sub" id="go-message">Your coherence collapsed.</p>
       <div class="go-stats">
         <div class="go-stat"><div class="go-num" id="go-score">0</div><div class="go-label">Score</div></div>
-        <div class="go-stat"><div class="go-num" id="go-beans">0</div><div class="go-label">Beans</div></div>
+        <div class="go-stat"><div class="go-num" id="go-charges">0</div><div class="go-label">Charges</div></div>
       </div>
       <button id="btn-restart" class="btn-gold-game">TRY AGAIN</button>
       <a href="/" class="go-back">← Back to the framework</a>
@@ -49,10 +49,10 @@ import Layout from '../layouts/Layout.astro';
     <div id="game-win" class="game-screen hidden">
       <div class="gs-label gold-text">COHERENCE ACHIEVED</div>
       <h2>You found the ring.</h2>
-      <p class="gs-sub">Them beans though. 🫘</p>
+      <p class="gs-sub">The ring held.</p>
       <div class="go-stats">
         <div class="go-stat"><div class="go-num" id="win-score">0</div><div class="go-label">Score</div></div>
-        <div class="go-stat"><div class="go-num" id="win-beans">0</div><div class="go-label">Beans</div></div>
+        <div class="go-stat"><div class="go-num" id="win-charges">0</div><div class="go-label">Charges</div></div>
       </div>
       <button id="btn-play-again" class="btn-gold-game">AGAIN</button>
       <a href="/" class="go-back">← Back to the framework</a>
@@ -236,7 +236,7 @@ import Layout from '../layouts/Layout.astro';
     transition: width 0.3s, background 0.3s;
   }
 
-  .hud-beans {
+  .hud-charges {
     font-size: 1.2em;
     color: #D4AF37;
   }
@@ -356,8 +356,8 @@ const ctx = canvas.getContext('2d');
 // ── STATE ──
 let W, H, dpr;
 let state = 'start'; // start | playing | dead | win
-let player, meteors, beans, stars, ring;
-let score, beanCount, coherence;
+let player, meteors, charges, stars, ring;
+let score, chargeCount, coherence;
 let frame, animId;
 
 // ── RESIZE ──
@@ -412,9 +412,9 @@ function initGame() {
   };
 
   meteors = [];
-  beans = [];
+  charges = [];
   score = 0;
-  beanCount = 0;
+  chargeCount = 0;
   coherence = 1.0;
   frame = 0;
 
@@ -452,8 +452,8 @@ function spawnMeteor(init) {
   });
 }
 
-function spawnBean() {
-  beans.push({
+function spawnCharge() {
+  charges.push({
     x: 60 + Math.random() * (W - 120),
     y: -20,
     vy: 1.5 + Math.random() * 1.5,
@@ -547,7 +547,7 @@ function drawMeteor(m) {
   ctx.restore();
 }
 
-function drawBean(b) {
+function drawCharge(b) {
   ctx.save();
   ctx.globalAlpha = b.alpha;
   ctx.translate(b.x + Math.sin(b.wobble) * 8, b.y);
@@ -561,11 +561,10 @@ function drawBean(b) {
   ctx.fillStyle = g;
   ctx.fill();
 
-  // bean emoji style — draw it as text
-  ctx.font = `${b.r * 2}px serif`;
+  ctx.font = `${b.r * 2}px -apple-system, sans-serif`;
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.fillText('🫘', 0, 0);
+  ctx.fillText('✦', 0, 0);
 
   ctx.restore();
 }
@@ -622,7 +621,7 @@ function dist(a, b) {
 // ── UPDATE HUD ──
 function updateHUD() {
   document.getElementById('hud-score').textContent = Math.floor(score);
-  document.getElementById('hud-beans').textContent = beanCount;
+  document.getElementById('hud-charges').textContent = chargeCount;
   const bar = document.getElementById('hud-bar');
   const pct = Math.max(0, coherence * 100);
   bar.style.width = pct + '%';
@@ -693,8 +692,8 @@ function loop() {
 
   // spawn meteors
   if (frame % 130 === 0) spawnMeteor(false);
-  // spawn beans
-  if (frame % 100 === 0) spawnBean();
+  // spawn charges
+  if (frame % 100 === 0) spawnCharge();
 
   // meteors
   for (let i = meteors.length - 1; i >= 0; i--) {
@@ -716,27 +715,27 @@ function loop() {
     }
   }
 
-  // beans
-  for (let i = beans.length - 1; i >= 0; i--) {
-    const b = beans[i];
+  // charges
+  for (let i = charges.length - 1; i >= 0; i--) {
+    const b = charges[i];
     b.y += b.vy;
     b.wobble += b.wobbleSpeed;
     if (b.collected) {
       b.alpha -= 0.08;
-      if (b.alpha <= 0) { beans.splice(i, 1); continue; }
+      if (b.alpha <= 0) { charges.splice(i, 1); continue; }
     } else if (b.y > H + 30) {
-      beans.splice(i, 1);
+      charges.splice(i, 1);
       continue;
     }
     // collect
     if (!b.collected && dist(player, b) < player.r + b.r) {
       b.collected = true;
-      beanCount++;
+      chargeCount++;
       coherence = Math.min(1, coherence + 0.15);
       score += 100;
-      scorePopup(b.x - 20, b.y - 10, '+100 🫘');
+      scorePopup(b.x - 20, b.y - 10, '+100 ✦');
     }
-    drawBean(b);
+    drawCharge(b);
   }
 
   // player movement — full 2D (mouse, touch, WASD/arrows)
@@ -797,19 +796,19 @@ function endGame(win) {
 
   if (win) {
     document.getElementById('win-score').textContent = Math.floor(score);
-    document.getElementById('win-beans').textContent = beanCount;
+    document.getElementById('win-charges').textContent = chargeCount;
     showScreen('game-win');
   } else {
     const msgs = [
       'Your coherence collapsed.',
       'The meteor hit different.',
-      'Them beans weren\'t enough.',
+      'The charge did not hold.',
       'The ring scattered.',
       'γ_eff exceeded γ_c. Fatally.',
     ];
     document.getElementById('go-message').textContent = msgs[Math.floor(Math.random() * msgs.length)];
     document.getElementById('go-score').textContent = Math.floor(score);
-    document.getElementById('go-beans').textContent = beanCount;
+    document.getElementById('go-charges').textContent = chargeCount;
     showScreen('game-over');
   }
 }

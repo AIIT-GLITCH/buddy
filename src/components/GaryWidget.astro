@@ -1,6 +1,6 @@
 ---
 // Gary Widget — inline rail trigger, full drawer on tap.
-// Gated to 10 deep routes only. Replaces the old floating bean.
+// Gated to 10 deep routes only. Replaces the old floating trigger.
 // All widget logic preserved: api-key intake, Im-broke gate, chat loop,
 // tool calls (browse_page, read/list/write_site_file, append_user_note),
 // per-user persistent memory, /EXIT session-lock, localStorage state.
@@ -42,7 +42,7 @@ const showWidget = ALLOWED.has(path);
     </form>
   </div>
 
-  <!-- Rail (inline trigger, replaces the floating bean) -->
+  <!-- Rail (inline trigger, replaces the old floating trigger) -->
   <section class="gw-rail-section" aria-label="Gary pressure test">
     <div class="gw-rail-inner">
       <button id="gw-rail" class="gw-rail" aria-label="wake gary">
@@ -802,7 +802,7 @@ const showWidget = ALLOWED.has(path);
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
 
-  /* --- inline rail (trigger, replaces floating bean) --- */
+  /* --- inline rail trigger --- */
   .gw-rail-section {
     padding: 0 24px 32px;
   }

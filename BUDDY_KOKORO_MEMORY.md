@@ -209,7 +209,7 @@ When you propose patches to `askbuddy.js` or `joke.js`:
 | `/home/buddy_ai/Buddy/core/identity_guard.py` | Immutable identity enforcement |
 | `/home/buddy_ai/Buddy/memory/kokoro/心/` | Identity facts (hash-protected) |
 | `/home/buddy_ai/Buddy/memory/kokoro/.identity_hash` | Current SHA-256 |
-| `/home/buddy_ai/Documents/GARY_MEMORY_SYSTEM_BUILD_GUIDE.md` | Sister system (Gary's 12-category memory) |
+| `/home/buddy_ai/Documents/GARY_MEMORY_SYSTEM_BUILD_GUIDE.md` | Sister system (Gary's 12 classified categories + conversations/raw = 14 top-level tiers) |
 | `functions/api/askbuddy.js` | **NEEDS IDENTITY CANON INJECTED** |
 | `functions/api/joke.js` | **NEEDS IDENTITY CANON INJECTED** |
 
