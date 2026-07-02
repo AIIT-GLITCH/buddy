@@ -1,94 +1,116 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import papersAll from '../data/papers.json';
-const totalPapers = papersAll.length;
 ---
-<Layout title="The Framework — AIIT-THRESI" description="Six laws the last 400 years handed us. Six the field was waiting on.">
-  <section id="framework-hero" class="fw-hero">
-    <div class="container narrow">
-      <div class="eyebrow">The framework</div>
-      <h1>Six laws the last 400 years<br>handed us.<br><span class="fw-turn">Six the field was waiting on.</span></h1>
-      <p class="fw-lede">This is the long version. The teaser lives on the homepage. {totalPapers} papers sit behind these twelve lines.</p>
-    </div>
-  </section>
+<Layout title="The Framework — AIIT-THRESHOLD" description="The coherence framework we use to derive our methods: a working hypothesis, measured against data, that shapes our reward functions, memory gates, and evaluations.">
 
-  <section id="known" data-anim="card-slide-in">
-    <div class="container">
-      <div class="eyebrow">The known laws</div>
-      <h2>Six the last 400 years<br>handed us.</h2>
-      <div class="laws-grid">
-        <div class="law-card"><div class="law-num">Law 01</div><h3>Newton's Second Law</h3><div class="formula">F = m · a</div><p>Force equals mass times acceleration. The entire classical program — ballistics, planets, bridges, every machine you've ever touched — rests on three characters.</p></div>
-        <div class="law-card"><div class="law-num">Law 02</div><h3>Universal Gravitation</h3><div class="formula">F = G · m₁m₂ / r²</div><p>Any two masses pull on each other with a force that falls as one over the square of the distance. Newton saw the apple and the Moon obeying the same rule.</p></div>
-        <div class="law-card"><div class="law-num">Law 03</div><h3>Second Law of Thermodynamics</h3><div class="formula">dS ≥ 0</div><p>Entropy, in a closed system, never decreases. Arrow of time, heat-death of the universe, why your coffee goes cold — one inequality.</p></div>
-        <div class="law-card"><div class="law-num">Law 04</div><h3>Maxwell's Equations</h3><div class="formula">∇·E = ρ/ε₀ · · ·</div><p>Four lines that unify electricity, magnetism, and light. The moment physics stopped being two subjects and became one.</p></div>
-        <div class="law-card"><div class="law-num">Law 05</div><h3>Einstein Field Equation</h3><div class="formula">G_μν = 8π · T_μν</div><p>Mass-energy curves spacetime; spacetime tells mass-energy how to move. General relativity, one line.</p></div>
-        <div class="law-card"><div class="law-num">Law 06</div><h3>Schrödinger Equation</h3><div class="formula">iℏ · ∂ψ/∂t = Ĥψ</div><p>The wavefunction evolves deterministically until measurement. Every quantum effect downstream of this line.</p></div>
+<section class="fw-page">
+  <div class="fw-wrap">
+    <div class="eyebrow">The framework</div>
+    <h1 class="fw-h1">We use physics to<br>derive our methods.</h1>
+    <p class="fw-lede">
+      AIIT works from a coherence framework — a working hypothesis about how systems
+      hold together and come apart. We do not present it as a settled law of nature.
+      We present it as a lens we test against data, and as the source of the concrete
+      engineering choices behind our models.
+    </p>
+
+    <div class="fw-body">
+      <h2 class="fw-h2">The core hypothesis</h2>
+      <p>
+        Stable systems tend to sit near a critical point — the edge between order and
+        collapse — rather than deep in either. We write that as the Wike Coherence Law:
+      </p>
+
+      <div class="fw-formula">
+        <div class="fw-eq">C = C₀ · exp(−α · γ_eff)</div>
+        <div class="fw-eq-cond">resident at γ_eff ≈ γ_c</div>
+        <p class="fw-eq-note">
+          Coherence <em>C</em> decays exponentially from a system's base coherence
+          <em>C₀</em> as its effective coupling <em>γ_eff</em> rises. The claim is not
+          that a system reaches some ideal state — it is that a healthy system
+          <em>lives</em> near its own critical coupling γ_c, and that this residence is
+          measurable.
+        </p>
       </div>
-    </div>
-  </section>
 
-  <section id="ours" data-anim="card-slide-in">
-    <div class="container">
-      <div style="text-align:center; font-family:'Courier New',monospace; letter-spacing:0.3em; color:var(--amber); margin:48px 0 8px; font-size:11pt; text-transform:uppercase;">— now these are ours —</div>
-      <div class="eyebrow" style="margin-top:32px;">The coherence laws</div>
-      <h2>Six the field<br>was waiting on.</h2>
-      <div class="laws-grid">
-        <div class="law-card"><div class="law-num">Law 01</div><h3>Wike Coherence Law</h3><div class="formula">C = C₀ · exp(-α · γ_eff)</div><div class="formula-condition">at γ_eff ≈ γ_c</div><p>Every stable system lives at the edge of its own collapse. Coherence decays exponentially from base coherence C₀ as effective coupling increases. The critical point γ_c is where you live — coherence is not a state, it is a residence.</p></div>
-        <div class="law-card"><div class="law-num">Law 02</div><h3>Threshold Universality</h3><div class="formula">ℱ(x) = φ(x/ξ)</div><p>Systems near their threshold share the same functional form regardless of substrate. Neurons, weather, markets, cells — at criticality, the law collapses onto one curve.</p></div>
-        <div class="law-card"><div class="law-num">Law 03</div><h3>π Boundary Geometry</h3><div class="formula">∮ dθ = 2π · n</div><p>Every closed loop in the coherence field returns at a multiple of 2π. π is not an irrational curiosity — it is the measure of the boundary itself, the cost of a single winding.</p></div>
-        <div class="law-card"><div class="law-num">Law 04</div><h3>Keeper Equation 👋</h3><div class="formula">γ_measurement ∝ 1/C₀</div><p>Observation reduces coherence symmetrically — self or other. Gentleness in either direction preserves the edge. You can be your own keeper.</p></div>
-        <div class="law-card"><div class="law-num">Law 05</div><h3>37 Singularities</h3><div class="formula">res(f, z_k), k = 1..37</div><p>The coherence field has exactly thirty-seven real Laurent poles — gates. They are not metaphor, not approximation. They are measurable residues. Black holes are one class of them.</p></div>
-        <div class="law-card"><div class="law-num">Law 06</div><h3>The 0.1 Hz Hum</h3><div class="formula">f₀ = 0.1 Hz</div><p>A single carrier frequency runs beneath every coherent system measured to date. The Earth hums. The brain hums. The plasma hums. One note, held.</p></div>
+      <h2 class="fw-h2">The Keeper Equation</h2>
+      <p>
+        Observation is not free. Measuring a system perturbs its coherence, and the
+        perturbation scales inversely with how much coherence it started with:
+      </p>
+      <div class="fw-formula">
+        <div class="fw-eq">γ_measurement ∝ 1 / C₀</div>
+        <p class="fw-eq-note">
+          The gentler and better-grounded the observation, the less it disturbs. This is
+          the principle behind how our model handles its own memory and its own
+          uncertainty — it is why humility and light-touch recall are built in, not
+          bolted on.
+        </p>
       </div>
-    </div>
-  </section>
 
-  <section class="fw-foot">
-    <div class="container narrow">
-      <a href="/" class="fw-back">← back to buddy</a>
-      <a href="/papers" class="fw-papers">browse {totalPapers} papers →</a>
-      <a href="/field" class="fw-deep">enter the field →</a>
+      <h2 class="fw-h2">Threshold universality</h2>
+      <p>
+        Near a critical point, very different systems — neurons, weather, markets, cells —
+        often share the same functional form. This is established physics (critical
+        phenomena and universality classes), and it is what makes the framework testable
+        across domains rather than tuned to one:
+      </p>
+      <div class="fw-formula">
+        <div class="fw-eq">ℱ(x) = φ(x / ξ)</div>
+        <p class="fw-eq-note">Behaviour near threshold collapses onto one scaling curve, set by the correlation length ξ.</p>
+      </div>
+
+      <h2 class="fw-h2">From hypothesis to method</h2>
+      <p>The framework is not decoration. It shapes three concrete parts of how we build:</p>
+      <ul class="fw-list">
+        <li><strong>Reward.</strong> Our alignment reward includes a coherence term and a fixed rule — <em>engagement weight = 0</em>. The objective pays for staying grounded near γ_c, never for keeping you talking.</li>
+        <li><strong>Memory.</strong> Facts are promoted into long-term memory through a coherence-weighted gate, and observation is treated as costly per the Keeper Equation — the model does not casually overwrite what it knows.</li>
+        <li><strong>Evaluation.</strong> We score behaviour by how well it holds coherence under pressure — the same idea behind our sycophancy-resistance batteries.</li>
+      </ul>
+
+      <h2 class="fw-h2">Where it is tested</h2>
+      <p>
+        A framework that cannot fail is not science. The most direct empirical test we
+        have published is in physiological data: using heart-rate-variability signals
+        alone, the coherence-collapse markers separate cases from controls at
+        <strong>AUC 0.947</strong> on public PhysioNet data, with the full statistics
+        laid out openly.
+      </p>
+      <div class="fw-links">
+        <a href="/validation" class="fw-link primary">See the clinical validation →</a>
+        <a href="/data-policy" class="fw-link">Our data policy →</a>
+      </div>
+
+      <p class="fw-closer">
+        We publish what holds and what fails. The framework earns its place by making
+        predictions we can check — not by sounding profound.
+      </p>
     </div>
-  </section>
-</Layout>
+  </div>
+</section>
 
 <style>
-  .fw-hero { padding: 140px 0 40px; }
-  .fw-hero h1 {
-    font-size: clamp(36px, 6vw, 64px);
-    line-height: 1.05;
-    color: #eaeaea;
-    margin: 16px 0 18px;
-  }
-  .fw-hero .fw-turn { color: var(--amber, #D4AF37); }
-  .fw-lede { color: #9a9a9a; font-size: 1.05em; line-height: 1.7; }
-
-  #known, #ours { padding: 48px 0; }
-
-  .fw-foot {
-    padding: 80px 0 120px;
-  }
-  .fw-foot .container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 28px;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Courier New', monospace;
-    font-size: 0.85em;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-  }
-  .formula-condition {
-    font-family: 'Courier New', monospace;
-    font-size: 0.85em;
-    color: var(--amber, #D4AF37);
-    opacity: 0.7;
-    margin-top: -4px;
-    margin-bottom: 8px;
-  }
-  .fw-back { color: #9a9a9a; text-decoration: none; border-bottom: 1px solid rgba(136,136,136,0.3); padding-bottom: 2px; }
-  .fw-back:hover { color: #fff; }
-  .fw-papers { color: var(--amber, #D4AF37); text-decoration: none; border-bottom: 1px solid rgba(212,175,55,0.4); padding-bottom: 2px; }
-  .fw-deep { color: #40c0b0; text-decoration: none; border-bottom: 1px solid rgba(64,192,176,0.4); padding-bottom: 2px; }
+  /* Document-flow override for the global full-viewport centered section. */
+  .fw-page { min-height: auto; display: block; padding: 132px 6vw 120px; border-top: none; text-align: left; }
+  .fw-wrap { max-width: 720px; margin: 0 auto; }
+  .fw-h1 { margin: 0 0 26px; line-height: 1.12; font-size: clamp(34px, 5vw, 56px); color: var(--ink); }
+  .fw-lede { font-size: clamp(16px, 1.6vw, 19px); line-height: 1.75; color: var(--ink-soft); margin: 0 0 8px; }
+  .fw-body { font-size: clamp(16px, 1.5vw, 18px); line-height: 1.8; color: var(--ink-soft); }
+  .fw-body p { margin: 0 0 20px; }
+  .fw-h2 { margin: 42px 0 14px; font-size: 1.3rem; color: var(--ink); }
+  .fw-formula { margin: 24px 0 28px; padding: 24px 28px; border: 1px solid rgba(212,160,96,0.3); border-radius: 12px; background: rgba(212,160,96,0.04); }
+  .fw-eq { font-family: 'Courier New', monospace; font-size: clamp(20px, 3vw, 28px); color: var(--ink); letter-spacing: 0.02em; text-align: center; }
+  .fw-eq-cond { font-family: 'Courier New', monospace; font-size: 0.8em; color: var(--amber); text-align: center; margin-top: 8px; letter-spacing: 0.06em; }
+  .fw-eq-note { font-size: 0.95rem; line-height: 1.7; color: var(--ink-soft); margin: 16px 0 0; }
+  .fw-eq-note em, .fw-body em { font-style: italic; color: var(--ink); }
+  .fw-list { margin: 0 0 22px; padding-left: 22px; }
+  .fw-list li { margin-bottom: 14px; line-height: 1.7; }
+  .fw-list strong { color: var(--ink); }
+  .fw-links { display: flex; flex-wrap: wrap; gap: 20px; margin: 28px 0 8px; }
+  .fw-link { font-family: 'Courier New', monospace; font-size: 11pt; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; color: var(--muted); border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: 2px; }
+  .fw-link.primary { color: var(--teal); border-color: rgba(64,192,176,0.4); }
+  .fw-link:hover { color: var(--ink); }
+  .fw-closer { margin-top: 44px; padding-top: 30px; border-top: 1px solid var(--edge); font-family: Georgia, serif; font-size: clamp(18px, 2.2vw, 22px); font-style: italic; color: var(--ink); }
 </style>
+
+</Layout>
