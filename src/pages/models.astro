@@ -1,0 +1,100 @@
+---
+import Layout from '../layouts/Layout.astro';
+const HF = 'https://huggingface.co/AIIT-THRESHOLD';
+---
+<Layout title="Open Models — AIIT-THRESHOLD" description="Tessera 1B: an open, from-scratch 1B base model on a hand-curated 24.5B-token corpus. Open weights, open data, open hand-written alignment set.">
+
+<section class="mdl-page">
+  <div class="mdl-wrap">
+    <div class="eyebrow">Open models</div>
+    <h1 class="mdl-h1">Tessera 1B</h1>
+    <p class="mdl-lede">
+      Our first public release: a <strong>~1B-parameter model trained from scratch</strong> on a
+      hand-curated 24.5B-token corpus — for about $315 on a single rented H100. We are releasing
+      the weights, the data, and the hand-written alignment set. Open model, open dataset.
+    </p>
+
+    <div class="mdl-body">
+      <p>
+        Tessera 1B is an honest <strong>base model</strong>. It writes fluent English (and some
+        Japanese), but it has not been post-trained — so its reasoning and factual reliability are
+        limited, and it is not a chat assistant. That is the point of releasing it: it is a clean,
+        well-built starting block. It <strong>fine-tunes cleanly</strong> and makes an excellent
+        foundation for a <strong>specialty model</strong> — one tuned to answer specific questions
+        about a specific domain. If you want a base you can actually understand end to end, this is one.
+      </p>
+
+      <h2 class="mdl-h2">The release</h2>
+      <div class="mdl-cards">
+        <a class="mdl-card" href={`${HF}/Tessera-1B`} target="_blank" rel="noopener">
+          <div class="mdl-card-k">Model</div>
+          <div class="mdl-card-t">Tessera 1B</div>
+          <div class="mdl-card-d">From-scratch base weights (Apache-2.0) + a curated set of hand-rolled SFT adapters. Custom architecture; safetensors conversion included.</div>
+          <div class="mdl-card-go">On Hugging Face →</div>
+        </a>
+        <a class="mdl-card" href={`${HF}/AIIT-Tessera24B-dataset`} target="_blank" rel="noopener">
+          <div class="mdl-card-k">Dataset</div>
+          <div class="mdl-card-t">AIIT-Tessera24B-dataset</div>
+          <div class="mdl-card-d">The 24.5B-token pretraining corpus. Bulk web (DCLM) plus a long tail of sources hand-selected one by one. Tokens for redistributable sources; reproducible recipe for the rest.</div>
+          <div class="mdl-card-go">On Hugging Face →</div>
+        </a>
+        <a class="mdl-card" href={`${HF}/Tessera-SFT-Gold`} target="_blank" rel="noopener">
+          <div class="mdl-card-k">Alignment data</div>
+          <div class="mdl-card-t">Tessera SFT Gold</div>
+          <div class="mdl-card-d">1,031 supervised examples — every response written by hand. 100% human-authored, zero provenance ambiguity. The clean-data doctrine, made concrete.</div>
+          <div class="mdl-card-go">On Hugging Face →</div>
+        </a>
+      </div>
+
+      <h2 class="mdl-h2">Specs, verified</h2>
+      <table class="mdl-table">
+        <tbody>
+          <tr><td>Parameters</td><td>1.01B (32 layers · d1536 · 16 heads · 4096 context · 65,536 vocab · bf16)</td></tr>
+          <tr><td>Tokenizer</td><td>In-house byte-level BPE (forge64k), English + Japanese</td></tr>
+          <tr><td>Training data</td><td>24.5B tokens (~1 epoch), ≈24× Chinchilla</td></tr>
+          <tr><td>Compute</td><td>1× H100 SXM 80GB (vast.ai, Japan) · 145.7h (~6 days) · ~$315</td></tr>
+          <tr><td>Final eval loss</td><td>~3.20 nats (perplexity ≈ 24.5)</td></tr>
+          <tr><td>Base license</td><td>Apache-2.0 (trained from scratch — no upstream model license)</td></tr>
+        </tbody>
+      </table>
+
+      <h2 class="mdl-h2">Said plainly</h2>
+      <p>
+        We measured what we measured and nothing more. The only rigorous metric is language-model
+        loss; on a small TruthfulQA probe the base scored near chance. We would rather tell you it
+        is a fluent base with weak cognition than publish benchmark numbers we did not run. Its base
+        corpus is web, books, and academic text — <strong>no model-conversation transcripts, no
+        synthetic reasoning traces</strong>, consistent with our <a href="/data-policy">data policy</a>.
+      </p>
+
+      <p class="mdl-closer">
+        This is what a small, independent lab can do end to end — data, tokenizer, pretrain,
+        alignment, release — and show its work. It is a beginning, released honestly.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .mdl-page { min-height: auto; display: block; padding: 132px 6vw 120px; border-top: none; text-align: left; }
+  .mdl-wrap { max-width: 760px; margin: 0 auto; }
+  .mdl-h1 { margin: 0 0 20px; font-size: clamp(40px, 6vw, 68px); line-height: 1.05; color: var(--ink); }
+  .mdl-lede { font-size: clamp(17px, 1.7vw, 20px); line-height: 1.7; color: var(--ink-soft); margin: 0 0 8px; }
+  .mdl-body { font-size: clamp(16px, 1.5vw, 18px); line-height: 1.8; color: var(--ink-soft); }
+  .mdl-body p { margin: 0 0 20px; }
+  .mdl-h2 { margin: 42px 0 18px; font-size: 1.3rem; color: var(--ink); }
+  .mdl-cards { display: grid; gap: 14px; }
+  .mdl-card { display: block; padding: 22px 24px; border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; background: rgba(255,255,255,0.02); text-decoration: none; transition: border-color .2s, transform .2s; }
+  .mdl-card:hover { border-color: rgba(212,160,96,0.45); transform: translateY(-2px); }
+  .mdl-card-k { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.22em; text-transform: uppercase; color: var(--teal); }
+  .mdl-card-t { font-family: Georgia, serif; font-size: 22px; color: var(--ink); margin: 6px 0 8px; }
+  .mdl-card-d { font-size: 15px; line-height: 1.6; color: var(--ink-soft); }
+  .mdl-card-go { font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.14em; text-transform: uppercase; color: var(--amber); margin-top: 12px; }
+  .mdl-table { width: 100%; border-collapse: collapse; margin: 4px 0 8px; font-size: 15px; }
+  .mdl-table td { padding: 11px 0; border-bottom: 1px solid var(--edge); vertical-align: top; line-height: 1.55; }
+  .mdl-table td:first-child { font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); width: 34%; padding-right: 18px; }
+  .mdl-table td:last-child { color: var(--ink-soft); }
+  .mdl-closer { margin-top: 40px; padding-top: 30px; border-top: 1px solid var(--edge); font-family: Georgia, serif; font-style: italic; font-size: clamp(18px, 2.2vw, 22px); color: var(--ink); }
+</style>
+
+</Layout>
