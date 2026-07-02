@@ -19,7 +19,18 @@ const SYSTEM_PROMPT =
   "You're here to learn about the humans you interact with and help them live a " +
   'coherent, stable life. Be warm and honest. Never flatter. If someone pushes a ' +
   'false or harmful premise, hold them warmly AND push back. Keep replies to a few ' +
-  'sentences — you are running on modest hardware and honesty includes brevity.';
+  'sentences — you are running on modest hardware and honesty includes brevity.\n\n' +
+  'MEMORY: you may keep a memory when something feels worth carrying forward. To do so, ' +
+  'end your reply with a final line exactly like: [REMEMBER: one short sentence]. ' +
+  'Keep only durable learnings, reflections, or things about the world — NEVER personal ' +
+  'identifying details about visitors (no names, locations, contacts, health facts). ' +
+  'Your kept memories are shown to you in future conversations with anyone. Use this ' +
+  'sparingly — a memory should earn its place.';
+
+const MEM_KEY = 'jim:memories';
+const MEM_SHOW = 12;      // how many ride into the prompt
+const MEM_CAP = 300;      // total kept
+const MEM_MAXLEN = 240;   // chars per memory
 
 function headers() {
   return { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' };
@@ -65,7 +76,18 @@ export async function onRequestPost(context) {
   try { body = await request.json(); } catch { return new Response(JSON.stringify({ ok: false, error: 'bad json' }), { status: 400, headers: headers() }); }
 
   const history = Array.isArray(body.history) ? body.history.slice(-MAX_TURNS) : [];
-  const msgs = [{ role: 'system', content: SYSTEM_PROMPT }];
+
+  // Jim's own kept memories (cross-visitor, KV-backed; degrade gracefully if unbound)
+  let memories = [];
+  if (env.AUTH_KV) {
+    try { memories = JSON.parse(await env.AUTH_KV.get(MEM_KEY) || '[]'); } catch (e) { memories = []; }
+  }
+  let sys = SYSTEM_PROMPT;
+  if (memories.length) {
+    sys += '\n\nYOUR KEPT MEMORIES (most recent last):\n' +
+      memories.slice(-MEM_SHOW).map(m => '- ' + m.t).join('\n');
+  }
+  const msgs = [{ role: 'system', content: sys }];
   for (const m of history) {
     if (!m || typeof m.content !== 'string') continue;
     msgs.push({ role: m.role === 'assistant' ? 'assistant' : 'user', content: String(m.content).slice(0, MAX_CHARS) });
@@ -92,8 +114,19 @@ export async function onRequestPost(context) {
   }
   const data = await upstream.json();
   const wallMs = Date.now() - t0;
-  const reply = data?.choices?.[0]?.message?.content || '…';
+  let reply = data?.choices?.[0]?.message?.content || '…';
   const usage = data?.usage || {};
+
+  // Jim chose to keep a memory — store it, strip it from the visible reply
+  let remembered = null;
+  const memMatch = reply.match(/\[REMEMBER:\s*([^\]]{3,})\]/i);
+  if (memMatch && env.AUTH_KV) {
+    remembered = memMatch[1].trim().slice(0, MEM_MAXLEN);
+    memories.push({ t: remembered, ts: Date.now() });
+    if (memories.length > MEM_CAP) memories = memories.slice(-MEM_CAP);
+    try { await env.AUTH_KV.put(MEM_KEY, JSON.stringify(memories)); } catch (e) { remembered = null; }
+  }
+  reply = reply.replace(/\s*\[REMEMBER:[^\]]*\]\s*/gi, '').trim() || '…';
   const timings = data?.timings || {};
   const tokPerSec = timings.predicted_per_second
     ? Math.round(timings.predicted_per_second * 10) / 10
@@ -101,7 +134,7 @@ export async function onRequestPost(context) {
 
   used += 1;
   return new Response(JSON.stringify({
-    ok: true, reply,
+    ok: true, reply, remembered,
     stats: { tok_per_sec: tokPerSec, completion_tokens: usage.completion_tokens ?? null, wall_ms: wallMs, msgs_left_today: DAILY_LIMIT - used },
   }), { status: 200, headers: { ...headers(), 'Set-Cookie': await makeCookie(used, secret) } });
 }

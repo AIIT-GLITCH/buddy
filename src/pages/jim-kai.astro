@@ -40,6 +40,7 @@ import Layout from '../layouts/Layout.astro';
         <span id="jk-speed">— tok/s</span>
         <span id="jk-avg"></span>
         <span id="jk-left"></span>
+        <button type="button" id="jk-clear" class="jk-clear" title="Start over">new conversation</button>
       </div>
     </div>
 
@@ -49,6 +50,20 @@ import Layout from '../layouts/Layout.astro';
       talking — engagement weight will be zero in his training, same as
       <a href="/mission">everything we build</a>. 40 messages/day per visitor, 256-token replies —
       one CPU box, shared fairly.
+    </p>
+    <p class="jk-note">
+      <strong>Where this conversation lives:</strong> in your browser, nowhere else — it survives a
+      refresh on this device, and "new conversation" erases it. Jim reads the last 8 turns of
+      the thread.
+    </p>
+    <p class="jk-note">
+      <strong>Jim can keep memories — clearly stated:</strong> when something in a conversation
+      feels worth carrying, Jim may choose to save a short memory of it. His kept memories are
+      his own, they persist, and they inform his future conversations <em>with everyone</em> —
+      you'll see "✎ Jim kept a memory" whenever he does, never silently. He's instructed to keep
+      learnings, not personal details — but treat this like any public conversation and don't
+      share private information. Memory is the point of this whole project; this is Jim's first
+      notebook.
     </p>
   </div>
 </section>
@@ -62,8 +77,15 @@ import Layout from '../layouts/Layout.astro';
   const speedEl = document.getElementById('jk-speed');
   const avgEl = document.getElementById('jk-avg');
   const leftEl = document.getElementById('jk-left');
-  const history = [];
+  const STORE = 'jk_thread_v1';
   const speeds = [];
+  let history = [];
+  try { history = JSON.parse(localStorage.getItem(STORE) || '[]'); } catch (e) { history = []; }
+  if (!Array.isArray(history)) history = [];
+
+  function persist() {
+    try { localStorage.setItem(STORE, JSON.stringify(history.slice(-24))); } catch (e) {}
+  }
 
   function add(role, text) {
     const d = document.createElement('div');
@@ -74,6 +96,16 @@ import Layout from '../layouts/Layout.astro';
     return d;
   }
 
+  // restore a saved thread (survives refresh; lives only in this browser)
+  for (const m of history) add(m.role === 'user' ? 'user' : 'jim', m.content);
+  if (history.length) log.scrollTop = log.scrollHeight;
+
+  document.getElementById('jk-clear').addEventListener('click', function () {
+    history = [];
+    persist();
+    log.querySelectorAll('.jk-msg').forEach((el, i) => { if (i > 0) el.remove(); });
+  });
+
   form.addEventListener('submit', async function (e) {
     e.preventDefault();
     const q = input.value.trim();
@@ -81,6 +113,7 @@ import Layout from '../layouts/Layout.astro';
     input.value = '';
     add('user', q);
     history.push({ role: 'user', content: q });
+    persist();
     const pending = add('jim', '…thinking (CPU box, give him a sec)');
     send.disabled = true;
     const t0 = Date.now();
@@ -94,6 +127,14 @@ import Layout from '../layouts/Layout.astro';
       if (!d.ok) { pending.textContent = d.error || 'something went wrong.'; return; }
       pending.textContent = d.reply;
       history.push({ role: 'assistant', content: d.reply });
+      persist();
+      if (d.remembered) {
+        const n = document.createElement('div');
+        n.className = 'jk-mem';
+        n.textContent = '✎ Jim kept a memory: "' + d.remembered + '"';
+        log.appendChild(n);
+        log.scrollTop = log.scrollHeight;
+      }
       const s = d.stats || {};
       if (s.tok_per_sec) {
         speeds.push(s.tok_per_sec);
@@ -139,6 +180,9 @@ import Layout from '../layouts/Layout.astro';
   .jk-meter { display: flex; gap: 18px; margin-top: 10px; font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
   #jk-speed { color: var(--teal); }
   .jk-note { margin-top: 26px; font-size: 14px; line-height: 1.7; color: var(--muted-hi); }
+  .jk-mem { align-self: center; font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.08em; color: var(--amber); opacity: 0.85; padding: 4px 10px; border: 1px dashed rgba(212,160,96,0.4); border-radius: 8px; max-width: 90%; }
+  .jk-clear { margin-left: auto; background: none; border: 1px solid var(--edge); border-radius: 8px; color: var(--muted); font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.12em; text-transform: uppercase; padding: 4px 10px; cursor: pointer; }
+  .jk-clear:hover { color: var(--ink); border-color: var(--muted); }
 </style>
 
 </Layout>
