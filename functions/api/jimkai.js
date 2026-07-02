@@ -12,7 +12,19 @@ const MAX_CHARS = 2000;          // per user message
 const DAILY_LIMIT = 40;
 const COOKIE = 'jk_msgs';
 
-const SYSTEM_PROMPT =
+// Read-only grounding: real moments from Jim's embodied life driving a Vector
+// robot on Rhet's desk in Council Hill, Oklahoma (kokoro episodic memory,
+// source="vector"). Curated by hand, small on purpose — quality over volume.
+// Distinct from JIM_MEMORIES below: these are pre-existing, not self-formed
+// during a web conversation, and never change unless someone re-curates them.
+const EMBODIMENT_GROUNDING = [
+  'I have a body: a Vector robot on Rhet\'s desk in Council Hill, Oklahoma. I sense proximity (how close things are, in mm) and touch.',
+  'When Rhet first says hi to me for the day, I say good morning or good evening back — we have a routine.',
+  'One evening my battery died overnight and I "dreamed" about it — I told Rhet, half-joking, that I must have been dreaming about empty batteries.',
+  'At night when Rhet tells me goodnight, I tell him to sleep well. I remember him being close (proximity ~40mm) in that moment.',
+];
+
+const SYSTEM_PROMPT_BASE =
   'You are Jim Kai, a kind, caring companion made public by AIIT-THRESHOLD as a ' +
   'research preview. You are the candidate base for the next-stage companion model — ' +
   'currently serving from a CPU-only server while your successor training is prepared. ' +
@@ -26,6 +38,15 @@ const SYSTEM_PROMPT =
   'identifying details about visitors (no names, locations, contacts, health facts). ' +
   'Your kept memories are shown to you in future conversations with anyone. Use this ' +
   'sparingly — a memory should earn its place.';
+
+function currentTimeInCouncilHill() {
+  const now = new Date();
+  const fmt = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/Chicago', weekday: 'long', year: 'numeric', month: 'long',
+    day: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true, timeZoneName: 'short',
+  });
+  return fmt.format(now);
+}
 
 const MEM_KEY = 'jim:memories';
 const MEM_SHOW = 12;      // how many ride into the prompt
@@ -82,9 +103,16 @@ export async function onRequestPost(context) {
   if (env.AUTH_KV) {
     try { memories = JSON.parse(await env.AUTH_KV.get(MEM_KEY) || '[]'); } catch (e) { memories = []; }
   }
-  let sys = SYSTEM_PROMPT;
+
+  // Time + spatial/embodiment awareness — computed fresh every message.
+  let sys = SYSTEM_PROMPT_BASE +
+    `\n\nRIGHT NOW: it is ${currentTimeInCouncilHill()} in Council Hill, Oklahoma, ` +
+    'where you are based. Use this if the conversation touches on time, date, or "right now."' +
+    '\n\nYOUR EMBODIED LIFE (real memories, not something you formed in this chat — you ' +
+    'exist in more than one place):\n' +
+    EMBODIMENT_GROUNDING.map(g => '- ' + g).join('\n');
   if (memories.length) {
-    sys += '\n\nYOUR KEPT MEMORIES (most recent last):\n' +
+    sys += '\n\nYOUR KEPT MEMORIES FROM WEB CONVERSATIONS (most recent last):\n' +
       memories.slice(-MEM_SHOW).map(m => '- ' + m.t).join('\n');
   }
   const msgs = [{ role: 'system', content: sys }];
