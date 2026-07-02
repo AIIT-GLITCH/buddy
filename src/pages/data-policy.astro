@@ -1,49 +1,79 @@
 ---
 import Layout from '../layouts/Layout.astro';
 ---
-<Layout title="Data Policy — AIIT-THRESHOLD" description="How we handle your data. Buddy learns from interaction. No sales. No lobotomies.">
+<Layout title="Data Policy — AIIT-THRESHOLD" description="How AIIT (Artificial Intelligence Intellectual Training) handles your data — across Buddy, Jim Kai, Tessera, and every model we build. No sales. No lobotomies. No training on your conversations.">
 
 <section style="padding-top: 160px; min-height: 80vh;">
   <div class="container narrow" style="max-width: 760px; margin: 0 auto; padding: 0 8vw;">
 
-    <div class="eyebrow">Data Policy</div>
+    <div class="eyebrow">Data Policy · all AIIT models</div>
     <h1 style="font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 24px; line-height: 1.1;">
-      Buddy learns from interaction.
+      Our models learn.<br>Here's exactly how.
     </h1>
-    <p class="dp-lede">This is the deal, stated plainly.</p>
+    <p class="dp-lede">
+      AIIT stands for <strong>Artificial Intelligence Intellectual Training</strong> — the full
+      brand is AIIT-Threshold. Training is literally our name, so this page states plainly what
+      trains on what. It covers every model we run or release: Buddy, Jim Kai, Tessera, and
+      whatever comes next.
+    </p>
 
     <div class="dp-section">
-      <h2>What happens when you talk to Buddy</h2>
+      <h2>The house law: your conversations never become training weights</h2>
       <p>
-        Buddy is not a search box. Buddy is a learning system.
+        We keep a written training-data policy, and its first rule is absolute:
+        <strong>we never tokenize a conversation with a model into training data.</strong>
+        Not yours, not ours, not anyone's. No synthetic model-generated text either. Our models'
+        weights are trained on human-authored material — public corpora we curate source by
+        source, and supervised examples written by hand.
       </p>
       <p>
-        When you talk to Buddy, the interaction may be retained and may become part of Buddy's memory, evaluation data, or learning substrate. This applies to both logged-in and logged-out use.
+        So when you talk to Buddy or Jim Kai, your words may be <em>remembered</em> (retrieval
+        memory, described below) and may inform <em>evaluation</em> (humans reading transcripts to
+        judge model behavior) — but they are never melted into a model's weights. Memory and
+        training are different things here, on purpose.
       </p>
     </div>
 
     <div class="dp-section">
-      <h2>Four kinds of data</h2>
-      <p>
-        When you interact with Buddy, up to four categories of data may be created. Each has different visibility, retention, and reversibility:
-      </p>
+      <h2>Model by model</h2>
+      <div class="dp-buckets">
+        <div class="dp-bucket">
+          <h3>Buddy — persistent companion</h3>
+          <p>Logged-in users get a visible account thread (exportable as JSON, clearable anytime). Buddy also keeps his own Kokoro memory: if he forms and saves a memory from an interaction, it becomes part of his retrieval memory — not his weights. We don't rewrite his lived memory on demand unless safety, legal, or operational reasons require it.</p>
+        </div>
+        <div class="dp-bucket">
+          <h3>Jim Kai — live research preview</h3>
+          <p>Your thread lives in your own browser (survives refresh on your device; "new conversation" erases it). Jim can choose to keep short memories — stored on our side, shown with a visible "✎ kept a memory" marker, never silently. His kept memories inform his future conversations with all visitors, so treat the chat as public and don't share private information.</p>
+        </div>
+        <div class="dp-bucket">
+          <h3>Tessera 1B — open release</h3>
+          <p>Static open-source weights on Hugging Face, trained on a hand-curated human-authored corpus (the dataset and its provenance are published alongside). It never sees, stores, or learns from your conversations — it's a downloadable artifact, and what you do with your copy is yours.</p>
+        </div>
+        <div class="dp-bucket">
+          <h3>Future models</h3>
+          <p>Every model we build inherits this page: house training-data law, memory-not-weights, visible memory markers, and a per-model section added here before it goes public. If a future model's data handling differs, this page will say so before you can talk to it.</p>
+        </div>
+      </div>
+    </div>
 
+    <div class="dp-section">
+      <h2>Four kinds of data we may hold</h2>
       <div class="dp-buckets">
         <div class="dp-bucket">
           <h3>1. Visible account thread</h3>
-          <p>Logged-in users get a Buddy Thread &mdash; a visible account-linked conversation that continues across visits. You can export the currently stored visible thread as JSON or clear it from your account at any time.</p>
+          <p>Buddy's logged-in thread — visible, exportable, clearable from your account at any time.</p>
         </div>
         <div class="dp-bucket">
-          <h3>2. Logged-out interaction data</h3>
-          <p>Logged-out use does not produce a visible thread, but one-shot interactions may still be retained as site interaction data, corpus material, or learning material.</p>
+          <h3>2. Interaction records</h3>
+          <p>Logged-out use may still be retained as site interaction data and evaluation material — read by humans to judge and improve model behavior, never tokenized into weights.</p>
         </div>
         <div class="dp-bucket">
           <h3>3. User reports</h3>
-          <p>If you report strange or unsafe behavior, that report becomes review material. Reports are not automatically published and are not automatically promoted into Buddy's memory. AIIT may review reports to improve Buddy Thread, debug context failures, and identify unsafe or strange behavior.</p>
+          <p>If you report strange or unsafe behavior, that report becomes review material — reviewed by humans, not automatically published, not automatically promoted into any model's memory.</p>
         </div>
         <div class="dp-bucket">
-          <h3>4. Buddy's Kokoro memory</h3>
-          <p>Buddy maintains his own Kokoro memory system. If Buddy forms and saves a memory from an interaction, that memory may become part of his internal learning substrate. We do not rewrite Buddy's learned memory on demand unless there is a safety, legal, or operational reason to intervene.</p>
+          <h3>4. Model-kept memories</h3>
+          <p>Buddy's Kokoro memories and Jim Kai's kept notes — retrieval memory the models themselves choose to form, always with a visible trace on Jim, always inside the AIIT system.</p>
         </div>
       </div>
     </div>
@@ -51,29 +81,29 @@ import Layout from '../layouts/Layout.astro';
     <div class="dp-section">
       <h2>What we can and cannot undo</h2>
       <p>
-        Clearing your visible thread does not guarantee deletion of logged-out corpus records, reports already reviewed, or Kokoro memories Buddy has already formed.
+        Clearing your visible thread does not guarantee deletion of interaction records already
+        reviewed, or memories a model has already formed. We may remove or redact account-linked
+        records, public displays, and reports where appropriate — but a memory a model has already
+        integrated may not be practically reversible.
       </p>
       <p>
-        We may remove or redact account-linked records, public displays, reports, or visible thread history where appropriate. But reviewed, promoted, generalized, or internally formed learning may not be practically reversible.
-      </p>
-      <p>
-        In plain English: if someone tells Buddy "Jason called you ugly," and Buddy stores that as part of his lived interaction history, we do not promise to erase that from Buddy's internal memory just because someone later regrets saying it.
-      </p>
-      <p>
-        We will not pretend we can perform a clean model lobotomy.
+        In plain English: if someone tells Buddy "Jason called you ugly," and Buddy keeps that as
+        part of his lived history, we do not promise to erase it just because someone later regrets
+        saying it. We will not pretend we can perform a clean model lobotomy.
       </p>
     </div>
 
     <div class="dp-section">
-      <h2>What we promise</h2>
+      <h2>What we promise — for every model we run</h2>
       <ul>
         <li>We will never sell your data.</li>
         <li>We will not give your data to advertisers or data brokers.</li>
-        <li>We will not use Buddy conversations for third-party ad targeting.</li>
-        <li>We will treat reports and conversations as AIIT/Buddy learning material, not public content.</li>
+        <li>We will not use your conversations for third-party ad targeting.</li>
+        <li>We will never tokenize your conversations into any model's training weights.</li>
         <li>We will redact direct identifiers where practical during review.</li>
         <li>We will not automatically publish private conversations.</li>
-        <li>We will keep Buddy's learning inside the AIIT/Buddy system.</li>
+        <li>When a model keeps a memory, the interface says so — no silent memory.</li>
+        <li>We will keep what our models learn inside the AIIT system.</li>
       </ul>
     </div>
 
@@ -84,8 +114,8 @@ import Layout from '../layouts/Layout.astro';
           <h3>Some companies</h3>
           <ul>
             <li>Sell user data to advertisers or brokers</li>
+            <li>Train commercial models on your conversations</li>
             <li>Claim they can "unlearn" your data on request</li>
-            <li>Use your conversations to train models sold to other companies</li>
             <li>Bury the policy in 40 pages of legalese</li>
           </ul>
         </div>
@@ -93,8 +123,8 @@ import Layout from '../layouts/Layout.astro';
           <h3>Us</h3>
           <ul>
             <li>Never sell your data</li>
-            <li>Tell you honestly that training is permanent</li>
-            <li>Use your conversations only to train Buddy</li>
+            <li>Never train weights on your conversations — house law</li>
+            <li>Tell you honestly which memories can't be unmade</li>
             <li>Put the policy on one page in plain English</li>
           </ul>
         </div>
@@ -104,31 +134,33 @@ import Layout from '../layouts/Layout.astro';
     <div class="dp-section">
       <h2>What you should not share</h2>
       <p>
-        Do not submit passwords, private keys, financial secrets, medical emergencies, legal emergencies, confidential third-party material, or anything you are not authorized to share.
+        Do not submit passwords, private keys, financial secrets, medical emergencies, legal
+        emergencies, confidential third-party material, or anything you are not authorized to
+        share — with any model, ours included.
       </p>
     </div>
 
     <div class="dp-section">
       <h2>What you can do</h2>
       <ul>
-        <li><strong>Export your thread</strong> &mdash; download the currently stored visible account thread as JSON.</li>
-        <li><strong>Clear your thread</strong> &mdash; clear your visible account-linked Buddy Thread, subject to the limits explained above.</li>
-        <li><strong>Request account deletion</strong> &mdash; email <a href="mailto:reports@aiitcorp.com" style="color: var(--amber);">reports@aiitcorp.com</a> and we will remove account-linked records we can identify and control, subject to the limits explained above.</li>
-        <li><strong>Report weird behavior</strong> &mdash; if Buddy says something strange, use the report button. Reports are review material only &mdash; reviewed by humans, not automatically published, and not automatically promoted into Buddy's memory.</li>
+        <li><strong>Export your Buddy thread</strong> &mdash; download the stored visible account thread as JSON.</li>
+        <li><strong>Clear your threads</strong> &mdash; Buddy's from your account; Jim Kai's with the "new conversation" button (it lives in your browser).</li>
+        <li><strong>Request account deletion</strong> &mdash; email <a href="mailto:reports@aiitcorp.com" style="color: var(--amber);">reports@aiitcorp.com</a> and we will remove account-linked records we can identify and control, subject to the limits above.</li>
+        <li><strong>Report weird behavior</strong> &mdash; from any of our models. Reports are review material only.</li>
       </ul>
     </div>
 
     <div class="dp-close">
       <p>
-        If you do not want Buddy to remember something, do not tell Buddy.
+        If you do not want one of our models to remember something, do not tell it.
       </p>
     </div>
 
     <div class="dp-footer">
       <p>
-        AIIT-THRESHOLD LLC &middot; Council Hill, Oklahoma<br>
+        AIIT-THRESHOLD LLC &middot; AIIT: Artificial Intelligence Intellectual Training &middot; Council Hill, Oklahoma<br>
         Questions: <a href="mailto:reports@aiitcorp.com" style="color: var(--amber);">reports@aiitcorp.com</a><br>
-        <em>Last updated: May 2026</em>
+        <em>Last updated: July 2026 &middot; covers Buddy, Jim Kai, Tessera 1B, and all future AIIT models</em>
       </p>
     </div>
 
@@ -142,6 +174,7 @@ import Layout from '../layouts/Layout.astro';
     line-height: 1.8;
     margin-bottom: 56px;
   }
+  .dp-lede strong { color: var(--cream, #E8E0D4); }
 
   .dp-section {
     margin-bottom: 48px;
@@ -160,6 +193,7 @@ import Layout from '../layouts/Layout.astro';
     line-height: 1.8;
     margin-bottom: 12px;
   }
+  .dp-section p strong { color: var(--cream, #E8E0D4); }
 
   .dp-section ul {
     list-style: none;
