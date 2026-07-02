@@ -142,11 +142,13 @@ const totalPapers = papersAll.length;
     <div class="container">
       <div class="eyebrow">The data pipeline</div>
       <h2 class="proof-head">Not theory.<br><span class="proof-head-accent">Measurement.</span></h2>
-      <div class="corpus-stats">
-        <div class="stat teal"><div class="num"><span data-count="194">0</span><span class="unit">B</span></div><div class="label">Tokens processed through the AIIT pipeline · updated monthly (Jul 2026)</div></div>
+      <div class="pipeline-stat">
+        <div class="ps-num"><span data-count="194">0</span><span class="ps-unit">B</span></div>
+        <div class="ps-label">tokens cleaned, deduped &amp; tokenized through the AIIT pipeline</div>
+        <div class="ps-sub">updated monthly · as of July 2026 · {totalPapers} papers published</div>
       </div>
       <div class="proof-foot">
-        <a href="/papers" class="proof-link">Browse {totalPapers} papers →</a>
+        <a href="/papers" class="proof-link">Browse the papers →</a>
       </div>
     </div>
   </section>
@@ -923,13 +925,13 @@ const totalPapers = papersAll.length;
 
   .hero-founder-title {
     margin: 0;
-    max-width: 720px;
+    max-width: 760px;
     font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(50px, 7.4vw, 104px);
-    line-height: 0.96;
+    font-size: clamp(46px, 6.4vw, 88px);
+    line-height: 1.02;
     letter-spacing: 0;
-    color: #fff;
-    text-shadow: 0 22px 70px rgba(0, 0, 0, 0.58);
+    color: #ece3d2;
+    text-shadow: 0 18px 60px rgba(0, 0, 0, 0.5);
   }
 
   .hero-founder-copy {
@@ -2547,4 +2549,13 @@ const totalPapers = papersAll.length;
   .app-teaser-card.pro { border: 1px solid rgba(255,255,255,0.08); border-radius: 10px; background: rgba(255,255,255,0.02); transition: border-color .2s ease, transform .2s ease; }
   .app-teaser-card.pro:hover { border-color: rgba(212,160,96,0.45); transform: translateY(-2px); }
   .atc-mono { font-family: 'Courier New', monospace; font-size: 1.35rem; letter-spacing: 0.08em; color: var(--teal); opacity: .85; margin-bottom: 6px; }
+</style>
+
+<style>
+  /* Single pipeline stat — replaces the old 4-up grid */
+  .pipeline-stat { text-align: center; margin: 48px auto 44px; max-width: 640px; }
+  .pipeline-stat .ps-num { font-family: Georgia, serif; font-size: clamp(72px, 12vw, 148px); font-weight: 700; color: var(--ink); line-height: 1; letter-spacing: -0.03em; }
+  .pipeline-stat .ps-unit { font-size: 0.42em; color: var(--teal); margin-left: 6px; vertical-align: baseline; }
+  .pipeline-stat .ps-label { font-size: clamp(15px, 1.6vw, 19px); color: var(--ink-soft); margin-top: 14px; line-height: 1.6; }
+  .pipeline-stat .ps-sub { font-family: 'Courier New', monospace; font-size: 10pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); margin-top: 12px; }
 </style>

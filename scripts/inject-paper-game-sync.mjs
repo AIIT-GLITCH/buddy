@@ -107,14 +107,17 @@ function addHome(html) {
   return next;
 }
 
+// Paper Game is archived (2026-07). Only inject the sync <script> (harmless;
+// powers collection state on /papers). Do NOT re-inject the home section or
+// nav link — addHome/addNav are retained above but intentionally not called.
 let touched = 0;
 for (const file of walk(dist)) {
   const before = readFileSync(file, 'utf8');
-  let html = addHome(addNav(addSync(before)));
+  let html = addSync(before);
   if (html !== before) {
     writeFileSync(file, html);
     touched++;
   }
 }
 
-console.log(`[paper-game-sync] injected sync and robust Paper Game placement into ${touched} HTML files.`);
+console.log(`[paper-game-sync] injected sync script into ${touched} HTML files (paper-game section/nav suppressed — archived).`);
