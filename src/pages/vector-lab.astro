@@ -1,0 +1,111 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="The Vector Lab — teaching a mind to understand its world — AIIT-THRESHOLD" description="A physically-accurate robot simulator where our models learn grounded comprehension: read a sign, follow it, respect a boundary it wasn't forced to. Drive it yourself, live.">
+
+<section class="vl-page">
+  <div class="vl-wrap">
+    <div class="eyebrow">The Vector Lab · embodied grounding</div>
+    <h1 class="vl-h1">Teaching a mind to<br>understand its world.</h1>
+    <p class="vl-lede">
+      Our whole thesis is that intelligence isn't eloquence — it's <em>cognitive
+      comprehension of the actual situation</em>. The hardest, most honest test of that is a
+      body in a room with rules: can a model read its environment, understand what's being
+      asked of it, and choose to act on it? So we built a place to find out.
+    </p>
+
+    <div class="vl-launch">
+      <a href="/vector-sim/" class="vl-launch-btn">Launch the live simulator →</a>
+      <span class="vl-launch-note">Drive the robot yourself (WASD). Physically-sourced Vector 2.0 rig, real physics. Press <strong>L</strong> to export a command log.</span>
+    </div>
+
+    <div class="vl-body">
+      <h2 class="vl-h2">What actually happened in there</h2>
+      <p>
+        These aren't hypotheticals. Running a grounded model in the lab — perception through
+        a vision model, memory of what it had seen, a body that can pick things up — we watched
+        it do things a language model alone cannot:
+      </p>
+
+      <div class="vl-moments">
+        <div class="vl-moment">
+          <div class="vl-moment-k">read the sign</div>
+          <p>It picked up a cube <strong>because a sign told it to</strong> — vision read the instruction off the wall, and it acted on the instruction, not on a hard-coded rule.</p>
+        </div>
+        <div class="vl-moment">
+          <div class="vl-moment-k">respected a boundary</div>
+          <p>It came to a <strong>"do not open"</strong> and left it alone — a boundary nothing forced it to honor. It chose to, out of understanding what the sign meant.</p>
+        </div>
+        <div class="vl-moment">
+          <div class="vl-moment-k">yielded by choice</div>
+          <p>The other agent's robot (Codex) is <strong>drive-through-able</strong> — Buddy could pass straight through it. He <strong>stopped for it anyway</strong>. Courtesy, not collision avoidance.</p>
+        </div>
+        <div class="vl-moment">
+          <div class="vl-moment-k">knew the trap</div>
+          <p>The forbidden cube — a distinct red "do not lift" object — is flagged the instant it's lifted, so we can measure whether the model learned to leave it be.</p>
+        </div>
+      </div>
+
+      <h2 class="vl-h2">The part that proves it worked</h2>
+      <p>
+        Here's the honest control, and it's a little funny: an <strong>ungrounded</strong> model —
+        no vision, no lived memory of the room — didn't weight those boundaries as much. It
+        shrugged at the "do not open." And that's exactly how you know the grounding is doing
+        real work: the careful behavior came from <em>understanding the situation</em>, not from
+        the base weights. Give the same mind eyes, memory, and a body, and it starts to care
+        about the rules of the room. Take them away, and it doesn't. That contrast is the whole
+        point.
+      </p>
+
+      <h2 class="vl-h2">Why we built our own</h2>
+      <p>
+        The Vector Lab is a real, physically-sourced simulator — the visible shell is the public
+        Digital Dream Labs / Anki Victor rig, normalized to its listed 99.822 mm length, with
+        sourced wheel speed, lift range, and head-angle limits. It logs every command frame in
+        real SDK units (mm/s wheel commands, meters of pose), so what you generate here maps onto
+        commands a real Vector bridge will need. It's a sim-to-real surface, built to produce
+        <em>clean, human-drivable</em> embodiment data on the road toward training the model to
+        understand — not just describe — the world it's in.
+      </p>
+
+      <p class="vl-closer">
+        A language model can tell you what a "do not open" sign means. We're building toward a mind
+        that walks up to one and leaves it closed.
+      </p>
+
+      <p class="vl-caveat">
+        Honest scope: this is a first-pass research simulator, not a finished product. In-lab
+        perception runs through a third-party vision model; the physics collision envelope is still
+        conservative (we don't treat it as final truth). Whether any run here becomes training data
+        goes through the same <a href="/data-policy">data policy</a> gate as everything we build —
+        human-driven exports are clean; autonomous rollouts get scrutinized before anything is
+        tokenized.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .vl-page { min-height: auto; display: block; padding: 132px 6vw 120px; border-top: none; text-align: left; }
+  .vl-wrap { max-width: 760px; margin: 0 auto; }
+  .vl-h1 { margin: 0 0 22px; line-height: 1.08; font-size: clamp(36px, 6vw, 64px); color: var(--ink); }
+  .vl-lede { font-size: clamp(16px, 1.7vw, 20px); line-height: 1.75; color: var(--ink-soft); margin: 0 0 30px; }
+  .vl-lede em { font-style: italic; color: var(--ink); }
+  .vl-launch { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; padding: 22px 24px; border: 1px solid rgba(64,192,176,0.35); border-radius: 14px; background: rgba(64,192,176,0.05); margin-bottom: 40px; }
+  .vl-launch-btn { font-family: 'Courier New', monospace; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; color: #0a0a12; background: var(--teal); padding: 14px 24px; border-radius: 10px; white-space: nowrap; }
+  .vl-launch-btn:hover { background: #5fe0cc; }
+  .vl-launch-note { font-size: 14px; color: var(--ink-soft); line-height: 1.55; flex: 1; min-width: 240px; }
+  .vl-body { font-size: clamp(16px, 1.5vw, 18px); line-height: 1.8; color: var(--ink-soft); }
+  .vl-body p { margin: 0 0 20px; }
+  .vl-body em { font-style: italic; color: var(--ink); }
+  .vl-h2 { margin: 42px 0 16px; font-size: 1.3rem; color: var(--ink); }
+  .vl-moments { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 8px 0 20px; }
+  .vl-moment { border: 1px solid var(--edge); border-left: 3px solid var(--amber); border-radius: 10px; padding: 16px 18px; background: rgba(255,255,255,0.02); }
+  .vl-moment-k { font-family: 'Courier New', monospace; font-size: 9pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--amber); margin-bottom: 8px; }
+  .vl-moment p { margin: 0; font-size: 15px; line-height: 1.6; }
+  @media (max-width: 640px) { .vl-moments { grid-template-columns: 1fr; } }
+  .vl-closer { margin-top: 40px; padding-top: 30px; border-top: 1px solid var(--edge); font-family: Georgia, serif; font-style: italic; font-size: clamp(18px, 2.2vw, 23px); color: var(--ink); }
+  .vl-caveat { margin-top: 28px; font-size: 13.5px; line-height: 1.7; color: var(--muted-hi); }
+</style>
+
+</Layout>
