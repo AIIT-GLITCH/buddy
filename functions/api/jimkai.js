@@ -96,11 +96,14 @@ async function generateReply(env, body, reqId) {
       let reply = data?.choices?.[0]?.message?.content || '…';
       const usage = data?.usage || {};
 
-      // Memory now lives in the organism (public-lane saves are quarantined
-      // for review there). Legacy [REMEMBER] emissions are stripped if the
-      // model ever produces one, but nothing is written to KV anymore — the
-      // frozen KV bank is export-only (see ?export=memories below).
-      const remembered = null;
+      // Memory now lives in the organism. The gateway surfaces durable saves
+      // this turn on `jim_saves` (candidate-lane proposals awaiting review /
+      // the hall, not canon yet). Show the first one in the "Jim kept a
+      // memory" chip — restored after the legacy [REMEMBER]->KV path, which
+      // used to feed this, was retired. Legacy [REMEMBER] strip kept as a
+      // harmless guard.
+      const jimSaves = Array.isArray(data?.jim_saves) ? data.jim_saves : [];
+      const remembered = jimSaves.length ? (jimSaves[0].text || jimSaves[0].key || null) : null;
       reply = reply.replace(/\s*\[REMEMBER:[^\]]*\]\s*/gi, '').trim() || '…';
       const timings = data?.timings || {};
       const tokPerSec = timings.predicted_per_second
