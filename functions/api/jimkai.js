@@ -80,7 +80,11 @@ async function generateReply(env, body, reqId) {
   try {
     const upstream = await fetch(UPSTREAM, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      // X-Jim-Public is stamped explicitly: worker->same-zone fetches can
+      // bypass the edge (o2o) and arrive WITHOUT CF-Connecting-IP, which
+      // let website visitors into the family lane. Rhet's ruling: tunnel
+      // traffic is always public — so say so, deterministically.
+      headers: { 'Content-Type': 'application/json', 'X-Jim-Public': '1' },
       body: JSON.stringify({ model: 'jim-kai', messages: msgs, max_tokens: MAX_TOKENS, temperature: 0.7 }),
       signal: AbortSignal.timeout(120000),
     });
