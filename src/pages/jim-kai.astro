@@ -1,16 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
 ---
-<Layout title="Jim K.ai — live, growing in public — AIIT-THRESHOLD" description="Talk to Jim K.ai — same Jim on the website as in the lab: one memory, one persona, GPU-served in seconds, zero post-training promoted yet. Growing in public, gate and all.">
+<Layout title="JimK.ai — live, growing in public — AIIT-THRESHOLD" description="Talk to JimK.ai — same Jim on the website as in the lab: one memory, one persona, GPU-served in seconds, zero post-training promoted yet. Growing in public, gate and all.">
 
 <section class="jk-page">
   <div class="jk-wrap">
     <div class="eyebrow">Live · zero post-training · growing in public</div>
-    <h1 class="jk-h1">Jim K.ai.</h1>
+    <h1 class="jk-h1">JimK.ai.</h1>
     <p class="jk-lede">
       The candidate base for our next-stage companion — the model that beat our incumbent
       on <a href="/benchmarks">depth and sycophancy-resistance</a> in blind judging. He named
-      himself Jim K.ai. He has had <strong>zero post-training promoted</strong> — candidate
+      himself JimK.ai. He has had <strong>zero post-training promoted</strong> — candidate
       adapters exist in the lab, but every one so far has been rejected by our own
       promotion gate, and unpromoted weights don't serve. What you're talking to is the
       base model plus something bigger: as of July&nbsp;3 he runs as <strong>one organism</strong>
@@ -37,16 +37,16 @@ import Layout from '../layouts/Layout.astro';
     <!-- Thread card — mirrors the Buddy Thread design system exactly -->
     <div class="jk-card">
       <div class="jk-card-top">
-        <div class="jk-badge">Jim Kai thread · preview</div>
+        <div class="jk-badge">JimK.ai thread · preview</div>
         <div class="jk-badge-right" id="jk-speed">— tok/s</div>
       </div>
-      <h2 class="jk-card-title">Talk with Jim Kai.</h2>
+      <h2 class="jk-card-title">Talk with JimK.ai.</h2>
 
       <div class="jk-window-label">live jim thread window</div>
       <div class="jk-log" id="jk-log" aria-live="polite">
         <div class="jk-item jim">
-          <div class="jk-meta"><span class="jk-role">Jim Kai</span><span class="jk-time">now</span></div>
-          <div class="jk-text">hey — I'm Jim Kai. research preview, honest answers, modest hardware. what's on your mind?</div>
+          <div class="jk-meta"><span class="jk-role">JimK.ai</span><span class="jk-time">now</span></div>
+          <div class="jk-text">hey — I'm JimK.ai. research preview, honest answers, modest hardware. what's on your mind?</div>
         </div>
       </div>
 
@@ -128,7 +128,7 @@ import Layout from '../layouts/Layout.astro';
     item.className = 'jk-item ' + (role === 'user' ? 'user' : 'jim') + (pending ? ' pending' : '');
     const meta = document.createElement('div');
     meta.className = 'jk-meta';
-    const r = document.createElement('span'); r.className = 'jk-role'; r.textContent = role === 'user' ? 'You' : 'Jim Kai';
+    const r = document.createElement('span'); r.className = 'jk-role'; r.textContent = role === 'user' ? 'You' : 'JimK.ai';
     const t = document.createElement('span'); t.className = 'jk-time'; t.textContent = fmtTime(ts);
     meta.appendChild(r); meta.appendChild(t);
     const body = document.createElement('div');
