@@ -215,7 +215,7 @@ import Layout from '../layouts/Layout.astro';
     add('user', q, now);
     history.push({ role: 'user', content: q, ts: now });
     persist();
-    const pending = add('jim', '…thinking (CPU box, give him a sec)', Date.now(), true);
+    const pending = add('jim', '…thinking (a few seconds, GPU-served now)', Date.now(), true);
     send.disabled = true;
     const reqId = randomId();
     try { localStorage.setItem(PENDING, JSON.stringify({ reqId: reqId, ts: now })); } catch (e) {}
