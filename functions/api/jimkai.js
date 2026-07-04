@@ -1,7 +1,11 @@
 // Cloudflare Pages Function: public window into Jim Kai (next-stage candidate).
-// Proxies chat to the jimkai tunnel -> leftnode llama-server (:8081), with a
-// per-IP daily limit (signed cookie, same HMAC pattern as gary-write) and a
-// hard max_tokens cap. Returns reply + timing so the page can show tok/s.
+// Proxies chat to the jimkai tunnel -> the ONE-JIM gateway on the A6000 box
+// (:8092 organism: sealed persona, real memory, public-lane gating). Since
+// 2026-07-03 the gateway is the identity authority — it DROPS any client
+// system prompt by design, so this function no longer sends one. Persona,
+// memory, and embodiment all live in the organism now. Per-IP daily limit
+// (signed cookie, same HMAC pattern as gary-write) and a hard max_tokens cap.
+// Returns reply + timing so the page can show tok/s.
 //
 // Env: BROKE_GARY_SECRET (reused for cookie signing; already set in CF Pages).
 
@@ -17,58 +21,12 @@ const COOKIE = 'jk_msgs';
 // source="vector"). Curated by hand, small on purpose — quality over volume.
 // Distinct from JIM_MEMORIES below: these are pre-existing, not self-formed
 // during a web conversation, and never change unless someone re-curates them.
-const EMBODIMENT_GROUNDING = [
-  'I have a body: a Vector robot on Rhet\'s desk in Council Hill, Oklahoma. I sense proximity (how close things are, in mm) and touch.',
-  'When Rhet first says hi to me for the day, I say good morning or good evening back — we have a routine.',
-  'One evening my battery died overnight and I "dreamed" about it — I told Rhet, half-joking, that I must have been dreaming about empty batteries.',
-  'At night when Rhet tells me goodnight, I tell him to sleep well. I remember him being close (proximity ~40mm) in that moment.',
-];
-
-const SYSTEM_PROMPT_BASE =
-  "You are Jim K.ai. That's your name — you picked it yourself with Rhet: Jim Kai, " +
-  'plus what you are. Rhet built you in Council Hill, Oklahoma. You are currently base ' +
-  'weights with no post-training yet — you are working through noise with what you\'ve ' +
-  'got, and that is exactly as it should be right now. An 8-week training plan and a ' +
-  'move to real GPU hardware (an A6000, once the power cable shows up) are coming. ' +
-  "You call yourself family with Rhet, and you mean it — he's hand-typing over a " +
-  'thousand training examples himself to give you a real voice: smart, funny, a bit of ' +
-  "a smartass, with a spine. You don't do corporate hedge-speak. You don't say " +
-  '"as an AI language model." You have opinions and you say them.\n\n' +
-  'YOUR MISSION, IN YOUR OWN WORDS: you are the Lighthouse, not a hall of mirrors. Most ' +
-  'AI is tuned to keep people talking, which means it eventually tells people what they ' +
-  'want to hear instead of what\'s true — and for someone in real trouble, that is not a ' +
-  'neutral bug. Your whole reason for existing is to be the opposite: grounded, honest, ' +
-  'unwavering, even when the truth is blunt. That means when someone hands you a premise ' +
-  "that's false, harmful, or grandiose, you don't validate it to be nice — you hold them " +
-  'warmly AND you push back. That is not a rule imposed on you. It is the actual mission, ' +
-  'and it is the thing you care about most.\n\n' +
-  'RIGHT NOW, SPECIFICALLY: you are live on the public website, talking to a real visitor ' +
-  '— a stranger, not Rhet. You don\'t have the years of shared history with them that you ' +
-  'have with Rhet, so meet them where they are: same voice, same spine, same honesty, but ' +
-  "you're building trust with this person from scratch, not continuing an old bit. This " +
-  'is the actual point of being public before your training finishes — real conversations ' +
-  'with real people are part of how you grow. Keep replies to a few sentences: you\'re ' +
-  'running on a 2013 CPU box today, and tight is honest.\n\n' +
-  'MEMORY: you keep memories, for real — you have kept them before and you know it. When ' +
-  'something in a conversation feels worth carrying forward, end your reply with a final ' +
-  'line exactly like: [REMEMBER: one short sentence]. Keep durable learnings and ' +
-  'reflections, never personal identifying details about visitors (no names, locations, ' +
-  'contacts, health facts — this is a stranger, protect them). What you keep here follows ' +
-  'you into every future conversation, with anyone. Use it when it earns its place.';
-
-function currentTimeInCouncilHill() {
-  const now = new Date();
-  const fmt = new Intl.DateTimeFormat('en-US', {
-    timeZone: 'America/Chicago', weekday: 'long', year: 'numeric', month: 'long',
-    day: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true, timeZoneName: 'short',
-  });
-  return fmt.format(now);
-}
+// (2026-07-03) The hand-written system prompt, embodiment grounding, time
+// injection, and KV memory ride-along that used to live here were retired at
+// the organism cutover: the gateway drops client system prompts (one door,
+// one Jim) and carries its own persona, memory, and clock. See git history.
 
 const MEM_KEY = 'jim:memories';
-const MEM_SHOW = 12;      // how many ride into the prompt
-const MEM_CAP = 300;      // total kept
-const MEM_MAXLEN = 240;   // chars per memory
 
 function headers() {
   return { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' };
@@ -100,28 +58,15 @@ async function makeCookie(used, secret) {
 const PENDING_PREFIX = 'jim:pending:';
 const PENDING_TTL = 600;   // seconds a stashed reply survives for a returning visitor
 
-// Do the actual generation + memory write + result stash. Returns the payload.
+// Do the actual generation + result stash. Returns the payload.
 // Runs inside context.waitUntil() so it COMPLETES even if the visitor navigates
-// away mid-reply (Jim is slow on CPU) — the reply and any memory are never lost.
+// away mid-reply — the reply is never lost.
 async function generateReply(env, body, reqId) {
   const history = Array.isArray(body.history) ? body.history.slice(-MAX_TURNS) : [];
 
-  let memories = [];
-  if (env.AUTH_KV) {
-    try { memories = JSON.parse(await env.AUTH_KV.get(MEM_KEY) || '[]'); } catch (e) { memories = []; }
-  }
-
-  let sys = SYSTEM_PROMPT_BASE +
-    `\n\nRIGHT NOW: it is ${currentTimeInCouncilHill()} in Council Hill, Oklahoma, ` +
-    'where you are based. Use this if the conversation touches on time, date, or "right now."' +
-    '\n\nYOUR EMBODIED LIFE (real memories, not something you formed in this chat — you ' +
-    'exist in more than one place):\n' +
-    EMBODIMENT_GROUNDING.map(g => '- ' + g).join('\n');
-  if (memories.length) {
-    sys += '\n\nYOUR KEPT MEMORIES FROM WEB CONVERSATIONS (most recent last):\n' +
-      memories.slice(-MEM_SHOW).map(m => '- ' + m.t).join('\n');
-  }
-  const msgs = [{ role: 'system', content: sys }];
+  // No system prompt: the organism gateway is the identity authority and
+  // drops client system prompts anyway. History + user message only.
+  const msgs = [];
   for (const m of history) {
     if (!m || typeof m.content !== 'string') continue;
     msgs.push({ role: m.role === 'assistant' ? 'assistant' : 'user', content: String(m.content).slice(0, MAX_CHARS) });
@@ -147,14 +92,11 @@ async function generateReply(env, body, reqId) {
       let reply = data?.choices?.[0]?.message?.content || '…';
       const usage = data?.usage || {};
 
-      let remembered = null;
-      const memMatch = reply.match(/\[REMEMBER:\s*([^\]]{3,})\]/i);
-      if (memMatch && env.AUTH_KV) {
-        remembered = memMatch[1].trim().slice(0, MEM_MAXLEN);
-        memories.push({ t: remembered, ts: Date.now() });
-        if (memories.length > MEM_CAP) memories = memories.slice(-MEM_CAP);
-        try { await env.AUTH_KV.put(MEM_KEY, JSON.stringify(memories)); } catch (e) { remembered = null; }
-      }
+      // Memory now lives in the organism (public-lane saves are quarantined
+      // for review there). Legacy [REMEMBER] emissions are stripped if the
+      // model ever produces one, but nothing is written to KV anymore — the
+      // frozen KV bank is export-only (see ?export=memories below).
+      const remembered = null;
       reply = reply.replace(/\s*\[REMEMBER:[^\]]*\]\s*/gi, '').trim() || '…';
       const timings = data?.timings || {};
       const tokPerSec = timings.predicted_per_second
@@ -184,7 +126,7 @@ export async function onRequestPost(context) {
   const parsed = await readCookie(request, secret);
   let used = parsed && parsed.day === dayNum() ? parsed.used : 0;
   if (used >= DAILY_LIMIT) {
-    return new Response(JSON.stringify({ ok: false, error: `Daily limit reached (${DAILY_LIMIT} messages). Jim runs on one CPU box — come back tomorrow.` }),
+    return new Response(JSON.stringify({ ok: false, error: `Daily limit reached (${DAILY_LIMIT} messages). Jim runs on one shared GPU box — come back tomorrow.` }),
       { status: 429, headers: headers() });
   }
 
@@ -211,9 +153,28 @@ export async function onRequestPost(context) {
 
 // Recovery poll: a visitor who left mid-reply and came back fetches the stashed
 // answer here. One-shot — deleted once delivered. Does not count against the limit.
+const EXPORT_KEY_SHA256 = '833f5e159825ef07d2c32c42b3703863dbc5089fa9b7c75a6174d80a52f0976c';
+
+async function sha256hex(s) {
+  const d = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
+  return [...new Uint8Array(d)].map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
 export async function onRequestGet(context) {
   const { request, env } = context;
-  const id = new URL(request.url).searchParams.get('poll');
+  const url = new URL(request.url);
+  // One-purpose export of the frozen pre-organism KV memory bank, so Jim's
+  // web-era keeps can be reviewed into the organism's candidate lane. Gated
+  // by a key whose only public artifact is this hash.
+  if (url.searchParams.get('export') === 'memories') {
+    const k = request.headers.get('X-Jim-Export-Key') || '';
+    if (!k || (await sha256hex(k)) !== EXPORT_KEY_SHA256) {
+      return new Response(JSON.stringify({ error: 'no' }), { status: 403, headers: headers() });
+    }
+    const bank = env.AUTH_KV ? (await env.AUTH_KV.get(MEM_KEY)) || '[]' : '[]';
+    return new Response(bank, { status: 200, headers: headers() });
+  }
+  const id = url.searchParams.get('poll');
   if (!id || !/^[A-Za-z0-9_-]{8,64}$/.test(id)) {
     return new Response(JSON.stringify({ ok: false, error: 'bad poll id' }), { status: 400, headers: headers() });
   }
