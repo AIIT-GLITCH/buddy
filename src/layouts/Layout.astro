@@ -224,6 +224,8 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
         g.addEventListener('mouseleave', () => closeGroup(g));
         g.addEventListener('click', (e) => e.stopPropagation());
         trigger.addEventListener('click', (e) => {
+          // A real link (e.g. Join) wears .nav-trigger for styling but must navigate, not open a menu.
+          if (trigger.tagName === 'A' && trigger.getAttribute('href')) return;
           e.preventDefault();
           e.stopPropagation();
           openGroup(g);
