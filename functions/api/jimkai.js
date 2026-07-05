@@ -125,14 +125,31 @@ async function generateReply(env, body, reqId) {
   return payload;
 }
 
+// Founder dev-bypass: skip the daily cap on the REAL public endpoint so Rhet
+// can dev-test the exact user experience uncapped (the local :8092 UI isn't
+// what a user sees). Enabled by visiting /api/jimkai?setdev=<secret> once,
+// which sets a signed jk_dev cookie; strangers without it still get
+// DAILY_LIMIT. The cookie is an HMAC of a fixed marker with BROKE_GARY_SECRET
+// — unforgeable without the server env secret. Only the secret's sha256 lives
+// in code.
+const DEV_BYPASS_SHA256 = 'ab7dbfc6e9ebb88f3743697febe6501ef4631d0da7597671e26806a9044ec183';
+
+async function devCookieValid(request, secret) {
+  const c = request.headers.get('cookie') || '';
+  const raw = c.split(';').map(s => s.trim()).find(p => p.startsWith('jk_dev='));
+  if (!raw) return false;
+  return decodeURIComponent(raw.slice('jk_dev='.length)) === await sign('dev', secret);
+}
+
 export async function onRequestPost(context) {
   const { request, env } = context;
   const secret = env.BROKE_GARY_SECRET;
   if (!secret) return new Response(JSON.stringify({ ok: false, error: 'not configured' }), { status: 503, headers: headers() });
 
+  const devMode = await devCookieValid(request, secret);
   const parsed = await readCookie(request, secret);
   let used = parsed && parsed.day === dayNum() ? parsed.used : 0;
-  if (used >= DAILY_LIMIT) {
+  if (!devMode && used >= DAILY_LIMIT) {
     return new Response(JSON.stringify({ ok: false, error: `Daily limit reached (${DAILY_LIMIT} messages). Jim runs on one shared GPU box — come back tomorrow.` }),
       { status: 429, headers: headers() });
   }
@@ -153,6 +170,10 @@ export async function onRequestPost(context) {
   if (!payload.ok) {
     return new Response(JSON.stringify(payload), { status: 200, headers: headers() });
   }
+  if (devMode) {   // founder: no count, no cap
+    payload.stats.msgs_left_today = '∞ (dev)';
+    return new Response(JSON.stringify(payload), { status: 200, headers: headers() });
+  }
   used += 1;
   payload.stats.msgs_left_today = DAILY_LIMIT - used;
   return new Response(JSON.stringify(payload), { status: 200, headers: { ...headers(), 'Set-Cookie': await makeCookie(used, secret) } });
@@ -170,6 +191,18 @@ async function sha256hex(s) {
 export async function onRequestGet(context) {
   const { request, env } = context;
   const url = new URL(request.url);
+  // Founder dev-bypass enable: visit /api/jimkai?setdev=<secret> once in the
+  // browser → sets the signed jk_dev cookie → chat uncapped on this browser.
+  const setdev = url.searchParams.get('setdev');
+  if (setdev !== null) {
+    const secret = env.BROKE_GARY_SECRET;
+    if (secret && (await sha256hex(setdev)) === DEV_BYPASS_SHA256) {
+      const cookie = `jk_dev=${encodeURIComponent(await sign('dev', secret))}; Path=/; Max-Age=31536000; HttpOnly; Secure; SameSite=Lax`;
+      return new Response(JSON.stringify({ ok: true, dev: 'enabled — daily cap lifted on this browser. talk to jim all you want.' }),
+        { status: 200, headers: { ...headers(), 'Set-Cookie': cookie } });
+    }
+    return new Response(JSON.stringify({ ok: false, error: 'no' }), { status: 403, headers: headers() });
+  }
   // One-purpose export of the frozen pre-organism KV memory bank, so Jim's
   // web-era keeps can be reviewed into the organism's candidate lane. Gated
   // by a key whose only public artifact is this hash.
