@@ -110,6 +110,20 @@ import Layout from '../layouts/Layout.astro';
   const avgEl = document.getElementById('jk-avg');
   const leftEl = document.getElementById('jk-left');
   const STORE = 'jk_thread_v1';
+  // One identity across typing and calling (2026-07-06): the SAME
+  // localStorage device key the call clients use, sent as caller_key so
+  // the organism files this chat under the visitor's own person page.
+  const CALLER_KEY_STORE = 'aiit_call_caller_key';
+  function callerKey() {
+    try {
+      let k = localStorage.getItem(CALLER_KEY_STORE);
+      if (!k) {
+        k = 'web_' + crypto.randomUUID().replace(/-/g, '').slice(0, 24);
+        localStorage.setItem(CALLER_KEY_STORE, k);
+      }
+      return k;
+    } catch (e) { return null; }
+  }
   const speeds = [];
   let history = [];
   try { history = JSON.parse(localStorage.getItem(STORE) || '[]'); } catch (e) { history = []; }
@@ -223,7 +237,7 @@ import Layout from '../layouts/Layout.astro';
       const r = await fetch('/api/jimkai', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: q, history: history.slice(0, -1), req_id: reqId }),
+        body: JSON.stringify({ message: q, history: history.slice(0, -1), req_id: reqId, caller_key: callerKey() }),
       });
       const d = await r.json();
       try { localStorage.removeItem(PENDING); } catch (e) {}
