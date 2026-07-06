@@ -85,7 +85,13 @@ async function generateReply(env, body, reqId) {
       // let website visitors into the family lane. Rhet's ruling: tunnel
       // traffic is always public — so say so, deterministically.
       headers: { 'Content-Type': 'application/json', 'X-Jim-Public': '1' },
-      body: JSON.stringify({ model: 'jim-kai', messages: msgs, max_tokens: MAX_TOKENS, temperature: 0.7 }),
+      // caller_key: the page's stable device id (same one the call client
+      // uses) -> the gateway files this visitor under their OWN session +
+      // person page instead of the old shared voice_<ip> room. test:true
+      // passthrough keeps probes of the live text lane memory-honest.
+      body: JSON.stringify({ model: 'jim-kai', messages: msgs, max_tokens: MAX_TOKENS, temperature: 0.7,
+        ...(typeof body.caller_key === 'string' && /^[A-Za-z0-9_-]{2,64}$/.test(body.caller_key) ? { caller_key: body.caller_key } : {}),
+        ...(body.test === true ? { test: true } : {}) }),
       signal: AbortSignal.timeout(120000),
     });
     if (!upstream.ok) {
