@@ -7,12 +7,60 @@ import { BUDDY_IN_TRAINING } from '../lib/buddyStatus.js';
 const totalPapers = papersAll.length;
 ---
 <Layout>
-  <!-- 1. HERO — founder note and invitation into persistent Buddy. -->
+  <!-- 1. HERO — pick up the phone. The call panel owns the top slot;
+       the founder story moved to the section right below. -->
   <section id="hero" data-anim="hero-particles">
     <canvas id="hero-canvas"></canvas>
     <div class="hero-content founder-hero">
       <div class="hero-kicker">AIIT-THRESHOLD · Independent AI-safety research · Council Hill, Oklahoma</div>
-      <h1 class="hero-founder-title">AI that tells you what you need to hear.</h1>
+      <h1 class="hero-founder-title">Choose who you want to talk to.</h1>
+
+      <div class="call-panel" id="callPanel" aria-label="Start a voice call">
+        <div class="call-panel-top">
+          <h2>Start a call</h2>
+          <span>5 minutes a day · one line · voice only</span>
+        </div>
+        <div class="call-choices" id="callChoices">
+          <button class="call-choice" type="button" data-persona="jimkai" data-name="JimK.ai">
+            <span>
+              <strong class="call-name">JimK.ai <i class="call-dot"></i></strong>
+              <span class="call-hint">A true companion. Live from Council Hill.</span>
+              <span class="call-budget" id="jimBudget"></span>
+            </span>
+            <span class="call-button">Call</span>
+          </button>
+          <button class="call-choice is-soon" type="button" disabled>
+            <span>
+              <strong class="call-name">Buddy <i class="call-dot is-amber"></i></strong>
+              <span class="call-hint">Always a warm ear to listen.</span>
+              <span class="call-budget">Coming soon — he's in the shop.</span>
+            </span>
+            <span class="call-button">Soon</span>
+          </button>
+        </div>
+
+        <div class="call-screen" id="callScreen">
+          <div>
+            <div class="call-pulse" id="voiceRing">☎</div>
+            <h3 id="callName">JimK.ai</h3>
+            <p class="call-status" id="callState">Calling…</p>
+            <div class="call-transcript" id="callTranscript" aria-live="polite"></div>
+            <div class="call-time" id="timerFace">5:00</div>
+            <div class="call-time-label">Today's time left</div>
+            <div class="call-time-track"><span class="call-time-fill" id="timerFill"></span></div>
+            <button class="call-end" type="button" id="endCallBtn">End call</button>
+          </div>
+        </div>
+        <p class="call-err" id="callErr" aria-live="polite"></p>
+        <p class="call-footnote">A real voice call with a real local model — his brain and voice run on our own hardware in Council Hill. One caller at a time, like a real phone. Talk over him; he'll stop.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1.05 FOUNDER STORY — the old hero, demoted one slot. Anchors preserved. -->
+  <section id="founder-story" data-anim="plain-fade">
+    <div class="hero-content founder-hero founder-demoted">
+      <h2 class="hero-founder-title">AI that tells you what you need to hear.</h2>
 
       <div class="hero-founder-copy">
         <p>AIIT-THRESHOLD builds and studies companion AI that is measurably non-sycophantic — trained on clean, human-authored data, benchmarked in the open, and run entirely on our own hardware. Engagement-optimized AI is a documented failure mode with real casualties. We exist to build the opposite.</p>
@@ -2579,3 +2627,378 @@ const totalPapers = papersAll.length;
     color: rgba(236,227,210,0.75);
   }
 </style>
+
+<style>
+  /* ---- Call hero: the phone owns the top slot ---- */
+  #hero { min-height: auto; padding-bottom: 72px; }
+  .call-panel {
+    width: min(920px, 100%);
+    margin-top: 30px;
+    border: 1px solid rgba(212, 175, 55, 0.30);
+    border-radius: 10px;
+    background: rgba(24, 20, 16, 0.82);
+    box-shadow: 0 28px 80px rgba(0, 0, 0, 0.42);
+    backdrop-filter: blur(10px);
+    padding: 24px;
+  }
+  .call-panel-top { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 12px; }
+  .call-panel-top h2 { margin: 0; font-family: Georgia, serif; font-size: 23px; color: #ece3d2; }
+  .call-panel-top span { color: rgba(212, 175, 55, 0.75); font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; }
+  .call-choice {
+    width: 100%; min-height: 118px; margin-top: 12px;
+    border: 1px solid rgba(212, 175, 55, 0.24); border-radius: 10px;
+    background: rgba(16, 13, 10, 0.72); color: #ece3d2;
+    padding: 20px 22px; display: grid; grid-template-columns: 1fr 128px;
+    gap: 18px; align-items: center; text-align: left; cursor: pointer;
+    font: inherit; transition: border-color .18s ease, transform .18s ease, background .18s ease;
+  }
+  .call-choice:hover:not(:disabled), .call-choice:focus-visible:not(:disabled) {
+    border-color: #d4af37; background: rgba(30, 24, 18, 0.85); transform: translateY(-2px); outline: none;
+  }
+  .call-choice.is-soon { opacity: 0.55; cursor: default; }
+  .call-name { display: inline-flex; align-items: center; gap: 12px; margin-bottom: 8px; font-family: Georgia, serif; font-size: clamp(32px, 3.6vw, 44px); font-weight: 800; }
+  .call-dot { width: 10px; height: 10px; border-radius: 50%; background: #47d982; box-shadow: 0 0 16px rgba(71, 217, 130, 0.68); }
+  .call-dot.is-amber { background: #e0a526; box-shadow: 0 0 14px rgba(224, 165, 38, 0.5); }
+  .call-hint { display: block; margin: 0; color: rgba(200, 188, 168, 0.9); font-family: 'Courier New', monospace; font-size: 12.5px; line-height: 1.5; }
+  .call-budget { display: block; margin: 6px 0 0; color: rgba(160, 148, 128, 0.85); font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 0.08em; }
+  .call-button {
+    height: 56px; border-radius: 8px; display: grid; place-items: center;
+    background: #d4af37; color: #1b1209;
+    font: 900 15px/1 'Courier New', monospace; letter-spacing: 0.12em;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.18);
+  }
+  .call-choice.is-soon .call-button { background: rgba(212, 175, 55, 0.28); color: rgba(27, 18, 9, 0.8); box-shadow: none; }
+
+  .call-screen { display: none; min-height: 440px; place-items: center; text-align: center; }
+  .call-screen.is-live { display: grid; }
+  .call-panel.is-calling .call-choices,
+  .call-panel.is-calling .call-panel-top,
+  .call-panel.is-calling .call-footnote { display: none; }
+  .call-pulse {
+    position: relative; width: 108px; height: 108px; margin: 0 auto 20px;
+    border: 1px solid rgba(212, 175, 55, 0.5); border-radius: 50%;
+    display: grid; place-items: center; color: #d4af37; font-size: 36px;
+    --voice-in: 0; --voice-out: 0;
+  }
+  .call-pulse::before, .call-pulse::after { content: ""; position: absolute; inset: -10px; border-radius: inherit; pointer-events: none; }
+  .call-pulse::before {
+    border: 1px solid rgba(71, 217, 130, calc(0.14 + var(--voice-in) * 0.58));
+    transform: scale(calc(1 + var(--voice-in) * 0.16));
+    box-shadow: 0 0 calc(14px + var(--voice-in) * 34px) rgba(71, 217, 130, calc(0.08 + var(--voice-in) * 0.34));
+  }
+  .call-pulse::after {
+    inset: -18px;
+    border: 1px solid rgba(224, 165, 38, calc(0.14 + var(--voice-out) * 0.58));
+    transform: scale(calc(1 + var(--voice-out) * 0.22));
+    box-shadow: 0 0 calc(16px + var(--voice-out) * 38px) rgba(224, 165, 38, calc(0.08 + var(--voice-out) * 0.34));
+  }
+  .call-screen h3 { margin: 0; font-family: Georgia, serif; font-size: 48px; color: #ece3d2; }
+  .call-status { margin: 8px 0 12px; color: rgba(200, 188, 168, 0.9); font-size: 17px; min-height: 24px; }
+  .call-transcript { width: min(520px, 86vw); min-height: 60px; margin: 0 auto 16px; color: rgba(160, 148, 128, 0.9); font: 13px/1.5 'Courier New', monospace; }
+  .call-time { color: #ece3d2; font: 300 56px/1 'Helvetica Neue', 'Inter', 'Segoe UI', Arial, sans-serif; font-variant-numeric: tabular-nums; }
+  .call-time-label { margin: 8px 0 14px; color: rgba(160, 148, 128, 0.85); font: 800 10px/1 'Courier New', monospace; letter-spacing: 0.22em; text-transform: uppercase; }
+  .call-time-track { width: min(340px, 72vw); height: 8px; margin: 0 auto 20px; border-radius: 999px; background: rgba(0, 0, 0, 0.32); border: 1px solid rgba(212, 175, 55, 0.2); overflow: hidden; }
+  .call-time-fill { display: block; width: 100%; height: 100%; background: linear-gradient(90deg, #c4441b, #d4af37); transform-origin: left center; transform: scaleX(1); }
+  .call-end { width: 210px; height: 50px; border: 0; border-radius: 8px; background: #a9341c; color: #ece3d2; font: 800 14px/1 'Courier New', monospace; letter-spacing: 0.1em; cursor: pointer; }
+  .call-err { margin: 14px 0 0; min-height: 20px; color: #e08a6a; font-family: 'Courier New', monospace; font-size: 12.5px; }
+  .call-footnote { margin: 16px 0 0; color: rgba(160, 148, 128, 0.75); font-size: 13px; line-height: 1.6; }
+
+  /* Demoted founder story keeps the hero look, one notch down */
+  #founder-story { padding: 84px clamp(22px, 7vw, 112px) 40px; }
+  #founder-story .hero-founder-title { font-size: clamp(38px, 4.8vw, 64px); }
+
+  @media (max-width: 720px) {
+    .call-panel { padding: 16px; }
+    .call-choice { grid-template-columns: 1fr; min-height: 0; padding: 16px; gap: 12px; }
+    .call-button { width: 100%; height: 52px; }
+    .call-name { font-size: clamp(30px, 9vw, 40px); }
+    .call-screen { min-height: 400px; }
+    #founder-story { padding: 56px 22px 28px; }
+  }
+</style>
+
+<script is:inline>
+  // ---- Voice call hero: the REAL pipeline (same client as jim-call's
+  // proven call.html), pointed at the public tunnel. No token — the
+  // tunnel stamps CF-Connecting-IP and the server treats us as a public
+  // caller with a per-visitor AND per-IP daily budget.
+  (function () {
+    const CALL_HOST = "jim.aiit-threshold.com";
+    const CALLER_KEY_STORE = "aiit_call_caller_key";
+    function callerKey() {
+      let k = localStorage.getItem(CALLER_KEY_STORE);
+      if (!k) {
+        k = "web_" + crypto.randomUUID().replace(/-/g, "").slice(0, 24);
+        localStorage.setItem(CALLER_KEY_STORE, k);
+      }
+      return k;
+    }
+
+    const $ = (id) => document.getElementById(id);
+    const panel = $("callPanel"), screen = $("callScreen"), choices = $("callChoices");
+    const callName = $("callName"), callState = $("callState"), transcriptEl = $("callTranscript");
+    const endCallBtn = $("endCallBtn"), timerFace = $("timerFace"), timerFill = $("timerFill");
+    const voiceRing = $("voiceRing"), callErr = $("callErr"), jimBudget = $("jimBudget");
+    if (!panel) return;
+
+    let ws = null, audioCtx = null, sourceNode = null, processor = null, mediaStream = null;
+    let outputRate = 24000, playCursor = 0;
+    const playing = new Set();
+    let timerId = 0, secondsRemaining = 300;
+
+    // ---- budget display (best-effort) ----
+    async function refreshBudget() {
+      try {
+        const r = await fetch(`https://${CALL_HOST}/api/call_budget?caller_key=${encodeURIComponent(callerKey())}&persona=jimkai`);
+        const d = await r.json();
+        const secs = Math.max(0, Math.round(d.seconds_remaining));
+        if (secs >= 300) jimBudget.textContent = "5:00 free today";
+        else if (secs <= 0) jimBudget.textContent = "Today's minutes are used — back tomorrow";
+        else jimBudget.textContent = `${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")} left today`;
+      } catch (e) { /* display only */ }
+    }
+    refreshBudget();
+
+    // ---- audio plumbing (proven pipeline, 24kHz context matches Orpheus) ----
+    function downsample(input, inRate, outRate) {
+      if (outRate === inRate) return input;
+      const ratio = inRate / outRate, len = Math.floor(input.length / ratio);
+      const out = new Float32Array(len);
+      for (let i = 0; i < len; i++) {
+        const start = Math.floor(i * ratio), end = Math.min(Math.floor((i + 1) * ratio), input.length);
+        let sum = 0;
+        for (let j = start; j < end; j++) sum += input[j];
+        out[i] = sum / Math.max(1, end - start);
+      }
+      return out;
+    }
+    function floatToPcm16(f32) {
+      const buf = new ArrayBuffer(f32.length * 2), view = new DataView(buf);
+      for (let i = 0; i < f32.length; i++) {
+        const s = Math.max(-1, Math.min(1, f32[i]));
+        view.setInt16(i * 2, s < 0 ? s * 0x8000 : s * 0x7fff, true);
+      }
+      return buf;
+    }
+    function pcm16ToFloat32(buf) {
+      const view = new DataView(buf), samples = new Float32Array(Math.floor(buf.byteLength / 2));
+      for (let i = 0; i < samples.length; i++) samples[i] = view.getInt16(i * 2, true) / 32768;
+      return samples;
+    }
+    function rms(samples) {
+      let sum = 0;
+      for (let i = 0; i < samples.length; i++) sum += samples[i] * samples[i];
+      return Math.sqrt(sum / Math.max(1, samples.length));
+    }
+    function setVoiceActivity(input, output) {
+      voiceRing.style.setProperty("--voice-in", Math.max(0, Math.min(1, input)).toFixed(3));
+      voiceRing.style.setProperty("--voice-out", Math.max(0, Math.min(1, output)).toFixed(3));
+    }
+
+    async function startMic() {
+      if (!audioCtx) {
+        try { audioCtx = new AudioContext({ sampleRate: 24000 }); }
+        catch (e) { audioCtx = new (window.AudioContext || window.webkitAudioContext)(); }
+      }
+      if (audioCtx.state === "suspended") await audioCtx.resume();
+      playCursor = Math.max(playCursor, audioCtx.currentTime);
+      mediaStream = await navigator.mediaDevices.getUserMedia({
+        audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true, autoGainControl: true },
+      });
+      sourceNode = audioCtx.createMediaStreamSource(mediaStream);
+      processor = audioCtx.createScriptProcessor(4096, 1, 1);
+      processor.onaudioprocess = (event) => {
+        const input = event.inputBuffer.getChannelData(0);
+        setVoiceActivity(rms(input) * 6, 0);
+        if (!ws || ws.readyState !== WebSocket.OPEN) return;
+        const down = downsample(input, audioCtx.sampleRate, 16000);
+        if (down.length) ws.send(floatToPcm16(down));
+      };
+      sourceNode.connect(processor);
+      processor.connect(audioCtx.destination);
+    }
+    function stopMic() {
+      if (processor) processor.disconnect();
+      if (sourceNode) sourceNode.disconnect();
+      if (mediaStream) mediaStream.getTracks().forEach((t) => t.stop());
+      processor = sourceNode = mediaStream = null;
+    }
+    function stopPlayback() {
+      for (const node of playing) { try { node.stop(); } catch (e) {} }
+      playing.clear();
+      if (audioCtx) playCursor = audioCtx.currentTime;
+      setVoiceActivity(0, 0);
+    }
+
+    // ---- ringback: hear the phone ring until Jim picks up ----
+    const ringback = { nodes: null, timer: 0, active: false };
+    function startRingback() {
+      if (!audioCtx || ringback.active) return;
+      ringback.active = true;
+      const gain = audioCtx.createGain();
+      gain.gain.value = 0;
+      gain.connect(audioCtx.destination);
+      const o1 = audioCtx.createOscillator(), o2 = audioCtx.createOscillator();
+      o1.frequency.value = 440; o2.frequency.value = 480;
+      o1.connect(gain); o2.connect(gain);
+      o1.start(); o2.start();
+      ringback.nodes = { o1, o2, gain };
+      const burst = () => {
+        if (!ringback.active) return;
+        const t = audioCtx.currentTime;
+        gain.gain.cancelScheduledValues(t);
+        gain.gain.setValueAtTime(0, t);
+        gain.gain.linearRampToValueAtTime(0.06, t + 0.02);
+        gain.gain.setValueAtTime(0.06, t + 2.0);
+        gain.gain.linearRampToValueAtTime(0, t + 2.03);
+      };
+      burst();
+      ringback.timer = setInterval(burst, 6000);
+    }
+    function stopRingback() {
+      if (!ringback.active) return;
+      ringback.active = false;
+      clearInterval(ringback.timer);
+      const nodes = ringback.nodes || {};
+      try {
+        const t = audioCtx.currentTime;
+        nodes.gain.gain.cancelScheduledValues(t);
+        nodes.gain.gain.linearRampToValueAtTime(0, t + 0.02);
+        nodes.o1.stop(t + 0.05); nodes.o2.stop(t + 0.05);
+      } catch (e) {}
+      ringback.nodes = null;
+    }
+
+    function playPcm16(buf) {
+      if (!audioCtx) return;
+      const samples = pcm16ToFloat32(buf);
+      setVoiceActivity(0, rms(samples) * 4);
+      const audioBuffer = audioCtx.createBuffer(1, samples.length, outputRate);
+      audioBuffer.copyToChannel(samples, 0);
+      const node = audioCtx.createBufferSource();
+      node.buffer = audioBuffer;
+      node.connect(audioCtx.destination);
+      const now = audioCtx.currentTime;
+      if (playCursor <= now) playCursor = now + 0.15;
+      node.start(playCursor);
+      playCursor += samples.length / outputRate;
+      playing.add(node);
+      node.onended = () => playing.delete(node);
+    }
+
+    // ---- timer (display only — the server enforces the real budget) ----
+    function renderTimer(secs) {
+      const safe = Math.max(0, secs);
+      timerFace.textContent = `${Math.floor(safe / 60)}:${String(Math.floor(safe % 60)).padStart(2, "0")}`;
+      timerFill.style.transform = `scaleX(${safe / 300})`;
+    }
+    function startTimer(initialSeconds) {
+      window.clearInterval(timerId);
+      secondsRemaining = initialSeconds;
+      renderTimer(secondsRemaining);
+      timerId = window.setInterval(() => {
+        secondsRemaining = Math.max(0, secondsRemaining - 0.25);
+        renderTimer(secondsRemaining);
+      }, 250);
+    }
+    function stopTimer() { window.clearInterval(timerId); timerId = 0; }
+
+    // ---- call flow ----
+    const STATE_LABELS = {
+      IDLE: "Listening", LISTENING: "Listening", THINKING: "Thinking",
+      SPEAKING: "Speaking", INTERRUPTING: "Listening",
+    };
+    function setCallLabel(label) {
+      if (ringback.active && label !== "Ringing…") return;
+      callState.textContent = label;
+    }
+    function handleEvent(data) {
+      if (data.type === "hello") {
+        startTimer(data.seconds_remaining ?? 300);
+        outputRate = data.output_sample_rate || outputRate;
+        callState.textContent = "Ringing…";
+        startRingback();
+      } else if (data.type === "status") {
+        setCallLabel(STATE_LABELS[data.state] || "…");
+      } else if (data.type === "transcript") {
+        transcriptEl.textContent = "You: " + (data.text || "");
+        setCallLabel("Thinking");
+      } else if (data.type === "thinking") {
+        setCallLabel("Thinking");
+      } else if (data.type === "reply") {
+        transcriptEl.textContent += "\nJimK.ai: " + (data.text || "");
+      } else if (data.type === "speech_start") {
+        stopRingback();
+        callState.textContent = "Speaking";
+      } else if (data.type === "speech_end") {
+        callState.textContent = "Listening";
+      } else if (data.type === "interrupted") {
+        stopPlayback();
+        callState.textContent = "Listening";
+      } else if (data.type === "budget_exhausted") {
+        stopRingback();
+        callErr.textContent = "Today's 5 minutes with JimK.ai are up — come back tomorrow.";
+      } else if (data.type === "error") {
+        stopRingback();
+        callErr.textContent = data.detail || "Something went wrong.";
+      }
+    }
+
+    async function startCall() {
+      callName.textContent = "JimK.ai";
+      callState.textContent = "Calling…";
+      transcriptEl.textContent = "";
+      callErr.textContent = "";
+      panel.classList.add("is-calling");
+      screen.classList.add("is-live");
+      try {
+        await startMic();
+      } catch (e) {
+        callErr.textContent = "A call needs microphone access — your browser blocked it.";
+        panel.classList.remove("is-calling");
+        screen.classList.remove("is-live");
+        return;
+      }
+      const url = new URL("/ws/voice/jimkai", `wss://${CALL_HOST}`);
+      url.searchParams.set("caller_key", callerKey());
+      ws = new WebSocket(url.toString(), ["buddy.voice2"]);
+      ws.binaryType = "arraybuffer";
+      ws.onmessage = (event) => {
+        if (typeof event.data === "string") handleEvent(JSON.parse(event.data));
+        else playPcm16(event.data);
+      };
+      ws.onclose = (event) => {
+        stopRingback();
+        callState.textContent = event.reason || "Call ended";
+        stopMic(); stopPlayback(); stopTimer();
+        setTimeout(() => {
+          screen.classList.remove("is-live");
+          panel.classList.remove("is-calling");
+          refreshBudget();
+        }, 1600);
+      };
+      ws.onerror = () => {
+        callErr.textContent = "Couldn't reach Jim's line — try again in a moment.";
+      };
+    }
+
+    // Preheat on hover/touch: warms Jim's brain so the greeting answers fast.
+    let lastPreheat = 0;
+    function preheat() {
+      const now = Date.now();
+      if (now - lastPreheat < 60000) return;
+      lastPreheat = now;
+      fetch(`https://${CALL_HOST}/api/preheat`, { method: "POST" }).catch(() => {});
+    }
+    choices.addEventListener("mouseenter", preheat, true);
+    choices.addEventListener("touchstart", preheat, { capture: true, passive: true });
+
+    choices.addEventListener("click", (event) => {
+      const card = event.target.closest("[data-persona]");
+      if (!card || card.disabled) return;
+      startCall();
+    });
+    endCallBtn.addEventListener("click", () => { if (ws) ws.close(1000, "caller hung up"); });
+    renderTimer(300);
+  })();
+</script>
