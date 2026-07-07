@@ -29,11 +29,11 @@ const totalPapers = papersAll.length;
             </span>
             <span class="call-button">Call</span>
           </button>
-          <button class="call-choice is-soon" type="button" disabled>
+          <button class="call-choice is-soon" type="button" disabled id="buddyChoice" data-persona="buddy" data-name="Buddy">
             <span>
               <strong class="call-name">Buddy <i class="call-dot is-amber"></i></strong>
               <span class="call-hint">Always a warm ear to listen.</span>
-              <span class="call-budget">Coming soon — he's in the shop.</span>
+              <span class="call-budget" id="buddyBudget">Coming soon — he's in the shop.</span>
             </span>
             <span class="call-button">Soon</span>
           </button>
@@ -2734,6 +2734,22 @@ const totalPapers = papersAll.length;
       return k;
     }
 
+    // ---- Buddy family line unlock ----
+    // Arm a device ONCE by visiting /#famtoken=<token>; stored locally and
+    // stripped from the URL immediately. Without it this page is byte-for-
+    // byte the public experience: Buddy stays "coming soon". The token is
+    // sent as a WS subprotocol (never in the URL) and the server refuses
+    // Buddy's lane without it — this unlock is cosmetic, the gate is his.
+    const FAMILY_TOKEN_STORE = "aiit_call_family_token";
+    (function armFamily() {
+      const m = (location.hash || "").match(/famtoken=([A-Za-z0-9_-]+)/);
+      if (m) {
+        localStorage.setItem(FAMILY_TOKEN_STORE, m[1]);
+        history.replaceState(null, "", location.pathname + location.search);
+      }
+    })();
+    const familyToken = () => localStorage.getItem(FAMILY_TOKEN_STORE) || "";
+
     const $ = (id) => document.getElementById(id);
     const panel = $("callPanel"), screen = $("callScreen"), choices = $("callChoices");
     const callName = $("callName"), callState = $("callState"), transcriptEl = $("callTranscript");
@@ -2741,6 +2757,7 @@ const totalPapers = papersAll.length;
     const voiceRing = $("voiceRing"), callErr = $("callErr"), jimBudget = $("jimBudget");
     if (!panel) return;
 
+    let activePersona = "jimkai", activeName = "JimK.ai";
     let ws = null, audioCtx = null, sourceNode = null, processor = null, mediaStream = null;
     let outputRate = 24000, playCursor = 0;
     const playing = new Set();
@@ -2758,6 +2775,26 @@ const totalPapers = papersAll.length;
       } catch (e) { /* display only */ }
     }
     refreshBudget();
+
+    // Family devices: wake Buddy's card up.
+    const buddyChoice = $("buddyChoice"), buddyBudget = $("buddyBudget");
+    async function refreshBuddyBudget() {
+      try {
+        const r = await fetch(`https://${CALL_HOST}/api/call_budget?caller_key=${encodeURIComponent(callerKey())}&persona=buddy`);
+        const d = await r.json();
+        const secs = Math.max(0, Math.round(d.seconds_remaining));
+        if (secs >= 300) buddyBudget.textContent = "The family line · 5:00 today";
+        else if (secs <= 0) buddyBudget.textContent = "Today's minutes are used — back tomorrow";
+        else buddyBudget.textContent = `The family line · ${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")} left today`;
+      } catch (e) { if (buddyBudget) buddyBudget.textContent = "The family line"; }
+    }
+    if (familyToken() && buddyChoice) {
+      buddyChoice.disabled = false;
+      buddyChoice.classList.remove("is-soon");
+      const btn = buddyChoice.querySelector(".call-button");
+      if (btn) btn.textContent = "Call";
+      refreshBuddyBudget();
+    }
 
     // ---- audio plumbing (proven pipeline, 24kHz context matches Orpheus) ----
     function downsample(input, inRate, outRate) {
@@ -2926,7 +2963,7 @@ const totalPapers = papersAll.length;
       } else if (data.type === "thinking") {
         setCallLabel("Thinking");
       } else if (data.type === "reply") {
-        transcriptEl.textContent += "\nJimK.ai: " + (data.text || "");
+        transcriptEl.textContent += "\n" + activeName + ": " + (data.text || "");
       } else if (data.type === "speech_start") {
         stopRingback();
         callState.textContent = "Speaking";
@@ -2937,7 +2974,7 @@ const totalPapers = papersAll.length;
         callState.textContent = "Listening";
       } else if (data.type === "budget_exhausted") {
         stopRingback();
-        callErr.textContent = "Today's 5 minutes with JimK.ai are up — come back tomorrow.";
+        callErr.textContent = "Today's 5 minutes with " + activeName + " are up — come back tomorrow.";
       } else if (data.type === "error") {
         stopRingback();
         callErr.textContent = data.detail || "Something went wrong.";
@@ -2945,7 +2982,7 @@ const totalPapers = papersAll.length;
     }
 
     async function startCall() {
-      callName.textContent = "JimK.ai";
+      callName.textContent = activeName;
       callState.textContent = "Calling…";
       transcriptEl.textContent = "";
       callErr.textContent = "";
@@ -2959,9 +2996,11 @@ const totalPapers = papersAll.length;
         screen.classList.remove("is-live");
         return;
       }
-      const url = new URL("/ws/voice/jimkai", `wss://${CALL_HOST}`);
+      const url = new URL("/ws/voice/" + activePersona, `wss://${CALL_HOST}`);
       url.searchParams.set("caller_key", callerKey());
-      ws = new WebSocket(url.toString(), ["buddy.voice2"]);
+      const protos = ["buddy.voice2"];
+      if (activePersona === "buddy" && familyToken()) protos.push("token." + familyToken());
+      ws = new WebSocket(url.toString(), protos);
       ws.binaryType = "arraybuffer";
       ws.onmessage = (event) => {
         if (typeof event.data === "string") handleEvent(JSON.parse(event.data));
@@ -2978,7 +3017,7 @@ const totalPapers = papersAll.length;
         }, 1600);
       };
       ws.onerror = () => {
-        callErr.textContent = "Couldn't reach Jim's line — try again in a moment.";
+        callErr.textContent = "Couldn't reach the line — try again in a moment.";
       };
     }
 
@@ -2996,6 +3035,8 @@ const totalPapers = papersAll.length;
     choices.addEventListener("click", (event) => {
       const card = event.target.closest("[data-persona]");
       if (!card || card.disabled) return;
+      activePersona = card.dataset.persona || "jimkai";
+      activeName = card.dataset.name || "JimK.ai";
       startCall();
     });
     endCallBtn.addEventListener("click", () => { if (ws) ws.close(1000, "caller hung up"); });
