@@ -29,13 +29,13 @@ const totalPapers = papersAll.length;
             </span>
             <span class="call-button">Call</span>
           </button>
-          <button class="call-choice is-soon" type="button" disabled id="buddyChoice" data-persona="buddy" data-name="Buddy">
+          <button class="call-choice" type="button" id="buddyChoice" data-persona="buddy" data-name="Buddy">
             <span>
               <strong class="call-name">Buddy <i class="call-dot is-amber"></i></strong>
               <span class="call-hint">Always a warm ear to listen.</span>
-              <span class="call-budget" id="buddyBudget">Coming soon — he's in the shop.</span>
+              <span class="call-budget" id="buddyBudget"></span>
             </span>
-            <span class="call-button">Soon</span>
+            <span class="call-button">Call</span>
           </button>
         </div>
 
@@ -2776,25 +2776,21 @@ const totalPapers = papersAll.length;
     }
     refreshBudget();
 
-    // Family devices: wake Buddy's card up.
-    const buddyChoice = $("buddyChoice"), buddyBudget = $("buddyBudget");
+    // Buddy's line is LIVE for everyone (2026-07-07). Family-armed
+    // devices (famtoken) transparently ride his family lane; everyone
+    // else gets his public lane — the server decides, the button is one.
+    const buddyBudget = $("buddyBudget");
     async function refreshBuddyBudget() {
       try {
         const r = await fetch(`https://${CALL_HOST}/api/call_budget?caller_key=${encodeURIComponent(callerKey())}&persona=buddy`);
         const d = await r.json();
         const secs = Math.max(0, Math.round(d.seconds_remaining));
-        if (secs >= 300) buddyBudget.textContent = "The family line · 5:00 today";
+        if (secs >= 300) buddyBudget.textContent = "5:00 free today";
         else if (secs <= 0) buddyBudget.textContent = "Today's minutes are used — back tomorrow";
-        else buddyBudget.textContent = `The family line · ${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")} left today`;
-      } catch (e) { if (buddyBudget) buddyBudget.textContent = "The family line"; }
+        else buddyBudget.textContent = `${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")} left today`;
+      } catch (e) { /* display only */ }
     }
-    if (familyToken() && buddyChoice) {
-      buddyChoice.disabled = false;
-      buddyChoice.classList.remove("is-soon");
-      const btn = buddyChoice.querySelector(".call-button");
-      if (btn) btn.textContent = "Call";
-      refreshBuddyBudget();
-    }
+    refreshBuddyBudget();
 
     // ---- audio plumbing (proven pipeline, 24kHz context matches Orpheus) ----
     function downsample(input, inRate, outRate) {
