@@ -38,6 +38,7 @@ const totalPapers = papersAll.length;
             <span class="call-button">Call</span>
           </button>
         </div>
+        <p class="call-inapp-warn" id="callInAppWarn" hidden></p>
 
         <div class="call-screen" id="callScreen">
           <div>
@@ -2701,6 +2702,8 @@ const totalPapers = papersAll.length;
   .call-time-fill { display: block; width: 100%; height: 100%; background: linear-gradient(90deg, #c4441b, #d4af37); transform-origin: left center; transform: scaleX(1); }
   .call-end { width: 210px; height: 50px; border: 0; border-radius: 8px; background: #a9341c; color: #ece3d2; font: 800 14px/1 'Courier New', monospace; letter-spacing: 0.1em; cursor: pointer; }
   .call-err { margin: 14px 0 0; min-height: 20px; color: #e08a6a; font-family: 'Courier New', monospace; font-size: 12.5px; }
+  .call-inapp-warn { margin: 10px 0 0; padding: 10px 12px; border-radius: 8px; background: rgba(224, 138, 106, 0.12); border: 1px solid rgba(224, 138, 106, 0.35); color: #e0b48a; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.5; }
+  .call-inapp-warn[hidden] { display: none; }
   .call-footnote { margin: 16px 0 0; color: rgba(160, 148, 128, 0.75); font-size: 13px; line-height: 1.6; }
 
   /* Demoted founder story keeps the hero look, one notch down */
@@ -2750,18 +2753,59 @@ const totalPapers = papersAll.length;
     })();
     const familyToken = () => localStorage.getItem(FAMILY_TOKEN_STORE) || "";
 
+    // ---- in-app-browser detection ----
+    // Facebook/Instagram/TikTok/etc. embed a sandboxed WebView that commonly
+    // blocks or silently deadens microphone access (the host app, not this
+    // page, owns the OS mic permission) — getUserMedia() can resolve with no
+    // error yet capture nothing. This is a UX nudge only, never a security
+    // gate: UA strings are trivially spoofable. Order matters — named apps
+    // are checked before the generic WebView fallbacks, since most of them
+    // are themselves built on Android System WebView / WKWebView and would
+    // otherwise be miscategorized as "unknown".
+    function detectInAppBrowser(ua) {
+      try {
+        if (typeof ua !== "string" || ua.length === 0) return null;
+        const test = (re) => re.test(ua);
+        if (test(/\bInstagram\b/i)) return { platform: "Instagram" };
+        if (test(/\bBarcelona\b/i)) return { platform: "Threads" };
+        if (test(/FBAN\/(?:MESSENGER|Messenger)|FB_IAB\/MESSENGER|\bMessenger[\/;]/i)) return { platform: "Messenger" };
+        if (test(/FBAN\/|FBAV\/|FB_IAB\/|FB4A|FBIOS|\bFacebook\b/i)) return { platform: "Facebook" };
+        if (test(/musical_ly|BytedanceWebview|\bTikTok\b/i)) return { platform: "TikTok" };
+        if (test(/LinkedInApp/i)) return { platform: "LinkedIn" };
+        if (test(/\bSnapchat\b/i)) return { platform: "Snapchat" };
+        if (test(/\[Pinterest\/|Pinterest\/(?:iOS|Android)\b/i)) return { platform: "Pinterest" };
+        if (test(/MicroMessenger/i)) return { platform: "WeChat" };
+        if (test(/\bLine\//i)) return { platform: "Line" };
+        if (test(/\bTwitter\b/i)) return { platform: "Twitter/X" };
+        if (test(/Android/i) && test(/;\s?wv\)/i)) return { platform: "this app's" };
+        if (test(/iPhone|iPad|iPod/i) && !test(/Safari\//i)) return { platform: "this app's" };
+        return null;
+      } catch (e) { return null; }
+    }
+
     const $ = (id) => document.getElementById(id);
     const panel = $("callPanel"), screen = $("callScreen"), choices = $("callChoices");
     const callName = $("callName"), callState = $("callState"), transcriptEl = $("callTranscript");
     const endCallBtn = $("endCallBtn"), timerFace = $("timerFace"), timerFill = $("timerFill");
     const voiceRing = $("voiceRing"), callErr = $("callErr"), jimBudget = $("jimBudget");
+    const inAppWarn = $("callInAppWarn");
     if (!panel) return;
+
+    (function warnIfInApp() {
+      const hit = detectInAppBrowser(navigator.userAgent);
+      if (hit && inAppWarn) {
+        inAppWarn.textContent = `Voice calls don't work reliably in ${hit.platform} built-in browser — tap the ••• or share menu and choose "Open in Browser" for the best chance of the mic working.`;
+        inAppWarn.hidden = false;
+      }
+    })();
 
     let activePersona = "jimkai", activeName = "JimK.ai";
     let ws = null, audioCtx = null, sourceNode = null, processor = null, mediaStream = null;
     let outputRate = 24000, playCursor = 0;
     const playing = new Set();
     let timerId = 0, secondsRemaining = 300;
+    let lastVoiceAt = 0, silenceWatchdogId = 0;
+    const SILENCE_TIMEOUT_MS = 22000, VOICE_RMS_FLOOR = 0.01;
 
     // ---- budget display (best-effort) ----
     async function refreshBudget() {
@@ -2829,6 +2873,12 @@ const totalPapers = papersAll.length;
     }
 
     async function startMic() {
+      if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        const e = new Error("mediaDevices unavailable"); e.name = "NotSupportedError"; throw e;
+      }
+      if (!window.AudioContext && !window.webkitAudioContext) {
+        const e = new Error("AudioContext unavailable"); e.name = "NotSupportedError"; throw e;
+      }
       if (!audioCtx) {
         try { audioCtx = new AudioContext({ sampleRate: 24000 }); }
         catch (e) { audioCtx = new (window.AudioContext || window.webkitAudioContext)(); }
@@ -2838,11 +2888,19 @@ const totalPapers = papersAll.length;
       mediaStream = await navigator.mediaDevices.getUserMedia({
         audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true, autoGainControl: true },
       });
+      const track = mediaStream.getAudioTracks()[0];
+      if (track) {
+        track.onended = () => { callErr.textContent = "Your microphone stopped — the call has ended."; if (ws) ws.close(1000, "mic track ended"); };
+        track.onmute = () => { lastVoiceAt = 0; };
+      }
+      lastVoiceAt = Date.now();
       sourceNode = audioCtx.createMediaStreamSource(mediaStream);
       processor = audioCtx.createScriptProcessor(4096, 1, 1);
       processor.onaudioprocess = (event) => {
         const input = event.inputBuffer.getChannelData(0);
-        setVoiceActivity(rms(input) * 6, 0);
+        const level = rms(input);
+        if (level >= VOICE_RMS_FLOOR) lastVoiceAt = Date.now();
+        setVoiceActivity(level * 6, 0);
         if (!ws || ws.readyState !== WebSocket.OPEN) return;
         const down = downsample(input, audioCtx.sampleRate, 16000);
         if (down.length) ws.send(floatToPcm16(down));
@@ -2853,8 +2911,23 @@ const totalPapers = papersAll.length;
     function stopMic() {
       if (processor) processor.disconnect();
       if (sourceNode) sourceNode.disconnect();
-      if (mediaStream) mediaStream.getTracks().forEach((t) => t.stop());
+      if (mediaStream) mediaStream.getTracks().forEach((t) => { t.onended = null; t.onmute = null; t.stop(); });
       processor = sourceNode = mediaStream = null;
+    }
+    function startSilenceWatchdog() {
+      stopSilenceWatchdog();
+      lastVoiceAt = Date.now();
+      silenceWatchdogId = window.setInterval(() => {
+        if (Date.now() - lastVoiceAt > SILENCE_TIMEOUT_MS) {
+          stopSilenceWatchdog();
+          callErr.textContent = "We can't hear you — check your microphone and try again.";
+          if (ws) ws.close(1000, "no microphone audio detected");
+        }
+      }, 4000);
+    }
+    function stopSilenceWatchdog() {
+      window.clearInterval(silenceWatchdogId);
+      silenceWatchdogId = 0;
     }
     function stopPlayback() {
       for (const node of playing) { try { node.stop(); } catch (e) {} }
@@ -2977,7 +3050,16 @@ const totalPapers = papersAll.length;
       }
     }
 
+    function micErrorMessage(e) {
+      if (e && e.name === "NotSupportedError") return "Voice calls aren't supported in this browser — try Safari or Chrome.";
+      if (e && e.name === "NotFoundError") return "No microphone found on this device.";
+      if (e && e.name === "NotAllowedError") return "Microphone access is blocked — enable it in your browser/site settings and reload.";
+      if (e && e.name === "NotReadableError") return "Your microphone appears to be in use by another app.";
+      return "A call needs microphone access — your browser blocked it.";
+    }
+
     async function startCall() {
+      if (panel.classList.contains("is-calling")) return;
       callName.textContent = activeName;
       callState.textContent = "Calling…";
       transcriptEl.textContent = "";
@@ -2987,7 +3069,7 @@ const totalPapers = papersAll.length;
       try {
         await startMic();
       } catch (e) {
-        callErr.textContent = "A call needs microphone access — your browser blocked it.";
+        callErr.textContent = micErrorMessage(e);
         panel.classList.remove("is-calling");
         screen.classList.remove("is-live");
         return;
@@ -2998,13 +3080,17 @@ const totalPapers = papersAll.length;
       if (activePersona === "buddy" && familyToken()) protos.push("token." + familyToken());
       ws = new WebSocket(url.toString(), protos);
       ws.binaryType = "arraybuffer";
+      startSilenceWatchdog();
       ws.onmessage = (event) => {
         if (typeof event.data === "string") handleEvent(JSON.parse(event.data));
         else playPcm16(event.data);
       };
       ws.onclose = (event) => {
         stopRingback();
-        callState.textContent = event.reason || "Call ended";
+        stopSilenceWatchdog();
+        if (event.reason) callState.textContent = event.reason;
+        else if (event.wasClean === false || (event.code !== 1000 && event.code !== 1001)) callState.textContent = "Connection lost — check your signal";
+        else callState.textContent = "Call ended";
         stopMic(); stopPlayback(); stopTimer();
         setTimeout(() => {
           screen.classList.remove("is-live");
@@ -3036,6 +3122,16 @@ const totalPapers = papersAll.length;
       startCall();
     });
     endCallBtn.addEventListener("click", () => { if (ws) ws.close(1000, "caller hung up"); });
+
+    // ---- backgrounding: don't let a backgrounded tab quietly burn the daily budget ----
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden && panel.classList.contains("is-calling") && ws) {
+        callErr.textContent = "Call ended — you switched apps or tabs.";
+        ws.close(1000, "tab backgrounded");
+      }
+    });
+    window.addEventListener("pagehide", () => { if (ws) ws.close(1000, "page hidden"); });
+
     renderTimer(300);
   })();
 </script>
