@@ -299,39 +299,6 @@ const totalPapers = papersAll.length;
 </Layout>
 
 <script>
-  // Homepage ask form: preserve the root hero as the flyer landing surface,
-  // then hand the actual answer flow to /ask-buddy.
-  (function () {
-    const form = document.getElementById('hero-ask-form');
-    const input = document.getElementById('hero-ask-input');
-    if (!form || !input) return;
-
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-      const q = input.value.trim();
-      const target = new URL('/ask-buddy/', window.location.origin);
-      target.hash = 'ask';
-      if (q) {
-        target.searchParams.set('q', q);
-        target.searchParams.set('auto', '1');
-      }
-      window.location.href = target.pathname + target.search + target.hash;
-    });
-  })();
-
-  // Hero archive counter (only shows once user has unlocked something)
-  (function () {
-    try {
-      const raw = localStorage.getItem('trivia_collected_slugs') || '[]';
-      const set = new Set(JSON.parse(raw));
-      if (set.size > 0) {
-        const cntChip = document.getElementById('hs-archive-count');
-        const wrap    = document.getElementById('hs-archive-inline');
-        if (cntChip && wrap) { cntChip.textContent = String(set.size); wrap.hidden = false; }
-      }
-    } catch (e) {}
-  })();
-
   // Joke chip: reveal the joke widget on demand (not auto-opened)
   (function () {
     // Chip removed from the hero tabs — widget opens only via deep-link
@@ -461,50 +428,6 @@ const totalPapers = papersAll.length;
       requestAnimationFrame(draw);
     }
     requestAnimationFrame(draw);
-  })();
-
-  // Proof scatter
-  (function proof(){
-    const c = document.getElementById('proof-canvas');
-    if (!c) return;
-    const ctx = c.getContext('2d');
-    let W, H, dpr;
-    function resize(){
-      dpr = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
-      W = c.clientWidth; H = c.clientHeight;
-      c.width = W * dpr; c.height = H * dpr;
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      render();
-    }
-    window.addEventListener('resize', resize);
-    const N = 38;
-    const pts = [];
-    for (let i = 0; i < N; i++) {
-      const x = i / (N - 1);
-      const y = x * 0.706 + (Math.random() - 0.5) * 0.35;
-      pts.push({ x, y: Math.max(0, Math.min(1, y)) });
-    }
-    function render(){
-      ctx.clearRect(0, 0, W, H);
-      ctx.strokeStyle = 'rgba(64,144,208,0.2)';
-      ctx.lineWidth = 1;
-      ctx.beginPath();
-      ctx.moveTo(40, 20); ctx.lineTo(40, H - 30); ctx.lineTo(W - 20, H - 30);
-      ctx.stroke();
-      ctx.strokeStyle = 'rgba(212,160,96,0.75)';
-      ctx.lineWidth = 1.6;
-      ctx.beginPath();
-      ctx.moveTo(40, H - 30);
-      ctx.lineTo(W - 20, 20 + (H - 50) * (1 - 0.706));
-      ctx.stroke();
-      for (const p of pts) {
-        const px = 40 + p.x * (W - 60);
-        const py = (H - 30) - p.y * (H - 50);
-        ctx.fillStyle = 'rgba(64,192,176,0.85)';
-        ctx.beginPath(); ctx.arc(px, py, 3.2, 0, Math.PI * 2); ctx.fill();
-      }
-    }
-    resize();
   })();
 
   // Counters
@@ -929,9 +852,8 @@ const totalPapers = papersAll.length;
 <style>
   /* Founder hero */
   #hero {
-    min-height: 86svh;
-    min-height: 86vh;
-    padding: 104px clamp(22px, 7vw, 112px) 58px;
+    min-height: auto;
+    padding: 104px clamp(22px, 7vw, 112px) 72px;
     align-items: center;
   }
 
@@ -1129,8 +1051,8 @@ const totalPapers = papersAll.length;
 
   @media (max-width: 600px) {
     #hero {
-      padding-top: 80px !important;
-      padding-bottom: 28px !important;
+      padding-top: 80px;
+      padding-bottom: 28px;
     }
 
     .hero-kicker {
@@ -1501,84 +1423,6 @@ const totalPapers = papersAll.length;
     .hero-joke { padding: 14px 16px; }
   }
 
-  /* ── Hero primary CTA: Victim Advocate ── */
-  .hero-primary {
-    width: 100%;
-    max-width: 560px;
-    margin: 12px auto 24px;
-    padding: 22px 24px 20px;
-    text-align: center;
-    background: linear-gradient(180deg, rgba(232,88,42,0.06), rgba(10,10,18,0.55));
-    border: 1px solid rgba(232,88,42,0.32);
-    border-radius: 16px;
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    box-shadow: 0 14px 40px rgba(232,88,42,0.10);
-  }
-
-  .hp-eyebrow {
-    font-family: 'Courier New', monospace;
-    font-size: 0.76em;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #e8582a;
-    margin-bottom: 10px;
-  }
-
-  .hp-headline {
-    font-size: clamp(1.8em, 4.2vw, 3em);
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1px;
-    line-height: 1.15;
-    margin: 0 0 16px;
-  }
-
-  .hp-sub {
-    font-size: 1em;
-    color: #bbb;
-    line-height: 1.7;
-    max-width: 560px;
-    margin: 0 auto 22px;
-  }
-  .hp-sub-soft {
-    display: block;
-    color: #9a9a9a;
-    margin-top: 4px;
-    font-style: italic;
-  }
-
-  .hp-cta {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    background: #e8582a;
-    color: #fff;
-    font-weight: 700;
-    font-size: 1em;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 16px 34px;
-    border-radius: 10px;
-    text-decoration: none;
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-  .hp-cta:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 28px rgba(232,88,42,0.45);
-  }
-  .hp-arrow { transition: transform 0.2s; }
-  .hp-cta:hover .hp-arrow { transform: translateX(4px); }
-
-  .hp-meta {
-    margin-top: 14px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.72em;
-    letter-spacing: 2px;
-    color: #8c8c8c;
-    text-transform: lowercase;
-  }
-
   /* ── Hero secondary: chip row for joke / giants / ask ── */
   .hero-secondary {
     width: 100%;
@@ -1816,11 +1660,6 @@ const totalPapers = papersAll.length;
     padding-bottom: 2px;
   }
   .hp-meta-link:hover { color: #D4AF37; border-color: rgba(212,175,55,0.5); }
-  .hs-archive-inline strong {
-    color: #ffd166;
-    font-weight: 700;
-    text-shadow: 0 0 8px rgba(255,209,102,0.4);
-  }
 
   /* Section 2 — What is this */
   #what { padding: 100px 0 80px; }
@@ -2066,305 +1905,6 @@ const totalPapers = papersAll.length;
   @media (max-width: 380px) {
     .hero-primary { padding: 18px 10px 16px; }
     .hp-headline-v2 { font-size: 1.25em; }
-  }
-
-  /* ── Hero dual entry: or / Answer the Giants ── */
-  .hero-or {
-    width: 100%;
-    max-width: 640px;
-    margin: 22px auto 14px;
-    text-align: center;
-    font-family: 'Courier New', monospace;
-    font-size: 0.7em;
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    color: #8c8c8c;
-  }
-
-  .hero-giants {
-    display: block;
-    width: 100%;
-    max-width: 640px;
-    margin: 0 auto;
-    padding: 22px 26px 20px;
-    background: linear-gradient(180deg, rgba(64,192,176,0.06), rgba(10,10,18,0.55));
-    border: 1px solid rgba(64,192,176,0.28);
-    border-radius: 14px;
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    color: inherit;
-    text-decoration: none;
-    transition: transform 0.22s, border-color 0.22s, box-shadow 0.22s;
-    position: relative;
-  }
-
-  .hero-giants:hover {
-    transform: translateY(-2px);
-    border-color: rgba(64,192,176,0.55);
-    box-shadow: 0 10px 32px rgba(64,192,176,0.14);
-  }
-
-  .hg-eyebrow {
-    font-family: 'Courier New', monospace;
-    font-size: 0.72em;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: #40c0b0;
-    margin-bottom: 10px;
-  }
-
-  .hg-title {
-    font-size: clamp(1.4em, 3vw, 2em);
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1px;
-    margin-bottom: 8px;
-  }
-
-  .hg-sub {
-    font-family: 'Courier New', monospace;
-    font-size: 0.78em;
-    letter-spacing: 2px;
-    color: #9a9a9a;
-    text-transform: lowercase;
-    margin-bottom: 16px;
-  }
-
-  .hg-cta {
-    display: inline-block;
-    font-family: 'Courier New', monospace;
-    font-size: 0.82em;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #40c0b0;
-    border-bottom: 1px solid rgba(64,192,176,0.4);
-    padding-bottom: 3px;
-    font-weight: 700;
-  }
-
-  .hg-archive {
-    margin: -4px 0 14px;
-    font-family: 'Courier New', monospace;
-    font-size: 0.72em;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #9a9a9a;
-  }
-  .hg-archive strong {
-    color: #ffd166;
-    font-weight: 700;
-    text-shadow: 0 0 10px rgba(255,209,102,0.35);
-  }
-
-  /* ── Simple Why chain ── */
-  .simple-why {
-    margin-top: 48px;
-    background: rgba(212,175,55,0.04);
-    border: 1px solid rgba(212,175,55,0.15);
-    border-radius: 12px;
-    padding: 32px 28px 28px;
-  }
-
-  .sw-label {
-    font-family: 'Courier New', monospace;
-    font-size: 0.68em;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #8c8c8c;
-    margin-bottom: 20px;
-  }
-
-  .sw-chain {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .sw-row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 8px;
-    line-height: 1.5;
-  }
-
-  .sw-node {
-    font-size: 0.9em;
-    font-weight: 600;
-    padding: 3px 10px;
-    border-radius: 4px;
-    white-space: nowrap;
-  }
-
-  .sw-node.good {
-    background: rgba(74,222,128,0.1);
-    color: #4ade80;
-    border: 1px solid rgba(74,222,128,0.2);
-  }
-
-  .sw-node.bad {
-    background: rgba(248,113,113,0.1);
-    color: #f87171;
-    border: 1px solid rgba(248,113,113,0.2);
-  }
-
-  .sw-node.neutral {
-    background: rgba(255,255,255,0.05);
-    color: #ccc;
-    border: 1px solid rgba(255,255,255,0.08);
-  }
-
-  .sw-node.g {
-    background: rgba(212,175,55,0.12);
-    color: #D4AF37;
-    border: 1px solid rgba(212,175,55,0.3);
-    font-weight: 700;
-  }
-
-  .sw-node.theory {
-    background: rgba(56,189,248,0.08);
-    color: #38bdf8;
-    border: 1px solid rgba(56,189,248,0.2);
-  }
-
-  .sw-tag {
-    font-family: 'Courier New', monospace;
-    font-size: 0.68em;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    padding: 3px 10px;
-    border-radius: 20px;
-    font-weight: 700;
-    white-space: nowrap;
-  }
-
-  .sw-tag.fact {
-    background: rgba(56,189,248,0.1);
-    color: #38bdf8;
-    border: 1px solid rgba(56,189,248,0.25);
-  }
-
-  .sw-tag.same {
-    background: rgba(148,163,184,0.1);
-    color: #94a3b8;
-    border: 1px solid rgba(148,163,184,0.2);
-  }
-
-  .sw-tag.danger {
-    background: rgba(248,113,113,0.1);
-    color: #f87171;
-    border: 1px solid rgba(248,113,113,0.3);
-    font-weight: 700;
-  }
-
-  .sw-arrow {
-    color: #444;
-    font-size: 0.9em;
-    flex-shrink: 0;
-  }
-
-  .sw-eq {
-    color: #444;
-    font-size: 0.9em;
-    flex-shrink: 0;
-  }
-
-  .sw-dot {
-    color: #333;
-    font-size: 1em;
-    flex-shrink: 0;
-  }
-
-  .sw-row.same { padding-left: 4px; }
-  .sw-row.danger { border-left: 2px solid rgba(248,113,113,0.3); padding-left: 12px; margin-top: 4px; }
-
-  .sw-vibe {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin-top: 8px;
-    padding-top: 16px;
-    border-top: 1px solid rgba(212,175,55,0.1);
-  }
-
-  .sw-vibe-word {
-    font-size: 2em;
-    font-weight: 900;
-    letter-spacing: 6px;
-    color: #D4AF37;
-    text-shadow: 0 0 24px rgba(212,175,55,0.4);
-    font-family: 'Georgia', serif;
-  }
-
-  .sw-vibe-note {
-    font-size: 0.85em;
-    color: #969696;
-    font-style: italic;
-    letter-spacing: 0.5px;
-  }
-
-  @media (max-width: 600px) {
-    .simple-why { padding: 24px 18px; }
-    .sw-vibe-word { font-size: 1.5em; }
-  }
-
-  /* ── Proof explain ── */
-  .proof-explain {
-    margin-top: 56px;
-    padding-top: 40px;
-    border-top: 1px solid rgba(212,175,55,0.12);
-  }
-
-  .pe-label {
-    font-family: 'Courier New', monospace;
-    font-size: 0.68em;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #8c8c8c;
-    margin-bottom: 28px;
-  }
-
-  .pe-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
-    margin-bottom: 32px;
-  }
-
-  .pe-block {
-    background: rgba(255,255,255,0.02);
-    border: 1px solid rgba(212,175,55,0.08);
-    border-left: 3px solid rgba(212,175,55,0.35);
-    border-radius: 4px;
-    padding: 20px 20px 18px;
-  }
-
-  .pe-stat {
-    font-family: 'Courier New', monospace;
-    font-size: 1.1em;
-    font-weight: 700;
-    color: #D4AF37;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-  }
-
-  .pe-text {
-    font-size: 0.88em;
-    color: #9a9a9a;
-    line-height: 1.75;
-  }
-
-  .pe-bottom {
-    font-size: 0.92em;
-    color: #969696;
-    line-height: 1.8;
-    font-style: italic;
-    max-width: 680px;
-    padding: 0 4px;
-  }
-
-  @media (max-width: 700px) {
-    .pe-grid { grid-template-columns: 1fr; }
   }
 
   /* ── Mobile spacing scale (spec-enforced: 24/32/48/72/96) ── */
@@ -2630,8 +2170,7 @@ const totalPapers = papersAll.length;
 </style>
 
 <style>
-  /* ---- Call hero: the phone owns the top slot ---- */
-  #hero { min-height: auto; padding-bottom: 72px; }
+  /* ---- Call panel ---- */
   .call-panel {
     width: min(920px, 100%);
     margin-top: 30px;
