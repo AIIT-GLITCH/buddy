@@ -144,7 +144,7 @@
 
       Rhet Dillard Wike
       Founder & Managing Member
-      AIIT-Threshold LLC (EIN: 82-1769592)
+      AIIT-Threshold LLC (EIN: 42-1783592)
       DBA AIIT-Thresi
       PO Box 714, Haskell, OK 74436
 
