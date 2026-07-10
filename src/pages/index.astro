@@ -13,7 +13,8 @@ const totalPapers = papersAll.length;
     <canvas id="hero-canvas"></canvas>
     <div class="hero-content founder-hero">
       <div class="hero-kicker">AIIT-THRESHOLD · Independent AI-safety research · Council Hill, Oklahoma</div>
-      <h1 class="hero-founder-title">Choose who you want to talk to.</h1>
+      <h1 class="hero-founder-title">Meet JimK.ai.</h1>
+      <p class="hero-jim-sub">A private AI companion that remembers you — without being paid to keep you talking.</p>
 
       <div class="call-panel" id="callPanel" aria-label="Start a voice call">
         <div class="call-panel-top">
@@ -32,7 +33,7 @@ const totalPapers = papersAll.length;
           <button class="call-choice" type="button" id="buddyChoice" data-persona="buddy" data-name="Buddy">
             <span>
               <strong class="call-name">Buddy <i class="call-dot is-amber"></i></strong>
-              <span class="call-hint">Always a warm ear to listen.</span>
+              <span class="call-hint">Our second model — always a warm ear to listen.</span>
               <span class="call-budget" id="buddyBudget"></span>
             </span>
             <span class="call-button">Call</span>
@@ -65,13 +66,13 @@ const totalPapers = papersAll.length;
       <h2 class="hero-founder-title">AI that tells you what you need to hear.</h2>
 
       <div class="hero-founder-copy">
-        <p>AIIT-THRESHOLD builds and studies companion AI that is measurably non-sycophantic — trained on clean, human-authored data, benchmarked in the open, and run entirely on our own hardware. Engagement-optimized AI is a documented failure mode with real casualties. We exist to build the opposite.</p>
+        <p>AIIT-THRESHOLD builds and openly tests companion AI toward one goal: warmth without becoming a yes-man. We train on overwhelmingly human-authored data, benchmark in the open, and run entirely on our own hardware. Our current models still fail some of those pressure tests — and we publish the failures too. Engagement-optimized AI is a documented failure mode with real casualties. We exist to build the opposite.</p>
         <p>On May 19, 2026, we revealed Buddy — a persistent companion that carries the same visible context from day one through day 200. On June 1, 2026, we completed a hash-sealed benchmark against DeepSeek-R1 on the identical base model. <a href="/buddy-vs-r1" class="founder-proof-link" data-no-loader="true">Those results are here →</a></p>
       </div>
 
       <div class="founder-note">
         <div class="founder-note-label">A note from the founder</div>
-        <p>Hello, and thank you for looking at our website today. We're a small initiative out of Council Hill, Oklahoma, working toward one thing: a safe, non-sycophantic AI — one that tells you the truth — to offer the children and adults of this world. Thank you for supporting us, just by being here.</p>
+        <p>Hello, and thank you for looking at our website today. We're a small initiative out of Council Hill, Oklahoma, working toward one thing: a safe AI that tells you the truth instead of what you want to hear — built openly, and honest about where it still falls short. Thank you for supporting us, just by being here.</p>
         <div class="founder-note-sig">— Rhet Dillard Wike, founder</div>
       </div>
 
@@ -183,7 +184,7 @@ const totalPapers = papersAll.length;
       </p>
       <p class="wit-body">
         We measure sycophancy, we train against it, and we publish the receipts.<br>
-        <span class="wit-soft">Clean, human-authored training data. Zero engagement weight. Benchmarks in the open.</span>
+        <span class="wit-soft">Overwhelmingly human-authored training data. No engagement reward in the objective. Benchmarks in the open.</span>
       </p>
       <a href="/mission" class="wit-link">read the mission →</a>
     </div>
@@ -891,6 +892,14 @@ const totalPapers = papersAll.length;
     letter-spacing: 0;
     color: #ece3d2;
     text-shadow: 0 18px 60px rgba(0, 0, 0, 0.5);
+  }
+
+  .hero-jim-sub {
+    max-width: 640px;
+    margin: 18px 0 0;
+    font-size: clamp(17px, 2vw, 22px);
+    line-height: 1.5;
+    color: rgba(200, 188, 168, 0.94);
   }
 
   .hero-founder-copy {
