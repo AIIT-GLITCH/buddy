@@ -38,6 +38,7 @@ const totalPapers = papersAll.length;
             <span class="call-button">Call</span>
           </button>
         </div>
+        <p class="call-phone">Or call from any phone: <a href="tel:+19189184705">(918) 918-4705</a><span class="call-phone-menu">press 1 for Buddy, 2 for Jim</span></p>
         <p class="call-inapp-warn" id="callInAppWarn" hidden></p>
 
         <div class="call-screen" id="callScreen">
@@ -2244,6 +2245,11 @@ const totalPapers = papersAll.length;
   .call-inapp-warn { margin: 10px 0 0; padding: 10px 12px; border-radius: 8px; background: rgba(224, 138, 106, 0.12); border: 1px solid rgba(224, 138, 106, 0.35); color: #e0b48a; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.5; }
   .call-inapp-warn[hidden] { display: none; }
   .call-footnote { margin: 16px 0 0; color: rgba(200, 188, 168, 0.92); font-size: 13px; line-height: 1.6; }
+  .call-phone { margin: 16px 0 0; text-align: center; color: rgba(200, 188, 168, 0.92); font-size: 14px; line-height: 1.5; }
+  .call-phone a { color: #fff; font-weight: 700; text-decoration: none; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+  .call-phone a:hover { border-bottom-color: #fff; }
+  .call-phone-menu { display: block; font-size: 12px; opacity: 0.72; margin-top: 4px; }
+  .call-panel.is-calling .call-phone { display: none; }
 
   /* Demoted founder story keeps the hero look, one notch down */
   #founder-story { padding: 84px clamp(22px, 7vw, 112px) 40px; }
