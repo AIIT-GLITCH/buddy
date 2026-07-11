@@ -40,7 +40,7 @@ const pageTitle = `Paper ${parseInt(paper.num)}${paper.suffix} · ${paper.title}
 const pageDescription = coreClaim || abstract.slice(0, 200) || `${paper.title} — ${paper.tag} domain · AIIT-THRESI`;
 const tier = tierForSlug(paper.slug);
 ---
-<Layout title={pageTitle} description={pageDescription}>
+<Layout noindex title={pageTitle} description={pageDescription}>
   <div class="paper-page">
     <a class="back" href="/papers">← All Papers</a>
 

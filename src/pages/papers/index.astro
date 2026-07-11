@@ -6,7 +6,7 @@ import { tierForSlug } from '../../lib/paperTier.js';
 // build unique tag set for filters
 const tags = [...new Set(papers.map(p => p.tag))].sort();
 ---
-<Layout title={`Papers · AIIT-THRESI (${papers.length})`}>
+<Layout noindex title={`Papers · AIIT-THRESI (${papers.length})`}>
   <section style="padding-top: 120px; min-height: auto;">
     <div class="container">
       <div class="eyebrow">Your archive</div>
