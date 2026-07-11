@@ -267,6 +267,14 @@ const totalPapers = papersAll.length;
       <div class="dg-group">
         <div class="dg-group-title">Research</div>
         <div class="dg-grid">
+          <a href="/cancer" class="dg-tile">
+            <span class="dg-name">Cancer (offshoot)</span>
+            <span class="dg-line">a coherence lens on cancer — hypothesis under investigation</span>
+          </a>
+          <a href="/weather" class="dg-tile">
+            <span class="dg-name">Weather</span>
+            <span class="dg-line">coherence signals in atmospheric systems</span>
+          </a>
           <a href="/validation" class="dg-tile">
             <span class="dg-name">Validation</span>
             <span class="dg-line">measured performance and failure modes</span>

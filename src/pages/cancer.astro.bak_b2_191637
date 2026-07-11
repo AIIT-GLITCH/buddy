@@ -17,7 +17,7 @@ const papers = [
   { num: '151',  tag: 'Adjacent',          title: 'ME/CFS as Mitochondrial Coherence Collapse — PEM as J/ω Phase Transition',               file: 'PAPER_151_MECFS_MITOCHONDRIAL_COHERENCE.md' },
 ];
 ---
-<Layout noindex title="A Coherence Lens on Cancer — AIIT-THRESHOLD" description="A research offshoot: the hypothesis that some cancers can be modeled as a coherence phase transition. Provisional patent filed; under investigation, not a clinical result.">
+<Layout title="A Coherence Lens on Cancer — AIIT-THRESHOLD" description="A research offshoot: the hypothesis that some cancers can be modeled as a coherence phase transition. Provisional patent filed; under investigation, not a clinical result.">
 
   <!-- HERO -->
   <section style="padding-top: 140px;">

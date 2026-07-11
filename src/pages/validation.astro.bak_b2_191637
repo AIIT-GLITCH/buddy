@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Interlink from '../components/Interlink.astro';
 import ReturnToBuddy from '../components/ReturnToBuddy.astro';
 ---
-<Layout title="Exploratory Physiological Analysis · HRV Phase 1 — AIIT-THRESI" description="Exploratory HRV discrimination analysis for the AIIT-THRESI framework on public PhysioNet data (HRV-only AUC 0.947; record-grouped re-analysis pending). Reproducible pipeline, downloadable raw data, open methods.">
+<Layout title="Validation · HRV Phase 1 Clinical Results — AIIT-THRESI" description="First paired clinical discrimination results for the AIIT-THRESI framework. HRV-only AUC 0.947 on public PhysioNet data. Reproducible pipeline, downloadable raw data, open methods.">
 
   <!-- HERO -->
   <section style="padding-top: 140px;">
@@ -14,9 +14,6 @@ import ReturnToBuddy from '../components/ReturnToBuddy.astro';
       </h1>
       <p style="color: var(--ink-soft); font-size: 21px; max-width: 800px; line-height: 1.55; margin-bottom: 18px;">
         A single scalar feature — the <strong style="color: var(--warm);">fractal-scaling exponent of beat-to-beat intervals</strong> — separates severe heart failure from normal sinus rhythm at AUC 0.942 on public PhysioNet data. The multivariate HRV model hits <strong style="color: var(--warm);">0.947 ± 0.052</strong>, five-fold cross-validated.
-      </p>
-      <p style="color: var(--warm); font-size: 15px; max-width: 800px; line-height: 1.55; opacity: 0.92; border-left: 2px solid var(--warm); padding-left: 14px; margin-bottom: 18px;">
-        <strong>Exploratory, not validated.</strong> This uses five-fold stratified cross-validation over 82 segments from 31 records. Unless folds are grouped by record, segments from the same subject can fall in both train and test and inflate AUC through subject leakage. A record-grouped re-analysis (leave-one-record-out) is underway — treat these figures as exploratory until it lands.
       </p>
       <p style="color: var(--muted-hi); font-size: 16px; max-width: 800px; line-height: 1.55;">
         The Wike Coherence Law predicts this collapse before it's measured: as γ<sub>eff</sub> rises toward the critical threshold γ<sub>c</sub>, cross-scale phase locking fails — and fractal structure with it. This page shows the prediction matching the data.

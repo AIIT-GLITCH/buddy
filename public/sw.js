@@ -1,6 +1,6 @@
 'use strict';
 
-var VERSION = '2026-07-10.02';
+var VERSION = '2026-07-10.03';
 var STATIC_CACHE = 'aiit-static-' + VERSION;
 var PAGE_CACHE = 'aiit-pages-' + VERSION;
 var RUNTIME_CACHE = 'aiit-runtime-' + VERSION;

@@ -13,7 +13,7 @@ const sensors = [
   { tag: 'Heliospheric',   domain: 'NASA DONKI',               detail: 'CMEs, solar flares, geomagnetic storms' },
 ];
 ---
-<Layout noindex title="Weather · Multi-Sensor Coherence Prediction — AIIT-THRESI" description="Patent-filed multi-sensor coherence framework for tropical cyclone prediction. 38 seasons validated. Spearman r=0.706, p=1e-5. Raising $400K.">
+<Layout title="Weather · Multi-Sensor Coherence Prediction — AIIT-THRESI" description="Patent-filed multi-sensor coherence framework for tropical cyclone prediction. 38 seasons validated. Spearman r=0.706, p=1e-5. Raising $400K.">
 
   <!-- HERO -->
   <section style="padding-top: 140px;">

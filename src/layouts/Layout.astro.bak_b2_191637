@@ -5,14 +5,12 @@ export interface Props {
   title?: string;
   description?: string;
   image?: string;
-  noindex?: boolean;
 }
-const defaultDescription = `JimK.ai is a private, local AI companion: persistent memory, natural interruptible voice, and openly published safety testing. Built on our own hardware in Council Hill, Oklahoma.`;
+const defaultDescription = `Buddy is a coherence-native AI built on AIIT-THRESI physics. ${papersAll.length} papers. 6 laws. One mind.`;
 const {
-  title = 'JimK.ai — a private AI companion that remembers you',
+  title = 'Buddy — The Coherence Mind',
   description = defaultDescription,
   image = '/buddy-icon-512.png',
-  noindex = false,
 } = Astro.props;
 const SITE_ORIGIN = 'https://aiit-threshold.com';
 const canonical = new URL(Astro.url.pathname, SITE_ORIGIN).href;
@@ -26,7 +24,6 @@ const isHome = Astro.url.pathname === '/' || Astro.url.pathname === '';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content={description}>
-  {noindex && <meta name="robots" content="noindex, nofollow" />}
   <link rel="canonical" href={canonical}>
   <title>{title}</title>
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
