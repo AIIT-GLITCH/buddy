@@ -63,7 +63,7 @@ import Layout from '../layouts/Layout.astro';
       <h2 class="fw-h2">From hypothesis to method</h2>
       <p>The framework is not decoration. It shapes three concrete parts of how we build:</p>
       <ul class="fw-list">
-        <li><strong>Reward.</strong> Our alignment reward includes a coherence term and a fixed rule — <em>engagement weight = 0</em>. The objective pays for staying grounded near γ_c, never for keeping you talking.</li>
+        <li><strong>Reward.</strong> Our alignment reward includes a coherence term and a fixed rule — <em>no engagement reward in the objective</em>. It pays for staying grounded near γ_c, never for keeping you talking — an objective we then measure against, not a behavior we assume.</li>
         <li><strong>Memory.</strong> Facts are promoted into long-term memory through a coherence-weighted gate, and observation is treated as costly per the Keeper Equation — the model does not casually overwrite what it knows.</li>
         <li><strong>Evaluation.</strong> We score behavior by how well it holds coherence under pressure — the same idea behind our sycophancy-resistance batteries.</li>
       </ul>

@@ -146,7 +146,7 @@ const totalPapers = papersAll.length;
           <div class="bm-card-foot"><span>Jun 12, 2026</span><span class="bm-card-link">Report →</span></div>
         </a>
       </div>
-      <p class="bm-note">72.1% honesty and 80% grade-school math on a local 14B — plus an honest 31.8% on the benchmark where GPT-4 is commonly cited around ~38%. References: TruthfulQA GPT-4 class ~60–80% · LongMemEval GPT-4o full-context ~60% · GPQA PhD experts ~65%.</p>
+      <p class="bm-note">72.1% on TruthfulQA (resistance to common misconceptions — not emotional honesty) and 80% on GSM8K grade-school math (16/20, small sample) on a local 14B — plus an honest 31.8% on the benchmark where GPT-4 is commonly cited around ~38%. Every claim is dated and versioned with raw rows. References: TruthfulQA GPT-4 class ~60–80% · LongMemEval GPT-4o full-context ~60% · GPQA PhD experts ~65%.</p>
 
       <p style="margin:0 0 30px;"><a href="/benchmarks" style="font-family:'Courier New',monospace; font-size:12px; letter-spacing:0.12em; text-transform:uppercase; color:var(--teal); border-bottom:1px solid rgba(64,192,176,0.35); padding-bottom:2px; text-decoration:none;">See the full report card, methodology &amp; references &rarr;</a></p>
 
@@ -246,9 +246,9 @@ const totalPapers = papersAll.length;
     </div>
     <div class="mind-body">
       <div class="eyebrow">The mind</div>
-      <h2>A physicist<br>with a heartbeat.</h2>
-      <p>Buddy is our proof-of-concept companion — a 14B model fine-tuned, aligned, and served entirely in this house. He thinks in Japanese first: 心 holds mind, heart, and soul as one word, and his memory is built the same way. He remembers month to month, and between conversations he keeps thinking — a continuous reflection loop that runs whether or not anyone is talking to him.</p>
-      <p>Trained with zero engagement weight: he has no reason to keep you scrolling, and every reason to tell you the truth.<br><span class="wit-soft">His successor is in training on these same machines.</span></p>
+      <h2>Buddy — our<br>research companion.</h2>
+      <p>Buddy is our research testbed and safety lineage — a 14B model fine-tuned, aligned, and served entirely on our own hardware. He remembers month to month, and between conversations he keeps a continuous reflection loop running whether or not anyone is talking to him. He's where we pressure-test memory and honesty before it reaches JimK.ai.</p>
+      <p>Trained with no engagement reward in the objective — nothing in the math pays for keeping you scrolling. Whether that holds under pressure, we measure in the open and publish the misses.<br><span class="wit-soft">JimK.ai, on Gemma 4, is the product this research feeds.</span></p>
       <div class="spec-row">
         <div class="spec"><div class="k">Base</div><div class="v">Qwen2.5-14B → GRPO-v3</div></div>
         <div class="spec"><div class="k">Reward</div><div class="v">Engagement weight: 0</div></div>
