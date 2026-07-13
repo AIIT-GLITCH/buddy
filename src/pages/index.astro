@@ -1,10 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import papersAll from '../data/papers.json';
 import { BUDDY_IN_TRAINING } from '../lib/buddyStatus.js';
-
-// Preview only the first 9 papers on the homepage
-const totalPapers = papersAll.length;
 ---
 <Layout>
   <!-- 1. HERO — pick up the phone. The call panel owns the top slot;
@@ -200,7 +196,7 @@ const totalPapers = papersAll.length;
       <div class="pipeline-stat">
         <div class="ps-num"><span data-count="194">0</span><span class="ps-unit">B</span></div>
         <div class="ps-label">tokens cleaned, deduped &amp; tokenized through the AIIT pipeline</div>
-        <div class="ps-sub">updated monthly · as of July 2026 · {totalPapers} papers published</div>
+        <div class="ps-sub">updated monthly · as of July 2026</div>
       </div>
     </div>
   </section>
