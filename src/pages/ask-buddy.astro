@@ -247,19 +247,19 @@ function spriteRects(sprite) {
     </div>
   </header>
 
-  <!-- EARLY ACCESS NOTICE / BUDDY THREAD CONSOLE -->
+  <!-- BUDDY THREAD CONSOLE -->
   <span id="buddy-thread" class="bt-anchor" aria-hidden="true"></span>
   <div class="bt-notice" id="bt-notice" hidden>
     <div class="bt-notice-inner">
       <div class="bt-console-top">
         <div>
-          <div class="bt-notice-badge">Buddy Thread alpha</div>
-          <h2>Talk with persistent Buddy.</h2>
+          <div class="bt-notice-badge" id="bt-notice-badge">Buddy thread · this browser</div>
+          <h2>Talk with Buddy.</h2>
         </div>
-        <div class="bt-user-chip" id="bt-user-chip">checking login</div>
+        <div class="bt-user-chip" id="bt-user-chip">opening thread</div>
       </div>
-      <p class="bt-lede">This is not a search box. This is an early account-linked Buddy conversation with continuity, report capture, and manual memory review.</p>
-      <p>Buddy may remember context, misread context, over-connect patterns, or act strange while the thread system is being tuned.</p>
+      <p class="bt-lede" id="bt-thread-lede">No login required. This browser keeps the visible conversation and gives Buddy the recent thread when you return.</p>
+      <p>Visible conversation continuity is not the same as permanent memory. Buddy's deeper Kokoro memory is separate, and he may not reliably carry every detail beyond this visible thread.</p>
       <div class="bt-share-row">
         <button type="button" class="bt-share-btn" id="bt-share-btn">Share with a friend</button>
       </div>
@@ -280,8 +280,8 @@ function spriteRects(sprite) {
           <small>stored messages</small>
         </div>
         <div class="bt-metric">
-          <span>manual</span>
-          <small>memory review</small>
+          <span id="bt-continuity-kind">browser</span>
+          <small>visible continuity</small>
         </div>
       </div>
       <div class="bt-thread-preview" id="bt-thread-preview" hidden>
@@ -291,7 +291,6 @@ function spriteRects(sprite) {
         <div class="bt-thread-composer-slot" id="bt-thread-composer-slot" hidden></div>
       </div>
       <div class="bt-actions">
-        <a class="bt-login-btn" id="bt-login-btn" href="/api/auth/github/login?redirect=%2Fask-buddy%2F%3Fthread%3D1" hidden>Activate Buddy Thread</a>
         <button type="button" class="bt-demo-btn" id="bt-demo-btn" hidden>Preview chat window</button>
         <button type="button" class="bt-report-btn" id="bt-report-btn">Report weird behavior</button>
         <button type="button" class="bt-export-btn" id="bt-export-btn">Export thread</button>
@@ -450,6 +449,7 @@ function spriteRects(sprite) {
   const statusDot = document.getElementById('ask-status-dot');
   const statusText = document.getElementById('ask-status-text');
   const statusBlk  = document.getElementById('ask-status');
+  let showBuddyThreadNotice = null;
   let thinkingTimer = null;
   try {
     localStorage.removeItem('askbuddy_local_api');
@@ -581,7 +581,24 @@ function spriteRects(sprite) {
 
   function showReply(text) {
     stopThinking();
-    setStatus('online', 'buddy online');
+    setStatus('done', 'buddy notice');
+    if (buddyThreadEnabled) {
+      response.className = 'ask-response';
+      response.innerHTML = '';
+      for (let i = optimisticThreadMessages.length - 1; i >= 0; i -= 1) {
+        if (optimisticThreadMessages[i].role === 'user' && optimisticThreadMessages[i].pending) {
+          optimisticThreadMessages[i].pending = false;
+          break;
+        }
+      }
+      renderThreadWindow();
+      if (showBuddyThreadNotice) {
+        showBuddyThreadNotice(text, 'error');
+      } else {
+        setThreadTyping(text);
+      }
+      return;
+    }
     response.className = 'ask-response visible';
     response.textContent = text;
   }
@@ -834,6 +851,7 @@ function spriteRects(sprite) {
 		  }
 		  function noteThreadPayload(payload) {
 		    if (!payload || !payload.thread || !payload.thread.enabled) return;
+		    if (buddyThreadBrowserMode) return;
 		    if (payload.thread.saved && refreshBuddyThread) {
 		      refreshBuddyThread({ quiet: true });
 		    }
@@ -847,10 +865,47 @@ function spriteRects(sprite) {
 		  const askPage = document.querySelector('.ask-page');
 		  const originalAskParent = askInputBlock ? askInputBlock.parentNode : null;
 		  const originalAskNext = askInputBlock ? askInputBlock.nextSibling : null;
-		  let buddyThreadEnabled = false;
-		  let buddyThreadDemoMode = false;
-		  let visibleThreadMessages = [];
-		  let optimisticThreadMessages = [];
+			  let buddyThreadEnabled = false;
+			  let buddyThreadDemoMode = false;
+			  let buddyThreadBrowserMode = false;
+			  let visibleThreadMessages = [];
+			  let optimisticThreadMessages = [];
+			  const BROWSER_THREAD_STORAGE = 'buddy_thread_browser_v1';
+			  const PENDING_STORAGE = 'askbuddy_pending_requests';
+			  const pendingPollTimers = new Set();
+			  let conversationEpoch = 0;
+
+			  function loadBrowserThread() {
+			    try {
+			      const rows = JSON.parse(localStorage.getItem(BROWSER_THREAD_STORAGE) || '[]');
+			      if (!Array.isArray(rows)) return [];
+			      return rows.slice(-80).map((message) => ({
+			        role: message && message.role === 'buddy' ? 'buddy' : 'user',
+			        text: String((message && message.text) || '').slice(0, 3000),
+			        at: normalizeIso(message && message.at) || new Date().toISOString(),
+			      })).filter((message) => message.text);
+			    } catch {
+			      return [];
+			    }
+			  }
+
+			  function persistBrowserThread() {
+			    if (!buddyThreadBrowserMode) return;
+			    const rows = visibleThreadMessages.concat(optimisticThreadMessages).slice(-80).map((message) => ({
+			      role: message && message.role === 'buddy' ? 'buddy' : 'user',
+			      text: String((message && message.text) || '').slice(0, 3000),
+			      at: normalizeIso(message && message.at) || new Date().toISOString(),
+			    })).filter((message) => message.text);
+			    try { localStorage.setItem(BROWSER_THREAD_STORAGE, JSON.stringify(rows)); } catch {}
+			  }
+
+			  function clearBrowserThread() {
+			    cancelPendingWork();
+			    try {
+			      localStorage.removeItem(BROWSER_THREAD_STORAGE);
+			      localStorage.removeItem(SESSION_STORAGE);
+			    } catch {}
+			  }
 
 		  function isThreadPreviewHost() {
 		    const host = location.hostname;
@@ -931,10 +986,14 @@ function spriteRects(sprite) {
 		    }
 		    if (!rows.length) {
 		      const empty = document.createElement('div');
-		      empty.className = 'bt-thread-empty';
-		      empty.textContent = locked
-		        ? 'Sign in to activate the persistent Buddy Thread.'
-		        : 'This is the live chat window. Send a message below and Buddy will keep this account-linked thread moving.';
+			      empty.className = 'bt-thread-empty';
+			      empty.textContent = locked
+			        ? 'Sign in to activate the persistent Buddy Thread.'
+			        : buddyThreadBrowserMode
+			          ? 'Send a message below. This visible conversation will stay in this browser without a login.'
+			          : buddyThreadDemoMode
+			            ? 'Send a message below. Preview messages are not saved.'
+			            : 'Send a message below. This signed-in conversation follows your account.';
 		      threadListEl.appendChild(empty);
 		      return;
 		    }
@@ -974,14 +1033,15 @@ function spriteRects(sprite) {
 
 		  function appendThreadMessage(role, text, options = {}) {
 		    if (!buddyThreadEnabled || !text) return;
-		    optimisticThreadMessages.push({
-		      role: role === 'buddy' ? 'buddy' : 'user',
-		      text,
-		      pending: options.pending !== false,
-		      at: normalizeIso(options.at) || new Date().toISOString(),
-		    });
-		    renderThreadWindow();
-		  }
+			    optimisticThreadMessages.push({
+			      role: role === 'buddy' ? 'buddy' : 'user',
+			      text,
+			      pending: options.pending !== false && !buddyThreadBrowserMode,
+			      at: normalizeIso(options.at) || new Date().toISOString(),
+			    });
+			    persistBrowserThread();
+			    renderThreadWindow();
+			  }
 
 		  function demoBuddyAnswer(question) {
 		    const trimmed = String(question || '').trim();
@@ -1040,7 +1100,6 @@ function spriteRects(sprite) {
 		    setThreadMessage('Preview mode only. This is not logged in, not saved, and not sent to Buddy.', '');
 		  }
 
-		  const PENDING_STORAGE = 'askbuddy_pending_requests';
 	  const PENDING_POLL_MS = 3000;
 	  const PENDING_MAX_POLLS = 100;
 	  function loadPending() {
@@ -1062,6 +1121,25 @@ function spriteRects(sprite) {
 	  function removePending(requestId) {
 	    savePending(loadPending().filter(row => row.request_id !== requestId));
 	  }
+	  function cancelPendingWork() {
+	    conversationEpoch += 1;
+	    pendingPollTimers.forEach(timer => clearTimeout(timer));
+	    pendingPollTimers.clear();
+	    savePending([]);
+	    stopThinking();
+	    if (btn) {
+	      btn.disabled = false;
+	      btn.textContent = 'Ask →';
+	    }
+	  }
+	  function schedulePendingPoll(entry, attempt, epoch) {
+	    if (epoch !== conversationEpoch) return;
+	    const timer = setTimeout(() => {
+	      pendingPollTimers.delete(timer);
+	      pollPending(entry, attempt, epoch);
+	    }, PENDING_POLL_MS);
+	    pendingPollTimers.add(timer);
+	  }
 	  function recoverPending() {
 	    const now = Date.now();
 	    const rows = loadPending().filter(row => now - Number(row.ts || 0) < 5 * 60 * 1000);
@@ -1071,11 +1149,11 @@ function spriteRects(sprite) {
 	    showPending(rows[0].question || 'pending question', attempt);
 	    rows.forEach(row => {
 	      const rowAttempt = Math.floor((now - Number(row.ts || now)) / PENDING_POLL_MS);
-	      pollPending(row, rowAttempt);
+	      pollPending(row, rowAttempt, conversationEpoch);
 	    });
 	  }
-	  async function pollPending(entry, attempt) {
-	    if (!entry || !entry.request_id) return;
+	  async function pollPending(entry, attempt, epoch = conversationEpoch) {
+	    if (!entry || !entry.request_id || epoch !== conversationEpoch) return;
 	    let payload = null;
 	    try {
 		      const res = await fetch('/api/askbuddy_poll', {
@@ -1087,13 +1165,14 @@ function spriteRects(sprite) {
 		          session_id: entry.session_id,
 		          question: entry.question || '',
 		          asked_at: entry.asked_at || '',
-		          account_thread: !!entry.account_thread,
+		          account_thread: !buddyThreadBrowserMode && !!entry.account_thread,
 		        }),
 		      });
 	      payload = await res.json();
 	    } catch {
 	      payload = { ok: false, error: 'network_failed' };
 	    }
+	    if (epoch !== conversationEpoch) return;
 
 	    if (payload && payload.ok && payload.status === 'ready') {
 		      removePending(entry.request_id);
@@ -1108,7 +1187,7 @@ function spriteRects(sprite) {
 	    if (payload && payload.ok && payload.status === 'pending') {
 	      updatePendingMessage(attempt);
 	      if (attempt < PENDING_MAX_POLLS) {
-	        setTimeout(() => pollPending(entry, attempt + 1), PENDING_POLL_MS);
+	        schedulePendingPoll(entry, attempt + 1, epoch);
 	      } else {
 	        removePending(entry.request_id);
 	        showReply('buddy was holding this but it timed out. send it again whenever.');
@@ -1124,7 +1203,7 @@ function spriteRects(sprite) {
 
 	    if (attempt < PENDING_MAX_POLLS) {
 	      updatePendingMessage(attempt, payload && payload.error === 'network_failed');
-	      setTimeout(() => pollPending(entry, attempt + 1), PENDING_POLL_MS);
+	      schedulePendingPoll(entry, attempt + 1, epoch);
 	    } else {
 	      removePending(entry.request_id);
 	      showReply('buddy was holding this but it timed out. send it again whenever.');
@@ -1134,6 +1213,7 @@ function spriteRects(sprite) {
   async function ask() {
     const q = input.value.trim();
     if (!q) return;
+    const requestEpoch = conversationEpoch;
     const askedAt = new Date().toISOString();
     if (buddyThreadEnabled) {
       appendThreadMessage('user', q, { pending: !buddyThreadDemoMode, at: askedAt });
@@ -1170,6 +1250,7 @@ function spriteRects(sprite) {
           session_id: getSessionId(),
           history: turnHistory.slice(),
           thread_messages: compactThreadMessagesForBuddy(),
+          thread_mode: buddyThreadBrowserMode ? 'browser' : 'account',
           admin: getDevBypass(),
         }),
       });
@@ -1181,6 +1262,11 @@ function spriteRects(sprite) {
     const elapsed = performance.now() - t0;
     if (elapsed < minShowMs) {
       await new Promise(r => setTimeout(r, minShowMs - elapsed));
+    }
+    if (requestEpoch !== conversationEpoch) {
+      btn.disabled = false;
+      btn.textContent = 'Ask →';
+      return;
     }
 
 		    if (payload && payload.ok && payload.status === 'pending') {
@@ -1195,7 +1281,7 @@ function spriteRects(sprite) {
 	      addPending(entry);
 	      showPending(q);
 	      input.value = '';
-	      pollPending(entry, 0);
+	      pollPending(entry, 0, requestEpoch);
 		    } else if (payload && payload.ok) {
 		      pushTurn(q, payload.answer || '', {
 		        q_at: askedAt,
@@ -1219,10 +1305,9 @@ function spriteRects(sprite) {
     btn.textContent = 'Ask →';
   }
 
-  form.addEventListener('submit', (e) => { e.preventDefault(); ask(); });
+	  form.addEventListener('submit', (e) => { e.preventDefault(); ask(); });
 	  input.addEventListener('focus', () => setFlipSpeed(800));
 	  input.addEventListener('blur',  () => { if (statusBlk.dataset.state !== 'thinking') setFlipSpeed(1100); });
-	  recoverPending();
 
 	  (function hydrateInitialQuestion(){
     try {
@@ -1270,6 +1355,9 @@ function spriteRects(sprite) {
 	    const threadState = document.getElementById('bt-thread-state');
 	    const threadCount = document.getElementById('bt-thread-count');
 	    const threadMessage = document.getElementById('bt-thread-message');
+	    const threadBadge = document.getElementById('bt-notice-badge');
+	    const threadLede = document.getElementById('bt-thread-lede');
+	    const continuityKind = document.getElementById('bt-continuity-kind');
 	    const includeRecentEl = document.getElementById('bt-include-recent');
 	    const noteEl = document.getElementById('bt-report-note');
 
@@ -1302,6 +1390,7 @@ function spriteRects(sprite) {
 
 	    window.addEventListener('hashchange', handleClassicAskHash);
 	    if (handleClassicAskHash()) {
+	      recoverPending();
 	      return;
 	    }
 
@@ -1324,6 +1413,7 @@ function spriteRects(sprite) {
 	      threadMessage.dataset.kind = kind;
 	      threadMessage.hidden = !message;
 	    }
+	    showBuddyThreadNotice = setThreadMessage;
 
 	    function scrollToBuddyThreadFromHash() {
 	      if (!wantsBuddyThreadRoute()) return false;
@@ -1363,7 +1453,7 @@ function spriteRects(sprite) {
 	      const shareUrl = url.toString();
 	      const payload = {
 	        title: 'Talk to Buddy',
-	        text: "Try Buddy, AIIT-THRESHOLD's persistent chat.",
+	        text: "Try Buddy, AIIT-THRESHOLD's browser-continuous chat.",
 	        url: shareUrl,
 	      };
 	      const copyText = payload.text + '\n' + shareUrl;
@@ -1466,8 +1556,8 @@ function spriteRects(sprite) {
 	      const j = await fetchJsonWithTimeout('/api/auth/me', { credentials: 'same-origin' }, 1600);
 	      btUser = j && j.user ? j.user : null;
 	    } catch {}
-	    if (!btUser) {
-	      if (isThreadPreviewHost() && wantsThreadPreview()) {
+		    if (!btUser) {
+		      if (isThreadPreviewHost() && wantsThreadPreview()) {
 	        startThreadPreviewMode({
 	          loginBtn,
 	          demoBtn,
@@ -1476,41 +1566,47 @@ function spriteRects(sprite) {
 	          clearBtn,
 	          userChip,
 	          threadState,
-	          setThreadMessage,
-	        });
-	      } else {
-	        buddyThreadEnabled = false;
-	        buddyThreadDemoMode = false;
-	        visibleThreadMessages = [];
-	        optimisticThreadMessages = [];
-	        placeAskComposer(false);
-	        if (wantsBuddyThreadRoute()) {
-	          if (askPage) askPage.classList.add('buddy-thread-active', 'buddy-thread-locked');
-	          if (askInputBlock) askInputBlock.hidden = true;
-	          markBuddyThreadReady();
-	        }
-	        if (userChip) userChip.textContent = 'login required';
-	        if (threadState) threadState.textContent = 'locked';
-	        if (threadCount) threadCount.textContent = '0';
-	        if (loginBtn) loginBtn.hidden = false;
-	        [reportBtn, exportBtn, clearBtn].forEach((btn) => {
-	          if (btn) btn.disabled = true;
-	        });
-	        renderThreadWindow({ locked: true });
-	        scrollToBuddyThreadFromHash();
-	        setThreadMessage('Sign in with GitHub to activate persistent Buddy Thread, reports, export, and clear controls.', '');
-	        return;
-	      }
-	    } else {
-	      buddyThreadEnabled = true;
-	      buddyThreadDemoMode = false;
-	      placeAskComposer(true);
-	      if (loginBtn) loginBtn.hidden = true;
-	      if (demoBtn) demoBtn.hidden = true;
+		          setThreadMessage,
+		        });
+		      } else {
+		        buddyThreadEnabled = true;
+		        buddyThreadDemoMode = false;
+		        buddyThreadBrowserMode = true;
+		        visibleThreadMessages = loadBrowserThread();
+		        optimisticThreadMessages = [];
+		        hydrateTurnHistory(visibleThreadMessages);
+		        placeAskComposer(true);
+		        if (wantsBuddyThreadRoute()) markBuddyThreadReady();
+		        if (userChip) userChip.textContent = 'this browser';
+		        if (threadState) threadState.textContent = 'local';
+		        if (threadBadge) threadBadge.textContent = 'Buddy thread · this browser';
+		        if (threadLede) threadLede.textContent = 'No login required. This browser keeps the visible conversation and gives Buddy the recent thread when you return.';
+		        if (continuityKind) continuityKind.textContent = 'browser';
+		        if (loginBtn) loginBtn.hidden = true;
+		        if (demoBtn) demoBtn.hidden = true;
+		        if (reportBtn) reportBtn.hidden = true;
+		        [exportBtn, clearBtn].forEach((control) => {
+		          if (control) control.disabled = false;
+		        });
+		        renderThreadWindow();
+		        scrollToBuddyThreadFromHash();
+		        setThreadMessage('No login needed. This visible thread stays in this browser; Buddy’s deeper memory is separate.', 'ok');
+		      }
+		    } else {
+		      buddyThreadEnabled = true;
+		      buddyThreadDemoMode = false;
+		      buddyThreadBrowserMode = false;
+		      placeAskComposer(true);
+		      if (loginBtn) loginBtn.hidden = true;
+		      if (demoBtn) demoBtn.hidden = true;
+		      if (reportBtn) reportBtn.hidden = false;
 	      [reportBtn, exportBtn, clearBtn].forEach((btn) => {
 	        if (btn) btn.disabled = false;
 	      });
 	      if (userChip) userChip.textContent = '@' + (btUser.login || btUser.id || 'logged-in');
+	      if (threadBadge) threadBadge.textContent = 'Buddy thread · signed-in continuity';
+	      if (threadLede) threadLede.textContent = 'You are already signed in, so this visible conversation follows your account. A login is never required to start a browser-local Buddy thread.';
+	      if (continuityKind) continuityKind.textContent = 'account';
 	      renderThreadWindow();
 	      scrollToBuddyThreadFromHash();
 	    }
@@ -1538,12 +1634,15 @@ function spriteRects(sprite) {
 	      return data;
 	    }
 	    refreshBuddyThread = fetchVisibleThread;
-	    if (!buddyThreadDemoMode) {
-	      fetchVisibleThread({ quiet: true }).catch((err) => {
-	        if (threadState) threadState.textContent = 'offline';
-	        setThreadMessage(err.message, 'error');
-	      });
-	    }
+		    if (!buddyThreadDemoMode && !buddyThreadBrowserMode) {
+		      try {
+		        await fetchVisibleThread({ quiet: true });
+		      } catch (err) {
+		        if (threadState) threadState.textContent = 'offline';
+		        setThreadMessage(err.message, 'error');
+		      }
+		    }
+		    recoverPending();
 
 	    function openModal() {
 	      overlay.hidden = false;
@@ -1675,14 +1774,28 @@ function spriteRects(sprite) {
 	    const sendReportBtn = document.getElementById('bt-send-report');
 	    if (sendReportBtn) sendReportBtn.addEventListener('click', submitReport);
 
-	    if (exportBtn) {
-	      exportBtn.addEventListener('click', async () => {
+		    if (exportBtn) {
+		      exportBtn.addEventListener('click', async () => {
 	        const prev = exportBtn.textContent;
 	        exportBtn.disabled = true;
 	        exportBtn.textContent = 'Exporting...';
-	        setThreadMessage('Preparing visible thread export...', '');
-	        try {
-	          if (buddyThreadDemoMode) {
+		        setThreadMessage('Preparing visible thread export...', '');
+		        try {
+		          if (buddyThreadBrowserMode) {
+		            const messages = visibleThreadMessages.concat(optimisticThreadMessages).slice(-80);
+		            downloadJson('buddy-thread-browser-export.json', {
+		              exported_at: new Date().toISOString(),
+		              storage: 'this browser',
+		              thread: {
+		                message_count: messages.length,
+		                messages,
+		              },
+		              limits: 'This is the visible browser thread only. Buddy’s deeper memory and server interaction records are separate.',
+		            });
+		            setThreadMessage('Browser thread exported.', 'ok');
+		            return;
+		          }
+		          if (buddyThreadDemoMode) {
 	            downloadJson('buddy-thread-preview-export.json', {
 	              preview: true,
 	              exported_at: new Date().toISOString(),
@@ -1713,9 +1826,21 @@ function spriteRects(sprite) {
 	      });
 	    }
 
-	    if (clearBtn) {
-	      clearBtn.addEventListener('click', async () => {
-	        if (buddyThreadDemoMode) {
+		    if (clearBtn) {
+		      clearBtn.addEventListener('click', async () => {
+		        if (buddyThreadBrowserMode) {
+		          if (!confirm('Clear Buddy’s visible conversation from this browser and start a new one?')) return;
+		          visibleThreadMessages = [];
+		          optimisticThreadMessages = [];
+		          turnHistory.length = 0;
+		          clearBrowserThread();
+		          response.className = 'ask-response';
+		          response.innerHTML = '';
+		          renderThreadWindow();
+		          setThreadMessage('Browser thread cleared. The next message starts a new conversation.', 'ok');
+		          return;
+		        }
+		        if (buddyThreadDemoMode) {
 	          if (!confirm('Clear the preview Buddy Thread? Nothing here is saved.')) return;
 	          visibleThreadMessages = [];
 	          optimisticThreadMessages = [];
@@ -1740,8 +1865,8 @@ function spriteRects(sprite) {
 	          turnHistory.length = 0;
 	          try {
 	            localStorage.removeItem(SESSION_STORAGE);
-	            localStorage.removeItem(PENDING_STORAGE);
 	          } catch {}
+	          cancelPendingWork();
 	          const resp = document.getElementById('ask-response');
 	          if (resp) { resp.className = 'ask-response'; resp.innerHTML = ''; }
 	          setThreadMessage('Visible account thread cleared.', 'ok');

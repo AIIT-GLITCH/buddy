@@ -41,10 +41,10 @@ import Layout from '../layouts/Layout.astro';
       <div class="dp-buckets">
         <div class="dp-bucket">
           <h3>Buddy — persistent companion</h3>
-          <p>Logged-in users get a visible account thread (exportable as JSON, clearable anytime). Buddy also keeps his own Kokoro memory: if he forms and saves a memory from an interaction, it becomes part of his retrieval memory — not his weights. We don't rewrite his lived memory on demand unless safety, legal, or operational reasons require it.</p>
+          <p>No login is required: the visible conversation stays in your browser, can be exported as JSON, and can be cleared anytime. If you are already signed in, the visible thread follows that account instead. Buddy's deeper Kokoro memory is separate from this visible thread, and he may not reliably turn every interaction into a permanent memory. Anything he does retain is retrieval memory — not his weights.</p>
         </div>
         <div class="dp-bucket">
-          <h3>JimK.ai — live research preview</h3>
+          <h3>JimK.ai — browser conversation</h3>
           <p>Your thread lives in your own browser (survives refresh on your device; "new conversation" erases it). Jim can choose to keep short memories — stored on our side, shown with a visible "✎ kept a memory" marker, never silently. His kept memories inform his future conversations with all visitors, so treat the chat as public and don't share private information.</p>
         </div>
         <div class="dp-bucket">
@@ -62,8 +62,8 @@ import Layout from '../layouts/Layout.astro';
       <h2>Four kinds of data we may hold</h2>
       <div class="dp-buckets">
         <div class="dp-bucket">
-          <h3>1. Visible account thread</h3>
-          <p>Buddy's logged-in thread — visible, exportable, clearable from your account at any time.</p>
+          <h3>1. Visible conversation thread</h3>
+          <p>Buddy and Jim keep visible conversations without requiring a login. Buddy uses browser-local continuity when logged out and account continuity when already signed in; Jim uses browser continuity. Both surfaces make the visible thread clearable, and Buddy's is exportable.</p>
         </div>
         <div class="dp-bucket">
           <h3>2. Interaction records</h3>
@@ -145,8 +145,8 @@ import Layout from '../layouts/Layout.astro';
     <div class="dp-section">
       <h2>What you can do</h2>
       <ul>
-        <li><strong>Export your Buddy thread</strong> &mdash; download the stored visible account thread as JSON.</li>
-        <li><strong>Clear your threads</strong> &mdash; Buddy's from your account; JimK.ai's with the "new conversation" button (it lives in your browser).</li>
+        <li><strong>Export your Buddy thread</strong> &mdash; download the visible browser thread, or the account-linked thread used while signed in, as JSON.</li>
+        <li><strong>Clear your threads</strong> &mdash; Buddy's with "Clear thread" and JimK.ai's with "new conversation." Logged-out Buddy threads and Jim threads live in that browser; a signed-in Buddy thread follows the account.</li>
         <li><strong>Request account deletion</strong> &mdash; email <a href="mailto:reports@aiitcorp.com" style="color: var(--amber);">reports@aiitcorp.com</a> and we will remove account-linked records we can identify and control, subject to the limits above.</li>
         <li><strong>Report weird behavior</strong> &mdash; from any of our models. Reports are review material only.</li>
       </ul>

@@ -162,6 +162,7 @@ export async function onRequestPost(context) {
     a_at: normalizedIso(t && t.a_at),
   })).filter(t => t.q && t.a);
   const clientThreadMessages = compactThreadMessages(body.thread_messages, 24);
+  const wantsBrowserThread = body.thread_mode === 'browser';
   const adminToken = String(body.admin || request.headers.get('x-dev-bypass') || '').trim();
   const isAdmin = !!env.DEV_BYPASS && adminToken === env.DEV_BYPASS;
   if (!question) {
@@ -169,7 +170,7 @@ export async function onRequestPost(context) {
   }
 
   const loggedInUser = await getLoggedInUser(request, env);
-  const accountThread = !!(loggedInUser && (loggedInUser.login || loggedInUser.id));
+  const accountThread = !wantsBrowserThread && !!(loggedInUser && (loggedInUser.login || loggedInUser.id));
   const sessionId = accountThread ? await getBuddyThreadSessionId(env, loggedInUser, 'primary') : browserSessionId;
   let storedThreadMessages = [];
   if (accountThread) {
