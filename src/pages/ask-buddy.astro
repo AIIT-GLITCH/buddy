@@ -259,7 +259,7 @@ function spriteRects(sprite) {
         <div class="bt-user-chip" id="bt-user-chip">opening thread</div>
       </div>
       <p class="bt-lede" id="bt-thread-lede">No login required. This browser keeps the visible conversation and gives Buddy the recent thread when you return.</p>
-      <p>Browser continuity is not the same as permanent memory. Buddy's deeper Kokoro memory is separate, and he may not reliably carry every detail beyond this visible thread.</p>
+      <p>Visible conversation continuity is not the same as permanent memory. Buddy's deeper Kokoro memory is separate, and he may not reliably carry every detail beyond this visible thread.</p>
       <div class="bt-share-row">
         <button type="button" class="bt-share-btn" id="bt-share-btn">Share with a friend</button>
       </div>
@@ -449,6 +449,7 @@ function spriteRects(sprite) {
   const statusDot = document.getElementById('ask-status-dot');
   const statusText = document.getElementById('ask-status-text');
   const statusBlk  = document.getElementById('ask-status');
+  let showBuddyThreadNotice = null;
   let thinkingTimer = null;
   try {
     localStorage.removeItem('askbuddy_local_api');
@@ -590,7 +591,12 @@ function spriteRects(sprite) {
           break;
         }
       }
-      appendThreadMessage('buddy', text, { pending: false });
+      renderThreadWindow();
+      if (showBuddyThreadNotice) {
+        showBuddyThreadNotice(text, 'error');
+      } else {
+        setThreadTyping(text);
+      }
       return;
     }
     response.className = 'ask-response visible';
@@ -983,7 +989,11 @@ function spriteRects(sprite) {
 			      empty.className = 'bt-thread-empty';
 			      empty.textContent = locked
 			        ? 'Sign in to activate the persistent Buddy Thread.'
-			        : 'Send a message below. This visible conversation will stay in this browser without a login.';
+			        : buddyThreadBrowserMode
+			          ? 'Send a message below. This visible conversation will stay in this browser without a login.'
+			          : buddyThreadDemoMode
+			            ? 'Send a message below. Preview messages are not saved.'
+			            : 'Send a message below. This signed-in conversation follows your account.';
 		      threadListEl.appendChild(empty);
 		      return;
 		    }
@@ -1380,6 +1390,7 @@ function spriteRects(sprite) {
 
 	    window.addEventListener('hashchange', handleClassicAskHash);
 	    if (handleClassicAskHash()) {
+	      recoverPending();
 	      return;
 	    }
 
@@ -1402,6 +1413,7 @@ function spriteRects(sprite) {
 	      threadMessage.dataset.kind = kind;
 	      threadMessage.hidden = !message;
 	    }
+	    showBuddyThreadNotice = setThreadMessage;
 
 	    function scrollToBuddyThreadFromHash() {
 	      if (!wantsBuddyThreadRoute()) return false;
