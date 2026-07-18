@@ -36,6 +36,10 @@ import { BUDDY_IN_TRAINING } from '../lib/buddyStatus.js';
           </button>
         </div>
         <p class="call-phone">Or call from any phone: <a href="tel:+19189184705">(918) 918-4705</a><span class="call-phone-menu">press 1 for Jim, 2 for Buddy</span></p>
+        <p class="call-text-status">
+          <strong>Calls work now.</strong> Text registration is in progress; replies are not live yet.
+          <a href="/text/">How texting will work →</a>
+        </p>
         <p class="call-inapp-warn" id="callInAppWarn" hidden></p>
 
         <div class="call-screen" id="callScreen">
@@ -2246,7 +2250,12 @@ import { BUDDY_IN_TRAINING } from '../lib/buddyStatus.js';
   .call-phone a { color: #fff; font-weight: 700; text-decoration: none; border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
   .call-phone a:hover { border-bottom-color: #fff; }
   .call-phone-menu { display: block; font-size: 12px; opacity: 0.72; margin-top: 4px; }
-  .call-panel.is-calling .call-phone { display: none; }
+  .call-text-status { margin: 10px 0 0; text-align: center; color: rgba(160, 148, 128, 0.9); font: 11px/1.6 'Courier New', monospace; letter-spacing: 0.04em; }
+  .call-text-status strong { color: rgba(236, 227, 210, 0.95); }
+  .call-text-status a { color: #d4af37; text-decoration: none; border-bottom: 1px solid rgba(212, 175, 55, 0.35); }
+  .call-text-status a:hover { border-bottom-color: #d4af37; }
+  .call-panel.is-calling .call-phone,
+  .call-panel.is-calling .call-text-status { display: none; }
 
   /* Demoted founder story keeps the hero look, one notch down */
   #founder-story { padding: 84px clamp(22px, 7vw, 112px) 40px; }
