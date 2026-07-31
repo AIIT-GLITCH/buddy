@@ -3,28 +3,24 @@ import Layout from '../layouts/Layout.astro';
 ---
 <Layout title="ProofDesk Intake — Next Steps" description="Submit your evidence materials for AnchorForge ProofDesk intake. Learn what to send, how to package it, turnaround windows, and what happens next.">
 
-<section style="padding-top: 180px; min-height: 80vh;">
-  <div class="container narrow" style="max-width: 760px; margin: 0 auto; padding: 0 5vw;">
-
-    <!-- SHARED HERO -->
+<section class="pd-page">
+  <div class="container narrow pd-wrap">
     <div class="eyebrow">ProofDesk Intake</div>
-    <h1 class="pd-h1">Your ProofDesk run<br>has started.</h1>
+    <h1 class="pd-h1">Your ProofDesk run<br />has started.</h1>
     <p class="pd-sub">Now send the folder. We'll turn the mess into a sealed review packet another human can trust and inspect.</p>
 
     <div class="pd-cta-row">
-      <a href="mailto:ProofDeskService@aiitcorp.com?subject=ProofDesk+Intake" class="btn-buy">Email your evidence →</a>
+      <a href="mailto:ProofDeskService@aiitcorp.com?subject=ProofDesk%20Intake" class="btn-buy">Email your evidence →</a>
       <a href="#what-to-send" class="pd-link">What should I send? ↓</a>
     </div>
 
     <div class="pd-email-block">
-      <p>Send to: <strong id="pd-email" style="color: var(--amber); cursor: pointer; user-select: all;">ProofDeskService@aiitcorp.com</strong> <button onclick="navigator.clipboard.writeText('ProofDeskService@aiitcorp.com');this.textContent='copied!';setTimeout(()=>this.textContent='copy',2000)" style="background:rgba(167,139,250,0.2);border:1px solid rgba(167,139,250,0.3);color:#a78bfa;padding:4px 12px;border-radius:4px;font-size:0.75rem;cursor:pointer;margin-left:8px;">copy</button></p>
+      <p>Send to: <strong id="pd-email">ProofDeskService@aiitcorp.com</strong> <button id="pd-copy-email" type="button">copy</button></p>
       <p class="pd-note">Use the same email address you used at checkout if possible. If not, include your payment email in the message.</p>
     </div>
 
-    <!-- TIER-SPECIFIC SECTION -->
     <div id="tier-content"></div>
 
-    <!-- SHARED: WHAT TO SEND -->
     <div id="what-to-send" class="pd-layer">
       <div class="eyebrow">Accepted materials</div>
       <p class="pd-lead">Send the mess. Do not spend six hours making it pretty first. ProofDesk exists because evidence usually arrives messy.</p>
@@ -56,7 +52,6 @@ import Layout from '../layouts/Layout.astro';
       </div>
     </div>
 
-    <!-- SHARED: LARGE FILES -->
     <div class="pd-layer">
       <div class="eyebrow">How to send large files</div>
       <div class="pd-cards-3">
@@ -67,7 +62,6 @@ import Layout from '../layouts/Layout.astro';
       <p class="pd-note">Recommended intake size: under 10GB. Larger packets accepted by coordination.</p>
     </div>
 
-    <!-- SHARED: WHAT YOU RECEIVE -->
     <div class="pd-layer">
       <div class="eyebrow">Your final packet</div>
       <div class="pd-outputs">
@@ -83,7 +77,6 @@ import Layout from '../layouts/Layout.astro';
       </div>
     </div>
 
-    <!-- SHARED: BOUNDARIES -->
     <div class="pd-layer">
       <div class="eyebrow">Important boundaries</div>
       <div class="pd-boundary">
@@ -94,7 +87,6 @@ import Layout from '../layouts/Layout.astro';
       </div>
     </div>
 
-    <!-- SHARED: PRIVACY -->
     <div class="pd-layer">
       <div class="eyebrow">Privacy and retention</div>
       <div class="pd-privacy">
@@ -104,29 +96,43 @@ import Layout from '../layouts/Layout.astro';
       </div>
     </div>
 
-    <!-- FINAL CTA -->
     <div class="pd-final">
-      <h2>Bring the folder.<br>Leave with receipts.</h2>
-      <a href="mailto:ProofDeskService@aiitcorp.com?subject=ProofDesk+Intake" class="btn-buy">Email ProofDesk Intake →</a>
-      <p class="pd-note" style="margin-top: 24px;">Questions? <a href="mailto:ProofDeskService@aiitcorp.com" style="color: var(--amber);">ProofDeskService@aiitcorp.com</a></p>
+      <h2>Bring the folder.<br />Leave with receipts.</h2>
+      <a href="mailto:ProofDeskService@aiitcorp.com?subject=ProofDesk%20Intake" class="btn-buy">Email ProofDesk Intake →</a>
+      <p class="pd-note pd-final-note">Questions? <a href="mailto:ProofDeskService@aiitcorp.com">ProofDeskService@aiitcorp.com</a></p>
     </div>
-
   </div>
 </section>
 
 <script is:inline>
 (function() {
-  const params = new URLSearchParams(window.location.search);
-  const tier = params.get('tier') || 'generic';
-  const el = document.getElementById('tier-content');
+  var ADDRESS = 'ProofDeskService@aiitcorp.com';
+  function mailto(subject) {
+    return 'mailto:' + ADDRESS + '?subject=' + encodeURIComponent(subject);
+  }
+
+  var copyBtn = document.getElementById('pd-copy-email');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', function () {
+      if (!navigator.clipboard) return;
+      navigator.clipboard.writeText(ADDRESS).then(function () {
+        copyBtn.textContent = 'copied!';
+        setTimeout(function () { copyBtn.textContent = 'copy'; }, 2000);
+      });
+    });
+  }
+
+  var params = new URLSearchParams(window.location.search);
+  var tier = params.get('tier') || 'generic';
+  var el = document.getElementById('tier-content');
   if (!el) return;
 
-  const tiers = {
+  var tiers = {
     starter: {
       badge: 'Starter Proof Seal',
       title: 'Starter Proof Seal intake',
       promise: 'Small folder. Fast seal. Clean receipts.',
-      subject: 'ProofDesk+Intake+Starter',
+      subject: 'ProofDesk Intake - Starter',
       cta: 'Send your Starter folder →',
       cards: [
         { heading: 'What to send', body: '<p>Send one folder or ZIP containing the source materials you want indexed and sealed.</p><p>Include a short note answering:</p><ul><li>What is this packet for?</li><li>Who needs to review it?</li><li>Is there a deadline?</li><li>Is there anything we should treat as especially important?</li></ul>' },
@@ -139,7 +145,7 @@ import Layout from '../layouts/Layout.astro';
       badge: 'Founder Review Packet',
       title: 'Founder Review Packet intake',
       promise: 'Your launch claims, client evidence, or investor packet becomes review-ready.',
-      subject: 'ProofDesk+Intake+Founder',
+      subject: 'ProofDesk Intake - Founder',
       cta: 'Send your Founder packet →',
       cards: [
         { heading: 'What to send', body: '<p>Send the folder plus a short list of the claims you need supported.</p><p>Include:</p><ul><li>Top 3–10 claims you need backed</li><li>Target reviewer: investor / client / partner / agency / internal</li><li>Deadline</li><li>Weakest or most disputed claim</li></ul>' },
@@ -152,7 +158,7 @@ import Layout from '../layouts/Layout.astro';
       badge: 'Patent / AI Evidence Binder',
       title: 'Patent / AI Evidence Binder intake',
       promise: 'Your invention timeline and AI-assisted research become a structured evidence binder.',
-      subject: 'ProofDesk+Intake+Binder',
+      subject: 'ProofDesk Intake - Binder',
       cta: 'Send your Binder materials →',
       extraBoundary: 'ProofDesk does not file patents or provide legal advice. The binder is for attorney/expert review.',
       cards: [
@@ -166,7 +172,7 @@ import Layout from '../layouts/Layout.astro';
       badge: 'Emergency ProofDesk Run',
       title: 'Emergency ProofDesk intake',
       promise: 'Priority proof operations for urgent review.',
-      subject: 'ProofDesk+Intake+EMERGENCY',
+      subject: 'ProofDesk Intake - Emergency',
       cta: 'Send Emergency intake →',
       extraInstructions: '<div class="pd-emergency-warn">Pause edits if possible. Preserve originals. Send what exists now.</div><div class="pd-emergency-box"><strong>Do not:</strong><ul><li>Reorganize for hours</li><li>Overwrite originals</li><li>Keep editing screenshots</li></ul><p>Send the raw folder and a plain-English explanation.</p></div>',
       cards: [
@@ -178,266 +184,84 @@ import Layout from '../layouts/Layout.astro';
     },
   };
 
-  const t = tiers[tier];
+  var t = tiers[tier];
   if (!t) {
-    el.innerHTML = '<div class="pd-layer"><div class="pd-fallback"><div class="eyebrow">Which tier?</div><p>Not sure which tier you purchased? Email <a href="mailto:ProofDeskService@aiitcorp.com" style="color:var(--amber);">ProofDeskService@aiitcorp.com</a> with your payment receipt and project name.</p><div class="pd-cards-3"><a href="?tier=starter" class="pd-card-sm"><h3>Starter</h3><p>$149 — Small folder, fast seal</p></a><a href="?tier=founder" class="pd-card-sm"><h3>Founder</h3><p>$499 — Claims + review packet</p></a><a href="?tier=binder" class="pd-card-sm"><h3>Binder</h3><p>$999 — Patent / AI evidence</p></a><a href="?tier=emergency" class="pd-card-sm"><h3>Emergency</h3><p>$1,999 — 24-hour priority</p></a></div></div></div>';
+    el.innerHTML = '<div class="pd-layer"><div class="pd-fallback"><div class="eyebrow">Which tier?</div><p>Not sure which tier you purchased? Email <a href="' + mailto('ProofDesk Intake') + '" style="color:var(--amber);">ProofDeskService@aiitcorp.com</a> with your payment receipt and project name.</p><div class="pd-cards-3"><a href="?tier=starter" class="pd-card-sm"><h3>Starter</h3><p>$149 — Small folder, fast seal</p></a><a href="?tier=founder" class="pd-card-sm"><h3>Founder</h3><p>$499 — Claims + review packet</p></a><a href="?tier=binder" class="pd-card-sm"><h3>Binder</h3><p>$999 — Patent / AI evidence</p></a><a href="?tier=emergency" class="pd-card-sm"><h3>Emergency</h3><p>$1,999 — 24-hour priority</p></a></div></div></div>';
     return;
   }
 
-  let html = '<div class="pd-layer">';
+  var html = '<div class="pd-layer">';
   html += '<div class="pd-tier-badge">' + t.badge + '</div>';
   html += '<h2 class="pd-tier-title">' + t.title + '</h2>';
   html += '<p class="pd-tier-promise">' + t.promise + '</p>';
-
   if (t.extraInstructions) html += t.extraInstructions;
-
   html += '<div class="pd-card-grid">';
   for (var i = 0; i < t.cards.length; i++) {
     var c = t.cards[i];
     html += '<div class="pd-icard"><h3>' + c.heading + '</h3>' + c.body + '</div>';
   }
   html += '</div>';
-
-  if (t.extraBoundary) {
-    html += '<div class="pd-boundary" style="margin-top:24px;"><p>' + t.extraBoundary + '</p></div>';
-  }
-
-  html += '<div style="margin-top:32px;"><a href="mailto:ProofDeskService@aiitcorp.com?subject=' + t.subject + '" target="_blank" rel="noopener" class="btn-buy">' + t.cta + '</a></div>';
+  if (t.extraBoundary) html += '<div class="pd-boundary pd-tier-boundary"><p>' + t.extraBoundary + '</p></div>';
+  html += '<div class="pd-tier-cta"><a href="' + mailto(t.subject) + '" class="btn-buy">' + t.cta + '</a></div>';
   html += '</div>';
-
   el.innerHTML = html;
 })();
 </script>
 
 <style>
-  .pd-h1 {
-    font-size: clamp(2.2rem, 5.5vw, 4rem);
-    margin-bottom: 16px;
-    line-height: 1.1;
-  }
-
-  .pd-sub {
-    color: var(--slate, #8A9AB5);
-    font-size: clamp(1rem, 2.5vw, 1.15rem);
-    line-height: 1.8;
-    margin-bottom: 32px;
-    max-width: 600px;
-  }
-
-  .pd-cta-row {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    flex-wrap: wrap;
-    margin-bottom: 16px;
-  }
-
-  .pd-link {
-    color: var(--amber, #D4AF37);
-    text-decoration: none;
-    font-family: 'Courier New', monospace;
-    font-size: 0.9rem;
-    border-bottom: 1px solid rgba(212, 164, 55, 0.3);
-    padding-bottom: 2px;
-  }
-
-  .pd-note {
-    color: var(--slate, #8A9AB5);
-    font-size: 0.8rem;
-    line-height: 1.6;
-    margin-top: 12px;
-  }
-
+  .pd-page { padding-top: 180px; min-height: 80vh; }
+  .pd-wrap { max-width: 760px; margin: 0 auto; padding: 0 5vw; }
+  .pd-h1 { font-size: clamp(2.2rem, 5.5vw, 4rem); margin-bottom: 16px; line-height: 1.1; }
+  .pd-sub { color: var(--slate, #8A9AB5); font-size: clamp(1rem, 2.5vw, 1.15rem); line-height: 1.8; margin-bottom: 32px; max-width: 600px; }
+  .pd-cta-row { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; margin-bottom: 16px; }
+  .pd-link, .pd-final a:not(.btn-buy) { color: var(--amber, #D4AF37); text-decoration: none; border-bottom: 1px solid rgba(212,164,55,.3); padding-bottom: 2px; }
+  .pd-link { font-family: 'Courier New', monospace; font-size: .9rem; }
+  .pd-email-block { margin-top: 12px; color: var(--slate, #8A9AB5); font-size: .9rem; }
+  #pd-email { color: var(--amber, #D4AF37); cursor: pointer; user-select: all; }
+  #pd-copy-email { background: rgba(167,139,250,.2); border: 1px solid rgba(167,139,250,.3); color: #a78bfa; padding: 4px 12px; border-radius: 4px; font-size: .75rem; cursor: pointer; margin-left: 8px; }
+  .pd-note { color: var(--slate, #8A9AB5); font-size: .8rem; line-height: 1.6; margin-top: 12px; }
   .pd-layer { margin-top: 64px; }
-  .pd-lead { color: var(--slate, #8A9AB5); font-size: 0.95rem; line-height: 1.7; margin-bottom: 16px; }
-
-  /* Tier-specific styles */
-  .pd-tier-badge {
-    display: inline-block;
-    font-family: 'Courier New', monospace;
-    font-size: 0.75rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 4px 14px;
-    border-radius: 4px;
-    background: rgba(167, 139, 250, 0.15);
-    color: #a78bfa;
-    margin-bottom: 16px;
-  }
-
-  .pd-tier-title {
-    font-size: clamp(1.4rem, 3.5vw, 2rem);
-    margin-bottom: 8px;
-    line-height: 1.2;
-  }
-
-  .pd-tier-promise {
-    color: var(--amber, #D4AF37);
-    font-family: 'Courier New', monospace;
-    font-size: 0.95rem;
-    margin-bottom: 24px;
-  }
-
-  .pd-tier-section {
-    margin-top: 24px;
-  }
-
-  .pd-tier-section p { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.6; margin-bottom: 8px; }
-  .pd-tier-section ul { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.8; padding-left: 20px; }
-  .pd-tier-section ol { color: var(--slate, #8A9AB5); font-size: 0.9rem; line-height: 1.8; padding-left: 20px; }
-  .pd-tier-section li { margin-bottom: 4px; }
-
-  .pd-card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 16px;
-    margin-top: 24px;
-  }
-
-  .pd-icard {
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(212, 164, 55, 0.15);
-    border-radius: 10px;
-    padding: 24px;
-  }
-
-  .pd-icard h3 {
-    color: var(--amber, #D4AF37);
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 12px;
-  }
-
-  .pd-icard p {
-    color: var(--slate, #8A9AB5);
-    font-size: 0.9rem;
-    line-height: 1.6;
-    margin-bottom: 10px;
-  }
-
+  .pd-lead { color: var(--slate, #8A9AB5); font-size: .95rem; line-height: 1.7; margin-bottom: 16px; }
+  .pd-tier-badge { display: inline-block; font-family: 'Courier New', monospace; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; padding: 4px 14px; border-radius: 4px; background: rgba(167,139,250,.15); color: #a78bfa; margin-bottom: 16px; }
+  .pd-tier-title { font-size: clamp(1.4rem, 3.5vw, 2rem); margin-bottom: 8px; line-height: 1.2; }
+  .pd-tier-promise { color: var(--amber, #D4AF37); font-family: 'Courier New', monospace; font-size: .95rem; margin-bottom: 24px; }
+  .pd-card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 24px; }
+  .pd-icard, .pd-card-sm, .pd-privacy { background: rgba(255,255,255,.02); border: 1px solid rgba(212,164,55,.15); border-radius: 10px; }
+  .pd-icard { padding: 24px; }
+  .pd-icard h3 { color: var(--amber, #D4AF37); font-size: 1rem; font-weight: 600; margin-bottom: 12px; }
+  .pd-icard p, .pd-icard ul, .pd-icard ol, .pd-card-sm p, .pd-boundary p, .pd-privacy p { color: var(--slate, #8A9AB5); font-size: .88rem; line-height: 1.7; }
+  .pd-icard p { margin-bottom: 10px; }
   .pd-icard p:last-child { margin-bottom: 0; }
-
-  .pd-icard ul, .pd-icard ol {
-    color: var(--slate, #8A9AB5);
-    font-size: 0.88rem;
-    line-height: 1.7;
-    padding-left: 20px;
-    margin: 0;
-  }
-
+  .pd-icard ul, .pd-icard ol { padding-left: 20px; margin: 0; }
   .pd-icard li { margin-bottom: 4px; }
-
-  .pd-turnaround-single {
-    font-family: 'Courier New', monospace;
-    font-size: 1.1rem;
-    color: var(--amber, #D4AF37);
-    font-weight: 700;
-  }
-
-  .pd-emergency-warn {
-    background: rgba(220, 60, 60, 0.12);
-    border-left: 3px solid #dc3c3c;
-    padding: 16px 20px;
-    color: #ff8888;
-    font-weight: 600;
-    font-size: 0.95rem;
-    margin-bottom: 16px;
-    border-radius: 0 8px 8px 0;
-  }
-
-  .pd-emergency-box {
-    background: rgba(220, 60, 60, 0.08);
-    border: 1px solid rgba(220, 60, 60, 0.2);
-    border-radius: 8px;
-    padding: 20px;
-    margin-top: 16px;
-  }
-
+  .pd-tier-cta { margin-top: 32px; }
+  .pd-tier-boundary { margin-top: 24px; }
+  .pd-emergency-warn { background: rgba(220,60,60,.12); border-left: 3px solid #dc3c3c; padding: 16px 20px; color: #ff8888; font-weight: 600; font-size: .95rem; margin-bottom: 16px; border-radius: 0 8px 8px 0; }
+  .pd-emergency-box { background: rgba(220,60,60,.08); border: 1px solid rgba(220,60,60,.2); border-radius: 8px; padding: 20px; margin-top: 16px; }
   .pd-emergency-box strong { color: #ff8888; }
   .pd-emergency-box ul { color: var(--slate, #8A9AB5); padding-left: 20px; }
-  .pd-emergency-box p { color: var(--slate, #8A9AB5); margin-top: 12px; font-size: 0.9rem; }
-
-  /* Shared components */
-  .pd-cards-3 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 12px;
-    margin-top: 16px;
-  }
-
-  .pd-card-sm {
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(212, 164, 55, 0.12);
-    border-radius: 8px;
-    padding: 16px;
-    text-decoration: none;
-  }
-
-  .pd-card-sm h3 { color: var(--cream, #E8E0D4); font-size: 0.95rem; margin-bottom: 4px; }
-  .pd-card-sm p { color: var(--slate, #8A9AB5); font-size: 0.8rem; line-height: 1.5; }
-
-  .pd-two-col {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
-  }
-
-  @media (max-width: 600px) { .pd-two-col { grid-template-columns: 1fr; } }
-
-  .pd-two-col h4 {
-    color: var(--amber, #D4AF37);
-    font-size: 0.85rem;
-    font-family: 'Courier New', monospace;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 12px;
-  }
-
+  .pd-cards-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-top: 16px; }
+  .pd-card-sm { padding: 16px; text-decoration: none; }
+  .pd-card-sm h3 { color: var(--cream, #E8E0D4); font-size: .95rem; margin-bottom: 4px; }
+  .pd-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  .pd-two-col h4 { color: var(--amber, #D4AF37); font-size: .85rem; font-family: 'Courier New', monospace; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 12px; }
   .pd-checklist { list-style: none; padding: 0; }
-  .pd-checklist li { padding: 3px 0; color: var(--slate, #8A9AB5); font-size: 0.83rem; border-bottom: 1px solid rgba(255,255,255,0.03); }
+  .pd-checklist li { padding: 3px 0; color: var(--slate, #8A9AB5); font-size: .83rem; border-bottom: 1px solid rgba(255,255,255,.03); }
   .pd-context li { font-style: italic; padding: 5px 0; }
-
   .pd-outputs { display: flex; flex-direction: column; gap: 6px; margin-top: 16px; }
-
-  .pd-output {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 8px 16px;
-    border-bottom: 1px solid rgba(255,255,255,0.04);
-    gap: 16px;
-  }
-
-  .pd-output strong { color: var(--amber, #D4AF37); font-family: 'Courier New', monospace; font-size: 0.83rem; flex-shrink: 0; }
-  .pd-output span { color: var(--slate, #8A9AB5); font-size: 0.78rem; text-align: right; }
-
-  .pd-boundary {
-    padding: 24px;
-    border-left: 3px solid rgba(212, 164, 55, 0.4);
-    background: rgba(212, 164, 55, 0.04);
-    border-radius: 0 8px 8px 0;
-  }
-
-  .pd-boundary p { color: var(--slate, #8A9AB5); font-size: 0.85rem; line-height: 1.7; margin-bottom: 12px; }
-  .pd-boundary p:last-child { margin-bottom: 0; }
-  .pd-boundary strong { color: var(--cream, #E8E0D4); }
-
-  .pd-privacy {
-    padding: 20px;
-    background: rgba(255,255,255,0.02);
-    border: 1px solid rgba(212,164,55,0.08);
-    border-radius: 8px;
-  }
-
-  .pd-privacy p { color: var(--slate, #8A9AB5); font-size: 0.85rem; line-height: 1.7; margin-bottom: 12px; }
-  .pd-privacy p:last-child { margin-bottom: 0; }
-  .pd-privacy strong { color: var(--cream, #E8E0D4); }
-
+  .pd-output { display: flex; justify-content: space-between; align-items: baseline; padding: 8px 16px; border-bottom: 1px solid rgba(255,255,255,.04); gap: 16px; }
+  .pd-output strong { color: var(--amber, #D4AF37); font-family: 'Courier New', monospace; font-size: .83rem; flex-shrink: 0; }
+  .pd-output span { color: var(--slate, #8A9AB5); font-size: .78rem; text-align: right; }
+  .pd-boundary { padding: 24px; border-left: 3px solid rgba(212,164,55,.4); background: rgba(212,164,55,.04); border-radius: 0 8px 8px 0; }
+  .pd-boundary p, .pd-privacy p { margin-bottom: 12px; }
+  .pd-boundary p:last-child, .pd-privacy p:last-child { margin-bottom: 0; }
+  .pd-boundary strong, .pd-privacy strong { color: var(--cream, #E8E0D4); }
+  .pd-privacy { padding: 20px; }
   .pd-final { margin-top: 64px; padding-bottom: 80px; text-align: center; }
   .pd-final h2 { font-size: clamp(1.4rem, 3.5vw, 2rem); margin-bottom: 24px; line-height: 1.2; }
-
-  .pd-fallback { margin-top: 16px; }
-  .pd-fallback p { color: var(--slate, #8A9AB5); font-size: 0.95rem; line-height: 1.7; margin-bottom: 24px; }
+  .pd-final-note { margin-top: 24px; }
+  .pd-fallback p { color: var(--slate, #8A9AB5); font-size: .95rem; line-height: 1.7; margin-bottom: 24px; }
+  @media (max-width: 600px) { .pd-two-col { grid-template-columns: 1fr; } .pd-output { flex-direction: column; align-items: flex-start; } .pd-output span { text-align: left; } }
 </style>
 
 </Layout>
